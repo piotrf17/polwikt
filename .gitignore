@@ -1,0 +1,17 @@
+# dumps, page stores, pipeline outputs — never in the repo
+data/
+*.sqlite
+*.sqlite-*
+*.pb
+*.pb.zst
+*.jsonl
+stats.json
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
