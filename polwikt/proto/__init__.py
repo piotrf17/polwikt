@@ -1,1 +1,70 @@
-"""Generated protobuf modules and corpus I/O helpers (R7)."""
+"""Generated protobuf modules and corpus I/O helpers (R7).
+
+`proto/polwikt.proto` is the contract; the sketch in REQUIREMENTS.md section 7 is not.
+Regenerate with `make proto` (or `uv run python -m grpc_tools.protoc ...`) and commit
+the result — CI fails if the generated files drift.
+"""
+
+from polwikt.proto.polwikt_pb2 import (
+    Animacy,
+    Aspect,
+    Case,
+    Corpus,
+    Degree,
+    Descendant,
+    EntryRef,
+    EtymologyGroup,
+    EtymologyLink,
+    Example,
+    Form,
+    FormOf,
+    Gender,
+    GrammaticalTags,
+    LinkSpan,
+    Mood,
+    NonFinite,
+    Number,
+    Person,
+    Pos,
+    PosEntry,
+    Pronunciation,
+    Relation,
+    Sense,
+    Tag,
+    TemplateCall,
+    Tense,
+    Voice,
+    Word,
+)
+
+__all__ = [
+    "Animacy",
+    "Aspect",
+    "Case",
+    "Corpus",
+    "Degree",
+    "Descendant",
+    "EntryRef",
+    "EtymologyGroup",
+    "EtymologyLink",
+    "Example",
+    "Form",
+    "FormOf",
+    "Gender",
+    "GrammaticalTags",
+    "LinkSpan",
+    "Mood",
+    "NonFinite",
+    "Number",
+    "Person",
+    "Pos",
+    "PosEntry",
+    "Pronunciation",
+    "Relation",
+    "Sense",
+    "Tag",
+    "TemplateCall",
+    "Tense",
+    "Voice",
+    "Word",
+]

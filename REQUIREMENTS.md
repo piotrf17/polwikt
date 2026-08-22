@@ -3,7 +3,8 @@
 Extract Polish lexical data from the **English** Wiktionary dump into a structured,
 machine-readable corpus stored as Google Protocol Buffers.
 
-Status: **M0 complete** — skeleton and tooling in place (see `PLAN.md`).
+Status: **M1 complete** — schema and corpus I/O in place (see `PLAN.md`).
+`proto/polwikt.proto` is now the schema contract; section 7 below is the rationale.
 Reference implementation to study:
 [`tatuylonen/wiktextract`](https://github.com/tatuylonen/wiktextract) and its engine
 [`tatuylonen/wikitextprocessor`](https://github.com/tatuylonen/wikitextprocessor).

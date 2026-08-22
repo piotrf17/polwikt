@@ -9,7 +9,8 @@ pronunciation, etymology, and lexical relations.
 - **`PLAN.md`** — implementation milestones M0–M14.
 - **`CLAUDE.md`** — dev setup and the invariants not to break.
 
-Status: **M0** — skeleton and tooling. No pipeline code yet.
+Status: **M1** — protobuf schema (`proto/polwikt.proto`) and corpus I/O. The pipeline
+passes themselves start at M2.
 
 ## Quick start
 
