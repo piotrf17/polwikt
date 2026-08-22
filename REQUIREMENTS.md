@@ -49,6 +49,10 @@ Reference implementation to study:
   is an optional convenience subcommand, never implicit.
 - **R2.1** Verify the dump against the published `*-sha1sums.txt` before use; refuse to
   proceed on mismatch unless `--no-verify`.
+  - **Send a descriptive `User-Agent`.** `dumps.wikimedia.org` answers **403** to requests
+    without one — verified. Use `polwikt/<version> (<contact>)` per Wikimedia's UA policy.
+  - Prefer `lbzcat` over `bzcat` for decompression when present (`wikitextprocessor`
+    auto-detects it); fall back to Python's `bz2` module otherwise.
 - **R2.1a — One pinned dump for development.** The project pins a single dump date, held
   in `polwikt.toml` as `[dump].date` + `[dump].sha1`, and every dev run, golden test and
   `stats.json` comparison uses it. Tracking `latest` would make R8.3's regression diff
@@ -463,6 +467,19 @@ message Form {
 
 ## 9. Performance & operational requirements
 
+**Dev machine (measured 2026-08-22):** 2 cores, 5 GB RAM (~4 GB usable), project dir on
+an 800 GB share with 63 GB free — but `/` has only **6.8 GB** free. The targets below are
+written for a normal 8-core workstation; on this box expect roughly 4× the P3 wall clock
+and `--jobs 2`. Two operational consequences that are *not* optional:
+- **Everything large stays inside the project share.** `data/`, the page store, shard
+  output — and also `TMPDIR`/`SQLITE_TMPDIR`, which SQLite and decompression otherwise
+  point at `/tmp` on the 6.8 GB root filesystem. A P1 run that spills to `/tmp` will fill
+  the root fs.
+- **Memory, not cores, is the binding constraint here.** With ~4 GB usable, the R9.3
+  per-worker budget is what keeps `--jobs 2` viable; a regression there stops the run
+  outright rather than just slowing it.
+
+
 - **R9.1** P1 (full dump scan) target: ≤ 60 min single-threaded on a laptop-class SSD;
   it runs once per dump.
 - **R9.2** P3 (extraction over the Polish subset) target: ≤ 20 min on 8 cores, so the
@@ -471,8 +488,10 @@ message Form {
   memory at any point.
 - **R9.4** Resumable: each pass checkpoints; interrupting and re-running skips completed
   work.
-- **R9.5** Disk budget documented (dump + page store + subset + output); target total
-  ≤ 100 GB.
+- **R9.5** Disk budget documented (dump + page store + subset + output). Target total
+  ≤ 60 GB, to fit the 63 GB available on the project share. The pinned dump itself is
+  ~1.5 GB compressed (`enwiktionary-20260801-pages-articles.xml.bz2`), and R2.4 forbids
+  ever holding it decompressed on disk.
 
 ---
 
