@@ -1,11 +1,15 @@
-# dumps, page stores, pipeline outputs — never in the repo
-data/
+# dumps, page stores, pipeline outputs — never in the repo.
+# Root-anchored: polwikt/data/ holds committed config tables (R10.5).
+/data/
 *.sqlite
 *.sqlite-*
 *.pb
 *.pb.zst
 *.jsonl
 stats.json
+
+# ...but golden fixtures and their expectations are the test suite (R8.1)
+!tests/golden/**
 
 # python
 .venv/

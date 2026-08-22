@@ -3,7 +3,8 @@
 Extract Polish lexical data from the **English** Wiktionary dump into a structured,
 machine-readable corpus stored as Google Protocol Buffers.
 
-Status: **draft requirements** (no code yet). Reference implementation to study:
+Status: **M0 complete** — skeleton and tooling in place (see `PLAN.md`).
+Reference implementation to study:
 [`tatuylonen/wiktextract`](https://github.com/tatuylonen/wiktextract) and its engine
 [`tatuylonen/wikitextprocessor`](https://github.com/tatuylonen/wikitextprocessor).
 
@@ -49,7 +50,7 @@ Status: **draft requirements** (no code yet). Reference implementation to study:
 - **R2.1** Verify the dump against the published `*-sha1sums.txt` before use; refuse to
   proceed on mismatch unless `--no-verify`.
 - **R2.1a — One pinned dump for development.** The project pins a single dump date, held
-  in `polwikt.toml` as `dump_date` + `dump_sha1`, and every dev run, golden test and
+  in `polwikt.toml` as `[dump].date` + `[dump].sha1`, and every dev run, golden test and
   `stats.json` comparison uses it. Tracking `latest` would make R8.3's regression diff
   meaningless — a count change could be our bug or a month of Wiktionary edits, and we
   could not tell which. The pin is set to the newest complete dump at first fetch and
@@ -480,10 +481,15 @@ message Form {
 - **R10.1** Python ≥ 3.11 (3.13 available locally). Type-annotated; `mypy --strict` on
   the pipeline package.
 - **R10.2** Dependencies kept minimal and pinned: `wikitextprocessor`, `lupa` (Lua),
-  `protobuf`, `zstandard`, `click`/`argparse` for CLI, `pytest`. Because
-  wikitextprocessor and wiktextract move together, pin exact versions and document the
-  upgrade procedure. `wiktextract` itself is a **dev/test-only** dependency (the
-  cross-check oracle of §12.1), never imported by the pipeline at runtime.
+  `protobuf`, `zstandard`, `click` for the CLI, `pytest`/`mypy`/`ruff` for dev.
+  `wiktextract` is a **dev/test-only** dependency (the cross-check oracle of §12.1),
+  never imported by the pipeline at runtime.
+  - **`wikitextprocessor` and `wiktextract` are installed from git at exact commit SHAs,
+    not from PyPI.** Their published releases (0.4.96 / 1.99.7) are years stale and expose
+    the old pickle `cache_file` API; the SQLite `Wtp(db_path=…)` + `process_dump()` design
+    this spec assumes exists only on git main. The two move in lockstep, so an upgrade
+    bumps both SHAs in one commit, re-locks, and re-runs the golden suite.
+  - Dependency resolution is `uv` with a committed `uv.lock`; CI installs `--locked`.
 - **R10.3** CLI shape:
   ```
   polwikt scan     --dump enwiktionary-*.xml.bz2 --db pages.sqlite

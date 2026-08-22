@@ -11,21 +11,31 @@ messages when code implements or changes one.
 
 Not a git repo yet — `git init` first if you're about to commit.
 
+Toolchain is **`uv`** — this box has no `pip`, no `ensurepip`, and no `make`:
+
 ```bash
-python3 -m venv .venv && . .venv/bin/activate      # Python ≥ 3.11 (3.13 local)
-pip install -e '.[dev]'                            # deps pinned in pyproject.toml
-make proto                                         # regenerate polwikt/proto/*_pb2.py
-pytest                                             # must pass without a dump present
+uv sync --extra dev                              # .venv from uv.lock, Python >= 3.11
+uv run ruff check . && uv run ruff format --check .
+uv run mypy                                      # --strict, configured in pyproject
+uv run pytest                                    # must pass without a dump present
+uv run polwikt --help
 ```
 
-- **No system `protoc` required.** Protobuf codegen goes through `grpcio-tools`
-  (`python -m grpc_tools.protoc`), driven by `make proto`.
+`make venv|lint|typecheck|test|check|proto` wrap the same commands for anyone who has
+`make`; nothing depends on it.
+
+- **Upstream is git-pinned, not PyPI.** `wikitextprocessor` and `wiktextract` are
+  installed from GitHub at exact commit SHAs. Their PyPI releases (0.4.96 / 1.99.7) are
+  years stale: the published `wikitextprocessor` still has the pickle `cache_file` API and
+  imports the removed `pkg_resources`, while this project is built on the SQLite
+  `Wtp(db_path=...)` + `process_dump()` design that exists only on git main. Upgrading
+  means bumping **both** SHAs together and re-running `uv lock` — they break in lockstep.
+- **No system `protoc` required.** Codegen goes through `grpcio-tools`
+  (`uv run python -m grpc_tools.protoc`), wrapped by `make proto`.
 - **Generated `*_pb2.py` / `*_pb2.pyi` are committed**, so consumers need no toolchain.
-  CI re-runs `make proto` and fails if the tree is dirty — regenerate and commit whenever
-  you touch `proto/polwikt.proto`.
-- Pinned deps: `wikitextprocessor`, `lupa`, `protobuf`, `zstandard`, `click`, plus dev
-  `pytest`, `mypy`, `ruff`. `wiktextract` is **dev-only** — it is the cross-check oracle
-  (§12.1), never imported by pipeline code.
+  CI regenerates and fails if the tree is dirty — regenerate and commit whenever you touch
+  `proto/polwikt.proto`.
+- `uv.lock` is committed; CI runs `uv sync --locked` and fails if it drifts.
 - Dumps and pipeline outputs are large: keep them **out of the repo** (`data/`, gitignored).
   Scratch files go in the session scratchpad dir, not `/tmp`, not the project.
 

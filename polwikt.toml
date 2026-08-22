@@ -1,0 +1,21 @@
+# polwikt pipeline configuration.
+# Wiktionary convention tables (POS headings, labels, sections, template policy) live in
+# polwikt/data/*.toml; this file holds the dump pin and top-level scope knobs (R10.5).
+
+[dump]
+# The single pinned dump used by every dev run, golden test and stats comparison (R2.1a).
+# Filled in at M2 on the first fetch; moving the pin is its own commit, reviewed
+# alongside the stats.json diff it produces.
+date = ""        # e.g. "20260801" -> enwiktionary-20260801-pages-articles.xml.bz2
+sha1 = ""        # from the dump's published *-sha1sums.txt
+url_base = "https://dumps.wikimedia.org/enwiktionary/"
+
+[extract]
+# L2 language headings to extract. Old Polish (zlw-opl) is a separate L2 section and is
+# deliberately out of scope (REQUIREMENTS.md §12.5); adding it is a one-line change here.
+languages = ["Polish"]
+
+# Sense labels that cause a sense to be dropped, cascading sense -> entry -> page, with
+# every drop counted in stats.json (R6.6a-c). Middle Polish is not a separate section;
+# en.wiktionary marks it with {{lb|pl|Middle Polish}} inside modern Polish entries.
+drop_labels = ["Middle Polish"]

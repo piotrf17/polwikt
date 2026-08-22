@@ -1,0 +1,29 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync --extra dev --locked   # fails if uv.lock is out of date
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy
+      - run: uv run pytest
+      # Generated protobuf modules are committed; regenerating must be a no-op.
+      - name: proto codegen is up to date
+        shell: bash
+        run: |
+          if compgen -G 'proto/*.proto' > /dev/null; then
+            uv run python -m grpc_tools.protoc -Iproto \
+              --python_out=polwikt/proto --pyi_out=polwikt/proto proto/*.proto
+            git diff --exit-code
+          else
+            echo "no .proto files yet (M1)"
+          fi

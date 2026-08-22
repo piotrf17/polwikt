@@ -25,14 +25,16 @@ M0 skeleton ─┬─ M1 proto ────────────────�
 *No dump needed. Half a day.*
 
 - `git init`; `pyproject.toml` with pinned deps and `[dev]` extra (R10.2); `.gitignore`
-  excluding `data/`, `.venv/`, `*.sqlite`, `*.pb.zst`.
+  excluding `data/`, `.venv/`, `*.sqlite`, `*.pb.zst`. Toolchain is `uv` with a committed
+  `uv.lock`; upstream deps git-pinned by commit SHA.
 - Package layout per R10.4, each subpackage an importable stub.
-- `Makefile`: `proto`, `lint`, `typecheck`, `test`, `run`.
+- `Makefile` wrapping `uv run` for `proto`, `lint`, `format`, `typecheck`, `test`.
 - CI: `ruff check` + `ruff format --check` + `mypy --strict` + `pytest`, and a
   `make proto && git diff --exit-code` step (CLAUDE.md codegen rule).
 - `polwikt.toml` with the dump pin placeholder and empty config tables (R10.5).
 
-**Exit:** `make lint typecheck test` green on an empty package. CI runs on push.
+**Exit:** `ruff check` + `ruff format --check` + `mypy --strict` + `pytest` all green.
+CI runs on push.
 
 ---
 
