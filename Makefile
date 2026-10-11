@@ -1,32 +1,36 @@
-# Convenience wrapper. `uv` is the actual toolchain — every target below is a one-line
-# `uv run`, so nothing here is required (and `make` need not be installed).
-.PHONY: help venv proto lint format typecheck test check clean
+# Entry points for dev work. Every target runs through uv against uv.lock, so `make`
+# and CI execute exactly the same commands.
 
-help:
-	@grep -E '^[a-z-]+:.*?## ' $(MAKEFILE_LIST) | sed 's/:.*## /\t/'
+UV ?= uv
+RUN := $(UV) run --locked
 
-venv: ## Create .venv and install the package with dev extras
-	uv sync --extra dev
+.PHONY: help sync lint fmt typecheck test check lock clean
 
-proto: ## Regenerate protobuf modules (commit the result; CI checks it is clean)
-	uv run python -m grpc_tools.protoc -Iproto \
-		--python_out=polwikt/proto --pyi_out=polwikt/proto proto/*.proto
+help:  ## List targets
+	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-10s %s\n", $$1, $$2}'
 
-lint: ## ruff check + format check
-	uv run ruff check .
-	uv run ruff format --check .
+sync:  ## Create/refresh .venv from uv.lock (incl. dev tools)
+	$(UV) sync --locked
 
-format: ## Apply ruff formatting and safe fixes
-	uv run ruff check --fix .
-	uv run ruff format .
+lint:  ## ruff lint + format check
+	$(RUN) ruff check .
+	$(RUN) ruff format --check .
 
-typecheck: ## mypy --strict
-	uv run mypy
+fmt:  ## Apply ruff fixes and formatting
+	$(RUN) ruff check --fix .
+	$(RUN) ruff format .
 
-test: ## pytest (never requires a dump)
-	uv run pytest
+typecheck:  ## mypy --strict
+	$(RUN) mypy
 
-check: lint typecheck test ## Everything CI runs
+test:  ## pytest (never needs a dump)
+	$(RUN) pytest
 
-clean:
-	rm -rf .mypy_cache .ruff_cache .pytest_cache
+check: lint typecheck test  ## Everything CI runs
+
+lock:  ## Re-resolve uv.lock after editing pyproject.toml
+	$(UV) lock
+
+clean:  ## Remove caches (keeps .venv and data/)
+	rm -rf .mypy_cache .pytest_cache .ruff_cache
+	find . -name __pycache__ -not -path './.venv/*' -prune -exec rm -rf {} +

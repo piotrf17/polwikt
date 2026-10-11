@@ -1,1 +1,1 @@
-"""Polish-specific extraction: senses, paradigms, pronunciation, etymology (R6)."""
+"""Polish-specific extraction: wikitext sections to protobuf messages (§5, §6)."""

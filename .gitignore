@@ -1,21 +1,14 @@
-# dumps, page stores, pipeline outputs — never in the repo.
-# Root-anchored: polwikt/data/ holds committed config tables (R10.5).
+# Dumps, page stores and pipeline outputs: large, never committed (CLAUDE.md).
 /data/
 *.sqlite
 *.sqlite-*
-*.pb
 *.pb.zst
-*.jsonl
-stats.json
-
-# ...but golden fixtures and their expectations are the test suite (R8.1)
 !tests/golden/**
 
-# python
-.venv/
+# Tooling
+/.venv/
 __pycache__/
-*.py[cod]
-*.egg-info/
 .mypy_cache/
-.ruff_cache/
 .pytest_cache/
+.ruff_cache/
+/dist/

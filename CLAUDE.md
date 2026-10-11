@@ -9,30 +9,31 @@ messages when code implements or changes one.
 
 ## Dev setup
 
-Toolchain is **`uv`** — this box has no `pip`, no `ensurepip`, and no `make`:
+Toolchain is **`uv` + `make`** (and `gcc` from `build-essential`, so a dependency
+without a prebuilt wheel compiles instead of failing). uv installs the pinned Python from
+`.python-version` (3.13) itself — the system `python3` (3.14) is not used, and there is no
+`pip`.
 
 ```bash
-uv sync --extra dev                              # .venv from uv.lock, Python >= 3.11
-uv run ruff check . && uv run ruff format --check .
-uv run mypy                                      # --strict, configured in pyproject
-uv run pytest                                    # must pass without a dump present
+make sync          # .venv from uv.lock, incl. the dev dependency group
+make check         # ruff lint + format check, mypy --strict, pytest — what CI runs
+make fmt           # apply ruff fixes + formatting
+make help          # everything else
 uv run polwikt --help
 ```
 
-`make venv|lint|typecheck|test|check|proto` wrap the same commands for anyone who has
-`make`; nothing depends on it.
+Every target is `uv run --locked …`, so `make` and CI run identical commands.
 
-- **Upstream is git-pinned, not PyPI.** `wikitextprocessor` and `wiktextract` are
-  installed from GitHub at exact commit SHAs. Their PyPI releases (0.4.96 / 1.99.7) are
-  years stale: the published `wikitextprocessor` still has the pickle `cache_file` API and
-  imports the removed `pkg_resources`, while this project is built on the SQLite
-  `Wtp(db_path=...)` + `process_dump()` design that exists only on git main. Upgrading
-  means bumping **both** SHAs together and re-running `uv lock` — they break in lockstep.
-- **No system `protoc` required.** Codegen goes through `grpcio-tools`
-  (`uv run python -m grpc_tools.protoc`), wrapped by `make proto`.
-- **Generated `*_pb2.py` / `*_pb2.pyi` are committed**, so consumers need no toolchain.
-  CI regenerates and fails if the tree is dirty — regenerate and commit whenever you touch
-  `proto/polwikt.proto`.
+- **Upstream is git-pinned, not PyPI.** `wikitextprocessor` (runtime) and `wiktextract`
+  (dev group, oracle only) are installed from GitHub at exact commit SHAs. Their PyPI
+  releases are years stale — the published `wikitextprocessor` has the old pickle
+  `cache_file` API and imports the removed `pkg_resources` — while this project is built
+  on the SQLite `Wtp(db_path=...)` design that exists only on git main. Upgrading means
+  bumping **both** SHAs together, `make lock`, and `make check`: they break in lockstep,
+  and `tests/test_upstream.py` smoke-tests the API we rely on.
+- **No system `protoc`.** From M1, codegen goes through `grpcio-tools` (locked in
+  `uv.lock`) via `make proto`; generated `*_pb2.py` / `*_pb2.pyi` are committed, and CI
+  fails if regenerating them changes the tree.
 - `uv.lock` is committed; CI runs `uv sync --locked` and fails if it drifts.
 - Dumps and pipeline outputs are large: keep them **out of the repo** (`data/`, gitignored).
   Scratch files go in the session scratchpad dir, not `/tmp`, not the project.
@@ -104,7 +105,7 @@ golden store).
 
 ## Code conventions
 
-- **Python ≥ 3.11**, fully type-annotated. `mypy --strict` on `polwikt/` must be clean.
+- **Python 3.13** (pinned in `.python-version`, managed by uv), fully type-annotated. `mypy --strict` on `polwikt/` must be clean.
 - **`ruff check` + `ruff format`** (defaults). No hand-formatting; don't fight the tool.
 - **Config, not constants.** POS heading maps, label→tag maps, section names, template
   policy, `drop_labels`, the dump pin live in data files (R10.5). If you're about to add a
@@ -141,7 +142,7 @@ golden store).
 - Forms are a **flat tagged list**, never a fixed 7×2 table message (R7.8) — Polish
   paradigms are too irregular for a fixed shape.
 - `proto/polwikt.proto` is the contract; `REQUIREMENTS.md` §7 only describes its shape
-  and rationale. Schema gaps found by the spec review are queued as PLAN.md M1a.
+  and rationale. Schema gaps found by the spec review are part of PLAN.md M1.
 
 ---
 

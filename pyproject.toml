@@ -1,76 +1,61 @@
-[build-system]
-requires = ["hatchling>=1.32"]
-build-backend = "hatchling.build"
-
 [project]
 name = "polwikt"
-version = "0.0.1"
-description = "Polish lexical data extracted from the English Wiktionary dump into protobuf"
+version = "0.0.0"
+description = "Polish lexical data from the English Wiktionary dump, as protobuf"
 readme = "README.md"
-requires-python = ">=3.11"
-license = { text = "MIT" }
-
+license = "MIT"
+requires-python = ">=3.13,<3.14"
 dependencies = [
-    # Dump store, template expansion, Scribunto sandbox.
-    # NOTE: installed from git, pinned to an exact commit. The PyPI release (0.4.96) is
-    # years stale — it still has the old pickle `cache_file` API and imports the removed
-    # `pkg_resources`. The SQLite `Wtp(db_path=...)` / `process_dump()` design this
-    # project is built on exists only on git main. See R10.2.
-    "wikitextprocessor @ git+https://github.com/tatuylonen/wikitextprocessor@4deed5191c9e4cb61ee1a4c822e3f6686ae8541b",
-    "lupa>=2.8,<3",
+    # Git-pinned, not PyPI: the published releases are years stale and lack the
+    # SQLite Wtp(db_path=...) API this project is built on (R10.2). Bump together with
+    # wiktextract below — they break in lockstep.
+    "wikitextprocessor @ git+https://github.com/tatuylonen/wikitextprocessor@04e9833735a502b288ede14be8989710a59c7cf2",
     "protobuf>=6.31,<8",
     "zstandard>=0.25,<0.26",
-    "click>=8.4,<9",
-]
-
-[project.optional-dependencies]
-dev = [
-    "pytest>=9.1,<10",
-    "mypy>=2.3,<3",
-    "ruff>=0.16,<0.17",
-    "grpcio-tools>=1.83,<2",   # protoc, so no system toolchain is needed
-    "types-protobuf>=6.31",    # stubs for google.protobuf helpers
-    # Cross-check oracle only (REQUIREMENTS.md §12.1). Never imported by pipeline code.
-    # Also git-pinned: it moves in lockstep with wikitextprocessor.
-    "wiktextract @ git+https://github.com/tatuylonen/wiktextract@872fc7bfc15c388eca84591268d6f35759c42290",
+    "click>=8.2,<9",
 ]
 
 [project.scripts]
-polwikt = "polwikt.cli:main"
+polwikt = "polwikt.cli.main:cli"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4,<10",
+    "mypy>=1.17,<2",
+    "ruff>=0.12,<1",
+    "grpcio-tools>=1.74,<2",
+    "types-protobuf>=6.30,<7",
+    # Cross-check oracle only (REQUIREMENTS §12.1); never imported by polwikt/.
+    "wiktextract @ git+https://github.com/tatuylonen/wiktextract@32bce658cb4ab7f10c52e94b5191ce0b273d9c0f",
+]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
 
 [tool.hatch.metadata]
-# wikitextprocessor / wiktextract are git-pinned direct references (see dependencies).
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["polwikt"]
 
 [tool.ruff]
-target-version = "py311"
-extend-exclude = ["*_pb2.py", "*_pb2.pyi"]   # generated
+target-version = "py313"
+extend-exclude = ["*_pb2.py", "*_pb2.pyi"]
 
 [tool.ruff.lint]
-select = [
-    "E", "W",   # pycodestyle
-    "F",        # pyflakes
-    "I",        # import sorting
-    "UP",       # pyupgrade
-    "B",        # bugbear
-    "SIM",      # simplify
-    "RUF",
-]
+select = ["E", "W", "F", "I", "UP", "B", "SIM", "RUF"]
 
 [tool.mypy]
-python_version = "3.11"
 strict = true
+python_version = "3.13"
 files = ["polwikt", "tests"]
-exclude = '_pb2\.pyi?$'
+exclude = ['_pb2\.pyi?$']
 
-# No type stubs published for these.
 [[tool.mypy.overrides]]
-module = ["wikitextprocessor.*", "lupa.*", "zstandard.*"]
+module = ["wikitextprocessor.*", "wiktextract.*", "zstandard.*"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-q --strict-markers"
+addopts = ["--strict-markers", "-ra"]

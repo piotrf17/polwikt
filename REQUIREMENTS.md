@@ -3,8 +3,8 @@
 Extract Polish lexical data from the **English** Wiktionary dump into a structured,
 machine-readable corpus stored as Google Protocol Buffers.
 
-Status: **M1 complete** — schema and corpus I/O in place (see `PLAN.md`).
-`proto/polwikt.proto` is now the schema contract; section 7 below is the rationale.
+Status: **M0** — restarted from scratch on 2026-10-11 (see `PLAN.md`). Once M1 lands,
+`proto/polwikt.proto` is the schema contract and section 7 below is its rationale.
 Spec reviewed 2026-10-11 against the live wiki, the dump index and the pinned upstream
 code; template/module names below were verified then (the pinned dump stays authoritative,
 and decisions 6–10 in §12 came out of that review).
@@ -564,8 +564,8 @@ operational consequences that are *not* optional:
 
 ## 10. Implementation constraints
 
-- **R10.1** Python ≥ 3.11 (3.13 available locally). Type-annotated; `mypy --strict` on
-  the pipeline package.
+- **R10.1** Python 3.13, pinned in `.python-version` and installed by uv (the system
+  interpreter is not used). Type-annotated; `mypy --strict` on the pipeline package.
 - **R10.2** Dependencies kept minimal and pinned: `wikitextprocessor`, `lupa` (Lua),
   `protobuf`, `zstandard`, `click` for the CLI, `pytest`/`mypy`/`ruff` for dev.
   `wiktextract` is a **dev/test-only** dependency (the cross-check oracle of §12.1),
@@ -576,6 +576,8 @@ operational consequences that are *not* optional:
     this spec assumes exists only on git main. The two move in lockstep, so an upgrade
     bumps both SHAs in one commit, re-locks, and re-runs the golden suite.
   - Dependency resolution is `uv` with a committed `uv.lock`; CI installs `--locked`.
+    Dev tools and the oracle live in a PEP 735 `dev` dependency group, so they never
+    appear in the package's install requirements. `make` wraps the uv commands.
 - **R10.3** CLI shape:
   ```
   polwikt scan     --dump enwiktionary-*.xml.bz2 --db pages.sqlite

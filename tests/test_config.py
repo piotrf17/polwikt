@@ -1,70 +1,95 @@
-"""Config loading: the pipeline's scope knobs must be data, and must fail loudly."""
+"""polwikt.toml loading: the shipped file is valid, malformed files fail loudly."""
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import pytest
 
-from polwikt.config import Config, ConfigError, find_project_root, load_config
+from polwikt.config import (
+    CONFIG_NAME,
+    ConfigError,
+    find_project_root,
+    load_config,
+)
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
 
+VALID = """
+[dump]
+date = "20261001"
+sha1 = "F9ED426C69C6B21D026613BD0F200C2AAA1145E9"
+url_base = "https://dumps.wikimedia.org/enwiktionary/"
 
-@pytest.fixture
-def cfg() -> Config:
-    return load_config(PROJECT_ROOT)
-
-
-def test_finds_project_root_from_a_subdirectory() -> None:
-    assert find_project_root(Path(__file__).parent) == PROJECT_ROOT
-
-
-def test_project_config_loads(cfg: Config) -> None:
-    assert cfg.root == PROJECT_ROOT
-
-
-def test_polish_is_in_scope_and_old_polish_is_not(cfg: Config) -> None:
-    """Old Polish is a separate L2 section, deliberately out of scope (§12.5)."""
-    assert "Polish" in cfg.languages
-    assert "Old Polish" not in cfg.languages
+[extract]
+languages = ["Polish"]
+drop_labels = ["Middle Polish"]
+"""
 
 
-def test_middle_polish_is_dropped_at_extraction(cfg: Config) -> None:
-    """R6.6a: dropped by label, since it is not a separate section."""
-    assert "Middle Polish" in cfg.drop_labels
+def _write(tmp_path: Path, text: str) -> Path:
+    (tmp_path / CONFIG_NAME).write_text(text, encoding="utf-8")
+    return tmp_path
 
 
-def test_dump_is_not_pinned_yet(cfg: Config) -> None:
-    """M2 sets the pin; until then `is_pinned` must be honest about it (R2.1a)."""
+def test_shipped_config_loads() -> None:
+    cfg = load_config(REPO)
+    assert cfg.languages == ("Polish",)
+    assert cfg.drop_labels == ("Middle Polish",)  # R6.6b default
+
+
+def test_valid_config_normalises(tmp_path: Path) -> None:
+    cfg = load_config(_write(tmp_path, VALID))
+    assert cfg.dump.is_pinned
+    assert cfg.dump.sha1 == "f9ed426c69c6b21d026613bd0f200c2aaa1145e9"
+    assert cfg.dump.url_base == "https://dumps.wikimedia.org/enwiktionary"
+    assert cfg.dump.filename == "enwiktionary-20261001-pages-articles.xml.bz2"
+
+
+def test_unpinned_dump_has_no_filename(tmp_path: Path) -> None:
+    text = VALID.replace('"20261001"', '""').replace(
+        '"F9ED426C69C6B21D026613BD0F200C2AAA1145E9"', '""'
+    )
+    cfg = load_config(_write(tmp_path, text))
     assert not cfg.dump.is_pinned
-    with pytest.raises(ConfigError, match="no dump pinned"):
+    with pytest.raises(ConfigError, match="no dump is pinned"):
         _ = cfg.dump.filename
 
 
-def test_missing_config_raises(tmp_path: Path) -> None:
-    with pytest.raises(ConfigError, match=r"no polwikt\.toml found"):
+@pytest.mark.parametrize(
+    ("old", "new", "message"),
+    [
+        ('"20261001"', '"2026-10-01"', "YYYYMMDD"),
+        ('"20261001"', "20261001", "must be a string"),
+        ('"F9ED426C69C6B21D026613BD0F200C2AAA1145E9"', '"abc"', "40 hex"),
+        ('"F9ED426C69C6B21D026613BD0F200C2AAA1145E9"', '""', "set together"),
+        ('["Polish"]', "[]", "at least one language"),
+        ('["Middle Polish"]', '"Middle Polish"', "list of strings"),
+        ("[extract]", "[extraction]", r"missing \[extract\]"),
+        ("[dump]\n", "[dump\n", re.escape(CONFIG_NAME)),
+    ],
+)
+def test_malformed_config_raises(
+    tmp_path: Path, old: str, new: str, message: str
+) -> None:
+    assert old in VALID
+    with pytest.raises(ConfigError, match=message):
+        load_config(_write(tmp_path, VALID.replace(old, new, 1)))
+
+
+def test_missing_file_raises(tmp_path: Path) -> None:
+    with pytest.raises(ConfigError, match="does not exist"):
+        load_config(tmp_path)
+
+
+def test_find_project_root_walks_up(tmp_path: Path) -> None:
+    _write(tmp_path, VALID)
+    nested = tmp_path / "a" / "b"
+    nested.mkdir(parents=True)
+    assert find_project_root(nested) == tmp_path.resolve()
+
+
+def test_find_project_root_fails_without_config(tmp_path: Path) -> None:
+    with pytest.raises(ConfigError, match=r"no polwikt\.toml"):
         find_project_root(tmp_path)
-
-
-def test_malformed_config_raises(tmp_path: Path) -> None:
-    (tmp_path / "polwikt.toml").write_text(
-        '[dump]\ndate = 20260801\nsha1 = ""\nurl_base = ""\n'  # date unquoted
-        '[extract]\nlanguages = ["Polish"]\ndrop_labels = []\n'
-    )
-    with pytest.raises(ConfigError, match=r"\[dump\].date must be a string"):
-        load_config(tmp_path)
-
-
-def test_missing_section_raises(tmp_path: Path) -> None:
-    (tmp_path / "polwikt.toml").write_text(
-        '[dump]\ndate = ""\nsha1 = ""\nurl_base = ""\n'
-    )
-    with pytest.raises(ConfigError, match=r"\[extract\] table is missing"):
-        load_config(tmp_path)
-
-
-def test_data_tables_are_readable(cfg: Config) -> None:
-    """Stubs for now; each is filled in by the milestone that needs it (R10.5)."""
-    for name in ("pos_headings", "sections", "labels", "templates"):
-        assert isinstance(cfg.data_table(name), dict)

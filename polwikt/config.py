@@ -1,36 +1,26 @@
-"""Load pipeline configuration from data files.
-
-Wiktionary conventions (POS headings, labels, section names, template policy) and the
-dump pin live in TOML, never in Python (R10.5). Everything here validates loudly: a
-malformed or missing key raises rather than defaulting, so a typo in a config table
-cannot quietly change what gets extracted.
-"""
+"""Loads and validates `polwikt.toml` (R10.5); malformed config fails loudly."""
 
 from __future__ import annotations
 
+import re
 import tomllib
-from collections.abc import Mapping
 from dataclasses import dataclass
 from functools import cache
 from pathlib import Path
 from typing import Any
 
-DATA_DIR = Path(__file__).parent / "data"
-PROJECT_CONFIG = "polwikt.toml"
+CONFIG_NAME = "polwikt.toml"
+_DATE_RE = re.compile(r"\d{8}")
+_SHA1_RE = re.compile(r"[0-9a-f]{40}")
 
 
 class ConfigError(Exception):
-    """Configuration file is missing, malformed, or has the wrong shape."""
+    """`polwikt.toml` is missing, unparsable, or has a wrong-typed or invalid value."""
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class DumpPin:
-    """The single dump every dev run and golden test uses (R2.1a).
-
-    An empty `date` means the project has not pinned a dump yet; M2 fills it in on the
-    first fetch. Running against an unpinned dump is allowed but is recorded in the
-    output `Corpus` metadata (R7.4).
-    """
+    """The pinned dump (R2.1a). Empty `date`/`sha1` means not yet pinned (pre-M2)."""
 
     date: str
     sha1: str
@@ -43,81 +33,81 @@ class DumpPin:
     @property
     def filename(self) -> str:
         if not self.date:
-            raise ConfigError("no dump pinned in polwikt.toml ([dump].date is empty)")
+            raise ConfigError("no dump is pinned: [dump].date is empty")
         return f"enwiktionary-{self.date}-pages-articles.xml.bz2"
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Config:
     dump: DumpPin
-    #: Sense labels whose senses are dropped at extraction, cascading sense -> entry ->
-    #: page (R6.6a-c). Default drops Middle Polish.
-    drop_labels: frozenset[str]
-    #: Wiktionary L2 language headings to extract. Old Polish is deliberately absent.
-    languages: frozenset[str]
+    languages: tuple[str, ...]
+    drop_labels: tuple[str, ...]
     root: Path
-
-    def data_table(self, name: str) -> Mapping[str, Any]:
-        """Load a config table from `polwikt/data/<name>.toml`."""
-        return _load_toml(DATA_DIR / f"{name}.toml")
 
 
 def find_project_root(start: Path | None = None) -> Path:
-    """Walk up from `start` (default: cwd) looking for polwikt.toml."""
+    """Walks up from `start` (default: cwd) to the directory holding polwikt.toml."""
     here = (start or Path.cwd()).resolve()
     for candidate in (here, *here.parents):
-        if (candidate / PROJECT_CONFIG).is_file():
+        if (candidate / CONFIG_NAME).is_file():
             return candidate
-    raise ConfigError(f"no {PROJECT_CONFIG} found at or above {here}")
+    raise ConfigError(f"no {CONFIG_NAME} found in {here} or any parent")
 
 
 @cache
-def load_config(root: Path | None = None) -> Config:
-    """Load `polwikt.toml`. Cached: config is read-only for the life of a process."""
-    project_root = root or find_project_root()
-    raw = _load_toml(project_root / PROJECT_CONFIG)
-    dump = _table(raw, "dump")
-    extract = _table(raw, "extract")
+def load_config(root: Path) -> Config:
+    """Parses `<root>/polwikt.toml`; every key is required and type-checked."""
+    data = _load_toml(root / CONFIG_NAME)
+    dump = _table(data, "dump")
+    extract = _table(data, "extract")
+    pin = DumpPin(
+        date=_str(dump, "dump", "date"),
+        sha1=_str(dump, "dump", "sha1").lower(),
+        url_base=_str(dump, "dump", "url_base").rstrip("/"),
+    )
+    if pin.date and not _DATE_RE.fullmatch(pin.date):
+        raise ConfigError(f"[dump].date must be YYYYMMDD, got {pin.date!r}")
+    if pin.sha1 and not _SHA1_RE.fullmatch(pin.sha1):
+        raise ConfigError(f"[dump].sha1 must be 40 hex digits, got {pin.sha1!r}")
+    if bool(pin.date) != bool(pin.sha1):
+        raise ConfigError("[dump].date and [dump].sha1 must be set together (R2.1a)")
+    languages = _str_list(extract, "extract", "languages")
+    if not languages:
+        raise ConfigError("[extract].languages must name at least one language")
     return Config(
-        dump=DumpPin(
-            date=_str(dump, "date", "dump"),
-            sha1=_str(dump, "sha1", "dump"),
-            url_base=_str(dump, "url_base", "dump"),
-        ),
-        drop_labels=frozenset(_str_list(extract, "drop_labels", "extract")),
-        languages=frozenset(_str_list(extract, "languages", "extract")),
-        root=project_root,
+        dump=pin,
+        languages=languages,
+        drop_labels=_str_list(extract, "extract", "drop_labels"),
+        root=root,
     )
 
 
 def _load_toml(path: Path) -> dict[str, Any]:
     try:
-        with path.open("rb") as fh:
-            return tomllib.load(fh)
-    except FileNotFoundError as exc:
-        raise ConfigError(f"missing config file: {path}") from exc
-    except tomllib.TOMLDecodeError as exc:
-        raise ConfigError(f"malformed TOML in {path}: {exc}") from exc
+        with path.open("rb") as f:
+            return tomllib.load(f)
+    except FileNotFoundError as e:
+        raise ConfigError(f"{path} does not exist") from e
+    except tomllib.TOMLDecodeError as e:
+        raise ConfigError(f"{path}: {e}") from e
 
 
-def _table(raw: Mapping[str, Any], key: str) -> Mapping[str, Any]:
-    value = raw.get(key)
+def _table(data: dict[str, Any], name: str) -> dict[str, Any]:
+    value = data.get(name)
     if not isinstance(value, dict):
-        raise ConfigError(f"{PROJECT_CONFIG}: [{key}] table is missing or not a table")
+        raise ConfigError(f"missing [{name}] table")
     return value
 
 
-def _str(table: Mapping[str, Any], key: str, section: str) -> str:
+def _str(table: dict[str, Any], section: str, key: str) -> str:
     value = table.get(key)
     if not isinstance(value, str):
-        raise ConfigError(f"{PROJECT_CONFIG}: [{section}].{key} must be a string")
+        raise ConfigError(f"[{section}].{key} must be a string, got {value!r}")
     return value
 
 
-def _str_list(table: Mapping[str, Any], key: str, section: str) -> tuple[str, ...]:
+def _str_list(table: dict[str, Any], section: str, key: str) -> tuple[str, ...]:
     value = table.get(key)
     if not isinstance(value, list) or not all(isinstance(v, str) for v in value):
-        raise ConfigError(
-            f"{PROJECT_CONFIG}: [{section}].{key} must be a list of strings"
-        )
+        raise ConfigError(f"[{section}].{key} must be a list of strings, got {value!r}")
     return tuple(value)

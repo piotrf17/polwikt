@@ -3,9 +3,10 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0 ✅ M1 ✅ — next is M1a (small schema amendments), then M2.
+**Progress:** M0 ✅ (restarted from scratch 2026-10-11) — next is M1.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
-pinned upstream code (REQUIREMENTS §12, decisions 6–10).
+pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
+history (`6fced42`); its lessons are folded into the M1 notes below, not its code.
 
 **Shape of the plan.** The **proto schema** gates every extractor and is done. The
 **dump + P1 scan** gates everything real: golden fixtures come from the pinned dump (not
@@ -16,8 +17,8 @@ extractors go in dependency order — structure, senses, paradigms — each grad
 same golden harness. There is no P2 milestone: the subset pass is deferred (decision 6).
 
 ```
-M0 ─ M1 ─ M1a schema ──────────────────────────┐
-      └─ M2 dump + P1 ─ M3 fixtures ─ M4 expansion ─┴─ M5 structure ─ M6 senses ─┬─ M7 nominal
+M0 ─ M1 schema ─────────────────────────────────┐
+  └─ M2 dump + P1 ─ M3 fixtures ─ M4 expansion ───┴─ M5 structure ─ M6 senses ─┬─ M7 nominal
                                                                                   ├─ M8 verbal
                                                                                   ├─ M9 pron/etym
                                                                                   └─ M10 relations
@@ -27,42 +28,54 @@ M0 ─ M1 ─ M1a schema ──────────────────�
 ---
 
 ## M0 — Repo skeleton and tooling ✅
-*Done (`84f59f8`).*
+*Done.*
 
-uv toolchain with committed `uv.lock`; upstream git-pinned by SHA (R10.2); package
-layout per R10.4; ruff + `mypy --strict` + pytest + CI incl. codegen freshness;
-`polwikt.toml` config loader; CLI with every R10.3 command stubbed to fail loudly.
+- uv + make toolchain; Python 3.13 pinned in `.python-version` and installed by uv;
+  `uv.lock` committed; dev tools and the `wiktextract` oracle in a PEP 735 `dev` group.
+- Upstream git-pinned by SHA (R10.2): `wikitextprocessor@04e98337`,
+  `wiktextract@32bce658` (both main as of 2026-10-06), with `tests/test_upstream.py`
+  smoke-testing the API we build on — SQLite `Wtp(db_path=…)`, template expansion, and
+  a Lua `#invoke` on Polish text.
+- Package layout per R10.4, each subpackage a documented stub.
+- `polwikt.toml` (dump pin placeholder, `languages`, `drop_labels`) and a loader that
+  validates every key loudly (R10.5). Per-section data tables (POS headings, labels,
+  template policy) arrive with the milestone that uses them.
+- CLI with the full R10.3 surface; `config` works, every pass fails with a non-zero exit
+  naming the milestone that delivers it.
+- `make check` = ruff lint + format check + `mypy --strict` + pytest; CI runs the same
+  (`.github/workflows/ci.yml` — unverified until the repo has a remote).
 
 ---
 
-## M1 — Protobuf schema and corpus I/O ✅
-*Done (`6fced42`).*
+## M1 — Protobuf schema and corpus I/O
+*No dump needed. 1–2 days. Gates every extractor.*
 
-`proto/polwikt.proto` (the contract), committed `_pb2.py`/`.pyi`; `polwikt/proto/io.py`
-with varint-framed zstd shards, streaming reader, `index.sqlite`, JSON view. No `map<>`
-fields (G5), `Corpus` metadata out of band in `corpus.meta.pb` (R7.4), syncretic cells as
-one `Form` per case (R7.8). 53 tests, incl. 50k-record sharding and two-run byte identity.
+- `proto/polwikt.proto`: `Word`, `EtymologyGroup`, `PosEntry`, `Sense`, `Form`,
+  `LinkSpan`, `Pronunciation`, `Relation`, `Descendant`, `Example`, `TemplateCall`,
+  `FormOf`, `Corpus`, and the grammatical enums (case, number, gender, animacy, person,
+  tense, mood, aspect, degree, voice, non-finite forms) — §7, R7.1/R7.6–R7.8.
+- Include what the spec review found real entries carry: POS `PREPOSITIONAL_PHRASE`,
+  `AFFIX`, `CIRCUMFIX`, `COMBINING_FORM` (R5.3); a `Government` message on `Sense` for
+  `{{+obj}}` (R6.11); a collocation example kind for `{{coi}}` (R6.12); `Word`-level
+  alternative forms, trivia and references (R5.5); prose (usage notes, trivia) stored
+  plain + marked up like glosses (R7.6a); a link from a verb `Form` to its participle
+  record (decision 10 — confirm first); dialect pronunciations as `raw_tags`.
+- Design rules learned the first time round: **no `map<>` fields** (unspecified wire
+  order breaks G5; enforce with a test over the descriptors); `Corpus` metadata written
+  **out of band** to `corpus.meta.pb` (its timestamp would break byte-identical shards);
+  a cell covering several cases becomes **one `Form` per case** so tags stay scalar;
+  `case` is a C++ keyword, so the field is `grammatical_case`.
+- `make proto` → committed `_pb2.py`/`_pb2.pyi`; CI fails if regeneration dirties the tree.
+- `polwikt/proto/io.py`: varint-delimited zstd shard writer/reader with `-of-N` names
+  resolved at close (R7.2), `index.sqlite` helpers (R7.3), JSON view (R7.5),
+  deterministic serialization.
 
----
+**Exit:** round-trip tests incl. a 50k-message sharding test and a two-run byte-identity
+test; a `LinkSpan` test on non-ASCII text proving codepoint offsets (R7.6a); enums cover
+every §6 category with `_UNSPECIFIED = 0`; a test that no message has a map field.
 
-## M1a — Schema amendments from the spec review
-*No dump needed. Half a day. Additive only (R7.6) — do it before M5 writes extractors.*
-
-The review found things real Polish entries carry that the schema has no slot for:
-
-- `Pos`: add `PREPOSITIONAL_PHRASE`, `AFFIX`, `CIRCUMFIX`, `COMBINING_FORM` (R5.3).
-- `Government` message on `Sense` for `{{+obj|pl|…}}`: case enum, optional preposition,
-  slot gloss, raw call (R6.11).
-- `Example.Type.TYPE_COLLOCATION` for `{{coi}}` / `====Collocations====` (R6.12).
-- `Word`-level homes for language-level sections: `alternative_forms`, `trivia`,
-  `references` (R5.5).
-- Usage notes and trivia stored twice — plain + spans/raw — like other prose (R7.6a);
-  today `usage_notes` is a single string.
-- Participle entries: a way for a verb `Form` to point at its participle record
-  (decision 10 — confirm first).
-- Dialect on `Pronunciation`: keep as `raw_tags` (map is config), but document it.
-
-**Exit:** regenerated `_pb2`, schema tests extended to the new fields, nothing renumbered.
+**Risk:** getting this wrong is expensive later (R7.6 forbids renumbering). Review the
+schema against §6 *before* writing extractors, not after.
 
 ---
 
@@ -74,8 +87,11 @@ The review found things real Polish entries carry that the schema has no slot fo
   descriptive User-Agent, sha1-verify (R2.1, R2.1a); write the pin to `polwikt.toml` in
   its own commit.
 - Streaming reader over `lbzcat` — never decompress to disk (R2.4). Upstream's
-  `process_dump()` has no per-page content filter, so stream with its
-  `decompress_dump_file`/`parse_dump_xml` primitives and add pages ourselves.
+  `parse_dump_xml()`/`process_dump()` can't be used as-is: they call `add_page` with no
+  page id or revision id, have no per-page content filter, and silently skip
+  `/documentation`, `/testcases` and non-wikitext pages. Write our own `lxml.iterparse`
+  loop over upstream's `decompress_dump_file()` (declare `lxml` as a direct dependency),
+  counting every skip.
 - P1 store in **upstream's own `pages` schema** so `Wtp(db_path=…)` reads it directly,
   plus our side tables `page_meta`, `all_titles`, `scan_meta` (R3.1, R3.2a). ns-0 kept
   **only** on a `==Polish==` heading line (R3.2); R2.2 namespaces unfiltered (R3.3);
@@ -142,7 +158,7 @@ page (R3.2a — if it fires for real, P1 needs a carve-out); a module that needs
 ---
 
 ## M5 — Section structure extraction
-*Needs M1a, M3, M4. ~1 week.*
+*Needs M1, M3, M4. ~1 week.*
 
 - L2 `==Polish==` isolation; `Etymology N` grouping preserved, **not** flattened (R5.1);
   POS at L3/L4 and subsections at L4/L5, attached by heading type, not depth (R5.2);
@@ -315,4 +331,4 @@ oracle diff has no unexplained entries.
 | Pinned dump expires from Wikimedia's retention (~10 months observed) | M2+ | keep the pinned dump archived locally; re-pin deliberately with a stats diff |
 | `pages.sqlite` too large for page cache on a 5 GB box | M2, M12 | measure at M2; revive P2 (decision 6) only if needed |
 | `wikitextprocessor`/`wiktextract` version drift | M4, M13 | exact pins, documented upgrade procedure (R10.2) |
-| Schema churn after extractors are written | M1a | additive-only discipline (R7.6); M1a lands the review's gaps before M5 |
+| Schema churn after extractors are written | M1 | additive-only discipline (R7.6); M1 includes the review's gaps before any extractor exists |

@@ -1,1 +1,1 @@
-"""wikitextprocessor wiring, Lua sandbox, and expansion policy (R4)."""
+"""wikitextprocessor wiring and expansion policy (REQUIREMENTS §4)."""

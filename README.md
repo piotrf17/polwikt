@@ -1,41 +1,26 @@
 # polwikt
 
-Extract Polish lexical data from the **English** Wiktionary dump into structured
-Google Protocol Buffers — senses, part of speech, full declensions and conjugations,
-pronunciation, etymology, and lexical relations.
+Extracts Polish lexical data — senses, inflection, pronunciation, etymology, relations —
+from the **English** Wiktionary dump into Protocol Buffers.
 
-- **`REQUIREMENTS.md`** — the spec. Requirement IDs (`R3.2`, `R6.6a`) are stable and are
-  cited from code and commits.
+- **`REQUIREMENTS.md`** — the spec; requirement IDs (`R3.2`, …) are cited from code.
 - **`PLAN.md`** — implementation milestones M0–M14.
 - **`CLAUDE.md`** — dev setup and the invariants not to break.
 
-Status: **M1** — protobuf schema (`proto/polwikt.proto`) and corpus I/O. The pipeline
-passes themselves start at M2, after the small M1a schema amendments.
+Status: **M0** — repo skeleton, toolchain, config and CLI surface. No pipeline pass is
+implemented yet; every pass command fails loudly with the milestone that delivers it.
 
 ## Quick start
 
-Toolchain is [`uv`](https://docs.astral.sh/uv/) (no `pip`/`make` needed):
+Needs [`uv`](https://docs.astral.sh/uv/) and `make`. uv installs the pinned Python
+(`.python-version`) itself.
 
 ```bash
-uv sync --extra dev            # .venv from uv.lock
-uv run ruff check . && uv run mypy && uv run pytest
+make sync     # .venv from uv.lock, incl. dev tools
+make check    # lint + format check + mypy --strict + tests
 uv run polwikt --help
-uv run polwikt config          # show resolved scope + dump pin
 ```
 
-`make venv|lint|typecheck|test|check|proto` wrap the same commands if you have `make`.
+## License
 
-Template and Lua expansion is done by
-[`wikitextprocessor`](https://github.com/tatuylonen/wikitextprocessor); the extraction
-on top of it is ours.
-[`wiktextract`](https://github.com/tatuylonen/wiktextract) is installed as a dev-only
-cross-check oracle and is never imported by pipeline code.
-
-Both are installed **from git, pinned to exact commits** — their PyPI releases are years
-stale and expose a different (pre-SQLite) API. See `pyproject.toml`.
-
-## Data license
-
-Wiktionary content is **CC BY-SA 4.0**. Generated corpora carry attribution to English
-Wiktionary in their `Corpus` metadata and a `LICENSE-DATA` file, and must be shared
-alike. The pipeline code is MIT.
+Code: MIT. Generated corpora contain Wiktionary content and are CC BY-SA 4.0 (R11).

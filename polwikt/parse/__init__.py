@@ -1,1 +1,1 @@
-"""WikiNode tree helpers and section walking (R5). Language-agnostic."""
+"""Language-agnostic WikiNode tree helpers and section walking."""
