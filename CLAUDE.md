@@ -82,8 +82,9 @@ golden store).
    *does* reach the network (live Wikidata queries from `mw.wikibase`), so those entry
    points stay stubbed and counted (R4.5). Output order is by page id regardless of
    `--jobs` (R3.11).
-4. **Lossy is worse than untyped.** When a label, tag or template arg doesn't map to a
-   known enum, put the literal string in `raw_tags` / `raw_*` — never discard it.
+4. **Lossy is worse than untyped.** When a grammatical feature or template arg doesn't
+   map to a known enum, put the literal string in `raw_tags` / `raw_*` — never discard
+   it. Usage labels never need this: they are strings in `labels` to begin with.
 5. **Raw template calls are retained** for headword, inflection and etymology templates
    (R4.2.1). They are the escape hatch when our parsing is wrong; don't "clean them up".
 6. **Codepoint offsets, never byte offsets** (R7.6a). Polish text is non-ASCII;
@@ -138,7 +139,9 @@ golden store).
 - proto3. Message and enum names `CamelCase`, fields `snake_case`, enum values
   `UPPER_SNAKE` with a `_UNSPECIFIED = 0` zero value.
 - Grammatical categories that are genuinely closed (case, number, gender, animacy, person,
-  tense, mood, aspect, degree) are **enums**; everything else is a string in `raw_tags`.
+  tense, mood, aspect, degree) are **enums**, with unmapped values in `raw_tags`. Open
+  vocabularies — usage labels, dialects, topics — are plain strings (`labels`), never an
+  enum we would have to keep in sync with Wiktionary.
 - Forms are a **flat tagged list**, never a fixed 7×2 table message (R7.8) — Polish
   paradigms are too irregular for a fixed shape.
 - `proto/polwikt.proto` is the contract; `REQUIREMENTS.md` §7 only describes its shape

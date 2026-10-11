@@ -6,7 +6,11 @@
 // - Repeated messages, not `map<>` fields: a map entry can never gain a field, while a
 //   repeated message can (additively), and a list keeps the article's order. (Not a
 //   determinism issue: deterministic=True serialization sorts map entries by key.)
-// - Anything that doesn't map to an enum keeps its literal string in `raw_tags` (R7.7).
+// - Usage labels ({{lb}}, {{tlb}}, qualifiers) are an open vocabulary, so they are plain
+//   strings in `labels`: Wiktionary's canonical label names, aliases resolved (R6.7).
+//   The as-written spelling survives in the retained TemplateCall (R4.2.1).
+// - Enums only for genuinely closed grammatical sets (R7.7); a grammatical feature that
+//   doesn't map to one keeps its literal string in `raw_tags`.
 // - Field numbers 1-15 encode in one byte; they go to the fields of messages that repeat
 //   in the hundreds per word (Form, Sense, LinkSpan).
 
@@ -150,56 +154,6 @@ enum VerbForm {
   VERB_FORM_IMPERSONAL_PAST = 7;                    // -no / -to
 }
 
-// Usage labels from {{lb}} / {{tlb}} and qualifiers (R6.7). The label -> Tag map is
-// config; a label that maps nowhere goes to raw_tags verbatim.
-enum Tag {
-  TAG_UNSPECIFIED = 0;
-  // register
-  TAG_COLLOQUIAL = 1;
-  TAG_INFORMAL = 2;
-  TAG_FORMAL = 3;
-  TAG_LITERARY = 4;
-  TAG_POETIC = 5;
-  TAG_SLANG = 6;
-  TAG_VULGAR = 7;
-  TAG_OFFENSIVE = 8;
-  TAG_DEROGATORY = 9;
-  TAG_HUMOROUS = 10;
-  TAG_IRONIC = 11;
-  TAG_EUPHEMISTIC = 12;
-  // time and currency
-  TAG_ARCHAIC = 13;
-  TAG_DATED = 14;
-  TAG_OBSOLETE = 15;
-  TAG_HISTORICAL = 16;
-  TAG_RARE = 17;
-  TAG_NEOLOGISM = 18;
-  TAG_MIDDLE_POLISH = 19;  // drives the R6.6a drop; present only if re-included
-  // standardness and place
-  TAG_NONSTANDARD = 20;
-  TAG_PROSCRIBED = 21;
-  TAG_DIALECTAL = 22;      // region name in raw_tags (R6.7)
-  TAG_REGIONAL = 23;
-  // meaning
-  TAG_FIGURATIVE = 24;
-  TAG_LITERAL = 25;
-  // grammar-level labels
-  TAG_TRANSITIVE = 26;
-  TAG_INTRANSITIVE = 27;
-  TAG_REFLEXIVE = 28;      // {{lb|pl|reflexive-się}}
-  TAG_IMPERSONAL = 29;
-  TAG_AUXILIARY = 30;
-  TAG_DEFECTIVE = 31;
-  TAG_INDECLINABLE = 32;
-  TAG_PLURALE_TANTUM = 33;
-  TAG_SINGULARE_TANTUM = 34;
-  TAG_COLLECTIVE = 35;
-  TAG_DIMINUTIVE = 36;
-  TAG_AUGMENTATIVE = 37;
-  TAG_ABBREVIATION = 38;
-  TAG_ONOMATOPOEIC = 39;
-}
-
 // One cell's worth of grammatical features. Scalar on purpose: a cell covering several
 // cases (nom/acc) becomes one Form per case (R7.8).
 message GrammaticalTags {
@@ -282,9 +236,8 @@ message Example {
   RichText translation = 3;   // the English
   string literal = 4;         // literal translation, when given
   Citation citation = 5;
-  repeated Tag tags = 6;
-  repeated string raw_tags = 7;
-  TemplateCall template = 8;
+  repeated string labels = 6;
+  TemplateCall template = 7;
 }
 
 message Citation {
@@ -305,9 +258,8 @@ message Pronunciation {
   string audio_file = 4;           // Commons file name
   string audio_label = 5;          // the <text:...> modifier of {{pl-pr|a=...}}
   repeated string homophones = 6;
-  repeated Tag tags = 7;
-  repeated string raw_tags = 8;    // dialect names from {{pl-pr}} parameters (R6.5)
-  TemplateCall template = 9;
+  repeated string labels = 7;      // dialect names from {{pl-pr}} parameters (R6.5)
+  TemplateCall template = 8;
 }
 
 // Case/preposition government from {{+obj|pl|...}} (R6.11).
@@ -348,11 +300,10 @@ message Relation {
   string term = 2;
   string gloss = 3;            // disambiguating gloss, when given
   string sense_id = 4;         // target sense anchor (id=), when given
-  repeated Tag tags = 5;
-  repeated string raw_tags = 6;
-  EntryRef target = 7;         // filled by P4 where the term resolves
-  bool inferred = 8;           // derived in P4 rather than stated by the article
-  TemplateCall template = 9;
+  repeated string labels = 5;
+  EntryRef target = 6;         // filled by P4 where the term resolves
+  bool inferred = 7;           // derived in P4 rather than stated by the article
+  TemplateCall template = 8;
 }
 
 message Descendant {
@@ -368,7 +319,7 @@ message Descendant {
   string lang_code = 2;
   string term = 3;
   string gloss = 4;
-  repeated string raw_tags = 5;
+  repeated string labels = 5;
   repeated Descendant children = 6;   // descendant lists are trees
 }
 
@@ -420,23 +371,22 @@ message FormOf {
   string lemma = 2;                       // as written in the article
   EntryRef target = 3;                    // filled by P4
   repeated GrammaticalTags tag_sets = 4;  // `;` and `//` expand to several (R6.6)
-  repeated string raw_tags = 5;
+  repeated string raw_tags = 5;           // grammatical features with no enum
   TemplateCall template = 6;
 }
 
 message Sense {
   RichText gloss = 1;
-  repeated Tag tags = 2;
-  repeated string raw_tags = 3;          // unmapped labels; dialect region names
-  repeated Example examples = 4;
-  repeated Relation relations = 5;       // sense-scoped nyms: #: {{syn|pl|...}}
-  repeated Government government = 6;    // {{+obj|pl|...}} (R6.11)
-  FormOf form_of = 7;
-  string sense_id = 8;                   // {{senseid|pl|...}} (R5.6)
-  repeated Sense subsenses = 9;          // ## under # (R5.4)
-  repeated string topics = 10;           // topical categories: pl:Birds -> "Birds"
-  repeated string categories = 11;
-  repeated TemplateCall templates = 12;  // {{lb}}, {{+obj}}, ... as written
+  repeated string labels = 2;            // {{lb}}, incl. dialect regions (R6.7)
+  repeated Example examples = 3;
+  repeated Relation relations = 4;       // sense-scoped nyms: #: {{syn|pl|...}}
+  repeated Government government = 5;    // {{+obj|pl|...}} (R6.11)
+  FormOf form_of = 6;
+  string sense_id = 7;                   // {{senseid|pl|...}} (R5.6)
+  repeated Sense subsenses = 8;          // ## under # (R5.4)
+  repeated string topics = 9;            // topical categories: pl:Birds -> "Birds"
+  repeated string categories = 10;
+  repeated TemplateCall templates = 11;  // {{lb}}, {{+obj}}, ... as written
 }
 
 // One inflected form: flat and tagged, never a fixed table (R7.8).
@@ -450,9 +400,9 @@ message Form {
   }
   string form = 1;
   GrammaticalTags tags = 2;
-  repeated string raw_tags = 3;
+  repeated string raw_tags = 3;              // grammatical features with no enum
   Source source = 4;
-  repeated Tag usage_tags = 5;               // one cell marked archaic, humorous, ...
+  repeated string labels = 5;                // one cell marked archaic, humorous, ...
   bool has_own_page = 6;                     // a dedicated form-of page attests it
   repeated Pronunciation pronunciations = 7; // folded in from that page
   EntryRef record = 8;                       // the participle's own Word (decision 10)
@@ -497,24 +447,23 @@ message PosEntry {
   string heading = 2;                          // literal heading
   string headword = 3;                         // as printed on the headword line
   repeated TemplateCall head_templates = 4;
-  repeated Tag tags = 5;                       // term-level {{tlb}}
-  repeated string raw_tags = 6;
-  repeated Sense senses = 7;
-  repeated Form forms = 8;
-  repeated TemplateCall inflection_templates = 9;
-  repeated Relation relations = 10;            // section-level nyms, derived, related
-  repeated Example examples = 11;              // ====Collocations==== (R6.12)
-  repeated Descendant descendants = 12;
-  repeated Pronunciation pronunciations = 13;  // when given per POS
-  RichText usage_notes = 14;
-  repeated Reference references = 15;
-  repeated string categories = 16;
-  repeated RawSection other_sections = 17;
+  repeated string labels = 5;                  // term-level {{tlb}}
+  repeated Sense senses = 6;
+  repeated Form forms = 7;
+  repeated TemplateCall inflection_templates = 8;
+  repeated Relation relations = 9;             // section-level nyms, derived, related
+  repeated Example examples = 10;              // ====Collocations==== (R6.12)
+  repeated Descendant descendants = 11;
+  repeated Pronunciation pronunciations = 12;  // when given per POS
+  RichText usage_notes = 13;
+  repeated Reference references = 14;
+  repeated string categories = 15;
+  repeated RawSection other_sections = 16;
 
   oneof detail {                               // matches `pos` where it applies
-    NounInfo noun = 18;
-    VerbInfo verb = 19;
-    AdjectiveInfo adjective = 20;
+    NounInfo noun = 17;
+    VerbInfo verb = 18;
+    AdjectiveInfo adjective = 19;
   }
 }
 

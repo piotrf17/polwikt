@@ -372,7 +372,7 @@ English-Wiktionary Polish sections follow this nesting:
   `{{pl-pr}}` packs most of this into parameters — `a=` audio (with `<text:…>`
   modifiers), `hh=` homophones, and one parameter per **dialect** (`CD=`, `MD=`, `CGP=`,
   `zag=`, `krk=`, …) — so regional variants are captured as separate `Pronunciation`s
-  tagged with their dialect. The parameter → dialect map is config (R10.5). The
+  labelled with their dialect. The parameter → dialect map is config (R10.5). The
   Middle Polish variant (`mp=`) is dropped per R6.6a.
 - **R6.6 — Form-of entries.** A very large share of Polish pages are inflected forms
   whose only content is `{{inflection of|pl|lemma||gen|p}}`. These must parse into
@@ -407,14 +407,17 @@ English-Wiktionary Polish sections follow this nesting:
     one-line change. Old Polish needs no entry — it is a separate L2 section already
     excluded by R3.2.
   - **R6.6c** Everything dropped is **counted** in `stats.json` (senses, entries, pages,
-    pronunciations, alternative forms, tables, references — by label and by kind). Deleting content from live articles is only safe if we can
-    see how much we deleted; an unexpected jump means the label matcher is over-firing.
-- **R6.7 — Labels.** `{{lb|pl|…}}` values (colloquial, dated, obsolete, vulgar,
-  transitive, reflexive-się, …) become typed tags; unknown labels pass through as
-  strings. **Dialect labels are very common** on Polish entries (`Chełmno-Dobrzyń`,
-  `Far Masovian`, `Central Greater Poland`, town names such as `Krotoszyn`): each maps to
-  `TAG_DIALECTAL` *plus* its literal name in `raw_tags`, so the region survives. Labels
-  are matched after resolving the label module's aliases, not by literal string.
+    pronunciations, alternative forms, tables, references — by label and by kind).
+    Deleting content from live articles is only safe if we can see how much we deleted; an unexpected jump means the label matcher is over-firing.
+- **R6.7 — Labels.** `{{lb|pl|…}}` / `{{tlb|pl|…}}` values and qualifiers (colloquial,
+  dated, obsolete, vulgar, transitive, reflexive-się, …) are stored as **plain strings**
+  in `labels` — Wiktionary's canonical label names, with aliases resolved through its own
+  label data modules (in the dump), so `colloq` and `colloquial` arrive as one name. They
+  are an open vocabulary, not a closed grammatical set, so they get no enum (R7.7): the
+  canonical list is Wiktionary's, not ours to maintain. The as-written spelling survives
+  in the retained template call (R4.2.1). **Dialect labels are very common** on Polish
+  entries (`Chełmno-Dobrzyń`, `Far Masovian`, `Central Greater Poland`, town names such as
+  `Krotoszyn`) and are labels like any other.
 - **R6.8 — Etymology.** Both the rendered text *and* structured links: borrowed-from /
   inherited-from / derived-from with source language codes and source terms, cognates,
   Proto-Slavic reconstructions, compound decomposition (`{{af|pl|…|-ka}}`).
@@ -474,8 +477,9 @@ to keep in sync:
   whole section) → `PosEntry` → `Sense` (recursive `subsenses`) and a flat `Form` list.
 - Page-level material (shared pronunciation, language-level sections) hangs off `Word`;
   POS-specific detail is a `oneof` of `NounInfo` / `VerbInfo` / `AdjectiveInfo`.
-- Every message that carries labels has typed `tags` plus `raw_tags`; every message
-  built from a template keeps the raw `TemplateCall` (R4.2.1).
+- Usage labels are `repeated string labels` (R6.7); grammatical features use the closed
+  enums in `GrammaticalTags`, with `raw_tags` for any that don't map. Every message built
+  from a template keeps the raw `TemplateCall` (R4.2.1).
 - A table cell covering several cases (nom/acc) becomes one `Form` per case, so
   `GrammaticalTags` stays scalar and the list stays pivotable (R7.8).
 

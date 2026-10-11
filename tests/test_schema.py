@@ -105,8 +105,19 @@ def test_pos_covers_every_r5_3_heading() -> None:
     assert _values(pb.Pos.DESCRIPTOR) == expected
 
 
-def test_middle_polish_tag_exists_for_re_inclusion() -> None:
-    assert "MIDDLE_POLISH" in _values(pb.Tag.DESCRIPTOR)  # R6.6b
+def test_usage_labels_are_plain_strings() -> None:
+    # Labels are an open vocabulary (R6.7): canonical Wiktionary names as strings, never
+    # an enum, and only GrammaticalTags may be called `tags`.
+    assert "Tag" not in FILE.enum_types_by_name
+    for message in _all_messages():
+        for field in message.fields:
+            if field.name == "labels":
+                assert field.is_repeated, message.full_name
+                assert field.type == FieldDescriptor.TYPE_STRING, message.full_name
+            if field.name == "tags":
+                assert field.message_type is pb.GrammaticalTags.DESCRIPTOR, (
+                    message.full_name
+                )
 
 
 def test_grammatical_tags_are_scalar() -> None:

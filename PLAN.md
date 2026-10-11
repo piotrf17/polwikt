@@ -65,7 +65,7 @@ in CI. Participle entries link from the verb's `Form.record` (decision 10).
   `{{+obj}}` (R6.11); a collocation example kind for `{{coi}}` (R6.12); `Word`-level
   alternative forms, trivia and references (R5.5); prose (usage notes, trivia) stored
   plain + marked up like glosses (R7.6a); a link from a verb `Form` to its participle
-  record (decision 10); dialect pronunciations as `raw_tags`.
+  record (decision 10); dialect pronunciations labelled with the dialect name.
 - Design rules learned the first time round: **repeated messages, not `map<>`
   fields** — a map entry can't gain fields later and loses article order (R7.6; not a
   determinism issue, since `deterministic=True` sorts maps); enforce with a test over the
@@ -184,8 +184,8 @@ keeps its shared page-level pronunciation on `Word`.
 ## M6 — Senses in detail
 *Needs M5. ~1 week.*
 
-- Labels → typed tags with string passthrough (R6.7), label aliases resolved; dialect
-  labels as `TAG_DIALECTAL` + region in `raw_tags`; topics; `{{ux}}`/`{{uxi}}` examples
+- Labels → canonical label-name strings in `labels`, aliases resolved through
+  Wiktionary's label data modules (R6.7), dialect regions included; topics; `{{ux}}`/`{{uxi}}` examples
   and `{{quote-*}}`/`{{RQ:pl:…}}` with fields kept separate (R6.9); `{{coi}}`
   collocations (R6.12); `{{+obj}}` government (R6.11); sense-scoped nyms; `{{senseid}}`
   (R5.6); `form_of` from `{{inflection of}}` & friends, incl. `;` / `//` multi-set tags

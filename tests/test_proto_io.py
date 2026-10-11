@@ -39,8 +39,7 @@ def _rich_word() -> pb.Word:
             wikitext="[[cat]] {{gl|domestic animal}}",
             links=[pb.LinkSpan(start=0, end=3, target="cat")],
         ),
-        tags=[pb.Tag.TAG_COLLOQUIAL],
-        raw_tags=["Far Masovian"],
+        labels=["colloquial", "Far Masovian"],
         examples=[
             pb.Example(
                 kind=pb.Example.Kind.KIND_USAGE_EXAMPLE,
@@ -322,7 +321,7 @@ def test_index_locates_lemmas_and_resolves_forms(tmp_path: Path) -> None:
             "mamy",
             pb.EntryRef(title="mama"),
             pb.GrammaticalTags(grammatical_case=pb.Case.CASE_GENITIVE),
-            raw_tags=["colloquial"],
+            raw_tags=["depreciative"],
         )
 
     with CorpusIndex(tmp_path / "index.sqlite") as index:  # survives reopening
@@ -339,7 +338,7 @@ def test_index_locates_lemmas_and_resolves_forms(tmp_path: Path) -> None:
 
         mamy = index.resolve_form("mamy")
         assert [h.entry.title for h in mamy] == ["mieć", "mama"]
-        assert mamy[1].raw_tags == ("colloquial",)
+        assert mamy[1].raw_tags == ("depreciative",)
         assert index.resolve_form("pies") == []
 
 
