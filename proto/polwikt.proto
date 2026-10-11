@@ -1,0 +1,565 @@
+// polwikt corpus schema — the contract (REQUIREMENTS.md §7 describes its shape).
+//
+// Rules (R7.6, CLAUDE.md):
+// - Never renumber or reuse a field number; removal means `reserved`.
+// - Every enum has `<PREFIX>_UNSPECIFIED = 0`.
+// - No `map<>` fields: their wire order is unspecified, which breaks byte-identical
+//   output (G5). Use repeated messages, sorted by the writer.
+// - Anything that doesn't map to an enum keeps its literal string in `raw_tags` (R7.7).
+// - Field numbers 1-15 encode in one byte; they go to the fields of messages that repeat
+//   in the hundreds per word (Form, Sense, LinkSpan).
+
+syntax = "proto3";
+
+package polwikt;
+
+// ---------------------------------------------------------------------------
+// Grammatical categories: the closed Polish sets (R7.7, §6)
+// ---------------------------------------------------------------------------
+
+// Part of speech, from the POS heading (R5.3). The literal heading is kept in
+// PosEntry.heading regardless.
+enum Pos {
+  POS_UNSPECIFIED = 0;
+  POS_NOUN = 1;
+  POS_PROPER_NOUN = 2;
+  POS_VERB = 3;
+  POS_ADJECTIVE = 4;
+  POS_ADVERB = 5;
+  POS_PRONOUN = 6;
+  POS_NUMERAL = 7;
+  POS_DETERMINER = 8;
+  POS_PREPOSITION = 9;
+  POS_POSTPOSITION = 10;
+  POS_CONJUNCTION = 11;
+  POS_PARTICLE = 12;
+  POS_INTERJECTION = 13;
+  POS_PARTICIPLE = 14;
+  POS_PHRASE = 15;
+  POS_PREPOSITIONAL_PHRASE = 16;
+  POS_PROVERB = 17;
+  POS_IDIOM = 18;
+  POS_PREFIX = 19;
+  POS_SUFFIX = 20;
+  POS_INTERFIX = 21;
+  POS_INFIX = 22;
+  POS_CIRCUMFIX = 23;
+  POS_AFFIX = 24;
+  POS_COMBINING_FORM = 25;
+  POS_ABBREVIATION = 26;
+  POS_INITIALISM = 27;
+  POS_ACRONYM = 28;
+  POS_CONTRACTION = 29;
+  POS_LETTER = 30;
+  POS_SYMBOL = 31;
+  POS_DIACRITICAL_MARK = 32;
+  POS_PUNCTUATION_MARK = 33;
+  POS_SYLLABLE = 34;
+  POS_ROMANIZATION = 35;
+}
+
+enum Case {
+  CASE_UNSPECIFIED = 0;
+  CASE_NOMINATIVE = 1;
+  CASE_GENITIVE = 2;
+  CASE_DATIVE = 3;
+  CASE_ACCUSATIVE = 4;
+  CASE_INSTRUMENTAL = 5;
+  CASE_LOCATIVE = 6;
+  CASE_VOCATIVE = 7;
+}
+
+enum Number {
+  NUMBER_UNSPECIFIED = 0;
+  NUMBER_SINGULAR = 1;
+  NUMBER_PLURAL = 2;
+  NUMBER_DUAL = 3;  // remnant paradigms ({{pl-decl-noun-dual}}: ręce, oczy)
+}
+
+// Singular forms take masculine/feminine/neuter; plural agreement is virile
+// (masculine-personal) vs nonvirile (R6.1, R6.2).
+enum Gender {
+  GENDER_UNSPECIFIED = 0;
+  GENDER_MASCULINE = 1;
+  GENDER_FEMININE = 2;
+  GENDER_NEUTER = 3;
+  GENDER_VIRILE = 4;
+  GENDER_NONVIRILE = 5;
+}
+
+// Masculine subgender (R6.1).
+enum Animacy {
+  ANIMACY_UNSPECIFIED = 0;
+  ANIMACY_PERSONAL = 1;
+  ANIMACY_ANIMATE = 2;
+  ANIMACY_INANIMATE = 3;
+}
+
+enum Person {
+  PERSON_UNSPECIFIED = 0;
+  PERSON_FIRST = 1;
+  PERSON_SECOND = 2;
+  PERSON_THIRD = 3;
+}
+
+enum Tense {
+  TENSE_UNSPECIFIED = 0;
+  TENSE_PRESENT = 1;
+  TENSE_PAST = 2;
+  TENSE_FUTURE = 3;       // perfective simple future and both periphrastic futures
+  TENSE_PLUPERFECT = 4;   // archaic
+}
+
+enum Mood {
+  MOOD_UNSPECIFIED = 0;
+  MOOD_INDICATIVE = 1;
+  MOOD_IMPERATIVE = 2;
+  MOOD_CONDITIONAL = 3;
+}
+
+enum Aspect {
+  ASPECT_UNSPECIFIED = 0;
+  ASPECT_IMPERFECTIVE = 1;
+  ASPECT_PERFECTIVE = 2;
+  ASPECT_BIASPECTUAL = 3;
+}
+
+enum Voice {
+  VOICE_UNSPECIFIED = 0;
+  VOICE_ACTIVE = 1;
+  VOICE_PASSIVE = 2;
+}
+
+enum Degree {
+  DEGREE_UNSPECIFIED = 0;
+  DEGREE_POSITIVE = 1;
+  DEGREE_COMPARATIVE = 2;
+  DEGREE_SUPERLATIVE = 3;
+}
+
+// Non-finite verb forms (R6.2). Finite forms leave this UNSPECIFIED.
+enum VerbForm {
+  VERB_FORM_UNSPECIFIED = 0;
+  VERB_FORM_INFINITIVE = 1;
+  VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE = 2;       // -ący
+  VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE = 3;      // -ny / -ty
+  VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE = 4;  // -ąc
+  VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE = 5;      // -wszy / -łszy
+  VERB_FORM_VERBAL_NOUN = 6;                        // -nie / -cie
+  VERB_FORM_IMPERSONAL_PAST = 7;                    // -no / -to
+}
+
+// Usage labels from {{lb}} / {{tlb}} and qualifiers (R6.7). The label -> Tag map is
+// config; a label that maps nowhere goes to raw_tags verbatim.
+enum Tag {
+  TAG_UNSPECIFIED = 0;
+  // register
+  TAG_COLLOQUIAL = 1;
+  TAG_INFORMAL = 2;
+  TAG_FORMAL = 3;
+  TAG_LITERARY = 4;
+  TAG_POETIC = 5;
+  TAG_SLANG = 6;
+  TAG_VULGAR = 7;
+  TAG_OFFENSIVE = 8;
+  TAG_DEROGATORY = 9;
+  TAG_HUMOROUS = 10;
+  TAG_IRONIC = 11;
+  TAG_EUPHEMISTIC = 12;
+  // time and currency
+  TAG_ARCHAIC = 13;
+  TAG_DATED = 14;
+  TAG_OBSOLETE = 15;
+  TAG_HISTORICAL = 16;
+  TAG_RARE = 17;
+  TAG_NEOLOGISM = 18;
+  TAG_MIDDLE_POLISH = 19;  // drives the R6.6a drop; present only if re-included
+  // standardness and place
+  TAG_NONSTANDARD = 20;
+  TAG_PROSCRIBED = 21;
+  TAG_DIALECTAL = 22;      // region name in raw_tags (R6.7)
+  TAG_REGIONAL = 23;
+  // meaning
+  TAG_FIGURATIVE = 24;
+  TAG_LITERAL = 25;
+  // grammar-level labels
+  TAG_TRANSITIVE = 26;
+  TAG_INTRANSITIVE = 27;
+  TAG_REFLEXIVE = 28;      // {{lb|pl|reflexive-się}}
+  TAG_IMPERSONAL = 29;
+  TAG_AUXILIARY = 30;
+  TAG_DEFECTIVE = 31;
+  TAG_INDECLINABLE = 32;
+  TAG_PLURALE_TANTUM = 33;
+  TAG_SINGULARE_TANTUM = 34;
+  TAG_COLLECTIVE = 35;
+  TAG_DIMINUTIVE = 36;
+  TAG_AUGMENTATIVE = 37;
+  TAG_ABBREVIATION = 38;
+  TAG_ONOMATOPOEIC = 39;
+}
+
+// One cell's worth of grammatical features. Scalar on purpose: a cell covering several
+// cases (nom/acc) becomes one Form per case (R7.8).
+message GrammaticalTags {
+  Case grammatical_case = 1;  // `case` is a C++ keyword
+  Number number = 2;
+  Gender gender = 3;
+  Animacy animacy = 4;
+  Person person = 5;
+  Tense tense = 6;
+  Mood mood = 7;
+  Aspect aspect = 8;
+  Voice voice = 9;
+  Degree degree = 10;
+  VerbForm verb_form = 11;
+}
+
+// ---------------------------------------------------------------------------
+// Building blocks
+// ---------------------------------------------------------------------------
+
+// A template call as written, kept as the escape hatch when parsing is wrong (R4.2.1).
+// Positional args keep empty strings: position is meaning
+// ({{inflection of|pl|mama||gen|s}}).
+message TemplateCall {
+  string name = 1;                // canonical name, aliases resolved ({{infl of}} -> inflection of)
+  repeated string positional = 2;
+  repeated NamedArg named = 3;    // sorted by name
+}
+
+message NamedArg {
+  string name = 1;
+  string value = 2;
+}
+
+// Human-readable text stored twice (R7.6a): plain, plus the links over it and the
+// source wikitext.
+message RichText {
+  string text = 1;             // plain; links flattened to their display text
+  repeated LinkSpan links = 2;
+  string wikitext = 3;         // the source, markup intact
+}
+
+// A link inside RichText.text. Offsets are Unicode codepoints into the plain text —
+// Python str indices — never bytes (R7.6a).
+message LinkSpan {
+  int32 start = 1;
+  int32 end = 2;          // exclusive
+  string target = 3;      // page title; stored, never dereferenced (R3.2)
+  string anchor = 4;      // [[kot#Polish]] -> "Polish"
+  string lang_code = 5;   // from {{l|pl|...}} / {{m|pl|...}}; empty for bare [[...]]
+}
+
+// A pointer to one entry inside a Word record. Indices are 0-based; `optional` so that
+// "the first entry" and "not resolved to an entry" stay distinct.
+message EntryRef {
+  string title = 1;
+  optional int32 etymology_index = 2;  // into Word.etymologies
+  optional int32 entry_index = 3;      // into EtymologyGroup.entries
+}
+
+// Section content we have no rule for, kept rather than dropped (R5.3, invariant 2).
+message RawSection {
+  string heading = 1;
+  string wikitext = 2;
+}
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+message Example {
+  enum Kind {
+    KIND_UNSPECIFIED = 0;
+    KIND_USAGE_EXAMPLE = 1;  // {{ux}}, {{uxi}}
+    KIND_QUOTATION = 2;      // {{quote-*}}, {{RQ:pl:...}}
+    KIND_COLLOCATION = 3;    // {{coi}}, ====Collocations==== (R6.12)
+  }
+  Kind kind = 1;
+  RichText text = 2;          // the Polish
+  RichText translation = 3;   // the English
+  string literal = 4;         // literal translation, when given
+  Citation citation = 5;
+  repeated Tag tags = 6;
+  repeated string raw_tags = 7;
+  TemplateCall template = 8;
+}
+
+message Citation {
+  string author = 1;
+  string title = 2;
+  string year = 3;      // a string: "1908", "c. 1550", "1990s"
+  string publisher = 4;
+  string page = 5;
+  string url = 6;
+  string raw = 7;       // the rendered citation line, for anything the fields miss
+}
+
+// One pronunciation variant; a page with dialect variants has several (R6.5).
+message Pronunciation {
+  string ipa = 1;
+  string syllabification = 2;
+  string rhyme = 3;
+  string audio_file = 4;           // Commons file name
+  string audio_label = 5;          // the <text:...> modifier of {{pl-pr|a=...}}
+  repeated string homophones = 6;
+  repeated Tag tags = 7;
+  repeated string raw_tags = 8;    // dialect names from {{pl-pr}} parameters (R6.5)
+  TemplateCall template = 9;
+}
+
+// Case/preposition government from {{+obj|pl|...}} (R6.11).
+message Government {
+  string preposition = 1;    // empty for bare case government
+  Case grammatical_case = 2;
+  string slot_gloss = 3;     // "what", "to what", "on what"
+  string raw = 4;            // the argument as written, e.g. ":do(gen)<to what>"
+}
+
+message Relation {
+  enum Type {
+    TYPE_UNSPECIFIED = 0;
+    TYPE_SYNONYM = 1;
+    TYPE_ANTONYM = 2;
+    TYPE_HYPERNYM = 3;
+    TYPE_HYPONYM = 4;
+    TYPE_MERONYM = 5;
+    TYPE_HOLONYM = 6;
+    TYPE_COORDINATE = 7;
+    TYPE_TROPONYM = 8;
+    TYPE_DERIVED = 9;
+    TYPE_RELATED = 10;
+    TYPE_ALTERNATIVE_FORM = 11;
+    TYPE_SEE_ALSO = 12;
+    TYPE_DIMINUTIVE = 13;            // {{pl-noun|dim=}}
+    TYPE_AUGMENTATIVE = 14;
+    TYPE_ASPECT_PARTNER = 15;        // {{pl-verb}} partners; also inferred in P4 (R3.14)
+    TYPE_FREQUENTATIVE = 16;         // {{pl-verb|freq=}}
+    TYPE_COMPARATIVE = 17;           // {{pl-adj}} comparative
+    TYPE_SUPERLATIVE = 18;
+    TYPE_RELATED_ADJECTIVE = 19;     // {{pl-noun|adj=}}
+    TYPE_RELATED_ADVERB = 20;        // {{pl-adj|adv=}}
+    TYPE_FEMININE_EQUIVALENT = 21;
+    TYPE_MASCULINE_EQUIVALENT = 22;
+  }
+  Type type = 1;
+  string term = 2;
+  string gloss = 3;            // disambiguating gloss, when given
+  string sense_id = 4;         // target sense anchor (id=), when given
+  repeated Tag tags = 5;
+  repeated string raw_tags = 6;
+  EntryRef target = 7;         // filled by P4 where the term resolves
+  bool inferred = 8;           // derived in P4 rather than stated by the article
+  TemplateCall template = 9;
+}
+
+message Descendant {
+  enum Type {
+    TYPE_UNSPECIFIED = 0;
+    TYPE_INHERITED = 1;
+    TYPE_BORROWED = 2;
+    TYPE_LEARNED_BORROWING = 3;
+    TYPE_CALQUE = 4;
+    TYPE_SEMANTIC_LOAN = 5;
+  }
+  Type type = 1;
+  string lang_code = 2;
+  string term = 3;
+  string gloss = 4;
+  repeated string raw_tags = 5;
+  repeated Descendant children = 6;   // descendant lists are trees
+}
+
+message EtymologyLink {
+  enum Type {
+    TYPE_UNSPECIFIED = 0;
+    TYPE_INHERITED = 1;          // {{inh}}, {{inh+}}
+    TYPE_BORROWED = 2;           // {{bor}}, {{bor+}}
+    TYPE_LEARNED_BORROWING = 3;  // {{lbor}}
+    TYPE_SEMI_LEARNED_BORROWING = 4;
+    TYPE_DERIVED = 5;            // {{der}}
+    TYPE_CALQUE = 6;             // {{cal}}
+    TYPE_SEMANTIC_LOAN = 7;
+    TYPE_COGNATE = 8;            // {{cog}}
+    TYPE_AFFIX = 9;              // {{af}}, {{pre}}, {{suf}}, {{con}}
+    TYPE_COMPOUND = 10;          // {{com}}
+    TYPE_BACKFORMATION = 11;
+    TYPE_CLIPPING = 12;
+    TYPE_ONOMATOPOEIC = 13;
+    TYPE_UNKNOWN_ORIGIN = 14;
+  }
+  Type type = 1;
+  string lang_code = 2;    // "sla-pro", "zlw-opl", "de", "la", ...
+  string term = 3;
+  string gloss = 4;
+  string roman = 5;        // romanization of a non-Latin-script source term
+  TemplateCall template = 6;
+}
+
+message Reference {
+  RichText text = 1;           // rendered
+  string group = 2;            // the list it sat under, e.g. "Historic dictionaries"
+  TemplateCall template = 3;   // {{R:pl:WSJP|...}}
+}
+
+// What an entry is a form of (R6.6). Inflectional form-of entries are folded into the
+// lemma and never emitted (R3.13a); this survives on the lemma's Form. Participle
+// entries keep it on their own record, pointing at the verb (decision 10).
+message FormOf {
+  enum Type {
+    TYPE_UNSPECIFIED = 0;
+    TYPE_INFLECTION = 1;          // {{inflection of}}, {{plural of}}, ...
+    TYPE_PARTICIPLE = 2;          // a participle entry of a verb (not folded)
+    TYPE_ALTERNATIVE_FORM = 3;    // {{alt form}}, {{alternative spelling of}} (not folded)
+    TYPE_ABBREVIATION = 4;
+    TYPE_MISSPELLING = 5;
+  }
+  Type type = 1;
+  string lemma = 2;                       // as written in the article
+  EntryRef target = 3;                    // filled by P4
+  repeated GrammaticalTags tag_sets = 4;  // `;` and `//` expand to several (R6.6)
+  repeated string raw_tags = 5;
+  TemplateCall template = 6;
+}
+
+message Sense {
+  RichText gloss = 1;
+  repeated Tag tags = 2;
+  repeated string raw_tags = 3;          // unmapped labels; dialect region names
+  repeated Example examples = 4;
+  repeated Relation relations = 5;       // sense-scoped nyms: #: {{syn|pl|...}}
+  repeated Government government = 6;    // {{+obj|pl|...}} (R6.11)
+  FormOf form_of = 7;
+  string sense_id = 8;                   // {{senseid|pl|...}} (R5.6)
+  repeated Sense subsenses = 9;          // ## under # (R5.4)
+  repeated string topics = 10;           // topical categories: pl:Birds -> "Birds"
+  repeated string categories = 11;
+  repeated TemplateCall templates = 12;  // {{lb}}, {{+obj}}, ... as written
+}
+
+// One inflected form: flat and tagged, never a fixed table (R7.8).
+message Form {
+  enum Source {
+    SOURCE_UNSPECIFIED = 0;
+    SOURCE_DECLENSION_TABLE = 1;
+    SOURCE_CONJUGATION_TABLE = 2;
+    SOURCE_HEADWORD = 3;      // e.g. comparatives on {{pl-adj}}
+    SOURCE_FORM_PAGE = 4;     // only known from a folded form-of page (R3.13a)
+  }
+  string form = 1;
+  GrammaticalTags tags = 2;
+  repeated string raw_tags = 3;
+  Source source = 4;
+  repeated Tag usage_tags = 5;               // one cell marked archaic, humorous, ...
+  bool has_own_page = 6;                     // a dedicated form-of page attests it
+  repeated Pronunciation pronunciations = 7; // folded in from that page
+  EntryRef record = 8;                       // the participle's own Word (decision 10)
+}
+
+message NounInfo {
+  // Usually one; nouns with variable gender list each, in headword order.
+  repeated GenderAnimacy genders = 1;
+  bool indeclinable = 2;
+  bool plurale_tantum = 3;
+  bool singulare_tantum = 4;
+}
+
+message GenderAnimacy {
+  Gender gender = 1;
+  Animacy animacy = 2;
+}
+
+message VerbInfo {
+  Aspect aspect = 1;    // partners and frequentatives are Relations
+  bool reflexive = 2;   // the lemma takes się
+  bool impersonal = 3;
+  bool defective = 4;
+}
+
+message AdjectiveInfo {
+  enum Comparability {
+    COMPARABILITY_UNSPECIFIED = 0;
+    COMPARABILITY_COMPARABLE = 1;
+    COMPARABILITY_NOT_COMPARABLE = 2;
+  }
+  Comparability comparability = 1;  // comparative/superlative are Forms (R6.3)
+}
+
+// ---------------------------------------------------------------------------
+// Structure
+// ---------------------------------------------------------------------------
+
+// One POS section (R5.2).
+message PosEntry {
+  Pos pos = 1;
+  string heading = 2;                          // literal heading
+  string headword = 3;                         // as printed on the headword line
+  repeated TemplateCall head_templates = 4;
+  repeated Tag tags = 5;                       // term-level {{tlb}}
+  repeated string raw_tags = 6;
+  repeated Sense senses = 7;
+  repeated Form forms = 8;
+  repeated TemplateCall inflection_templates = 9;
+  repeated Relation relations = 10;            // section-level nyms, derived, related
+  repeated Example examples = 11;              // ====Collocations==== (R6.12)
+  repeated Descendant descendants = 12;
+  repeated Pronunciation pronunciations = 13;  // when given per POS
+  RichText usage_notes = 14;
+  repeated Reference references = 15;
+  repeated string categories = 16;
+  repeated RawSection other_sections = 17;
+
+  oneof detail {                               // matches `pos` where it applies
+    NounInfo noun = 18;
+    VerbInfo verb = 19;
+    AdjectiveInfo adjective = 20;
+  }
+}
+
+// One `Etymology N` section, or the whole language section when unnumbered (R5.1).
+message EtymologyGroup {
+  int32 number = 1;                            // N; 0 when the heading has no number
+  RichText etymology = 2;
+  repeated EtymologyLink links = 3;
+  repeated TemplateCall etymology_templates = 4;
+  repeated Pronunciation pronunciations = 5;
+  repeated PosEntry entries = 6;
+  repeated Relation relations = 7;             // e.g. alternative forms under this etymology
+  repeated string categories = 8;
+  repeated RawSection other_sections = 9;
+}
+
+// One lemma page's ==Polish== section (R7.7a). Form-only pages produce no Word.
+message Word {
+  string title = 1;
+  int64 page_id = 2;
+  int64 revision_id = 3;
+  string lang_code = 4;                        // "pl" in v1
+  repeated EtymologyGroup etymologies = 5;     // >= 1
+  repeated Pronunciation pronunciations = 6;   // page-level, above the etymologies
+  repeated Relation relations = 7;             // language-level alternative forms, see also
+  RichText trivia = 8;
+  repeated Reference references = 9;
+  repeated Reference further_reading = 10;
+  repeated string anagrams = 11;
+  repeated string categories = 12;
+  repeated RawSection other_sections = 13;
+}
+
+// Corpus-level metadata, written to corpus.meta.pb beside the shards rather than into
+// them: `generated_at` would otherwise break byte-identical shards (R7.4, G5).
+message Corpus {
+  string schema_version = 1;
+  string dump_date = 2;
+  string dump_sha1 = 3;
+  bool dump_pinned = 4;              // false when --dump overrode the pin (R2.1a)
+  string pipeline_git_revision = 5;
+  string generated_at = 6;           // RFC 3339; the one non-deterministic field
+  repeated string languages = 7;
+  repeated string drop_labels = 8;   // what was excluded (R6.6b)
+  int64 word_count = 9;
+  int32 shard_count = 10;
+  string license = 11;               // "CC BY-SA 4.0" (R11.1)
+  string attribution = 12;
+}

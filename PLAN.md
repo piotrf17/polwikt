@@ -3,7 +3,7 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0 ✅ (restarted from scratch 2026-10-11) — next is M1.
+**Progress:** M0 ✅ M1 ✅ (both restarted from scratch 2026-10-11) — next is M2.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
 pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
 history (`6fced42`); its lessons are folded into the M1 notes below, not its code.
@@ -47,8 +47,14 @@ M0 ─ M1 schema ─────────────────────
 
 ---
 
-## M1 — Protobuf schema and corpus I/O
-*No dump needed. 1–2 days. Gates every extractor.*
+## M1 — Protobuf schema and corpus I/O ✅
+*Done. 78 tests.* Beyond the bullets below: every readable string is one `RichText`
+message (plain text + codepoint `LinkSpan`s + source wikitext), so R7.6a is satisfied
+the same way everywhere; shards are sequences of independent zstd frames so the index
+stores a real seekable `Location` (R7.3); a frame cut short raises instead of reading
+as a shorter shard, and `read_corpus` checks `Corpus.word_count` to catch a cut exactly
+on a frame boundary; codegen freshness is a pytest test, so it fails locally, not just
+in CI. Participle entries link from the verb's `Form.record` (decision 10).
 
 - `proto/polwikt.proto`: `Word`, `EtymologyGroup`, `PosEntry`, `Sense`, `Form`,
   `LinkSpan`, `Pronunciation`, `Relation`, `Descendant`, `Example`, `TemplateCall`,

@@ -7,8 +7,9 @@ from the **English** Wiktionary dump into Protocol Buffers.
 - **`PLAN.md`** — implementation milestones M0–M14.
 - **`CLAUDE.md`** — dev setup and the invariants not to break.
 
-Status: **M0** — repo skeleton, toolchain, config and CLI surface. No pipeline pass is
-implemented yet; every pass command fails loudly with the milestone that delivers it.
+Status: **M1** — protobuf schema (`proto/polwikt.proto`) and corpus I/O
+(`polwikt/proto/io.py`). The pipeline passes start at M2; every pass command still fails
+loudly with the milestone that delivers it.
 
 ## Quick start
 

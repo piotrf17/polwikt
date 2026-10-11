@@ -3,8 +3,8 @@
 Extract Polish lexical data from the **English** Wiktionary dump into a structured,
 machine-readable corpus stored as Google Protocol Buffers.
 
-Status: **M0** — restarted from scratch on 2026-10-11 (see `PLAN.md`). Once M1 lands,
-`proto/polwikt.proto` is the schema contract and section 7 below is its rationale.
+Status: **M1 complete** (restarted from scratch on 2026-10-11, see `PLAN.md`).
+`proto/polwikt.proto` is the schema contract; section 7 below is its rationale.
 Spec reviewed 2026-10-11 against the live wiki, the dump index and the pinned upstream
 code; template/module names below were verified then (the pinned dump stays authoritative,
 and decisions 6–10 in §12 came out of that review).
