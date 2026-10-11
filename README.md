@@ -10,7 +10,7 @@ pronunciation, etymology, and lexical relations.
 - **`CLAUDE.md`** — dev setup and the invariants not to break.
 
 Status: **M1** — protobuf schema (`proto/polwikt.proto`) and corpus I/O. The pipeline
-passes themselves start at M2.
+passes themselves start at M2, after the small M1a schema amendments.
 
 ## Quick start
 

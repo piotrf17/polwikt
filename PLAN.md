@@ -3,142 +3,178 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Shape of the plan.** Two things gate everything and start on day one: the **proto
-schema** (every later module is written against it) and the **dump download + P1 scan**
-(hours of wall clock, and nothing downstream is real without it). Golden fixtures are
-fetched from the live wiki so extraction work can start before the dump lands. After that
-the extractors go in dependency order — structure, then senses, then paradigms — each one
-graded by the same golden harness.
+**Progress:** M0 ✅ M1 ✅ — next is M1a (small schema amendments), then M2.
+Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
+pinned upstream code (REQUIREMENTS §12, decisions 6–10).
+
+**Shape of the plan.** The **proto schema** gates every extractor and is done. The
+**dump + P1 scan** gates everything real: golden fixtures come from the pinned dump (not
+the live wiki, decision 7), so M3 follows M2. M4 wires up expansion and, as a side
+effect, records what each fixture touches — that record becomes the committed golden
+store, which is what lets every later milestone test without a dump. After that the
+extractors go in dependency order — structure, senses, paradigms — each graded by the
+same golden harness. There is no P2 milestone: the subset pass is deferred (decision 6).
 
 ```
-M0 skeleton ─┬─ M1 proto ─────────────────────────┬─ M5 structure ─ M6 senses ─┬─ M7 nom.
-             ├─ M2 dump + P1 scan ── M4 expansion ─┘                            ├─ M8 verb
-             └─ M3 golden harness ───────────────────────────────────────────────┴─ M9 pron/etym
-                                                                                     │
-                                        M12 scale ── M11 finalize (P4) ── M10 relations
-                                             └── M13 quality ── M14 release
+M0 ─ M1 ─ M1a schema ──────────────────────────┐
+      └─ M2 dump + P1 ─ M3 fixtures ─ M4 expansion ─┴─ M5 structure ─ M6 senses ─┬─ M7 nominal
+                                                                                  ├─ M8 verbal
+                                                                                  ├─ M9 pron/etym
+                                                                                  └─ M10 relations
+                                     M11 P4 finalize ─ M12 full run ─ M13 quality ─ M14 release
 ```
 
 ---
 
-## M0 — Repo skeleton and tooling
-*No dump needed. Half a day.*
+## M0 — Repo skeleton and tooling ✅
+*Done (`84f59f8`).*
 
-- `git init`; `pyproject.toml` with pinned deps and `[dev]` extra (R10.2); `.gitignore`
-  excluding `data/`, `.venv/`, `*.sqlite`, `*.pb.zst`. Toolchain is `uv` with a committed
-  `uv.lock`; upstream deps git-pinned by commit SHA.
-- Package layout per R10.4, each subpackage an importable stub.
-- `Makefile` wrapping `uv run` for `proto`, `lint`, `format`, `typecheck`, `test`.
-- CI: `ruff check` + `ruff format --check` + `mypy --strict` + `pytest`, and a
-  `make proto && git diff --exit-code` step (CLAUDE.md codegen rule).
-- `polwikt.toml` with the dump pin placeholder and empty config tables (R10.5).
-
-**Exit:** `ruff check` + `ruff format --check` + `mypy --strict` + `pytest` all green.
-CI runs on push.
+uv toolchain with committed `uv.lock`; upstream git-pinned by SHA (R10.2); package
+layout per R10.4; ruff + `mypy --strict` + pytest + CI incl. codegen freshness;
+`polwikt.toml` config loader; CLI with every R10.3 command stubbed to fail loudly.
 
 ---
 
-## M1 — Protobuf schema and corpus I/O
-*No dump needed. 1–2 days. Gates everything downstream.*
+## M1 — Protobuf schema and corpus I/O ✅
+*Done (`6fced42`).*
 
-- `proto/polwikt.proto`: `Word`, `EtymologyGroup`, `PosEntry`, `Sense`, `Form`,
-  `LinkSpan`, `Pronunciation`, `Relation`, `Descendant`, `Example`, `TemplateCall`,
-  `FormOf`, `Corpus`, and the grammatical enums (case, number, gender, animacy, person,
-  tense, mood, aspect, degree, participle type) — §7, R7.1/R7.6–R7.8.
-- `make proto` → committed `_pb2.py`/`_pb2.pyi`.
-- `polwikt/proto/io.py`: varint-delimited zstd shard writer/reader (R7.2), `index.sqlite`
-  helpers (R7.3), `MessageToJson` view (R7.5).
+`proto/polwikt.proto` (the contract), committed `_pb2.py`/`.pyi`; `polwikt/proto/io.py`
+with varint-framed zstd shards, streaming reader, `index.sqlite`, JSON view. No `map<>`
+fields (G5), `Corpus` metadata out of band in `corpus.meta.pb` (R7.4), syncretic cells as
+one `Form` per case (R7.8). 53 tests, incl. 50k-record sharding and two-run byte identity.
 
-**Exit:** round-trip test (write N messages → read back identical) incl. a 50k-message
-sharding test; JSON view of a hand-built `Word` looks right; enums cover every category in
-§6 with `_UNSPECIFIED = 0`.
+---
 
-**Risk:** getting this wrong is expensive later (R7.6 forbids renumbering). Review the
-schema against §6 *before* writing extractors, not after.
+## M1a — Schema amendments from the spec review
+*No dump needed. Half a day. Additive only (R7.6) — do it before M5 writes extractors.*
+
+The review found things real Polish entries carry that the schema has no slot for:
+
+- `Pos`: add `PREPOSITIONAL_PHRASE`, `AFFIX`, `CIRCUMFIX`, `COMBINING_FORM` (R5.3).
+- `Government` message on `Sense` for `{{+obj|pl|…}}`: case enum, optional preposition,
+  slot gloss, raw call (R6.11).
+- `Example.Type.TYPE_COLLOCATION` for `{{coi}}` / `====Collocations====` (R6.12).
+- `Word`-level homes for language-level sections: `alternative_forms`, `trivia`,
+  `references` (R5.5).
+- Usage notes and trivia stored twice — plain + spans/raw — like other prose (R7.6a);
+  today `usage_notes` is a single string.
+- Participle entries: a way for a verb `Form` to point at its participle record
+  (decision 10 — confirm first).
+- Dialect on `Pronunciation`: keep as `raw_tags` (map is config), but document it.
+
+**Exit:** regenerated `_pb2`, schema tests extended to the new fields, nothing renumbered.
 
 ---
 
 ## M2 — Dump acquisition and P1 scan
-*Start the download at M0. 2–3 days of work, plus wall clock.*
+*2–3 days of work, plus ~1 h wall clock per scan.*
 
-- `polwikt fetch`: download pinned dump, sha1-verify (R2.1, R2.1a).
-- Streaming bz2 XML reader — never fully decompress to disk (R2.4); prefer multistream.
-- P1 store: SQLite, zstd per-row text (R3.1); ns-0 kept **only** on a `==Polish==` heading
-  line match (R3.2); other namespaces unfiltered (R3.3); `all_titles` for every page,
-  no text (R3.2a); redirects recorded (R2.3).
-- Resumability + filter-predicate fingerprint (R3.4); read/kept counters (R3.5).
+- `polwikt fetch`: download the pinned recombined file
+  (`enwiktionary-20261001-pages-articles.xml.bz2`, 1.65 GB, sha1 `f9ed426c…`) with a
+  descriptive User-Agent, sha1-verify (R2.1, R2.1a); write the pin to `polwikt.toml` in
+  its own commit.
+- Streaming reader over `lbzcat` — never decompress to disk (R2.4). Upstream's
+  `process_dump()` has no per-page content filter, so stream with its
+  `decompress_dump_file`/`parse_dump_xml` primitives and add pages ourselves.
+- P1 store in **upstream's own `pages` schema** so `Wtp(db_path=…)` reads it directly,
+  plus our side tables `page_meta`, `all_titles`, `scan_meta` (R3.1, R3.2a). ns-0 kept
+  **only** on a `==Polish==` heading line (R3.2); R2.2 namespaces unfiltered (R3.3);
+  everything else title-only; redirects recorded (R2.3).
+- Resumability + predicate fingerprint (R3.4); read/kept counters (R3.5).
+- `TMPDIR`/`SQLITE_TMPDIR` inside the project share — `/` has 6.8 GB (§9).
 
-**Exit:** `pages.sqlite` built from the pinned dump; kept ns-0 count lands in 10^5–10^6
-(a count near 0 or near 10^7 means the predicate is broken); re-running skips; store size
-and scan wall clock recorded against the R9.1 target (≤60 min).
+**Exit:** `pages.sqlite` built from the pinned dump; kept ns-0 count lands in
+**1–3×10^5** (expect ~1.8×10^5 from the category counts; near 0 or near 10^7 means the
+predicate is broken); re-running skips; scan wall clock vs R9.1 (≤60 min), store size,
+and Template/Module page counts recorded. **Decision point:** if `pages.sqlite` is too
+large to stay in page cache on this box, revive P2 (decision 6).
 
 ---
 
-## M3 — Golden corpus and test harness
-*No dump needed — fixtures come from the live wiki. 1–2 days. Unblocks all extractors.*
+## M3 — Golden fixtures and test harness
+*Needs M2. 1–2 days.*
 
-- Fetch raw wikitext for ~50 chosen pages via Special:Export **at authoring time** (this
-  is a one-off tool, not pipeline code — R4.5 forbids network at runtime); check the
-  wikitext into `tests/golden/`.
-- Coverage per R8.1 plus the negative cases: Middle Polish senses, all-Middle-Polish page,
-  lemma-and-form page (`mamy`, `piec`), multi-etymology (`zamek`), pluralia tantum,
-  irregular verbs (`być`, `iść`, `jeść`, `chcieć`).
+- `tools/golden.py` pulls ~50 chosen pages' raw wikitext from `pages.sqlite` into
+  `tests/golden/` (R8.1). A dev tool, not pipeline code.
+- Coverage per R8.1, including the negative and edge cases: `dobry` (Middle Polish in
+  every R6.6a position), an all-Middle-Polish page (find one here), lemma-and-form pages
+  `bez` and `mieć`, the two-lemma form page `mamy`, `kotów`, multi-etymology `zamek`,
+  pluralia tantum, a participle, irregular verbs (`być`, `iść`, `jeść`, `chcieć`).
 - Harness: run extraction over a fixture, diff against expected JSON, `--update-golden` to
-  re-bless. `polwikt inspect <title>` printing expanded wikitext → node tree → proto.
+  re-bless. `polwikt inspect <title>` printing raw wikitext → node tree → proto.
 
-**Exit:** harness runs green with all expectations still empty/`TODO`; each later milestone
-fills them in. Tests never touch a dump.
+**Exit:** harness runs green with all expectations still empty/`TODO`; tests that need
+expansion are marked to skip until M4 commits the store snapshot. Tests never touch the
+dump.
 
 ---
 
-## M4 — Expansion layer (P2 + template/Lua expansion)
-*Needs M2. 1–2 weeks. The hardest and least predictable milestone.*
+## M4 — Expansion layer
+*Needs M2, M3. 1–2 weeks. The hardest and least predictable milestone.*
 
-- Closure walker: `{{tpl}}`, `{{#invoke:}}`, `require`, `mw.loadData`, redirects (R3.6),
-  over-approximated by module family with logged misses (R3.7) → `subset.sqlite` (R3.8).
-- `wikitextprocessor` wiring: page db handoff, `start_page`, `expand`, `parse`, Lua
-  sandbox via lupa, per-page time limit, hermetic execution (R4.5).
+- `wikitextprocessor` wiring: `Wtp(db_path=pages.sqlite)`, `start_page`, `expand`,
+  `parse`, Lua via lupa, per-page time limit.
+- Hermeticity (R4.5): stub upstream's **live Wikidata HTTP** entry points
+  (`mw.wikibase.*` and label/description lookups) and count every hit; no other network.
+- Existence via `all_titles`; `getContent()` on a pruned ns-0 page raises a counted
+  error rather than upstream's silent nil (R3.2a).
+- Touched-page recorder (R3.8a) → `tools/golden.py --snapshot` builds the committed
+  `tests/golden/store.sqlite.zst` (R8.1a); un-skip the expansion tests.
 - Expansion **policy** in config (R4.2): expand inflection tables; capture `{{lb}}`,
-  `{{ux}}`, `{{infl of}}`, `{{inh}}`/`{{bor}}`/`{{der}}`, IPA templates as structured
-  calls; both for headwords; retain raw `{name, args}` everywhere (R4.2.1).
+  `{{uxi}}`, `{{coi}}`, `{{+obj}}`, inline nyms, `{{inflection of}}`, etymology templates
+  incl. `{{etymon}}`, `{{pl-pr}}` as structured calls; both for headwords; aliases
+  resolved first; raw `{name, args}` retained everywhere (R4.2.1).
 - Parser functions, magic words, `<nowiki>`/`<ref>`/comments (R4.4); Lua failure degrades
   gracefully and is counted (R4.3); `unhandled.jsonl` (R4.6).
 
-**Exit:** `{{pl-decl-noun-*}}`, `{{pl-conj-*}}`, `{{pl-noun}}`, `{{pl-verb}}`, `{{pl-p}}`
-expand to correct wikitext for every golden fixture; `subset.sqlite` < 2 GB; expansion
-throughput measured (pages/sec/core) to sanity-check the R9.2 budget.
+**Exit:** `{{pl-decl-noun-*}}`/`{{pl-decl-noun}}` (`Module:pl-noun`), `{{pl-adecl}}`
+(`Module:pl-adjective`), the `{{pl-conj-ai}}`/`{{pl-conj-ap}}` families,
+`{{pl-noun}}`/`{{pl-verb}}`/`{{pl-adj}}` (`Module:zlw-lch-headword`) and `{{pl-pr}}`
+(`Module:zlw-lch-IPA`) expand correctly for every golden fixture, from the committed
+snapshot, with zero Wikidata network attempts. Throughput measured (pages/sec/worker,
+lemma vs form page) and **R9.2's provisional 2 h target replaced with the measured
+number**; snapshot size recorded (expect a few MB compressed).
 
-**Risks:** en.wiktionary's Lua stack reaches further than expected (missing modules → over-
-approximate harder); `mw.title:getContent()` on a pruned ns-0 page (R3.2a corollary — if
-this fires for real Polish modules, the P1 filter needs a carve-out).
+**Risks:** en.wiktionary's Lua stack reaches further than expected (the recorder shows
+exactly how far); a Polish-reachable module that needs `getContent()` on a pruned ns-0
+page (R3.2a — if it fires for real, P1 needs a carve-out); a module that needs Wikidata.
 
 ---
 
 ## M5 — Section structure extraction
-*Needs M1, M3, M4. ~1 week.*
+*Needs M1a, M3, M4. ~1 week.*
 
 - L2 `==Polish==` isolation; `Etymology N` grouping preserved, **not** flattened (R5.1);
-  POS headings at L3 and L4 (R5.2); the POS heading map as config (R5.3); nested sense
-  lists as child senses (R5.4); language-level trailing sections (R5.5).
+  POS at L3/L4 and subsections at L4/L5, attached by heading type, not depth (R5.2);
+  repeated POS headings within one etymology (`iść`); the POS heading map as config
+  (R5.3), unknown headings counted; nested sense lists as child senses (R5.4);
+  language-level sections above and below the etymologies (R5.5).
 - Emits `Word` with structure + plain glosses only.
 
 **Exit:** every fixture produces the right tree — correct etymology-group count, POS set,
-sense/subsense nesting. `zamek` keeps its senses attached to the right etymology.
+sense/subsense nesting. `zamek` keeps its senses attached to the right etymology; `mieć`
+keeps its shared page-level pronunciation on `Word`.
 
 ---
 
 ## M6 — Senses in detail
 *Needs M5. ~1 week.*
 
-- Labels → typed tags with string passthrough (R6.7); topics; `{{ux}}` examples and
-  `{{quote-*}}` with fields kept separate (R6.9); sense-scoped relations; `{{senseid}}`
-  (R5.6); `form_of` from `{{infl of}}` & friends decoded to tags (R6.6).
+- Labels → typed tags with string passthrough (R6.7), label aliases resolved; dialect
+  labels as `TAG_DIALECTAL` + region in `raw_tags`; topics; `{{ux}}`/`{{uxi}}` examples
+  and `{{quote-*}}`/`{{RQ:pl:…}}` with fields kept separate (R6.9); `{{coi}}`
+  collocations (R6.12); `{{+obj}}` government (R6.11); sense-scoped nyms; `{{senseid}}`
+  (R5.6); `form_of` from `{{inflection of}}` & friends, incl. `;` / `//` multi-set tags
+  (R6.6).
 - Plain gloss + `LinkSpan` list, codepoint offsets (R7.6a).
-- **Middle Polish drop** with sense → entry → page cascade and per-label counts
-  (R6.6a–c), driven by `drop_labels` config.
+- **Middle Polish drop** framework: `drop_labels` config, sense → entry → page cascade,
+  per-label and per-kind counts (R6.6a–c). This milestone owns senses and `{{tlb}}`
+  entries; M7, M9 and M10 plug their kinds (tables, `mp=`, alt forms, reference groups)
+  into the same counter.
 
-**Exit:** golden expectations filled for senses; the three negative fixtures behave
-exactly as specified; `stats.json` reports drop counts by label.
+**Exit:** golden expectations filled for senses; `dobry`'s Middle Polish senses gone and
+counted; the all-Middle-Polish fixture yields no record; `stats.json` reports drop counts
+by label and kind.
 
 ---
 
@@ -146,11 +182,14 @@ exactly as specified; `stats.json` reports drop counts by label.
 *Needs M4, M5. ~1–2 weeks.*
 
 - Parse expanded declension tables → flat tagged `Form` list (R7.8): 7 cases × 2 numbers,
-  alternative cells, absent cells genuinely absent (R6.1).
+  alternative cells, absent cells genuinely absent (R6.1). Both the pattern templates
+  (`{{pl-decl-noun-m-anml}}`, …) and explicit-cell `{{pl-decl-noun|noms=…}}`.
 - Gender **and animacy** incl. virile/nonvirile from headword templates (R6.1).
-- Adjective degree + non-comparable marking (R6.3); pronoun/numeral irregulars (R6.4).
+- Adjectives via `{{pl-adecl}}`; degree + non-comparable marking (R6.3);
+  pronoun/numeral paradigms incl. collective numerals (R6.4).
+- `{{pl-mid-decl-noun}}` tables dropped and counted (R6.6a).
 
-**Exit:** all nominal fixtures byte-match expectations, pluralia tantum and defective
+**Exit:** all nominal fixtures match expectations, pluralia tantum and defective
 paradigms included; noun-declension coverage measured over a `--limit` sample.
 
 ---
@@ -158,10 +197,15 @@ paradigms included; noun-declension coverage measured over a `--limit` sample.
 ## M8 — Verbal inflection
 *Needs M4, M5. ~2 weeks — the largest paradigm.*
 
-- Full paradigm per R6.2: infinitive; present/perfective-future; past by person × number ×
-  gender; periphrastic future; imperative; conditional; impersonal `-no`/`-to`; verbal
-  noun; both adjectival and both adverbial participles.
-- Aspect and aspect partner; reflexive `się`; frequentatives.
+- Parse the conjugation template families — `{{pl-conj-ai}}`/`{{pl-conj-ap}}` and their
+  class subtemplates (`-uję`, `-ić`, `-nąć`, `-VII`, …), `{{pl-conj-być}}`,
+  `{{pl-conj-defective}}`, `{{pl-conj-powinienem}}`; identify what the `pl-skur-*`
+  families are before deciding whether they're in scope.
+- Full paradigm per R6.2: infinitive; present/perfective-future; past and conditional by
+  person × number × gender (sg m/f/n, pl virile/nonvirile); both periphrastic futures;
+  imperative; impersonal `-no`/`-to`; verbal noun; both adjectival and both adverbial
+  participles.
+- Aspect and aspect partner; reflexive `się`; frequentatives (`freq=`).
 
 **Exit:** `być`, `iść`, `jeść`, `chcieć`, a regular imperfective/perfective pair and a
 reflexive verb all match expectations, every paradigm slot tagged.
@@ -171,12 +215,13 @@ reflexive verb all match expectations, every paradigm slot tagged.
 ## M9 — Pronunciation and etymology
 *Needs M4, M5. ~1 week.*
 
-- IPA from `{{pl-IPA}}`/`{{pl-p}}`/`{{IPA}}`, audio, rhymes, **syllabification**,
-  homophones, regional/diachronic qualifiers as tags (R6.5) — Middle Polish variants
-  dropped per R6.6a.
-- Etymology: rendered text **and** typed links (inherited/borrowed/derived/compound) with
-  source language codes, cognates, Proto-Slavic reconstructions, affix decomposition
-  (R6.8).
+- `{{pl-pr}}` parameters: IPA, `a=` audio with `<text:…>` modifiers, `hh=` homophones,
+  rhymes, **syllabification**, and per-dialect variants as separate `Pronunciation`s via
+  a config dialect map (R6.5); `mp=` dropped and counted (R6.6a). Literal `{{IPA|pl|…}}`
+  as the fallback.
+- Etymology: rendered text **and** typed links (`{{inh}}`/`{{inh+}}`, `{{bor}}`,
+  `{{der}}`, `{{etymon}}`, compounds/affixes) with source language codes, cognates,
+  Proto-Slavic reconstructions (R6.8).
 
 **Exit:** pronunciation and etymology expectations filled across the fixture set.
 
@@ -185,8 +230,10 @@ reflexive verb all match expectations, every paradigm slot tagged.
 ## M10 — Relations, descendants, and the remaining sections
 *Needs M5. ~3–4 days.*
 
-- Synonyms/antonyms/hypernyms/hyponyms/meronyms/holonyms, derived and related terms,
-  descendants, alternative forms, usage notes, references/further reading, anagrams.
+- Synonyms/antonyms/hypernyms/hyponyms/meronyms/holonyms, coordinate terms, derived and
+  related terms (`{{col}}`, `{{pl-derived verbs}}`), descendants (`{{desc}}`,
+  `{{desctree}}`), alternative forms (Middle Polish ones dropped), usage notes, trivia,
+  references/further reading (the `Middle Polish:` group dropped), anagrams.
 - Categories: explicit **and** template-emitted during expansion (R6.10).
 
 **Exit:** no golden fixture has unclaimed section content; anything unrecognised lands in
@@ -198,16 +245,19 @@ the unhandled-section counter rather than being dropped.
 *Needs M6–M10. ~1 week.*
 
 - Resolve `form_of`/`alt_of` to lemma and specific entry (R3.13).
-- **Fold and drop** inflected-form entries, per POS entry not per page; transfer
+- **Fold and drop** inflectional form-of entries, per POS entry not per page; transfer
   attestation, missing cells and the form page's pronunciation onto the lemma's `Form`
-  (R3.13a); `index.sqlite` surface-form → lemma map (R3.13b); unresolved forms counted and
-  logged, never silently dropped (R3.13c).
-- Aspect pairs, diminutive/augmentative chains, comparative ↔ positive (R3.14).
+  (R3.13a); participles, `{{syn of}}` and `{{alt form}}` entries are *not* folded;
+  `index.sqlite` surface-form → lemma map (R3.13b); unresolved forms counted and logged
+  (R3.13c). All of it through SQLite, within R9.3's memory budget.
+- Aspect pairs, frequentatives, diminutive/augmentative chains, comparative ↔ positive
+  (R3.14).
 - Canonical sharded corpus + index (R3.15); `Corpus` metadata incl. dump pin and active
-  `drop_labels` (R7.4); `stats.json` (R3.16).
+  `drop_labels` (R7.4); `stats.json` (R3.16) and `polwikt stats-diff` (R8.3).
 
-**Exit:** `mamy`/`piec` keep only their lemma halves; `kotów` yields no record but resolves
-through the index; unresolved-form count is small and explained.
+**Exit:** `bez`/`mieć` keep only their lemma halves; `mamy` yields no record and resolves
+to both `mieć` and `mama`; `kotów` yields no record but resolves through the index;
+unresolved-form count is small and explained.
 
 ---
 
@@ -216,22 +266,24 @@ through the index; unresolved-form count is small and explained.
 
 - `--jobs` multiprocessing with stateless workers (R3.10); deterministic output order
   regardless of job count (R3.11); per-page error isolation and `--max-error-rate` (R3.12).
-- Full-corpus run end to end; measure against R9.1–R9.5.
+- Full-corpus run end to end on this box; measure against R9.1–R9.5.
 
-**Exit:** two full runs with different `--jobs` produce **byte-identical** output; P3 ≤ 20
-min on 8 cores; peak RSS ≤ 4 GB/worker; interrupted run resumes correctly.
+**Exit:** full runs at `--jobs 1` and `--jobs 2` produce **byte-identical** output; P3
+within the R9.2 target as reset at M4; peak RSS ≤ 1.5 GB per worker; interrupted run
+resumes correctly; disk total within R9.5.
 
 ---
 
 ## M13 — Quality pass
 *Needs M12. Ongoing, ~2 weeks of focused work.*
 
-- `wiktextract` oracle: generate its JSON for the golden set, diff field by field, and
-  triage each divergence into *our bug* / *their flattening* / *deliberate difference*
-  (§12.1).
+- `wiktextract` oracle: generate its JSON for the golden set (from the same committed
+  store), diff field by field, and triage each divergence into *our bug* / *their
+  flattening* / *deliberate difference* (§12.1).
 - Burn down `unhandled.jsonl` by frequency — the top entries are the backlog (R4.6).
 - Hit R8.4 targets: senses ≥99%, noun declension ≥95%, verb conjugation ≥90%.
-- Wire the `stats.json` regression gate into CI (R8.3, >1% drop fails).
+- CI gates the golden-run `stats.json` (R8.3); full-run `stats-diff` documented as the
+  required local check for extraction changes and pin moves.
 
 **Exit:** coverage targets met and quoted **from a real `stats.json`**, not estimated;
 oracle diff has no unexplained entries.
@@ -246,7 +298,7 @@ oracle diff has no unexplained entries.
 - `LICENSE-DATA` (CC BY-SA 4.0 + attribution) emitted next to every output; MIT for the
   code (R11).
 - Versioned corpus artifact named by dump date + schema version; documented dump re-pin
-  procedure (R2.1a).
+  procedure (R2.1a), incl. regenerating the golden store.
 
 **Exit:** a fresh clone can go from pinned dump to corpus with the documented commands.
 
@@ -256,8 +308,11 @@ oracle diff has no unexplained entries.
 
 | Risk | Milestone | Mitigation |
 |---|---|---|
-| Lua/Scribunto expansion doesn't cover what Polish modules need | M4 | over-approximate the module closure; degrade gracefully and count (R4.3); this is the milestone to timebox and re-scope early |
-| Inflection table HTML layout varies by template family | M7, M8 | parse from the expanded table *and* keep raw template args (R4.2.1); cross-check against folded form pages in M11 |
-| Pinned dump expires from Wikimedia's retention window | M2+ | keep the pinned dump archived locally; re-pin deliberately with a stats diff |
+| Lua/Scribunto expansion doesn't cover what Polish modules need | M4 | the touched-page recorder shows the real reach; degrade gracefully and count (R4.3); timebox and re-scope early |
+| Upstream reaches the network (Wikidata) from Lua | M4 | stub and count every entry point (R4.5); a test asserts zero network attempts on the golden set |
+| Inflection table layout varies by template family | M7, M8 | parse from the expanded table *and* keep raw template args (R4.2.1); cross-check against folded form pages in M11 |
+| Template/module names drift (several in the original spec were already wrong) | all | names live in config, verified against the pinned dump, not the live wiki |
+| Pinned dump expires from Wikimedia's retention (~10 months observed) | M2+ | keep the pinned dump archived locally; re-pin deliberately with a stats diff |
+| `pages.sqlite` too large for page cache on a 5 GB box | M2, M12 | measure at M2; revive P2 (decision 6) only if needed |
 | `wikitextprocessor`/`wiktextract` version drift | M4, M13 | exact pins, documented upgrade procedure (R10.2) |
-| Schema churn after extractors are written | M1 | additive-only discipline (R7.6); review schema against §6 before M5 |
+| Schema churn after extractors are written | M1a | additive-only discipline (R7.6); M1a lands the review's gaps before M5 |

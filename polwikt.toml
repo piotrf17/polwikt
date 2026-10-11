@@ -6,7 +6,7 @@
 # The single pinned dump used by every dev run, golden test and stats comparison (R2.1a).
 # Filled in at M2 on the first fetch; moving the pin is its own commit, reviewed
 # alongside the stats.json diff it produces.
-date = ""        # e.g. "20260801" -> enwiktionary-20260801-pages-articles.xml.bz2
+date = ""        # e.g. "20261001" -> enwiktionary-20261001-pages-articles.xml.bz2
 sha1 = ""        # from the dump's published *-sha1sums.txt
 url_base = "https://dumps.wikimedia.org/enwiktionary/"
 
