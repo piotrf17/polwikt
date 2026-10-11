@@ -48,42 +48,27 @@ M0 ─ M1 schema ─────────────────────
 ---
 
 ## M1 — Protobuf schema and corpus I/O ✅
-*Done. 78 tests.* Beyond the bullets below: every readable string is one `RichText`
-message (plain text + codepoint `LinkSpan`s + source wikitext), so R7.6a is satisfied
-the same way everywhere; shards are sequences of independent zstd frames so the index
-stores a real seekable `Location` (R7.3); a frame cut short raises instead of reading
-as a shorter shard, and `read_corpus` checks `Corpus.word_count` to catch a cut exactly
-on a frame boundary; codegen freshness is a pytest test, so it fails locally, not just
-in CI. Participle entries link from the verb's `Form.record` (decision 10).
+*Done. Schema revised the same day for app consumers (decision 11).*
 
-- `proto/polwikt.proto`: `Word`, `EtymologyGroup`, `PosEntry`, `Sense`, `Form`,
-  `LinkSpan`, `Pronunciation`, `Relation`, `Descendant`, `Example`, `TemplateCall`,
-  `FormOf`, `Corpus`, and the grammatical enums (case, number, gender, animacy, person,
-  tense, mood, aspect, degree, voice, non-finite forms) — §7, R7.1/R7.6–R7.8.
-- Include what the spec review found real entries carry: POS `PREPOSITIONAL_PHRASE`,
-  `AFFIX`, `CIRCUMFIX`, `COMBINING_FORM` (R5.3); a `Government` message on `Sense` for
-  `{{+obj}}` (R6.11); a collocation example kind for `{{coi}}` (R6.12); `Word`-level
-  alternative forms, trivia and references (R5.5); prose (usage notes, trivia) stored
-  plain + marked up like glosses (R7.6a); a link from a verb `Form` to its participle
-  record (decision 10); dialect pronunciations labelled with the dialect name.
-- Design rules learned the first time round: **repeated messages, not `map<>`
-  fields** — a map entry can't gain fields later and loses article order (R7.6; not a
-  determinism issue, since `deterministic=True` sorts maps); enforce with a test over the
-  descriptors; `Corpus` metadata written
-  **out of band** to `corpus.meta.pb` (its timestamp would break byte-identical shards);
-  a cell covering several cases becomes **one `Form` per case** so tags stay scalar;
-  `case` is a C++ keyword, so the field is `grammatical_case`.
-- `make proto` → committed `_pb2.py`/`_pb2.pyi`; CI fails if regeneration dirties the tree.
-- `polwikt/proto/io.py`: varint-delimited zstd shard writer/reader with `-of-N` names
-  resolved at close (R7.2), `index.sqlite` helpers (R7.3), JSON view (R7.5),
-  deterministic serialization.
+- `proto/polwikt.proto` is an **output contract for apps** (dictionary, flashcards), not
+  a Wiktionary mirror: `Word` (lemma, frequency) → self-contained `Entry` per lexeme →
+  `Sense`, flat `Form` list, `Pronunciation`, `Audio`, `Example` (example / quotation /
+  collocation), `Government`, `Relation`; closed grammatical enums (case, number,
+  gender, animacy, person, tense, mood, aspect, degree, non-finite form); usage labels,
+  dialects and topics as plain strings. A test keeps Wiktionary bookkeeping out.
+- Design rules: repeated messages, never `map<>` (R7.6); `Corpus` metadata in its own
+  `corpus.meta.pb`; a cell covering several cases becomes one `Form` per case;
+  `grammatical_case` because `case` is a C++ keyword.
+- `make proto` → committed `_pb2.py`/`_pb2.pyi`; codegen freshness is a pytest test.
+- `polwikt/proto/io.py`: shards are sequences of independent zstd frames of
+  varint-delimited records, so the index stores a real seekable `Location` (R7.2, R7.3);
+  `.part` → `-of-N` rename on clean close; a frame cut short raises, and `read_corpus`
+  checks `Corpus.word_count` to catch a cut exactly on a frame boundary; `index.sqlite`
+  maps lemma → `Location` and surface form → (lemma, entry index, tags); one-line JSON
+  view (R7.5).
 
-**Exit:** round-trip tests incl. a 50k-message sharding test and a two-run byte-identity
-test; a `LinkSpan` test on non-ASCII text proving codepoint offsets (R7.6a); enums cover
-every §6 category with `_UNSPECIFIED = 0`; a test that no message has a map field.
-
-**Risk:** getting this wrong is expensive later (R7.6 forbids renumbering). Review the
-schema against §6 *before* writing extractors, not after.
+**Risk:** the schema is cheap to change until the first corpus is released (R7.6), and
+additive-only after. Review it against what an app needs *before* M5 writes extractors.
 
 ---
 
@@ -168,16 +153,19 @@ page (R3.2a — if it fires for real, P1 needs a carve-out); a module that needs
 ## M5 — Section structure extraction
 *Needs M1, M3, M4. ~1 week.*
 
-- L2 `==Polish==` isolation; `Etymology N` grouping preserved, **not** flattened (R5.1);
+- L2 `==Polish==` isolation; one `Entry` per POS section, each keeping its own
+  etymology — homographs are never merged (R5.1);
   POS at L3/L4 and subsections at L4/L5, attached by heading type, not depth (R5.2);
   repeated POS headings within one etymology (`iść`); the POS heading map as config
   (R5.3), unknown headings counted; nested sense lists as child senses (R5.4);
   language-level sections above and below the etymologies (R5.5).
-- Emits `Word` with structure + plain glosses only.
+- Emits `Word` with structure + plain glosses only. P3's intermediate records (which
+  still carry raw template calls and form-of links for P4, R4.2.1) are an internal
+  format, designed here — not the output schema.
 
-**Exit:** every fixture produces the right tree — correct etymology-group count, POS set,
-sense/subsense nesting. `zamek` keeps its senses attached to the right etymology; `mieć`
-keeps its shared page-level pronunciation on `Word`.
+**Exit:** every fixture produces the right tree — correct entry count, POS set,
+sense/subsense nesting. `zamek` yields two noun entries with their own senses; `mieć`'s
+shared page-level pronunciation is copied into each of its entries (R5.5).
 
 ---
 
@@ -185,16 +173,16 @@ keeps its shared page-level pronunciation on `Word`.
 *Needs M5. ~1 week.*
 
 - Labels → canonical label-name strings in `labels`, aliases resolved through
-  Wiktionary's label data modules (R6.7), dialect regions included; topics; `{{ux}}`/`{{uxi}}` examples
-  and `{{quote-*}}`/`{{RQ:pl:…}}` with fields kept separate (R6.9); `{{coi}}`
-  collocations (R6.12); `{{+obj}}` government (R6.11); sense-scoped nyms; `{{senseid}}`
-  (R5.6); `form_of` from `{{inflection of}}` & friends, incl. `;` / `//` multi-set tags
-  (R6.6).
-- Plain gloss + `LinkSpan` list, codepoint offsets (R7.6a).
+  Wiktionary's label data modules (R6.7), dialect regions included; topics (R6.10);
+  `{{ux}}`/`{{uxi}}` examples and `{{quote-*}}`/`{{RQ:pl:…}}` quotations with a one-line
+  source (R6.9); `{{coi}}` collocations (R6.12); `{{+obj}}` government (R6.11);
+  sense-scoped nyms; `form_of` from `{{inflection of}}` & friends, incl. `;` / `//`
+  multi-set tags (R6.6), kept in the intermediate records for P4.
+- Plain-text glosses with links flattened to display text (R7.6a).
 - **Middle Polish drop** framework: `drop_labels` config, sense → entry → page cascade,
   per-label and per-kind counts (R6.6a–c). This milestone owns senses and `{{tlb}}`
-  entries; M7, M9 and M10 plug their kinds (tables, `mp=`, alt forms, reference groups)
-  into the same counter.
+  entries; M7, M9 and M10 plug their kinds (tables, `mp=`, alt forms) into the same
+  counter.
 
 **Exit:** golden expectations filled for senses; `dobry`'s Middle Polish senses gone and
 counted; the all-Middle-Polish fixture yields no record; `stats.json` reports drop counts
@@ -239,28 +227,30 @@ reflexive verb all match expectations, every paradigm slot tagged.
 ## M9 — Pronunciation and etymology
 *Needs M4, M5. ~1 week.*
 
-- `{{pl-pr}}` parameters: IPA, `a=` audio with `<text:…>` modifiers, `hh=` homophones,
-  rhymes, **syllabification**, and per-dialect variants as separate `Pronunciation`s via
-  a config dialect map (R6.5); `mp=` dropped and counted (R6.6a). Literal `{{IPA|pl|…}}`
-  as the fallback.
-- Etymology: rendered text **and** typed links (`{{inh}}`/`{{inh+}}`, `{{bor}}`,
-  `{{der}}`, `{{etymon}}`, compounds/affixes) with source language codes, cognates,
-  Proto-Slavic reconstructions (R6.8).
+- `{{pl-pr}}` parameters: IPA, `a=` audio with `<text:…>` labels, `hh=` homophones (as
+  relations), **syllabification**, and per-dialect variants as separate
+  `Pronunciation`s via a config dialect map (R6.5); `mp=` dropped and counted (R6.6a).
+  Literal `{{IPA|pl|…}}` as the fallback.
+- Etymology as plain rendered text (R6.8).
+- Word frequency from `{{pl-freq 1990}}` in Trivia: rank and count (R6.13).
 
 **Exit:** pronunciation and etymology expectations filled across the fixture set.
 
 ---
 
-## M10 — Relations, descendants, and the remaining sections
+## M10 — Relations and the remaining sections
 *Needs M5. ~3–4 days.*
 
 - Synonyms/antonyms/hypernyms/hyponyms/meronyms/holonyms, coordinate terms, derived and
-  related terms (`{{col}}`, `{{pl-derived verbs}}`), descendants (`{{desc}}`,
-  `{{desctree}}`), alternative forms (Middle Polish ones dropped), usage notes, trivia,
-  references/further reading (the `Middle Polish:` group dropped), anagrams.
-- Categories: explicit **and** template-emitted during expansion (R6.10).
+  related terms (`{{col}}`, `{{pl-derived verbs}}`), alternative forms (Middle Polish
+  ones dropped), headword-line relations (`dim=`, `adj=`, `adv=`, feminine/masculine
+  equivalents), usage notes.
+- Topics: explicit **and** template-emitted topical categories (R6.10).
+- Sections deliberately not output — Descendants, References, Further reading, See
+  also, Anagrams — are recognised and skipped *by name*, so they don't show up as
+  unhandled.
 
-**Exit:** no golden fixture has unclaimed section content; anything unrecognised lands in
+**Exit:** no golden fixture has an unrecognised section; anything unrecognised lands in
 the unhandled-section counter rather than being dropped.
 
 ---
@@ -269,15 +259,14 @@ the unhandled-section counter rather than being dropped.
 *Needs M6–M10. ~1 week.*
 
 - Resolve `form_of`/`alt_of` to lemma and specific entry (R3.13).
-- **Fold and drop** inflectional form-of entries, per POS entry not per page; transfer
-  attestation, missing cells and the form page's pronunciation onto the lemma's `Form`
-  (R3.13a); participles, `{{syn of}}` and `{{alt form}}` entries are *not* folded;
+- **Fold and drop** inflectional form-of entries, per POS entry not per page; add cells
+  the lemma's table missed and carry form-of labels onto the lemma's `Form` (R3.13a); participles, `{{syn of}}` and `{{alt form}}` entries are *not* folded;
   `index.sqlite` surface-form → lemma map (R3.13b); unresolved forms counted and logged
   (R3.13c). All of it through SQLite, within R9.3's memory budget.
 - Aspect pairs, frequentatives, diminutive/augmentative chains, comparative ↔ positive
   (R3.14).
-- Canonical sharded corpus + index (R3.15); `Corpus` metadata incl. dump pin and active
-  `drop_labels` (R7.4); `stats.json` (R3.16) and `polwikt stats-diff` (R8.3).
+- Canonical sharded corpus + index (R3.15); `Corpus` metadata incl. dump date, active
+  `drop_labels`, license and attribution (R7.4); `stats.json` (R3.16) and `polwikt stats-diff` (R8.3).
 
 **Exit:** `bez`/`mieć` keep only their lemma halves; `mamy` yields no record and resolves
 to both `mieć` and `mama`; `kotów` yields no record but resolves through the index;

@@ -1,18 +1,22 @@
-// polwikt corpus schema — the contract (REQUIREMENTS.md §7 describes its shape).
+// polwikt corpus schema — the output contract (REQUIREMENTS.md §7).
+//
+// Audience: applications built on Polish lexical data — a dictionary app, a flashcard
+// (Anki) generator. The schema carries what such an app shows or queries: meanings,
+// inflection, pronunciation, examples, related words. It deliberately does NOT mirror
+// how Wiktionary renders or stores an article: no template calls, no wiki markup or link
+// targets, no page ids or revisions, no maintenance categories, no reference lists.
+// Those live in the pipeline's internals and debugging tools (`polwikt inspect`), not
+// here.
 //
 // Rules (R7.6, CLAUDE.md):
-// - Never renumber or reuse a field number; removal means `reserved`.
+// - Never renumber or reuse a field number once a corpus has been released; removal
+//   means `reserved`.
 // - Every enum has `<PREFIX>_UNSPECIFIED = 0`.
 // - Repeated messages, not `map<>` fields: a map entry can never gain a field, while a
-//   repeated message can (additively), and a list keeps the article's order. (Not a
-//   determinism issue: deterministic=True serialization sorts map entries by key.)
-// - Usage labels ({{lb}}, {{tlb}}, qualifiers) are an open vocabulary, so they are plain
-//   strings in `labels`: Wiktionary's canonical label names, aliases resolved (R6.7).
-//   The as-written spelling survives in the retained TemplateCall (R4.2.1).
-// - Enums only for genuinely closed grammatical sets (R7.7); a grammatical feature that
-//   doesn't map to one keeps its literal string in `raw_tags`.
-// - Field numbers 1-15 encode in one byte; they go to the fields of messages that repeat
-//   in the hundreds per word (Form, Sense, LinkSpan).
+//   repeated message can (additively). (Not a determinism issue: deterministic=True
+//   serialization sorts map entries by key.)
+// - Enums only for genuinely closed grammatical sets (R7.7). Open vocabularies — usage
+//   labels, dialect names, topics — are plain strings.
 
 syntax = "proto3";
 
@@ -22,8 +26,9 @@ package polwikt;
 // Grammatical categories: the closed Polish sets (R7.7, §6)
 // ---------------------------------------------------------------------------
 
-// Part of speech, from the POS heading (R5.3). The literal heading is kept in
-// PosEntry.heading regardless.
+// Word class. Entries under headings outside this set (letters, symbols, punctuation,
+// romanizations, ...) are not useful to a learner and are not emitted (counted in
+// stats.json).
 enum Pos {
   POS_UNSPECIFIED = 0;
   POS_NOUN = 1;
@@ -35,32 +40,18 @@ enum Pos {
   POS_NUMERAL = 7;
   POS_DETERMINER = 8;
   POS_PREPOSITION = 9;
-  POS_POSTPOSITION = 10;
-  POS_CONJUNCTION = 11;
-  POS_PARTICLE = 12;
-  POS_INTERJECTION = 13;
-  POS_PARTICIPLE = 14;
-  POS_PHRASE = 15;
-  POS_PREPOSITIONAL_PHRASE = 16;
-  POS_PROVERB = 17;
+  POS_CONJUNCTION = 10;
+  POS_PARTICLE = 11;
+  POS_INTERJECTION = 12;
+  POS_PARTICIPLE = 13;
+  POS_PREFIX = 14;
+  POS_SUFFIX = 15;
+  POS_PHRASE = 16;
+  POS_PREPOSITIONAL_PHRASE = 17;
   POS_IDIOM = 18;
-  POS_PREFIX = 19;
-  POS_SUFFIX = 20;
-  POS_INTERFIX = 21;
-  POS_INFIX = 22;
-  POS_CIRCUMFIX = 23;
-  POS_AFFIX = 24;
-  POS_COMBINING_FORM = 25;
-  POS_ABBREVIATION = 26;
-  POS_INITIALISM = 27;
-  POS_ACRONYM = 28;
-  POS_CONTRACTION = 29;
-  POS_LETTER = 30;
-  POS_SYMBOL = 31;
-  POS_DIACRITICAL_MARK = 32;
-  POS_PUNCTUATION_MARK = 33;
-  POS_SYLLABLE = 34;
-  POS_ROMANIZATION = 35;
+  POS_PROVERB = 19;
+  POS_ABBREVIATION = 20;  // also initialisms and acronyms
+  POS_CONTRACTION = 21;
 }
 
 enum Case {
@@ -78,7 +69,7 @@ enum Number {
   NUMBER_UNSPECIFIED = 0;
   NUMBER_SINGULAR = 1;
   NUMBER_PLURAL = 2;
-  NUMBER_DUAL = 3;  // remnant paradigms ({{pl-decl-noun-dual}}: ręce, oczy)
+  NUMBER_DUAL = 3;  // remnant paradigms: ręce, oczy, uszy
 }
 
 // Singular forms take masculine/feminine/neuter; plural agreement is virile
@@ -111,8 +102,7 @@ enum Tense {
   TENSE_UNSPECIFIED = 0;
   TENSE_PRESENT = 1;
   TENSE_PAST = 2;
-  TENSE_FUTURE = 3;       // perfective simple future and both periphrastic futures
-  TENSE_PLUPERFECT = 4;   // archaic
+  TENSE_FUTURE = 3;  // perfective simple future and both periphrastic futures
 }
 
 enum Mood {
@@ -127,12 +117,6 @@ enum Aspect {
   ASPECT_IMPERFECTIVE = 1;
   ASPECT_PERFECTIVE = 2;
   ASPECT_BIASPECTUAL = 3;
-}
-
-enum Voice {
-  VOICE_UNSPECIFIED = 0;
-  VOICE_ACTIVE = 1;
-  VOICE_PASSIVE = 2;
 }
 
 enum Degree {
@@ -154,8 +138,9 @@ enum VerbForm {
   VERB_FORM_IMPERSONAL_PAST = 7;                    // -no / -to
 }
 
-// One cell's worth of grammatical features. Scalar on purpose: a cell covering several
-// cases (nom/acc) becomes one Form per case (R7.8).
+// One table cell's grammatical features. Scalar on purpose: a cell covering several
+// cases (nom/acc) becomes one Form per case, so a consumer can filter or pivot the
+// flat list without unpacking sets (R7.8).
 message GrammaticalTags {
   Case grammatical_case = 1;  // `case` is a C++ keyword
   Number number = 2;
@@ -165,109 +150,50 @@ message GrammaticalTags {
   Tense tense = 6;
   Mood mood = 7;
   Aspect aspect = 8;
-  Voice voice = 9;
-  Degree degree = 10;
-  VerbForm verb_form = 11;
+  Degree degree = 9;
+  VerbForm verb_form = 10;
 }
 
 // ---------------------------------------------------------------------------
-// Building blocks
+// Entry content
 // ---------------------------------------------------------------------------
 
-// A template call as written, kept as the escape hatch when parsing is wrong (R4.2.1).
-// Positional args keep empty strings: position is meaning
-// ({{inflection of|pl|mama||gen|s}}).
-message TemplateCall {
-  string name = 1;                // canonical name, aliases resolved ({{infl of}} -> inflection of)
-  repeated string positional = 2;
-  repeated NamedArg named = 3;    // sorted by name
+// One inflected form (R7.8): "kotów" = genitive plural.
+message Form {
+  string form = 1;
+  GrammaticalTags tags = 2;
+  repeated string labels = 3;    // usage on this one cell: "archaic", "colloquial"
+  repeated string raw_tags = 4;  // grammatical features no enum covers
 }
 
-message NamedArg {
-  string name = 1;
-  string value = 2;
+message Sense {
+  string gloss = 1;                     // English, plain text
+  repeated string labels = 2;           // "colloquial", "obsolete", "Far Masovian" (R6.7)
+  repeated Example examples = 3;
+  repeated Relation relations = 4;      // synonyms etc. of this sense only
+  repeated Government government = 5;  // what it governs: do + genitive (R6.11)
+  repeated Sense subsenses = 6;         // R5.4
 }
-
-// Human-readable text stored twice (R7.6a): plain, plus the links over it and the
-// source wikitext.
-message RichText {
-  string text = 1;             // plain; links flattened to their display text
-  repeated LinkSpan links = 2;
-  string wikitext = 3;         // the source, markup intact
-}
-
-// A link inside RichText.text. Offsets are Unicode codepoints into the plain text —
-// Python str indices — never bytes (R7.6a).
-message LinkSpan {
-  int32 start = 1;
-  int32 end = 2;          // exclusive
-  string target = 3;      // page title; stored, never dereferenced (R3.2)
-  string anchor = 4;      // [[kot#Polish]] -> "Polish"
-  string lang_code = 5;   // from {{l|pl|...}} / {{m|pl|...}}; empty for bare [[...]]
-}
-
-// A pointer to one entry inside a Word record. Indices are 0-based; `optional` so that
-// "the first entry" and "not resolved to an entry" stay distinct.
-message EntryRef {
-  string title = 1;
-  optional int32 etymology_index = 2;  // into Word.etymologies
-  optional int32 entry_index = 3;      // into EtymologyGroup.entries
-}
-
-// Section content we have no rule for, kept rather than dropped (R5.3, invariant 2).
-message RawSection {
-  string heading = 1;
-  string wikitext = 2;
-}
-
-// ---------------------------------------------------------------------------
-// Content
-// ---------------------------------------------------------------------------
 
 message Example {
   enum Kind {
     KIND_UNSPECIFIED = 0;
-    KIND_USAGE_EXAMPLE = 1;  // {{ux}}, {{uxi}}
-    KIND_QUOTATION = 2;      // {{quote-*}}, {{RQ:pl:...}}
-    KIND_COLLOCATION = 3;    // {{coi}}, ====Collocations==== (R6.12)
+    KIND_EXAMPLE = 1;      // a usage example sentence
+    KIND_QUOTATION = 2;    // from a published text; `source` says which
+    KIND_COLLOCATION = 3;  // a short fixed combination (R6.12)
   }
   Kind kind = 1;
-  RichText text = 2;          // the Polish
-  RichText translation = 3;   // the English
-  string literal = 4;         // literal translation, when given
-  Citation citation = 5;
-  repeated string labels = 6;
-  TemplateCall template = 7;
+  string text = 2;         // Polish
+  string translation = 3;  // English
+  string literal = 4;      // literal translation, when given
+  string source = 5;       // quotations: "Henryk Sienkiewicz, Potop (1886)"
 }
 
-message Citation {
-  string author = 1;
-  string title = 2;
-  string year = 3;      // a string: "1908", "c. 1550", "1990s"
-  string publisher = 4;
-  string page = 5;
-  string url = 6;
-  string raw = 7;       // the rendered citation line, for anything the fields miss
-}
-
-// One pronunciation variant; a page with dialect variants has several (R6.5).
-message Pronunciation {
-  string ipa = 1;
-  string syllabification = 2;
-  string rhyme = 3;
-  string audio_file = 4;           // Commons file name
-  string audio_label = 5;          // the <text:...> modifier of {{pl-pr|a=...}}
-  repeated string homophones = 6;
-  repeated string labels = 7;      // dialect names from {{pl-pr}} parameters (R6.5)
-  TemplateCall template = 8;
-}
-
-// Case/preposition government from {{+obj|pl|...}} (R6.11).
+// Case/preposition government (R6.11): what a verb, preposition or adjective requires.
 message Government {
-  string preposition = 1;    // empty for bare case government
+  string preposition = 1;  // empty when a bare case is governed
   Case grammatical_case = 2;
-  string slot_gloss = 3;     // "what", "to what", "on what"
-  string raw = 4;            // the argument as written, e.g. ":do(gen)<to what>"
+  string description = 3;  // the slot: "what", "to what", "on what"
 }
 
 message Relation {
@@ -277,143 +203,45 @@ message Relation {
     TYPE_ANTONYM = 2;
     TYPE_HYPERNYM = 3;
     TYPE_HYPONYM = 4;
-    TYPE_MERONYM = 5;
-    TYPE_HOLONYM = 6;
-    TYPE_COORDINATE = 7;
-    TYPE_TROPONYM = 8;
-    TYPE_DERIVED = 9;
-    TYPE_RELATED = 10;
-    TYPE_ALTERNATIVE_FORM = 11;
-    TYPE_SEE_ALSO = 12;
-    TYPE_DIMINUTIVE = 13;            // {{pl-noun|dim=}}
-    TYPE_AUGMENTATIVE = 14;
-    TYPE_ASPECT_PARTNER = 15;        // {{pl-verb}} partners; also inferred in P4 (R3.14)
-    TYPE_FREQUENTATIVE = 16;         // {{pl-verb|freq=}}
-    TYPE_COMPARATIVE = 17;           // {{pl-adj}} comparative
-    TYPE_SUPERLATIVE = 18;
-    TYPE_RELATED_ADJECTIVE = 19;     // {{pl-noun|adj=}}
-    TYPE_RELATED_ADVERB = 20;        // {{pl-adj|adv=}}
-    TYPE_FEMININE_EQUIVALENT = 21;
-    TYPE_MASCULINE_EQUIVALENT = 22;
+    TYPE_COORDINATE = 5;
+    TYPE_MERONYM = 6;
+    TYPE_HOLONYM = 7;
+    TYPE_DERIVED = 8;
+    TYPE_RELATED = 9;
+    TYPE_ALTERNATIVE_FORM = 10;
+    TYPE_HOMOPHONE = 11;
+    TYPE_DIMINUTIVE = 12;
+    TYPE_AUGMENTATIVE = 13;
+    TYPE_ASPECT_PARTNER = 14;  // the other aspect of a verb pair (R3.14)
+    TYPE_FREQUENTATIVE = 15;
+    TYPE_FEMININE_EQUIVALENT = 16;
+    TYPE_MASCULINE_EQUIVALENT = 17;
+    TYPE_RELATED_ADJECTIVE = 18;  // kot -> koci
+    TYPE_RELATED_ADVERB = 19;     // dobry -> dobrze
+    TYPE_PARTICIPLE_OF = 20;      // on a participle entry: its verb (decision 10)
   }
   Type type = 1;
-  string term = 2;
+  string term = 2;             // a Polish lemma
   string gloss = 3;            // disambiguating gloss, when given
-  string sense_id = 4;         // target sense anchor (id=), when given
-  repeated string labels = 5;
-  EntryRef target = 6;         // filled by P4 where the term resolves
-  bool inferred = 7;           // derived in P4 rather than stated by the article
-  TemplateCall template = 8;
+  repeated string labels = 4;  // "colloquial", "dialectal"
 }
 
-message Descendant {
-  enum Type {
-    TYPE_UNSPECIFIED = 0;
-    TYPE_INHERITED = 1;
-    TYPE_BORROWED = 2;
-    TYPE_LEARNED_BORROWING = 3;
-    TYPE_CALQUE = 4;
-    TYPE_SEMANTIC_LOAN = 5;
-  }
-  Type type = 1;
-  string lang_code = 2;
-  string term = 3;
-  string gloss = 4;
-  repeated string labels = 5;
-  repeated Descendant children = 6;   // descendant lists are trees
+message Pronunciation {
+  string ipa = 1;
+  // Empty for the standard pronunciation; dialect names otherwise (R6.5).
+  repeated string labels = 2;
 }
 
-message EtymologyLink {
-  enum Type {
-    TYPE_UNSPECIFIED = 0;
-    TYPE_INHERITED = 1;          // {{inh}}, {{inh+}}
-    TYPE_BORROWED = 2;           // {{bor}}, {{bor+}}
-    TYPE_LEARNED_BORROWING = 3;  // {{lbor}}
-    TYPE_SEMI_LEARNED_BORROWING = 4;
-    TYPE_DERIVED = 5;            // {{der}}
-    TYPE_CALQUE = 6;             // {{cal}}
-    TYPE_SEMANTIC_LOAN = 7;
-    TYPE_COGNATE = 8;            // {{cog}}
-    TYPE_AFFIX = 9;              // {{af}}, {{pre}}, {{suf}}, {{con}}
-    TYPE_COMPOUND = 10;          // {{com}}
-    TYPE_BACKFORMATION = 11;
-    TYPE_CLIPPING = 12;
-    TYPE_ONOMATOPOEIC = 13;
-    TYPE_UNKNOWN_ORIGIN = 14;
-  }
-  Type type = 1;
-  string lang_code = 2;    // "sla-pro", "zlw-opl", "de", "la", ...
-  string term = 3;
-  string gloss = 4;
-  string roman = 5;        // romanization of a non-Latin-script source term
-  TemplateCall template = 6;
-}
-
-message Reference {
-  RichText text = 1;           // rendered
-  string group = 2;            // the list it sat under, e.g. "Historic dictionaries"
-  TemplateCall template = 3;   // {{R:pl:WSJP|...}}
-}
-
-// What an entry is a form of (R6.6). Inflectional form-of entries are folded into the
-// lemma and never emitted (R3.13a); this survives on the lemma's Form. Participle
-// entries keep it on their own record, pointing at the verb (decision 10).
-message FormOf {
-  enum Type {
-    TYPE_UNSPECIFIED = 0;
-    TYPE_INFLECTION = 1;          // {{inflection of}}, {{plural of}}, ...
-    TYPE_PARTICIPLE = 2;          // a participle entry of a verb (not folded)
-    TYPE_ALTERNATIVE_FORM = 3;    // {{alt form}}, {{alternative spelling of}} (not folded)
-    TYPE_ABBREVIATION = 4;
-    TYPE_MISSPELLING = 5;
-  }
-  Type type = 1;
-  string lemma = 2;                       // as written in the article
-  EntryRef target = 3;                    // filled by P4
-  repeated GrammaticalTags tag_sets = 4;  // `;` and `//` expand to several (R6.6)
-  repeated string raw_tags = 5;           // grammatical features with no enum
-  TemplateCall template = 6;
-}
-
-message Sense {
-  RichText gloss = 1;
-  repeated string labels = 2;            // {{lb}}, incl. dialect regions (R6.7)
-  repeated Example examples = 3;
-  repeated Relation relations = 4;       // sense-scoped nyms: #: {{syn|pl|...}}
-  repeated Government government = 5;    // {{+obj|pl|...}} (R6.11)
-  FormOf form_of = 6;
-  string sense_id = 7;                   // {{senseid|pl|...}} (R5.6)
-  repeated Sense subsenses = 8;          // ## under # (R5.4)
-  repeated string topics = 9;            // topical categories: pl:Birds -> "Birds"
-  repeated string categories = 10;
-  repeated TemplateCall templates = 11;  // {{lb}}, {{+obj}}, ... as written
-}
-
-// One inflected form: flat and tagged, never a fixed table (R7.8).
-message Form {
-  enum Source {
-    SOURCE_UNSPECIFIED = 0;
-    SOURCE_DECLENSION_TABLE = 1;
-    SOURCE_CONJUGATION_TABLE = 2;
-    SOURCE_HEADWORD = 3;      // e.g. comparatives on {{pl-adj}}
-    SOURCE_FORM_PAGE = 4;     // only known from a folded form-of page (R3.13a)
-  }
-  string form = 1;
-  GrammaticalTags tags = 2;
-  repeated string raw_tags = 3;              // grammatical features with no enum
-  Source source = 4;
-  repeated string labels = 5;                // one cell marked archaic, humorous, ...
-  bool has_own_page = 6;                     // a dedicated form-of page attests it
-  repeated Pronunciation pronunciations = 7; // folded in from that page
-  EntryRef record = 8;                       // the participle's own Word (decision 10)
+message Audio {
+  string file = 1;   // Wikimedia Commons file name; the URL is derivable from it
+  string label = 2;  // what is spoken, when not the bare lemma: "mieć się"
 }
 
 message NounInfo {
-  // Usually one; nouns with variable gender list each, in headword order.
-  repeated GenderAnimacy genders = 1;
-  bool indeclinable = 2;
-  bool plurale_tantum = 3;
-  bool singulare_tantum = 4;
+  repeated GenderAnimacy genders = 1;  // usually one; variable-gender nouns list each
+  bool plurale_tantum = 2;
+  bool singulare_tantum = 3;
+  bool indeclinable = 4;
 }
 
 message GenderAnimacy {
@@ -422,94 +250,59 @@ message GenderAnimacy {
 }
 
 message VerbInfo {
-  Aspect aspect = 1;    // partners and frequentatives are Relations
-  bool reflexive = 2;   // the lemma takes się
-  bool impersonal = 3;
-  bool defective = 4;
-}
-
-message AdjectiveInfo {
-  enum Comparability {
-    COMPARABILITY_UNSPECIFIED = 0;
-    COMPARABILITY_COMPARABLE = 1;
-    COMPARABILITY_NOT_COMPARABLE = 2;
-  }
-  Comparability comparability = 1;  // comparative/superlative are Forms (R6.3)
+  Aspect aspect = 1;  // partners and frequentatives are Relations
 }
 
 // ---------------------------------------------------------------------------
 // Structure
 // ---------------------------------------------------------------------------
 
-// One POS section (R5.2).
-message PosEntry {
+// One lexeme: a word class + etymology combination. Homographs are separate entries —
+// zamek "castle" and zamek "lock" are two noun entries with their own senses and
+// declension (R5.1). Each entry is self-contained: page-level pronunciation is copied
+// into every entry it applies to, so one entry is enough to build one flashcard.
+message Entry {
   Pos pos = 1;
-  string heading = 2;                          // literal heading
-  string headword = 3;                         // as printed on the headword line
-  repeated TemplateCall head_templates = 4;
-  repeated string labels = 5;                  // term-level {{tlb}}
-  repeated Sense senses = 6;
-  repeated Form forms = 7;
-  repeated TemplateCall inflection_templates = 8;
-  repeated Relation relations = 9;             // section-level nyms, derived, related
-  repeated Example examples = 10;              // ====Collocations==== (R6.12)
-  repeated Descendant descendants = 11;
-  repeated Pronunciation pronunciations = 12;  // when given per POS
-  RichText usage_notes = 13;
-  repeated Reference references = 14;
-  repeated string categories = 15;
-  repeated RawSection other_sections = 16;
+  repeated Sense senses = 2;
+  repeated Form forms = 3;
+  repeated Pronunciation pronunciations = 4;
+  repeated Audio audio = 5;
+  string syllabification = 6;      // hyphenation, when given
+  string etymology = 7;            // plain text
+  repeated string labels = 8;      // labels on the whole entry (term-level)
+  repeated Relation relations = 9;
+  repeated Example examples = 10;  // collocations and examples not tied to one sense
+  string usage_notes = 11;         // plain text
+  repeated string topics = 12;     // topical categories: "Animals", "Music"
 
-  oneof detail {                               // matches `pos` where it applies
-    NounInfo noun = 17;
-    VerbInfo verb = 18;
-    AdjectiveInfo adjective = 19;
+  oneof detail {  // matches `pos` where it applies
+    NounInfo noun = 13;
+    VerbInfo verb = 14;
   }
 }
 
-// One `Etymology N` section, or the whole language section when unnumbered (R5.1).
-message EtymologyGroup {
-  int32 number = 1;                            // N; 0 when the heading has no number
-  RichText etymology = 2;
-  repeated EtymologyLink links = 3;
-  repeated TemplateCall etymology_templates = 4;
-  repeated Pronunciation pronunciations = 5;
-  repeated PosEntry entries = 6;
-  repeated Relation relations = 7;             // e.g. alternative forms under this etymology
-  repeated string categories = 8;
-  repeated RawSection other_sections = 9;
+// How common the word is, from a frequency dictionary cited on the page.
+message Frequency {
+  int32 rank = 1;     // 1 = most common
+  int32 count = 2;    // occurrences in the source corpus
+  string source = 3;  // "Słownik frekwencyjny polszczyzny współczesnej (1990)"
 }
 
-// One lemma page's ==Polish== section (R7.7a). Form-only pages produce no Word.
+// One Polish lemma (R7.7a). Inflected forms are folded into their lemma's `forms` and
+// found through index.sqlite; they are never records of their own.
 message Word {
-  string title = 1;
-  int64 page_id = 2;
-  int64 revision_id = 3;
-  string lang_code = 4;                        // "pl" in v1
-  repeated EtymologyGroup etymologies = 5;     // >= 1
-  repeated Pronunciation pronunciations = 6;   // page-level, above the etymologies
-  repeated Relation relations = 7;             // language-level alternative forms, see also
-  RichText trivia = 8;
-  repeated Reference references = 9;
-  repeated Reference further_reading = 10;
-  repeated string anagrams = 11;
-  repeated string categories = 12;
-  repeated RawSection other_sections = 13;
+  string lemma = 1;
+  repeated Entry entries = 2;
+  Frequency frequency = 3;  // unset when the page cites none
 }
 
-// Corpus-level metadata, written to corpus.meta.pb beside the shards rather than into
-// them: `generated_at` would otherwise break byte-identical shards (R7.4, G5).
+// Corpus-level metadata, written to corpus.meta.pb beside the shards (R7.4).
 message Corpus {
   string schema_version = 1;
-  string dump_date = 2;
-  string dump_sha1 = 3;
-  bool dump_pinned = 4;              // false when --dump overrode the pin (R2.1a)
-  string pipeline_git_revision = 5;
-  string generated_at = 6;           // RFC 3339; the one non-deterministic field
-  repeated string languages = 7;
-  repeated string drop_labels = 8;   // what was excluded (R6.6b)
-  int64 word_count = 9;
-  int32 shard_count = 10;
-  string license = 11;               // "CC BY-SA 4.0" (R11.1)
-  string attribution = 12;
+  string dump_date = 2;             // the English Wiktionary snapshot, YYYYMMDD
+  string pipeline_version = 3;
+  int64 word_count = 4;
+  repeated string drop_labels = 5;  // what was excluded, e.g. "Middle Polish" (R6.6b)
+  string license = 6;               // "CC BY-SA 4.0" (R11.1)
+  string attribution = 7;
 }

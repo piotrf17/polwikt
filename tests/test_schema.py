@@ -56,6 +56,33 @@ def test_no_map_fields() -> None:
         assert not message.GetOptions().map_entry, message.full_name
 
 
+# The schema serves dictionary/flashcard apps, not a mirror of Wiktionary (§7): these
+# are Wiktionary bookkeeping and belong in the pipeline's internals, not the output.
+WIKTIONARY_STATE_FIELDS = {
+    "page_id",
+    "revision_id",
+    "templates",
+    "template",
+    "wikitext",
+    "categories",
+    "references",
+    "further_reading",
+    "anagrams",
+    "sense_id",
+    "heading",
+}
+WIKTIONARY_STATE_MESSAGES = {"TemplateCall", "NamedArg", "RichText", "LinkSpan"}
+
+
+def test_no_wiktionary_bookkeeping_in_the_output() -> None:
+    assert not WIKTIONARY_STATE_MESSAGES & set(FILE.message_types_by_name)
+    for message in _all_messages():
+        for field in message.fields:
+            assert field.name not in WIKTIONARY_STATE_FIELDS, (
+                f"{message.full_name}.{field.name}"
+            )
+
+
 def test_polish_categories_are_complete() -> None:  # §6, R7.7
     assert _values(pb.Case.DESCRIPTOR) == {
         "NOMINATIVE",
@@ -91,12 +118,13 @@ def test_polish_categories_are_complete() -> None:  # §6, R7.7
 
 
 # R5.3, in the heading spelling en.wiktionary uses.
+# R5.3: the headings whose entries are emitted, in en.wiktionary's spelling. Initialism
+# and Acronym map onto ABBREVIATION; letters, symbols, punctuation, syllables and
+# romanizations are not emitted.
 POS_HEADINGS = """
 Noun, Proper noun, Verb, Adjective, Adverb, Pronoun, Numeral, Determiner, Preposition,
-Postposition, Conjunction, Particle, Interjection, Prefix, Suffix, Interfix, Infix,
-Letter, Symbol, Phrase, Prepositional phrase, Proverb, Idiom, Abbreviation, Initialism,
-Acronym, Contraction, Participle, Affix, Circumfix, Combining form, Diacritical mark,
-Punctuation mark, Syllable, Romanization"""
+Conjunction, Particle, Interjection, Participle, Prefix, Suffix, Phrase,
+Prepositional phrase, Idiom, Proverb, Abbreviation, Contraction"""
 
 
 def test_pos_covers_every_r5_3_heading() -> None:
@@ -131,10 +159,9 @@ HOT_MESSAGES = [
     pb.Form.DESCRIPTOR,
     pb.GrammaticalTags.DESCRIPTOR,
     pb.Sense.DESCRIPTOR,
-    pb.LinkSpan.DESCRIPTOR,
-    pb.RichText.DESCRIPTOR,
-    pb.TemplateCall.DESCRIPTOR,
-    pb.NamedArg.DESCRIPTOR,
+    pb.Example.DESCRIPTOR,
+    pb.Relation.DESCRIPTOR,
+    pb.Entry.DESCRIPTOR,
 ]
 
 

@@ -1,7 +1,8 @@
 # CLAUDE.md — working rules for polwikt
 
 Pipeline that extracts Polish lexical data from the **English** Wiktionary dump into
-protobuf. Full spec: **`REQUIREMENTS.md`** — read it before changing pipeline behaviour;
+protobuf, **for applications** — a dictionary app, a flashcard generator — not as a
+mirror of Wiktionary (decision 11). Full spec: **`REQUIREMENTS.md`** — read it before changing pipeline behaviour;
 requirement IDs (`R3.2`, `R6.6a`, …) are stable, cite them in comments and commit
 messages when code implements or changes one.
 
@@ -73,8 +74,9 @@ golden store).
    stored. Never assume an arbitrary ns-0 page's text is available — links out of Polish
    entries are stored as **titles** and must not be dereferenced. Existence checks use the
    title-only `all_titles` table (R3.2a).
-2. **Never drop data silently.** Anything discarded — unhandled template, unresolved
-   form-of, label-filtered sense, Lua failure — is **counted in `stats.json`** and logged
+2. **Never drop data silently.** Anything the output schema has a place for but we
+   failed to fill — unhandled template, unresolved form-of, label-filtered sense, Lua
+   failure — is **counted in `stats.json`** and logged
    (`unhandled.jsonl`, `unresolved_forms.jsonl`, `errors.jsonl`). A silent `continue` or a
    bare `except: pass` is a bug, not a shortcut.
 3. **Determinism** (G5). Same dump + same code ⇒ byte-identical output. No wall-clock, no
@@ -85,10 +87,13 @@ golden store).
 4. **Lossy is worse than untyped.** When a grammatical feature or template arg doesn't
    map to a known enum, put the literal string in `raw_tags` / `raw_*` — never discard
    it. Usage labels never need this: they are strings in `labels` to begin with.
-5. **Raw template calls are retained** for headword, inflection and etymology templates
-   (R4.2.1). They are the escape hatch when our parsing is wrong; don't "clean them up".
-6. **Codepoint offsets, never byte offsets** (R7.6a). Polish text is non-ASCII;
-   `LinkSpan.start/end` index Python `str`.
+5. **The output is for apps, not a Wiktionary mirror** (G1, decision 11). Before adding
+   an output field, name the app feature that reads it. Template calls, markup, link
+   targets, page ids, maintenance categories and reference lists stay out; a schema test
+   enforces it.
+6. **Raw template calls are retained inside the pipeline** (R4.2.1) — in P3's
+   intermediate records and `polwikt inspect` — as the escape hatch when parsing is
+   wrong. Not in the output corpus.
 7. **The corpus holds lemmas only.** Inflected-form entries fold into the lemma at P4 and
    emit no record (R3.13a). Folding is **per POS entry, not per page** — `bez` and `mieć`
    are simultaneously lemmas and forms; `mamy` is two forms and folds into two lemmas.
@@ -96,8 +101,8 @@ golden store).
    entries stay records.
 8. **Middle Polish is dropped at extraction** (R6.6a) via the config `drop_labels`, with
    the sense → entry → page cascade and per-label counts — and not just senses: `mp=`
-   pronunciations, qualified alternative forms, `{{pl-mid-decl-noun}}` tables and
-   `Middle Polish:` reference groups go too, each counted by kind. Old Polish never
+   pronunciations, qualified alternative forms and `{{pl-mid-decl-noun}}` tables go
+   too, each counted by kind. Old Polish never
    enters (R3.2).
 9. **One page's failure must not kill a run** (R3.12). Catch per page, log with title +
    traceback, continue; `--max-error-rate` aborts the run.

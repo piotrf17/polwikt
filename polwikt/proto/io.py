@@ -25,7 +25,7 @@ import zstandard
 from google.protobuf import json_format
 from google.protobuf.message import DecodeError, Message
 
-from polwikt.proto.polwikt_pb2 import Corpus, EntryRef, GrammaticalTags, Word
+from polwikt.proto.polwikt_pb2 import Corpus, GrammaticalTags, Word
 
 SCHEMA_VERSION = "1"
 META_NAME = "corpus.meta.pb"
@@ -377,22 +377,27 @@ def to_json(message: Message) -> str:
 
 @dataclass(frozen=True)
 class FormHit:
-    """One way a surface form resolves to a lemma entry (R3.13b)."""
+    """One way a surface form resolves to a lemma (R3.13b).
 
-    entry: EntryRef
+    `entry_index` points into `Word.entries`; None when the form page didn't say which
+    of the lemma's entries it belongs to.
+    """
+
+    lemma: str
+    entry_index: int | None
     tags: GrammaticalTags
     raw_tags: tuple[str, ...]
 
 
 class CorpusIndex:
-    """title -> Location for lemmas; surface form -> lemma entries for folded forms."""
+    """lemma -> Location for records; surface form -> lemma entries for folded forms."""
 
     def __init__(self, path: Path) -> None:
         self._db = sqlite3.connect(path)
         self._db.executescript(
             """
             CREATE TABLE IF NOT EXISTS words (
-                title TEXT PRIMARY KEY,
+                lemma TEXT PRIMARY KEY,
                 shard INTEGER NOT NULL,
                 frame_offset INTEGER NOT NULL,
                 idx INTEGER NOT NULL
@@ -400,7 +405,6 @@ class CorpusIndex:
             CREATE TABLE IF NOT EXISTS forms (
                 surface TEXT NOT NULL,
                 lemma TEXT NOT NULL,
-                etymology_index INTEGER,
                 entry_index INTEGER,
                 tags BLOB NOT NULL,
                 raw_tags TEXT NOT NULL
@@ -422,54 +426,50 @@ class CorpusIndex:
             self._db.commit()
         self._db.close()
 
-    def add_word(self, title: str, location: Location) -> None:
+    def add_word(self, lemma: str, location: Location) -> None:
         try:
             self._db.execute(
                 "INSERT INTO words VALUES (?, ?, ?, ?)",
-                (title, location.shard, location.frame_offset, location.index),
+                (lemma, location.shard, location.frame_offset, location.index),
             )
         except sqlite3.IntegrityError as e:
-            raise CorpusError(f"duplicate title in index: {title!r}") from e
+            raise CorpusError(f"duplicate lemma in index: {lemma!r}") from e
 
     def add_form(
         self,
         surface: str,
-        entry: EntryRef,
+        lemma: str,
+        entry_index: int | None,
         tags: GrammaticalTags,
         raw_tags: Iterable[str] = (),
     ) -> None:
         self._db.execute(
-            "INSERT INTO forms VALUES (?, ?, ?, ?, ?, ?)",
+            "INSERT INTO forms VALUES (?, ?, ?, ?, ?)",
             (
                 surface,
-                entry.title,
-                entry.etymology_index if entry.HasField("etymology_index") else None,
-                entry.entry_index if entry.HasField("entry_index") else None,
+                lemma,
+                entry_index,
                 tags.SerializeToString(deterministic=True),
                 "\x1f".join(raw_tags),
             ),
         )
 
-    def locate(self, title: str) -> Location | None:
+    def locate(self, lemma: str) -> Location | None:
         row = self._db.execute(
-            "SELECT shard, frame_offset, idx FROM words WHERE title = ?", (title,)
+            "SELECT shard, frame_offset, idx FROM words WHERE lemma = ?", (lemma,)
         ).fetchone()
         return Location(*row) if row else None
 
     def resolve_form(self, surface: str) -> list[FormHit]:
         """Every lemma entry `surface` is a form of, in insertion order."""
         hits = []
-        for lemma, ety, entry_index, tags_blob, raw in self._db.execute(
-            "SELECT lemma, etymology_index, entry_index, tags, raw_tags"
+        for lemma, entry_index, tags_blob, raw in self._db.execute(
+            "SELECT lemma, entry_index, tags, raw_tags"
             " FROM forms WHERE surface = ? ORDER BY rowid",
             (surface,),
         ):
-            ref = EntryRef(title=lemma)
-            if ety is not None:
-                ref.etymology_index = ety
-            if entry_index is not None:
-                ref.entry_index = entry_index
             tags = GrammaticalTags()
             tags.ParseFromString(tags_blob)
-            hits.append(FormHit(ref, tags, tuple(raw.split("\x1f")) if raw else ()))
+            raw_tags = tuple(raw.split("\x1f")) if raw else ()
+            hits.append(FormHit(lemma, entry_index, tags, raw_tags))
         return hits

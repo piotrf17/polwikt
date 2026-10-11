@@ -27,48 +27,33 @@ from polwikt.proto.io import decode_varint, encode_varint
 
 
 def _word(i: int) -> pb.Word:
-    return pb.Word(title=f"słowo{i}", page_id=1000 + i, revision_id=7, lang_code="pl")
+    return pb.Word(lemma=f"słowo{i}")
 
 
 def _rich_word() -> pb.Word:
     """`kot`, hand-built to touch every level of the schema."""
-    gloss = "cat (domestic animal)"
     sense = pb.Sense(
-        gloss=pb.RichText(
-            text=gloss,
-            wikitext="[[cat]] {{gl|domestic animal}}",
-            links=[pb.LinkSpan(start=0, end=3, target="cat")],
-        ),
+        gloss="cat (domestic animal)",
         labels=["colloquial", "Far Masovian"],
         examples=[
             pb.Example(
-                kind=pb.Example.Kind.KIND_USAGE_EXAMPLE,
-                text=pb.RichText(text="Mam kota."),
-                translation=pb.RichText(text="I have a cat."),
+                kind=pb.Example.Kind.KIND_EXAMPLE,
+                text="Mam kota.",
+                translation="I have a cat.",
             )
         ],
+        relations=[pb.Relation(type=pb.Relation.Type.TYPE_SYNONYM, term="kocur")],
         government=[
             pb.Government(
                 preposition="do",
                 grammatical_case=pb.Case.CASE_GENITIVE,
-                slot_gloss="to what",
-                raw=":do(gen)<to what>",
+                description="to what",
             )
         ],
-        sense_id="animal",
-        subsenses=[pb.Sense(gloss=pb.RichText(text="tomcat"))],
+        subsenses=[pb.Sense(gloss="tomcat")],
     )
-    entry = pb.PosEntry(
+    entry = pb.Entry(
         pos=pb.Pos.POS_NOUN,
-        heading="Noun",
-        headword="kot",
-        head_templates=[
-            pb.TemplateCall(
-                name="pl-noun",
-                positional=["m-anml"],
-                named=[pb.NamedArg(name="dim", value="kotek")],
-            )
-        ],
         senses=[sense],
         forms=[
             pb.Form(
@@ -77,10 +62,13 @@ def _rich_word() -> pb.Word:
                     grammatical_case=pb.Case.CASE_GENITIVE,
                     number=pb.Number.NUMBER_PLURAL,
                 ),
-                source=pb.Form.Source.SOURCE_DECLENSION_TABLE,
-                has_own_page=True,
             )
         ],
+        pronunciations=[pb.Pronunciation(ipa="/kɔt/")],
+        audio=[pb.Audio(file="Pl-kot.ogg")],
+        etymology="Inherited from Proto-Slavic *kotъ.",
+        relations=[pb.Relation(type=pb.Relation.Type.TYPE_DIMINUTIVE, term="kotek")],
+        topics=["Cats"],
         noun=pb.NounInfo(
             genders=[
                 pb.GenderAnimacy(
@@ -91,24 +79,9 @@ def _rich_word() -> pb.Word:
         ),
     )
     return pb.Word(
-        title="kot",
-        page_id=12345,
-        revision_id=67890,
-        lang_code="pl",
-        etymologies=[
-            pb.EtymologyGroup(
-                etymology=pb.RichText(text="Inherited from Proto-Slavic *kotъ."),
-                links=[
-                    pb.EtymologyLink(
-                        type=pb.EtymologyLink.Type.TYPE_INHERITED,
-                        lang_code="sla-pro",
-                        term="*kotъ",
-                    )
-                ],
-                entries=[entry],
-            )
-        ],
-        pronunciations=[pb.Pronunciation(ipa="/kɔt/", rhyme="-ɔt")],
+        lemma="kot",
+        entries=[entry],
+        frequency=pb.Frequency(rank=1234, count=56, source="SFPW 1990"),
     )
 
 
@@ -152,18 +125,7 @@ def test_rich_word_round_trips(tmp_path: Path) -> None:
     _write(tmp_path, [word])
     (back,) = read_corpus(tmp_path)
     assert back == word
-    assert back.etymologies[0].entries[0].WhichOneof("detail") == "noun"
-
-
-def test_link_spans_are_codepoint_offsets() -> None:  # R7.6a
-    text = "duże łóżko i kot"
-    start = text.index("łóżko")
-    span = pb.LinkSpan(start=start, end=start + len("łóżko"), target="łóżko")
-    rich = pb.RichText(text=text, links=[span])
-    back = pb.RichText.FromString(rich.SerializeToString())
-    assert back.text[back.links[0].start : back.links[0].end] == "łóżko"
-    # A byte-offset convention would put the span somewhere else entirely.
-    assert text.encode()[start : start + 5] != "łóżko".encode()
+    assert back.entries[0].WhichOneof("detail") == "noun"
 
 
 def test_sharding_preserves_order_and_names(tmp_path: Path) -> None:
@@ -174,7 +136,7 @@ def test_sharding_preserves_order_and_names(tmp_path: Path) -> None:
         f"words-{i:05d}-of-00008.pb.zst" for i in range(8)
     ]
     assert not list(tmp_path.glob("*.part"))
-    assert [w.page_id for w in read_corpus(tmp_path)] == [w.page_id for w in words]
+    assert [w.lemma for w in read_corpus(tmp_path)] == [w.lemma for w in words]
     assert locations[6_999].shard == 0 and locations[7_000].shard == 1
     assert sum(1 for _ in read_shard(paths[-1])) == 50_000 - 7 * 7_000
 
@@ -268,8 +230,6 @@ def test_metadata_lives_beside_the_shards(tmp_path: Path) -> None:  # R7.4
     meta = pb.Corpus(
         schema_version="1",
         dump_date="20261001",
-        dump_pinned=True,
-        generated_at="2026-10-11T12:00:00Z",
         drop_labels=["Middle Polish"],
         word_count=3,
         license="CC BY-SA 4.0",
@@ -290,9 +250,9 @@ def test_json_view_is_one_stable_line() -> None:  # R7.5
     assert "\n" not in rendered
     assert rendered == to_json(_rich_word())
     data = json.loads(rendered)
-    assert data["title"] == "kot"
-    assert data["etymologies"][0]["entries"][0]["pos"] == "POS_NOUN"
-    assert "łóżko" in to_json(pb.Word(title="łóżko"))  # not \u-escaped
+    assert data["lemma"] == "kot"
+    assert data["entries"][0]["pos"] == "POS_NOUN"
+    assert "łóżko" in to_json(pb.Word(lemma="łóżko"))  # not \u-escaped
 
 
 # --- index.sqlite ----------------------------------------------------------
@@ -300,26 +260,28 @@ def test_json_view_is_one_stable_line() -> None:  # R7.5
 
 def test_index_locates_lemmas_and_resolves_forms(tmp_path: Path) -> None:
     corpus = tmp_path / "corpus"
-    words = [pb.Word(title=t) for t in ("kot", "mama", "mieć")]
+    words = [pb.Word(lemma=t) for t in ("kot", "mama", "mieć")]
     locations = _write(corpus, words)
     gen_pl = pb.GrammaticalTags(
         grammatical_case=pb.Case.CASE_GENITIVE, number=pb.Number.NUMBER_PLURAL
     )
     with CorpusIndex(tmp_path / "index.sqlite") as index:
         for word, loc in zip(words, locations, strict=True):
-            index.add_word(word.title, loc)
-        index.add_form("kotów", pb.EntryRef(title="kot", etymology_index=0), gen_pl)
-        # mamy: a form of two lemmas, and of no lemma on its own page (R3.13a).
+            index.add_word(word.lemma, loc)
+        index.add_form("kotów", "kot", None, gen_pl)
+        # mamy: a form of two lemmas, and a lemma of nothing on its own (R3.13a).
         index.add_form(
             "mamy",
-            pb.EntryRef(title="mieć", etymology_index=0, entry_index=0),
+            "mieć",
+            0,
             pb.GrammaticalTags(
                 person=pb.Person.PERSON_FIRST, tense=pb.Tense.TENSE_PRESENT
             ),
         )
         index.add_form(
             "mamy",
-            pb.EntryRef(title="mama"),
+            "mama",
+            0,
             pb.GrammaticalTags(grammatical_case=pb.Case.CASE_GENITIVE),
             raw_tags=["depreciative"],
         )
@@ -327,22 +289,19 @@ def test_index_locates_lemmas_and_resolves_forms(tmp_path: Path) -> None:
     with CorpusIndex(tmp_path / "index.sqlite") as index:  # survives reopening
         found = index.locate("mieć")
         assert found is not None
-        assert read_at(corpus, found).title == "mieć"
+        assert read_at(corpus, found).lemma == "mieć"
         assert index.locate("kotów") is None  # forms are not records (R7.7a)
 
         (kotow,) = index.resolve_form("kotów")
-        assert kotow.entry.title == "kot"
-        assert kotow.entry.etymology_index == 0
-        assert not kotow.entry.HasField("entry_index")
-        assert kotow.tags == gen_pl
+        assert (kotow.lemma, kotow.entry_index, kotow.tags) == ("kot", None, gen_pl)
 
         mamy = index.resolve_form("mamy")
-        assert [h.entry.title for h in mamy] == ["mieć", "mama"]
+        assert [(h.lemma, h.entry_index) for h in mamy] == [("mieć", 0), ("mama", 0)]
         assert mamy[1].raw_tags == ("depreciative",)
         assert index.resolve_form("pies") == []
 
 
-def test_index_rejects_duplicate_titles(tmp_path: Path) -> None:
+def test_index_rejects_duplicate_lemmas(tmp_path: Path) -> None:
     with CorpusIndex(tmp_path / "index.sqlite") as index:
         index.add_word("kot", Location(0, 0, 0))
         with pytest.raises(CorpusError, match="duplicate"):

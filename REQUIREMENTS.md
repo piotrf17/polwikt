@@ -1,7 +1,10 @@
 # polwikt — Requirements
 
 Extract Polish lexical data from the **English** Wiktionary dump into a structured,
-machine-readable corpus stored as Google Protocol Buffers.
+machine-readable corpus stored as Google Protocol Buffers — data for **applications**:
+a dictionary app, a flashcard (Anki) generator, a grammar drill. Wiktionary is the
+source, not the shape: the output carries what such an app shows or queries, not a
+mirror of how Wiktionary stores or renders an article (decision 11, §12).
 
 Status: **M1 complete** (restarted from scratch on 2026-10-11, see `PLAN.md`).
 `proto/polwikt.proto` is the schema contract; section 7 below is its rationale.
@@ -16,11 +19,15 @@ Reference implementation to study:
 
 ## 1. Goals
 
-1. **G1 — Completeness.** For every English-Wiktionary page containing a `==Polish==`
-   section, capture *everything* the article states: senses, part of speech, labels,
-   examples/quotations, pronunciation, etymology, full inflection (declension /
-   conjugation), lexical relations, descendants, usage notes, references, categories.
-   Nothing that a human reader gets from the page should be silently dropped.
+1. **G1 — Useful completeness.** For every Polish lemma on English Wiktionary,
+   capture everything a learner-facing app can use: part of speech, senses with their
+   usage labels, examples, quotations and collocations, case government, pronunciation
+   and audio, full inflection (declension / conjugation), gender, animacy and aspect,
+   lexical relations (synonyms, derived terms, aspect partners, diminutives, …),
+   etymology, usage notes, topics and word frequency. Nothing in those categories is
+   silently dropped. Wiktionary's own bookkeeping — template calls, wiki markup and
+   link targets, page and revision ids, maintenance categories, reference lists,
+   anagrams, descendants in other languages — is deliberately **not** output.
 2. **G2 — Structure over text.** Output typed protobuf messages, not scraped HTML or
    free-form strings. Inflected forms carry machine-readable grammatical tags (case,
    number, gender/animacy, person, tense, mood, aspect, degree, …).
@@ -37,12 +44,16 @@ Reference implementation to study:
    run once and are cached; the extraction logic can be re-run over a small Polish-only
    subset in minutes, not hours.
 5. **G5 — Reproducibility.** Same dump + same code ⇒ byte-identical output. Every
-   output record is traceable to a dump date, page id and revision id.
+   record is traceable to its source: the corpus metadata names the dump date, and a
+   lemma names its Wiktionary page (which is also what CC BY-SA attribution needs).
 
 ### Non-goals (v1)
 
 - Other languages (the design must not *preclude* them, but only `pl` is extracted).
-- Rendering wikitext to HTML.
+- Rendering wikitext to HTML, or mirroring Wiktionary's article structure, markup,
+  categories or reference lists in the output.
+- Descendants (words in other languages derived from a Polish word) and cognates: not
+  Polish lexical data.
 - Editing or writing back to Wiktionary.
 - A query server / API. Output is files; consumers are separate tools.
 - Data from the Polish-language Wiktionary (pl.wiktionary). English Wiktionary only.
@@ -126,7 +137,8 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
   keyed by `(title, namespace_id)`, body as plain `TEXT` — exactly as upstream creates it
   (verified at the pinned SHA; it has no page id, no revision id and no compression).
   What upstream lacks lives in our own tables in the same file: `page_meta(title, ns,
-  page_id, revision_id)` for G5 traceability, `all_titles` (R3.2a), and `scan_meta` (dump
+  page_id, revision_id)` for debugging and output ordering, `all_titles` (R3.2a), and
+  `scan_meta` (dump
   fingerprint, predicate fingerprint, counters — R3.4/R3.5). Our tables are additive; we
   never alter upstream's schema, so an upstream bump can't silently break the handoff.
 - **R3.2 — ns-0 filtering.** From namespace 0, **store only pages that contain a
@@ -229,16 +241,14 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   - **Participle entries are not folded** (decision 10, §12). `===Participle===` entries
     carry their own adjectival declension tables and often their own senses; folding
     them into a single verb `Form` would lose that. They stay records, linked to the verb
-    via `form_of`, and the verb's paradigm `Form` points at them. Indeclinable adverbial
-    participles (`-ąc`, `-wszy`) have no paradigm and fold normally.
-  - **Fold, don't just delete.** Before dropping, transfer anything the lemma's own
-    paradigm does not already carry: mark the matching `Form` as attested by a dedicated
-    page, add forms the generated table missed, and attach the form page's pronunciation
-    to that `Form`. Sense-level content on a pure form-of entry (labels such as
-    *archaic*, *dialectal*) rides along on the `Form`'s tags.
+    by a `PARTICIPLE_OF` relation. Indeclinable adverbial participles (`-ąc`, `-wszy`)
+    have no paradigm and fold normally.
+  - **Fold, don't just delete.** Before dropping, transfer what the lemma's own paradigm
+    does not already carry: add forms the generated table missed, and carry labels from
+    the form-of sense (*archaic*, *dialectal*) onto the matching `Form`'s labels.
   - **R3.13b** Keep the lookup path alive: `index.sqlite` maps **every** folded surface
-    form title → `(lemma title, entry id, tags)`, so a consumer resolving `kotów` still
-    lands on `kot`. This mapping is index-only; it is not a protobuf record.
+    form → `(lemma, entry index, tags)`, so an app looking up `kotów` still lands on
+    `kot`. This mapping is index-only; it is not a protobuf record.
   - **R3.13c** A form-of entry whose lemma cannot be resolved (target page absent,
     ambiguous, or the link is broken) must **not** be silently dropped — count it, log it
     to `unresolved_forms.jsonl`, and expose the count in `stats.json`. This is the metric
@@ -247,7 +257,7 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   perfective, from the aspect-partner arguments of `{{pl-verb}}` and from the *Related
   terms* section), frequentatives (`{{pl-verb|…|freq=}}`), diminutive/augmentative
   chains (`{{pl-noun|…|dim=}}`), comparative ↔ positive adjectives (`{{pl-adj}}`).
-- **R3.15** Emit the canonical sharded corpus plus a `title → (shard, offset)` index.
+- **R3.15** Emit the canonical sharded corpus plus a `lemma → (shard, offset)` index.
 - **R3.16** Emit `stats.json`: counts by POS, senses, forms, pages with/without
   inflection, top unhandled templates by frequency. This is the primary quality signal.
 
@@ -270,15 +280,16 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     `{{etymon}}` etymology templates, `{{IPA|pl|…}}`, `{{pl-pr}}`, `{{inflection of|pl|…}}`,
     `{{col|pl|…}}` term lists. "Capture" means the typed fields come from the call's
     arguments, never from scraping its rendering; the call is still *rendered* where it
-    contributes visible text, because the plain-text view (R7.6a) needs it.
+    contributes visible text, because the plain text (R7.6a) needs it.
   - **Both** for headword lines (`{{pl-noun}}`, `{{pl-verb}}`, `{{pl-adj}}`): keep the
     raw call *and* the expanded gender/aspect/form annotations.
   - Template aliases and redirects are resolved before policy lookup (`{{infl of}}` →
     `{{inflection of}}`, `{{tlb}}` → `{{term-label}}`), so the policy names the canonical
     template once.
   - **R4.2.1** Retain the raw `{name, args}` of every inflection/headword/etymology
-    template in the proto (`*_templates` fields), as wiktextract does. This is the
-    escape hatch when our table parsing is wrong.
+    template **inside the pipeline** — P3's intermediate records and `polwikt inspect` —
+    as the escape hatch when our table parsing is wrong. They are not part of the output
+    corpus (decision 11): an app has no use for them.
 - **R4.3** `#invoke` of Polish modules must actually execute. If Lua fails for a page,
   degrade gracefully: emit the entry without the inflection table, record the failure.
 - **R4.4** Handle: parser functions (`#if`, `#ifeq`, `#switch`, `#expr`, `#invoke`,
@@ -340,10 +351,12 @@ English-Wiktionary Polish sections follow this nesting:
 - **R5.4** Sense lists nest (`#`, `##`, `#*`, `#:`); sub-senses must be represented as
   child senses, not flattened.
 - **R5.5** Sections that belong to the language rather than a POS — `Alternative forms`
-  and `Pronunciation` above the etymologies; `Trivia`, `References`, `Further reading`,
-  `See also`, `Anagrams` after them — must be attached at the right level.
-- **R5.6** `{{senseid|pl|…}}` anchors must be captured so external data can reference a
-  specific sense stably.
+  and `Pronunciation` above the etymologies — are copied into every entry they apply
+  to, so each `Entry` is self-contained. Of the sections after the etymologies only
+  `Trivia` is read, for word frequency (R6.13); `References`, `Further reading`,
+  `See also` and `Anagrams` are Wiktionary bookkeeping and are not output.
+- **R5.6** *Withdrawn (decision 11).* `{{senseid}}` anchors are Wiktionary-internal and
+  cover too few senses to serve as stable ids for an app.
 
 ---
 
@@ -367,8 +380,9 @@ English-Wiktionary Polish sections follow this nesting:
   adverbs where the article links them.
 - **R6.4 — Pronouns / numerals.** Their irregular paradigms, including collective
   numerals (`dwoje`, `pięcioro`) and the special numeral agreement patterns.
-- **R6.5 — Pronunciation.** IPA, audio file names, rhymes, **syllabification** and
-  homophones, from `{{pl-pr}}` (`Module:zlw-lch-IPA`) or a literal `{{IPA|pl|…}}`.
+- **R6.5 — Pronunciation.** IPA, audio file names, **syllabification** and homophones
+  (as relations), from `{{pl-pr}}` (`Module:zlw-lch-IPA`) or a literal `{{IPA|pl|…}}`.
+  Rhymes are not output.
   `{{pl-pr}}` packs most of this into parameters — `a=` audio (with `<text:…>`
   modifiers), `hh=` homophones, and one parameter per **dialect** (`CD=`, `MD=`, `CGP=`,
   `zag=`, `krk=`, …) — so regional variants are captured as separate `Pronunciation`s
@@ -397,8 +411,8 @@ English-Wiktionary Polish sections follow this nesting:
   - **Alternative forms** qualified Middle Polish (`{{alt|pl|dóbr||Middle Polish}}`).
   - **Declension tables** from Middle Polish templates (`{{pl-mid-decl-noun}}`,
     `Module:pl-mid-noun`).
-  - **Reference groups** headed `Middle Polish:` under Further reading/References (links
-    to the 16th/17th-century dictionaries, `{{R:pl:SXVI}}`, `{{R:pl:SXVII}}`).
+  - **Reference groups** headed `Middle Polish:` (links to the 16th/17th-century
+    dictionaries) — moot since decision 11: no reference list is output at all.
   - Cascade like R3.13a: if every entry on a page is dropped, the page yields no `Word`.
   - Magnitude check: `Category:Middle Polish` had 3,964 members on 2026-10-11 — the
     page-touch count in `stats.json` should land near that.
@@ -407,7 +421,7 @@ English-Wiktionary Polish sections follow this nesting:
     one-line change. Old Polish needs no entry — it is a separate L2 section already
     excluded by R3.2.
   - **R6.6c** Everything dropped is **counted** in `stats.json` (senses, entries, pages,
-    pronunciations, alternative forms, tables, references — by label and by kind).
+    pronunciations, alternative forms, tables — by label and by kind).
     Deleting content from live articles is only safe if we can see how much we deleted; an unexpected jump means the label matcher is over-firing.
 - **R6.7 — Labels.** `{{lb|pl|…}}` / `{{tlb|pl|…}}` values and qualifiers (colloquial,
   dated, obsolete, vulgar, transitive, reflexive-się, …) are stored as **plain strings**
@@ -418,14 +432,18 @@ English-Wiktionary Polish sections follow this nesting:
   in the retained template call (R4.2.1). **Dialect labels are very common** on Polish
   entries (`Chełmno-Dobrzyń`, `Far Masovian`, `Central Greater Poland`, town names such as
   `Krotoszyn`) and are labels like any other.
-- **R6.8 — Etymology.** Both the rendered text *and* structured links: borrowed-from /
-  inherited-from / derived-from with source language codes and source terms, cognates,
-  Proto-Slavic reconstructions, compound decomposition (`{{af|pl|…|-ka}}`).
-- **R6.9 — Examples & quotations.** `{{ux|pl|…}}` / `{{uxi|pl|…}}` (Polish text +
-  English translation), `{{quote-book}}`/`{{quote-journal}}`/`{{RQ:pl:…}}` with author,
-  title, year, page, original text and translation kept separate.
-- **R6.10 — Categories.** Both explicit `[[Category:…]]` and those emitted by templates
-  during expansion (topical categories like *pl:Birds* are the useful ones).
+- **R6.8 — Etymology.** The rendered etymology as **plain text** ("Inherited from
+  Proto-Slavic *kotъ"). Structured etymology links — source language codes, cognates,
+  reconstructions — are historical-linguistics data an app for Polish learners does
+  not use, and are not output (decision 11).
+- **R6.9 — Examples & quotations.** `{{ux|pl|…}}` / `{{uxi|pl|…}}` and
+  `{{quote-*}}`/`{{RQ:pl:…}}`: Polish text, English translation and literal translation
+  as separate fields; a quotation also gets a one-line `source` ("Henryk Sienkiewicz,
+  Potop (1886)") rather than bibliographic fields.
+- **R6.10 — Topics.** Topical categories — explicit `[[Category:pl:…]]`, `{{C|pl|…}}`,
+  and those emitted by templates during expansion — become `topics` ("Birds",
+  "Music"): the hook for topic-based decks. All other categories are Wiktionary
+  maintenance and are not output.
 - **R6.11 — Government (valency).** `{{+obj|pl|…}}` on a sense states what case or
   preposition the word governs (`:za(acc)`, `acc<what>`, `:do(gen)<to what>`). It is
   structured data — case enum, optional preposition, gloss of the slot — and must be
@@ -433,6 +451,10 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.12 — Collocations.** `{{coi|pl|…}}` lines under a sense and the
   `====Collocations====` section carry a Polish phrase and its translation; they are kept
   as typed examples (collocation kind), sense-scoped where they appear under a sense.
+- **R6.13 — Frequency.** `{{pl-freq 1990}}` in `Trivia` cites *Słownik frekwencyjny
+  polszczyzny współczesnej* (1990): the word's total count in a 500k-word corpus
+  (parameter 6) and its rank (parameter 7). Output as `Word.frequency` — the natural
+  ordering for a learning deck. Only the most frequent words carry it.
 
 ---
 
@@ -443,45 +465,47 @@ English-Wiktionary Polish sections follow this nesting:
 - **R7.2** Storage: length-delimited (varint-prefixed) `Word` records, zstd-compressed,
   sharded (`words-00000-of-00064.pb.zst`). A single monolithic message is forbidden —
   the corpus must stream. Provide a reader helper that yields `Word`s.
-- **R7.3** A sidecar `index.sqlite` mapping title → shard + offset, and lemma → entry ids.
-- **R7.4** A `Corpus` metadata message recording dump date, dump sha1, whether the dump
-  was the pinned one (R2.1a), pipeline git revision, proto schema version, the active
-  `drop_labels` set (R6.6b), generation timestamp, and counts. A consumer must be able to
-  tell from the corpus alone what was excluded from it. It is written **out of band**, to
-  `corpus.meta.pb` beside the shards, because the timestamp would otherwise break G5's
-  byte-identical shards.
+- **R7.3** A sidecar `index.sqlite` mapping lemma → shard + offset, and surface form →
+  (lemma, entry index, tags) (R3.13b).
+- **R7.4** A `Corpus` metadata message recording the schema version, dump date, pipeline
+  version, word count, the active `drop_labels` set (R6.6b), and the license and
+  attribution (R11). A consumer must be able to tell from the corpus alone what was
+  excluded from it. It is written to `corpus.meta.pb` beside the shards, so the shards
+  hold nothing but `Word` records. No timestamp: the metadata is deterministic too.
 - **R7.5** A **JSON dump** (`--format=jsonl`) of the same messages via `MessageToJson`,
   for eyeballing and diffing. Protobuf is the contract; JSON is a view.
 - **R7.6** Field numbering discipline: never reuse or renumber fields; `reserved` on
-  removal. Unknown/unmapped data goes to explicit `repeated string raw_tags` /
-  `raw_*` fields rather than being dropped. Repeated messages, never `map<>` fields
+  removal — once a corpus has been released; until then the schema may be compacted.
+  Grammatical features that don't map to an enum go to `repeated string raw_tags`
+  rather than being dropped. Repeated messages, never `map<>` fields
   (enforced by a schema test) — **not** for determinism: `deterministic=True`
   serialization, which every writer here uses, sorts map entries by key (verified with
   protobuf 7.36). The reasons are evolution and fidelity: a map entry can never gain a
   field while a repeated message can, additively; a list keeps the article's order; and
   byte-identity (G5) doesn't then hinge on every serialization call passing the flag.
-- **R7.6a — Both plain and marked-up text.** Every human-readable string (gloss,
-  example, etymology, usage note) is stored **twice**: a plain-text form with links
-  flattened to their display text, and either the rendered form with markup (`raw_*`) or
-  a span list (`LinkSpan`) carrying the link targets. Plain text is what a consumer
-  greps, embeds or shows; the spans are what makes glosses navigable. Offsets are
-  **Unicode codepoints** into the plain string — a byte offset convention would be a
-  standing bug source in Polish text.
+- **R7.6a — Plain text.** Every human-readable string (gloss, example, etymology, usage
+  note) is stored as **plain text**, links flattened to their display text. Link
+  targets and wiki markup are Wiktionary's navigation, not data an app needs; the links
+  that matter — to other Polish lemmas — are typed `Relation`s (decision 11, reversing
+  decision 3).
 
 ### Schema shape
 
 The contract is `proto/polwikt.proto`; this is the shape it implements, not a second copy
 to keep in sync:
 
-- `Word` (one per lemma page) → `EtymologyGroup` (one per `Etymology N`, or one for the
-  whole section) → `PosEntry` → `Sense` (recursive `subsenses`) and a flat `Form` list.
-- Page-level material (shared pronunciation, language-level sections) hangs off `Word`;
-  POS-specific detail is a `oneof` of `NounInfo` / `VerbInfo` / `AdjectiveInfo`.
-- Usage labels are `repeated string labels` (R6.7); grammatical features use the closed
-  enums in `GrammaticalTags`, with `raw_tags` for any that don't map. Every message built
-  from a template keeps the raw `TemplateCall` (R4.2.1).
+- `Word` (one per lemma: `lemma`, optional `frequency`) → `Entry` (one per lexeme: a
+  word class within one etymology, so homographs like *zamek* "castle"/"lock" are
+  separate entries) → `Sense` (recursive `subsenses`) and a flat `Form` list.
+- Each `Entry` is self-contained — pronunciation, audio, etymology, relations, usage
+  notes, topics — so one entry is enough to build one flashcard. POS-specific detail is
+  a `oneof` of `NounInfo` (genders with animacy, tantum flags) / `VerbInfo` (aspect).
+- Usage labels, dialect names and topics are plain strings (R6.7); grammatical features
+  use the closed enums in `GrammaticalTags`, with `raw_tags` for any that don't map.
 - A table cell covering several cases (nom/acc) becomes one `Form` per case, so
   `GrammaticalTags` stays scalar and the list stays pivotable (R7.8).
+- A schema test fails if Wiktionary bookkeeping (template calls, markup, page ids,
+  categories, references) reappears in the output.
 
 - **R7.7** Grammatical tags are **enums**, not free strings, for the closed Polish
   categories (case, number, gender, animacy, person, tense, mood, aspect, degree). Any
@@ -506,7 +530,7 @@ to keep in sync:
   `piec`), inflected-form-only pages (`kotów`, and `mamy`, which folds into two lemmas),
   borrowed terms, multi-word phrases, dialect-heavy entries, and — as *negative* cases —
   a page with Middle Polish content in every R6.6a position (`dobry`: senses, an
-  alternative form, `mp=`, a reference group), a page that is entirely Middle Polish
+  alternative form, `mp=`), a page that is entirely Middle Polish
   (must yield no record; chosen at M3), and pages that are both a lemma and an inflected
   form (`bez`, `mieć`: keep only their lemma halves, per R3.13a).
   Fixtures are taken from the **pinned dump**, never the live wiki, so the golden set and
@@ -622,7 +646,7 @@ operational consequences that are *not* optional:
 
 ## 12. Decisions & open questions
 
-All ten are **settled**: 1–5 when the spec was written, 6–10 in the 2026-10-11 review.
+All eleven are **settled**: 1–5 when the spec was written, 6–11 on 2026-10-11.
 Kept here as the record of what was decided and why.
 
 1. ~~Build on wikitextprocessor, or wrap wiktextract's English extractor?~~
@@ -640,10 +664,9 @@ Kept here as the record of what was decided and why.
    per POS entry, so pages that are simultaneously a lemma and a form keep their lemma
    half. Unresolvable form pages are counted and logged rather than dropped quietly.
 3. ~~How much rendered text do we keep alongside the structured data?~~
-   **Decided: keep both** (R7.6a). Each human-readable string is stored as plain text
-   *and* with its markup/link targets — glosses get a `LinkSpan` list over codepoint
-   offsets, longer prose keeps a `raw_*` twin. Consumers that want a string get one;
-   consumers that want to follow `[[kot]]` can.
+   **Decided: keep both** (R7.6a) — *reversed by decision 11.* Each human-readable
+   string was to be stored as plain text *and* with its markup/link targets (codepoint
+   `LinkSpan`s over glosses, a `raw_*` twin for prose).
 4. ~~Dump cadence: pin one, or track `latest`?~~ **Decided: pin one** (R2.1a).
    `dump_date` + `dump_sha1` live in `polwikt.toml`; moving the pin is its own commit
    with the `stats.json` diff reviewed alongside it, so Wiktionary churn never mixes with
@@ -670,7 +693,7 @@ Kept here as the record of what was decided and why.
    pin, and Special:Export does not follow Lua `require`.
 8. ~~How far does the Middle Polish drop extend?~~ **Decided: all of it** (R6.6a) —
    senses, entries, `mp=` pronunciations, qualified alternative forms, Middle Polish
-   declension tables and the Middle Polish reference groups, each counted by kind.
+   and Middle Polish declension tables, each counted by kind.
 9. ~~Which machine are the performance targets for?~~ **Decided: this 2-core / 5 GB box**
    (§9). R9.2/R9.3 are restated for `--jobs 2`; the P3 wall-clock target is reset from
    M4's measured throughput.
@@ -681,3 +704,12 @@ Kept here as the record of what was decided and why.
     records linked to the verb, and the verb's participle `Form` points at them.
     Indeclinable adverbial participles (`czytając`, `przeczytawszy`) have no paradigm
     of their own and fold like any other inflected form.
+11. ~~Who is the output for: a faithful mirror of the Wiktionary article, or apps?~~
+    **Decided: apps** — a dictionary app, a flashcard (Anki) generator. The schema
+    keeps what such an app shows or queries and drops Wiktionary bookkeeping: template
+    calls (retained only inside the pipeline, R4.2.1), wiki markup and link spans
+    (reverses decision 3, R7.6a), page/revision ids, maintenance categories (topics
+    stay, R6.10), reference lists, anagrams, sense-id anchors (R5.6), descendants,
+    structured etymology links (text stays, R6.8), rhymes, and the
+    etymology-group → POS nesting (flattened into self-contained `Entry`s). Word
+    frequency was added (R6.13) because it is what orders a learning deck.
