@@ -50,7 +50,8 @@ def test_enum_values_share_their_prefix() -> None:
 
 
 def test_no_map_fields() -> None:
-    # Map wire order is unspecified; one map field breaks byte-identical output (G5).
+    # R7.6: map entries can't gain fields later and drop article order. (Determinism is
+    # not the reason: deterministic=True serialization sorts map entries by key.)
     for message in _all_messages():
         assert not message.GetOptions().map_entry, message.full_name
 

@@ -451,8 +451,12 @@ English-Wiktionary Polish sections follow this nesting:
   for eyeballing and diffing. Protobuf is the contract; JSON is a view.
 - **R7.6** Field numbering discipline: never reuse or renumber fields; `reserved` on
   removal. Unknown/unmapped data goes to explicit `repeated string raw_tags` /
-  `raw_*` fields rather than being dropped. No `map<>` fields anywhere: their wire order
-  is unspecified, which would break G5 (enforced by a schema test).
+  `raw_*` fields rather than being dropped. Repeated messages, never `map<>` fields
+  (enforced by a schema test) — **not** for determinism: `deterministic=True`
+  serialization, which every writer here uses, sorts map entries by key (verified with
+  protobuf 7.36). The reasons are evolution and fidelity: a map entry can never gain a
+  field while a repeated message can, additively; a list keeps the article's order; and
+  byte-identity (G5) doesn't then hinge on every serialization call passing the flag.
 - **R7.6a — Both plain and marked-up text.** Every human-readable string (gloss,
   example, etymology, usage note) is stored **twice**: a plain-text form with links
   flattened to their display text, and either the rendered form with markup (`raw_*`) or

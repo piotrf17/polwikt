@@ -66,8 +66,10 @@ in CI. Participle entries link from the verb's `Form.record` (decision 10).
   alternative forms, trivia and references (R5.5); prose (usage notes, trivia) stored
   plain + marked up like glosses (R7.6a); a link from a verb `Form` to its participle
   record (decision 10); dialect pronunciations as `raw_tags`.
-- Design rules learned the first time round: **no `map<>` fields** (unspecified wire
-  order breaks G5; enforce with a test over the descriptors); `Corpus` metadata written
+- Design rules learned the first time round: **repeated messages, not `map<>`
+  fields** — a map entry can't gain fields later and loses article order (R7.6; not a
+  determinism issue, since `deterministic=True` sorts maps); enforce with a test over the
+  descriptors; `Corpus` metadata written
   **out of band** to `corpus.meta.pb` (its timestamp would break byte-identical shards);
   a cell covering several cases becomes **one `Form` per case** so tags stay scalar;
   `case` is a C++ keyword, so the field is `grammatical_case`.

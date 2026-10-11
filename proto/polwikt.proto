@@ -3,8 +3,9 @@
 // Rules (R7.6, CLAUDE.md):
 // - Never renumber or reuse a field number; removal means `reserved`.
 // - Every enum has `<PREFIX>_UNSPECIFIED = 0`.
-// - No `map<>` fields: their wire order is unspecified, which breaks byte-identical
-//   output (G5). Use repeated messages, sorted by the writer.
+// - Repeated messages, not `map<>` fields: a map entry can never gain a field, while a
+//   repeated message can (additively), and a list keeps the article's order. (Not a
+//   determinism issue: deterministic=True serialization sorts map entries by key.)
 // - Anything that doesn't map to an enum keeps its literal string in `raw_tags` (R7.7).
 // - Field numbers 1-15 encode in one byte; they go to the fields of messages that repeat
 //   in the hundreds per word (Form, Sense, LinkSpan).
