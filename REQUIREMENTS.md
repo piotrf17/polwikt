@@ -229,7 +229,8 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   - **Participle entries are not folded** (decision 10, §12). `===Participle===` entries
     carry their own adjectival declension tables and often their own senses; folding
     them into a single verb `Form` would lose that. They stay records, linked to the verb
-    via `form_of`, and the verb's paradigm `Form` points at them.
+    via `form_of`, and the verb's paradigm `Form` points at them. Indeclinable adverbial
+    participles (`-ąc`, `-wszy`) have no paradigm and fold normally.
   - **Fold, don't just delete.** Before dropping, transfer anything the lemma's own
     paradigm does not already carry: mark the matching `Form` as attested by a dedicated
     page, add forms the generated table missed, and attach the form page's pronunciation
@@ -613,8 +614,8 @@ operational consequences that are *not* optional:
 
 ## 12. Decisions & open questions
 
-Decisions 1–5 were settled when the spec was written, 6–9 in the 2026-10-11 review.
-Decision 10 was made by the reviewer and is **open for confirmation**.
+All ten are **settled**: 1–5 when the spec was written, 6–10 in the 2026-10-11 review.
+Kept here as the record of what was decided and why.
 
 1. ~~Build on wikitextprocessor, or wrap wiktextract's English extractor?~~
    **Decided: own extractor on `wikitextprocessor`.** We use it for the dump store,
@@ -665,7 +666,10 @@ Decision 10 was made by the reviewer and is **open for confirmation**.
 9. ~~Which machine are the performance targets for?~~ **Decided: this 2-core / 5 GB box**
    (§9). R9.2/R9.3 are restated for `--jobs 2`; the P3 wall-clock target is reset from
    M4's measured throughput.
-10. **Open — participle entries are not folded** (R3.13a). `===Participle===` entries
-    have their own declension tables and often their own senses, so they stay records
-    linked to the verb, instead of being folded like `kotów`. Reviewer's call; flip it
-    by treating participles as inflectional form-of if you'd rather have verbs only.
+10. ~~Fold participle entries into their verb, or keep them?~~ **Decided: keep them as
+    records** (R3.13a). Adjectival participle entries (`pieczony`, `czytający`) carry
+    their own full adjectival declension and sometimes lexicalised senses (`zakochany`
+    "in love"); folding them into one verb `Form` would lose both. They stay `Word`
+    records linked to the verb, and the verb's participle `Form` points at them.
+    Indeclinable adverbial participles (`czytając`, `przeczytawszy`) have no paradigm
+    of their own and fold like any other inflected form.

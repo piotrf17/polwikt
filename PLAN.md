@@ -59,7 +59,7 @@ M0 ─ M1 schema ─────────────────────
   `{{+obj}}` (R6.11); a collocation example kind for `{{coi}}` (R6.12); `Word`-level
   alternative forms, trivia and references (R5.5); prose (usage notes, trivia) stored
   plain + marked up like glosses (R7.6a); a link from a verb `Form` to its participle
-  record (decision 10 — confirm first); dialect pronunciations as `raw_tags`.
+  record (decision 10); dialect pronunciations as `raw_tags`.
 - Design rules learned the first time round: **no `map<>` fields** (unspecified wire
   order breaks G5; enforce with a test over the descriptors); `Corpus` metadata written
   **out of band** to `corpus.meta.pb` (its timestamp would break byte-identical shards);
