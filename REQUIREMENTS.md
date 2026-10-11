@@ -223,8 +223,13 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   lemma page, and (where the lemma has multiple etymologies/POS) to the specific entry.
 - **R3.13a — Fold non-lemma entries into the lemma; do not emit them.** An inflected-form
   entry (`kotów` = "genitive plural of *kot*") produces **no `Word` record of its own**.
-  Its content is merged into the lemma's paradigm and then discarded. The corpus contains
-  lemmas only.
+  Its content is merged into the lemma's paradigm and then discarded.
+  - **Fold only when it is safe** (decision 12). An entry folds when its lemma exists in
+    the corpus *and* the lemma's forms contain this exact string, so the index still
+    resolves it. Otherwise — lemma absent (1,280 of 12,902 form-of targets, measured by
+    poldict on the kaikki data), or the lemma doesn't produce the string (`DNA` →
+    `kwas dezoksyrybonukleinowy`) — the entry is **emitted** as a record whose senses
+    carry `form_of`. Dropping it would delete a findable word.
   - The rule applies **per POS entry, not per page**. Many Polish page titles are both a
     lemma and an inflected form of something else: `bez` is a preposition and noun lemma
     *and* genitive plural of *beza*; `mieć` is a verb lemma *and* an imperative of
@@ -249,12 +254,13 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   - **R3.13b** Keep the lookup path alive: `index.sqlite` maps **every** folded surface
     form → `(lemma, entry index, tags)`, so an app looking up `kotów` still lands on
     `kot`. This mapping is index-only; it is not a protobuf record.
-  - **R3.13c** A form-of entry whose lemma cannot be resolved (target page absent,
-    ambiguous, or the link is broken) must **not** be silently dropped — count it, log it
-    to `unresolved_forms.jsonl`, and expose the count in `stats.json`. This is the metric
-    that tells us whether folding is losing data.
-- **R3.14** Build derived cross-references: verb **aspect pairs** (imperfective ↔
-  perfective, from the aspect-partner arguments of `{{pl-verb}}` and from the *Related
+  - **R3.13c** A form-of entry that cannot be folded (target page absent, ambiguous, the
+    link is broken, or the lemma's forms lack the string) is emitted per the rule above,
+    and also counted, logged to `unresolved_forms.jsonl`, and exposed in `stats.json` —
+    a rising count is the signal that folding or table parsing is losing ground.
+- **R3.14** Build derived cross-references: verb **aspect pairs**, directed —
+  `PERFECTIVE_COUNTERPART` / `IMPERFECTIVE_COUNTERPART`, since a biaspectual verb's
+  partner is not simply "the other aspect" (from the aspect-partner arguments of `{{pl-verb}}` and from the *Related
   terms* section), frequentatives (`{{pl-verb|…|freq=}}`), diminutive/augmentative
   chains (`{{pl-noun|…|dim=}}`), comparative ↔ positive adjectives (`{{pl-adj}}`).
 - **R3.15** Emit the canonical sharded corpus plus a `lemma → (shard, offset)` index.
@@ -335,7 +341,9 @@ English-Wiktionary Polish sections follow this nesting:
 
 - **R5.1** Preserve the etymology-group structure: a page like *zamek* has multiple
   `Etymology N` sections, each with its own POS entries. Do **not** flatten them into one
-  bag of senses; senses must stay attached to their etymology.
+  bag of senses; senses must stay attached to their etymology. Each `Entry` records its
+  `etymology_number` (0 when unnumbered), so an app can group homographs, show an
+  etymology once per group, and key entries stably as lemma|pos|N|ordinal.
 - **R5.2** Support both L3 and L4 POS placement (with/without `Etymology N`), and
   POS-subsections at L4 or L5 accordingly. **Heading depth is not semantic**: attach a
   section by what its heading *is* (POS, POS-subsection, language-level), using depth
@@ -414,6 +422,10 @@ English-Wiktionary Polish sections follow this nesting:
   - **Reference groups** headed `Middle Polish:` (links to the 16th/17th-century
     dictionaries) — moot since decision 11: no reference list is output at all.
   - Cascade like R3.13a: if every entry on a page is dropped, the page yields no `Word`.
+  - **Known cost** (decision 12): Middle Polish declension tables (`pl-mid-*`) carry a
+    few hundred archaic forms no other table has — poldict measured 452 (`ptacech`,
+    `ptakoch`, `raziech`). Those become unsearchable. Accepted; re-including them is a
+    `drop_labels` change.
   - Magnitude check: `Category:Middle Polish` had 3,964 members on 2026-10-11 — the
     page-touch count in `stats.json` should land near that.
   - **R6.6b** The label set is **config, not code** (R10.5): `drop_labels` defaults to
@@ -429,9 +441,15 @@ English-Wiktionary Polish sections follow this nesting:
   label data modules (in the dump), so `colloq` and `colloquial` arrive as one name. They
   are an open vocabulary, not a closed grammatical set, so they get no enum (R7.7): the
   canonical list is Wiktionary's, not ours to maintain. The as-written spelling survives
-  in the retained template call (R4.2.1). **Dialect labels are very common** on Polish
-  entries (`Chełmno-Dobrzyń`, `Far Masovian`, `Central Greater Poland`, town names such as
-  `Krotoszyn`) and are labels like any other.
+  in the retained template call (R4.2.1).
+  - **Split into three lists per sense** (decision 12), by the kind Wiktionary's own
+    label data assigns: `labels` (register, usage and grammar — *colloquial*,
+    *obsolete*, *transitive* — plus free-text qualifiers), `regions` (dialect and
+    regional labels), `topics` (subject labels such as *hunting*, *music*). An app needs
+    the split: it ranks dialectal and obsolete senses down and shows one register label
+    per result, and a single list cannot tell *Far Masovian* (a region) from *hunting*
+    (a topic). **Dialect labels are very common** on Polish entries (`Chełmno-Dobrzyń`,
+    `Far Masovian`, `Central Greater Poland`, town names such as `Krotoszyn`).
 - **R6.8 — Etymology.** The rendered etymology as **plain text** ("Inherited from
   Proto-Slavic *kotъ"). Structured etymology links — source language codes, cognates,
   reconstructions — are historical-linguistics data an app for Polish learners does
@@ -442,7 +460,8 @@ English-Wiktionary Polish sections follow this nesting:
   Potop (1886)") rather than bibliographic fields.
 - **R6.10 — Topics.** Topical categories — explicit `[[Category:pl:…]]`, `{{C|pl|…}}`,
   and those emitted by templates during expansion — become `topics` ("Birds",
-  "Music"): the hook for topic-based decks. All other categories are Wiktionary
+  "Music"): the hook for topic-based decks. Topics are kept **per sense** (from that
+  sense's labels and categories) as well as per entry. All other categories are Wiktionary
   maintenance and are not output.
 - **R6.11 — Government (valency).** `{{+obj|pl|…}}` on a sense states what case or
   preposition the word governs (`:za(acc)`, `acc<what>`, `:do(gen)<to what>`). It is
@@ -454,7 +473,16 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.13 — Frequency.** `{{pl-freq 1990}}` in `Trivia` cites *Słownik frekwencyjny
   polszczyzny współczesnej* (1990): the word's total count in a 500k-word corpus
   (parameter 6) and its rank (parameter 7). Output as `Word.frequency` — the natural
-  ordering for a learning deck. Only the most frequent words carry it.
+  ordering for a learning deck. Only the most frequent few thousand words carry it, so
+  it complements rather than replaces an external frequency list (poldict ranks on
+  KWJP100, which covers 77% of its noun/verb/adjective lemmas).
+- **R6.14 — English keywords.** Each sense lists the English terms its gloss links to
+  (`[[dog]]`, `{{l|en|dog}}`), as `Sense.keywords`. They are the keys for English→Polish
+  search — human-chosen and multi-word-preserving, far better than tokenizing the gloss
+  (poldict's reverse search is built on them). Taken **only from links inside the gloss
+  text**, never from `{{lb}}` labels, so "(hunting) male fox" yields *fox* and not
+  *hunting*. A link to a scientific name (`#Translingual` target, `{{taxfmt}}`) is
+  marked `taxonomic` so an app can rank it below plain English.
 
 ---
 
@@ -486,7 +514,8 @@ English-Wiktionary Polish sections follow this nesting:
 - **R7.6a — Plain text.** Every human-readable string (gloss, example, etymology, usage
   note) is stored as **plain text**, links flattened to their display text. Link
   targets and wiki markup are Wiktionary's navigation, not data an app needs; the links
-  that matter — to other Polish lemmas — are typed `Relation`s (decision 11, reversing
+  that matter are kept as data instead — to other Polish lemmas as typed `Relation`s,
+  and to English terms in a gloss as search `keywords` (R6.14) (decision 11, reversing
   decision 3).
 
 ### Schema shape
@@ -495,8 +524,12 @@ The contract is `proto/polwikt.proto`; this is the shape it implements, not a se
 to keep in sync:
 
 - `Word` (one per lemma: `lemma`, optional `frequency`) → `Entry` (one per lexeme: a
-  word class within one etymology, so homographs like *zamek* "castle"/"lock" are
-  separate entries) → `Sense` (recursive `subsenses`) and a flat `Form` list.
+  word class within one etymology, tagged with its `etymology_number`, so homographs
+  like *zamek* "castle"/"lock" are separate entries) → `Sense` (recursive `subsenses`)
+  and a flat `Form` list grouped into titled `InflectionTable`s.
+- A `Sense` carries its gloss, `labels` / `regions` / `topics`, English `keywords`,
+  examples, relations, government, and `form_of` when it is a form-of sense of an
+  entry that could not be folded (R3.13a).
 - Each `Entry` is self-contained — pronunciation, audio, etymology, relations, usage
   notes, topics — so one entry is enough to build one flashcard. POS-specific detail is
   a `oneof` of `NounInfo` (genders with animacy, tantum flags) / `VerbInfo` (aspect).
@@ -646,7 +679,7 @@ operational consequences that are *not* optional:
 
 ## 12. Decisions & open questions
 
-All eleven are **settled**: 1–5 when the spec was written, 6–11 on 2026-10-11.
+All twelve are **settled**: 1–5 when the spec was written, 6–12 on 2026-10-11.
 Kept here as the record of what was decided and why.
 
 1. ~~Build on wikitextprocessor, or wrap wiktextract's English extractor?~~
@@ -713,3 +746,16 @@ Kept here as the record of what was decided and why.
     structured etymology links (text stays, R6.8), rhymes, and the
     etymology-group → POS nesting (flattened into self-contained `Entry`s). Word
     frequency was added (R6.13) because it is what orders a learning deck.
+    *Amended by decision 12:* English link targets in glosses come back as search
+    keywords, and the etymology number comes back on each entry.
+12. ~~Does the schema serve a real app?~~ **Checked against poldict**
+    (`~/projects/poldict`, the Android dictionary that consumes kaikki's wiktextract
+    data today), which is the reference consumer. Changes it required: English
+    `keywords` per sense (R6.14) — its reverse search is built on them; `etymology_number`
+    per entry (R5.1) — homograph grouping and stable favourites keys; `labels` /
+    `regions` / `topics` split per sense (R6.7, R6.10) — its register ranking; `form_of`
+    senses and **emitting unfoldable form-of entries** rather than only logging them
+    (R3.13a/c); titled `InflectionTable`s that forms point into — entries with several
+    tables; directed aspect counterparts (R3.14); `POS_LETTER`. Middle Polish stays
+    dropped (decision 8), knowingly costing poldict ~452 archaic searchable forms
+    (R6.6a).

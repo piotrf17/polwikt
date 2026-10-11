@@ -34,7 +34,13 @@ def _rich_word() -> pb.Word:
     """`kot`, hand-built to touch every level of the schema."""
     sense = pb.Sense(
         gloss="cat (domestic animal)",
-        labels=["colloquial", "Far Masovian"],
+        labels=["colloquial"],
+        regions=["Far Masovian"],
+        topics=["zoology"],
+        keywords=[
+            pb.Keyword(text="cat"),
+            pb.Keyword(text="Felis catus", taxonomic=True),
+        ],
         examples=[
             pb.Example(
                 kind=pb.Example.Kind.KIND_EXAMPLE,
@@ -54,6 +60,7 @@ def _rich_word() -> pb.Word:
     )
     entry = pb.Entry(
         pos=pb.Pos.POS_NOUN,
+        etymology_number=1,
         senses=[sense],
         forms=[
             pb.Form(
@@ -62,6 +69,12 @@ def _rich_word() -> pb.Word:
                     grammatical_case=pb.Case.CASE_GENITIVE,
                     number=pb.Number.NUMBER_PLURAL,
                 ),
+                table=0,
+            )
+        ],
+        tables=[
+            pb.InflectionTable(
+                kind=pb.InflectionTable.Kind.KIND_DECLENSION, title="Declension"
             )
         ],
         pronunciations=[pb.Pronunciation(ipa="/kɔt/")],
@@ -78,9 +91,30 @@ def _rich_word() -> pb.Word:
             ]
         ),
     )
+    # A second homograph: an unfoldable form-of entry, emitted because its lemma is
+    # missing from the corpus (R3.13a).
+    form_entry = pb.Entry(
+        pos=pb.Pos.POS_NOUN,
+        etymology_number=2,
+        senses=[
+            pb.Sense(
+                gloss="genitive plural of kota",
+                form_of=pb.FormOf(
+                    type=pb.FormOf.Type.TYPE_INFLECTION,
+                    lemma="kota",
+                    tag_sets=[
+                        pb.GrammaticalTags(
+                            grammatical_case=pb.Case.CASE_GENITIVE,
+                            number=pb.Number.NUMBER_PLURAL,
+                        )
+                    ],
+                ),
+            )
+        ],
+    )
     return pb.Word(
         lemma="kot",
-        entries=[entry],
+        entries=[entry, form_entry],
         frequency=pb.Frequency(rank=1234, count=56, source="SFPW 1990"),
     )
 
@@ -126,6 +160,8 @@ def test_rich_word_round_trips(tmp_path: Path) -> None:
     (back,) = read_corpus(tmp_path)
     assert back == word
     assert back.entries[0].WhichOneof("detail") == "noun"
+    assert back.entries[0].senses[0].keywords[1].taxonomic
+    assert back.entries[1].senses[0].form_of.lemma == "kota"
 
 
 def test_sharding_preserves_order_and_names(tmp_path: Path) -> None:

@@ -26,7 +26,7 @@ package polwikt;
 // Grammatical categories: the closed Polish sets (R7.7, §6)
 // ---------------------------------------------------------------------------
 
-// Word class. Entries under headings outside this set (letters, symbols, punctuation,
+// Word class. Entries under headings outside this set (symbols, punctuation,
 // romanizations, ...) are not useful to a learner and are not emitted (counted in
 // stats.json).
 enum Pos {
@@ -52,6 +52,7 @@ enum Pos {
   POS_PROVERB = 19;
   POS_ABBREVIATION = 20;  // also initialisms and acronyms
   POS_CONTRACTION = 21;
+  POS_LETTER = 22;        // alphabet letters carry real senses ("the letter ł")
 }
 
 enum Case {
@@ -158,21 +159,70 @@ message GrammaticalTags {
 // Entry content
 // ---------------------------------------------------------------------------
 
-// One inflected form (R7.8): "kotów" = genitive plural.
+// One inflected form (R7.8): "kotów" = genitive plural. Forms are in table order;
+// alternatives for one cell are adjacent, primary first, in source order.
 message Form {
   string form = 1;
   GrammaticalTags tags = 2;
   repeated string labels = 3;    // usage on this one cell: "archaic", "colloquial"
   repeated string raw_tags = 4;  // grammatical features no enum covers
+  int32 table = 5;               // index into Entry.tables
+}
+
+// One inflection table as the article presents it. Most entries have one; some have
+// several — variant declensions, a reflexive conjugation, a plural-only paradigm.
+message InflectionTable {
+  enum Kind {
+    KIND_UNSPECIFIED = 0;
+    KIND_DECLENSION = 1;
+    KIND_CONJUGATION = 2;
+  }
+  Kind kind = 1;
+  string title = 2;    // "Declension", "Conjugation (reflexive)"
+  bool irregular = 3;  // the article marks the paradigm irregular
 }
 
 message Sense {
   string gloss = 1;                     // English, plain text
-  repeated string labels = 2;           // "colloquial", "obsolete", "Far Masovian" (R6.7)
-  repeated Example examples = 3;
-  repeated Relation relations = 4;      // synonyms etc. of this sense only
-  repeated Government government = 5;  // what it governs: do + genitive (R6.11)
-  repeated Sense subsenses = 6;         // R5.4
+  // Wiktionary's canonical label names, split three ways so an app can rank and
+  // display them (R6.7): `labels` for register, usage and grammar ("colloquial",
+  // "obsolete", "transitive", free-text qualifiers); `regions` for dialect and
+  // regional labels ("Far Masovian", "Poznań"); `topics` for subject labels and
+  // topical categories ("hunting", "music").
+  repeated string labels = 2;
+  repeated string regions = 3;
+  repeated string topics = 4;
+  repeated Keyword keywords = 5;        // English search terms in the gloss (R6.14)
+  repeated Example examples = 6;
+  repeated Relation relations = 7;      // synonyms etc. of this sense only
+  repeated Government government = 8;   // what it governs: do + genitive (R6.11)
+  FormOf form_of = 9;                   // set on form-of / alt-of senses (R3.13a)
+  repeated Sense subsenses = 10;        // R5.4
+}
+
+// An English term the gloss links to — the key for English->Polish search (R6.14).
+// Only links inside the gloss text are taken, never labels, so "(hunting) male fox"
+// yields "fox" but not "hunting".
+message Keyword {
+  string text = 1;
+  bool taxonomic = 2;  // a scientific name ("Canis lupus familiaris"): rank it low
+}
+
+// What a non-lemma sense points at. Inflected-form entries are folded into their
+// lemma (R3.13a); this survives on the ones that cannot be — the lemma is missing, or
+// its forms don't contain the string — and on alternative spellings, abbreviations and
+// "synonym of" senses, which are records of their own.
+message FormOf {
+  enum Type {
+    TYPE_UNSPECIFIED = 0;
+    TYPE_INFLECTION = 1;         // {{inflection of}}, {{plural of}}, ...
+    TYPE_ALTERNATIVE_FORM = 2;   // {{alt form}}, {{alternative spelling of}}
+    TYPE_SYNONYM = 3;            // {{syn of}}
+    TYPE_ABBREVIATION = 4;       // {{abbreviation of}}, {{initialism of}}
+  }
+  Type type = 1;
+  string lemma = 2;
+  repeated GrammaticalTags tag_sets = 3;  // `;` / `//` in the template expand to several
 }
 
 message Example {
@@ -212,13 +262,14 @@ message Relation {
     TYPE_HOMOPHONE = 11;
     TYPE_DIMINUTIVE = 12;
     TYPE_AUGMENTATIVE = 13;
-    TYPE_ASPECT_PARTNER = 14;  // the other aspect of a verb pair (R3.14)
+    TYPE_PERFECTIVE_COUNTERPART = 14;    // robić -> zrobić (R3.14)
     TYPE_FREQUENTATIVE = 15;
     TYPE_FEMININE_EQUIVALENT = 16;
     TYPE_MASCULINE_EQUIVALENT = 17;
     TYPE_RELATED_ADJECTIVE = 18;  // kot -> koci
     TYPE_RELATED_ADVERB = 19;     // dobry -> dobrze
     TYPE_PARTICIPLE_OF = 20;      // on a participle entry: its verb (decision 10)
+    TYPE_IMPERFECTIVE_COUNTERPART = 21;  // zrobić -> robić (R3.14)
   }
   Type type = 1;
   string term = 2;             // a Polish lemma
@@ -261,27 +312,35 @@ message VerbInfo {
 // zamek "castle" and zamek "lock" are two noun entries with their own senses and
 // declension (R5.1). Each entry is self-contained: page-level pronunciation is copied
 // into every entry it applies to, so one entry is enough to build one flashcard.
+//
+// Entries of one Word are in article order. `etymology_number` groups homographs:
+// entries sharing it share an etymology (and its text), and an app can key an entry
+// stably as lemma|pos|etymology_number|ordinal-within-that-triple.
 message Entry {
   Pos pos = 1;
-  repeated Sense senses = 2;
-  repeated Form forms = 3;
-  repeated Pronunciation pronunciations = 4;
-  repeated Audio audio = 5;
-  string syllabification = 6;      // hyphenation, when given
-  string etymology = 7;            // plain text
-  repeated string labels = 8;      // labels on the whole entry (term-level)
-  repeated Relation relations = 9;
-  repeated Example examples = 10;  // collocations and examples not tied to one sense
-  string usage_notes = 11;         // plain text
-  repeated string topics = 12;     // topical categories: "Animals", "Music"
+  int32 etymology_number = 2;      // N of `Etymology N`; 0 when unnumbered (R5.1)
+  repeated Sense senses = 3;
+  repeated Form forms = 4;
+  repeated InflectionTable tables = 5;
+  repeated Pronunciation pronunciations = 6;
+  repeated Audio audio = 7;
+  string syllabification = 8;      // hyphenation, when given
+  string etymology = 9;            // plain text
+  repeated string labels = 10;     // labels on the whole entry (term-level)
+  repeated Relation relations = 11;
+  repeated Example examples = 12;  // collocations and examples not tied to one sense
+  string usage_notes = 13;         // plain text
+  repeated string topics = 14;     // entry-level topical categories: "Animals"
 
   oneof detail {  // matches `pos` where it applies
-    NounInfo noun = 13;
-    VerbInfo verb = 14;
+    NounInfo noun = 15;
+    VerbInfo verb = 16;
   }
 }
 
-// How common the word is, from a frequency dictionary cited on the page.
+// How common the word is, from a frequency dictionary cited on the page. Coverage is
+// limited to the most frequent few thousand words (R6.13); an app ranking a whole
+// vocabulary needs an external list as well.
 message Frequency {
   int32 rank = 1;     // 1 = most common
   int32 count = 2;    // occurrences in the source corpus

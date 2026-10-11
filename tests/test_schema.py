@@ -119,12 +119,12 @@ def test_polish_categories_are_complete() -> None:  # §6, R7.7
 
 # R5.3, in the heading spelling en.wiktionary uses.
 # R5.3: the headings whose entries are emitted, in en.wiktionary's spelling. Initialism
-# and Acronym map onto ABBREVIATION; letters, symbols, punctuation, syllables and
-# romanizations are not emitted.
+# and Acronym map onto ABBREVIATION; symbols, punctuation, syllables and romanizations
+# are not emitted.
 POS_HEADINGS = """
 Noun, Proper noun, Verb, Adjective, Adverb, Pronoun, Numeral, Determiner, Preposition,
 Conjunction, Particle, Interjection, Participle, Prefix, Suffix, Phrase,
-Prepositional phrase, Idiom, Proverb, Abbreviation, Contraction"""
+Prepositional phrase, Idiom, Proverb, Abbreviation, Contraction, Letter"""
 
 
 def test_pos_covers_every_r5_3_heading() -> None:
@@ -148,6 +148,22 @@ def test_usage_labels_are_plain_strings() -> None:
                 )
 
 
+def test_sense_labels_are_split_for_ranking() -> None:
+    # R6.7: an app ranks dialect senses down and shows topics as chips, so the three
+    # kinds of label must arrive separately (poldict's register signal).
+    fields = pb.Sense.DESCRIPTOR.fields_by_name
+    for name in ("labels", "regions", "topics"):
+        assert fields[name].is_repeated
+        assert fields[name].type == FieldDescriptor.TYPE_STRING
+
+
+def test_aspect_partners_carry_their_direction() -> None:
+    # R3.14: biaspectual verbs make "the opposite of my aspect" unreliable.
+    types = _values(pb.Relation.Type.DESCRIPTOR)
+    assert {"PERFECTIVE_COUNTERPART", "IMPERFECTIVE_COUNTERPART"} <= types
+    assert "ASPECT_PARTNER" not in types
+
+
 def test_grammatical_tags_are_scalar() -> None:
     # One Form per cell-and-case keeps tags scalar and the list pivotable (R7.8).
     for field in pb.GrammaticalTags.DESCRIPTOR.fields:
@@ -161,7 +177,7 @@ HOT_MESSAGES = [
     pb.Sense.DESCRIPTOR,
     pb.Example.DESCRIPTOR,
     pb.Relation.DESCRIPTOR,
-    pb.Entry.DESCRIPTOR,
+    pb.Keyword.DESCRIPTOR,
 ]
 
 

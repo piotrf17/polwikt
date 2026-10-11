@@ -108,7 +108,10 @@ large to stay in page cache on this box, revive P2 (decision 6).
 - Coverage per R8.1, including the negative and edge cases: `dobry` (Middle Polish in
   every R6.6a position), an all-Middle-Polish page (find one here), lemma-and-form pages
   `bez` and `mieć`, the two-lemma form page `mamy`, `kotów`, multi-etymology `zamek`,
-  pluralia tantum, a participle, irregular verbs (`być`, `iść`, `jeść`, `chcieć`).
+  pluralia tantum, a participle, irregular verbs (`być`, `iść`, `jeść`, `chcieć`); and
+  for decision 12 — an unfoldable form-of page (`DNA`), an alternative-spelling page,
+  an entry with two inflection tables, a dialect-heavy sense (`dobry`), a gloss
+  with a taxonomic link (`pies`).
 - Harness: run extraction over a fixture, diff against expected JSON, `--update-golden` to
   re-bless. `polwikt inspect <title>` printing raw wikitext → node tree → proto.
 
@@ -172,12 +175,15 @@ shared page-level pronunciation is copied into each of its entries (R5.5).
 ## M6 — Senses in detail
 *Needs M5. ~1 week.*
 
-- Labels → canonical label-name strings in `labels`, aliases resolved through
-  Wiktionary's label data modules (R6.7), dialect regions included; topics (R6.10);
+- Labels → canonical label-name strings, aliases resolved through Wiktionary's label
+  data modules, and split by the kind that data assigns into `labels` / `regions` /
+  `topics` (R6.7); sense-level topics from topical categories too (R6.10); English
+  `keywords` from links inside the gloss only, with taxonomic links flagged (R6.14);
   `{{ux}}`/`{{uxi}}` examples and `{{quote-*}}`/`{{RQ:pl:…}}` quotations with a one-line
   source (R6.9); `{{coi}}` collocations (R6.12); `{{+obj}}` government (R6.11);
-  sense-scoped nyms; `form_of` from `{{inflection of}}` & friends, incl. `;` / `//`
-  multi-set tags (R6.6), kept in the intermediate records for P4.
+  sense-scoped nyms; `form_of` from `{{inflection of}}`, `{{alt form}}`, `{{syn of}}` &
+  friends, incl. `;` / `//` multi-set tags (R6.6) — P4 decides whether it folds or is
+  emitted on the sense.
 - Plain-text glosses with links flattened to display text (R7.6a).
 - **Middle Polish drop** framework: `drop_labels` config, sense → entry → page cascade,
   per-label and per-kind counts (R6.6a–c). This milestone owns senses and `{{tlb}}`
@@ -193,6 +199,8 @@ by label and kind.
 ## M7 — Nominal inflection (nouns, adjectives, pronouns, numerals)
 *Needs M4, M5. ~1–2 weeks.*
 
+- Each expanded table becomes an `InflectionTable` (kind, title, irregular) and its
+  cells `Form`s pointing into it, in table order with alternatives primary-first.
 - Parse expanded declension tables → flat tagged `Form` list (R7.8): 7 cases × 2 numbers,
   alternative cells, absent cells genuinely absent (R6.1). Both the pattern templates
   (`{{pl-decl-noun-m-anml}}`, …) and explicit-cell `{{pl-decl-noun|noms=…}}`.
@@ -217,7 +225,8 @@ paradigms included; noun-declension coverage measured over a `--limit` sample.
   person × number × gender (sg m/f/n, pl virile/nonvirile); both periphrastic futures;
   imperative; impersonal `-no`/`-to`; verbal noun; both adjectival and both adverbial
   participles.
-- Aspect and aspect partner; reflexive `się`; frequentatives (`freq=`).
+- Aspect and directed aspect counterparts (perfective / imperfective, R3.14); reflexive
+  `się`; frequentatives (`freq=`); a reflexive conjugation as its own titled table.
 
 **Exit:** `być`, `iść`, `jeść`, `chcieć`, a regular imperfective/perfective pair and a
 reflexive verb all match expectations, every paradigm slot tagged.
@@ -259,18 +268,21 @@ the unhandled-section counter rather than being dropped.
 *Needs M6–M10. ~1 week.*
 
 - Resolve `form_of`/`alt_of` to lemma and specific entry (R3.13).
-- **Fold and drop** inflectional form-of entries, per POS entry not per page; add cells
-  the lemma's table missed and carry form-of labels onto the lemma's `Form` (R3.13a); participles, `{{syn of}}` and `{{alt form}}` entries are *not* folded;
-  `index.sqlite` surface-form → lemma map (R3.13b); unresolved forms counted and logged
+- **Fold and drop** inflectional form-of entries, per POS entry not per page — but only
+  when the lemma exists and its forms contain the string; otherwise **emit** the entry
+  with `form_of` senses (R3.13a, decision 12). Carry form-of labels onto the lemma's
+  `Form`. Participles, `{{syn of}}` and `{{alt form}}` entries are *not* folded.
+  `index.sqlite` surface-form → lemma map (R3.13b); unfoldable forms counted and logged
   (R3.13c). All of it through SQLite, within R9.3's memory budget.
 - Aspect pairs, frequentatives, diminutive/augmentative chains, comparative ↔ positive
   (R3.14).
 - Canonical sharded corpus + index (R3.15); `Corpus` metadata incl. dump date, active
-  `drop_labels`, license and attribution (R7.4); `stats.json` (R3.16) and `polwikt stats-diff` (R8.3).
+  `drop_labels`, license and attribution (R7.4); `stats.json` (R3.16) and
+  `polwikt stats-diff` (R8.3).
 
 **Exit:** `bez`/`mieć` keep only their lemma halves; `mamy` yields no record and resolves
 to both `mieć` and `mama`; `kotów` yields no record but resolves through the index;
-unresolved-form count is small and explained.
+`DNA` is emitted with a `form_of` sense; unfoldable-form count is small and explained.
 
 ---
 

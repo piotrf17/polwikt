@@ -31,6 +31,7 @@ class Pos(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
     POS_PROVERB: _ClassVar[Pos]
     POS_ABBREVIATION: _ClassVar[Pos]
     POS_CONTRACTION: _ClassVar[Pos]
+    POS_LETTER: _ClassVar[Pos]
 
 class Case(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
     __slots__ = ()
@@ -133,6 +134,7 @@ POS_IDIOM: Pos
 POS_PROVERB: Pos
 POS_ABBREVIATION: Pos
 POS_CONTRACTION: Pos
+POS_LETTER: Pos
 CASE_UNSPECIFIED: Case
 CASE_NOMINATIVE: Case
 CASE_GENITIVE: Case
@@ -209,32 +211,90 @@ class GrammaticalTags(_message.Message):
     def __init__(self, grammatical_case: _Optional[_Union[Case, str]] = ..., number: _Optional[_Union[Number, str]] = ..., gender: _Optional[_Union[Gender, str]] = ..., animacy: _Optional[_Union[Animacy, str]] = ..., person: _Optional[_Union[Person, str]] = ..., tense: _Optional[_Union[Tense, str]] = ..., mood: _Optional[_Union[Mood, str]] = ..., aspect: _Optional[_Union[Aspect, str]] = ..., degree: _Optional[_Union[Degree, str]] = ..., verb_form: _Optional[_Union[VerbForm, str]] = ...) -> None: ...
 
 class Form(_message.Message):
-    __slots__ = ("form", "tags", "labels", "raw_tags")
+    __slots__ = ("form", "tags", "labels", "raw_tags", "table")
     FORM_FIELD_NUMBER: _ClassVar[int]
     TAGS_FIELD_NUMBER: _ClassVar[int]
     LABELS_FIELD_NUMBER: _ClassVar[int]
     RAW_TAGS_FIELD_NUMBER: _ClassVar[int]
+    TABLE_FIELD_NUMBER: _ClassVar[int]
     form: str
     tags: GrammaticalTags
     labels: _containers.RepeatedScalarFieldContainer[str]
     raw_tags: _containers.RepeatedScalarFieldContainer[str]
-    def __init__(self, form: _Optional[str] = ..., tags: _Optional[_Union[GrammaticalTags, _Mapping]] = ..., labels: _Optional[_Iterable[str]] = ..., raw_tags: _Optional[_Iterable[str]] = ...) -> None: ...
+    table: int
+    def __init__(self, form: _Optional[str] = ..., tags: _Optional[_Union[GrammaticalTags, _Mapping]] = ..., labels: _Optional[_Iterable[str]] = ..., raw_tags: _Optional[_Iterable[str]] = ..., table: _Optional[int] = ...) -> None: ...
+
+class InflectionTable(_message.Message):
+    __slots__ = ("kind", "title", "irregular")
+    class Kind(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
+        __slots__ = ()
+        KIND_UNSPECIFIED: _ClassVar[InflectionTable.Kind]
+        KIND_DECLENSION: _ClassVar[InflectionTable.Kind]
+        KIND_CONJUGATION: _ClassVar[InflectionTable.Kind]
+    KIND_UNSPECIFIED: InflectionTable.Kind
+    KIND_DECLENSION: InflectionTable.Kind
+    KIND_CONJUGATION: InflectionTable.Kind
+    KIND_FIELD_NUMBER: _ClassVar[int]
+    TITLE_FIELD_NUMBER: _ClassVar[int]
+    IRREGULAR_FIELD_NUMBER: _ClassVar[int]
+    kind: InflectionTable.Kind
+    title: str
+    irregular: bool
+    def __init__(self, kind: _Optional[_Union[InflectionTable.Kind, str]] = ..., title: _Optional[str] = ..., irregular: _Optional[bool] = ...) -> None: ...
 
 class Sense(_message.Message):
-    __slots__ = ("gloss", "labels", "examples", "relations", "government", "subsenses")
+    __slots__ = ("gloss", "labels", "regions", "topics", "keywords", "examples", "relations", "government", "form_of", "subsenses")
     GLOSS_FIELD_NUMBER: _ClassVar[int]
     LABELS_FIELD_NUMBER: _ClassVar[int]
+    REGIONS_FIELD_NUMBER: _ClassVar[int]
+    TOPICS_FIELD_NUMBER: _ClassVar[int]
+    KEYWORDS_FIELD_NUMBER: _ClassVar[int]
     EXAMPLES_FIELD_NUMBER: _ClassVar[int]
     RELATIONS_FIELD_NUMBER: _ClassVar[int]
     GOVERNMENT_FIELD_NUMBER: _ClassVar[int]
+    FORM_OF_FIELD_NUMBER: _ClassVar[int]
     SUBSENSES_FIELD_NUMBER: _ClassVar[int]
     gloss: str
     labels: _containers.RepeatedScalarFieldContainer[str]
+    regions: _containers.RepeatedScalarFieldContainer[str]
+    topics: _containers.RepeatedScalarFieldContainer[str]
+    keywords: _containers.RepeatedCompositeFieldContainer[Keyword]
     examples: _containers.RepeatedCompositeFieldContainer[Example]
     relations: _containers.RepeatedCompositeFieldContainer[Relation]
     government: _containers.RepeatedCompositeFieldContainer[Government]
+    form_of: FormOf
     subsenses: _containers.RepeatedCompositeFieldContainer[Sense]
-    def __init__(self, gloss: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., government: _Optional[_Iterable[_Union[Government, _Mapping]]] = ..., subsenses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ...) -> None: ...
+    def __init__(self, gloss: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., regions: _Optional[_Iterable[str]] = ..., topics: _Optional[_Iterable[str]] = ..., keywords: _Optional[_Iterable[_Union[Keyword, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., government: _Optional[_Iterable[_Union[Government, _Mapping]]] = ..., form_of: _Optional[_Union[FormOf, _Mapping]] = ..., subsenses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ...) -> None: ...
+
+class Keyword(_message.Message):
+    __slots__ = ("text", "taxonomic")
+    TEXT_FIELD_NUMBER: _ClassVar[int]
+    TAXONOMIC_FIELD_NUMBER: _ClassVar[int]
+    text: str
+    taxonomic: bool
+    def __init__(self, text: _Optional[str] = ..., taxonomic: _Optional[bool] = ...) -> None: ...
+
+class FormOf(_message.Message):
+    __slots__ = ("type", "lemma", "tag_sets")
+    class Type(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
+        __slots__ = ()
+        TYPE_UNSPECIFIED: _ClassVar[FormOf.Type]
+        TYPE_INFLECTION: _ClassVar[FormOf.Type]
+        TYPE_ALTERNATIVE_FORM: _ClassVar[FormOf.Type]
+        TYPE_SYNONYM: _ClassVar[FormOf.Type]
+        TYPE_ABBREVIATION: _ClassVar[FormOf.Type]
+    TYPE_UNSPECIFIED: FormOf.Type
+    TYPE_INFLECTION: FormOf.Type
+    TYPE_ALTERNATIVE_FORM: FormOf.Type
+    TYPE_SYNONYM: FormOf.Type
+    TYPE_ABBREVIATION: FormOf.Type
+    TYPE_FIELD_NUMBER: _ClassVar[int]
+    LEMMA_FIELD_NUMBER: _ClassVar[int]
+    TAG_SETS_FIELD_NUMBER: _ClassVar[int]
+    type: FormOf.Type
+    lemma: str
+    tag_sets: _containers.RepeatedCompositeFieldContainer[GrammaticalTags]
+    def __init__(self, type: _Optional[_Union[FormOf.Type, str]] = ..., lemma: _Optional[str] = ..., tag_sets: _Optional[_Iterable[_Union[GrammaticalTags, _Mapping]]] = ...) -> None: ...
 
 class Example(_message.Message):
     __slots__ = ("kind", "text", "translation", "literal", "source")
@@ -288,13 +348,14 @@ class Relation(_message.Message):
         TYPE_HOMOPHONE: _ClassVar[Relation.Type]
         TYPE_DIMINUTIVE: _ClassVar[Relation.Type]
         TYPE_AUGMENTATIVE: _ClassVar[Relation.Type]
-        TYPE_ASPECT_PARTNER: _ClassVar[Relation.Type]
+        TYPE_PERFECTIVE_COUNTERPART: _ClassVar[Relation.Type]
         TYPE_FREQUENTATIVE: _ClassVar[Relation.Type]
         TYPE_FEMININE_EQUIVALENT: _ClassVar[Relation.Type]
         TYPE_MASCULINE_EQUIVALENT: _ClassVar[Relation.Type]
         TYPE_RELATED_ADJECTIVE: _ClassVar[Relation.Type]
         TYPE_RELATED_ADVERB: _ClassVar[Relation.Type]
         TYPE_PARTICIPLE_OF: _ClassVar[Relation.Type]
+        TYPE_IMPERFECTIVE_COUNTERPART: _ClassVar[Relation.Type]
     TYPE_UNSPECIFIED: Relation.Type
     TYPE_SYNONYM: Relation.Type
     TYPE_ANTONYM: Relation.Type
@@ -309,13 +370,14 @@ class Relation(_message.Message):
     TYPE_HOMOPHONE: Relation.Type
     TYPE_DIMINUTIVE: Relation.Type
     TYPE_AUGMENTATIVE: Relation.Type
-    TYPE_ASPECT_PARTNER: Relation.Type
+    TYPE_PERFECTIVE_COUNTERPART: Relation.Type
     TYPE_FREQUENTATIVE: Relation.Type
     TYPE_FEMININE_EQUIVALENT: Relation.Type
     TYPE_MASCULINE_EQUIVALENT: Relation.Type
     TYPE_RELATED_ADJECTIVE: Relation.Type
     TYPE_RELATED_ADVERB: Relation.Type
     TYPE_PARTICIPLE_OF: Relation.Type
+    TYPE_IMPERFECTIVE_COUNTERPART: Relation.Type
     TYPE_FIELD_NUMBER: _ClassVar[int]
     TERM_FIELD_NUMBER: _ClassVar[int]
     GLOSS_FIELD_NUMBER: _ClassVar[int]
@@ -369,10 +431,12 @@ class VerbInfo(_message.Message):
     def __init__(self, aspect: _Optional[_Union[Aspect, str]] = ...) -> None: ...
 
 class Entry(_message.Message):
-    __slots__ = ("pos", "senses", "forms", "pronunciations", "audio", "syllabification", "etymology", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb")
+    __slots__ = ("pos", "etymology_number", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "etymology", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb")
     POS_FIELD_NUMBER: _ClassVar[int]
+    ETYMOLOGY_NUMBER_FIELD_NUMBER: _ClassVar[int]
     SENSES_FIELD_NUMBER: _ClassVar[int]
     FORMS_FIELD_NUMBER: _ClassVar[int]
+    TABLES_FIELD_NUMBER: _ClassVar[int]
     PRONUNCIATIONS_FIELD_NUMBER: _ClassVar[int]
     AUDIO_FIELD_NUMBER: _ClassVar[int]
     SYLLABIFICATION_FIELD_NUMBER: _ClassVar[int]
@@ -385,8 +449,10 @@ class Entry(_message.Message):
     NOUN_FIELD_NUMBER: _ClassVar[int]
     VERB_FIELD_NUMBER: _ClassVar[int]
     pos: Pos
+    etymology_number: int
     senses: _containers.RepeatedCompositeFieldContainer[Sense]
     forms: _containers.RepeatedCompositeFieldContainer[Form]
+    tables: _containers.RepeatedCompositeFieldContainer[InflectionTable]
     pronunciations: _containers.RepeatedCompositeFieldContainer[Pronunciation]
     audio: _containers.RepeatedCompositeFieldContainer[Audio]
     syllabification: str
@@ -398,7 +464,7 @@ class Entry(_message.Message):
     topics: _containers.RepeatedScalarFieldContainer[str]
     noun: NounInfo
     verb: VerbInfo
-    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., etymology: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ...) -> None: ...
+    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., etymology_number: _Optional[int] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., tables: _Optional[_Iterable[_Union[InflectionTable, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., etymology: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ...) -> None: ...
 
 class Frequency(_message.Message):
     __slots__ = ("rank", "count", "source")

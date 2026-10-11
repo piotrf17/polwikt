@@ -88,14 +88,17 @@ golden store).
    map to a known enum, put the literal string in `raw_tags` / `raw_*` — never discard
    it. Usage labels never need this: they are strings in `labels` to begin with.
 5. **The output is for apps, not a Wiktionary mirror** (G1, decision 11). Before adding
-   an output field, name the app feature that reads it. Template calls, markup, link
-   targets, page ids, maintenance categories and reference lists stay out; a schema test
-   enforces it.
+   an output field, name the app feature that reads it — poldict (`~/projects/poldict`)
+   is the reference consumer (decision 12). Template calls, markup, page ids,
+   maintenance categories and reference lists stay out; a schema test enforces it.
+   English link targets in glosses are *in*, as search `keywords` (R6.14).
 6. **Raw template calls are retained inside the pipeline** (R4.2.1) — in P3's
    intermediate records and `polwikt inspect` — as the escape hatch when parsing is
    wrong. Not in the output corpus.
-7. **The corpus holds lemmas only.** Inflected-form entries fold into the lemma at P4 and
-   emit no record (R3.13a). Folding is **per POS entry, not per page** — `bez` and `mieć`
+7. **The corpus holds lemmas, not inflected forms.** Inflected-form entries fold into the
+   lemma at P4 and emit no record (R3.13a) — when that is safe: the lemma exists and its
+   forms contain the string. An entry that can't fold is emitted with `form_of` senses,
+   never just dropped. Folding is **per POS entry, not per page** — `bez` and `mieć`
    are simultaneously lemmas and forms; `mamy` is two forms and folds into two lemmas.
    Only *inflectional* form-of folds: participles, `{{syn of}}` and `{{alt form}}`
    entries stay records.
