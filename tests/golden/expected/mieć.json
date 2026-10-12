@@ -1,1 +1,94 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmjɛt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to have"
+    },
+    {
+     "gloss": "to be some age"
+    },
+    {
+     "gloss": "used as a semantically weak verb with some nouns"
+    },
+    {
+     "gloss": "to have, to have sex with"
+    },
+    {
+     "gloss": "to consider someone as something"
+    },
+    {
+     "gloss": "to have (e.g. to have something (that is) cooked)"
+    },
+    {
+     "gloss": "expresses obligation; to be supposed to, must, to have to, to need to; should, shall"
+    },
+    {
+     "gloss": "creates a future in the past; would, was going to"
+    },
+    {
+     "gloss": "denotes that something might not have happened despite earlier beliefs; to be supposed to, must, to have to, to need to"
+    },
+    {
+     "gloss": "denotes uncertain, unverified information; allegedly, supposedly"
+    },
+    {
+     "gloss": "to feel something"
+    },
+    {
+     "gloss": "to fare (to be in any state, or pass through any experience, good or bad)"
+    },
+    {
+     "gloss": "to appear, to bode"
+    },
+    {
+     "gloss": "to be in relation to something"
+    },
+    {
+     "gloss": "to head somewhere"
+    },
+    {
+     "gloss": "to behave"
+    },
+    {
+     "gloss": "to address, to turn towards"
+    },
+    {
+     "gloss": "to function"
+    },
+    {
+     "gloss": "to be had"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmjɛt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "second-person singular imperative of mieść"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish mieć."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "mieć"
+}

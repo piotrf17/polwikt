@@ -1,1 +1,58 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈza.mɛk/"
+    },
+    {
+     "ipa": "[ˈza.mɛk]",
+     "labels": [
+      "Lasovia"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "lock (something used for fastening)"
+    },
+    {
+     "gloss": "zip, zip fastener, zipper"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈza.mɛk/"
+    },
+    {
+     "ipa": "[ˈza.mɛk]",
+     "labels": [
+      "Lasovia"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "castle (fortified building)"
+    },
+    {
+     "gloss": "synonym of więzienie"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish zamek, from Proto-Slavic *zamъkъ, from *zamъknǫti."
+  },
+  {
+   "text": "Etymology 2 sense 1 is a semantic loan from Middle High German sloȥ (cf. German Schloss) via Czech zámek, itself a semantic loan of Latin clūsa."
+  }
+ ],
+ "lemma": "zamek"
+}

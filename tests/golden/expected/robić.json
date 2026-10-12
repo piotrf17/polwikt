@@ -1,1 +1,210 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈrɔ.bit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to make (to cause the existence of)"
+    },
+    {
+     "gloss": "to do (to perform; to execute)"
+    },
+    {
+     "gloss": "to make; to cause (to effect or produce by means of some action)"
+    },
+    {
+     "gloss": "to throw (to organize; to cause something to happen)"
+    },
+    {
+     "gloss": "to make (to cause someone to take on traits of something, to become something)"
+    },
+    {
+     "gloss": "to make (to unfairly assign traits of something to someone or something)"
+    },
+    {
+     "gloss": "used as a generic verb, sometimes to replace another; to do"
+    },
+    {
+     "gloss": "used anaphorically instead of repeating a previous verb; to do",
+     "subsenses": [
+      {
+       "gloss": "used as a light verb"
+      }
+     ]
+    },
+    {
+     "gloss": "to act, to behave"
+    },
+    {
+     "gloss": "to come about, to arise"
+    },
+    {
+     "gloss": "to get, to become"
+    },
+    {
+     "gloss": "to start to feel"
+    },
+    {
+     "gloss": "to dress to kill"
+    },
+    {
+     "gloss": "to be done; to be made",
+     "subsenses": [
+      {
+       "gloss": "to go on; to happen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈrɔ.bit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈrɔ.bit͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to work; to toil",
+     "subsenses": [
+      {
+       "gloss": "to work on (to be to someone's benefit)"
+      }
+     ]
+    },
+    {
+     "gloss": "to use, to apply"
+    },
+    {
+     "gloss": "to move (to cause to change location)"
+    },
+    {
+     "gloss": "to ferment"
+    },
+    {
+     "gloss": "to act, to substitute"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish robić."
+  }
+ ],
+ "lemma": "robić"
+}

@@ -1,1 +1,95 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈka.va/"
+    },
+    {
+     "ipa": "[ˈka.va]",
+     "labels": [
+      "Western Lublin"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "coffee (beverage made by infusing the beans of the coffee plant in hot water)",
+     "subsenses": [
+      {
+       "gloss": "coffee (serving of this beverage)"
+      },
+      {
+       "gloss": "coffee (act of drinking this beverage)"
+      }
+     ]
+    },
+    {
+     "gloss": "coffee (any plant of the genus Coffea)"
+    },
+    {
+     "gloss": "coffee (seeds of the plant used to make coffee, called “beans” due to their shape)"
+    },
+    {
+     "gloss": "coffee-like beverage made from grains, seeds, or roots of various plants"
+    },
+    {
+     "gloss": "coffee (short social gathering where coffee is served)"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈka.va/"
+    },
+    {
+     "ipa": "[ˈka.va]",
+     "labels": [
+      "Western Lublin"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "jackdaw (any corvid of the genus Coloeus)"
+    }
+   ]
+  },
+  {
+   "etymology": 2,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈka.va/"
+    },
+    {
+     "ipa": "[ˈka.va]",
+     "labels": [
+      "Western Lublin"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "tree roof (roof supported by pillars as a display in front of a house for setting a tree)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Internationalism; compare Hungarian kávé, Serbo-Croatian kava, Turkish kahve, ultimately from Ottoman Turkish قهوه (kahve). Doublet of café."
+  },
+  {
+   "text": "Inherited from Old Polish *kawa."
+  },
+  {
+   "text": "(This etymology is missing or incomplete. Please add to it, or discuss it at the Etymology scriptorium. )"
+  }
+ ],
+ "lemma": "kawa"
+}

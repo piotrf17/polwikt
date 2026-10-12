@@ -1,1 +1,88 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈxt͡ɕɛt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to want (to wish for or desire)",
+     "subsenses": [
+      {
+       "gloss": "to want (to wish to take as a spouse)"
+      },
+      {
+       "gloss": "to want (to be in heat)"
+      }
+     ]
+    },
+    {
+     "gloss": "used in polite commands; to want"
+    },
+    {
+     "gloss": "to be able to, can"
+    },
+    {
+     "gloss": "synonym of mieć (“going to; supposed to”)"
+    },
+    {
+     "gloss": "to feel like, to want (to have a desire for something, or to do something)"
+    },
+    {
+     "gloss": "used to indicate when someone is experiencing a specific condition of their body that is associated with an action indicated by the subordinate verb; to want"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish chcieć."
+  }
+ ],
+ "lemma": "chcieć"
+}

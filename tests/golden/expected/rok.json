@@ -1,1 +1,50 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈrɔk/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "year (solar year)"
+    },
+    {
+     "gloss": "year (time it takes for any planet to orbit its star)"
+    },
+    {
+     "gloss": "year (calendar year)"
+    },
+    {
+     "gloss": "year (scheduled part of a calendar year spent in a specific activity)"
+    },
+    {
+     "gloss": "year (group of people belonging to the same calendar year of typically educational events)"
+    },
+    {
+     "gloss": "court case"
+    },
+    {
+     "gloss": "indiscriminate length of time"
+    },
+    {
+     "gloss": "age of a being"
+    },
+    {
+     "gloss": "agreed upon length of time for work or employment"
+    },
+    {
+     "gloss": "time set aside for performing a task"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish rok. The plural forms are a result of suppletion with lato (“summer”)."
+  }
+ ],
+ "lemma": "rok"
+}

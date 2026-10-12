@@ -1,1 +1,137 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_CONJUNCTION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈa.ɲi/"
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Warmia"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Masuria"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Kurpie"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Podhale"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "neither, nor, or"
+    },
+    {
+     "gloss": "nary, not a, not even one",
+     "subsenses": [
+      {
+       "gloss": "not as much as; less than"
+      }
+     ]
+    },
+    {
+     "gloss": "used emphatically with nie for negation"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈa.ɲi/"
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Warmia"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Masuria"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Kurpie"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈa.ɲi]",
+     "labels": [
+      "Podhale"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "not even"
+    },
+    {
+     "gloss": "not also; Further details are uncertain."
+    },
+    {
+     "gloss": "The meaning of this term is uncertain."
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish ani. By surface analysis, univerbation of a + ni."
+  }
+ ],
+ "lemma": "ani"
+}

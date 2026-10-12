@@ -1,1 +1,90 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpan/"
+    },
+    {
+     "ipa": "[ˈpan]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈpan]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "gentleman, man (specific male person, especially one unknown to the speaker)"
+    },
+    {
+     "gloss": "master, lord (person with power over something)"
+    },
+    {
+     "gloss": "sir (rich, well-presenting person)"
+    },
+    {
+     "gloss": "lord (master of a house)"
+    },
+    {
+     "gloss": "teacher"
+    },
+    {
+     "gloss": "master (owner of a household pet)"
+    },
+    {
+     "gloss": "Mr, mister (title before a last name)"
+    },
+    {
+     "gloss": "husband (male member of a marriage)"
+    },
+    {
+     "gloss": "protector"
+    },
+    {
+     "gloss": "owner"
+    },
+    {
+     "gloss": "father"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpan/"
+    },
+    {
+     "ipa": "[ˈpan]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈpan]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "you polite second person m-personal nominative, it takes verbs as third-person sg form"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish pan."
+  }
+ ],
+ "lemma": "pan"
+}

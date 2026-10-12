@@ -1,1 +1,53 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PREPOSITION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈnat/"
+    },
+    {
+     "ipa": "[ˈnat]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "denotes location; above, over"
+    },
+    {
+     "gloss": "denotes location, particularly in relation to a body of water; on, by"
+    },
+    {
+     "gloss": "denotes motion; to above, to over"
+    },
+    {
+     "gloss": "denotes movement, particularly in relation to a body of water; to"
+    },
+    {
+     "gloss": "denotes position in comparison; than; over"
+    },
+    {
+     "gloss": "over"
+    },
+    {
+     "gloss": "denotes highest degree of intensity of an action or state;"
+    },
+    {
+     "gloss": "denotes subject of activities; on"
+    },
+    {
+     "gloss": "with a reduplicated noun, expresses superlative nature; the greatest of all, of"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish nad."
+  }
+ ],
+ "lemma": "nad"
+}

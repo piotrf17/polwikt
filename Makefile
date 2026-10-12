@@ -29,7 +29,7 @@ test:  ## pytest (never needs a dump)
 check: lint typecheck test  ## Everything CI runs
 
 proto:  ## Regenerate polwikt/proto/*_pb2.py[i] from proto/polwikt.proto (commit the result)
-	$(RUN) python -m grpc_tools.protoc -Iproto --python_out=polwikt/proto --pyi_out=polwikt/proto proto/polwikt.proto
+	$(RUN) python -m grpc_tools.protoc -Iproto --python_out=polwikt/proto --pyi_out=polwikt/proto proto/polwikt.proto proto/p3.proto
 
 golden-pull:  ## Refresh tests/golden/ fixtures from data/pages.sqlite (R8.1)
 	$(RUN) python tools/golden.py pull

@@ -1,1 +1,26 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈkɛ.t͡ʂup/"
+    },
+    {
+     "ipa": "/ˈkɛ.t͡ʂap/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "alternative spelling of keczup"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Unadapted borrowing from English ketchup, from Malay kicap, from Hokkien 膎汁 (kê-chiap, “fish sauce”)."
+  }
+ ],
+ "lemma": "ketchup"
+}

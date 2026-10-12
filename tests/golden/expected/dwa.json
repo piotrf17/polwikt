@@ -1,1 +1,48 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NUMERAL",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdva/"
+    },
+    {
+     "ipa": "[ˈdva]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "two"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdva/"
+    },
+    {
+     "ipa": "[ˈdva]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "two (grade in school)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish dwa."
+  }
+ ],
+ "lemma": "dwa"
+}

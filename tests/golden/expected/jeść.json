@@ -1,1 +1,67 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈjɛɕt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈjɛɕt͡ɕ]",
+     "labels": [
+      "Łowicz"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to eat (to ingest)",
+     "subsenses": [
+      {
+       "gloss": "to eat (to consume a meal)"
+      }
+     ]
+    },
+    {
+     "gloss": "to bite, to sting",
+     "subsenses": [
+      {
+       "gloss": "to gnaw, to plague (to produce anxiety or worry)"
+      }
+     ]
+    },
+    {
+     "gloss": "to eat away (to corrode gradually)"
+    },
+    {
+     "gloss": "to bicker, to wrangle"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈjɛɕt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈjɛɕt͡ɕ]",
+     "labels": [
+      "Łowicz"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "food"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish jeść, from Proto-Slavic *ě̀sti."
+  }
+ ],
+ "lemma": "jeść"
+}

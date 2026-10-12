@@ -1,1 +1,71 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈzrɔ.bit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈzrɔ.bit͡ɕ]",
+     "labels": [
+      "Żywiec"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to make (to cause the existence of)"
+    },
+    {
+     "gloss": "to do (to perform; to execute)"
+    },
+    {
+     "gloss": "to make; to cause (to effect or produce by means of some action)"
+    },
+    {
+     "gloss": "to throw (to organize; to cause something to happen)"
+    },
+    {
+     "gloss": "to make (to cause someone to take on traits of something, to become something)"
+    },
+    {
+     "gloss": "to make (to unfairly assign traits of something to someone or something)"
+    },
+    {
+     "gloss": "used as a generic verb, sometimes to replace another; to do"
+    },
+    {
+     "gloss": "used anaphorically instead of repeating a previous verb; to do"
+    },
+    {
+     "gloss": "to act, to behave"
+    },
+    {
+     "gloss": "to come about, to arise"
+    },
+    {
+     "gloss": "to get, to become"
+    },
+    {
+     "gloss": "to start to feel"
+    },
+    {
+     "gloss": "to dress to kill"
+    },
+    {
+     "gloss": "to be done; to be made"
+    },
+    {
+     "gloss": "to work oneself tired"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish zrobić. By surface analysis, z- + robić. Compare Kashubian zrobic, Slovincian zrôbjic, Ukrainian зроби́ти (zrobýty), and Belarusian зрабі́ць (zrabícʹ)."
+  }
+ ],
+ "lemma": "zrobić"
+}

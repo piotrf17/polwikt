@@ -1,1 +1,36 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NUMERAL",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpjɛɲt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "five"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpjɛɲt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "five (highest school grade)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish pięć. Doublet of cynek and poncz."
+  }
+ ],
+ "lemma": "pięć"
+}

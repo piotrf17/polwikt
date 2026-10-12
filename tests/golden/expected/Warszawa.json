@@ -1,1 +1,41 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PROPER_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/varˈʂa.va/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Warsaw (the capital and largest city of Poland)"
+    },
+    {
+     "gloss": "Warsaw (the capital and largest city of Masovian Voivodeship, Poland)"
+    },
+    {
+     "gloss": "Warsaw (Polish presidency and its administration)"
+    },
+    {
+     "gloss": "Warsaw authorities"
+    },
+    {
+     "gloss": "Warsaw residents"
+    },
+    {
+     "gloss": "sports team from Warsaw"
+    },
+    {
+     "gloss": "FSO Warszawa (line of cars manufactured in Warsaw between 1951 and 1973)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish Warszewa with -e- replaced by -a- due to hypercorrection or assimilation."
+  }
+ ],
+ "lemma": "Warszawa"
+}

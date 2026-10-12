@@ -11,6 +11,7 @@ import tomllib
 from collections import Counter
 from dataclasses import dataclass, field
 from enum import StrEnum
+from functools import cache
 from importlib import resources
 from typing import Any
 
@@ -33,6 +34,15 @@ class PolicyError(Exception):
 class Policy:
     names: dict[str, Action]
     prefixes: tuple[tuple[str, Action], ...]  # longest first
+    gloss_omit: frozenset[str] = frozenset()
+
+    def in_text(self, canonical: str) -> bool:
+        """Whether the template's rendering belongs in plain text at all."""
+        return self.action(canonical) is not Action.IGNORE
+
+    def in_gloss(self, canonical: str) -> bool:
+        """Whether it belongs in a gloss; labels, government etc. have own fields."""
+        return self.in_text(canonical) and canonical not in self.gloss_omit
 
     def action(self, canonical: str) -> Action | None:
         if (exact := self.names.get(canonical)) is not None:
@@ -41,6 +51,11 @@ class Policy:
             if canonical.startswith(prefix):
                 return action
         return None
+
+
+@cache
+def default_policy() -> Policy:
+    return load_policy()
 
 
 def load_policy(text: str | None = None) -> Policy:
@@ -54,6 +69,7 @@ def load_policy(text: str | None = None) -> Policy:
     data = tomllib.loads(text)
     names: dict[str, Action] = {}
     prefixes: dict[str, Action] = {}
+    gloss_omit = frozenset(data.pop("gloss", {}).get("omit", []))
     for key, table in data.items():
         try:
             action = Action(key)
@@ -68,7 +84,7 @@ def load_policy(text: str | None = None) -> Policy:
                     raise PolicyError(f"{entry!r} is both {target[entry]} and {action}")
                 target[entry] = action
     ordered = tuple(sorted(prefixes.items(), key=lambda kv: (-len(kv[0]), kv[0])))
-    return Policy(names, ordered)
+    return Policy(names, ordered, gloss_omit)
 
 
 def canonical_name(wtp: Any, name: str) -> str:

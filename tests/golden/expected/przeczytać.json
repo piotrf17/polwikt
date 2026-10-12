@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/pʂɛˈt͡ʂɘ.tat͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to read; to read up"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From prze- + czytać."
+  }
+ ],
+ "lemma": "przeczytać"
+}

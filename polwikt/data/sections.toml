@@ -1,0 +1,62 @@
+# Heading map for the Polish section (R5.2, R5.3, R10.5). Headings are classified by
+# what they are, never by depth: a section attaches to the nearest scope that can hold
+# it. A trailing number ("Etymology 2", "Pronunciation 1") is stripped before lookup.
+# A heading in none of these tables is counted and its text kept (R5.3).
+#
+# Census of the 20261001 dump's Polish sections, M5: 59 distinct headings.
+
+# POS headings that become an Entry, mapped to the polwikt.Pos enum (without POS_).
+[pos]
+"Noun" = "NOUN"
+"Proper noun" = "PROPER_NOUN"
+"Verb" = "VERB"
+"Adjective" = "ADJECTIVE"
+"Adverb" = "ADVERB"
+"Pronoun" = "PRONOUN"
+"Numeral" = "NUMERAL"
+"Determiner" = "DETERMINER"
+"Preposition" = "PREPOSITION"
+"Conjunction" = "CONJUNCTION"
+"Particle" = "PARTICLE"
+"Interjection" = "INTERJECTION"
+"Participle" = "PARTICIPLE"
+"Prefix" = "PREFIX"
+"Suffix" = "SUFFIX"
+"Phrase" = "PHRASE"
+"Prepositional phrase" = "PREPOSITIONAL_PHRASE"
+"Idiom" = "IDIOM"
+"Proverb" = "PROVERB"
+"Abbreviation" = "ABBREVIATION"
+"Initialism" = "ABBREVIATION"
+"Acronym" = "ABBREVIATION"
+"Contraction" = "CONTRACTION"
+"Letter" = "LETTER"
+
+[sections]
+# R5.3 POS headings the schema does not emit (no app use, or a handful of pages: the
+# census found Interfix 5, Postposition 2, Punctuation mark 3, Diacritical mark 2).
+# Their entries are counted, not output.
+pos_not_emitted = [
+  "Postposition", "Interfix", "Infix", "Circumfix", "Affix", "Combining form",
+  "Symbol", "Diacritical mark", "Punctuation mark", "Syllable", "Romanization",
+]
+# Etymology groups (R5.1).
+etymology = ["Etymology"]
+# Shared by every entry in their scope: the page, an etymology group or one entry (R5.5).
+pronunciation = ["Pronunciation"]
+alternative_forms = ["Alternative forms"]
+# Belong to the entry before them (or around them): filled by M6-M10.
+entry = [
+  "Declension", "Declination", "Inflection", "Conjugation", "Conjugation/Declension",
+  "Usage notes", "Usage", "Note", "Usage terms",
+  "Synonyms", "Antonyms", "Hypernyms", "Hyponyms", "Meronyms", "Holonyms",
+  "Coordinate terms", "Collocations", "Derived terms", "Derived verbs",
+  "Related terms", "Related words", "Compounds", "Quotations",
+]
+# Read at the language level: Trivia carries {{pl-freq 1990}} (R6.13).
+trivia = ["Trivia"]
+# Wiktionary bookkeeping, not output (R5.5, decision 11).
+ignored = [
+  "References", "Further reading", "Read further", "Reading", "External links",
+  "See also", "Anagrams", "Descendants", "Gallery", "Translations",
+]

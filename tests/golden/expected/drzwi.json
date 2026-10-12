@@ -1,1 +1,41 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdʐvi/"
+    },
+    {
+     "ipa": "/ˈd͡ʐvi/"
+    },
+    {
+     "ipa": "[ˈdʐvi]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈd͡ʐvi]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "door (portal)"
+    },
+    {
+     "gloss": "door (means of approach or access)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish drzwi."
+  }
+ ],
+ "lemma": "drzwi"
+}

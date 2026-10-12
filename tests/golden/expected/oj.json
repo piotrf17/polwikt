@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_INTERJECTION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔj/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "oops"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Onomatopoeic."
+  }
+ ],
+ "lemma": "oj"
+}

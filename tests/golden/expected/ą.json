@@ -1,1 +1,21 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_LETTER",
+   "pronunciations": [
+    {
+     "ipa": "/ɔw̃/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "The second letter of the Polish alphabet, called ą or a z ogonkiem and written in the Latin script."
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "ą"
+}

@@ -1,1 +1,34 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈma.mɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "first-person plural present of mieć"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈma.mɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "inflection of mama: genitive singular; nominative/accusative/vocative plural"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "mamy"
+}

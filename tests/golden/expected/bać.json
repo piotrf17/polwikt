@@ -1,1 +1,79 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbat͡ɕ/"
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Suwałki"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Western Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbat͡ɕ]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to fear, to be afraid",
+     "subsenses": [
+      {
+       "gloss": "synonym of bać się"
+      },
+      {
+       "gloss": "synonym of bać się"
+      }
+     ]
+    },
+    {
+     "gloss": "to fear, to be afraid for, to worry about something"
+    },
+    {
+     "gloss": "to not doubt; to be sure"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish bać."
+  }
+ ],
+ "lemma": "bać"
+}

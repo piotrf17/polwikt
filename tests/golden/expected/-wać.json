@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_SUFFIX",
+   "pronunciations": [
+    {
+     "ipa": "/vat͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "forms verbs, usually of a frequentative or imperfective meaning, sometimes causes a vowel change, most often a or o → e"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish -wać."
+  }
+ ],
+ "lemma": "-wać"
+}

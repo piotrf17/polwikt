@@ -1,1 +1,21 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PARTICIPLE",
+   "pronunciations": [
+    {
+     "ipa": "/t͡ʂɘ.taˈjɔn.t͡sɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "active adjectival participle of czytać"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "czytający"
+}

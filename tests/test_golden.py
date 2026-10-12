@@ -4,14 +4,15 @@ from __future__ import annotations
 
 import hashlib
 import tomllib
+from collections.abc import Iterator
 from pathlib import Path
 
 import pytest
 from google.protobuf import json_format
-from wikitextprocessor import Wtp
 
 from polwikt.config import load_config
-from polwikt.extract.page import extract_page
+from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.page import Settings, extract_page
 from polwikt.parse.sections import language_section
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import to_json
@@ -26,6 +27,7 @@ from tests.golden_harness import (
 REPO = GOLDEN.parent.parent
 FIXTURES = fixtures()
 IDS = [f.slug for f in FIXTURES]
+SETTINGS = Settings.from_config(load_config(REPO))
 
 # CLAUDE.md "Testing": the negative and edge cases the set must never lose.
 REQUIRED = {
@@ -82,17 +84,20 @@ def test_expectation_is_well_formed(fixture: Fixture) -> None:
     assert word.lemma == fixture.title
 
 
+@pytest.fixture(scope="module")
+def golden_wtp(golden_store: Path) -> Iterator[PolwiktWtp]:
+    wtp = PolwiktWtp(golden_store)
+    yield wtp
+    wtp.close_db_conn()
+
+
 @pytest.mark.parametrize("fixture", FIXTURES, ids=IDS)
 def test_extraction_matches_golden(
-    fixture: Fixture, golden_store: Path, update_golden: bool
+    fixture: Fixture, golden_wtp: PolwiktWtp, update_golden: bool
 ) -> None:
     if fixture.expected() == TODO and not update_golden:
         pytest.skip("expectation is TODO; bless it with --update-golden")
-    wtp = Wtp(db_path=golden_store, quiet=True)
-    try:
-        word = extract_page(wtp, fixture.title, fixture.wikitext())
-    finally:
-        wtp.close_db_conn()
+    word = extract_page(golden_wtp, fixture.title, fixture.wikitext(), SETTINGS)
     actual = (to_json(word, indent=1) if word is not None else "null") + "\n"
     if update_golden:
         fixture.expected_path.write_text(actual, encoding="utf-8")

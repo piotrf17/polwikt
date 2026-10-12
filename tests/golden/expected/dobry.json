@@ -1,1 +1,150 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.brɘ/"
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "good (moral, ethical)"
+    },
+    {
+     "gloss": "good (kind, nice, willing to help)"
+    },
+    {
+     "gloss": "good (of a mood; cheerful, fun, nice)"
+    },
+    {
+     "gloss": "good (successful)"
+    },
+    {
+     "gloss": "good (hard-working; tending to carry out one's duties)"
+    },
+    {
+     "gloss": "good (of a living thing or its parts; functioning)"
+    },
+    {
+     "gloss": "good (high quality)"
+    },
+    {
+     "gloss": "good (apt, as wanted or expected)"
+    },
+    {
+     "gloss": "good (of food and drink; tasty)"
+    },
+    {
+     "gloss": "good (beneficial)"
+    },
+    {
+     "gloss": "good (resulting from a correct choice)"
+    },
+    {
+     "gloss": "good (having a high quality or skill at)"
+    },
+    {
+     "gloss": "good (kind, fair, just)"
+    },
+    {
+     "gloss": "good (having a high social hierarchical position)"
+    },
+    {
+     "gloss": "good (in close relations)"
+    },
+    {
+     "gloss": "good (expressing approval)"
+    },
+    {
+     "gloss": "good (having a large size; lasting a long time)"
+    },
+    {
+     "gloss": "good (healthy)"
+    },
+    {
+     "gloss": "rich"
+    },
+    {
+     "gloss": "good; Further details are uncertain."
+    },
+    {
+     "gloss": "ripe"
+    },
+    {
+     "gloss": "grave; great"
+    },
+    {
+     "gloss": "good (wanted; desired)"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.brɘ/"
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.brɘ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "B (the letter grade assigned)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish dobry."
+  }
+ ],
+ "lemma": "dobry"
+}

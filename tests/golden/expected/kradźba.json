@@ -1,1 +1,21 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "senses": [
+    {
+     "gloss": "robbery, robbing, theft"
+    },
+    {
+     "gloss": "abduction, kidnapping"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Proto-Slavic *kradьba / *kraďьba. First attested in the 16th century. By surface analysis, kraść + -ba."
+  }
+ ],
+ "lemma": "kradźba"
+}

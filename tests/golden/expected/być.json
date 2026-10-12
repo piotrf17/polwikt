@@ -1,1 +1,53 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɘt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈbɘt͡ɕ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈbɘt͡ɕ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to be (used to indicate sameness or membership in a class)"
+    },
+    {
+     "gloss": "to be (used for predication)"
+    },
+    {
+     "gloss": "to be (used to indicate the time of day)"
+    },
+    {
+     "gloss": "used to form the future tense of imperfective verbs"
+    },
+    {
+     "gloss": "used to form the pluperfect tense"
+    },
+    {
+     "gloss": "to be, there be (used to indicate location)"
+    },
+    {
+     "gloss": "synonym of spędzać"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish być."
+  }
+ ],
+ "lemma": "być"
+}

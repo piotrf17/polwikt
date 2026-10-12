@@ -1,1 +1,26 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈktu.rɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "interrogative pronoun, referring to a number of choices; what, which one"
+    },
+    {
+     "gloss": "relative pronoun; that, who, which"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish który."
+  }
+ ],
+ "lemma": "który"
+}

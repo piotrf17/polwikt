@@ -1,1 +1,52 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈja/"
+    },
+    {
+     "ipa": "[ˈja]",
+     "labels": [
+      "Żywiec"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "first-person pronoun; I"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈja/"
+    },
+    {
+     "ipa": "[ˈja]",
+     "labels": [
+      "Żywiec"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "alternative form of jo"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish ja. Doublet of ego."
+  },
+  {
+   "text": "See jo."
+  }
+ ],
+ "lemma": "ja"
+}

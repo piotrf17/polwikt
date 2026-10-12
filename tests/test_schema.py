@@ -199,10 +199,11 @@ def test_generated_code_is_fresh(tmp_path: Path) -> None:
             f"--python_out={tmp_path}",
             f"--pyi_out={tmp_path}",
             str(REPO / "proto" / "polwikt.proto"),
+            str(REPO / "proto" / "p3.proto"),
         ],
         check=True,
     )
-    for name in ("polwikt_pb2.py", "polwikt_pb2.pyi"):
+    for name in ("polwikt_pb2.py", "polwikt_pb2.pyi", "p3_pb2.py", "p3_pb2.pyi"):
         committed = REPO / "polwikt" / "proto" / name
         assert filecmp.cmp(tmp_path / name, committed, shallow=False), (
             f"{name} is stale: run `make proto` and commit"

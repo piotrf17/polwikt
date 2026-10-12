@@ -1,1 +1,41 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈxlɛp/"
+    },
+    {
+     "ipa": "[ˈxlɛp]",
+     "labels": [
+      "Łowicz"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "bread (food product made from flour and water with yeast or leaven, shaped into round or elongated lumps; single loaf of this product)"
+    },
+    {
+     "gloss": "synonym of karo"
+    },
+    {
+     "gloss": "bread (job; work performed for a fee)"
+    },
+    {
+     "gloss": "bread (all the means to meet basic life needs)"
+    },
+    {
+     "gloss": "synonym of pożywienie"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish chleb."
+  }
+ ],
+ "lemma": "chleb"
+}

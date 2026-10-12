@@ -1,1 +1,29 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈzɲik.nɔɲt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈzɲik.nɔɲt͡ɕ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to disappear, to vanish"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From z- + niknąć."
+  }
+ ],
+ "lemma": "zniknąć"
+}

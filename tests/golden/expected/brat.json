@@ -1,1 +1,127 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbrat/"
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Northern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Suwałki"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Babia Góra"
+     ]
+    },
+    {
+     "ipa": "[ˈbrat]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "brother (son of the same parents as another person)"
+    },
+    {
+     "gloss": "brother (male having at least one parent in common with another)"
+    },
+    {
+     "gloss": "brother (member of a men's religious order)"
+    },
+    {
+     "gloss": "brother (member of a fraternity, tribe, or brotherhood)",
+     "subsenses": [
+      {
+       "gloss": "male assistant to a bridesmaid"
+      },
+      {
+       "gloss": "brother (assistent to a reaper)"
+      }
+     ]
+    },
+    {
+     "gloss": "brother (male companion or friend, usually with the same interests, experience, views, etc.)"
+    },
+    {
+     "gloss": "brother (fellow human being)"
+    },
+    {
+     "gloss": "brother endearing term of address for a male"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish brat."
+  }
+ ],
+ "lemma": "brat"
+}

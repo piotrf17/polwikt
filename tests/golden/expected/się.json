@@ -1,1 +1,48 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ɕɛ/"
+    },
+    {
+     "ipa": "/ɕɛw̃/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "reflexive pronoun; oneself, self"
+    },
+    {
+     "gloss": "each other, one another"
+    },
+    {
+     "gloss": "one's own home"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ɕɛ/"
+    },
+    {
+     "ipa": "/ɕɛw̃/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "used to form impersonal present or future tense"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish się."
+  }
+ ],
+ "lemma": "się"
+}

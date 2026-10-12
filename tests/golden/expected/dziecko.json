@@ -1,1 +1,44 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈd͡ʑɛt͡s.kɔ/"
+    },
+    {
+     "ipa": "[ˈd͡ʑɛt͡s.kɔ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "child (non-adult person)"
+    },
+    {
+     "gloss": "child (person in relation to their parents)"
+    },
+    {
+     "gloss": "child (non-adult animal)"
+    },
+    {
+     "gloss": "child (product of someone's work that they feel fondly towards)"
+    },
+    {
+     "gloss": "child (person that is the result of their surroundings)"
+    },
+    {
+     "gloss": "child (form of address towards someone younger than the speaker towards which the speaker feels fondly)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish dziecko."
+  }
+ ],
+ "lemma": "dziecko"
+}

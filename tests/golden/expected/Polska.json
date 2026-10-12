@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PROPER_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpɔl.ska/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Poland (a country in Central Europe; official name: Rzeczpospolita Polska)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish Polska, an ellipsis of ziemia polska (“field land”)."
+  }
+ ],
+ "lemma": "Polska"
+}

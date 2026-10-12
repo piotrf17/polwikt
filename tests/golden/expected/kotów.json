@@ -1,1 +1,21 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈkɔ.tuf/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "genitive plural of kot"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "kotów"
+}

@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈlɛp.ʂɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "comparative degree of dobry; better"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish lepszy."
+  }
+ ],
+ "lemma": "lepszy"
+}

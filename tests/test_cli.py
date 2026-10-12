@@ -28,10 +28,9 @@ COMMANDS = {
     "stats-diff",
     "run",
 }
-IMPLEMENTED = {"config", "fetch", "scan", "inspect"}
+IMPLEMENTED = {"config", "fetch", "scan", "inspect", "extract"}
 STUB_INVOCATIONS = [
     ["subset"],
-    ["extract"],
     ["finalize"],
     ["stats-diff", "a.json", "b.json"],
     ["run"],
@@ -74,7 +73,7 @@ def test_inspect_golden_shows_wikitext_and_tree() -> None:  # R8.5
     assert "TEMPLATE inflection of | pl | mieć" in result.output
     assert "--- expanded wikitext ---" in result.output  # from the golden snapshot
     assert 'class="headword-line"' in result.output
-    assert "PLAN.md M5" in result.output  # extraction is a visible TODO, not silence
+    assert '"lemma": "mamy"' in result.output  # the extracted Word
 
 
 def test_inspect_unknown_title_fails() -> None:
@@ -95,3 +94,26 @@ def test_inspect_reads_the_page_store(tmp_path: Path) -> None:
     missing = CliRunner().invoke(cli, ["inspect", "cat", "--db", str(db)])
     assert missing.exit_code != 0
     assert "not a Polish page" in missing.output
+
+
+@pytest.mark.parametrize("jobs", ["1", "2"])
+def test_extract_writes_shards_and_reports(tmp_path: Path, jobs: str) -> None:
+    dump = tmp_path / "dump.xml.bz2"
+    dump.write_bytes(bz2.compress(dump_xml()))
+    db = tmp_path / "pages.sqlite"
+    scan(load_config(REPO), dump, db, dump_sha1="0" * 40)
+    out = tmp_path / "out"
+    argv = ["extract", "--db", str(db), "--out", str(out), "--jobs", jobs]
+    result = CliRunner().invoke(cli, argv)
+    assert result.exit_code == 0, result.output
+    assert "2 pages, 2 entries, 0 errors" in result.output  # kot, pies (R3.9)
+    assert sorted(p.name for p in out.iterdir()) == [
+        "errors.jsonl",
+        "p3-00000-of-00001.pb.zst",
+        "stats.json",
+        "title_only.jsonl",
+        "unhandled.jsonl",
+    ]
+    again = CliRunner().invoke(cli, argv)  # never overwrites a finished run
+    assert again.exit_code != 0
+    assert "already holds shards" in again.output

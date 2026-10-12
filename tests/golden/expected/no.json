@@ -1,1 +1,226 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_INTERJECTION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈnɔ/"
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Masuria"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "yeah, yep"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈnɔ/"
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Masuria"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "used to state the speaker thinks something is obvious and that one should not ponder further; well, well yeah"
+    },
+    {
+     "gloss": "used to state that the speaker thinks everything that can be said has been said and would like to finish the topic"
+    },
+    {
+     "gloss": "expresses uncertainty; well"
+    },
+    {
+     "gloss": "used to encourage the conversation partner to give a response; well?"
+    },
+    {
+     "gloss": "used to express surprise, awe, or caution"
+    },
+    {
+     "gloss": "Filled pause, usually connecting a previous sentence; well"
+    },
+    {
+     "gloss": "introduces a question, often lightly emotionally charged"
+    },
+    {
+     "gloss": "used to draw attention to the current situation"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈnɔ/"
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Masuria"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈnɔ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "emphatic particle used with imperatives to speed up a performed action; c'mon, now",
+     "subsenses": [
+      {
+       "gloss": "used to urge a horse; hyah!"
+      }
+     ]
+    },
+    {
+     "gloss": "synonym of jeno"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Clipping of ano. First attested in the 19th century. Compare Czech no, Silesian no, Slovak no."
+  },
+  {
+   "text": "Clipping of jeno. First attested in 1749. Compare Silesian no."
+  }
+ ],
+ "lemma": "no"
+}

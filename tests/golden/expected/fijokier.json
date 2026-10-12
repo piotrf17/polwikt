@@ -1,1 +1,30 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "[fiˈjɔ.kjɛr]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈfi.jɔ.kjɛr]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "alternative form of fiakier (“cabdriver”)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "fijokier"
+}

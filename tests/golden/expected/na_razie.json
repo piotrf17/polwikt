@@ -1,1 +1,36 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_ADVERB",
+   "pronunciations": [
+    {
+     "ipa": "/na‿ˈra.ʑɛ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "for now, as yet, for the time being"
+    }
+   ]
+  },
+  {
+   "pos": "POS_INTERJECTION",
+   "pronunciations": [
+    {
+     "ipa": "/na‿ˈra.ʑɛ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "see you, see you later, bye"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Literally, “for now”."
+  }
+ ],
+ "lemma": "na razie"
+}

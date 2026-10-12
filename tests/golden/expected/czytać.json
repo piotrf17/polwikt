@@ -1,1 +1,56 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈt͡ʂɘ.tat͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to read (to look at and interpret letters and symbols that are written)"
+    },
+    {
+     "gloss": "to read (to look at other information and interpret that is written or drawn)"
+    },
+    {
+     "gloss": "to read (to interpret, or infer a meaning, significance, thought, intention, etc.)"
+    },
+    {
+     "gloss": "to read (to recognize the proper meaning of something)"
+    },
+    {
+     "gloss": "to read (to fetch data from (a storage medium, etc.))"
+    },
+    {
+     "gloss": "to read (to speak aloud words or other information that is written)"
+    },
+    {
+     "gloss": "to teach (to cause to learn)"
+    },
+    {
+     "gloss": "to read (to interpret written text)"
+    },
+    {
+     "gloss": "to read (to contain some message)"
+    },
+    {
+     "gloss": "to study"
+    },
+    {
+     "gloss": "to read (to divine the future based on heavenly bodies)"
+    },
+    {
+     "gloss": "to pronounce (to say foreign words and phrases a particular way)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish czytać. By surface analysis, czyść + -ać."
+  }
+ ],
+ "lemma": "czytać"
+}

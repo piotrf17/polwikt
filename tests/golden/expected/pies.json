@@ -1,1 +1,334 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpjɛs/"
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łęczyca"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Sieradz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Babia Góra"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "dog (Canis lupus familiaris)"
+    },
+    {
+     "gloss": "dog (any member of the family Canidae, including domestic dogs, wolves, coyotes, jackals, foxes, and their relatives (extant and extinct); canid)"
+    },
+    {
+     "gloss": "male fox or badger"
+    },
+    {
+     "gloss": "child who chases another in various games"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpjɛs/"
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łęczyca"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Sieradz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Babia Góra"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "cop, policeman"
+    },
+    {
+     "gloss": "dog (someone contemptible)"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpjɛs/"
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Łęczyca"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Sieradz"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podegrodzie"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Western Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈpjɛs]",
+     "labels": [
+      "Babia Góra"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "chaff stick (narrower stick in the chaff counter)"
+    },
+    {
+     "gloss": "support (small plank attached to the front of the bed of a butcher's box which one's leg rests on to add strength)"
+    },
+    {
+     "gloss": "horse mount (iron cart for mounting the front horses)"
+    },
+    {
+     "gloss": "synonym of strunnik"
+    },
+    {
+     "gloss": "peg stuck in the lower end of a rafter"
+    },
+    {
+     "gloss": "sewn-in strips on the shoulders of shirts"
+    },
+    {
+     "gloss": "piece of crap (anything bad, unpleasant, or meaningless)"
+    },
+    {
+     "gloss": "support (toothed wheel at the rear beam of a weaving workshop and a rod supporting the wheel to keep the thread firmly in place)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish pies."
+  }
+ ],
+ "lemma": "pies"
+}

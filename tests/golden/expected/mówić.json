@@ -1,1 +1,189 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmu.vit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to say, to tell (to vocalize using words)"
+    },
+    {
+     "gloss": "to call, to name (to speak using a particular name)"
+    },
+    {
+     "gloss": "to say, to tell (to indicate how someone should proceed or act)"
+    },
+    {
+     "gloss": "to say, to tell (to be an indicator or sign of something else)"
+    },
+    {
+     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)"
+    },
+    {
+     "gloss": "to say, to tell (to communicate by non-verbal means)"
+    }
+   ]
+  },
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmu.vit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmo.vit͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈmu.vit͡ɕ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to talk, to converse (to speak with one or more people in a conversation)"
+    },
+    {
+     "gloss": "to speak (to be able to talk in a given lect or language)"
+    },
+    {
+     "gloss": "to say, to tell (to appear in someone's behavior)"
+    },
+    {
+     "gloss": "synonym of prosić"
+    },
+    {
+     "gloss": "synonym of myśleć"
+    },
+    {
+     "gloss": "ellipsis of mówić na książce (“to pray”)"
+    },
+    {
+     "gloss": "to move; to touch; to hook"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish mówić. By surface analysis, mowa + -ić."
+  }
+ ],
+ "lemma": "mówić"
+}

@@ -1,1 +1,35 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/pɔˈvjɛ.d͡ʑɛt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to speak, to talk (to use one's voice to communicate)"
+    },
+    {
+     "gloss": "to call, to name (to speak using particular pronouns)"
+    },
+    {
+     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)"
+    },
+    {
+     "gloss": "to say, to tell (to communicate by non-verbal means)"
+    },
+    {
+     "gloss": "to tell (to suggest a course of action)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish powiedzieć. By surface analysis, po- + wiedzieć."
+  }
+ ],
+ "lemma": "powiedzieć"
+}

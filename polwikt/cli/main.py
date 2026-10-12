@@ -20,10 +20,11 @@ from polwikt.dump.scan import scan as scan_dump
 from polwikt.dump.store import read_page, unpack_store
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
-from polwikt.extract.page import extract_page
+from polwikt.extract.p3 import P3Error, run_p3
+from polwikt.extract.page import Settings, extract_page
 from polwikt.parse.sections import language_section
 from polwikt.parse.tree import format_tree
-from polwikt.proto.io import to_json
+from polwikt.proto.io import CorpusError, to_json
 
 log = logging.getLogger("polwikt")
 
@@ -133,20 +134,54 @@ def subset() -> None:
 
 
 @cli.command()
-@click.option("--db", type=click.Path(path_type=Path))
-@click.option("--out", type=click.Path(path_type=Path))
-@click.option("--jobs", type=int)
-@click.option("--limit", type=int)
+@click.option(
+    "--db",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    help="Page store [default: <root>/data/pages.sqlite].",
+)
+@click.option(
+    "--out",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="Output directory [default: <root>/data/out].",
+)
+@click.option("--jobs", type=click.IntRange(min=1), default=2, show_default=True)
+@click.option("--limit", type=click.IntRange(min=1), help="First N pages by page id.")
 @click.option("--pages", help="Comma-separated titles.")
+@click.option(
+    "--max-error-rate", type=float, default=0.01, show_default=True, help="R3.12"
+)
 def extract(
     db: Path | None,
     out: Path | None,
-    jobs: int | None,
+    jobs: int,
     limit: int | None,
     pages: str | None,
+    max_error_rate: float,
 ) -> None:
     """P3: expand and extract each Polish page into Word messages (R3.9-R3.12)."""
-    _todo("M5", "extract")
+    cfg = _config()
+    data = cfg.root / "data"
+    _keep_temp_files_in(data / "tmp")
+    store = db or data / "pages.sqlite"
+    if not store.exists():
+        raise click.ClickException(f"{store} does not exist; run `polwikt scan`")
+    titles = [t.strip() for t in pages.split(",") if t.strip()] if pages else None
+    try:
+        summary = run_p3(
+            Settings.from_config(cfg),
+            store,
+            out or data / "out",
+            jobs=jobs,
+            titles=titles,
+            limit=limit,
+            max_error_rate=max_error_rate,
+        )
+    except (P3Error, CorpusError) as e:
+        raise click.ClickException(str(e)) from e
+    click.echo(
+        f"{summary.pages} pages, {summary.stats['entries']} entries, "
+        f"{summary.errors} errors in {summary.seconds:.0f} s"
+    )
 
 
 @cli.command()
@@ -219,7 +254,11 @@ def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
             click.echo("(no golden snapshot: run tools/golden.py snapshot)")
         click.echo("--- proto ---")
         try:
-            word = extract_page(wtp, title, text)
+            if not isinstance(wtp, PolwiktWtp):
+                raise NotImplementedError(
+                    "extraction needs a page store or the snapshot"
+                )
+            word = extract_page(wtp, title, text, Settings.from_config(cfg))
         except NotImplementedError as e:
             click.echo(f"({e})")
         else:

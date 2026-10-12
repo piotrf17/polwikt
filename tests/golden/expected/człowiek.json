@@ -1,1 +1,59 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈt͡ʂwɔ.vjɛk/"
+    },
+    {
+     "ipa": "[ˈmunʂ]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    },
+    {
+     "ipa": "[ˈt͡ʂɫɔ.vjɛk]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "man, human, human being; person"
+    },
+    {
+     "gloss": "man (adult male)"
+    },
+    {
+     "gloss": "person (being that characterizes a particular thing)"
+    },
+    {
+     "gloss": "person (someone who behaves well and does positive things)"
+    },
+    {
+     "gloss": "worker; man, person"
+    },
+    {
+     "gloss": "person, man (someone underneath someone else in hierarchy)"
+    },
+    {
+     "gloss": "used to refer to oneself instead of ja"
+    },
+    {
+     "gloss": "synonym of mąż (“husband”)"
+    },
+    {
+     "gloss": "synonym of sługa / służący (“servant”)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish człowiek."
+  }
+ ],
+ "lemma": "człowiek"
+}

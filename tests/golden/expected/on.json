@@ -1,1 +1,36 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔn/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "he , it"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔn/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "this"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish on. The oblique case forms come from Proto-Slavic *jь."
+  }
+ ],
+ "lemma": "on"
+}

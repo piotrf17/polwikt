@@ -1,1 +1,36 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NUMERAL",
+   "pronunciations": [
+    {
+     "ipa": "/ˈtʂɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "three"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈtʂɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "three, C (passing grade in school)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish trzy. Doublet of dryja."
+  }
+ ],
+ "lemma": "trzy"
+}

@@ -1,1 +1,35 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈwuʂ.kɔ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "bed (piece of furniture, usually flat and soft, on which to rest or sleep)"
+    },
+    {
+     "gloss": "bed (place for a customer or client to lay down)"
+    },
+    {
+     "gloss": "bed (place for one person in a hospital or hotel)"
+    },
+    {
+     "gloss": "bed (sexual activity)"
+    },
+    {
+     "gloss": "placenta"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish łóżko. By surface analysis, łoże + -ko. Compare Czech lůžko and Kashubian łóżkò."
+  }
+ ],
+ "lemma": "łóżko"
+}

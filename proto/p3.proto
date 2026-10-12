@@ -1,0 +1,48 @@
+// P3's intermediate record: one per Polish page, read only by P4 and `inspect`.
+//
+// Internal, not the output contract (R4.2.1, decision 11): it carries the raw template
+// calls the pipeline retains as its escape hatch, which the corpus never does. It is
+// not bound by polwikt.proto's renumbering rule — nothing outside the pipeline reads
+// it, and a pin move regenerates it — and it holds the public `Word` as bytes so the
+// two files need no cross-import.
+syntax = "proto3";
+
+package polwikt.p3;
+
+message TemplateArg {
+  string key = 1;    // "1", "2", … for positional arguments
+  string value = 2;  // raw wikitext
+}
+
+message TemplateCall {
+  string name = 1;          // canonical, after redirects (`label`, not `lb`)
+  string written_name = 2;  // as written on the page, when different
+  repeated TemplateArg args = 3;
+}
+
+// Raw calls of one entry, parallel to Word.entries.
+message EntryCalls {
+  repeated TemplateCall headword = 1;    // {{pl-noun}}, {{head}}, …
+  repeated TemplateCall inflection = 2;  // {{pl-decl-noun-*}}, {{pl-conj-*}}, …
+}
+
+// Raw calls of one etymology group, parallel to Word.etymologies.
+message EtymologyCalls {
+  repeated TemplateCall calls = 1;  // {{etymon}}, {{inh+}}, {{bor+}}, …
+}
+
+// A heading neither the POS map nor the section map knows (R5.3): kept, counted.
+message UnknownSection {
+  string heading = 1;
+  string wikitext = 2;
+}
+
+message PageRecord {
+  int64 page_id = 1;
+  int64 revision_id = 2;
+  string title = 3;
+  bytes word = 4;  // a serialized polwikt.Word; empty when the page yields no record
+  repeated EntryCalls entry_calls = 5;
+  repeated EtymologyCalls etymology_calls = 6;
+  repeated UnknownSection unknown_sections = 7;
+}

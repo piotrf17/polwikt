@@ -103,13 +103,14 @@ def _split_records(data: bytes) -> Iterator[bytes]:
         pos = end
 
 
-def _parse_word(payload: bytes) -> Word:
-    word = Word()
+def _parse[M: Message](payload: bytes, message_type: type[M]) -> M:
+    record = message_type()
     try:
-        word.ParseFromString(payload)
+        record.ParseFromString(payload)
     except DecodeError as e:
-        raise CorpusError(f"corrupt Word record: {e}") from e
-    return word
+        name = message_type.DESCRIPTOR.name
+        raise CorpusError(f"corrupt {name} record: {e}") from e
+    return record
 
 
 # ---------------------------------------------------------------------------
@@ -168,8 +169,12 @@ class ShardWriter:
         else:
             self.abort()
 
-    def write(self, word: Word) -> Location:
-        """Appends one record and returns where it will be readable from."""
+    def write(self, record: Message) -> Location:
+        """Appends one record (a `Word`, or P3's `PageRecord`) and returns its place."""
+        return self.write_serialized(record.SerializeToString(deterministic=True))
+
+    def write_serialized(self, payload: bytes) -> Location:
+        """Appends a record a worker already serialized with deterministic=True."""
         if self._closed:
             raise CorpusError("write() on a closed ShardWriter")
         if self._file is None or self._shard_records == self._per_shard:
@@ -177,7 +182,6 @@ class ShardWriter:
         assert self._file is not None
         shard = len(self._parts) - 1
         location = Location(shard, self._file.tell(), self._frame_records)
-        payload = word.SerializeToString(deterministic=True)
         self._frame += encode_varint(len(payload))
         self._frame += payload
         self._frame_records += 1
@@ -296,10 +300,15 @@ def _frames(f: IO[bytes], where: str, *, limit: int | None = None) -> Iterator[b
 
 def read_shard(path: Path) -> Iterator[Word]:
     """Streams every `Word` in one shard in write order, one frame at a time."""
+    return read_records(path, Word)
+
+
+def read_records[M: Message](path: Path, message_type: type[M]) -> Iterator[M]:
+    """Streams every record of one shard as `message_type`, in write order."""
     with path.open("rb") as f:
         for frame in _frames(f, str(path)):
             for payload in _split_records(frame):
-                yield _parse_word(payload)
+                yield _parse(payload, message_type)
 
 
 def read_corpus(corpus_dir: Path, prefix: str = DEFAULT_PREFIX) -> Iterator[Word]:
@@ -331,7 +340,7 @@ def read_at(corpus_dir: Path, location: Location, prefix: str = DEFAULT_PREFIX) 
         frame = next(_frames(f, str(location), limit=1), b"")
     for i, payload in enumerate(_split_records(frame)):
         if i == location.index:
-            return _parse_word(payload)
+            return _parse(payload, Word)
     raise CorpusError(f"{location}: frame has no record {location.index}")
 
 

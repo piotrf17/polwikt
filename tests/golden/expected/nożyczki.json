@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/nɔˈʐɘt͡ʂ.ki/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "scissors (tool used for cutting)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From nożyce + -ki."
+  }
+ ],
+ "lemma": "nożyczki"
+}

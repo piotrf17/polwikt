@@ -1,1 +1,69 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈrɛŋ.ka/"
+    },
+    {
+     "ipa": "[ˈrɛŋ.ka]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈrɛŋ.ka]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "upper limb",
+     "subsenses": [
+      {
+       "gloss": "arm"
+      },
+      {
+       "gloss": "hand"
+      }
+     ]
+    },
+    {
+     "gloss": "handball (offence of a player other than the goalkeeper touching the ball with the hand or arm on the field during play)"
+    },
+    {
+     "gloss": "hand (person that can perform a task, usually one requiring the hands)"
+    },
+    {
+     "gloss": "hand (person or institution that has the authority or competence or the ability to decide in an issue)"
+    },
+    {
+     "gloss": "hand (right to marriage)"
+    },
+    {
+     "gloss": "style of writing"
+    },
+    {
+     "gloss": "synonym of działka",
+     "subsenses": [
+      {
+       "gloss": "synonym of poletko"
+      }
+     ]
+    },
+    {
+     "gloss": "synonym of strona (“side”) (one half (especially left or right) of something or someone)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish ręka."
+  }
+ ],
+ "lemma": "ręka"
+}

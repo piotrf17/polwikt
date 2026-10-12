@@ -1,1 +1,58 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdu.ʐɘ/"
+    },
+    {
+     "ipa": "[ˈdu.ʐɘ]",
+     "labels": [
+      "Suwałki"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "big, large (having a large physical size)"
+    },
+    {
+     "gloss": "capital"
+    },
+    {
+     "gloss": "significant, big; strong; much (of high intensity)"
+    },
+    {
+     "gloss": "big (grown, adult)"
+    },
+    {
+     "gloss": "significant, big; high (having considerable material value)"
+    },
+    {
+     "gloss": "significant, big, high (giving better-than-average profit)"
+    },
+    {
+     "gloss": "significant, big (of outstanding or extraordinary note)"
+    },
+    {
+     "gloss": "big (tall, well-built)",
+     "subsenses": [
+      {
+       "gloss": "synonym of silny"
+      }
+     ]
+    },
+    {
+     "gloss": "strong (capable of producing great physical force)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Proto-Slavic *dužь. First attested in 1551."
+  }
+ ],
+ "lemma": "duży"
+}

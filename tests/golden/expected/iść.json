@@ -1,1 +1,201 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈiɕt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Western Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Suwałki"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to go; to walk"
+    },
+    {
+     "gloss": "to go, to attend"
+    },
+    {
+     "gloss": "to go after, to follow (to imitate in one's actions or thoughts)"
+    },
+    {
+     "gloss": "to go, to move"
+    },
+    {
+     "gloss": "to go (to move from sender to receiver)"
+    },
+    {
+     "gloss": "to go; to spread"
+    },
+    {
+     "gloss": "to go, to lead (to connect two points in space)"
+    },
+    {
+     "gloss": "to go; to be published; to be shown"
+    },
+    {
+     "gloss": "to go (to take place in particular manner)"
+    },
+    {
+     "gloss": "to come along (to not cause difficulties for someone)"
+    },
+    {
+     "gloss": "to run (to operate as normal)"
+    },
+    {
+     "gloss": "to go to (to be for a particular goal)"
+    },
+    {
+     "gloss": "to go; to be taken (to take place in a particular order)"
+    },
+    {
+     "gloss": "to count, to number in (to measure a certain amount)"
+    },
+    {
+     "gloss": "to go for (to decide on something in a given situation)"
+    },
+    {
+     "gloss": "to sell like hot cakes"
+    },
+    {
+     "gloss": "to mean, to be on about; to have in mind"
+    },
+    {
+     "gloss": "to go, to leave"
+    }
+   ]
+  },
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈiɕt͡ɕ/"
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Western Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Suwałki"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈiɕt͡ɕ]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to head for (to draw near to some event)"
+    },
+    {
+     "gloss": "to be possible"
+    },
+    {
+     "gloss": "to fly by"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Regularization of Old Polish ić which had a stem of id-, and other such verbs, such as siąść, have an -ś- in the infinitive and -d- in oblique stems."
+  }
+ ],
+ "lemma": "iść"
+}

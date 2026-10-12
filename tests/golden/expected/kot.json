@@ -1,1 +1,44 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈkɔt/"
+    },
+    {
+     "ipa": "[ˈkɔt]",
+     "labels": [
+      "Przemyśl"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "cat (any mammal of the genus Felis)"
+    },
+    {
+     "gloss": "cat, tomcat (male Felis catus)"
+    },
+    {
+     "gloss": "dust bunny (clump of dust that accumulates indoors)"
+    },
+    {
+     "gloss": "rookie (inexperienced recruit)"
+    },
+    {
+     "gloss": "hare (any mammal of the genus Lepus, similar to a rabbit, but larger and with longer ears)"
+    },
+    {
+     "gloss": "type of game"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Proto-Slavic *kotъ."
+  }
+ ],
+ "lemma": "kot"
+}

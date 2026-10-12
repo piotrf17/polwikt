@@ -1,1 +1,105 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔ.kɔ/"
+    },
+    {
+     "ipa": "[ˈɔ.kɔ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "eye (vision organ)"
+    },
+    {
+     "gloss": "sight (ability to see)"
+    },
+    {
+     "gloss": "eyes (gaze, manner of looking)"
+    },
+    {
+     "gloss": "eye (manner of seeing that expresses one's emotions i.e. through art)"
+    },
+    {
+     "gloss": "eye (supervision or guarding)"
+    },
+    {
+     "gloss": "eye (anything round)"
+    },
+    {
+     "gloss": "eye (part of a camera)"
+    },
+    {
+     "gloss": "unit of weight equal to three pounds"
+    },
+    {
+     "gloss": "presence, countenance"
+    },
+    {
+     "gloss": "point on a game die"
+    },
+    {
+     "gloss": "eye (colorful circle on a peacock's tail)"
+    },
+    {
+     "gloss": "bud of a shoot of a plant transplanted to another plant"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔ.kɔ/"
+    },
+    {
+     "ipa": "[ˈɔ.kɔ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "layer of fat or lard on top of a liquid"
+    },
+    {
+     "gloss": "hole of a net"
+    },
+    {
+     "gloss": "blackjack"
+    },
+    {
+     "gloss": "observation duty on the bow of a ship"
+    },
+    {
+     "gloss": "sailor performing such a duty"
+    },
+    {
+     "gloss": "eye of a cyclone"
+    },
+    {
+     "gloss": "tarn"
+    },
+    {
+     "gloss": "shiny surface of water"
+    },
+    {
+     "gloss": "part of a rod holding a ladder to a wagon (luśnia which is placed at the end of the axis"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish oko."
+  }
+ ],
+ "lemma": "oko"
+}

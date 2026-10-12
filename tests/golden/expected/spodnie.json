@@ -1,1 +1,52 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈspɔd.ɲɛ/"
+    },
+    {
+     "ipa": "[ˈspɔd.ɲɛ]",
+     "labels": [
+      "Łowicz"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "pants, trousers"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈspɔd.ɲɛ/"
+    },
+    {
+     "ipa": "[ˈspɔd.ɲɛ]",
+     "labels": [
+      "Łowicz"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "inflection of spodni: neuter nominative/accusative/vocative singular; nonvirile nominative/accusative/vocative plural"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From spód + -nie."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "spodnie"
+}

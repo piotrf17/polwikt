@@ -1,1 +1,147 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈvʑɔɲt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to take (to grab with the hands)"
+    },
+    {
+     "gloss": "to take (grabbing with one's hands, to place somewhere)"
+    },
+    {
+     "gloss": "to take in (to agree to take care of)"
+    },
+    {
+     "gloss": "to take (to allow to join)"
+    },
+    {
+     "gloss": "to take (to ensure that one has something with them when they depart)"
+    },
+    {
+     "gloss": "to take, to charge (to ask for or demand a certain amount of money for something)"
+    },
+    {
+     "gloss": "to take (to have temporarily, e.g. a room at a hotel)"
+    },
+    {
+     "gloss": "to take (to hire a particular person for a job or task)"
+    },
+    {
+     "gloss": "to take; to get (to gain from a particular source, e.g. a resource)"
+    },
+    {
+     "gloss": "to take, to take away (to deprive of)"
+    },
+    {
+     "gloss": "to take (to force someone to go somewhere, e.g. to the police)"
+    },
+    {
+     "gloss": "to take (to ingest e.g. medicine)"
+    },
+    {
+     "gloss": "to take (to conquer, to gain e.g. a city)"
+    },
+    {
+     "gloss": "to take (to have sexual relations with a woman)"
+    },
+    {
+     "gloss": "to take (to pass on the road while driving)"
+    },
+    {
+     "gloss": "to take (to consider someone or something to be something, especially unfairly)"
+    },
+    {
+     "gloss": "to get someone to do something (to convince someone to taking a particular action)"
+    },
+    {
+     "gloss": "to take; to get (as a light verb, to be the performer or subject of an action)"
+    },
+    {
+     "gloss": "to take (to appear in someone's body or psyche)"
+    },
+    {
+     "gloss": "to bite; to take (to attach to a hook on a rod; to be caught)"
+    },
+    {
+     "gloss": "to take on (to accept a position or function)"
+    },
+    {
+     "gloss": "to take (to defeat someone or something)"
+    },
+    {
+     "gloss": "to put on (to begin wearing some article of clothing)"
+    },
+    {
+     "gloss": "to take (to interest, to grab someone's attention)"
+    },
+    {
+     "gloss": "to build up"
+    },
+    {
+     "gloss": "to get (to understand somehow)"
+    },
+    {
+     "gloss": "to take (to get hit)"
+    },
+    {
+     "gloss": "to take after, to get from (to inherit some traits)"
+    },
+    {
+     "gloss": "to take, to choose, to select"
+    },
+    {
+     "gloss": "to take oneself (to grab oneself by something)"
+    },
+    {
+     "gloss": "to take each other (to grab each other by something)"
+    },
+    {
+     "gloss": "to get to (to begin to do some activity)"
+    },
+    {
+     "gloss": "to be convinced (to allow oneself to be convinced to doing something)"
+    },
+    {
+     "gloss": "to take on (to begin to deal intensively with matters related to a specific person)"
+    },
+    {
+     "gloss": "to come from (to have a source from)"
+    },
+    {
+     "gloss": "to be deceived"
+    },
+    {
+     "gloss": "to get to (to arrive, to go to)"
+    },
+    {
+     "gloss": "to appear, to show up"
+    }
+   ]
+  },
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈvʑɔɲt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to get the urge, to get a hankering (to feel a strong need or want to do something to the point where one cannot help themself)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish wziąć. By surface analysis, wz- + jąć."
+  }
+ ],
+ "lemma": "wziąć"
+}

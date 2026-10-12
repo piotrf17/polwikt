@@ -92,3 +92,9 @@ names = [
   "box-top", "box-bottom", "rfc", "top2", "top3",
 ]
 prefixes = ["R:", "list:", "Wiktionary:Picture dictionary/", "table:"]
+
+# Not an action: templates left out of a sense's gloss text because their data has its
+# own field (labels and qualifiers R6.7, government R6.11, sense anchors). Templates
+# under [ignore] are left out of every rendered text.
+[gloss]
+omit = ["label", "term-label", "qualifier", "sense", "+obj", "senseid", "senseno"]

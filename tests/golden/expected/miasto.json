@@ -1,1 +1,67 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmjas.tɔ/"
+    },
+    {
+     "ipa": "[ˈmjas.tɔ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmjas.tɔ]",
+     "labels": [
+      "Suwałki"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "city, town (area, center, administration, or population of a densely populated region of people larger than a village)"
+    },
+    {
+     "gloss": "place"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_PREPOSITION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmjas.tɔ/"
+    },
+    {
+     "ipa": "[ˈmjas.tɔ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈmjas.tɔ]",
+     "labels": [
+      "Suwałki"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "instead of"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish miasto (“city”)."
+  },
+  {
+   "text": "Inherited from Old Polish miasto (“instead of”)."
+  }
+ ],
+ "lemma": "miasto"
+}

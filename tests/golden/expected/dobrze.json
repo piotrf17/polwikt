@@ -1,1 +1,195 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_ADVERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.bʐɛ/"
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "well (in a correct or proper manner)"
+    },
+    {
+     "gloss": "well (in a positive manner)"
+    },
+    {
+     "gloss": "well (in a manner that one might expect something positive)"
+    },
+    {
+     "gloss": "well (in a kind, compassionate, or fair manner)"
+    },
+    {
+     "gloss": "well (in an approving manner)"
+    },
+    {
+     "gloss": "well (such that the suggested course of action would be the wisest)"
+    },
+    {
+     "gloss": "well (not sick)"
+    },
+    {
+     "gloss": "abundantly; profusely"
+    }
+   ]
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.bʐɛ/"
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "expresses agreement; alright"
+    },
+    {
+     "gloss": "expresses a request; alright?"
+    },
+    {
+     "gloss": "used to interrupt; alright"
+    },
+    {
+     "gloss": "well (to a significant degree)"
+    },
+    {
+     "gloss": "synonym of o mało"
+    }
+   ]
+  },
+  {
+   "pos": "POS_NUMERAL",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.bʐɛ/"
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "synonym of dużo"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔ.bʐɛ/"
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈdɔ.bʐɛ]",
+     "labels": [
+      "Zagórze"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "locative singular of dobro"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish dobrze. By surface analysis, dobry + -e. Compare Kashubian dobrze and Slovincian dôbrzê."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "dobrze"
+}

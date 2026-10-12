@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/kɔmˈpu.tɛr/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "computer (programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Borrowed from English computer."
+  }
+ ],
+ "lemma": "komputer"
+}

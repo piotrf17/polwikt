@@ -1,1 +1,541 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛs/"
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Eastern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "elder (bush of genus Sambucus)"
+    },
+    {
+     "gloss": "lilac (bush of genus Syringa)"
+    }
+   ]
+  },
+  {
+   "etymology": 1,
+   "pos": "POS_PREPOSITION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛs/"
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Eastern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "without, lacking"
+    },
+    {
+     "gloss": "minus, less"
+    },
+    {
+     "gloss": "contra, against"
+    },
+    {
+     "gloss": "besides, except"
+    },
+    {
+     "gloss": "without; Further details are uncertain."
+    }
+   ]
+  },
+  {
+   "etymology": 2,
+   "pos": "POS_PREPOSITION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛs/"
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Eastern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "synonym of przez (“across, through”)"
+    },
+    {
+     "gloss": "synonym of przez (“for”)",
+     "subsenses": [
+      {
+       "gloss": "synonym of o (“at”)"
+      },
+      {
+       "gloss": "synonym of po / za (“after, in”)"
+      }
+     ]
+    },
+    {
+     "gloss": "synonym of przez (“because of”)"
+    },
+    {
+     "gloss": "synonym of przez (“by, creates the passive voice”)"
+    },
+    {
+     "gloss": "synonym of dla (“for”)"
+    }
+   ]
+  },
+  {
+   "etymology": 3,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛs/"
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Eastern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podlachia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Łowicz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Biecz"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Żywiec"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Podhale"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈbɛs]",
+     "labels": [
+      "Southern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "genitive plural of beza"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish bez (“elderberry”)."
+  },
+  {
+   "text": "Inherited from Old Polish bez (“without”)."
+  },
+  {
+   "text": "Inherited from Old Polish bez (“through”)."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "bez"
+}

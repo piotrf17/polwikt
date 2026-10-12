@@ -1,1 +1,23 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/dɛ.ɛnˈa/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "abbreviation of kwas dezoksyrybonukleinowy"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Orthographic borrowing from English DNA."
+  }
+ ],
+ "lemma": "DNA"
+}

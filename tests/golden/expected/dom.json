@@ -1,1 +1,38 @@
-"TODO"
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdɔm/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "house (building for living)"
+    },
+    {
+     "gloss": "home (place where one resides)"
+    },
+    {
+     "gloss": "house, household; family (people within a home)"
+    },
+    {
+     "gloss": "household (all affairs associated with a family within a home)"
+    },
+    {
+     "gloss": "house (royal, aristocratic, or otherwise high-society family)"
+    },
+    {
+     "gloss": "house; home (place where specialized activities are carried out)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish dom."
+  }
+ ],
+ "lemma": "dom"
+}
