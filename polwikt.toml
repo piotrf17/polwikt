@@ -4,10 +4,10 @@
 
 [dump]
 # The single pinned dump used by every dev run, golden test and stats.json comparison
-# (R2.1a). Filled in at M2 on first fetch; moving the pin is its own commit, reviewed
+# (R2.1a). Moving the pin is its own commit, reviewed
 # alongside the stats.json diff it produces.
-date = ""   # e.g. "20261001" -> enwiktionary-20261001-pages-articles.xml.bz2
-sha1 = ""   # from enwiktionary-<date>-sha1sums.txt
+date = "20261001"  # -> enwiktionary-20261001-pages-articles.xml.bz2, 1,647,823,823 bytes
+sha1 = "f9ed426c69c6b21d026613bd0f200c2aaa1145e9"  # from enwiktionary-20261001-sha1sums.txt
 url_base = "https://dumps.wikimedia.org/enwiktionary"
 
 [extract]
