@@ -163,9 +163,28 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
     `pages` table alone, so pruned titles would read as red links. The expansion layer
     must route existence checks through `all_titles` (a `Wtp` override, M4).
   - Corollary: `mw.title.new(…):getContent()` on a non-retained page cannot be served.
-    Upstream would return nil — i.e. "page does not exist", silently wrong. It must raise
-    a recorded, counted error instead, so we learn if any Polish-reachable module
-    actually depends on it.
+    It returns upstream's `nil` ("page does not exist") **and is counted, with the
+    titles listed** — never silent. *Revised at M4:* the first design raised an error
+    instead, and the golden set showed what depends on it. `{{transclude}}` needs the
+    text, so its targets are kept (R3.2b). `Module:etymon` (`{{etymon|…|text=+}}`, on
+    66k Polish pages) reads each etymon's page to continue the chain
+    (`komputer` → English `computer` → `compute` → Latin …); it handles `nil` by ending
+    the chain at a plain link — "Borrowed from English computer." — while an error lost
+    the whole etymology. The deeper chain is a known, counted loss: serving it would
+    need a recursive multi-language closure over the dump.
+- **R3.2b — Transclusion targets (carve-out, found at M4).** `{{transclude|pl|Poland|id=Q36}}`
+  (alias `{{tcl}}`) makes a Polish sense *show the definition of another page's sense*;
+  `Module:transclude` reads that page with `getContent()`. In the 20261001 dump 1,246
+  Polish pages do it, pointing at 1,214 pages of which 927 are not Polish and so were
+  pruned by R3.2. Losing them would blank those glosses (`Polska` is one). P1 therefore
+  makes a **second pass** over the dump: it collects the targets of the
+  `[scan].transclusion_templates` calls (aliases via the store's redirects) in the
+  stored Polish sections and keeps those ns-0 pages too, listed in a
+  `transclusion_targets(title, found)` table. They are expansion inputs only — P3
+  iterates Polish pages, never these. Targets missing from the dump are recorded
+  (`found = 0`), and any `getContent()` that still misses is counted (R3.2a). The second
+  pass costs one more read of the dump (~10 min). One level only: a target that itself
+  transcludes is a counted miss.
 - **R3.3** Non-ns-0 namespaces (Template, Module, Reconstruction, Appendix, Thesaurus per
   R2.2) are stored **unfiltered** in P1 — which templates are reachable is not knowable
   during a single streaming pass, and that pruning is P2's job.
@@ -314,11 +333,31 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     queries to wikidata.org**. Those entry points must be stubbed out by the expansion
     layer; each call is counted (`stats.json`) and returns the "no data" answer, so a
     module that depends on Wikidata degrades visibly instead of reaching the network.
+  - **No state crosses pages.** Upstream keeps ~25 Wiktionary modules loaded across
+    Lua resets for speed (`retained_modules`); `Module:headword/page` caches the page
+    title through one of them, so `być` expanded after `kot` emitted
+    `[[Category:Pages with entries|KOT]]`. Every reset drops all `Module:` instances,
+    as Scribunto gives each `#invoke` fresh modules (cost: ~13% on the golden set). A
+    golden test pins it.
+  - **Frozen clock, fixed zone, seeded randomness.** Magic words (`{{CURRENTYEAR}}`),
+    `mw.language:formatDate` and Lua's `os.date`/`os.time`/`os.clock` read midnight
+    UTC on the dump date; the process runs with `TZ=UTC`; `math.randomseed(0)` at each
+    reset. Upstream's per-`#invoke` Lua timeout (60 s) keeps the real clock: a timeout
+    is an error, counted (`lua.timeout`), never output.
   - The **interwiki map** is the other network dependency: upstream's `process_dump`
     fills an `interwiki_maps` table from the live siteinfo API, and `{{fullurl:}}` /
     `mw.site.interwikiMap` read it. P1 doesn't call that, so the table is absent from
-    our store; M4 supplies it from a committed snapshot or an empty table, never the
-    API.
+    our store; M4 supplies an empty one (a connection-local TEMP table), never the
+    API. Nothing in the golden set needs a real map.
+- **R4.2a — The policy is `polwikt/data/templates.toml`** (M4): five actions
+  (`expand`, `capture`, `both`, `render`, `ignore`), canonical names plus prefixes.
+  A census of every Polish section in the pinned dump found 964 distinct templates;
+  the policy covers **99.97%** of their 1.35M uses, and every template in the golden
+  set (a test). The 125 uncovered names (≤ 9 pages each) are the R4.6 backlog.
+  No template is pre-expanded before parsing: wiktextract's analysis, run as an oracle,
+  flags 26 line-start templates, all inflection tables (expanded as nodes) or layout
+  pairs like `col-top`/`col-bottom` (better left unexpanded, so the list between them
+  parses as a list).
 - **R4.6** Every template name encountered and *not* handled by a rule must be counted in
   `unhandled.jsonl` with an example page. This list drives the work backlog.
 
@@ -634,11 +673,14 @@ operational consequences that are *not* optional:
 - **R9.1** P1 (full dump scan) target: ≤ 60 min on this box (`lbzcat` uses both cores
   for decompression; the XML parse is the single-threaded part). It runs once per dump.
   *Measured at M2: 12 min; no process above 75 MB RSS.*
-- **R9.2** P3 (extraction over all ~1.8×10^5 Polish pages) target: **≤ 2 h at
-  `--jobs 2`**, provisional — it is reset from the throughput M4 measures
-  (pages/sec/worker), and the measured number replaces this one. Most pages are short
-  form-of entries; the cost is in the ~10^5 lemmas that expand Lua tables. `--pages` /
-  `--limit` runs finish in seconds; the full run is not part of the edit loop.
+- **R9.2** P3 (extraction over all 176,750 Polish pages) target: **≤ 3.5 h at
+  `--jobs 2`**. *Measured at M4* (600 pages sampled evenly by page id, one worker,
+  every template in the Polish section expanded — an upper bound on what the policy
+  expands): **7.7 pages/s/worker**; lemma pages 0.19 s mean / 0.85 s p99, form pages
+  0.04 s / 0.10 s; peak RSS 147 MB. That is ~3.2 h at `--jobs 2`. The provisional
+  2 h was optimistic. P3 must not regress it by more than 10%; M5 re-measures with
+  the real policy. `--pages` / `--limit` runs finish in seconds; the full run is not
+  part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the
   ~4 GB usable. The pipeline must not require the whole corpus in memory at any point —
   P4's folding and linking work through SQLite, not in-memory dicts of every word.

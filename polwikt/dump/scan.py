@@ -2,7 +2,13 @@
 
 The store is upstream's own `pages` table, written through `Wtp.add_page` so template
 bodies get upstream's `<noinclude>`/`<onlyinclude>` handling, plus our additive side
-tables: `page_meta` (ids), `all_titles` (R3.2a) and `scan_meta` (R3.4/R3.5).
+tables: `page_meta` (ids), `all_titles` (R3.2a), `transclusion_targets` (R3.2b) and
+`scan_meta` (R3.4/R3.5).
+
+Two passes over the dump: the first keeps Polish ns-0 pages and the R2.2 namespaces;
+the second keeps the non-Polish ns-0 pages those Polish sections transclude a
+definition from (`{{transclude|pl|Poland|id=Q36}}`), which the first pass could not
+know about when it streamed past them (R3.2b).
 """
 
 from __future__ import annotations
@@ -17,6 +23,7 @@ import time
 from bz2 import BZ2File
 from collections import Counter
 from collections.abc import Iterator
+from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import IO, Any
@@ -27,12 +34,13 @@ from wikitextprocessor.dumpparser import add_default_templates, decompress_dump_
 
 from polwikt import __version__
 from polwikt.config import Config
+from polwikt.parse.sections import any_heading_re, language_heading_re, language_section
 
 log = logging.getLogger(__name__)
 
 # Bumped whenever the keep/skip rules change in a way the config doesn't capture, so an
 # existing store built under the old rules is refused (R3.4).
-PREDICATE_VERSION = 1
+PREDICATE_VERSION = 2
 
 # Upstream's parse_dump_xml skips these silently; we skip them too, but count them.
 # MediaWiki subpage conventions: template docs and test harnesses are never transcluded.
@@ -56,6 +64,10 @@ CREATE TABLE IF NOT EXISTS all_titles (
   ns INTEGER NOT NULL,
   title TEXT NOT NULL,
   redirect_to TEXT
+);
+CREATE TABLE IF NOT EXISTS transclusion_targets (
+  title TEXT PRIMARY KEY,
+  found INTEGER NOT NULL  -- 1 when pass 2 found the page in the dump
 );
 CREATE TABLE IF NOT EXISTS scan_meta (
   key TEXT PRIMARY KEY,
@@ -92,6 +104,7 @@ class ScanCounters:
     skipped: Counter[str] = field(default_factory=Counter)
     kept_bytes: int = 0
     near_misses: list[str] = field(default_factory=list)
+    transclusion: Counter[str] = field(default_factory=Counter)
 
     def to_json(self) -> dict[str, Any]:
         return {
@@ -100,19 +113,8 @@ class ScanCounters:
             "skipped": dict(sorted(self.skipped.items())),
             "kept_bytes": self.kept_bytes,
             "near_misses": len(self.near_misses),
+            "transclusion": dict(sorted(self.transclusion.items())),
         }
-
-
-def language_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
-    """An L2 heading line for any of `languages`, tolerating inner spaces (R3.2)."""
-    names = "|".join(re.escape(lang) for lang in languages)
-    return re.compile(rf"^==[ \t]*(?:{names})[ \t]*==[ \t]*$", re.MULTILINE)
-
-
-def any_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
-    """A heading line of any level naming one of `languages`: near-miss detection."""
-    names = "|".join(re.escape(lang) for lang in languages)
-    return re.compile(rf"^=+[ \t]*(?:{names})[ \t]*=+.*$", re.MULTILINE)
 
 
 def predicate(cfg: Config) -> dict[str, Any]:
@@ -124,6 +126,7 @@ def predicate(cfg: Config) -> dict[str, Any]:
         "skip_title_suffix": _SKIP_TITLE_SUFFIX,
         "skip_title_infix": _SKIP_TITLE_INFIX,
         "models": list(_KEPT_MODELS),
+        "transclusion_templates": sorted(cfg.transclusion_templates),
     }
 
 
@@ -279,28 +282,12 @@ def _fill(cfg: Config, dump: Path, wtp: Wtp) -> ScanCounters:
         titles.clear()
         metas.clear()
 
-    source = decompress_dump_file(str(dump))
-    stream: IO[bytes] | BZ2File
-    if isinstance(source, subprocess.Popen):
-        assert source.stdout is not None
-        stream = source.stdout
-    else:
-        stream = source
-    try:
-        for n, page in enumerate(iter_pages(stream), 1):
+    with _dump_pages(dump) as pages:
+        for n, page in enumerate(pages, 1):
             counters.read[page.ns] += 1
             titles.append((page.page_id, page.ns, page.title, page.redirect_to))
             if _keep(page, namespaces, heading, near, needles, counters):
-                wtp.add_page(
-                    page.title,
-                    page.ns,
-                    body=None if page.redirect_to is not None else page.text,
-                    redirect_to=page.redirect_to,
-                    model=page.model,
-                )
-                metas.append((page.title, page.ns, page.page_id, page.revision_id))
-                counters.kept[page.ns] += 1
-                counters.kept_bytes += len(page.text.encode())
+                _store(wtp, page, metas, counters)
             if len(titles) >= _BATCH:
                 flush()
             if n % _REPORT_EVERY == 0:
@@ -311,22 +298,112 @@ def _fill(cfg: Config, dump: Path, wtp: Wtp) -> ScanCounters:
                     counters.kept[0],
                 )
         flush()
-    except etree.XMLSyntaxError as e:
-        raise ScanError(f"{dump}: malformed XML: {e}") from e
-    finally:
-        if isinstance(source, subprocess.Popen):
-            stream.close()
-            returncode = source.wait()
-        else:
-            source.close()
-            returncode = 0
-    if returncode != 0:
-        raise ScanError(f"decompressing {dump} failed (exit {returncode})")
+
+    wanted = _transclusion_targets(conn, cfg)
+    counters.transclusion["wanted"] = len(wanted)
+    if wanted:
+        log.info("pass 2: %d transclusion targets (R3.2b)", len(wanted))
+        found: set[str] = set()
+        with _dump_pages(dump) as pages:
+            for page in pages:
+                if page.ns == 0 and page.title in wanted and page.redirect_to is None:
+                    _store(wtp, page, metas, None)
+                    found.add(page.title)
+                    if len(found) == len(wanted):
+                        break
+        flush()
+        conn.executemany(
+            "INSERT INTO transclusion_targets VALUES (?, ?)",
+            sorted((t, int(t in found)) for t in wanted),
+        )
+        counters.transclusion["found"] = len(found)
+        counters.transclusion["missing"] = len(wanted) - len(found)
 
     add_default_templates(wtp)  # {{!}}, {{=}}: magic words upstream stores as pages
     conn.executescript(_FINAL_INDEXES)
     conn.commit()
     return counters
+
+
+def _store(
+    wtp: Wtp,
+    page: RawPage,
+    metas: list[tuple[str, int, int, int]],
+    counters: ScanCounters | None,
+) -> None:
+    """Adds one page to upstream's table and its ids to ours; counts pass-1 keeps."""
+    wtp.add_page(
+        page.title,
+        page.ns,
+        body=None if page.redirect_to is not None else page.text,
+        redirect_to=page.redirect_to,
+        model=page.model,
+    )
+    metas.append((page.title, page.ns, page.page_id, page.revision_id))
+    if counters is not None:
+        counters.kept[page.ns] += 1
+        counters.kept_bytes += len(page.text.encode())
+
+
+@contextmanager
+def _dump_pages(dump: Path) -> Iterator[Iterator[RawPage]]:
+    """Streams the dump's pages through lbzcat; a decompressor failure is an error."""
+    source = decompress_dump_file(str(dump))
+    stream: IO[bytes] | BZ2File
+    if isinstance(source, subprocess.Popen):
+        assert source.stdout is not None
+        stream = source.stdout
+    else:
+        stream = source
+    stopped_early = False
+    try:
+        yield iter_pages(stream)
+    except GeneratorExit:
+        stopped_early = True
+        raise
+    except etree.XMLSyntaxError as e:
+        raise ScanError(f"{dump}: malformed XML: {e}") from e
+    finally:
+        stream.close()
+        if isinstance(source, subprocess.Popen):
+            if source.poll() is None:
+                source.kill()
+                stopped_early = True
+            returncode = source.wait()
+            if returncode != 0 and not stopped_early:
+                raise ScanError(f"decompressing {dump} failed (exit {returncode})")
+
+
+def _transclusion_targets(conn: sqlite3.Connection, cfg: Config) -> set[str]:
+    """ns-0 titles the stored Polish sections transclude, minus those already kept."""
+    names = set(cfg.transclusion_templates)
+    for (alias,) in conn.execute(
+        "SELECT title FROM pages WHERE namespace_id = 10 AND redirect_to IN "
+        f"({','.join('?' * len(names))})",
+        [f"Template:{n}" for n in sorted(names)],
+    ):
+        names.add(alias.removeprefix("Template:"))
+    if not names:
+        return set()
+    call = re.compile(
+        r"\{\{\s*(?:"
+        + "|".join(re.escape(n) for n in sorted(names))
+        + r")\s*\|([^{}]*)\}\}"
+    )
+    wanted: set[str] = set()
+    for (body,) in conn.execute("SELECT body FROM pages WHERE namespace_id = 0"):
+        for language in cfg.languages:
+            section = language_section(body or "", language) or ""
+            for m in call.finditer(section):
+                positional = [a.strip() for a in m.group(1).split("|") if "=" not in a]
+                if len(positional) >= 2 and positional[1]:
+                    wanted.add(positional[1].replace("_", " "))
+    stored = {
+        t
+        for (t,) in conn.execute("SELECT title FROM pages WHERE namespace_id = 0")
+        if t in wanted
+    }
+    return wanted - stored
 
 
 def _keep(

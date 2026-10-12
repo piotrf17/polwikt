@@ -135,8 +135,17 @@ dump.
 
 ---
 
-## M4 — Expansion layer
-*Needs M2, M3. 1–2 weeks. The hardest and least predictable milestone.*
+## M4 — Expansion layer ✅
+*Done 2026-10-12.* `polwikt/expand/`: `PolwiktWtp` (existence via `all_titles`,
+title-only reads counted, lookup recorder, strict snapshot mode), `hermetic.py`
+(Wikidata stubs + raising session, empty interwiki map, frozen clock, `TZ=UTC`, seeded
+Lua, no module state across pages), `policy.py` + `data/templates.toml` (99.97% of
+template uses), `run.py`. Golden snapshot: 1,792 pages, **1.9 MB** zst. Every
+`pl-decl-noun*`/`pl-adecl`/`pl-conj-*`/headword/`pl-pr` call in the 66 fixtures
+expands with zero Lua errors and zero network attempts. Throughput **7.7 pages/s/worker**
+(R9.2 now 3.5 h at `--jobs 2`), 147 MB RSS. Found and fixed on the way:
+`{{transclude}}` targets (P1 second pass, R3.2b); `getContent()` must return nil, not
+raise (R3.2a, `Module:etymon`); module state leaking across pages (R4.5).
 
 - `wikitextprocessor` wiring: `Wtp(db_path=pages.sqlite)`, `start_page`, `expand`,
   `parse`, Lua via lupa, per-page time limit.
@@ -182,6 +191,9 @@ page (R3.2a — if it fires for real, P1 needs a carve-out); a module that needs
   repeated POS headings within one etymology (`iść`); the POS heading map as config
   (R5.3), unknown headings counted; nested sense lists as child senses (R5.4);
   language-level sections above and below the etymologies (R5.5).
+- P3 writes `unhandled.jsonl` from `expand.policy.Unhandled` and the hermetic counters
+  (`wikidata.*`, `getContent.title_only` with titles, `lua.error`/`lua.timeout`) into
+  `stats.json`; re-measure throughput with the real policy against R9.2.
 - Emits `Word` with structure + plain glosses only. P3's intermediate records (which
   still carry raw template calls and form-of links for P4, R4.2.1) are an internal
   format, designed here — not the output schema.

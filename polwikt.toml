@@ -15,6 +15,9 @@ url_base = "https://dumps.wikimedia.org/enwiktionary"
 # Thesaurus. ns-0 is stored only for pages with a [extract].languages L2 heading (R3.2);
 # every other page is kept as a title in all_titles (R3.2a).
 namespaces = [10, 828, 118, 100, 110]
+# Templates that pull a definition from another ns-0 page; P1's second pass keeps their
+# targets (R3.2b). Aliases ({{tcl}}) are found through the store's redirects.
+transclusion_templates = ["transclude"]
 
 [extract]
 # L2 language headings whose ns-0 pages P1 keeps (R3.2).

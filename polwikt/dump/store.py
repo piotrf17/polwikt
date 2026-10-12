@@ -6,6 +6,8 @@ import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
 
+import zstandard
+
 
 @dataclass(frozen=True)
 class StoredPage:
@@ -32,3 +34,11 @@ def read_page(db: Path, title: str, namespace_id: int = 0) -> StoredPage | None:
         return None
     body, page_id, revision_id = row
     return StoredPage(title, namespace_id, page_id, revision_id, body or "")
+
+
+def unpack_store(archive: Path, dest_dir: Path) -> Path:
+    """Decompresses a zstd-packed store (the golden snapshot, R8.1a) into `dest_dir`."""
+    db = dest_dir / archive.name.removesuffix(".zst")
+    with archive.open("rb") as src, db.open("wb") as out:
+        zstandard.ZstdDecompressor().copy_stream(src, out)
+    return db

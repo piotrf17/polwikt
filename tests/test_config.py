@@ -24,6 +24,7 @@ url_base = "https://dumps.wikimedia.org/enwiktionary/"
 
 [scan]
 namespaces = [10, 828]
+transclusion_templates = ["transclude"]
 
 [extract]
 languages = ["Polish"]

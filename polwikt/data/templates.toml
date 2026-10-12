@@ -1,0 +1,94 @@
+# Expansion policy (R4.2): what P3 does with each template it meets in a Polish section.
+#
+# Names are canonical: aliases and redirects are resolved through the page store first
+# ({{lb}} -> label, {{syn}} -> synonyms, {{infl of}} -> inflection of, {{tlb}} ->
+# term-label), so each template is listed once, under the name its page has.
+# A template matched by neither `names` nor `prefixes` is unhandled: counted, with an
+# example page, in unhandled.jsonl (R4.6). Exact names win over prefixes; among prefixes
+# the longest wins.
+#
+# Actions:
+#   expand   the rendering is the payload: parse the expanded table (R4.2)
+#   capture  the arguments are the data; still rendered where it contributes text
+#   both     headword lines: the raw call and the expanded annotations
+#   render   only the visible text matters (links, mentions, definition helpers)
+#   ignore   Wiktionary bookkeeping, not output (decision 11): references, categories,
+#            maintenance, layout, cross-wiki boxes
+
+[expand]
+names = [
+  "pl-adecl",
+  "pl-decl-noun",
+  "pl-decl-phrase",
+  "pl-cardinals",
+  "pl-mid-decl-noun",   # Middle Polish: expanded, then dropped and counted (R6.6a)
+]
+prefixes = ["pl-decl-", "pl-conj-", "pl-mid-decl-", "pl-pronoun-", "pl-skur-conj-"]
+
+[capture]
+names = [
+  # labels and qualifiers (R6.7)
+  "label", "term-label", "qualifier", "sense", "glossary",
+  # examples, quotations, collocations, government (R6.9, R6.11, R6.12)
+  "ux", "uxi", "uxa", "coi", "collocation", "coa", "+obj", "quote-gloss",
+  # sense-level relations (R6.4)
+  "synonyms", "antonyms", "hypernyms", "hyponyms", "coordinate terms", "meronyms",
+  "holonyms", "parasynonyms", "dialect synonyms", "inline alt forms",
+  # term lists (R6.5)
+  "col", "col-top", "col-bottom", "pl-derived verbs", "perfectives", "examples",
+  # alternative forms section (R6.5)
+  "alter",
+  # form-of and alternative-form senses (R6.6, R3.13a)
+  "inflection of", "alternative form of", "alternative spelling of", "synonym of",
+  "verbal noun of", "diminutive of", "augmentative of", "female equivalent of",
+  "comparative of", "superlative of", "abbreviation of", "initialism of",
+  "clipping of", "ellipsis of", "obsolete form of", "pl-pre-1936", "pl-pre-1816",
+  "frequentative of", "alternative case form of", "contraction of", "form of",
+  "relational adjective of", "nonstandard form of", "censored spelling of",
+  # pronunciation (R6.1)
+  "pl-pr", "IPA", "audio", "hyphenation", "rhymes",
+  # glosses: English keywords live in their links (R6.14)
+  "gloss", "non-gloss", "taxfmt", "taxlink", "vern",
+  # etymology: rendered to text, links not output (R6.8)
+  "etymon", "inherited", "inh+", "borrowed", "bor+", "derived", "der+",
+  "learned borrowing", "semantic loan", "unadapted borrowing", "calque", "pseudo-loan",
+  # frequency (R6.13), topical categories (R6.10)
+  "pl-freq 1990", "topics", "catlangname",
+  "quote",
+]
+prefixes = ["quote-", "RQ:pl:"]
+
+[both]
+names = [
+  "head", "pl-noun", "pl-proper noun", "pl-verb", "pl-adj", "pl-adv",
+  "pl-participle", "letter", "pl-combined form",
+]
+prefixes = []
+
+[render]
+names = [
+  "mention", "link", "m+", "w", "literally", "&lit", "place", "surname", "given name",
+  "demonym-adj", "demonym-noun", "named after", "Latn-def", "lang", "g", "sic",
+  "affix", "surface analysis", "compound", "suffixsee", "prefixsee", "suffixusex",
+  "prefixusex", "affixusex", "cognate", "noncognate", "doublet", "internationalism",
+  "onomatopoeic", "coinage", "back-formation", "univerbation", "deverbal", "clipping",
+  "uncertain", "unknown", "genericized trademark", "displaced", "transliteration",
+  "etydate", "defdate", "def-uncertain", "nb...", "...", "ellipsis", "em dash",
+  "en dash", ",", "sqbrace", "transclude", "senseno", "only used in", "blend",
+  "partial calque", "piecewise doublet", "root", "abbreviation", "initialism", "acronym",
+  "contraction", "long s", "cap", "IPAchar", "nobold", "name translit", "l-self",
+  "U:sla:directional verb",
+]
+prefixes = []
+
+[ignore]
+names = [
+  "reflist", "ref", "cite-book", "cite-journal", "cite-web", "wikipedia", "wikipedia inline",
+  "wikisource inline", "multiple images", "number box", "chemical element box",
+  "mapframe", "descendant", "descendants tree", "anagrams", "senseid", "was fwotd",
+  "dercat", "rfeq", "rfinfl", "rfdef", "etystub", "phrasebook", "pl-ety-letter",
+  "rfd", "rfi", "rfe", "rfv-etym", "see citations", "nomstub", "picdic", "picdiclabel",
+  "picdicimg", "color panel", "number table", "pl-family", "nonlemma", "bottom",
+  "box-top", "box-bottom", "rfc", "top2", "top3",
+]
+prefixes = ["R:", "list:", "Wiktionary:Picture dictionary/", "table:"]

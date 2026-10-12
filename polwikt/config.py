@@ -43,6 +43,7 @@ class Config:
     languages: tuple[str, ...]
     drop_labels: tuple[str, ...]
     scan_namespaces: tuple[int, ...]
+    transclusion_templates: tuple[str, ...]
     root: Path
 
 
@@ -84,6 +85,7 @@ def load_config(root: Path) -> Config:
         languages=languages,
         drop_labels=_str_list(extract, "extract", "drop_labels"),
         scan_namespaces=namespaces,
+        transclusion_templates=_str_list(scan, "scan", "transclusion_templates"),
         root=root,
     )
 

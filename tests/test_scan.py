@@ -13,7 +13,8 @@ import pytest
 from wikitextprocessor import Wtp
 
 from polwikt.config import load_config
-from polwikt.dump.scan import ScanError, language_heading_re, read_scan_meta, scan
+from polwikt.dump.scan import ScanError, read_scan_meta, scan
+from polwikt.parse.sections import language_heading_re
 
 REPO = Path(__file__).resolve().parent.parent
 SHA1 = "0" * 40
@@ -22,9 +23,20 @@ SHA1 = "0" * 40
 PAGES = [
     (1, 0, "kot", None, "wikitext", "==Polish==\n===Noun===\n{{greet|kocie}}\n"),
     (2, 0, "cat", None, "wikitext", "==English==\n* Polish: {{t|pl|kot}}\n"),
-    (3, 0, "pies", None, "wikitext", "==Czech==\n\n== Polish ==\n===Noun===\n"),
+    (
+        3,
+        0,
+        "pies",
+        None,
+        "wikitext",
+        "==Czech==\n\n== Polish ==\n===Noun===\n# {{tcl|pl|dog|id=Q1}}\n"
+        "# {{transclude|pl|nonesuch}}\n",
+    ),
     (4, 0, "kotek", "kot", "wikitext", "#REDIRECT [[kot]]"),
     (5, 0, "ptak", None, "wikitext", "==Slovak==\n===Polish===\nsomething\n"),
+    (6, 0, "dog", None, "wikitext", "==English==\n# {{senseid|en|Q1}} a dog\n"),
+    (18, 10, "Template:transclude", None, "wikitext", "{{#invoke:transclude|show}}"),
+    (19, 10, "Template:tcl", "Template:transclude", "wikitext", "#REDIRECT"),
     (
         10,
         10,
@@ -111,6 +123,9 @@ def test_only_polish_ns0_and_r2_2_namespaces_are_stored(store: Path) -> None:
     assert kept == {
         "kot",
         "pies",
+        "dog",  # transcluded by pies (R3.2b)
+        "Template:transclude",
+        "Template:tcl",
         "Template:greet",
         "Template:hello",
         "Module:echo",
@@ -136,18 +151,24 @@ def test_page_meta_keeps_ids(store: Path) -> None:  # R3.1
     )
     assert ("kot", 0, 1, 100) in rows
     assert ("Module:echo", 828, 13, 1300) in rows
-    assert len(rows) == 6
+    assert len(rows) == 9
 
 
 def test_counters_and_near_misses(store: Path) -> None:  # R3.5
     meta = read_scan_meta(store)
     counters = json.loads(meta["counters"])
-    assert counters["read"]["0"] == 5
-    assert counters["kept"]["0"] == 2
+    assert counters["read"]["0"] == 6
+    assert counters["kept"]["0"] == 2  # Polish only; pass 2 is counted apart
+    assert counters["transclusion"] == {"found": 1, "missing": 1, "wanted": 2}
     assert counters["skipped"] == {"model:sanitized-css": 1, "subpage": 2}
     assert json.loads(meta["near_misses"]) == ["ptak\t===Polish==="]
     assert meta["dump_sha1"] == SHA1
     assert meta["pinned"] == "false"
+
+
+def test_transclusion_targets_are_recorded(store: Path) -> None:  # R3.2b
+    rows = _rows(store, "SELECT title, found FROM transclusion_targets ORDER BY title")
+    assert rows == [("dog", 1), ("nonesuch", 0)]
 
 
 def test_wtp_reads_the_store_directly(store: Path) -> None:  # R3.1

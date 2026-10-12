@@ -72,7 +72,8 @@ golden store).
 ## Invariants — don't break these without changing `REQUIREMENTS.md` first
 
 1. **ns-0 is filtered at scan time** (R3.2). Only pages with a `==Polish==` L2 heading are
-   stored. Never assume an arbitrary ns-0 page's text is available — links out of Polish
+   stored — plus, from a second pass, the pages their `{{transclude}}` calls pull a
+   definition from (R3.2b), which are expansion inputs and never extracted. Never assume an arbitrary ns-0 page's text is available — links out of Polish
    entries are stored as **titles** and must not be dereferenced. Existence checks use the
    title-only `all_titles` table (R3.2a).
 2. **Never drop data silently.** Anything the output schema has a place for but we

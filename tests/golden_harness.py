@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import zstandard
+from polwikt.dump.store import unpack_store
 
 GOLDEN = Path(__file__).resolve().parent / "golden"
 SNAPSHOT = GOLDEN / "store.sqlite.zst"
@@ -57,7 +57,4 @@ def fixtures() -> list[Fixture]:
 
 def unpack_snapshot(dest: Path) -> Path:
     """Decompresses store.sqlite.zst into `dest`, ready for `Wtp(db_path=…)`."""
-    db = dest / "store.sqlite"
-    with SNAPSHOT.open("rb") as src, db.open("wb") as out:
-        zstandard.ZstdDecompressor().copy_stream(src, out)
-    return db
+    return unpack_store(SNAPSHOT, dest)

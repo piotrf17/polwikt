@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import hashlib
 import tomllib
-from collections.abc import Iterator
 from pathlib import Path
 
 import pytest
@@ -18,12 +17,10 @@ from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import to_json
 from tests.golden_harness import (
     GOLDEN,
-    SNAPSHOT,
     TODO,
     Fixture,
     fixtures,
     manifest,
-    unpack_snapshot,
 )
 
 REPO = GOLDEN.parent.parent
@@ -83,13 +80,6 @@ def test_expectation_is_well_formed(fixture: Fixture) -> None:
         return
     word = json_format.ParseDict(expected, pb.Word())
     assert word.lemma == fixture.title
-
-
-@pytest.fixture(scope="session")
-def golden_store(tmp_path_factory: pytest.TempPathFactory) -> Iterator[Path]:
-    if not SNAPSHOT.exists():
-        pytest.skip("needs the golden store snapshot, committed at PLAN.md M4")
-    yield unpack_snapshot(tmp_path_factory.mktemp("golden"))
 
 
 @pytest.mark.parametrize("fixture", FIXTURES, ids=IDS)

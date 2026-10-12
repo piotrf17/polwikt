@@ -5,6 +5,7 @@ from __future__ import annotations
 import logging
 import os
 import tempfile
+from contextlib import ExitStack
 from pathlib import Path
 from typing import NoReturn
 
@@ -16,7 +17,9 @@ from polwikt.dump.fetch import FetchError, sha1_of
 from polwikt.dump.fetch import fetch as fetch_dump
 from polwikt.dump.scan import ScanError
 from polwikt.dump.scan import scan as scan_dump
-from polwikt.dump.store import read_page
+from polwikt.dump.store import read_page, unpack_store
+from polwikt.expand.run import expand_text
+from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.page import extract_page
 from polwikt.parse.sections import language_section
 from polwikt.parse.tree import format_tree
@@ -193,13 +196,27 @@ def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
     click.echo(f"=== {title}  ({origin})")
     click.echo(f"--- raw wikitext{'' if full else f' ({language} section)'} ---")
     click.echo(section.rstrip("\n"))
-    # Expansion needs the M4 layer (Wikidata stubs, existence via all_titles); until
-    # then the tree is of the unexpanded text, which is also what R4.2.1 retains.
-    wtp = Wtp(db_path=store, quiet=True)
-    try:
+    with ExitStack() as stack:
+        snapshot = cfg.root / "tests" / "golden" / "store.sqlite.zst"
+        if store is None and snapshot.exists():  # --golden: expand from the snapshot
+            tmp = Path(stack.enter_context(tempfile.TemporaryDirectory()))
+            store = unpack_store(snapshot, tmp)
+        wtp: Wtp = PolwiktWtp(store) if store is not None else Wtp(quiet=True)
+        stack.callback(wtp.close_db_conn)
         wtp.start_page(title)
+        # The unexpanded tree is what R4.2.1 retains: template calls as nodes.
         click.echo("--- node tree (unexpanded) ---")
         click.echo(format_tree(wtp.parse(section)))
+        click.echo("--- expanded wikitext ---")
+        if isinstance(wtp, PolwiktWtp):
+            result = expand_text(wtp, section)
+            click.echo(result.text.rstrip("\n"))
+            for error in result.errors:
+                click.echo(f"!! {error}")
+            if wtp.stats:
+                click.echo(f"(counted: {dict(sorted(wtp.stats.items()))})")
+        else:
+            click.echo("(no golden snapshot: run tools/golden.py snapshot)")
         click.echo("--- proto ---")
         try:
             word = extract_page(wtp, title, text)
@@ -207,8 +224,6 @@ def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
             click.echo(f"({e})")
         else:
             click.echo(to_json(word, indent=1) if word is not None else "(no record)")
-    finally:
-        wtp.close_db_conn()
 
 
 @cli.command(name="stats-diff")

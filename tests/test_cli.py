@@ -72,6 +72,8 @@ def test_inspect_golden_shows_wikitext_and_tree() -> None:  # R8.5
     assert "{{inflection of|pl|mama||gen|s|;|nom//acc//voc|p}}" in result.output
     assert "LEVEL2 Polish" in result.output
     assert "TEMPLATE inflection of | pl | mieć" in result.output
+    assert "--- expanded wikitext ---" in result.output  # from the golden snapshot
+    assert 'class="headword-line"' in result.output
     assert "PLAN.md M5" in result.output  # extraction is a visible TODO, not silence
 
 

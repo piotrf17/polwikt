@@ -1,10 +1,21 @@
-"""Slices one language's L2 section out of a page's raw wikitext (R3.2, R5.2)."""
+"""Finds language headings and slices one language's L2 section out of a page (R3.2)."""
 
 from __future__ import annotations
 
 import re
 
-from polwikt.dump.scan import language_heading_re
+
+def language_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
+    """An L2 heading line for any of `languages`, tolerating inner spaces (R3.2)."""
+    names = "|".join(re.escape(lang) for lang in languages)
+    return re.compile(rf"^==[ \t]*(?:{names})[ \t]*==[ \t]*$", re.MULTILINE)
+
+
+def any_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
+    """A heading line of any level naming one of `languages`: near-miss detection."""
+    names = "|".join(re.escape(lang) for lang in languages)
+    return re.compile(rf"^=+[ \t]*(?:{names})[ \t]*=+.*$", re.MULTILINE)
+
 
 _ANY_L2 = re.compile(r"^==[^=].*?[^=]==[ \t]*$", re.MULTILINE)
 

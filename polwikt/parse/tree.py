@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from wikitextprocessor import WikiNode
+from collections.abc import Iterator
+
+from wikitextprocessor import NodeKind, WikiNode
 
 _MAX_TEXT = 70
 
@@ -46,3 +48,22 @@ def _flatten(arg: object) -> str:
 def _clip(text: str) -> str:
     text = text.replace("\n", "⏎")
     return text if len(text) <= _MAX_TEXT else text[: _MAX_TEXT - 1] + "…"
+
+
+def iter_templates(node: WikiNode | str) -> Iterator[WikiNode]:
+    """Every TEMPLATE node under `node`, including those nested in arguments."""
+    if isinstance(node, str):
+        return
+    if node.kind == NodeKind.TEMPLATE:
+        yield node
+    for arg in node.largs:
+        for part in arg:
+            if isinstance(part, WikiNode):
+                yield from iter_templates(part)
+    for child in node.children:
+        yield from iter_templates(child)
+
+
+def template_name(node: WikiNode) -> str:
+    """The as-written name of a TEMPLATE node (`lb`, not the canonical `label`)."""
+    return "".join(p for p in node.largs[0] if isinstance(p, str)).strip()

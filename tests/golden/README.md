@@ -9,13 +9,17 @@ produce for each. Tests run against these and never need a dump.
 | `pages/<slug>.wiki` | the page's full raw wikitext, every language, verbatim | `make golden-pull` |
 | `manifest.json` | dump pin, page/revision ids and sha1 of each fixture | `make golden-pull` |
 | `expected/<slug>.json` | the page's P3 `Word` as indented JSON; `null` for no record; `"TODO"` until blessed | `pytest --update-golden` |
-| `store.sqlite.zst` | the fixtures plus exactly the Template/Module pages their expansion touched | `tools/golden.py snapshot` (M4) |
+| `store.sqlite.zst` | the fixtures plus exactly the pages and titles their expansion touched, and the lookups it made | `make golden-snapshot` |
 
 The slug is the title with spaces as underscores (`dzień_dobry`).
 
 - **Adding a page:** add it to `pages.toml`, run `make golden-pull` (needs
   `data/pages.sqlite` from `polwikt scan`), and commit the new `.wiki`, the manifest and
-  its `"TODO"` expectation. Then rebuild the snapshot (from M4).
+  its `"TODO"` expectation. Then `make golden-snapshot` and commit the new
+  `store.sqlite.zst`.
+- **A stale snapshot fails loudly:** opened on it, `PolwiktWtp` lists any page lookup
+  the snapshot did not record in `stale_lookups`, and the expansion tests assert it is
+  empty. Changing what extraction expands can therefore require a new snapshot too.
 - **Blessing:** `uv run pytest tests/test_golden.py --update-golden` rewrites every
   expectation from the current extractor, including the `"TODO"` ones. Review the
   diff; it is the test.
@@ -24,4 +28,5 @@ The slug is the title with spaces as underscores (`dzień_dobry`).
 - Folding (`kotów`, `mamy` produce no record) is P4's job. The per-page expectation
   is still the P3 `Word` with its `form_of` senses; the corpus-level check over the
   whole set arrives with P4 (M11).
-- `inspect --golden <title>` shows a fixture's wikitext and parse tree without a dump.
+- `inspect --golden <title>` shows a fixture's wikitext, parse tree and expansion
+  without a dump.
