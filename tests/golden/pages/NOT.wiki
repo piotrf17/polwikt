@@ -1,0 +1,75 @@
+{{also|Appendix:Variations of "not"}}
+==English==
+
+===Noun===
+{{en-noun}}
+
+# {{lb|en|mathematics|logic}} A [[unary]] [[operation]] on [[logical]] [[value]]s that changes [[true]] to [[false]], and false to true.
+#* {{quote-journal|en|author=William Bahn|title=Boolean Algebra Laws—Delving Into Boolean Identities|magazine=All About Circuits|url=https://www.allaboutcircuits.com/technical-articles/boolean-identities/|date=2022-08-04|passage=Notice that the '''NOT''' symbol is simply a BUF symbol followed by a bubble. The bubble represents logical inversion and is the actual '''NOT''' gate. Anytime you see a bubble attached to a gate pin, you can detach it from the pin and insert a separate '''NOT''' gate in its place without affecting the resulting logic.}}
+
+====Usage notes====
+* The symbols ¬, !, ~, ˈ and [[overbar]] (as in Ā for "not A") have all been used for the NOT operator in various contexts.
+* Boolean variables and states ({{l|en|AND}}, {{l|en|OR}}, {{l|en|NOT}}, {{l|en|TRUE}}, {{l|en|FALSE}} etc.) are commonly written in all uppercase in order to distinguish them from the ordinary uses of the words.
+
+{| class="wikitable" style="clear:right; float:right; width:12em"
+|+ NOT truth table
+|-
+! Input || Output
+|-
+| 0 || 1
+|-
+| 1 || 0
+|}
+
+====Synonyms====
+* {{l|en|¬}}
+* {{l|en|!}}
+* {{l|en|~}}
+* {{l|en|ˈ}}
+
+====Derived terms====
+* {{l|en|NAND}}
+* {{l|en|NOR}}
+* {{l|en|XNOR}}
+
+====Translations====
+{{trans-top|NOT}}
+* French: {{t+|fr|NON|m}}
+* German: {{t|de|Nicht}}
+* Japanese: {{t|ja|NOT|tr=notto}}, {{t+|ja|否定|tr=hitei}}
+{{trans-bottom}}
+
+===See also===
+* {{pedia|negation}}
+
+===Anagrams===
+* {{anagrams|en|a=not|-ton|NTO|ONT|Ont|Ont.|TNO|TON|on't|ton}}
+
+==Polish==
+
+===Etymology===
+{{acronym|pl|[[naczelny|Naczelna]] [[organizacja|Organizacja]] [[techniczny|Techniczna]]|t=Chief Technical Organization}}.
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-NOT.wav}}
+
+===Proper noun===
+{{pl-proper noun|n|indecl=1}}
+
+# {{acronym of|pl|w:pl:Naczelna Organizacja Techniczna}}: Polish Federation of Engineering Associations
+
+====Declension====
+Indeclinable, or:
+{{pl-decl-noun-sing|tantum=s
+|noms=NOT
+|gens=NOTu
+|dats=NOTowi
+|accs=NOT
+|inss=NOTem
+|locs=Nocie
+|vocs=Nocie
+}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

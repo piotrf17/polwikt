@@ -1,0 +1,219 @@
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/pɔˈkwa.dat͡ɕ/"
+    },
+    {
+     "ipa": "[pɔˈkwa.dat͡ɕ]",
+     "labels": [
+      "Eastern Kraków"
+     ]
+    },
+    {
+     "ipa": "[pɔˈkwa.dat͡ɕ]",
+     "labels": [
+      "Lasovia"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to bend, to slope",
+     "keywords": [
+      {
+       "text": "bend"
+      },
+      {
+       "text": "slope"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "pochylać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to place hope (to trust or believe that someone will do something)",
+     "government": [
+      {
+       "description": "in whom",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "place"
+      },
+      {
+       "text": "hope"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
+    },
+    {
+     "gloss": "to perform initial plowing or tilling",
+     "keywords": [
+      {
+       "text": "plow"
+      },
+      {
+       "text": "till"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "podorywać",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "subsenses": [
+      {
+       "gloss": "to shallowly plough fallow or stubble",
+       "keywords": [
+        {
+         "text": "shallowly"
+        },
+        {
+         "text": "plough"
+        },
+        {
+         "text": "fallow"
+        },
+        {
+         "text": "stubble"
+        }
+       ],
+       "labels": [
+        "transitive"
+       ],
+       "regions": [
+        "Eastern Kraków"
+       ],
+       "topics": [
+        "agriculture"
+       ]
+      }
+     ],
+     "topics": [
+      "agriculture"
+     ]
+    },
+    {
+     "gloss": "to lay to receive plagues",
+     "keywords": [
+      {
+       "text": "lay"
+      },
+      {
+       "text": "receive"
+      },
+      {
+       "text": "plague"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "regions": [
+      "Lasovia"
+     ]
+    },
+    {
+     "gloss": "to castrate an animal",
+     "keywords": [
+      {
+       "text": "castrate"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "obsolete"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "kłaść się",
+      "raw_tags": [
+       "iterative"
+      ],
+      "type": "TYPE_DERIVATION"
+     },
+     "gloss": "iterative of kłaść się (“to lie down”)",
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "polegiwać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to bend over, to lean",
+     "keywords": [
+      {
+       "text": "bend over"
+      },
+      {
+       "text": "lean"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "kłaść się",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "przechylać się",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "przewracać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to have sex",
+     "keywords": [
+      {
+       "text": "have sex"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "dialectal",
+      "colloquial"
+     ]
+    }
+   ],
+   "topics": [
+    "Sex"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish pokładać. By surface analysis, po- + kładać."
+  }
+ ],
+ "lemma": "pokładać"
+}

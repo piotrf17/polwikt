@@ -1,0 +1,38 @@
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈspɔ.d͡ʑɛɲ/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "spodnie",
+      "tag_sets": [
+       {
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "singular of spodnie",
+     "labels": [
+      "humorous"
+     ]
+    }
+   ],
+   "topics": [
+    "Clothing"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Back-formation from spodnie."
+  }
+ ],
+ "lemma": "spodzień"
+}

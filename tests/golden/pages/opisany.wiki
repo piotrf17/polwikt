@@ -1,0 +1,18 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-opisany.wav}}
+
+===Participle===
+{{pl-participle|pass}}
+
+# {{participle of|pl|opisać||pasv|adj|part}}
+
+====Declension====
+{{pl-adecl}}
+
+====Derived terms====
+{{col|pl|nieopisany}}
+
+===Further reading===
+* {{R:pl:PWN}}

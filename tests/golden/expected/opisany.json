@@ -1,0 +1,30 @@
+{
+ "entries": [
+  {
+   "pos": "POS_PARTICIPLE",
+   "pronunciations": [
+    {
+     "ipa": "/ɔ.piˈsa.nɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "opisać",
+      "tag_sets": [
+       {
+        "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+       }
+      ],
+      "type": "TYPE_DERIVATION"
+     },
+     "gloss": "passive adjectival participle participle of opisać"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "opisany"
+}

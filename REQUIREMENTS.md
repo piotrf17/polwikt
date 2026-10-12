@@ -462,10 +462,13 @@ English-Wiktionary Polish sections follow this nesting:
   canonical tags map onto `GrammaticalTags` via `data/tags.toml`; any other tag goes
   to `FormOf.raw_tags`). The template → `FormOf` type map is `data/form_of.toml`:
   inflection, alternative form, synonym, abbreviation, or **derivation**
-  (`{{diminutive of}}`, `{{verbal noun of}}`, `{{female equivalent of}}`) — and
-  and these entries are then
-  **folded into the lemma and not emitted** (R3.13a). Parsing them accurately still
-  matters: they are the cross-check on, and the supplement to, the Lua-generated
+  (`{{diminutive of}}`, `{{verbal noun of}}`, `{{female equivalent of}}`,
+  `{{participle of}}` — participles stay records, invariant 7). The specific kind of a
+  rarer template (`{{misspelling of}}`, `{{archaic form of}}`, `{{iterative of}}`, …)
+  is a fixed raw tag, so it is never lost; a template's own appended tags (`postinfl`:
+  `{{participle of}}` adds `part`) are config too. Only **inflection** entries are
+  then **folded into the lemma and not emitted** (R3.13a). Parsing them accurately
+  still matters: they are the cross-check on, and the supplement to, the Lua-generated
   paradigms.
 - **R6.6a — Middle Polish is dropped at extraction.** en.wiktionary records Middle Polish
   inside modern Polish entries as a label, not as its own language section, so excluding

@@ -1,0 +1,63 @@
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈxuj/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "chuj",
+      "raw_tags": [
+       "misspelling"
+      ],
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "misspelling of chuj",
+     "labels": [
+      "vulgar"
+     ]
+    }
+   ],
+   "topics": [
+    "Genitalia",
+    "People"
+   ]
+  },
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈxuj/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "chuj",
+      "raw_tags": [
+       "misspelling"
+      ],
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "misspelling of chuj",
+     "labels": [
+      "offensive",
+      "vulgar"
+     ]
+    }
+   ],
+   "topics": [
+    "Genitalia",
+    "People"
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "huj"
+}

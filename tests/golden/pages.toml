@@ -222,3 +222,26 @@ why = "entirely Middle Polish (senses, alt form, mp=): no record"
 [[page]]
 title = "barzo"
 why = "every sense labelled Middle Polish, the first also with modern dialects: no record, since a Middle Polish label drops the sense whatever else it carries"
+
+# --- Rarer form-of templates (R6.6) --------------------------------------------------
+[[page]]
+title = "huj"
+why = "{{misspelling of}}: an alternative form whose kind stays in raw_tags"
+[[page]]
+title = "opisany"
+why = "{{participle of|pl|opisać||pasv|adj}}: the template appends `part` (postinfl)"
+[[page]]
+title = "pokładać"
+why = "{{iterative of}} with a linked multi-word lemma, and a Middle Polish one dropped"
+[[page]]
+title = "kurie"
+why = "{{noun form of}}: inflection with tags"
+[[page]]
+title = "spodzień"
+why = "{{singular of}} a plurale tantum: a fixed number tag"
+[[page]]
+title = "NOT"
+why = "{{acronym of}} a Wikipedia target (w:pl:…)"
+[[page]]
+title = "straż ogniowa"
+why = "{{former name of}} with an inline <t:…> modifier"

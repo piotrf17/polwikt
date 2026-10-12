@@ -67,6 +67,7 @@ _KEYED = re.compile(r"^\w+:")  # <q:stylized>, <l:Kraków>: modifiers, not the s
 _OBJ_CONNECTORS = frozenset({"or", "and", "_", ",", ";"})
 # Inline modifiers on a term: "kocur<q:colloquial><t:tomcat>".
 _MODIFIER = re.compile(r"<(\w+):([^<>]*)>")
+_WIKIPEDIA_PREFIX = re.compile(r"^w:(?:[a-z-]+:)?")
 _QUOTE_TEXT = ("passage", "text")
 _QUOTE_TRANSLATION = ("translation", "t")
 _RQ_TEXT = re.compile(r"textparam\s*=\s*([^|}\s]+)")
@@ -81,6 +82,7 @@ class FormOfRule:
     tags: tuple[str, ...]
     raw: tuple[str, ...]
     raw_from: str | None
+    append: tuple[str, ...] = ()
 
 
 @cache
@@ -94,6 +96,7 @@ def form_of_rules() -> dict[str, FormOfRule]:
             tags=tuple(rule.get("tags", ())),
             raw=tuple(rule.get("raw", ())),
             raw_from=rule.get("raw_from"),
+            append=tuple(rule.get("append", ())),
         )
         for name, rule in tomllib.loads(text)["templates"].items()
     }
@@ -283,6 +286,7 @@ class SenseParser:
 
     def _form_of(self, sense: pb.Sense, rule: FormOfRule, args: dict[str, str]) -> None:
         lemma = plain_text(split_modifiers(args.get(rule.lemma, ""))[0])  # bać<id:…>
+        lemma = _WIKIPEDIA_PREFIX.sub("", lemma)  # {{acronym of|pl|w:pl:Naczelna …}}
         if not lemma:
             self.stats["form_of.no_lemma"] += 1
             return
@@ -292,7 +296,7 @@ class SenseParser:
             raw.append(desc)
         if rule.tags_from is not None:
             values = positional(args)[rule.tags_from - 1 :]
-            parsed = self.index.tags.parse(values)
+            parsed = self.index.tags.parse(values, append=rule.append)
             form.tag_sets.extend(parsed.sets)
             raw.extend(parsed.raw)
         if rule.tags:

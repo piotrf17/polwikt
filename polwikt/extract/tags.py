@@ -84,8 +84,10 @@ class TagIndex:
                 out.append(names)
         return out
 
-    def parse(self, args: list[str]) -> TagSets:
-        """The tag arguments of {{inflection of}} (after the lemma) as tag sets."""
+    def parse(self, args: list[str], append: tuple[str, ...] = ()) -> TagSets:
+        """The tag arguments of {{inflection of}} (after the lemma) as tag sets, each
+        with `append` added unless it already has it (Wiktionary's `postinfl`)."""
+        appended = [t for arg in append for t in self.canonical(arg)]
         out = TagSets()
         groups: list[list[str]] = [[]]
         for arg in args:
@@ -97,6 +99,7 @@ class TagIndex:
             choices = [self._alternatives(arg) for arg in group]
             for combo in itertools.product(*choices) if choices else []:
                 tags = [t for alternative in combo for t in alternative]
+                tags += [t for t in appended if t not in tags]
                 grammatical, raw = to_grammatical(tags)
                 out.sets.append(grammatical)
                 out.raw.extend(t for t in raw if t not in out.raw)

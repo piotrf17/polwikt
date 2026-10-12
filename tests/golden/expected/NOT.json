@@ -1,0 +1,30 @@
+{
+ "entries": [
+  {
+   "pos": "POS_PROPER_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈnɔt/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "Naczelna Organizacja Techniczna",
+      "raw_tags": [
+       "acronym"
+      ],
+      "type": "TYPE_ABBREVIATION"
+     },
+     "gloss": "acronym of w:pl:Naczelna Organizacja Techniczna: Polish Federation of Engineering Associations"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Acronym of Naczelna Organizacja Techniczna (“Chief Technical Organization”)."
+  }
+ ],
+ "lemma": "NOT"
+}

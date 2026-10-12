@@ -1,0 +1,26 @@
+{{also|straż ogniową}}
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{lit|fire guard}}.
+
+===Pronunciation===
+{{pl-pr}}
+
+===Noun===
+{{pl-noun|f|head=[[straż]] [[ogniowy|ogniowa]]}}
+
+# {{lb|pl|firefighting}} {{former name of|pl|straż pożarna<t:fire brigade>}}
+
+====Declension====
+{{pl-decl-phrase|f|adj|tantum=s}}
+
+====Related terms====
+{{col|pl|title=adjectives|strażacki}}
+{{col|pl|title=nouns|strażak}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+{{C|pl|Collectives|People}}

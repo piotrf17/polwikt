@@ -1,0 +1,42 @@
+{{also|Kurie}}
+==Lithuanian==
+
+===Pronunciation===
+{{lt-pr|kuriẽ}}
+
+===Pronoun===
+{{head|lt|pronoun form|head=kuriẽ}}
+
+# {{infl of|lt|kuris||nom|m|pl}}
+
+==Norwegian Bokmål==
+
+===Etymology===
+From {{bor|nb|la|curia}}.
+
+===Noun===
+{{nb-noun-m1}}
+
+# {{lb|nb|Catholicism}} [[Curia]]
+# {{lb|nb|historical}} [[curia]]
+
+==Norwegian Nynorsk==
+
+===Etymology===
+From {{bor|nn|la|curia}}.
+
+===Noun===
+{{nn-noun-m1}}
+
+# {{lb|nn|Catholicism}} [[Curia]]
+# {{lb|nn|historical}} [[curia]]
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Noun===
+{{head|pl|noun form|g=f}}
+
+# {{noun form of|pl|kuria||nom|pl}}

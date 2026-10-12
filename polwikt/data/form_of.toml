@@ -3,6 +3,8 @@
 # records of their own that keep the link. `lemma` is the argument holding the target;
 # `tags_from` the first tag argument (R6.6's `;` and `//`); `tags` adds fixed tags and
 # `raw` fixed raw tags ("diminutive"), so the kind of link is never lost.
+# `append` is added to every tag set: Wiktionary's `postinfl` ({{participle of}} adds
+# `part` itself, so pages write only `pasv|adj`).
 # Arguments as written on the page: "1" is the language for most, not for pl-pre-*.
 
 [templates."inflection of"]
@@ -17,6 +19,18 @@ tags = ["comparative"]
 type = "inflection"
 lemma = "2"
 tags = ["superlative"]
+[templates."plural of"]
+type = "inflection"
+lemma = "2"
+tags = ["plural"]
+[templates."singular of"]
+type = "inflection"
+lemma = "2"
+tags = ["singular"]
+[templates."noun form of"]
+type = "inflection"
+lemma = "2"
+tags_from = 4
 
 [templates."alternative form of"]
 type = "alternative_form"
@@ -49,9 +63,62 @@ type = "alternative_form"
 lemma = "1"
 raw = ["pre-1816 spelling"]
 
+[templates."misspelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["misspelling"]
+[templates."deliberate misspelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["deliberate misspelling"]
+[templates."archaic form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["archaic"]
+[templates."dated form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["dated"]
+[templates."rare form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["rare"]
+[templates."uncommon form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["uncommon"]
+[templates."rare spelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["rare"]
+[templates."uncommon spelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["uncommon"]
+[templates."obsolete spelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["obsolete"]
+[templates."pronunciation spelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["pronunciation spelling"]
+[templates."euphemistic form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["euphemistic"]
+[templates."minced oath of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["minced oath"]
+
 [templates."synonym of"]
 type = "synonym"
 lemma = "2"
+[templates."former name of"]
+type = "synonym"
+lemma = "2"
+raw = ["former name"]
 
 [templates."abbreviation of"]
 type = "abbreviation"
@@ -72,6 +139,10 @@ raw = ["ellipsis"]
 type = "abbreviation"
 lemma = "2"
 raw = ["contraction"]
+[templates."acronym of"]
+type = "abbreviation"
+lemma = "2"
+raw = ["acronym"]
 
 [templates."verbal noun of"]
 type = "derivation"
@@ -97,6 +168,28 @@ raw = ["frequentative"]
 type = "derivation"
 lemma = "2"
 raw = ["relational adjective"]
+[templates."iterative of"]
+type = "derivation"
+lemma = "2"
+raw = ["iterative"]
+[templates."feminine of"]
+type = "derivation"
+lemma = "2"
+raw = ["female equivalent"]
+[templates."neuter equivalent of"]
+type = "derivation"
+lemma = "2"
+raw = ["neuter equivalent"]
+[templates."endearing form of"]
+type = "derivation"
+lemma = "2"
+raw = ["endearing"]
+# A participle is a record of its own (invariant 7), not a folding inflection.
+[templates."participle of"]
+type = "derivation"
+lemma = "2"
+tags_from = 4
+append = ["part"]
 # {{form of|pl|emphatic form|niech}}: the description is the raw tag.
 [templates."form of"]
 type = "derivation"

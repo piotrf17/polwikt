@@ -1,0 +1,37 @@
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈstraʂ ɔɡˈɲɔ.va/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "straż pożarna",
+      "raw_tags": [
+       "former name"
+      ],
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "former name of straż pożarna (“fire brigade”)",
+     "topics": [
+      "firefighting"
+     ]
+    }
+   ],
+   "topics": [
+    "Collectives",
+    "People"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Literally, “fire guard”."
+  }
+ ],
+ "lemma": "straż ogniowa"
+}

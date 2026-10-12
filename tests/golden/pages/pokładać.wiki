@@ -1,0 +1,109 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:af|po-|kładać|text=+|tree=1|etydate=fifteenth century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# to [[put]] {{gl|to place physically, to set}}
+#* {{RQ:zlw-opl:Naw|30|Thy szyna bozego pyelyvchamy povyyala, thysz gy w gyaslkach '''pokladala'''|Ty Syna Bożego pieluchami powijała, tyś ji w jasłkach '''pokładała'''|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland|Sieradz}} to [[place]] [[hope]]; to [[trust]]
+#* {{RQ:zlw-opl:MW|80a|Thacz Anna szwyą[ta] szklonnoscz myala, gdy poczyechą szwoyą w thobye, panye, '''pokladala'''|Tęć Anna świę[ta] skłonność miała, gdy pociechę swoję w tobie, Panie, '''pokładała'''|-}}
+# {{lb|zlw-opl|attested in|Łęczyca}} to [[present]], to [[show]]
+#* {{RQ:zlw-opl:R|XXII|16|1466|*Tey dwoge skody '''pokladam''' zaloblyvye hec duo damna queror|Tej dwoje szkody '''pokładam''' żałobliwie hec duo damna queror|-}}
+# to [[cite]], to [[quote]]
+#* {{RQ:zlw-opl:R|XXIV|81|c. 1420|Podobenszthwo '''pocladam''' exemplum pono|Podobieństwo '''pokładam''' exemplum pono|-}}
+# to [[inform]]; to [[describe]]
+#* {{RQ:zlw-opl:Rozm|242|Iozephus '''poklada''', yze Herodyada byla dzyewka Arystobolova (Iosephus tradit Herodiadem fuisse filiam Aristoboli)|Jozefus '''pokłada''', iże Herodyjada była dziewka Arystobolowa (Iosephus tradit Herodiadem fuisse filiam Aristoboli)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} to [[spread]], to [[scatter]] {{gl|to carry different ways}}
+#* {{RQ:zlw-opl:LubPodk|88|1460|Ad predictam feriam quintam... transponimus et transferimus al. przekladamy y '''pokladamy'''|Ad predictam feriam quintam... transponimus et transferimus al. przekładamy i '''pokładamy'''|-}}
+# {{lb|zlw-opl|attested in|Masovia}} to [[contain]]; to [[include]]
+#* {{RQ:zlw-opl:Sul|14|O prawye, w kthorem ktho odpowyedzyecz yma sprawnye. '''Poclada''' thesz dwa czlonky polskego prawa|O prawie, w ktorem kto odpowiedzieć ima sprawnie. '''Pokłada''' też dwa członki polskiego prawa|-}}
+# {{lb|zlw-opl|attested in|Łęczyca}} to [[direct]], to [[aim]]
+#* {{RQ:zlw-opl:R|XXII|14|1466|Ira... dirigit arma rospuscza, '''poklada''', wswiyą bron|Ira... dirigit arma rozpuszcza, '''pokłada''' wzwija broń|-}}
+# to [[perform]] a [[wedding]] [[ceremony]]
+#* {{RQ:zlw-opl:StPPP|II|4038|1471|Contr[axit] matrimonium, al. bral slub, sed n[on erat] ei coniunctus carnaliter al. nye '''po[kla]dal sze'''|Contr[axit] matrimonium, al. brał ślub, sed n[on erat] ei coniunctus carnaliter al. nie '''po[kła]dał sie'''|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjective|pokładający}}
+{{col|zlw-opl|title=nouns|pokład|pokładanie|pokładnica}}
+{{zlw-opl-derived verbs|spokładać/-}}
+
+====Related terms====
+{{zlw-opl-derived verbs|-/kłaść|-/kładać}}
+
+====Descendants====
+* {{desc|pl|pokładać}}
+* {{desc|szl|pokłŏdać}}
+
+===References===
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:pokładać|:af<surf>|po-|kładać|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-pokładać.wav<text:#>;LL-Q809 (pol)-Olaf-pokładać się.wav<text:~>|mp=#|ekr=#|las=#}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|transitive}} to [[bend]], to [[slope]]
+#: {{syn|pl|pochylać}}
+# {{lb|pl|transitive}} to [[place]] [[hope]] {{gl|to trust or believe that someone will do something}} {{+obj|pl|:w(loc)<in whom>}}
+# {{lb|pl|transitive|agriculture}} to perform initial [[plow]]ing or [[till]]ing
+#: {{syn|pl|podorywać}}
+## {{lb|pl|transitive|Eastern Kraków|agriculture}} to [[shallowly]] [[plough]] [[fallow]] or [[stubble]]
+# {{lb|pl|transitive|Lasovia}} to [[lay]] to [[receive]] [[plague]]s
+# {{lb|pl|transitive|obsolete}} to [[castrate]] an animal
+# {{lb|pl|transitive|Middle Polish}} {{iterative of|pl|kłaść|t=to [[put]], to [[place]]}}
+# {{lb|pl|transitive|Middle Polish}} to [[inform]], to [[tell]]
+# {{lb|pl|transitive|Middle Polish}} to [[judge]], to [[assess]]
+#: {{syn|pl|oceniać}}
+# {{lb|pl|transitive|Middle Polish}}  {{ng|used as a [[light verb]]}}
+# {{lb|pl|transitive|Middle Polish}} {{def-uncertain|pl|nohypothesis=1}}
+#* {{RQ:pl:Mącz|311d, 309c|Repono, '''Pokłádam'''/ poliecam/ chowam/ odkłádam.|Repono, '''Pokładam'''/ polecam/ chowam/ odkładam.|-}}
+# {{lb|pl|reflexive-się}} {{iterative of|pl|[[kłaść]] [[się]]|t=to [[lie down]]}}
+#: {{syn|pl|polegiwać}}
+# {{lb|pl|reflexive-się}} to [[bend over]], to [[lean]]
+#: {{syn|pl|[[kłaść]] [[się]]|[[przechylać]] [[się]]|[[przewracać]] [[się]]}}
+# {{lb|pl|reflexive-się|dialectal|colloquial}} to [[have sex]]
+#: {{syn|pl|Thesaurus:uprawiać seks}}
+# {{lb|pl|reflexive-się|Middle Polish|of plants}} to be [[plant]]ed
+# {{lb|pl|reflexive-się|Middle Polish}} to [[pitch camp]]
+#: {{syn|pl|rozbijać obóz}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[judge]] oneself, to [[assess]] oneself
+# {{lb|pl|reflexive-się|Middle Polish|of words}} to [[sound]], to have a [[sound]]
+
+====Conjugation====
+{{pl-conj-ai-am,asz|pokłada|pp}}
+
+====Derived terms====
+{{col|pl|title=nouns|pokład|pokładacz|pokładacka|pokładanka|pokładka|pokładnica|pokładnik|pokładziny}}
+
+====Related terms====
+{{col|pl|title=adjectives|pokładny|pokładowy|pokładzinny|pokładzinowy}}
+{{col|pl|title=nouns|pokładełko|pokładne|pokładność|pokładowiec|pokładówka}}
+{{pl-derived verbs|-/kłaść|-/kładać|pokłaść/-|-/pokładować}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|87020}}
+* {{R:pl:SXVI|pokładać się|87020}}
+* {{R:pl:SXVII|POKŁADAĆ|11777|SPas|18.12.2008}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||497|4}}
+* {{R:pl:NFJP}}
+* {{R:pl:Pawłowicz:1893||308}}
+* {{R:pl:Kolberg:1865||264}}
+
+{{C|pl|Sex}}

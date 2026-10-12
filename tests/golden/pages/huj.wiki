@@ -1,0 +1,69 @@
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==Albanian==
+
+===Alternative forms===
+* {{l|sq|huq}}
+
+===Etymology===
+{{bor+|sq|ota|خوی|tr=huy}}, from {{der|sq|fa-cls|خو|tr=xō}}.<ref>''Fjalori i Mehmet Elezit''</ref><ref>{{R:sq:Bufli-Rocchi|page=205}}</ref>
+
+===Noun===
+{{head|sq|noun}}
+
+# [[vice]], [[flaw]], [[bad]] [[habit]]
+
+===References===
+{{reflist}}
+
+==Esperanto==
+
+===Etymology===
+{{ety|eo|:der|gem:-|text=+|tree=1}} Compare {{cog|cs|huj}} and {{cog|pl|huj}}.
+
+===Pronunciation===
+{{eo-pr}}
+
+===Interjection===
+{{eo-intj}}
+
+# {{ng|vocal expression of surprise, fright, sudden pain}}
+#* {{quote-book|eo|title=Hans-fuŝulo|passage='''Huj'''! kiel rapide li rajdis.|year=1964|trans-title=Clumsy Hans|translation='''Oh'''! how fast he rode.|url=http://www.chifonoj.dk/ib_klods_hans.htm|archiveurl=https://web.archive.org/web/20070803233247/http://www.chifonoj.dk/ib_klods_hans.htm|archivedate=2007-08-03|translator=Schleicher, Ib|last1=Andersen|first1=Hans Christian}}
+#* {{quote-book|eo|title=La Eksterordinara Lando Oz|passage="La pilolo venenis min!" li anhelis; "O-o! O-o-o-o-o! '''Huj'''! Murdo! Fajro! O-o-o!"|year=1996|trans-title=The Marvelous Land of Oz|chapter=Ĉapitro 19: La Famaj Dezirpiloloj de D{{sqbrace|okto}}-ro Nikidiko|trans-chapter=Chapter 19: D{{sqbrace|octo}}r. Nikidik's Famous Wishing Pills|translation="The pill has poisoned me!" he gasped; "O—h! O-o-o-o-o! '''Ouch'''! Murder! Fire! O-o-h!"|publisher=Bookleaf Publishing|url=http://www.esperanto.org/esperante/literatur/Baum/lando/cxapitro19.html|archiveurl=https://web.archive.org/web/20161209165256/http://www.esperanto.org/esperante/literatur/Baum/lando/cxapitro19.html|archivedate=2016-12-09|translator=Broadribb, Donald|last1=Baum|first1=Lyman Frank}}
+
+===References===
+* {{R:eo:ReVo}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=Pl-huj.ogg|hh=chuj,Chuj}}
+
+===Noun===
+{{pl-noun|m-anml}}
+
+# {{lb|pl|vulgar}} {{misspelling of|pl|chuj}}
+
+====Declension====
+{{pl-decl-noun-m-anml}}
+
+===Noun===
+{{pl-noun|m-pr}}
+
+# {{lb|pl|offensive|vulgar}} {{misspelling of|pl|chuj}}
+
+====Declension====
+{{pl-decl-noun-m-pr|hu|j|huje|genp=hujów|accp=hujów}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+{{C|pl|Genitalia|People}}

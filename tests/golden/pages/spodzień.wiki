@@ -1,0 +1,20 @@
+==Polish==
+
+===Etymology===
+{{ety|pl|:bf|spodnie|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|jocular}} {{singular of|pl|spodnie}}
+
+====Declension====
+{{pl-decl-noun-m-in}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+
+{{C|pl|Clothing}}

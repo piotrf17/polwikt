@@ -136,7 +136,7 @@ def test_derivations_and_alternative_forms_are_typed(wtp: PolwiktWtp) -> None:
         ["diminutive"],
     )
     alt = first_sense(run(wtp, "# {{alt sp|pl|keczup}}\n")).form_of
-    assert (alt.type, alt.lemma) == (pb.FormOf.Type.TYPE_ALTERNATIVE_FORM, "keczup")
+    assert (alt.type, alt.lemma) == (T.TYPE_ALTERNATIVE_FORM, "keczup")
     vn = first_sense(run(wtp, "# {{verbal noun of|pl|robić}}\n")).form_of
     assert vn.tag_sets[0].verb_form == pb.VerbForm.VERB_FORM_VERBAL_NOUN
 
@@ -271,3 +271,35 @@ def test_chodzic_keeps_prose_qualifiers_whole(wtp: PolwiktWtp) -> None:
     for entry in iść.word.entries:
         for sense in entry.senses:
             assert "road transport" not in sense.topics
+
+
+T = pb.FormOf.Type
+
+
+@pytest.mark.parametrize(
+    ("title", "type_", "lemma", "raw_tags"),
+    [
+        ("huj", T.TYPE_ALTERNATIVE_FORM, "chuj", ["misspelling"]),
+        ("pokładać", T.TYPE_DERIVATION, "kłaść się", ["iterative"]),
+        ("NOT", T.TYPE_ABBREVIATION, "Naczelna Organizacja Techniczna", ["acronym"]),
+        ("straż ogniowa", T.TYPE_SYNONYM, "straż pożarna", ["former name"]),
+    ],
+)
+def test_rarer_form_of_templates(
+    wtp: PolwiktWtp, title: str, type_: int, lemma: str, raw_tags: list[str]
+) -> None:  # R6.6
+    result = golden(wtp, title)
+    assert result.word is not None
+    senses = [s for e in result.word.entries for s in e.senses]
+    form = next(s.form_of for s in senses if s.HasField("form_of"))
+    assert (form.type, form.lemma, list(form.raw_tags)) == (type_, lemma, raw_tags)
+
+
+def test_participle_of_appends_participle(wtp: PolwiktWtp) -> None:  # postinfl=part
+    for tags in ("pasv|adj", "pasv|adj|part"):
+        call = "{{participle of|pl|opisać||" + tags + "}}"
+        form = first_sense(run(wtp, f"# {call}\n")).form_of
+        assert (form.type, form.lemma) == (T.TYPE_DERIVATION, "opisać")
+        assert [t.verb_form for t in form.tag_sets] == [
+            pb.VerbForm.VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE
+        ]

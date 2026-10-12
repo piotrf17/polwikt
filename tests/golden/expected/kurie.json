@@ -1,0 +1,31 @@
+{
+ "entries": [
+  {
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈku.rjɛ/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "kuria",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_NOMINATIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "nominative plural of kuria"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "kurie"
+}
