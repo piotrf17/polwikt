@@ -206,13 +206,14 @@ shared page-level pronunciation is copied into each of its entries (R5.5).
   emitted on the sense.
 - Plain-text glosses with links flattened to display text (R7.6a).
 - **Middle Polish drop** framework: `drop_labels` config, sense → entry → page cascade,
-  per-label and per-kind counts (R6.6a–c). This milestone owns senses and `{{tlb}}`
+  per-label and per-kind counts (R6.6a–c), plus the co-labelled count and its
+  `dropped_colabelled.jsonl` title list (`barzo`). This milestone owns senses and `{{tlb}}`
   entries; M7, M9 and M10 plug their kinds (tables, `mp=`, alt forms) into the same
   counter.
 
 **Exit:** golden expectations filled for senses; `dobry`'s Middle Polish senses gone and
-counted; the all-Middle-Polish fixture yields no record; `stats.json` reports drop counts
-by label and kind.
+counted; the all-Middle-Polish fixtures (`kradźba`, `barzo`) yield no record; `stats.json` reports
+drop counts by label and kind, and `barzo`'s senses in the co-labelled count.
 
 ---
 

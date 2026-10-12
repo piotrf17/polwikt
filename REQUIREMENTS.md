@@ -449,7 +449,13 @@ English-Wiktionary Polish sections follow this nesting:
     excluded by R3.2.
   - **R6.6c** Everything dropped is **counted** in `stats.json` (senses, entries, pages,
     pronunciations, alternative forms, tables — by label and by kind).
-    Deleting content from live articles is only safe if we can see how much we deleted; an unexpected jump means the label matcher is over-firing.
+    Deleting content from live articles is only safe if we can see how much we deleted;
+    an unexpected jump means the label matcher is over-firing.
+    - Separately counted: **co-labelled senses**, dropped for Middle Polish while also
+      carrying another label (`barzo`: Middle Polish plus a dozen modern dialects), with
+      their titles in `dropped_colabelled.jsonl`. They are dropped on purpose (decision
+      8, confirmed 2026-10-12), but they are the modern usage the rule costs, so the
+      number is reported rather than buried in the total.
 - **R6.7 — Labels.** `{{lb|pl|…}}` / `{{tlb|pl|…}}` values and qualifiers (colloquial,
   dated, obsolete, vulgar, transitive, reflexive-się, …) are stored as **plain strings**
   in `labels` — Wiktionary's canonical label names, with aliases resolved through its own
