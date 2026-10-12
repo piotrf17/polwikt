@@ -268,7 +268,8 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     `{{superlative of}}`, …). An entry with even one substantive gloss is a lemma entry
     and is kept whole. Non-inflectional "of" templates — `{{syn of}}`, `{{alt form}}`,
     `{{alternative spelling of}}`, `{{dim of}}` — do **not** trigger folding: those
-    entries are records of their own, with the link kept as a `Relation`/`FormOf`.
+    entries are records of their own, with the link kept as a `FormOf` whose type
+    says what it is (`TYPE_DERIVATION` for `{{dim of}}`, `{{verbal noun of}}`).
   - **Participle entries are not folded** (decision 10, §12). `===Participle===` entries
     carry their own adjectival declension tables and often their own senses; folding
     them into a single verb `Form` would lose that. They stay records, linked to the verb
@@ -456,7 +457,12 @@ English-Wiktionary Polish sections follow this nesting:
   whose only content is `{{inflection of|pl|lemma||gen|p}}`. These must parse into
   structured `form_of` links with the grammatical tags decoded, not a gloss string. One
   call can carry **several tag sets**: `;` separates sets and `//` joins alternatives,
-  so `{{inflection of|pl|mama||gen|s|;|nom//acc//voc|p}}` is four (case, number) pairs —
+  so `{{inflection of|pl|mama||gen|s|;|nom//acc//voc|p}}` is four (case, number) pairs
+  (shortcuts like `gen`, `3s`, `mn` resolve through the dump's `Module:form of/data`;
+  canonical tags map onto `GrammaticalTags` via `data/tags.toml`; any other tag goes
+  to `FormOf.raw_tags`). The template → `FormOf` type map is `data/form_of.toml`:
+  inflection, alternative form, synonym, abbreviation, or **derivation**
+  (`{{diminutive of}}`, `{{verbal noun of}}`, `{{female equivalent of}}`) — and
   and these entries are then
   **folded into the lemma and not emitted** (R3.13a). Parsing them accurately still
   matters: they are the cross-check on, and the supplement to, the Lua-generated
@@ -500,7 +506,7 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.7 — Labels.** `{{lb|pl|…}}` / `{{tlb|pl|…}}` values and qualifiers (colloquial,
   dated, obsolete, vulgar, transitive, reflexive-się, …) are stored as **plain strings**
   in `labels` — Wiktionary's canonical label names, with aliases resolved through its own
-  label data modules (in the dump), so `colloq` and `colloquial` arrive as one name. They
+  label data modules (in the dump), so `idiom` and `idiomatic` arrive as one name. They
   are an open vocabulary, not a closed grammatical set, so they get no enum (R7.7): the
   canonical list is Wiktionary's, not ours to maintain. The as-written spelling survives
   in the retained template call (R4.2.1).
@@ -512,6 +518,16 @@ English-Wiktionary Polish sections follow this nesting:
     per result, and a single list cannot tell *Far Masovian* (a region) from *hunting*
     (a topic). **Dialect labels are very common** on Polish entries (`Chełmno-Dobrzyń`,
     `Far Masovian`, `Central Greater Poland`, town names such as `Krotoszyn`).
+  - *Implemented at M6:* the dump's `Module:labels/data/lang/pl`, `/data`,
+    `/qualifiers`, `/regional` and `/topical` are loaded once per worker (inside a
+    real `{{#invoke:}}`, as some need a frame) and searched in Module:labels' own order;
+    a label is a region or topic when the module defining it, or its
+    `regional_categories`/`topical_categories`, says so. Qualifier-module words
+    (`chiefly`, `usually`) modify the next label and are counted, not stored. Town
+    names such as `Krotoszyn` are in no label module — Wiktionary shows them as plain
+    text — so an unrecognised **capitalised** label is filed under `regions`
+    (`data/labels.toml`, counted as `label.region_by_capital`); lower-case ones
+    ("of a sin") stay free-text `labels`. All unrecognised labels are counted.
 - **R6.8 — Etymology.** The rendered etymology as **plain text** ("Inherited from
   Proto-Slavic *kotъ"). Structured etymology links — source language codes, cognates,
   reconstructions — are historical-linguistics data an app for Polish learners does
@@ -519,16 +535,24 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.9 — Examples & quotations.** `{{ux|pl|…}}` / `{{uxi|pl|…}}` and
   `{{quote-*}}`/`{{RQ:pl:…}}`: Polish text, English translation and literal translation
   as separate fields; a quotation also gets a one-line `source` ("Henryk Sienkiewicz,
-  Potop (1886)") rather than bibliographic fields.
+  Potop (1886)") rather than bibliographic fields. Each `{{RQ:pl:…}}` declares where
+  its passage and translation go (`textparam=2`, `t={{{4|}}}` in its call to
+  Module:quote — 5,717 of them put the text in parameter 2, the rest elsewhere); the
+  pipeline reads that declaration rather than assuming. Its `source` is the template
+  rendered without the passage.
 - **R6.10 — Topics.** Topical categories — explicit `[[Category:pl:…]]`, `{{C|pl|…}}`,
   and those emitted by templates during expansion — become `topics` ("Birds",
   "Music"): the hook for topic-based decks. Topics are kept **per sense** (from that
-  sense's labels and categories) as well as per entry. All other categories are Wiktionary
+  sense's labels and categories) as well as per entry. A `{{C}}` at the foot of the
+  page (usually under Further reading) is the page's and applies to every entry. All other categories are Wiktionary
   maintenance and are not output.
 - **R6.11 — Government (valency).** `{{+obj|pl|…}}` on a sense states what case or
   preposition the word governs (`:za(acc)`, `acc<what>`, `:do(gen)<to what>`). It is
   structured data — case enum, optional preposition, gloss of the slot — and must be
-  captured per sense, not left in the gloss text.
+  captured per sense, not left in the gloss text. ` + ` joins objects taken together
+  and `/` separates alternatives (`gen<of what>/inf<to do what>`); each becomes one
+  `Government`. A slot with no case enum (`inf`, `:że`, `subordinate clause`) keeps its
+  written form in the description ("inf: to do what").
 - **R6.12 — Collocations.** `{{coi|pl|…}}` lines under a sense and the
   `====Collocations====` section carry a Polish phrase and its translation; they are kept
   as typed examples (collocation kind), sense-scoped where they appear under a sense.

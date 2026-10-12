@@ -64,6 +64,14 @@ def test_keywords_come_from_gloss_links_only(wtp: PolwiktWtp) -> None:  # R6.14
     ]
 
 
+def test_a_transcluded_gloss_keys_on_its_source(wtp: PolwiktWtp) -> None:  # R6.14
+    # jabłko: "# {{tcl|pl|apple|id=Q89}}" shows English "apple"'s sense (R3.2b).
+    result = extract_record(wtp, "Polska", FIX["Polska"].wikitext(), SETTINGS)
+    assert result.word is not None
+    sense = result.word.entries[0].senses[0]
+    assert sense.keywords[0].text == "Poland"
+
+
 def test_government(wtp: PolwiktWtp) -> None:  # R6.11
     sense = first_sense(
         run(wtp, "# x {{+obj|pl|:do(gen)<to what>}} {{+obj|pl|gen/inf<to do what>}}\n")

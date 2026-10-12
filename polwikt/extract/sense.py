@@ -200,6 +200,11 @@ class SenseParser:
         elif name in _TAXONOMIC_TEMPLATES:
             if text := plain_text(positional(args)[0] if positional(args) else ""):
                 _add_keyword(sense, text, taxonomic=True)
+        elif name == "transclude":  # {{tcl|pl|apple|id=Q89}}: the gloss *is* "apple"
+            values = positional(args)
+            if len(values) >= 2 and values[1]:
+                source = plain_text(values[1].split("#", 1)[0])
+                _add_keyword(sense, source, taxonomic=False)
         elif name in _LINK_TEMPLATES:
             values = positional(args)
             if len(values) >= 2 and values[0] == "en" and values[1]:
