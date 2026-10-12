@@ -182,8 +182,15 @@ page (R3.2a — if it fires for real, P1 needs a carve-out); a module that needs
 
 ---
 
-## M5 — Section structure extraction
-*Needs M1, M3, M4. ~1 week.*
+## M5 — Section structure extraction ✅
+*Done 2026-10-12.* `extract/structure.py` (scope-based walk), `parse/headings.py` +
+`data/sections.toml` (all 59 headings in the dump classified), `parse/text.py` (plain
+text, R7.6a), minimal `extract/pronunciation.py`, `proto/p3.proto` + `extract/p3.py`
+(page-id order, identical output for any `--jobs`, per-page errors, reports). Golden
+expectations blessed for all 66 fixtures; the exit cases are tests
+(`tests/test_structure.py`). Measured on the first 3,000 pages: 18.2 pages/s at
+`--jobs 2`, 0 errors, 0 unknown headings, 25 unhandled templates (47 uses). The full
+run moved to the end of M6 (decided 2026-10-12).
 
 - L2 `==Polish==` isolation; one `Entry` per POS section, each keeping its own
   etymology — homographs are never merged (R5.1);
@@ -226,6 +233,9 @@ shared page-level pronunciation is copied into each of its entries (R5.5).
 **Exit:** golden expectations filled for senses; `dobry`'s Middle Polish senses gone and
 counted; the all-Middle-Polish fixtures (`kradźba`, `barzo`) yield no record; `stats.json` reports
 drop counts by label and kind, and `barzo`'s senses in the co-labelled count.
+Then the **first full P3 run** (~2.7 h at `--jobs 2`): its `stats.json` is the R8.4/R8.3
+baseline that later milestones diff against, and its wall clock is R9.2's full-scale
+figure.
 
 ---
 

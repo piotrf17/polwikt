@@ -171,7 +171,9 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
     (`komputer` → English `computer` → `compute` → Latin …); it handles `nil` by ending
     the chain at a plain link — "Borrowed from English computer." — while an error lost
     the whole etymology. The deeper chain is a known, counted loss: serving it would
-    need a recursive multi-language closure over the dump.
+    need a recursive multi-language closure over the dump. *Measured at M5:* 27% of
+    pages (819 of the first 3,000) read at least one title-only page, almost all
+    through `{{etymon}}`; each is listed in `title_only.jsonl`.
 - **R3.2b — Transclusion targets (carve-out, found at M4).** `{{transclude|pl|Poland|id=Q36}}`
   (alias `{{tcl}}`) makes a Polish sense *show the definition of another page's sense*;
   `Module:transclude` reads that page with `getContent()`. In the 20261001 dump 1,246
@@ -678,8 +680,10 @@ operational consequences that are *not* optional:
   every template in the Polish section expanded — an upper bound on what the policy
   expands): **7.7 pages/s/worker**; lemma pages 0.19 s mean / 0.85 s p99, form pages
   0.04 s / 0.10 s; peak RSS 147 MB. That is ~3.2 h at `--jobs 2`. The provisional
-  2 h was optimistic. P3 must not regress it by more than 10%; M5 re-measures with
-  the real policy. `--pages` / `--limit` runs finish in seconds; the full run is not
+  2 h was optimistic. *Re-measured at M5 with the real policy* (first 3,000 pages
+  by id, `--jobs 2`): **18.2 pages/s, ~2.7 h projected**, 282 MB peak per worker.
+  The first full P3 run is at the end of M6, when it also sets the R8.4 baseline. P3
+  must not regress this by more than 10%. `--pages` / `--limit` runs finish in seconds; the full run is not
   part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the
   ~4 GB usable. The pipeline must not require the whole corpus in memory at any point —
