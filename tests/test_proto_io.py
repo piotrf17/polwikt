@@ -60,7 +60,7 @@ def _rich_word() -> pb.Word:
     )
     entry = pb.Entry(
         pos=pb.Pos.POS_NOUN,
-        etymology_number=1,
+        etymology=0,
         senses=[sense],
         forms=[
             pb.Form(
@@ -79,7 +79,6 @@ def _rich_word() -> pb.Word:
         ],
         pronunciations=[pb.Pronunciation(ipa="/kɔt/")],
         audio=[pb.Audio(file="Pl-kot.ogg")],
-        etymology="Inherited from Proto-Slavic *kotъ.",
         relations=[pb.Relation(type=pb.Relation.Type.TYPE_DIMINUTIVE, term="kotek")],
         topics=["Cats"],
         noun=pb.NounInfo(
@@ -95,7 +94,7 @@ def _rich_word() -> pb.Word:
     # missing from the corpus (R3.13a).
     form_entry = pb.Entry(
         pos=pb.Pos.POS_NOUN,
-        etymology_number=2,
+        etymology=1,
         senses=[
             pb.Sense(
                 gloss="genitive plural of kota",
@@ -114,6 +113,10 @@ def _rich_word() -> pb.Word:
     )
     return pb.Word(
         lemma="kot",
+        etymologies=[
+            pb.Etymology(text="Inherited from Proto-Slavic *kotъ."),
+            pb.Etymology(),
+        ],
         entries=[entry, form_entry],
         frequency=pb.Frequency(rank=1234, count=56, source="SFPW 1990"),
     )

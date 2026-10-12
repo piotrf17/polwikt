@@ -308,34 +308,39 @@ message VerbInfo {
 // Structure
 // ---------------------------------------------------------------------------
 
-// One lexeme: a word class + etymology combination. Homographs are separate entries —
+// One lexeme: a word class within one etymology. Homographs are separate entries —
 // zamek "castle" and zamek "lock" are two noun entries with their own senses and
-// declension (R5.1). Each entry is self-contained: page-level pronunciation is copied
-// into every entry it applies to, so one entry is enough to build one flashcard.
+// declension (R5.1). Page-level pronunciation is copied into every entry it applies
+// to; the etymology lives once on the Word and the entry points at it.
 //
-// Entries of one Word are in article order. `etymology_number` groups homographs:
-// entries sharing it share an etymology (and its text), and an app can key an entry
-// stably as lemma|pos|etymology_number|ordinal-within-that-triple.
+// Entries of one Word are in article order.
 message Entry {
   Pos pos = 1;
-  int32 etymology_number = 2;      // N of `Etymology N`; 0 when unnumbered (R5.1)
+  int32 etymology = 2;             // index into Word.etymologies (R5.1)
   repeated Sense senses = 3;
   repeated Form forms = 4;
   repeated InflectionTable tables = 5;
   repeated Pronunciation pronunciations = 6;
   repeated Audio audio = 7;
   string syllabification = 8;      // hyphenation, when given
-  string etymology = 9;            // plain text
-  repeated string labels = 10;     // labels on the whole entry (term-level)
-  repeated Relation relations = 11;
-  repeated Example examples = 12;  // collocations and examples not tied to one sense
-  string usage_notes = 13;         // plain text
-  repeated string topics = 14;     // entry-level topical categories: "Animals"
+  repeated string labels = 9;      // labels on the whole entry (term-level)
+  repeated Relation relations = 10;
+  repeated Example examples = 11;  // collocations and examples not tied to one sense
+  string usage_notes = 12;         // plain text
+  repeated string topics = 13;     // entry-level topical categories: "Animals"
 
   oneof detail {  // matches `pos` where it applies
-    NounInfo noun = 15;
-    VerbInfo verb = 16;
+    NounInfo noun = 14;
+    VerbInfo verb = 15;
   }
+}
+
+// One etymology group of a page: an `Etymology N` section, or the page's single
+// unnumbered one. Entries that share an origin point at the same Etymology, which is
+// how an app groups homographs and shows each etymology once (R5.1). A page with no
+// etymology section still has one, with empty text, so every entry has a group.
+message Etymology {
+  string text = 1;  // plain text (R6.8); empty when the section is missing or blank
 }
 
 // How common the word is, from a frequency dictionary cited on the page. Coverage is
@@ -349,10 +354,15 @@ message Frequency {
 
 // One Polish lemma (R7.7a). Inflected forms are folded into their lemma's `forms` and
 // found through index.sqlite; they are never records of their own.
+//
+// `etymologies` are in article order and each is referenced by at least one entry:
+// a group whose entries were all dropped or folded away is removed and the indices
+// renumbered (R6.6a, R3.13a).
 message Word {
   string lemma = 1;
-  repeated Entry entries = 2;
-  Frequency frequency = 3;  // unset when the page cites none
+  repeated Etymology etymologies = 2;
+  repeated Entry entries = 3;
+  Frequency frequency = 4;  // unset when the page cites none
 }
 
 // Corpus-level metadata, written to corpus.meta.pb beside the shards (R7.4).

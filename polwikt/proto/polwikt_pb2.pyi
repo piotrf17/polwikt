@@ -431,16 +431,15 @@ class VerbInfo(_message.Message):
     def __init__(self, aspect: _Optional[_Union[Aspect, str]] = ...) -> None: ...
 
 class Entry(_message.Message):
-    __slots__ = ("pos", "etymology_number", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "etymology", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb")
+    __slots__ = ("pos", "etymology", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb")
     POS_FIELD_NUMBER: _ClassVar[int]
-    ETYMOLOGY_NUMBER_FIELD_NUMBER: _ClassVar[int]
+    ETYMOLOGY_FIELD_NUMBER: _ClassVar[int]
     SENSES_FIELD_NUMBER: _ClassVar[int]
     FORMS_FIELD_NUMBER: _ClassVar[int]
     TABLES_FIELD_NUMBER: _ClassVar[int]
     PRONUNCIATIONS_FIELD_NUMBER: _ClassVar[int]
     AUDIO_FIELD_NUMBER: _ClassVar[int]
     SYLLABIFICATION_FIELD_NUMBER: _ClassVar[int]
-    ETYMOLOGY_FIELD_NUMBER: _ClassVar[int]
     LABELS_FIELD_NUMBER: _ClassVar[int]
     RELATIONS_FIELD_NUMBER: _ClassVar[int]
     EXAMPLES_FIELD_NUMBER: _ClassVar[int]
@@ -449,14 +448,13 @@ class Entry(_message.Message):
     NOUN_FIELD_NUMBER: _ClassVar[int]
     VERB_FIELD_NUMBER: _ClassVar[int]
     pos: Pos
-    etymology_number: int
+    etymology: int
     senses: _containers.RepeatedCompositeFieldContainer[Sense]
     forms: _containers.RepeatedCompositeFieldContainer[Form]
     tables: _containers.RepeatedCompositeFieldContainer[InflectionTable]
     pronunciations: _containers.RepeatedCompositeFieldContainer[Pronunciation]
     audio: _containers.RepeatedCompositeFieldContainer[Audio]
     syllabification: str
-    etymology: str
     labels: _containers.RepeatedScalarFieldContainer[str]
     relations: _containers.RepeatedCompositeFieldContainer[Relation]
     examples: _containers.RepeatedCompositeFieldContainer[Example]
@@ -464,7 +462,13 @@ class Entry(_message.Message):
     topics: _containers.RepeatedScalarFieldContainer[str]
     noun: NounInfo
     verb: VerbInfo
-    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., etymology_number: _Optional[int] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., tables: _Optional[_Iterable[_Union[InflectionTable, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., etymology: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ...) -> None: ...
+    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., etymology: _Optional[int] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., tables: _Optional[_Iterable[_Union[InflectionTable, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ...) -> None: ...
+
+class Etymology(_message.Message):
+    __slots__ = ("text",)
+    TEXT_FIELD_NUMBER: _ClassVar[int]
+    text: str
+    def __init__(self, text: _Optional[str] = ...) -> None: ...
 
 class Frequency(_message.Message):
     __slots__ = ("rank", "count", "source")
@@ -477,14 +481,16 @@ class Frequency(_message.Message):
     def __init__(self, rank: _Optional[int] = ..., count: _Optional[int] = ..., source: _Optional[str] = ...) -> None: ...
 
 class Word(_message.Message):
-    __slots__ = ("lemma", "entries", "frequency")
+    __slots__ = ("lemma", "etymologies", "entries", "frequency")
     LEMMA_FIELD_NUMBER: _ClassVar[int]
+    ETYMOLOGIES_FIELD_NUMBER: _ClassVar[int]
     ENTRIES_FIELD_NUMBER: _ClassVar[int]
     FREQUENCY_FIELD_NUMBER: _ClassVar[int]
     lemma: str
+    etymologies: _containers.RepeatedCompositeFieldContainer[Etymology]
     entries: _containers.RepeatedCompositeFieldContainer[Entry]
     frequency: Frequency
-    def __init__(self, lemma: _Optional[str] = ..., entries: _Optional[_Iterable[_Union[Entry, _Mapping]]] = ..., frequency: _Optional[_Union[Frequency, _Mapping]] = ...) -> None: ...
+    def __init__(self, lemma: _Optional[str] = ..., etymologies: _Optional[_Iterable[_Union[Etymology, _Mapping]]] = ..., entries: _Optional[_Iterable[_Union[Entry, _Mapping]]] = ..., frequency: _Optional[_Union[Frequency, _Mapping]] = ...) -> None: ...
 
 class Corpus(_message.Message):
     __slots__ = ("schema_version", "dump_date", "pipeline_version", "word_count", "drop_labels", "license", "attribution")

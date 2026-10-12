@@ -341,9 +341,14 @@ English-Wiktionary Polish sections follow this nesting:
 
 - **R5.1** Preserve the etymology-group structure: a page like *zamek* has multiple
   `Etymology N` sections, each with its own POS entries. Do **not** flatten them into one
-  bag of senses; senses must stay attached to their etymology. Each `Entry` records its
-  `etymology_number` (0 when unnumbered), so an app can group homographs, show an
-  etymology once per group, and key entries stably as lemma|pos|N|ordinal.
+  bag of senses; senses must stay attached to their etymology. Each `Word` lists its
+  etymology groups once (`Word.etymologies`, article order; a page with no etymology
+  section gets one group with empty text) and each `Entry` holds the index of its
+  group, so an app can group homographs and show an etymology once per group. The
+  index is positional: it is stable across rebuilds of one dump and survives edits
+  inside a section, but an editor adding, removing or reordering etymology sections
+  shifts it. It is not a persistent identity, and an app keying favourites on
+  lemma|pos|etymology|ordinal must handle a key that no longer resolves.
 - **R5.2** Support both L3 and L4 POS placement (with/without `Etymology N`), and
   POS-subsections at L4 or L5 accordingly. **Heading depth is not semantic**: attach a
   section by what its heading *is* (POS, POS-subsection, language-level), using depth
@@ -360,7 +365,7 @@ English-Wiktionary Polish sections follow this nesting:
   child senses, not flattened.
 - **R5.5** Sections that belong to the language rather than a POS — `Alternative forms`
   and `Pronunciation` above the etymologies — are copied into every entry they apply
-  to, so each `Entry` is self-contained. Of the sections after the etymologies only
+  to, so each `Entry` (with its `Word`'s etymology) is enough for one flashcard. Of the sections after the etymologies only
   `Trivia` is read, for word frequency (R6.13); `References`, `Further reading`,
   `See also` and `Anagrams` are Wiktionary bookkeeping and are not output.
 - **R5.6** *Withdrawn (decision 11).* `{{senseid}}` anchors are Wiktionary-internal and
@@ -523,15 +528,16 @@ English-Wiktionary Polish sections follow this nesting:
 The contract is `proto/polwikt.proto`; this is the shape it implements, not a second copy
 to keep in sync:
 
-- `Word` (one per lemma: `lemma`, optional `frequency`) → `Entry` (one per lexeme: a
-  word class within one etymology, tagged with its `etymology_number`, so homographs
-  like *zamek* "castle"/"lock" are separate entries) → `Sense` (recursive `subsenses`)
+- `Word` (one per lemma: `lemma`, `etymologies`, optional `frequency`) → `Entry` (one per lexeme: a
+  word class within one etymology, pointing at one of the `Word`'s `etymologies`, so
+  homographs like *zamek* "castle"/"lock" are separate entries) → `Sense` (recursive `subsenses`)
   and a flat `Form` list grouped into titled `InflectionTable`s.
 - A `Sense` carries its gloss, `labels` / `regions` / `topics`, English `keywords`,
   examples, relations, government, and `form_of` when it is a form-of sense of an
   entry that could not be folded (R3.13a).
-- Each `Entry` is self-contained — pronunciation, audio, etymology, relations, usage
-  notes, topics — so one entry is enough to build one flashcard. POS-specific detail is
+- Each `Entry` carries its own pronunciation, audio, relations, usage notes and
+  topics; with its `Word`'s lemma and the etymology it points at, that is enough to
+  build one flashcard. Etymology text is stored once per group, not per entry. POS-specific detail is
   a `oneof` of `NounInfo` (genders with animacy, tantum flags) / `VerbInfo` (aspect).
 - Usage labels, dialect names and topics are plain strings (R6.7); grammatical features
   use the closed enums in `GrammaticalTags`, with `raw_tags` for any that don't map.
@@ -747,12 +753,13 @@ Kept here as the record of what was decided and why.
     etymology-group → POS nesting (flattened into self-contained `Entry`s). Word
     frequency was added (R6.13) because it is what orders a learning deck.
     *Amended by decision 12:* English link targets in glosses come back as search
-    keywords, and the etymology number comes back on each entry.
+    keywords, and etymology groups come back (`Word.etymologies`, indexed per entry).
 12. ~~Does the schema serve a real app?~~ **Checked against poldict**
     (`~/projects/poldict`, the Android dictionary that consumes kaikki's wiktextract
     data today), which is the reference consumer. Changes it required: English
-    `keywords` per sense (R6.14) — its reverse search is built on them; `etymology_number`
-    per entry (R5.1) — homograph grouping and stable favourites keys; `labels` /
+    `keywords` per sense (R6.14) — its reverse search is built on them; etymology groups
+    (R5.1) — homograph grouping and its favourites key (positional, so not stable
+    across etymology-section edits; poldict greys out a key that stops resolving); `labels` /
     `regions` / `topics` split per sense (R6.7, R6.10) — its register ranking; `form_of`
     senses and **emitting unfoldable form-of entries** rather than only logging them
     (R3.13a/c); titled `InflectionTable`s that forms point into — entries with several

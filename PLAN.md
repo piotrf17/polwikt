@@ -51,7 +51,7 @@ M0 ─ M1 schema ─────────────────────
 *Done. Schema revised the same day for app consumers (decision 11).*
 
 - `proto/polwikt.proto` is an **output contract for apps** (dictionary, flashcards), not
-  a Wiktionary mirror: `Word` (lemma, frequency) → self-contained `Entry` per lexeme →
+  a Wiktionary mirror: `Word` (lemma, etymologies, frequency) → `Entry` per lexeme →
   `Sense`, flat `Form` list, `Pronunciation`, `Audio`, `Example` (example / quotation /
   collocation), `Government`, `Relation`; closed grammatical enums (case, number,
   gender, animacy, person, tense, mood, aspect, degree, non-finite form); usage labels,
