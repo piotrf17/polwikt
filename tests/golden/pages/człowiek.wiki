@@ -1,0 +1,149 @@
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=human|:inh|sla-pro:*čelově̀kъ<alt:*čьlověkъ><id:human>|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|m-pr|dim=człowieczk}}
+
+# [[man]] {{gl|human}}
+
+====Related terms====
+{{col|csb|title=adjectives|człowieczi|człowiekòwati}}
+
+===Further reading===
+* {{R:csb:SJP1893|čłovjek|22}}
+* {{R:csb:Trepczyk:1994|+}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|622}}
+
+{{C|csb|People}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=human|:inh|sla-pro:*čelově̀kъ<alt:*čьlověkъ><id:human>|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|m-an!}}
+
+# [[man]], [[human]]
+#: {{syn|zlw-opl|człek}}
+#* {{RQ:zlw-opl:Gn|4b|Tedy vøcz naprzecif gemu nyszadny '''clouek''' ne gestcy on vyszetl byl|Tedy więc naprzeciw jemu niżadny '''człowiek''' nie jestci on wyszedł był|-}}
+#* {{RQ:zlw-opl:Wisł|228|88|1437|'''Czlowyek''' microcosmus|'''Człowiek''' microcosmus|-}}
+#* {{RQ:zlw-opl:KsMaz|I|673|1406|Yacom ya ne przyøl Olbrzikowa parobka, ale do mne prziszeth *'''czlowel''' zonathy w chicze|Jakom ja nie przyjął Ołbrzykowa parobka, ale do mnie przyszed '''człowiek''' żonaty w chycze|-}}
+# [[subject]]; [[peasant]]
+#: {{syn|zlw-opl|człek}}
+#* {{RQ:zlw-opl:Leksz|I|1072|1391|Wtenczasz Mikolay bil moy '''czlovek''', kedi gi Passek wsczøgnøl na prauo|Wtenczas Mikołaj był moj '''człowiek''', kiedy ji Paszek wściągnął na prawo|-}}
+#* {{RQ:zlw-opl:BZ|IV Reg|1, 11|'''Człowiecze''' boży, toć mowi krol (homo dei, haec dicit rex)|'''Człowiecze''' boży, toć mowi krol (homo dei, haec dicit rex)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|człeczy|człowiecki|człowieczeński|człowieczy}}
+{{col|zlw-opl|title=adverb|człowiecznie}}
+{{col|zlw-opl|title=nouns|bezprawny człowiek|człowiek czeladny|człowiek grzeszny|pospolny człowiek|przysięgły pusty człowiek|zły człowiek|człowiek galilejski|grecki człowiek|człowiek odkłonny|człowiek|człek|człowiectwo|człowieczeństwo|osłoczłowiek}}
+
+====Descendants====
+* {{desc|pl|człowiek|alts=1}}
+* {{desc|szl|czowiek|alts=1}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP||1496}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|czowiek||Chełmno-Dobrzyń}}
+* {{alt|pl|czojek||Central Greater Poland|Kościan}}
+* {{alt|pl|człojek||Suwałki}}
+* {{alt|pl|cłojek||Far Masovian|Przasnysz|Łowicz|Domaniewice}}
+* {{alt|pl|cłowiek||Western Kraków|Bukowno|Zagórze}}
+
+===Etymology===
+{{ety|pl|id=human|:inh|zlw-opl:człowiek<id:human>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-człowiek.ogg|mp=#|sbl=munż|nbl=#}}
+
+===Noun===
+{{pl-noun|m-pr|dim=człowieczek|aug=człowieczyna,człowieczysko|f=człowieczyca<l:obsolete>}}
+
+# [[man]], [[human]], [[human being]]; [[person]]
+#: {{par|pl|osoba}}
+# [[man]] {{gl|adult male}}
+#: {{syn|pl|dorosły}}
+# [[person]] {{gl|being that characterizes a particular thing}}
+#: {{coi|pl|'''człowiek''' biznesu|'''person''' of business}}
+# [[person]] {{gl|someone who behaves well and does positive things}}
+# {{lb|pl|colloquial}} [[worker]]; [[man]], [[person]]
+#: {{syn|pl|pracownik}}
+# {{lb|pl|colloquial}} [[person]], [[man]] {{gl|someone underneath someone else in hierarchy}}
+#: {{coi|pl|'''człowiek''' prezydenta|president's '''man'''}}
+# {{lb|pl|colloquial}} {{ng|used to refer to oneself instead of {{m|pl|ja}}}}
+#: {{syn|pl|ja}}
+# {{lb|pl|Southern Borderlands|Drohobych}} {{syn of|pl|mąż|t=[[husband]]}}
+# {{lb|pl|Northern Borderlands|Lithuania}} {{syn of|pl|sługa//służący|t=[[servant]]}}
+
+====Declension====
+{{pl-decl-noun
+|człowiek|ludzie
+|człowieka|ludzi
+|człowiekowi|ludziom
+|człowieka|ludzi
+|człowiekiem|ludźmi
+|człowieku|ludziach
+|[[człowiecze]]/[[człowieku]]|ludzie
+}}
+
+====Derived terms====
+{{col|pl|title=adjectives|człowieczeński|człowieczy|człowiekowaty}}
+{{col|pl|title=adverb|jak człowiek}}
+{{col|pl|title=idioms|człowiek uczy się na błędach|przyzwyczajenie jest drugą naturą człowieka|człowiek strzela, Pan Bóg kule nosi|gdy się człowiek spieszy, to się diabeł cieszy|góra z górą się nie zejdzie, a człowiek z człowiekiem zawsze}}
+{{col|pl|title=interjections|człowiecze|człowieku|młody człowieku}}
+{{col|pl|title=nouns|człowiectwo|człowieczątko|człowieczę|człowieczek|człowieczeńskość|człowieczeństwo|człowieczość|człowiekowate|człowiek renesansu|człowiek śniegu|dusza człowiek|git-człowiek|prawa człowieka|strzęp człowieka|człowiek z miasta|pierwszy człowiek<l:dialectal>}}
+{{col|pl|title=phrases|też człowiek|nie szata zdobi człowieka}}
+{{pl-derived verbs|*człowieczyć/człowieczać
+|od
+|u
+|-/człowieczeć}}
+
+===Trivia===
+{{pl-freq 1990|132|10|61|98|199|500|88|62|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|47524}}
+* {{R:pl:SXVII|CZŁOWIEK|4349|SPas|28.02.2019}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||393|1}}
+* {{R:pl:SGP1900||284|1}}
+* {{R:pl:NFJP}}
+
+{{cln|pl|suppletive nouns}}
+{{C|pl|Female people|Hominids|Male family members|Male people|Marriage|Occupations|People}}
+
+==Silesian==
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|m-pr}}
+
+# {{alt form|szl|czowiek}}
+
+===Further reading===
+* {{R:szl:silling}}

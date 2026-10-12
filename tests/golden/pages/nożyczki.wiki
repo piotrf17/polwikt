@@ -1,0 +1,32 @@
+==Polish==
+{{wp|pl:}}
+[[File:Pair of scissors with black handle.jpg|thumb|nożyczki]]
+
+===Etymology===
+{{ety|pl|:af|nożyce|-ki|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-nożyczki.ogg;LL-Q809 (pol)-Olaf-nożyczki.wav}}
+
+===Noun===
+{{pl-noun|nv-p}}
+
+# [[scissors]] {{gl|tool used for cutting}}
+#: {{syn|pl|nożyce}}
+
+====Declension====
+{{pl-decl-noun-f|tantum=p}}
+
+====Related terms====
+{{col|pl|title=adjectives|nożycowaty|nożycowy}}
+{{col|pl|title=adverb|nożycowo}}
+{{col|pl|title=noun|nożyce}}
+{{col|pl|title=verb
+|nożycować<g:impf>
+}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Tools}}

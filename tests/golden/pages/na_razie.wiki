@@ -1,0 +1,31 @@
+{{also|narazie}}
+==Polish==
+{{phrasebook|pl|Farewells}}
+
+===Alternative forms===
+* {{alt|pl|narazie}}
+
+===Etymology===
+{{ety|pl|id=for now}}
+{{lit|for now}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-na razie.ogg}}
+
+===Adverb===
+{{pl-adv|-|head=[[na]] [[raz]]ie}}
+
+# {{lb|pl|idiom}} [[for now]], [[as yet]], [[for the time being]]
+#: {{syn|pl|póki co|tymczasem}}
+
+===Interjection===
+{{head|pl|interjection|head=[[na]] [[raz]]ie}}
+
+# {{lb|pl|colloquial|idiom}} [[see you]], [[see you later]], [[bye]]
+#: {{syn|pl|nara<q:colloquial>|narazicho|;|pa<q:familiar>|;|do zobaczenia<q:informal>|;|do widzenia<q:formal>}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{cln|pl|time adverbs|farewells}}

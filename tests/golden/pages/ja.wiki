@@ -1,0 +1,1853 @@
+{{also|Appendix:Variations of "ja"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{clip|mul|en:'''Ja'''panese}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+===See also===
+* {{langcat}}
+
+==English==
+
+===Etymology 1===
+{{bor+|en|af|ja|t=yes}}, from {{der|en|nl|ja|t=yes}}. More at {{m|en|yea}}.
+
+====Alternative forms====
+* {{alt|en|ya}}
+
+====Adverb====
+{{en-adv|-}}
+
+# {{lb|en|chiefly|South Africa|informal}} [[yes|Yes]].
+#* '''1940''', ''Penguin Parade'' (issue 7, page 25)
+#*: '''Ja''', he had been fooled and it was not pleasant for a man to go home and tell his wife that he been verneuked.
+
+=====Derived terms=====
+* {{l|en|ja well no fine}}
+
+===Etymology 2===
+From the [[Revised Romanization of Korean|Revised Romanization]] of {{bor|en|ko|자}}.
+
+====Alternative forms====
+* {{l|en|cha}}
+
+====Noun====
+{{en-noun|s|*}}
+
+# {{lb|en|Korean|_|units of measure}} {{syn of|en|Korean foot}}: a [[traditional]] [[unit of measure|unit]] of [[length]] [[equivalent]] to [[about]] 30.3{{nbsp}}[[cm]].
+
+===Anagrams===
+* {{anagrams|en|a=aj|AJ}}
+
+{{C|en|Units of measure}}
+
+==Achang==
+
+===Pronunciation===
+* {{acn-IPA|lh=|lc=|lx=|xd=}}
+
+===Noun===
+{{head|acn|noun}}
+
+# [[kind]], [[type]], [[sort]]
+#: {{ux|acn|[[oeng]] dv'''ja'''|a '''kind''' of fish}}
+#: {{ux|acn|[[oeng]] [[xing]] '''ja'''|a '''kind''' of long fish}}
+
+===Further reading===
+* {{R:acn:Lexicon|44}}
+
+==Afrikaans==
+
+===Etymology===
+From {{inh|af|nl|ja}}.
+
+===Pronunciation===
+* {{IPA|af|/jaː/}}
+* {{audio|af|LL-Q14196 (afr)-Oesjaar-ja.wav}}
+
+===Adverb===
+{{head|af|adverb}}
+
+# [[yes]]
+
+====Descendants====
+* {{desc|en|ja|bor=1}}
+* {{desc|pt|iá|bor=1|alts=1}}
+
+{{cln|af|phrasebook}}
+
+==Alemannic German==
+
+===Alternative forms===
+* {{alter|gsw|jaa|jòò|jä}}
+
+===Etymology===
+From {{inh|gsw|goh|ja}}, {{m|goh|jā}}, from {{inh|gsw|gem-pro|*ja}}. Cognate with {{cog|de|ja}}, {{cog|nl|ja}}, {{cog|en|yea}}, {{cog|sv|ja}}.
+
+===Adverb===
+{{head|gsw|adverb}}
+
+# [[yes]]
+
+===References===
+* {{R:Urseren|13}}
+
+==Anambé==
+
+===Pronoun===
+{{head|aan|pronoun}}
+
+# [[I]] {{q|first person singular}}
+
+===References===
+* Maria Risolêta Silva Julião, ''L'expression de personne en Anambé du Cairari'' (2010)
+
+==Atong (India)==
+
+===Etymology===
+Cognate with {{cog|grt|ja||moon, month}}.
+
+===Noun===
+{{head|aot|noun}}
+
+# [[month]]
+# [[moon]]
+
+===References===
+* {{R:aot:Breugel}}
+
+==Catalan==
+
+===Etymology===
+{{ety|ca|:inh|la:iam}}
+{{inh+|ca|la|iam}}.
+
+===Pronunciation===
+* {{IPA|ca|[ʒa]|[ja]|a=Eastern Catalan}}
+* {{IPA|ca|[ja]|[d͡ʒa]|a=Western Catalan}}
+* {{audio|ca|LL-Q7026 (cat)-Unjoanqualsevol-ja.wav|a=Catalonia}}
+* {{rhymes|ca|a|s=1}}
+
+===Adverb===
+{{ca-adv}}
+
+# [[already]], {{gloss|in negative sentences}} [[any more]]
+#: {{uxi|ca|El va conèixer quan ja era casat.|She met him when he was already married.}}
+# {{lb|ca|before a verb in the present tense}} [[now]], [[immediately]], [[at once]]
+#: {{uxi|ca|Ja arribem a casa.|We'll be right home.}}
+# {{lb|ca|before a verb in the future tense}} confidence in the outcome
+#: {{uxi|ca|Ja veuràs com guanyarem.|You will see how we'll win.}}
+# {{lb|ca|before a verb}} affirmative concession or ponderance
+#: {{uxi|ca|Entesos, ja ho entenc.|Understood, I do understand}}
+#: {{uxi|ca|Ja m’agradaria que fos així.|I would like it to be like that.}}
+
+====Usage notes====
+* ÉsAdir accepts both [ʒa] and [ja] in Central Catalan and both [d͡ʒa] and [ja] in Northwestern Catalan. The same applies to [[jo#Catalan|jo]].
+* DNV accepts [ja] in Valencian.
+
+====Derived terms====
+* {{l|ca|ja n'hi ha prou}}
+* {{l|ca|ja que}}
+
+===Further reading===
+* {{R:ca:IEC2}}
+* {{R:ca:GDLC}}
+* {{R:ca:DNV}}
+* {{R:ca:DCVB}}
+* [https://esadir.cat/gramatica/criteris/joja ÉsAdir - Fonètica: les paraules "jo" i "ja"]
+
+==Central Melanau==
+{{cardinalbox|mel|0|1|2|puweang|dua}}
+
+===Alternative forms===
+* {{l|mel|je-}}
+
+===Numeral===
+{{head|mel|numeral}}
+
+# {{cln|mel|cardinal numbers}} {{l|en|one}}
+
+====Synonyms====
+* {{l|mel|satu}}
+
+==Champenois==
+
+===Alternative forms===
+* {{alter|roa-cha|jaque}}
+
+===Etymology===
+{{inh+|roa-cha|fro|jai}}, from {{inh|roa-cha|la-lat|gaius}}.
+
+===Pronunciation===
+* {{IPA|roa-cha|/ʒɑ/}}
+
+===Noun===
+{{head|roa-cha|noun|g=m|plural|jas}}
+
+# [[jay]]
+
+===References===
+* {{R:roa-cha:Daunay}}
+* {{R:roa-cha:Baudouin}}
+
+{{C|roa-cha|Birds}}
+
+==Cimbrian==
+
+===Etymology===
+From {{inh|cim|gmh|ja}}, from {{inh|cim|goh|ja}}, {{m|goh|jā}}, from {{inh|cim|gmw-pro|*jā}}, from {{inh|cim|gem-pro|*ja}}. Cognate with {{cog|de|ja}}, {{cog|en|yea}}.
+
+===Particle===
+{{head|cim|particle}} <!--/ja/-->
+
+# {{lb|cim|7}} [[yes]]
+
+===References===
+* {{R:Martalar1974}}
+
+==Cypriot Arabic==
+{{acy-root|j-y-y}}
+
+===Etymology===
+{{ety|acy|:inh|ar:جَاءَ|text=+|tree=1}}
+
+===Verb===
+{{acy-verb|I|pres=pijí}}
+
+# to [[come]], to [[arrive]] at
+# to [[derive]] from
+# to [[turn out]]
+
+===References===
+* {{R:acy:Borg|pages=192}}
+
+==Danish==
+
+===Etymology===
+From {{inh|da|non|já|t=yes}}.
+
+===Pronunciation===
+* {{IPA|da|/ja/|[jɛ]}}
+* {{IPA|da|/jar/|[jæɐ̯]}}
+* {{rhymes|da|a|s=1}}
+
+===Interjection===
+{{head|da|intj}}
+
+# [[yes]]
+
+====Antonyms====
+* {{l|da|nej}}
+
+====Related terms====
+* {{l|da|jo}}
+
+===Noun===
+{{da-noun|et|er}}
+
+# [[yes]]
+
+====Inflection====
+{{da-noun-infl|et|er}}
+
+==Dimasa==
+
+===Noun===
+{{head|dis|noun|head=já}}
+
+# [[foot]]
+
+====Derived terms====
+* {{l|dis|jaga}}
+
+==Dutch==
+
+===Alternative forms===
+* {{alt|nl|jae|q=obsolete}}
+
+===Etymology===
+From {{inh|nl|dum|ja}}, from {{inh|nl|odt|*jā}}, from {{inh|nl|gem-pro|*ja}}.
+
+===Pronunciation===
+* {{IPA|nl|/jaː/}}
+* {{audio|nl|Nl-ja.ogg}}
+* {{hyph|nl|ja}}
+* {{rhymes|nl|aː|s=1}}
+
+===Adverb===
+{{nl-adv}}
+
+# [[yes]]
+#: {{syn|nl|jep}}
+#: {{ant|nl|nee|neen}}
+#: {{uxi|nl|Wil je met ons meegaan?'' &mdash; '''Ja''', graag!|Would you like to come with us? &mdash; '''Yes''', I'd love to!}}
+
+====Derived terms====
+{{col|nl
+|jahoor
+|jaknikken,jaknikker
+|ja toch
+|jastem,ja-stem
+|jawel
+|welja
+}}
+
+===Noun===
+{{nl-noun|m,n|-'s|+}}
+
+# [[yes]]
+#: {{syn|nl|jawoord}}
+#: {{ant|nl|nee}}
+#: {{uxi|nl|Nee heb je al, '''ja''' kan je krijgen.|lit=You already have "no", but you may still get "yes".|t=The only way to find out if someone agrees (with/to something) is to ask.}}
+#: {{uxi|nl|Het begon met een '''ja'''...|It began with a '''yes'''...}}
+
+===Interjection===
+{{head|nl|interjection}}
+
+# [[yes]]!
+#: {{syn|nl|yes}}
+#: {{uxi|nl|"'''Ja!'''" riep hij luid toen er een doelpunt viel.|'''Yes!''' he screamed loudly when they scored a goal.}}
+# {{lb|nl|Suriname|informal}} {{ng|A casual greeting acknowledging the presence of a person}}; [[hey]], [[hi]], [[what's up]]
+# {{lb|nl|Suriname|informal}} {{ng|Used as a request for someone to repeat something not heard or understood clearly}}; [[say again]], [[what's that]]
+
+====Descendants====
+* {{desctree|af|ja}}
+* {{desc|brc|ja}}
+* {{desc|gmw-jdt|jâ}}
+* {{desc|dcr|ja|ju}}
+* {{desc|skw|ja}} 
+* {{desc|bor=1|srm|jahái|jaái}}
+
+=====False cognates=====
+* {{desc|ms|ya|qq=false cognate}}
+** {{desc|id|ya|qq=false cognate}}
+
+{{cln|nl|modal particles}}
+
+==Esperanto==
+
+===Etymology===
+{{ety|eo|:bor|de:ja|text=+|tree=1}} Compare {{cog|pl|jo}}, {{cog|yi|יאָ}}, {{cog|en|yea}}. Related to {{m|eo|jes}}.
+
+===Pronunciation===
+{{eo-pr|a=LL-Q143 (epo)-Lepticed7-ja.wav;LL-Q143 (epo)-Robin van der Vliet-ja.wav}}
+
+===Adverb===
+{{head|eo|adverb}}
+
+# {{non-gloss|emphatic particle}}; [[indeed]], [[certainly]], [[surely]], [[after all]]
+#* {{RQ:Plato Broadribb Respubliko|page=18|passage="Nu, Kefalo," mi diris, "mi '''ja''' ĝuas konversacii kun maljunuloj. Mi opinias ke ni devus lerni de personoj kiuj jam laŭiris la vojon laŭ kiu ankaŭ ni mem devos iri."|t="Well, Cephalus," I said, "I '''certainly''' enjoy conversing with old people. I have the opinion that we should learn from people who already went along the path along which we ourselves will also have to go."}}
+#* {{quote-book|eo|title=Krimeo estas nia|author=Kalle Kniivilä|year=2015|chapter=Sopiro al Sovetio|passage=Sed la bona soveta tempo neniam revenos. Ĝi '''ja''' neniam ekzistis.|translation=But the good Soviet times will never return. '''After all''', they never existed.|lit=But the good Soviet time will never come again. It '''indeed''' never existed.|trans-title=Crimea is ours|trans-chapter=Yearning for the Soviet Union}}
+
+====Usage notes====
+The word {{m|eo|ja}} emphasizes the entire sentence or a specific word or phrase, stressing the reality of it. It is most often placed before or after the sentence's main verb, or before an adverb modifying the main verb. Otherwise, it is usually placed in front of a word or phrase that it emphasizes.
+
+It is also commonly used for emphatic negation, combined with {{m|eo|ne}} or a correlative starting in {{m|eo|neni-}}, usually with {{m|eo|ja}} placed in front of it.
+
+====Derived terms====
+* {{l|eo|jes ja||yes indeed}}
+
+====Related terms====
+{{col|eo
+|do<t:therefore, indeed, so>
+|ekzakte<t:exactly>
+|fakte<t:in fact>
+|ĝuste<t:just, right, exactly>
+|reale<t:really, actually>
+|vere<t:truly>
+}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+* {{R:eo:ReVo}}
+
+{{eo BRO|1}}
+{{Universala Vortaro}}
+
+==Estonian==
+
+===Etymology===
+From {{inh|et|urj-fin-pro|*ja}}, from {{der|et|gem-pro|*jahw|t=and}}; compare {{cog|got|𐌾𐌰𐌷}}, {{cog|goh|ja}}, {{m|goh|joh}}.
+
+===Conjunction===
+{{head|et|conjunctions}}
+
+# [[and]]
+
+====Synonyms====
+* {{l|et|ning}}
+
+==Faroese==
+
+===Etymology===
+From {{inh|fo|non|já}}, from {{inh|fo|gem-pro|*ja}}.
+
+===Pronunciation===
+* {{IPA|fo|/jɛaː/}}
+* {{rhymes|fo|ɛaː|s=1}}
+
+===Adverb===
+{{fo-adv}}
+
+# [[yes]]
+
+====Antonyms====
+* {{l|fo|nei}}, {{l|fo|neiggj}}
+
+====Related terms====
+* {{l|fo|jú}}, {{l|fo|júgv}}
+
+===Noun===
+{{fo-noun|n|jas|ja}}
+
+# {{l|en|yes}}
+
+====Declension====
+{{fo-decl-noun-n3|ja}}
+
+{{cln|fo|phrasebook}}
+
+==Finnish==
+
+===Etymology===
+From {{inh|fi|urj-fin-pro|*ja}} (compare {{cog|et|ja}}, {{cog|izh|ja}}, {{cog|liv|ja}}, {{cog|vot|ja}}), borrowed from {{der|fi|gem-pro|*jahw|t=and}} (compare {{cog|got|𐌾𐌰𐌷}}, {{cog|goh|ja}}, {{m|goh|joh}}). Attested {{fi-attest|agricola}}.<ref>{{R:Hakkinen 2005}}</ref>
+
+===Pronunciation===
+{{fi-pronunciation|a=Fi-ja.ogg}}
+
+===Conjunction===
+{{head-lite|fi|conjunctions}}
+
+# {{lb|fi|coordinating}} [[and]]
+#: {{syn|fi|sekä|qq1=see note|ynnä|qq2=dated|plus|qq3=informal}}
+#: {{uxi|fi|Siellä oli poikia '''ja''' tyttöjä.|There were boys '''and''' girls there.}}
+#: {{uxi|fi|Menin kotiin '''ja''' aloin soittaa pianoa.|I went home '''and''' started playing the piano.}}
+#: {{uxi|fi|Iltapalaksi on leipää, juustoa, kinkkua, tomaattia '''ja''' maitoa.|For supper we have bread, cheese, ham, tomato '''and''' milk.}}
+#: {{uxi|fi|Mies juoksee '''ja''' juoksee.|The man runs '''and''' runs.}}
+#: {{uxi|fi|'''Ja''' sitten alkoi sataa.|'''And''' then it started raining.}}
+#: {{uxi|fi|Mene '''ja''' tiedä.|Go figure.|lit=Go '''and''' know.}}
+#: {{uxi|fi|viisi '''ja''' puoli|five '''and''' a half}}
+#: {{uxi|fi|ensimmäisen '''ja''' viimeisen kerran|for the first '''and''' the last time}}
+
+====Usage notes====
+* On the differences between {{m-lite|fi||ja}} and {{m-lite|fi|sekä}}:
+** {{m-lite|fi||ja}} can be used more widely than {{m-lite|fi|sekä}}. As an example, {{m-lite|fi||sekä}} may not be used to join two independent clauses.
+**: {{uxi|fi|Vaahdota voi '''sekä''' sokeri <u>'''ja'''</u> sekoita joukkoon kuivat aineet.|Cream the butter '''and''' sugar, '''and''' mix in the dry ingredients.}}
+** {{m-lite|fi||sekä}} has a nuance of the things being more separate than with {{m-lite|fi||ja}}. If both words are used, {{m-lite|fi||ja}} ties things closer together than {{m-lite|fi||sekä}}.
+**: {{uxi|fi|mansikka- <u>'''ja'''</u> vadelmahillo '''sekä''' muut hedelmäsäilykkeet|strawberry <u>'''and'''</u> raspberry jam '''as well as''' other fruit preserves}}
+** In legal language, {{m-lite|fi||ja}} and {{m-lite|fi|sekä}} are distinguished more clearly. {{m-lite|fi||sekä}} is considered "stronger" than {{m-lite|fi||ja}}. For example, an attribute specified before a list will apply to every item with {{m-lite|fi||ja}}, but not with {{m-lite|fi||sekä}}.
+**: {{uxi|fi|paineella tyhjennettävät <u>'''ja'''</u> täytettävät säiliöt|containers that can be filled '''and''' emptied under pressure|footer== containers that are both filled and emptied under pressure}}
+**: {{uxi|fi|paineella tyhjennettävät <u>'''sekä'''</u> täytettävät säiliöt|containers that can be filled '''and''' emptied under pressure|footer== containers that are emptied under pressure, and which can be filled either under pressure or not}}
+
+===Adverb===
+{{head-lite|fi|adverbs}}
+
+# {{lb|fi|dialectal}} [[also]], [[as well]] {{lb|fi|!primarily|Southwest|Satakunta|Tavastia|Uusimaa|Kymenlaakso|South Karelia}}
+#: {{syn|fi|-kin|myös}}
+
+===Noun===
+{{head-lite|fi|nouns}}
+
+# [[AND]] {{gloss|logic gate or connector}}
+
+====Usage notes====
+Often spelled in capital letters ({{m-lite|fi||JA}}).
+
+====Declension====
+Not inflected. If inflection is necessary, it is used as the first component in a compound, such as {{m-lite|fi|JA-portti||AND gate}}, and {{m-lite|fi|portti}} is then inflected.
+
+===References===
+<references />
+
+===Further reading===
+* {{R:fi:KTSK|accessdate=2023-07-02}}
+
+{{catlangname|fi|coordinating conjunctions|2-letter words}}
+
+==Franco-Provençal==
+
+===Etymology===
+{{inh+|frp|la|iam}}.
+
+===Adverb===
+{{frp-adv}} {{tlb|frp|orbl}}
+
+# [[already]]
+
+===References===
+* {{R:frp:DFP|déjà}}
+* {{R:frp:LTA|15875}}
+
+==Garo==
+
+===Etymology===
+{{rfe|grt}}
+
+===Noun===
+{{head|grt|noun}}
+
+# [[month]]
+
+====Synonyms====
+* {{l|grt|mas}}
+
+{{C|grt|Time}}
+
+==German==
+
+===Etymology===
+{{etymon|de|id=yes|:inh|gmh:ja<id:yes><ety:inh<goh:ja<id:yes><ety:inh<gem-pro:*ja<id:yes>>>>>}}
+From {{inh|de|gmh|ja}}, from {{inh|de|goh|ja|ja, jā|yes}}, from {{inh|de|gem-pro|*ja|t=yes}}. Cognate with {{cog|yi|יאָ}}.
+
+===Pronunciation===
+* {{IPA|de|[jäː]|aa=Standard, overall more common}}
+* {{IPA|de|[ʝäː]|aa=standard, overall less common}}
+* {{audio|de|De-ja.ogg}}
+* {{audio|de|CPIDL German - Ja.ogg}}
+* {{IPA|de|[jɑː]|aa=Austrian German}}
+* {{IPA|de|[jɒ~jɔ]|aa=Austrian German, common in casual speech as an influence of the Austro-Bavarian language}}
+* {{rhymes|de|aː|s=1}}
+* {{homophone|de|Jahr}} {{a|de|according to a widespread pronunciation of this word}}
+
+===Adverb===
+{{de-adv}} {{tlb|de|modal particle}}
+
+# [[obviously]]; [[certainly]]; [[of course]]; as you know; as is generally known {{n-g|(indicates and emphasises that one is expressing an established fact)}}
+#: {{syn|de|doch|bekanntlich|bekanntermaßen}}
+#: {{uxi|de|Es kann '''ja''' nicht immer so bleiben.|It '''obviously''' cannot always remain so.}}
+#: {{uxi|de|Der Peter war '''ja''' gestern krank.|Peter was sick yesterday, '''as you know'''.}}
+# {{lb|de|informal}} under any [[circumstances]], [[for certain|for (absolute) certain]] {{q|often with the implication of pettiness, insecurity or overblown fear regarding the issue one wants certainty on}}
+#: {{ux|de|Er fragt jedes Mal mindestens fünf Mal nach, um auch '''ja''' alles richtig zu machen.|Eery time, he asks to make sure at least five times to '''be absolutely positively sure''' that he does it all correctly.}}
+#: {{ux|de|Wenn der Lehrer eine Frage stellt, schauen alle auf den Boden und hoffen, '''ja''' nicht aufgerufen zu werden.|When the teacher asks a question, everybody's staring at the ground, hoping to not get called on '''under any circumstances'''.}}
+#* {{quote-newsgroup|de|date=1999-08-08|author=Hosse & Schwarzkopf|title=Gestose|newsgroup=de.sci.medizin.misc|url=https://groups.google.com/g/de.sci.medizin.misc/c/iOWz0DcZt4c/m/ewZR1kMKf30J|text=Ihrer Meinung nach darf ich jetzt nicht mehr soviel Flüssigkeit (höchstens 2 Liter) und Salz zu mir nehmen, damit ich '''ja''' keine Gestose entwickele.|t=In her opinion I shouldn't be consuming as much fluid (2 liters max) and salt now anymore, so that I won't develop gestosis '''under any circumstances'''.}}
+## [[had better]]; {{n-g|used to reinforce an imperative or other order with an implied threat, especially by an authority figure}}.
+##: {{ux|de|Komm '''ja''' nicht zu spät nach Hause!|You''''d better''' not be late in coming back home!}}
+
+====Usage notes====
+* In the sense of "obviously", it is always unstressed; while in the sense of "under any circumstances" it is always stressed.
+* {{sense|obviously}} {{m|de||Ja}} means roughly the same as English ''obviously'' or ''as you know'', but given its shortness it is used much more frequently. In colloquial German, {{m|de||ja}} is used in most statements of facts already known to the one addressed.
+
+===Interjection===
+{{head|de|interjection}}
+
+# [[yes]]; [[yea]]; [[yeah]]; [[aye]]
+#: {{syn|de|jawohl}}
+#: {{ant|de|nein}}
+#: {{ux|de|Willst du das? '''Ja'''.|Do you want that? '''Yes'''.|inline=y}}
+#: {{ux|de|Aber '''ja'''!|'''Yes''', of course!|inline=y}}
+
+====Usage notes====
+* {{m|de||Ja}} is used to indicate agreement with a positive statement. To contradict a negative statement (where English would use “yes”), {{m|de|doch}} is used instead.
+
+====Derived terms====
+* {{l|de|bejahen}}
+* {{l|de|Ja}}
+* {{l|de|jap}}
+* {{l|de|jein}}
+
+===Further reading===
+* {{R:de:Duden}}
+* {{R:de:DWDS}}
+
+{{cln|de|modal particles|phrasebook}}
+
+==Gothic==
+
+===Romanization===
+{{got-rom}}
+
+# {{romanization of|got|𐌾𐌰}}
+
+==Guerrero Amuzgo==
+
+===Adjective===
+{{head|amu|adjective}}
+
+# [[heavy]]
+
+===Pronoun===
+{{head|amu|pronoun}}
+
+# [[I]]
+
+==Gutnish==
+
+===Pronunciation===
+* {{IPA|gmq-gut|/jaː/|[jɑː]}}
+
+===Etymology 1===
+From {{inh|gmq-gut|gmq-ogt|iek}}, from {{inh|gmq-gut|non|ek}}. Compare {{cog|sv|jag}}.
+
+====Alternative forms====
+* {{l|gmq-gut|jag}} (''Fårö and Lau dialects'')
+
+====Pronoun====
+{{head|gmq-gut|pronoun}}
+
+# [[I]] (''first-person singular pronoun'')
+
+=====Inflection=====
+{|class="wikitable"
+!
+!''inflection of "ja"''
+|-
+|'''subject'''
+|[[ja]]
+|-
+|'''object'''
+|{{l|gmq-gut|mi}}
+|-
+|'''possessive'''
+|{{l|gmq-gut|min}}, {{l|gmq-gut|mein}}, {{l|gmq-gut|mitt}}, {{l|gmq-gut|meine}}
+|}
+
+===Etymology 2===
+From {{inh|gmq-gut|non|já}}.
+
+====Adverb====
+{{head|gmq-gut|adverb}}
+
+# [[yes]]
+
+=====Usage notes=====
+Uncertain or stalling answer; {{l|gmq-gut|jo}} is used for yes-no questions
+
+=====Related terms=====
+* {{lb|gmq-gut|used for yes-no questions}} {{l|gmq-gut|jo}}, {{l|gmq-gut|jå}} (''Lau dialect'')
+
+====Interjection====
+{{head|gmq-gut|interjection}}
+
+# [[yes]]
+
+===References===
+* "[http://www.gutamal.org/ordlista/?ord=ja&sok=S%C3%B6k&sprak=gutniska&urval=exakt ja]" in ''Gutamålgildes Årdliste''
+* "[https://web.archive.org/web/20180104112705/http://ielex.mpi.nl/lexeme/34318/ ja] in ''Gustavson, H. (red.). 1972-1986. Ordbok över Laumålet på Gotland. Uppsala: AB Lundequistska Bokhandeln.''
+
+==Hausa==
+
+===Pronunciation===
+* {{ha-IPA|jā}}
+
+===Adjective===
+{{ha-adj|jā|jā|jājā̀yē}}
+
+# [[red]]
+
+{{C|ha|Colors}}
+
+==Hungarian==
+
+===Pronunciation===
+* {{hu-IPA|ja|jaː}} (the long pronunciation is used in case of great surprise)
+* {{audio|hu|Hu-ja.ogg}}
+* {{rhymes|hu|jɒ|s=1}}
+
+===Interjection===
+{{head|hu|interjection}}
+
+# {{lb|hu|informal}} [[yep]] {{gloss|indicates agreement, approval, or understanding}}
+#: {{syn|hu|aha|ühüm|jaja}}
+#: {{ux|hu|Jössz holnap a meccsre? – '''Ja.'''|“Are you coming to the game tomorrow?” “Yep.”}}
+# {{lb|hu|informal}} [[oh]] {{gloss|indicates understanding something finally after a misunderstanding or confusion}}
+#: {{ux|hu|Este nem jár a vonat. – '''Ja''', hát akkor menjünk busszal!|“No train is leaving in the evening.” “'''Oh''', well then let's travel by bus!”}}
+#: {{ux|hu|Ezt nem is Miki küldte! – '''Ja''', lehet, hogy én értettem félre.|“This was not sent by Miki!” “'''Oh''', then I must have misunderstood it.”}}
+
+===Further reading===
+* {{R:ErtSz|1|yep, oh}}
+* {{R:ErtSz|2|indeed, actually, as a matter of fact}}
+
+{{cln|hu|2-letter words}}
+
+==Ido==
+
+===Etymology===
+{{io-bor||déjà||già||ya|nodot=1}}, from {{der|io|la|iam}}, replacing {{cog|eo|jam}} which is cognate. {{progreso|987|vol=6|p=216}}
+
+===Pronunciation===
+{{io-IPA}}
+
+===Adverb===
+{{io-adv}}
+
+# {{l|en|already}}
+#: {{ux|io|Lu '''ja''' dormeskis.|He/she has '''already''' fallen asleep.}}
+
+====Derived terms====
+* {{l|io|ne ja||not yet; not even}}
+
+====Related terms====
+* {{l|io|ya}}
+
+===References===
+* {{R:io:Progreso|3|p=557|p2=691}}
+* {{R:io:Progreso|6|p=164|pdfp=216}}
+
+==Ikizu==
+
+===Etymology===
+{{inh+|ikz|bnt-pro|*-gɪ̀a}}.
+
+===Verb===
+{{head|ikz|verb|head=-ja|infinitive|ukuja}}
+
+# to [[go]]
+
+===References===
+* {{cite-web|last=Walker|first=John B.|year=2017|work=Ikizu-Sizaki - Swahili - English Dictionary.|publisher=SIL International|url=https://www.webonary.org/ikizu}}
+
+==Ingrian==
+
+===Etymology 1===
+{{dercat|izh|gem-pro|ine-pro}}
+From {{inh|izh|urj-fin-pro|*ja}}. Cognates include {{cog|fi|ja}} and {{cog|et|ja}}.
+
+====Pronunciation====
+* {{izh-p}}
+
+====Conjunction====
+{{head|izh|conjunction}}
+
+# [[and]]
+#* {{RQ:izh:Bukvari:1936|Kiko '''ja''' Miko jo uijuut.|Kiko '''and''' Miko are already swimming.|page=25}}
+
+=====Synonyms=====
+* {{l|izh|i}}, {{l|izh|da}}
+
+====Adverb====
+{{head|izh|adverb}}
+
+# [[also]], [[too]]
+#* {{RQ:izh:Lukukirja-1:1936|On meil hyvät mașinistat -<br /> paravozat ollaa '''ja'''.|We have good engine drivers -<br /> we have steam locomotives, '''too'''.|page=3}}
+
+=====Synonyms=====
+* {{l|izh|kera}}, {{l|izh|tože}}, {{l|izh|i}}
+
+=====Derived terms=====
+{{col4|izh
+|ja niin etes}}
+
+===Etymology 2===
+Ultimately from a {{der|izh|gem|-}} language, from {{der|izh|gem-pro|*ja}} (compare {{ncog|sv|ja}} and {{ncog|de|ja}}). Cognates include {{cog|fi|jaa}} and {{cog|et|jah}}, {{m|et|jaa}}.
+
+====Pronunciation====
+* {{izh-p}}
+
+====Particle====
+{{head|izh|particle}}
+
+# [[yes]]
+#* {{RQ:izh:Oppikirja-2:1936|Onok se maa teil?<br />- '''Ja''', ono.|Is that your land?<br />'''Yes''', it is.|page=42}}
+
+=====Synonyms=====
+* {{l|izh|niin}}
+
+=====Antonyms=====
+* {{l|izh|ei}}
+
+===References===
+* {{R:izh:Nirvi:1971|page=99}}
+* {{R:izh:Konkova:2014|page=79}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{Latn-def|ja|syllable|じゃ|ジャ|ja}}
+# {{Latn-def|ja|syllable|ぢゃ|ヂャ|ja}}
+
+==Kashubian==
+
+===Etymology===
+{{ety|csb|:bor|de:ja|text=+|tree=1}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Particle===
+{{head|csb|particle}}
+
+# {{lb|csb|Canada|United States|New Zealand}} [[yes]]
+#: {{syn|csb|szur<q:United States>}}
+
+===Further reading===
+* {{R:csb:Frymark:2020}}
+
+==Kwanyama==
+
+===Etymology===
+{{inh+|kj|bnt-pro|*-gɪ̀a||to go}}.
+
+===Verb===
+{{head|kj|verb}}
+
+# to [[go]]
+
+===References===
+* {{R:kj:Tobias:1965|page=78}}
+
+==Latvian==
+
+===Etymology===
+Compare {{cog|lt|jei}}. {{rfe|lv}}
+
+===Pronunciation===
+{{rfap|lv}}
+
+===Conjunction===
+{{head|lv|conjunction}}
+
+# [[if]]
+# [[in case]]
+
+==Lithuanian==
+
+===Pronoun===
+{{head|lt|pronoun form|g=f}}
+
+# {{infl of|lt|ji||3s|ins}}
+
+==Livonian==
+
+===Etymology===
+From {{inh|liv|urj-fin-pro|*ja}}.
+
+===Pronunciation===
+{{liv-p}}
+
+===Adverb===
+{{head|liv|adverb}}
+
+# [[and]]
+#: {{syn|liv|un}}
+
+===References===
+* {{R:liv:LEL|ja}}
+
+==Lower Sorbian==
+
+===Etymology===
+From {{inh|dsb|sla-pro|*(j)azъ}}, from {{inh|dsb|ine-pro|*eǵh₂óm}}.
+
+===Pronoun===
+{{head|dsb|pronoun|g=s}}
+
+# {{l|en|I}}
+
+====Declension====
+{{dsb-decl-pron-58}}
+
+==Lule Sami==
+
+===Etymology===
+From {{der|smj|gem-pro|*jahw|t=and}}.
+
+===Conjunction===
+{{head|smj|conjunction|cat2=coordinating conjunctions}}
+
+# [[and]]
+
+====Further reading====
+* {{R:Álgu|44670}}
+
+==Maltese==
+
+===Etymology===
+{{ety|mt|:inh|ar:يَا|text=+|tree=1}}
+
+===Pronunciation===
+* {{IPA|mt|/jaː/}}
+* Usually unstressed and then automatically shortened to {{IPAchar|/ja/}}.
+
+===Particle===
+{{mt-head|particle}}
+
+# {{ng|vocative particle}}; [[oh]]!; [[you]]!
+#: {{uxa|mt|'''Ja''' Mulejja!|'''Oh''' my Lord!}}
+#: {{uxa|mt|'''Ja''' iblah!|'''You''' idiot!}}
+#* {{quote-book|mt
+|author=w:Anton Buttigieg
+|year=1998
+|title=Żibeġ u Boċċi
+|chapter=Lill-Qamar
+|text=Stagħnejt, '''ja''' Qamar,<br/>dal-lejl bil-poeżija<br/>tar-realtà.
+}}
+
+====Usage notes====
+* While not obligatory even in standard Arabic, the vocative particle is predominantly omitted in Maltese. It does remain a common word, however, especially when equivalent to English “you”.
+
+==Mbati==
+
+===Noun===
+{{head|mdn|noun}}
+
+# [[drought]], [[famine]]
+
+===References===
+* {{cite-journal|last=LePage|first=Sarah Gloria|work="The phonology of Mbati"|year=2020|publisher=University of North Dakota|url=https://commons.und.edu/theses/3379}}
+
+==Ngarla==
+
+===Pronunciation===
+* {{IPA|nrk|/d͡ʒa/}}
+
+===Verb===
+{{head|nrk|verb}}
+
+# A [[causative]] verbaliser
+
+====Declension====
+{{nrk-conj-rri}}
+
+====Derived terms====
+{{col|nrk
+|title=Terms derived from ''ja''
+|julya ja
+|wiiny ja
+|kurlku ja
+|munyjany ja
+|mintu ja
+|marlirri ja
+}}
+
+===References===
+* Westerlund, T. (2007). ''A grammatical sketch of Ngarla: A language of Western Australia''. Uppsala University.
+
+==North Frisian==
+
+===Etymology===
+Compare {{cog|fy|hja}}.
+
+===Pronunciation===
+* {{IPA|frr|[ja]}}
+
+===Pronoun===
+{{head|frr|pronoun}}
+
+# {{ng|third-person plural personal pronoun}}
+## {{lb|frr|Mooring|Sylt}} {{l|en|they}} {{q|subject case}}
+## {{lb|frr|Mooring}} {{l|en|them}}, {{l|en|themselves}} {{q|object case}}
+
+====Alternative forms====
+* {{alt|frr|'s||reduced form}}
+* {{sense|them}} {{alt|frr|jam||Sylt|also Mooring alternatively}}
+* {{alt|frr|jo||Föhr-Amrum}}
+* {{alt|frr|djo||Heligoland}}, {{alt|frr|jä||Halligen|Wiedingharde|Hoorning}}
+
+===See also===
+{{frr-personal pronouns/Mooring}}
+{{frr-personal pronouns/Sylt}}
+
+==Northern Sami==
+
+===Etymology===
+From {{der|se|gem-pro|*jahw|t=and}}.
+
+===Pronunciation===
+* {{se-IPA}}
+
+===Conjunction===
+{{head|se|conjunction|cat2=coordinating conjunctions}}
+
+# [[and]]
+
+====Further reading====
+* {{R:Álgu|31376}}
+
+==Northern Sotho==
+
+===Etymology===
+From {{inh|nso|bnt-pro|*-dɪ́a}}.
+
+===Verb===
+{{head|nso|verb}}
+
+# to [[eat]]
+
+==Norwegian Bokmål==
+
+===Etymology===
+From {{der|nb|non|já}}.
+
+===Pronunciation===
+* {{IPA|nb|/jɑː/}}
+* {{audio|nb|No-ja.ogg}}
+
+===Adverb===
+{{head|nb|adverb}}
+
+# [[yes]]
+
+====Antonyms====
+* {{l|nb|nei}}
+
+====Related terms====
+* {{l|nb|jo}}
+* {{l|no|jaja}}
+* {{l|no|jada}}
+
+===Interjection===
+{{head|nb|interjection}}
+
+# [[yes]]
+
+===Noun===
+{{nb-noun-n3}}
+
+# [[yes]]
+
+===References===
+* {{R:nb:OB}}
+
+==Norwegian Nynorsk==
+
+===Etymology===
+From {{der|nn|non|já}}.
+
+===Pronunciation===
+* {{IPA|nn|/jɑː/}}
+* {{audio|nn|Ja ingressive.ogg}} {{q|juxtaposed with ingressive}}
+
+===Adverb===
+{{head|nn|adverb}}
+
+# [[yes]]
+
+====Antonyms====
+* {{l|nn|nei}}
+
+====Related terms====
+* {{l|nn|jo}}
+
+===Interjection===
+{{head|nn|interjection}}
+
+# [[yes]]
+
+====Usage notes====
+Depending on context, may be pronounced by some speakers through inhaling, like Northern Swedish [[w:sv:inandnings-jo|inhaling jo]] (although not making the same sound as the Swedish one).
+
+===Noun===
+{{nn-noun-n1}}
+
+# [[yes]]
+
+===References===
+* {{R:nn:OB}}
+
+==Old French==
+
+===Etymology===
+From {{inh|fro|la|iam}}.
+
+===Pronunciation===
+* {{IPA|fro|/ˈdʒa/|a=classical}}
+* {{IPA|fro|/ˈʒa/|a=late}}
+
+===Adverb===
+{{fro-adv}}
+
+# [[already]]
+# [[as soon as possible]]
+# [[quickly]]
+# {{lb|fro|with "ne"}} [[never]]
+
+===References===
+* {{R:Godefroy}}
+
+==Old Polish==
+
+===Pronunciation===
+* {{zlw-opl-IPA|ja:}}
+
+===Etymology 1===
+{{etymon|zlw-opl|id=1sg|:inh|sla-pro:*(j)ãzъ<id:1sg>|tree=1|text=+}}. {{etydate|13th century}}.
+
+====Pronoun====
+{{head|zlw-opl|pronouns}}
+
+# {{ng|first-person pronoun}}; [[I]]
+
+=====Declension=====
+{{zlw-opl-decl-ja}}
+
+=====Alternative forms=====
+* {{alt|zlw-opl|jaz}}
+
+=====Descendants=====
+* {{desc|pl|ja|id=pronoun}}
+* {{desc|szl|jŏ}}
+
+===Etymology 2===
+{{rfe|zlw-opl}}
+
+====Interjection====
+{{head|zlw-opl|interjections}}
+
+# {{lb|zlw-opl|reduplicated}} {{def-uncertain|zlw-opl}}
+## the name of some [[idol]]
+
+===References===
+* {{R:zlw-opl:SPJSP||3455}}
+* {{R:zlw-opl:SPJSP||3456}}
+
+==Old Saxon==
+
+===Alternative forms===
+* {{alter|osx|ia}}
+* {{alter|osx|gia}}
+
+===Etymology===
+from {{inh|osx|gem-pro|*ja|t=yes}}.
+
+===Interjection===
+{{head|osx|interjection}}
+
+# [[yes]]
+#* '''9th c.''' ''{{w|Heliand}}'', verse 1522-1523
+#*: {{quote|osx|...queđe '''iā''', gef it sī, [geha] thes thār wār is, queđe nēn, af it nis, [lāta] im genōg an thiu;...|...say '''yes''', if it be, confess of that where the truth is, say no, if it is not, let enough (for) him in that;...}}
+
+====Antonyms====
+* {{l|osx|nen}}
+
+====References====
+{{R:osx:Kobler}}
+
+==Pennsylvania German==
+
+===Alternative forms===
+* {{l|pdc|ya}}
+
+===Etymology===
+Compare {{cog|de|ja}}, {{cog|nl|ja}}, {{cog|sv|ja}}.
+
+===Interjection===
+{{head|pdc|interjection}}
+
+# [[yes]], [[yeah]]
+
+==Pite Sami==
+
+===Etymology===
+From {{der|sje|gem-pro|*jahw|t=and}}.
+
+===Conjunction===
+{{head|sje|conjunction|cat2=coordinating conjunctions}}
+
+# [[and]]
+
+====Further reading====
+* {{R:sje:BB}}
+* {{R:Álgu|34786}}
+
+==Pnar==
+
+===Etymology===
+From {{inh|pbv|aav-khs-pro|*ʤaː}}. Cognate with {{cog|kha|ja}}.
+
+===Pronunciation===
+* {{IPA|pbv|/d͡ʒa/}}
+
+===Noun===
+{{head|pbv|noun}}
+
+# [[cooked]] [[rice]]
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=Pl-ja.ogg;LL-Q809 (pol)-Olaf-#.wav;LL-Q809 (pol)-Krokus-#.wav|mp=já|zyw=#}}
+
+===Etymology 1===
+{{etymon|pl|id=1sg|:inh|zlw-opl:ja<id:1sg>|tree=1|text=+}} {{dbt|pl|ego}}.
+
+====Alternative forms====
+* {{alt|pl|jo||dialectal|Zagórze}}
+
+====Pronoun====
+{{head|pl|pronoun}}
+
+# {{ng|first-person pronoun}}; [[I]]
+#: {{uxi|pl|'''Ja''' chcę mieć przyjaciół.|t='''I''' want to have friends.}}
+
+=====Usage notes=====
+The mute forms {{m|pl|mię}} and {{m|pl|mi}} cannot be used in accented positions in the sentence. {{m|pl|mię|Mię}} is considered dated in standard Polish but can still be heard commonly in some dialects or in colloquial speech.
+
+=====Declension=====
+{{pl-decl-noun
+|ja|my
+|mnie/mię|nas
+|mnie/mi|nam
+|mnie/mię|nas
+|mną|nami
+|mnie|nas
+}}
+
+=====Derived terms=====
+{{col|pl|title=noun|jaźń}}
+{{col|pl|title=particle|bo ja wiem}}
+
+====See also====
+* {{l|pl|Appendix:Polish pronouns}}
+
+====Trivia====
+{{pl-freq 1990|16|2|84|892|2034|3028|15|159|1}}
+
+===Etymology 2===
+See {{m|pl|jo}}.
+
+====Particle====
+{{head|pl|particle}}
+
+# {{lb|pl|Żywiec}} {{alt form|pl|jo}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|ja|55388}}
+* {{R:pl:SXVII|JA|11107|date=04.09.2019}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||119|2}}
+* {{R:pl:Rzeszowski:1891||356}}
+
+==Portuguese==
+
+===Adverb===
+{{pt-adv|hascomp=no}}
+
+# {{obsolete spelling of|pt|já}}
+
+==Russenorsk==
+
+===Etymology===
+From {{inh|crp-rsn|ru|я}}. May also be a Russianized form of Danish {{m|da|jeg}} or Swedish {{m|sv|jag}}.
+
+===Pronoun===
+{{head|crp-rsn|pronoun}}
+
+# [[I]] (''pronoun'')
+
+====Synonyms====
+* {{l|crp-rsn|moja}}
+
+===References===
+* {{R:crp-rsn:Broch:1984}}
+
+==Rwanda-Rundi==
+
+===Alternative forms===
+* {{alter|rw|jya|alt1=-jya||Rwanda}}
+
+===Etymology===
+{{inh+|rw|bnt-pro|*-gɪ̀a}}.
+
+===Verb===
+{{rw-verb|ja|gīye}}
+
+# {{lb|rw|Kirundi}} to [[go]] to
+
+==Serbo-Croatian==
+
+===Etymology 1===
+{{inh+|sh|sla-pro|*(j)azъ}}, from {{inh|sh|ine-bsl-pro|*ēź-}}, from {{inh|sh|ine-pro|*éǵh₂}}.
+
+====Pronunciation====
+* {{IPA|sh|/jâː/}}
+* {{audio|sh|LL-Q9299 (srp)-Yogosp-ja.wav|Audio (Central Serbia)}}
+
+====Pronoun====
+{{sh-pron|jȃ}}
+
+# [[I]]
+#: {{ux|sh|'''Ja''' sam učio.|'''I''' have studied.|inline=y}}
+
+=====Declension=====
+{{sh-decl-noun
+|ns={{l|sh|jȃ}}
+|np={{l|sh|mȋ}}
+|gs={{l|sh|mȅne}}, {{l|sh|me}}
+|gp={{l|sh|nȃs}}
+|ds={{l|sh|mȅni}}, {{l|sh|mi}}
+|dp={{l|sh|nȁma}}, {{l|sh|nam}}
+|as={{l|sh|mȅne}}, {{l|sh|me}}
+|ap={{l|sh|nȃs}}
+|vp={{l|sh|mȋ}}
+|ls={{l|sh|mȅni}}
+|lp={{l|sh|nȁma}}
+|is={{l|sh|mnȏm}}, {{l|sh|mnóme}}
+|ip={{l|sh|nȁma}}
+}}
+
+====See also====
+{{sh-personal pronouns|Latn}}
+
+===Etymology 2===
+{{bor+|sh|de|ja}}.
+
+====Pronunciation====
+* {{IPA|sh|/jâ/}}
+
+====Adverb====
+{{sh-adv|jȁ}}
+
+# {{lb|sh|colloquial|regional}} [[yes]], [[yeah]]
+
+===Etymology 3===
+
+====Interjection====
+{{head|sh|interjection}}
+
+# {{archaic form of|sh|jao}}
+#* {{quote-book|sh|year=1891|author=Vuk Stefanović Karadžić|title=Srpske narodne pjesme
+|passage='''Ja''' Ivane, mio pobratime!
+|translation='''O woe''', Ivan, dear blood-brother!}}
+
+{{cln|sh|personal pronouns}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:bor|de:ja|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Particle===
+{{head|szl|particle}}
+
+# [[yes]]
+#: {{ant|szl|niy}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Slovak==
+
+===Etymology===
+{{ety|sk|:inh|sla-pro:*(j)a<ety:inh<ine-pro:*éǵh₂>>|text=2|tree=1}}
+
+===Pronunciation===
+* {{sk-IPA}}
+* {{audio|sk|LL-Q9058 (slk)-TomášPolonec-ja.wav}}
+
+===Pronoun===
+{{head|sk|pronoun}}
+
+# [[I]]
+
+====Usage notes====
+* Following prepositions, {{l|sk|ma}} and {{l|sk|mi}} are replaced by {{l|sk|mňa}} and {{l|sk|mne}} respectively.
+
+====Declension====
+{{sk-decl-noun-sg|ja|mňa//ma|mne//mi|mňa//ma|mne|mnou}}
+
+====Related terms====
+{{sk-personal pronouns}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+===Anagrams===
+* {{l|sk|aj}}
+
+==Slovene==
+{{phrasebook|sl}}
+
+===Etymology 1===
+Borrowed from {{bor|sl|de|ja}}.
+
+====Pronunciation====
+* {{sl-IPA|jā}}
+
+====Particle====
+{{sl-head|particle|jā}}
+
+# {{lb|sl|informal}} [[yes]]
+#: {{syn|sl|dȁ}}
+#: {{ant|sl|nȅ}}
+
+===Etymology 2===
+
+====Pronoun====
+{{sl-head|pron|?}}
+
+# {{lb|sl|dialectal}} {{alternative form of|sl|jȁz}}
+#: {{uxi|sl|'''Ja''' sem Slovenec.|'''I''' am Slovenian.}}
+
+===Further reading===
+* {{R:sl:Fran}}
+
+==Sotho==
+
+===Etymology===
+From {{inh|st|bnt-pro|*-dɪ́a}}.
+
+===Verb===
+{{head|st|verb}}
+
+# to [[eat]]
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr}}
+
+===Interjection===
+{{head|es|interjection}}
+
+# representation of laughter, [[ha]]
+#: Also used repeatedly: ''jaja'', ''jajaja''
+
+====Derived terms====
+{{col|es|ja ja ja}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Swahili==
+
+===Etymology===
+{{etymon|sw|:inh|bnt-sab-pro:*i̧ja<alt:*-i̧ja>|text=++}}
+
+In Sabaki, cognate with {{cog|zdj|dja|-dja}} and {{cog|nyf|dza|-dza}}. Other Bantu cognates include {{cog|rw|za|-za}} and {{cog|zu|za|-za}}.
+
+===Pronunciation===
+* {{audio|sw|Sw-ke-ja.flac|a=Kenya}}
+
+===Verb===
+{{sw-verb}}
+
+# to [[come]]
+# [[going to]] {{q|followed by an infinitive, future, or subjunctive verb}}
+
+====Conjugation====
+{{sw-conj|intr=y}}
+
+====Derived terms====
+{{sw-der|appl=jia|nom=mja|nom-g=comer, visitor; male servant|nom2=ujaji|nom-g2=arrival}}
+
+{{cln|sw|auxiliary verbs}}
+
+==Swedish==
+{{rfc|sv}}
+
+===Etymology 1===
+From {{inh|sv|non|já}}, from {{inh|sv|gem-pro|*ja}}.
+
+====Pronunciation====
+; Interjection
+* {{IPA|sv|/jɑː/|/jaː/|q2=Scania|/ja/}}
+* {{audio|sv|Sv-ja.ogg}}
+; Noun
+* {{IPA|sv|/jɑː/|/jaː/|q2=Scania}}
+* {{rhymes|sv|ɑː|s=1}}
+
+====Adverb====
+{{sv-adv|-}}
+
+# [[yes]]
+#: {{syn|sv|japp|jo|sjup}}
+#: {{ant|sv|nej}}
+#* {{quote-song|sv|author=traditional|artist=w:Hootenanny Singers|album={{w|lang=sv|Skillingtryck}}|trans-album=[[w:Broadside ballad|Broadside ballads]]|title=w:sv:I fjol så gick jag med herrarna i hagen|trans-title=Last Year I Went With the Men in the Pasture|url=https://www.youtube.com/watch?v=27MaBDlNZU8|text=I fjol {{l|sv|så|id=adverbial filler}} gick jag med herrarna i hagen. '''Ja''', '''ja''', med herrarna i hagen. '''Ja''', med herrarna i hagen. I år har jag något som sparkar i magen. Aj, aj, som sparkar i magen. Aj, som sparkar i magen.|t=Last year I went with the men in the pasture. '''Yes''', '''yes''', with the men in the pasture. '''Yes''', with the men in the pasture. This year I have something that kicks in my belly. Ow, ow, that kicks in my belly. Ow, that kicks in my belly.}}
+
+=====Related terms=====
+* {{l|sv|aa}}, {{l|sv|nja}}, {{l|sv|tja}}, {{l|sv|jadå}}, {{l|sv|jaha}}, {{l|sv|jaja}}
+
+====Noun====
+{{sv-noun|n}}
+
+# a [[yes]], an [[aye]]; a positive answer or vote
+
+=====Declension=====
+{{sv-noun-unc-irreg-n|2=jaet}}
+
+===Etymology 2===
+See {{l|sv|jag}}.
+
+====Pronunciation====
+* {{IPA|sv|/jɑː/}}
+
+====Pronoun====
+{{head|sv|pronoun}}
+
+# {{lb|sv|colloquial|text messaging}} {{pronunciation spelling of|sv|jag}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+* {{R:svenska.se|saob}}
+
+===Anagrams===
+* {{anagrams|sv|a=aj|aj}}
+
+==Tswana==
+
+===Etymology===
+From {{inh|tn|bnt-pro|*-dɪ́a}}.
+
+===Pronunciation===
+* {{IPA|tn|/dʒa/}}
+
+===Verb===
+{{head|tn|verb|head=ja|past|[[jele|jelê]]}}
+
+# to [[eat]]
+Re jele bogobe maabane - We ate bogobe yesterday.
+
+==Tz'utujil==
+
+===Alternative forms===
+* {{l|tzj|jar}}
+
+===Article===
+{{head|tzj|article}}
+
+# [[the]]
+
+==Upper Sorbian==
+
+===Etymology===
+{{etymon|hsb|:inh|sla-pro:*(j)ãzъ|text=1|tree=1}} Cognate with {{cog|dsb|ja}}.
+
+===Pronunciation===
+{{hsb-pr}}
+
+===Pronoun===
+{{head|hsb|pronoun|cat2=personal pronouns}}
+
+# [[I]]
+#* {{RQ:hsb:Kaponica:2019|Ta taflička so '''mi''' scyła njelubi a twjerdźu, zo by wjele lěpje było, hdy bychu ju wotstronili.|'''I''' don't like the sign at all and I maintain that it would be much better if they had removed it.|page=21}}
+
+====Declension====
+{{hsb-decl-pron-58}}
+
+===Further reading===
+* {{R:hsb:LSS1866|ja|228}}
+* {{R:hsb:Mudra}}
+* {{R:hsb:Soblex}}
+
+==Votic==
+
+===Etymology===
+From {{inh|vot|urj-fin-pro|*ja}}.
+
+===Pronunciation===
+{{vot-p|J=+|C=+|E=+}}
+
+===Conjunction===
+{{head|vot|conjunction}}
+
+# [[and]]
+#: {{syn|vot|i}}
+
+===References===
+* {{R:vot:VKS|ja}}
+
+==West Flemish==
+
+===Etymology===
+{{inh+|vls|dum|ja}}, from {{inh|vls|odt|*jā}}, from {{inh|vls|gem-pro|*ja}}.
+
+===Pronunciation===
+{{rfp|vls}}
+
+===Adverb===
+{{head|vls|adverb}}
+
+# [[yes]]
+
+====Inflection====
+Contracted forms of ''ja'' with a following personal pronoun are common in West Flemish; thus ''ja ik'' contracts to {{m|vls|joak}}. See {{w|West_Flemish#Conjugation_of_yes_and_no|English Wikipedia}} and {{w|lang=vls|Wikipedia:Vervoegienge van ja, nêe en ols|West Flemish Wikipedia}} for more information. {{attention|vls|table requires cleanup to match rest of Wiktionary}} 
+{| class="wikitable mw-collapsible mw-collapsed" style="text-align: center;"
+|+ {{nowrap|Contractions with personal pronoun}}
+|-
+!!! [[Appendix:Glossary#singular|singular]] !! [[Appendix:Glossary#plural|plural]]
+|-
+! [[Appendix:Glossary#first-person|1st-person]] 
+| {{l|vls|joak}} || {{l|vls|jaaw}}, {{l|vls|jow}}
+|-
+! [[Appendix:Glossary#second-person|2nd-person]] 
+| {{l|vls|joag}}, {{l|vls|joaj}} || {{l|vls|joj}}
+|-
+! [[Appendix:Glossary#third-person|3rd-person]] 
+| {{l|vls|joan}}, {{l|vls|joas}}, {{l|vls|joat}} || {{l|vls|joas}}
+|}
+
+==West Frisian==
+
+===Pronunciation===
+* {{IPA|fy|/ja/|/jaː/}}
+
+===Interjection===
+{{head|fy|interjection}}
+
+# [[yes]]
+
+====Derived terms====
+* {{l|fy|jawis}}
+
+====Further reading====
+* {{R:WFT|45208}}
+
+==West Makian==
+
+===Pronunciation===
+* {{IPA|mqs|/d͡ʒa/}}
+
+===Verb===
+{{head|mqs|verb}}
+
+# {{lb|mqs|intransitive}} to [[cry]]
+
+====Conjugation====
+{{mqs-conj|1}}
+
+===References===
+* {{R:mqs:Voorhoeve:1982}}
+
+==Yao (Africa)==
+
+===Etymology 1===
+{{inh+|yao|bnt-pro|*-gɪ̀a}}.
+
+====Verb====
+{{head|yao|verb|head=-ja|infinitive|kuja|perfective|-jile}}
+
+# to [[go]]
+
+=====Derived terms=====
+* {{l|yao|jawula|-jawula|to go}}
+
+===Etymology 2===
+From {{af|yao|ji|a|alt2=-a|t1=Class 4 pronominal concord|t2=associative particle}} or from {{inh|yao|bnt-pro|*gɪ́á-||Class 4 possessive concord}} used as a particle.
+
+====Particle====
+{{head|yao|particle forms}}
+
+# {{ng|Class 4 inflected form of {{m|yao|a|-a|associative particle}}}}.
+
+=====Derived terms=====
+* {{l|yao|jangalumbana||bad}}
+
+===Etymology 3===
+From {{af|yao|ji|a|alt2=-a|t1=Class 9 pronominal concord|t2=associative particle}} or from {{inh|yao|bnt-pro|*jɪ̀á-||Class 9 possessive concord}} used as a particle.
+
+====Particle====
+{{head|yao|particle forms}}
+
+# {{ng|Class 9 inflected form of {{m|yao|a|-a|associative particle}}}}.
+
+=====Derived terms=====
+* {{l|yao|jangalumbana||bad}}
+
+===References===
+* ''Ciyawo - English Dictionary: Dikishonale ja Ŵakulijiganya''
+* {{R:yao:Dupeyron:1880|page=152}}
+* {{R:yao:Sanderson:1922|page=24}}
+
+==Ye'kwana==
+{{mch-variant}}
+
+===Etymology===
+From {{inh|mch|sai-car-pro|*pa||grandchild}}.
+
+===Pronunciation===
+* {{mch-IPA}}
+
+===Noun===
+{{head|mch|noun|obligatorily possessed; possessed|jadü}}
+
+# [[grandchild]]
+# [[sibling]]’s [[grandchild]]; [[grandnephew]] or [[grandniece]]
+
+===References===
+* {{R:mch:Cáceres|head=ja, jaadi}}
+* {{R:mch:Hall|219, 289, 389|passage=ha:dü 'grandson' {{...}} ----- -ha: -dü 'grandchild' {{...}} ha:dü - grandchild}}
+* {{R:mch:IDS|hādɨ|45}}
+* {{R:mch:Monterrey|62–65, 71, 75|passage=jaadü, jaa'dü, jua'de}}
+
+{{C|mch|Family members}}
+
+==Yoruba==
+
+===Etymology 1===
+{{etymid|yo|fight}}
+Cognate with {{cog|igl|jà|t=to fight}}
+
+====Pronunciation====
+* {{yo-IPA|jà}}
+
+====Verb====
+{{yo-verb|jà}}
+
+# {{lb|yo|intransitive|reciprocal}} to [[fight]], to [[wrestle]], to [[struggle]]
+# {{lb|yo|intransitive}} to [[occur]], to [[take place]], to [[break out]] (as in a war or disease)
+#: {{syn|yo|já}}
+#: {{uxi|yo|ogún '''jà'''|War '''broke out'''}}
+
+=====Usage notes=====
+* '''ja''' before a direct object
+
+=====Derived terms=====
+{{col3|yo
+|ìjà<t:fight, battle>
+|Ìja<t:orisha of hunting>
+|jàkadì<t:to wrestle>
+|ajà<t:fighter>
+|jíjà<t:fighting>
+}}
+
+===Etymology 2===
+{{etymid|yo|snap}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|intransitive|transitive}} to [[snap]], to [[break off]], to [[break loose]]
+
+=====Derived terms=====
+* {{l|yo|ìjá}}
+
+===Etymology 3===
+{{etymid|yo|occur}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|intransitive}} to [[occur]], to [[take place]], to [[begin]] [[suddenly]] (to break out)
+#: {{syn|yo|jà}}
+#: {{uxi|yo|gudugbẹ̀ẹ́ '''já'''|Calamity has '''broken out'''}}
+
+=====Derived terms=====
+* {{l|yo|ajáàmù}}
+* {{l|yo|ìjá}}
+
+===Etymology 4===
+{{etymid|yo|ring}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|intransitive}} to [[ring]] [[out]] like a [[bell]]
+#: {{uxi|yo|etí rẹ̀ ń '''já'''|His ears were '''ringing out'''}}
+
+=====Derived terms=====
+* {{l|yo|ìjá}}
+
+===Etymology 5===
+{{etymid|yo|fall}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|heading|intransitive}} to [[fall]] off (from some height)
+
+=====Derived terms=====
+* {{l|yo|ìjá}}
+* {{l|yo|jábọ́|t=to fall down}}
+
+===Etymology 6===
+{{etymid|yo|shine}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# to [[shine]] [[brightly]]
+#: {{syn|yo|là|bẹ|ha}}
+#: {{uxi|yo|òṣùpá já tòò bí ọ̀sán|The moon '''shined brightly''' like the afternoon (sun)}}
+
+===Etymology 7===
+{{etymid|yo|realize}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# to become [[aware]], to [[come]] to [[full]] [[realization]]
+
+=====Derived terms=====
+* {{l|yo|já sí}}
+
+===Etymology 8===
+{{etymid|yo|puncture}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|intransitive}} to become [[punctured]]
+#: {{uxi|yo|àpò rẹ̀ẹ́ '''já'''|His pocket has '''become punctured'''}}
+
+===Etymology 9===
+{{etymid|yo|saturate}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|intransitive}} to become [[saturated]] or [[oversaturated]] with [[something]]; to become [[too]] [[much]] of something
+#: {{uxi|yo|iyọ̀ ọ́ '''já''' ọbẹ̀ yìí|Salt has '''saturated''' this stew}}
+
+=====Derived terms=====
+* {{l|yo|ìjá}}
+
+===Etymology 10===
+{{etymid|yo|pluck}}
+Likely cognate with {{cog|igl|já|t=to harvest}}
+
+====Pronunciation====
+* {{yo-IPA|já}}
+
+====Verb====
+{{yo-verb|já}}
+
+# {{lb|yo|transitive}} to [[pluck]] [[off]] (usually referring to fruit or leaves)
+#: {{syn|yo|wọ́}}
+
+=====Derived terms=====
+* {{l|yo|ìjá}}
+* {{l|yo|jáwé}}
+* {{l|yo|jáwó}}
+* {{l|yo|jérèé}}
+
+==Zialo==
+
+===Noun===
+{{head|zil|noun}}
+
+# [[water]]
+
+===References===
+* Kirill Vladimirovich Babaev, ''Zialo: the newly-discovered Mande language of Guinea'' (2010), [//books.google.fr/books?hl=fr&id=sc9FAQAAIAAJ&q=eau#search_anchor page 213]

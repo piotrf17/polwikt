@@ -1,0 +1,132 @@
+{{also|Appendix:Variations of "reka"}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=hand|:inh|sla-pro:*rǫkà|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|f|dim=rączka}}
+
+# [[arm]]; [[hand]] {{gl|upper limb}}
+# [[hand]] {{gl|person's action}}
+# [[arm]]s; [[possession]]; [[power]]; [[care]], [[supervision]]
+# [[hand]]; [[control]]
+# [[surety]] {{gl|securing the obligation, execution of the sentence, bringing the accused to court}}
+# [[measure]] of [[honey]] containing six to fifteen [[gallon]]s
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|ręczny|rękotarżny}}
+{{col|zlw-opl|title=adverbs|na lewej ręce|szeroki rękama|pod rękę|bronną ręką|ręką gwałtowną|mocną ręką|po martwej ręce|po pustej ręce|k wiernej rece}}
+{{col|zlw-opl|title=nouns|pospolna ręka|mocna ręka|ręcznica|ręczyca|ręczysko|rękojemstwo|rękojeść|rękojmi|rękojmia|rękotarżca}}
+{{zlw-opl-derived verbs|podnieść rękę/-|wziąć w ręce/-|przyjć w ręce/-|puścić w ręce/-|wydzierżeć na jednę rękę/-|dać za rękę/-|dać w ręce miecza/-|dać na ręki/dawać na ręki|-/żądać na ręki|-/ręczyć w rękę}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|rączy|rękojemny|rękojemski}}
+{{col|zlw-opl|title=adverb|rącze}}
+{{col|zlw-opl|title=nouns|rączość|ręczniczek|ręcznik|rękaw|rękawica|rękawiczne|rękawicznik|rękawka|rękotarżność}}
+{{zlw-opl-derived verbs|-/ręczyć}}
+
+====Descendants====
+* {{desc|pl|ręka}}
+* {{desc|szl|rynka}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Body parts}}
+
+==Polish==
+{{picdic
+|image=Paume de main.jpeg
+|width=310
+|labels=
+{{picdiclabel|pl|color=white|fontsize=18|posx=100|posy=179|link=dłoń}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=20|posy=200|link=nadgarstek|align=left}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=90|posy=70|link=kciuk}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=200|posy=125|link=palec wskazujący }}
+{{picdiclabel|pl|color=white|fontsize=12|posx=225|posy=160|link=środkowy palec}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=220|posy=205|link=palec serdeczny}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=200|posy=250|link= mały palec}}
+|detail1=Click on labels in the image
+|detail2=
+{{picdicimg|pl|image=Arm flex supinate.jpg|link=ramię}}
+}}
+{{wp|pl:}}
+
+===Alternative forms===
+* {{alt|pl|reka||Western Kraków|Lasovia|Stalowa Wola }}
+* {{alt|pl|ruka||Podhale}}
+
+===Etymology===
+{{ety|pl|id=hand|:inh|zlw-opl:ręka|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|mp=#|EL=#|krk=#}}
+
+===Noun===
+{{pl-noun|f|dim=rączka,rączyńka<l:dialectal>,rącycka<l:dialectal>,ręczulka<l:dialectal>|aug=rączysko}}
+
+# {{lb|pl|anatomy}} [[upper]] [[limb]]
+## [[arm]]
+##: {{syn|pl|ramię}}
+## [[hand]]
+##: {{syn|pl|dłoń|łapa|łapina}}
+# {{lb|pl|soccer}} [[handball]] {{gl|offence of a player other than the goalkeeper touching the ball with the hand or arm on the field during play}}
+# [[hand]] {{gl|person that can perform a task, usually one requiring the hands}}
+# [[hand]] {{gl|person or institution that has the authority or competence or the ability to decide in an issue}}
+# {{lb|pl|literary}} [[hand]] {{gl|right to marriage}}
+# {{lb|pl|obsolete}} [[style]] of [[write|writing]]
+# {{lb|pl|obsolete|or|Eastern Lublin|Tomaszów Lubelski County}} {{syn of|pl|działka}} <!--ręka = działek osady włościańskiej; osada składa się z kilka rąk; dzielący się gruntem otrzymuje udział wzdłuż każdej ręki-->
+## {{lb|pl|Western Kraków}} {{syn of|pl|poletko}} 
+# {{lb|pl|obsolete}} {{syn of|pl|strona|t=[[side]]}} {{gl|one half (especially left or right) of something or someone}}
+
+====Usage notes====
+The locative plural form {{m|pl|ręku}} (historically a locative dual form) may be used for a single hand/arm or the hands/arms of a single person, and is used chiefly directly after {{m|pl|w}} and {{m|pl|na}}, and it is proscribed to use any sort of adjective etc. between the preposition and the noun. This form may be considered slightly more higher register.
+
+====Declension====
+{{pl-decl-noun-f|nomp=ręce|genp=rąk|insp=rękami/rękoma|locp=rękach/ręku}}
+* The {{w|Eastern Kraków dialect}} ({{w|Gdów}}, {{w|Bochnia}}) shows a nominative plural form {{m|pl|rece}}.
+* The {{w|Chełmno-Dobrzyń dialect}} and {{w|Przemyśl dialect}} ({{w|San river}}) show a genitive plural form {{m|pl|ręców}}.
+* The {{w|Chełmno-Dobrzyń dialect}} shows a dative plural form {{m|pl|ręcom}}.
+* The {{w|Podlachia dialect}} ({{w|Narew}}), {{w|Przemyśl dialect}} ({{w|San river}}), and the {{w|Podhale dialect}} show an instrumental plural form {{m|pl|ręcami}}.
+* The {{w|Central Greater Poland dialect}} ({{w|Oborniki}}, {{w|Szamotuły}}) shows a locative singular form {{m|pl|rękce}}.
+* The {{w|Kujawy dialect}} shows a nominative plural form {{m|pl|ręki}}.
+* The {{w|Far Masovian}} ({{w|Przasnysz}})) shows an accusative singular form {{m|pl|ręku}}.
+
+====Derived terms====
+{{col|pl|title=adjectives|bezręki|białoręki|odręczny|podręczny|poręczny|ręczny|zręczny|z drugiej ręki|z pierwszej ręki|z wolnej ręki}}
+{{col|pl|title=adverbs|od ręki|pod ręką|z ręką na sercu|gołymi rękami|hojną ręką|lekką ręką|na rękę|do rąk własnych|na własną rękę|ręka w rękę|rękami i nogami|w dobre ręce|w dobrych rękach|w obce ręce|z gołymi rękami|z otwartymi rękami|z pocałowaniem ręki|z pustymi rękami|z założonymi rękami|jakby ręką odjął|z bronią w ręku|z ołówkiem w ręku|z rąk do rąk|z ręką na sercu|z zegarkiem w ręku}}
+{{col|pl|title=interjections|wszystkie ręce na pokład|niech ręka boska broni|niech ręka uschnie|ręce precz|ręka, noga, mózg na ścianie}}
+{{col|pl|title=nouns|atut w ręku|brudne ręce|ciężka ręka|czyste ręce|długie ręce|lepkie ręce|miękka ręka|niewidzialna ręka|prawa ręka|prywatne ręce|rączęta|ręka Boga|ręka sprawiedliwości|wolna ręka|żelazna ręka|podręcznik|poręcz|rąsia|ręcznik|rękoczyn|rękodzieło|rękojeść|rękojmia|rękopis|na wyciągnięcie ręki|niewidzialna ręka rynku|reguła prawej ręki}}
+{{col|pl|title=phrases|ręka rękę myje|jak bez ręki|robota pali się w rękach}}
+{{col|pl|title=prepositions|na ręce|z rąk}}
+{{pl-derived verbs|-/ręczyć}}
+{{pl-derived verbs|-/iść ręką|przemówić do ręki/przemawiać do ręki|ręce opadły/ręce opadają|położyć rękę/-|przyłożyć rękę/przykładać rękę|złożyć na ręce/składać na ręce|-/układać rękę|opuścić ręce/opuszczać ręce|rozłożyć ręce/rozkładać ręce|umyć ręce/umywać ręce|zatrzeć ręce/zacierać ręce|załamać ręce/załamywać ręce|ręka zaświerzbiła/ręka świerzbi|ręka zadrżała/-|rozwiązać ręce/rozwiązywać ręce|ubrudzić sobie ręce/brudzić sobie ręce|zagrać z ręki/grać z ręki|-/lecieć przez ręce|-/mieć dziurawe ręce|-/mieć lekką rękę|-/mieć związane ręce|podać sobie ręce/podawać sobie ręce|wyjść obronną ręką/wychodzić obronną ręką|-/ręce sięgają wszędzie|-/lecieć z rąk|-/mieć ręce i nogi|przejść przez ręce/przechodzić przez ręce|uciec z rąk/uciekać z rąk|wpaść w ręce/wpadać w ręce|wymknąć się z rąk/wymykać się z rąk|wziąć do ręki/brać do rąk|zagrać na cztery ręce/grać na cztery ręce|pójść na rękę/iść na rękę|-/jeść z ręki|-/mieć dwie lewe ręce|-/mieć fach w ręku|-/mieć krew na rękach|-/mieć pełne ręce roboty|-/nosić na rękach|-/patrzyć na ręce|podnieść rękę/podnosić rękę|-/prowadzić za rękę|usiąść z założonymi rękami/siedzieć z założonymi rękami|-/trzymać rękę na pulsie|umoczyć ręce/-|urobić ręce po łokcie/urabiać ręce po łokcie|-/włazić pod rękę|wyciągnąć rękę/wyciągnać rękę|złapać za rękę/-|związać ręce/związyzać ręce|-/lepić się do rąk|wytrącić pióro z ręki/wytrącać pióro z ręki|wziąć w swoje ręce/brać w swoje ręce|wziąć sprawy w swoje ręce/brać sprawy w swoje ręce|dać broń do ręki/dawać broń do ręki|-/być narzędziem w ręku|-/kąsać rękę, która karmi|-/mieć rękę|machnąć ręką/-|nie skalać sobie rąk/nie kalać sobie rąk|oddać w czyjeś ręce/oddawać w czyjeś ręce|wydawać w ręce/wydać w ręce|zarzucić ręce na szyję/zarzucać ręce na szyję|-/pchać się w ręce|obudzić się z ręką w nocniku/budzić się z ręką w nocniku|-/nie mieć o co rąk zaczepić|-/nie móc ruszyć ręką ani nogą|-/nie wiedzieć, w co ręce włożyć|nie wypuścić z rąk/nie wypuszczać z rąk|podpisać się obiema rękami/podpisywać się obiema rękami|-/sięgać prawą ręką do lewego ucha|-/wyciągać kasztany z ognia rękoma|wytrącić broń z ręki/wytrącać broń z ręki|dać się policzyć na palcach jednej ręki/-}}
+
+====Related terms====
+{{col|pl|title=nouns|rękaw|rękawica|zaręczyny}}
+
+===Trivia===
+{{pl-freq 1990|38|15|23|184|84|344|147|493|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||15951}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+* {{R:pl:SXVI|+|6643}}
+* {{R:pl:SXVII|RĘKA|4986|SPas|02.02.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||530|5}}
+* {{R:pl:SGP1900||24|5}} <!--co przydzie pod ręce, to zrobię - Podhale; ile na rękę posagu? = do ręki - Krajna, Samostrzel; Mrozowo-->
+* {{R:pl:NFJP}}
+
+{{C|pl|Limbs}}

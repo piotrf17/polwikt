@@ -1,0 +1,86 @@
+{{also|Appendix:Variations of "polska"}}
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Proper noun===
+{{head|cs|proper noun form}}
+
+# {{infl of|cs|Polsko||gen|s}}
+
+==Lower Sorbian==
+
+===Proper noun===
+{{dsb-proper noun|f}}
+
+# {{sup sp|dsb|Pólska}}
+
+====Declension====
+{{dsb-decl-noun-sg|Polska|Polski|Polsce|Polsku|Polsku|Polsce}}
+
+==Polish==
+{{Wiktionary:Picture dictionary/pl:map/Europe}}
+{{wp|pl:}}
+
+===Etymology===
+{{inh+|pl|zlw-opl|Polska}}, an {{ellipsis|zlw-opl|[[ziemia]] [[polski|polska]]|t=field land|nocap=1|nocat=1}}.<ref>{{R:pl:WSEHJP|pole}}</ref>
+
+===Pronunciation===
+{{pl-pr|a=Pl-Polska.ogg|hh=polska}}
+
+===Proper noun===
+{{pl-proper noun|f}}
+
+# {{tcl|pl|Poland|id=Q36|place_official=pl:Rzeczpospolita Polska}}
+
+====Declension====
+{{pl-decl-noun-f|tantum=s}}
+
+====Derived terms====
+{{col|pl|title=adjectives
+|antypolski
+|polski
+|spolszczony
+|polskawy
+}}
+{{col|pl|title=nouns
+|Polak
+|Polka
+|polak
+|Polaczek
+|polaczek
+|polski
+|polskość
+|polszczyzna
+|spolszczanie
+|spolszczenie
+|wypolszczanie
+}}
+{{col|pl|title=proverb|musi to na Rusi, a w Polsce jak kto chce}}
+
+====Related terms====
+{{col|pl|title=noun|pole}}
+
+====Descendants====
+* {{desc|cs|Polsko|bor=1}}
+* {{desc|csb|Pòlskô|bor=1}}
+* {{desc|ko|^뽈스까<l:North Korea>|bor=1}}
+* {{desc|dsb|Pólska|bor=1}}
+* {{desc|rue|По́льско|bor=1}}
+* {{desc|sh|Poljska|Пољска|bor=1}}
+* {{desc|szl|Polsko|bor=1}}
+* {{desc|sk|Poľsko|bor=1}}
+* {{desc|sl|Poljska|bor=1}}
+* {{desc|hsb|Pólska|bor=1}}
+* {{desc|mk|Полска|bor=1}}
+
+===See also===
+{{list:countries in Europe/pl}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

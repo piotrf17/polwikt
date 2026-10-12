@@ -1,0 +1,233 @@
+{{also|kompüter|kompûter}}
+==Hungarian==
+
+===Alternative forms===
+* {{alter|hu|kompjuter|kompjúter||see Usage notes}}
+
+===Etymology===
+{{etymon|hu|:bor|en:computer|text=+|tree=1}}
+
+===Pronunciation===
+* {{hu-IPA|kompjúter|kompjuter|komputer}}<ref>{{R:GretsyKemeny 2005}}</ref> {{q|the latter is rare}}
+* {{hyphenation|hu|kom|pu|ter}}
+* {{rhyme|hu|ɛr|s=3}}
+
+===Noun===
+{{hu-noun|ek}}
+
+# {{lb|hu|dated}} {{synonym of|hu|számítógép||[[computer]]|pos=a programmable device}}
+
+====Usage notes====
+This spelling is the officially endorsed, accepted version,<ref>{{R:MHSz 2017}}</ref> although hybrid<ref>[https://www.nyest.hu/hirek/computer-kompjuter-vagy-komputer Computer, kompjúter vagy komputer? Furcsa hibrid a „komputer”, mégis helyes…] “''Computer, kompjúter'' or ''komputer''? ‘Computer’ is a strange hybrid, yet correct…” (Nyest.hu, 2014)</ref><ref>[http://real-j.mtak.hu/6052/1/MagyarNyelvor_1978.pdf Süle, Jenő. Idegen szavaink nyelvhasználatunkban, ahogy ma látjuk]
+“Foreign words in our linguistic usage, as we see it today” (''Magyar Nyelvőr,'' vol.&nbsp;102, issue&nbsp;1, 1978, pp.&nbsp;8–26)</ref> in terms of reflecting the pronunciation of “c” as [k] but preserving the English spelling of “u” despite its approximate pronunciations [ju] or [juː]. Its alternative forms {{m|hu||kompjuter}} or {{m|hu||kompjúter}}, though more faithful in pronunciation and consistent in transcription, are considered nonstandard. The term is dated in any versions, nonetheless.
+
+The standard version was possibly chosen because the {{nowrap|''p + j'' + vowel}} sequence is uncommon within a Hungarian word stem (cf. {{m|hu|musical}} as a Hungarian loanword rather than {{m|hu||*mjuzikel}}).<ref>{{R:OsirisHelyes 2006}}, pp. 242–244.</ref> The [j] between a vowel and a consonant is more accepted in loanwords, e.g. {{m|hu|[[lájk]][[lájkol|(ol)]]}}, {{m|hu|fájl}}, {{m|hu|szmájli}}, and the considerably earlier {{m|hu|sztrájk}}. It is also possible that eliminating the sound [j] seemed preferable when codifying the form so [komputer] was in fact meant to reflect the Hungarian pronunciation.<ref>[https://frissmedia.hu/hir/tudja-hogy-kell-irni-az-idegen-szavakat-magyarul/13446 Tudja, hogy kell írni az idegen szavakat – magyarul?] “Do you know how to write foreign words – in Hungarian?” (Frissmédia)</ref>
+
+====Declension====
+{{hu-infl-nom|komputere|e|-}}{{hu-pos-etek|komputer||ei}}
+
+====Derived terms====
+{{col4|hu
+|komputeres
+}}
+{{col4|hu|title=Compound words
+|komputerfüggő
+|komputerjáték
+|komputerzene
+}}
+
+====Related terms====
+{{col3|hu
+|diszkont
+|kontó
+|komputerizál
+|komputertomográf,komputertomográfia
+|skontó
+}}
+
+===References===
+{{reflist}}
+
+{{topics|hu|Computing}}
+
+==Iban==
+
+===Etymology===
+From {{bor|iba|en|computer}}.
+
+===Pronunciation===
+* {{IPA|iba|/kɔmpjutə(r)/}}
+
+===Noun===
+{{head|iba|noun}}
+
+# [[computer]] {{qualifier|a programmable device}}
+
+==Indonesian==
+{{wp|id:}}
+
+===Etymology===
+From {{bor|id|en|computer}}. {{doublet|id|kantor|konter}}.
+
+===Pronunciation===
+* {{IPA|id|[kɔmˈputər]}}
+* {{audio|id|LL-Q9240 (ind)-Xbypass-komputer.wav}}
+* {{rhymes|id|tər|ər|r|s=3}}
+* {{hyphenation|id|kom|pu|têr}}
+
+===Noun===
+{{id-noun|head=komputêr}}
+
+# {{lb|id|computing}} [[computer]], a programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media
+
+====Derived terms====
+{{col2|id|title=Affixations
+|mengomputerkan
+|dikomputerkan
+|pengomputeran
+}}
+{{col|id|title=Compounds
+|komputer analog
+|komputer asinkron
+|komputer bingkai induk
+|komputer bingkai utama
+|komputer dalam kendaraan
+|komputer desktop
+|komputer digital
+|komputer generasi keempat
+|komputer genggam
+|komputer hibrid
+|komputer jinjing
+|komputer kelas server
+|komputer komunikasi
+|komputer meja
+|komputer otomatis
+|komputer pangku
+|komputer pribadi
+|komputer rumah
+|komputer saku
+|komputer satelit
+|komputer serbaguna
+|komputer super
+|komputer target
+}}
+{{col|id|title=Compounds
+|bahasa komputer
+|ilmu komputer
+|teknik komputer
+}}
+
+====Related terms====
+{{col|id
+|komputerisasi
+|komputasi
+|komputasional
+}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Malay==
+{{wp|ms:}}
+[[Image:Science museum 025 adjusted.jpg|thumb|komputer]]
+
+===Etymology===
+From {{bor|ms|en|computer}}.
+
+===Pronunciation===
+* {{IPA|ms|/kɔmˈpu.tə(r)/|/kɔmˈpju.tə(r)/}}
+* {{rhymes|ms|tə(r)|ə(r)}}
+
+===Noun===
+{{ms-noun|j=کومڤوتر}}
+
+# [[computer]] {{qualifier|a programmable device}}
+
+====Derived terms====
+{{col2|ms|title=Affixations
+|mengkomputerkan
+|pengkomputeran
+|komputeran
+}}
+{{col4|ms|title=Compounds
+| atur cara komputer
+| program komputer
+| cip komputer
+| komputer analog
+| komputer tak segerak
+| komputer digital
+| komputer hibrid
+| komputer buku nota
+| komputer kelas pelayan
+| komputer kendiri
+| komputer riba
+| komputer meja
+| komputer pandu auto
+| komputer peribadi
+| komputer rumah
+| komputer saku
+| komputer satelit
+| komputer selari
+| komputer serbaguna
+| komputer tindan
+| superkomputer
+| penyelakuan komputer
+| penyamalakuan komputer
+| bahasa komputer
+| kecelikan komputer
+| literasi komputer
+| teknik komputer
+}}
+
+====Related terms====
+{{col4|ms|
+| komputerisasi
+| komput
+|}}
+
+===Further reading===
+* {{R:PRPM}}
+
+{{C|ms|Reference works}}
+{{C|ms|Computing}}
+
+==Northern Kurdish==
+
+===Noun===
+{{kmr-noun|f}}
+
+# {{alt form|kmr|kompûter}}
+
+==Polish==
+{{wp|pl:}}
+[[File:ThinkCentre S50.jpg|thumb|komputer]]
+
+===Etymology===
+{{etymon|pl|:bor|en:computer|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-komputer.ogg}}
+
+===Noun===
+{{pl-noun|m-in|dim=komputerek|adj=komputerowy}}
+
+# {{lb|pl|computing}} [[computer]] {{gl|programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media}}
+#: {{syn|pl|komp|mózg elektronowy<q:obsolete>}}
+#: {{hypo|pl|laptop|mikrokomputer|minikomputer|superkomputer}}
+#: {{coi|pl|[[komputer osobisty|'''komputer''' osobisty]]|[[personal computer|personal '''computer''']]}}
+
+====Declension====
+{{pl-decl-noun-m-in|gens=komputera}}
+
+====Derived terms====
+{{col|pl|title=nouns|komp|komputerofobia|komputeroholizm|komputeromania|komputeropis|komputerowiec|komputeryzacja}}
+{{col|pl|title=verbs|komputeryzować<g:impf>|skomputeryzować<g:pf>}}
+
+====Related terms====
+{{col|pl|title=adjectives|komputeryzacyjny}}
+{{col|pl|title=adverbs|komputerowo}}
+
+===Further reading===
+* {{R:pl:WSJP||23190}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}

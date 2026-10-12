@@ -1,0 +1,146 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*čitati|:af<surf>|czyść|-ać|text=+|tree=1|etydate=1453}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# to [[read]]
+#: {{syn|zlw-opl|czyść}}
+#* {{RQ:zlw-opl:R|XXV|213|1453|W moyem rozvmye pythalem y thakyesz w pyszmye '''czythalem'''|W mojem rozumie pytałem i takież w Piśmie '''czytałem'''|-}}
+
+====Derived terms====
+{{zlw-opl-derived verbs|*czytać/-
+|po
+|pod
+|prze
+|przy
+|roz
+|s}}
+
+====Related terms====
+{{col|zlw-opl|title=nouns|rozczytacz}}
+
+====Descendants====
+* {{desc|pl|czytać}}
+* {{desc|szl|czytać}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|cytać||Zagórze}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:czytać|:af<surf>|czyść|-ać|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-czytać.ogg|mp=#}}
+
+===Verb===
+{{pl-verb|impf-det|freq=czytywać}}
+
+# {{lb|pl|transitive}} to [[read]] {{gl|to look at and interpret letters and symbols that are written}} {{+obj|pl|dat<to whom> + :o(loc)<about whom/what>}}
+#: {{uxi|pl|Tomek '''czyta''' nam interesującą książkę.|Tomek is '''reading''' an interesting book to us.}}
+# {{lb|pl|transitive}} to [[read]] {{gl|to look at other information and interpret that is written or drawn}}
+# {{lb|pl|transitive}} to [[read]] {{gl|to interpret, or infer a meaning, significance, thought, intention, etc.}} {{+obj|pl|:z(gen)<from what>|:w(loc)<in what>|:na(loc)<on what>}}
+#: {{syn|pl|odczytywać}}
+# {{lb|pl|transitive}} to [[read]] {{gl|to recognize the proper meaning of something}}
+# {{lb|pl|transitive|computing}} to [[read]] {{gl|to fetch data from (a storage medium, etc.)}}
+#: {{syn|pl|odczytywać}}
+# {{lb|pl|transitive}} to [[read]] {{gl|to speak aloud words or other information that is written}}
+# {{lb|pl|transitive|obsolete|rare}} to [[teach]] {{gl|to cause to learn}}
+#: {{syn|pl|uczyć}}
+# {{lb|pl|transitive|Middle Polish}} to [[read]] {{gl|to interpret written text}}
+#: {{syn|pl|interpretować}}
+# {{lb|pl|transitive|Middle Polish|of biblical texts}} to [[read]] {{gl|to contain some message}}
+# {{lb|pl|transitive|Middle Polish}} to [[study]]
+#: {{syn|pl|studiować}}
+# {{lb|pl|transitive|Middle Polish}} to [[read]] {{gl|to divine the future based on heavenly bodies}}
+#: {{hyper|pl|wróżyć}}
+# {{lb|pl|transitive|Middle Polish}} to [[pronounce]] {{gl|to say foreign words and phrases a particular way}}
+#: {{syn|pl|wymawiać}}
+
+====Conjugation====
+{{pl-conj-ai-am,asz|czyta|pp}}
+
+====Derived terms====
+{{col|pl|title=adjectives|czytelny}}
+{{col|pl|title=nouns|czytacz|czytadło|czytanina|czytelnia|czytnik|czytanie}}
+{{pl-derived verbs
+|*czytać/czytywać
+|do
+|naczytać/-
+|ob<q:dated>
+|od
+|o
+|po
+|-/podczytywać
+|prze
+|roz
+|s
+|uczytać<q:rare>/-
+|w
+|wy
+|za
+}}
+{{pl-derived verbs|-/czytać jak w otwartej księdze|-/czytać między wierszami|-/czytać w myślach}}
+
+====Related terms====
+{{col|pl|title=adjectives|czytelniany|czytelniczy|czcionkowy}}
+{{col|pl|title=nouns|cet|czcionka|czcionkarstwo|czcionnik|czytanka|czytelnictwo|czytelnik}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|47905}}
+* {{R:pl:SXVII|CZYTAĆ|4378|SPas|01.02.2024}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||414|1}}
+* {{R:pl:NFJP}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:czytać|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf|freq=czytować}}
+
+# {{lb|szl|transitive}} to [[read]]
+
+====Conjugation====
+{{szl-conj-ai-I|czyt|pp}}
+
+====Derived terms====
+{{col|szl|title=nouns|czytanie|czytelnik}}
+{{szl-derived verbs|
+|*czytać/-
+|do
+|na
+|prze
+|wy
+|*czytać/czytować
+|ôd
+|po
+}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|czytac}}
+* {{R:szl:silling}}
+* {{R:szl:ZPJŚ|+|70}}
+* {{R:szl:Wencel:2023|cytać|140}}

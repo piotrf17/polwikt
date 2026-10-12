@@ -1,0 +1,426 @@
+{{also|Appendix:Variations of "nad"}}
+==English==
+
+===Etymology 1===
+
+====Noun====
+{{head|en|noun}}
+
+# {{lb|en|linguistics}} noun animate dependent
+
+=====See also=====
+{{col|en
+|na
+|ni
+|nid
+|nads
+}}
+
+===Etymology 2===
+{{clipping|en|gonad}}.
+
+====Pronunciation====
+* {{audio|en|En-au-nad.ogg|a=AU}}
+
+====Noun====
+{{en-noun}}
+
+# {{singular of|en|nads}}
+#* {{quote-text|en|year=2004|author=Bob Gunn|title=Sex, Ghosts and Gumshoes|page=119
+|passage=I look down and the little one has already cut right through my ball sac and is in the process of slicing my left '''nad''' free.}}
+
+===Anagrams===
+* {{anagrams|en|a=adn|-and|-dan|ADN|AND|DAN|DNA|Dan|Dan.|NDA|and|and-|dan|dna}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:nad|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-nad.ogg}}
+* {{rhymes|cs|at|s=1}}
+
+===Preposition===
+{{head|cs|preposition}} {{+obj|cs|ins|catpos=prep}}
+
+# [[over]], [[above]]
+#: {{ant|cs|pod}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+
+===Anagrams===
+* {{anagrams|cs|And|dan|Dan|dna|DNA}}
+
+==Estonian==
+
+===Etymology===
+{{clipping|et|nemad}}.
+
+===Pronunciation===
+* {{et-IPA}}
+* {{rhymes|et|ɑd|s=1}}
+* {{hyph|et|nad}}
+
+===Pronoun===
+{{et-nom|pronoun|nende|neid}}
+
+# {{form of|et|short form|nemad}}: [[they]]
+
+====Declension====
+{{et-personal pronouns/full}}
+
+===References===
+* {{R:Sõnaveeb}}
+* {{R:et:EKSS}}
+
+==Kashubian==
+
+===Alternative forms===
+* {{alt|csb|nade}}
+
+===Etymology===
+{{ety|csb|id=above|:inh|sla-pro:*nadъ<id:above>|text=+|tree=1}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Preposition===
+{{head|csb|preposition}}
+
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|csb|ins}}
+
+===Further reading===
+* {{R:csb:ISKJ|+|4531}}
+* {{R:csb:SPK|nad(e)}}
+
+==Middle English==
+
+===Alternative forms===
+* {{alter|enm|nade|nhadde}}
+
+===Etymology===
+{{compound|enm|not|had}}
+
+===Contraction===
+{{head|enm|contraction}}
+
+# [[had]] [[not]]
+
+====Descendants====
+* {{desc|yol|nad}}
+
+====References====
+* {{R:MED Online|q=1}}
+
+==Old Czech==
+
+===Etymology===
+{{ety|zlw-ocs|:inh|sla-pro:*nadъ|text=+|tree=1}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Preposition===
+{{head|zlw-ocs|preposition}}
+
+# {{ng|denotes movement}}; to [[over]], to [[above]] {{+obj|zlw-ocs|acc}}
+# {{ng|denotes movement}}; to [[under]], to [[below]] {{+obj|zlw-ocs|acc}}
+# {{ng|denotes subject of an attack etc.}} {{+obj|zlw-ocs|acc}}
+# {{ng|denotes a higher position in comparisons}}; [[above]] {{+obj|zlw-ocs|acc}}
+# {{ng|denotes larger amount}}; [[above]], [[more]] [[than]] {{+obj|zlw-ocs|acc/ins}}
+# {{ng|denotes first degree of comparisons}}; [[more]] [[than]] {{+obj|zlw-ocs|acc/ins}}
+# {{ng|with a reduplicated noun, expresses superlative nature}}; [[of]] {{+obj|zlw-ocs|acc}}
+# {{ng|denotes additionality or excess}}; [[in addition to]] {{+obj|zlw-ocs|acc}}
+# {{ng|denotes a manner contrary to something else.}} {{+obj|zlw-ocs|acc}}
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes position in a hierarchy}}; [[above]], [[over]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes vessel through which divine action is taken}}; [[through]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes target of an action}} aimed [[at]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes subject of power}}; [[over]], [[above]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes subject of emotion}}; [[over]] {{+obj|zlw-ocs|ins}}
+# {{ng|denotes contradiction}}; [[despite]] {{+obj|zlw-ocs|ins}}
+
+====Descendants====
+* {{desc|cs|nad}}
+
+===References===
+* {{R:zlw-ocs:Gebauer|nad}}
+
+{{cln|zlw-ocs|contranyms}}
+
+==Old Irish==
+
+===Particle===
+{{head|sga|particle|cat2=negative particles}}
+
+# {{alt sp|sga|nád}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|nade}}
+
+===Etymology===
+{{ety|zlw-opl|id=above|:inh|sla-pro:*nadъ<id:above>|text=+|tree=1|etydate=14th century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Preposition===
+{{head|zlw-opl|preposition}}
+
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes location}}; [[near]], [[close to]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes time}}; [[just]] [[before]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes cause}}; [[because of]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes position in comparison}}; [[over]], [[more]] [[than]] {{+obj|zlw-opl|ins/acc}}
+# {{ng|with a reduplicated noun, expresses superlative nature}}; [[of]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes subject of power}}; [[above]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes subject of someones thoughts or actions}} [[in relation to]], [[vis-a-vis]] {{+obj|zlw-opl|ins}}
+# {{ng|denotes motion}}; to [[above]], to [[over]] {{+obj|zlw-opl|acc}}
+
+====Derived terms====
+{{col|zlw-opl|title=prefix|nad-}}
+
+====Descendants====
+* {{desc|pl|nad|alts=1}}
+* {{desc|szl|nad|alts=1}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP|nad, nade|6471}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|nade}}
+
+===Etymology===
+{{ety|pl|id=above|:inh|zlw-opl:nad<id:above>|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=pl-nad.ogg|hh=nad-|mp=#|CD=#}}
+
+===Preposition===
+{{head|pl|preposition}}
+
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|pl|ins}}
+#: {{syn|pl|ponad|powyżej}}
+#: {{cot|pl|pod|popod}}
+#: {{uxi|pl|'''Nad''' biurkiem wisi piękny obraz.|'''Above''' the desk hangs a beautiful painting.}}
+# {{ng|denotes location, particularly in relation to a body of water}}; [[on]], [[by]] {{+obj|pl|ins}}
+#: {{uxi|pl|Mieszkają w dużym domu '''nad''' morzem.|They live in a big house '''by''' the sea.}}
+#: {{uxi|pl|Opole leży '''nad''' Odrą.|Opole lies '''on''' the Oder.}}
+# {{ng|denotes motion}}; to [[above]], to [[over]] {{+obj|pl|acc}}
+#: {{syn|pl|ponad|powyżej}}
+#: {{cot|pl|pod|popod}}
+#: {{uxi|pl|Podnieś ręce '''nad''' głowę!|Put your hands '''above''' your head!}}
+# {{ng|denotes movement, particularly in relation to a body of water}}; [[to]] {{+obj|pl|acc}}
+#: {{ant|pl|znad}}
+#: {{uxi|pl|W niedzielę jedziemy '''nad''' jezioro.|We're going '''to''' the lake on Sunday.}}
+# {{lb|pl|literary|or|dialectal|Chełmno}} {{ng|denotes position in comparison}}; [[than]]; [[over]] {{+obj|pl|acc}}
+# [[over]] {{q|indicates relative status, authority or power}} {{+obj|pl|ins}}
+#: {{ant|pl|pod}}
+#: {{uxi|pl|Nauczyciel umiejętnie panuje '''nad''' klasą.|The teacher skillfully keeps control '''over''' the class.}}
+# {{lb|pl|literary}} {{ng|denotes highest degree of intensity of an action or state}};
+#: {{syn|pl|ponad}}
+#: {{uxi|pl|Kocham to '''nad''' życie.|I love it '''to''' death/'''more than''' life itself/'''more than''' anything in the world.}}
+# {{ng|denotes subject of activities}}; [[on]] {{+obj|pl|ins}}
+#: {{uxi|pl|Pracuję '''nad''' scenariuszem do nowego filmu.|I'm working '''on''' a script for a new film.}}
+# {{ng|with a reduplicated noun, expresses superlative nature}}; [[great|the greatest of all]], [[of]] {{+obj|pl|ins/acc<q:stylized>}}
+#: {{uxi|pl|Oj, marzy mi się pizza '''nad''' pizzami!|Oh, I dream of '''the greatest of all''' pizzas!}}
+#: {{uxi|pl|Zawisza Czarny, rycerz '''nad''' rycerzami, zginął po wzięciu do tureckiej niewoli.|Zawisza Czarny, a knight '''of''' the knights, was killed after being  captured by the Turks.}}
+
+====Derived terms====
+{{col|pl|title=prefix|nad-}}
+
+===Trivia===
+{{pl-freq 1990|91|107|101|127|72|498|90|263|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|nad, nade|63658}}
+* {{R:pl:SXVII|NAD|11752|date=17.12.2008}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||28|3}}
+* {{R:pl:Nitsch:1907||390}}
+
+==Scottish Gaelic==
+
+===Etymology===
+{{univ|gd|an|t1=in|do|t2=thy}}.
+
+===Preposition===
+{{gd-prep|dat|L}}
+
+# [[in]] [[thy]]; [[in]] [[your]] (singular)
+
+====Inflection====
+{{gd-prep-poss|nam|nad|na|na|nar|nur|nan|nam|root=an}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{inh+|sh|sla-pro|*nadъ}}. Compare {{m|sh|na|t=on, onto}}, {{m|sh|nad-}}, {{m|sh|nat-}}.
+
+===Pronunciation===
+* {{IPA|sh|/nad/}}
+
+===Preposition===
+{{sh-prep|nad}}
+
+# [[over]], [[above]] {{qualifier|with no change of position, answering the question {{m|sh|gdjȅ}}/{{m|sh|gdȅ}}}} {{+obj|sh|ins}}
+#: {{syn|sh|ȉznad}}
+#: {{ant|sh|pod}}
+#: {{coi|sh|'''nad''' stolom|'''over''' the table}}
+#: {{coi|sh|vlast '''nad''' nekim|power '''over''' somebody}}
+#: {{coi|sh|heroj '''nad''' herojima|the greatest of all heroes}}
+# [[over]], [[above]] {{qualifier|usually with change of position, answering the question {{m|sh|kùda}}}} {{+obj|sh|acc}}
+#: {{syn|sh|ȉznad}}
+#: {{ant|sh|pod}}
+#: {{uxi|sh|Nagnuo se '''nad''' vodu.|He leaned '''over''' the water.}}
+
+===References===
+* {{R:sh:HJP|e1diWRA%3D}}
+
+==Silesian==
+
+===Alternative forms===
+* {{alt|szl|nady}}
+
+===Etymology===
+{{ety|szl|id=above|:inh|sla-pro:*nadъ<id:above>|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Preposition===
+{{head|szl|preposition}}
+
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|szl|ins}}
+#: {{syn|szl|pōnad|powyżyj}}
+#: {{cot|szl|pod}}
+# {{ng|denotes movement}}; to [[above]], to [[over]] {{+obj|szl|acc}}
+#: {{syn|szl|pōnad|powyżyj}}
+#: {{cot|szl|pod}}
+# {{ng|denotes position close to water}}; [[by]] {{+obj|szl|ins}}
+#: {{syn|szl|kole}}
+# {{ng|denotes movement close to water}}; [[to]] {{+obj|szl|acc}}
+# {{ng|denotes object of certain actions}}. {{+obj|szl|ins}}
+# {{ng|denotes proximity of a time}}; [[around]] {{+obj|szl|ins}}
+# {{ng|denotes object most affceted by something.}} {{+obj|szl|acc}}
+# {{ng|with a reduplicated noun, expresses superlative nature}}; [[of]] {{+obj|szl|ins}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Slovak==
+
+===Alternative forms===
+* {{alt|sk|nado}}
+
+===Etymology===
+{{ety|sk|:inh|sla-pro:*nadъ|text=+|tree=1}}
+
+===Pronunciation===
+* {{sk-IPA}}
+
+===Preposition===
+{{head|sk|preposition}}
+
+{{rfdef|sk}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Slovene==
+
+===Etymology===
+{{inh+|sl|sla-pro|}}.
+
+===Pronunciation===
+* {{sl-IPA|nad}}
+
+===Preposition===
+{{sl-head|prep|-}}
+
+# [[over]], [[above]] (stationary) {{+obj|sl|ins}}
+# [[over]], [[above]] (motion towards) {{+obj|sl|acc}}
+
+==Slovincian==
+
+===Etymology===
+{{etymon|zlw-slv|id=above|:inh|sla-pro:*nadъ<id:above>|tree=1|text=+}}
+
+===Pronunciation===
+{{zlw-slv-pr}}
+
+===Preposition===
+{{h|zlw-slv|prep}}
+
+# {{ng|denotes motion}}; to [[above]], to [[over]] {{+obj|zlw-slv|acc}}
+# {{ng|denotes movement, particularly in relation to a body of water}}; [[to]] {{+obj|zlw-slv|acc}}
+# {{ng|denotes location}}; [[above]], [[over]] {{+obj|zlw-slv|ins}}
+# {{ng|denotes location, particularly in relation to a body of water}}; [[on]], [[by]] {{+obj|zlw-slv|ins}}
+# {{ng|denotes extension past something}}; [[above]], [[beyond]] {{+obj|zlw-slv|ins}}
+# [[over]] {{q|indicates relative status, authority or power}} {{+obj|zlw-slv|ins}}
+
+====Derived terms====
+{{col|zlw-slv|title=prefixes|nad-}}
+
+===Further reading===
+* {{R:zlw-slv:SW|nãd|683}}
+
+==Welsh==
+
+===Etymology===
+From {{m|cy|na}} with the same meaning, perhaps with addition of {{m|cy|yd|pos=affirmative particle}}.<ref>{{R:cy:GPC}}</ref>
+
+===Pronunciation===
+* {{IPA|cy|/nad/}}
+
+===Conjunction===
+{{head|cy|conjunction}}
+
+# {{lb|cy|formal}} [[that]] … [[not]] {{qualifier|introduces a negative noun clause, marking it for emphasis}}
+#: {{ux|cy|Mae e’n dweud '''nad''' athro yw ef.|t=He says '''that''' he is '''not''' a teacher.}}
+# [[that]] … [[not]] {{qualifier|introduces a negative noun clause, used before a vowel}}
+#: {{ux|cy|Mae e’n dweud '''nad''' ydy e’n mynd.|t=He says '''that''' he is '''not''' going.}}
+
+====See also====
+* {{l|cy|mai}} {{lb|cy|affirmative, emphasis}}
+* {{l|cy|taw}} {{lb|cy|affirmative, emphasis}}
+* {{l|cy|na}} {{lb|cy|negative, unmarked, used before a consonant}}
+
+===Mutation===
+{{cy-mut}}
+
+===References===
+{{reflist}}
+
+==Yola==
+
+===Etymology===
+From {{inh|yol|enm|nad}}; equivalent to {{compound|yol|nat|had}}.
+
+===Pronunciation===
+* {{IPA|yol|/nad/}}
+
+===Contraction===
+{{head|yol|contraction}}
+
+# [[had]] [[not]]
+#* {{quote-book|yol|year=1867|page=58|title=GLOSSARY OF THE DIALECT OF FORTH AND BARGY|passage='''Nad''' Ich.|translation='''Had''' I '''(not?)'''.}}
+
+===References===
+* {{R:Poole 1867|page=58}}

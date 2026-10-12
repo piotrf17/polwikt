@@ -1,0 +1,26 @@
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|kradzba||Middle Polish}}
+
+===Etymology===
+{{ety|pl|:inh|sla-pro:*kradьba//*kraďьba|text=+|tree=1|etydate=16th century<ref:{{R:pl:SXVI|[KRADŹBA|59552}}>}} {{surf|pl|kraść|-ba}}.
+
+===Pronunciation===
+{{pl-pr|-|mp=#,krádźba}}
+
+===Noun===
+{{pl-noun|f}}
+
+# {{lb|pl|Middle Polish}} [[robbery]], [[robbing]], [[theft]]
+#: {{syn|pl|kradzież|okradanie}}
+# {{lb|pl|Middle Polish}} [[abduction]], [[kidnapping]]
+#: {{syn|pl|porwanie|uprowadzenie}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:SJP1900||521|2}}
+
+{{C|pl|Crime}}

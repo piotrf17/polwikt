@@ -1,0 +1,147 @@
+{{also/a|Ą}}
+{{character info}}
+==Translingual==
+{{wp}}
+
+===Symbol===
+{{mul-symbol}}
+
+# {{lb|mul|phonetics}} {{ng|A nasal vowel [a]. The norm in Americanist notation; sometimes used in IPA transcription to leave room over the vowel letter for tone diacritics.}}
+
+==Chipewyan==
+
+===Pronunciation===
+* {{IPA|chp|/ã/}}
+
+===Letter===
+{{letter|chp}}
+
+# {{Latn-def|chp|letter}}
+
+==Elfdalian==
+
+===Letter===
+{{letter|ovd}}
+
+# {{Latn-def|ovd|letter|2}}
+
+====See also====
+{{list:Latin script letters/ovd}}
+
+==Kashubian==
+
+===Etymology===
+{{csb-ety-letter}}
+
+===Letter===
+{{letter|csb}}
+
+# {{Latn-def|csb|letter|2|}}
+
+====See also====
+{{list:Latin script letters/csb}}
+
+==Lithuanian==
+
+===Pronunciation===
+* {{IPA|lt|/aː/}}
+
+===Letter===
+{{letter|lt}}
+
+# {{Latn-def|lt|letter|2|[[a]] [[nosinis|nosinė]]}}
+
+====See also====
+{{list:Latin script letters/lt}}
+
+==Navajo==
+[[File:Ogonek-european-natamerican.svg|right|thumb|In Navajo, the ogonek is centered under the vowel, whereas in European languages it is placed under the right side of the vowel it modifies.]]
+
+===Letter===
+{{letter|nv}}
+
+# The letter [[a]] with an [[ogonek]]:
+#: ą = {{IPAchar|/ã˨/}}
+#: ą́ = {{IPAchar|/ã˥/}}
+#: ąą = {{IPAchar|/ãː˨˨/}}
+#: ą́ą = {{IPAchar|/ãː˥˨/}}
+#: ąą́ = {{IPAchar|/ãː˨˥/}}
+#: ą́ą́ = {{IPAchar|/ãː˥˥/}}
+
+====See also====
+* (Navajo letters using the ogonek sign): {{l|nv|Ą}}{{l|nv|ą}} {{l|nv|Ę}}{{l|nv|ę}} {{l|nv|Į}}{{l|nv|į}} {{l|nv|Ǫ}}{{l|nv|ǫ}}
+
+==Osage==
+
+===Pronunciation===
+* {{IPA|osa|/ɑ̃/}}
+
+===Letter===
+{{letter|osa|Osge:𐓘͘}}
+
+# {{Latn-def|osa|letter}}
+
+===See also===
+:''Optional:''
+* {{l|osa|ą&#x304;}}
+* {{l|osa|ą&#x301;}}
+* {{l|osa|ą&#x304;&#x301;}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|id=letter}}
+{{pl-ety-letter}}
+
+===Pronunciation===
+{{pl-pr|-ą-|a=Pl-ą.ogg;LL-Q809 (pol)-Olaf-ą.wav|h=-|r=-}}
+
+===Letter===
+{{letter|pl}}
+
+# {{Latn-def|pl|letter|2|ą|[[a]] [[z]] [[ogonek|ogonkiem]]}}
+
+====See also====
+{{list:Latin script letters/pl}}
+
+==Slovene==
+
+===Alternative forms===
+* {{qualifier|[[wikipedia:Slovene_national_phonetic_transcription|Ramovš transcription]]}} {{l|sl|ã}}
+
+===Etymology===
+Letter {{l|sl|a}} with ogonek {{l|sl|̨|◌̨}} to signify nasal vowel.
+
+===Pronunciation===
+* {{qualifier|sound}}: {{IPA|sl|[ã]}}
+
+===Symbol===
+{{head|sl|symbols}}
+
+# {{qualifier|[[wikipedia:Slovene_national_phonetic_transcription|Logar transcription]]}} ''[[phonetic|Phonetic]] [[transcription]] of dialectal sound'' [{{IPAlink|ã}}].
+
+===See also===
+* {{l|sl|a}}
+* {{l|sl|à}}
+* {{l|sl|á}}
+* {{l|sl|ä}}
+* {{l|sl|å}}
+* {{l|sl|ḁ}}
+* {{l|sl|ā}}
+* {{l|sl|ã}}
+* {{l|sl|ȁ}}
+* {{l|sl|ȃ}}
+* {{l|sl|ȧ}}
+
+===References===
+* {{cite-book|sl|last=Kenda-Jež |first=Karmen |date=February 27, 2017 |title=Fonetična trankripcija |trans-title=Phonetic transcription |url=https://fran.si/150/sla-slovenski-lingvisticni-atlas-1/datoteke/SLA1_Foneticna-transkripcija.pdf |archiveurl=https://web.archive.org/web/20220122221458/https://www.fran.si/150/sla-slovenski-lingvisticni-atlas-1/datoteke/SLA1_Foneticna-transkripcija.pdf |archivedate=January 22, 2022 |accessdate=March 19, 2022 |publisher=Znanstvenoraziskovalni center [[SAZU]], Inštitut za slovenski jezik Frana Ramovša |pages=27–30 }}
+
+==Winnebago==
+
+===Pronunciation===
+* {{IPA|win|/ã/}}
+
+===Letter===
+{{letter|win}}
+
+# {{Latn-def|win|letter}}

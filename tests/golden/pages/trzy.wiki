@@ -1,0 +1,118 @@
+==Old Polish==
+{{numberbox|zlw-opl}}
+
+===Alternative forms===
+* {{alt|zlw-opl|trze|trzej}}
+
+===Etymology===
+{{etymon|zlw-opl|id=three|:inh|sla-pro:*trьje|tree=+|text=+}} {{etydate|14th century}}. {{dbt|zlw-opl|dryja}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Numeral===
+{{head|zlw-opl|numeral}}
+
+# [[three]]
+
+====Descendants====
+* {{desc|pl|trzy}}
+* {{desc|szl|trzi}}
+
+===References===
+* {{R:zlw-opl:SPJSP|trzy, trze, trzej|17478}}
+
+{{cln|zlw-opl|cardinal numbers}}
+{{C|zlw-opl|Three}}
+
+==Polish==
+{{number box|pl}}
+
+===Etymology===
+{{etymon|pl|id=three|:inh|zlw-opl:trzy|tree=+|text=+}} {{dbt|pl|dryja}}.
+
+===Pronunciation===
+{{pl-pr|a=pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav|mp=#}}
+
+===Numeral===
+{{head|pl|numeral}}
+
+# [[three]]
+
+===Noun===
+{{pl-noun|n}}
+
+# {{lb|pl|colloquial|education}} [[three]], [[C]] {{gl|passing grade in school}}
+
+====Declension====
+{{rfc|pl|manual inflection table should be moved to a template}}
+<div class="NavFrame (collapsed)" style="width: 30em">
+<div class="NavHead inflection-table-verb" style="background:var(--wikt-palette-lighterblue,#eff7ff);" >Declension of ''trzy''</div>
+<div class="NavContent">
+{| style="width: 30em; margin: 0;" class="wikitable inflection-table"
+|+
+! rowspan="2" |
+! colspan="2" |plural
+|-
+!style="width:12em" | virile
+!style="width:12em" | other
+|-
+|- style="text-align:center;"
+!style="width:10em" | nominative
+|{{l-self|pl|2=trzej}}
+|{{l-self|pl|2=trzy}}
+|-
+|- style="text-align:center;"
+!genitive
+| colspan="2" |{{l-self|pl|2=trzech}}
+|-
+|- style="text-align:center;"
+!dative
+| colspan="2" |{{l-self|pl|2=trzem}}
+|-
+|- style="text-align:center;"
+!accusative
+|{{l-self|pl|2=trzech}}
+|{{l-self|pl|2=trzy}}
+|-
+|- style="text-align:center;"
+!instrumental
+| colspan="2" |{{l-self|pl|2=trzema}}
+|-
+|- style="text-align:center;"
+!locative
+| colspan="2" |{{l-self|pl|2=trzech}}
+|-
+|- style="text-align:center;"
+!vocative
+|{{l-self|pl|2=trzej}}
+|{{l-self|pl|2=trzy}}
+|}</div></div>
+
+====Coordinate terms====
+{{pl-cardinals}}
+
+====Derived terms====
+{{col|pl|title=phrase|do trzech razy sztuka}}
+
+====Related terms====
+{{col|pl|title=adjectives|troisty|trojaki}}
+{{col|pl|title=nouns|trojak|trojaczek|trójca|trójka}}
+{{col|pl|title=verbs|troić|potrajać}}
+
+===Trivia===
+{{pl-freq 1990|118|240|82|58|70|568|82|612|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVII|TRZY|7630|date=28.06.2016}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||154|7}}
+
+{{cln|pl|cardinal numbers}}
+{{C|pl|Three}}

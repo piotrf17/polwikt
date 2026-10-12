@@ -1,0 +1,147 @@
+{{also|miec|mieç|Mieč}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=have|:inh|sla-pro:*jьměti|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|mie?ć}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# to [[have]], to be in [[possession]] of
+# to [[have]], to [[hold]] {{gl|to contain in one's hands}}
+# to [[have]] {{gl|to host someone or be hosted}}
+# {{lb|zlw-opl|in collocation with some nouns}} to [[do]]
+# to [[consider]] someone as something
+# to be [[supposed to]], to [[have to]]
+# {{lb|zlw-opl|with the passive participle}} to [[have]] {{gl|e.g. to have something (that is) cooked}}
+# {{lb|zlw-opl|reflexive-się}} to [[behave]]
+# {{lb|zlw-opl|reflexive-się}} to [[fare]] {{gl|to be in any state, or pass through any experience, good or bad}}
+
+====Declension====
+{{rfinfl|zlw-opl|verb}}
+
+====Descendants====
+* {{desc|pl|mieć|id=have}}
+* {{desc|szl|mieć}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg<text:#>;LL-Q809 (pol)-Olaf-#.wav<text:#>;LL-Q809 (pol)-Olaf-# się.wav<text:~>|hh=miedź|mp=#,miéć}}
+
+===Etymology 1===
+{{etymon|pl|id=have|:inh|zlw-opl:mieć|tree=1|text=+}}
+
+====Verb====
+{{pl-verb|impf|freq=miewać}}
+
+# {{lb|pl|transitive}} to [[have]]
+#: {{uxi|pl|'''Mam''' kota.|I '''have''' a cat.}}
+#: {{uxi|pl|'''Mam''' daleko do szkoły.|It's a long way to school for me.|lit=I '''have''' [it] far to school.}}
+# {{lb|pl|intransitive}} to [[be]] some age
+#: {{uxi|pl|'''Mam''' 22 lata.|I am 22 years old.|lit=I '''have''' 22 years.}}
+# {{lb|pl|transitive}} {{ng|used as a semantically weak verb with some nouns}}
+#: {{uxi|pl|'''Mam bzika''' na ich punkcie.|'''I'm crazy''' about them.}}
+# {{lb|pl|transitive|colloquial}} to [[have]], to have [[sex]] with
+#: {{uxi|pl|Chyba nigdy chłopa nie '''miała'''.|She probably never '''had''' a man.}}
+#: {{syn|pl|Thesaurus:uprawiać seks}}
+# {{lb|pl|transitive}} to [[consider]] someone as something {{+obj|pl|:za(acc)}}
+#: {{uxi|pl|'''Miałem''' Cię za przyjaciela.|I '''considered''' you my friend.}}
+#: {{uxi|pl|'''Masz się''' za lepszego?|You '''think''' you are better?|lit=You '''consider yourself''' better?}}
+# {{lb|pl|with the passive participle}} to [[have]] {{gl|e.g. to have something (that is) cooked}}
+#: {{coi|pl|'''Mam''' cały wieczór zaplanowany.|I '''have''' the whole evening planned.}}
+# {{lb|pl|auxiliary|intransitive}} {{ng|expresses obligation}}; to be [[supposed to]], [[must]], to [[have to]], to [[need|need to]]; [[should]], [[shall]]
+#: {{uxi|pl|'''Mamy''' iść na zakupy.|We're '''supposed to''' go shopping.}}
+#: {{uxi|pl|Czy '''mam''' zaparzyć herbatę?|'''Should/Shall''' I brew some tea?}}
+# {{lb|pl|auxiliary|formal|in the past}} {{ng|creates a future in the past}}; [[would]], [[going to|was going to]]
+#: {{coi|pl|Ten chłopiec '''miał''' w przyszłości zostać wielkim naukowcem.|This boy '''would''' in the future become a great scientist.}}
+# {{lb|pl|auxiliary|intransitive|in the past|evidential}} {{ng|denotes that something might not have happened despite earlier beliefs}}; to be [[supposed to]], [[must]], to [[have to]], to [[need|need to]]
+#: {{uxi|pl|System informatyczny '''miał''' obsługiwać klientów.|The IT system '''was supposed to''' serve customers}}
+# {{lb|pl|auxiliary|intransitive|in the past|evidential}} {{ng|denotes uncertain, unverified information}}; [[allegedly]], [[supposedly]]
+#: {{uxi|pl|Mężczyzna '''miał''' wykrzykiwać obraźliwe hasła.|The man '''was allegedly''' shouting obscenities.}}
+#* {{quote-book|pl|title=Polska Piastów|author=Paweł Jasienica|year=1966|location=Warsaw|publisher=Państwowy Instytut Wydawniczy|edition=3|page=48|text=Zapisana przez Galla legenda głosi, że  Piasto był chłopem i mieszkał na podgrodziu. Polanie, zrażeni okrucieństwami poprzedniego władcy ― Popiela ― mieli zrzucić go z tronu i obrać na księcia Ziemowita.|translation=The legend recorded by Gallus says that Piast was a peasant who lived in a ''podgrodzie''. The Polans, disgusted by the cruelties of the previous ruler, Popiel, '''supposedly''' deposed him and elected Ziemowit duke.}}
+# {{lb|pl|intransitive}} to [[feel]] something
+#: {{uxi|pl|'''Miałem''' do niego '''żal''' o to.|I '''resented''' him for that.}}
+# {{lb|pl|reflexive-się}} to [[fare]] {{gl|to be in any state, or pass through any experience, good or bad}}
+#: {{uxi|pl|[[jak się masz|Jak '''się masz'''?]]|How are you?}}
+# {{lb|pl|reflexive-się}} to [[appear]], to [[bode]] {{+obj|pl|:ku(dat)}}
+#: {{uxi|pl|Dzień '''miał się''' ku końcowi.|The day '''was coming to''' an end.}}
+# {{lb|pl|reflexive-się}} to be in [[relation]] to something {{+obj|pl|:do(gen)<to what>}}
+#: {{uxi|pl|Jak to '''się ma''' do tematu?|How '''is''' this '''related''' to the subject?}}
+# {{lb|pl|reflexive-się|obsolete}} to [[head]] somewhere {{+obj|pl|:ku(dat)/:w(acc)}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[behave]]
+#: {{syn|pl|[[zachowywać]] [[się]]}}
+#: {{syn|pl|działać}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[address]], to [[turn]] towards
+# {{lb|pl|reflexive-się|Middle Polish}} to [[function]]
+# {{lb|pl|reflexive-się|Middle Polish}} to be [[have|had]]
+
+=====Usage notes=====
+* While the passive participle {{m|pl|miany}} is attested and used in passive constructions, this is generally rare. Impersonal constructions using {{m|pl|się}} are usually preferred for a similar use.
+
+=====Conjugation=====
+{{pl-conj-ai|mieć|mam|ma|mają|mia|mia|mie|miej|ip=miano|pp=mian|pp2=miani|vn=mienie}}
+
+=====Derived terms=====
+{{col|pl|title=interjections|a masz|mam|masz}}
+{{col|pl|title=nouns|mienie}}
+{{col|pl|title=phrases|masz babo placek|nie miała baba kłopotu, kupiła sobie prosię|nie ma tego złego, co by na dobre nie wyszło|nie ma|mówisz i masz}}
+{{pl-derived verbs|-/mieć się na baczności|-/mieć nadzieję|-/mieć zryty beret|-/mieć Boga w sercu|-/mieć coś z życia|-/mieć na imię}}
+
+===Etymology 2===
+{{ety|pl|nl=1}}
+
+====Verb====
+{{head|pl|verb form}}
+
+# {{inflection of|pl|mieść||2|s|impr}}
+
+===Trivia===
+{{pl-freq 1990|341|207|393|547|1103|2591|17|243|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|mieć|66191}}
+* {{R:pl:SXVI|mieć się|66192}}
+* {{R:pl:SXVII|MIEĆ|1866|SPas|02.02.2022}}
+* {{R:pl:SXVII|MIEĆ%20SIĘ|8159|date=20.01.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900|Mieć, Imieć, Mać, Miewać, Miewować, Miewywać|948|2}}
+* {{R:wsource|pl|M. Arcta Słownik Staropolski/Mieć}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=have|:inh|zlw-opl:mieć|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf}}
+
+# {{lb|szl|transitive}} to [[have]]
+# {{lb|szl|intransitive}} to [[feel]] something
+# {{lb|szl|auxiliary|intransitive}} to be [[supposed to]] [[must]], to [[have to]], to [[need|need to]]
+# {{lb|szl|transitive}} to [[consider]] someone as something {{+obj|szl|:za(acc)}}
+# {{lb|szl|reflexive-sie}} to [[fare]] {{gl|to be in any state, or pass through any experience, good or bad}}
+
+====Conjugation====
+{{rfinfl|szl|verb}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|miec}}
+* {{R:szl:silling}}
+* {{R:szl:silling|mieć_sie}}
+* {{R:szl:silling|mieć_za}}

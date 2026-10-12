@@ -1,0 +1,189 @@
+{{also|dobrze|dôbrzê}}
+==Kashubian==
+
+===Etymology===
+{{ety|csb|:af|dobri|-e|tree=+|text=+}} Compare {{cog|zlw-slv|dôbrzê}}.
+
+===Pronunciation===
+{{csb-pr}}
+
+===Adverb===
+{{csb-adv|lepi}}
+
+# [[well]] {{gl|in a good manner}}
+
+===Further reading===
+* {{R:csb:SJP1893|dobře|26}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|14101}}
+
+{{cln|csb|manner adverbs|suppletive adverbs}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:af|dobry|-e|etydate=end of the 14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Adverb===
+{{zlw-opl-adv|lepiej}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Masovia}} [[well]]; [[correctly]], [[properly]]
+#* {{RQ:zlw-opl:Fl|32, 3|Poycze iemu pene nowe, '''dobrze''' spewaycze iemu glossem (bene psallite ei in vociferatione)|Pojcie jemu pienie nowe, '''dobrze''' śpiewajcie jemu głosem, (bene psallite ei in vociferatione)|-}}
+#* {{RQ:zlw-opl:Rozm|762|Nyektorzy movyą, ... yze (sc. Judasz) vslyschavschy smarthvychvstanye, ktorego szye nye n[y]adzyal, byezal y obyeszyl szye, ktore nye yest '''dobrze''' poczvyrdzono (quod non est authenticum)|Niektorzy mowią, ... iże (sc. Judasz) usłyszawszy smartwychwstanie, ktorego sie nie nadział, bieżał i obiesił sie; ktore nie jest '''dobrze''' poćwirdzono (quod non est authenticum)|-}}
+#* {{RQ:zlw-opl:ZapWarsz|1522|1482|Jako themv gwalthowi rok mynal, o kthorj na mya '''dobrze''' vrodzony Pyothr sz Prasmowa, castellan liwsky, zaloval|Jako temu gwałtowi rok minął, o ktory na mię '''dobrze''' urodzony Piotr z Prażmowa, kasztelan liwski, żałował|-}}
+# [[easily]]; [[freely]] {{gl|without difficulty}}
+#* {{RQ:zlw-opl:Rozm|501|Odpovyedzyal myly Iesus: Nye moze to '''dobrze''' bycz, abych ya mogl yedną kropyą vykvpycz czlovyeka|Odpowiedział miły Jesus: Nie może to '''dobrze''' być, abych ja mogł jedną kropią wykupić człowieka|-}}
+# {{lb|zlw-opl|attested in|Masovia|Greater Poland}} [[fully]], [[completely]], [[perfectly]], [[clearly]]
+#* {{RQ:zlw-opl:KsMaz|I|530|1405|Yaco ya to '''dobrze''' wem, yaco Ian ne vkrath Sarcze kona|Jako ja to '''dobrze''' wiem, jako Jan nie ukrad Sarce konia|-}}
+#* {{RQ:zlw-opl:Rozm|633|Odpovyedzyal ym myly Iesus: Povyedzyalczyem vam, yzem ya, a iuzesczye slyschely '''dobrze'''|Odpowiedział im miły Jesus: „Powiedziałciem wam, iżem ja, a jużeście słyszeli '''dobrze'''”.|-}}
+#* {{RQ:zlw-opl:Rozm|786|Pilat... wyszedł do Żydow, bo baczył '''dobrze''', iże im było barzo nielubo, iże s nim (sc. z Krystusem) tako długo mowił|Piłat... wyszedł do Żydow, bo baczył '''dobrze''', iże im było barzo nielubo, iże s nim (sc. z Krystusem) tako długo mowił|-}}
+#* {{RQ:zlw-opl:OrtMac|145|Telko thym, ktorzy lepyey vmyeya, dawam y porączam szye poprawyacz|Telko tym, ktorzy lepiej umieją, dawam y poręczam sie poprawiać|-}}
+# [[aptly]], [[rightly]], [[justly]]
+#* {{RQ:zlw-opl:BZ|I Reg|20, 7|Reczely: A to gest '''dobrze''', tedi bødze pokoy sludze twemu (si dixerit: Bene, pax erit servo tuo)|R[z]eczeli: A to jest '''dobrze''', tedy będzie pokoj słudze twemu (si dixerit: Bene, pax erit servo tuo)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[fairly]], [[virtuously]]
+#* {{RQ:zlw-opl:OrtBr|VI|363|Czlowyek moze szwe dzedzyczstwo y gymyenye '''dobrze''' dobythe przed prawem oddacz|Człowiek może swe dziedzicstwo i jimienie '''dobrze''' dobyte przed prawem oddać|-}}
+#* {{RQ:zlw-opl:Fl|35, 3|Slowa ust iego lichota y lescz. Ne chczal rozumecz, abi '''dobrze''' czinil (ut bene ageret)|Słowa ust jego lichota i leść, nie chciał rozumieć, aby '''dobrze''' czynił (ut bene ageret)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[usefully]], [[advantageously]]
+#* {{RQ:zlw-opl:Fl|56, 3|Wolacz bødø ku bogu nawiszszemu, bogu, iensze '''dobrze''' vczinil mne (qui benefecit mihi)|Wołać będę ku Bogu nawyszszemu, Bogu, jenże '''dobrze''' uczynił mnie (qui benefecit mihi)|-}}
+#* {{RQ:zlw-opl:Gn|173b|A przes tocz by '''dobrze''' tho bylo, isbichom my... nasze grzechy szebe (leg. z siebie) sdrucyly|A przeztoć by '''dobrze''' to było, iżbychom my... nasze grzechy, z siebie zdrucili|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[happily]], [[pleasantly]]
+#* {{RQ:zlw-opl:Błaż|320|Sødza tego myasta przikazaal gy w cyemnyczø przes nocz wsa[dz]ycz, a drugego dnya... gemusz slotkimy slowy rzekl: Myey sye '''dobrze''', Blaszeyv (gaude, Blasi), prziyacyelyv naszych bogow. Swyøty Blaszey gemu odp[o]wyedz[iał]...: Myey sye dobrze, dob[r]y sødz[ia] (gaude et optime praeses), alle nye molw, by waszy balwan[o]wye bogowye byly|Sędzia tego miasta przykazał ji w ciemnicę przez noc wsa[dz]ić, a drugiego dnia... jemuż słodkimi słowy rzekł: Miej sie '''dobrze''', Błażeju (gaude, Blasi), przyjacielu naszych bogow. Święty Błażej jemu odp[o]wiedz[iał]... Miej sie dobrze, do[b]ry sędz[ia], (gaude et optime praeses), ale nie mołw, by waszy bałwan[o]wie bogowie byli|-}}
+#* {{RQ:zlw-opl:Fl|132, 1|Owa kako '''dobrze''' y kako weszelo przebywacz braczø w gedno (ecce quam bonum et quam iucundum habitare fratres in unum)|Owa kako '''dobrze''' i kako wiesieło przebywać bracią w jedno (ecce quam bonum et quam iucundum habitare fratres in unum)|-}}
+#* {{RQ:zlw-opl:Rozm|836|A przeto, iże mowicie, by przeciw wam czynił niektore nieposłuszeństwo, widzicieli, iżciem ji kazał umorzyć i ubiczować, miejcież na tem '''dobrze''', nie ubijajcie go|A przeto iże mowicie, by przeciw wam czynił niektore nieposłuszeństwo, widzicieli, iżciem ji kazał umęczyć i ubiczować? Miejcież na tem '''dobrze''', nie ubijajcie go|-}}
+#* {{RQ:zlw-opl:BZ|Gen|29, 6|I rzece Iacob: Sdrowly gest? Tedi ony rzekly: '''Dobrze''' syø gyma (sanusne est? inquit. Valet, inquiunt)|I rzecze Jakob: Zdrowli jest? Tedy oni rzekli: „'''Dobrze''' się jima” (sanusne est? inquit. Valet, inquiunt)|-}}
+#* {{RQ:zlw-opl:BZ|Tob|5, 21|Thobyas rzecze: Gydzta '''dobrze''', a pan bødz was wodz, a angyol gego bødz s wama (bene ambuletis et sit deus in itinere vestro et angelus eius comitetur vobiscum)|Tobijasz rzecze: „Jidźta '''dobrze''', a Pan bądź wasz wodz, a anjoł jego bądź z wama (bene ambuletis et sit Deus in itinere vestro et angelus eius comitetur vobiscum)|-}}
+# [[almost]], [[nearly]]
+#* {{RQ:zlw-opl:BZ|Ex|12, 37|Y szly søø synowye izrahelsczy s Ramessy do Sochod, szeszczsed tyszyøczow '''dobrze''' møszow pyeszich, kromye nyewyast a dzyeczy (profectique sunt filii Israel de Ramesse in Socoth, sexcenta fere millia peditum virorum absque parvulis)|I szli są synowie izrahelszczy s Ramessy do Sochot sześćset tysięcow '''dobrze''' mężow pieszych, kromie niewiast a dzieci (profectique sunt filii Israel de Ramesse in Socoth, sexcenta fere millia peditum virorum absque parvulis)|-}}
+# {{ng|intensifies a comparative}}; [[very]], [[a lot]], [[much]]
+#* {{RQ:zlw-opl:BZ|Num|14, 3|Dobrze '''lepey''' iest syø nam wrocici do Egypta (nonne melius est reverti in Aegyptum)?|Dobrze '''lepiej''' jest się nam wrocici do Ejipta (nonne melius est reverti in Aegyptum)?|-}}
+# [[rather]], [[pretty]]; to a [[fair]] degree
+#* {{RQ:zlw-opl:R|I|XLIII|End of the fifteenth century|Zlą zoną '''lepyey''' smyechem nyzly kigem karzy (malam uxorem potius riso, quam baculo castigabis)|Złą żonę '''lepiej''' śmiechem niżli kijem karzy (malam uxorem potius riso, quam baculo castigabis)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[as well]]
+#* {{RQ:zlw-opl:Gn|11a|Fszythczy ludze na tem tho swecze, tako '''dobrze''' svethsczy gako duchofniy, chøcz ony tego|Wszytcy ludzie na tem to świecie, tako '''dobrze''' świetszczy jako duchowni, ch[c]ąć oni tego|-}}
+
+====Derived terms====
+{{zlw-opl-derived verbs|-/dobrzemówić}}
+
+====Descendants====
+* {{desc|pl|dobrze|alts=1}}
+* {{desc|szl|dobrze}}
+
+===References===
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{cln|zlw-opl|manner adverbs|suppletive adverbs}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|dobrz||colloquial}}
+* {{alt|pl|dopsz||humorous}}
+* {{alt|pl|debrze||Biecz|Ropczyce}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav;LL-Q809 (pol)-Krokus-#.wav|mp=do.brze|prz=#|pod=#|CGP=#|zag=#}}
+
+===Etymology 1===
+{{ety|pl|id=well|:inh|zlw-opl:dobrze|:af<surf>|dobry|-e|tree=+|text=+}} Compare {{cog|csb|dobrze}} and {{cog|zlw-slv|dôbrzê}}.
+
+====Adverb====
+{{pl-adv|lepiej|mpsup=nalepiej}}
+
+# [[well]] {{gl|in a correct or proper manner}}
+#: {{ant|pl|niedobrze|źle}}
+# [[well]] {{gl|in a positive manner}} {{+obj|pl|dat<for whom>}}
+#: {{ant|pl|niedobrze|źle}}
+# [[well]] {{gl|in a manner that one might expect something positive}}
+#: {{ant|pl|niedobrze|źle}}
+# [[well]] {{gl|in a kind, compassionate, or fair manner}}
+#: {{ant|pl|niedobrze|źle}}
+# [[well]] {{gl|in an approving manner}}
+#: {{ant|pl|niedobrze|źle}}
+# [[well]] {{gl|such that the suggested course of action would be the wisest}}
+# [[well]] {{gl|not sick}}
+# {{lb|pl|Middle Polish}} [[abundantly]]; [[profusely]]
+#: {{syn|pl|obficie}}
+
+====Particle====
+{{head|pl|particle}}
+
+# {{ng|expresses agreement}}; [[alright]] {{+obj|pl|dat<l:Central Greater Poland,Czeszewo,from <<German>>><to what>}}
+#: {{syn|pl|dobra}}
+# {{ng|expresses a request}}; [[alright]]?
+#: {{syn|pl|dobra}}
+# {{lb|pl|sometimes|repeated}} {{ng|used to interrupt}}; [[alright]]
+#: {{syn|pl|dobra}}
+# [[well]] {{gl|to a significant degree}}
+#: {{coi|pl|'''dobrze''' po północy|'''well''' after midnight}}
+# {{lb|pl|Przemyśl|Podhale}} {{syn of|pl|o mało}}
+#: {{uxi|pl|Bije go i bije, '''dobrze''' nie zabije.|He's beating and beating him, and he'll ''''nearly''' kill him.}}
+
+====Numeral====
+{{head|pl|numeral}}
+
+# {{lb|pl|Zagórze}} {{syn of|pl|dużo}}
+
+====Derived terms====
+{{col|pl|title=adjective|dobrze odżywiony}}
+{{col|pl|title=particle|równie dobrze}}
+{{col|pl|title=phrase|siedź, jak ci dobrze|tak dobrze żarło i zdechło|dobrze nie bardzo<l:dialectal>}}
+{{col|pl|title=proverbs|wszędzie dobrze, ale w domu najlepiej|wszędzie dobrze, gdzie nas nie ma|jak się zwał, tak się zwał, byleby się dobrze miał}}
+{{pl-derived verbs|zrobić dobrze/robić dobrze|-/mieć dobrze poukładane w głowie}}
+
+====Trivia====
+{{pl-freq 1990|31|28|35|85|213|392|124|77|1}}
+
+===Etymology 2===
+{{ety|pl|nl=1}}
+
+====Noun====
+{{head|pl|noun form|g=n}}
+
+# {{infl of|pl|dobro||loc|s}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP|dobrze I|37163}}
+** {{R:pl:WSJP|dobrze II|2442}}
+** {{R:pl:PWN}}
+** {{R:pl:NFJP}}
+* Middle Polish:
+** {{R:pl:SXVI|dobrze, dobro|48581}}
+** {{R:pl:SXVII|DOBRZE|4563|SPas|21.09.2016}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||476|1}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||333|1}}
+** {{R:pl:Saloni:1908||333}}
+** {{R:pl:Kobylińska:2001||28}} <!---dobrze; porządnie; dużo--->
+
+{{cln|pl|manner adverbs|suppletive adverbs}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:dobrze|:af<surf>|dobry|-e|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Adverb===
+{{szl-adv|lepij}}
+
+# [[well]] {{gl|in a good manner}}
+#: {{ant|szl|niydobrze|źle}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+
+{{cln|szl|manner adverbs|suppletive adverbs}}

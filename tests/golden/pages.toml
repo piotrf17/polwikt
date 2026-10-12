@@ -1,0 +1,221 @@
+# The golden corpus (R8.1): pages pulled verbatim from the pinned dump by
+# `make golden-pull` (tools/golden.py). Each entry says what it covers. Adding a page is
+# the first step of supporting a new template or section (CLAUDE.md: fixture first).
+
+# --- Nouns: every gender/animacy class, irregular stems --------------------------------
+[[page]]
+title = "kot"
+why = "masculine animal baseline; diminutive/augmentative/feminine relations, audio"
+[[page]]
+title = "pies"
+why = "three homograph noun entries in one etymology, two of them m-anml with different accusative plurals; taxonomic link in a gloss (R6.14)"
+[[page]]
+title = "dom"
+why = "masculine inanimate"
+[[page]]
+title = "komputer"
+why = "borrowed term ({{etymon}} :bor); collocations via {{coi}}; inline nyms"
+[[page]]
+title = "człowiek"
+why = "masculine personal, suppletive plural (ludzie)"
+[[page]]
+title = "brat"
+why = "masculine personal, irregular plural (bracia); a Middle Polish label"
+[[page]]
+title = "pan"
+why = "masculine personal; Middle Polish content alongside modern senses"
+[[page]]
+title = "ręka"
+why = "feminine with dual relics (rękoma); very long sense list"
+[[page]]
+title = "kawa"
+why = "feminine; three etymologies"
+[[page]]
+title = "oko"
+why = "neuter with the dual/irregular plural oczy; two tables"
+[[page]]
+title = "dziecko"
+why = "neuter, irregular plural dzieci"
+[[page]]
+title = "łóżko"
+why = "neuter; a Middle Polish label"
+[[page]]
+title = "miasto"
+why = "neuter; two etymologies"
+[[page]]
+title = "rok"
+why = "suppletive plural (lata); Middle Polish in many positions"
+[[page]]
+title = "chleb"
+why = "masculine inanimate with Middle Polish content"
+
+# --- Pluralia tantum, proper nouns -----------------------------------------------------
+[[page]]
+title = "drzwi"
+why = "plurale tantum"
+[[page]]
+title = "nożyczki"
+why = "plurale tantum"
+[[page]]
+title = "spodnie"
+why = "plurale tantum; two etymologies"
+[[page]]
+title = "Warszawa"
+why = "proper noun; place-name relations"
+[[page]]
+title = "Polska"
+why = "proper noun"
+
+# --- Verbs: aspect pairs, irregulars, reflexive, several tables ------------------------
+[[page]]
+title = "robić"
+why = "imperfective, pairs with zrobić; Middle Polish senses"
+[[page]]
+title = "zrobić"
+why = "perfective partner of robić (R3.14)"
+[[page]]
+title = "czytać"
+why = "imperfective, pairs with przeczytać; many Middle Polish senses"
+[[page]]
+title = "przeczytać"
+why = "perfective partner of czytać"
+[[page]]
+title = "mówić"
+why = "imperfective, suppletive perfective powiedzieć"
+[[page]]
+title = "powiedzieć"
+why = "perfective, irregular conjugation"
+[[page]]
+title = "być"
+why = "irregular verb; future/past/imperative paradigm"
+[[page]]
+title = "iść"
+why = "irregular verb; two tables"
+[[page]]
+title = "jeść"
+why = "irregular verb"
+[[page]]
+title = "chcieć"
+why = "irregular verb"
+[[page]]
+title = "mieć"
+why = "verb lemma that is also a form of mieść: keep the lemma half only (R3.13a)"
+[[page]]
+title = "bać"
+why = "reflexive verb (bać się), government with the genitive"
+[[page]]
+title = "wziąć"
+why = "perfective with three conjugation tables"
+[[page]]
+title = "zniknąć"
+why = "one entry with two inflection tables ('or more rarely:'), decision 12"
+
+# --- Adjectives, adverbs ---------------------------------------------------------------
+[[page]]
+title = "dobry"
+why = "Middle Polish in every R6.6a position (senses, alt form, mp=), dropped; dialect-heavy senses; irregular comparative"
+[[page]]
+title = "duży"
+why = "adjective with comparative; Middle Polish labels"
+[[page]]
+title = "lepszy"
+why = "comparative adjective as its own page"
+[[page]]
+title = "dobrze"
+why = "adverb; two etymologies; Middle Polish labels"
+
+# --- Numerals, pronouns, function words ------------------------------------------------
+[[page]]
+title = "dwa"
+why = "numeral with gendered forms"
+[[page]]
+title = "trzy"
+why = "numeral"
+[[page]]
+title = "pięć"
+why = "numeral"
+[[page]]
+title = "ja"
+why = "personal pronoun; two etymologies"
+[[page]]
+title = "on"
+why = "personal pronoun; {{pl-freq 1990}} frequency (R6.13); two tables"
+[[page]]
+title = "który"
+why = "relative/interrogative pronoun, adjectival declension"
+[[page]]
+title = "się"
+why = "reflexive pronoun"
+[[page]]
+title = "nad"
+why = "preposition with case government (R6.11)"
+[[page]]
+title = "ani"
+why = "conjunction/particle; Middle Polish labels"
+[[page]]
+title = "no"
+why = "particle/interjection; two etymologies"
+[[page]]
+title = "oj"
+why = "interjection"
+
+# --- Multi-etymology pages, lemma-and-form pages ---------------------------------------
+[[page]]
+title = "zamek"
+why = "two etymologies (castle/lock), never merged (R5.1)"
+[[page]]
+title = "piec"
+why = "noun and verb under separate etymologies; Middle Polish content"
+[[page]]
+title = "bez"
+why = "four etymologies; preposition and noun lemmas and gen. pl. of beza: keep the lemma halves (R3.13a)"
+
+# --- Form-of pages ---------------------------------------------------------------------
+[[page]]
+title = "kotów"
+why = "inflected form only: folds into kot, no record (R3.13a)"
+[[page]]
+title = "mamy"
+why = "two form-of entries (mieć 1pl, mama gen sg / nom-acc-voc pl): no record, folds into two lemmas"
+[[page]]
+title = "DNA"
+why = "abbreviation form-of whose lemma does not produce the string: emitted with form_of (R3.13a)"
+[[page]]
+title = "ketchup"
+why = "standard alternative spelling ({{alt sp}} of keczup): stays a record"
+[[page]]
+title = "fijokier"
+why = "dialectal alternative form ({{alt form}} under a region label)"
+
+# --- Participles (records of their own, decision 10) -----------------------------------
+[[page]]
+title = "robiony"
+why = "passive adjectival participle"
+[[page]]
+title = "czytający"
+why = "active adjectival participle"
+[[page]]
+title = "prosząc"
+why = "contemporary adverbial participle ({{pl-participle|cont-adv}})"
+
+# --- Phrases, letters, affixes ---------------------------------------------------------
+[[page]]
+title = "na razie"
+why = "multi-word phrase"
+[[page]]
+title = "dzień dobry"
+why = "multi-word interjection/phrase"
+[[page]]
+title = "ą"
+why = "letter entry (POS_LETTER)"
+[[page]]
+title = "-wać"
+why = "suffix; two tables in one entry"
+
+# --- Middle Polish negatives (R6.6a) ---------------------------------------------------
+[[page]]
+title = "kradźba"
+why = "entirely Middle Polish (senses, alt form, mp=): no record"
+[[page]]
+title = "barzo"
+why = "every sense labelled Middle Polish, the first also with modern dialects: no record, since a Middle Polish label drops the sense whatever else it carries"

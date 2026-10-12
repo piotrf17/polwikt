@@ -1,0 +1,359 @@
+{{also|Appendix:Variations of "pies"}}
+==English==
+
+===Pronunciation===
+* {{IPA|en|/paɪz/}}
+** {{audio|en|LL-Q1860 (eng)-Vealhurl-pies.wav|a=Southern England}}
+* {{rhymes|en|aɪz|s=1}}
+
+===Noun===
+{{head|en|noun form}}
+
+# {{plural of|en|pie}}
+
+===Verb===
+{{head|en|verb form}}
+
+# {{infl of|en|pie||s-verb-form}}
+# {{infl of|en|pi||s-verb-form}}
+
+===Anagrams===
+* {{anagrams|en|a=eips|EPIs|Peis|Epis|IEPs|pisé|epis|sipe|Seip|spie|Sipe|ipes}}
+
+==Asturian==
+
+===Pronunciation===
+{{ast-pr}}
+
+===Noun===
+{{head|ast|noun form|g=m-p}}
+
+# {{plural of|ast|pie}}
+
+==Chavacano==
+
+===Etymology===
+{{inh+|cbk|es|pies}}, plural of {{m|es|pie||foot}}.
+
+===Pronunciation===
+* {{cbk-IPA}}
+
+===Noun===
+{{cbk-noun}}
+
+# {{lb|cbk|anatomy}} [[foot]]
+
+==Cornish==
+
+===Etymology===
+Potentially borrowed from {{der|kw|enm|pye}}, a borrowing from {{der|kw|fro|pie}}. Cognate with {{cog|cy|piod}}.
+
+===Noun===
+{{kw-noun|col|en}}
+
+# [[magpie]]s
+
+===Mutation===
+{{kw-mut}}
+
+{{C|kw|Corvids|Perching birds}}
+
+==Dutch==
+
+===Etymology===
+Variant of {{m|nl|pis}}.
+
+===Pronunciation===
+* {{IPA|nl|/ˈpis/}}
+* {{audio|nl|Nl-pies.ogg}}
+* {{hyphenation|nl|pies}}
+* {{rhymes|nl|is|s=1}}
+
+===Noun===
+{{nl-noun|m|-|-}}
+
+# {{lb|nl|slang|or|childish}} {{alternative form of|nl|pis}}; [[pee]], [[piss]]
+
+====Derived terms====
+* {{l|nl|piesen}}
+
+===Anagrams===
+* {{l|nl|peis}}
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|LL-Q150 (fra)-WikiLucas00-pies.wav|a=<<France>> (<<Lyon>>)}}
+
+===Noun===
+{{head|fr|noun form|g=f}}
+
+# {{plural of|fr|pie}}
+
+===Anagrams===
+* {{l|fr|ipés}}, {{l|fr|Pise}}, {{l|fr|pisé}}
+
+==Galician==
+
+===Verb===
+{{head|gl|verb form}}
+
+# {{gl-reinteg-verb form of|piar}}
+
+==Kashubian==
+[[Image:Pies nierasowy, 20201225 1128 5279.jpg|thumb|Pies.]]
+
+===Etymology===
+{{etymon|csb|id=dog|:inh|sla-pro:*pь̀sъ|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|m-anml|dim=piesk}}
+
+# [[dog]] ({{taxfmt|Canis familiaris|species}})
+#: {{syn|csb|tósz}}
+# [[puppy]] {{gl|young dog}}
+
+===Further reading===
+* {{R:csb:SJP1893|pjes|137}}
+* {{R:csb:Sychta:1967|ṕes|259|4}}
+* {{R:csb:Trepczyk:1994|+}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|10260}}
+
+{{C|csb|Canids}}
+
+==Latin==
+
+===Verb===
+{{head|la|verb form|head=piēs}}
+
+# {{inflection of|la|piō||2|s|pres|actv|subj}}
+
+===References===
+* {{R:la:du Cange}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=dog|:inh|sla-pro:*pь̀sъ|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|m-anml|dim=psek|adj=psi}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Greater Poland|Kujawy}} [[dog]] {{gl|{{taxfmt|Canis lupus familiaris|subspecies}}}}
+#* {{RQ:zlw-opl:Fl|21, 17|Bo ogarnøli me '''psow''' wele rada zlich osadla iest me|Bo ogarnęli mie '''psow''' wiele, rada złych osiadła jest mie|-}}
+#* {{RQ:zlw-opl:Fl|58, 7|Obroczeni bødzcze kuweczoru aglod cirzpecz bødø iaco '''psi''' ychodzicz bødø ocolo masta|Obroceni *bądźcie ku wieczoru a głod cirzpieć będą jako '''psi''' i chodzić będą około miasta.|-}}
+#* {{RQ:zlw-opl:Gn|179b|Atako vøcz przybeszafsy lofcy se'''psy''' ytesze szeczamy yvlovøcz ony gy|a tako więc przybieżaw szy łowcy se '''psy''' i teże z sieciami i ułowiąć oni ji.|-}}
+#* {{RQ:zlw-opl:Piek VI|162|1403|Testis dixit ministeriali: Dicas mihi altius, quia non bene audio abo zabit bøcz, abo cze '''pesz''' huchloscz!|Testis dixit ministeriali: Dicas mihi altius, quia non bene audio abo zabit bądź, abo cie '''pies''' huchłość!|-}}
+#* {{RQ:zlw-opl:Kal|159|1406|Yaka Macek [z] swim sinemne wszøl Marcinoui '''psa''' gwaltem i ne dal go drugemu sinoui|Jaka Maciek [z] swym synem nie wziął Marcinowi '''psa''' gwałtem i nie dał go drugiemu synowi|-}}
+#* {{RQ:zlw-opl:KsMaz|I|1305|1409|O chtorego '''psza''' Stanislaw na mø zalowal, tegom ia zabil, kedi mi gøszi poyadl|O chtorego '''psa''' Stanisław na mię żałował, tegom ja zabił, kiedy mi gęsi pojadł|-}}
+#* {{RQ:zlw-opl:Pyzdr|309|1410|Iako temu trzi lat nye, kyedim zødal, by my prawa pomog[o]l, czso my owcze posczwal y '''psa''' zabyl, temu trzi lata nye minøla, owczarczego Andrey|Jako temu trzy lat nie, kiedym żądał, by my prawa pomogł, cso mi owce poszczwał i '''psa''' zabił, temu trzy lata nie minęła, owczarczego Andrzej|-}}
+#* {{RQ:zlw-opl:Pozn|899|1415|Iaco tho moy '''pesz''' bil, czsosm i v nego zastal|Jako to moj '''pies''' bił, czsom ji u niego zastał|-}}
+#* {{RQ:zlw-opl:Kościan|905|1421|Nyetanscowsky wssząl Pyotrkowy jelena gwaltem, czsso gy on swymy '''psy''' gonyl|Nietanscowski wziął Piotrkowi jelenia gwałtem, czso ji on swymi '''psy''' gonił|-}}
+#* {{RQ:zlw-opl:Pozn|1080|1421|Jaco Chorinsky ne posial darem '''psa''' do domu Dobrogostowego|Jako Choryński nie posiał darem '''psa''' do domu Dobrogostowego|-}}
+#* {{RQ:zlw-opl:Pozn|1099|1422|Yaco ne szabyl szarni przet yego '''psy''' any gey iego '''psi''' gonily do yego wsy|Jako nie zabił sarny przed jego '''psy''', ani jej jego '''psi''' gonili do jego wsi|-}}
+#* {{RQ:zlw-opl:Pozn|1154|1423|Yacom yego swini ne wscząl swymi '''psy'''|Jakom jego świni nie uszczuł swymi '''psy'''|-}}
+#* {{RQ:zlw-opl:TPaw|VII|3276|1423|Nye wsczwalem twego '''psa'''|Nie uszczwałem tego '''psa'''|-}}
+#* {{RQ:zlw-opl:Kal|815|1425|Powrosz nayn wdzayl{{...}} s taco dobrymy jaco sza[m]{{...}} y '''psszy''' carmil|Powroz nań wdzjął{{...}} z tako dobrymi jako się{{...}} i '''psy''' karmił|-}}
+#* {{RQ:zlw-opl:Sul|15|Mayącz raną wkązoną Ovkąszyenyv pszyem ode'''pssa''' Swego Sąnssada doswyathczyly ysz zposczwanya thegotho sząnsszada raną myaal Rani otrzymaa agynako ssząnszaath przes przysząngą wlostną szą oczysczy|Mając ranę ukąszoną ode psa swego sąsiada, doświad czy-li, iż z poszczwania tego to sąsiada ranę miał, rany otrzyma, a jinako sąsiad przez przysięgę włostną się oczyści.|-}}
+#* {{RQ:zlw-opl:Sul|44|Thesz ydzyk skarzyl gest ysz '''pyeszs''' falkow spotvknye nya alybo posczwanya gego thako gi wranyl alybo vrazyl yvyathl ysze sz onego wkązenya vkazowal ymyenil szą chramacz|Też Idzik skarżył jest, iż '''pies''' Fałkow z potuknienia alibo poszczwania jego tako ji uranił alibo uraził i ujadł, iże s onego ukąsz enia ukazował i mienił się chramać|-}}
+#* {{RQ:zlw-opl:Sul|81|Nyektorzy szwyerzs gonyony przes '''psy''' drvgego wszącz nye sromayą|Niektorzy źwierz goniony przez '''psy''' drugiego wziąć [się] nie sromają|-}}
+#* {{RQ:zlw-opl:BZ|Ex|11, 7|Auwszech synow Izrahelskych nyezkowiknye '''pyesz''' odczlowyeka asz dodobitczøczyø Abiszczye wyedzely yakym dzywem rozdzely pan Egipskye odIsrahelskich|A u wszech synow izrahelskich nie skowyknie '''pies''', od człowieka aż do dobytczęcia, abyście wiedzieli, jakim dziwem rozdzieli Pan Ejipskie od Israhelskich.|-}}
+#* {{RQ:zlw-opl:BZ|III Reg|14, 11|Ktorzikoly zemrø zlyvda Geroboamowa wmyescye snyedzø ge '''psy''' aktorzi zemrø na polyv snye ge ptastwo nyebyeske bo to mowy[l] pan|Ktorzykoli zemrą z luda Jeroboamowa w mieście, śniedzą je '''psi''', a ktorzy zemrą na polu, śnie je ptastwo niebieskie, bo to mowił Pan.|-}}
+#* {{RQ:zlw-opl:BZ|III Reg|16, 11|agdisz krolyowal syedzøcz na stolczv gego zbyl wszitek dom Bazow anyeostawyl snyego any '''psa''' ny blysznyego ny przyiacyelya gego|A gdyż krolował siedząc na stolcu jego, zbił wszytek dom Bazow, a nie ostawił s niego ani '''psa''', ni bliźniego, ni przyjaciela jego.|-}}
+#* {{RQ:zlw-opl:AKPr|VIIIa|52|1458|Iacom ya nye vlowyl w stapiczy Ianowi cobilj gwaltem anym gey '''psi''' skarmyl|Jakom ja nie ułowił w stępicy Janowy kobyły gwałtem anim jej '''psy''' skarmił|-}}
+#* {{RQ:zlw-opl:Dział|35|Gdy kogo vkąssy '''pyes'''|Gdy kogo ukąsi '''pies'''|-}}
+#* {{RQ:zlw-opl:ZapWarsz|1133|1462|Yakom ya [y] nye przyschethl na gymyenye Micolayowo a  nye poyalem yego '''pscha''' s[l]ednica gwaltem|Jakom ja [i] nie przyszedł na jimienie Mikołajowo a nie pojąłem jego '''psa''' ś[l]ednika gwaltem|-}}
+#* {{RQ:zlw-opl:ZapWarsz|1254|1468|Yakom ya nye wsczwal '''pszem''' cthyrnaczcze gasschy gwalthem Mikolayewy|Jakom ja nie uszczwał '''psem''' cztyrnaćcie gąści gwałtem Mikołajewi|-}}
+#* {{RQ:zlw-opl:ZapWarsz|1350|1472|O kthorego '''pssa''' na myą zalvye gwal­them zabythego, themv gwalthovy rok mynąl|O ktorego '''psa''' na mię żałuje gwałtem zbitego, temu gwałtowi rok minął|-}}
+#* {{RQ:zlw-opl:MMAe|XVIII|622|1499|Omnes doctores suis argumentis ita repressisset a se, sicut canes calido lavacro de coquinis pelluntur al. vlg. tako ony rzeczy parzyl od syebye, yako '''pssy''' z kuchnyey parzą varem|Omnes doctores suis argumentis ita repressisset a se, sicut canes calido lavacro de coquinis pelluntur al. vlg. tako ony rzeczy parzył od siebie, jako '''psy''' z kuchniej parzą warem|-}}
+#* {{RQ:zlw-opl:Kałużn|286|XV p. post.|Myasszą, czo *czyky zwyerz zagye, thego nye gyedcz, ale porzvcz '''pszom'''|Mięsa, co dziki źwierz zaje, tego nie jedz, ale porzuć '''psom'''|-}}
+#* {{RQ:zlw-opl:R|I|XLV|XV p. post.|'''Pyesz''' stroz vzytheczny gyest|Pies stroż użyteczny jest|-}}
+#* {{RQ:zlw-opl:SKJ|V|285|XV ex.|Ista verba valent contra morsum rabidi canis al. wszczyeklego '''psza'''|Ista verba valent contra morsum rabidi canis al. wściekłego '''psa'''|-}}
+#* {{RQ:zlw-opl:PF|V|29|XV p. pr.|Cridonius geleni '''pes'''|Cridonius jeleni '''pies'''|-}}
+#* {{RQ:zlw-opl:R|I|XLV|XV p. post.|'''Psszy''' lowcze wyączey kostvgya, nyszly [v]uzythku noszą|'''Psy''' łowcze więcej kosztują, niżli [v]użytku niosą|-}}
+# {{lb|zlw-opl|derogatory|hapax}} [[dog]] {{gl|someone contemptible}}
+#* {{RQ:zlw-opl:R|XXV|179|End of the 15th century|O, impudens canis nyesromyeslyvy '''psye'''!|O, impudens canis niesromieźliwy '''psie'''!|-}}
+
+====Declension====
+{{zlw-opl-decl-noun
+|pies|-|psi
+|psa|-|psów
+|-|-|psom
+|psa|-|psy
+|psem|-|psy
+|-|-|-
+|psie|-|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|psarka|psarz|psota}}
+{{zlw-opl-derived verbs|-/psuć|-/łgać jako pies|-/psy dawać}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|psotny}}
+{{col|zlw-opl|title=nouns|psarek|psarskie|psotnik}}
+
+====Descendants====
+* {{desc|pl|pies}}
+* {{desc|szl|pies}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Bruckner}}
+* {{R:zlw-opl:SSP1953||117|35}}
+* {{R:zlw-opl:SPJSP||10145}}
+* {{R:zlw-opl:BLŚP|+|17654}}
+* {{R:zlw-opl:GS||129}}
+
+{{C|zlw-opl|Dogs}}
+
+==Old Spanish==
+
+===Pronunciation===
+* {{IPA|osp|/pjes̪/}}
+
+===Noun===
+{{head|osp|noun form|g=m-p}}
+
+# {{plural of|osp|pie}}
+
+==Polish==
+{{wp|pl:}}
+{{img
+|image1=Collage of Nine Dogs.jpg|caption1={{l|pl|psy}}
+}}
+
+===Etymology===
+{{etymon|pl|id=dog|:inh|zlw-opl:pies|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav;LL-Q809 (pol)-Gower-#.wav|mp=#|MB=#|pod=#|ekr=#|prz=#|las=#|krk=#|kuj=#|WL=#|kie=#|lec=#|BG=#|pdg=#|sie=#|low=#}}
+
+===Noun===
+{{pl-noun|m-anml|dim=piesek,piesuś<l:dialectal>|aug=psisko|adj=psi}}
+
+# [[dog]] {{gl|{{taxfmt|Canis lupus familiaris|subspecies}}}}
+# [[dog]] {{gl|any member of the family {{taxfmt|Canidae|family}}, including domestic dogs, wolves, coyotes, jackals, foxes, and their relatives (extant and extinct); canid}}
+# {{lb|pl|hunting}} male [[fox]] or [[badger]]
+# {{lb|pl|Biecz|Ropczyce-Sędziszów County|Eastern Kraków|Gdów|Bochnia|children's games}} {{ng|child who chases another in various games}}
+
+====Declension====
+{{pl-decl-noun-m-anml|p|s|pies|dats=psu}}
+* The accusative singular form {{m|pl|piesa}} is found in the {{w|Near Masovian dialect}} ({{w|Warka}}, {{w|Czersk}})
+* The dative singular form {{m|pl|psowi}} is found in the {{w|Podhale dialect}} ({{w|Rabka-Zdrój}}) and the {{w|Eastern Kraków dialect}} ({{w|Gdów}}, {{w|Bochnia}})
+* The nominative plural form {{m|pl|psi}} is found most often in folk songs, usually as part of a rhyme, but not always, in the {{w|Kuyavian dialect}} ({{w|Brdów}}, {{w|Kowal}}, {{w|Więcławice}}); the {{w|Near Masovian dialect}} ({{w|Łukowiec, Masovian Voivodeship}}, {{w|Warsaw}}, {{w|Parysów}}, {{w|Łukowiec}}); the {{w|Łęczyca dialect}} ({{w|Smardzew}}, {{w|Topola}}), the {{w|Lasovia dialect}} ({{w|Tarnobrzeg}}), the {{w|Kielce dialect}}, the {{w|Western Kraków dialect}} ({{w|Zebrzydowice}}, {{w|Modlnica}}), the {{w|Eastern Kraków dialect}} ({{w|Gdów}}, {{w|Bochnia}}), the {{w|Western Lublin dialect}} ({{w|Puławy}}), the {{w|Babia Góra dialect}} ({{w|Maków Podhalański}})
+* In the {{w|Far Masovian dialect}} ({{w|Przasnysz}}), the word may take masculine personal declension, e.g. ''Wzion zara trzech {{m|pl|psów}}''.
+
+===Noun===
+{{pl-noun|m-anml,m-pr}}
+
+# {{lb|pl|derogatory|law enforcement|slang}} [[cop]], [[policeman]]
+#: {{syn|pl|glina|gliniarz}}
+# {{lb|pl|colloquial|or|dialectal|Near Masovian|Jagodne|Łowicz|Domaniewice|Western Kraków|derogatory}} [[dog]] {{gl|someone contemptible}}
+
+====Declension====
+{{pl-decl-noun-m-anml|p|s|pies|dats=psu|accp=psy/psów}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|Western Kraków}} [[chaff]] [[stick]] {{gl|narrower stick in the chaff counter}}
+# {{lb|pl|Sącz Lach}} [[support]] {{gl|small plank attached to the front of the bed of a butcher's box which one's leg rests on to add strength}}
+#: {{syn|pl|wapka}}
+# {{lb|pl|Sieradz|Wieluń|Radomsko}} [[horse]] [[mount]] {{gl|iron cart for mounting the front horses}}
+#: {{syn|pl|furmanek}}
+# {{lb|pl|Western Lublin|Głodno|music}} {{syn of|pl|strunnik}}
+# {{lb|pl|Przemyśl}} [[peg]] stuck in the lower end of a [[rafter]]
+# {{lb|pl|Kielce|in the plural}} [[sew]]n-in [[strip]]s on the [[shoulder]]s of [[shirt]]s
+# {{lb|pl|obsolete|or|dialectal|Kujawy|derogatory}} [[piece of crap]] {{gl|anything bad, unpleasant, or meaningless}}
+# {{lb|pl|Łowicz|Złaków Borowy|Duplice Duże|weaving}} [[support]] {{gl|toothed wheel at the rear beam of a weaving workshop and a rod supporting the wheel to keep the thread firmly in place}}
+
+====Declension====
+{{pl-decl-noun-m-in|p|s|a|pies}}
+
+====Derived terms====
+{{col|pl|title=adjectives|pieski|psowaty|jak psu z gardła wyjęty|pod psem|psu na budę}}
+{{col|pl|title=adverbs|jak psa|jak zbity pies|psio|na psie<l:dialectal>}}
+{{col|pl|title=interjections|całuj psa w nos|pies trącał|na psa urok}}
+{{col|pl|title=nouns|borowy pies<l:dialectal>|pies ziemny<l:dialectal>|psiak|psiara|psiarnia|psiarz|psica|psię|psina|psota|psowate|ni pies, ni wydra|pies łańcuchowy|pies na baby|pies ogrodnika|pies policyjny|pies przewodnik|pies służbowy|pies z kulawą nogą|piesio|psiur|psiarek|psiarczyk}}
+{{col|pl|title=numerals|jak psów}}
+{{col|pl|title=phrases|ostatnich gryzą psy|psa by nie wygonił|psy dupami szczekają|srał to pies|to pies?|tu jest pies pogrzebany}}
+{{col|pl|title=proverbs|jak się chce psa uderzyć, to kij się znajdzie|dobra psu i mucha|nie dla psa kiełbasa|psy szczekają, karawana idzie dalej|tanie mięso psy jedzą}}
+{{pl-derived verbs|-/psuć|-/psioczyć}}
+{{pl-derived verbs|-/goić się jak na psie|zdać się psu na budę/-|-/łgać jak pies|-/podchodzić jak pies do jeża|użyć jak pies w studni/-|-/wieszać psy|-/żyć jak pies z kotem|zejść na psy/schodzić na psy|psy paść<l:dialectal>/-}}
+
+====Related terms====
+{{col|pl|title=adverbs|psio|piesko}}
+{{col|pl|title=nouns|pieseczek}}
+
+===Further reading===
+* {{R:pl:WSJP||16383}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+* {{R:pl:SXVI|+|82929}}
+* {{R:pl:SXVII|PIES|2007|SPas|12.09.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||167|4}}
+* {{R:pl:SGP1900||96|4}}
+* {{R:pl:Saloni:1899||242}}
+* {{R:pl:Saloni:1908||338}}
+* {{R:pl:Świderska:1929|ṕes|129}}
+
+{{C|pl|Dogs|Foxes|Male animals|Mustelids|Occupations|People}}
+
+==Portuguese==
+
+===Verb===
+{{head|pt|verb form}}
+
+# {{pt-verb form of|piar}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=dog|:inh|zlw-opl:pies|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|m-anml}}
+
+# [[dog]] {{gl|{{taxfmt|Canis lupus familiaris|subspecies}}}}
+
+====Declension====
+{{szl-decl-noun
+|pies|psa|psu|psa|psym|psie|psie|psy|psōw|psōm|psy|[[psami]]/[[psōma]]|psach|psy}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+* {{R:szl:ZPJŚ|+|111}}
+* {{R:szl:Wencel:2023|pjes|482}}
+
+{{C|szl|Dogs}}
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr}}
+
+===Noun===
+{{head|es|noun form|g=m-p}}
+
+# {{noun form of|es|pie||p}}
+
+===Verb===
+{{head|es|verb form}}
+
+# {{es-verb form of|piar<í>}}

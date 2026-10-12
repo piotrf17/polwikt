@@ -9,12 +9,18 @@ from pathlib import Path
 from typing import NoReturn
 
 import click
+from wikitextprocessor import Wtp
 
 from polwikt.config import Config, ConfigError, find_project_root, load_config
 from polwikt.dump.fetch import FetchError, sha1_of
 from polwikt.dump.fetch import fetch as fetch_dump
 from polwikt.dump.scan import ScanError
 from polwikt.dump.scan import scan as scan_dump
+from polwikt.dump.store import read_page
+from polwikt.extract.page import extract_page
+from polwikt.parse.sections import language_section
+from polwikt.parse.tree import format_tree
+from polwikt.proto.io import to_json
 
 log = logging.getLogger("polwikt")
 
@@ -150,9 +156,59 @@ def finalize(in_dir: Path | None, out: Path | None) -> None:
 
 @cli.command()
 @click.argument("title")
-def inspect(title: str) -> None:
+@click.option(
+    "--db",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    help="Page store [default: <root>/data/pages.sqlite].",
+)
+@click.option(
+    "--golden", is_flag=True, help="Read the page from tests/golden/ (no dump needed)."
+)
+@click.option("--full", is_flag=True, help="Show every language, not just Polish.")
+def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
     """Show one entry: raw wikitext, node tree, and extracted proto (R8.5)."""
-    _todo("M3", "inspect")
+    cfg = _config()
+    language = cfg.languages[0]
+    if golden:
+        path = (
+            cfg.root / "tests" / "golden" / "pages" / f"{title.replace(' ', '_')}.wiki"
+        )
+        if not path.exists():
+            raise click.ClickException(f"{title!r} is not a golden fixture ({path})")
+        text, origin = path.read_text(encoding="utf-8"), str(path)
+        store: Path | None = None
+    else:
+        store = db or cfg.root / "data" / "pages.sqlite"
+        if not store.exists():
+            raise click.ClickException(f"{store} does not exist; run `polwikt scan`")
+        page = read_page(store, title)
+        if page is None:
+            raise click.ClickException(f"{title!r} is not a {language} page in {store}")
+        text = page.body
+        origin = f"{store}, page {page.page_id}, revision {page.revision_id}"
+
+    section = text if full else language_section(text, language)
+    if section is None:
+        raise click.ClickException(f"{title!r} has no =={language}== section")
+    click.echo(f"=== {title}  ({origin})")
+    click.echo(f"--- raw wikitext{'' if full else f' ({language} section)'} ---")
+    click.echo(section.rstrip("\n"))
+    # Expansion needs the M4 layer (Wikidata stubs, existence via all_titles); until
+    # then the tree is of the unexpanded text, which is also what R4.2.1 retains.
+    wtp = Wtp(db_path=store, quiet=True)
+    try:
+        wtp.start_page(title)
+        click.echo("--- node tree (unexpanded) ---")
+        click.echo(format_tree(wtp.parse(section)))
+        click.echo("--- proto ---")
+        try:
+            word = extract_page(wtp, title, text)
+        except NotImplementedError as e:
+            click.echo(f"({e})")
+        else:
+            click.echo(to_json(word, indent=1) if word is not None else "(no record)")
+    finally:
+        wtp.close_db_conn()
 
 
 @cli.command(name="stats-diff")

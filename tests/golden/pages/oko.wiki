@@ -1,0 +1,926 @@
+{{also|Appendix:Variations of "oko"}}
+{{minitoc}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==Barasana==
+
+===Noun===
+{{head|bsn|noun}}
+
+# [[water]]
+# [[rain]]
+
+====Derived terms====
+* {{l|bsn|oko sohe}}
+* {{l|bsn|oko uhu}}
+* {{l|bsn|kuma oko}}
+
+===References===
+* '''1982''', Hugh-Jones, ''Barasana Cosmology'', in ''Ethnoastronomy and archaeoastronomy in the American tropics'': ''oko sohe'' "the east (literally: the water door)", ''kuma oko'' "summer rain (by extension, any heavy rain)", ''oko uhu'' "master of water: the egret"
+
+==Carapana==
+
+===Noun===
+{{head|cbc|noun}}
+
+# [[water]]
+
+===References===
+* Ronald G. Metzger, ''The Morpheme KA- of Carapana (Tucanoan)''
+
+==Czech==
+{{wp|cs:}}
+{{Wiktionary:Picture dictionary/cs:head}}
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:oko|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-oko.ogg}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-oko.wav}}
+* {{hyphenation|cs|oko}}
+
+===Noun===
+{{cs-noun|n|dim=očko}}
+
+# {{lb|cs|anatomy}} [[eye]]
+#: {{coi|cs|[[zmizet]] [[z]] [[oko|očí]]|to disappear from '''sight'''}}
+#: {{uxi|cs|[[otevřít|Otevřela]] '''oči'''.|She opened her '''eyes'''.}}
+# {{lb|cs|card games}} [[twenty-one]], [[pontoon]]
+# [[tarn]]
+# [[eye]] {{gloss|center of a storm}}
+
+====Usage notes====
+* The plural of definition 1 takes the dual form, which changes the gender from neuter to feminine (seen in agreement, for example "modré oči" – "blue eyes").
+
+====Declension====
+{{cs-decl-noun-dual|oko|oka|oku|oko|oko|oku|okem|oka|ok|[[okám]], [[okům]]|oka|oka|okách|oky|oči|očí|očím|oči|oči|očích|očima}}
+
+====Derived terms====
+{{col|cs|title=adjectives|očividný|oční|okatý}}
+{{col|cs|title=nouns|babočka paví oko|očitý svědek|očnice|očař|očník|okamžik}}
+{{col|cs|title=verbs|mít oči jako dvě studánky|mít oči pro někoho|házet po někom očima|padnout do oka}}
+{{col|cs|title=proverbs|oko za oko|oko za oko, zub za zub|sejde z očí, sejde z mysli}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{C|cs|Eye}}
+
+==Edo==
+
+===Pronunciation===
+* {{IPA|bin|[òkò]|ref={{cite-book|last=Agheyisi|first=Rebecca N.|year=1986|title=An Edo-English dictionary|location=Benin City|publisher=Ethiope|isbn=9781232536}} !!! {{cite-book|last=Melzian|first=Hans|year=1937|title=A Concise Dictionary of the Bini Language of Southern Nigeria|url=https://archive.org/details/MelzianAConciseDictionaryOfTheBiniLanguageOfSouthernNigeria1937/page/n159|page=142|location=London|publisher=Kegal Paul, Trench, Trubner}}}}
+
+===Noun===
+{{head|bin|noun}}
+
+# something [[parcel]]ed for certain purposes like gift giving, etc.; [[parcel]]
+
+===References===
+{{reflist}}
+
+==Esperanto==
+
+===Etymology===
+{{ety|eo|:af|ok<t:8>|-o<t:noun>|text=+|tree=1}}
+
+===Pronunciation===
+{{eo-pr|a=LL-Q143 (epo)-Lepticed7-oko.wav}}
+
+===Noun===
+{{eo-head}}
+
+# a number or numeral [[8]]
+# [[eightsome]], a set of [[eight]] of something
+#: {{ux|eo|la [[kera]] oko|the eight of hearts}}
+
+====Derived terms====
+* {{l|eo|bitoko|gloss=[[byte]]}}
+
+===See also===
+{{table:playing cards/eo}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+
+{{cln|eo|nominal numbers}}
+
+==Gun==
+[[Image:Potter_and_his_wife.jpg|thumb|right|'''''Okò''''']]
+
+===Etymology 1===
+Cognates include {{cog|fon|kò}}, {{cog|ajg|eko|t=clay-like soil}}
+
+====Alternative forms====
+* {{alter|guw|kò}}
+
+====Pronunciation====
+* {{IPA|guw|/ō.kò/}}
+
+====Noun====
+{{head|guw|noun|head=okò|plural|okò lɛ́|or|okò lẹ́}}
+
+# [[clay]]
+
+===Etymology 2===
+Cognates include {{cog|fon|ko}}, {{cog|sxw|oko}}
+
+====Alternative forms====
+* {{alter|guw|ko}}
+
+====Pronunciation====
+* {{IPA|guw|/ō.kō/}}
+
+====Numeral====
+{{head|guw|numeral|head=oko}}
+
+# [[twenty]]
+
+====Adjective====
+{{head|guw|adjective|head=oko}}
+
+# [[twenty]]
+
+====Related terms====
+{| class="wikitable" border="1" style="text-align: center"  style="width:600px"
+! style="width:11%" |
+! style="width:11%" | 19
+{{l-self|guw|fɔtɔ̀n-nùkún-ɛnɛ̀}}, {{l-self|guw|fọtọ̀n-nùkún-ẹnẹ̀}}
+! style="width:11%" | 20
+! style="width:11%" | 21
+{{l-self|guw|ko-nùkún-ɖòkpó}}, {{l-self|guw|ko-nùkún-dòpó}}
+|-
+! rowspan="1" | [[cardinal]] [[number]]
+| colspan="3" style="text-align: center" | '''{{l-self|guw|oko}}''', {{l-self|guw|ko}}
+|-
+! rowspan="1" | [[ordinal]] [[number]]
+| colspan="3" style="text-align: center" | {{l-self|guw|okotɔ́}}, {{l-self|guw|okotọ́}}
+|-
+|}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|おこ}}
+
+==Kari'na==
+{{cardinalbox|car|1|2|3|òwin|oruwa}}
+
+===Etymology===
+From {{inh|car|sai-car-pro|*atjôkô}}.
+
+===Pronunciation===
+* {{car-IPA}}
+
+===Numeral===
+{{head|car|numeral|nominalized|okono}}
+
+# [[two]]
+
+===References===
+* {{R:car:Courtz|page=107}}
+* {{R:car:Ahlbrinck|head=oko|330|323}}
+
+==Koreguaje==
+
+===Noun===
+{{head|coe|noun}}
+
+# [[water]]
+
+===References===
+* ''Classification of South American Indian Languages'' (1968), page 181
+
+==Mayo==
+
+===Noun===
+{{head|mfy|noun}}
+
+# {{l|en|pine}} {{topics|mfy|Plants}}
+
+==Norwegian Nynorsk==
+
+===Verb===
+{{head|nn|verb form}}
+
+# {{lb|nn|obsolete}} {{infl of|nn|aka||past|p}}
+
+{{cln|nn|obsolete verb forms}}
+
+==Old Czech==
+
+===Etymology===
+{{ety|zlw-ocs|:inh|sla-pro:*oko|text=+|tree=1}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Noun===
+{{zlw-ocs-noun|n}}
+
+# [[eye]]
+# [[sight]], [[look]], [[gaze]]
+# [[round]] [[formation]] on an [[object]]; [[hole]]; [[spot]] resembling an eye
+# [[bulge]] on a [[plant]] resembling an eye
+
+====Declension====
+{{zlw-ocs-ndecl|n.nomdu:oči.gendu:očú.datdu:očima}}
+
+====Descendants====
+* {{desc|cs|oko}}
+
+===Further reading===
+* {{R:zlw-ocs:Gebauer}}
+
+{{C|zlw-ocs|Anatomy|Eye}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=eye|:inh|sla-pro:*ȍko|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|n}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[eye]]
+#* {{RQ:zlw-opl:Kśw|dv 13|Videle '''ocy''' moy zbauene tuoie||Widziele '''oczy''' moi zbawienie twoje}}
+# {{lb|zlw-opl|in the dual}} [[front]] of a person; [[frontside]]
+#* {{RQ:zlw-opl:Rozm|820|Y odvyazaly gy od slupa, a obroczyvschy gy grzebyetem ku slupv y vzyąly yemv rącze opak albo za szye, y czyagnąly tako sylnye aze oblapyl slup vschythek, yako pyrvey '''oczyma''' byl przyvyązan|I odwiązali ji od słupa a obrociwszy ji grzebietem ku słupu i wzięli jemu ręce opak albo zasie i ciągnęli ji tako silnie, aże obłapił słup wszytek, jako pirwej '''oczyma''' był przywiązan|-}}
+# {{lb|zlw-opl|metaphorically}} [[cognition]] {{gl|ability to reason}}
+#* {{RQ:zlw-opl:R|XXII|244|Middle of the 15th century|Darmo podnossy swe '''oko''' na wydzenye boga, gen gescze sam syebye poznacz a wydzecz nye umyege|Darmo podnosi swe '''oko''' na widzenie Boga, jen jeszcze sam siebie poznać a widzieć nie umieje|-}}
+# {{lb|zlw-opl|attested in|Masovia}} [[hole]] in a [[net]]
+#* {{RQ:zlw-opl:Czrs|76|1416|Sex rethe de suberibus bonis valencia dorcas venare, que ad longitudinem XXX passuum vlg. szø[ż]yene ne nayedrzonech debent habere, et XIIII oculos vlg. na *dztyrnacze '''ok'''|Sex rethe de suberibus bonis valencia dorcas venare, que ad longitudinem XXX passuum vlg. są[ż]enie nie najedrzonych debent habere, et XIIII oculos vlg. na cztyrnacie '''ok'''|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adverb|w oce mgnieniu|jakoby okiem mgnął|na oczy|okiem w oko|}}
+{{col|zlw-opl|title=nouns|oka mgnienie|ptasze oka|wołowe oko|wronie oko}}
+{{col|zlw-opl|title=prepositions|kromie oczu|przed oczy|przed oczyma|z oczu}}
+{{zlw-opl-derived verbs|-/być jęt od swu oczu|-/Boga mieć przed oczyma|-/sromotę w oczu mieć}}
+
+====Descendants====
+* {{desc|pl|oko}}
+* {{desc|szl|ôko}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Paraguayan Guarani==
+{{rfd|gug|not recognized by Guarani speakers}}
+
+===Pronunciation===
+{{rfp|gug}}
+
+===Noun===
+{{head|gug|noun}}
+
+# [[home]]
+
+==Polish==
+{{picdic|image=Green eye.jpg
+|text=<nowiki>Oko</nowiki>
+|width=310
+|height=310
+|labels=
+{{picdiclabel|pl|color=white|fontsize=12|posx=160|posy=35|link=brew|align=right}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=125|posy=75|link=rzęsa}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=195|posy=90|link=powieka}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=135|posy=90|link=tęczówka}}
+{{picdiclabel|pl|color=white|fontsize=12|posx=135|posy=105|link=źrenica|anchor=Etymology 2}}
+{{picdiclabel|pl|color=black|fontsize=12|posx=175|posy=115|link=białko|anchor=Noun}}
+|detail1=Click on labels in the image
+|detail2=
+{{picdicimg|pl|image=Face of SpooSpa.jpg|link=twarz}}
+}}
+{{wp|pl:}}
+
+===Etymology===
+{{etymon|pl|id=eye|:inh|zlw-opl:oko|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=pl-oko.ogg|mp=#|MB=#}}
+
+===Noun===
+{{pl-noun|n|dim=oczko|aug=oczysko}}
+
+# {{lb|pl|countable|anatomy}} [[eye]] {{gl|vision organ}}
+#: {{syn|pl|źrenica}}
+#: {{uxi|pl|Twoje '''oczy''' są piękne.|Your '''eyes''' are beautiful.}}
+# {{lb|pl|uncountable|colloquial}} [[sight]] {{gl|ability to see}}
+#: {{syn|pl|wzrok}}
+# {{lb|pl|chiefly|in the plural}} [[eye]]s {{gl|gaze, manner of looking}}
+#: {{syn|pl|spojrzenie}}
+# {{lb|pl|countable}} [[eye]] {{gl|manner of seeing that expresses one's emotions i.e. through art}}
+# {{lb|pl|uncountable}} [[eye]] {{gl|supervision or guarding}}
+# {{lb|pl|countable}} [[eye]] {{gl|anything round}}
+# {{lb|pl|countable}} [[eye]] {{gl|part of a camera}}
+#: {{syn|pl|ślepie|ślepię}}
+# {{lb|pl|countable|obsolete}} [[unit]] of [[weight]] equal to three [[pound]]s
+# {{lb|pl|uncountable|obsolete}} [[presence]], [[countenance]]
+# {{lb|pl|Middle Polish|games}} [[point]] on a [[game]] [[die]]
+# {{lb|pl|Middle Polish}} [[eye]] {{gl|colorful circle on a peacock's tail}}
+# {{lb|pl|Middle Polish|botany}} [[bud]] of a [[shoot]] of a [[plant]] [[transplant]]ed to another plant
+#: {{hyper|pl|pączek}}
+
+====Declension====
+{{pl-decl-noun-n|nomp=oczy|genp=[[oczu]]/[[ócz]]/[[oczów]]|datp=oczom|insp=[[oczami]]/[[oczyma]]|locp=oczach}}
+
+: Note: {{m|pl|ócz}} and {{m|pl|oczów}} are rare or archaically stylistic.
+
+====Derived terms====
+{{col|pl|title=adjectives|bezoki|błękitnooki|brązowooki|bystrooki|ciemnooki|czarnooki|jasnooki|jednooki|kosooki|modrooki|niebieskooki|olbrzymiooki|orlooki|pawiooki|pięknooki|piwnooki|ponurooki|siwooki|skośnooki|słodkooki|sowiooki|srebrnooki|szarooki|wielkooki|wielooki|zaoczny|zielonooki|złotooki|żółtooki}}
+{{col|pl|title=adverbs|bez mrugnięcia okiem|bez zmrużenia oka|choć oko wykol|że oko wykol|gdzie oczy poniosą|gołym okiem|jak oka w głowie|jak okiem sięgnąć|kątem oka|na oczach|na piękne oczy|na oko|na własne oczy|oko w oko|pi razy oko|poza oczami|prosto w oczy|spod oka|w cztery oczy|w oczach|z łezką w oku|z przymrużeniem oka|z zamkniętymi oczami}}
+{{col|pl|title=interjection|kij w oko}}
+{{col|pl|title=nouns|argusowe oko|bawole oko|złotook|cierń w oku|dno oka|duże niebieskie oczy|kącik oka|klapki na oczach|kurwiki w oczach|mgnienie oka|nieuzbrojone oko|oko cyklonu|oko miarowe|podkrążone oko|rozbiegane oczy|rybie oko|sińce pod oczami|sokole oko|tygrysie oko|uzbrojone oko|wole oczy|złe oko|żabie oczy|żabie oko}}
+{{col|pl|title=particle|na moje oko}}
+{{col|pl|title=phrases|oczy błyszczą|szkiełko i oko}}
+{{col|pl|title=prepositions|na oczach|pod okiem|w oczach}}
+{{col|pl|title=proverbs|oko za oko, ząb za ząb|źdźbło w oku bliźniego widzisz, a belki w swoim nie dostrzegasz|biednemu zawsze wiatr w oczy|co z oczu, to z serca|czego oczy nie widzą, tego sercu nie żal|kruk krukowi oka nie wykole|pańskie oko konia tuczy|prawda w oczy kole|strach ma wielkie oczy}}
+{{pl-derived verbs|przewrócić oczami/przewracać oczami
+|-/spać z jednym okiem otwartym
+|całe życie stanęło przed oczami/całe życie staje przed oczami
+|-/bić w oczy
+|błysnąć w oczach/błyskać w oczach
+|-/błyszczeć w oczach
+|-/gryźć w oczy
+|-/bać się spojrzeć w oczy
+|-/mieć bielmo na oczach
+|-/mieć na oku
+|-/mieć obłęd w oczach
+|-/mieć oczy szeroko otwarte
+|-/mieć przed oczami
+|-/mieć rentgen w oczach
+|-/mieć wypisane na twarzy
+|-/móc spojrzeć w oczy
+|-/być solą w oku
+|zaszklić oczy/szklić oczy
+|zajrzeć w oczy/zaglądać w oczy
+|napaść oczy/paść oczy
+|nie uwierzyć własnym oczom/nie wierzyć własnym oczom
+|-/nie wiedzieć, gdzie oczy podziać
+|otworzyć oczy/otwierać oczy
+|popatrzyć innymi oczyma/patrzeć innymi oczyma
+|podbić oko/podbijać oko
+|podsunąć pod nos/podsuwać pod nos
+|przymknąć oko/przymykać oko
+|puścić oko/puszczać oko
+|zrobić wielkie oczy/robić wielkie oczy
+|rzucić okiem/rzucać okiem
+|postawić oczy w słup/stawiać oczy w słup
+|skoczyć do oczu/skakać do oczu
+|spędzić sen z oczu/spędzać sen z oczu
+|stracić z oczu/tracić z oczu
+|urosnąć w oczach/rosnąć w oczach
+|wypłakać oczy/wypłakiwać oczy
+|wytrzeszczyć oczy na/wytrzeszczać oczy na
+|zajrzeć śmierci w oczy/zaglądać śmierci w oczy
+|zamydlić oczy/mydlić oczy
+|zobaczyć oczyma wyobraźni/widzieć oczyma wyobraźni
+|zejść z oczu/schodzić z oczu
+|otworzyć oczy/otwierać oczy
+|stanąć przed oczami/stawać przed oczami
+|wpaść w oko/wpadać w oko
+|zdjąć bielmo z oczu/zdejmować bielmo z oczu
+|zniknąć z oczu/znikać z oczu
+|łuski spadły z oczu/łuski spadają z oczu
+|łza się w oku zakręciła/łza się w oku kręci
+|łzy stanęły w oczach/łzy stają w oczach
+|oczy otworzyły się/oczy otwierają się
+|-/kłuć w oczy
+|-/latać przed oczami
+|-/rwać oczy
+|zawiesić oko/-
+|-/dwoić się w oczach
+|-/mienić się w oczach
+|nawet okiem nie mrugnąć/-
+|-/nie odrywać oczu
+|-/nie widzieć na oczy
+|nie zmrużyć oka/-
+|-/patrzeć krzywym okiem
+|-/przecierać oczy
+|przejrzeć na oczy/-
+|-/robić maślane oczy
+|-/rozbierać wzrokiem
+|spojrzał prawdzie w oczy/-
+|-/strzelać oczami
+|-/strzyc oczami
+|-/sypać piaskiem w oczy
+|-/świecić oczami
+|-/włazić w oczy
+|-/wypatrywać oczy
+|zamknąć oczy/-
+|-/rzucać się w oczy
+|-/oczy się kleją
+|oczy się zaśmiały/oczy się śmieją
+|oczy stanęły w słup/oczy stają w słup
+|-/oczy ciskają błyskawice
+|oczy zabłysły/-
+|oczy zaszły mgłą/oczy zachodzą mgłą
+|oczy zaświeciły się/-
+|oczy wyszły na wierzch/oczy wychodzą na wierzch
+|oko zbielało/-
+|zrobić się ciemno przed oczami/robić się ciemno przed oczami
+|świeczki stanęły w oczach/świeczki stają w oczach}}
+
+===Noun===
+{{pl-noun|n}}
+
+# {{lb|pl|chiefly|in the plural}} [[layer]] of [[fat]] or [[lard]] on top of a [[liquid]]
+# {{lb|pl|countable}} [[hole]] of a [[net]]
+# {{lb|pl|uncountable|card game}} [[blackjack]]
+#: {{syn|pl|blackjack}}
+# {{lb|pl|uncountable|sailing|colloquial}} [[observation]] [[duty]] on the [[bow]] of a [[ship]]
+# {{lb|pl|uncountable|sailing|colloquial}} [[sailor]] performing such a duty
+# {{lb|pl|countable|meteorology}} [[eye]] of a [[cyclone]]
+# {{lb|pl|dialectal}} [[tarn]]
+# [[shiny]] [[surface]] of [[water]]
+# {{lb|pl|Near Masovian}} {{ng|part of a rod holding a ladder to a wagon ({{m|pl|luśnia}} which is placed at the end of the axis}}
+
+====Declension====
+{{pl-decl-noun-n}}
+
+===Trivia===
+{{pl-freq 1990|32|7|14|158|84|295|171|329|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|78163}}
+* {{R:pl:SXVII|OKO|1182|date=12.07.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||737|3}}
+* {{R:pl:NFJP}}
+* {{R:pl:Matlakowski:1891||366}}
+
+{{C|pl|Eye|Fats and oils|People|Water|Units of measure}}
+
+==Secoya==
+
+===Alternative forms===
+* {{l|sey|oco}}
+
+===Noun===
+{{head|sey|noun}}
+
+# [[water]]
+
+===References===
+* ''Linguistic series of the Summer Institute of Linguistics of the University of Oklahoma'', issues 5-7 (1961)
+
+==Serbo-Croatian==
+{{wp|sh:}}
+
+===Pronunciation===
+* {{sh-IPA|ȍko}}
+* {{hyphenation|sh|o|ko}}
+
+===Etymology 1===
+{{root|sh|ine-pro|*h₃ekʷ-}}{{dercat|sh|ine-bsl-pro|ine-pro}}
+{{inh+|sh|sla-pro|*oko}}.
+
+====Noun====
+{{sh-noun|ȍko|n}}
+
+# {{lb|sh|anatomy}} [[eye]]
+
+=====Declension=====
+{{sh-decl-noun
+|ȍko|ȍči
+|ȍka|òčijū
+|oku|očima
+|oko|oči
+|oko|oči
+|oku|očima
+|okom|očima
+}}
+
+====Further reading====
+* {{R:sh:HJP|eFpgWRA%3D}}
+* {{R:sh:HJP|eFpgWRE%3D}}
+* {{R:sh:HJP|eFpjUBk%3D}}
+
+===Etymology 2===
+
+====Preposition====
+{{sh-prep|ȍko}} {{+obj|sh|gen}}
+
+# [[around]], [[about]], [[roughly]], [[approximately]]
+#: {{uxi|sh|Zaplijenjeno je '''oko''' 45 kilograma.|'''Approximately''' 45 kilograms were seized.}}
+
+====Further reading====
+* {{R:sh:HJP|eFpgWRI%3D}}
+* {{R:sh:HJP|eFpgWRM%3D}}
+
+===Etymology 3===
+{{nonlemma}}
+
+====Noun====
+{{sh-noun form}}
+
+# {{inflection of|sh|oka||voc|s}}
+
+==Siona==
+
+===Noun===
+{{head|snn|noun}}
+
+# [[water]]
+
+===References===
+* ''Classification of South American Indian Languages'' (1968), page 181
+
+==Slovak==
+{{wp|sk:}}
+
+===Etymology===
+{{ety|sk|:inh|sla-pro:*oko|text=+|tree=1}}
+
+===Pronunciation===
+* {{sk-IPA|a=LL-Q9058 (slk)-TomášPolonec-oko.wav|aa=Bratislava}}
+
+===Noun===
+{{sk-noun|n|adj=očný|aug=očisko}}
+
+# [[eye]]
+# [[sprout]] on a potato
+
+====Declension====
+{{sk-ndecl|n}}
+
+====Derived terms====
+{{col|sk|title=adverb|zoči-voči}}
+{{col|sk|title=nouns|obočie}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+{{C|sk|Anatomy}}
+
+==Slovene==
+{{wp|sl:}}
+
+===Etymology 1===
+{{root|sl|ine-pro|*h₃ekʷ-}}{{dercat|sl|ine-bsl-pro|ine-pro}}
+{{inh+|sl|sla-pro|*oko}}.
+
+====Pronunciation====
+* {{sl-IPA|okọ̑}}
+
+====Noun====
+{{sl-noun|okọ̑|n}}
+
+# {{C|sl|Body parts}} [[eye]]
+# [[sprout]]
+# {{lb|sl|dysphemism|figuratively}} watching [[person]]
+# {{lb|sl|gastronomy}} hole in [[cheese]]
+# {{lb|sl|engineering}} a hole for [[securing]] the material during [[lifting]]
+
+=====Declension=====
+* All senses except first
+{{sl-decl-noun-table3|accent=2|decl=n-1|irreg=yes|irregtitle=showing signs of first Slavic palatalization|infix=s-|
+okọ̑|očẹ̑sa|očẹ̑su|okọ̑|očẹ̑su|očẹ̑som|okọ̑|
+očẹ̑si|očẹ̑s|očẹ̑soma|očẹ̑si|očẹ̑sih|očẹ̑soma|očẹ̑si|
+očẹ̑sa|očẹ̑s|očẹ̑som|očẹ̑sa|očẹ̑sih|očẹ̑si|očẹ̑sa|
+datsg=očẹ̑s|datdu=očẹ̑s|datpl=očẹ̑s|loc=očẹ̑s
+}}
+
+
+* First sense
+{{sl-decl-noun-table3|accent=2|decl=n-1|irreg=yes|irregtitle=showing signs of first Slavic palatalization, suppletive in the plural, feminine in the plural|infix=s-|
+okọ̑|očẹ̑sa|očẹ̑su|okọ̑|očẹ̑su|očẹ̑som|okọ̑|
+očẹ̑si|očī|očẹ̑soma|očẹ̑si|očẹ́h|očẹ̑soma|očẹ̑si|
+očȋ|očī|očẹ̄m|očȋ|očẹ́h|očmí|očȋ|
+datsg=očẹ̑s|datdu=očẹ̑s
+}}
+* The dual is used when referring specifically to both eyes:
+*: {{uxi|sl|V vojni je izgubil obe očesi.|He lost both eyes in the war.}}
+
+
+* {{glossary|Obsolete}} or {{glossary|regional}}
+{{sl-decl-noun-table3|accent=2|decl=n-1|irreg=yes|irregtitle=showing signs of first Slavic palatalization, loses the infix in the plural|infix=s-|
+okọ̑|očẹ̑sa|očẹ̑su|okọ̑|očẹ̑su|očẹ̑som|okọ̑|
+očẹ̑si|ọ̑k|očẹ̑soma|očẹ̑si|ọ̑kih|očẹ̑soma|očẹ̑si|
+ọ̑ke|ọ̑k|ọ̑kom|ọ̑ke|ọ̑kih|ọ̑ki|ọ̑ke|
+datsg=očẹ̑s|datdu=očẹ̑s|datpl=ọ̑k|loc=ọ̑k
+}}
+
+=====Derived terms=====
+{{col4|sl
+|kurje oko
+|oko cepiča
+|ocvreti na oko
+|ocvreti na volovsko oko
+|jajce na oko
+|oči so bolj lačne kot želodec
+|samo oči so lačne
+|vsake oči imajo svojega malarja
+|oči komu lezejo skupaj
+|kamor oči nesejo
+|kamor oči sežejo
+|oči koga ne ubogajo več
+|oko koga vara
+|dati dobro oko
+|izmikati oči
+|zatisniti oko
+|verjeti kogaršnjim očem
+|imeti oči
+|imeti oči na pecljih
+|izjokati oči
+|izkopati oči
+|izspraskati oči
+|jemati oči
+|mašiti si oči in ušesa pred resnico
+|metati oči
+|odpreti oči
+|vleči oči
+|zakrivati oči
+|zapirati oči
+|zatiskati oči
+|zapreti oči
+|zatisniti oči
+|izgubiti iz oči
+|izpustiti iz oči
+|iz oči v oči
+|izginiti izpred oči
+|pobrati se izpred oči
+|izpustiti izpred oči
+|mrena komu iz oči pade
+|lesti na oči
+|na oko
+|na štiri oči
+|med štirimi očmi
+|na lepe oči
+|priklicati na oči
+|priti pred oči
+|biti v oči
+|bosti v oči
+|gledati smrti v oči
+|metati pesek v oči
+|pasti v oči
+|pogledati resnici v oči
+|udariti v oči
+|lepo za oko
+|biti na očeh
+|imeti na očeh
+|umreti na očeh
+|v kogaršnjih očeh
+|biti črn pod očmi
+|imeti kolobarje pod očmi
+|imeti pred očmi
+|biti  pred očmi
+|delati črno pred očmi
+|z enim očesom
+|poslušati z očmi in ušesi
+|preleteti z očmi
+|uiti očem
+|gledati z drugačnimi očmi
+|gledati z drugimi očmi
+|gledati z duševnimi očmi
+|gledati z notranjimi očmi
+|videti na lastne oči
+|mačje oko
+|z odprtimi očmi
+|biti same oči
+|oko javnosti
+|oko postave
+|oko javnega reda
+|oči sveta
+|strah ima velike oči
+|več oči več vidi
+|oko za oko
+|daleč od oči, daleč od srca
+|vrana vrani oči ne izkljuje
+|cepljenje na speče oko
+|cepljenje na živo oko
+|orkansko oko
+|tigrovo oko
+|magično oko
+|pikčasto oko
+|sestavljeno oko
+|očẹ̑sce
+|ọ̑ček
+|očníca
+|očẹ̑sən
+|predọ̄čiti
+|predọ̄čati
+|soọ̄čiti
+|soọ̄čiti
+}}
+
+===Etymology 2===
+{{bor+|sl|sh|ȍko}}.
+
+====Pronunciation====
+* {{sl-IPA|ȏko}}
+
+====Noun====
+{{sl-noun|ȏko|n}}
+
+# {{q|only present in phrase {{l|sl|od ȏka}}}} [[eye]]
+
+=====Declension=====
+{{sl-decl-noun-table3|accent=1|decl=n-1|
+ȏko|ȏka|ȏku|ȏko|ȏku|ȏkom|ȏko|
+ȏki|ȏk|ȏkoma|ȏki|ȏkih|ȏkoma|ȏki|
+ȏke|ȏk|ȏkom|ȏke|ȏkih|ȏki|ȏke|
+datsg=ȏk|datdu=ȏk|datpl=ȏk|loc=ȏk
+}}
+
+=====Derived terms=====
+{{col4|sl|od oka}}
+
+===See also===
+* {{l|sl|uhọ̑}}
+
+===Further reading===
+{{R:sl:FR}}
+
+==Tocharian A==
+
+===Etymology===
+Related to {{cog|xto|oko||id}}, but through what manner is uncertain. Probably borrowed from {{bor|xto|txb|-}} to Tocharian A, in which case ultimately from {{der|xto|ine-pro|*h₂ógeh₂||berry, fruit}}.
+
+===Noun===
+{{head|xto|noun|g=?}}
+
+# [[fruit]]
+
+{{C|xto|Botany|Foods}}
+
+==Tocharian B==
+
+===Etymology===
+Related to {{cog|xto|oko||id}}, but through what manner is uncertain. Probably a borrowing from Tocharian B to A. From there, probably ultimately from {{der|txb|ine-pro|*h₂ógeh₂||berry, fruit}}, making it cognate with {{cog|lt|úoga}}, {{cog|ru|я́года}}, {{cog|ang|æcern}} (whence {{cog|en|acorn}}), etc. Also possibly from {{der|txb|ine-pro|*h₂ewg-||increase, grow}}, in which case cognate with {{m|txb|auk-||to grow}}, {{cog|lt|augti}}, {{cog|la|augeo}}, etc.
+
+===Noun===
+{{txb-noun||n}}
+
+# [[fruit]]
+# [[result]], [[effect]], [[consequence]]
+
+====Derived terms====
+* {{l|txb|okotstse||fruitful}}
+
+===Further reading===
+* {{R:txb:Adams 2013|oko|page=115}}
+
+{{C|txb|Botany|Foods}}
+
+==Tsou==
+
+===Noun===
+{{head|tsu|noun}}
+
+# [[child]]; [[kid]]
+
+==Tucano==
+
+===Noun===
+{{head|tuo|noun|head=okó}}
+
+# [[water]]
+
+===References===
+* ''Estudios tucanos'' (1979), issue 3, page 16: [oko] 'agua' /oko/
+* [//huntergatherer.la.utexas.edu/languages/language/141 HG]
+
+==Tuyuca==
+
+===Noun===
+{{head|tue|noun|head=okó}}
+
+# [[water]]
+
+===References===
+* Janet Barnes, notes on Tuyuca in ''Tucano'', in ''The Amazonian Languages'' (Robert M. W. Dixon)
+
+==Warao==
+
+===Pronoun===
+{{head|wba|pronoun|singular|iné}}
+
+# [[we]], first person plural [[nominative]] pronoun
+#: {{ux|wba|Sina sisiko '''oko''' narutera. <ref>Romero-Figueroa 1997.34</ref>|With whom will '''we''' go.}}
+#: {{ux|wba|Osibu '''oko''' yabae nobotuma sina ribuae. <ref>Romero-Figueroa 1997.52-53</ref>|Some grandfathers said "'''we''' fished for morokoto".}}
+
+====See also====
+* {{qualifier|possessive}} [[ka]]
+
+===References===
+* [https://web.archive.org/web/20210613061629/http://www.owlnet.rice.edu/~pwd/sands08.pdf Focus, chapter 8: Warao and Urarina]
+{{reflist}}
+
+==Xhosa==
+
+===Etymology 1===
+{{rfe|xh}}
+
+====Pronunciation====
+* {{IPA|xh|[ôːko]}}
+
+====Pronoun====
+{{head|xh|pronoun|cat2=demonstrative pronouns|head=ôko}}
+
+# [[that]]; {{n-g|class 15 distal demonstrative.}}
+
+===Etymology 2===
+{{rfe|xh}}
+
+====Pronunciation====
+* {{IPA|xh|[ôːko]}}
+
+====Pronoun====
+{{head|xh|pronoun|cat2=demonstrative pronouns|head=ôko}}
+
+# [[that]]; {{n-g|class 17 distal demonstrative.}}
+
+==Yanomam==
+
+===Etymology===
+Cognate to {{cog|guu|oko}}.
+
+===Noun===
+{{wca-noun|a}}
+
+# [[crab]]
+
+===References===
+* {{R:wca:Clause|1|115}}
+
+==Yoruba==
+
+===Etymology 1===
+Cognate with {{cog|igl|óko}}, proposed to be derived from {{inh|yo|alv-yrd-pro|*ó-ko}}
+
+====Pronunciation====
+{{yo-IPA|oko}}
+
+====Noun====
+{{yo-noun|oko}}
+
+# [[farm]], [[field]]
+
+=====Derived terms=====
+{{col2|yo
+|ẹranko<t:animal>
+|ewéko<t:plant>
+|iléko<t:farmhouse>
+|olóko<t:farm owner>
+|ajáko<t:jackal>
+|Òrìṣàoko
+}}
+
+===Etymology 2===
+
+====Pronunciation====
+{{yo-IPA|òkò}}
+
+====Noun====
+{{yo-noun|òkò}}
+
+# [[stone]]; [[projectile]]
+#: {{syn|yo|òkúta}}
+
+===Etymology 3===
+From {{inh|yo|alv-yrd-pro|*ó-kó}}. Compare with {{l|yo|dó|t=to have sex}}, {{m|yo|akọ||male}} and {{m|yo|ọkọ||husband}}.
+
+====Pronunciation====
+* {{yo-IPA|okó}}
+
+====Noun====
+{{yo-noun|okó}}
+
+# {{lb|yo|vulgar}} [[penis]]
+#: {{syn|yo|kòkòrò}}
+
+=====Coordinate terms=====
+* {{l|yo|òbò}}
+
+=====Derived terms=====
+* {{l|yo|ọkùnrin}}
+
+===References===
+* {{cite-journal|en|year=2020|author=Adebayo, Taofeeq|title=Some Diachronic Changes in Yoruba Grammar
+|journal=Journal of West African Languages}}

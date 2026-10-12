@@ -52,7 +52,7 @@ select = ["E", "W", "F", "I", "UP", "B", "SIM", "RUF"]
 [tool.mypy]
 strict = true
 python_version = "3.13"
-files = ["polwikt", "tests"]
+files = ["polwikt", "tests", "tools"]
 exclude = ['_pb2\.pyi?$']
 
 [[tool.mypy.overrides]]

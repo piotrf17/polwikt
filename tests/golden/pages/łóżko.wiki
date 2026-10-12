@@ -1,0 +1,72 @@
+{{also|łózko|łóżko|łóżkò|łōżko}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|:af|łoże<ety:inh<sla-pro:*ložè>>|-ko|etydate=14th century|text=+|tree=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|n}}
+
+# {{dim of|zlw-opl|łoże|t=[[bed]]}} {{gl|piece of furniture, usually flat and soft, on which to rest or sleep}}
+#* {{RQ:zlw-opl:Kśw|br 34|Offerebant ei, inquit, paraliticum iacentem in lecto... Cso nam pres togo nemochnego, na '''lozcu''' lezøcego znamona?|Offerebant ei, inquit, paraliticum iacentem in lecto... Cso nam przez togo niemocnego, na '''łożku''' leżącego znamiona?|-}}
+
+====Descendants====
+* {{desc|pl|łóżko}}
+* {{desc|szl|łōżko}}
+
+===References===
+* {{R:pl:Boryś|łoże}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Furniture|Sleep}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Vrba postelja.jpg|thumb|łóżko]]
+
+===Etymology===
+{{etymon|pl|:inh|zlw-opl:łóżko|text=+|tree=+}} {{surf|pl|łoże|-ko}}. Compare {{cog|cs|lůžko}} and {{cog|csb|łóżkò}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-łóżko.ogg;LL-Q809 (pol)-Olaf-łóżko.wav;LL-Q809 (pol)-Gower-łóżko.wav|mp=#}}
+
+===Noun===
+{{pl-noun|n|dim=łóżeczko|adj=łóżkowy}}
+
+# [[bed]] {{gl|piece of furniture, usually flat and soft, on which to rest or sleep}}
+#: {{syn|pl|wyro}}
+#: {{coi|pl|[[łóżko polowe|'''łóżko''' polowe]]|camp '''bed'''/'''cot'''}}
+# [[bed]] {{gl|place for a customer or client to lay down}}
+#: {{coi|pl|'''łóżko''' opalające|sun tanning '''bed'''}}
+# {{lb|pl|administrative}} [[bed]] {{gl|place for one person in a hospital or hotel}}
+# {{lb|pl|colloquial|figurative}} [[bed]] {{gl|sexual activity}}
+#: {{syn|pl|pożycie|seks|stosunek}}
+# {{lb|pl|anatomy|Middle Polish}} [[placenta]]
+#: {{syn|pl|łożysko}}
+
+====Declension====
+{{pl-decl-noun-n}}
+
+====Derived terms====
+{{col|pl|title=nouns|ostre łóżko|szczyt łóżka}}
+{{pl-derived verbs|pójść do łóżka/iść do łóżka|-/nie wychodzic z łóżka|-/pchać się do łóżka|podnieść się z łóżka/-|wylądować w łóżku/-|zaciągnąć do łóżka/-}}
+
+====Related terms====
+{{col|pl|title=adjective|łóżeczkowy}}
+{{col|pl|title=noun|łóżeczko gipsowe}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|63114}}
+* {{R:pl:SXVII|ŁÓŻKO|10769|SPas|06.01.2009}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||821|2}}
+
+{{C|pl|Furniture|Sleep|Sex}}

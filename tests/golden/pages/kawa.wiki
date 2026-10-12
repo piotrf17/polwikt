@@ -1,0 +1,426 @@
+{{also|Appendix:Variations of "kawa"}}
+==English==
+
+===Etymology 1===
+
+====Noun====
+{{en-noun|-}}
+
+# {{alternative form of|en|kava}}.
+
+===Etymology 2===
+{{ety|en|:bor|mi:kawa|text=+|tree=1}}
+
+====Noun====
+{{en-noun|-}}
+
+# [[Maori]] [[custom]]s and [[protocol]].
+
+===Anagrams===
+* {{anagrams|en|a=aakw|Waka|waka}}
+
+==Banjarese==
+
+===Verb===
+{{head|bjn|verb}}
+
+# [[can]], be [[able]]
+
+==Cebuano==
+
+===Etymology===
+Probably from {{der|ceb|ms|kawah}}.
+
+===Pronunciation===
+* {{hyphenation|ceb|ka|wa}}
+
+===Noun===
+{{head|ceb|noun}}
+
+# a large [[wok]]
+
+====Related terms====
+* {{l|ceb|kaha}}, {{l|ceb|kalaha}}
+
+{{C|ceb|Cookware and bakeware}}
+
+==Dibabawon Manobo==
+
+===Noun===
+{{head|mbd|noun|head=kawà}}
+
+# [[large]] [[iron]] [[pot]]
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|LL-Q150 (fra)-WikiLucas00-kawa.wav|a=<<France>> (<<Lyon>>)}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-kawa.wav|a=<<France>> (<<Vosges>>)}}
+
+===Etymology 1===
+Ultimately borrowed from {{der|fr|ar|قَهْوَة}}. {{dbt|fr|café}}.
+
+====Noun====
+{{fr-noun|m|-}}
+
+# {{alternative spelling of|fr|caoua}}: [[coffee]]
+
+===Etymology 2===
+Borrowed from {{bor|fr|en|kawa}}, from {{der|fr|mi|kawa}}. {{dbt|fr|kava}}.
+
+====Noun====
+{{fr-noun|m|-}}
+
+# [[kava]] plant ({{taxfmt|Piper methysticum|species}})
+#: {{syn|fr|kava}}
+# [[kava]], beverage made from {{taxfmt|Piper methysticum|species}}
+#: {{syn|fr|kava}}
+
+====Further reading====
+* {{R:fr:TLFi}}
+
+{{C|fr|Beverages|Coffee|Piperales order plants}}
+
+==Hawaiian==
+
+===Pronunciation===
+* {{haw-IPA}}
+
+===Etymology 1===
+{{rfe|haw}}
+
+====Noun====
+{{head|haw|noun}}
+
+# [[leaping]] place, [[precipice]]
+
+=====Derived terms=====
+* {{l|haw|lele kawa|t=cliff diving}}
+
+===Etymology 2===
+{{rfe|haw}}
+
+====Verb====
+{{head|haw|verb}}{{tlb|haw|transitive}}
+
+# to [[strike]] under cover of darkness, to [[assassinate]]
+
+===Further reading===
+* {{R:haw:CHD}}
+
+{{C|haw|Violence}}
+
+==Hiligaynon==
+
+===Noun===
+{{hil-noun|káwà}}
+
+# [[boiler]]
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|かわ}}
+
+==Karao==
+
+===Noun===
+{{head|kyj|noun}}
+
+# [[middle]]; [[halfway]]
+
+==Kashubian==
+
+===Etymology===
+{{ety|csb|:bor|pl:kawa|text=+|tree=1}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|f|dim=kôwka|dim2=kawulka|dim3=kawuszka}}
+
+# [[coffee]]
+
+====Declension====
+{{csb-decl-noun
+|kawa
+|kawë
+|kawie
+|kawã
+|kawą
+|kawie
+|[[kawa]]/[[kawò]]
+|kawë
+|[[kaw]]/[[kawów]]
+|kawóm
+|kawë
+|kawama
+|kawach
+|kawë}}
+
+===Further reading===
+* {{R:csb:Trepczyk:1994|kawa}}
+* {{R:csb:SPK|kawa}}
+* {{R:csb:ISKJ|+|967}}
+
+{{C|csb|Coffee|Corvids}}
+
+==Kayapó==
+
+===Etymology===
+From {{inh|txu|sai-nje-pro|*kacû||mortar}}.
+
+===Pronunciation===
+* {{IPA|txu|[kaˈwa]}}
+
+===Noun===
+{{head|txu|noun}}
+
+# [[mortar]]
+
+==Lingala==
+
+===Noun===
+{{head|ln|noun}}
+
+# [[coffee]]
+
+==Lubuagan Kalinga==
+
+===Noun===
+{{head|knb|noun}}
+
+# [[spider]] {{gloss|large}}
+
+{{C|knb|Arachnids}}
+
+==Māori==
+
+===Etymology===
+From {{inh|mi|poz-pol-pro|*kawa}} (cognates include {{cog|haw|ʻawa}}, {{cog|to|kava}} and {{cog|sm|ʻava}})<ref>{{R:mi:Tregear:1891|page=139}}</ref><ref>{{cite-web|titleurl=https://www.temarareo.org/TMR-Kawa.html|title=Kawa, Kawakawa|year=2023|site=Te Māra Reo|publisher=Benson Family Trust}}
+</ref> from {{inh|mi|poz-oce-pro|*kawaʀ||potent root}} metathesis of {{inh|mi|poz-oce-pro|*wakaʀ||root}}, thus {{doublet|mi|aka|nocap=1}}. Sense of plant lost with species introduced to Aotearoa dying out due to its cold climate.<ref>{{cite book|first=Terry|last=Crowley|last3=Ross |first3=Malcolm |last2=Pawley |first2=Andrew|year=1994|chapter=Proto who drank kava?|title=Austronesian terminologies: Continuity and change|page=95|location=Canberra|publisher=Dept. of Linguistics, Research School
+of Pacific and Asian Studies, The Australian National University}}</ref> Sense of "marae protocol" seems to be a modern extension.
+
+===Pronunciation===
+* {{mi-IPA|kawa|stress='-}}
+
+===Adjective===
+{{mi-adj}}
+
+# [[sour]]
+
+===Noun===
+{{mi-noun}}
+
+# {{non-gloss|a ceremony to remove {{l|mi|tapu}} from a new house or canoe}}
+# {{non-gloss|{{l|mi|karakia|t=ritual chants}} and customs for the opening of new houses, canoes and other events}}
+# [[marae]] [[protocol]] - {{non-gloss|customs of the marae and {{l|mi|wharenui}}, particularly those related to formal activities such as {{l|mi|pōhiri}}, speeches and {{l|mi|mihimihi}}}}
+# [[acid]]
+# [[bitterness]]
+# {{lb|mi|obsolete}} [[kava]], plant brought by ancestors from the South Pacific, {{taxfmt|Piper methysticum|species}}.
+
+====Descendants====
+* {{desc|en|kawa|bor=1}}
+
+===Verb===
+{{mi-verb}}
+
+# {{non-gloss|to perform the kawa ceremony, open a new house}}
+
+====Derived terms====
+* {{l|mi|kawanga}}
+
+===Related terms===
+* {{l|mi|kawakawa}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:mi:Te Aka 3|idiom=in|phrase=in|proverb=in|loan=in|histloan=in}}
+
+{{C|mi|Taste}}
+
+==Polish==
+{{wp|pl:}}
+{{multiple images
+|direction = vertical
+| align = right
+| image1 = Black coffee with sugar - Evan Swigart.jpg
+| caption1 = kawa {{senseno|pl|beverage}}
+| image2 = Coffee Flowers Show.jpg
+| caption2 = kawa {{senseno|pl|plant}}
+| image3 = Roasted coffee beans.jpg
+| caption3 = kawa {{senseno|pl|beans}}
+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-kawa.ogg|hh=Kawa|WL=#}}
+
+===Etymology 1===
+{{ety|pl|id=coffee}}{{dercat|pl|ar}}
+{{intnat|pl}}; compare {{cog|hu|kávé}}, {{cog|sh|kava}}, {{cog|tr|kahve}}, ultimately from {{der|pl|ota|قهوه|tr=kahve}}. {{dbt|pl|café}}.
+
+====Noun====
+{{pl-noun|f|dim=kawka,kawcia,kawunia,kawusia|adj=kawowy}}
+
+# {{senseid|pl|beverage}} {{lb|pl|uncountable}} [[coffee]] {{gl|beverage made by infusing the beans of the coffee plant in hot water}}
+## {{lb|pl|countable}} [[coffee]] {{gl|serving of this beverage}}
+## {{lb|pl|countable}} [[coffee]] {{gl|act of drinking this beverage}}
+# {{senseid|pl|plant}} {{lb|pl|countable}} [[coffee]] {{gl|any plant of the genus {{taxfmt|Coffea|genus}}}}
+#: {{syn|pl|kawowiec}}
+# {{senseid|pl|beans}} {{lb|pl|countable}} [[coffee]] {{gl|seeds of the plant used to make coffee, called “beans” due to their shape}}
+# {{lb|pl|countable}} [[coffee]]-like [[beverage]] made from [[grain]]s, [[seed]]s, or [[root]]s of various plants
+# {{lb|pl|countable}} [[coffee]] {{gl|short social gathering where coffee is served}}
+
+=====Declension=====
+{{pl-decl-noun-f}}
+
+=====Derived terms=====
+{{col|pl|title=adverbs|kawa na ławę}}
+{{col|pl|title=nouns|biała kawa|czarna kawa|kawa po irlandzku|kawa po turecku|kawa po wiedeńsku|kawa rozpuszczalna|kawa zbożowa|kawiara|kawiarka|kawiarnia|kawiarniczka|kawiarz|kawosz|kawoszka|kawowiec}}
+
+=====Related terms=====
+{{col|pl|title=adjectives|kawiarniany}}
+{{col|pl|title=nouns|kawiareczka|kawiarenka}}
+
+=====Descendants=====
+* {{desc|yi|קאַווע|bor=1}}
+
+===Etymology 2===
+{{ety|pl|id=jackdaw|:inh|zlw-opl:*kawa|text=+|tree=1}}
+
+====Noun====
+{{pl-noun|f}}
+
+# {{lb|pl|obsolete|or|dialectal}} [[jackdaw]] {{gl|any corvid of the genus {{taxfmt|Coloeus|genus}}}}
+#: {{syn|pl|kawka}}
+
+=====Declension=====
+{{pl-decl-noun-f}}
+
+===Etymology 3===
+{{ety|pl|id=roof}}
+{{ety|pl|rfe=1}}
+
+====Noun====
+{{pl-noun|f}}
+
+# {{lb|pl|Western Lublin|Kamionka}} [[tree]] [[roof]] {{gl|roof supported by pillars as a display in front of a house for setting a tree}}
+
+===Further reading===
+* {{R:pl:WSJP||22171}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+
+{{C|pl|Coffee|Corvids|Madder family plants|Parties}}
+
+==Swahili==
+
+===Pronunciation===
+{{sw-IPA}}
+* {{audio|sw|Sw-ke-kawa.flac|a=Kenya}}
+
+===Etymology 1===
+{{rfe|sw}}
+
+====Verb====
+{{sw-verb}}
+
+# to [[delay]], be [[late]], [[tarry]]
+
+=====Conjugation=====
+{{sw-conj}}
+
+=====Derived terms=====
+{{sw-der|appl|caus}}
+
+===Etymology 2===
+{{rfe|sw}}
+
+====Noun====
+{{sw-noun|ma}}
+
+# [[cover]] {{q|of food}}
+
+==Tagalog==
+
+===Alternative forms===
+* {{alt|tl|caua||obsolete|Abecedario}}
+
+===Etymology 1===
+{{ety|tl|id=cauldron}}
+From {{der|tl|poz-pro|*kawaq}}, possibly via {{bor|tl|ms|kawah}}. Compare {{cog|ilo|kawa}}, {{cog|hnn|kawa}}, {{cog|bcl|kawa}}, {{cog|ceb|kawa}}, {{cog|tsg|kawa'}}, and {{cog|jv|ꦏꦮꦃ}}.
+
+====Pronunciation====
+{{tl-pr}}
+
+====Noun====
+{{tl-noun|b=+}}
+
+# [[large]] [[cauldron]]; [[large]] [[boiler]] or [[kettle]]
+#: {{syn|tl|kaldero|talyasi}}
+
+=====Derived terms=====
+{{col|tl|sangkawa}}
+
+=====See also=====
+{{col|tl|kaldera}}
+
+===Etymology 2===
+{{ety|tl|id=bark}}
+
+====Pronunciation====
+{{tl-pr|kawà}}
+
+====Noun====
+{{tl-noun|kawà|b=+}}
+
+# [[bark]] of a [[tree]]
+
+=====Derived terms=====
+{{col|tl|kawahan|magkawa|mangawa}}
+
+===Etymology 3===
+{{ety|tl|id=bee swarm}}
+
+====Pronunciation====
+{{tl-pr}}
+
+====Noun====
+{{tl-noun|b=+}}
+
+# [[bee]] [[swarm]]
+
+===Further reading===
+* {{R:KWF Diksiyonaryo}}
+* {{R:Pambansang Diksiyonaryo}}
+* {{R:map:ACD|kawaq}}
+* {{R:Vocabulario de la lengua tagala 1860|87}}
+
+===Anagrams===
+* {{anagrams|tl|a=aakw|waak|awak}}
+
+{{C|tl|Food and drink containers}}
+
+==Wathaurong==
+
+===Etymology===
+Cognate with {{cog|wyi|gawang|t=head}}.
+
+===Noun===
+{{head|wth|noun}}
+
+# {{gloss|large}} [[mountain]] {{C|wth|Landforms}}
+
+====See also====
+{{col3|wth
+| burra-burra
+}}
+
+===References===
+*{{R:wth:Blake1998|page=123}}

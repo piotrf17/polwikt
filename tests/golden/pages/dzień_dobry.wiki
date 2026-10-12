@@ -1,0 +1,25 @@
+==Polish==
+
+===Etymology===
+{{dercat|pl|zlw-opl|sla-pro}}
+{{lit|good day}}. The original, now dated, form was {{m|pl|dobry dzień}} (which see for more), which at some point began to be pronounced as {{m|pl|dobrydzień}} (now dated and dialectal) with the stress on ''-bry-''; to prevent the spread of that rural form, the words were rearranged. {{rfv-etym|pl}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-dzień dobry.ogg;Pl-dzień dobry-2.ogg;Pl-dzień dobry-3.oga}}
+
+===Interjection===
+{{head|pl|interjection}}
+
+# {{lb|pl|idiom}} [[good day]], [[good morning]], [[good afternoon]]
+#: {{cot|pl|dobranoc|dobry wieczór}}
+
+====Descendants====
+* {{desc|be|дзе́нь до́бры|cal=1}}
+* {{desc|szl|dziyń dobry|cal=1}}
+* {{desc|uk|де́нь до́брий|cal=1}}
+
+===Further reading===
+* {{R:pl:WSJP||31942}}
+* {{R:pl:PWN}}
+
+{{cln|pl|greetings|phrasebook}}

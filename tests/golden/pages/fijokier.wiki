@@ -1,0 +1,12 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr|-|zag=#}}
+
+===Noun===
+{{pl-noun|m-pr}}
+
+# {{lb|pl|Zagórze}} {{alt form|pl|fiakier|t=[[cabdriver]]}}
+
+===Further reading===
+* {{R:pl:Kobylińska:2001|fiakier|38}}

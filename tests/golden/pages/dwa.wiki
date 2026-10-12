@@ -1,0 +1,330 @@
+{{also|Dwa|dwA|d̪wa|DWA}}
+{{minitoc}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==Haitian Creole==
+
+===Etymology===
+From {{inh|ht|fr|droit||right}}.
+
+===Pronunciation===
+* {{IPA|ht|/dwa/}}
+
+===Noun===
+{{head|ht|noun}}
+
+# [[right]] (legal or moral entitlement)
+
+===References===
+* {{R:ht:Targète|page=55}}
+
+==Kashubian==
+{{number box|csb}}
+
+===Etymology===
+{{etymon|csb|id=two|:inh|sla-pro:*dъva<id:two>|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Numeral===
+{{head|csb|numeral}}
+
+# [[two]]
+
+====Declension====
+{{csb-adecl|<irreg>}}
+
+===Further reading===
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|11996}}
+
+{{cln|csb|cardinal numbers}}
+{{C|csb|Two}}
+
+==Lower Sorbian==
+{{cardinalbox|dsb|1|2|3|jaden|tśi|ord=drugi}}
+
+===Etymology===
+{{etymon|dsb|:inh|sla-pro:*dъ̏va}}
+{{dercat|dsb|inh=2|ine-bsl-pro|ine-pro}}
+{{inh+|dsb|sla-pro|*dъva}}.
+
+===Pronunciation===
+{{dsb-pr}}
+
+===Numeral===
+{{head|dsb|numeral|feminine/neuter|dwě}}
+
+# [[two]]
+
+====Declension====
+{{rfc|dsb|manual inflection table should be moved to a template}}
+<div class="NavFrame" style="max-width:30em">
+<div class="NavHead" style="background:var(--wikt-palette-lighterblue, #ebf4ff);">Declension of ''dwa''</div>
+<div class="NavContent">
+{| style="min-width:30em" class="inflection-table inflection"
+|- class="rowgroup"
+! style="background:var(--wikt-palette-lightblue, #d9ebff);" |
+! style="background:var(--wikt-palette-lightblue, #d9ebff);" | Masculine
+! style="background:var(--wikt-palette-lightblue, #d9ebff);" | Feminine/neuter
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Nominative
+| {{l|dsb||'''dwa'''}}
+| {{l|dsb|dwě}}
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Genitive
+| colspan=2 | {{l|dsb|dweju}}
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Dative
+| colspan=2 | {{l|dsb|dwěma}}
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Accusative
+| {{l|dsb||'''dwa'''}} {{qualifier|inanimate}}<br/>{{l|dsb|dweju}} {{qualifier|animate}}
+| {{l|dsb|dwě}}
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Instrumental
+| colspan=2 | {{l|dsb|dwěma}}
+|-
+! style="background:var(--wikt-palette-lighterblue, #ebf4ff);" | Locative
+| colspan=2 | {{l|dsb|dwěma}}
+|}</div></div>
+
+===Further reading===
+* {{R:dsb:Muka}}
+* {{R:dsb:Starosta}}
+
+{{cln|dsb|cardinal numbers}}
+{{C|dsb|Two}}
+
+==Old Frisian==
+
+===Alternative forms===
+* {{alter|ofs|dwān|duān|duā|dūa}}
+
+===Etymology===
+{{root|ofs|ine-pro|*dʰeh₁-}}
+From {{inh|ofs|gmw-pro|*dōn}}, from {{inh|ofs|gem-pro|*dōną}}, ultimately from {{der|ofs|ine-pro|*dʰeh₁-}}. Cognates include {{cog|ang|dōn}}, {{cog|osx|dōn}} and {{cog|odt|duon}}.
+
+===Pronunciation===
+* {{ofs-IPA|dwā}}
+
+===Verb===
+{{ofs-verb|head=dwā}}
+
+# {{lb|ofs|transitive}} to [[do]]
+
+====Conjugation====
+{{ofs-conj|irr=dwā}}
+
+====Descendants====
+* {{desc|frr|du|qq1=Föhr-Amrum|alts=1}}
+* {{desc|stq|dwo}}
+* {{desc|fy|dwaan}}
+
+====References====
+* {{R:ofs:Bremmer:2009}}
+
+{{cln|ofs|irregular verbs}}
+
+==Old Polish==
+{{numberbox|zlw-opl}}
+
+===Etymology===
+{{etymon|zlw-opl|id=two|:inh|sla-pro:*dъva<id:two>|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Numeral===
+{{head|zlw-opl|numeral}}
+
+# [[two]]
+
+====Declension====
+{{rfinfl|zlw-opl|numeral}}
+
+====Descendants====
+* {{desc|pl|dwa}}
+* {{desc|szl|dwa}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{cln|zlw-opl|cardinal numbers}}
+{{C|zlw-opl|Two}}
+
+==Old Sundanese==
+{{number box|osn}}
+
+===Alternative forms===
+* {{l|osn|ro}}
+* {{l|osn|dua}}
+
+===Etymology===
+{{inh+|osn|poz-pro|*duha}}, from {{inh|osn|map-pro|*duSa}}. Not related with {{cog|sa|द्व||}}
+
+===Pronunciation===
+* {{IPA|osn|/dwa/|/du.wa/}}
+
+===Numeral===
+{{head|osn|numeral}}
+
+# [[two]]
+#* {{quote-book|osn|title=Sanghyang Siksa Kandang Karesian (Kropak 630)|passage="Upama uraṅ mandi, cai patĕmuan heṅan ta na cai '''dwa''' pilihanĕnāna; nu kiruh dĕṅĕn nū heraṅ"|year=1518|translation=Like when we bathe, the water we find will only have '''two''' choices: the turbid one, and the clear one."|section=folio 19, verso}}
+
+====Derived terms====
+{{col|osn|midwakeun|pangadwa}}
+
+===Further reading===
+* {{cite-book|id|
+author1=Karlina, Ninien|
+author2=et al.|
+title={{lang|id|Serat Siksa Kanda Karesian}}|
+year=1993|
+publisher=Directorate General of Culture – [[w:Ministry of Education and Culture (Indonesia)|Department of Education and Culture of the Republic of Indonesia]]|
+location=Jakarta}}
+
+==Polish==
+{{number box|pl}}
+
+===Etymology===
+{{etymon|pl|id=two|:inh|zlw-opl:dwa<id:two>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Matlin-#.wav|mp=#|zag=#}}
+
+===Numeral===
+{{head|pl|numeral}}
+
+# [[two]]
+
+====Declension====
+{{pl-adecl|<irreg>}}
+
+===Noun===
+{{pl-noun|n|indecl=1}}
+
+# {{lb|pl|education}} [[two]] {{gl|grade in school}}
+
+====Coordinate terms====
+{{pl-cardinals}}
+
+====Related terms====
+{{col|pl|title=adjectives|dwoisty|dwojaki}}
+{{col|pl|title=nouns|dwójka}}
+{{col|pl|title=particles|bez dwóch zdań}}
+{{col|pl|title=prefix|dwu-}}
+{{col|pl|title=verbs|dwoić|podwajać}}
+
+===Trivia===
+{{pl-freq 1990|199|322|157|147|111|936|42|95|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|50184}}
+* {{R:pl:SXVII|DWA|8433|WG|16.07.2010}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||590|1}}
+* {{R:pl:Kobylińska:2001|dwa|34}}
+
+{{cln|pl|cardinal numbers}}
+{{C|pl|Two}}
+
+==Réunion Creole French==
+
+===Noun===
+{{head|rcf|noun}}
+
+# {{alt sp|rcf|doi|t=finger; toe}}
+
+===References===
+* {{R:rcf:Armand|page=79}}
+
+==Silesian==
+{{cardinalbox|szl|1|2|3|jedyn|trzi|ord=drugi|adv=dwakroć|mult=dwojisty|coll=dwoje|frac=połowa}}
+
+===Etymology===
+{{etymon|szl|id=two|:inh|zlw-opl:dwa<id:two>|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Numeral===
+{{head|szl|numeral}}
+
+# [[two]]
+
+====Related terms====
+{{col|szl|title=noun|dwōjka}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+{{cln|szl|cardinal numbers}}
+{{C|szl|Two}}
+
+==Slovincian==
+
+===Etymology===
+{{etymon|zlw-slv|id=two|:inh|sla-pro:*dъva<id:two>|tree=1|text=+}}
+
+===Pronunciation===
+{{zlw-slv-pr}}
+
+===Numeral===
+{{h|zlw-slv|numeral}}
+
+# [[two]]
+
+===References===
+* {{R:zlw-slv:SW|dvã|220}}
+
+{{cln|zlw-slv|cardinal numbers}}
+{{C|zlw-slv|Two}}
+
+==Xhosa==
+
+===Etymology===
+{{rfe|xh}}
+
+===Adverb===
+{{head|xh|adverb|head=-dwa}}
+
+# {{lb|xh|with quantitative concord}} [[alone]], [[only]]
+
+====Derived terms====
+* {{l|xh|kodwa}}
+
+==Zulu==
+
+===Etymology===
+{{rfe|zu}}
+
+===Pronunciation===
+{{zu-IPA|dwa}}
+
+===Adverb===
+{{head|zu|adverb|head=-dwa}}
+
+# {{lb|zu|with quantitative concord}} [[alone]], [[just]], [[only]], [[solely]]
+# {{lb|zu|with quantitative and relative concords}} [[one]], [[only]], [[sole]]
+
+====Derived terms====
+* {{l|zu|kodwa}}
+
+===References===
+* {{R:zu:ZED|-dwa}}

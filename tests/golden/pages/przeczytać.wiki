@@ -1,0 +1,19 @@
+==Polish==
+
+===Etymology===
+{{ety|pl|:af|prze-|czytać|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-przeczytać.ogg}}
+
+===Verb===
+{{pl-verb|pf|det=czytać|freq=czytywać}}
+
+# {{lb|pl|transitive}} to [[read]]; to [[read up]]
+
+====Conjugation====
+{{pl-conj-ap-am,asz|przeczyta|pp}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

@@ -1,0 +1,85 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*lěpьjь<alt:*lěpьšьjь>|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA|lepszy:}}
+
+===Adjective===
+{{head|zlw-opl|comparative adjective}}
+
+# {{infl of|zlw-opl|dobry||comd}}; [[better]]
+#: {{ant|zlw-opl|gorszy}}
+
+====Descendants====
+* {{desc|pl|lepszy}}
+* {{desc|szl|lepszy}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP||1781}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|lepsy||Zagórze}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:lepszy|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-lepszy.ogg;LL-Q809 (pol)-Olaf-lepszy.wav|mp=#}}
+
+===Adjective===
+{{head|pl|comparative adjective}}
+
+# {{infl of|pl|dobry||comd}}; [[better]]
+#: {{ant|pl|gorszy}}
+
+====Declension====
+{{pl-adecl}}
+
+====Related terms====
+{{col|pl|title=adjectives|najlepszy|pierwszy lepszy|godny lepszej sprawy|ulepiony z lepszej gliny}}
+{{col|pl|title=adverb|z uporem godnym lepszej sprawy}}
+{{col|pl|title=nouns|lepsza|lepsze|lepszość|lepsza połowa}}
+{{col|pl|title=phrases|kto pierwszy, ten lepszy|lepszy rydz niż nic}}
+{{col|pl|title=proverb|lepszy wróbel w garści niż gołąb na dachu}}
+{{pl-derived verbs|-/lepszyć}}
+{{pl-derived verbs|obrać lepszą cząstkę/obierać lepszą cząstkę|-/walczyć o lepsze}}
+
+===Trivia===
+{{pl-freq 1990|27|51|78|35|50|241|224|216|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|61753}}
+* {{R:pl:SXVII|LEPSZY|8774|date=10.03.2022}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||719|2}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:lepszy|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr}}
+
+===Adjective===
+{{head|szl|comparative adjective}}
+
+# {{infl of|szl|dobry||comd}}; [[better]]
+#: {{ant|szl|gorszy}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}

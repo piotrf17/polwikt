@@ -1,0 +1,703 @@
+{{also|Appendix:Variations of "rok"}}
+{{minitoc}}
+==English==
+
+===Noun===
+{{en-noun}}
+
+# {{alternative form of|en|roc}}.
+
+===Anagrams===
+* {{anagrams|en|a=kor|KOR|OKR|kor|ork}}
+
+==Afrikaans==
+
+===Etymology===
+From {{inh|af|nl|rok}}, from {{inh|af|dum|roc}}, from {{inh|af|odt|rok}}, from {{inh|af|gem-pro|*rukkaz}}.
+
+===Pronunciation===
+* {{IPA|af|/rɔk/}}
+* {{audio|af|LL-Q14196 (afr)-Anon1314-rok.wav}}
+
+===Noun===
+{{af-noun|rokke|rokkie}}
+
+# A [[dress]].
+
+====Descendants====
+* {{desc|st|roko|bor=1}}
+* {{desc|ts|rhoko|bor=1}}
+* {{desc|xh|ilokhwe|bor=1}}
+
+{{C|af|Clothing}}
+
+==Breton==
+
+===Etymology===
+Related to {{cog|ga|rucas|t=pride, arrogance}}.  Possibly borrowed into English as {{m|en|rogue}}.<ref>{{R:Skeat_Etymological_Dictionary|rogue}}</ref>
+
+===Adjective===
+{{head|br|adjectives}}
+
+# [[arrogant]]
+# [[hard]]
+
+===References===
+<references/>
+
+==Czech==
+{{wp|cs:}}
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:rok|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-rok.ogg}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-rok.wav}}
+* {{rhymes|cs|ok|s=1}}
+
+===Noun===
+{{cs-noun|m-in|dim=roček}}
+
+# [[year]], the time it takes a [[planetary]] [[body]] to complete one [[revolution]] around a [[star]]
+# {{lb|cs|science}} year, exactly 365.25 days
+#: {{syn|cs|léto}}
+# year, a period between set dates that denotes a year
+#: {{syn|cs|kalendářní rok}}
+#: {{coi|cs|v tomto roce|this year}}
+# year, a scheduled part of a year spent in a given activity
+
+====Declension====
+{{cs-ndecl|m.gena:u.locu:e}}
+
+====Derived terms====
+{{col|cs|title=adjectives|celoroční|coroční|každoroční|půlroční|roční}}
+{{col|cs|title=nouns|ročák|roček|ročník|ročenka|kalendářní rok|školní rok|přestupný rok|finanční rok|výročí}}
+
+====See also====
+* {{l|cs|letos}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{C|cs|Time|Units of measure}}
+
+==Danish==
+
+===Pronunciation===
+* {{IPA|da|/rɔk/|[ˈʁʌɡ̊]}}
+* {{homophone|da|rock}}
+
+===Etymology 1===
+From {{inh|da|non|rokkr}}
+
+====Noun====
+{{da-noun|dc=1|en|e}}
+
+# a [[spinning wheel]]
+# a [[distaff]]
+
+=====Declension=====
+{{da-decl|dc=1|en|e}}
+
+=====Derived terms=====
+{{col3|da|håndrok|spinderok|rokkehjul}}
+
+====References====
+* {{R:DDO|rok,1}}
+* {{R:DDO|Rok,1}}
+
+===Etymology 2===
+From {{inh|da|gmq-oda|rok}}, borrowed from {{der|da|gml|rock}}, from {inh|da|germ-pro|*hrukkaz||robe, jacket}}. {{doublet|da|frakke}}.
+
+====Noun====
+{{da-noun|dc=1|en|er|pl-indef-2=rokke}}
+
+# {{lb|da|archaic}} a [[overcoat]], [[robe]]
+#: {{syn|da|frakke}}
+
+=====Declension=====
+{{da-decl|dc=1|en|er|pl-indef-2=rokke|pl-def-2=rokkene}}
+
+=====Derived terms=====
+{{col3|da|pelsrok|skindrok}}
+
+====References====
+* {{R:DDO|Rok,2}}
+
+===Etymology 3===
+{{nonlemma}}
+
+====Verb====
+{{head|da|verb form}}
+
+# {{infl of|da|rokke||imp}}
+
+=====Derived terms=====
+{{col3|da|rok og rul}}
+
+==Dinka==
+
+===Noun===
+{{head|din|noun|plural|rook}}
+
+# {{lb|din|anatomy}} [[kidney]]
+
+====Related terms====
+* {{l|din|rök||calabash|pos=its shape resembles a kidney}}
+
+===References===
+* {{R:din:DED|154}}
+
+==Dutch==
+{{wp|nl:}}
+
+===Pronunciation===
+* {{IPA|nl|/rɔk/}}
+* {{audio|nl|Nl-rok.ogg}}
+* {{hyphenation|nl|rok}}
+* {{rhymes|nl|ɔk|s=1}}
+* {{homophones|nl|rock}}
+
+===Etymology 1===
+From {{inh|nl|dum|roc}}, from {{inh|nl|odt|rok}}, from {{inh|nl|gmw-pro|*(h)rokk}}, from {{inh|nl|gem-pro|*rukkaz}}.
+
+====Noun====
+{{nl-noun|m|-en|+}}
+
+# [[skirt]] {{gloss|clothing}}
+# [[full dress]], [[white tie]] {{gloss|formal clothing}}
+# [[layer]] on a [[bulb]] such as an onion
+# {{lb|nl|chiefly|historic|otherwise|_|archaic}} [[surcoat]]
+
+=====Derived terms=====
+{{col|nl
+|borstrok
+|hoepelrok
+|kokerrok
+|lijfrok
+|maxirok
+|midirok
+|minirok
+|onderrok
+|plissérok
+|plooirok
+|potloodrok
+|rokjesdag
+|rokkenjager
+|roksplit
+|wapenrok
+|zwartrok
+}}
+
+=====Descendants=====
+* {{desctree|af|rok}}
+* {{desc|gmw-jdt|rok}}
+* {{desc|dcr|rok}}
+* {{desc|id|bor=1|rok}}
+* {{desc|pap|rok|bor=1}} {{q|dated}}
+
+===Etymology 2===
+
+====Noun====
+{{nl-noun|n,m|-en|+}}
+
+# {{alternative form of|nl|rokken}}
+
+{{C|nl|Clothing}}
+
+==Finnish==
+
+===Etymology===
+From {{bor|fi|en|roc}}.
+
+===Pronunciation===
+{{fi-p}}
+
+===Noun===
+{{fi-noun}}
+
+# [[roc]] {{gloss|mythical bird}}
+
+====Usage notes====
+* Often used in the form {{m|fi|rok-[[lintu]]||roc-bird}}.
+
+====Declension====
+{{fi-decl-risti|rok|||a|i=0}}
+
+====Derived terms====
+{{col|fi|title=compounds
+|rok-lintu
+}}
+
+==Icelandic==
+
+===Etymology===
+Related to {{m|is|rjúka|t=to emit smoke, rush}}; see there for more.<ref>{{R:is:IO|rok}}</ref>
+
+===Pronunciation===
+* {{is-IPA}}
+* {{rhymes|is|ɔːk|s=1}}
+
+===Noun===
+{{is-noun|@@}}
+
+# [[storm]], whole [[gale]]
+
+====Declension====
+{{is-ndecl|n}}
+
+===References===
+<references />
+
+===Further reading===
+* {{R:is:Islex}}
+
+==Indonesian==
+[[Image:Faldilla-frunzida.jpg|thumb|250px|rok]]
+
+===Etymology 1===
+From {{bor|id|nl|rok}}, from {{der|id|dum|roc}}, from {{der|id|odt|rok}}, from {{der|id|gem-pro|*rukkaz}}.
+
+====Pronunciation====
+* {{IPA|id|[ˈrɔk]}}
+* {{hyphenation|id|rok}}
+
+====Noun====
+{{head|id|noun}}
+
+# [[skirt]] {{gloss|clothing}}
+# [[full dress]], [[white tie]] {{gloss|formal clothing}}
+
+=====Derived terms=====
+{{col|id
+|rok asimetris
+|rok balerina
+|rok balet
+|rok balon
+|rok berulas
+|rok celana
+|rok dalam
+|rok duyung
+|rok kerut
+|rok ketat
+|rok landung
+|rok lilit
+|rok lipat
+|rok lonceng
+|rok lurus
+|rok maksi
+|rok midi
+|rok mini
+|rok pantai
+|rok pias
+|rok rimpel
+|rok sarung
+|rok sepan
+|rok Skotlandia
+|rok terompet
+|rok tulip
+}}
+
+===Etymology 2===
+From {{bor|id|en|rock}}.
+
+====Pronunciation====
+* {{IPA|id|[ˈrɔk]}}
+* {{hyphenation|id|rok}}
+
+====Noun====
+{{head|id|noun}}
+
+# {{lb|id|music}} [[rock]], a style of music characterized by basic drum-beat, generally 4/4 riffs, based on (usually electric) guitar, bass guitar, drums and vocals
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=year|:inh|sla-pro:*rȍkъ|tree=+|text=+}} The plural forms are a result of {{lg|suppletion}} with {{m|csb|lato||summer}}.
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|m-in}}
+
+# [[year]] {{gl|calendar year}}
+# [[year]] {{gl|group of people belonging to the same calendar year of typically educational events}}
+
+====Declension====
+{{csb-decl-noun|rok|rokù|rokòwi|rok|rokã|rokù|rokù|lata|lat|latóm|lata|latama|latach|lata}}
+
+===Further reading===
+* {{R:csb:SJP1893|+|182}}
+* {{R:csb:SPK|+|page=815|vol=2}}
+* {{R:csb:ISKJ|+|6556}}
+
+{{cln|csb|suppletive nouns}}
+{{C|csb|Units of time}}
+
+==Latvian==
+
+===Verb===
+{{head|lv|verb form}}
+
+# {{infl of|lv|rakt||3|s//p|pres|ind}}
+# {{qualifier|with the particle {{m|lv|lai}}}} {{infl of|lv|rakt||3|s|imp}}
+# {{qualifier|with the particle {{m|lv|lai}}}} {{infl of|lv|rakt||3|p|imp}}
+
+==Livonian==
+
+===Etymology===
+From {{inh|liv|urj-fin-pro|*rokka}}, from {{inh|liv|fiu-pro|*rokka}}. Cognates include {{cog|fi|rokka}}.
+
+===Pronunciation===
+{{liv-p}}
+
+===Noun===
+{{head|liv|noun}}
+
+# [[porridge]]
+# [[soup]]
+#: {{syn|liv|zup}}
+
+====Declension====
+{{liv-decl|79}}
+
+===References===
+* {{R:liv:LEL}}
+
+==Maranao==
+
+===Noun===
+{{mrw-noun}}
+
+# [[soul]]
+
+====Related terms====
+* {{l|mrw|roh||spirit}}
+
+====References====
+* {{R:Maranao Dictionary}}
+
+==Middle English==
+
+===Noun===
+{{head|enm|noun}}
+
+# {{alternative form of|enm|rooke}}
+
+==Norwegian Bokmål==
+
+===Noun===
+{{nb-noun-n1}}
+
+# {{nb-former|rokk|2005}}
+
+==Norwegian Nynorsk==
+
+===Noun===
+{{nn-noun-n1}}
+
+# {{alt sp|nn|rokk}}
+
+==Old Czech==
+
+===Etymology===
+{{etymon|zlw-ocs|id=year|:inh|sla-pro:*rȍkъ|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Noun===
+{{zlw-ocs-noun|m-in}}
+
+# [[year]]
+
+====Declension====
+{{zlw-ocs-ndecl|m}}
+
+====Descendants====
+* {{desc|cs|rok}}
+
+===References===
+* {{R:zlw-ocs:Gebauer|+}}
+
+{{C|zlw-ocs|Gregorian calendar months|Time|Units of measure}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=year|:inh|sla-pro:*rȍkъ|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|m-in}}
+
+# [[year]]
+# [[deadline]]
+# {{lb|zlw-opl|law}} [[date]] of a [[court]] [[case]]; or the court case itself
+# [[court]] [[summons]]
+
+====Declension====
+{{rfinfl|zlw-opl|noun}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjective|roczny}}
+{{col|zlw-opl|title=adverb|rocznie}}
+{{col|zlw-opl|title=nouns|roczstwo|rocznica|rocznik|roczyzna|rokowanie}}
+{{col|zlw-opl|title=verb|roczyć<g:impf>}}
+
+====Descendants====
+* {{desc|pl|rok}}
+* {{desc|szl|rok}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Gregorian calendar months|Time|Units of measure}}
+
+==Old Saxon==
+
+===Etymology===
+From {{inh|osx|gmw-pro|*rauki}}, from {{inh|osx|gem-pro|*raukiz}}, whence also Old English ''[[rec|rēc]]'', Old Frisian ''[[rek|rēk]]'', Old Dutch {{m|odt|rouc}}, Old High German ''[[rouh]]'', Old Norse ''[[reykr]]''.
+
+===Noun===
+{{osx-noun|g=m|head=rōk}}
+
+# [[smoke]]
+
+====Descendants====
+* {{desc|gml|rōk}}
+** {{desc|nds|Röök}}
+
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{etymon|pl|id=year|:inh|zlw-opl:rok|tree=+|text=+}} The plural forms are a result of {{lg|suppletion}} with {{m|pl|lato||summer}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-rok.ogg|hh=rock,Rok|mp=#}}
+
+===Noun===
+{{pl-noun|m-in|dim=roczek}}
+
+# [[year]] {{gl|solar year}}
+# {{lb|pl|by extension|astronomy}} [[year]] {{gl|time it takes for any planet to orbit its star}}
+# [[year]] {{gl|calendar year}}
+# [[year]] {{gl|scheduled part of a calendar year spent in a specific activity}}
+# [[year]] {{gl|group of people belonging to the same calendar year of typically educational events}}
+# {{lb|pl|obsolete|law}} [[court]] [[case]]
+# {{lb|pl|Middle Polish}} [[indiscriminate]] length of [[time]]
+# {{lb|pl|Middle Polish}} [[age]] of a being
+#: {{syn|pl|wiek}}
+# {{lb|pl|Middle Polish}} [[agreed]] upon length of time for [[work]] or [[employment]]
+# {{lb|pl|Middle Polish}} [[time]] set aside for performing a task
+
+====Declension====
+{{pl-decl-noun-irreg}}
+
+====Declension====
+(''archaic, poetic'')
+{{pl-decl-noun-m-in}}
+
+====Derived terms====
+{{col|pl|title=adjectives|coroczny|roczkowy|rocznicowy|rocznikarski|rocznikowy|roczny|roczyźni<q:Middle Polish>}}
+{{col|pl|title=adverbs|jak rok długi|rok w rok|z roku na rok|rocznicowo|rocznikowo|tak rok}}
+{{col|pl|title=interjection|do siego roku}}
+{{col|pl|title=nouns|rok akademicki|Nowy Rok|pora roku|rok Pański|rok przestępny|rok szkolny|rok świetlny|rok zerowy|roczba<q:obsolete>|roczeń<q:archaic>|roczniaczek|roczniaczka<q:Middle Polish>|roczniak|rocznica|rocznie|rocznik|rocznikarstwo|rocznikarz|rocznokrąg<q:obsolete>|roczność|roczyć<q:obsolete>|roczyny<q:Middle Polish>|roczyzna<q:Middle Polish>}}
+{{pl-derived verbs|zostawać na drugi rok/zostać na drugi rok|rokować/-|impf_first=1}}
+
+====Related terms====
+{{col|pl|title=verb|rzec<g:impf>}}
+
+===Trivia===
+{{pl-freq 1990|209|413|297|53|53|1025|28|496|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|6839}}
+* {{R:pl:SXVII|ROK|11446|SPas|06.10.2016}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||555|5}}
+* {{R:pl:NFJP}}
+
+{{cln|pl|suppletive nouns}}
+{{C|pl|Gregorian calendar months|Law|Months|Units of measure|Years}}
+
+==Serbo-Croatian==
+{{wp|sh:}}
+
+===Pronunciation===
+* {{sh-IPA|rȍk}}
+
+===Etymology 1===
+{{inh+|sh|sla-pro|*rokъ}}.
+
+====Noun====
+{{sh-noun|rȍk|m-in}}
+
+# [[deadline]]
+# [[term]], [[date]] (period during which something ought to be performed or completed)
+
+=====Declension=====
+{{sh-decl-noun
+|rȍk|ròkovi
+|roka|rokova
+|roku|rokovima
+|rok|rokove
+|roče|rokovi
+|roku|rokovima
+|rokom|rokovima
+}}
+
+====Further reading====
+* {{R:sh:HJP|dlhmUBU%3D}}
+
+===Etymology 2===
+{{bor+|sh|en|rock}}.
+
+====Noun====
+{{sh-noun|rȍk|m|indecl=1}}
+
+# [[rock and roll]]
+
+====Further reading====
+* {{R:sh:HJP|dlhmUBY%3D}}
+
+{{C|sh|Musical genres|Time}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=year|:inh|zlw-opl:rok|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|m-in}}
+
+# [[year]] {{gl|calendar year}}
+
+====Usage notes====
+The ''roki'' plural is used in [[w:Cieszyn_Silesian_dialect|Cieszyn Silesian dialects]].
+
+====Declension====
+{{szl-decl-noun|rok|roku|rokowi|rok|rokym|roku|roku|[[lata]]/[[roki]]|[[lŏt]]/[[rokōw]]|[[latōm]]/[[rokōm]]|[[lata]]/[[roki]]|[[latami]]/[[latōma]]/[[rokami]]|[[latach]]/[[rokach]]|[[lata]]/[[roki]]}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|rok-2}}
+* {{R:szl:silling}}
+
+{{cln|szl|suppletive nouns}}
+{{C|szl|Gregorian calendar months|Time|Units of measure}}
+
+==Slovak==
+{{wp|sk:}}
+
+===Etymology===
+{{etymon|sk|:inh|sla-pro:*rokъ|tree=1|text=1}}
+
+===Pronunciation===
+* {{sk-IPA}}
+* {{audio|sk|LL-Q9058 (slk)-TomášPolonec-rok.wav|a=Bratislava}}
+
+===Noun===
+{{sk-noun|m-in|adj=ročný|dim=rôčik}}
+
+# [[year]]
+#: {{coi|sk|Nový '''rok'''|New Year's Day}}
+#: {{coi|sk|'''roku''' Pána|[[anno Domini]]}}
+
+====Declension====
+{{sk-ndecl|m-in|g=a/u}}
+
+====Derived terms====
+* {{l|sk|rôčik}}
+* {{l|sk|ročne}}
+* {{l|sk|storočie}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+{{C|sk|Time}}
+
+==Slovene==
+
+===Etymology 1===
+{{nonlemma}}
+
+====Noun====
+{{head|sl|noun form|rôk}}
+
+# {{infl of|sl|roka||gen|d//p}}
+
+===Etymology 2===
+{{inh+|sl|sla-pro|*rokъ}}.
+
+====Noun====
+{{head|sl|noun form|rók}}
+
+# [[deadline]]
+# [[term]], [[date]] (period during which something ought to be performed or completed)
+
+===Further reading===
+{{R:sl:FR}}
+
+{{C|sl|Time}}
+
+==Ternate==
+
+===Etymology===
+From {{der|tft|nl|rok}}, possibly through {{der|tft|id|rok}}, from {{der|tft|dum|roc}}, from {{der|tft|odt|rok}}, from {{der|tft|gem-pro|*rukkaz}}.
+
+===Pronunciation===
+* {{IPA|tft|[ɾok]}}
+
+===Noun===
+{{tft-noun}}
+
+# a [[skirt]]
+
+===References===
+* {{R:tft:Hayami-Allen:2001}}
+
+==Veps==
+
+===Etymology 1===
+From {{inh|vep|urj-fin-pro|*rokko}}. Cognates include {{cog|fi|rokko}}.
+
+====Noun====
+{{vep-noun}}
+
+# [[pox]] (disease)
+
+=====Declension=====
+{{vep-decl-ilo|roko}}
+
+===Etymology 2===
+From {{inh|vep|urj-fin-pro|*rokka}}.
+
+====Noun====
+{{vep-noun}}
+
+# [[pea]] [[soup]], [[split pea]] [[soup]]
+
+=====Declension=====
+{{vep-decl-kuva|roka}}
+
+{{C|vep|Medicine}}

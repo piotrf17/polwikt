@@ -1,0 +1,258 @@
+{{also|robic}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=work|:inh|sla-pro:*orbiti|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# {{lb|zlw-opl|attested in|Łęczyca|Greater Poland|Masovia|Lesser Poland}} to [[work]], to [[labor]]
+#* {{RQ:zlw-opl:BZ|Jos|24,13|Dalem wam zemyø, w nyeyzescye nye '''robili''' (in qua non laborastis), y myasta, gichzescye nye dzalali|Dałem wam ziemię, w niejżeście nie '''robili''' (in qua non laborastis), i miasta, jichżeście nie działali|-}}
+#* {{RQ:zlw-opl:Słota|31|A pelnø miszø nadroby, yako on, czszo motykø '''roby'''|A pełną misę nadrobi jako on, cso motyką '''robi'''|-}}
+#* {{RQ:zlw-opl:ZapWarsz|480|1436|Jacom ya nye robil na Janowich konyech silø... Canimir nye '''robil''' na Janowich konyech silø|Jakom ja nie robił na Janowych koniech siłą... Kanimir nie '''robił''' na Janowych koniech siłą|-}}
+#* {{RQ:zlw-opl:Reg|712|1484|Syosthry... brzemyenne... nye mayą '''robiczi''' cziązko roboth thych czyelesthnych (ab exactione qualibet corporali... potuerint... abstinere)|Siostry... brzemienne... nie mają '''robić''' ciężko robot tych cielestnych (ab exactione qualibet corporali... potuerint... abstinere)|-}}
+#* {{RQ:zlw-opl:Rozm|118|Po drodze ydączy, Marya barzo vyelye '''robyla''' (laboravit), a rzatko kyedy vszyadla na osla, aby sobye odpoczynela|Po drodze idęcy Maryja barzo wiele '''robiła''' (laboravit) a rzadko kiedy wsiadła na osła, aby sobie odpoczynęła|-}}
+## {{lb|zlw-opl|attested in|Masovia}} to [[work]] as a [[serf]]
+##* {{RQ:zlw-opl:KsMaz|I|1609|1411|Yaco v mne ne '''robyl''' Thomek sznopa ratayskego|Jako u mnie nie '''robił''' Tomek snopa ratajskiego|-}}
+##* {{RQ:zlw-opl:Czrs|LXXXI|1430|Jaco ia o tha krywda oth *pyskupa *wstol, esz my kaszal wyszey szecz dny '''robic''', nysze bil wynowath y robilem ge|Jako ja o tę krzywdę ot biskupa wstał, eż mi kazał wyszey szeć dni robić, niże był winowat i '''robiłem''' je|-}}
+## {{lb|zlw-opl|attested in|Masovia}} to be [[employ]]ed somewhere
+##* {{RQ:zlw-opl:TymWol|76|1434|Sed te mea uxor [mea] covenerit precio vlg. hwstanowyla do thego dna s mytha '''robycz'''|Sed te mea uxor covenerit precio vlg. hustanowiła do tego dnia s myta '''robić'''|-}}
+##* {{RQ:zlw-opl:RKJŁ|VII|58|1491|Zadny thowarzis aby nye sromoczil swego mystrza, v kthorego ''''roby'''|Żadny towarzysz aby nie sromocił swego mistrza, u ktorego '''robi'''|-}}
+# to [[do]]
+#* {{RQ:zlw-opl:AKPr|VIIIa|45|1419|Ktore stoli Pabian '''robil''' *Stanislaowi, thi sø przi Pabyiane|Ktore stoły Pabijan '''robił ''' Stanisła(w)owi, ty są przy Pabijanie|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} to [[make]]
+#* {{RQ:zlw-opl:HubeZb|96|1399|Iaco prave Iaracz ne mal g themu situ niczs ani na ne '''robil''', nisli ('ale') Stachni czeczy|Jako prawie Jaracz nie miał k temu żytu niczs ani na nie '''robił''', niżli (a. niźli, 'ale') Stachny dzieci|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} to [[order]] {{gl|to request some product or service}}
+#* {{RQ:zlw-opl:Pozn|1297|1428|Ten dlug{{...}}, o ktorisz Marczin (sc. aurifaber) s Posznanya byl poszwal paną Mycolaya... temu szą trzi lata mynaly, a potem v nyego pąn Mycolay nycz nye '''robyl''' po trzech leczech|Ten dług{{...}}, o ktoryż Marcin (sc. aurifaber) s Poznania był pozwał pana Mikołaja... temu są trzy lata minęły; a potem u niego pan Mikołaj nic nie '''robił''' po trzech leciech|-}}
+# to [[act]], to [[behave]]
+#* {{RQ:zlw-opl:JA|VI|213|1411|Jako czszo yest Barthlomey '''robil''', tho sz Yanowø wolø robil, szwe zytho woszø sz Wochowa|Jako cso jest Bartłomiej '''robił''', to z Janową wolą robił, swe żyto wożę z Wochowa|-}}
+# to [[handle]] [[money]]
+#* {{RQ:zlw-opl:Rozm|407|'''Robczye''' temy pyenyądzmy, asczy szye vrocze (negotiamini, dum venio Luc 19, 13)|'''Robcie''' temi pieniędzmi, ażci sie wrocę (negotiamini, dum venio Luc 19, 13)|-}}
+# {{lb|zlw-opl|sometimes|reflexive-się|attested in|Lesser Poland|Masovia}} to [[try]], to [[attempt]]
+#* {{RQ:zlw-opl:Fl|48, 8|Y '''robicz''' bødze (laborabit, Puł: vszylowacz będze) na weky|I '''robić''' będzie (laborabit, Puł: usiłować będze) na wieki|-}}
+#* {{RQ:zlw-opl:Sul|38|Nalazvyą szą nyegini, gisz okrasamy vymyslonymy myarthwe a dokonane rzeczi '''robyą szą''' wsdrvszycz (molliuntur refricare|Nalazują się niejeni, jiż okrasami wymyślonymi miartwe a dokonane rzeczy '''robią się''' wzdruszyć (molliuntur refricare)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|robienie|robieniec|robociądz|robota}}
+{{zlw-opl-derived verbs|
+|*robić/-
+|do
+|nad
+|od
+|przy
+|roz
+|wy
+|za
+|z
+|*robić/rabiać
+|prze
+|u
+}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|robotliwy|robotny|robotujący}}
+{{col|zlw-opl|title=nouns|robię|robionek|robotnica|robotnik|robotowanie}}
+{{col|zlw-opl|title=verbs|robotawać<g:impf>|robotować<g:impf>}}
+
+====Descendants====
+* {{desc|pl|robić}}
+* {{desc|szl|robić}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=do|:inh|zlw-opl:robić|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg<text:#>;LL-Q809 (pol)-Poemat-# się.wav<text:~>|mp=#|krk=#|kuj=#|MB=#|kie=#|pod=#|ost=#|zyw=#|CGP=#|EL=#}}
+
+===Verb===
+{{pl-verb|impf|pf=zrobić|freq=robiwać<l:dialectal>}}
+
+# {{lb|pl|transitive}} to [[make]] {{gl|to cause the existence of}}
+#: {{uxi|pl|'''Robię''' im śniadanie.|I'm '''making''' them breakfast.}}
+# {{lb|pl|transitive}} to [[do]] {{gl|to perform; to execute}}
+#: {{syn|pl|wykonywać}}
+#: {{uxi|pl|Co '''robisz'''?|What are you '''doing'''?}}
+# {{lb|pl|transitive}} to [[make]]; to [[cause]] {{gl|to effect or produce by means of some action}}
+#: {{syn|pl|urządzać}}
+# {{lb|pl|transitive}} to [[throw]] {{gl|to organize; to cause something to happen}}
+# {{lb|pl|transitive}} to [[make]] {{gl|to cause someone to take on traits of something, to become something}} {{+obj|pl|:z(gen)<out of what>}}
+# {{lb|pl|transitive}} to [[make]] {{gl|to unfairly assign traits of something to someone or something}} {{+obj|pl|:z(gen)<out of what>}}
+# {{lb|pl|intransitive}} {{ng|used as a generic verb, sometimes to replace another}}; to [[do]]
+# {{lb|pl|intransitive|anaphora}} {{ng|used [[anaphorically]] instead of repeating a previous verb}}; to [[do]]
+## {{lb|pl|intransitive|Central Greater Poland|Kościan|Near Masovian|Żelechów|Ostróda|Olsztynek|Western Kraków|Sławków|Biała Błotna|Eastern Lublin|Chełm County|Żywiec|Sopotnia Mała|Podhale|Skawa|or|transitive|Podhale|Zakopane}} {{ng|used as a [[light verb]]}}
+##: {{coi|pl|niewodem '''robić'''|to '''fish''' with a seine|qq=Ostróda, Olsztynek}}
+##: {{coi|pl|'''robić''' siano|to scatter and turn over dried grass to dry|qq=Podhale, Zakopane}}
+##: {{coi|pl|'''robić''' z kwiatami|to '''work''' with flowers|qq=Podhale, Skawa}}
+##: {{coi|pl|'''robić''' z drutem|to '''make''' something out of wire|qq=Żywiec, Sopotnia Mała}}
+##: {{coi|pl|'''robić''' w gru(j)ńcie|to '''work''' land|qq=Central Greater Poland, Kościan}}
+##: {{coi|pl|'''robić''' kruszec|to '''mine''' ore|qq=Western Kraków, Sławków, mining}}
+##: {{coi|pl|'''robić''' krośna|to weave cloth|qq=Near Masovian, Żelechów}}
+##: {{coi|pl|'''robić''' zastole|to '''seat''' guests for breakfast|qq=Western Kraków, Biała Błotna}}
+##: {{coi|pl|'''robić''' błogosławieństwo|to '''organize''' a ceremony of blessing the bride and groom by their parents|qq=Eastern Lublin, Chełm County}}
+# {{lb|pl|intransitive}} to [[act]], to [[behave]]
+#: {{syn|pl|postępować|[[zachowywać]] [[się]]}}
+# {{lb|pl|reflexive-się}} to [[come about]], to [[arise]]
+#: {{syn|pl|nastawać|[[czynić]] [[się]]}}
+# {{lb|pl|reflexive-się}} to [[get]], to [[become]] {{+obj|pl|:z(gen)<out of what>}}
+#: {{uxi|pl|'''Robi się''' późno.|It's '''getting''' late.}}
+# {{lb|pl|reflexive-się|impersonal}} to [[start]] to [[feel]] {{+obj|pl|dat<who>}}
+# {{lb|pl|reflexive-się|colloquial}} to [[dress to kill]] {{+obj|pl|:na(acc)}}
+# {{lb|pl|reflexive-się}} to be [[do|done]]; to be [[make|made]]
+## {{lb|pl|reflexive-się|Western Kraków}} to [[go on]]; to [[happen]]
+
+====Conjugation====
+{{pl-conj-ai-ić|ro|b|pp|imp=rób}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|intransitive|colloquial|or|Kuyavia|Brześć Kujawski|Wieniec|Near Masovian|Czaplin|Sobików|Czarny Las|Kielce}} to [[work]]; to [[toil]]
+#: {{syn|pl|pracować}}
+#: {{uxi|pl|'''Robię''' trzy godziny dziennie.|I '''work''' three hours a day.}}
+## {{lb|pl|intransitive|Podhale|Rabka-Zdrój}} to [[work on]] {{gl|to be to someone's benefit}} {{+obj|pl|:na(acc)<on whom>}}
+# {{lb|pl|transitive|Middle Polish}} to [[use]], to [[apply]]
+#: {{syn|pl|[[posługiwać]] [[się]]|stosować|używać|wykorzystywać}}
+# {{lb|pl|transitive|Middle Polish}} to [[move]] {{gl|to cause to change location}}
+#: {{syn|pl|poruszać}}
+# {{lb|pl|intransitive|Middle Polish|of wine}} to [[ferment]]
+#: {{syn|pl|fermentować}}
+# {{lb|pl|transitive|colloquial}} to [[act]], to [[substitute]] {{+obj|pl|:za(acc)<as what>}}
+
+====Conjugation====
+{{pl-conj-ai-ić|ro|b|pp|imp=rób}}
+* The {{w|Kuyavian dialect}} shows a third-person singular masculine past form {{m|pl|robiéł}}
+* The {{w|Kuyavian dialect}} shows a third-person singular masculine past form {{m|pl|robiéł}}
+
+====Derived terms====
+{{col|pl|title=interjections|już się robi|robi się}}
+{{pl-derived verbs
+|*robić/rabiać
+|do
+|na
+|nad
+|ob
+|od
+|po
+|pod
+|prze
+|przy
+|roz
+|u
+|w
+|-/współrobić
+|wy
+|za
+}}
+{{pl-derived verbs
+|co robić najlepszego/co zrobić najlepszego
+|robić dobrze/zrobić dobrze
+|robić różnicę/zrobić różnicę
+|robić swoje/zrobić swoje
+|robić źle/zrobić źle
+|robić chlew/zrobić chlew
+|robić dziecko/zrobić dziecko
+|robić idiotę/zrobić idiotę
+|robić kilometr/zrobić kilometr
+|robić reklamę/zrobić reklamę
+|robić kasę/zrobić kasę
+|robić koło pióra/zrobić koło pióra
+|robić kupę/zrobić kupę
+|robić loda/zrobić loda
+|robić łaskę/zrobić łaskę
+|robić marmoladę/zrobić marmoladę
+|robić na złość/zrobić na złość
+|robić nadzieję/zrobić nadzieję
+|robić pa/zrobić pa
+|robić piekło/zrobić piekło
+|robić pieniądze/zrobić pieniądze
+|robić pod siebie/zrobić pod siebie
+|robić porządek/zrobić porządek
+|robić się na bóstwo/zrobić się na bóstwo
+|robić siusiu/zrobić siusiu
+|robić sprawę/zrobić sprawę
+|robić w bambuko/zrobić w bambuko
+|robić w konia/zrobić w konia
+|robić w majtki/zrobić w majtki
+|robić wielkie oczy/zrobić wielkie oczy
+|robić wodę z mózgu/zrobić wodę z mózgu
+|robić z nocy dzień/zrobić z nocy dzień
+|robić dzień/zrobić dzień
+|robić furorę/zrobić furorę
+|robić się ciemno przed oczami/zrobić się ciemno przed oczami
+|robić się zimno/zrobić się zimno
+|robić miejsce/zrobić miejsce|robić z igły widły/zrobić z igły widły|impf_first=1}}
+
+====Related terms====
+{{col|pl|title=adjectives|bezrobotny|roboczy|robotny}}
+{{col|pl|title=nouns|bezrobocie|robigrosz|robocizna|robota|robotnica|robotnik|parób}}
+
+===Trivia===
+{{pl-freq 1990|6|4|20|87|148|265|196|493|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|robić|6703}}
+* {{R:pl:SXVII|ROBIĆ|2022|WM|25.08.2022}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||538|5}}
+* {{R:pl:SGP1900||27|5}} <!--robotnice, co korowaj robili = Eastern Lublin dialect (Chełm County); »nie daj im nic robić = nie pozwalaj, aby im co złego zrobiono« Western Kraków, Sławków; »robiący« = robiąc: »robiący w polu zmokłem« Pr. fil. V, 869-->
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=do|:inh|zlw-opl:robić|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf}}
+
+# {{lb|szl|transitive}} to [[make]]
+#: {{syn|szl|ônaczyć<q:colloquial>|produkować|rychtować|tworzić|wykōnować}}
+# {{lb|szl|transitive}} to [[do]]
+#: {{syn|szl|czynić|działać|ônaczyć<q:colloquial>|postympować|sprawiać|wykōnować}}
+# {{lb|szl|intransitive}} to [[behave]]
+#: {{syn|szl|czynić|postympować|zachowować<alt:zachowować sie>}}
+# {{lb|szl|intransitive}} to [[work]]
+#: {{syn|szl|pracować}}
+# {{lb|szl|reflexive-sie}} to [[act]], to [[behave]]
+#: {{syn|szl|zaczynać<alt:zaczynać sie>}}
+# {{lb|szl|reflexive-sie}} to [[get]], to [[become]]
+#: {{syn|szl|stŏwać<alt:stŏwać sie>}}
+#* {{RQ:szl:Hobit|chapter=X|page=209|Jak płynyli, to dziyń '''sie robiōł''' jaśniyjszy i cieplyjszy.|As they were sailing, the day '''got''' brighter and warmer.}}
+# {{lb|szl|reflexive-sie}} to be [[done]], to be [[carry out|carried out]]
+
+====Conjugation====
+{{szl-conj-ai-Va|ro|b|pp|imp=rōb}}
+
+====Derived terms====
+{{szl-derived verbs
+|*robić/-
+|do
+|na
+|nad
+|po
+|pod
+|prze
+|roz
+|u
+|z
+}}
+
+===Further reading===
+* {{R:szl:silling}}

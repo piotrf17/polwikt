@@ -1,0 +1,137 @@
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=say|:inh|sla-pro:*pověděti|tree=+|text=+}} {{surf|zlw-opl|po-|wiedzieć}}. {{etydate|second half of the 14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|pf|freq=powiadać}}
+
+# to [[say]], to [[tell]] {{+obj|zlw-opl|dat/:k/:ku(dat)<(to) whom> + :o(loc)<about what>}}
+# to [[accuse]]
+
+====Derived terms====
+{{col|zlw-opl|title=adverb|powiednie}}
+{{col|zlw-opl|title=nouns|powiedacz|powiadanie|powiedzenie}}
+{{zlw-opl-derived verbs|
+|*powiedzieć/powiadać
+|od
+|o
+|prze
+|przy
+|roz
+|spowiedzieć,wyspowiadać/spowiadać
+|wspowiadać/-
+|wy
+|za
+}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|odpowiedni|opowiedany|spowiedniczy|wypowiedny|zapowiedny}}
+{{col|zlw-opl|title=adverbs|odpowiedziale|przypowiestnie}}
+{{col|zlw-opl|title=nouns|powiastka|powieść|odpowiadacz|odpowiadanie|odpowiedzenie|odpowiedź|odpowiedźca|przepowiadacz|przepowiadanie|przepowiednica|przepowiednik|przepowieść|przepowiedzenie|przypowiedanie|przypowiedzienie|przypowiestny|przypowieść|rozpowiedzenie|spowiednik|spowiedź|wspowiedzenie|wspowiedź|wypowiedacz|wypowiednik|wypowiedzenie|zapowiadanie|zapowiedzenie|zapowiedź|zapowiedźca}}
+
+====Descendants====
+* {{desc|pl|powiedzieć}}
+* {{desc|szl|powiedzieć|pedzieć}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Talking}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=speak|:inh|zlw-opl:powiedzieć|tree=+|text=+}} {{surf|pl|po-|wiedzieć}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-powiedzieć.ogg|mp=#}}
+
+===Verb===
+{{pl-verb|pf|impf=mówić}}
+
+# {{lb|pl|transitive}} to [[speak]], to [[talk]] {{gl|to use one's voice to communicate}} {{+obj|pl|:do(gen)/dat<(to) whom> + :o(loc)<about what>}}
+#: {{syn|pl|rzec}}
+#: {{uxi|pl|Dlaczego mi nie '''powiedziałeś'''?|Why didn't you '''tell''' me?}}
+#: {{uxi|pl|Możesz mi '''powiedzieć''', gdzie jest najbliższy przystanek autobusowy?|Can you '''tell''' me where the nearest bus stop is?}}
+#: {{uxi|pl|Ja tego nie '''powiedziałem'''.|I didn't '''say''' that.}}
+#: {{uxi|pl|'''Powiedział''', że będzie tutaj jutro.|He '''said''' he would be here tomorrow.}}
+# {{lb|pl|transitive}} to [[call]], to [[name]] {{gl|to speak using particular pronouns}} {{+obj|pl|:do(gen)/dat<whom> + :per(nom)/:na(nom)/nom<by what name>}}
+#: {{coi|pl|'''powiedzieć''' na ty|to '''use''' [[T-form]]s with each other}}
+# {{lb|pl|transitive}} to [[say]]; to [[go]], to [[tell]] about {{gl|to contain or communicate specific information on a topic}} {{+obj|pl|dat<to whom> + :o(loc)<about what>}}
+# {{lb|pl|transitive}} to [[say]], to [[tell]] {{gl|to communicate by non-verbal means}}
+# {{lb|pl|transitive}} to [[tell]] {{gl|to suggest a course of action}} {{+obj|pl|dat}}
+#: {{coi|pl|Serce '''powiedziało''' mi...|My heart '''told''' me...}}
+
+====Conjugation====
+{{pl-conj-ap|powiedzieć|powiem|powie|powiedzą|powiedzia|powiedzia|powiedzie|powiedz|pp=powiedzian|pp2=powiedziani|ap=powiedziawszy|ip=powiedziano|vn=powiedzenie}}
+
+====Derived terms====
+{{col|pl|title=adjective|powiedzeniowy}}
+{{col|pl|title=interjection|nie można powiedzieć}}
+{{col|pl|title=nouns|powiadacz|powiadaczka|powiedzenie|powiedzisko|powiedzonko}}
+{{col|pl|title=particles|chciałoby się powiedzieć|dość powiedzieć|powiedzmy|łatwo powiedzieć|mało powiedziane|mało powiedzieć|można powiedzieć|nie powiem|powiedzmy sobie|powiem tak|powiem więcej|żeby nie powiedzieć|by tak powiedzieć|nie powiem, żeby|że tak powiem|nikt mi nie powie, że}}
+{{col|pl|title=phrases|powiedział, co wiedział|co ty nie powiesz}}
+{{pl-derived verbs|-/mieć coś do powiedzenia|nie powiedzieć jeszcze ostatniego słowa/nie mówić jeszcze ostatniego słowa|powiedzieć do słuchu/-|nie powiedzieć złego słowa/nie mówić złego słowa|-/chcieć przez to powiedzieć|powiedzieć pas/mówić pas}}
+{{pl-derived verbs|
+|*powiedzieć/powiadać
+|do
+|od
+|o
+|pod
+|prze
+|przy
+|roz
+|spowiedzieć,wyspowiadać/spowiadać
+|wy
+|za
+|-/powiadać
+}}
+
+====Related terms====
+{{col|pl|title=adjectives|dopowiedzeniowy|odpowiadalny|odpowiednikowy|odpowiedniościowy|odpowiedzialny|odpowiedziowy|opowiadaniowy|opowiadawczy|opowieściowy|powieściowy|przepowiadalny|przepowiedczy|przepowiedni|przypowiedni|przypowiedny|spowiedniczy|spowiedny|spowiedziowy|wypowiadalny|wypowiadawczy|wypowiedni|wypowiedzeniowy|wypowiedziowy|zapowiedni}}
+{{col|pl|title=adverbs|odpowiednio|odpowiedzialnie|przypowiednie}}
+{{col|pl|title=nouns|powiastka|powieścidło|powieść|dopowiadacz|dopowiedź|dopowiedzenie|niedopowiedzenie|odpowiadacz|odpowiadaczka|odpowiadalność|odpowiedniczka|odpowiednik|odpowiedniość|odpowiedź|odpowiedzialna|odpowiedzialny|odpowiedzialność|opowiadacz|opowiadaczka|opowiadanie|opowiadanko|opowiadawczość|opowiastka|opowiedacielka|opowiedź|opowieść|podpowiadacz|podpowiedź|przepowiadacz|przepowiadaczka|przepowiadalność|przepowiadka|przepowiastka|przepowiednia|przepowiednik|przepowiedź|przepowieść|przypowiadka|przypowiastka|przypowiednia|przypowieść|spowiadalnica|spowiadacz|spowiedka|spowiednia|spowiednica|spowiedniczka|spowiednik|spowiedź|wypowiadacz|wypowiedź|wypowiedzenie|zapowiadacz|zapowiadaczka|zapowiednia|zapowiednik|zapowiedź}}
+
+===Trivia===
+{{pl-freq 1990|21|20|61|281|402|785|55|419|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVII|POWIEDZIEĆ|15496|SPas|26.03.2020}}
+* {{R:pl:SXVII|POWIEDZIEĆ%20SIĘ|12274|SPas|07.06.2010}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||843|4}}
+* {{R:pl:NFJP}}
+* {{R:pl:SEUW|+|115}}
+
+{{C|pl|Talking}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=speak|:inh|zlw-opl:powiedzieć|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|pf}}
+
+# {{lb|szl|transitive}} {{alt form|szl|pedzieć}}
+
+====Conjugation====
+{{szl-conj-ap|powiedzieć|powiym|powiysz|powiy|powiymy|powiycie|powiedzōm|powiedzio|powiedzia|powiedzie|powiydz|vn=powiedzynie}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+{{C|szl|Talking}}

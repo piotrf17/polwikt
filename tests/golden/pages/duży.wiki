@@ -1,0 +1,93 @@
+{{also|duży|Duży|duzy}}
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|duż||Middle Polish}}
+* {{alt|pl|duzy||Podlachian|Tykocin|Zagórze}}
+
+===Etymology===
+{{ety|pl|:inh|sla-pro:*dužь|etydate=1551<ref:{{R:pl:SXVI|duży, duż|50183}}>|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-duży.ogg;LL-Q809 (pol)-Olaf-duży.wav|hh=durzy,Duży|mp=#|suw=#}}
+
+===Adjective===
+{{pl-adj|większy|mpcomp=duższy|mpsup=naduższy,najduższy|adv=dużo}}
+
+# [[big]], [[large]] {{gl|having a large physical size}}
+#: {{syn|pl|Thesaurus:duży}}
+#: {{ant|pl|Thesaurus:mały}}
+#: {{uxi|pl|Ten pokój jest '''duży'''.|This room is '''big'''.}}
+# {{lb|pl|typography}} [[capital]]
+#: {{syn|pl|wielki}}
+#: {{cot|pl|mały}}
+# [[significant]], [[big]]; [[strong]]; [[much]] {{gl|of high intensity}}
+#: {{uxi|pl|Masz '''duży''' kłopot.|You're in '''big''' trouble.}}
+#: {{uxi|pl|On jest człowiekiem z '''dużą''' wiedzą.|He is a person with '''a lot of''' knowledge|lit=He is a person with '''big''' knowledge.}}
+# [[big]] {{gl|grown, adult}}
+# [[significant]], [[big]]; [[high]] {{gl|having considerable material value}}
+# [[significant]], [[big]], [[high]] {{gl|giving better-than-average profit}}
+# [[significant]], [[big]] {{gl|of outstanding or extraordinary note}}
+# [[big]] {{gl|tall, well-built}}
+## {{lb|pl|Suwałki|Augustów Governorate|of a man}} {{syn of|pl|silny}}
+# {{lb|pl|Middle Polish}} [[strong]] {{gl|capable of producing great physical force}}
+#: {{syn|pl|mocny|silny}}
+
+====Declension====
+{{pl-adecl|<nom_mp_pers:duzi>}}
+
+====Derived terms====
+{{col|pl|title=adverb|spod dużego palca}}
+{{col|pl|title=idioms|z dużej chmury mały deszcz|koń ma duży łeb, niech się martwi|małe dzieci - mały kłopot, duże dzieci - duży kłopot}}
+{{col|pl|title=nouns|duża bańka|duża matura|duże żniwa|duży ekran|duży palec|dzięcioł duży|duże niebieskie oczy}}
+{{col|pl|title=particle|przez duże}}
+
+====Related terms====
+{{pl-derived verbs|-/dążyć}}
+
+===Trivia===
+{{pl-freq 1990|152|69|82|48|23|374|131|95|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVII|DUŻY|6340|SPas|11.08.2022}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||590|1}}
+* {{R:pl:NFJP}}
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+
+{{cln|pl|suppletive adjectives}}
+{{C|pl|Size}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|sla-pro:*dužь|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Adjective===
+{{szl-adj|wiynkszy}}
+
+# [[big]], [[large]] {{gl|having a large physical size}}
+#: {{syn|szl|srogi}}
+
+====Declension====
+{{szl-decl-adj-auto|du|ż|y}}
+
+====Derived terms====
+{{col|szl|title=numerals|dużo}}
+
+===Further reading===
+* {{R:szl:ZPJŚ|dużŏ|74}}
+
+{{cln|szl|suppletive adjectives}}
+{{C|szl|Size}}

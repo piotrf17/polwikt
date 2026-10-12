@@ -1,0 +1,122 @@
+{{also|Appendix:Variations of "bac"}}
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|bojeć}}
+
+===Etymology===
+{{etymon|zlw-opl|id=fear|:inh|sla-pro:*bojàti|tree=1|text=+}} {{etydate|second half of the 14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|ba:ć}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# {{lb|zlw-opl|reflexive-się|attested in|Southern Borderlands|Lesser Poland|Masovia}} to be [[afraid]], to [[fear]] {{+obj|zlw-opl|gen<of what>|inf<to do what>}}
+#: {{syn|zlw-opl|lękać<alt:lękać się>}}
+#* {{RQ:zlw-opl:SKJ|I|99|Middle of the 15th century|Abyscze '''sze''' nye '''bogely''' ne timveritis (timorem... eorum ne timueritis I Pet 3, 14)|Abyście '''sie''' nie '''bojeli''' ne timveritis (timorem... eorum ne timueritis I Pet 3, 14)|-}}
+#* {{RQ:zlw-opl:Fl|26, 5|Acz vstawø przeciwo mne grodi, ne bødze '''se bacz''' serce moie (non timebit cor meum)|Acz ustawią przeciwo mnie grody, nie będzie '''sie bać''' sierce moje (non timebit cor meum)|-}}
+#* {{RQ:zlw-opl:Fl|9, 5|I wpuscil w usta moia pene nowe, pastnkø bogu naszemu. Vzrzø mnodzi y bødø '''se bacz''' y bødø pwacz w gospodna (et timebunt et sperabunt in domino)|I wpuścił w usta moja pienie nowe, piastnkę Bogu naszemu. Uźrzą mnodzy i będą '''sie bać''', i będą pwać w Gospodna (et timebunt et sperabunt in Domino)|-}}
+#* {{RQ:zlw-opl:EwZam|292|Szvyathloscz bosza ogarnąla ony i '''baly szyą''' boyasznyą vyelyką (timuerunt timore magno Luc 2, 9)|Światłość boża ogarnęła ony i '''bali się''' bojaźnią wieliką (timuerunt timore magno Luc 2, 9)|-}}
+#* {{RQ:zlw-opl:Gn|11 b|On gego [g]grosz ne '''bal szø''' gest byl|On jego groz nie '''bał się''' jest był|-}}
+#* {{RQ:zlw-opl:Pocz|232|End of the 14th century|{{...}} gesc wam '''boyøcym sye''' boga wsznydze|{{...}} jeść wam '''bojącym sie''' Boga wznidzie|-}}
+#* {{RQ:zlw-opl:Fl|64, 8|Zamøczø se pogani y '''bacz se''' bødø, gisz przebiwaiø na conczoch, od znamon twogich (turbabuntur gentes et timebunt, qui habitant terminos, a signis tuis)|Zamącą sie pogani i '''bać sie''' będą, jiż przebywają na końcoch, od znamion twojich (turbabuntur gentes et timebunt, qui habitant terminos, a signis tuis)|-}}
+#* {{RQ:zlw-opl:Sul|42|Czvdzego drapycz '''szą''' nye '''boyą''' (aliena rapere non formidant)|Cudzego drapić '''się''' nie '''boją''' (aliena rapere non formidant)|-}}
+#* {{RQ:zlw-opl:R|XXII|235|Middle of the 15th century|'''Boymisch syą''', bichom pichą krolewstwa nyebyeskyego nye straczily|'''Bojmyż się''', bychom pychą krolewstwa niebieskiego nie stracili|-}}
+# {{lb|zlw-opl|reflexive-się}} to be [[afraid]] for; to [[worry]], to [[fret]] {{+obj|zlw-opl|:o(acc)<for what>}}
+#: {{syn|zlw-opl|lękać<alt:lękać się>}}
+#* {{RQ:zlw-opl:R|XXII|248|Middle of the 15th century|Czlowyek, czsso nawyączey myluge, o tho '''syą bogi''' nawyączey y ląka|Człowiek, czso nawięcej miłuje, o to '''się boji''' nawięcej i lęka|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adverb|bojaźliwie}}
+{{col|zlw-opl|title=adjective|bojaźliwy}}
+{{col|zlw-opl|title=noun|bojeźliwość}}
+
+====Related terms====
+{{col|zlw-opl|title=adjective|bojaźny}}
+{{col|zlw-opl|title=nouns|bojaźń|bojaźność}}
+
+====Descendants====
+* {{desc|pl|bać|alts=1}}
+* {{desc|szl|bŏć}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Bruckner|bać_się}}
+* {{R:pl:SEUW|bać się|8}}
+* {{R:zlw-opl:SPJSP|bać (się), bojeć (się)|150}}
+
+{{C|zlw-opl|Fear}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|boć<alt:boć się>||Zagórze}}
+
+===Etymology===
+{{etymon|pl|id=fear|:inh|zlw-opl:bać|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-# się.ogg<cap:~>;LL-Q809 (pol)-Olaf-#.wav|hh=Bać|mp=báć|WL=#|EL=#|pdl=#|suw=#|nbl=#|CGP=#|pod=#}}
+
+===Verb===
+{{pl-verb|impf|freq=bojać<l:dialectal>}}
+
+# {{senseid|pl|afraid of}} {{lb|pl|reflexive-się}} to [[fear]], to [[be]] [[afraid]] {{+obj|pl|gen<of what>/inf<to do what>}}
+#: {{syn|pl|Thesaurus:bać się}}
+#: {{coi|pl|'''bać się''' Boga|to '''fear''' God}}
+#: {{coi|pl|'''bać się''' ciemności|to '''be afraid''' of the dark}}
+#: {{coi|pl|'''bać się''' konkurencji|to '''be afraid''' of competition}}
+#: {{coi|pl|'''bać się''' konsekwencji|to '''be afraid''' of consequences}}
+#: {{coi|pl|'''bać się''' ośmieszenia|to '''be afraid''' of ridicule}}
+#: {{coi|pl|'''bać się''' podejmować decyzję|to '''be afraid''' to make a decision}}
+#: {{coi|pl|'''bać się''' przyszłości|to '''fear''' the future}}
+#: {{coi|pl|'''bać się''' śmierci|to '''be afraid''' of death}}
+#: {{coi|pl|'''bać się''' reformy|to '''be afraid''' of change}}
+#: {{coi|pl|'''bać się''' ryzyka|to '''be afraid''' of a risk}}
+#: {{uxi|pl|'''Boję się''' tego egzaminu, bo prawie się do niego nie uczyłem.|I '''am afraid''' of this exam, because I haven't studied for it almost at all.}}
+#* {{quote-book|pl |year=1911|location=Warszawa |author=Rozalia Brzezińska |title=Czytanki drugie |url=https://polona.pl/preview/7421e58f-60c0-4b99-b3a8-8b16c0750655 |chapter= |publisher=W. Łazarski |page=13 |text=Żabeczka‎ ‎zielona‎ ‎po‎ ‎krzakach‎ ‎skakała,<br />Wojtusia,‎ ‎bocianka,‎ ‎oj,‎ ‎'''bała‎ ‎się''',‎ ‎'''bała'''!‎ ‎ {{...}} |t=The green frog was jumping around the bushes,<br />Wojtuś, the little stork, oh, she was '''afraid''', she was '''afraid'''! {{...}} }}
+#* {{quote-book|pl|year=2016|url=https://books.google.com/books?id=aS0nEQAAQBAJ&pg=PT55|author=[[:w:pl:Julia Fiedorczuk|Julia Fiedorczuk]]|title=Bliskie kraje|publisher=Marginesy|section=chapter "W drodze", section 2|text='''Boi się''', ciągle '''się boi''', że zanim zacznie być żywa, wszystko się skończy.|t='''She is afraid''', '''she is''' always '''afraid''', that before she starts to live, everything will end.}}
+## {{lb|pl|intransitive|Central Greater Poland|Kalisz|Western Lublin|Eastern Lublin|Lublin Voivodeship|Podlachia}} {{syn of|pl|bać<id:afraid of>|bać się}}
+## {{lb|pl|transitive|Podhale|Rabka-Zdrój}} {{syn of|pl|bać<id:afraid of>|bać się}}
+# {{lb|pl|reflexive-się}} to [[fear]], to [[be]] [[afraid]] for, to [[worry]] about something {{+obj|pl|:o(acc)<for what>}}
+#: {{coi|pl|'''bać się''' o dzieci|to '''fear''' for the children}}
+# {{lb|pl|reflexive-się|in the negative|Central Greater Poland|Kórnik|Gądki|Suwałki|Northern Borderlands|Lithuania|sometimes|ironic}} to not [[doubt]]; to be [[sure]]
+
+====Conjugation====
+{{pl-conj-ai|bać|boję|boi|boją|ba|ba|ba|bój|ip=bano|vn=banie}}
+
+====Synonyms====
+{{dial syn|pl}}
+
+====Derived terms====
+{{col|pl|title=interjection|strach się bać}}
+
+====Related terms====
+{{col|pl|title=adjectives|bojaźliwy|bogobojny}}
+{{col|pl|title=adverbs|bojaźliwie|bogobojnie}}
+{{col|pl|title=nouns|bojaźń|bogobojność|bojaźliwość|obawa}}
+{{col|pl|title=verb|obawiać}}
+
+===Trivia===
+{{pl-freq 1990|0|1|3|23|95|122|491|17|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|bać się|5950}}
+* {{R:pl:SXVII|BAĆ SIĘ, *BAĆ, *BOJAĆ SIĘ, BOIĆ SIĘ|1991|PK|09.12.2021}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900|bać się|81|1}}
+* {{R:pl:SGP1900|bać się|34|1}}
+* {{R:pl:NFJP|bać się}}
+
+{{C|pl|Fear}}

@@ -1,0 +1,68 @@
+{{also|ktorý|ktōry}}
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|chtóry|ftóry|tkóry}}
+
+===Etymology===
+{{etymon|zlw-opl|id=which|:inh|sla-pro:*kotorъ<id:which>|tree=1|text=+}} {{etydate|14th century}}. Cognate with {{cog|la|uter}}, {{cog|grc|πότερος}}, {{cog|ang|hwæþer}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Pronoun===
+{{head|zlw-opl|pronoun}}
+
+# {{ng|interrogative pronoun, referring to a number of choices}}; [[what]], [[which]] one
+# {{ng|relative pronoun}}; [[that]], [[who]], [[which]]
+
+====Declension====
+{{rfinfl|zlw-opl|pronoun}}
+
+====Descendants====
+* {{desc|pl|który|alts=1}}
+* {{desc|szl|ftory|ktōry}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|chtóry|chtury||Kujawy}}
+* {{alt|pl|tkóry||Kujawy|Sieradz|Piotrków Voivodeship}}
+* {{alt|pl|chtory|ftory||Sącz Lach}}
+
+===Etymology===
+{{etymon|pl|id=which|:inh|zlw-opl:który<id:which>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-który.ogg;LL-Q809 (pol)-Poemat-który.wav|mp=#}}
+
+===Pronoun===
+{{head|pl|pronoun}}
+
+# {{n-g|interrogative pronoun, referring to a number of choices}}; [[what]], [[which]] one
+# {{n-g|relative pronoun}}; [[that]], [[who]], [[which]]
+
+====Declension====
+{{pl-adecl}}
+
+====See also====
+* {{l|pl|jaki}}
+
+===Trivia===
+{{pl-freq 1990|738|692|722|601|244|2997|16|209|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|ktory, chtory, ktery|60591}}
+* {{R:pl:SXVII|KTÓRY|15577|date=30.06.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||10|1}}
+* {{R:pl:Kolberg:1867|chtórny, którny|269}}

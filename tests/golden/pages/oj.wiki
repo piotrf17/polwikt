@@ -1,0 +1,172 @@
+{{also|Appendix:Variations of "oj"}}
+==Translingual==
+
+===Etymology===
+{{clip|mul|en:'''Oj'''ibwe}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+===See also===
+* {{langcat}}
+
+==Czech==
+{{wp|cs:}}
+
+===Alternative forms===
+* {{alt|cs|voj}}
+
+===Etymology===
+{{ety|cs|:inh|sla-pro:*oje|text=+|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Noun===
+{{cs-noun|m-in}}
+
+# [[pole]] {{gloss|the one which connects a vehicle with a cargo}}
+# [[thill]], [[shaft]]
+
+====Declension====
+{{cs-ndecl|m}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+==Esperanto==
+
+===Etymology===
+{{onom|eo}}. Compare {{cog|pl|oj}}.
+
+===Pronunciation===
+{{eo-pr}}
+
+===Interjection===
+{{eo-intj}}
+
+# {{ng|painfully, sadly, heartbreakingly}}
+#* {{quote-book|eo|title=La Revizoro|passage='''Oj''', Pjotr Ivanoviĉ, Pjotr Ivanoviĉ, vi piedpremis mian piedon.|page=56|year=1907|trans-title=The Inspector-General|chapter=Akto 4a, Sceno 1a|trans-chapter=Act 4, Scene 1|pageurl=https://archive.org/details/LaRevizoro/page/n63/mode/1up|line=27{{ndash}}28|translation='''Ugh'''! Pyotr Ivanovich, you've trod on my toe!|year_published=1907|publisher=Hachette|location=Parizo|url=https://archive.org/details/LaRevizoro|translator=Zamenhofa, Ludoviko Lazaro|last1=Gógol’|first1=Nikoláj Vasíl’evič}}
+
+===References===
+* {{R:eo:ReVo}}
+
+==Icelandic==
+
+===Etymology===
+Earliest attested in 20th century.
+
+===Pronunciation===
+* {{is-IPA}}
+* {{rhymes|is|ɔj|s=1}}
+
+===Interjection===
+{{head|is|interjection}}
+
+# an exclamation of disgust; [[ew]], [[yuck]], [[ugh]]
+#: {{syn|is|oj bara|oj barasta|ullabjakk}}
+
+====See also====
+* {{l|is|bjakk}}
+
+==Jakaltek==
+
+===Etymology===
+From {{inh|jac|myn-pro|*ooʼhq}}.
+
+===Noun===
+{{head|jac|noun}}
+
+# {{l|en|coyote}}
+
+===References===
+* {{R:Church & Church 1955|pages=16, 38}}
+
+==Kaqchikel==
+
+===Etymology===
+From {{inh|cak|myn-pro|*ʔoonh}}.
+
+===Noun===
+{{head|cak|noun|head=oj}}
+
+# [[avocado]]
+
+==Polish==
+
+===Etymology===
+{{onom|pl}}.
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-oj.wav;LL-Q809 (pol)-Gower-oj.wav}}
+
+===Interjection===
+{{head|pl|interjection}}
+
+# [[oops]]
+#: {{syn|pl|ojej}}
+#* {{quote-book|pl |year=1911|location=Warszawa |author=Rozalia Brzezińska |title=Czytanki drugie |url=https://polona.pl/preview/7421e58f-60c0-4b99-b3a8-8b16c0750655 |chapter= |publisher=W. Łazarski |page=13 |text=Żabeczka‎ ‎zielona‎ ‎po‎ ‎krzakach‎ ‎skakała,<br />Wojtusia,‎ ‎bocianka,‎ ‎'''oj''',‎ ‎bała‎ ‎się,‎ ‎bała!‎ ‎ {{...}} |t=The green frog was jumping around the bushes,<br />Wojtuś, the little stork, '''oh''', she was afraid, she was afraid! {{...}} }}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+==Romani==
+
+===Alternative forms===
+* {{alter|rom|joj}}
+
+===Etymology===
+{{rfe|rom}}
+
+===Pronoun===
+{{head|rom|pronoun|cat2=personal pronouns}}
+
+# [[she]]<ref>{{R:rom:Boretzky-Igla|oj|page=200b}}</ref><ref>{{R:Courthiade:2009|entry=oj B-ćham: la|page=260b}}</ref><ref>{{cite-book|coauthors=Yaron Matras; Evangelina Adamou|chapter=Romani and Contact Linguistics|editors=Yaron Matras; Anton Tenser|title=The Palgrave Handbook of Romani Language and Linguistics|year=2020|page=341|doi=10.1007/978-3-030-28105-2_11|isbn=978-3-030-28107-6}}</ref>
+
+====See also====
+{{rom-personal pronouns}}
+
+===References===
+{{reflist}}
+
+==Swedish==
+
+===Interjection===
+{{head|sv|interjections}}
+
+# [[oh]], [[wow]], [[gosh]] (expresses surprise, at something positive or negative)
+#: {{uxi|sv|'''Oj''', verkligen?|'''Gosh''', really?}}
+# [[oops]] (after making a mistake)
+#: {{uxi|sv|'''Oj''', förlåt.|'''Oops''', sorry.}}
+# {{senseid|sv|pain}} [[ow]] (expresses physical or mental pain or compassion)
+#: {{syn|sv|aj|q=more common for physical pain}}
+#: {{uxi|sv|'''Oj oj oj''', hur ska det gå för dem?|'''Oh dear''', '''oh dear''', how will they manage?}}
+
+====Usage notes====
+* Often repeated several times in ({{senseno|sv|pain}}).
+* {{glossary|False friend}} with {{l+|en|oi}}.
+
+====Synonyms====
+* {{l|sv|ojdå}}
+* {{l|sv|hoppsan}}
+* {{l|sv|ack}} (pain, trouble)
+
+====Derived terms====
+* {{l|sv|oja|oja sig}}
+
+====See also====
+* {{l|sv|ojsan}}
+* {{l|sv|wow}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+* {{R:svenska.se|saob}}
+
+===Anagrams===
+* {{anagrams|sv|a=jo|JO|jo}}

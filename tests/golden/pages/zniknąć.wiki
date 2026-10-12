@@ -1,0 +1,22 @@
+==Polish==
+
+===Etymology===
+{{etymon|pl|:af|z-<id:verbal>|niknąć|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-zniknąć.wav|prz=#}}
+
+===Verb===
+{{pl-verb|pf|impf=znikać}}
+
+# {{lb|pl|intransitive}} to [[disappear]], to [[vanish]]
+
+====Conjugation====
+{{pl-conj-ap|zniknąć|zniknę|zniknie|znikną|znikną|zniknę|zniknę|zniknij|ap=zniknąwszy|ip=zniknięto|vn=zniknięcie}}
+or more rarely:
+{{pl-conj-ap|zniknąć|zniknę|zniknie|znikną|znik|znik|znik|zniknij|ap=zniknąwszy|ip=zniknięto|vn=zniknięcie}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:Saloni:1899|zniknonć|248)}}

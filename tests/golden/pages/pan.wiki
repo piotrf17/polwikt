@@ -1,0 +1,1546 @@
+{{also|Appendix:Variations of "pan"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{clip|mul|en:'''Pan'''jabi}}, from {{der|mul|pa|'''ਪੰ'''ਜਾਬੀ}}, from {{der|mul|fa-cls|پنجابی|tr='''pan'''jābī}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|2&3|pa|Punjabi}}
+
+===See also===
+* {{langcat|pa}}
+
+==English==
+{{wp}}
+
+===Pronunciation===
+* {{IPA|en|/pæn/|a=RP}}
+* {{IPA|en|/pan/|a=SSB,Northern England,Scotland,Wales}}
+* {{IPA|en|/pæn/|[peə̯n]|~|[pɛə̯n]|a=GA,CA|a2=æ-tensing}}
+** {{audio|en|en-us-pan.ogg|a=California}}
+* {{IPA|en|/pæːn/|[peːn]|a=AU|a2=æ-tensing}}
+* {{IPA|en|/pɛn/|a=NZ}}
+* {{homophones|en|panne}}
+* {{rhymes|en|æn|s=1}}
+
+===Etymology 1===
+{{etymon|en|id=panne|:inh|enm:panne<id:pan>|tree=1}}
+From {{inh|en|enm|panne}}, from {{inh|en|ang|panne}}, from {{inh|en|gmw-pro|*pannā}}, from {{inh|en|gem-pro|*pannǭ}}. Further origin uncertain.
+
+Alois Walde firstly suggests that it might be from {{der|en|la-lat|panna}}, from {{der|en|la|patina|t=broad, shallow dish, pan, stewpan}}, from {{der|en|grc|πατάνη|t=kind of flat dish}}, which is probably from {{der|en|qsb-grc|-}}. But the sound shifting from /patina/ → /patna/ → /panna/ raises questions as ''-tn-'' to ''-nn-'' is rarely seen in Latin.
+
+The mainstream theory as of now (Friedrich Kluge, Julius Pokorny, Guus Kroonen) suggests that it is from {{der|en|la-lat|panna}}. But its sparse attestation only in the frontier inscriptions and not widespread in most Romance languages raises doubts among a few scholars (notably Michiel de Vaan), being skeptical about its origin, and open for any interpretations (''Oxford English Dictionary'').
+
+Vladmir Orel, in his work ''Albanian Etymological Dictionary'', suggests that both {{inh|en|gem-pro|*pannǭ}} and {{der|en|la-lat|panna}} could be from a non-IE Mediterranean {{der|en|qfa-sub}} word, considering that classical Latin attestations are scarce and distributed in a specific region, and Proto-Germanic loanwords from non-IE substrates often include agricultural terms, seafaring vocabulary, or animal names. Although, this substrate hypothesis is controversial and most scholars remain skeptical about it.
+
+In either case of relationship to the Latin, the English word is a {{dbt|en|patina|nocap=1}}; see there for more doublets and further detail.
+
+Cognate with {{cog|fy|panne}}, {{cog|stq|Ponne}}, {{cog|nl|pan}}, {{cog|nds-de|Panne}}, {{m|nds-de|Pann}}, {{cog|de|Pfanne}}, {{cog|da|pande}}, {{cog|sv|panna}}, {{cog|is|panna}}.
+
+====Noun====
+{{en-noun|s|pen<l:humorous>}}
+[[File:Pfanne (Edelstahl).jpg|thumb|upright=1.13|A pan (''sense 1'')]]
+
+# A wide, flat [[receptacle]] used around the house, especially for [[cooking]].
+# The contents of such a receptacle.
+# A [[cylindrical]] receptacle about as [[tall]] as it is [[wide]], with one long [[handle]], usually made of [[metal]], used for cooking in the home.
+# {{lb|en|Ireland}} A deep plastic receptacle, used for washing or food preparation; a basin.
+# A wide receptacle in which gold grains are separated from gravel by washing the contents with water.
+# {{lb|en|geography|geology}} An [[expanse]] of [[level]] [[land]] [[locate]]d in a [[depression]], [[especially]]
+## A [[pond]] or [[lake]], [[considered]] as the [[expanse]] of [[land]] upon which the [[water]] [[sit]]s.
+## {{lb|en|especially|_|South Africa}} A [[dry lake]] or [[playa]], [[especially]] a [[salt flat]].
+## {{lb|en|South Africa}} {{syn of|en|playa lake}}: a [[temporary]] [[pond]] or [[lake]] in a [[playa]].
+## {{ellipsis of|en|salt pan}}: a [[flat]] [[artificial]] [[pond]] [[use]]d for [[collect]]ing [[mineral]]s from [[evaporate]]d [[water]].
+# {{lb|en|geology}} {{ellipsis of|en|hardpan}}: a [[hard]] [[substrate]] [[such as]] is [[form]]ed in pans.
+# {{lb|en|geology|obsolete|_|South Africa}} {{syn of|en|pipe}}: a [[channel]] for [[lava]] within a [[volcano]]; the [[cylindrical]] [[remain]]s of [[such]] [[channel]]s.
+# Strong adverse [[criticism]].
+#* {{quote-journal|en|date=20 Aug 77|volume=5|number=7|journal=Gay Community News|page=10|author=Robert Etherington|title=John Horne Burns and His Enemies|text=The notices ''The Gallery'' received, while hardly '''pans''', were only mixed.}}
+# {{lb|en|chiefly|Irish}}<ref name="OED">{{R:OED Online|pos=''n.''<sup>1</sup>|noformat=1|id=1078249498}}</ref> A loaf of [[bread]]; a [[pan-loaf]]. {{defdate|from 1970s|refn=OED}}
+# {{label|en|obsolete}} The [[chamber pot]] in a [[close stool]]; {{label|en|now}} the [[base]] of a [[toilet]], [[consisting]] of the [[bowl]] and [[its]] [[support]].
+# A [[bedpan]].
+#* '''1977-1980''', [[w:Lou Sullivan|Lou Sullivan]], personal diary, quoted in '''2019''', Ellis Martin, Zach Ozma (editors), ''We Both Laughed In Pleasure''
+#*: She yanks the '''pan''' out from under me & it spills all over the bed. Then she's got to change the sheets! Unreal.
+# {{lb|en|slang}} A human [[face]], a [[mug]].
+#* {{quote-book|en|year=1946|author=[[w:George Johnston (novelist)|George Johnston]]|title=Skyscrapers in the Mist|page=121|text="He's a foreign-looking guy with thinnish black hair and a meaty sort of '''pan'''."}}
+#* {{RQ:William Burroughs Letters|page=92|passage=Dave and I have parted company, and I hope I never see his junky '''pan''' again.}}
+#* {{quote-text|en|year=1953|author=w:Raymond Chandler|title=The Long Goodbye|page=103|publisher=Penguin|year_published=2010
+|passage=This was the kind of operator who would tell you to be there at nine sharp and if you weren't sitting quietly with a pleased smile on your '''pan''' when he floated in two hours later on a double Gibson, he would have a paroxysm of outraged executive ability […].}}
+# {{lb|en|roofing}} The bottom flat part of a roofing panel that is between the [[rib]]s of the panel.
+# A closed [[vessel]] for [[boil]]ing or [[evaporate|evaporating]] as part of [[manufacture]]; a [[vacuum pan]].
+# {{senseid|en|Q204196}} {{lb|en|firearms}} The part of a [[matchlock]], [[flintlock]], or [[wheellock]] firearm that holds the [[priming]].
+#: {{syn|en|flash pan<id:Q204196>|priming pan<id:Q204196>}}
+#: {{hyper|en|part#Noun|piece#Noun|component#Noun}}
+#: {{hol|en|firearm<id:Q12796>}}
+#: {{comeronyms|en|doghead<id:fuse-holding or flint-holding component>}}
+#: {{coi|en|[[flash in the pan|flash in the '''pan''']]}}
+#* {{quote-text|en|year=1743|author={{w|Robert Drury (sailor)|Robert Drury}}|title=The Pleasant, and Surprizing Adventures of Mr. Robert Drury, during his Fifteen Years Captivity on the Island of Madagascar|url=https://archive.org/details/pleasantandsurp00drurgoog|pages=95–96|location=London
+|passage={{...}} he pull’d the Trigger, but Providence being pleas’d to preserve me for some other Purpose, the Cock snapp’d, and miss’d Fire. Whether the Prime was wet in the '''Pan''', or by what other Miracle it was I escap’d his Fury, I cannot say {{...}}}}
+#* {{quote-book|en|year=1863|author=Sheridan Le Fanu|title=w:The House by the Churchyard|passage=And he {{...}} glared on the cold pistols that hung before him—ready for anything. And he took down one with a snatch and weighed it in his hand, and fell to thinking again; and, as he did, kept opening and shutting the '''pan''' with a snap, {{...}}}}
+# The [[skull]], considered as a vessel containing the [[brain]]; the [[brainpan]].
+# {{lb|en|figurative}} The [[brain]], seen as one's intellect.
+#* '''14th century''', {{w|Geoffrey Chaucer}}, ''{{w|The Canterbury Tales}}'': ''[[s:The Canterbury Tales/The Friar's Prologue and Tale|The Friar's Tale]]'',
+#*: Unto the devil rough and black of hue
+#*: Give I thy body and my '''pan''' also."
+# {{lb|en|carpentry}} A [[recess]], or [[bed]], for the [[leaf]] of a [[hinge]].
+# {{lb|en|musical instrument}} {{ellipsis of|en|steelpan}}.
+#* {{quote-text|en|year=2009|author=Pnina Werbner|title=Black and Ethnic Leaderships|page=122
+|passage=The steel band transforms the people who play in it and dance to it, and fosters links between them. {{...}} He learned to play the '''pan''' and filled in for absent members.}}
+
+=====Usage notes=====
+* Whether a [[saucepan]] is a type of [[pot]], a type of pan, or neither, depends on the speaker's taxonomy of cookware. There are three competing ways of drawing distinctions, all widespread: (1) pots and pans are distinguished by their depth and use, in which case a saucepan is actually a pot despite its name, (2) pots and pans are distinguished by type and/or number of handles, in which case a saucepan is in fact a pan, and (3) both vessel depth and handles are distinguishing features, in which case saucepans form a separate third class that is sibling to pots and pans. Scheme (1) is most widespread in the US and US-influenced parts of Canada, whereas (2) is more typical of the UK and Commonwealth countries; (3) does not split as cleanly along these regional lines. Due to their typical shallowness, [[saucier]]s may be considered pans, not pots, even by those who label saucepans as pots.
+
+=====Synonyms=====
+* {{sense|flat receptacle}} {{l|en|frying pan}}, {{l|en|skillet}}, {{l|en|cookie sheet}}, {{l|en|tin}}
+* {{sense|tall receptacle}} {{l|en|saucepan}}
+* {{sense|chamber pot}} ''See'' '''[[Thesaurus:chamber pot]]'''
+* {{sense|toilet}} ''See'' '''[[Thesaurus:toilet]]'''
+
+=====Hypernyms=====
+* {{sense|expanse of flat land in a depression}} {{l|en|salt pan}}, {{l|en|salt flat}}, {{l|en|alkali pan}}
+
+=====Hyponyms=====
+* {{sense|expanse of flat land in a depression}} {{l|en|flat}}
+
+=====Derived terms=====
+{{col|en|bakepan|baking pan|chef's pan|firepan|flash pan|pan bread|pan drop|Pullman pan|priming pan|bedpan|bread pan|skull-pan|deadpan|sliced pan|flash in the pan|pan-fried|frying pan|hardpan|ashpan|cakepan|claypan|dishpan|dustpan|floorpan|footpan|headpan|kneepan|milkpan|moorpan|panbroil|panfish|panhandle|Panhead|panhouse|panlike|panman|pannikin|pannist|panphobic|pansmith|panspot|pantile|panware|panwoman|pattypan|ploughpan|plowpan|scalepan|skidpan|skypan|stewpan|washpan|workpan|pan former|pancake|cat in the pan|pan-nationalism|solution pan|weathering pan|panful|pan man|panyard|salt pan|saucepan|track pan|ash pan|best thing since sliced pan|brainpan|bratt pan|calandria pan|chip pan|down the pan|drain pan|dripping pan|frypan|go down the pan|harnpan|hotel pan|jelly roll pan|loaf pan|maslin pan|milk pan|moo goo gai pan|muffin pan|oil pan|paella pan|pan flute|pan-fry|pan haggerty|pan pipe|pan pipes|pan pizza|pan pot|pan-loaf|panyard|pan-loaf|pie pan|pizza pan|preserving pan|roasting pan|gold pan|saute pan|sheet pan|soap pan|steelpan|swing pan|warming pan|sun pan|hit the pan|fluff in the pan}}
+
+=====Descendants=====
+* {{desc|ga|panna|bor=1|unc=1}}
+* {{desc|ja|パン|bor=1|tr=pan}}
+* {{desc|sm|pani|bor=1}}
+
+=====Translations=====
+{{trans-top-also|flat vessel used for cooking|frying pan}}
+* Afrikaans: {{t+|af|pan}}
+* Arabic: {{t+|ar|مِقْلَاة|f}}
+*: Egyptian Arabic: {{t|arz|طاسة|f|tr=ṭāsa}}
+* Aramaic:
+*: Assyrian Neo-Aramaic: {{t|aii|ܬܵܘܵܐ|m|tr=tāwā}}, {{t|aii|ܡܲܩܠܝܵܐ|m|tr=maqlyā}}
+* Avar: {{t|av|хьаг}}
+* Bulgarian: {{t+|bg|тига́н|m}}
+* Czech: {{t+|cs|pánev}}
+* Dalmatian: {{t|dlm|forsaura|f}}, {{t|dlm|padella|f}}, {{t|dlm|tacla|f}}
+* Danish: {{t+|da|pande|c}}
+* Dutch: {{t+|nl|pan|f}}
+* Esperanto: {{t+|eo|pato}}
+* Finnish: {{t+|fi|paistinpannu}}, {{t+|fi|pannu}}
+* French: {{t+|fr|poêle|f}}
+* Friulian: {{t|fur|padiele|f}}, {{t|fur|fersorie|f}}, {{t|fur|tecje|f}}
+* Galician: {{t+|gl|tixola|f}}, {{t+|gl|panela|f}}, {{t+|gl|sartaña|f}}, {{t|gl|paila|f}}, {{t|gl|tarteira|f}}
+* Georgian: {{t+|ka|ქვაბი}}, {{t+|ka|ტაფა}}
+* German: {{t+|de|Pfanne|f}}
+* Greek: {{t+|el|τηγάνι|n}}, {{qualifier|oven roasting pan}} {{t+|el|ταψί|n}}
+* Guarani:
+*: Mbya Guarani: {{t|gun|oja}}
+* Hawaiian: {{t-needed|haw}}
+* Hindi: {{t-needed|hi}}
+* Hungarian: {{t+|hu|serpenyő}}
+* Icelandic: {{t+|is|panna|f}}
+* Irish: {{t|ga|friochtán|m}}
+* Italian: {{t+|it|padella|f}}, {{t+|it|tegame|m}}
+* Kurdish:
+*: Central Kurdish: {{t+|ckb|تاوە}}
+* Latin: {{t|la|patina|f}}, {{t|la|sartago|f}}
+* Macedonian: {{t|mk|тава|f}}
+* Malay: {{t+|ms|kuali}}
+* Maltese: {{t|mt|taġen|m}}
+* Māori: {{t|mi|pararaha}}
+* Mongolian: {{t-needed|mn}}
+* Neapolitan: {{t|nap|sartanio|m}}
+* Norwegian: {{t+|no|panne|m}} and {{g|f}}
+* Old English: {{t|ang|panne|f}}
+* Persian: {{t+|fa|ماهی تابه}}
+* Polish: {{t+|pl|patelnia|f}}
+* Portuguese: {{t+|pt|caçarola|f}}, {{t+|pt|frigideira}}
+* Romanian: {{t+|ro|cratiță|f}}, {{t+|ro|tigaie|f}}
+* Romansh: {{t|rm|chazetta|f}}, {{t|rm|cazetta|f}}, {{t|rm|cazeta|f}}, {{t|rm|padeala|f}}, {{t|rm|padela|f}}, {{t|rm|padella|f}}
+* Russian: {{t+|ru|сковорода́|f}}, {{t+|ru|про́тивень|m}} {{qualifier|baking tray}}
+* Samoan: {{t|sm|'ulo}}, {{t|sm|pani}}
+* Samogitian: {{t|sgs|petėlnė|f}}
+* Scottish Gaelic: {{t|gd|aghann|f}}, {{t|gd|pana|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|тѐпсија|f}}
+*: Latin: {{t+|sh|tèpsija|f}}
+* Sicilian: {{t+|scn|padedda|f}}, {{t+|scn|paredda|f}}, {{t+|scn|tiedda|f}}
+* Slovak: {{t|sk|panvica|f}}
+* Sotho: {{t+|st|pane}}
+* Spanish: {{t+|es|sartén|f}}
+* Swahili: {{t+|sw|sufuria}}
+* Swedish: {{t+|sv|panna}}
+* Telugu: {{t+|te|పెనం}}
+* Tetum: {{t|tet|kasarola}}
+* Thai: {{t+|th|กระทะ}}
+* Tongan: {{t|to|fakapaku}}
+* Turkish: {{t+|tr|tava}}
+* Ukrainian: {{t+|uk|сковорода́|f}}
+* Venetan: {{t+|vec|farsora|f}}, {{t|vec|farsura|f}}, {{t|vec|fersora|f}}, {{t|vec|fersura|f}}, {{t|vec|paeła|f}}, {{t|vec|frixa|f}}, {{t|vec|técia|f}}
+* Vietnamese: {{t+|vi|chảo}} {{qualifier|frying pan}}
+* Volapük: {{t+|vo|paäl}}
+* Welsh: {{t+|cy|padell|f}}
+* Ye'kwana: {{t|mch|jütadi}}
+* Yiddish: {{t|yi|סקאָווערדע|f}}, {{t|yi|פֿענדל|n}}
+* Zazaki: {{t|zza|tawa}}
+{{trans-bottom}}
+
+{{trans-top|contents of a pan}}
+* Afrikaans: {{t+|af|pan}}
+* Finnish: {{t+|fi|pannullinen}}
+* Greek: {{t+|el|τηγανιά|f}}
+* Italian: {{t|it|padellata|f}}
+* Russian: {{t+|ru|сковорода́|f}}
+{{trans-bottom}}
+
+{{trans-see|cylindrical receptacle with one long handle|saucepan}}
+
+{{trans-top|wide receptacle used in gold washing}}
+* Afrikaans: {{t+|af|pan}}
+* Bulgarian: {{t+|bg|корито}}
+* Czech: {{t|cs|rýžovací pánev}}, {{t|cs|rýžovací mísa}}
+* Finnish: {{t+|fi|vaskooli}}
+* Italian: {{t|it|batea|f}}
+* Portuguese: {{t+|pt|bateia}}
+* Russian: {{t+|ru|лото́к|m}}
+* Vietnamese: {{t+|vi|giần|alt=cái giần}}
+{{trans-bottom}}
+
+{{trans-top|geography: type of lake, natural depression or basin}}
+* Afrikaans: {{t+|af|pan}}
+* Bulgarian: {{t+|bg|солница|f}}
+* Czech: {{t+|cs|pánev|f}}
+* Finnish: {{t+|fi|allas}}
+* Greek: {{t+|el|λεκάνη|f}}
+* Russian: {{t+|ru|котлови́на|f}}
+* Vietnamese: {{t+|vi|lòng chảo|alt=cái lòng chảo}}
+{{trans-bottom}}
+
+{{trans-top|strong criticism}}
+* Finnish: {{t|fi|murska-arvostelu}}, {{t+|fi|lyttäys}}
+* Russian: {{t+|ru|разно́с|m}}
+* Vietnamese: {{t+|vi|chỉ trích|alt=sự chỉ trích}}, {{t+|vi|đả kích|alt=sự đả kích}}
+{{trans-bottom}}
+
+{{trans-top|loaf of bread}}
+* French: {{t|fr|miche de pain}}
+* Italian: {{t|it|fetta di pane}}, {{t+|it|fetta|f}}
+* Polish: {{t+|pl|bochen|m}}
+* Vietnamese: {{t+|vi|ổ}}
+{{trans-bottom}}
+
+{{trans-top|base part of a toilet}}
+* Czech: {{t|cs|záchodová mísa}}
+* Finnish: {{t+|fi|allas}}
+* French: {{t+|fr|cuvette|f}}
+* Russian: {{t+|ru|унита́з|m}}
+{{trans-bottom}}
+
+{{trans-top|slang: face}}
+* Finnish: {{t+|fi|lätty}}
+* Italian: {{t+|it|muso|m}}
+* Russian: {{t+|ru|физионо́мия|f}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Irish: {{t-check|ga|panna|m}}
+{{trans-bottom}}
+
+====Verb====
+[[File:Alaska Gold in pan.jpg|thumb|'''panned''' gold]]
+{{en-verb}}
+
+# {{lb|en|transitive}} To wash in a pan (of earth, sand etc. when searching for gold).
+#: {{cot|en|sluice}}
+#* {{quote-text|en|year=1875|author=w:William Tecumseh Sherman|title=Memoirs
+|passage=We {{...}} witnessed the process of cleaning up and '''panning''' out, which is the last process of separating the pure gold from the fine dirt and black sand.}}
+# {{senseid|en|criticize}}{{lb|en|transitive}} To [[disparage]]; to [[belittle]]; to [[put down]]; to harshly [[criticize]], especially a work (book, movie, etc.)
+#: {{syn|en|Thesaurus:criticize}}
+#* {{quote-journal|en|author=Tiffany Hsu|title=All Those Celebrities Pushing Crypto Are Not So Vocal Now|work=The New York Times|date=2022-05-17|url=https://www.nytimes.com/2022/05/17/business/media/crypto-gwyneth-paltrow-matt-damon-reese-witherspoon.html|issn=0362-4331|passage=Matt Damon, who compared the advent of virtual money to the development of aviation and spaceflight in a critically '''panned''' but widely seen Crypto.com ad last year, did not respond to requests to weigh in.}}
+# {{lb|en|intransitive|with [[out]], to [[pan out]]}} To turn out well; to be successful.
+# {{lb|en|transitive|informal|of a contest}} To [[beat]] one's opposition [[convincingly]].
+
+=====Derived terms=====
+{{col|en|unpanned
+}}
+
+=====Translations=====
+{{trans-top|to wash in a pan}}
+* Bulgarian: {{t+|bg|промивам}}
+* Czech: {{t|cs|rýžovat|impf}}
+* Danish: {{t+|da|vaske}}
+* Dutch: {{t|nl|wassen in een goudzeef}}
+* Finnish: {{t+|fi|vaskata}}
+* Galician: {{t+|gl|peneirar}}, {{t|gl|barutar}}, {{t+|gl|bortelar}}, {{t|gl|xirgar}}
+* Greek: {{t+|el|στραγγίζω}}
+* Malay: {{t|ms|mendulang}}
+* Portuguese: {{t+|pt|batear}}
+* Russian: {{t+|ru|промыва́ть|impf}}, {{t+|ru|промы́ть|pf}}
+{{trans-bottom}}
+
+{{trans-top|to criticise severely|id=criticize}}
+* Arabic: {{t|ar|ينتقد بشدَة}}
+* Czech: {{t|cs|setřít|pf}}, {{t+|cs|rozcupovat|pf}}
+* Dutch: {{t|nl|scherp bekritiseren}}, {{t+|nl|afkammen}}, {{t+|nl|kraken}}
+* Finnish: {{t+|fi|lytätä}}
+* Hungarian: {{t+|hu|bírál}}, {{t+|hu|megbírál}}, {{t+|hu|kritizál}}, {{t+|hu|lehúz}}, {{t+|hu|leszól}}
+* Italian: {{t+|it|stroncare}}
+* Norwegian: {{t+|no|slakte}}
+* Spanish: {{t|es|poner por los suelos}}, {{t+|es|destrozar}}, {{t|es|poner a parir}}, {{t|es|dejar por los suelos}}, {{t|es|criticar duramente}}
+* Swedish: {{t+|sv|sabla}}, {{t+|sv|såga}}
+{{trans-bottom}}
+
+{{trans-top|to turn out well}}
+* Finnish: {{t+|fi|onnistua}}, {{t|fi|[[käydä]] [[hyvin]]}}
+{{trans-bottom}}
+
+{{trans-top|to beat convincingly}}
+* Finnish: {{t+|fi|pieksää}}, {{t+|fi|piestä}}, {{t+|fi|rökittää}}
+{{trans-bottom}}
+
+=====See also=====
+* {{l|en|lavatory|t=place where gold is panned}} {{q|obsolete}}
+
+===Etymology 2===
+{{clipping|en|panorama}}.
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|intransitive}} {{q|of a [[camera]]}} To [[turn#Verb|turn]] [[horizontally]].
+#: {{coord|en|cant|tilt}}
+#* {{quote-journal|en|author=w:Robert Draper|title=They are Watching You—and Everything Else on the Planet: Technology and Our Increasing Demand for Security have Put Us All under Surveillance. Is Privacy Becoming just a Memory?|url=https://www.nationalgeographic.com/magazine/2018/02/surveillance-watching-you/|archiveurl=https://web.archive.org/web/20180614211931/https://www.nationalgeographic.com/magazine/2018/02/surveillance-watching-you/|archivedate=14 June 2018|magazine=w:National Geographic|location=Washington, D.C.|publisher=w:National Geographic Society|month=February|year=2018|issn=0027-9358|oclc=1049714034|passage=Later today in Finsbury Park, the cameras would spend hours '''panning''' across 35,000 festivalgoers in search of pickpockets, drunken brawlers, and other assorted agents of petty mischief.}}
+# {{lb|en|photography|intransitive}} To move the camera lens [[angle]] while continuing to expose the film, enabling a contiguous view and enrichment of context. In still-photography large-group portraits the film usually remains on a horizontal fixed [[plane]] as the lens and/or the film holder moves to expose the film laterally. The resulting image may extend a short distance laterally or as great as 360° from the point where the film first began to be exposed. {{rfv-sense|en}}
+#* {{quote-journal|en|date=1957 January|author=A. M. Ross|title=Letters to the Editor: Impressions of Speed|journal=Railway Magazine|page=60|text=As one can only "'''pan'''" at 90 deg. to the direction of movement of the subject, a compromise has to be reached when shooting at more conventional angles between a shutter speed high enough to arrest the forward movement of the subject and one low enough to blur the valve motion and wheels.}}
+# {{lb|en|imaging|intransitive}} To shift an image relative to the display window without changing the viewing scale. {{rfv-sense|en}}
+# {{lb|en|sound engineering|transitive}} To spread a sound signal into a new [[stereo]] or [[multichannel]] sound field, typically giving the impression that it is moving across the [[sound stage]].
+# {{lb|en|sound engineering|intransitive}} {{q|of a [[sound]]}} To [[move]] in the [[multichannel]] sound field.
+
+=====Derived terms=====
+{{col|en|pan and scan|pan out|panner|pannable}}
+
+=====Translations=====
+{{trans-top|to turn horizontally}}
+* Chinese:
+*: Mandarin: {{t+|cmn|平移}}
+* Czech: {{t|cs|přejíždět|impf}}, {{t|cs|švenkovat|impf}}
+* Finnish: {{t+|fi|kiertää}}, {{t+|fi|panoroida}}
+* French: {{t|fr|faire un panoramique}}
+* German: {{t+|de|schwenken}}
+* Hungarian: {{t+|hu|pásztáz}}, {{t|hu|svenkel}}, {{t|hu|pánoz}}, {{t|hu|panorámáz}}
+* Norwegian: {{t|no|panorere}}
+* Spanish: {{t+|es|panear}} {{q|South America}}, {{t|es|panoramizar}}
+* Swedish: {{t+|sv|panorera}}
+{{trans-bottom}}
+
+=====See also=====
+* {{l|en|cinema}}
+* {{l|en|cinematography}}
+* {{l|en|portrait}}
+* {{l|en|tripod}}
+
+====Noun====
+{{en-noun}}
+
+# A sequence in a film in which the camera pans over an area.
+#* {{quote-book|en|year=2013| title=Principles of Advertising: A Global Perspective|author=Monle Lee; Carla Johnson | page=197| passage=For instance, in the film ''Dances with Wolves'', a '''pan''' of an uninhabited landscape contrasts the gruesome beginning footage that depicts the carnage of war.}}
+
+=====Derived terms=====
+{{col|en|whip pan}}
+
+===Etymology 3===
+
+====Noun====
+{{en-noun|-}}
+
+# {{alternative form of|en|paan}}.
+
+===Etymology 4===
+Of unknown origin.
+
+====Verb====
+{{en-verb}}
+
+# To [[join]] or [[fit]] [[together]]; to [[unite]].
+#* '''31 May 1884''', ''Leeds Mercury''
+#*: '''Pan''' it down—press an article into its proper place
+#* {{quote-text|en|year=1963|title=Grower Talks
+|passage=The plants can either be sold individually in the 3 inch pots as Valentine favors , or several may be '''panned''' together in larger pots}}
+
+=====References=====
+* {{R:OED Online|entry=pan|pos=v.²|id=32124365|url=https://www.oed.com/dictionary/pan_v2?tab=factsheet#32124365}}
+
+===Etymology 5===
+From {{inh|en|ang|-}}. See {{m|en|pane}}.
+
+====Noun====
+{{en-noun}}
+
+# A [[part]]; a [[portion]].
+# {{lb|en|fortifications}} The [[distance]] comprised between the [[angle]] of the [[epaule]] and the flanked angle.
+# A [[leaf]] of [[gold]] or [[silver]].
+
+===Etymology 6===
+{{clipping|en|pansexual}} or ''[[panromantic]]''.
+
+====Adjective====
+{{en-adj|-}}
+
+# {{lb|en|informal}} [[pansexual|Pansexual]] or [[panromantic]].
+#* {{quote-journal|en|author=Anna Waugh|title=Texas got a pansexual legislator|titleurl=http://www.dallasvoice.com/wp-content/uploads/2012/12/DV-12.28.12.pdf|journal=Dallas Voice|volume=29|issue=33|date=28 December 2012|page=9
+|passage=When she publicly acknowledged that she is '''pan''', it educated citizens near and far on what that sexuality meant and the importance of being proud of who you are.}}
+#* '''2013''', Alejandra Rodriguez, "[http://issuu.com/outwritenewsmag/docs/ow_fall2013_color Isn't That Bisexual?]", ''Outwrite'', Fall 2013, page 7:
+#*: Another anonymous pansexual disclosed, "Sometimes I feel really left out because I'm '''pan'''. {{…}}"
+#* '''2013''', Megan Hertner, "[https://web.archive.org/web/20160327231357/https://issuu.com/nicolegoodbrand/docs/december_final2 Understanding Gender and Sexuality]", ''Grapevine'' (Huron University College), December 2013, page 19:
+#*: A similar experience is shared by individuals who identify their sexuality as '''pan''', bi or queer.
+#* {{see more citations|en}}
+
+=====Coordinate terms=====
+* {{l|en|bi}}, {{l|en|mono}}
+
+===Etymology 7===
+{{clipping|en|pantograph}}.
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|rail transport|informal}} {{clip of|en|pantograph}}.
+
+=====Synonyms=====
+* {{sense|pantograph}} {{l|en|panto}}
+
+===See also===
+{{col2|en|pan bagnat|pan haggerty| pan tao peach}}
+
+===References===
+<references/>
+
+===Anagrams===
+* {{anagrams|en|a=anp|-nap|ANP|NAP|NPA|PNA|nap}}
+
+{{cln|en|clippings|3-letter words}}
+{{C|en|Breads|Cookware and bakeware|Landforms|Sexual orientations}}
+
+==Afrikaans==
+
+===Etymology===
+From {{inh|af|nl|pan}}, from {{inh|af|dum|panne}}, from {{inh|af|odt|*panna}}, from {{der|af|la|panna}}, contraction of {{m|la|patina}}. The sense “lake, pond” is likely borrowed from or influenced by {{der|af|en|pan}}.
+
+===Pronunciation===
+* {{IPA|af|/pan/}}
+* {{audio|af|LL-Q14196 (afr)-Oesjaar-pan.wav}}
+
+===Noun===
+{{af-noun|panne}}
+
+# {{l|en|pan}} {{gloss|receptacle}}
+# [[lake]] or [[pond]]; pan
+
+====Synonyms====
+* {{sense|lake}} {{l|af|meer}}
+
+==Aragonese==
+
+===Etymology===
+From {{inh|an|la|panis|pānis, pānem}}. Cognate with {{cog|gl|pan}}, {{cog|pt|pão}}.
+
+===Noun===
+{{an-noun|m}}
+
+# [[bread]]
+
+===References===
+* {{R:DBLA}}
+
+==Asturian==
+
+===Etymology===
+From {{inh|ast|la|panis|pānis, pānem}}.
+
+===Noun===
+{{ast-noun|m|panes}}
+
+# [[bread]]
+
+==Atong (India)==
+
+===Pronunciation===
+* {{IPA|aot|/pan/}}
+
+===Etymology 1===
+
+====Noun====
+{{aot-noun|পান}}
+
+# [[tree]]
+# [[firewood]]
+
+===Etymology 2===
+
+====Classifier====
+{{aot-cls|পান}}
+
+# {{n-g|used with apparatus, appliances, mechanical and electrical things, cars, bikes, bicycles, mortars and umbrellas}}
+
+===References===
+* {{R:aot:Breugel}}
+
+==Bambara==
+
+===Pronunciation===
+* {{IPA|bm|[pã˦]}}
+
+===Verb===
+{{head|bm|verb}}
+
+# to [[fly]]
+# to [[jump]]
+
+===References===
+* 2007. [http://archive.phonetics.ucla.edu/Language/BAM/bam.html The UCLA Phonetics Lab Archive]. Los Angeles, CA: UCLA Department of Linguistics.
+
+{{C|bm|Gaits}}
+
+==Cebuano==
+
+===Etymology===
+{{bor+|ceb|es|pan}}.
+
+===Pronunciation===
+* {{ceb-IPA}}
+
+===Noun===
+{{ceb-noun|b=+}}
+
+# [[bread]]
+#: {{syn|ceb|tinapay}}
+
+====Related terms====
+{{col3|ceb|panaderya|panadero}}
+
+{{C|ceb|Breads}}
+
+==Central Bikol==
+
+===Etymology===
+{{bor+|bcl|es|pan}}.
+
+===Pronunciation===
+* {{bcl-IPA}}
+
+===Noun===
+{{bcl-noun|b=+}}
+
+# [[bread]] {{gl|only used for naming}}
+#: {{syn|bcl|tinapay}}
+
+====Related terms====
+{{col3|bcl|panaderiya|panadero|pandesal}}
+
+==Chavacano==
+
+===Etymology===
+{{inh+|cbk|es|pan||bread}}.
+
+===Pronunciation===
+{{cbk-IPA}}
+
+===Noun===
+{{cbk-noun}}
+
+# [[bread]]
+
+==Chuukese==
+
+===Noun===
+{{head|chk|noun}}
+
+# [[branch]] (with its leaves)
+
+==Cornish==
+
+===Etymology===
+From {{inh|kw|oco|pan}}, from {{inh|kw|cel-pro|*kʷani}}, from {{der|kw|ine-pro|*kʷos,*kʷis}}. Cognate with {{cog|br|pa}}, {{cog|gd,gv|cuin}}, and {{cog|cy|pan}}.
+
+===Adjective===
+{{kw-adj}}
+
+# [[what]]
+
+===Conjunction===
+{{head|kw|conj|triggers [[soft mutation]]}}
+
+# [[when]]
+
+====Derived terms====
+{{col|kw
+|bys pan<t:till, until>
+|byth pan<t:that ever, whenever>
+|pa'n<t:when ... it/him/her>
+}}
+
+===Mutation===
+{{kw-mut}}
+
+==Cypriot Arabic==
+{{acy-root|p-y-n}}
+
+===Etymology===
+{{ety|acy|:inh|ar:بَانَ<id:clear>|text=+|tree=1}}
+
+===Verb===
+{{acy-verb|I|pres=pipán}} {{tlb|acy|intransitive}}
+
+# to [[seem]]
+# to [[show up]], to [[appear]]
+
+===References===
+* {{R:acy:Borg|page=171}}
+
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|LL-Q9056 (ces)-TranslateForFun-pan.wav}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-pan.wav}}
+* {{hyphenation|cs|pan}}
+* {{homophones|cs|Pan}}
+* {{rhymes|cs|an|s=1}}
+
+===Noun===
+{{head|cs|noun form|g=m-an}}
+
+# {{alternative form of|cs|pán}}
+
+====Usage notes====
+* This is the form used when followed by a name, title, occupation etc.
+*: {{coi|cs|'''pan''' Novák|Mr Novák}}
+*: {{coi|cs|'''Pane''' předsedo, dámy a pánové...|Mr Chairman, ladies and gentlemen...}}
+*: {{uxi|cs|Vítejte, '''pane''' rytíři.|Welcome, Sir Knight.}}
+*: {{uxi|cs|Kdy přijde '''pan''' doktor, sestřičko?|When will the doctor come, nurse?}}
+
+====Declension====
+{{cs-ndecl|((pan<m.an.sg>,páni<m.an.pl>))}}
+
+===Further reading===
+* {{R:cs:KNLA}}
+* {{R:cs:SSJC}}
+
+==Dutch==
+{{wp|nl:}}
+
+===Etymology===
+From {{inh|nl|dum|panne}}, from {{inh|nl|odt|*panna}}, from {{inh|nl|gmw-pro|*pannā}}, from {{inh|nl|gem-pro|*pannǭ|t=pan}}.
+
+===Pronunciation===
+* {{IPA|nl|/pɑn/}}
+* {{audio|nl|Nl-pan.ogg}}
+* {{hyphenation|nl|pan}}
+* {{rhymes|nl|ɑn|s=1}}
+
+===Noun===
+{{nl-noun|f|-en|+}}
+
+# {{l|en|pan}}, especially for cooking
+# {{lb|nl|Netherlands}} [[cooking pot]]
+#: {{syn|nl|pot}}
+# {{lb|nl|uncommon}} {{l|en|roof tile}}
+#: {{syn|nl|dakpan}}
+
+====Derived terms====
+{{col|nl
+|bakpan
+|braadpan
+|dakpan
+|de pan uit rijzen
+|eenpansgerecht
+|eenpansmaaltijd
+|frituurpan
+|grillpan
+|hapjespan
+|hogedrukpan
+|koekenpan
+|kookpan
+|sauspan
+|schedelpan
+|snelkookpan
+|soeppan
+|steelpan
+|pannenlapper
+|pannenset
+|wokpan
+}}
+
+====Descendants====
+* {{desc|af|pan}}
+* {{desc|gmw-jdt|pān}}
+* {{desc|dcr|pan}}
+* {{desc|jvn|pan|bor=1}}
+* {{desc|id|bor=1|panci}} {{q|from the diminutive}}
+* {{desc|jv|bor=1|ꦥꦚ꧀ꦕꦶ|ꦮꦚ꧀ꦕꦶ|tr1=panci|tr2=wanci}} {{q|from the diminutive}}
+* {{desc|umu|pán|bor=1}}
+* {{desc|bor=1|pap|panchi|pannetsji|pannetsje}} {{q|from the diminutive}}
+* {{desc|srn|pan|bor=1}}
+** {{desc|srm|pánu|bor=1}}
+
+===Anagrams===
+* {{l|nl|nap}}
+
+{{C|nl|Cookware and bakeware}}
+
+==Emilian==
+
+===Etymology===
+From {{inh|egl|la|panis}}.
+
+===Pronunciation===
+* {{IPA|egl|/ˈpaŋ/}}
+
+===Noun===
+{{egl-noun|m|pan}}
+
+# [[bread]]
+
+===References===
+{{R:egl:Lepri-Vitali:2002}}
+
+==Franco-Provençal==
+
+===Etymology===
+{{inh+|frp|la|pānis}}.
+
+===Noun===
+{{frp-noun|m}} {{tlb|frp|orbl}}
+
+# [[bread]]
+
+===References===
+* {{R:frp:DFP|pain}}
+* {{R:frp:LTA|20661}}
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|Fr-pan.ogg}}
+* {{audio|fr|LL-Q150 (fra)-LoquaxFR-pan.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-pan.wav|a=France}}
+* {{audio|fr|LL-Q150 (fra)-Opsylac-pan.wav|a=<<France>> (<<Grenoble>>)}}
+* {{audio|fr|LL-Q150 (fra)-Bananax47-pan.wav|a=<<France>> (<<Agen>>)}}
+* {{homophones|fr|pans|paon|paons|pend|pends}}
+
+===Etymology 1===
+{{inh+|fr|fro|pan}}, from {{inh|fr|la|pannus}}. {{doublet|fr|pagne}}.
+
+====Noun====
+{{fr-noun|m}}
+
+# [[piece]], [[part]]
+#: {{syn|fr|morceau|partie}}
+#: {{uxi|fr|c'est un '''pan''' à part|it's a special '''part'''}}
+# [[side]], [[face]]
+# [[flap]], [[lap]] {{gloss|of coat}}
+# [[patch]], [[area]], [[section]], [[sector]]
+
+===Etymology 2===
+Onomatopoeic.
+
+====Interjection====
+{{fr-intj}}
+
+# [[bang]]! {{gloss|sound of a gun}}
+#: {{ux|fr|'''Pan'''! T'es mort !|t='''Bang'''! You're dead!}}
+# [[bam]]!
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+===Anagrams===
+* {{l|fr|APN}}
+
+==Friulian==
+
+===Etymology===
+From {{inh|fur|la|panis|pānis, pānem}}.
+
+===Pronunciation===
+* {{IPA|fur|/ˈpan/|[ˈpaŋ]}}
+
+===Noun===
+{{fur-noun|m}}
+
+# [[bread]]
+
+==Galician==
+[[File:Pan de trigo (Galicia).jpg|thumb|Galician bread]]
+
+===Alternative forms===
+* {{alt|gl|pão|pam||reintegrationist}}
+
+===Etymology===
+From {{inh|gl|roa-opt|pan}}, from {{inh|gl|la|panis|pānis, pānem}}. Cognate with {{cog|pt|pão}}.
+
+===Pronunciation===
+{{gl-pr}}
+* {{hyph|gl|pan}}
+
+===Noun===
+{{gl-noun|m}}
+
+# {{lb|gl|uncountable}} [[bread]]
+#* '''1418''', Á. Rodríguez González (ed.), ''Libro do Concello de Santiago (1416-1422)''. Santiago de Compostela: Consello da Cultura Galega, page 95:
+#*: {{quote|gl|''que façan as paadeiras '''pan''' de dineiro que pese seis onças desque for cosido et que seja o dito '''pan''' bõo et ben cosido''
+|translation=the bakers must make '''bread''' for a denarius that must weight six ounces once baked and said '''bread''' must be good and well baked}}
+# a [[piece]] of [[bread]]
+#: {{syn|gl|peza}}
+# [[grain]], [[corn]], [[cereal]]
+#* {{quote-book|gl|year=1276|editors=M. Lucas Álvarez; P. Lucas Dominguez|title=El monasterio de San Clodio do Ribeiro en la Edad Media: estudio y documentos|location=Sada / A Coruña|publisher=Edicións do Castro|page=375
+|passage=''et este '''pan''' deue a seer qual o Deus der no logar et seer linpo de palla et de poo, d'eruellada et de mosceyra, et deue a seer ben seco et ben linpo et bõõ '''pan'''''
+|translation=and this '''grain''' must be that that God gives at that place, and it must be clean of chaff and dust, of vetch and fodder, and it must be well dry and well clean and good '''grain'''}}
+#* {{quote-book|gl|year=1301|editor=X. Ferro Couselo|title=A vida e a fala dos devanceiros. Escolma de documentos en galego dos séculos XIII ao XVI|location=Vigo|publisher=Galaxia|page=52
+|passage=''A Eluira, I moyo de '''pan''' do nouo, de qual ouueren, e I bacoro''
+|translation=To Elvira, one modius of '''grain''' of the new harvest, whichever they happen to have there, and one piglet}}
+# {{lb|gl|by extension}} [[food]]
+#: {{syn|gl|comida}}
+
+====Related terms====
+{{col|gl|empanada|empanar|panadaría|panadeiro|pantrigo}}
+
+===References===
+* {{R:gl:DDGM}}
+* “[http://sli.uvigo.es/xelmirez/xelmirez.php?pescuda=+pan+&corpus=xelmirez pan]” in Xavier Varela Barreiro & Xavier Gómez Guinovart: Corpus Xelmírez - Corpus lingüístico da Galicia medieval. SLI / Grupo TALG / ILG, 2006-2016.
+* {{R:gl:DDLG}}
+* {{R:gl:TILG}}
+* {{R:TLPGP}}
+
+{{C|gl|Breads|Foods}}
+
+==Istriot==
+
+===Etymology===
+From {{inh|ist|la|panis|pānis, pānem}}.
+
+===Noun===
+{{head|ist|noun|g=m}}
+
+# [[bread]]
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|パン}}
+
+==Ladin==
+{{wp|lld:}}
+
+===Etymology===
+From {{inh|lld|la|pānem}}.<ref>Wörterbuch der Grödner Mundart.- (Schlern-Schriften ; 23) - Arcangjul Lardschneider ''[https://digital.tessmann.it/tessmannDigital/Medium/Seite/13475/271/issueId-200262-currentDate-.html].'' Teßmann</ref> 
+
+Compare {{cog|fur|pan}}, {{cog|lmo|pan}}, {{cog|rm|pan}}, {{cog|es|pan}}, {{cog|ca|pa}}, {{cog|fr|pain}} and {{cog|it|pane}}.
+
+===Pronunciation===
+* {{IPA|lld|/paŋ/}}
+
+===Noun===
+{{lld-noun|m|pans}}
+
+# {{lb|lld|Gherdëina|Badiot|Fascian|Anpezan|Fodom}} [[bread]]
+#: {{uxi|lld|Fé '''pan'''.|To bake '''bread'''.}}
+#: {{uxi|lld|N tòch de '''pan'''.|A piece of '''bread'''.}}
+
+===References===
+<references/>
+
+==Ladino==
+
+===Etymology===
+From {{inh|lad|osp|pan||bread}}.
+
+===Noun===
+{{lad-noun|g=m|heb=פאן}}<ref name="Folkmasa">{{R:lad:Folkmasa}}</ref>
+
+# {{tcl|lad|bread|id=Q7802}}
+#* {{quote-journal|lad|journal=Aki Yerushalayim
+|url=https://books.google.com/books?id=ypHjAAAAMAAJ
+|issues=68–72
+|year=2002
+|page=64
+|pageurl=https://books.google.com/books?id=ypHjAAAAMAAJ&q=trenta
+|text=En esto le dio a su padre trenta guevos, un '''pan''' entero i una kacharola de leche.|t=Someone gave their father thirty eggs, wholemeal '''bread''', and a pot of milk in this.}}
+
+===References===
+<references/>
+
+==Leonese==
+
+===Etymology===
+From {{inh|roa-leo|la|panis|pānis, pānem}}.
+
+===Noun===
+{{head|roa-leo|noun|g=m}}
+
+# [[bread]]
+
+===References===
+* {{R:roa-leo:DCLLC}}
+
+==Ligurian==
+
+===Etymology===
+From {{inh|lij|la|panis|pānis, pānem}}.
+
+===Pronunciation===
+* {{IPA|lij|/paŋː/}}
+
+===Noun===
+{{head|lij|noun|g=m|invariable}}
+
+# [[bread]]
+
+==Livonian==
+
+===Etymology===
+Borrowed from {{bor|liv|gml|panne}}.
+
+===Pronunciation===
+{{liv-p}}
+
+===Noun===
+{{head|liv|noun}}
+
+# [[#English|pan]] {{gl|vessel for frying food}}
+
+====Declension====
+{{liv-decl|100}}
+
+===References===
+* {{R:liv:LEL|pan}}
+
+==Lombard==
+
+===Etymology===
+From {{inh|lmo|la|panis|pānis, pānem}}.
+
+===Pronunciation===
+* {{IPA|lmo|/ˈpãː/|/ˈpaŋ/}}
+
+===Noun===
+{{head|lmo|noun|g=m|invariable}}
+
+# [[bread]]
+
+{{C|lmo|Breads}}
+
+==Maguindanao==
+
+===Etymology===
+{{bor+|mdh|es|pan}}.
+
+===Pronunciation===
+{{mdh-pr}}
+
+===Noun===
+{{mdh-noun|j=}}
+
+# [[bread]]
+
+==Malay==
+
+===Noun===
+{{head|ms|noun}}
+
+# [[grandmother]]
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|sc=Latn|pān}}
+# {{nonstandard spelling of|cmn|sc=Latn|pán}}
+# {{nonstandard spelling of|cmn|sc=Latn|pǎn}}
+# {{nonstandard spelling of|cmn|sc=Latn|pàn}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Middle English==
+
+===Etymology 1===
+
+====Noun====
+{{head|enm|noun|var=1}} 
+
+# {{alt form|enm|panne|id=pan|t=pan}}
+
+===Etymology 2===
+
+====Noun====
+{{head|enm|noun|var=1}} 
+
+# {{alt form|enm|pane|id=fabric|t=fabric, fur; a portion}}
+
+==Occitan==
+
+===Etymology===
+From {{inh|oc|pro|pan}}, from {{inh|oc|la|panis|pānis, pānem}}.
+
+===Pronunciation===
+* {{audio|oc|LL-Q14185 (oci)-Davidgrosclaude-pan.wav|a=Béarn}}
+
+===Noun===
+{{oc-noun|m}}
+
+# [[bread]]
+
+====Derived terms====
+* {{l|oc|pan cogon}}
+
+====Related terms====
+* {{l|oc|panier}}
+
+{{C|oc|Breads}}
+
+==Old French==
+
+===Etymology===
+From {{inh|fro|la|pannus}}.
+
+===Noun===
+{{fro-noun|m}}
+
+# [[bit]]; [[piece]]; [[part]]
+# {{lb|fro|specifically}} a piece of armor
+#: ''Et de l'hauberc li runpirent les '''pans'''<!--from the Godefroy, see the link below-->''
+#:: ''They broke apart '''parts''' of his armor''
+
+====Derived terms====
+* {{l|fro|panel}}
+
+====Descendants====
+* {{desc|fr|pan}}
+* {{desctree|enm|pane|bor=1}}
+
+===References===
+* {{R:Godefroy}}
+
+==Old Galician-Portuguese==
+
+===Alternative forms===
+* {{alt|roa-opt|pam|pã}}
+
+===Etymology===
+{{etymon|roa-opt|id=bread|:inh|la:panis<id:bread><alt:pānem>}} Cognate with {{cog|osp|pan}}.
+
+===Noun===
+{{roa-opt-noun|m|pl=pães}}
+
+# [[bread]]
+#* {{RQ:roa-opt:Cantigas de Santa Maria|E|95|http://www.pbm.com/~lindahl/cantigas/facsimiles/E/210small.gif|text=Aquel ſantome {{...}} nunca carne comia nen '''pan''' nen bocado / ſe non q[ua]ndo con cĩjſa Era Meſturado|t=That holy man {{...}} never ate a mouthful of meat nor '''bread''' / except when it was mixed with ashes.}}
+# {{lb|roa-opt|metonym}} [[wheat]]; [[cereal]]s
+#: {{syn|roa-opt|triigo}}
+
+====Descendants====
+* {{desc|fax|pan}}
+* {{desc|gl|pan}}
+* {{desc|pt|pão}} {{see desc}}
+
+===References===
+* {{R:roa-opt:UC|2491}}
+* {{R:roa-opt:DDGM}}
+* {{R:roa-opt:CX}}
+
+{{C|roa-opt|Breads|Grains}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=sir|:inh|sla-pro:*gъpanъ|tree=1|text=+}} {{etydate|13th century}}. {{displaced|zlw-opl|sl=1|gospodzin}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|pa:n}}
+
+===Noun===
+{{zlw-opl-noun|m-pr|f=pani|f2=panna}}
+
+# {{lb|zlw-opl|attested in|Greater Poland}} [[lord]] {{gl|master of a feudal manor}}
+#* {{RQ:zlw-opl:PPom|451|1293|'''Pan''' Andreas castellanus Danensis|'''Pan''' Andreas castellanus Danensis|-}}
+#* {{RQ:zlw-opl:Pozn|368|1399|Esze Boguchna otkaszala Potrkovi dacz swego posagu '''panu''' posnanskemu trzinaczcze grziwni|Eże Boguchna otkazała Piotrkowi dać swego posagu '''panu''' poznańskiemu trzynaćcie grzywny|-}}
+# [[ducal]] or [[princely]] [[official]]
+#* {{RQ:zlw-opl:MMAe|IX|136|1275|Omnesque eius (sc. monasterii) villas... cum... incolis... a domino custodie, qui dicitur vlg. '''pan''' stroze vel stroznj, semper facimus liberos|Omnesque eius (sc. monasterii) villas... cum... incolis... a domino custodie, qui dicitur vlg. '''pan''' stroże vel strożny, semper facimus liberos|-}}
+# {{lb|zlw-opl|more specifically}} [[beaver]] [[official]] {{gl|ducal lord or acting official in charge of beavers, the mammal}}
+#: {{syn|zlw-opl|bobrownik}}
+#* {{RQ:zlw-opl:MMAe|IX|136|1275|Dominus castorum dictus wlgo '''pan''' bobrowi|Dominus castorum dictus wlgo '''pan''' bobrowi|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland|Silesia}} [[dignitary]]
+#* {{RQ:zlw-opl:MPH|II|468|14th/15th century|Dicitur pan in Slavonico maior dominus... Xandz autem maior est quam '''pan''', veluti princeps et superior rex|Dicitur pan in Slavonico maior dominus... Ksiądz autem maior est quam '''pan''', veluti princeps et superior rex|-}}
+#* {{RQ:zlw-opl:Gn|11b|A *szaprafdocz na tem tho svecze malo takich kaplanof nadze ('najdzie')..., chos bycz ony krole, xøszøtha y tesze '''pany''' bogathe o gich sloscz karaly ge|A zaprawdęć na tem to świecie mało takich kapłanow nadzie ('najdzie')..., coż być oni krole, książęta y teże '''pany''' bogate o jich złość karali je|-}}
+#* {{RQ:zlw-opl:PF|III|289|c. 15th century|Czelny '''panowye''' barones|Czelni '''panowie''' barones|-}}
+# dignitary of [[property]]
+#* {{RQ:zlw-opl:Tęcz|2|'''Pana''' swego wyelkyego, choragyewnego, zabylyszcze, chlopy!|'''Pana''' swego wielkiego, chorągiewnego, zabiliście, chłopy!|-}}
+# {{lb|zlw-opl|military rank}} [[cavalry]] [[officer]]
+#* {{RQ:zlw-opl:R|XLVII|359|Fifteenth century|Filius tribuni chorøsznego '''pana'''|Filius tribuni chorążnego '''pana'''|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} [[nobleman]]
+#* {{RQ:zlw-opl:BZ|Judith|5,26|Y stalo syø gdisz Achior przestal mowyenya slow swich, roznyewaly syø wszitcy wyelyci '''panowye''' (omnes magnates) Olofernovy|I stało się gdyż Achior przestał mowienia słow swych, rozniewali się wszytcy wielicy '''panowie''' (omnes magnates) Olofernowi|-}}
+#* {{RQ:zlw-opl:Erz|62|c. 1500|Optimas stoleczny '''pan'''|Optimas stołeczny '''pan'''|-}}
+# {{lb|zlw-opl|in the plural|law|attested in|Greater Poland}} [[court]] [[official]]s
+#* {{RQ:zlw-opl:Pozn|362|1398|Iako Sandziuoy starosta wmovil medzi mnø a medzi Sczepanem, esz ne mal na mø niyednego roku stacz nisz przet timi '''pani''', czso sø nameneni|Jako Sędziwoj starosta umowił miedzy mną a miedzy Szczepanem, eż nie miał na mię nijednego roku stać niż przed tymi '''pany''', czso są namienieni|-}}
+# {{lb|zlw-opl|attested in|Greater Poland|Masovia}} [[lord]] {{gl|one possessing similar mastery over others; any feudal superior generally; any nobleman or aristocrat; any chief, prince, or sovereign ruler}}
+#* {{RQ:zlw-opl:Pozn|381|1398|Yssze Marczin ne odmouil Yana szoltisa od rok za swego '''pana''', za Wolwrama|Iże Marcin nie odmowił Jana sołtysa od rok za swego '''pana''', za Wolwrama|-}}
+#* {{RQ:zlw-opl:Kościan|1048|1424|Jaco '''pan''' dzedziczny Dzbansky dal Janowy mlin czynicz w dzedzyczstwo|Jako '''pan''' dziedziczny Dzbąski dał Janowi młyn czynić w dziedzicstwo|-}}
+#* {{RQ:zlw-opl:PF|I|487|c. 1428|Dobrowolne '''panowe''' ffeodales|Dobrowolne '''panowie''' ffeodales|-}}
+#* {{RQ:zlw-opl:OrtCel|7|Liber (sc. dominus) wolny '''pan'''|Liber (sc. dominus) wolny '''pan'''|-}}
+# {{lb|zlw-opl|attested in|Greater Poland|Masovia}} [[title]] of [[respect]] or [[formality]] often used with [[nobility]] or [[official]]s
+#* {{RQ:zlw-opl:Pozn|187|1395|Tedi *rzegk '''pan''' Hinczka|Tedy rzek[ł] '''pan''' Hynczka|-}}
+#* {{RQ:zlw-opl:Pozn|187|1395|Jako do Vtroszina... przigeli, taco rzecli gednacze '''pana''' Hinczkoui|Jako do [J]utroszyna... przyjeli, tako rzekli jednacze '''pana''' Hynczkowi|-}}
+#* {{RQ:zlw-opl:Pozn|378|1399|'''Pani''' Poluiczska Hanka ma postauicz zachoczczø przecziw Potraszoui Czepurskemu pana choranszego Paska|'''Pani''' Polwicska Hanka ma postawić zachodźcę przeciw Piotraszowi Czepurskiemu pana chorążego Paszka|-}}
+#* {{RQ:zlw-opl:Pozn|433|1400|Iaco to swatczø, iz '''pan''' sandza o tø rzecz alisz po trzech *ledzech zalowal na Troyana|Jako to świadczę, iż '''pan''' sędzia o tę rzecz aliż po trzech leciech żałował na Trojana|-}}
+#* {{RQ:zlw-opl:Pozn|522|1401|Iacom sø ne zamowil prze[d] '''pani''' Czarnkowskimi Janoui praw bich (leg. być) *vsm krziwen|Jakom się nie zamowił prze[d] '''pany''' Czarnkowskimi Janowi praw być ośm krzywien|-}}
+#* {{RQ:zlw-opl:Pozn|835|1411|Yaco gdy '''pan''' Jan Czepurski wyprawil Splawskego s gysczyny, tedi go ne gabal prawem, asz trsy latha mynøly|Jaco gdy '''pan''' Jan Czepurski wyprawił Spławskiego z jiściny, tedy go nie gabał prawem, aż trzy lata minęły|-}}
+#* {{RQ:zlw-opl:Pozn|979|1419|Yaco Newstąmp Swekoczsky szedl na '''pana''' Janową lanka Potrowskego gwaltem|Jako Nieustęp Świekocski szedł na '''pana''' Janowę łąkę Piotrowskiego gwałtem|-}}
+#* {{RQ:zlw-opl:Pozn|1117|1422|Ysze '''pąn''' Jaroslaw sz Lubacowa, podkomorze, ne yest vinouat... czterdczesczy grzyven... sza woly|Iże '''pan''' Jarosław z Lubiatowa, podkomorze, nie jest winowat... czterdzieści grzywien... za woły|-}}
+#* {{RQ:zlw-opl:Sul|72|Vstawyenye przes oswyeczonego ksządza '''pana''' Wlodzyslawa (per serenissimum regem Vladislaum), krola polskego, ... w Krakowye... wywolane|Ustawienie przez oświeconego księdza '''pana''' Włodzisława (per serenissimum regem Vladislaum), krola polskiego, ... w Krakowie... wywołane|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} [[lord]], [[master]] {{gl|male head of a household, a father or husband}}
+#* {{RQ:zlw-opl:Fl|104|Postawil gyey '''panem''' (constituit eum dominum) domu swego y ksødzem wszego bydla swego|Postawił jej '''panem''' (constituit eum dominum) domu swego i księdzem wszego bydła swego|-}}
+#* {{RQ:zlw-opl:MacDod|44|Fifteenth century|Ktho tho wsdruschy, dyabel bandzye '''pan''' gego duschi|Kto to wzdruszy, diabeł będzie '''pan''' jego duszy|-}}
+# [[husband]] {{gl|male member of a marriage}}
+#: {{syn|zlw-opl|mąż}}
+#* {{RQ:zlw-opl:Pozn|4|1386|Item domina de Czepury prestabit iuramentum...: Jaco yest moy '''pan''' ne uinouat Sulcoui trzinaczcze grziwen za Czepuri|Item domina de Czepury prestabit iuramentum...: Jako jest moj '''pan''' nie winowat Sułkowi trzynaćcie grzywien za Czepury|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[Lord]] {{gl|title of God}}
+#* {{RQ:zlw-opl:Fl|102|Blogoslawcze '''panv''' (domino) wszyczki syly yego|Błogosławcie '''Panu''' (domino) wszyćki siły jego|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|panieński|panoski|panowski|panow}}
+{{col|zlw-opl|title=nouns|panicz|paniczek|panieństwo|panię|panostwo|panosza|panoszka|panowanie|państwo}}
+{{col|zlw-opl|title=verbs|panać<g:impf>|paniać<g:impf>|panować<q:impf>}}
+
+====Descendants====
+* {{desctree|pl|pan}}
+* {{desc|szl|pōn}}
+* {{desc|orv|панъ|bor=1|qq=13ᵗʰ c.}}
+** {{desc|zle-ort|панъ|qq=14ᵗʰ c.}}
+*** {{desc|be|пан}}
+*** {{desc|rue|пан}}
+*** {{desc|uk|пан}}
+*** {{desc|zle-mru|панъ|bor=1|qq=16ᵗʰ c.}}
+**** {{desc|ru|пан}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Male people|Titles}}
+
+==Old Spanish==
+
+===Etymology===
+{{etymon|osp|:inh|la:pānis<id:bread>|id=bread}}
+{{inh+|osp|la|pānis|pānem}}, probably from {{der|osp|ine-pro|*peh₂-}}.
+
+===Noun===
+{{osp-noun|m|panes}}
+
+# [[bread]]
+#* {{RQ:Mio Cid|7v|343–346
+|Por {{abbr|tr͠ra|tierra}} andidiſte xxxij {{abbr|años|annos}} {{abbr|ſeñor|ſennor}} {{abbr|ſp͠al|ſpirital}}<br>Moſtrando los {{abbr|miracꝉos|miraculos}} por en auemos {{abbr|q̃|que}} fablar<br>Del agua feziſt vino {{abbr|⁊|e}} dela piedra '''{{abbr|p͠n|pan}}'''<br>Reſuçiteſt a lazaro ca fue tu voluntad}}
+
+====Descendants====
+{{top2}}
+* {{desc|lad|pan//פאן}}
+* {{desc|es|pan}} {{see desc}}
+{{bottom}}
+
+==Papiamentu==
+[[File:Serbian_bread.jpg|thumb]]
+
+===Etymology===
+{{ety|pap|:der|es:pan|text=+|tree=1}}
+
+===Noun===
+{{head|pap|noun}}
+
+# [[bread]]
+
+==Piedmontese==
+
+===Etymology===
+From {{inh|pms|la|panis|pānis, pānem}}.
+
+===Pronunciation===
+* {{IPA|pms|/paŋ/}}
+
+===Noun===
+{{head|pms|noun|g=m}}
+
+# [[bread]]
+
+==Pochutec==
+
+===Etymology===
+Borrowed from {{bor|xpo|es|pan}}.
+
+===Noun===
+{{head|xpo|noun}}
+
+# {{l|en|bread}}
+
+===References===
+* {{R:Boas 1917}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=sir|:inh|zlw-opl:pan|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-pan.ogg;LL-Q809 (pol)-Olaf-pan.wav;LL-Q809 (pol)-Krokus-pan.wav|hh=Pan,PAN,pan-|mp=pán|CD=#|CGP=#}}
+
+===Noun===
+{{pl-noun|m-pr|f=pani|abbr=p.,pp.|dim=panek|aug=panisko}}
+
+# [[gentleman]], [[man]] {{gl|specific male person, especially one unknown to the speaker}}
+#: {{uxi|pl|Jakiś '''pan''' mi pomógł.|A certain '''gentleman''' helped me.}}
+# [[master]], [[lord]]  {{gl|person with power over something}}
+# [[sir]] {{gl|rich, well-presenting person}}
+#: {{syn|pl|panisko}}
+# [[lord]] {{gl|master of a house}}
+# [[teacher]]
+#: {{syn|pl|nauczyciel}}
+# [[master]] {{gl|owner of a household pet}}
+# [[Mr]], [[mister]] {{gl|title before a last name}}
+# {{lb|pl|Middle Polish}} [[husband]] {{gl|male member of a marriage}}
+#: {{syn|pl|mąż}}
+# {{lb|pl|Middle Polish}} [[protector]]
+#: {{syn|pl|protektor}}
+# {{lb|pl|dated}} [[owner]]
+#: {{syn|pl|właściciel}}
+# {{lb|pl|Chełmno}} [[father]]
+#: {{syn|pl|ojciec}}
+
+====Declension====
+{{pl-decl-noun-m-pr|||panowie|dats=panu|locs=panu|vocs=panie}}
+
+====Derived terms====
+{{col|pl|title=adjectives|bezpański|pański|wspaniały}}
+{{col|pl|title=adverb|bezpańsko}}
+{{col|pl|title=nouns|bezpańskość|panek|pani|panicz|panisko|panna|państwo}}
+{{col|pl|title=verbs|być za pan brat|panoszyć<g:impf>|panować<g:impf>}}
+
+====Descendants====
+* {{desc|lt|põnas|bor=1}}
+* {{desc|sgs|puons|bor=1}}
+* {{desc|yi|פּאַן|bor=1}}
+
+===Pronoun===
+{{head|pl|pronoun|g=m|feminine|pani}}
+
+# [[you]] {{ng|polite [[second person]] {{g|m}}-personal [[nominative]], it takes {{l|en|verb|verbs}} as [[third person|third-person]] {{g|s}} form}}
+#: {{coord|pl|pani|państwo}}
+#: {{uxi|pl|Czy mógłby '''pan''' zamknąć drzwi?|Could '''you''' close the door?}}
+
+====Declension====
+{{pl-decl-noun-m-pr|||panowie|dats=panu|locs=panu|vocs=panie}}
+
+====See also====
+* [[Appendix:Polish pronouns]]
+
+===Trivia===
+{{pl-freq 1990|7|10|12|373|1417|1819|22|354|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|81494}}
+* {{R:pl:SXVII|PAN|978|SPas|19.11.2009}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||30|4}}
+* {{R:pl:NFJP}}
+* {{R:Pobłocki:1887||137}}
+* {{R:pl:Ciszewski:1916||96}}
+
+{{cln|pl|polite terms|terms of address}}
+{{C|pl|Male family members|Male people|Titles}}
+
+==Romansh==
+
+===Alternative forms===
+* {{alt|rm|paun||Rumantsch Grischun|Sursilvan|Puter}}
+* {{alt|rm|pàn||Sutsilvan}}
+* {{alt|rm|pang||Surmiran}}
+
+===Etymology===
+From {{inh|rm|la|panis|pānis, pānem}}.
+
+===Noun===
+{{rm-noun|m}}
+
+# {{lb|rm|Vallader|uncountable}} [[bread]]
+# {{lb|rm|Vallader|countable}} [[loaf]] of bread
+
+{{C|rm|Breads|Foods}}
+
+==Scots==
+
+===Verb===
+{{sco-verb|pans|pannin|panned|panned}}
+
+# {{lb|sco|slang}} [[break]], [[smash]] {{gloss|particularly of windows}}
+#: {{uxi|sco|Eh'm gonnae '''pan''' yer windaes in!|I'm going to smash your windows!}}
+
+==Southwestern Dinka==
+
+===Noun===
+{{head|dik|noun}}
+
+# [[home]], [[homestead]], [[compound]], [[abode]], [[village]], [[country]]
+
+===References===
+* {{cite-web|url=http://www.rogerblench.info/Language/Nilo-Saharan/Nilotic/Comparative%20Dinka%20lexicon%20converted.pdf|work=Dinka-English Dictionary|year=2005}}
+
+==Spanish==
+{{wp|es:}}
+[[File:Assorted bread.jpg|thumb|{{uxi|es|Tipos de '''pan'''|Kinds of '''bread'''}}]]
+
+===Etymology===
+{{etymon|es|:inh|osp:pan<id:bread>|id=bread|tree=1}}
+{{inh+|es|osp|pan}}, from {{inh|es|la|pānis|pānem}}, perhaps from {{der|es|ine-pro|*peh₂-||to feed, to graze}}. Compare {{cog|ca|pa}}, {{cog|fr|pain}}, {{cog|gl|pan}}, {{cog|it|pane}}, {{cog|oc|pan}}, {{cog|pt|pão}}{{,}} and {{cog|ro|pâine}}. Cognate with {{cog|en|company}} and {{m|en|pantry}}.
+
+===Pronunciation===
+{{es-pr}}
+
+===Noun===
+{{es-noun|m}}
+
+# [[bread]] {{gl|food made by baking cereal dough}}
+#: {{ux|es|Para mi desayuno, tomo '''pan''' y leche.|For my breakfast, I have '''bread''' and milk.}}
+#* {{RQ:es:Bibliotheca Hispanica|192|pan|corne, bread, wheate|panis, triticum|en=corn, bread, wheat}}
+## {{l|en|bun|id=savoury}} {{gloss|such as the kind used on a hamburger or hot dog}}
+# {{lb|es|figurative}} [[money]], [[dough]]
+# {{lb|es|figurative}} [[work]], [[job]]
+
+====Hyponyms====
+{{col|es
+|pan dulce|pan flauta
+|pan francés
+|pan integral<t:whole wheat bread, wholemeal bread>
+|pan blanco<t:white bread>
+|pan ácimo
+|pan bimbo
+|pan de especias|pan mataniños
+|pan de jengibre
+|pan de molde
+|pan de pita
+|pan de sal|pan lactal
+|pan rebanado
+|pan tostado
+|pan tumaca
+|pan de hamburguesa
+}}
+
+====Derived terms====
+{{col|es
+|a buen hambre no hay pan duro
+|a falta de pan, buenas son tortas
+|a mucha hambre, no hay pan duro
+|a pan y agua
+|árbol del pan
+|apanar
+|buen pan|hacerse el de los panes
+|contigo, pan y cebolla
+|dame pan y llámame tonto
+|empanar|pan de ranas|pan de indio
+|empanizar
+|barra de pan
+|ganarse el pan<t:to make or earn a living, to bring home the bacon>
+|árbol de pan<t:breadfruit tree>
+|Dios da pan a quien no tiene dientes
+|pan de cada día
+|pan de puerco
+|el pan nuestro de cada día
+|flauta de pan
+|pan de carne<t:meatloaf><qq:River Plate>
+|pan comido
+|pan de caja<t:sliced bread>
+|pan de molde
+|llamar al pan, pan, y al vino, vino
+|pan de azúcar
+|pan de Dios
+|fruta de pan
+|fruto del árbol del pan
+|pan de oro
+|pan duro<t:stale bread>
+|pan con pan, comida de tontos
+|pan integral
+|pan para hoy, hambre para mañana
+|panadería
+|panecillo
+|panecito
+|pancito
+|pan molido<t:breadcrumbs><qq:Mexico, Peru>
+|pan rallado<t:breadcrumbs>
+|panificador
+|panificadora
+|pedazo de pan
+}}
+
+====Related terms====
+{{col|es
+|apaniguar
+|panera
+|panero}}
+
+====Descendants====
+{{topN}}
+* {{desc|cbk|pan}}
+* {{desc|ceb|pan|bor=1}}
+* {{desc|mdh|pan|bor=1}}
+* {{desc|nv|bááh|bor=1}}
+* {{desc|mch|pan|bor=1}}
+* {{desc|yog|pan|bor=1}}
+{{bottomN}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{C|es|Breads}}
+{{cln|es|3-letter words}}
+
+==Tagalog==
+
+===Etymology===
+{{ety|tl|:bor|es:pan|text=+|tree=+}}
+
+===Pronunciation===
+{{tl-pr}}
+
+===Noun===
+{{tl-noun|b=+}}
+
+# [[bread]]
+#: {{syn|tl|tinapay}}
+
+{{C|tl|Breads|Foods}}
+
+==Tewa==
+
+===Pronunciation===
+* {{tew-IPA}}
+
+===Noun===
+{{head|tew|noun}}
+
+# [[prisoner]]
+
+===References===
+* {{R:Martinez 1982|page=14}}
+
+{{C|tew|People|Prison}}
+
+==Unami==
+
+===Etymology===
+{{surface analysis|unm|pa|t1=to be coming|-n|pos2=subordinative suffix}}.
+
+===Verb===
+{{head|unm|verb form}}
+
+# {{inflection of|unm|pa||indefinite|subordinative}}
+
+===References===
+* {{R:unm:LTD|pan}}
+
+==Venetan==
+
+===Etymology===
+From {{inh|vec|la|panis|pānis, pānem}}. Compare {{cog|it|pane}} and {{cog|nap|pane}}.
+
+===Pronunciation===
+* {{IPA|vec|/paŋ/|/pan/}}
+
+===Noun===
+{{vec-noun|pan|m||i}}
+
+# [[bread]]
+
+==Walloon==
+
+===Etymology===
+From {{inh|wa|la|pānem}}.
+
+===Pronunciation===
+* {{IPA|wa|/pɑ̃/}}
+
+===Noun===
+{{wa-noun|m}}
+
+# [[bread]]
+
+==Welsh==
+
+===Etymology===
+{{root|cy|ine-pro|*kʷ-}}
+From {{inh|cy|cel-pro|*kʷani}}, ultimately from {{inh|cy|ine-pro|*kʷos}}, {{m|ine-pro|*kʷís|pos=interrogative pronoun}}. Cognate with {{cog|kw|pan|t=when|pos=conjunction}} {{cog|br|pa|t=when|pos=conjunction}}{{,}} and {{cog|gd|cuin|t=when?}}. Compare also {{cog|la|quando|t=when?}}, {{cog|gem-pro|*hwan|t=when?}}.<ref>{{R:cy:GPC|head=pan<sup>1</sup>, ban<sup>3</sup>}}</ref>
+
+===Pronunciation===
+* {{IPA|cy|/pan/}}
+* {{rhymes|cy|an|s=1}}
+
+===Conjunction===
+{{head|cy|conjunction}}
+
+# [[when]], [[while]]
+#: {{syn|cy|amser|pryd}}
+
+===Mutation===
+{{cy-mut}}
+
+===References===
+<references/>
+
+==Ye'kwana==
+{{mch-variant}}
+
+===Etymology===
+Unadapted borrowing from {{bor|mch|es|pan}}.
+
+===Pronunciation===
+* {{mch-IPA}}
+
+===Noun===
+{{head|mch|noun}}
+
+# [[bread]]
+
+===References===
+* {{R:mch:Hall|216|passage=All nasal phonemes occur syllable finally but not in word-final position, except for the nasal velar allophone [ŋ] of the phoneme /n/ which appears word-finally in lexical items borrowed from Spanish (paŋ 'bread', {{...}}).}}
+
+==Yogad==
+
+===Etymology===
+Borrowed from {{bor|yog|es|pan||bread}}.
+
+===Noun===
+{{head|yog|noun}}
+
+# [[bread]]
+
+==Zou==
+
+===Etymology===
+From {{inh|zom|tbq-kuk-pro|*pran}}.
+
+===Pronunciation===
+* {{zom-IPA|pàn}}
+* {{hyph|zom|pan}}
+
+===Verb===
+{{zom-verb|pàn}}
+
+# {{lb|zom|intransitive}} to [[start]]
+
+===References===
+* {{R:zom:Thanglienmang:2010|page=90}}

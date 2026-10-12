@@ -1,0 +1,12 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Participle===
+{{pl-participle|act}}
+
+# {{inflection of|pl|czytać||actv|adjectival|part}}
+
+====Declension====
+{{pl-adecl}}

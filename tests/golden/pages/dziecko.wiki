@@ -1,0 +1,112 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=child|etydate=1429|tree=1|text=+|:inh|sla-pro:*dětьsko<ety:af<sla-pro:*dětę><sla-pro:*-sko>>|:afeq|dziecię|-ko<id:nominal>}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|n}}
+
+# [[child]] {{gl|non-adult person}}
+#: {{syn|zlw-opl|dziecię}}
+#* {{RQ:zlw-opl:StPPP|II|2257|1429|Nicolaus... contumax in termino curie contra Thomconem de Nawoyowa, pro eo, quia sibi fideiussit, quod eundem Thomconem '''dzeczko''' debuit mittere a captiuitate libere, et eundem non dimisit, nec fecit|Nicolaus... contumax in termino curie contra Thomconem de Nawojowa, pro eo, quia sibi fideiussit, quod eundem Thomconem '''dziecko''' debuit mittere a captiuitate libere, et eundem non dimisit, nec fecit|-}}
+
+====Descendants====
+* {{desc|pl|dziecko|alts=1}}
+* {{desc|szl|dziecko}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SPJSP||2276}}
+* {{R:zlw-opl:SSP1953||273|10}}
+
+{{C|zlw-opl|Children}}
+
+==Polish==
+{{wp|pl:}}
+
+===Alternative forms===
+* {{alt|pl|dzicko||Northern Borderlands|Lithuania}}
+
+===Etymology===
+{{ety|pl|id=child|tree=1|text=*|:inh|zlw-opl:dziecko<id:child>|:afeq|dziecię|-ko<id:nominal>}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|mp=#|zag=#}}
+
+===Noun===
+{{pl-noun|n|dim=dziateńko<l:dialectal>|aug=dziecko<l:dialectal>}}
+
+# [[child]] {{gl|non-adult person}}
+#: {{syn|pl|Thesaurus:dziecko}}
+# [[child]] {{gl|person in relation to their parents}}
+# [[child]] {{gl|non-adult animal}}
+# [[child]] {{gl|product of someone's work that they feel fondly towards}}
+# [[child]] {{gl|person that is the result of their surroundings}}
+# [[child]] {{gl|form of address towards someone younger than the speaker towards which the speaker feels fondly}}
+
+====Declension====
+{{pl-decl-noun-irreg}}
+* The {{w|Central Greater Poland dialect}} ({{w|Kalisz}}) and {{w|Western Kraków dialect}} show the nominative plural form {{m|pl|dziecka}}.
+* The {{w|Kielce dialect}} ({{w|Opatów County}}) shows the dative plural form {{m|pl|dzieckom}}.
+* The {{w|Western Kraków dialect}} ({{w|Sławków}}) shows the instrumental plural form {{m|pl|dzieckami}}.
+
+====Derived terms====
+{{col|pl|title=adjectives|dla grzecznych dzieci}}
+{{col|pl|title=adverbs|od dziecka|jak dziecko we mgle}}
+{{col|pl|title=nouns|psiecko|cudowne dziecko|dom dziecka|dziecko szczęścia|dziecko ulicy|tęczowe dziecko|dziecko specjalnej troski}}
+{{col|pl|title=phrases|dziecko w drodze}}
+{{col|pl|title=proverbs|bogatemu diabeł dziecko kołysze|obyś cudze dzieci uczył|dał Bóg dziecko, da i na dziecko|dzieci i ryby głosu nie mają|małe dzieci - mały kłopot, duże dzieci - duży kłopot|kto ma pszczoły, ten ma miód, kto ma dzieci, ten ma smród}}
+{{pl-derived verbs|wylać dziecko z kąpielą/wylewać dziecko z kąpielą|wmówić dziecko w brzuch/wmawiać dziecko w brzuch|zrobić dziecko/robić dziecko|-/spodziewa się dziecka}}
+
+====Related terms====
+{{col|pl|title=adverbs|bezdzietnie}}
+{{col|pl|title=nouns|bezdzietność}}
+
+===Trivia===
+{{pl-freq 1990|116|51|42|77|129|415|114|101|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||5040}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|50689}}
+* {{R:pl:SXVII|DZIECKO|2257||date=05.07.2024}}
+* {{R:pl:SJP1807||587|1a}}
+* {{R:pl:SJP1861||278|I}}
+* {{R:pl:SJP1900||638|1}}
+* {{R:pl:NFJP}}
+* {{R:pl:SGJP|+|14081}}
+* {{R:pl:Kobylińska:2001|dziecko|35}}<!---powijać dziecko — zawijać (dziecko); wyrodnie dziecko — złe dziecko--->
+
+{{C|pl|Baby animals|Children|Family members}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=child|tree=1|text=*|:inh|zlw-opl:dziecko<id:child>}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|n}}
+
+# [[child]] {{gl|person in relation to their parents}}
+# [[child]] {{gl|non-adult animal}}
+# [[child]] {{gl|non-adult person}}
+# [[child]] {{gl|form of address towards someone younger than the speaker towards which the speaker feels fondly}}
+
+====Declension====
+{{rfinfl|szl|noun}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+{{C|szl|Baby animals|Children|Family}}

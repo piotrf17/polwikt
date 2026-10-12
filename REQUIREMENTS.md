@@ -579,8 +579,9 @@ to keep in sync:
   `piec`), inflected-form-only pages (`kotów`, and `mamy`, which folds into two lemmas),
   borrowed terms, multi-word phrases, dialect-heavy entries, and — as *negative* cases —
   a page with Middle Polish content in every R6.6a position (`dobry`: senses, an
-  alternative form, `mp=`), a page that is entirely Middle Polish
-  (must yield no record; chosen at M3), and pages that are both a lemma and an inflected
+  alternative form, `mp=`), pages that are entirely Middle Polish
+  (must yield no record: `kradźba`, and `barzo`, whose senses also carry modern dialect
+  labels), and pages that are both a lemma and an inflected
   form (`bez`, `mieć`: keep only their lemma halves, per R3.13a).
   Fixtures are taken from the **pinned dump**, never the live wiki, so the golden set and
   `stats.json` always describe the same snapshot. Tests run against them without needing

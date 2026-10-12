@@ -1,0 +1,611 @@
+{{also|Appendix:Variations of "bez"}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==English==
+
+===Etymology 1===
+See {{m|en|bezantler}}.
+
+====Pronunciation====
+* {{IPA|en|/bɛz/}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-bez.wav|a=Southern England}}
+
+====Noun====
+{{en-noun}}
+
+# The second [[tine]] of an [[antler]]'s [[beam]].
+#: {{syn|en|bezantler|bisantler}}
+
+=====Translations=====
+{{trans-top|second tine of an antler's beam}}
+* French: {{t|fr|andouiller de fer|m}}, {{t+|fr|sur-andouiller|m}}, {{t|fr|andouiller médian|m}}
+{{trans-bottom}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA|en|/biːz/}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-bez2.wav|a=Southern England}}
+* {{rhymes|en|iːz|s=1}}
+* {{homophones|en|bees}}
+
+====Verb====
+{{head|en|verb form}}
+
+# {{lb|en|nonstandard|dialectal}} {{inflection of|en|be||1|p|simple|pres}}
+#: {{syn|en|are<q:standard>}}
+#* {{quote-newsgroup|en
+|url=https://groups.google.com/g/alt.music.white-power/c/-RPIMIHTQTU/m/WLGiIctmru0J
+|title=Re: 79yr old Nigger Idiot was suspended for racist bullshit
+|group=alt.music.white-power
+|author=NiggydaHoe
+|date=20 Oct 2007, 10:48:04
+|passage=We '''bez''' run to 'da good bad white man. He gonna fire 'da ova bad white man.<br>If 'da bad white man cain't sayz be{{sic}} niggas '''bez''' stupid in 'da heaad, wif' low<br>iq an' shit, 'dat mus' mean we '''bez''' humans.
+}}
+# {{lb|en|nonstandard|dialectal}} {{inflection of|en|be||3|p|simple|pres}}
+#: {{syn|en|are<q:standard>}}
+#* {{quote-book|en
+|url=https://books.google.ch/books?id=jhZFAQAAMAAJ&pg=PA434&dq=%22they+bez%22
+|title=The Knickerbacker
+|publisher=Peabody
+|lccn=sf84001063
+|oclc=9985232
+|year=1860
+|volume=56
+|page=434
+|passage='They '''bez''' goin' like der Tyfel,'
+}}
+#* {{quote-newsgroup|en
+|url=https://groups.google.com/g/comp.sys.mac.apps/c/pvCpmSM4cR4/m/VPmnapsLO-4J
+|title=Re: Nigger Apologists: Slaves Who Died at Sea Being Honored
+|group=comp.sys.mac.apps
+|author=Mustapha Mond
+|date=13 Jun 2007, 11:22:13
+|passage=>>>>>>> "{{...}}They are not rotting someplace in hell, they '''bez''' right<br>>>>>>>> here<br>>>>>>>> whining wif us."
+}}
+
+====See also====
+* {{l|en|wuz}}
+
+===Anagrams===
+* {{anagrams|en|a=bez|Zeb}}
+
+{{cln|en|heteronyms}}
+
+==Albanian==
+
+===Noun===
+{{sq-noun|m||bezi}}
+
+# {{alt form|sq|bëz}}
+
+==Aragonese==
+
+===Noun===
+{{an-noun|f}}
+
+# {{superseded spelling of|an|vez}}
+
+==Basque==
+
+===Noun===
+{{head|eu|noun form}}
+
+# {{inflection of|eu|be||ins|indef}}
+
+==Czech==
+{{wp|cs:}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-bez.ogg}}
+* {{rhymes|cs|ɛs|s=1}}
+
+===Etymology 1===
+{{etymid|cs|elder}}
+{{inh+|cs|zlw-ocs|bez|id=elder}}, from {{inh|cs|sla-pro|*bъzъ}}, from {{der|cs|ine-pro|*bʰeh₂ǵos}}.
+
+====Noun====
+{{cs-noun|m-in}}
+
+# [[elder]] {{gl|bush of genus {{taxfmt|Sambucus|genus}}}}
+
+=====Declension=====
+{{cs-ndecl|m}}
+
+=====Derived terms=====
+{{col|cs|title=adjective|bezový}}
+{{col|cs|title=nouns|bezina|bezinka}}
+
+===Etymology 2===
+{{etymid|cs|without}}
+{{inh+|cs|zlw-ocs|bez|id=without}}, from {{inh|cs|sla-pro|*bez}}, from {{der|cs|ine-pro|*bʰeǵʰs}}.
+
+====Preposition====
+{{head|cs|preposition}} {{+obj|cs|gen|catpos=prep}}
+
+# [[without]]
+#: {{ant|cs|s}}
+
+=====Derived terms=====
+{{col|cs|title=adverbs|bezmála}}
+{{col|cs|title=prepositions|bez ohledu na}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{C|cs|Moschatel family plants}}
+
+==Kashubian==
+
+===Pronunciation===
+{{csb-pr}}
+
+===Etymology 1===
+{{etymon|csb|id=without|:inh|sla-pro:*bez(ъ)|tree=+|text=+}}
+
+====Preposition====
+{{head|csb|preposition}} {{+obj|csb|gen}}
+
+# [[without]]
+
+=====Derived terms=====
+{{col|csb|title=prefix|bez-}}
+
+===Etymology 2===
+{{etymon|csb|id=through|:from|bez<id:without>|przez|tree=1}}
+Compare {{cog|pl|bez|id=through}} and {{cog|szl|bez|id=through}}.
+
+====Preposition====
+{{head|csb|preposition}} {{+obj|csb|acc}}
+
+# [[through]], [[across]]
+
+===Further reading===
+* {{R:csb:SJP1893|+|6}}
+* {{R:csb:SPK|+|page=73|vol=1}}
+* {{R:csb:ISKJ|+|9344}}
+
+==Latgalian==
+
+===Etymology===
+From {{inh|ltg|ine-bsl-pro|*beź}}. Cognates include {{cog|lv|bez}} and {{cog|lt|be}}.
+
+===Pronunciation===
+* {{ltg-IPA|bėz}}
+* {{hyph|ltg|bez}}
+
+===Preposition===
+{{head|ltg|preposition|+ genitive}}
+
+# [[without]]
+# {{lb|ltg|when telling time}} [[to]]
+#: {{uxi|ltg|'''Bez''' desmit deveni.|Ten '''to''' nine (8:50).}}
+
+===References===
+* {{R:ltg:Nau:2011|page=71}}
+
+==Latvian==
+
+===Etymology===
+From {{inh|lv|ine-bsl-pro|*beź}}. Cognates include {{cog|ltg|bez}} and {{cog|lt|be}}.
+
+===Preposition===
+{{lv-prep|gen}}
+
+# [[without]]
+# [[in addition]] to
+# [[apart from]]
+
+====Derived terms====
+* {{l|lv|bez-}}
+
+==Old Czech==
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Etymology 1===
+{{etymid|zlw-ocs|elder}}
+{{inh+|zlw-ocs|sla-pro|*bъzъ}}.
+
+====Noun====
+{{zlw-ocs-noun|m-in}}
+
+# [[elder]] {{gl|bush of genus {{taxfmt|Sambucus|genus}}}}
+
+=====Declension=====
+{{zlw-ocs-ndecl|m.*}}
+
+=====Descendants=====
+* {{desc|cs|bez|id=elder}}
+
+===Etymology 2===
+{{etymid|zlw-ocs|without}}
+{{inh+|zlw-ocs|sla-pro|*bez}}.
+
+====Preposition====
+{{head|zlw-ocs|preposition}} {{+obj|zlw-ocs|gen}}
+
+# {{ng|Denotes lack}}; [[without]]
+#: {{coi|zlw-ocs|'''bez''' diva|normally}}
+#: {{coi|zlw-ocs|'''bez''' čísla|countless}}
+#: {{uxi|zlw-ocs|Umřěl '''bez''' časa.|He '''died''' prematurely.}}
+#: {{uxi|zlw-ocs|V ten čas '''bez''' města budieše|}}
+#: {{uxi|zlw-ocs|Jest juž '''bez''' ňeho.|He's already dead.}}
+# {{ng|Denotes action carried out against someone's wishes.}}
+# {{ng|Denotes interrupted action.}}
+# {{ng|Determines proximity in amount}}; [[nearly]]
+
+=====Derived terms=====
+{{col|zlw-ocs|bezděky|beztoho|bezmál|bezpeč}}
+
+=====Descendants=====
+* {{desc|cs|bez|id=without}}
+
+===References===
+* {{R:zlw-ocs:Gebauer}}
+
+{{C|zlw-ocs|Moschatel family plants}}
+
+==Old Polish==
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Etymology 1===
+{{etymon|zlw-opl|id=elder|:inh|sla-pro:*bъ̏zъ|tree=+|text=+}} {{etydate|15th century}}.
+
+====Noun====
+{{zlw-opl-noun|m-an!}}
+
+# {{lb|zlw-opl|attested in|Greater Poland}} [[elder]] {{gl|bush of genus {{taxfmt|Sambucus|genus}}}}
+#* {{RQ:zlw-opl:R|XXIV|65|15th century|'''Bess''' arborem fetidam|'''Bez''' arborem fetidam|-}}
+#* {{RQ:zlw-opl:WokRacz|78r|1442|Colliandrum arbor quedam '''besz'''|Colliandrum arbor quedam '''bez'''|-}}
+#* {{RQ:zlw-opl:WokLub|119r|c. 1500|Sambucus est parua arbor et mollis eyn holderbaum '''besz'''|Sambucus est parua arbor et mollis eyn holderbaum '''bez'''|-}}
+
+=====Descendants=====
+* {{desc|pl|bez|id=elder|alts=1}}
+* {{desc|szl|bes|id=elder}}
+
+===Etymology 2===
+{{etymon|zlw-opl|id=without|:inh|sla-pro:*bez(ъ)|tree=+|text=+}} {{etydate|1418}}.
+
+====Preposition====
+{{head|zlw-opl|preposition}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[without]] {{+obj|zlw-opl|gen}}
+#* {{RQ:zlw-opl:Fl|106, 4|Zblandzyly sø na pvsczy '''bez''' wod (erraverunt in solitudine, in inaquoso)|Zbłądzili są na puszczy '''bez''' wod (erraverunt in solitudine, in inaquoso)|-}}
+# {{lb|zlw-opl|attested in|Łęczyca|Lesser Poland}} [[contra]], [[against]] {{+obj|zlw-opl|gen}}
+#* {{RQ:zlw-opl:TPaw|IV|1742|1409|Albertus jan mego czloweka... '''besz''' prawa|Albertus jął mego człowieka... '''bez''' prawa|-}}
+#* {{RQ:zlw-opl:MPKJ|II|304|1425|Ysze Jan Marczina kmecza *Szvinanywa dzirszal gy w yanczwe... y puszczyl gy '''bez''' urzandu szemskyego|Iże Jan Marcina kmiecia Świnianiwa dzirżał ji w jeństwie... i puścił ji '''bez''' urzędu ziemskiego|-}}
+#* {{RQ:zlw-opl:AKPr|VIIIa|166|1425|Helwig ne poslal trzidzeszanth woszow do laszu Oppatowa '''besz''' yego woley|Helwig nie posłał trzydziesiąt wozow do lasu opatowa '''bez''' jego wolej|-}}
+#* {{RQ:zlw-opl:OrtBr|VII|564|'''Besz''' gych dzyaky an eren wyllen|'''Bez''' jich dzięki an eren wyllen|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} [[besides]], [[except]] {{+obj|zlw-opl|gen}}
+#* {{RQ:zlw-opl:OrtMac|129|Mogaly przyszyasznyczy myecz oszobnego pyszarza '''besz''' raczkyego, szlowye myesczkyego pyszarza?|Mogąli przysiężnicy mieć osobnego pisarza '''bez''' radzkiego, słowie miesckiego pisarza?|-}}
+# [[before]] {{+obj|zlw-opl|gen}}
+#* {{RQ:zlw-opl:OrtKał|185|Przyszaszely ku przysząstwu '''besz''' wyrzeczonego czassv, ten nye moze szye szam szandzycz przez przysząstwa przesz swe obesczye|Przysiężeli ku przysięstwu '''bez''' wyrzeczonego czasu, ten nie może sie sam zsadzić [prze]z przysięstwa przez swe obeście|-}}
+
+=====Alternative forms=====
+* {{alt|zlw-opl|beze}}
+
+=====Derived terms=====
+{{col|zlw-opl|title=prefix|bez-}}
+
+=====Descendants=====
+* {{desc|pl|bez|id=without}}
+* {{desc|szl|bez|id=without}}
+
+===Etymology 3===
+{{etymon|zlw-opl|id=through|:from|bez<id:without>|przez<id:through>|tree=1}}
+From {{m|zlw-opl|bez}}, due to confusion with the rhyming preposition {{m|zlw-opl|przez}}. The two words were and are used interchangeably in various dialects, and in [[:Wikipedia:Old Polish|Old Polish]] ''przez'' was about to replace ''bez'' around the 14th-15th century. In the written language the earlier distinction ultimately prevailed, however.<ref name="brue">{{R:pl:Bruckner|bez|page=21}}</ref>
+
+====Preposition====
+{{head|zlw-opl|preposition}}
+
+# [[through]], [[by]] {{+obj|zlw-opl|acc}}
+#* {{RQ:zlw-opl:Rozm|103|'''Bez''' chytrość (per astutiam) Antypatrową lepak synowie Herodowi... byli podeźrani ojcu|'''Bez''' chytrość (per astutiam) Antypatrowę lepak synowie Herodowi... byli podeźrani ojcu|-}}
+
+=====Descendants=====
+* {{desc|pl|bez|id=through}}
+* {{desc|szl|bez|id=through}}
+
+===References===
+{{reflist}}
+:* {{R:zlw-opl:SPJSP|2. bez, beze}}
+:* {{R:zlw-opl:SPJSP|1. bez|281}}
+:* {{R:zlw-opl:Rozariusze|+|1314}}
+
+{{C|zlw-opl|Moschatel family plants}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Sambucus nigra 004.jpg|thumb|bez]]
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|hh=Bes,bez-|mp=#|kuj=#|CD=#|MB=#|MD=#|CGP=#|zyw=#|prz=#|las=#|low=#|SGP=#|pdl=#|krk=#|kie=#|pod=#|sbl=#|bie=#|EGP=#|zag=#}}
+
+===Etymology 1===
+{{etymon|pl|id=elder|:inh|zlw-opl:bez<id:elder><t:elderberry>|tree=+|text=+}}
+
+====Noun====
+{{pl-noun|m-in|dim=bestek<l:dialectal>}}
+
+# [[elder]] {{gl|bush of genus {{taxfmt|Sambucus|genus}}}}
+# [[lilac]] {{gl|bush of genus {{taxfmt|Syringa|genus}}}}
+#: {{syn|pl|lilak}}
+#: {{coi|pl|pachnieć '''bzem'''|to smell of '''lilac'''}}
+
+=====Declension=====
+{{pl-decl-noun-m-in|b|z|u|bez}}
+* The {{w|Southern Greater Poland dialect}} and {{w|Zagórze dialect}} do not show mobile e.
+
+=====Alternative forms=====
+* {{alt|pl|bes||Kujawy|Southern Greater Poland|Miejska Górka|Far Masovian|Ciechanów|Łowicz|Western Kraków|Kraków|Bochnia|Wadowice|Zagórze|Żywiec}}
+* {{alt|pl|best||Podlachian|Tykocin}}
+* {{alt|pl|beśt||Suwałki|Augustów Governorate}}
+
+=====Derived terms=====
+{{col|pl|title=nouns|bez czarny|bez koralowy|bzówka}}
+
+===Etymology 2===
+{{etymon|pl|id=without|:inh|zlw-opl:bez<id:without><t:without>|tree=+|text=+}}
+
+====Preposition====
+{{head|pl|prep}}
+
+# [[without]], [[lacking]] {{+obj|pl|gen<what>}}
+#: {{ant|pl|z}}
+#: {{uxi|pl|Proszę o kawę '''bez''' mleka.|A coffee '''with no''' milk, please.}}
+# {{lb|pl|Middle Polish}} [[minus]], [[less]]
+# {{lb|pl|Middle Polish}} [[contra]], [[against]]
+# {{lb|pl|Middle Polish}} [[besides]], [[except]]
+# {{lb|pl|Middle Polish}} [[without]]; {{def-uncertain|pl|undetailed=1|nohypothesis=1}}
+#* {{RQ:pl:BartBydg|116b|extra placitum, '''besz''' voley, nad volyą|extra placitum, '''bez''' wolej, nad wolą|-}}
+
+=====Alternative forms=====
+* {{alt|pl|biez||Middle Polish}}
+* {{alt|pl|beze}}
+
+=====Derived terms=====
+{{col|pl|title=adverbs|bez głowy|bez łaski|bez ogródek|bez ogródki|bez owijania w bawełnę|bez pamięci|bez przerwy|bez przestanku|bez tchu|bez ustanku|bez wyjątku|bez zarzutu}}
+{{col|pl|title=interjections|bez dyskusji|bez gadania|bez jaj|bez kitu|bez łaski|łaski bez}}
+{{col|pl|title=numerals|bez liku}}
+{{col|pl|title=particles|bez cienia wątpliwości|bez dwóch zdań|bez mała|bez porównania|bez przesady|bez wątpienia}}
+{{col|pl|title=prefix|bez-}}
+
+====Trivia====
+{{pl-freq 1990|70|52|89|129|119|459|99|21|1}}
+
+===Etymology 3===
+{{etymon|pl|id=through|:inh|zlw-opl:bez<id:through><t:through>|tree=+|text=+}}
+
+====Preposition====
+{{head|pl|prep}}
+
+# {{lb|pl|Chełmno-Dobrzyń|Kujawy|Central Greater Poland|Nadziejewo|Mądra|Near Masovian|Międzyrzec Podlaski|Far Masovian|Masurian|Łowicz|Podlachia|Drohiczyn|Żywiec|Przemyśl|San river|Lasovia|Sandomierz|Western Kraków|Będzin|Kielce|Sichów Mały|Podhale|Zagórze|Southern Borderlands|Drohobych}} {{syn of|pl|przez|t=[[across]], [[through]]}} {{+obj|pl|acc<what>}}
+#: {{uxi|pl|'''Bez''' ten płot nie mógem preleźć.|I couldn't go '''across''' this fence.|qq=Far Masovian}}
+#* {{quote-book|pl|year=2000|author=Aneta Majkowska|title=Polszczyzna mówiona mieszkańców Częstochowy|page=185|text=''Nie tu szosą tylko drogą polną '''bez''' pola my jechali z chłopem sąsiadki.''|t=We drove '''through''' the fields with the neighbor's man, not on the paved road, but on a dirt road.}}
+# {{lb|pl|Kujawy|Brześć Kujawski|Chodecz|Western Kraków|Lasovia|Sandomierz|Przemyśl|San river|Zagórze}} {{syn of|pl|przez|t=[[for]]}} {{+obj|pl|acc<what amount of time>}}
+## {{lb|pl|Western Kraków|Sławków}} {{syn of|pl|o|t=[[at]]}} {{+obj|pl|acc<what time>}}
+##: {{coa|pl|'''bez''' połednie|'''at''' noon}}
+## {{lb|pl|Central Greater Poland|Kościan|Southern Greater Poland|Krobia|Morownica}} {{syn of|pl|po//za|t=[[after]], [[in]]}} {{+obj|pl|acc<what amount of time>}}
+##: {{coa|pl|bez kilka czasów|'''after''' some times, '''in''' a while|qq=Central Greater Poland, Kościan}}
+# {{lb|pl|Central Greater Poland|Poznań|Kościan|Eastern Greater Poland|Sompolno|Lasovia|Sandomierz|Przemyśl|San river|Biecz|Ropczyce|Podhale}} {{syn of|pl|przez|t=[[because of]]}} {{+obj|pl|acc<what>}}
+# {{lb|pl|Kujawy|Unisławice|Central Greater Poland|Czeszewo|Southern Greater Poland|Leszno|Śmigiel}} {{syn of|pl|przez|t=[[by]], creates the passive voice}} {{+obj|pl|acc<whom/what>}}
+# {{lb|pl|Western Kraków}} {{syn of|pl|dla|t=[[for]]}} {{+obj|pl|acc<what>}}
+
+===Etymology 4===
+{{ety|pl|nl=1}}
+
+====Noun====
+{{head|pl|noun form|g=f}}
+
+# {{infl of|pl|beza||gen|p}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP|bez I|39925}}
+** {{R:pl:WSJP|bez II|27417}}
+** {{R:pl:PWN}}
+* Middle Polish:
+** {{R:pl:SXVI|+|43611}}
+** {{R:pl:SXVI|bez, beze, biez|43612}}
+** {{R:pl:SXVII|BEZ|17175|date=09.11.2016}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||119|1}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||67|1}}
+** {{R:pl:Saloni:1899||237}}
+** {{R:pl:Saloni:1908||332}}
+** {{R:pl:GKJO||20-21}}
+** {{R:pl:Świderska:1929|bes (besu)|89}}
+** {{R:pl:Kobylińska:2001|bez|5}}
+
+{{C|pl|Moschatel family plants|Olive family plants}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:bor|cu:без<ety:uder<sla-pro:*bez>>|text=2|tree=1}}
+
+===Adverb===
+{{ro-adv}}
+
+# {{lb|ro|dated}} [[without]]
+
+==Serbo-Croatian==
+
+===Etymology 1===
+{{inh+|sh|sla-pro|*bez}}. Compare {{m|sh|bez-}} and {{m|sh|bes-}}.
+
+====Alternative forms====
+* {{alt|sh|brez|prȅz|preza||regional}}
+
+====Preposition====
+{{sh-prep|bèz}} {{+obj|sh|gen}}
+
+# [[without]], [[excluding]], not [[count]]ing
+#: {{ux|sh|bez sumnje|without a doubt|inline=1}}
+#: {{ux|sh|ostati bez nečega|to lose something, to run out of something, (literally: to stay without something)|inline=1}}
+#: {{ux|sh|bez obzira na..|regardless of.., no matter what..is|inline=1}}
+#: {{ux|sh|bez kraja i konca|endlessly, without end|inline=1}}
+#: {{ux|sh|ne bez razloga|not without a reason|inline=1}}
+#: {{ux|sh|bez srca|heartlessly, without a heart|inline=1}}
+#: {{ux|sh|bez r(ij)eči|without a word, speechless|inline=1}}
+#: {{ux|sh|biti bez nečega|to be lacking in, to be deficient in, to lack (literally: to be without something)|inline=1}}
+
+=====Related terms=====
+* {{l|sh|bez-}}, {{l|sh|bes-}}
+
+===Etymology 2===
+{{bor+|sh|ota|بز|tr=bez}}, from {{der|sh|ar|بَزّ}}. Akin to {{m|sh|bezistan}}, {{m|sh|bezli}}, {{m|sh|besofra}} and {{m|sh|bespara}}.
+
+====Pronunciation====
+* {{IPA|sh|/bêz/}}
+
+====Noun====
+{{sh-noun|bȅz|m-in}}
+
+# [[linen]], [[canvas]]
+# {{lb|sh|specifically}} a type of [[cotton]]-made [[linen]] or [[canvas]] used in Oriental [[costume]]s, of several possible forms: {{m|sh|ćereće}}, {{m|sh|sedeluk}}, {{m|sh|kafez}} or {{m|sh|kafez-bez}}, {{m|sh|melez}}, {{m|sh|harir}}, {{m|sh|šejtanbez}} and {{m|sh|harirbez}}
+
+=====Declension=====
+{{sh-decl-noun-unc
+|bez
+|beza
+|bezu
+|bez
+|bezu
+|bezu
+|bezom
+}}
+
+===References===
+* {{R:sh:HJP|dl9jXg%3D%3D}}
+* {{R:sh:HJP|dl9jUQ%3D%3D}}
+* {{R:sh:Škaljić1966|page=140}}
+
+{{C|sh|Clothing|Fabrics}}
+
+==Silesian==
+
+===Alternative forms===
+* {{alt|szl|bezy}}
+
+===Pronunciation===
+{{szl-pr|hh=bes|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Etymology 1===
+{{etymon|szl|id=without|:inh|zlw-opl:bez<id:without><t:without>|tree=+|text=+}}
+
+====Preposition====
+{{head|szl|preposition}} {{+obj|szl|gen}}
+
+# [[without]]
+
+=====Derived terms=====
+{{col|szl|title=prefix|bez-}}
+
+===Etymology 2===
+{{etymon|szl|id=through|:inh|zlw-opl:bez<id:through><t:through>|tree=+|text=+}}
+
+====Preposition====
+{{head|szl|preposition}} {{+obj|szl|acc}}
+
+# {{alt form|szl|przez}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+
+==Slovak==
+
+===Alternative forms===
+* {{alt|sk|bezo}}
+
+===Etymology===
+{{ety|sk|:inh|sla-pro:*bez|text=+|tree=1}}
+
+===Pronunciation===
+* {{IPA|sk|/ˈbɛs/}}
+
+===Preposition===
+{{head|sk|preposition}} {{+obj|sk|gen}}
+
+# [[without]]
+#: {{ant|sk|s|so}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Tatar==
+
+===Noun===
+{{head|tt|noun}}
+
+# [[awl]]
+
+==Turkish==
+
+===Etymology 1===
+From {{inh|tr|ota|بز|tr=bez}}; see there for more. The ultimate origin is {{der|tr|ar|بَزّ}}, however, an influence from {{cog|gkm|βύσσος}} has been postulated in order to explain the mismatch in the vowels.<ref>{{cite-journal|first=Alexander|last=Vovin|title=Fabrication of Turkic ''böz'' 'fabric' in Japan and Korea|journal=Acta Orientalia Academiae Scientiarum Hungaricae|volume=71|issue=3|location=Budapest|publisher=Akadémiai Kiadó|year=2018|pages=263–284}}.</ref>
+
+====Pronunciation====
+* {{IPA|tr|/ˈbez/}}
+* {{hyphenation|tr|bez}}
+
+====Noun====
+{{tr-noun|i|ler}}
+
+# [[cloth]]
+
+=====Declension=====
+{{tr-infl-noun-c|e}}
+
+=====Derived terms=====
+{{col|tr|keten bezi}}
+
+===Etymology 2===
+From {{inh|tr|ota|بز|tr=bez}}, from {{inh|tr|trk-pro|*beŕ}}.
+
+Cognate with
+{{cog|kk|без|t=gland}},
+{{cog|krc|без|t=gland}},
+{{cog|alt|бес|t=gland}},
+{{cog|uz|bez|t=gland}},
+{{cog|ug|بەز|t=gland}},
+{{cog|tk|mäz|t=gland}},
+{{cog|ba|биҙ|t=gland}},
+{{cog|tyv|бес|t=gland}},
+{{cog|cv|пар|t=gland}}.
+
+====Pronunciation====
+* {{IPA|tr|/ˈbez/}}
+* {{hyphenation|tr|bez}}
+
+====Noun====
+{{tr-noun|i|ler}}
+
+# {{lb|tr|anatomy}} [[gland]]
+
+=====Declension=====
+{{tr-infl-noun-c|e}}
+
+===References===
+{{reflist}}

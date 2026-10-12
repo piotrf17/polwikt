@@ -1,0 +1,67 @@
+{{also|piec}}
+==Old Polish==
+{{numberbox|zlw-opl}}
+
+===Etymology===
+{{etymon|zlw-opl|id=five|:inh|sla-pro:*pę̑tь|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Numeral===
+{{head|zlw-opl|numeral}}
+
+# [[five]]
+
+====Descendants====
+* {{desc|pl|pięć}}
+* {{desc|szl|piyńć}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{cln|zlw-opl|cardinal numbers}}
+{{C|zlw-opl|Five}}
+
+==Polish==
+{{number box|pl}}
+
+===Etymology===
+{{etymon|pl|id=five|:inh|zlw-opl:pięć|tree=1|text=+}} {{dbt|pl|cynek|poncz}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-pięć.ogg;LL-Q809 (pol)-Olaf-pięć.wav|hh=piędź|mp=#}}
+
+===Numeral===
+{{head|pl|numeral}}
+
+# [[five]]
+
+====Declension====
+{{pl-decl-numeral|pięć|pięciu|pięcioma}}
+
+====Coordinate terms====
+{{pl-cardinals}}
+
+====Trivia====
+{{pl-freq 1990|83|187|97|25|39|431|367|1}}
+
+===Noun===
+{{pl-noun|n|indecl=1}}
+
+# {{lb|pl|colloquial}} [[five]] {{gl|highest school grade}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|83033}}
+* {{R:pl:SXVII|PIĘĆ|32214|date=21.11.2019}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||177|4}}
+
+{{cln|pl|cardinal numbers}}
+{{C|pl|Five}}

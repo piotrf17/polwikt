@@ -1,0 +1,185 @@
+{{also|warszawa|warszawą|Warszawą}}
+==English==
+
+===Etymology===
+{{etymon|en|:ubor|pl:Warszawa|tree=+|text=+}} {{doublet|en|Warsaw}}.
+
+===Proper noun===
+{{en-proper noun}}
+
+# {{lb|en|uncommon}} {{place|en|@synonym of:Warsaw|capital city|c/Poland|;|capital city|voi/Masovian Voivodeship}}.
+#* {{quote-book|en|year=1942|month=June|author=w:Antoni Gronowicz|chapter_tlr=Jessie McEwen|chapter=Village|title=Bolek|location=Edinburgh&#59; New York, N.Y.&#59; Toronto, Ont.|publisher=[[w:Thomas Nelson (publisher)|Thomas Nelson and Sons]]|year_published=August 1944 (2nd printing)|page=8|pageurl=https://archive.org/details/bolek0000anto/page/8/mode/1up|oclc=14042540|passage=Joseph had never been to '''Warszawa''' but often, as he stood on the high, chalky banks of the great river, Wisla, and watched it winding its course far away, he dreamed of a journey he would like to make in an airplane.}}
+#* {{quote-journal|en|year=1973|author=A. S. Sohi; V. C. Kapoor|title=A Note on the Cicadellid, ''Erythroneura cassiae'' Ahmed|editor=J. M{{quote-gloss|ichael}} Chalmers-Hunt|journal=[[w:The Entomologist's Record and Journal of Variation|The Entomologist’s Record and Journal of Variation]]|volume=85|location=Arbroath, Angus|publisher=T. Buncle & Co.|pages=217–218|pageurl=https://archive.org/details/entomologistsrec851973tutt/page/218/mode/1up|issn=0013-8916|oclc=1568053|passage=After comparing with this species, we thought ours as a new species due to the presence of apical aedeagal processes. Later, Dworakowska of '''Warszawa''', Poland, suggested that ours is the same as that of Ahmed, and this character might have been missed by him.}}
+#* {{quote-book|en|year=2019|author=Irina Rodica Rabeja|chapter=Scientific Work Years|title=Marie Sklodowska Curie: Her Contribution to Science|location=Sydney, N.S.W.|publisher=Irina Rabeja|page=64|pageurl=https://archive.org/details/mariesklodowskac0000irin/page/64/mode/1up|isbn=9780977509836|passage=Marie Curie was never a Polish citizen, though her family were Polish nationalists. At the time of her departure from '''Warszawa''', the Polish state simply did not exist.}}
+
+==Danish==
+{{wp|da:}}
+
+===Etymology===
+{{unadapted borrowing|da|pl|Warszawa}}, from {{der|da|zlw-opl|-}}. See there for more.
+
+===Pronunciation===
+* {{IPA|da|/vɑˈsjaːva/|[vɑ̈ˈɕɛːvæ]}}
+
+===Proper noun===
+{{da-proper noun|g=?}}
+
+# {{place|da|capital city|c/Poland|t1=Warsaw}}
+#: {{ux|da|'''Warszawa''' er hovedstaden i [[Polen]].|translation='''Warsaw''' is the capital of [[Poland]].}}
+
+====Derived terms====
+* {{l|da|Warszawapagten|g=c}}
+
+==Norwegian Bokmål==
+{{wp|nb:}}
+
+===Alternative forms===
+* {{alt|nb|Varsjava||historical|adapted spelling}}
+* {{alt|nb|Warschau||historical|from German}}
+
+===Etymology===
+{{unadapted borrowing|nb|pl|Warszawa}}, from {{der|nb|zlw-opl|-}}. See there for more.
+
+===Pronunciation===
+* {{IPA|nb|/vɑrˈʃɑːvɑ/|[vɑˈʂ(ː)ɑ̀ːvɑ̌]}}
+
+===Proper noun===
+{{head|nb|proper noun}}
+
+# {{place|nb|capital city|c/Poland|t1=Warsaw}}
+
+====Derived terms====
+* {{l|nb|Warszawapakten|g1=m|g2=f}}
+
+==Norwegian Nynorsk==
+{{wp|nn:}}
+
+===Alternative forms===
+* {{alt|nn|Varsjava||alternative spelling}}
+
+===Etymology===
+{{unadapted borrowing|nn|pl|Warszawa}}, from {{der|nn|zlw-opl|-}}. See there for more.
+
+===Proper noun===
+{{head|nn|proper noun|g=?}}
+
+# {{place|nn|capital city|c/Poland|t1=Warsaw}}
+
+====Derived terms====
+* {{l|nn|Warszawapakta|g=f}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Warsaw montage.JPG|thumb|Warszawa]]
+
+===Alternative forms===
+* {{alt|pl|Warszewa|Warszowa||Middle Polish}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:Warszewa|tree=+|text=+|nodot=1}} with ''-e-'' replaced by  ''-a-'' due to hypercorrection<ref>{{R:pl:Rymut:1987||256}}</ref><ref>{{cite-book|title=U źródeł słów|first=Marcin|last=Maciołek|location=Katowice|year=2017|publisher=Wydawnictwo Uniwersystetu Śląskiego|page=199|url=https://sbc.org.pl/Content/390426/u_zrodel_slow.pdf}}</ref> or assimilation.<ref>{{cite-journal|title=View of Maria Malec, Słownik etymologiczny nazw geograficznych Polski|titleurl=https://ojs.tnkul.pl/index.php/rh/article/view/5019/4888|journal=Roczniki Humanistyczne|year=2004|volume=52|page=218|first=Władysław|last=Makarski}}</ref>
+
+===Pronunciation===
+{{pl-pr|a=Pl-Warszawa.ogg;Warszawa pl.ogg;LL-Q809 (pol)-Poemat-Warszawa.wav|hh=warszawa}}
+
+===Proper noun===
+{{pl-prop|f|adj=warszawski|dem=Warszawiak|fdem=Warszawianka}}
+
+# {{place|pl|caplc|c/Poland|t=Warsaw}}
+#: {{coi|pl|'''Warszawa''' lat wojny i okupacji|'''Warsaw''' of the war and occupation years}}
+#* {{quote-book|pl|year=1854|author=Leon Potocki|title=Święcone, czyli Pałac Potockich w '''Warszawie'''|passage=Arcybiskupowi przeznaczono rocznéj pensyi 140,000 franków, prócz pieniędzy na reprezentacyą; gdyż cesarz w udzielonych mu instrukcyach chciał, aby w '''Warszawie''' wielki dom prowadził.|t=The archbishop was allowed a yearly pension of 140,000 franks, in addition to the money for representation; where as the emperor, as in his conferred instructions, wanted him to lead a great house in '''Warsaw'''.}}
+#* {{quote-book|pl|year=1964|author=Adam Szczypiorski|title=Ćwierć wieku Warszawy, 1806–1830|passage=Od daty 18 maja 1815 roku, kiedy traktat wiedeński powołał do życia Królestwo Polskie, rozpoczęła się dla '''Warszawy''' nowa epoka.|t=From May 18, 1815, when the Treaty of Vienna brought the Polish Kingdom back to life, a new epoch for '''Warsaw''' begun.}}
+#* {{quote-book|pl|year=2008|author=Artur III Nadolski|title=Pani Chłodna (opowieść o warszawskiej ulicy)|passage=W takiej atmosferze rewolucyjnego września opuszczał na zawsze '''Warszawę''' i Ojczyznę Fryderyk Chopin.|t=In this revolutionist atmosphere of September, Frederyk Chopin left '''Warsaw''' and his fatherland forever.}}
+# {{place|pl|caplc|voi/Masovian Voivodeship|c/Poland|t=Warsaw}}
+# {{lb|pl|government|metonym}} [[Warsaw]] {{gl|Polish presidency and its administration}}
+#: {{coi|pl|stosunki między '''Warszawą''' a Berlinem|relations between '''Warsaw''' and Berlin}}
+# {{lb|pl|government|metonym}} [[Warsaw]] [[authority|authorities]]
+#: {{coi|pl|miasto stołeczne '''Warszawa'''|the capital city of '''Warsaw'''}}
+# {{lb|pl|collective|metonym}} [[Warsaw]] [[resident]]s
+#: {{coi|pl|pomoc dla '''Warszawy'''|aid to '''Warsaw'''}}
+# {{lb|pl|colloquial|metonym|sports}} [[sports team]] from [[Warsaw]]
+#: {{coi|pl|zremisować z '''Warszawą'''|to tie with '''Warsaw'''}}
+# {{w|FSO Warszawa}} {{gl|line of cars manufactured in Warsaw between 1951 and 1973}}
+#: {{coi|pl|taksówka marki '''„Warszawa”'''|'''“Warsaw”''' brand cab}}
+#* {{quote-book|pl|year=2010|author=Aleksander Sowa|title=Legendy naszej motoryzacji|passage=W 1958 roku '''Warszawę''' wyposażono już w dwuramienną kierownicę.|t=In 1958, the '''Warsaw''' was equipped with a two-armed steering wheel.}}
+
+====Declension====
+{{pl-decl-noun-f|tantum=s}}
+
+====Derived terms====
+{{col|pl|title=nouns|warszawa|warszawiak|warszawianin|warszawianka|Warszawianka|warszawista|warszawistka|warszawizm|warszawka|Warszawka}}
+
+====Related terms====
+{{col|pl|title=adjectives|warszawowski}}
+{{col|pl|title=nouns|warszawowskość}}
+
+====Descendants====
+* {{desc|be|Варша́ва|bor=1}}
+* {{desc|bg|Варша́ва|bor=1}}
+* {{desc|cs|Varšava|bor=1}}
+* {{desc|da|Warszawa|bor=1}}
+* {{desc|en|Warsaw|Warszawa|bor=1}}
+* {{desctree|de|Warschau|bor=1}}
+* {{desc|hu|Varsó|bor=1}}
+* {{desc|ja|ワルシャワ|bor=1}}
+* {{desc|ko|바르샤바|와르샤와|bor=1}}
+* {{desctree|la|Varsovia|bor=1}}
+* {{desc|lv|Varšava|bor=1}}
+* {{desc|lt|Varšuva|bor=1}}
+* {{desc|nb|Warszawa|bor=1}}
+* {{desc|nn|Warszawa|bor=1}}
+* {{desctree|ru|Варша́ва|bor=1}}
+* {{desc|sh|Varšava|Варшава|bor=1}}
+* {{desc|sk|Varšava|bor=1}}
+* {{desc|sl|Varšava|bor=1}}
+* {{desc|sv|Warszawa|bor=1}}
+* {{desc|uk|Варша́ва|bor=1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||368}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+
+{{C|pl|Collectives|Polish politics}}
+
+==Swedish==
+{{wp|sv:}}
+
+===Alternative forms===
+* {{alt|sv|Varsjava||historical|adapted spelling}}
+* {{alt|sv|Warsau||historical|from German}}
+
+===Etymology===
+{{unadapted borrowing|sv|pl|Warszawa}}, from {{der|sv|zlw-opl|-}}. See there for more.
+
+===Pronunciation===
+* {{IPA|sv|/varˈʂɑːˌva/|[va̠ɹˈʂɑ̂ːvâ̠]}}
+
+===Proper noun===
+{{sv-proper noun|n}}
+
+# {{place|sv|capital city|c/Poland|t1=Warsaw}}
+
+====Derived terms====
+* {{l|sv|Warszawapakten|g=c}}
+
+==Volapük==
+
+===Etymology===
+From {{der|vo|de|Warschau}}.
+
+===Pronunciation===
+* {{IPA|vo|/varˈʃav/}}
+
+===Proper noun===
+{{head|vo|proper noun}}
+
+# {{tcl|vo|Warsaw|id=Q270}}
+
+====Declension====
+{{vo-decl-noun-np}}
+
+===Further reading===
+* {{pedia|lang=vo}}

@@ -1,0 +1,3 @@
+# Fixtures are verbatim dump text checked by sha1: no line-ending conversion.
+*.wiki -text
+manifest.json -text

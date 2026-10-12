@@ -1,0 +1,470 @@
+{
+ "dump": {
+  "date": "20261001",
+  "sha1": "f9ed426c69c6b21d026613bd0f200c2aaa1145e9"
+ },
+ "pages": [
+  {
+   "title": "kot",
+   "slug": "kot",
+   "page_id": 50282,
+   "revision_id": 92535143,
+   "sha1": "5b29dd337259e9e43117536b08373440a78892e0"
+  },
+  {
+   "title": "pies",
+   "slug": "pies",
+   "page_id": 57,
+   "revision_id": 92115237,
+   "sha1": "1d380a9eae0948249e70da9da9af8cd683593cb7"
+  },
+  {
+   "title": "dom",
+   "slug": "dom",
+   "page_id": 40295,
+   "revision_id": 93073224,
+   "sha1": "de27fe156a19138783f76386554be7216421111d"
+  },
+  {
+   "title": "komputer",
+   "slug": "komputer",
+   "page_id": 50307,
+   "revision_id": 92134652,
+   "sha1": "45c5aaea707b4c31cc1cccdaecb5836862bbe65c"
+  },
+  {
+   "title": "człowiek",
+   "slug": "człowiek",
+   "page_id": 811252,
+   "revision_id": 91200808,
+   "sha1": "afb6672c885fd4b060aa30b3f01847d278b4e991"
+  },
+  {
+   "title": "brat",
+   "slug": "brat",
+   "page_id": 17452,
+   "revision_id": 93062159,
+   "sha1": "2f10234b393283009899f9c45723637d6dccdf91"
+  },
+  {
+   "title": "pan",
+   "slug": "pan",
+   "page_id": 499412,
+   "revision_id": 93023862,
+   "sha1": "af1e00d409f4ec6a3d586b0c2b81767547dbe7aa"
+  },
+  {
+   "title": "ręka",
+   "slug": "ręka",
+   "page_id": 849699,
+   "revision_id": 92749989,
+   "sha1": "a4dd27ca03aa42b6fcb914182674937a1851c1ef"
+  },
+  {
+   "title": "kawa",
+   "slug": "kawa",
+   "page_id": 5827,
+   "revision_id": 92972684,
+   "sha1": "77424861b37a7b1e7bc2129bd2a87acf4d16c29b"
+  },
+  {
+   "title": "oko",
+   "slug": "oko",
+   "page_id": 55096,
+   "revision_id": 92293035,
+   "sha1": "2e055d8bb5e7972bf2466a25374b02a7563180f1"
+  },
+  {
+   "title": "dziecko",
+   "slug": "dziecko",
+   "page_id": 903518,
+   "revision_id": 91516711,
+   "sha1": "a3e114be2c021a317aa0963fce9b88cb6f309387"
+  },
+  {
+   "title": "łóżko",
+   "slug": "łóżko",
+   "page_id": 682100,
+   "revision_id": 89856914,
+   "sha1": "56ceb1e213612437993459a8623bae3a04022eaf"
+  },
+  {
+   "title": "miasto",
+   "slug": "miasto",
+   "page_id": 240735,
+   "revision_id": 90758289,
+   "sha1": "fa646446c6db9dd906e10d574c87f073957bea39"
+  },
+  {
+   "title": "rok",
+   "slug": "rok",
+   "page_id": 45307,
+   "revision_id": 93295905,
+   "sha1": "51629a2c6276463f3b592885156671a239f7cbb8"
+  },
+  {
+   "title": "chleb",
+   "slug": "chleb",
+   "page_id": 461291,
+   "revision_id": 91072937,
+   "sha1": "993aedec6e2e8fde65dfde7f40921843f0ed1969"
+  },
+  {
+   "title": "drzwi",
+   "slug": "drzwi",
+   "page_id": 457667,
+   "revision_id": 91459955,
+   "sha1": "134b1626aaba0b023ad1fb2bcaebff52acc0c658"
+  },
+  {
+   "title": "nożyczki",
+   "slug": "nożyczki",
+   "page_id": 930032,
+   "revision_id": 90409518,
+   "sha1": "aa337b0c94a01b6b281328e7679913f952d7d031"
+  },
+  {
+   "title": "spodnie",
+   "slug": "spodnie",
+   "page_id": 914670,
+   "revision_id": 91199813,
+   "sha1": "b65d3dc08bf210a37f0f53ca7fe7977ae08995fd"
+  },
+  {
+   "title": "Warszawa",
+   "slug": "Warszawa",
+   "page_id": 194145,
+   "revision_id": 92193859,
+   "sha1": "e57dfd058693d91944e6382a1cc1f94d08b44fa0"
+  },
+  {
+   "title": "Polska",
+   "slug": "Polska",
+   "page_id": 37647,
+   "revision_id": 91786073,
+   "sha1": "0344a8ba3db8885851ce1285706cd859cfff1792"
+  },
+  {
+   "title": "robić",
+   "slug": "robić",
+   "page_id": 459804,
+   "revision_id": 92754805,
+   "sha1": "72d90e3e93a2560abfa02694fe9464665a7f4052"
+  },
+  {
+   "title": "zrobić",
+   "slug": "zrobić",
+   "page_id": 920043,
+   "revision_id": 92994023,
+   "sha1": "c262ec938a67303231e403681d0a6e4f4eadf8c7"
+  },
+  {
+   "title": "czytać",
+   "slug": "czytać",
+   "page_id": 672828,
+   "revision_id": 92993047,
+   "sha1": "65ff83606b2e52ff4fb269ba83dca02ba4163274"
+  },
+  {
+   "title": "przeczytać",
+   "slug": "przeczytać",
+   "page_id": 3110177,
+   "revision_id": 90411916,
+   "sha1": "fa437074f2345b24977285eaa191ba89965b4c19"
+  },
+  {
+   "title": "mówić",
+   "slug": "mówić",
+   "page_id": 457665,
+   "revision_id": 91062020,
+   "sha1": "0aef4f445d29974b48dc06ca7c74564972d833e5"
+  },
+  {
+   "title": "powiedzieć",
+   "slug": "powiedzieć",
+   "page_id": 1139414,
+   "revision_id": 88549613,
+   "sha1": "eb80d7841ca4bda47891192f78fce6450de9fb2b"
+  },
+  {
+   "title": "być",
+   "slug": "być",
+   "page_id": 185159,
+   "revision_id": 91915389,
+   "sha1": "7678b8a6aae817050cbc7650fbe356bb0800ef79"
+  },
+  {
+   "title": "iść",
+   "slug": "iść",
+   "page_id": 885505,
+   "revision_id": 91814706,
+   "sha1": "7f6c8aa54b91b8d98860e5e10674e9dbfacd401d"
+  },
+  {
+   "title": "jeść",
+   "slug": "jeść",
+   "page_id": 210052,
+   "revision_id": 92359215,
+   "sha1": "d82b478dccd3208d4cf67c9c8ac872783b1615b2"
+  },
+  {
+   "title": "chcieć",
+   "slug": "chcieć",
+   "page_id": 457675,
+   "revision_id": 92474941,
+   "sha1": "eafce8526e29ccbc0b838bed3eb02010ee745c23"
+  },
+  {
+   "title": "mieć",
+   "slug": "mieć",
+   "page_id": 633838,
+   "revision_id": 92511599,
+   "sha1": "09418e59fd7ae405c1ae95f863d83bba54b7f8e7"
+  },
+  {
+   "title": "bać",
+   "slug": "bać",
+   "page_id": 900662,
+   "revision_id": 91019337,
+   "sha1": "5455063ee72131df7c090df618faefafe9b83b71"
+  },
+  {
+   "title": "wziąć",
+   "slug": "wziąć",
+   "page_id": 1079368,
+   "revision_id": 92993221,
+   "sha1": "5ab9354e731230161dbf290dd4c43d2ae53d3ce4"
+  },
+  {
+   "title": "zniknąć",
+   "slug": "zniknąć",
+   "page_id": 3689406,
+   "revision_id": 89861861,
+   "sha1": "3198941e2d87ee8dafa0110937cac63ba9e025c5"
+  },
+  {
+   "title": "dobry",
+   "slug": "dobry",
+   "page_id": 195077,
+   "revision_id": 92031877,
+   "sha1": "f8ea6647102737750d0474d733cfaa2b626d07c0"
+  },
+  {
+   "title": "duży",
+   "slug": "duży",
+   "page_id": 904490,
+   "revision_id": 91473839,
+   "sha1": "5258dd04cff78ac4f5dd6ebb9562826bff235d35"
+  },
+  {
+   "title": "lepszy",
+   "slug": "lepszy",
+   "page_id": 1059388,
+   "revision_id": 91372408,
+   "sha1": "85f6f6f253bf768bac392c08f79966be7ef36759"
+  },
+  {
+   "title": "dobrze",
+   "slug": "dobrze",
+   "page_id": 457560,
+   "revision_id": 92993782,
+   "sha1": "4f14025d0960ff2bdae1cf3f5c2c062a571185cc"
+  },
+  {
+   "title": "dwa",
+   "slug": "dwa",
+   "page_id": 458537,
+   "revision_id": 92078739,
+   "sha1": "ad30f9f3e3fd7de4fd055dc39f2c0ba27dcf5018"
+  },
+  {
+   "title": "trzy",
+   "slug": "trzy",
+   "page_id": 458539,
+   "revision_id": 92920023,
+   "sha1": "ca8445487dcb02309d616aa08104935222c5bebb"
+  },
+  {
+   "title": "pięć",
+   "slug": "pięć",
+   "page_id": 458542,
+   "revision_id": 92078780,
+   "sha1": "77961bfc70f1330d8f9e63f896130dfe217b9e04"
+  },
+  {
+   "title": "ja",
+   "slug": "ja",
+   "page_id": 39075,
+   "revision_id": 93120717,
+   "sha1": "d1773411dbdb4c23bd84767cabb83dadcb2fcee8"
+  },
+  {
+   "title": "on",
+   "slug": "on",
+   "page_id": 608,
+   "revision_id": 93119879,
+   "sha1": "e6adb5ed9ce5c7f352195742436aa4b8397a09ec"
+  },
+  {
+   "title": "który",
+   "slug": "który",
+   "page_id": 814373,
+   "revision_id": 88323598,
+   "sha1": "09d323d04f7df50610f76ce4511ba870d95cc323"
+  },
+  {
+   "title": "się",
+   "slug": "się",
+   "page_id": 457475,
+   "revision_id": 91932475,
+   "sha1": "731295d8d32b712f07fb5c6481b4520765d2ff9f"
+  },
+  {
+   "title": "nad",
+   "slug": "nad",
+   "page_id": 87304,
+   "revision_id": 92995694,
+   "sha1": "502210b39356870b80b5d5f8b6e5a42442cdede1"
+  },
+  {
+   "title": "ani",
+   "slug": "ani",
+   "page_id": 43611,
+   "revision_id": 93155111,
+   "sha1": "b57183475818f993a520bac09296030c834d9663"
+  },
+  {
+   "title": "no",
+   "slug": "no",
+   "page_id": 465945,
+   "revision_id": 93155457,
+   "sha1": "4671a5faabfef3673c89fcc46224c037a45321e7"
+  },
+  {
+   "title": "oj",
+   "slug": "oj",
+   "page_id": 551404,
+   "revision_id": 92166359,
+   "sha1": "632b9541e66687014436aa0739448f7c6cb2e81f"
+  },
+  {
+   "title": "zamek",
+   "slug": "zamek",
+   "page_id": 460052,
+   "revision_id": 91984179,
+   "sha1": "2d95e417393179e144ee679622c4e665bc2366c8"
+  },
+  {
+   "title": "piec",
+   "slug": "piec",
+   "page_id": 887149,
+   "revision_id": 91133525,
+   "sha1": "4899f5b20ad15db048740f8a9c968d480a9f8c4a"
+  },
+  {
+   "title": "bez",
+   "slug": "bez",
+   "page_id": 201980,
+   "revision_id": 93060999,
+   "sha1": "93e296a1dca6930484110167945310d8723e04c0"
+  },
+  {
+   "title": "kotów",
+   "slug": "kotów",
+   "page_id": 7109672,
+   "revision_id": 82207138,
+   "sha1": "227400f0ba1f448654bd6d8d9ba6eeea48dc7ddf"
+  },
+  {
+   "title": "mamy",
+   "slug": "mamy",
+   "page_id": 3094950,
+   "revision_id": 89617424,
+   "sha1": "b42c3048ad628804356d138876b74ef1c27be204"
+  },
+  {
+   "title": "DNA",
+   "slug": "DNA",
+   "page_id": 3374,
+   "revision_id": 92723290,
+   "sha1": "803f015647a30bc1c44fc74cb944351ec6c2aa43"
+  },
+  {
+   "title": "ketchup",
+   "slug": "ketchup",
+   "page_id": 66842,
+   "revision_id": 93085462,
+   "sha1": "e155d7bfff48f8fa780d92f3617b7b63eccfffcc"
+  },
+  {
+   "title": "fijokier",
+   "slug": "fijokier",
+   "page_id": 11841631,
+   "revision_id": 91571290,
+   "sha1": "99c1b5660fcd8d4ce732dc857a7c6bee65e24578"
+  },
+  {
+   "title": "robiony",
+   "slug": "robiony",
+   "page_id": 7014424,
+   "revision_id": 82170945,
+   "sha1": "9806589a59cf5663aefa1f1bef6166a6f49786c6"
+  },
+  {
+   "title": "czytający",
+   "slug": "czytający",
+   "page_id": 3112350,
+   "revision_id": 82214410,
+   "sha1": "35a99e79318f40dce1ba9998c995d39845a91abf"
+  },
+  {
+   "title": "prosząc",
+   "slug": "prosząc",
+   "page_id": 12061499,
+   "revision_id": 92552311,
+   "sha1": "90c244d50f68aea98cf76c5c2341ebef39ba2728"
+  },
+  {
+   "title": "na razie",
+   "slug": "na_razie",
+   "page_id": 3147777,
+   "revision_id": 92470195,
+   "sha1": "a53ba9086306dacf42f68be988b16846496ec607"
+  },
+  {
+   "title": "dzień dobry",
+   "slug": "dzień_dobry",
+   "page_id": 21335,
+   "revision_id": 87457374,
+   "sha1": "0b86d4ec6ebe4a06f113f2c8d9609bb7fb7bc66b"
+  },
+  {
+   "title": "ą",
+   "slug": "ą",
+   "page_id": 1756751,
+   "revision_id": 92921201,
+   "sha1": "830c77d104efb41bd4e998262058b81642d0a9a3"
+  },
+  {
+   "title": "-wać",
+   "slug": "-wać",
+   "page_id": 8099438,
+   "revision_id": 89394336,
+   "sha1": "6a8f3478492bf0cd0d8a88a4e74e657b61b5a0ff"
+  },
+  {
+   "title": "kradźba",
+   "slug": "kradźba",
+   "page_id": 11211073,
+   "revision_id": 90787663,
+   "sha1": "cdcd83a4b0161ffb1f587c3e7c385ab4629e98cb"
+  },
+  {
+   "title": "barzo",
+   "slug": "barzo",
+   "page_id": 5787252,
+   "revision_id": 90988309,
+   "sha1": "247115899e03737e68cc35580cdffb787bd74910"
+  }
+ ]
+}

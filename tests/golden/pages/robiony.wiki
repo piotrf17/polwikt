@@ -1,0 +1,15 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Participle===
+{{pl-participle|pass}}
+
+# {{inflection of|pl|robić||m|s|pasv|adj|part}}
+
+====Declension====
+{{pl-adecl}}
+
+===Further reading===
+* {{R:pl:PWN}}

@@ -1,0 +1,494 @@
+{{also|Ketchup|kétchup}}
+==English==
+{{wp}}
+[[File:Organic Heinz Tomato Ketchup.jpg|thumb|A bottle of tomato '''ketchup'''.]]
+[[File:Mushroom ketchup.jpg|thumb|A bottle of mushroom '''ketchup'''.]]
+
+===Alternative forms===
+* {{alt|en|catchup|catsup|katsup}}
+* {{alt|en|katjap|kechap|ketsup||all|_|obsolete}}
+
+===Etymology===
+{{ety|en|:bor<unc>|ms:kecap<id:sauce>|tree=+}}
+{{unc|en}}, but probably ultimately from {{der|en|nan-hbl|膎汁|tr=kê-chiap|t=[[fish sauce]]|lit=[[pickled]] [[fish]] [[juice]]}}, via {{bor|en|ms|kecap//kicap|t= any dark clear sauce from soybeans, fish, etc.}}, though the precise path is unclear – there are related words in various Chinese languages. Various other theories exist – see [[w:Ketchup#Etymology|Ketchup: Etymology]] for extended discussion.
+
+First appeared in English in the late 17th century in reference to a Southeast Asian sauce encountered by British traders and sailors. The ''Oxford English Dictionary'' notes that it was commonly used in the 18th century to refer to a variety of similar sauces with varying ingredients—"anchovies, mushrooms, walnuts, and oysters being particularly popular"—but by the late 19th century the current tomato ketchup became the most popular form.<ref>"Ketchup", ''Oxford English Dictionary'' (online edition, 2020).</ref>
+
+{{m|en|catsup|Catsup}} (earlier {{m|en|catchup}}) is an alternative Anglicization, still in use in the U.S., though it is now somewhat rare.
+
+===Pronunciation===
+* {{IPA|en|/ˈkɛt͡ʃ.əp/|/-ʌp/}}
+** {{audio|en|En-us-ketchup.ogg|a=US}}
+** {{audio|en|En-ketchup.ogg|a=Canada}}
+* {{IPA|en|/ˈkɛt͡ʃ.ʊp/|a=Northern England}}
+* {{hmp|en|catch-up}} {{q|one pronunciation}}
+
+===Noun===
+{{en-noun|~}}
+
+# {{lb|en|uncountable|chiefly|US|Canada|UK}} {{ellipsis of|en|tomato ketchup|t=a [[tomato]]-[[vinegar]]-based [[sauce]], sometimes containing [[spice]]s, [[onion]] or [[garlic]], and (especially in the US) [[sweetener]]s}}.
+#: {{syn|en|tomato catsup}}
+#: {{hyper|en|tomato sauce|red ketchup|red catsup}}
+#: {{ux|en|tomato '''ketchup'''}}
+#: {{ux|en|This diner serves '''ketchup''' in red bottles, and mustard in yellow ones.}}
+# {{lb|en|countable|now|rare}} Such a sauce more generally (not necessarily based on tomatoes, but with mushrooms, fish, etc.). This is the older meaning.
+#: {{hypo|en|tomato ketchup|tomato catsup|fruit ketchup|fruit catsup|corn ketchup|corn catsup|green ketchup|green catsup|yellow ketchup|yellow catsup}}
+#* {{quote-book|en|year=1883|title=Cassell's Dictionary of Cookery|page=lxxxiii|text=The bottles, however, were port bottles, but contained mushroom '''ketchup'''; {{...}}}}
+#* {{quote-book|en|year=2003|title=Inns and Bed and Breakfasts in Quebec 2003|publisher=Ulysses Travel Guides|page=46|text=To accompany meat, we prepare fruit '''ketchups''' and rhubarb chutney.}}
+
+====Usage notes====
+* The spelling ''ketchup'' became significantly preferred in the United States due to the popularity of the {{w|Heinz Tomato Ketchup|Heinz}} brand, which shortly after its introduction in 1876 switched from {{m|en|catsup}} to this spelling to distinguish itself from competitors. Other major brands, such as Hunt, subsequently followed, with Del Monte only switching to ''ketchup'' in 1988.<ref>“[http://www.slate.com/blogs/browbeat/2013/04/22/ketchup_vs_catsup_differences_none_at_all_video.html Is There a Difference Between Ketchup and Catsup?]”, ''Slate,'' Aisha Harris, April 22, 2013</ref>
+
+* This condiment is more commonly and somewhat ambiguously called {{m|en|tomato sauce}} outside of North America and the United Kingdom. In South Africa, the word ''ketchup'' is not generally understood.
+
+====Hypernyms====
+{{col3|en|
+|table condiment
+|condiment
+|table sauce
+|sauce
+}}
+
+====Coordinate terms====
+{{col3|en|title=common Chinese condiment sauces|
+|fish sauce
+|chili sauce
+|sweet chili sauce
+|sweet and sour sauce
+|plum sauce
+|cherry sauce
+|soy sauce
+|tree sauce
+|hoisin sauce
+|oyster flavor sauce
+}}
+{{col3|en|title=condiments commonly paired with tomato ketchup|
+|salt
+|table salt
+|pepper
+|black pepper
+|ground pepper
+|ground black pepper
+|vinegar
+|white vinegar
+|malt vinegar
+|chowchow
+|mustard
+|mustard sauce
+|prepared mustard
+|prepared mustard sauce
+|yellow mustard
+|yellow mustard sauce
+|prepared yellow mustard
+|prepared yellow mustard sauce
+|relish
+|green relish
+|sweet relish
+|sweet green relish
+|cucumber relish
+|mayonnaise
+|siracha
+|chili sauce
+}}
+
+====Derived terms====
+{{col|en|ketchupless|ketchuplike
+| banana ketchup|curry ketchup
+|ketchuppy|marry the ketchup|marry the ketchups
+}}
+
+====Descendants====
+{{col-top|2|desc}}
+*{{desc|bor=1|sq|keçap}}
+* {{desc|bor=1|ar|كَتْشَب}}
+* {{desc|bor=1|be|кетчуп}}
+* {{desc|bor=1|bg|кетчуп}}
+* {{desc|bor=1|yue|茄汁}}
+* {{desc|bor=1|ca|quètxup}}
+* {{desc|bor=1|cs|kečup}}
+* {{desc|bor=1|da|ketchup}}
+* {{desc|bor=1|nl|ketchup}}
+* {{desc|bor=1|fi|ketsuppi}}
+* {{desc|bor=1|fr|ketchup}}
+* {{desctree|bor=1|de|Ketchup}}
+* {{desc|bor=1|el|κέτσαπ}}
+* {{desc|bor=1|he|קֶטְשׁוֹפּ|tr=ketshop}}
+* {{desc|bor=1|nan-hbl|茄汁|tr=kiô-chap}} {{q|Singapore}}
+* {{desc|bor=1|hu|ketchup}}
+* {{desc|bor=1|ga|citseap}}
+* {{desc|bor=1|ja|ケチャップ|tr=kechappu}}
+* {{desc|bor=1|ko|케첩}}
+* {{desc|bor=1|mh|kōjjeb}}
+* {{desc|bor=1|fa|کچاپ|tr=kečâp}}
+* {{desc|bor=1|pl|keczup|ketchup}}
+* {{desc|bor=1|pt|ketchup}}
+* {{desc|bor=1|ro|ketchup}}
+* {{desctree|bor=1|ru|кетчуп}}
+* {{desc|bor=1|sh|-}}
+** {{desc|sh|кечап|sclang=1}}
+** {{desc|sh|kečap|sclang=1}}
+* {{desc|bor=1|es|ketchup|kétchup}}
+* {{desc|bor=1|sv|ketchup}}
+* {{desc|bor=1|tl|ketsap}}
+* {{desc|bor=1|th|เค็ตชัป}}
+* {{desc|bor=1|tr|ketçap}}
+* {{desc|bor=1|uk|кетчуп}}
+* {{desc|bor=1|unm|kèchëp}}
+* {{desc|bor=1|uz|ketchup}}
+* {{desc|bor=1|cy|cetsyp}}
+* {{desc|bor=1|yi|קעטשאָפּ}}
+{{col-bottom}}
+
+====Translations====
+{{trans-top|tomato-vinegar based sauce}}
+* Albanian: {{t|sq|keçap|m}}
+* Arabic: {{t|ar|عَصِير الْبَنْدُورَة|m}}, {{t+|ar|كَتْشَب|m}}
+*: Egyptian Arabic: {{t|arz|كاتشب|m|tr=katšab}}
+*: Hijazi Arabic: {{t|acw|كتشب|m|tr=katšab, katšap}}
+* Armenian: {{t+|hy|կետչուպ}}
+* Azerbaijani: {{t|az|ketçup}}, {{t|az|ketçap}}
+* Belarusian: {{t|be|ке́тчуп|m}}
+* Bengali: {{t|bn|কেচাপ}}
+* Bulgarian: {{t+|bg|ке́тчуп|m}}
+* Catalan: {{t|ca|quètxup|m}}, {{t|ca|quetxup|m}}
+* Chickasaw: {{t|cic|akankishniha' okchi'}}
+* Chinese:
+*: Cantonese: {{t|yue|茄汁|tr=ke4-2 zap1}}
+*: Mandarin: {{t+|cmn|番茄醬|tr=fānqiéjiàng}}, {{t+|cmn|茄汁|tr=qiézhī}} {{q|regional}}
+* Czech: {{t+|cs|kečup|m}}
+* Danish: {{t+|da|ketchup|c}}
+* Dutch: {{t+|nl|ketchup|m}}, {{t+|nl|tomatenketchup|m}}
+* Esperanto: {{t+|eo|keĉupo}}
+* Estonian: {{t+|et|ketšup}}
+* Finnish: {{t+|fi|ketsuppi}}
+* French: {{t+|fr|ketchup|m}}
+* Galician: {{t|gl|catchup|m}}, {{t+|gl|ketchup|m}}
+* Georgian: {{t|ka|კეჩუპი}}, {{t|ka|კეტჩუპი}}
+* German: {{t+|de|Ketchup|m|n}}
+* Greek: {{t+|el|κέτσαπ|n}}
+* Hebrew: {{t+|he|מִתְבָּל|m|tr=mitbal}}, {{t+|he|קֶטְשׁוֹפּ|m|tr=ketshop}}
+* Hindi: {{t|hi|केचप|m}}
+* Hungarian: {{t+|hu|ketchup}}
+* Icelandic: {{t+|is|tómatsósa}}
+* Ido: {{t+|io|kechupo}}
+* Indonesian: {{t|id|saus tomat}}
+* Irish: {{t|ga|citseap|m}}
+* Italian: {{t+|it|ketchup|m}}, {{t+|it|salsa rubra|f}}, {{t+|it|tomato|m}} {{qualifier|informal}}
+* Japanese: {{t+|ja|ケチャップ|tr=kechappu}}
+* Kazakh: {{t+|kk|кетчуп}}
+* Khmer: {{t|km|ទឹកប៉េងប៉ោះ}}
+* Korean: {{t+|ko|케첩}}
+* Kyrgyz: {{t+|ky|кетчуп}}
+* Latvian: {{t|lv|kečups|m}}
+* Lithuanian: {{t|lt|kečupas|m}}
+* Macedonian: {{t|mk|ке́чап|m}}, {{t|mk|до́матен сос|m}}
+* Malay: {{t+|ms|sos tomato}} {{q|Malay Peninsula, Singapore}}, {{t|ms|saus tomat}} {{q|Sumatra, Riau}}
+* Maltese: {{t|mt|sos aħmar}}, {{t|mt|ketċap}}
+* Marathi: {{t|mr|केचप|n}}
+* Marshallese: {{t|mh|kōjjeb}}
+* Navajo: {{t|nv|chʼil łichxíʼí akʼédzidí}}, {{t|nv|chʼil łichxíʼí bitooʼ akʼédzidígíí}}, {{t|nv|achʼííʼ yázhí bikʼétłohí łichxíʼígíí}}
+* Norwegian:
+*: Bokmål: {{t+|nb|ketchup|m}}, {{t+|nb|ketsjup|m}}
+*: Nynorsk: {{t|nn|ketchup|m}}, {{t|nn|ketsjup|m}}
+* Persian: {{t|fa|کچاپ|tr=kečâp}}
+* Polish: {{t+|pl|keczup|m}}, {{t+|pl|ketchup|m}}
+* Portuguese: {{t+|pt|ketchup|m}}
+* Russian: {{t+|ru|ке́тчуп|m}}, {{t|ru|тома́тный со́ус|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|кѐчап|m}}
+*: Latin: {{t+|sh|kèčap|m}}
+* Slovak: {{t|sk|kečup|m}}
+* Slovene: {{t|sl|kečap|m}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|ketšup|m}}
+* Spanish: {{t+|es|kétchup|m}}, {{t|es|''ketchup''|m}}, {{t|es|cátsup|m}}, {{t|es|képchup|m}}, {{t+|es|salsa de tomate}}
+* Swedish: {{t+|sv|ketchup|c}}
+* Tagalog: {{t|tl|ketsap}}
+* Tajik: {{t+|tg|кетчуп}}
+* Thai: {{t|th|เค็ตชัป}}
+* Tok Pisin: {{t|tpi|retsos}}
+* Turkish: {{t+|tr|ketçap}}
+* Ukrainian: {{t+|uk|ке́тчуп|m}}
+* Unami: {{t|unm|kèchëp}}
+* Urdu: {{t|ur|کیچپ|m|tr=kecap}}
+* Uyghur: {{t|ug|شوخلا قىيامى}}
+* Uzbek: {{t+|uz|ketchup}}
+* Vietnamese: {{t|vi|nước xốt cà chua}}, {{t|vi|tương cà}}
+* Welsh: {{t|cy|sos coch|m}}, {{t|cy|cetsyp|m}}
+* Yiddish: {{t|yi|קעטשאָפּ}}
+{{trans-bottom}}
+
+===Verb===
+{{en-verb|++}}
+
+# {{lb|en|transitive}} To cover with ketchup.
+#* {{quote-book|en|year=1867|author=John Maddison Morton|title=Aunt Charlotte's maid: a farce in one act|text=It strikes me she's "'''ketchupped'''" the lot! I won't touch a morsel!}}
+#* {{quote-text|en|year=1973|title=Horizon|page=15|text="Well," said Chuck, '''ketchupping''' his hamburger, "I'd rather do without King Lear than put up with the human agony it sprang out of. I'd rather not have the Eroica than have the big bloody conqueror it tries to immortalize."}}
+#* {{quote-book|en|year=2009|author=David Silverman|title=Twinkle|page=4|text=Their fellow diners, like their '''ketchupped''' grub, were appropriately dashed and splattered with paint and plaster, reading their Suns and Daily Mirror.}}
+
+====References====
+{{reflist}}
+* {{R:Online Etymology Dictionary}}
+
+{{C|en|Condiments|Sauces}}
+
+==Danish==
+
+===Etymology===
+Via {{bor|da|en|ketchup}}, from {{der|da|ms|kicap}}, from {{der|da|nan-hbl|膎汁|tr=kê-chiap}}.
+
+===Pronunciation===
+* {{IPA|da|[ˈkʰɛd̥ɕub̥]}}
+
+===Noun===
+{{da-noun|stem=ketchupp|en|er}}
+
+# {{lb|da|uncountable}} {{l|en|ketchup}} {{q|a tomate sauce with vinegar}}
+# {{lb|da|countable}} {{l|en|ketchup}} {{q|a particular brand or type of ketchup}}
+
+====Declension====
+{{da-decl|stem=ketchupp|en|er}}
+
+====See also====
+* {{l|da|sennep}}
+
+===References===
+* {{R:DDO}}
+
+{{C|da|Condiments}}
+
+==Dutch==
+
+===Etymology===
+Borrowed from {{bor|nl|en|ketchup}}, from {{der|nl|ms|kicap}}, from {{der|nl|nan-hbl|膎汁|tr=kê-chiap}}. {{doublet|nl|ketjap}}.
+
+===Pronunciation===
+* {{audio|nl|Nl-ketchup.ogg}}
+
+===Noun===
+{{nl-noun|m|-s|+}}
+
+# {{C|nl|Condiments|Sauces}} {{l|en|ketchup}}
+#: {{syn|nl|tomatenketchup}}
+
+====Derived terms====
+{{col|nl
+|curryketchup
+|tomatenketchup
+}}
+
+==French==
+
+===Etymology===
+{{bor+|fr|en|ketchup}}, from {{der|fr|ms|kicap}}, from {{der|fr|nan-hbl|膎汁|tr=kê-chiap}}.
+
+===Pronunciation===
+* {{fr-IPA|[u:eu,p:p_]|a=France}}
+* {{audio|fr|Fr-Normandie-ketchup.ogg|a=France}}
+* {{fr-IPA|[u:o,p:p_]|a=France,Quebec}}
+* {{audio|fr|Qc-ketchup.ogg|a=Quebec}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-ketchup.wav|a=France}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{l|en|ketchup}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+{{C|fr|Condiments}}
+
+==Hungarian==
+
+===Alternative forms===
+* {{alt|hu|kecsöp}}
+* {{alt|hu|kecsap|kecsup||informal}}
+
+===Etymology===
+{{ubor|hu|en|ketchup}}.
+
+===Pronunciation===
+* {{hu-IPA|kecsöp|kecsap}}
+* {{hyphenation|hu|ke|tchup}}
+* {{rhymes|hu|øp|ɒp}}
+
+===Noun===
+{{hu-noun|ök|alt=ketchupok}}
+
+# {{l|en|ketchup}} {{gloss|tomato-vinegar-based sauce}}
+
+====Declension====
+{{hu-infl-nom|ketchupö|ö}}{{hu-pos-ötök|ketchup|j|jei}}
+or
+{{hu-infl-nom|ketchupo|o}}{{hu-pos-otok|ketchup|j|jai}}
+
+===Further reading===
+* {{R:EKsz2}}
+
+{{C|hu|Condiments|Sauces}}
+
+==Italian==
+{{wp|it:}}
+
+===Etymology===
+{{ety|it|:bor|en:ketchup}}
+{{bor+|it|en|ketchup}}.
+
+===Pronunciation===
+* {{it-IPA|chèciap}}
+* {{audio|it|LL-Q652 (ita)-DanielParoliere-ketchup.wav}}
+
+===Noun===
+{{it-noun|m|#}}
+
+# {{l|en|ketchup}}
+
+==Polish==
+
+===Etymology===
+{{ubor|pl|en|ketchup}}, from {{der|pl|ms|kicap}}, from {{der|pl|nan-hbl|膎汁|t=[[fish sauce]]|tr=kê-chiap}}.
+
+===Pronunciation===
+{{pl-pr|keczup,keczap<a:rare>|a=LL-Q809 (pol)-Olaf-ketchup.wav|h=ke.tchup}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{alt sp|pl|keczup}}
+
+====Declension====
+{{pl-decl-noun-m-in}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Condiments|Sauces|Standards of identity}}
+
+==Portuguese==
+
+===Alternative forms===
+* {{alt|pt|catchup}}
+
+===Etymology===
+{{ety|pt|:ubor|en:ketchup|text=+|tree=1}}
+
+===Pronunciation===
+{{pt-IPA|br=quéti^^chúpe|pt=quẹtshâpe}}
+
+===Noun===
+{{pt-noun|m|#s}}
+
+# {{lb|pt|uncountable}} {{l|en|ketchup}} {{gloss|tomato-vinegar based sauce}}
+#* {{quote-book
+|pt
+|year=2012
+|author=Daniel Galera
+|title=Barba ensopada de sangue
+|pageurl=http://books.google.com.br/books?id=v8yHgHjOU70C&pg=PT205#v=onepage&q&f=false
+|isbn=9788580865028
+|page=205
+|publisher=Editora Companhia das Letras
+|passage=Ela passava as tardes livres da infância vendo a Sessão da Tarde na televisão e comendo nuggets com '''ketchup'''.}}
+
+===Further reading===
+* {{R:pt:Priberam}}
+
+{{C|pt|Condiments|Sauces}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:ubor|en:ketchup|text=+|tree=1}}
+
+===Noun===
+{{ro-noun|n|-}}
+
+# {{l|en|ketchup}}
+
+====Declension====
+{{ro-noun-n|n=sg}}
+
+==Serbo-Croatian==
+
+===Noun===
+{{sh-noun||m-in}}
+
+# {{alternative spelling of|sh|kečap}}
+
+==Spanish==
+
+===Alternative forms===
+* {{alt|es|cátsup|cátchup|kétchup|kéchup|képchup|kéchap|kéchop|''catchup''}}
+* {{alt|es|cachú||RD}}
+* {{alt|es|quéchap||obsolete|Philippines}}
+
+===Etymology===
+{{ubor|es|en|ketchup}}, from {{der|es|ms|kicap}}, from {{der|es|nan-hbl|膎汁|tr=kê-chiap}}.
+
+===Pronunciation===
+See also the alternative forms.
+{{es-pr|kétchup<a:most common in at least,_,Spain>|kéchup|kéchap|kéchop|hyph=+}}
+
+===Noun===
+{{es-noun|m}}
+
+# {{l|en|ketchup}}
+
+====Usage notes====
+{{es-unadapted}}
+
+===Further reading===
+* {{R:es:DEA}}
+
+{{C|es|Sauces}}
+
+==Swedish==
+{{wp|sv:}}
+[[File:Pasta, Swedish meatballs and ketchup.jpg|thumb|250px|ketchup på {{l|sv|köttbullar||meatballs}} och {{l|sv|makaroner||(elbow) macaroni}}]]
+[[File:Vegan pyttipanna (3085572734).jpg|thumb|250px|ketchup på {{l|sv|pyttipanna}}]]
+
+===Etymology===
+From {{bor|sv|en|ketchup}}.
+
+===Pronunciation===
+* {{IPA|sv|/ˈkɛtːɕɵp/}}
+
+===Noun===
+{{sv-noun|c}}
+
+# {{l|en|ketchup}}
+#: {{ux|sv|senap och '''ketchup'''|'''ketchup''' and mustard ["senap och ketchup" feels more idiomatic than "mustard and ketchup" does in English, for some reason]}}
+
+====Usage notes====
+Popular and uncontroversial pasta condiment in Sweden.
+
+====Declension====
+{{sv-noun-unc-irreg-c|2=ketchupen}}
+
+====Derived terms====
+* {{l|sv|ketchupflaska||bottle of ketchup}}
+* {{l|sv|tomatketchup||tomato ketchup}}
+
+====See also====
+* {{l|sv|makaron|makaroner}}
+* {{l|sv|makaronilåda}}
+* {{l|sv|köttfärssås}}
+* {{l|sv|senap||mustard}}
+* {{l|sv|spaghetti}}
+* {{l|sv|tomat}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+
+==West Frisian==
+
+===Etymology===
+From {{bor|fy|en|ketchup}}.
+
+===Noun===
+{{fy-noun|c|-}}
+
+# {{topics|fy|Condiments}} [[#English|ketchup]]

@@ -1,0 +1,64 @@
+{{also|Zamek|zámek}}
+==Polish==
+{{wp|pl:}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-zamek.ogg|hh=Zamek|las=#}}
+
+===Etymology 1===
+{{inh+|pl|zlw-opl|zamek}}, from {{inh|pl|sla-pro|*zamъkъ}}, from {{m|sla-pro|*zamъknǫti}}.
+
+====Noun====
+{{pl-noun|m-in|dim=zameczek,zameńko<l:dialectal>}}
+
+# [[lock]] {{gl|something used for fastening}}
+# [[zip]], [[zip fastener]], [[zipper]]
+#: {{syn|pl|suwak|zamek błyskawiczny}}
+
+=====Declension=====
+{{pl-decl-noun-m-in}}
+
+=====Alternative forms=====
+* {{alt|pl|zomek||Przemyśl}}
+
+=====Derived terms=====
+{{col|pl|title=adjective|zamkowy}}
+{{col|pl|title=noun|zamek błyskawiczny}}
+
+=====Related terms=====
+{{col|pl|title=adjectives|zamknięty|zamknięty w sobie}}
+{{col|pl|title=nouns|zamknięcie|zamkniętość|zamykarka}}
+{{col|pl|title=verbs
+|zamykać<g:impf>
+|zamknąć<g:pf>
+}}
+
+===Etymology 2===
+{{sl|pl|gmh|sloȥ|senseid=castle}} (cf. {{cog|de|Schloss}}) via {{der|pl|cs|zámek}}, itself a semantic loan of {{der|pl|la|clūsa}}.
+
+====Noun====
+{{pl-noun|m-in|dim=zameczek|aug=zamczysko}}
+
+# {{senseid|pl|castle}} [[castle]] {{gl|fortified building}}
+# {{lb|pl|Lasovia}} {{syn of|pl|więzienie}}
+
+=====Declension=====
+{{pl-decl-noun-m-in|gens=zamku}}
+
+=====Derived terms=====
+{{col|pl|title=adjective|zamkowy}}
+{{col|pl|title=noun|podzamcze}}
+{{pl-derived verbs|-/budować zamki na lodzie}}
+
+=====Descendants=====
+* {{desc|be|за́мак|bor=1}}
+* {{desc|mk|за́мок|bor=1}} {{gloss|?}}
+* {{desctree|ru|за́мок|bor=1}}
+* {{desc|uk|за́мок|bor=1}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:Kolberg:1865||266}}
+
+{{C|pl|Buildings|Fasteners|Mechanisms|Prison|Royal residences}}

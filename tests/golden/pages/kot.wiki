@@ -1,0 +1,486 @@
+{{also|Appendix:Variations of "kot"}}
+{{minitoc}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==Albanian==
+
+===Etymology 1===
+Theoretically from {{der|sq|sqj-pro|*kākta}}, of {{unc|sq|nocap=1}} origin; potentially akin to {{cog|lt|koktùs||disgusting}} via {{uder|sq|ine-pro|-}}. An older hypothesis connects it to {{cog|grc|κότος||rancor, grudge}}.<ref>{{R:sq:Orel:1998|page=193}}</ref>
+
+====Adverb====
+{{sq-adv}}
+
+# [[worthlessly]]
+# [[in vain]]
+
+====Adjective====
+{{head|sq|adjective}}
+
+# [[worthless]]
+# [[pointless]]
+
+=====Derived terms=====
+* {{l|sq|kotë}}
+
+===Etymology 2===
+From {{der|sq|sqj-pro|*kāta}}, from {{inh|sq|ine-pro|*(s)kh₃tos|*(s)kHtos|shade, shadow, darkness}}. Compare {{cog|sga|scáth||shadow}}, {{cog|grc|σκότος||darkness}}, {{cog|sa|छत्त्र||umbrella}}, {{cog|en|shadow}}.<ref>{{R:sq:Orel:1998|page=193}}</ref>
+
+====Noun====
+{{sq-noun|m}}
+
+# [[darkness]]
+
+===References===
+{{reflist}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|sla-pro:*kotъ|text=+|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Noun===
+{{cs-noun|m-an|f=kočka}}
+
+# {{lb|cs|dialectal}} [[cat]], [[tomcat]]
+
+====Declension====
+{{cs-ndecl|m.an}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+
+==Dutch==
+
+===Etymology===
+From {{inh|nl|dum|cot}}, from {{inh|nl|odt|*kot}}, from {{inh|nl|gmw-pro|*kot}}, from {{inh|nl|gem-pro|*kutą||shed}}. Cognate with {{cog|en|cot|t=pen, coop}}, the feminine stem variant {{m+|dum|cote}} ({{m+|odt|kota}}) corresponds to {{cog|de|Kate|t=hut}}.
+
+===Pronunciation===
+* {{IPA|nl|/kɔt/}}
+* {{audio|nl|Nl-kot.ogg}}
+* {{hyph|nl|kot}}
+* {{rhymes|nl|ɔt|s=1}}
+
+===Noun===
+{{nl-noun|n|-en,-:en|+,-teke}}
+
+# bad, [[ramshackle]] [[housing]]
+#: {{uxi|nl|In wat voor een '''kot''' woont die!|What a shack she lives in!}}
+# [[rudimentary]] building to store (garden) material
+# {{lb|nl|Belgium}} student room
+#: {{syn|nl|kamer|studentenkamer|studentenkot}}
+#: {{uxi|nl|[[Leuven]]se '''koten''' [[afbranden|brandden]] [[vaak]] af [[in de jaren]] 90.|Student rooms in Louvain burned down often in the nineties.}}
+
+====Related terms====
+* {{l|nl|coterie}}
+* {{l|de|katenspek}}
+* {{l|nl|keuter}}
+
+====Descendants====
+* {{desc|dcr|kot|cot}}
+** {{desc|vic|kot|bor=1}} {{q|dated}}
+
+==Faroese==
+
+===Etymology===
+From {{der|fo|non|surkot}}, {{m|non|syrkot}}, from {{der|fo|fro|cote}}; {{m|fro|surcote}}, from {{der|fo|frk|*kottā}}, {{m|frk|*kottō}}, from {{der|fo|gem-pro|*kuttô}}, from {{der|fo|ine-pro|*gudnó-}}, {{m|ine-pro|*gʷewd-}}. More at {{l|en|coat}}.
+
+===Pronunciation===
+* {{IPA|fo|/kʰoːʰt/}}
+* {{rhymes|fo|oːʰt}}
+
+===Noun===
+{{fo-noun|n|kots|kot}}
+
+# [[coat]] (usually woollen)
+
+====Declension====
+{{fo-decl-noun-n3|kot}}
+
+==Finnish==
+
+===Etymology===
+{{onomatopoeic|fi}}
+
+===Pronunciation===
+{{fi-p}}
+
+===Interjection===
+{{head|fi|intj}}
+
+# {{lb|fi|onomatopoeia|usually repeated}} [[cluck]] {{gloss|sound made by hen}}
+
+===Further reading===
+* {{R:fi:KTSK|accessdate=2023-07-02}}
+
+==French==
+
+===Etymology===
+{{ety|fr|:bor|nl:kot}}
+{{bor+|fr|nl|kot}}.
+
+===Pronunciation===
+* {{fr-IPA|cote}}
+* {{audio|fr|LL-Q150 (fra)-Lepticed7-kot.wav|a=<<France>> (<<Toulouse>>)}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{lb|fr|Belgium}} student flat, student room
+
+====Derived terms====
+* {{l|fr|koter}}
+* {{l|fr|kot-à-projet}}
+
+==Hungarian==
+
+===Etymology===
+An [[onomatopoeia]]. {{cln|hu|onomatopoeias}}
+
+===Pronunciation===
+* {{hu-IPA}}
+* {{hyphenation|hu|kot}}
+* {{rhymes|hu|ot|s=1}}
+
+===Interjection===
+{{head|hu|interjection}}
+
+# [[cluck]] {{gloss|imitative of the [[sound]] made by a [[hen]], especially when [[brooding]], or [[calling]] her [[chick]]s; can be used repetitively}}
+#: {{syn|hu|kotkodács}}
+#: {{uxi|hu|'''Kot-kot-kot-kot-kotkodács''', minden napra egy tojás! (nursery rhyme)|'''Cluck, cluck''', an egg for every day!}}
+
+===See also===
+* {{l|hu|kotkodácsol}}
+* {{l|hu|kotkodál}}
+
+{{topics|hu|Animal sounds}}
+
+==Icelandic==
+
+===Etymology===
+From {{inh|is|non|kot}}.
+
+===Pronunciation===
+* {{is-IPA}}
+
+===Noun===
+{{is-noun|@@}}
+
+# [[small]] [[farm]]
+
+====Declension====
+{{is-ndecl|n}}
+
+===Further reading===
+* {{R:is:Islex}}
+
+==Jamaican Creole==
+
+===Etymology===
+{{ety|jam|:inh|en:cut|tree=1}}
+{{inh+|jam|en|cut}}.
+
+===Verb===
+{{jam-verb}}
+
+# to [[cut]]
+# to [[leave]]
+
+===Further reading===
+* {{R:jam:majstro.com}}
+* {{R:jam:OGP}}
+
+==Khasi==
+
+===Etymology===
+Possibly borrowed from {{bor|kha|bn|কৎ||nib, quill}}.
+
+===Pronunciation===
+* {{IPA|kha|/kot/}}
+
+===Noun===
+{{head|kha|n|g=f}}
+
+# [[paper]], [[newspaper]]
+# [[book]]
+# [[yard]]
+
+===Verb===
+{{head|kha|v}}
+
+# [[reach]]
+
+====Derived terms====
+{{col2|kha|Kotbah|kotkudi|kot-sada|kot-shini|kot-shonsia|kot-thalyngka}}
+
+===References===
+* {{R:kha:Singh1906|p=45}}
+
+==Lower Sorbian==
+
+===Noun===
+{{dsb-noun|m-an|f=kocka}}
+
+# {{superseded spelling of|dsb|kót}}
+
+====Declension====
+{{dsb-decl-noun-18|ko|t|animate=1}}
+
+==Lower Tanana==
+
+===Etymology===
+From {{inh|taa|ath-pro|*qa̓tʼ}}. Cognate with {{cog|nv|-KAAD}}.
+
+===Root===
+{{head|taa|root}}
+
+# to [[slap]], [[pat]], [[wipe]]
+# a [[surface]] [[fall]]s
+
+====Stem set====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|mom|kot|kot|kwɬ|kot}}
+{{taa-stem-set-row|cns|kwt|kwt|kwt|kwt}}
+{{taa-stem-set-row|sem|kwt|kwt|kwt|kwt}}
+{{aht-stem-set-footer}}
+
+====Derived terms====
+{{col2|taa
+|ch'ikegi<t:ball>
+|ekwt<t:he/she pats it>
+}}
+
+===References===
+* {{Kari24|page=91}}
+
+==Malay==
+
+===Etymology 1===
+Same word as {{m|ms|kut}}, spelling reflecting the southern Malaysian pronunciation.
+
+====Adverb====
+{{head|ms|adverb}}
+
+# {{altform|ms|kut}}
+
+===Etymology 2===
+Alternative form of {{m|ms|ikut}}.
+
+====Preposition====
+{{head|ms|preposition}}
+
+# {{lb|ms|informal}} [[via]] {{gl|prepositioning the path taken by one to reach a destination}}
+#: {{uxi|ms|Dia lalu '''kot''' jauh.|He went '''via''' the far route.}}
+
+==Mauritian Creole==
+
+===Etymology===
+From {{der|mfe|fr|côte}}.{{attention|fr|what sense?}}
+
+===Adverb===
+{{head|mfe|adverb}}
+
+# [[where]]
+
+===References===
+* {{R:mfe:Baker:1987|page=161}}
+* {{R:mfe:Carpooran:2011|page=534}}
+
+==Norwegian Nynorsk==
+
+===Noun===
+{{nn-noun-irreg|n|kotet|kot|kota|dp2=koti}}
+
+# {{nn-former|kott|2012}}
+
+==Old Norse==
+
+===Etymology===
+From {{inh|non|gem-pro|*kutą}}
+
+===Noun===
+{{non-noun|n}}
+
+# [[cottage]], [[hut]]
+
+====Declension====
+{{non-decl-n-a|kot}}
+
+====Descendants====
+* {{desc|nn|kott}}
+* {{desc|nb|kott}}
+
+===Further reading===
+* {{R:non:Zoega}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Collage of Six Cats-03.JPG|thumb|koty]]
+
+===Etymology===
+{{ety|pl|:inh|sla-pro:*kotъ|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-kot.ogg;LL-Q809 (pol)-Olaf-kot.wav;LL-Q809 (pol)-Gower-kot.wav|hh=kod,Kot|prz=#}}
+
+===Noun===
+{{pl-noun|m-anml|f=kocica,kotka|dim=kotek|aug=kocur,kocisko|adj=koci}}
+
+# [[cat]] {{gl|any mammal of the genus {{taxfmt|Felis|genus}}}}
+# [[cat]], [[tomcat]] {{gl|male {{taxfmt|Felis catus|species}}}}
+# {{lb|pl|in plural|colloquial}} [[dust bunny]] {{gl|clump of dust that accumulates indoors}}
+# {{lb|pl|military slang}} [[rookie]] {{gl|inexperienced recruit}}
+# {{lb|pl|hunting|_|slang}} [[hare]] {{gl|any mammal of the genus {{m|mul|Lepus}}, similar to a rabbit, but larger and with longer ears}}
+#* {{quote-book|pl|title=Pan Tadeusz|author=w:Adam Mickiewicz|chapter=IV|year=1834|pageurl=https://pl.wikisource.org/wiki/Strona:PL_Adam_Mickiewicz-Pan_Tadeusz_183.jpg|passage=W istocie, '''kot''' czuł [[z#Polish|s]] tyłu myśliwych i [[psiarnia#Polish|psiarnie]],<br />[[rwać#Polish|Rwał]] w pole, [[słuch#Polish|słuchy]] wytknął jak dwa różki sarnie|lines=934–935|page=189|translation=In very truth, the '''hare''' felt behind it the hunters and the pack; it was making for the field; it stretched out behind it its ears like two deer's horns [transl. by {{w|George Rapall Noyes (Slavic scholar)|George Rapall Noyes}}]}}
+# {{lb|pl|Przemyśl}} {{ng|type of [[game]]}}
+#: {{coi|pl|dać '''kota'''|to win at this game}}
+#: {{coi|pl|dostać '''kota'''|to lose at this game}}
+
+====Declension====
+{{pl-decl-noun-m-anml|dats=kotu}}
+
+====Derived terms====
+{{col|pl|title=nouns|kociak|kocię|kocimiętka|kot abisyński|kot domowy|kot norweski leśny|kot perski|kot syjamski|koteczek|tłusty kot}}
+{{col|pl|title=proverbs|pierwsze koty za płoty}}
+{{col|pl|title=verbs|dostać kota<g:pf>|dostawać kota<g:impf>|drzeć koty<g:impf>|kocić<g:impf>|odwracać kota ogonem<g:impf>|odwrócić kota ogonem<g:pf>|okocić<g:pf>}}
+
+===Further reading===
+* {{R:pl:WSJP||29368}}
+* {{R:pl:WSJP|koty|29444}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+* {{R:pl:Saloni:1908||336}}
+
+===Anagrams===
+* {{l|pl|kto}}
+* {{l|pl|tko}}
+
+{{C|pl|Cats|Cleaning|Games|Hares|Male animals|People}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{rfe|sh}}
+
+===Pronunciation===
+* {{IPA|sh|/kɔt/}}
+
+===Conjunction===
+{{sh-con}}
+
+# {{lb|sh|archaic}} (just) [[as]], (just) [[like]]
+
+==Slovene==
+
+===Etymology 1===
+{{rfe|sl}}
+
+====Pronunciation====
+* {{sl-IPA|kot}}
+
+====Conjunction====
+{{sl-head|conj|-}}
+
+# (just) [[as]], (just) [[like]]
+
+===Etymology 2===
+From {{inh|sl|sla-pro|*kǫtъ}}.
+
+====Pronunciation====
+* {{sl-IPA|kọ́t}}
+
+====Noun====
+{{sl-noun|kọ́t|m-in}}
+
+# [[angle]]
+# [[corner]]
+
+=====Declension=====
+{{sl-decl-noun-m|kót}}
+
+===Further reading===
+{{R:sl:FR}}
+
+==Tocharian B==
+
+===Etymology===
+A form of {{m|txb|kos}}.
+
+===Pronoun===
+{{head|txb|pronoun}}
+
+# as many/much as
+
+===Further reading===
+* {{R:txb:Adams 2013|head=kot|page=215}}
+
+==Tok Pisin==
+
+===Etymology===
+From {{der|tpi|en|court}}.
+
+===Noun===
+{{head|tpi|noun}}
+
+# [[court]] (of Justice)
+
+==Turkish==
+[[Image:Jeans for men.jpg|thumb|Kot]]
+
+===Pronunciation===
+* {{IPA|tr|[ˈkot]}}
+
+===Noun===
+{{head|tr|noun}}
+
+# [[denim]]
+# [[jeans]]
+
+====Declension====
+{{tr-infl-noun-c|o|poss=1}}
+
+====Synonyms====
+* {{l|tr|blucin}}
+* {{l|tr|kot pantolon}}
+
+{{C|tr|Clothing}}
+
+==Tzotzil==
+
+===Pronunciation===
+* {{IPA|tzo|/kʰɔtʰ/}}
+
+===Classifier===
+{{head|tzo|classifier|numeral classifier}}
+
+# any types of animals except for human being
+#: ''[[j-|j]][[kot]] [[chij]] / {{l|tzo|chon}} / {{l|tzo|mut}}'' - a sheep / snake / bird
+
+===References===
+* {{R:Laughlin1975}}
+
+==Zou==
+
+===Pronunciation===
+* {{zom-IPA|kòt}}
+* {{hyph|zom|kot}}
+
+===Noun===
+{{zom-noun|kòt}}
+
+# [[door]]
+
+===References===
+* {{R:zom:Thanglienmang:2010|page=43}}
+* {{R:zom:Singh:2013|page=49}}

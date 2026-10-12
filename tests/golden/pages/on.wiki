@@ -1,0 +1,1887 @@
+{{also|Appendix:Variations of "on"}}
+{{minitoc}}
+==English==
+
+===Pronunciation===
+* {{enPR|ŏn}}
+** {{IPA|en|/ɒn/|a=RP,NZ,Eastern New England}}
+*** {{IPA|en|[ɔ̟n]|~|[ɞ̠n]|a=NZ}}
+** {{IPA|en|/ɔn/|a=SSB,Australia,Scotland}}
+*** {{audio|en|LL-Q1860 (eng)-Back ache-on.wav|a=SSB}}
+*** {{audio|en|en-au-on.ogg|a=AU}}
+** {{IPA|en|/ɑn/|a=<<Northern US>> or <<cot-caught>>}}
+*** {{audio|en|en-us-on.ogg|a=US|IPA=/ɑn/}}
+*** {{audio|en|LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-on.wav|a=GA}}
+** {{IPA|en|[ɒːn ~ ɔːn]|a=CA}}
+** {{IPA|en|/ɒn/|a=IE}}
+*** {{IPA|en|/än/|a=Dublin}}
+* {{enPR|ŏn|a=Southern US,Midland US,Philadelphia,Baltimore}} {{IPA|en|/ɔn/}}
+* {{homophone|en|awn<aa:cot-caught,Midland US,Southern US>}}
+* {{rhymes|en|ɒn|ɔːn|s=1}}
+
+===Etymology 1===
+{{etymon|en|id=over|:inh|enm:on<id:over>|tree=1}}
+From {{inh|en|enm|on}}, from {{inh|en|ang|on}}, {{m|ang|an||on, upon, onto, in, into}}, from {{inh|en|gmw-pro|*ana}}, from {{inh|en|gem-pro|*ana|t=on, at}}, from {{inh|en|ine-pro|*h₂en-|t=on, onto}}.
+{{col-top|2|cog}}
+Cognate with {{cog|yol|a}}, {{m|yol|an}}, {{m|yol|ana}}, {{m|yol|on|t=on}}, {{cog|stq|an|t=on; at}}, {{cog|fy|oan|t=on; to, towards}}, {{cog|cim|aan}}, {{m|cim|å|t=on, onto}}, {{cog|nl|aan|t=on; at}}, {{cog|nds|an|t=on; at, to}}, {{cog|de|an|t=at, in; on}}, {{cog|lb|un|t=on; at, to}}, {{cog|yi|אָן|t=on, onward}}, {{cog|da,nn,sv|å|t=on}}, {{cog|ovd|ą̊|t=on}}, {{cog|fo,is|á|t=in; on}}, {{cog|got|𐌰𐌽𐌰|t=at, on}}; also {{cog|xum|𐌀𐌌-}}, {{m|xum|𐌀𐌍-|t=up, upon}}, {{cog|grc|ἀνά|t=on, upon}} (whence {{cog|el|ανά|t=by, through, per}}), {{cog|sq|në|t=in; on}}, {{cog|lv|no|t=from; out of; for; of; with}}, {{cog|lt|nuo|t=from, off; for, of}}, {{cog|be,bg,mk,ru,uk|на|t=on}}, {{cog|cs,pl,sk,sl|na|t=on}}, {{cog|sh|на}}, {{m|sh|na|t=on}}, {{cog|xcl|ան-|t=at, on, unto}}; and from {{der|en|non|upp}} {{m|non|á}}: {{cog|da,nb,sv|på|t=on}}, {{cog|nn|paa}}, {{m|nn|på|t=on}}, see {{m|en|upon}}.
+{{col-bottom}}
+
+====Adjective====
+{{en-adj|-}}
+
+# In the state of being [[active]], [[function]]ing or [[operate|operating]].
+#: {{ant|en|off}}
+#: {{ux|en|All the lights are '''on''', so they must be home.}}
+# [[happen|Happening]]; [[take place|taking place]]; being or due to be put into action.
+#: {{ux|en|We had to ration our food because there was a war '''on'''.}}
+#: {{ux|en|Some of the cast went down with flu, but the show's still '''on'''.}}
+#: {{ux|en|That TV programme that you wanted to watch is '''on''' now.}}
+#: {{ux|en|This is her last song. You're '''on''' next!}}
+#: {{ux|en|Are we still '''on''' for tonight?}}
+#: {{ux|en|Mike just threw coffee onto Paul's lap. It's '''on''' now.}}
+#: {{ux|en|England need a hundred runs, with twenty-five overs remaining. Game '''on'''!}}
+## {{lb|en|informal}} {{n-g|Of a person, used to express agreement to or acceptance of a proposal or challenge made by that person; most commonly with subject "you" (see ''[[you're on]]'').}}
+##: {{ux|en|"Five bucks says the Cavs win tonight." ―"You're '''on'''!"}}
+##: {{ux|en|If he wants a fight, he's '''on'''!}}
+# Fitted; covering or being worn.
+#: {{ux|en|Your feet will soon warm up once your socks are '''on'''.}}
+#: {{ux|en|I was trying to drink out of the bottle while the top was still '''on'''!}}
+# {{lb|en|postpositive}} Of a stated part of something, oriented towards the viewer or other specified direction.{{cln|en|adjectives commonly used as postmodifiers}}
+#: {{ux|en|The photograph shows the UFO side '''on'''.}}
+#: ''edge '''on''''', ''side '''on''''', ''end '''on''''', ''face '''on'''''
+# {{lb|en|chiefly|UK|informal|negative polarity}} {{cap|acceptable}}, [[appropriate]].
+#: {{ux|en|It's not fair to do that – it's just not '''on'''.}}
+#* {{quote-newsgroup|en|date=May 22 1998|author=Phoenix Gamma|title=If I was owned Nintendo...|newsgroup=alt.games.video.nintendo-64
+|passage=This kind of over-packaging of goods is completely not '''on'''.}}
+#* {{quote-newsgroup|en|date=August 12 2003|author=DAB sounds worse than FM|title=Gerg Dyke's Speech at Radio Festival|newsgroup=alt.radio.digital
+|passage=so Simon Nelson saying on Feedback "we'd prefer it if everybody listened to digital radio via DAB" is completely not '''on''' at all.}}
+# {{lb|en|negative polarity}} {{cap|possible}}; capable of being successfully [[carry out|carried out]].
+#: {{ux|en|Climbing up that steep ridge isn't '''on'''. We'll have to find another route.}}
+#: {{ux|en|He'd like to play the red next to the black spot, but that shot isn't '''on'''.}}
+# {{lb|en|e.g. of points in a game}} {{cap|available}}; [[remaining]].
+#: {{ux|en|Smith is 25 points ahead with only 23 '''on'''.}}
+# {{lb|en|baseball|informal}} Having reached a [[base]] as a [[runner]] and being positioned there, awaiting further action from a subsequent batter.
+#* {{quote-web|en|date=2019-02-24|author=Chris Kennedy|title=Aggies Earn Series Win Over Yale in Sunday Finale|site=New Mexico State University Athletics|url=https://nmstatesports.com/news/2019/2/24/baseball-aggies-earn-series-win-over-yale-in-sunday-finale.aspx|text=With one out and no men '''on''', Tristen Carranza belted a ball to the opposite field for a solo home run to put the NM State deficit at just 2-1.}}
+#* {{quote-web|en|date=2019-04-06|author=Daniel Martinez-Krams|title=Baseball Falls Short in Game 2 of UCLA Series|site=The Stanford Daily|url=https://www.stanforddaily.com/2019/04/06/baseball-falls-short-in-game-2-of-ucla-series/|text=Although Stanford was outhit 15-6, the Cardinal stranded eight runners to UCLA's three, hitting just 3-15 with runners '''on''' compared to the Bruin's 9-22.}}
+# {{lb|en|cricket}} Within the [[half]] of the [[field]] on the same side as the [[batsman]]'s [[leg]]s; the [[left]] side for a [[right-handed]] batsman.
+#: {{syn|en|leg}} {{ant|en|off}}
+#: {{ux|en|The captain moved two fielders to the '''on''' side.}}
+#: {{ux|en|Ponsonby-Smythe hit a thumping '''on''' drive.}}
+# {{lb|en|snooker|postpositive}} Of a ball, being the next in sequence to be potted, according to the rules of the game.
+#: {{ux|en|If the player fails to hit the ball '''on''', it's a foul.}}
+# {{lb|en|acting|drama|RPG}} Acting [[in character]].
+# {{lb|en|informal|of a person}} Performative or funny in a wearying manner.
+#: {{ux|en|He always has to be '''on''', it's so exhausting.}}
+# {{lb|en|euphemistic}} [[menstruating|Menstruating]].
+#* {{quote-book|en|year=2011|author=Hollie Smith Netmums|title=You and Your Tween: Managing the years from 9 to 13|publisher=Hachette|isbn=9780755361137
+|passage=It still gets in the way of her doing things like swimming, and she avoids sleepovers when she's "'''on'''".}}
+
+=====Synonyms=====
+* {{sense|baseball: positioned at a base}} {{l|en||on}} [[base]] {{qualifier|not informal}}
+
+=====Translations=====
+{{trans-top|in the state of being active, functioning or operating}}
+* Arabic: {{t|ar|فعّال|tr=faʕʕāl|lit=active}}
+* Armenian: {{t|hy|միացրած}}
+* Asturian: {{t|ast|encendíu}}
+* Czech: {{t|cs|zapnuto}}
+* Dutch: {{t+|nl|aan}}, {{t+|nl|op}}, {{t+|nl|actief}}
+* Estonian: {{t+|et|sees}}
+* Finnish: {{t+|fi|päällä}}, {{t+|fi|-lla}}, {{t+|fi|-llä}} {{qualifier|adessive case}}
+* French: {{t+|fr|allumé}}
+* Galician: {{t|gl|acendido|m}}, {{t|gl|prendido|m}}
+* German: {{t+|de|an}}, {{t+|de|ein}}, {{t+|de|eingeschaltet}}, {{t+|de|angeschaltet}}
+* Greek: {{t+|el|ανοικτό|n}}
+* Hungarian: {{t|hu|bekapcsolva}}
+* Icelandic: {{t|is|kveiktur}}
+* Indonesian: {{t+|id|menyala}}
+* Italian: {{t+|it|acceso}}
+* Persian: {{t+|fa|روشن|tr=rowšan}}, {{t+|fa|فعال|tr=fa'âl}}
+* Polish: {{t|pl|włączony}}
+* Portuguese: {{t+|pt|ligado}}
+* Russian: {{t+|ru|вклю́чить|alt=вклю́ченный}}, {{t|ru|вкл.}} {{qualifier|abbreviation}}
+* Scottish Gaelic: {{t|gd|air}}
+* Slovak: {{t|sk|zapnutý|alt=zapnuté}}
+* Spanish: {{t+|es|encendido}}, {{t+|es|conectado}}
+* Swedish: {{t+|sv|på}}, {{t+|sv|igång}}
+* Zazaki: {{t+|zza|de}}
+{{trans-bottom}}
+
+{{trans-top|happening, take place}}
+* Indonesian: {{t+|id|terjadi}}
+{{trans-bottom}}
+
+{{trans-top|destined}}
+* Danish: {{t+|da|på}}
+* Finnish: {{no equivalent translation|fi}} {{t|fi|[[olla]] [[meno]]a}}
+* French: {{t+|fr|parti}}
+* Greek: ''periphrastically''
+* Italian: {{t+|it|dentro}}
+* Portuguese: {{t+|pt|destinar}}
+* Swedish: {{t+|sv|för}}, {{t+|sv|på}}
+{{trans-bottom}}
+
+{{trans-top|cricket: in, or towards the half of the field on the same side as the batsman's legs}}
+* Finnish: {{t|fi|''on''-[[puoli|puolella]]}}
+{{trans-bottom}}
+
+====Adverb====
+{{en-adv|-}}
+
+''For idiomatic meanings of phrasal verbs, such as [[carry on]], [[hang on]], [[have on]], [[try on]], etc., please see the individual entries.''
+# To an [[operate|operating]] [[state]].
+#: {{ux|en|turn the [[television]] '''on'''}}
+# So as to cover or be fitted.
+#: {{ux|en|The lid wasn't screwed '''on''' properly.}}
+#: {{ux|en|Put '''on''' your hat and gloves.}}
+# Along, forwards (continuing an action), [[onwards]].
+#: {{ux|en|The policeman moved the tramp '''on'''.}}
+#: {{ux|en|Drive '''on''' past the railway station.}}
+#: {{ux|en|From now '''on''' things are going to be different.}}
+#: {{ux|en|rock '''on'''}}
+#* {{quote-journal
+|en
+|date=May 5, 2012
+|author=Phil McNulty
+|title=Chelsea 2-1 Liverpool
+|work=BBC Sport
+|url=http://www.bbc.co.uk/sport/0/football/17878435
+|page=
+|passage=He met Luis Suarez's cross at the far post, only for Chelsea keeper Petr Cech to show brilliant reflexes to deflect his header on to the bar. Carroll turned away to lead Liverpool's insistent protests that the ball had crossed the line but referee Phil Dowd and assistant referee Andrew Garratt waved play '''on''', with even a succession of replays proving inconclusive.}}
+# In continuation, at length.
+#: {{ux|en|and so '''on'''}}
+#: {{ux|en|He rambled [[on and on|'''on''' and '''on''']].}}
+# {{lb|en|infrequent in the US}} [[later|Later]].
+#: {{ux|en|Ten years '''on''', nothing had changed in the village.}}
+# {{senseid|en|odds-on}} {{n-g|Of betting odds, denoting a better-than-even chance.}} ''See also '''[[odds-on]]'''''.
+#: {{ant|en|against}}
+#: {{ux|en|That horse is twenty-to-one '''on''', so you need to stake twenty pounds just to win one pound.}}
+# {{lb|en|snooker}} Of a ball, into a pottable position.
+#: {{ux|en|The black was previously unavailable, but in potting that red, he's now pushed the black '''on'''.}}
+
+=====Synonyms=====
+* {{sense|later}} {{l|en|after}}, {{l|en|afterward}}/{{l|en|afterwards}}, {{l|en|later}}, {{l|en|subsequently}}, {{l|en|thence}}
+
+=====Antonyms=====
+* {{antsense|active, functioning, operating}} {{l|en|off}}
+* {{antsense|to an operating state}} {{l|en|off}}
+
+=====Descendants=====
+* {{desc|ta|ஆன்|bor=1}}
+
+=====Translations=====
+{{trans-top|to an operating state}}
+* Dutch: {{t+|nl|aan}}
+* Finnish: {{t+|fi|päälle}}
+* German: {{t+|de|an}}, {{t+|de|ein}}
+* Greek: ''periphrastically''
+* Italian: ''not used in Italian''
+* Norwegian:
+*: Bokmål: {{t+|nb|på}}
+*: Nynorsk: {{t|nn|på}}
+* Persian: {{t+|fa|روشن|tr=rowšan}}
+* Swedish: {{t+|sv|på}}
+{{trans-bottom}}
+
+{{trans-top|to cover or be fitted}}
+* Indonesian: {{t+|id|pasang}}, {{t+|id|pakai}}
+{{trans-bottom}}
+
+{{trans-top|continuing an action}}
+* Finnish: {{t+|fi|edelleen}}
+* French: {{t+|fr|encore}}
+* German: {{t+|de|weiter}}
+* Greek: ''periphrastically''
+* Italian: ''not used in Italian''
+* Slovak: {{t|sk|ďalej}}
+* Swedish: {{t+|sv|på}}, {{t+|sv|vidare}}
+{{trans-bottom}}
+
+{{trans-top|along, forwards (continuing an action)}}
+* Finnish: {{t+|fi|edelleen}}
+* French: {{t+|fr|encore}}
+* German: {{t+|de|an}}
+* Greek: ''periphrastically''
+* Italian: {{t+|it|ancora}}
+* Slovak: {{t|sk|ďalej}}
+* Swedish: {{t+|sv|vidare}}
+{{trans-bottom}}
+
+====Preposition====
+[[File:Encima.png|thumb|A {{w|GIMP|green pepper}} '''on''' (with its position being the upper surface of) a box.]]
+{{en-head|prep}}
+
+# {{n-g|Indicating position or location.}}
+## Positioned at the [[upper]] surface of, [[touch]]ing from [[above]].
+##: {{ux|en|A vase of flowers stood '''on''' the table.}}
+##: {{ux|en|Please lie down '''on''' the couch.}}
+##: {{ux|en|The parrot was sitting '''on''' Jim's shoulder.}}
+##: {{ux|en|We should go sailing '''on''' the lake together sometime.}}
+##* {{quote-text|en|year=1845|author=w:Henry Wadsworth Longfellow|title=The Bridge
+|passage=I stood '''on''' the bridge at midnight.}}
+## Positioned at or resting against the outer surface of; attached to.
+##: {{ux|en|He had a scar '''on''' the side of his face.}}
+##: {{ux|en|There is a dirty smudge '''on''' this window.}}
+##: {{ux|en|The painting hangs '''on''' the wall.}}
+##: {{ux|en|The fruit ripened '''on''' the trees.}}
+##: {{ux|en|Should there be an accent '''on''' the "e"?}}
+## [[covering|Covering]].
+##: {{ux|en|He wore old shoes '''on''' his feet.}}
+## [[at#Preposition|At]] or in (a geographical location or position).
+##: ''The lighthouse that you can see is '''on''' the mainland.''
+##: ''The suspect is thought to still be '''on''' the campus.''
+## [[at#Preposition|At]] (a relative spatial position).
+##: ''We live '''on''' the edge of the city.''
+##: '''''on''' the left, '''on''' the right, '''on''' the side, '''on''' the bottom''
+## Near; [[adjacent]] to; [[alongside#Preposition|alongside]]; just off.
+##: {{ux|en|The fleet is '''on''' the American coast.}}
+##: {{ux|en|[[wikipedia:Croton-on-Hudson|Croton'''-on-'''Hudson]], [[wikipedia:Rostov-on-Don|Rostov'''-on-'''Don]], [[wikipedia:Southend-on-Sea|Southend'''-on-'''Sea]]}}
+## Aboard (a mode of transport, especially public transport, or transport that one sits astride or uses while standing).
+##: '''''on''' a bus'', '''''on''' a train'', '''''on''' a plane'', '''''on''' a ferry'', '''''on''' a yacht''
+##: '''''on''' a bicycle'', '''''on''' a motorbike'',  '''''on''' a horse'', '''''on''' a scooter''
+## {{label|en|nautical}} In the direction of (some part of one's vessel), to within 45 degrees.
+##: {{ux|en|A ship was sighted '''on''' the {{m|en|port}} {{m|en|quarter}}.}}
+##: {{ux|en|'''on''' the {{m|en|bow}}; '''on''' the {{m|en|starboard}} {{m|en|beam}}}}
+# {{n-g|Expressing figurative placement, burden, or attachment.}}
+#: {{ux|en|All of the responsibility is '''on''' him.}}
+#: {{ux|en|I put a bet '''on''' the winning horse.}}
+# {{n-g|Denoting physical contact or interaction with an object, such as impact or application of force.}}
+## {{n-g|With verbs describing an action of pushing, pulling, pressing, etc., designates the thing to which force is applied.}}
+##: ''tug '''on''' the rope''; ''push hard '''on''' the door''
+## {{n-g|With verbs describing an action of hitting, rubbing, scratching, binding against, etc., designates the thing impacted or contacted.}}
+##: {{ux|en|I stubbed my toe '''on''' an old tree stump.}}
+##: {{ux|en|I caught my fingernail '''on''' the door handle.}}
+##: {{ux|en|The rope snagged '''on''' a branch.}}
+## {{n-g|Denoting performance or action by contact with the surface, upper part, or outside of anything}} By means of; with.
+##: {{ux|en|to play '''on''' a violin or piano}}
+# [[support|Supported]] by (the specified part of itself).
+#: {{ux|en|A table can't stand '''on''' two legs.}}
+#: {{ux|en|After resting '''on''' his elbows, he stood '''on''' his toes, then walked '''on''' his heels.}}
+# {{lb|en|UK}} At (a certain value or level).
+#: {{ux|en|The Tories are '''on''' twenty-five percent in this constituency.}}
+#: {{ux|en|The blue team are '''on''' six points and the red team '''on''' five.}}
+# At (a certain position within a sequence).
+#: {{ux|en|I'm '''on''' question four.}}
+# At or during the [[date]] or [[day]] of.
+#: {{ux|en|Born '''on''' the 4th of July.}}
+#: {{ux|en|'''On''' Sunday I'm busy. I'll see you '''on''' Monday.}}
+#: {{ux|en|Can I see you '''on''' a different day?}}
+# {{lb|en|UK|especially in sports reporting}} At (a given time after the start of something).
+#: {{ux|en|Smith scored again '''on''' twelve minutes, doubling Mudchester Rovers' lead.}}
+#* {{quote-journal|en|date=September 24, 2011|author=Aled Williams|work=w:BBC Sport
+|url=http://news.bbc.co.uk/sport2/hi/football/eng_prem/14957961.stm|title=Chelsea 4-1 Swansea
+|passage=The Spain striker had given Chelsea the lead '''on''' 29 minutes but was shown a straight red card 10 minutes later for a rash challenge on Mark Gower.|archiveurl=https://web.archive.org/web/20260103105412/http://news.bbc.co.uk/sport2/hi/football/eng_prem/14957961.stm}}
+# At (an instant or cusp).
+#: {{ux|en|'''on''' the stroke of midnight; '''on''' the "B" of "Bang!"}}
+#: {{ux|en|'''on''' the point of leaving; '''on''' the verge of giving up}}
+#* {{RQ:Bramah Eyes of Max Carrados|passage=About two weeks ago I had another foretaste of success and immediately '''on''' it a veritable disaster.}}
+# [[deal|Dealing]] with the [[subject]] of; [[about]]; [[concerning]].
+#: {{ux|en|I was reading a book '''on''' history.}}
+#: {{ux|en|The city hosted the World Summit '''on''' the Information Society}}
+#: {{ux|en|I have no opinion '''on''' this subject.}}
+#* {{RQ:Trollope He Knew|volume=I|chapter=Lady Milborough as Ambassador|page=85|passage=[...] I received a note from that gentleman '''on''' a most trivial matter. I answered it as trivially.}}
+# {{non-gloss|Indicating a means or medium.}}
+#: {{ux|en|I saw it '''on''' television.}}
+#: {{ux|en|Can't you see I'm '''on''' the phone?}}
+#: {{ux|en|My favorite shows are '''on''' BBC America.}}
+#: {{ux|en|The Beatles' appearance '''on''' the ''Ed Sullivan Show'' is '''on''' YouTube.}}
+#: {{ux|en|The film was released '''on''' DVD.}}
+#: {{ux|en|I'll pay '''on''' card.}}
+#: {{ux|en|He travelled '''on''' false documents.}}
+# {{non-gloss|Indicating the target of, or thing affected by, an event or action.}}
+#: {{ux|en|They planned an attack '''on''' London.}}
+#: {{ux|en|The soldiers mutinied and turned their guns '''on''' their officers.}}
+#: {{ux|en|Her words made a lasting impression '''on''' my mind.}}
+#: {{ux|en|What will be the effect '''on''' morale?}}
+# {{lb|en|informal}} In the possession of.
+#: {{ux|en|I haven't got any money '''on''' me.}}
+# Because of; [[on the basis of|upon the basis of]] (something not yet confirmed as true).
+#: {{ux|en|to arrest someone '''on''' suspicion of bribery}}
+#: {{ux|en|to contact someone '''on''' a hunch}}
+# {{lb|en|also often '[[upon]]'}} At the time of (and often because of).
+#: {{ux|en|'''On''' Jack's entry, William got up to leave.}}
+#: {{ux|en|'''On''' the addition of ammonia, a chemical reaction begins.}}
+#* {{quote-journal|en|date=14 Feb 88|volume=15|number=30|journal=Gay Community News|page=7|title=Confronting The Mythology Of Motherhood|author=Louise Rice|quotee=Angela Bowen|text=A young woman, before marriage, hears only the myths of wedded bliss. Later, '''on''' discovering the truth, she conspires with other women to conceal it.}}
+# {{lb|en|also often '[[upon]]'}} Arrived or coming into the presence of.
+#: {{ux|en|I need to get my planting done, as the season will soon be '''on''' us.}}
+#: {{ux|en|Before we knew it, the forest was '''on''' us, and the air grew colder and damper.}}
+# [[paid|Paid]] for by.
+#: {{ux|en|The drinks are '''on''' me tonight, boys.}}
+#: {{ux|en|The meal is '''on''' the house.}}
+#: {{ux|en|I paid for the airfare and meals for my family, but the hotel room was '''on''' the company.}}
+# [[toward|Toward]]; for; {{n-g|indicating the object of an emotion}}.
+#: {{ux|en|Have pity or compassion '''on''' him.}}
+# {{senseid|en|thirst on}} {{lb|en|especially|Ireland}} {{n-g|Indicating the person<!-- (etc.)--> experiencing an emotion, cold, thirst, hunger, etc.}}
+#: {{ux|en|I had a terrible thirst '''on''' me.}}
+#* {{quote-book|en|date=2013-02-27|author=Rosemary Sutcliff|title=The Shining Company|publisher=Random House|isbn=9781448173679
+|text='{{...}} the hunger is '''on''' me to carry my sword in distant places.' Mynyddog bowed his head.}}
+#* {{quote-book|en|date=2017-01-24|author=Ruth Gilligan|title=Nine Folds Make a Paper Swan|publisher=Tin House Books|isbn=9781941040508
+|text=“Christ, the thirst '''on''' me.” “Sure, it's serious work, all that talk of independence.” The theater's stained-glass doors had first flung open in 1904, all in the hope of “rewriting the Irish identity,” of using culture in the fight{{nb...}}}}
+#* {{quote-book|en|date=2017-08-29|author=Ralph Peters|title=Judgment at Appomattox: A Novel|publisher=Forge Books|isbn=9780765381705|page=18
+|text=“I've got the hunger '''on''' me, I do.” Riordan snorted. Hardly a man knew hunger as he did. The prison rations at Point Lookout, spare enough, had been a feast compared to the black years in Ireland.{{nb...}}}}
+# {{non-gloss|Indicating a means of subsistence or sustenance.}}
+#: {{ux|en|They lived '''on''' ten dollars a week.}}
+#: {{ux|en|The dog survived three weeks '''on''' rainwater.}}
+#* '''1950s''', UK Egg Marketing Board advertising slogan.
+#*: {{w|Go to work on an egg|Go to work '''on''' an egg.}}
+# Engaged in or occupied with (an action or activity).
+#: {{ux|en|He's '''on''' his lunch break.}}
+#: {{ux|en|I'm '''on''' nights all this week.}}
+#: {{ux|en|'''on''' vacation; '''on''' holiday; '''on''' a mission; [[on the job|'''on''' the job]]; [[on the fiddle|'''on''' the fiddle]]}}
+# {{senseid|en|a drug}} Regularly taking (a drug).
+#: {{ux|en|You've been '''on''' these antidepressants far too long.}}
+# {{senseid|en|influenced by a drug}} Under the influence of (a drug, or something that is causing drug-like effects).
+#: {{ux|en|He's acting crazy because he's '''on''' crack right now.}}
+# In addition to; besides; {{n-g|indicating multiplication or succession in a series}}.
+#: {{ux|en|heaps '''on''' heaps of food}}
+#: {{ux|en|mischief '''on''' mischief; loss '''on''' loss}}
+# {{n-g|Indicating dependence or reliance}}.
+#: {{ux|en|I depended '''on''' them for assistance.}}
+#: {{ux|en|He will promise '''on''' certain conditions.}}
+# Serving as a [[member]] of.
+#: {{ux|en|He is '''on''' the jury; I am '''on''' the committee.}}
+# By virtue of; with the pledge of.
+#: {{ux|en|He affirmed or promised '''on''' his word, or '''on''' his honour.}}
+## {{lb|en|informal|chiefly in [[set phrase]]s}} {{ellipsis of|en|[[I]] [[swear]] [[on]]}}: [[on my life]], [[on God]], on everything, [[etc.]]
+# To the account or [[detriment]] of; {{n-g|denoting [[imprecation]] or invocation, or coming to, falling, or resting upon}}.
+#: {{ux|en|'''On''' us be all the blame.}}
+#: {{ux|en|A curse '''on''' him!}}
+#: {{ux|en|Please don't tell '''on''' her and get her in trouble.}}
+#: {{ux|en|He turned '''on''' her and has been her enemy ever since.}}
+#: {{ux|en|He went all honest '''on''' me, making me listen to his confession.}}
+#* {{RQ:KJV|Matthew|27|25||His blood be '''on''' vs, and '''on''' our children.}}
+# {{lb|en|especially when numbers of combatants or competitors are specified}} [[against|Against]]; in [[opposition]] to.
+#: {{ux|en|The fight was three '''on''' one, and he never stood a chance.}}
+# {{lb|en|philosophy|logic}} [[according to|According to]], from the [[standpoint]] of; ({{n-g|expressing what must follow, whether accepted or not, if a given [[premise]] or [[system]] is assumed true}}).
+#: {{syn|en|in|under|with|within}}
+#* {{quote-book|en|year=2021
+|author=w:Gavin Ortlund
+|title=Why God Makes Sense in a World That Doesn't: The Beauty of Christian Theism
+|publisher=Baker Academic |location=Grand Rapids, MI |isbn=9781493432455
+|passage='''On''' naturalism, it is therefore difficult to find a ground for ultimate moral hope.}}
+# {{lb|en|snooker}} In a position of being able to pot (a given ball).
+#: {{ux|en|All the way around the table, off four cushions, and ... and he's '''on''' the black!}}
+# {{lb|en|mathematics}} Having as identical [[domain]] and [[codomain]].
+#: {{ux|en|a function '''on''' <math>\mathbb{R}</math>}}
+# {{lb|en|mathematics}} Having <math>V^n</math> as [[domain]] and ''V'' as [[codomain]], for the specified set ''V'' and some integer ''n''.
+#: {{ux|en|an operator '''on''' <math>\mathbb{Z}</math>}}
+# {{lb|en|mathematics}} [[generate|Generated]] by.
+#: {{ux|en|the free group '''on''' four letters}}
+# {{lb|en|mathematics|Quebec}} [[divide|Divided]] by.
+#: {{syn|en|over}}
+#: {{ux|en|Twenty '''on''' three.}}
+# {{lb|en|obsolete|or|dialect|regional}} [[of|Of]].
+#: {{ux|en|I never seen 'im, and that's the truth '''on''' it.}}
+#* {{RQ:Shakespeare Julius Caesar|act=I|scene=ii|passage=Be not jealous '''on''' me.}}
+#* {{RQ:Shakespeare Macbeth|act=I|scene=iii|passage=Or have we eaten '''on''' the insane root / That takes the reason prisoner?}}
+# {{lb|en|obsolete}} At the peril of, or for the safety of.
+#* {{RQ:Homer Dryden Iliad|title=Ilias 1|page=415|passage=Hence '''on''' thy life: the captive maid is mine; / Whom not for price or pray'rs I will reſign: [...]}}
+
+=====Synonyms=====
+* {{sense|dealing with the subject of}} {{l|en|about}}, {{l|en|apropos}}, {{l|en|as for}}; See also [[Thesaurus:about]]
+* {{sense|because of}} {{l|en|by dint of}}, {{l|en|due to}}; See also [[Thesaurus:because of]]
+
+=====Derived terms=====
+{{col|en
+|depending on
+|end-on
+|follow-on
+|from now on
+|from then on
+|full-on
+|guidon
+|hands-on
+|hereon
+|land on
+|meson
+|onballer
+|on call,on-call
+|on-campus
+|on-chain
+|onfield
+|on foot
+|onglaze
+|ongoer
+|ongoing
+|on high
+|onlap
+|onlooker
+|onpass
+|on-prem
+|on-ramp
+|onramp
+|onscreen
+|onsell
+|onsetter
+|onshore
+|onside
+|onsides
+|onsight
+|on-site
+|onsite
+|onstage
+|on stream,onstream
+|on time,on-time
+|onto
+|on-trade
+|on-train
+|onward
+|onwards
+|onz
+|painted-on
+|pull on
+|pull up on
+|push up on
+|put on
+|put on airs
+|run up on
+|Stanton-on-the-Wolds
+|strap-on
+|thereon
+|whereon
+}}
+
+=====Translations=====
+{{trans-top|positioned at the upper surface of}}
+* Albanian: {{t+|sq|mbi}} {{qualifier|+ acc.}}
+* Arabic: {{t+|ar|عَلَى}}
+*: Egyptian Arabic: {{t|arz|على|tr=ʕala}}
+* Armenian: {{t+|hy|վրա}}
+* Asturian: {{t+|ast|sobre}}
+* Azerbaijani: {{t|az|üzərində}}, {{t|az|üstündə}}
+* Bakhtiari: {{t|bqi|سر|tr=sar}}
+* Bashkir: {{t|ba|тураһында}}
+* Belarusian: {{t|be|на}}
+* Belizean Creole: {{t|bzj|pahn}}
+* Bengali: {{t+|bn|উপর}}
+* Bhojpuri: {{t|bho|ऊपर}}
+* Breton: {{t+|br|war}}
+* Bulgarian: {{t+|bg|на}}
+* Burmese: {{t+|my|မှာ}}, {{t+|my|၌}}, {{t+|my|အပေါ်}}
+* Catalan: {{t+|ca|sobre}}
+* Chinese:
+*: Mandarin: {{t+|cmn|上|alt=……上|tr=... shàng}}
+* Chuukese: {{t|chk|won}}
+* Cornish: {{t|kw|war}}
+* Czech: {{t+|cs|na}}
+* Dalmatian: {{t|dlm|saupra}}
+* Danish: {{t+|da|på}}
+* Dutch: {{t+|nl|op}}
+* Esperanto: {{t+|eo|sur}}
+* Estonian: {{t+|et|peal}} {{q|or adessive case}}
+* Finnish: {{t+|fi|päällä}}
+* French: {{t+|fr|sur}}
+* Galician: {{t+|gl|sobre}}, {{t+|gl|encol de}}, {{t+|gl|en}}
+* Ge'ez: {{t|gez|ላዕለ}}
+* Georgian: {{t|ka|-ზე}}
+* German: {{t+|de|auf}}
+* Gothic: {{t|got|𐌰𐌽𐌰}} {{q|+ dative}}
+* Greek: {{t+|el|πάνω}}, {{t+|el|σε}}
+*: Ancient Greek: {{t|grc|ἐπί}} {{q|+ dative}}, {{t|grc|ἐν}}
+* Guarani:
+*: Mbya Guarani: {{t|gun|áry}}
+*: Paraguayan Guarani: {{t-check|gug|ári}}
+* Hebrew: {{t+|he|עַל|tr=al}}, {{t|he|על פני}}
+* Hindi: {{t+|hi|पर|alt=... पर}}
+* Hungarian: {{t+|hu|-n}}, {{t+|hu|-on}}, {{t+|hu|-en}}, {{t+|hu|-ön}} {{qualifier|superessive case}}
+* Icelandic: {{t+|is|á}}
+* Ido: {{t+|io|sur}}
+* Indonesian: {{t+|id|di atas}}, {{t+|id|atas}}
+* Interlingua: {{t+|ia|super}}, {{t+|ia|sur}}
+* Irish: {{t|ga|ar}}
+* Italian: {{t+|it|su}}, {{t+|it|sopra}}
+* Japanese: {{t+|ja|上|alt=…の上に|tr=… no ue ni}}
+* Kazakh: {{t|kk|үстінде}}
+* Khmer: {{t|km|នៅលើ|tr=nɨv ləə}}
+* Komi:
+*: Komi-Zyrian: {{t|kpv|вылын}}
+* Korean: {{t|ko|위에|alt=...위에}}
+* Kurdish:
+*: Central Kurdish: {{t|ckb|لەسەر}}, {{t|ckb|لە سەر}}
+*: Northern Kurdish: {{t+|kmr|ser}}
+* Kyrgyz: {{t|ky|үстүнө}}, {{t+|ky|үстүндө}}
+* Lao: {{t|lo|ເທິງ}}, {{t|lo|ບົນ}}
+* Latin: {{t+|la|in}}, {{t+|la|super}}, {{t+|la|suprā}}, {{t+|la|ab}}, {{t+|la|a}}
+* Latvian: {{t+|lv|uz}}
+* Ligurian: {{t|lij|in sce}}
+* Lithuanian: {{t+|lt|ant}}
+* Livonian: {{t|liv|pǟl}} {{qualifier|postposition}}
+* Macedonian: {{t|mk|на}}
+* Malay: {{t+|ms|atas}}, {{t|ms|di atas}}
+* Maltese: {{t|mt|fuq}}
+* Mirandese: {{t|mwl|subre}}
+* Mongolian: {{t+|mn|дээр}}
+* Navajo: {{t|nv|bikááʼ|tr=bɪkʰáːʔ}}, {{t|nv|bąąh}}
+* Neapolitan: {{t|nap|ngoppe}}
+* Norwegian: {{t+|no|på}}
+*: Bokmål: {{t+|nb|på}}
+*: Nynorsk: {{t|nn|på}}
+* Occitan: {{t+|oc|sobre}}
+*: Old Occitan: {{t|pro|sobre}}
+* Old Church Slavonic:
+*: Cyrillic: {{t|cu|на}}
+* Old East Slavic: {{t|orv|на}}
+* Pashto: {{t+|ps|پر|tr=për}}, {{t+|ps|باندې|tr=bânde}}
+* Persian: {{t+|fa|روی|tr=ru-ye}}, {{t+|fa|بر|tr=bar}}, {{t+|fa|سوار|tr=savâr}} {{q|sense 1.7, aboard}}
+* Polish: {{t+|pl|na}}
+* Portuguese: {{t+|pt|na}}, {{t+|pt|no}}, {{t+|pt|sobre}}
+* Romagnol: {{t|rgn|adòs}}
+* Romanian: {{t+|ro|deasupra}}, {{t+|ro|pe}}
+* Russian: {{t+|ru|на}}
+* Scottish Gaelic: {{t|gd|air}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|на}}
+*: Latin: {{t+|sh|na}}
+* Sicilian: {{t+|scn|supra}}, {{t+|scn|sùpira}}
+* Slovak: {{t+|sk|na}}
+* Slovene: {{t+|sl|na}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|na}}
+* Spanish: {{t+|es|en}}, {{t+|es|sobre}}
+* Swedish: {{t+|sv|på}}, {{t+|sv|ovanpå}}, {{t+|sv|å}}, {{t|sv|upp å}}
+* Tajik: {{t+|tg|ба}}, {{t|tg|рӯи}}, {{t+|tg|бар}}
+* Thai: {{t+|th|บน}}
+* Tibetan: {{t|bo|སྒང་ལ}}
+* Turkish: {{t+|tr|üstünde}}
+* Turkmen: {{t|tk|üstünde}}
+* Ukrainian: {{t+|uk|на}}
+* Urdu: {{t|ur|پر|alt=... پر|tr=... par}}
+* Uyghur: {{t|ug|ئۈستىدە}}
+* Uzbek: {{t+|uz|ustiga}}
+* Vietnamese: {{t+|vi|trên}}
+* Volapük: {{t+|vo|su}}
+* Walloon: {{t+|wa|so}}, {{t+|wa|dissu}}
+* Welsh: {{t+|cy|ar}}
+* Yiddish: {{t|yi|אויף}}
+* Zazaki: {{t|zza|sero|m}}, {{t|zza|sera|f}}
+{{trans-bottom}}
+
+{{trans-top|positioned at or resting against the outer surface of; attached to}}
+* Arabic: {{t+|ar|عَلَى}}
+* Armenian: {{t+|hy|վրա}}
+* Czech: {{t+|cs|na}}
+* Dutch: {{t+|nl|bij}} {{gloss|on me}}, {{t+|nl|aan}} {{gloss|on a tree}}
+* Esperanto: {{t+|eo|sur}}
+* Finnish: {{t+|fi|-lla}}, {{t+|fi|-llä}} {{qualifier|adessive case}}
+* French: {{t+|fr|sur}}
+* Frisian:
+*: West Frisian: {{t|fy|oan}}, {{t+|fy|by}}
+* German: {{t+|de|an}}, {{t+|de|bei}}
+* Greek: {{t+|el|πάνω}}
+* Hebrew: {{t|he|נוגע}}, {{t|he|תלוי על}}
+* Hungarian: {{t+|hu|-n}}, {{t+|hu|-on}}, {{t+|hu|-en}}, {{t+|hu|-ön}} {{qualifier|superessive case}}
+* Italian: {{t+|it|su}}, {{t+|it|a}}
+* Latin: {{t+|la|in}}, {{t+|la|super}}, {{t+|la|supra}}
+* Pashto: {{t+|ps|پورې|tr=pore}}
+* Persian: {{t+|fa|روی|tr=ru-ye}}
+* Polish: {{t+|pl|na}}
+* Portuguese: {{t+|pt|na}}, {{t+|pt|no}}
+* Slovak: {{t+|sk|na}}
+* Slovene: {{t+|sl|na}}
+* Spanish: {{t+|es|en}}, {{t+|es|sobre}}
+* Swedish: {{t+|sv|på}}
+* Tibetan: {{t|bo|ལྡེབས་ལ}}
+* Zazaki: {{t|zza|naser}}
+{{trans-bottom}}
+
+{{trans-top|covering}}
+* Arabic: {{t+|ar|عَلَى}}
+* Armenian: {{t+|hy|վրա}}
+* Burmese: {{t+|my|မှာ}}, {{t+|my|၌}}
+* Dutch: {{t+|nl|over}}
+* Esperanto: {{t+|eo|sur}}
+* Finnish: {{t+|fi|päällä}}, {{t+|fi|yllä}}
+* French: {{t+|fr|sur}}, {{t+|fr|au-dessus}}
+* German: {{t+|de|über}}
+* Greek: {{t+|el|πάνω}}
+* Hebrew: {{t+|he|מכסה}}
+* Hungarian: {{t+|hu|-n}}, {{t+|hu|-on}}, {{t+|hu|-en}}, {{t+|hu|-ön}} {{qualifier|superessive case}}
+* Italian: {{t+|it|su}}, {{t+|it|a}}
+* Latin: {{t+|la|in}}, {{t+|la|super}}, {{t+|la|suprā}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|روی|tr=ru-ye}}
+* Polish: {{t+|pl|na}}
+* Portuguese: {{t+|pt|em}}
+* Russian: {{t+|ru|на}}
+* Scottish Gaelic: {{t|gd|air}}, {{t|gd|mu}} {{qualifier|dated}}
+* Slovak: {{t+|sk|na}}
+* Slovene: {{t+|sl|na}}
+* Spanish: {{t+|es|en}}, {{t+|es|sobre}}
+* Swedish: {{t+|sv|på}}
+{{trans-bottom}}
+
+{{trans-top|at the date of}}
+* Arabic: {{t+|ar|فِي}}
+* Armenian: {{t|hy|[[-ի]][[-ն|ն]]}}
+* Burmese: {{t+|my|မှာ}}, {{t+|my|၌}}
+* Czech: {{t+|cs|dne}}
+* Dutch: {{t+|nl|op}}
+* Esperanto: {{t+|eo|je}}
+* Finnish: {{t+|fi|-na}}, {{t+|fi|-nä}} {{qualifier|essive case}}
+* French: ''not used in French''
+* German: {{t+|de|an}}
+* Greek: ''articles'', {{t+|el|σε}} + ''articles''
+*: Ancient Greek: {{qualifier|dative case of noun}}, {{t|grc|ἐν}} {{qualifier|+ dative}}
+* Hebrew: {{t|he|בתאריך}}
+* Hungarian: {{t+|hu|-n}}, {{t+|hu|-on}}, {{t+|hu|-en}}, {{t+|hu|-ön}} {{qualifier|superessive case}}
+* Italian: ''not used in Italian''
+* Japanese: {{t+|ja|に|alt=…に|tr=…ni}}
+* Latin: {{t+|la|in}}
+* Malay: {{t+|ms|pada}}
+* Maltese: {{t|mt|fi}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|در|tr=dar}}
+* Polish: {{qualifier|genitive case of noun}}
+* Portuguese: {{t+|pt|na}}, {{t+|pt|no}}
+* Romanian: {{t+|ro|pe}} {{qualifier|of regular days}}, {{t+|ro|de}} {{qualifier|of festive days}}
+* Russian: {{t+|ru|в}}, {{t+|ru|-го|tr=-vo}} {{qualifier|genitive numeral suffix}}
+* Scottish Gaelic: ''not used in Scottish Gaelic''
+* Slovak: {{t+|sk|dňa}}
+* Slovene: {{t+|sl|na}}
+* Spanish: {{q|the definite article is used before the time period}}
+* Swedish: {{t+|sv|på}} {{qualifier|not always used}}, {{t+|sv|under}}
+{{trans-bottom}}
+
+{{trans-top|dealing with the subject of}}
+* Arabic: {{t+|ar|فِي}}
+* Armenian: {{t+|hy|մասին}}, {{t+|hy|վերաբերյալ}}
+* Asturian: {{t+|ast|sobre}}
+* Catalan: {{t+|ca|sobre}}
+* Czech: {{t+|cs|o}}
+* Dutch: {{t+|nl|over}}
+* Esperanto: {{t+|eo|pri}}
+* Finnish: {{t+|fi|-sta}}, {{t+|fi|-stä}} {{qualifier|elative case}}
+* French: {{t+|fr|sur}}, {{t+|fr|à propos de}}, {{t+|fr|au sujet de}}
+* Galician: {{t+|gl|sobre}}, {{t+|gl|acerca de}}
+* German: {{t+|de|über}}
+* Greek: {{t+|el|πάνω}}
+*: Ancient Greek: {{t|grc|περί}} {{qualifier|+ genitive}}
+* Hebrew: {{t|he|בנושא}}
+* Italian: {{t+|it|su}}, {{t+|it|di}}
+* Latin: {{t+|la|de}}, {{t+|la|super}}, {{t+|la|supra}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|در|tr=dar}}, {{t+|fa|اندر|tr=andar}}
+* Polish: {{t+|pl|o}}
+* Portuguese: {{t+|pt|na}}, {{t+|pt|no}}
+* Romanian: {{t+|ro|despre}}
+* Scottish Gaelic: {{t|gd|air}}
+* Slovak: {{t+|sk|o}}
+* Slovene: {{t+|sl|na}}
+* Spanish: {{t+|es|sobre}} {{t+|es|acerca de}}
+* Swedish: {{t+|sv|om}}, {{t+|sv|angående}}
+{{trans-bottom}}
+
+{{trans-top|mathematics: having ''V'' as both domain and codomain}}
+* Finnish: {{t+|fi|-lle}} {{qualifier|allative case}}; {{t+|fi|-lla}}, {{t+|fi|-llä}} {{qualifier|adessive case}}
+* Italian: {{t+|it|in}}
+* Latin: {{t+|la|in}}
+* Polish: {{t+|pl|przy}}
+* Swedish: {{t+|sv|av}}
+{{trans-bottom}}
+
+{{trans-top|mathematics: having ''V''<sup>n</sup> as domain and ''V'' as codomain}}
+* Finnish: {{t+|fi|-lle}} {{qualifier|allative case}}; {{t+|fi|-lla}}, {{t+|fi|-llä}} {{qualifier|adessive case}}
+* Italian: {{t+|it|in}}
+* Latin: {{t+|la|in}}
+* Polish: {{t+|pl|na}}
+* Swedish: {{t+|sv|av}}
+{{trans-bottom}}
+
+{{trans-top|because of, due to}}
+* Dutch: {{t+|nl|wegens}}
+* Finnish: {{t+|fi|takia}}, {{t+|fi|vuoksi}}, {{t+|fi|-sta}}, {{t+|fi|-stä}} {{qualifier|elative case}}, {{t+|fi|perusteella}}, {{t+|fi|johdosta}}, {{t|fi|seurauksena}}
+* French: {{t+|fr|pour}}, {{t+|fr|à propos de}}
+* German: {{t+|de|wegen}}, {{t+|de|aufgrund}}
+* Greek: ''periphrastically''
+* Italian: {{t+|it|con}}
+* Latin: {{t+|la|in}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Slovak: {{t|sk|pre}}
+* Swedish: {{t+|sv|på grund av}}
+{{trans-bottom}}
+
+{{trans-top|paid for by}}
+* Arabic: {{t|ar|عَلَى [[حساب|حِسَابِهِ]]}}
+* Finnish: {{qualifier|not applicable; different structures used}}
+* German: {{t+|de|auf}}
+* Greek: ''periphrastically''
+* Latin: {{t+|la|in}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|با|tr=bâ}}
+* Russian: {{t+|ru|с}} {{q|с меня, с тебя...}}, {{t|ru|за счёт}}
+* Slovak: {{t+|sk|na}}
+* Swedish: {{t|sv|är på}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate means or medium}}
+* Finnish: {{qualifier|use the inessive and adessive cases}}
+* French: {{t+|fr|avec}}, {{t+|fr|grâce à}}
+* German: {{t+|de|in}}, {{t+|de|an}}
+* Greek: ''periphrastically''
+* Italian: {{t+|it|in}}, {{t+|it|a}}
+* Latin: {{t+|la|in}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|در|tr=dar}}
+* Spanish: {{t+|es|en}}
+* Swedish: {{t+|sv|på}}
+{{trans-bottom}}
+
+{{trans-top|Expressing figurative placement, burden, or attachment.}}
+* Spanish: {{t+|es|competer}} {{qualifier|verb}}, {{t|es|[[recaer]] [[sobre]]}} {{qualifier|verb}}
+{{trans-bottom}}
+
+{{trans-top|(also often 'upon') at the time of (and often because of)}}
+* Spanish: {{t+|es|tras}}, {{t+|es|al}} {{q|followed by a verb}}, {{t+|es|en pos de}}
+{{trans-bottom}}
+
+{{trans-top-see|under the influence of|under the influence}}
+* Spanish: {{t+|es|[[bajo]] [[los]] [[efectos]] [[de]]}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Dutch: {{t+check|nl|van}}
+* French: {{t+check|fr|de}}
+* Hungarian: {{t+check|hu|-tól}}/{{t+check|hu|-től}}
+* Norwegian: {{t+check|no|av}} (7)
+* Swedish: {{t+check|sv|på}}, {{t+check|sv|av}}, {{t+check|sv|på grund av}}
+{{trans-bottom}}
+
+{{checktrans-top}} <!-- Was "some time during the day of", but this does not correspond to a distinct English sense, and it is unclear how or if it differs from "at the date of" -->
+* Arabic: {{t+|ar|فِي}}
+* Burmese: {{t+|my|မှာ}}, {{t+|my|၌}}
+* Comorian:
+*: Ngazidja Comorian: ''not used in Ngazigja Comorian''
+* Finnish: {{t+|fi|-na}}, {{t+|fi|-nä}} {{qualifier|essive case}}
+* French: ''not used in French''
+* Greek: ''articles''
+* Icelandic: {{t+|is|á}}
+* Italian: {{t+|it|di}} {{qualifier|used only with nouns of the week days: "'''di''' lunedì" - "'''on''' Monday", "'''di''' martedì" - "'''on''' Tuesday", ...; not always used}}, {{t+|it|in}} {{qualifier|used only with generic days, as in "'''in''' un giorno differente" - "'''on''' a different day"; not always used}}
+* Khmer: {{t+|km|នៅ}}
+* Lao: {{t|lo|ໃນ}}
+* Pashto: {{t+|ps|په|tr=pë}}
+* Persian: {{t+|fa|در|tr=dar}}
+* Polish: {{qualifier|genitive case of noun}}, {{t+|pl|w}}
+* Scottish Gaelic: ''not used in Scottish Gaelic''
+* Slovak: {{t+|sk|počas}}
+* Spanish: {{q|the definite article is used before the time period}}
+* Swedish: {{t+|sv|på}}, {{t+|sv|under}}
+* Thai: {{t+|th|ใน}}
+* Tibetan: {{t|bo|ལ}}
+* Vietnamese: {{t+|vi|vào}}
+* Zazaki: {{t+|zza|miyan}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb|+!,++}}
+
+# {{lb|en|Singapore|Philippines|Malaysia|Nigeria|transitive|colloquial}} To [[switch on]].
+#: {{syn|en|turn on}}
+#: {{ux|en|Can you '''on''' the light?}}
+
+===Etymology 2===
+From {{der|en|non|ón}}, {{m|non|án||without}}, from {{der|en|gem-pro|*ēnu}}, {{m|gem-pro|*ēno}}, {{m|gem-pro|*ino||without}}, from {{der|en|ine-pro|*ḗnu||without}}. Cognate with {{cog|frr|on||without}}, {{cog|dum|an}}, {{m|dum|on||without}}, {{cog|gml|āne||without}}, {{cog|de|ohne||without}}, {{cog|got|𐌹𐌽𐌿||without, except}}.
+
+Unlikely to be related to {{m+|grc|ἄνευ||without}}, which is likely akin to {{m+|gem-pro|*sundraz}} instead (whence {{m|en|sunder}}).
+
+====Alternative forms====
+* {{alter|en|ohn}}
+
+====Preposition====
+{{en-head|prep}}
+
+# {{lb|en|UK|_|dialectal|Scotland}} [[without|Without]]. {{rfex|en}}
+
+=====Usage notes=====
+* Usually followed by a present participle, as ''being'', ''having'', etc.
+
+===Etymology 3===
+From {{der|en|ja|音読み|tr=on'yomi|lit=sound reading}}.
+
+====Noun====
+{{en-noun|?}}
+
+# In the Japanese language, a pronunciation, or reading, of a [[kanji]] character that was originally based on the character's pronunciation in Chinese, contrasted with [[kun]].
+#: {{ux|en|Most kanji have two kinds of reading, called "'''on'''" and "kun".}}
+
+=====Related terms=====
+* {{l|en|kun}}
+
+===See also===
+* [[on dit]] {{i|etymologically unrelated}}
+
+===References===
+* {{R:OneLook}}
+
+===Anagrams===
+* {{anagrams|en|a=no|Nº|NO|No|No.|N.O.|no|no.}}
+
+{{cln|en|movement adverbs|position adverbs|2-letter words}}
+
+==Azerbaijani==
+{{number box|az|10}}
+
+===Etymology===
+From {{inh|az|trk-pro|*ōn||ten}}.<ref>{{R:trk-pro:SDM|*ōn|699}}</ref> Cognate with {{cog|otk|𐰆𐰣|tr=on|t=ten}}.
+
+===Pronunciation===
+* {{IPA|az|[on]}}
+* {{audio|az|LL-Q9292 (aze)-Azerbaijani audiorecordings-on.wav|a=Baku}}
+* {{audio|az|LL-Q9292 (aze)-Zexan2-on.wav|a=Tabriz}}
+
+===Numeral===
+{{az-variant|он|اوْن}}
+{{head|az|numeral}}
+
+# {{cln|az|cardinal numbers}} {{l|en|ten}}
+
+===References===
+* {{R:az:ADIL|page=522-523}}
+* {{R:az:Azleks}}
+<references/>
+
+==Basque==
+
+===Etymology===
+{{ety|eu|:inh|euq-pro:*bon|text=+|tree=1}} Compare {{cog|xib|on|t = good}}.
+
+===Pronunciation===
+{{eu-pr|+<audio:LL-Q8752 (eus)-Aioramu-on.wav>}}
+
+===Adjective===
+{{eu-adj}}
+
+# [[good]]
+# [[useful]], [[convenient]]
+
+====Declension====
+{{eu-adecl}}
+
+===Further reading===
+* {{R:eu:EH}}
+* {{R:eu:OEH}}
+
+==Catalan==
+
+===Alternative forms===
+* {{alt|ca|ahont|hon|hont||archaic}}
+* {{alt|ca|ont}}
+
+===Etymology===
+{{inh+|ca|roa-oca|on||whence}}, from {{inh|ca|la|unde||whence}}. Compare {{cog|an|on}}, {{cog|oc|ont}}, {{cog|fro|ont}} ({{cog|fr|dont}}), {{cog|scn|unni}}, {{cog|es|onde}}.
+
+===Pronunciation===
+* {{ca-IPA|ó}}
+* {{audio|ca|LL-Q7026 (cat)-Unjoanqualsevol-on.wav|a=Catalonia}}
+
+===Adverb===
+{{ca-adv}}
+
+# [[where]]
+
+===References===
+* {{R:ca:IEC2}}
+* {{R:ca:GDLC}}
+* {{R:ca:DNV}}
+* {{R:ca:DCVB}}
+
+{{cln|ca|interrogative adverbs}}
+
+==Central Franconian==
+
+===Alternative forms===
+* {{alt|gmw-cfr|un||widely in free variation}}
+* {{alt|gmw-cfr|en||some western dialects}}
+
+===Etymology===
+The native form in most dialects was {{inh|gmw-cfr|goh|indi}}, whence the variant {{m|gmw-cfr||en}}. In parts of the Eifel, this {{m|goh||indi}} regularly becomes {{m|gmw-cfr||on}} (compare {{cog|lb|an}}). In southern and eastern dialects, on the other hand, {{m|gmw-cfr||on}} may have been inherited from the Old High German variant {{m|goh|unde}} ({{m|goh|unti}}). From these two groups of dialects, the form will have spread, without doubt under influence of {{der|gmw-cfr|de|und}}.
+
+===Pronunciation===
+* {{IPA|gmw-cfr|/on/}}
+
+===Conjunction===
+{{head|gmw-cfr|conjunction}}
+
+# [[and]]
+#: ''Salz '''on''' Päfer''
+#:: salt '''and''' pepper
+
+==Classical Nahuatl==
+
+===Pronoun===
+{{head|nci|pronoun|head=on, ōn}}
+
+# {{lb|nci|demonstrative}} [[that]]; [[those]]
+
+====Related terms====
+* {{l|nci|in}}
+
+===References===
+* {{cite-book|author=Michel Launey|coauthors=Christopher Mackay|year=2011|title=An Introduction to Classical Nahuatl|location=Amazon Kindle|publisher=Cambridge University Press|pages=Loc 1408}}
+
+==Cornish==
+
+===Pronunciation===
+* {{IPA|kw|[ɔːn]|a=RMC}}
+* {{IPA|kw|[oːn]|a=RLC}}
+
+===Etymology 1===
+From {{inh|kw|cnx|oan,on,oyen}}, from {{inh|kw|oco|oin}}, from {{inh|kw|cel-bry-pro|*oɣn}}, from {{inh|kw|cel-pro|*ognos}}, from {{inh|kw|ine-pro|*h₂egʷnós||lamb}}. Cognate with {{cog|br|oan}}, {{cog|ga,gd|uan}}, {{cog|gv|eayn}}, and {{cog|cy|oen}}.
+
+====Noun====
+{{kw-noun|m|eyn|eynes|eynow}}
+
+# [[lamb]]
+#: {{syn|kw|davasik|devesik|ones}}
+
+===Etymology 2===
+{{nonlemma}} Compare {{cog|cy|ŷn}}.
+
+====Verb====
+{{head|kw|vf}}
+
+# {{infl of|kw|bos|t=to be||1p|short:pres:ind}}
+
+{{C|kw|Baby animals|Sheep}}
+
+==Crimean Tatar==
+{{number box|crh|10}}
+
+===Etymology===
+From {{inh|crh|trk-pro|*ōn}}.
+
+===Numeral===
+{{head|crh|noun}}
+
+# {{cln|crh|cardinal numbers}} [[ten]]
+
+===References===
+* {{R:crh:Luğatçıq}}
+
+{{c|crh|Ten}}
+
+==Czech==
+
+===Etymology===
+{{inh+|cs|zlw-ocs|on}}, from {{inh|cs|sla-pro|*onъ}}, from {{inh|cs|ine-pro|*h₂en|*h₂énos}}.
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-on.ogg}}
+* {{rhymes|cs|on|s=1}}
+
+===Pronoun===
+{{head|cs|pronoun|g=m|cat2=personal pronouns}}
+
+# [[he]] {{gloss|third person personal singular}}
+
+====Declension====
+{{cs-ndecl|pron}}
+
+====Derived terms====
+{{col|cs|onkat|onen|onde|onam|ondy|onehdy|onak|onaký}}
+
+====Related terms====
+{{cs-personal pronouns}}
+
+====See also====
+{{col|cs|ona|ono}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{cln|cs|personal pronouns}}
+
+==Dutch==
+
+===Adverb===
+{{nl-adv}}
+
+# rarely used as shorthand for [[oneven]] ([[odd]]), the prefix [[on-]] means ''not'' (corresponds to English [[un-]])
+
+{{attention|nl|is this two things?}}
+
+==Estonian==
+
+===Pronunciation===
+* {{et-IPA|onn}} {{q|stressed}}
+* {{IPA|et|/on/|[on]}} {{q|unstressed}}
+* {{rhymes|et|onː|on|s=1}}
+* {{hyph|et|on}}
+
+===Verb===
+{{head|et|verb form}}
+
+# {{inflection of|et|olema||3|s|pres|indc}}
+# {{inflection of|et|olema||3|p|pres|indc}}
+
+==Finnish==
+
+===Pronunciation===
+{{fi-pronunciation|a=LL-Q1412 (fin)-Seqv-on.wav}}
+
+===Verb===
+{{head|fi|verb form}}
+
+# {{infl of|fi|olla||3s|ind|pres}}
+#: {{ux|fi|Se '''on''' tuolla.|t=It '''is''' there.}}
+#: {{ux|fi|Se '''on''' ollut tuolla.|t=It '''has''' been there.}}
+
+===Anagrams===
+* {{anagrams|fi|a=no|no}}
+
+==French==
+
+===Alternative forms===
+* {{alt|fr|l'on||formal}}
+
+===Etymology===
+{{inh+|fr|fro|hom}}, {{m|fro|om}} (nominative form), from {{inh|fr|la|homō||human being}} (compare {{m|fr|homme}} from the Old French oblique form {{m|fro|home}}, from the Latin accusative form {{m|la|hominem}}). Its pronominal use is of {{cog|gem}} origin. Compare {{cog|ang|man||one, they, people}}, reduced form of {{cog|ang|mann||person}}; {{cog|ca|hom}}; {{cog|de|man||one, they, people}}; {{cog|nl|men||one, they, people}}.
+
+===Pronunciation===
+* {{fr-IPA|+|qual2=before a vowel|on.n‿}}
+* {{audio|fr|Fr-on.ogg}}
+* {{audio|fr|LL-Q150 (fra)-DSwissK-on.wav|a=<<Switzerland>> (<<Valais>>)}}
+* {{audio|fr|LL-Q150 (fra)-Lepticed7-on.wav|a=<<France>> (<<Toulouse>>)}}
+* {{audio|fr|LL-Q150 (fra)-LoquaxFR-on.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-on.wav|a=France}}
+* {{audio|fr|LL-Q150 (fra)-Opsylac-on.wav|a=<<France>> (<<Grenoble>>)}}
+* {{audio|fr|LL-Q150 (fra)-Penegal-on.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-on.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-T. Le Berre-on.wav|a=<<France>> (<<Hérault>>)}}
+* {{audio|fr|LL-Q150 (fra)-Touam-on.wav|a=<<France>> (<<Saint-Étienne>>)}}
+* {{audio|fr|LL-Q150 (fra)-WikiLucas00-on.wav|a=<<France>> (<<Lyon>>)}}
+* {{audio|fr|LL-Q150 (fra)-X-Javier-on.wav|a=<<France>> (<<Massy>>)}}
+* {{homophones|fr|ont}}
+
+===Pronoun===
+{{fr-pron|mf,mf-p|type=personal}}
+
+# {{lb|fr|indefinite}} [[one]], [[people]], [[you]], [[someone]] {{gloss|an unspecified individual}}
+#: {{syn|fr|[[quelqu'un]] {{q|in some contexts}}|[[l'on]] {{q|formal}}}}
+#* '''2003''', Natasha St. Pier, ''L’instant d’après'' (album), ''Quand on cherche l’amour'' (song)
+#*: {{quote|fr|Quand '''on''' cherche l'amour…|When '''one''' searches for love…}}
+#: {{uxi|fr|'''On''' ne peut pas pêcher ici|'''You''' can’t fish here}}
+# {{lb|fr|personal|informal}} [[we]]
+#: {{syn|fr|[[nous]] {{q|in some contexts}}}}
+#* {{quote-text|fr|year=2021|author=Zaz|title=Tout là-haut
+|passage='''On''' oublie nos certitudes|t='''We''' forget our certainties}}
+#: {{uxi|fr|'''On''' s’est amusés.|'''We''' had fun.}}
+
+====Usage notes====
+* In informal and standard conversational French, {{m|fr|on}} has almost completely replaced the pronoun {{m|fr|nous||we}} to indicate that a sentence or clause has a  first-person plural as its subject. However, {{m|fr||nous}} is still favored in formal writing and speech, and is still used colloquially as a disjunctive reinforcing nominative {{m|fr||on}}, as well as to indicate direct and indirect objects. It may be used for reflexive objects, but as this is potentially ambiguous, these are also indicated with the reflexive pronoun {{m|fr|se}} — especially with reinforcement from disjunctive {{m|fr|nous}}, which clarifies that the speaker means "we" and not "one," i.e. a generalized indefinite subject. This clarification can also be achieved by the use of {{m|fr|tous}} after the verb.
+*: {{uxi|fr|On est toujours là.|We're still here.}}
+*: {{uxi|fr|On connait tous la chanson qu'elle chante.|We all know which song she is singing.}}
+*: {{uxi|fr|On a tous quelque chose à cacher.|We all have something to hide.}}
+*: {{uxi|fr|Nous, on s'y fait.|We get used to it.}}
+*: {{uxi|fr|Nous, on l'a tous vu.|We all saw it.}}
+* The verb is always conjugated in the third-person singular, but if the pronoun refers to a first-person plural, the attribute agrees in gender and number.
+*: {{uxi|fr|On est venu ici.|One came here.}}
+*: {{uxi|fr|On y est allé'''s''' / allé'''es'''.|We went there.}}
+*: {{uxi|fr|On est prêt'''s''' / prêt'''es'''.|We are ready.}}
+* The variant {{m|fr|l'on}} is used in more formal or literary contexts. Some use it especially after {{m|fr|que}} ({{m|fr||que l'on}}) to avoid the contraction {{m|fr|qu'on}}, which is homophonous with the vulgar word {{m|fr|con}}.
+
+====Related terms====
+{{fr-personal pronouns}}
+
+====Descendants====
+* {{desctree|bor=1|eo|oni}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+===Anagrams===
+* {{l|fr|NO}}, {{l|fr|nô}}
+
+[[Category:Terms derived from Old French nominative]]
+
+==German==
+
+===Pronunciation===
+* {{audio|de|De-on.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Adjective===
+{{de-adj|predonly}}
+
+# {{lb|de|internet slang|especially|video games}} {{clipping of|de|online}}
+#: {{cot|de|off}}
+#: {{ux|de|hab lust auf ne runde zocken, kommst du '''on'''?|im down to game 4 a bit, are u coming '''on'''?}}
+
+==Guerrero Nahuatl==
+
+===Noun===
+{{head|ngu|article}}
+
+# [[the]]
+
+==Iberian==
+
+===Etymology===
+Unambiguously connected to {{cog|euq-pro|*bon}}, compare {{cog|eu|on|t = good, useful}}.
+
+===Adjective===
+{{head|xib|adj}}
+
+# [[good]]
+
+===References===
+* Villamor, Fernando (2020) A basic dictionary and grammar of the Iberian language
+
+==Ido==
+
+===Pronunciation===
+* {{IPA|io|/on/|/ɔn/}}
+
+===Pronoun===
+{{head|io|pronoun}}
+
+# {{apocopic form of|io|onu}}; [[one]], [[someone]], [[they]] {{gloss|indefinite personal pronoun}}
+
+===See also===
+{{io-personal pronouns}}
+
+==Interlingua==
+
+===Pronoun===
+{{head|ia|pronoun}}
+
+# {{l|en|one}} {{gloss|indefinite personal pronoun}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|おん}}
+
+==Juǀ'hoan==
+
+===Pronunciation===
+* The nasal vowel {{IPA|ktz|/õ/}}
+
+===Letter===
+{{head|ktz|letter|upper case|On}}
+
+# {{Latn-def|ktz|letter}}
+
+==Karaim==
+
+===Etymology 1===
+From {{inh|kdr|trk-pro|*ōn}}. Compare to {{cog|crh|on}}, {{cog|krc|он}}, {{cog|kum|он}}, {{cog|uum|он|tr=on}}, etc.
+
+====Numeral====
+{{head|kdr|numeral}}
+
+# [[ten]]
+
+===Etymology 2===
+From {{inh|kdr|trk-pro|*oŋ}}. Compare to {{cog|crh|oñ}}, {{cog|krc|онг}}, {{cog|kum|онг}}, {{cog|uum|он|tr=on}}, etc.
+
+====Noun====
+{{head|kdr|noun}}
+
+# [[right]]
+
+===References===
+{{R:kdr:Baskakov}}
+
+==Karelian==
+
+===Verb===
+{{head|krl|verb form}}
+
+# {{infl of|krl|olla||3s|ind|pres}}
+
+==Lombard==
+
+===Alternative forms===
+* {{alter|lmo|vun}}
+
+===Etymology===
+From {{inh|lmo|lmo-old|un}}, from {{inh|lmo|la|ūnus}}, from {{inh|lmo|itc-ola|oinos}}.
+
+===Pronunciation===
+* {{IPA|lmo|/un/|a=Milanese}}
+
+===Article===
+{{head|lmo|article|g=m|feminine|ona|plural|di}}
+
+# [[a]]
+
+==Low German==
+
+===Conjunction===
+{{head|nds|conjunction}}
+
+# {{lb|nds|in several dialects, including|_|Low Prussian}} {{alternative form of|nds|un}} {{gloss|and}}
+#: {{ux|nds|Melk '''on''' Brot|t=milk '''and''' bread}}
+
+==Middle English==
+
+===Etymology 1===
+{{etymon|enm|id=over|:inh|ang:on<id:in>}}
+From {{inh|enm|ang|on|on, an}}, from {{inh|enm|gmw-pro|*an}}, from {{inh|enm|gem-pro|*ana||on, at}}.
+
+====Preposition====
+{{head|enm|preposition}}
+
+# [[#English|on]], [[in]]
+
+====Adverb====
+{{enm-adv}}
+
+# [[#English|on]]
+
+=====Alternative forms=====
+* {{sense|preposition}} {{alter|enm|one|onne|hon|ane}}; {{alter|enm|an||before initial h or vowel}}; {{alter|enm|æn||early}}
+* {{sense|adverb}} {{alter|enm|one|onne|an}}
+
+=====Descendants=====
+* {{desc|en|on}}
+* {{desc|sco|an|on}}
+* {{desc|yol|on|alts=1}}
+
+====References====
+* {{R:MED Online|on|prep|MED30550}}
+* {{R:MED Online|on|adv.(1)|MED30548}}
+
+===Etymology 2===
+{{number box|enm|1}}
+{{etymon|enm|id=one|:inh|ang:ān<id:one>}}
+From {{inh|enm|ang|ān}}, from {{inh|enm|gmw-pro|*ain}}, from {{inh|enm|gem-pro|*ainaz}}, from {{inh|enm|ine-pro|*óynos}}. Compare {{m|enm|an}}, {{m|enm|oo}}.
+
+====Alternative forms====
+* {{sense|numeral|pronoun}}
+** {{alter|enm|oon|one|oen|oune|hon|none|an|anne|onne}}
+** {{alter|enm|an|ane|auen|aune||Northern}}
+** {{alter|enm|auen|aune||north Midland}}
+** {{alter|enm|enne|onen|onenen||Kentish}}
+** {{alter|enm|en|an|ane||early}}
+** {{alter|enm|won|von|wone||late}}
+* {{sense|adverb}} {{alter|enm|oon|one}}; {{alter|enm|an||Northern}}; {{alter|enm|an|ane||early}}
+
+====Pronunciation====
+* {{IPA|enm|/ɔːn/|/ɔn/}}
+* {{rhymes|enm|ɔːn|s=1}}
+
+====Numeral====
+{{enm-numeral|pc=o}} {{cln|enm|cardinal numbers}}
+
+# {{senseid|enm|one_numeral}} [[one]]
+#* {{RQ:Ancrene Wisse|A|i|6|verso=yes|folioend=7|Almihti godd· feader· ſune· hali gaſt· aſ ȝe beoð ϸreo '''an''' godd: alſƿa ȝe beoð '''an''' mihte· '''an''' ƿiſdom· ⁊ '''an''' luue{{...}}|Almighty God: Father, Son, and Holy Spirit, as both three and '''one''', while being '''one''' Might, '''one''' Wisdom, and '''one''' Love{{...}}}}
+#* {{RQ:Chaucer Canterbury Tales|version=Hg|Wife of Bath's Prologue|63|verso=yes|lines=438-440|url=https://viewer.library.wales/4628556#?c=&m=&s=&cv=137|And but ye do / c[er]teyn we shal yow teche / that it is fair / to han a wyf in pees / '''Oon''' of vs two / moſte bowen doutelees|And unless you do, we'll certainly teach you / that it's fair to have a wife in peace; / '''one''' of the two of us must without doubt submit.}}
+
+=====Related terms=====
+{{col|enm
+|allone
+|elleven
+|onen
+|oneyed
+|only
+|onnesse
+}}
+
+=====Descendants=====
+* {{desc|en|one|an|a|yan}} ''(dialectal)''
+* {{desc|en|un|on|wan|q=Ottawa-Valley}}
+* {{desc|en-geo|yen}}
+* {{desc|sco|ane|wan|yin|ae}}
+* {{desc|yol|oan|alts=1}}
+
+====Pronoun====
+{{head|enm|pronoun}}
+
+# {{senseid|enm|one_pronoun}} [[one]]
+
+====Adverb====
+{{enm-adv}}
+
+# {{senseid|enm|singly}} [[singly]], by [[oneself]], by [[itself]]
+
+====Determiner====
+{{head|enm|determiner|var=1}}
+
+# {{lb|enm|Early ME}} {{alt form|enm|a|pos=indefinite article}}
+
+====References====
+* {{R:Furnivall 1864|1}}
+* {{R:MED Online|ō̆n|num|MED30547}}
+* {{R:MED Online|ō̆n|pron|MED30546}}
+* {{R:MED Online|ō̆n|adv.(2)|MED30549}}
+
+===Etymology 3===
+
+====Verb====
+{{head|enm|verb form}}
+
+# {{lb|enm|Early ME}} {{infl of|enm|unnen||1//3|s|pres}}
+
+===Etymology 4===
+
+====Noun====
+{{head|enm|noun|var=1}}
+
+# {{alt form|enm|wone||course}}
+
+===Etymology 5===
+
+====Noun====
+{{head|enm|noun|var=1}}
+
+# {{alt form|enm|oven}}
+
+{{cln|enm|indefinite pronouns}}
+{{C|enm|One}}
+
+==Northern Sami==
+
+===Etymology===
+{{rfe|se}}
+
+===Pronunciation===
+* {{se-IPA|ōn}}
+
+===Adverb===
+{{se-adv|head=ōn}}
+
+# [[again]]
+
+====Further reading====
+* {{R:Álgu|}}
+
+==Occitan==
+
+===Alternative forms===
+* {{alter|oc|ond}}
+
+===Pronunciation===
+* {{audio|oc|LL-Q35735-Davidgrosclaude-on.wav|a=Gascon}}
+
+===Adverb===
+{{oc-adv}}
+
+# {{lb|oc|Gascony}} [[where]]
+
+===References===
+* {{R:oc-gas:DEOFFOG 2005}}, page 99.
+
+==Old Czech==
+
+===Etymology===
+{{inh+|zlw-ocs|sla-pro|*onъ}} (nominative), from {{inh|zlw-ocs|ine-pro|*h₂en|*h₂énos}}, and from {{inh|zlw-ocs|sla-pro|*jь}} (oblique cases), from {{inh|zlw-ocs|ine-pro|*ís}} and {{inh|zlw-ocs|ine-pro|*Hyós}}.
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Pronoun===
+{{head|zlw-ocs|pronoun|g=m-s|third person}}
+
+# [[he]] {{gloss|masculine singular}}
+
+====Declension====
+{{zlw-ocs-personal pronouns}}
+
+====Descendants====
+* {{desc|cs|on}}
+
+===Pronoun===
+{{head|zlw-ocs|pronoun}}
+
+# {{alternative form of|zlw-ocs|onen}}
+
+===References===
+* {{R:zlw-ocs:Gebauer|+}}
+
+==Old English==
+
+===Alternative forms===
+* {{alter|ang|an|a}}
+* {{alt|ang|ᚩᚾ||{{w|Ruthwell Cross}}}}
+
+===Etymology===
+{{etymon|ang|id=in|:inh|gmw-pro:*ana<id:on><ety:inh<gem-pro:*an>>}}
+{{inh+|ang|gmw-pro|*ana}}, from {{inh|ang|gem-pro|*ana}}. See Old English {{m|ang|in}} for more.
+
+===Pronunciation===
+* {{ang-IPA|on}}
+* {{rhymes|ang|on|s=1}}
+
+===Preposition===
+{{ang-prep}}
+
+# [[#English|on]], [[in]], [[at]], [[among]] {{+obj|ang|acc/dat/ins|catpos=prep}}
+#: {{ux|ang|'''On''' þǣm hūse|'''In''' the house}}
+#* '''late 9th century''', [https://books.google.ca/books?id=xtM0rOEXqJIC&pg=PA52&redir_esc=y#v=snippet&q=seonne&f=false translation] of [[w:Orosius|Orosius’]] ''History Against the Pagans''
+#*: {{quote|ang|...and ðā syndon swȳþe fæġere and lustsumlīce '''on''' tō sēonne...|...and those are very beautiful and pleasant to look '''at'''...}}
+#* '''Early 11th c.''', [[w:Defensor|Defensor's]] [https://archive.org/details/defensorslibers00rhodgoog/page/n246/mode/2up translation] of  ''{{w|Liber Scintillarum}}''
+#*: {{quote|ang|''...nā besēoh þū '''on''' wīfes hiw...''|...do not look '''at''' a woman's appearance...}}
+# [[#English|on]], [[during]] {{+obj|ang|acc|catpos=prep}}
+#: {{ux|ang|'''On''' midne winter|'''In''' mid-winter}}
+# [[#English|onto]], [[into]] (to express [[allative]] motion or a change of state) {{+obj|ang|acc|catpos=prep}}
+#* ''[https://books.google.com/books?id=m2hVAAAAcAAJ&pg=PA594v=onepage&q&f=false Homilies of the Anglo-Saxon Church]''
+#*: {{quote|ang|Đā ġelǣredan ne beðurfon þyssera bōca, forðan ðe him mæġ heora āgen lār genihtsumian. Iċ cweðe nū þæt iċ næfre heonon forð ne āwende godspel oððe godspeltrahtas of Lēdene '''on''' Englisċ.|The learned have no need of these books, for their own learning will suffice. I say now that henceforth, I will never translate a gospel or a gospel-commentary from Latin '''into''' English.}}
+#: {{ux|ang|'''On''' þæt hūs|'''Into''' the house}}
+#: {{ux|ang|Hēo āwende þā bōc '''on''' Englisc|She translated the book '''into''' English}}
+
+===Adverb===
+{{ang-adv}}
+
+# {{lb|ang|with verbs of taking or depriving}} [[from]]
+
+====Descendants====
+* {{desc|enm|an}}, {{desctree|enm|on|notext=1}}
+
+==Old French==
+
+===Alternative forms===
+* {{l|fro|hon}}
+
+===Etymology===
+See {{m|fro|hom}}, {{m|fro|om}}.
+
+===Pronoun===
+{{head|fro|pronoun}}
+
+# [[one]] (gender-neutral third-person singular pronoun)
+
+====Descendants====
+* {{desc|fr|on}}
+
+==Old Frisian==
+
+===Etymology===
+From {{inh|ofs|gmw-pro|*an}}, from {{inh|ofs|gem-pro|*an||on}}, from {{der|ofs|ine-pro|*h₂en-||up}}. Cognates include {{cog|ang|on}}, {{cog|osx|ana}} and {{cog|odt|ana}}.
+
+===Pronunciation===
+* {{IPA|ofs|/on/}}
+
+===Preposition===
+{{head|ofs|preposition}}
+
+# {{l|en|on}}
+
+====Descendants====
+* {{desc|frr|a}}
+* {{desc|stq|an|oun}}
+* {{desc|fy|oan}}
+
+====References====
+* {{R:ofs:Bremmer:2009}}
+
+==Old Irish==
+
+===Pronoun===
+{{head|sga|pronoun}}
+
+# {{alt sp|sga|ón}}
+
+===Article===
+{{head|sga|article form}}
+
+# {{alt sp|sga|ón}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=he|:inh|sla-pro:*onъ|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Pronoun===
+{{head|zlw-opl|pronoun}}
+
+# [[he]] {{qualifier|for [[animate]] nouns}}, [[it]] {{qualifier|for [[inanimate]] nouns}}
+# [[this]] {{qualifier|demonstrative}}
+
+====Declension====
+{{rfinfl|zlw-opl|pronoun}}
+
+====Descendants====
+* {{desc|pl|on|alts=1}}
+* {{desc|szl|ôn}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|won||Eastern Lublin|Krynice and Kryniczki}}
+
+===Etymology===
+{{etymon|pl|id=he|:inh|zlw-opl:on|tree=+|text=+}} The oblique case forms come from {{m+|sla-pro|*jь}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-on.ogg;LL-Q809 (pol)-Olaf-on.wav;LL-Q809 (pol)-Krokus-on.wav|mp=#,ón|hh=-on}}
+
+===Pronoun===
+{{head|pl|pronoun|g=m|feminine|ona|neuter|ono}}
+
+# [[he]] {{qualifier|for [[animate]] nouns}}, [[it]] {{qualifier|for [[inanimate]] nouns}}
+
+====Declension====
+{{pl-decl-noun-sing
+|on
+|[[jego]]/[[go]]/[[niego]]
+|[[jemu]]/[[mu]]/[[niemu]]
+|[[jego]]/[[go]]/[[niego]]
+|[[nim]]
+|[[nim]]
+|-
+}}
+
+===Pronoun===
+{{head|pl|pronoun}}
+
+# {{lb|pl|dated|demonstrative}} [[this]]
+
+====Declension====
+{{pl-adecl|<irreg>}}
+
+===See also===
+* {{l|pl|Appendix:Polish pronouns}}
+
+===Trivia===
+{{pl-freq 1990|1477|677|976|1957|1617|6650|8|333|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|on|78869}}
+* {{R:pl:SXVI|on|78870}}
+* {{R:pl:SXVII|ON I|4382|date=03.11.2021}}
+* {{R:pl:SXVII|ON II|7364|date=30.03.2020}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||779|3}}
+
+==Romani==
+
+===Alternative forms===
+* {{alter|rom|jon|jone}}
+
+===Pronoun===
+{{head|rom|pronoun|cat2=personal pronouns|cat3=1-syllable words}}
+
+# [[they]]<ref>{{R:rom:Boretzky-Igla|on|page=201a}}</ref><ref>{{R:Courthiade:2009|entry=on B-ćham: len|page=260b}}</ref><ref>{{cite-book|coauthors=Yaron Matras; Evangelina Adamou|chapter=Romani and Contact Linguistics|editors=Yaron Matras; Anton Tenser|title=The Palgrave Handbook of Romani Language and Linguistics|year=2020|page=341|doi=10.1007/978-3-030-28105-2_11|isbn=978-3-030-28107-6}}</ref>
+
+====See also====
+{{rom-personal pronouns}}
+
+===References===
+<references/>
+
+==Romansh==
+
+===Alternative forms===
+* {{alt|rm|onn||Rumantsch Grischun|Sursilvan|Surmiran}}
+* {{alt|rm|an||Puter}}
+
+===Etymology===
+From {{inh|rm|la|annus}}.
+
+===Noun===
+{{rm-noun|m}}
+
+# {{lb|rm|Sutsilvan|Vallader}} [[year]]
+
+{{C|rm|Time}}
+
+==Rotuman==
+
+===Numeral===
+{{head|rtm|numeral form}}
+
+# {{infl of|rtm|ono||cons}}
+
+==Salar==
+{{cardinalbox|slr|9|10|20|doqus|yiğirme|ord=onıncı}}
+
+===Etymology===
+{{inh+|slr|trk-pro|*ōn}}.
+
+===Pronunciation===
+* {{IPA|slr|/on/|a=Xunhua,Qinghai; Gansu; Ili,Xinjiang|ref=舍秀存 [She Xiucun] (2015), p. 312; Shibata (1946), p. 58; Yakup (2002), p. 145.}}
+
+===Numeral===
+{{slr-numeral|ı}}
+
+# [[ten]]
+
+===References===
+<references/>
+* {{R:slr:Potanin|page=431}}
+* {{R:slr:Yanchuk|page=34}}
+* {{R:slr:Rockhill|page=373}}
+* {{R:slr:Shibata}}
+* {{R:slr:Kakuk}}
+* {{R:slr:Stroy|page=425}}
+* {{R:slr:Lianyun|page=135|on}}
+* {{R:slr:Yakup|page=145}}
+* {{R:slr:Kunlun|page=312}}
+* {{R:slr:MaWei2|page=296|on}}
+
+==Sedang==
+
+===Etymology===
+From {{inh|sed|mkh-ban-pro|*ʔuɲ}}. Cognate with {{cog|bdq|ŭnh}} and {{cog|hre|ùnh}}.
+
+===Pronunciation===
+* {{IPA|sed|/ʔɔn/}}
+
+===Noun===
+{{head|sed|noun}}
+
+# [[fire]]
+
+==Serbo-Croatian==
+
+===Etymology===
+{{inh+|sh|sla-pro|*onъ}}, from {{inh|sh|ine-pro|*h₂en|*h₂énos}}.
+
+===Pronunciation===
+* {{IPA|sh|/ôːn/}}
+* {{audio|sh|LL-Q9299 (srp)-UništihEkonomiju-on.wav|Audio (Central Serbia):}}
+
+===Pronoun===
+{{sh-pron|ȏn}}
+
+# [[he]]
+
+====Declension====
+{{sh-3ps-pronoun}}
+
+===See also===
+* {{l|sh|njezin}}
+* {{l|sh|njegov}}
+{{sh-personal pronouns|Latn}}
+
+{{cln|sh|personal pronouns}}
+
+==Slovak==
+
+===Etymology===
+{{inh+|sk|sla-pro|*onъ}}, from {{inh|sk|ine-pro|*h₂en|*h₂énos}}; inflected forms from {{inh|sk|sla-pro|*jь}}, from {{inh|sk|ine-pro|*éy}}.
+
+===Pronunciation===
+* {{IPA|sk|/ɔn/}}
+
+===Pronoun===
+{{head|sk|pronoun|g=m}}
+
+# [[he]], [[it]] {{gloss|third-person singular pronoun}}
+
+====Declension====
+{{sk-decl-noun-sg|on|ho//jeho//neho|mu//jemu//nemu|ho//jeho//neho|ňom|ním}}
+
+====Related terms====
+{{sk-personal pronouns}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Slovene==
+
+===Etymology===
+From {{inh|sl|sla-pro|*onъ}}, from {{inh|sl|ine-pro|*h₂en|*h₂énos}}.
+
+===Pronunciation===
+* {{sl-IPA|ȍn}}
+
+===Pronoun===
+{{sl-head|pron|ȍn}}
+
+# [[he]]
+# {{lb|sl|obsolete}} ''{{l|sl|onkanje}} form''{{sl-ref|SS, p. 389}}
+
+====Usage notes====
+The second binding singular form ({{l|sl|-enj}}) is used when the prefix ends in a consonant:
+* {{l|sl|zȃnj}} ({{l|sl|za-}} + {{l|sl|-nj}})
+* {{l|sl|skọ̑zenj}} ({{l|sl|skoz-}} + {{l|sl|-enj}})
+
+====Declension====
+{{sl-decl-on}}
+
+===See also===
+{{sl-personal pronouns}}
+
+===Further reading===
+{{R:sl:FR}}
+
+{{cln|sl|personal pronouns}}
+
+==Southeastern Tepehuan==
+
+===Etymology===
+From {{inh|stp|azc-pro|*ona}}.
+
+===Noun===
+{{head|stp|noun}}
+
+# {{l|en|salt}}
+
+===References===
+* {{Willett et al. 2016|page=140}}
+
+==Swedish==
+
+===Noun===
+{{head|sv|noun form}}
+
+# {{noun form of|sv|o||indef|p}}
+
+===Anagrams===
+* {{anagrams|sv|a=no|NO|no.}}
+
+==Tagalog==
+
+===Etymology===
+{{ety|tl|:bor|en:on|text=+|tree=1}}
+
+===Pronunciation===
+{{tl-pr}}
+
+===Adjective===
+{{tl-adj|b=+}} {{tlb|tl|slang}}
+
+# in a [[relationship]] with someone
+
+====Derived terms====
+{{col3|tl|mag-on}}
+
+===Anagrams===
+* {{anagrams|tl|a=no|no|'no}}
+
+==Tewa==
+
+===Pronunciation===
+* {{tew-IPA}}
+
+===Noun===
+{{head|tew|noun}}
+
+# [[chin]]
+# [[jaw]]
+
+===References===
+* {{R:Martinez 1982|23}}
+* {{R:Sutton 2014|37}}
+
+{{C|tew|Anatomy|Face}}
+
+==Turkish==
+{{number box|tr|10}}
+
+===Etymology===
+{{inh+|tr|ota|اون|tr=on}}, from {{inh|tr|trk-pro|*ōn||ten}}.  Compare {{cog|otk|𐰆𐰣|ts=on||ten}}.
+
+===Pronunciation===
+* {{IPA|tr|/on/}}
+* {{audio|tr|LL-Q256 (tur)-ToprakM-on.wav}}
+
+===Numeral===
+{{head|tr|numeral}}
+
+# {{cln|tr|cardinal numbers}} [[ten]]
+
+====Declension====
+{{tr-infl-noun-c|o}}
+
+==Turkmen==
+{{number box|tk}}
+
+===Etymology===
+From {{inh|tk|trk-pro|*ōn||ten}}.
+
+===Numeral===
+{{head|tk|numeral}}
+
+# {{cln|tk|cardinal numbers}} [[ten]]
+
+==Venetan==
+
+===Article===
+{{head|vec|article|g=m-s}}
+
+# [[a]], [[an]]
+
+====Usage notes====
+* Variant of {{m|vec|un}}
+
+==Volapük==
+
+===Etymology===
+Borrowed from {{bor|vo|fr|on}}.
+
+===Pronoun===
+{{head|vo|pronoun}}
+
+# [[it]]
+# {{lb|vo|obsolete|indefinite personal pronoun}} [[one]]
+
+====Declension====
+{{vo-decl-pronoun}}
+
+==Votic==
+
+===Pronunciation===
+{{vot-p}}
+
+===Verb===
+{{head|vot|verb form}}
+
+# {{inflection of|vot|õllõ||3|sg|ind|pres}}
+
+==Walloon==
+
+===Alternative forms===
+* {{l|wa|onk}}
+
+===Etymology===
+From {{inh|wa|la|ūnum}}.
+
+===Pronunciation===
+* {{IPA|wa|/ɔ̃/}}
+
+===Article===
+{{head|wa|article|masculine before a vowel:|in-|feminine:|ine}}
+
+# [[an]], [[a]]
+#: {{uxi|wa|'''on''' tchin|'''a''' dog}}
+#: {{uxi|wa|'''in-'''åbe|'''a''' tree}}
+#: {{uxi|wa|'''ine''' minte|'''a''' lie}}
+
+===Numeral===
+{{head|wa|numeral}}
+
+# {{cln|wa|cardinal numbers}} [[one]]
+
+==Yola==
+
+===Alternative forms===
+* {{l|yol|an}}
+* {{l|yol|ana}} {{q|before consonant}}
+* {{l|yol|a}} {{q|unstressed}}
+
+===Etymology===
+From {{inh|yol|enm|on|on, an}}, from {{inh|yol|ang|on}}.
+
+===Pronunciation===
+* {{IPA|yol|/ɔn/|/an/|/anə/|/ə/}}
+
+===Preposition===
+{{head|yol|prepositions}}
+
+# [[#English|on]]
+#* {{quote-book|yol|year=1867|chapter=THE WEDDEEN O BALLYMORE|number=1|page=94|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=An a priesth o' parieshe '''on''' his lhaung-tyel garraane.|translation=And the priest of the parish '''on''' his long tail pony.}}
+#* {{quote-book|yol|year=1867|chapter=THE WEDDEEN O BALLYMORE|number=2|page=94|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=An a priesth o parieshe '''on''' his garrane baun,|translation=The priest of the parish '''on''' his white pony,}}
+#* {{quote-book|yol|year=1867|chapter=CASTEALE CUDDE'S LAMENTATION|number=5|page=104|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Mizluck mye lhygt '''on''' Tam Busheare;|translation=Bad luck may light '''on''' Tom Busheare;}}
+#* {{quote-book|yol|year=1867|page=131|title=DR. RUSSELL ON THE INHABITANTS AND DIALECT OF THE BARONY OF FORTH|passage=Fad didn'st thou cum t' ouz '''on''' zum other dey?|translation=[Why didn't you come to us '''on''' some other day?]}}
+
+===References===
+* {{R:Poole 1867|page=94}}

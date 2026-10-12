@@ -1,0 +1,50 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=verbal|:inh|sla-pro:*-vati<id:verbal>|tree=1|text=1}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Suffix===
+{{head|zlw-opl|suffix}}
+
+# {{ng|forms verbs, usually of a frequentative or imperfective meaning, sometimes causes a vowel change, most often ''a'' or ''o'' → ''e''}}
+#: {{suffixusex|zlw-opl|znać|znawać}}
+#: {{suffixusex|zlw-opl|polać|polewać}}
+
+====Derived terms====
+{{suffixsee|zlw-opl}}
+
+====Descendants====
+* {{desc|pl|-wać}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|id=verbal|:inh|zlw-opl:-wać<id:verbal>|tree=1|text=1}}
+
+===Pronunciation===
+{{pl-pr}}
+
+===Suffix===
+{{head|pl|suffix}}
+
+# {{ng|forms verbs, usually of a frequentative or imperfective meaning, sometimes causes a vowel change, most often ''a'' or ''o'' → ''e''}}
+#: {{suffixusex|pl|zagrzać|zagrzewać}}
+#: {{suffixusex|pl|nalać|nalewać}}
+
+====Conjugation====
+{{pl-conj-ai-am,asz|-wa|pp}}
+Or occasionally:
+{{pl-conj-ai-uję|-|pp|alt=y}}
+
+====Derived terms====
+{{suffixsee|pl}}
+
+====See also====
+* {{l|pl|-ać}}
+* {{l|pl|-ywać}}
+
+===Further reading===
+* {{R:pl:PWN}}

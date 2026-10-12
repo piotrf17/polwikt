@@ -1,0 +1,35 @@
+==Polish==
+{{wp|pl:}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|low=#}}
+
+===Etymology 1===
+{{ety|pl|:af|spód|-eń<alt:-nie>|text=+|tree=1}}
+
+====Alternative forms====
+* {{alt|pl|cpodnie||Łowicz|Małszyce|Ostrów|Bocheń}}
+
+====Noun====
+{{pl-noun|nv-p|dim=spodenki}}
+
+# [[pants]], [[trousers]]
+#: {{syn|pl|gacie|pantalony|portki}}
+
+=====Declension=====
+{{pl-decl-noun-f|tantum=p}}
+
+===Etymology 2===
+{{ety|pl|nl=1}}
+
+====Adjective====
+{{head|pl|adjective form}}
+
+# {{inflection of|pl|spodni||n|nom//acc//voc|s|;|nv|nom//acc//voc|p}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:Świderska:1929|spodńe|134}}<!---częściej portḱi--->
+
+{{C|pl|Clothing}}

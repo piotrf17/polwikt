@@ -4,7 +4,7 @@
 UV ?= uv
 RUN := $(UV) run --locked
 
-.PHONY: help sync lint fmt typecheck test check proto lock clean
+.PHONY: help sync lint fmt typecheck test check proto golden-pull lock clean
 
 help:  ## List targets
 	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-10s %s\n", $$1, $$2}'
@@ -30,6 +30,9 @@ check: lint typecheck test  ## Everything CI runs
 
 proto:  ## Regenerate polwikt/proto/*_pb2.py[i] from proto/polwikt.proto (commit the result)
 	$(RUN) python -m grpc_tools.protoc -Iproto --python_out=polwikt/proto --pyi_out=polwikt/proto proto/polwikt.proto
+
+golden-pull:  ## Refresh tests/golden/ fixtures from data/pages.sqlite (R8.1)
+	$(RUN) python tools/golden.py pull
 
 lock:  ## Re-resolve uv.lock after editing pyproject.toml
 	$(UV) lock

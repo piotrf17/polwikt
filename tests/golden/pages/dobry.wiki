@@ -1,0 +1,301 @@
+{{also|Dobry|dobrý|dôbry}}
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{hyphenation|cs|dob|ry}}
+
+===Noun===
+{{head|cs|noun form}}
+
+# {{infl of|cs|dobro||ins|p}}
+
+===Anagrams===
+* {{l|cs|brody}}
+* {{l|cs|droby}}
+
+==Lower Sorbian==
+
+===Etymology===
+{{inh+|dsb|sla-pro|*dobrъ}}.
+
+===Pronunciation===
+{{dsb-pr}}
+
+===Adjective===
+{{dsb-adj|lěpšy|adv=derje}}
+
+# [[good]]
+
+====Declension====
+{{dsb-decl-adj-auto}}
+
+====Antonyms====
+* {{l|dsb|zły||bad}}
+
+====Derived terms====
+{{col4|dsb
+|dobra śpa<!--living room-->
+|dobra zelenina<!--fine vegetables-->
+|dobra zemja<!--topsoil-->
+|dobre<!--good-->
+|dobrejtšo<!--good morning-->
+|dobre mloko<!--whole milk-->
+|dobre zajtšo<!--good morning-->
+|dobrina<!--good piece of land-->
+|dobriś<!--to appease, placate-->
+|dobrodušny<!--good-natured-->
+|dobroś<!--goodness-->
+|dobrośaŕ,dobrośarka<!--benefactor-->
+|dobrośel,dobrośelka<!--benefactor-->
+|dobrośelnik,dobrośelnica<!--benefactor-->
+|dobrośiś<!--to do a good deed for-->
+|dobrośiwosć<!--good-naturedness-->
+|dobrośiwy<!--benevolent-->
+|dobrota<!--goodness-->
+|dobrotka<!--goody-->
+|dobrotnik,dobrotnica<!--benefactor-->
+|dobrotny<!--kind-hearted-->
+|dobrotnosć<!--kind-heartedness-->
+|dobrowólnik,dobrowólnica<!--volunteer-->
+|dobrowólnosć<!--voluntariness-->
+|dobrowólny<!--voluntary-->
+|dobrozdaśe<!--discretion-->
+|dobru noc<!--good night-->
+|dobry kafej<!--pure coffee-->
+|dobry wjacor<!--good evening-->
+|dobry źeń<!--good day-->
+|měś dobru głowku<!--to be clever-->
+|nadobry<!--refined (in flavor)-->
+|njedobro<!--evil-->
+|njedobrosć<!--badness-->
+|njedobroś<!--badness-->
+|njedobrota<!--badness-->
+|njedobrotnik<!--good-for-nothing-->
+|njedobrotny<!--mean-spirited-->
+|pśedobry<!--very good-->
+}}
+
+===Further reading===
+* {{R:dsb:Muka}}
+* {{R:dsb:Starosta}}
+
+{{cln|dsb|suppletive adjectives}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=good|:inh|sla-pro:*dòbrъ|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA|dobry:}}
+
+===Adjective===
+{{zlw-opl-adj|lepszy|adv=dobrze}}
+
+# [[good]] {{gl|beneficial; kind}}
+# [[good]] {{gl|moral, ethical}}
+# [[good]] {{gl|trustworthy}}
+# [[noble]] {{gl|high in a social hierarchy}}
+# [[good]] {{gl|of high quality}}
+# [[good]] {{gl|having a nice taste or flavor}}
+# [[long]] {{gl|lasting a long time}}
+# [[good]] {{gl|correct, apt, not wrong}}
+# [[good]] {{gl|legitimate}}
+# [[successful]]
+# of a certain [[value]]
+# [[good]] {{gl|used in titles}}
+# {{ng|corruption of {{m|zlw-opl|droby}}}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|dobrowolny|niedobry|przedobry}}
+{{col|zlw-opl|title=averb|dobrą wolą}}
+{{col|zlw-opl|title=nouns|dobrek|dobrochna|dobrodrustwo|dobrodziej|dobrodziejca|dobrodzierżca|dobropan|dobrość|dobrota|dobrowolstwo|dobre słowo|dobra wola|dobre|pospolne dobre|wolne dobre|dobra chorągiew|dobry poniedziałek}}
+{{zlw-opl-derived verbs|-/być dobrej myśli}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|dobrotliwy|niedobrowolny}}
+{{col|zlw-opl|title=adverbs|dobrotliwie|dobrowolnie|dobrowolno|niedobrze}}
+{{col|zlw-opl|title=nouns|doba|dobro|dobroć|dobrodziejstwo|dobrotliwoć|dobrotliwość|dobrotnik|dobrotwa|dobrowolność|dobrowoleństwo|dobrzczyk}}
+{{zlw-opl-derived verbs|-/dobrzemówić}}
+
+====Descendants====
+* {{desc|pl|dobry}}
+* {{desc|szl|dobry}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:SEUW|+|7}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|dóbr||Middle Polish}}
+
+===Etymology===
+{{ety|pl|id=good|:inh|zlw-opl:dobry|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-dobry.ogg|hh=Dobry|mp=#|CD=#|MD=#|CGP=#|zag=#}}
+
+===Adjective===
+{{pl-adj|lepszy,lepsiejszy<l:humorous,or,ironic>,dobrzejszy<l:humorous,or,ironic>|sup=najlepszy,najlepsiejszy<l:humorous,or,ironic>,najdobrzejszy<l:humorous,or,ironic>|adv=dobrze}}
+
+# [[good]] {{gl|moral, ethical}}
+# [[good]] {{gl|kind, nice, willing to help}} {{+obj|pl|:dla(gen)<for whom>}}
+# [[good]] {{gl|of a mood; cheerful, fun, nice}}
+# [[good]] {{gl|successful}}
+# [[good]] {{gl|hard-working; tending to carry out one's duties}}
+# [[good]] {{gl|of a living thing or its parts; functioning}}
+# [[good]] {{gl|high quality}}
+# [[good]] {{gl|apt, as wanted or expected}}
+# [[good]] {{gl|of food and drink; tasty}}
+# [[good]] {{gl|beneficial}}
+# [[good]] {{gl|resulting from a correct choice}}
+# [[good]] {{gl|having a high quality or skill at}} {{+obj|pl|:z(gen)/:w(loc)<at what>}}
+# [[good]] {{gl|kind, fair, just}}
+# [[good]] {{gl|having a high social hierarchical position}}
+# [[good]] {{gl|in close relations}}
+# [[good]] {{gl|expressing approval}}
+# {{lb|pl|colloquial}} [[good]] {{gl|having a large size; lasting a long time}}
+#: {{uxi|pl|Obrót Ziemi wokół Słońca zajmuje '''dobre''' 365 dni.|The rotation of the Earth around the Sun takes a '''good''' 365 days.}}
+#: {{uxi|pl|Pojechaliśmy '''dobry''' kawałek drogi.|We covered a '''good''' bit of distance|lit=We drove a '''good''' chunk of road.}}
+# [[good]] {{gl|healthy}}
+# {{lb|pl|obsolete}} [[rich]]
+#: {{syn|pl|bogaty}}
+# {{lb|pl|Middle Polish}} [[good]]; {{def-uncertain|pl|undetailed=1|nohypothesis=1}}
+#* {{RQ:pl:Mącz|6c|Albus, Biały/ per Metaphoram. Bonus, '''Dobry'''|Albus, Biały/ per Metaphoram. Bonus, '''Dobry'''|-}}
+#* {{RQ:pl:RejZwierc|238v|'''Dobry'''/ to ſłowo/ Káżdemu zdrowo.|'''Dobry'''/ to słowo/ Każdemu zdrowo.|-}}
+#* {{RQ:pl:Calep|775a|Perbonus ‒ Barzo '''dobri'''.|Perbonus ‒ Barzo '''dobry'''.|-}}
+# {{lb|pl|Chełmno-Dobrzyń}} [[ripe]]
+#: {{syn|pl|dojrzały}}
+# {{lb|pl|Far Masovian|Przasnysz|of a sin}} [[grave]]; [[great]]
+#: {{syn|pl|ciężki}}
+# {{lb|pl|Central Greater Poland|Jaraczewo|Krotoszyn}} [[good]] {{gl|wanted; desired}}
+
+====Declension====
+{{pl-adecl}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|education}} [[B]] {{gl|the letter grade assigned}} {{+obj|pl|:z(gen)<in what subject>}}
+#: {{syn|pl|czwórka}}
+
+====Declension====
+{{pl-decl-noun
+|noms=dobry
+|gens=dobrego
+|dats=dobremu
+|accs=dobry
+|inss=dobrym
+|locs=dobrym
+|vocs=dobry
+|nomp=dobre
+|genp=dobrych
+|datp=dobrym
+|accp=dobre
+|insp=dobrymi
+|locp=dobrych
+|vocp=dobre
+}}
+
+====Synonyms====
+* {{syn|pl|Thesaurus:dobry}}
+
+====Antonyms====
+* {{ant|pl|Thesaurus:zły}}
+
+====Derived terms====
+{{col|pl|title=adjectives|arcydobry|dobrowolny|w dobrym guście|z dobrego domu}}
+{{col|pl|title=adverbs|jak komu dobremu|na dobre i na złe|na dzień dobry|pod dobrą datą|w dobre ręce|w dobrej wierze|w dobrych rękach|z dobrego serca}}
+{{col|pl|title=interjections|dobranoc|dobry wieczór|dzień dobry|dobra nasza|dobrej nocy}}
+{{col|pl|title=nouns|bardzo dobry|dobrobyt|dobroć|dobrodziej|dobrostan|małodobry|Dobra Nowina|dobra praktyka|dobra wola|dobre słowo|Dobry Pasterz|dobry wujek|drzewo wiadomości dobrego i złego|ocena bardzo dobra|ocena dobra|wujek Dobra Rada}}
+{{col|pl|title=particle|na dobrą sprawę}}
+{{col|pl|title=proverb|dobra psu i mucha|dobrego i karczma nie zepsuje, a złego i kościół nie naprawi|dobrymi chęciami piekło jest wybrukowane|dobry zwyczaj nie pożyczaj|na frasunek dobry trunek|nie ma tego złego, co by na dobre nie wyszło|z braku laku to i kit dobry|brak wiadomości to dobra wiadomość}}
+{{pl-derived verbs|-/dobrzeć|-/dobruchać}}
+{{pl-derived verbs|-/być w dobrym tonie|wziąć za dobrą monetę/brać za dobrą monetę|-/być dobrej myśli|postawić na dobrego konia/stawiać na dobrego konia|zrobić dobrą minę do złej gry/robić dobrą minę do złej gry|-/być na dobrej drodze|-/mieć dobrą prasę}}
+
+====Related terms====
+{{col|pl|title=adjective|dobrotliwy}}
+{{col|pl|title=adverb|arcydobrze}}
+
+===Trivia===
+{{pl-freq 1990|29|32|50|64|121|296|170|77|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP||775}}
+** {{R:pl:WSJP||38834}}
+** {{R:pl:PWN}}
+** {{R:pl:NFJP}}
+** {{R:pl:SGJP|+|68316}}
+** {{R:pl:SGJP|+|69331}}
+** {{R:pl:SGJP|+|104036}}
+* Middle Polish:
+** {{R:pl:SXVI|+|48579}}
+** {{R:pl:SXVII|DOBRY|4456|SPas|02.12.2020}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||475|1}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||332|1}}
+** {{R:pl:Nitsch:1907||387}}
+** {{R:pl:Kobylińska:2001||28}}
+
+{{cln|pl|suppletive adjectives}}
+{{C|pl|Academic grades}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=good|:inh|zlw-opl:dobry|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Adjective===
+{{szl-adj|lepszy|adv=dobrze}}
+
+# [[good]]
+#: {{ant|szl|niydobry|zły}}
+
+====Declension====
+{{szl-decl-adj-auto|dob|r|y}}
+
+====Related terms====
+{{col|szl|title=interjections|dziyń dobry|dobry wieczōr}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+{{cln|szl|suppletive adjectives}}
+
+==Upper Sorbian==
+
+===Etymology===
+{{ety|hsb|:inh|sla-pro:*dobrъ|text=+|tree=1}}
+
+===Pronunciation===
+{{hsb-pr}}
+
+===Adjective===
+{{hsb-adj|lěpši|adv=derje}}
+
+# [[good]]
+
+====Declension====
+{{hsb-decl-adj-auto}}
+
+===Further reading===
+* {{R:hsb:Mudra}}
+* {{R:hsb:Soblex}}
+
+{{cln|hsb|suppletive adjectives}}

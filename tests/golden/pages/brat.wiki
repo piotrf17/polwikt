@@ -1,0 +1,813 @@
+{{also|Appendix:Variations of "brat"}}
+{{minitoc}}
+==English==
+
+===Etymology 1===
+{{dercat|en|qfa-sub|fro|frk|gem-pro}}
+Early Modern English (c. 1500) slang term meaning "beggar's child".<ref>{{R:OED Online|id=1812251052}}</ref> Possibly from {{der|en|sco|bratchet|t=bitch, hound}}, in which case it would be a {{dbt|en|brachet|nocap=1}}. Another possibility is that it was originally a dialectal word, from northern and western England and the [[Midlands]], for a "makeshift or ragged garment," from {{der|en|ang|bratt|t=cloak}}, which is from a {{der|en|cel|-}} source ({{der|en|sga|-}} {{m|ga|brat|t=cloak, cloth}}).
+
+In the sense "characteristic of a confident and assertive woman", {{coinage|en|Charli XCX|nat=English|occ=singer and songwriter|nocap=1}} in her 2024 album ''{{w|Brat (album)|Brat}}'',<ref>{{R:Dictionary.com|url=https://www.dictionary.com/e/pop-culture/brat/}}</ref> though occasional earlier uses of the word with a "reclaimed" or [[ironic]], positive [[connotation]] existed, including in {{w|LGBTQ slang}} for people of certain [[femme]] or feminine-leaning personalities.
+
+====Pronunciation====
+* {{enPR|brăt}}, {{IPA|en|/bɹæt/}}
+* {{audio|en|en-au-brat.ogg|a=AU}}
+* {{rhymes|en|æt|s=1}}
+* {{hyph|en|brat}}
+* {{hmp|en|Bratt}}
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|slang|usually|negative connotation}} A [[human]] [[child]].
+#: {{syn|en|Thesaurus:child}}
+#* {{quote-book|en|date=2 March 2012|author=Dan Shive|title=El Goonish Shive|section=Comic for Friday, Mar 2, 2012|sectionurl=https://www.egscomics.com/comic/2012-03-02|format=webcomic|text="So... ''you'' want to have kids someday?"  "''Uh...'' well, yes.  I always figured I'd have a couple '''brats''' of my own someday..."  "That's still doable, you know."  "I know, but the process is a lot more complicated and less intimate, and --"}}
+## {{lb|en|pejorative}} A [[child]] who is regarded as [[mischievous]], [[unruly]], [[spoil]]ed, or [[selfish]].
+##: {{co|en|a spoiled '''brat'''}}
+##: {{ux|en|Get that little '''brat''' away from me!}}
+##* {{quote-book|en|year=1850|author=w:Thomas Keightley|title=The Fairy Mythology|location=London|publisher=H.G. Bohn|page=522|passage=“But it was far otherwise wid the remainin' one, which was the ouldest; he was the most miserable, ugly, ill-conditioned '''brat''' that ivir God put life into: he was so ill thriven, that he was nivir able to stand alone or to lave his cradle; he had long, shaggy, matted, curly hair, as black as the sut; his face was uv a greenish yollow colour[.]”}}
+##* {{quote-book|en|year=1886|translator=H.L. Br&aelig;kstad|author=w:Peter Christen Asbjørnsen|title=Folk and Fairy Tales|page=297|passage=He would never speak a word, - only eat and cry, and she hadn't the heart to strike it or illtreat the youngster either; but somebody taught her a charm to make him speak, and then she found out what kind of a '''brat''' he really was.}}
+## {{lb|en|uncountable|neologism}} The qualities possessed by a [[confident#Adjective|confident]] and [[assertive#Adjective|assertive]] [[woman#Noun|woman]].
+##* {{RQ:WaPo|author=Lauren Bulbin|author2=Annaliese Nurnberg|title=The best brat styles of DNC|url=https://www.washingtonpost.com/style/2024/08/23/dnc-brat-fashion-celebrities-photos/|archiveurl=https://archive.ph/AZbm4|archivedate=23 August 2024|date=23 August 2024|passage=Here are the people and the styles at the DNC that embodied the '''brat''' ethos.}}
+##* {{RQ:New Yorker|author=w:Lena Dunham|title=A Guide to Brat Summer|archiveurl=https://web.archive.org/web/20240827015238/https://www.newyorker.com/magazine/2024/09/02/a-guide-to-brat-summer|date=26 August 2024|passage='''Brat''' is being lazy until 10 P.M., at which point you construct a château using discarded scraps of pleather, finish it by morning, and immediately win the Pritzker Architecture Prize.}}
+##* {{quote-web|en|author=Brooke LaMantia|title=Naomi Osaka Is Having a Brat U.S. Open|site=[[w:The Cut (website)|The Cut]]|archiveurl=https://web.archive.org/web/20240828025235/https://www.thecut.com/article/naomi-osaka-is-having-a-brat-u-s-open.html|date=27 August 2024|passage=My favorite touch is how each of her Nike shoes has its own little bow, which is just the perfect amount of '''brat'''.}}
+## {{lb|en|slang}} A [[child]] (at any age) of an active member of the [[military]] or the [[diplomatic service]].
+##: {{co|en|an army '''brat'''}}
+##* {{quote-journal|en|date=1941-06-05|author=Gerry Dick|title=They Practiced Art of War, Then They Studied It|newspaper=Hope Star|location=Hope, Arkansas|page=5|pageurl=https://archive.org/details/hope-star-1941-06-05/page/n4/mode/1up?q=brat|passage=Lt. Gen. John L. DeWitt, Commander of the Fourth Army, was an army “'''brat''',” which means his father was an army officer. But he went into the army from Princeton, not from West Point.}}
+## {{senseid|en|unruly submissive}} {{lb|en|BDSM}} A [[submissive]] partner who is [[disobedient]] and [[unruly]].
+# {{lb|en|by extension|pejorative}} An [[immature]], [[spoil]]ed and/or [[selfish]] person.
+# A [[turbot]] or [[flatfish]].
+#* {{quote-book|en|year=1843|author={{w|Thomas Wilson (poet)|Thomas Wilson}}|title=The Movement|chapter=|edition=|url=[http://books.google.com/books?id=nvkDAAAAQAAJ&pg=PA127 The Pitman's Pay: And Other Poems]|passage=For the ''crabby'' awd dealers in ''ling'', ''cod'', and '''''brats''''' / And the ''vurgins'' that tempt us wi' nice ''maiden skyet''...}}
+# {{senseid|en|cloak}}{{lb|en|historic}} A rough [[cloak]] or ragged [[garment]].
+#* {{quote-book|en|year=1961 |title=Everyday costume in Britain: from the earliest times to 1900  |author=Audrey I. Barfoot  |page=80 |ISBN= |passage=The chief's daughter wears a '''brat''' and léine girdled with a criss. }}
+#* {{quote-book|en|year=2005 |title=Medieval Ireland: An Encyclopedia  |author=Seán Duffy  |page=156 |ISBN=1135948240 |passage=The prevailing style of dress in the early medieval period comprised a léine (tunic) worn under a '''brat''' (cloak).  }}
+#* {{quote-book|en|year=2006|title=Celtic Culture: A-Celti  |author= |page=1272 |ISBN=1851094407 |passage=Women wore loose, flowing, ankle-length robes modelled on 11th-century European fashion (derived from what O'Neill called the léine) and, perhaps, a '''brat''' over these. }}
+# {{lb|en|obsolete|UK|Scotland|dialect}} A coarse kind of [[apron]] for keeping the clothes clean; a [[bib]].
+#* {{quote-book|en|year=1882|author=John Strathesk|title=Blinkbonny|chapter=pp. 135|edition=|url=[http://books.google.com/books?id=ga0yAQAAMAAJ&pg=PA382 The English Dialect Dictionary... ''brat'']|passage=[She] had still on the rough worsted apron of nappy homespun wool, called a '''"brat"'''.}}
+# {{lb|en|obsolete}} The [[young]] of an [[animal]].
+#* {{RQ:Marlowe Tamburlaine|part=1|scene=iii|page=51|passage=Their ſhoulders broad, for complet armour fit,<br>Their lims more large and of a bigger ſize<br>Than all the '''brats''' yſprong from ''Typhons'' loins:}}
+#* {{quote-text|en|year=1680|author=w:Roger L'Estrange|title=Citt and Bumpkin
+|passage=They are your Will-Worship-men, your Prelates '''Brats''': Take the whole Litter of’um, and you’ll finde never a barrel better Herring.}}
+
+=====Derived terms=====
+{{col|en|brat tamer|Brat Pack|bratling|brattery|brattish|brattitude|diplobrat|fanbrat|firebrat|grandbrat|superbrat|army brat|fac brat|military brat|chequer-brat|bratness}}
+
+=====Translations=====
+{{trans-top|a selfish, spoiled, or unruly child}}
+* Catalan: {{t+|ca|marrec|m}}, {{t+|ca|ganàpia}}
+* Chinese:
+*: Cantonese: {{t+|yue|豆釘}}, {{t+|yue|塞豆窿}}
+*: Mandarin: {{t+|cmn|小子|tr=xiǎozi}}, {{l|cmn|臭}}{{l|cmn|小孩兒}}, {{l|cmn|臭}}{{l|cmn|小孩儿}} (chòu xiǎoháir), {{t+|cmn|小淘氣|tr=xiǎotáoqì}}, {{l|cmn|小屁孩}}
+* Czech: {{t+|cs|spratek|m}}, {{t+|cs|fracek|m}}, {{t+|cs|fakan|m}}
+* Danish: {{t+|da|unge}}, {{t+|da|møgunge}}
+* Dutch: (verwend) [[nest]] {{g|n}}
+* Esperanto: {{t|eo|knabaĉo}}, {{t|eo|knabinaĉo}}, {{t|eo|bubaĉo}}
+* Faroese: {{t|fo|óargaungi|m}}
+* Finnish: {{t+|fi|kakara}}, {{t+|fi|penska}}
+* French: {{t+|fr|morveux|m}}, {{t+|fr|morveuse|f}}, {{t+|fr|peste|f}}, {{t+|fr|sale gosse|m|f}}, {{t+|fr|garnement|m}}, {{t+|fr|mal élevé|m}}, {{t+|fr|mal élevée|f}}
+* Galician: {{t|gl|fedello|m}}, {{t|gl|mocoso|m}}, {{t|gl|mocosa|f}}
+* German: {{t+|de|Balg|m}}, {{t+|de|Göre|f}}, {{t+|de|Gör|n}}
+*: Alemannic German: {{t|gsw|Blag|n}}
+* Greek: {{t+|el|τσογλάνι|n}}, {{t+|el|κωλόπαιδο|n}}, {{t+|el|παλιόπαιδο|n}}
+* Hebrew: {{t|he|מַזִּיק|m|tr=mazík}}
+* Irish: {{t|ga|dailtín|m}}
+* Italian: {{t+|it|monello|m}}, {{t+|it|moccioso|m}}
+* Japanese: {{t+|ja|餓鬼|tr=がき, gaki}}, {{t+|ja|ちび|tr=chibi}}
+* Korean: {{t+|ko|애새끼}}
+* Macedonian: {{t|mk|де́тиште|n}}
+* Māori: {{t|mi|kapewhiti}}
+* Norman: {{t|nrf|marmot|m}}
+* Norwegian: (bortskjemt) {{t|no|drittunge|n}}, {{t|no|snørrunge|m}}
+* Plautdietsch: {{t|pdt|Baulch|n}}, {{t|pdt|Brech|n}}
+* Polish: {{t+|pl|bachor|m}}, {{t+|pl|bękart|m}}
+* Portuguese: {{t+|pt|pirralho|m}}, {{t+|pt|mimado|m}}, {{t|pt|pirralha|f}}
+* Romanian: {{t+|ro|plod|m}}, {{t+|ro|odraslă|f}}, {{t+|ro|vlăstar|m|n}}, {{t+|ro|copil|m}}, {{t+|ro|puști|m}}
+* Russian: {{t|ru|([[невоспитанный]]/[[надоедливый]]) [[ребёнок]]|m}}, {{t+|ru|него́дник|m}}, {{t+|ru|него́дница|f}}, {{t+|ru|парши́вец|m}}, {{t+|ru|парши́вка|f}}, {{t+|ru|сопля́к|m}}, {{t+|ru|сопля́чка|f}}, {{t+|ru|молокосо́с|m}}, {{t|ru|молокосо́ска|f}}, {{t+|ru|мальчи́шка|m}}, {{t+|ru|девчо́нка|f}}, {{t+|ru|отро́дье|n}}
+* Scottish Gaelic: {{t|gd|droch isean|m}}, {{t|gd|uilleagan|m}}, {{t|gd|peasan|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|дериште|n}}
+*: Latin: {{t+|sh|derište|n}}
+* Spanish: {{t+|es|mimado|m}}, {{t+|es|malcriado|m}}, {{t+|es|malportado|m}}, {{t+|es|mocoso|m}}, {{t+|es|niñato|m}}, {{t|es|jovenete|m}} {{q|dated}}, {{t|es|[[mal]] [[comportado]]|m}}
+* Swedish: {{t+|sv|snorunge|c}}
+* Telugu: {{t+|te|గుంట}}
+* Thai: {{t|th|เด็กเปรต}}, {{t|th|เด็กเวร|tr=dèk-ween}}, {{t|th|เด็กแสบ|tr=dèk-sɛ̀ɛp}}
+* Turkish: {{t+|tr|velet}}
+* Woiwurrung: {{t|wyi|nilimjak}}
+* Yiddish: {{t|yi|תּכשיט|m|tr=takhshet}}, {{t|yi|מזיק|m|tr=mazek}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb|++}}
+
+# {{lb|en|BDSM|intransitive}} To act in a [[bratty]] manner as the [[submissive]].
+#* {{quote-text|en|year=2021|author=Ardie Stallard|title=Switch: A Tale of Spanking, BDSM & Romance
+|passage=Ruthie was Ed's own submissive, a short, pretty, feisty ash-blonde New York City native who combined her submission to Ed with a good deal of mischievous '''bratting''' and a lot of sharp, intelligent conversation {{...}}}}
+#* {{quote-text|en|year=2020|author=Jessica M. Kratzer|title=Communication in Kink|page=43
+|passage=Rather, Ana moves between playful '''bratting''' and a type of “conquer me” wantedness that good Dominants would respond to with increased control and correction.}}
+
+====Adjective====
+{{en-adj}}
+
+# {{lb|en|neologism|briefly popular in 2024, otherwise|_|rare}} Characteristic of a [[confident#Adjective|confident]] and [[assertive#Adjective|assertive]] [[woman#Noun|woman]].
+#* {{quote-web|en|author=@charli_xcx {{q-g|{{w|Charli XCX}}}}|site=w:Twitter|url=https://x.com/charli_xcx/status/1815182384066707861|archiveurl=https://archive.ph/gMvn0|archivedate=24 July 2024|date=21 July 2024|passage=kamala IS '''brat'''}}
+#* {{quote-web|en|author=Noah Keate|title=It's official: Boris Johnson is brat|site=w:Politico|archiveurl=https://web.archive.org/web/20240815061212/https://www.politico.eu/article/boris-johnson-brat-politician-poll-uk/|date=13 August 2024|passage=Starmer's Tory predecessors {{w|Rishi Sunak}} and {{w|Liz Truss}} were identified as '''brat''' by 15 percent each of those asked.}}
+#* {{RQ:Guardian|author=w:Nesrine Malik|title='Brat' Kamala or 'dragon mother' Pelosi? This meme machine is a risky strategy in a high-stakes election|archiveurl=https://web.archive.org/web/20240827095030/https://www.theguardian.com/commentisfree/article/2024/aug/26/brat-kamala-meme-machine-risky-election-democrats|date=26 August 2024|passage=Kamala Harris herself was anointed as "'''brat'''" the moment that Joe Biden stepped down, but already Harris's mother – who had Indian heritage and raised Harris as a single parent – has been declared the uberbrat, more '''brat''' than even her daughter.}}
+#* {{quote-text|en|year=2025|month=May|author=Austin Ulmer|url=https://www.proquest.com/openview/dc707f330c0ab9ddd8e65790ca905da1/1?pq-origsite=gscholar&cbl=18750&diss=y|title=Ideology Is '''Brat''': Popular Music As Discourse in the 2024 US Presidential Election
+|passage=[see title]}}
+#* {{quote-text|en|year=2026|author=L. Bendfeldt|title=Peace is '''brat''': NATO, digital militarism, and the absurd
+|passage='[…] is brat’ was applied to a host of different entities. The latter reached its height when Charli XCX herself tweeted in July 2024 that US presidential candidate ‘kamala [Harris] IS '''brat'''{{'}} {{...}}|brackets=on}}
+#* {{quote-journal|en|year=2026|author=M Bösch|title=TikTok Edits, Vibes, Audio Memes: Participatory Propaganda in the 2025 German Federal Election Campaign|journal=Media and Communication
+|passage=Habeck later reposted fan‐made videos using slogans like “Green is '''brat''',” demonstrating bottom‐up to top‐down incorporation.|brackets=on}}
+
+=====Related terms=====
+{{col4|en
+|brat green
+|brat summer
+}}
+
+===Etymology 2===
+{{clipping|en|bratwurst}}, from {{der|en|de|Bratwurst}}.
+
+====Pronunciation====
+* {{enPR|brŏt|a=US}}, {{IPA|en|/bɹɑt/}}
+* {{rhymes|en|ɒt|s=1}}
+* {{audio|en|LL-Q1860 (eng)-Flame, not lame-brat.wav|a=US}}
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|informal}} [[bratwurst|Bratwurst]].
+#* {{quote-book|en|year=2020|author=[[w:Brandon Taylor (writer)|Brandon Taylor]]|title=[[w:Real Life (novel)|Real Life]]|publisher=Daunt Books Originals|page=267|passage=There are many people loitering, eating ice cream, talking, eating '''brats'''.}}
+#* {{RQ:NYT|date=1 September 2024|author=Matt Schneidman; The Athletic Staff
+|title=Lambeau Field guide: What to know about the Green Bay Packers’ home stadium|archiveurl=https://web.archive.org/web/20240901163524/https://www.nytimes.com/athletic/5712882/2024/09/01/green-bay-packers-stadium-guide-lambeau-field/|passage=What’s the can’t-miss food? / '''Brat''' or sausage. {{...}} — ''Tom G.''}}
+
+=====Translations=====
+{{trans-see|bratwurst}}
+
+====See also====
+* [[Appendix:English collective nouns]]
+
+===Etymology 3===
+{{rfe|en}}
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|mining}} A thin [[bed]] of [[coal]] mixed with [[pyrite]]s or [[carbonate]] of [[lime]].
+
+===References===
+{{reflist}}
+
+===Anagrams===
+* {{anagrams|en|a=abrt|BART|Bart|T-bar}}
+
+{{cln|en|clippings}}
+{{C|en|Baby animals|Children|Clothing|Flatfish|People}}
+
+==Azerbaijani==
+{{az-variant|брат|}}
+
+===Etymology===
+{{bor+|az|ru|брат}}.
+
+===Pronunciation===
+* {{az-IPA}}
+
+===Noun===
+{{az-noun}}
+{{lb|az|colloquial|proscribed|North Azerbaijani}}
+
+# [[bro]], [[dude]], [[man]]
+#: {{syn|az|qaqa|qardaş|bro}}
+
+====Declension====
+{{az-decl-noun|a}}
+
+==Danish==
+
+===Etymology===
+A merger of two unrelated adjectives:
+* {{inh|da|non|*brantr}} {{q|east}}, {{m|non|brattr}} {{q|west}}, from {{inh|da|gem-pro|*brantaz}}, cognate with {{cog|no|bratt}}, {{cog|sv|brant}}, {{cog|en|brant}}.
+* {{cog|non|bráðr||hasty, sudden}}, from {{inh|da|gem-pro|*brēþaz||hot, in a hurry, rushed}}, cognate with {{cog|no|brå}}, {{cog|sv|bråd}}. In early modern Danish, the latter meaning also had the form {{l|da|brad}}, with the neuter {{l|da|bradt}}.
+
+===Pronunciation===
+* {{IPA|da|/brat/|[ˈb̥ʁɑd̥]}}
+
+===Adjective===
+{{da-adj|dc=1||e|ere|est}}
+
+# [[steep]]
+# [[sudden]]
+
+===References===
+* {{R:DDO}}
+* {{R:ODS}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|nl|/brɑt/}}
+* {{audio|nl|Nl-brat.ogg}}
+* {{hyphenation|nl|brat}}
+* {{rhymes|nl|ɑt}}
+
+===Noun===
+{{nl-noun|n|-|-}}
+
+# {{alternative form of|nl|brat}}
+
+==German==
+
+===Pronunciation===
+* {{IPA|de|/bʁaːt/}}
+* {{audio|de|De-brat.ogg|a=<<Germany>> (<<Berlin>>)}}
+* {{rhymes|de|aːt|s=1}}
+
+===Verb===
+{{head|de|verb form}}
+
+# {{verb form of|de|braten||s|imp}}
+# {{lb|de|colloquial}} {{verb form of|de|braten||1|s|pres}}
+
+==Irish==
+
+===Etymology 1===
+{{etymid|ga|mantle}}
+From {{inh|ga|sga|bratt}},<ref>{{R:DIL|6598|head=bratt}}</ref> from {{inh|ga|cel-pro|*brattos}} (compare {{cog|cy|brethyn|t=cloth}}, from {{m|cel-pro|*brattinyos}}).
+
+====Pronunciation====
+* {{IPA|ga|a=Munster,Aran|/bˠɾˠɑt̪ˠ/|ref={{R:ga:SjPh|125|section=249}} !!! {{R:ga:Finck|II|49}}}}
+* {{IPA|ga|a=CF|/bˠɾˠat̪ˠ/|[bˠɾˠaːt̪ˠ]|ref2={{R:ga:GCFD|page=308}}}}
+* {{IPA|ga|a=Mayo,Ulster|/bˠɾˠat̪ˠ/|ref={{R:ga:Tourmakeady|page=92|section=404.2}} !!! {{R:ga:Quiggin|128|381}}}}
+
+====Noun====
+{{ga-noun|m|brait|brait}}
+
+# [[mantle]], [[cloak]]
+#: Proverb: {{ux|ga|Ná leath do '''bhrat''' ach mar is féidir leat a chonlú.|lit=Don’t spread your '''cloak''' farther than you can fold it.|t=Cut your coat according to your cloth.}}
+# [[covering]]
+# {{lb|ga|theatre}} [[curtain]]
+# {{alternative form of|ga|bratach|t=flag}}
+
+=====Declension=====
+{{ga-decl-m1|b|rat|rait}}
+
+=====Derived terms=====
+{{col|ga
+|brat altóra<t:vestment, altar-cloth>
+|brateagraíocht<t:umbrella organization>
+|ceannbhrat<t:canopy>
+|fo-bhrat<t:undercoat>
+|brat sneachta<t:mantle of snow>
+|aerbhrat<t:atmosphere>
+|brat deataigh<t:smoke-screen>
+|brat Bhríde<t:(piece of cloth representing) St. Brigid’s mantle>
+|brat allais<t:sweat-cloth; lather of sweat>
+|brat boird<t:table-cloth>
+|brat brád<t:neckerchief>
+|brat bróin<t:pall>
+|brat cinn<t:head-dress, kerchief>
+|brat móna<t:cut turf spread on bog>
+|brat dín<t:protective covering>
+|brat reatha<t:carpet runner>
+|brata<t:carpeted, covered (with)>
+|bratchreimeadh<t:sheet erosion>
+|bratfhiaile<t:blanketweed>
+|bratlong<t:flagship>
+|bratóg<t:small cloak, covering; rag; flake>
+|bratsáirsint<t:colour-sergeant>
+|bratscair<t:layered, spread-out, material; covering>
+}}
+
+=====Related terms=====
+* {{l|ga|bratach}}
+
+===Etymology 2===
+{{etymid|ga|broth}}{{root|ga|ine-pro|*bʰrewh₁-}}
+From {{der|ga|en|broth}}, from {{der|ga|enm|broth}}, from {{der|ga|ang|broþ|t=broth}}, from {{der|ga|gmw-pro|*broþ|t=broth}}, from {{der|ga|gem-pro|*bruþą|t=broth}}, from {{der|ga|ine-pro|*bʰrewh₁-|t=to seethe, roil, brew}}. Akin to {{m|ga|bruith|t=to boil}} and {{m|ga|bruth|t=heat}}.
+
+====Alternative forms====
+* {{alt|ga|brot}}
+
+====Pronunciation====
+* {{a|ga|Ulster}} {{see|ga|brot|noast=1}}
+
+====Noun====
+{{ga-noun|m|~|~anna}}
+
+# [[broth]]; thick [[soup]]
+
+=====Declension=====
+{{ga-decl-m4|b|rat|ratanna}}
+
+===Mutation===
+{{ga-mut}}
+
+===References===
+{{col-top|1|ref}}
+{{reflist|cols=2}}
+{{col-bottom}}
+
+===Further reading===
+* {{R:ga:Dinneen|p=116}}
+* {{R:ga:Ó Dónaill}}
+* {{R:ga:EID}}
+* {{R:ga:NEID}}
+
+{{topics|ga|Clothing|Soups}}
+
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=brother|:inh|sla-pro:*bràtrъ<id:brother>|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|m-pr}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+# [[brother]] {{ng|term of address to a man}}
+
+====Declension====
+{{csb-decl-noun|brat|brata|[[bratu]]/[[bratowi]]|brata|bratã|brace|brace|[[bratowie]]/[[bracë]]/[[bracô]]|[[bratów]]/[[bracy]]|[[bratóm]]/[[bracóm]]|[[bratów]]/[[bracy]]|bratama|bratach|[[bratowie]]/[[bracë]]/[[bracô]]}}
+
+===Further reading===
+* {{R:csb:SJP1893|+|11}}
+* {{R:csb:Sychta:1967||65|1}}
+* {{R:csb:Trepczyk:1994|+}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|12308}}
+
+{{C|csb|Male family members}}
+
+==Lower Sorbian==
+
+===Pronunciation===
+* {{IPA|dsb|[brat]}}
+
+===Verb===
+{{head|dsb|verb form}}
+
+# {{infl of|dsb|braś||sup}}
+
+==Middle English==
+
+===Etymology===
+From {{der|enm|ang|bratt}}, from {{der|enm|sga|bratt}}, from {{der|enm|cel-pro|*brattos}}.
+
+===Noun===
+{{head|enm|noun}}
+
+# a [[coarse]] [[cloak]]
+#* {{quote-book|enm|year=1386|author=w:Geoffrey Chaucer|title=The Canon's Yeoman's Tale|chapter=Line 881|edition=|url=http://books.google.com/books?id=vABEAAAAYAAJ&pg=PA556|passage=Whicħ þat þey myght / wrape hem in at nyght / And a '''brat''' / to walk in / by day-light}}
+
+====Descendants====
+* {{desc|en|brat|id=cloak}}
+* {{desc|wlm|brat|bor=1|qq=or directly from Old Irish}}
+** {{desc|cy|brat}}
+
+==Middle High German==
+
+===Pronunciation===
+* {{gmh-IPA|brât}}
+
+===Verb===
+{{head|gmh|verb form|head=brāt}}
+
+# {{inflection of|gmh|brāten|||2|s|pres|imp}}
+
+==Old Irish==
+
+===Etymology===
+Perhaps related to the root of {{m|sga|mrath|t=betrayal, deception}}.<ref>{{R:MacBain|head=braid}}</ref>
+
+===Pronunciation===
+* {{sga-IPA}}
+
+===Noun===
+{{sga-noun|f|broite}}
+
+# [[plunder]], (act of) plundering
+# {{lb|sga|in the plural}} [[spoils]]
+
+====Declension====
+{{sga-decl-a-fem|broit}}
+
+====Derived terms====
+* {{l|sga|bratán}}
+
+====Descendants====
+* {{desc|ga|brad}}
+* {{desc|mga|broit|qq=originally the dative}}
+** {{desc|ga|broid|id=captivity}}
+
+===Mutation===
+{{sga-mutation}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:DIL|head=1 brat|6568}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|bratr|bracia}}
+
+===Etymology===
+{{etymon|zlw-opl|id=brother|:inh|sla-pro:*bràtrъ<id:brother>|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|m-pr|dim=bratek|dim2=bratrzyk|adj=bratni|adj2=bratów|adj3=bracki}}
+
+# {{lb|zlw-opl|attested in|Greater Poland|Masovia|Lesser Poland}} [[brother]] {{gl|son of the same parents as another person}}
+#* {{RQ:zlw-opl:PF|I|479|c. 1428|Jan y Jęndrzey, '''braczą''' rodzeny|Jan i Jędrzej, '''bracia''' rodzeni|-}}
+#* {{RQ:zlw-opl:Fl|34, 17|Iaco blisznego, iaco '''brata''' naszego, taco lub iesm bil (quasi proximum, et quasi fratrem nostrum, sic complacebam)|Jako bliźniego i jako '''brata''' naszego tako lub jeśm był (quasi proximum, et quasi fratrem nostrum, sic complacebam)|-}}
+#* {{RQ:zlw-opl:Pocz|233|End of the 14th century|Bo on... gescz oczecz nasz i '''brat''' nasz|Bo on... jeść ociec nasz i '''brat''' nasz|-}}
+# [[brother]] {{gl|sibling of further connection, i.e. a half-brother}}
+#* {{RQ:zlw-opl:Gloger|Pamyøtay, yze Tanita (pro Tamara) od swego '''brata''' czystotø szgubila|Pamiętaj, iże Tanita (pro Thamar) od swego '''brata''' czystotę zgubiła|-}}
+#* {{RQ:zlw-opl:PF|V|30|1489|'''Brath''' przyrodny novercarius|'''Brat''' przyrodni novercarius|-}}
+# [[brother]] {{gl|member of the same lineage}}
+#* {{RQ:zlw-opl:RTH|III|3|1389|Szeczslaw yest nasz '''brath''', naszego sczitha y zawolana|Sieczsław jest nasz '''brat''', naszego szczyta i zawołania|-}}
+# [[brother]] {{gl|member of the same community}}
+#* {{RQ:zlw-opl:BZ|Gen|31, 32|U kogokoly swe bogy naydzesz, bødze przede wszemy '''brati''' nassymy zagubyon (necetur coram fratribus nostris)|U kogokoli swe bogi najdziesz, będzie przede wszemi '''braty''' naszymi zagubion (necetur coram fratribus nostris)|-}}
+#* {{RQ:zlw-opl:SprTNPozn|IV|44|c. 1475|'''Bracza''' naschy lawnyczy post nos ad scampnum locati|'''Bracia''' naszy ławnicy post nos ad scampnum locati|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[brother]] {{ng|term of address}}
+#* {{RQ:zlw-opl:Kśw|cr 11|Vidce, '''braca''' mila, zbauene, vidce uelike sina bozego priiazny|Widzcie, '''bracia''' miła, zbawienie, widzcie wielikie Syna Bożego przyjaźni|-}}
+# [[brother]] {{gl|fellow human being}}
+#* {{RQ:zlw-opl:Dek|I|2|Nye zabyyay '''bratha''' thwego (non occides Deut 5, 17)|Nie zabijaj '''brat''' twego (non occides Deut 5, 17)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|bratogłowca|bratogłówstwo|bratowizna|bracica|braciec|bractwo|brat ciotczany|brat stryjeczny|siostra z bratem|brat przyrodni}}
+
+====Related terms====
+{{col|zlw-opl|title=nouns|bratanek|bratanię|bratanka|bracianek|bracieniec}}
+
+====Descendants====
+* {{desc|pl|brat}}
+* {{desc|szl|brat}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+* {{R:zlw-opl:Rozariusze|+|371}}
+
+{{C|zlw-opl|Male family members|Male people}}
+
+==Old Slovak==
+
+===Alternative forms===
+* {{alt|zlw-osk|brater|bratr}}
+
+===Etymology===
+{{ety|zlw-osk|:inh|sla-pro:*bràtrъ|text=+|tree=1|etydate=1454}}
+
+===Noun===
+{{zlw-osk-noun|m-pr}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+# [[brother]] {{gl|member of the same community, especially a church}}
+
+====Descendants====
+* {{desc|rsk|брат}}
+* {{desc|sk|brat}}
+
+===References===
+* {{R:sk:HSSJ}}
+
+{{C|zlw-osk|Male family members|Male people}}
+
+==Polish==
+{{wp|pl:}}
+{{was fwotd|pl|2015|November|7}}
+
+===Alternative forms===
+* {{alt|pl|bratr||Middle Polish}}
+
+===Etymology===
+{{etymon|pl|id=brother|:inh|zlw-opl:brat<id:brother>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|mp=#|bie=#|EL=#|MB=#|las=#|krk=#|pod=#|CGP=#|SGP=#|BG=#|NGP=#|suw=#|nbl=#|zag=#}}
+
+===Noun===
+{{pl-noun|m-pr|dim=braciszek,bratul<l:dialectal>,brateńko<l:dialectal>|abbr=br.,b.}}
+
+# {{lb|pl|family}} [[brother]] {{gl|son of the same parents as another person}}
+#: {{cot|pl|siostra}}
+# {{lb|pl|family}} [[brother]] {{gl|male having at least one parent in common with another}}
+#: {{cot|pl|siostra}}
+#: {{coi|pl|[[przyrodni brat|przyrodni '''brat''']]|[[half brother|half '''brother''']]}}
+# {{lb|pl|religion}} [[brother]] {{gl|member of a men's religious order}}
+#: {{syn|pl|zakonnik}}
+# [[brother]] {{gl|member of a fraternity, tribe, or brotherhood}}
+## {{lb|pl|Suwałki|Augustów Governorate|Northern Borderlands|Lithuania}} [[male]] [[assistant]] to a [[bridesmaid]]
+## {{lb|pl|Central Greater Poland|Mystki}} [[brother]] {{gl|assistent to a reaper}}
+# [[brother]] {{gl|male companion or friend, usually with the same interests, experience, views, etc.}}
+# [[brother]] {{gl|fellow human being}}
+# [[brother]] {{ng|endearing term of address for a male}}
+
+====Declension====
+{{pl-decl-noun-irreg}}
+Dialectal forms:
+* Vocative singular:
+** {{m|pl|bratu}} ({{w|Biecz dialect}}, {{w|Brzeziny}})
+* Nominative plural:
+** {{m|pl|braty}} ({{w|Eastern Lublin dialect}}, {{w|Krzywowola}}); {{m|pl|bratowie}} ({{w|Biecz dialect}}, {{w|Brzeziny}}; ({{w|Near Masovian dialect}}, {{w|Czaplin}}, {{w|Czaplin}}; {{m|pl|bratôwie}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}}; {{m|pl|braciá}} ({{w|Biecz dialect}}, {{w|Brzeziny}}); {{m|pl|bracia}} (masculine animal; {{w|Western Kraków dialect}}, {{w|Krzęcin}}); {{m|pl|bracio}} ({{w|Zagórze dialect}}
+* Genitive plural:
+** {{m|pl|bratów}} ({{w|Biecz dialect}}, {{w|Brzeziny}}; {{w|Podhale dialect}}, {{w|Zakopane}}; {{w|Central Greater Poland dialect}}, {{w|Jaraczewo}}, {{w|Książ Wielkopolski}}; {{w|Southern Greater Poland dialect}}, {{w|Gostyń}}; {{w|Western Kraków dialect}}; {{w|Lasovia dialect}}, {{w|Tarnobrzeg}}); {{m|pl|bracik}} ({{w|Babia Góra dialect}}, {{w|Skawica}}); {{m|pl|braci}} ({{w|Near Masovian dialect}}, {{w|Łukowiec}})
+* Dative plural:
+** {{m|pl|bratom}} ({{w|Western Kraków dialect}}, {{w|Szczodrkowice}}; {{w|Babia Góra dialect}}, {{w|Juszczyn}}; {{w|Lasovia dialect}}, {{w|Tarnobrzeg}}; {{w|Wieleń dialect}}, {{w|Czarnków}}); {{m|pl|braciom}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}}; {{w|Near Masovian dialect}}, {{w|Czersk}}, {{w|Piaseczno}}; {{w|Northern Greater Poland dialect}}, {{w|Gołańcz}}; {{w|Central Greater Poland dialect}}, {{w|Czeszewo}})
+* Instrumental plural:
+** {{m|pl|bratami}} ({{w|Near Masovian dialect}}, {{w|Drwalew}}, {{w|Pieczyska}}, {{w|Żyrów}}; {{w|Podhale dialect}}, {{w|Rabka-Zdrój}}); {{m|pl|bratamy}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}}); {{m|pl|braciamy}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}}); {{m|pl|braćmy}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}})
+* Locative plural:
+** {{m|pl|bratach}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}}); {{m|pl|braciach}} ({{w|Lasovia dialect}}, {{w|Tarnobrzeg}})
+
+====Coordinate terms====
+{{pl-family}}
+
+====Derived terms====
+{{col|pl|title=adjectives|bracki|braterski|bratni|pobratymczy}}
+{{col|pl|title=adverbs|bratersko|po bratersku|brat brata<l:dialectal>}}
+{{col|pl|title=nouns|brachol|bractwo|brać|brat łata|bratanek|bratanica|bratanka|bratowa|bratczyk|bratek|brateńko|bratul|bratunio|rozbrat|pobratymstwo|pobratymiec|pobratymca|półbrat|ni brat ni swat|bracia czescy|bracia mniejsi|bracia morawscy|bracia polscy|bracia syjamscy|brat ksero|brat mleczny|brat polski|ciepły brat|cioteczny brat|przyrodni brat|rodzony brat|starsi bracia w wierze|stryjeczny brat|wujeczny brat}}
+{{col|pl|title=proverbs|kochajmy się jak bracia, liczmy się jak Żydzi}}
+{{pl-derived verbs|-/bratać}}
+{{pl-derived verbs|-/być za pan brat}}
+
+===Trivia===
+{{pl-freq 1990|4|3|0|25|50|82|779|33|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||2206}}
+* {{R:pl:WSJP|bracie|15733}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|44735}}
+* {{R:pl:SXVII|BRAT|7612||14.11.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||201|1}}
+* {{R:pl:SGP1900||115|1}}
+* {{R:pl:Kobylińska:2001|brat|9}}
+
+{{C|pl|Male family members|Siblings|Male people|Marriage|Male people}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:bor|cu:братъ|text=+|tree=1|doublet=bărat,frate}}
+
+===Noun===
+{{ro-noun|m|brați}}
+
+# {{lb|ro|Slavicism|rare}} [[brother]]
+#: {{syn|ro|frate}}
+# {{lb|ro|regional|Banat}} [[monk]]
+#: {{syn|ro|călugăr}}
+
+====Declension====
+{{ro-noun-m|pl=brați}}
+
+====Related terms====
+* {{l|ro|brățesc}}
+* {{l|ro|brăți}}
+
+==Scottish Gaelic==
+
+===Etymology===
+From {{inh|gd|sga|bratt}}, from {{inh|gd|cel-pro|*brattos}} (compare {{cog|cy|brethyn|t=cloth}}, from {{m|cel-pro|*brattinyos}}).
+
+===Pronunciation===
+* {{IPA|gd|/pɾaht̪/}}
+
+===Noun===
+{{gd-noun|g=m|gen=brata|pl=bratan}}
+
+# [[cloak]], [[cover]], [[covering]], [[mantle]], [[veil]], [[canopy]]
+# [[mat]]
+
+====Derived terms====
+* {{l|gd|brat-cùil}}
+
+====Related terms====
+* {{l|gd|bratach}}
+
+===Mutation===
+{{gd-mut-cons|b|rat}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{inh+|sh|sla-pro|*bratrъ}}, {{m|sla-pro|*bratъ}}, from {{inh|sh|ine-pro|*bʰréh₂tēr}}.
+
+===Pronunciation===
+* {{sh-IPA|brȁt}}
+
+===Noun===
+{{sh-noun|brȁt|m-an|dim=brȁtić|adj=bràtskī}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+# [[brother]], [[mate]], [[pal]], [[buddy]] {{ng|when used in informal speech to address somebody in the vocative}}
+
+====Usage notes====
+There is no plural form for this noun. Instead, the collective term {{m|sh|brȁća}} is used for plural meanings.
+
+====Declension====
+{{sh-decl-noun-unc|brat
+|brata
+|bratu
+|brata
+|brate
+|bratu
+|bratom
+}}
+
+====Derived terms====
+{{col4|sh|brȁtac|bratakati|bratàkati se|bratánac|brȁtić|bràtija|bratimiti|brȁtimiti se|brȁtīmstvo|brȁtīnstvo|bratiti|brȁtiti se|brȁtjenac|brȁtoljūblje|bratoubilčki|bratoùbilačkī|bratoùbojica|bratoùbōjstvo|brȁtōv|brȁtovljev|brȁtovljī|brȁtovskī|bratóvština|bràtstvo|bràtučed}}
+
+===Further reading===
+* {{R:sh:HJP|f19hXxY%3D}}
+
+{{C|sh|Male family members|Male people}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=brother|:inh|zlw-opl:brat<id:brother>|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|m-pr|dim=bracik}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+#: {{cot|szl|siostra}}
+# {{lb|szl|religion}} [[brother]] {{gl|member of a men's religious order}}
+#: {{syn|szl|zakonnik}}
+# [[brother]] {{gl|male companion or friend, usually with the same interests, experience, views, etc.}}
+
+====Declension====
+{{szl-decl-noun|brat|brata|bratowi|brata|bratym|bracie|bracie|braciŏ|bratōw|bratōm|bratōw|[[bratami]]/[[bratōma]]|bratach|braciŏ}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+* {{R:szl:Wencel:2023|+|75}}
+
+{{C|szl|Male family members|Male people}}
+
+==Slovak==
+
+===Etymology===
+{{ety|sk|:inh|zlw-osk:brat|text=+|tree=1}}
+
+===Pronunciation===
+* {{sk-IPA}}
+* {{audio|sk|LL-Q9058 (slk)-TomášPolonec-brat.wav|a=Bratislava}}
+
+===Noun===
+{{sk-noun|m-pr|adj=bratský|dim=braček}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+
+====Declension====
+{{sk-ndecl|m-pr}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+{{C|sk|Male family members}}
+
+==Slovene==
+
+===Alternative forms===
+* {{lb|sl|br||dialectal}}
+
+===Etymology===
+{{inh+|sl|sla-pro|*bratrъ}}, {{m|sla-pro|*bratъ}}, from {{inh|sl|ine-pro|*bʰréh₂tēr}}. {{etydate|15th century}}.
+
+===Pronunciation===
+* {{sl-IPA|brȁt}}
+* {{audio|sl|LL-Q9063 (slv)-Zupanurska-brat.wav}}
+
+===Noun===
+{{sl-noun|brȁt|m-an}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+# {{lb|sl|literary|archaic}} [[brother]] {{gl|someone of the same or closely related nationality}}
+# {{lb|sl|literary|by extension}} [[brother]] {{gl|someone sharing the same opinions}}
+
+====Declension====
+{{sl-decl-noun-table3|acc=1|decl=m-an-1|irregtitle=vowel lengthening, ending ''-je'' in nominative plural|
+brȁt|bráta|brátu|bráta|brātu|brátom|[[brȁt]], ''[[brate]]''{{sl-notone}}|
+bráta|brātov|brátoma|bráta|brātih|brátoma|brȃta|
+[[brátje]], ''[[bráti]]''|brātov|brátom|bráte|brātih|brāti|brȃti|
+datsg=brát|datdu=brát|datpl=brát|loc=brāt|prep=brātu}}
+
+===Further reading===
+* {{R:sl:FR}}
+
+{{C|sl|Male family members}}
+
+==Slovincian==
+
+===Etymology===
+{{etymon|zlw-slv|id=brother|:inh|sla-pro:*bràtrъ<id:brother>|tree=1|text=+}}
+
+===Pronunciation===
+{{zlw-slv-pr}}
+
+===Noun===
+{{zlw-slv-noun|m-pr}}
+
+# [[brother]] {{gl|son of the same parents as another person}}
+
+====Declension====
+{{zlw-slv-decl-noun|brat|brata|bratú|brata|brata|bracê|bracê|brata||[[bratôma]], [[bratma]]|brata|[[bratôma]], [[bratma]]||brata|[[bracë]], [[bratë]], [[braco]]|brató|bratóm|brató|[[braty]], [[bratmy]], [[bratamy]]|[[bracéch]], [[bratach]]|[[bracë]], [[bratë]], [[braco]]}}
+
+===Further reading===
+* {{R:zlw-slv:SW|brãt|64}}
+* {{R:zlw-slv:Sobierajski|+|112}}
+
+{{C|zlw-slv|Male family members}}
+
+==Swedish==
+
+===Etymology===
+Borrowed from {{bor|sv|en|brat||spoiled child}}.
+
+===Noun===
+{{sv-noun|c}}
+
+# {{lb|sv|slang}} person who is very careful about following fashion trends; someone who rarely ever acts independently but rather follows peer pressure, usually maintaining an appearance of visible wealth
+
+====Usage notes====
+* Mainly used in plural, as a collective noun.
+* Can occasionally be seen considered as ''neuter'' rather than common.
+
+====Synonyms====
+* {{l|sv|stekare}}
+
+===Anagrams===
+* {{anagrams|sv|a=abrt|bart}}
+
+==Vestinian==
+
+===Etymology===
+{{etymon|xvs|:inh|itc-pro:*gʷrāt(i)s}}
+From {{inh|xvs|itc-pro|*gʷrāt(i)s}}, from {{der|xvs|ine-pro|*gʷerH-}}.
+
+===Noun===
+{{head|xvs|noun}}<ref>{{R:itc:EDL|page=271|head=grātus}}</ref><ref>{{R:itc-sbl:The Italic Dialects|vol=II|page=605}}</ref><ref>{{R:itc-sbl:Wallace:1984|pages=75-76}}</ref>
+
+# [[grace]], [[mercy]]
+#* {{RQ:xvs:CILI394}}
+
+====Usage notes====
+* The phrase this term appears within is itself a common phrase throughout Sabellic languages. Compare "{{l|xvs||brat data}}" to "{{cog|osc||brateis datas}}" or "{{cog|pgn||brais datas}}." In these phrases, the form equivalent to {{l|xvs|brat}} is an abbreviation.
+* De Vaan categorizes the term as a genitive singular but Conway categorizes it as an ablative feminine singular in an ablative absolute construction.
+* The inscription this term was found in likely represents a dialect formed from a mix of Latin and Vestinian features
+
+====References====
+{{reflist}}
+
+==Welsh==
+
+===Etymology===
+{{inh+|cy|wlm|brat}}, from {{der|cy|enm|brat|t=cloak}} or {{der|cy|sga|bratt}}. {{doublet|cy|brethyn}}.
+
+===Pronunciation===
+* {{IPA|cy|/brat/}}
+* {{rhymes|cy|at}}
+
+===Noun===
+{{cy-noun|f|bratiau|pl2=bratau|dim=bretyn}}
+
+# [[rag]]
+#: {{syn|cy|cadach|clwt}}
+# [[apron]], [[pinafore]]
+#: {{syn|cy|barclod|ffedog|pinaffor}}
+
+====Derived terms====
+* {{l|cy|bratiaith||patois}}
+
+===Mutation===
+{{cy-mut}}
+
+===Further reading===
+* {{R:cy:GyrA|2=apron}}
+* {{R:cy:Gweiadur}}
+* {{R:cy:GPC}}
+
+{{C|cy|Clothing}}

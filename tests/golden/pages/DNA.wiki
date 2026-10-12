@@ -1,0 +1,528 @@
+{{also|dna|dňa|dną|dna-}}
+==English==
+{{was wotd|2023|April|26}}
+
+===Pronunciation===
+* {{IPA|en|/ˌdiːɛnˈeɪ/|a=RP}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-DNA.wav|a=Southern England}}
+* {{IPA|en|/ˌdiˌɛnˈeɪ/|a=GA}}
+
+===Etymology 1===
+The {{glossary|noun}} is an {{initialism|en|deoxyribonucleic acid|nocap=1}}.<ref>{{R:OED Online|pos=n|id=56224|date=September 2022|nodot=1}}; {{R:Lexico|pos=n}}</ref> The {{glossary|verb}} is derived from the noun.
+
+====Noun====
+{{en-noun|~}}
+[[File:DNA-molecule3.jpg|thumb|A [[model#Noun|model]] of part of a DNA [[molecule]] ''({{senseno|en|genetics}})'' showing its [[double#Adjective|double]]-[[helix#Noun|helix]] [[structure#Noun|structure]].]]
+
+# {{senseid|en|genetics}}{{lb|en|biochemistry|genetics}} {{init of|en|deoxyribonucleic acid|t=a [[nucleic acid]] [[find#Verb|found]] in all [[living thing]]s (and some [[non-living]] things such as certain [[virus#Noun|viruses]]) which [[consist#Verb|consists]] of [[two]] [[polynucleotide]] [[chain#Noun|chains]] that [[coil#Verb|coil]] around each other to [[form#Verb|form]] a [[double#Adjective|double]] [[helix#Noun|helix]]; [[encode#Verb|encoded]] in its [[structure#Noun|structure]] are [[genetic]] [[instruction]]s for [[development]], [[functioning#Noun|functioning]], [[growth]], and [[reproduction]]}}.
+#: {{syn|en|thread of life|qq1=figurative}}
+#* {{quote-journal|en|author=[[w:Martin Kamen|Martin D[avid] Kamen]]|title=Detection of Intermediates, Criteria of Purity|editor=Louis H. Roddis|journal=Supplement to the United States Naval Medical Bulletin on Preparation and Measurement of Isotopes and Some of Their Medical Aspects|location=Washington, D.C.|publisher={{w|Bureau of Medicine and Surgery}}, [[w:United States Navy|U.S. Navy]]; [[w:United States Government Publishing Office|U.S. Government Printing Office]]|month=March–April|year=1948|page=118|pageurl=https://books.google.com/books?id=Bp0aAAAAIAAJ&pg=PA118|oclc=11256905|passage=Among the various fractions isolated was one presumed to contain only desoxyribosenucleic acid ('''DNA'''). Because of certain speculations on the role of nucleic acids in protein synthesis it was necessary to measure and compare the rate of phosphate entry into '''DNA''' with that in other fractions of yeast phosphate.|footer={{small|Desoxyribosenucleic acid is an archaic name of deoxyribonucleic acid.}}}}
+#* {{quote-journal|en|author=[[w:James Watson|J[ames] D[ewey] Watson]]; [[w:Francis Crick|F[rancis] H[arry] C[ompton] Crick]]|title=Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid|journal=[[w:Nature (journal)|Nature: A Weekly Illustrated Journal of Science]]|archiveurl=https://web.archive.org/web/20150403234208/http://www.nature.com/nature/dna50/watsoncrick.pdf|location=London|publisher=[[w:Macmillan Publishers|Macmillan and Co.]]; New York, N.Y.: [[w:Macmillan Inc.|The Macmillan Company]]|date=25 April 1953|volume=171|issue=4356|page=737|column=1|oclc=64051812|passage=We wish to suggest a structure for the salt of deoxyribose nucleic acid ('''D.N.A.'''). This structure has novel features which are of considerable biological interest.}}
+#* {{quote-book|en|author={{w|Arthur Kornberg}} (witness)|chapter=Statement of Dr. Arthur Kornberg, Professor and Executive Head of the Department of Biochemistry, Stanford University School of Medicine, Palo Alto, Calif.|title=National Commission on Health Science and Society: Hearings before the Subcommittee on Government Research of the [[w:United States Senate Committee on Homeland Security and Governmental Affairs|Committee on Government Operations]], {{w|United States Senate}}, Ninetieth [[w:United States Congress|Congress]], Second Session on S.J. Res. 145: A Joint Resolution for the Establishment of the National Commission on Health Science and Society{{nb...|March 7, 8, 21, 22, 27, and 28; April 2, 1968: Printed for the Use of the Committee on Government Operations}}|location=Washington, D.C.|publisher=[[w:United States Government Publishing Office|U.S. Government Printing Office]]|date=8 March 1968|page=40|pageurl=https://books.google.com/books?id=nao3AAAAIAAJ&pg=RA2-PA40|oclc=453502|passage=As you know, heredity resides in our genes. Our genes are, in turn, composed of complex molecules called '''DNA'''. About 10 years ago we learned how to synthesize '''DNA''' in the test tube with the use of a certain cellular catalyst or enzyme. {{...}} During the past year, we have been able to synthesize '''DNA''' which has the full genetic activity of natural '''DNA'''.}}
+#* {{quote-journal|en|author=John W. Hicks|title=DNA Profiling: A Tool for Law Enforcement|editor=Thomas J. Deakin|journal=w:FBI Law Enforcement Bulletin|location=Washington, D.C.|publisher={{w|Federal Bureau of Investigation}}, {{w|United States Department of Justice}}; Office of Congressional and Public Affairs|month=August|year=1988|volume=57|issue=8|page=1|pageurl=https://books.google.com/books?id=lPZeYx7YDMkC&pg=RA7-PA1|column=3|issn=0014-5688|oclc=1319799735|passage=Recent breakthroughs in '''DNA''' technology are expected to provide investigators with powerful forensic tools to help solve these difficult kinds of cases.}}
+#* {{quote-journal|en|author=Ashley Strickland|title=Mystery condition gives way to bright future for 10-year-old|magazine=w:CNN|url=https://www.cnn.com/2017/12/18/health/avery-reilly-undiagnosed-diseases-network-profile|date=2017-12-18|passage=Because of her significant testing, Avery had had '''DNA''' sequencing of her “exome,” the part of her genome that makes proteins in the body, said Dr. Michael Wangler, a researcher at the Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital.}}
+#* {{quote-book|en|author=[[w:Tina Henkin|Tina M. Henkin]]; Joseph E. Peters|chapter=Bacterial Genetic Analysis: Fundamentals and Current Approaches|title=Snyder & Champness: Molecular Genetics of Bacteria|edition=5th|location=Washington, D.C.|publisher=[[w:American Society for Microbiology|ASM Press]]|year=2020|page=157|pageurl=https://books.google.com/books?id=6-TxDwAAQBAJ&pg=PA157|column=1|isbn=978-1-55581-975-0|passage=[I]n bacteria, recombination between the '''DNAs''' of different organisms usually occurs between a piece of '''DNA''' from one strain of a bacterium, called the donor strain, and the entire chromosome of another strain, called the recipient strain.}}
+# {{lb|en|informal|loosely}} The [[part#Noun|part]] of a living thing that [[carry#Verb|carries]] genetic [[information]].
+# {{lb|en|figuratively}} The [[fundamental#Adjective|fundamental]] [[nature#Noun|nature]] or [[value#Noun|values]] of a [[person#Noun|person]], or an [[organization]] or other thing, especially when [[consider]]ed as [[innate#Adjective|innate]] or [[immutable#Adjective|immutable]].
+#* {{quote-book|en|author=Kevin [John] Kennedy; Mary Moore|chapter=The Predictable Challenges Faced by Dominant Companies|title=Going the Distance: Why Some Companies Dominate and Others Fail|location=Upper Saddle River, N.J.|publisher=[[w:FT Press|Financial Times Prentice Hall]]|year=2003|page=14|pageurl=https://books.google.com/books?id=tgdyUfysdJ8C&pg=PA14|isbn=978-0-13-046120-9|passage=These ingredients in a  company's '''DNA''' mean that [the] company will attract and grow leaders with these qualities.}}
+#* {{quote-book|en|author=Bill McBean|chapter=Fact 1: If You Don’t Lead, No One Will Follow|title=The Facts of Business Life: What Every Successful Business Owner Knows that You Don’t|location=Hoboken, N.J.|publisher=[[w:Wiley (publisher)|John Wiley & Sons]]|year=2012|page=58|pageurl=https://books.google.com/books?id=yqgsEv5fnQwC&pg=PA58|isbn=978-1-118-09496-9|passage=The main leadership priority at Level 2 is creating the business's '''DNA''' by defining how all the moving parts of the company will work, both independently and  together.}}
+#* {{quote-journal|en|author=Ryan Bort|title=The Real Reason Republicans are Loading Their 2022 Campaign Ads with Guns|magazine=w:Rolling Stone|archiveurl=https://web.archive.org/web/20221209033252/https://www.rollingstone.com/politics/politics-features/guns-republican-primary-campaign-ads-midterms-1336903/|location=New York, N.Y.|publisher=w:Penske Media Corporation|date=13 April 2022|issn=0035-791X|oclc=1057982905|passage=But this new fixation on guns is {{...}} coming from the hardcore MAGA set, and not only is it likely to stick around beyond the primaries, it's likely hardwired into the '''DNA''' of a party now driven by extremism, conspiracy, and a belief that violence is a legitimate tool to achieve desired political outcomes.}}
+#* {{quote-book|en|date=October 2022|title=Past Cases Review 2|publisher=National Safeguarding Steering Group of the Church of England|url=https://www.churchofengland.org/sites/default/files/2022-10/past-cases-review-2-national-report.pdf|archiveurl=https://web.archive.org/web/20240611144938/https://www.churchofengland.org/sites/default/files/2022-10/past-cases-review-2-national-report.pdf|page=4|passage=We cannot have a culture that sees safeguarding as a separate add-on. It needs to be part of our '''DNA''', as an expression of our love for one another and our commitment to the Gospel.}}
+
+=====Hyponyms=====
+{{col3|en
+|A-DNA
+|bDNA
+|B-DNA|non-functional DNA
+|C-DNA
+|chloroplast DNA,cpDNA
+|complementary DNA,cDNA
+|eccDNA
+|ecDNA
+|environmental DNA,eDNA
+|familial DNA
+|junk DNA
+|mitochondrial DNA,mtDNA
+|dsDNA
+|gDNA
+|hDNA
+|H-DNA
+|mDNA
+|microDNA
+|nDNA
+|non-coding DNA
+|oDNA
+|organellar DNA
+|rDNA
+|recombinant DNA,rDNA
+|siDNA
+|ssDNA
+|tsDNA
+|xDNA
+|Z-DNA
+}}
+
+=====Derived terms=====
+{{col|en|badnavirus
+|bidnavirus
+|DNAemia
+|DNA ladder
+|DNA polymerase
+|DNA profiling
+|DNA sequence
+|DNA sequencing
+|DNA snippet
+|DNA test
+|DNA testing
+|DNA virus
+
+}}
+
+=====Related terms=====
+{{col3|en
+|GNA
+|PNA
+|RNA
+|TNA
+|XNA
+}}
+
+=====Translations=====
+{{trans-top|''initialism of'' deoxyribonucleic acid (for full forms, see ''deoxyribonucleic acid'')}}
+* Afrikaans: {{t|af|DNS}}
+* Arabic: {{t|ar|دِنَا|f}}
+* Armenian: {{t+|hy|ԴՆԹ}}
+* Azerbaijani: {{t|az|DNT}}
+* Bulgarian: {{t|bg|ДНК}}
+* Catalan: {{t+|ca|ADN}}
+* Chinese:
+*: Mandarin: {{t+|cmn|DNA}}
+* Danish: {{t+|da|dna}}
+* Dutch: {{t+|nl|DNA}}, {{t|nl|DNZ}}
+* Finnish: {{t+|fi|DNA}}
+* French: {{t+|fr|ADN|m}}
+* Galician: {{t+|gl|ADN|m}}
+* Georgian: {{t|ka|დნმ}}
+* German: {{t+|de|DNS|f}}, {{t+|de|DNA|f}}
+* Greek: {{t+|el|DNA|n}}
+* Hebrew: {{t+|he|DNA}}, {{t|he|דנ״א|tr=dn"a}}
+* Hindi: {{t|hi|डीएनए}}
+* Hungarian: {{t+|hu|DNS}}
+* Icelandic: {{t|is|DNA|n}} {{t+|is|DKS|n}}
+* Interlingua: {{t|ia|ADN}}, {{t|ia|DNA}}
+* Irish: {{t|ga|ADN}}, {{t|ga|DNA}}
+* Italian: {{t+|it|DNA|m}}, {{t+|it|ADN|m}}
+* Japanese: {{t+|ja|DNA|tr=dī-enu-ē}}, {{t|ja|ディー・エヌ・エー|tr=dī-enu-ē}}
+* Kazakh: {{t|kk|ДНҚ}}
+* Khmer: {{t|km|ឌីអិនអេ}}
+* Korean: {{t+|ko|디엔에이}}
+* Lao: {{t|lo|ອາເດແອັນ}}, {{t|lo|ດີເອັນເອ}}
+* Latvian: {{t|lv|DNS}}
+* Lithuanian: {{t|lt|DNR}}
+* Macedonian: {{t+|mk|ДНК|f}}
+* Māori: {{t|mi|pītau ira}}
+* Persian: {{t+|fa|دی‌ان‌ای|tr=di-en-ey}}
+* Polish: {{t+|pl|DNA|n}}
+* Portuguese: {{t+|pt|ADN|m}}
+* Romanian: {{t|ro|ADN|n}}
+* Russian: {{t+|ru|ДНК|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|ДНК|f}}
+*: Latin: {{t|sh|DNK|f}}
+* Slovak: {{t|sk|DNK|f}}, {{t+|sk|DNA|n}}
+* Slovene: {{t+|sl|DNK}}
+* Spanish: {{t+|es|ADN|m}}
+* Swedish: {{t+|sv|DNA|n}}
+* Tagalog: {{t|tl|DNA}}
+* Tamil: {{t+|ta|அனடி}}
+* Thai: {{t|th|ดีเอ็นเอ}}
+* Turkish: {{t+|tr|DNA}}
+* Ukrainian: {{t|uk|ДНК|f|tr=DNK}}
+* Urdu: {{t|ur|ڈی این اے|tr=ḍī-en-e}}
+* Vietnamese: {{t+|vi|DNA}}
+* Welsh: {{t|cy|DNA|m}}
+* Yiddish: {{t|yi|דע־ען־אַ|m|tr=de-en-á}}, {{t|yi|די־ען־איי|m|tr=di-en-éy}}
+{{trans-bottom}}
+
+{{trans-top|(''informal, loosely'') part of a living thing that carries genetic information}}
+* Finnish: {{t+|fi|DNA}}, {{t+|fi|perimä}}
+* Macedonian: {{t+|mk|ДНК|f}}, {{t|mk|ге́ном|m}}
+* Polish: {{t+|pl|DNA|n}}
+* Swedish: {{t+|sv|DNA|n}}, {{t+|sv|arvsmassa|c}}
+* Welsh: {{t|cy|DNA|m}}
+* Yiddish: {{t|yi|דע־ען־אַ|m|tr=de-en-á}}, {{t|yi|די־ען־איי|m|tr=di-en-éy}}, {{t|yi|ירושה־שיפֿער|m|tr=yerúshe-shífer}}
+{{trans-bottom}}
+
+{{trans-top|fundamental nature or values of a person, etc.}}
+* Finnish: {{t+|fi|luonto}}
+* Macedonian: {{t+|mk|при́рода|f}}
+* Polish: {{t+|pl|natura|f}}
+* Swedish: {{t+|sv|DNA|n}}, {{t+|sv|anlag|c}}, {{t+|sv|arvsanlag|c}}, {{t+|sv|kynne|n}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|transitive}} To [[examine]] a [[sample#Noun|sample]] of (someone's) [[deoxyribonucleic acid]].
+#* {{quote-book|en|author=w:Matthew Stokoe|title=High Life|location=New York, N.Y.|publisher=w:Akashic Books|year=2002|year_published=2008|page=261|isbn=978-1-933354-53-8|passage=The only way we're gonna know is if we '''DNA''' him against the spunk in Karen.}}
+#* {{quote-book|en|author=Michael Sheridan|title=Death in December: The Story of [[w:Murder of Sophie Toscan du Plantier|Sophie Toscan Du Plantier]]|edition=updated|location=Dublin|publisher=O’Brien|year=2004|page=194|pageurl=https://books.google.com/books?id=JmSNAwAAQBAJ&pg=PT108|isbn=978-0-86278-893-3|passage=The barrister went on to say that his client 'remains persecuted and victimised. He has been '''DNAed'''; his hair, his blood and his clothes. Nothing. No charges have ever been brought.'}}
+#* {{quote-book|en|author=Julian Mitchell|title=A Devon Deception|location=Kibworth Beauchamp, Leicestershire|publisher=Matador|year=2020|url=https://books.google.com/books?id=vXwEEAAAQBAJ&pg=PT139|isbn=978-1-80046-731-6|passage=Maybe nothing to do with the break-in, but worth fingerprinting the wrapper and '''DNAing''' the gum.}}
+
+=====Translations=====
+{{trans-top|to examine a sample of (someone’s) deoxyribonucleic acid}}
+* Finnish: {{t|fi|[[tutkia]] DNA}}
+* Macedonian: {{t|mk|[[и́спита]] [[ДНК]]}}, {{t|mk|[[пре́гледа]] [[ДНК]]}}, {{t|mk|[[на́прави]] [[ДНК]]}}
+* Polish: {{t|pl|[[badać]] [[DNA]]|impf}}, {{t|pl|[[zbadać]] [[DNA]]|pf}}
+{{trans-bottom}}
+
+===Etymology 2===
+An {{glossary|initialism}} of the various terms listed below. The {{glossary|verb}} sense is derived from noun {{senseno|en|military}}.
+
+====Proper noun====
+{{en-proper noun}}
+
+# {{lb|en|US|military|historical}} Defense Nuclear Agency, an [[agency]] of the {{w|United States Department of Defense}} which [[exist]]ed from 1971 to 1996 and has since been [[reorganize]]d as the {{w|Defense Threat Reduction Agency}}.
+
+====Phrase====
+{{en-head|phr}}
+
+# Did not [[answer#Verb|answer]].
+# Did not [[arrive]] ({{non-gloss|[[use#Verb|used]] when someone [[fail#Verb|fails]] to [[keep#Verb|keep]] an [[appointment]]}}).
+# Did not [[attend]].
+# Do not [[assume]].
+# Does not [[apply]].
+# [[drug#Noun|Drugs]] 'n' [[alcohol]].
+# {{senseid|en|military}}{{lb|en|US|military}} Do not [[arm#Verb|arm]] (that is, do not [[provide]] with a [[firearm]]).
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|US|military}} To [[place#Verb|place]] (someone) under a DNA (do not [[arm#Verb|arm]]) [[order#Noun|order]] because of [[mental illness]].
+#* {{quote-book|en|author=w:Jeanne Marie Laskas|title=To [[w:Barack Obama|Obama]], with Love, Joy, Hate and Despair|location=New York, N.Y.|publisher=w:Random House|year=2018|page=239|pageurl=https://books.google.com/books?id=kUtEDwAAQBAJ&pg=PT416|isbn=978-0-525-50983-7|passage=She had her weapons back. She wasn't '''DNA'd''' anymore. But she didn't use a weapon. That's not how she did it.}}
+
+=====Translations=====
+{{trans-top|to place (someone) under a DNA (do not arm) order because of mental illness}}
+* Finnish: {{t|fi|[[kieltää]] [[aseenkanto]]}}
+* Macedonian: {{t-needed|mk}}
+* Polish: {{t|pl|[[zabraniać]] [[uzbrajanie|uzbrajania]]|impf}}, {{t|pl|[[zabronić]] [[uzbrajanie|uzbrajania]]|pf}}
+{{trans-bottom}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{pedia}}
+
+===Anagrams===
+* {{anagrams|en|a=adn|-and|-dan|ADN|AND|DAN|Dan|Dan.|NAD|NDA|and|and-|dan|nad}}
+
+==Chinese==
+
+===Etymology===
+Borrowed from {{bor|zh|en|DNA}}.
+
+===Pronunciation===
+{{zh-pron
+|m=dì'ēn'ēi,dì'ēn nēi
+|c=di1 en1 ei1
+|cat=n
+}}
+
+===Noun===
+{{head|zh|noun}}
+
+# [[#English|DNA]]
+#: {{syn|zh|脫氧核糖核酸}}
+#: {{zh-x|驗 D{di1}N{en1}A{ei1}|to do a DNA test|C}}
+# {{lb|zh|Internet slang|figuratively}} "DNA", as something that contains latent basal memories
+#: {{zh-x|DNA 動 了|my '''DNA''' is awakening}}
+#: {{zh-x|觸動 DNA 的 國風 音樂|ancient Chinese-style music that activates your '''DNA'''}}
+
+====See also====
+* English: {{l|en|in one's bones}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|nl|/deː.ɛnˈaː/}}
+* {{audio|nl|Nl-DNA.ogg}}
+
+===Etymology 1===
+Borrowed from {{bor|nl|en|DNA}}.
+
+====Noun====
+{{nl-noun|n|-'s|-}}
+
+# {{init of|nl|desoxyribonucleïnezuur||deoxyribonucleic acid}}
+
+===Etymology 2===
+{{initialism|nl|De Nationale Assemblee||The National Assembly}}.
+
+====Proper noun====
+{{nl-proper noun|f,m}}
+
+# {{lb|nl|Suriname}} {{w|National Assembly (Suriname)|National Assembly of Suriname}}
+
+=====Derived terms=====
+{{col3|nl|DNA-lid}}
+
+===Anagrams===
+* {{l|nl|dan}}
+
+{{C|nl|Genetics}}
+
+==Finnish==
+
+===Etymology===
+Borrowed from {{bor|fi|en|DNA}}.
+
+===Pronunciation===
+{{fi-pronunciation|dee-än-aa}}
+
+===Noun===
+{{fi-noun}}
+
+# [[#English|DNA]]
+
+====Declension====
+{{fi-decl-maa-dot|DNA|a|a}}
+
+====Derived terms====
+{{col|fi|title=compounds
+|DNA-siru
+}}
+
+===Further reading===
+* {{R:fi:KTSK|accessdate=2023-07-02}}
+
+===Anagrams===
+* {{anagrams|fi|a=adn|Dan}}
+
+{{cln|fi|initialisms}}
+
+==French==
+
+===Proper noun===
+{{fr-proper noun|f-p}}
+
+# {{initialism of|fr|w:Les Dernières Nouvelles d'Alsace||Latest News from Alsace, a French periodical}}
+
+===Anagrams===
+* {{l|fr|ADN}}
+
+==German==
+
+===Etymology===
+{{bor+|de|en|DNA}}, from {{m|en|deoxyribonucleic acid}}. Replacing {{m|de|DNS}} from the calque {{m|de|Desoxyribonukleinsäure}}.
+
+===Pronunciation===
+* {{IPA|de|[deːʔɛnˈʔaː]}}
+* {{audio|de|De-DNA.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Noun===
+{{de-noun|f.sg}}
+
+# {{lb|de|molecular biology}} [[DNA]], {{synonym of|de|Desoxyribonukleinsäure}}
+
+====Derived terms====
+{{col3|de
+|DNA-Doppelstrang
+|DNA-Molekül
+|DNA-Virus
+}}
+
+===Further reading===
+* {{R:de:DWDS}}
+
+==Indonesian==
+{{wp|id:}}
+
+===Pronunciation===
+* {{id-IPA|dé.èn.a}}
+
+===Noun===
+{{id-noun}}
+
+# {{l|en|DNA}}
+## {{lb|id|biochemistry|genetics}} {{initialism of|id|{{l|en|deoxyribonucleic acid}}|t=a [[nucleic acid]] [[find#Verb|found]] in all [[living thing]]s (and some [[non-living]] things such as certain [[virus#Noun|viruses]]) which [[consist#Verb|consists]] of [[two]] [[polynucleotide]] [[chain#Noun|chains]] that [[coil#Verb|coil]] around each other to [[form#Verb|form]] a [[double#Adjective|double]] [[helix#Noun|helix]]; [[encode#Verb|encoded]] in its [[structure#Noun|structure]] are [[genetic]] [[instruction]]s for [[development]], [[functioning#Noun|functioning]], [[growth]], and [[reproduction]]}}
+##: {{syn|id|asam deoksiribonukleat}}
+## {{lb|id|informal|loosely}} the part of a living thing that carries genetic information.
+## {{lb|id|figuratively}} the fundamental nature or values of a person, or an organization or other thing, especially when considered as innate and/or immutable.
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Italian==
+
+===Etymology===
+{{ety|it|:bor|en:DNA}}
+{{bor+|it|en|DNA}}.
+
+===Pronunciation===
+* {{it-pr|dì énne à|dì-èn-èi<qual:uncommon>}}
+
+===Noun===
+{{head|it|noun}}
+
+# {{l|en|DNA}}
+#: {{syn|it|ADN}}
+
+===Anagrams===
+* {{anagrams|it|a=adn|ADN}}
+
+==Japanese==
+
+===Etymology===
+From {{bor|ja|en|DNA|sort=てぃいえぬええ'}}.
+
+===Pronunciation===
+{{ja-pron|ディーエヌエー|acc=5}}
+
+===Noun===
+{{ja-noun|ディー-エヌ-エー}}
+
+# {{lb|ja|genetics|biochemistry|sort=てぃいえぬええ'}} {{syn of|ja|デオキシリボ核酸|tr=deokishiribo-kakusan||[[deoxyribonucleic acid]]}}; [[#English|DNA]]
+
+===See also===
+* {{ja-r|R%N%A|アール%-エヌ-%エー}}
+
+{{cln|ja|terms written in foreign scripts}}
+
+==Norwegian Bokmål==
+
+===Noun===
+{{nb-noun-irreg|n|DNA-et|DNA|DNA-a|dp2=DNA-ene}}
+
+# {{l|en|DNA}}
+
+==Norwegian Nynorsk==
+
+===Noun===
+{{nn-noun-n1|DNA-}}
+
+# {{l|en|DNA}}
+
+==Polish==
+{{wp|pl:}}
+[[File:DNA Overview2.png|thumb|DNA]]
+
+===Etymology===
+{{ety|pl|:obor|en:DNA|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|de.en'a|a=Pl-DNA.ogg|h=D.N.A}}
+
+===Noun===
+{{pl-noun|m-in,n|indecl=1}}
+
+# {{lb|pl|genetics|molecular biology}} {{abbr of|pl|kwas dezoksyrybonukleinowy}}
+#: {{syn|pl|kwas deoksyrybonukleinowy|kwas dezoksyrybonukleinowy}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+==Portuguese==
+
+===Etymology===
+{{ety|pt|:obor|en:DNA|text=+|tree=1}}
+
+===Pronunciation===
+{{pt-IPA|dê ê*ne. á}}
+
+===Noun===
+{{pt-noun|m|#s}}
+
+# {{alternative form of|pt|ADN}}
+
+===Further reading===
+* {{R:pt:Aulete}}
+* {{R:pt:Priberam}}
+
+==Romanian==
+
+===Noun===
+{{ro-noun|n|DNA-uri}}
+
+# {{lb|ro|initialism}} [[w:National Anticorruption Directorate|Direcția Națională Anticorupție]].
+
+====Declension====
+{{ro-noun-n|def=DNA-ul|pl=DNA-uri}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:obor|en:DNA|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr|dé ene á|hyph=+}}
+
+===Noun===
+{{es-noun|m|#}}
+
+# {{lb|es|biochemistry}} {{l|en|DNA}}
+#: {{syn|es|ADN}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Swahili==
+
+===Etymology===
+{{ety|sw|:bor|en:DNA|text=+|tree=1}}
+
+===Proper noun===
+{{head|sw|proper noun}}
+
+# [[#English|DNA]]
+#: {{syn|sw|ADN}}
+
+==Swedish==
+{{wp|sv:}}
+
+===Alternative forms===
+* {{alt|sv|dna}}
+
+===Noun===
+{{sv-noun|n}}
+
+# {{lb|sv|biochemistry|genetics}} {{l|en|DNA}}
+#: {{syn|sv|deoxiribonukleinsyra}}
+#: {{ux|sv|'''DNA'''-kedja|'''DNA''' chain|footer=See the usage notes for {{m|sv|särskrivning}} regarding the hyphen.}}
+
+====Declension====
+{{sv-noun-unc-irreg-n|DNA|DNA:t|DNA:s|DNA:ts}}
+
+====See also====
+* {{l|sv|RNA}}
+* {{l|sv|arvsanlag}}
+* {{l|sv|arvsmassa}}
+* {{l|sv|gen}}
+* {{l|sv|genetik}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+
+==Tagalog==
+
+===Etymology===
+{{bor+|tl|en|DNA}}, an {{initialism|en|deoxyribonucleic acid|nocap=1|nocat=1}}.
+
+===Pronunciation===
+{{tl-pr|dí-en-éy}}
+
+===Noun===
+{{tl-noun}} {{tlb|tl|biochemistry|genetics}}
+
+# {{l|en|DNA}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+
+==Turkish==
+
+===Noun===
+{{head|tr|noun}}
+
+# {{initialism of|tr|deoksiribonükleik asit}} [[#English|DNA]] ([[deoxyribonucleic acid]])

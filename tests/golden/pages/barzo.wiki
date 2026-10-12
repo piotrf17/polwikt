@@ -1,0 +1,123 @@
+{{also|barzô}}
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=very|:bor|zlw-mpl:bardzo<alt:barzo><id:very>|tree=1|text=+}} Compare {{cog|zlw-slv|barzô}}.
+
+===Pronunciation===
+{{csb-pr|bar.}}
+
+===Adverb===
+{{csb-adv|barżi}}
+
+# [[very]]
+
+===Further reading===
+* {{R:csb:SPK|bardzo}}
+* {{R:csb:ISKJ|+|8868}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=very|:af|zlw-opl:barzy<id:fast>|zlw-opl:-o<id:adverbial>|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|bar-zo}}
+
+===Adverb===
+{{zlw-opl-adv}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Łęczyca|Greater Poland|Masovia}} [[very]]
+#: {{syn|zlw-opl|barz}}
+#* {{RQ:zlw-opl:Gn|5a|A cdiszcy vøcz ten tho gisty czeszarsz tho vydzene y ten tho dzif gestcy gy on bil vsrzal, tedycz vøcz gestcy szø on bil themu '''barszo''' dzyuoual|A kdyżci więc ten to jisty cesarz to widzenie i ten to dziw jestci ji on był uźrzał, tedyć więc jestci się on był temu '''barzo''' dziwował|-}}
+#* {{RQ:zlw-opl:MW|35b|Iako '''barzo''' milowalem zakon twoy, panie (quomodo dilexi legem tuam, Domine Psal 118, 97), wszego dnya myslenie moie iest|Jako '''barzo''' miłowałem zakon twoj, Panie (quomodo dilexi legem tuam, Domine Psal 118, 97)! Wszego dnia myślenie moje jest|-}}
+#* {{RQ:zlw-opl:PF|I|492|c. 1428|Tako '''barszo''' adeo|Tako '''barzo''' adeo|-}}
+#* {{RQ:zlw-opl:Kśw|bv 40|Timy sloui mødresc faly... Nicolaia [z sk]utka duoiakego '''barzo''' znamenitego|Tymi słowy mędrzec fali... Nikołaja [z sk]utka dwojakiego '''barzo''' znamienitego|-}}
+#* {{RQ:zlw-opl:Gn|4b|A tako vøcz gego mila matuchna, gdiszcy gest gy ona bila porodzyla, tedycz vøcz ona gest bila k nemu '''barszo''' laskaue mouila|A tako więc jego miła matuchna gdyżci jest ji ona była porodziła, tedyć więc ona jest była k niemu '''barzo''' łaskawie mowiła|-}}
+#* {{RQ:zlw-opl:WokLub|133v|c. 1500|Summe '''barzo'''|Summe '''barzo'''|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland|Greater Poland}} [[completely]], [[entirely]]
+#* {{RQ:zlw-opl:Fl|77, 65:|Vsliszal bog y wzga[r]dzal y ku niczemu przinosl '''barzo''' Israhel (ad nihilum redegit valde Israel)... y dal w *ioczstwo czescz gich y czudnoscz gich w *rocze neprzyaczelowi|Usłyszał Bog i wzga[r]dzał, i ku niczemu przyniosł '''barzo''' Israhel (ad nihilum redegit valde Israel)... I dał w jęcstwo cześć jich i cudność jich w ręce nieprzyjacielowi|-}}
+#* {{RQ:zlw-opl:WokLub|117|c. 1500|Ruta est quedam herba raute et est calida et sicca in tercio gradu dobre zyele czysczy oczy '''barzo''' vyelye|Ruta est quedam herba raute et est calida et sicca in tercio gradu dobre ziele czyści oczy '''barzo''' wiele|-}}
+# [[well]], [[correctly]]
+#* {{RQ:zlw-opl:Rozm|153|Palce miał wielebne, długie a '''barzo''' złączone (longi, generosi, bene iuncti)|Palce miał wielebne, długie a '''barzo''' złączone (longi, generosi, bene iuncti)|-}}
+# [[quickly]]
+#* {{RQ:zlw-opl:BZ|Jos|23, 16|A tak '''barzo''' y richlo powstanye przecziw wam gnyew bozi (cito atque velociter consurget... furor domini)|A tak '''barzo''' i rychło powstanie przeciw wam gniew boży (cito atque velociter consurget... furor Domini)|-}}
+# [[a lot]], [[much]], [[many]]
+#* {{RQ:zlw-opl:Aleksy|36|A gdy szyą mv szyn narodzyl, ... then byl oczcza '''barszo''' lepszy|A gdy się mu syn narodził, ... ten był oćca '''barzo''' lepszy|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adverbs|barz}}
+
+====Related terms====
+{{col|zlw-opl|title=nouns|berzkość}}
+
+====Descendants====
+* {{desctree|pl|bardzo}}
+* {{desc|szl|bardzo|alts=1}}
+
+===References===
+* {{R:pl:Boryś|bardzo}}
+* {{R:pl:Sławski|bardzo}}
+* {{R:pl:Bańkowski|bardzo}}
+* {{R:pl:Bruckner|bardzo}}
+* {{R:zlw-opl:SPJSP|(bardzo) bar-zo|200}}
+* {{R:zlw-opl:Rozariusze|(bardzo) barzo|2329}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|-|mp=bar.|CGP=bar.|sbl=bar.|BG=bar.|pod=bar.,raw:[ˈba.r̝o]|SGP=bar.|mas=bar.|pdl=bar.|zag=bar.}}
+
+===Adverb===
+{{pl-adv|-}}
+
+# {{lb|pl|Middle Polish|Central Greater Poland|Southern Greater Poland|Morownica|Masuria|Podlachian|Tykocin|Podhale|Zakopane|Zagórze|Babia Góra|Skawica|Southern Borderlands|Drohobych}} {{alt form|pl|bardzo|t=[[very]]}}
+## {{lb|pl|Middle Polish}} {{alt form|pl|bardzo|t=[[fast]], [[quickly]]}}
+
+===Further reading===
+* {{R:pl:SXVI|barzo, bardzo|43427}}
+* {{R:pl:SGP1900|bardzo|50|1}}
+* {{R:pl:Kobylińska:2001|barzo|4}}
+
+{{cln|pl|degree adverbs|manner adverbs}}
+
+==Romanian==
+
+===Pronunciation===
+* {{IPA|ro|[ˈbarzo]}}
+
+===Noun===
+{{head|ro|noun form|g=f}}
+
+# {{noun form of|ro|barză||voc|s}}
+
+==Silesian==
+
+===Pronunciation===
+{{szl-pr|bar.|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Adverb===
+{{szl-adv}}
+
+# {{alt form|szl|bardzo}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Turkish==
+
+===Etymology===
+{{rfetym|tr}}.
+
+===Pronunciation===
+* {{tr-IPA|'barzo}}
+* {{hyph|tr|bar|zo}}
+
+===Noun===
+{{tr-noun|yu|lar}}
+
+# {{lb|tr|derogatory}} [[boor]]
+#: {{syn|tr|hödük|ayı|kıro}}
+
+====Declension====
+{{tr-infl-noun-v|u|pred=1|poss=1}}

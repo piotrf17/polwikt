@@ -1,0 +1,67 @@
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Noun===
+{{head|cs|noun form|g=m-in}}
+
+# {{infl of|cs|mam||nom//acc//voc//ins|p}}
+
+==French==
+
+===Pronunciation===
+* {{audio|fr|LL-Q150 (fra)-WikiLucas00-mamy.wav|a=<<France>> (<<Lyon>>)}}
+
+===Noun===
+{{fr-noun|f}}
+
+# {{alt sp|fr|mamie}}
+
+==Lower Sorbian==
+
+===Pronunciation===
+{{dsb-pr}}
+
+===Noun===
+{{head|dsb|noun form|g=f}}
+
+# {{inflection of|dsb|mama||gen|s|;|nom//acc|p}}
+
+===Verb===
+{{head|dsb|verb form}}
+
+# {{inflection of|dsb|měś||1|p|pres}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-mamy.wav}}
+
+===Verb===
+{{head|pl|verb form}}
+
+# {{inflection of|pl|mieć||1|p|pres}}
+
+===Noun===
+{{head|pl|noun form|g=f}}
+
+# {{inflection of|pl|mama||gen|s|;|nom//acc//voc|p}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+==Upper Sorbian==
+
+===Pronunciation===
+* {{hsb-IPA}}
+
+===Noun===
+{{head|hsb|noun form|g=f}}
+
+# {{inflection of|hsb|mama||gen|s|;|nom//acc|p}}
+
+===Verb===
+{{head|hsb|verb form}}
+
+# {{inflection of|hsb|měć||1|p|pres}}

@@ -1,0 +1,154 @@
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=city|:inh|sla-pro:*mě̀sto|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|n|adj=miastowi|adj2=miesczi<q:rare>}}
+
+# [[city]], [[town]]
+
+===Further reading===
+* {{R:csb:SPK|+|page=1007|vol=1}}
+* {{R:csb:ISKJ|+|3223}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|miesto}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Etymology 1===
+{{etymon|zlw-opl|id=city|:inh|sla-pro:*mě̀sto<ref:{{R:pl:Bańkowski|miasto I}}>|tree=1|text=+}} {{etydate|first half of the 14th century}}.
+
+====Noun====
+{{zlw-opl-noun|n|adj=miejscski}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[place]], [[location]]
+#: {{syn|zlw-opl|mieśćce}}
+#* {{RQ:zlw-opl:Kśw|cv 23|Pismo togo croleuicha... v troiakem '''mesce'''... naziua crolem luda zidowskiego|Pismo togo krolewica... w trojakiem '''mieście'''... nazywa krolem luda żydowskiego|-}}
+#* {{RQ:zlw-opl:MPKJ|V|45|1471|W taynem '''myescze''' in diversorio (deus enim est forsitan loquitur, aut in diversorio est, aut in itinere III Reg 18, 27)|W tajnem '''mieście''' in diversorio (deus enim est forsitan loquitur, aut in diversorio est, aut in itinere III Reg 18, 27)|-}}
+#* {{RQ:zlw-opl:MPKJ|V|57|1471|W schądnem '''myesczie''' in consistorio (ille sedebat super solium suum in consistorio palatii Esth 5, 1)|W sądnem '''mieście''' in consistorio (ille sedebat super solium suum in consistorio palatii Esth 5, 1)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland|Greater Poland|Masovia}} [[city]], [[town]]
+#* {{RQ:zlw-opl:Kśw|av 6|Galaa uipraua sø '''masto''' pluøcih|Galaa wyprawia się '''miasto''' plwiących|-}}
+#* {{RQ:zlw-opl:OrtMac|41|My przyszasznyczy y woyth '''myasztha''' opawszkyego wysznawamy|My przysiężnicy i wojt '''miasta''' opawskiego wyznawamy|-}}
+#* {{RQ:zlw-opl:Wisł|228|88|1437|Glowne '''myasto''' metropolis|Głowne '''miasto''' metropolis|-}}
+#* {{RQ:zlw-opl:PF|I|490|c. 1428|Thwarda '''myastha''' municiones|Twarda '''miasta''' municiones|-}}
+#* {{RQ:zlw-opl:MPKJ|V|76|1471|In Pentapolim na pyancz '''myast''' (descendente igne in Pentapolim Sap 10, 6)|In Pentapolim na pięć '''miast''' (descendente igne in Pentapolim Sap 10, 6)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[foundation]]
+#* {{RQ:zlw-opl:PF|V|73|Fifteenth century|'''Myaszto''' fundamentum|'''Miasto''' fundamentum|-}}
+
+=====Derived terms=====
+{{col|zlw-opl|title=adverb|z miasta|do tego miasta|do dzisiejszych miast}}
+{{col|zlw-opl|title=preposition|w miasto}}
+
+=====Related terms=====
+{{col|zlw-opl|title=noun|mieśćce}}
+
+=====Descendants=====
+* {{desc|pl|miasto|id=city|alts=1}}
+* {{desc|szl|miasto}}
+
+===Etymology 2===
+{{ety|zlw-opl|id=instead|:ellipsis|w miasto<ref:{{R:pl:Bańkowski|miasto II}}>|text=+|tree=1|etydate=1424}}
+
+====Preposition====
+{{head|zlw-opl|preposition}}
+
+# [[instead of]]
+#* {{RQ:zlw-opl:Przyb|6|1424|Crol gy ostawil '''myasto''' ssyebye|Krol ji ostawił '''miasto''' siebie|-}}
+
+=====Descendants=====
+* {{desc|pl|miasto|id=instead}}
+
+===References===
+{{reflist}}
+:* {{R:pl:Boryś}}
+:* {{R:zlw-opl:SPJSP|1. miasto, miesto|5959}}
+:* {{R:zlw-opl:SPJSP|2. miasto, miesto|5960}}
+
+==Polish==
+{{wp|pl:}}
+
+===Pronunciation===
+{{pl-pr|a=pl-#.ogg|mp=#|MD=#|suw=#}}
+
+===Etymology 1===
+{{etymon|pl|id=city|:inh|zlw-opl:miasto<id:city><t:city>|tree=1|text=+}}
+
+====Alternative forms====
+* {{alt|pl|mniasto||Far Masovian|Przasnysz}}
+
+====Noun====
+{{pl-noun|n|dim=miastko<l:rare,or,dialectal>,miasteńko<l:dialectal>,mieścisko<l:dialectal>|adj=miejski}}
+
+# [[city]], [[town]] {{gl|area, center, administration, or population of a densely populated region of people larger than a village}}
+#: {{coi|pl|jeść na '''mieście'''|[[eat out|to eat '''out''']]}}
+# {{lb|pl|Middle Polish}} [[place]]
+#: {{syn|pl|miejsce}}
+
+=====Declension=====
+{{pl-decl-noun-n|locs=mieście}}
+
+=====Derived terms=====
+{{col|pl|title=adjectives|miasteczny|małomiejski|małomieszczański|miasteczkowy|miastotwórczy|miastowy|międzymiastowy|mieszczański}}
+{{col|pl|title=adverbs|miastowo|miejsko|natychmiast}}
+{{col|pl|title=nouns|człowiek z miasta|małomieszczanin|małomieszczańskość|małomieszczaństwo|miastko|miasteczko|miastowiec|miejskość|mieszczan|mieszczaneczka|mieszczanek|mieszczaneria|mieszczanin|mieszczanka|mieszczańskość|mieszczaństwo|mieszczka|mieszczuch|mieszczuk|mieszczuszek|miasteczkowość|miastowość|zamieśnik}}
+{{col|pl|title=conjunctions/prepositions|miast|zamiast}}
+{{pl-derived verbs|-/mieścić}}
+
+=====Related terms=====
+{{col|pl|title=noun|miejsce}}
+
+====Trivia====
+{{pl-freq 1990|65|142|116|75|54|452|101|242|1}}
+
+===Etymology 2===
+{{etymon|pl|id=instead|:inh|zlw-opl:miasto<id:instead><t:instead of>|tree=1|text=+}}
+
+====Preposition====
+{{head|pl|preposition}}
+
+# {{lb|pl|obsolete|or|Far Masovian|Ciechanów|Suwałki|Augustów Governorate}} [[instead of]] {{+obj|pl|gen}}
+
+=====Derived terms=====
+{{col|pl|title=conjunction/preposition|miast}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|66115}}
+* {{R:pl:SXVI|+|66116}}
+* {{R:pl:SXVII|MIASTO_I|6826|WM|04.04.2023}}
+* {{R:pl:SXVII|MIASTO_II|7374|SPas|15.05.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||944|2}}
+* {{R:pl:SGP1900||144|3}}
+* {{R:pl:SGP1900|miast i miasto|144|3}}
+
+{{C|pl|Polities}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=city|:inh|zlw-opl:miasto<id:city><t:city>|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|n|adj=miyjski}}
+
+# [[city]], [[town]]
+
+===Further reading===
+* {{R:szl:silling}}

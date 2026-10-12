@@ -1,0 +1,289 @@
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|wźwiąć|źwiąć}}
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*vъzęti|:af<surf>|wz-|jąć|etydate=1389|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|pf}}
+
+# to [[take]] {{gl|to get into one's hands}}
+# {{lb|zlw-opl|of liquids}} to [[draw]], to [[scoop]]
+# {{lb|zlw-opl|of foods, medicines, etc.}} to [[take]], to [[ingest]]
+# to [[place]], to [[put]]
+#: {{syn|zlw-opl|położyć}}
+# to [[take]] [[along]] {{gl|to take with oneself}}
+# to [[remove]] {{gl|to cause the absence of by taking}}
+# to [[take]], to [[borrow]]
+# to [[free]] from [[captivity]] or [[enslavement]]
+# to [[take away]] {{gl|to deprive someone of something}}
+# to [[occupy]], to [[appropriate]] property
+# to [[seize]] in [[damages]] for [[pledge]], to secure [[claim]]s
+# to [[charge]] {{gl|to take a certain amount of money for something}}
+# to [[take]] into [[captivity]] or [[enslavement]]
+## to be [[force]]d into a [[marriage]]
+# to [[stay]] [[in harm's way]]
+# to [[get back]], to [[take back]], to [[regain]]
+## to have a [[debt]] [[pay back|paid back]], to be paid back
+# to [[get]], to [[receive]], to [[gain]]
+## to [[receive]] as a dowry
+# to [[inherit]], to [[receive]] upon someone's [[death]]
+# to [[accept]], to [[receive]], to [[take]] a gift or donation
+# to be [[reward]]ed for [[contribution]]s or [[punish]]ed for [[misdeed]]s
+# to [[use]], to [[apply]]
+# to [[admit]], to [[agree]]; to not [[reject]]
+# to [[take in]], to [[make]] a [[companion]] or [[participant]] in some [[activity]], to [[let in]]to [[company]]
+# to [[conscript]] someone into [[help]]ing
+# to [[choose]], to [[select]], to [[pick out]]
+# to [[marry]], to [[take]] as a [[spouse]]
+# to [[take responsibility]] for
+# to [[host]], to [[give]] [[hospitality]], to [[have over]]
+# to [[defend]]
+# {{lb|zlw-opl|of a title, position, honor, etc.}} to [[take on]], to [[commit]] to, to [[assume]]
+# to [[stock up]]; to [[use]] a [[resource]]
+# to [[draw]]; to [[take]] {{q|a conclusion, lesson, proof, etc.}}
+# to [[contain]]
+# to [[begin]], to [[start]], to [[initiate]]
+# {{lb|zlw-opl|reflexive-się}} to [[get to]] something, to begin a task {{+obj|zlw-opl|:za(acc)<what>}}
+# {{lb|zlw-opl|reflexive-się}} to [[appear]], to [[show up]]
+# {{lb|zlw-opl|reflexive-się}} to [[begin]], to [[start]], to [[initiate]]
+# {{lb|zlw-opl|reflexive-się}} to [[speak up]] for, to [[defend]] {{+obj|zlw-opl|:o(acc)<what>}}
+# {{lb|zlw-opl|reflexive-się}} to [[appeal]] to a [[court]]
+# {{lb|zlw-opl|reflexive-się}} {{def-uncertain|zlw-opl}}
+## to [[take]] [[possession]] of something {{+obj|zlw-opl|:w(acc)<what>}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjective|wniebowzięty}}
+{{col|zlw-opl|title=nouns|wniebowzięcie|źwiąnica|wziątek|wzięcie}}
+{{zlw-opl-derived verbs|wziąć na stronę/-
+|wziąć ciało/-
+|ciało na się wziąć/-
+|w niebo wziąć/-
+|-/być wziętym ze świata
+|wziąć duszę/-
+|od oczu wziąć/-
+|na prawo wziąć/-
+|wziąć w ręce/-
+|wziąć w łono/-
+|miestce wziąć/-
+|policzek wziąć/-
+|wziąć radę/-
+|wziąć ranę/-
+|wziąć szkodę/-
+|wziąć liczbę/-
+|pomstę wziąć/-
+|wziąć opiekadlnika/-
+|wziąć za syna/-
+|wziąć obyczaj/-
+|wziąć rękojemstwo/-
+|wziąć na rękojemstwo/-
+|ku czci wziąć/-
+|ku duszy wziąć/-
+|wziąć w opiekę/-
+|wziąć czas/-
+|koniec wziąć/-
+|wziąć początek/-
+|przekorzyznę wziąć/-
+|ręce wziąć/-
+|wziąć rok/-
+|słowo tesnie wziąć/-
+|zajem wziąć/-
+|wziąć na pamięć/-
+|wziąć na rozmyślenie/-
+|wziąć na skazanie/-
+|wziąć na spytanie/-
+|wziąć po westczy/-
+|wziąć w prozność/-}}
+
+====Related terms====
+{{col|zlw-opl|title=noun|niewzięcie}}
+{{zlw-opl-derived verbs|jąć/-}}
+
+====Descendants====
+* {{desc|pl|wziąć|alts=1}}
+* {{desc|szl|wziōńś}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:zlw-opl:SPJSP|wziąć, wźwiąć, źwiąć, wziąć się|20499}}
+* {{R:zlw-opl:Rozariusze|+|2137}}
+
+{{cln|zlw-opl|contranyms}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|wziąść||nonstandard|proscribed}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:wziąć|:af<surf>|wz-|jąć|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-wziąć.ogg<text:#>;LL-Q809 (pol)-Olaf-wziąć.wav<text:#>;LL-Q809 (pol)-Olaf-wziąć się.wav<text:~>|mp=#}}
+
+===Verb===
+{{pl-verb|pf|impf=brać}}
+
+# {{lb|pl|transitive}} to [[take]] {{gl|to grab with the hands}} {{+obj|pl|ins<with what>|:za(acc)<by what part>}}
+# {{lb|pl|transitive}} to [[take]] {{gl|grabbing with one's hands, to place somewhere}}
+# {{lb|pl|transitive}} to [[take in]] {{gl|to agree to take care of}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to allow to join}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to ensure that one has something with them when they depart}}
+# {{lb|pl|transitive}} to [[take]], to [[charge]] {{gl|to ask for or demand a certain amount of money for something}} {{+obj|pl|:za(acc)<for what>}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to have temporarily, e.g. a room at a hotel}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to hire a particular person for a job or task}}
+# {{lb|pl|transitive}} to [[take]]; to [[get]] {{gl|to gain from a particular source, e.g. a resource}}
+#: {{coi|pl|'''wziąć''' pomysł|to '''get''' an idea}}
+# {{lb|pl|transitive}} to [[take]], to [[take away]] {{gl|to deprive of}} {{+obj|pl|dat<from whom>}}
+#: {{syn|pl|zabrać}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to force someone to go somewhere, e.g. to the police}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to ingest e.g. medicine}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to conquer, to gain e.g. a city}}
+# {{lb|pl|transitive|vulgar|of men}} to [[take]] {{gl|to have sexual relations with a woman}}
+# {{lb|pl|transitive|colloquial}} to [[take]] {{gl|to pass on the road while driving}}
+#: {{syn|pl|wyprzedzić}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to consider someone or something to be something, especially unfairly}} {{+obj|pl|:za(acc)<for what>}}
+# {{lb|pl|transitive}} to [[get]] someone to do something {{gl|to convince someone to taking a particular action}} {{+obj|pl|:na(acc)<to what>}}
+# {{lb|pl|transitive}} to [[take]]; to [[get]] {{gl|as a [[light verb]], to be the performer or subject of an action}}
+#: {{coi|pl|'''wziąć''' prysznic|to '''take''' a shower}}
+#: {{coi|pl|'''wziąć''' masaż|to '''get''' a massage}}
+# {{lb|pl|transitive|of emotions, diseases, etc.}} to [[take]] {{gl|to appear in someone's body or psyche}}
+# {{lb|pl|transitive|fishing}} to [[bite]]; to [[take]] {{gl|to attach to a hook on a rod; to be caught}} {{+obj|pl|:na(acc)<with what bait>}}
+# {{lb|pl|transitive}} to [[take on]] {{gl|to accept a position or function}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to defeat someone or something}}
+# {{lb|pl|transitive}} to [[put on]] {{gl|to begin wearing some article of clothing}} {{+obj|pl|:w(acc)<what clothing>}}
+# {{lb|pl|transitive|colloquial}} to [[take]] {{gl|to interest, to grab someone's attention}}
+# {{lb|pl|intransitive|of weather}} to [[build up]]
+# {{lb|pl|transitive}} to [[get]] {{gl|to understand somehow}}
+# {{lb|pl|transitive}} to [[take]] {{gl|to get hit}}
+#: {{syn|pl|dostać}}
+# {{lb|pl|transitive}} to [[take after]], to [[get]] from {{gl|to inherit some traits}}
+# {{lb|pl|transitive}} to [[take]], to [[choose]], to [[select]]
+#: {{syn|pl|wybrać}}
+# {{lb|pl|reflexive-się}} to [[take]] oneself {{gl|to grab oneself by something}} {{+obj|pl|:pod(acc)/:za(acc)<by what>}}
+# {{lb|pl|reflexive-się}} to [[take]] each other {{gl|to grab each other by something}} {{+obj|pl|:pod(acc)/:w(acc)/:za(acc)<by what>}}
+# {{lb|pl|reflexive-się}} to [[get]] to {{gl|to begin to do some activity}} {{+obj|pl|:do(gen)/:za(acc)<q:proscribed><to what>}}
+#: {{coi|pl|'''wziąć się''' do roboty|to '''get to''' work}}
+#: {{coi|pl|'''wziąć''' ślub|to '''get''' married}}
+# {{lb|pl|reflexive-się}} to be [[convince]]d {{gl|to allow oneself to be convinced to doing something}} {{+obj|pl|:na(acc)<to what>}}
+# {{lb|pl|reflexive-się|colloquial}} to [[take on]] {{gl|to begin to deal intensively with matters related to a specific person}} {{+obj|pl|:za(acc)<whom>}}
+# {{lb|pl|reflexive-się|colloquial}} to [[come from]] {{gl|to have a source from}}
+# {{lb|pl|reflexive-się|obsolete}} to be [[deceive]]d
+#: {{syn|pl|[[nabrać]] [[się]]}}
+# {{lb|pl|reflexive-się|obsolete}} to [[get]] to {{gl|to arrive, to go to}}
+#: {{syn|pl|[[udać]] [[się]]}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[appear]], to [[show up]]
+#: {{syn|pl|[[pojawić]] [[się]]}}
+
+====Conjugation====
+{{pl-conj-ap|wziąć|wezmę|weźmie|wezmą|wzią|wzię|wzię|weź|pp=wzięt|pp2=wzięci|ip=wzięto|ap=wziąwszy|vn=wzięcie}}
+or obsolete:
+{{pl-conj-ap|wziąć|wezmę|weźmie|wezmą|wzią|wzię|wzię|weźmij|pp=wzięt|pp2=wzięci|ip=wzięto|ap=wziąwszy|vn=wzięcie}}
+
+===Verb===
+{{pl-verb|pf|impf=brać}}
+
+# {{lb|pl|intransitive|impersonal|colloquial}} to [[get]] the [[urge]], to [[get]] a [[hankering]] {{gl|to feel a strong need or want to do something to the point where one cannot help themself}} {{+obj|pl|acc<subject> + :na(acc)<for what>}}
+
+====Conjugation====
+{{pl-conj-ap-impersonal|weźmie|wzięło}}
+
+====Derived terms====
+{{col|pl|title=adjectives|do wzięcia|razem wzięty|wzięty}}
+{{col|pl|title=interjections|no weź|weź}}
+{{col|pl|title=nouns|wziątka|wzięcie}}
+{{col|pl|title=phrase|Bóg dał, Bóg wziął|Bóg powołał do siebie}}
+{{col|pl|title=proverb|złego diabli nie wezmą}}
+{{pl-derived verbs
+|*wziąć/wzinać
+|powziąć/-
+|przedsięwziąć/[przedsiębrać]
+|u
+|za
+}}
+{{pl-derived verbs|wziąć się do rzeczy/brać się do rzeczy
+|wziąć się na sposób/brać się na sposób
+|wziąć się w garść/brać się w garść
+|wziąć się za łby/brać się za łby
+|wziąć się za bary/brać się za bary
+|cholera wzięła/cholera bierze
+|wziąć górę/brać górę
+|wziąć początek/brać początek
+|diabli wzięli/diabli biorą
+|wziąć w łeb/brać w łeb
+|nie wziąć do ust/nie brać do ust
+|wziąć azymut/brać azymut
+|wziąć do siebie/brać do siebie
+|wziąć na swoje barki/brać na swoje barki
+|wziąć na swoje sumienie/brać na swoje sumienie
+|wziąć w swoje ręce/brać w swoje ręce
+|wziąć do galopu/brać do galopu
+|wziąć do kieszeni/brać do kieszeni
+|wziąć do ręki/brać do ręki
+|wziąć dupę w troki/brać dupę w troki
+|wziąć górę/brać górę
+|wziąć i zrobić/brać i robić
+|wziąć na lep/brać na lep
+|wziąć na spytki/brać na spytki
+|wziąć w jednej koszuli/brać w jednej koszuli
+|wziąć za frak/brać za frak
+|wziąć na ambit/brać na ambit
+|wziąć na bajer/brać na bajer
+|wziąć na cel/brać na cel
+|wziąć na języki/brać na języki
+|wziąć na kieł/brać na kieł
+|wziąć na klatę/brać na klatę
+|wziąć na rozum/brać na rozum
+|wziąć na tapet/brać na tapet
+|wziąć na warsztat/brać na warsztat
+|wziąć na widelec/brać na widelec
+|wziąć na wstrzymanie/brać na wstrzymanie
+|wziąć nogi za pas/brać nogi za pas
+|wziąć odpowiedzialność/brać odpowiedzialność
+|wziąć po pysku/brać po pysku
+|wziąć pod fleki/brać pod fleki
+|wziąć pod lupę/brać pod lupę
+|wziąć pod uwagę/brać pod uwagę
+|wziąć pod włos/brać pod włos
+|wziąć poprawkę/brać poprawkę
+|wziąć przykład/brać przykład
+|wziąć sobie do serca/brać sobie do serca
+|wziąć sprawy w swoje ręce/brać sprawy w swoje ręce
+|wziąć stronę/brać stronę
+|wziąć udział/brać udział
+|wziąć w karby/brać w karby
+|wziąć w łapę/brać w łapę
+|wziąć w nawias/brać w nawias
+|wziąć w obroty/brać w obroty
+|wziąć w pacht/brać w pacht
+|wziąć w rachubę/brać w rachubę
+|wziąć z sufitu/brać z sufitu
+|wziąć za dobrą monetę/brać za dobrą monetę
+|wziąć za mordę/brać za mordę
+|wziąć za złe/brać za złe}}
+
+====Related terms====
+{{pl-derived verbs|jąć/-}}
+
+===Trivia===
+{{pl-freq 1990|12|53|21|55|83|224|247|719|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|30723}}
+* {{R:pl:SXVI|wziąć się|30724}}
+* {{R:pl:SXVII|WZIĄĆ|2074|date=21.08.2023}}
+* {{R:pl:SXVII|WZIĄĆ%20SIĘ|14229|SPas|05.12.2016}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||1139|7}}
+* {{R:pl:NFJP}}

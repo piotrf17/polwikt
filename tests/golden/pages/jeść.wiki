@@ -1,0 +1,77 @@
+{{also|jesc|jěsć}}
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|jeś||Zagórze}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:jeść<ety:inh<sla-pro:*ě̀sti>>|tree=+|text=*}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Gower-#.wav|hh=jeźdź|low=#}}
+
+===Verb===
+{{pl-verb|impf-det|pf=zjeść|freq=jadać}}
+
+# {{lb|pl|ambitransitive}} to [[eat]] {{gl|to ingest}}
+#: {{syn|pl|Thesaurus:jeść}}
+## {{lb|pl|ambitransitive}} to [[eat]] {{gl|to consume a meal}}
+#: {{uxa|pl|Lubię '''jeść''' chińskie dania.|I like to '''eat''' Chinese dishes.}}
+# {{lb|pl|transitive|of insects}} to [[bite]], to [[sting]]
+#: {{syn|pl|kąsać|żądlić}}
+## {{lb|pl|transitive|figurative}} to [[gnaw]], to [[plague]] {{gl|to produce anxiety or worry}}
+##: {{syn|pl|dokuczać|nękać|trapić}}
+#: {{uxa|pl|Stres mnie '''je''' od środka.|Stress is '''gnaving''' at me from inside.}}
+# {{lb|pl|transitive|of rust}} to [[eat away]] {{gl|to corrode gradually}}
+#: {{syn|pl|nadżerać}}
+#: {{uxa|pl|Rdza '''je''' i '''je''' ten przyrząd, wkrótce nie będzie się nadawał do użytku.|Rust '''corrodes''' and '''corrodes''' this equipment, soon it won't be possible to use it.}}
+# {{lb|pl|reflexive-się|figurative}} to [[bicker]], to [[wrangle]] {{+obj|pl|:z(ins)<with whom>}}
+#: {{syn|pl|[[użerać]] [[się]]}}
+#: {{uxa|pl|Ale wy się obie '''jecie''' z Eweliną!|You both with Ewelina '''argue''' so fiercelly!}}
+
+====Conjugation====
+{{pl-conj-ai|jeść|jem|je|jedzą|jad|jad|jed|jedz|pp=jedzon|pp2=jedzeni|ip=jedzono|vn=jedzenie}}
+
+===Noun===
+{{pl-noun|n|indecl=1}}
+
+# {{lb|pl|colloquial}} [[food]]
+#: {{syn|pl|coś na ząb|jadło<q:literary>|jedza<q:dialectal>|jedzenie}}
+
+====Derived terms====
+{{col|pl|title=nouns|jadło|jedzenie}}
+{{col|pl|title=proverbs|gdzie kucharek sześć, tam nie ma co jeść|głodny woli jeść, niż muzyki słuchać|kto się do pracy leni, nie wart jeść pieczeni}}
+{{pl-derived verbs
+|*jeść/jadać
+|do
+|na
+|nad
+|ob
+|od
+|po
+|pod
+|prze
+|u
+|wy
+|z
+|za
+}}
+{{pl-derived verbs
+|-/jeść jak wróbelek
+|-/jeść jak świnia
+|-/jeść za dwóch
+|-/móc jeść łyżkami}}
+
+====Related terms====
+{{col|pl|title=adjectives|jadalniany|jadalniowy|jadalny|jedzeniowy|zajadły|zjadliwy}}
+{{col|pl|title=nouns|jadacz|jadaczka|jadalnia|jedza|jedzenioholik|jedzenioholizm|jedzeniomat|jedzonko|obiad|śniadanie}}
+{{col|pl|title=verb|śniadać<g:impf>}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SJPD|jeść}}
+* {{R:pl:SJP1900|jeść, jejść, jedać, jadować|172|2}}
+* {{R:pl:GKJO||33}}
+
+{{C|pl|Food and drink}}

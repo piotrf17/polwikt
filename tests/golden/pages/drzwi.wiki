@@ -1,0 +1,96 @@
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|dźwirze|dźwi|dźwirz}}
+
+===Etymology===
+{{etymon|zlw-opl|id=door|:inh|sla-pro:*dvь̀rь<id:door>|tree=1}}
+{{inh+|zlw-opl|sla-pro|*dvьrь}} through metathesis. {{etydate|end of the 14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|nv-p|adj=drzwiany}}
+
+# {{lb|zlw-opl|attested in|Greater Poland}} [[door]] {{gl|portal}}
+#* {{RQ:zlw-opl:HubeZb|99|1400|Ez Jan za nocznø rzeczø ne yal na Thomislaowø wesz sylø, moczø y troych '''drzwy''' ne wibil|Eż Jan za nocną rzeczą nie jał na *Tomislaową wieś siłą, mocą i troich '''drzwi''' nie wybił|-}}
+
+====Descendants====
+* {{desc|pl|drzwi|alts=1}}
+* {{desc|szl|drzwi}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Architectural elements}}
+
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{ety|pl|id=door|:inh|zlw-opl:drzwi<id:door>|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|drzwi,dżwi<q:colloquial>|a=Pl-drzwi.ogg;LL-Q809 (pol)-Olaf-drzwi.wav|mp=#|kuj=#|zag=dżwi}}
+
+===Noun===
+{{pl-noun|nv-p|dim=drzwiczki,dźwierki<l:dialectal>|adj=drzwiowy}}
+
+# [[door]] {{gl|portal}}
+# {{lb|pl|figurative}} [[door]] {{gl|means of approach or access}}
+
+====Declension====
+{{pl-decl-noun-f|drz|wi||tantum=p}}
+
+====Synonyms====
+{{dial syn|pl}}
+
+====Derived terms====
+{{col|pl|title=adverbs|tylnymi drzwiami|przy drzwiach otwartych|przy drzwiach zamkniętych|za zamkniętymi drzwiami}}
+{{col|pl|title=interjections|niech drzwi ścisną}}
+{{col|pl|title=nouns|otwarte drzwi}}
+{{col|pl|title=phrases|drzwi się nie zamykają}}
+{{pl-derived verbs|-/nie kłaść palca między drzwi|-/chodzić od drzwi do drzwi|zapukać do drzwi/pukać do drzwi|pokazać drzwi/pokazywać drzwi|-/walić drzwiami i oknami|wyważyć otwarte drzwi/wyważać otwarte drzwi|zamknąć drzwi przed nosem/zamykać drzwi przed nosem|zostawić za drzwiami/zostawiać za drzwiami}}
+
+===Trivia===
+{{pl-freq 1990|1|8|2|83|38|132|455|94|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|50018}}
+* {{R:pl:SXVII|DRZWI|6270|SPas|09.01.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||574|1}}
+* {{R:pl:Kolberg:1867|dźwi|270}}
+* {{R:pl:Kobylińska:2001|drzwi|33}} <!---<dżwi> (pl.t.); filunkowe <filónkowe> drzwi — drzwi z deseczek powprawianych w ramy drzwi; odemknąć <łodymknóńć> drzwi — otworzyć drzwi, zamek kluczem; założyć drzwi <załozydź dżwt> — zamknąć drzwi na skobel; zamknąć <zamknóńć> drzwi — zamknąć drzwi na klucz; zaryglować drzwi — zamknąć drzwi na rygiel; zawrzeć <za - wżyć> drzwi — zamknąć drzwi--->
+
+{{C|pl|Architectural elements}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=door|:inh|zlw-opl:drzwi<id:door>|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|nv-p}}
+
+# {{alt form|szl|dźwiyrze}}
+
+====Declension====
+{{szl-decl-noun-pl|drzwi|drzwi|drzwiōm|drzwi|[[drzwiami]]/[[drzwiōma]]|drzwiach|drzwi}}
+
+===Further reading===
+* {{R:szl:silling}}

@@ -1,0 +1,142 @@
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|chocieć|kcieć|ścieć}}
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*xotě̀ti<alt:*xъtěti>|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# to [[want]]; to [[desire]] {{+obj|zlw-opl|acc/dat/gen<something> + inf<to do something>}}
+# to [[want]]; to [[intend]]
+# {{def-uncertain|zlw-opl|nohypothesis=1}}
+#* {{RQ:zlw-opl:MPKJ|V|136|1471|A '''chczely''' czoln schiekacz a. zrambacz et passi sunt eam excidere (tunc absciderunt milites funes scaphae et passi sunt eam excidere Act 27, 32)|A '''chcieli''' czołn zsiekać a. zrębać et passi sunt eam excidere (tunc absciderunt milites funes scaphae et passi sunt eam excidere Act 27, 32)|-}}
+# to [[try]], to [[attempt]]
+# {{lb|zlw-opl|usually of objects}} to [[be able to]], [[can]]
+# {{lb|zlw-opl|of objects}} to be [[close]] to [[done]], to have nearly [[finish]]ed doing an action
+# {{ng|marks the future tense}}
+# {{lb|zlw-opl|reflexive-się|impersonal}} to [[want]] {{gl|to have a desire for something, or to do something}}
+# {{lb|zlw-opl|reflexive-się|impersonal}} {{ng|used to indicate when someone is experiencing a specific condition of their body that is associated with an action indicated by the subordinate verb}}
+
+====Derived terms====
+{{col|zlw-opl|title=adverb|chcąc|nie chcąc}}
+{{col|zlw-opl|title=noun|chcenie}}
+
+====Related terms====
+{{col|zlw-opl|title=adjective|chętny}}
+{{col|zlw-opl|title=nouns|chęć|chętność}}
+
+====Descendants====
+* {{desc|pl|chcieć|alts=1}}
+* {{desc|szl|chcieć}}
+
+===References===
+* {{R:pl:SEUW|chcieć|19}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:chcieć|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav|mp=#|las=#|MB=#|ost=#|pod=#|MD=#|krk=#|ekr=#}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|transitive}} to [[want]] {{gl|to wish for or desire}} {{+obj|pl|acc/gen<something> + inf<to do something>}}
+#: {{uxi|pl|'''Chciałbym''' zjeść spaghetti.|I '''would like''' to eat spaghetti.}}
+## {{lb|pl|transitive|Ostróda|Near Masovian|Łukowiec|Western Kraków|Lasovia|Bilcza}} to [[want]] {{gl|to wish to take as a spouse}}
+## {{lb|pl|intransitive|Eastern Kraków|Skalbmierz|of a mare}} to [[want]] {{gl|to be in heat}} {{+obj|pl|:do(gen)<for what stallion>}}
+# {{lb|pl|transitive}} {{ng|used in polite commands}}; to [[want]] {{+obj|pl|:żeby/:aby/:by(past-cl)<to do what>}}
+#: {{uxi|pl|'''Chcę''', żebyś zjadł spaghetti.|I '''want''' you to eat spaghetti.}}
+# {{lb|pl|transitive|of objects|usually negated}} to [[be able to]], [[can]]
+# {{lb|pl|transitive|Far Masovian|Przasnysz|Western Kraków}} {{syn of|pl|mieć|t=[[going to]]; [[supposed to]]}}  {{+obj|pl|inf<to do something>}}
+#: {{uxa|pl|Jak me zarzno, to ty '''chcij''' ze mnie flaki cyścić.|If they slaughter me, then you're '''going to''' clean out my guts.|qq=Far Masovian, Przasnysz}}
+#: {{uxa|pl|Woda całe miasto '''chciała''' zalać.|Water was '''going to''' flood the whole city,|qq=Western Kraków}}
+# {{lb|pl|reflexive-się|impersonal}} to [[feel like]], to [[want]] {{gl|to have a desire for something, or to do something}} {{+obj|pl|inf}}
+#: {{uxi|pl|'''Chce''' mi '''się''' pobiegać.|I '''feel like''' running for a bit.}}
+# {{lb|pl|reflexive-się|impersonal}} {{ng|used to indicate when someone is experiencing a specific condition of their body that is associated with an action indicated by the subordinate verb}}; to [[want]] {{+obj|pl|inf}}
+#: {{uxi|pl|Nikomu nie '''chciało się''' spać.|No one '''was''' tired.|lit=No one '''felt like''' sleeping.}}
+#: {{uxi|pl|'''Chce''' mi '''się''' jeść.|I''''m''' hungry.|lit=I '''feel like''' eating.}}
+#: {{uxi|pl|'''Chce''' mi '''się''' pić.|I''''m''' thirsty.|lit=I '''feel like''' drinking.}}
+
+====Usage notes====
+The use of accusative or genitive is somewhat conditioned; accusative may be used when referring to concrete nouns in their entirety, e.g. {{m|pl||chcieć bułkę|to want a (whole) bun}}, and genitive may be used either for abstract nouns or as a {{lg|partitive}}, e.g. {{m|pl||chcieć pomocy|to want help}} or partitive {{m|pl||chcieć bułki|to want (some of a) bun}}.<ref>{{R:pl:PWN Poradnia|dr hab. Adam Wolański|6.04.2024|https://sjp.pwn.pl/poradnia/haslo/schemat-skladniowy-czasownika-chciec;23454.html}}</ref>
+
+====Conjugation====
+{{pl-conj-ai|chcieć|chcę|chce|chcą|chcia|chcia|chcie|chciej|ip=chciano|vn=chcenie|pp=chcian|pp2=chciani}}
+
+====Synonyms====
+{{dial syn|pl}}
+
+====Derived terms====
+{{col|pl|title=adjective|chciwy}}
+{{col|pl|title=interjections|niech się dzieje, co chce|wierzyć się nie chce}}
+{{col|pl|title=particles|chcąc nie chcąc|chciałoby się powiedzieć}}
+{{col|pl|title=nouns|chcenie|chcica|chciejlista|chciejstwo}}
+{{col|pl|title=phrases|mów, co chcesz|jak sobie chcesz|rzygać się chce}}
+{{col|pl|title=proverbs|cierp ciało, skoroś chciało|dla chcącego nic trudnego|jak się chce psa uderzyć, to kij się znajdzie|jak Pan Bóg chce ukarać, to rozum odbiera|musi to na Rusi, a w Polsce jak kto chce|chciałaby dusza do raju|chcesz stracić przyjaciela, pożycz mu pieniądze|chcieć to móc}}
+{{pl-derived verbs|
+|*chcieć/chciewać
+|ode
+|za
+|zechcieć/-
+}}
+{{pl-derived verbs|
+|-/chcieć przez to powiedzieć
+|-/nie chcieć znać
+|-/nie chcieć słyszeć
+}}
+
+====Related terms====
+{{col|pl|title=adjective|chętny}}
+{{col|pl|title=adverbs|chciwie|chętnie}}
+{{col|pl|title=conjunction|chociaż}}
+{{col|pl|title=nouns|chciwiec|chciwość|chciwostka|chciwosz|chciwstwo|chciwus|chęć|chętka|chętność}}
+
+===Trivia===
+{{pl-freq 1990|36|15|105|216|467|839|52|45|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||35412}}
+* {{R:pl:WSJP|chcieć się|35413}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|45737}}
+* {{R:pl:SXVI|chcieć się|45738}}
+* {{R:pl:SXVII|CHCIEĆ|3922|SPas|26.01.2022}}
+* {{R:pl:SXVII|CHCIEĆ%20SIĘ|18361|SPas|29.11.2016}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||274|1}}
+* {{R:pl:SGP1900||176|1}}
+* {{R:pl:NFJP}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|:inh|zlw-opl:chcieć|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf}}
+
+# {{lb|szl|transitive}} to [[want]] {{+obj|szl|acc/gen<something> + inf<to do something>}}
+
+====Conjugation====
+{{rfinfl|szl|verb}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|chciec}}
+* {{R:szl:silling}}

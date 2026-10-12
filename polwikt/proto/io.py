@@ -358,11 +358,11 @@ def read_corpus_meta(corpus_dir: Path) -> Corpus:
     return meta
 
 
-def to_json(message: Message) -> str:
-    """One-line JSON for `--format=jsonl` and diffing (R7.5); a view only."""
+def to_json(message: Message, indent: int | None = None) -> str:
+    """JSON for `--format=jsonl` and diffing (R7.5); one line unless `indent`."""
     rendered: str = json_format.MessageToJson(
         message,
-        indent=None,
+        indent=indent,
         preserving_proto_field_name=True,
         sort_keys=True,
         ensure_ascii=False,

@@ -1,0 +1,9 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Participle===
+{{pl-participle|cont-adv}}
+
+# {{infl of|pl|prosić||contemporary|adverbial|part}}

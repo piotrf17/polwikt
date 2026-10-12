@@ -1,0 +1,162 @@
+{{also|chléb|chlěb}}
+==English==
+
+===Etymology===
+{{bor+|en|pl|chleb}}. {{doublet|en|khleb|loaf}}.
+
+===Noun===
+{{en-noun|-}}
+
+# {{lb|en|rare}} [[Polish]] [[bread]].
+#* {{quote-book|en|author=Noëlle Janaczewska|chapter=Historia|editors=[[d:Q99544986|Peta Tait]]; Elizabeth Schafer|title=Australian Women’s Drama: Texts and Feminisms|series=Currency Plays|location=Sydney, N.S.W.|publisher=w:Currency Press|year=1997|page=280|pageurl=https://books.google.com/books?id=IdggAQAAIAAJ&q=chleb|isbn=0 86819 497 2|passage=Upstairs at the Polish Club / Among plastic palms and gossip, / While Wujiu Jerzy / Sells kielbasy and '''chleb'''—{{...|nospace=1}}}}
+#* {{quote-book|en|author=Tarisa Ann M. Matsumoto|chapter=Zoltan’s Food|title=Shadowgraph and Zoltan’s Food|url=http://lib.dr.iastate.edu/rtd/16152|location=Ames, Ia.|publisher=w:Iowa State University|year=2000|section=section “Advent of Red”|page=55|doi=10.31274/rtd-180813-7111|oclc=912099702|passage={{...}} dough for the '''chleb''' beaten down with imprints of her fists and knuckles {{...}} the moist ferment staring at her in anticipation of being molded baked buttered into something fantastic succulent artistic slices of '''chleb''' {{...}}}}
+#* {{quote-book|en|author=Helen McCourt Mentek|chapter=The Wheel of Life|title=Ripples on a Puddle: A Collection of Short Stories|location=Victoria, B.C.|publisher=w:Trafford Publishing|year=2004|page=228|pageurl=https://books.google.com/books?id=pq1iBglelg4C&pg=PA228|isbn=1-4120-1902-8|passage=Mountains of '''chleb''' teetered on plates.}}
+#* {{quote-book|en|author=w:Polly Courtney|chapter=15|title=Poles Apart|location=Leicester|publisher=Matador|year=2008|page=81|pageurl=https://archive.org/details/polesapart0000poll/page/81/mode/1up|isbn=978-1-84876-005-9|passage=In the safety of her bedroom, with a litre of water and a slice of '''chleb''' inside her, things felt better again.}}
+#* {{quote-book|en|author=w:Michel Faber|chapter=Since You Last Visited Sopot|chapterurl=https://books.google.com/books?id=4lBUCwAAQBAJ&pg=PT30|title=Undying: A Love Story|location=Edinburgh|publisher=w:Canongate Books|date=7 July 2016|isbn=978 1 78211 854 1|passage=The diner where the soup was almost free (three zloty, with '''chleb''' and margarine) has closed, dumping its coarse clientele into history.}}
+
+{{c|en|Poland}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=bread|:inh|sla-pro:*xlě̀bъ<id:bread>|text=+|tree=1|etydate=14th century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA|chle:b}}
+
+===Noun===
+{{zlw-opl-noun|m-in|adj=chlebny|adj2=chlebowy}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Łęczyca|Greater Poland|Kujawy|Masovia|Silesia}} [[bread]]; [[sacramental bread]] {{gl|baked good made of flour and water, usually sourdough or yeast; single loaf of this, sometimes used in the Christian ritual of the Eucharist before the consecration}}
+#* {{RQ:zlw-opl:Fl|13, 8|Ne iest strach boszi przed oczima gich. Czili ne poznaiø wszitcy, czso stroiø lichotø, gisz to szrø lud moy iaco karmø '''chleba'''?|Nie jest strach boży przed oczyma jich. Czyli nie poznają wszytcy, cso stroją lichotę, jiż to żrą lud moj jako karmią '''chleba'''?|-}}
+#* {{RQ:zlw-opl:Fl|40, 10|Czlowek..., w iegosz iesm pwal, iensze iadl '''chleby''' moie, vweliczil na mø zdradø|Człowiek..., w jegoż jeśm pwał, jenże jadł '''chleby''' moje, uwieliczył na mię zdradę|-}}
+#* {{RQ:zlw-opl:Fl|41, 3|Bili mi sø zlzi moie '''chlebowe''' we dne y w noczi, gdi molwø mi na kaszde: Gdze iest bog twoy|Były mi są słzy moje '''chlebowe''' we dnie i w nocy, gdy mołwią mi na każde: Gdzie jest Bog twoj?|-}}
+#* {{RQ:zlw-opl:Fl|79, 6|Karmicz bødzesz nas '''chlebem''' zlez a pyczye dasz nam we zlzach w merze|Karmić będziesz nas '''chlebem''' słez a picie dasz nam we słzach w mierze|-}}
+#* {{RQ:zlw-opl:Fl|101, 5|Zeschlo iest sercze moie, bo iesm zapomnal giescz '''chleba''' mego|Zeschło jest serce moje, bo jeśḿ zapomniał jeść '''chleba''' mego|-}}
+#* {{RQ:zlw-opl:Fl|101, 10|Popyol iaco '''chleb''' iadl iesm, a pyczye moie se płaczem smeszal iesm|Popioł jako '''chleb''' jadł jesm, a picie moje z płaczem zmieszał jeśm|-}}
+#* {{RQ:zlw-opl:Fl|103, 16|Aby wiwyodl '''chleeb''' z szemye|Aby wywiodł '''chleb''' z ziemie|-}}
+#* {{RQ:zlw-opl:Fl|103, 17|'''Chleeb''' *serczse czlowyeczye sczwyrdzy albo possyly|'''Chleb''' sierce człowiecze śćwirdzi albo posili|-}}
+#* {{RQ:zlw-opl:Fl|104, 39|Prosyly y przyszla cyecyerza, y '''chleba''' nebyesskego nasycyl ge|Prosili i przyszła ciecierza, i '''chleba''' niebieskiego nasycił je|-}}
+#* {{RQ:zlw-opl:Fl|131, 16|Vboghe gego naszyczø '''chlebow'''|Ubogie jego nasycą '''chlebow'''|-}}
+#* {{RQ:zlw-opl:Fl|Ann 7|Napelneny pyrzwey, za '''chlebmy''' sø se posadzely|Napełnieni pirzwej, za '''chlebmi''' są sie posadzieli|-}}
+#* {{RQ:zlw-opl:Ojcz|3|'''Chleb''' nasz phszedny day nam dzysya|'''Chleb''' nasz powszedni daj nam dzisiaj|-}}
+#* {{RQ:zlw-opl:Słota|10|Stol weliky sweboda, staye na nym pywo y voda, y k temu møszo y '''chlep'''|Stoł wieliki świeboda, staje na nim piwo i woda, i k temu mięso i '''chleb'''|-}}
+#* {{RQ:zlw-opl:Msza|III|56|1424|Wsząl '''chleeb''' w swąthe y teesz welebnee rancze swoy|Wziął '''chleb''' w swiąte i też wielebne ręce swoj|-}}
+#* {{RQ:zlw-opl:JA|XV|475|1449|Proverbium: Mowa szyą da movycz, a '''chleb''' yescz|Proverbium: Mowa się da mowić, a '''chleb''' jeść|-}}
+#* {{RQ:zlw-opl:SKJ|V|254|XV med.|'''Chleba''' panis|'''Chleba''' panis|-}}
+#* {{RQ:zlw-opl:BZ|Ex|16, 12|Wyeczyor bødzeczye geszcz myøsso, a rano nasyczeny bødzeczye... '''chlyebem'''|Wieczor będziecie jeść mięso, a rano nasyceni będziecie... '''chlyebem'''|-}}
+#* {{RQ:zlw-opl:BZ|Ex|16, 15|To gest ten '''chleb''', *kto dal wam pan k gedzenyu... Sbiray yø kaszdi, czso dosycz ma k *genyv|To jest ten '''chleb''', kto[ry] dał wam Pan k jedzeniu... Zbiraj ją każdy, cso dosyć ma k je[dze]niu|-}}
+#* {{RQ:zlw-opl:BZ|Ex|34, 25|Nye bødzesz offyerowacz na kwassonem '''chlebye''' krwye offyery mey|Nie będziesz ofierować na kwasonem '''chlebie''' krwie ofiery mej|-}}
+#* {{RQ:zlw-opl:BZ|Lev|21, 8|Bo iest poswyøczon bogv swemv a '''chlebi''' obyetne offyerowacz bødze|Bo jest poswięcon Bogu swemu a '''chleby''' obietne ofierować będzie|-}}
+#* {{RQ:zlw-opl:BZ|Num|4, 7|Stoi... obietny owinø modrim plasczem... '''Chlebi''' zawszdi na nyem bødø|Stoi... obietny owiną modrym płaszczem... '''Chleby''' zawżdy na niem będą|-}}
+#* {{RQ:zlw-opl:BZ|I Reg|21, 6|Tedi kaplan dal gemu '''chleb''' poswyøtni, bo gynego '''chleba''' tu nye bilo, geno '''chlebowye''' obyetowany|Tedy kapłan dał jemu '''chleb''' poświętny, bo jinego '''chleba''' tu nie bilo, jeno '''chlebowie''' obietowany|-}}
+#* {{RQ:zlw-opl:BZ|III|Reg 14, 3|Weszmy na swø røkø dzesyøcz '''chlebow''' a pokrøtø|Weźmi na swą rękę dziesięć '''chlebow''' a pokrętę|-}}
+#* {{RQ:zlw-opl:BZ|I Par|9, 29|Ktorim poleczoni bili ssødi swyøte, wlodnøly nad '''chlebi''' a nad wynem|Ktorym polecony były sędy *święte, włodnęli nad *'''chleby''' a nad winem|-}}
+#* {{RQ:zlw-opl:BZ|Neh|10, 33|Abi z nas kaszdi dal trzecyznø szelyøgow... ku '''chlebom''' obyetnim|Aby z nas każdy dał trzeciznę szelągow... ku chlebom obietnym|-}}
+#* {{RQ:zlw-opl:OrtMac|50|Myesczanyn, czo szyedzy w lawyczy a przedawa '''chleb''' albo czokolwyek gynnego, thego dobrze wybracz w radą|Mieszczanin, co siedzi w lawicy a przedawa '''chleb''' albo cokolwiek jinnego, tego dobrze wybrać w radę|-}}
+#* {{RQ:zlw-opl:PrzBibl|I|187|1460|Boze, daj pokoy, myr a k themu pokratha '''chleba''' y czeszky szyr!|Boże, daj pokoj, mir, a k temu pokrętą '''chleba''' i czeski syr|-}}
+#* {{RQ:zlw-opl:Park|399|Panis comeditur... '''chleb''' szyą gye|Panis comeditur... '''chleb''' się je|-}}
+#* {{RQ:zlw-opl:MPKJ|V|19|1471|Obyethnymy '''chleby''' proposicionis panibus|Obyethnymy '''chleby''' proposicionis panibus|-}}
+#* {{RQ:zlw-opl:MPKJ|V|39|1471|Po skybye '''chleba''' colidriam panis|Po skibie '''chleba''' colidriam panis|-}}
+#* {{RQ:zlw-opl:MPKJ|V|85|1471|W '''chlebyech''' in panibus|W '''chlebiech''' in panibus|-}}
+#* {{RQ:zlw-opl:MW|88a|Melchyszedech '''chleb''' y wyno w szluszbye boszkyey offyerowal|Melchysedech '''chleb''' i wino w służbie boskiej ofierował|-}}
+#* {{RQ:zlw-opl:EwZam|300|Yeszlysz szyn boszy, rzekny, yszeby kamyenye tho '''chlebem''' szyą stalo|Jesliś syn boży, rzekni, iżeby kamienie to '''chlebem''' się stało|-}}
+#* {{RQ:zlw-opl:EwZam|300|Nye w samym '''chlyebye''' szyvye czlovyek alye ve wsszelkym slove, chtore pochodzy z vsth boszych|Nie w samym '''chlebie''' żywie człowiek ale we wszelkim słowie, chtore pochodzi z ust bożych|-}}
+#* {{RQ:zlw-opl:R|XXV|142|XV ex.|Po skybye '''chlyeba''' post buccellam |Po skibye '''chleba''' post buccellam |-}}
+#* {{RQ:zlw-opl:Rozm|204|Beda mieni, iże po roce *myny uczynił a po czworgu '''chleba''' tegoż dnia cudo|Beda mieni, iże po roce *myny uczynił a po czworgu '''chleba''' tegoż dnia cudo|-}}
+#* {{RQ:zlw-opl:Rozm|274|Przyjacielu, daj mi wza­jem troje '''chleba'''|Przyjacielu, daj mi wza­jem troje '''chleba'''|-}}
+#* {{RQ:zlw-opl:Rozm|535|O Judaszu,... ty ręce, które... '''chleb''' na puszczy rozmnożyły, umywają tobie twoje nogi niedostojne|O Judaszu,... ty ręce, które... '''chleb''' na puszczy rozmnożyły, umywają tobie twoje nogi niedostojne|-}}
+#* {{RQ:zlw-opl:Rozm|540|Yen vzywa '''chlyeba''' mego nye przeto, by pomogl, alye by tayemnye zavadzyl, podnyeszye pyątą svoyą nad mye|Jen używa '''chleba''' mego nie przeto, by pomogł, ale by tajemnie zawadził, podniesie piętę swoję nad mie|-}}
+#* {{RQ:zlw-opl:Rozm|553|Tego dla Judasz jest wziął kęs '''chleba''' rozmoczonego|Tego dla Judasz jest wziął kęs '''chleba''' rozmoczonego|-}}
+#* {{RQ:zlw-opl:WokPet II|10|XV p. post.|Turestia ogorzali '''chlep'''|Turestia ogorzali '''chleb'''|-}}
+#* {{RQ:zlw-opl:WokLub|86r|c. 1500|Muscidus panis splesznyaly '''chleb'''|Muscidus panis splesznyaly '''chleb'''|-}}
+#* {{RQ:zlw-opl:WokLub|101r|c. 1500|Pinsere id est pistare panem facere backen '''chleb''' pyecz|Pinsere id est pistare panem facere backen '''chleb''' piec|-}}
+# {{lb|zlw-opl|attested in|Masovia|Lesser Poland|metaphorically}} [[bread]] {{gl|maintenance, food, often paired with salt}}
+#* {{RQ:zlw-opl:R|XXIV|81|c. 1420|Bo z wczena mødrego dobywayø czczy y '''chleba''' dobrego|Bo z uczenia mądrego dobywają czci i '''chleba''' dobrego|-}}
+#* {{RQ:zlw-opl:TymSąd|15|1471|Jaco moy synowyecz rodzony, Wawrzinyecz, nye wyschethschy s mego domv, s mego '''chleba''' y s moyey soly... any zabil gwaltem Andrzeyowego czlowyeka|Jako moj synowiec rodzony, Wawrzyniec, nie wyszedszy s mego domu, s mego '''chleba''' i s mojej soli... ani zabił gwałtem Andrzejowego człowieka|-}}
+#* {{RQ:zlw-opl:TymSąd|77|1472|Gernold pr[ze]sz svego syna Pyothra, kthorego choua w domv swem y na szvem '''chlebye''', nye sbil barthnyka|Gernold pr[ze]z swego syna Piotra, ktorego chowa w domu swem i na swem '''chlebie''', nie zbił bartnika|-}}
+#* {{RQ:zlw-opl:ZapWarsz|3087|1472|Jako sszyn moy badacz ssze mną na genem '''chlebye''' y w yenem domv nyedzelny przikaza* nym moym *dzewthky szluzebney Dorothyey oth *Ondrzeya... nye odegnal|Jako syn moj badać sie mną na jenem '''chlebie''' i w jenem domu niedzielny przykaza nim moim *dziewki ślużebnej Dorotjej ot *Ondrzeja... nje odegnał|-}}
+#* {{RQ:zlw-opl:PF|VIII|19|XV p. post.|Maczey Zakrzewsky nye zachowal w do­mu swogym na swym '''chlebie''' y na pywye zlodzeyow, lotrow|Maciej Zakrzewski nie zachował w domu swojim na swym '''chlebie''' i na piwie złodziejow, łotrow|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|chlebica|chlebodarca|chlebojedźca|nagnieciony chleb|Świętego Jana chleb|świni chleb}}
+{{zlw-opl-derived verbs|-/chlebić|-/jeść swój chleb}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|chlebojecowy}}
+
+====Descendants====
+* {{desctree|pl|chleb}}
+* {{desc|szl|chlyb}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:pl:WSEHJP}}
+* {{R:zlw-opl:SSP1953||233|4}}
+* {{R:zlw-opl:SPJSP||959}}
+* {{R:zlw-opl:Rozariusze|+|333}}
+* {{R:zlw-opl:GS||13}}
+
+{{C|zlw-opl|Breads|Foods}}
+
+==Polish==
+{{wp|pl:}}
+
+===Alternative forms===
+* {{alt|pl|chlib|kleb||Middle Polish}}
+* {{alt|pl|chlyb<t:store-bought bread>||Zagórze}}
+
+===Etymology===
+{{ety|pl|id=bread|:inh|zlw-opl:chleb<id:bread>|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-chleb.ogg;LL-Q809 (pol)-Olaf-chleb.wav|mp=chléb|low=#}}
+
+===Noun===
+{{pl-noun|m-in|dim=chlebek,chlebuś|adj=chlebowy}}
+
+# {{lb|pl|countable}} [[bread]] {{gl|food product made from flour and water with yeast or leaven, shaped into round or elongated lumps; single loaf of this product}}
+#: {{coi|pl|kromka '''chleba'''|a slice of '''bread'''}}
+#: {{coi|pl|bochenek '''chleba'''|a loaf of '''bread'''}}
+#: {{coi|pl|'''chleb''' razowy|whole-meal '''bread'''}}
+# {{lb|pl|Łowicz|Strugienice|card games}} {{syn of|pl|karo}}
+# {{lb|pl|uncountable|literary|figuratively}} [[bread]] {{gl|job; work performed for a fee}}
+# {{lb|pl|uncountable|literary|figuratively}} [[bread]] {{gl|all the means to meet basic life needs}}
+#: {{syn|pl|chleb powszedni|utrzymanie|życie}}
+# {{lb|pl|Middle Polish|more generally}} {{syn of|pl|pożywienie}}
+
+====Declension====
+{{pl-decl-noun-m-in|chle|b|a}}
+
+====Derived terms====
+{{col|pl|title=adjectives|chlebny}}
+{{col|pl|title=adverbs|o chlebie i wodzie}}
+{{col|pl|title=nouns|chlebak|chlebodawca|chlebodawczyni|chlebuś|łaskawy chleb|lekki kawałek chleba|czarny chleb|ciężki kawałek chleba|ciemny chleb|chleb świętojański|chleb powszedni|biały chleb}}
+{{col|pl|title=phrases|z tej mąki chleba nie będzie}}
+{{col|pl|title=proverbs|głodnemu chleb na myśli}}
+{{pl-derived verbs|-/chlebić}}
+{{pl-derived verbs|-/z niejednego pieca chleb jeść|-/wiedzieć&#44; z której strony chleb jest posmarowany|podzielić się ostatnim kawałkiem chleba/dzielić się ostatnim kawałkiem chleba|-/jeść chleb}}
+
+====Related terms====
+{{col|pl|title=adverb|chlebno}}
+{{col|pl|title=nouns|chlebaczek}}
+{{pl-derived verbs|pochlebić/pochlebiać|schlebić/schlebiać}}
+
+====Descendants====
+* {{desc|en|chleb|bor=1}}
+
+===Further reading===
+* {{R:pl:WSJP||20808}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|45847}}
+* {{R:pl:SXVII|CHLEB|3931|SPas|12.07.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||278|1}}
+* {{R:pl:NFJP}}
+* {{R:pl:Świderska:1929|χlep|101}}
+
+{{C|pl|Breads|Foods|Grains}}

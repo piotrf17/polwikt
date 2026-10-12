@@ -1,0 +1,1362 @@
+{{also|Appendix:Variations of "ani"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{abbrev|mul|en:'''An'''d'''i'''}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==English==
+[[File:Crotophaga.ani.colombia.cali.jpg|right|thumb|A smooth-billed '''ani''', ''[[Crotophaga ani]]'']]
+
+===Etymology 1===
+{{bor+|en|pt|ani}} or {{bor|en|es|aní}}, both from {{der|en|tpw|any}}.<ref>{{R:Online_Etymology_Dictionary}}</ref>
+
+====Pronunciation====
+* {{IPA|en|/ˈɑː.ni/}}
+** {{audio|en|LL-Q1860 (eng)-Vealhurl-ani1.wav|a=Southern England}}
+* {{rhymes|en|ɑːni|s=2}}
+
+====Noun====
+{{en-noun}}
+
+# Any [[bird]] of the genus {{taxfmt|Crotophaga|genus}} in the [[cuckoo]] family.
+
+=====Derived terms=====
+* {{vern|greater ani}} ({{taxfmt|Crotophaga major|species}})
+* {{vern|smooth-billed ani}} ({{taxfmt|Crotophaga ani|species}})
+* {{vern|groove-billed ani}} ({{taxfmt|Crotophaga sulcirostris|species}})
+
+=====Translations=====
+{{trans-top|bird of genus ''Crotophaga''}}
+* Finnish: {{t+|fi|ani}}, {{t|fi|anikäki}}
+* Polish: {{t|pl|kleszczojad|m}}
+* Portuguese: {{t+|pt|anu}}
+* Spanish: {{t+|es|garrapatero|m}}
+{{trans-bottom}}
+
+====Further reading====
+* {{pedia|Ani (bird)}}
+* {{specieslite|Crotophaga|i=1}}
+* {{comcatlite|Crotophaga|i=1}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA|en|/ˈeɪnaɪ/}}
+* {{rhymes|en|eɪnaɪ|s=2}}
+
+====Noun====
+{{head|en|noun form}}
+
+# {{plural of|en|anus}}
+
+===References===
+<references/>
+
+===Anagrams===
+* {{anagrams|en|a=ain|Ian|nai|INA|AIN|Nia|Ain|NIA|ain'|Ina|-ian|nia|ain}}
+
+{{cln|en|heteronyms}}
+{{C|en|Cuckoos}}
+
+==Akan==
+
+===Pronunciation===
+* Tone: LH<ref>{{R:Kotey2007}}</ref>
+
+===Noun===
+{{head|ak|noun}}
+
+# [[eye]], eyes
+#: M'ani agye
+#:: My eyes are brightened (I am happy)
+#: ''ani den''
+#:: (having) hard eyes (= tough, not putting up with anything)
+
+====Synonyms====
+* {{l|ak|aniwa}}
+
+===References===
+<references />
+* {{R:Christaller1881|ani|pp=322–325}}
+* {{R:Christaller1881|àníwa|p=332}}
+* Dolphyne, Florence Abena ('''1996'''). ''A Comprehensive Course in Twi (Asante) for the Non-Twi Learner''.
+* Gyekye, Kwame ('''1995'''). ''An Essay on African Philosophical Thought: The Akan''.
+* Hollington, Andrea ('''2015'''). ''Traveling Conceptualization''.
+
+{{C|ak|Anatomy}}
+
+==Aklanon==
+
+===Etymology===
+{{inh+|akl|poz-pro|*qanih||harvest}}, from {{inh|akl|map-pro|*qaniS||harvest}}.
+
+===Pronunciation===
+{{akl-pr}}
+
+===Noun===
+{{akl-noun|áni}}
+
+# [[harvest]]
+
+====Derived terms====
+{{col|akl|anihan|mangangani|tig-aeani}}
+
+{{C|akl|Agriculture}}
+
+==Albanian==
+
+===Etymology===
+Cognate to {{l|sq|tani||now, at present, then}}, from {{inh|sq|sqj-pro|*nū}}, from {{inh|sq|ine-pro|*nū||now}} (cognate to {{cog|sa|नू||now}}).<ref>{{R:sq:Orel:2000|page=206}}</ref>  Occurs in coordination with other particles, compare {{l|sq|nani}}, {{l|sq|nime}}.
+
+Further related to {{cog|aat|αί|tr=e||yes}}<ref>[https://books.google.ch/books?id=nFRnAAAAcAAJ&pg=PA292&dq=arvanetic+vocabulary&hl=en&sa=X&ved=0ahUKEwictbr1yM_oAhXOxcQBHVV6CXsQ6AEICzAA#v] William Martin Leake (1814), RESEARCHES IN GREECE, Part 1 (chapter romaico (greek) - arvanetic vocabulary), page 335 ''aí (yes)''</ref> and (Standard) {{cog|sq|a||probably, whether; or, there}}.
+
+===Pronunciation===
+* {{IPA|sq|/ani/}}
+
+===Adverb===
+{{sq-adv}}
+
+# {{lb|sq|conversational}} [[then]], [[later]]; [[later]] (on)
+#: Synonyms: {{l|sq|pastaj}}, {{l|sq|më vonë}}, {{l|sq|tani}}, {{l|sq|andej}}, {{l|sq|atëherë}}, {{l|sq|tash}}, {{l|sq|tashti}}
+# [[well]], [[so]], [[fine]], [[now]], [[OK]]
+#: Synonyms: {{l|aln|bet}} (Gheg), {{l|sq|paçka}}, {{l|aln|oni}} (Ilirida-Gheg)
+#: {{ux|sq|'''Ani''', në rregull.|'''Well''', all right.}}
+#: Gheg examples: {{ux|sq|'''Ani''' de?|'''So''' what?}}
+#: {{ux|sq|'''Ani''' de...|'''Well''' then...}}
+
+===Particle===
+{{head|sq|particle}}
+
+# [[even]], [[as if]]; [[alas]], [[oh]] [[look]], [[ah]] {{i|expressing laughter, irony, sarcasm, pity, concern, grief, annoyance, distrust}}
+#: Synonym: {{l|sq|kish}} ({{l|aln|kishe}} Gheg), {{l|sq|si}}, {{l|sq|sikur}}, {{l|sq|nesë}}
+#: {{ux|sq|'''Ani''' kush po qesh!|'''As if''' someone (specific) should laugh! / '''Oh look''' who's laughing!}}
+# {{lb|sq|folklore|poetic}} [[come on]], [[hey]]; [[yes]], [[well]], [[alright]]; [[oh]]/[[ah]] {{i|a [[vocative]] particle or/and complementary poetic tool}}
+#: Synonyms: {{l|sq|mori}}, {{l|sq|more}}, {{l|sq|ore}}, {{l|sq|moj}}, ({{l|aln|mar}}, {{l|aln|mana}} Gheg); {{l|sq|po}}, {{l|sq|hej}}
+#: {{ux|sq|'''Ani''' mori nuse...|'''Well''', (oh) you bride...}} (traditional wedding song)
+
+====References====
+<references/>
+
+====Further reading====
+* [https://fjalorthi.com/ani] adverb and particle '''''ani / aní''''' • Fjalori Shqip (Albanian Dictionary)
+
+==Australian Kriol==
+
+===Etymology 1===
+{{inh+|rop|en|honey}}.
+
+====Noun====
+{{head|rop|noun}}
+
+# [[honey]]
+
+===Etymology 2===
+{{inh+|rop|en|only}}.
+
+====Adverb====
+{{head|rop|adverb}}
+
+# [[only]]
+
+{{C|rop|Honey}}
+
+==Baure==
+
+===Pronunciation===
+* {{IPA|brg|/ˈani/}}
+
+===Noun===
+{{head|brg|noun}}
+
+# [[sky]]
+
+==Bebeli==
+
+===Noun===
+{{head|bek|noun}}
+
+# [[mother]]
+
+===References===
+* Sara Van Cott et al., ''A Sociolinguistic Survey of Bebeli'' (2013), SIL ''Journal of Language Survey Reports'' (reports this form being used in all listed dialects)
+
+==Beja==
+
+===Etymology===
+{{inh+|bej|cus-pro|*ʔani}}, from {{inh|bej|afa-pro|*ʔanāku}}. Compare with {{cog|aa|anu}}, {{cog|ar|أنا|tr=ʔanā}}.
+
+===Pronunciation===
+* {{bej-IPA|áni}}
+
+===Pronoun===
+{{head|bej|pronoun|head=áni|acc.|anééb|pl.|hinín|poss.|-}}
+
+# [[I]] ''(first person singular pronoun)''
+
+====See also====
+{{bej-personal pronouns}}
+
+===References===
+* Appleyard, D. (2012). Cushitic. Retrieved November 19, 2020, from https://www.academia.edu/4214217/Cushitic
+
+==Biloxi==
+
+===Alternative forms===
+* {{alt|bll|ni}}
+
+===Etymology===
+From Proto-Biloxi-Ofo {{m|und||*aní}}, from Proto-Southeastern-Siouan {{m|und||*mąnį́·}}, ultimately from {{inh|bll|sio-pro|*wa-rį́·}}.<ref>{{R:Rankin et al. 2015|55}}</ref>
+
+Cognate with {{cog|ofo|ani}}, {{cog|lkt,dak,asb|mní}}, {{cog|iow|ñį}}, {{cog|win|nį́į}}, {{cog|oma|ni}}, {{cog|ksk|nį}}, {{cog|osa|𐓩𐓣̋}}, {{cog|qua|nį}} and {{cog|tta|manī}}.
+
+===Noun===
+{{head|bll|noun}}
+
+# [[water]]
+
+====Derived terms====
+{{col|bll
+|ani akudi įxkidǫhi<t:reflection (in water)>
+|ani kyaǫǫni,ani kyahǫǫ<t:well (for water)>
+|ani naphihi<t:cologne>
+|ani nithąąyą<t:ocean, large body of water>
+|ani pahį<t:water barrel>
+|ani pupuxi<t:foam>
+|ani snihi<t:spring (of water)>
+|ani taǫni<t:flood; overflow (of water)>
+|ani kyaǫǫni,ani kyahǫǫ<t:well (for water)>
+|ani tataxedi<t:gentle patter (of rain)>
+|ani thi<t:cistern>
+|ani xoxǫǫni<t:wave (of water)>
+|ani xyuhi<t:current (of water)>
+|ani xyuhi kidunahi<t:eddy>
+|aniǫǫni<t:watery; juice (made of water)>
+|anipha<t:whisk(e)y>
+|anipha ckuuye<t:wine>
+|aniphaxka<t:beer>
+|anisni hudi<t:{{taxlink|Zanthoxylum americanum|species}}>}}
+
+===References===
+{{reflist}}
+* {{R:bll:Kaufman|34}}
+* {{R:bll:Einaudi|132}}
+* {{R:Dorsey and Swanton|173|ani′, ni}}
+
+==Brunei Malay==
+
+===Pronoun===
+{{head|kxd|pronouns}}
+
+# [[this]], [[these]]
+
+==Burji==
+
+===Etymology===
+From {{inh|bji|cus-hec-pro|*ʔani}}, from {{inh|bji|cus-pro|*ʔani|t=I}}.<ref>Sasse, H.-J. (1982). "An etymological dictionary of Burji" (Cushitic Language Studies 1). Hamburg: Helmut Buske Verlag, [https://archive.org/details/sasseanetymologicaldictionaryofburji1982/page/n41/mode/2up?view=theater&q=Ani page 26]</ref>
+
+===Pronoun===
+{{head|bji|pronoun|head=áni}}
+
+# [[I]] (''first-person singular nominative personal pronoun'')
+
+====See also====
+{{bji-personal pronouns}}
+
+===References===
+<references/>
+
+==Cebuano==
+
+===Pronunciation===
+* {{ceb-IPA}}
+* {{hyph|ceb|a|ni}}
+
+===Etymology 1===
+{{inh+|ceb|poz-pro|*qanih||harvest}}, from {{inh|ceb|map-pro|*qaniS||harvest}}. Compare {{cog|akl|ani}}.
+
+====Noun====
+{{ceb-noun|áni|b=+}}
+
+# a [[harvest]], [[crop]]; the [[yield]] of harvesting
+#: {{syn|ceb|kutsitsa}}
+## {{lb|ceb|especially}} a [[harvest]] of [[rice]]
+# a [[gain]]; what is gained
+
+====Verb====
+{{ceb-verb|b=+}}
+
+# to [[harvest]]
+## {{lb|ceb|especially}} to harvest rice
+# {{lb|ceb|figurative}} to get [[benefit]] from something
+
+=====Synonyms=====
+* {{sense|to harvest bananas}} {{l|ceb|tuba}}
+* {{sense|to harvest corn}} {{l|ceb|kayas}}, {{l|ceb|lagpi}}, {{l|ceb|sanggi}}
+* {{sense|to harvest coconuts}} {{l|ceb|dugnas}}
+* {{sense|to harvest mangoes}} {{l|ceb|guno}}
+* {{sense|to harvest yam}} {{l|ceb|panglin}}
+
+====Derived terms====
+{{col3|ceb|inani}}
+
+===Etymology 2===
+
+====Adverb====
+{{ceb-adv|b=+}}
+
+# {{short for|ceb|niani||of this}}
+# {{short for|ceb|[[ing-ani]], [[ingon ani]]||like this}}
+
+==Central Bikol==
+
+===Etymology===
+{{inh+|bcl|poz-pro|*qanih||harvest}}, from {{inh|bcl|map-pro|*qaniS||harvest}}.
+
+===Pronunciation===
+* {{bcl-IPA}}
+* {{hyph|bcl|a|ni}}
+
+===Noun===
+{{bcl-noun|áni|b=+}}
+
+# [[harvest]]
+
+====Derived terms====
+{{col3|bcl|mag-ani|anihon|tig-ani|para-ani|aranihan}}
+
+==Chickasaw==
+
+===Etymology===
+Compare {{cog|cho|ani}}, {{cog|akz|aɬi}}, {{cog|cku|athilaho̱}}. Compare also {{cog|tjm|ule||fruit}} or {{cog|tun|elu||to bear fruit}}.
+
+===Pronunciation===
+* {{IPA|cic|/a.ni/}}
+
+===Verb===
+{{head|cic|verb|short verb}}
+
+# {{lb|cic|stative|intransitive|nominal subject}} to [[produce]] or [[bear]] fruit
+# {{lb|cic|active|transitive|nominal object}} to [[stuff]]
+# {{lb|cic|active|ditransitive|tri-plural or mass object}} to [[put in]], to [[pour in]]
+
+====Inflection====
+{{rfinfl|cic}}
+
+====Derived terms====
+{{col3|cic|aa-ani|ahá̱ni|á̱ni|aniichi|aniꞌ|áꞌni|ibaa-ani|ibaani|imanni}}
+
+====Related terms====
+* {{l|cic|fokhi}} {{q|singular object}}
+* {{l|cic|abihili}} {{q|dual object}}
+* {{l|cic|aani}}
+
+{{cln|cic|short verbs}}
+
+==Choctaw==
+
+===Alternative forms===
+* {{alter|cho|vni|alt=ʋni}} {{q|traditional}}
+* {{alter|cho|ạni}} {{q|Byington/Swanton}}
+
+===Etymology===
+Cognate with {{cog|cic|ani}}, {{cog|akz|aɬi}}
+
+===Pronunciation===
+* {{IPA|cho|/aní(ʔ)/}}
+* Transcription: ani'
+
+===Noun===
+{{head|cho|noun|inalienable}}
+
+# [[berry]]
+# [[nut]]
+# [[fruit]]
+
+====Declension====
+{{cho-possession-2-vowel|ani}}
+
+==Chungli Ao==
+
+===Pronunciation===
+* {{njo-IPA-c|H.H}}
+
+===Verb===
+{{head|njo-jgl|verb}}
+
+# to [[lead]]
+
+====Inflection====
+{{njo-conj-c|a=1}}
+
+====Related terms====
+{{col|njo-jgl
+|anitak
+|aniasüng
+|aniten
+}}
+
+===Further reading===
+* {{R:sit:PCN|82}}
+* {{R:njo:AEHD|6}}
+* {{R:njo:Clark:1893|page=135}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:ani|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-ani.ogg}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-ani.wav}}
+
+===Conjunction===
+{{head|cs|conjunction}}
+
+# [[neither]], [[nor]], [[or]] (in negative)
+#: {{uxi|cs|[[do|Do]] [[Praha|Prahy]] [[jet|nepojedu]] '''ani''' [[v]] [[sobota|sobotu]] '''ani''' [[v]] [[pátek]].|I will go to Prague '''neither''' on Saturday '''nor''' on Friday.}}
+# [[even]] (with negative clause)
+#: {{uxi|cs|'''Ani''' [[vědět|nevím]], [[jestli]] [[to]] [[udělat|udělá]].|I don't '''even''' know if he will do it.}}
+#: {{uxi|cs|'''Ani''' [[náhodou]]!|No way!}}
+#: {{uxi|cs|'''Ani''' nedutal.|He stood still; He didn't even blink.}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+
+==Dutch==
+
+===Pronunciation===
+* {{audio|nl|Nl-ani.ogg}}
+
+===Noun===
+{{head|nl|noun form}}
+
+# {{plural of|nl|anus}}
+
+==Esperanto==
+
+===Etymology===
+{{ety|eo|:af|ano|-i|text=+|tree=1}}
+
+===Pronunciation===
+{{eo-pr}}
+
+===Verb===
+{{eo-head}}
+
+# {{lb|eo|intransitive}} to be a [[member]], [[belong]] (to an organization, group, etc.)
+#* '''January 2011''', Christian Declerck, ''Kontraŭmilita literaturo en Esperanto'' in ''La Gazeto'' 151
+#*: {{quote|eo|''La ĉefroluloj '''anas''' en du generacioj de unu familio''
+|translation=The main characters '''belong''' to two generations of one family}}
+
+====Conjugation====
+{{eo-conj|intr=yes}}
+
+===Further reading===
+* {{R:eo:ReVo}}
+
+==Finnish==
+
+===Pronunciation===
+{{fi-p}}
+
+===Etymology 1===
+{{etymid|fi|very}}
+From {{inh|fi|urj-fin-pro|*ani}} (compare {{cog|krl|ani}}, {{cog|vep|ani}}), borrowed from {{der|fi|gem-pro|*an}} {{suf|fi||i|id2=adverbial}}.
+
+====Adverb====
+{{fi-adv}}
+
+# [[very]], [[extremely]]
+
+=====Usage notes=====
+Except for some archaic expressions, used only to strengthen the words {{m|fi|harvoin}}, {{m|fi|harva||few}}, {{m|fi|harvinainen}}, {{m|fi|varhain}} and {{m|fi|varhainen}}. Sometimes the words are written together, but this is deemed incorrect by language authorities, who decree that {{m|fi||ani}} be spelled as a separate word.
+
+=====Derived terms=====
+{{col|fi|title=compounds
+|aniharva
+|aniharvoin
+}}
+
+=====Further reading=====
+* {{R:fi:KTSK|accessdate=2023-07-01}}
+
+===Etymology 2===
+{{etymid|fi|bird}}
+From {{der|fi|pt|ani}} or {{der|fi|es|aní}}, both from {{der|fi|tpw|any}}.
+
+====Noun====
+{{fi-noun}}
+
+# [[ani#English|ani]] {{gloss|bird of genus {{taxfmt|Crotophaga|genus}} in the cuckoo family}}
+
+=====Declension=====
+{{fi-decl-risti|an|||a}}
+
+=====Hypernyms=====
+* {{l|fi|käki}}
+
+=====Derived terms=====
+{{col|fi|title=compounds
+|anikäki
+|isoani
+|uurrenokka-ani
+}}
+
+===Anagrams===
+* {{anagrams|fi|a=ain|ain|nai}}
+
+{{C|fi|Cuckoos}}
+
+==French==
+
+===Pronunciation===
+* {{audio|fr|LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-ani.wav|a=<<France>> (<<Somain>>)}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{l|en|ani}} (bird)
+
+{{C|fr|Cuckoos}}
+
+==Gagauz==
+
+===Alternative forms===
+* {{alt|gag|hani}}
+
+===Etymology===
+{{inh+|gag|trk-oat|قنی|tr=qanı}}, from {{der|gag|trk-pro|*ka-}}. Compare {{cog|tr|hani}}, {{cog|az|hanı}}
+
+===Pronunciation===
+* {{IPA|gag|/ˈɑni/}}
+* {{hyph|gag|a|ni}}
+
+===Adverb===
+{{head|gag|adv}}
+
+# {{lb|gag|interrogative}} [[where]]?
+#: {{ux|gag|'''ani''' oyuncakların?|'''where''' are your toys?}}
+
+===Conjunction===
+{{head|gag|conjunction}}
+
+# [[that]]
+#: {{ux|gag|o biler, '''ani''' bän gelecäm|he knows '''that''' I will come}}
+# [[because]], [[so that]]
+
+===Pronoun===
+{{head|gag|pronoun}}
+
+# {{lb|gag|relative}} [[what]], [[which]], [[who]]
+#: {{ux|gag|kiyat,''' ani''' bän okêêrım|the book '''that''' I'm reading}}
+#: {{ux|gag|adam, '''ani''' bana lääzım|the man''' that''' I need}}
+
+====Derived terms====
+{{col3|gag|aniki}}
+
+====Related terms====
+{{col3|gag
+|angı
+|açan}}
+
+===Further reading===
+* {{R:gag:Kopuşçu:2019|page=235, 327|ani}}
+* {{R:gag:Baskakov:1973|page=48|ани}}
+
+==Greenlandic==
+
+===Etymology===
+From {{inh|kl|esx-inu-pro|*änI(ɣ)}}, from {{der|kl|esx-esk-pro|*aNǝ-Lɣun}}. Cognate with {{cog|iu|ᐊᓂ}}, and Nunatsiavummiutut {{m|iu|anik}}.
+
+===Pronunciation===
+* {{IPA|kl|/ɛ.ni/}}
+
+===Noun===
+{{kl-noun|anit}}
+
+# a girl's elder [[brother]]
+
+====Declension====
+{{kl-decl|ani|anip|animut|animit|anikkut|animi|animik|anitut|anit|anit|aninut|aninit|anitigut|anini|aninik|anitut}}
+
+====References====
+* {{R:Katersat|3756}}
+
+{{C|kl|Family|Male}}
+
+==Hanunoo==
+
+===Etymology===
+{{inh+|hnn|poz-pro|*qanih}}, from {{inh|hnn|map-pro|*qaniS}}.
+
+===Pronunciation===
+{{hnn-pr}}
+
+===Noun===
+{{hnn-noun|b=+}}
+
+# [[harvest]]ing rice with [[bare hand]]s
+
+====See also====
+{{col|hnn|upong|rapas}}
+
+====Further reading====
+{{col3|hnn|mag-ani}}
+
+===Further reading===
+* {{R:hnn:Conklin 1953|page=30}}
+* {{R:map:ACD|qaniS}}
+
+{{C|hnn|Agriculture}}
+
+==Hawaiian==
+
+===Etymology===
+From {{inh|haw|poz-pol-pro|*aŋi}},<ref>{{R:Pollex|AGI.1|agi.1}}</ref> from Proto-Central Pacific {{m|und||*aŋi}}, from {{inh|haw|poz-oce-pro|*aŋin}},<ref>{{R:poz-oce:LPO|2|page=126–7}}</ref> from {{inh|haw|pqe-pro|*aŋin}}, from {{inh|haw|poz-cet-pro|*aŋin}}, from {{inh|haw|poz-pro|*haŋin}}. Cognates include {{cog|mi|āngi}} and {{cog|sm|agi}}.
+
+===Pronunciation===
+* {{haw-IPA}}
+
+===Verb===
+{{head|haw|verb}}
+
+# to [[blow]] softly {{gloss|as a breeze}}
+# to [[beckon]]; [[wave]]
+
+====Derived terms====
+* {{l|haw|hoʻāni||to let wind}}
+* {{l|haw|aniani||cool, refreshing}}
+
+====Related terms====
+* {{l|haw|moani|t=light breeze}}
+
+===References===
+{{reflist}}
+* {{R:haw:Pukui:1986|ani|page=25}}
+
+==Ilocano==
+
+===Etymology===
+{{inh+|ilo|phi-pro}}, from {{inh|ilo|poz-pro|*qanih}}, from {{inh|ilo|map-pro|*qaniS}}.
+
+===Pronunciation===
+* {{ilo-IPA|áni}}
+* {{hyph|ilo|a|ni}}
+
+===Verb===
+{{ilo-verb|áni|b=+}}
+
+# to [[reap]], to [[harvest]] [[grain]]
+
+====Derived terms====
+{{col|ilo
+|agani
+|anien
+}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+
+{{C|ilo|Agriculture}}
+
+==Indonesian==
+{{wp|id:}}
+
+===Pronunciation===
+* {{id-pr}}
+
+===Etymology 1===
+{{inh+|id|ms|ani|t=to arrange the warp on a loom}}, from {{inh|id|poz-pro|*qanih}}, from {{inh|id|map-pro|*qaniS}}.
+
+====Noun====
+{{id-noun}}
+
+# a wooden platform on which to attach the warp (on a loom)
+#: {{syn|id|anian}}
+
+=====Derived terms=====
+{{col|id|
+| anian| mengani
+|}}
+
+===Etymology 2===
+{{bor+|id|mqn}}
+
+====Noun====
+{{id-noun}}
+
+# buffalo leather axe sheath {{defdt|since 2024}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Italian==
+
+===Pronunciation===
+{{it-pr|àni}}
+
+===Noun===
+{{head|it|noun form|g=m}}
+
+# {{plural of|it|ano}}
+
+===Anagrams===
+* {{anagrams|it|a=ain|-ina|ain}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|あに}}
+
+==Karao==
+
+===Noun===
+{{head|kyj|noun}}
+
+# [[rice]] [[harvest]]
+
+==Kashubian==
+
+===Etymology===
+{{ety|csb|:inh|sla-pro:*ani<ety:univ<sla-pro:*a<id:conj>><sla-pro:*ni>>|:univ<surf>|a|ni|text=+|tree=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Conjunction===
+{{head|csb|conjunction}}
+
+# [[neither]], [[nor]], [[or]]
+
+===Particle===
+{{head|csb|particle}}
+
+# [[not even]]
+
+===Further reading===
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|27}}
+
+==Kott==
+
+===Etymology===
+{{inh+|zko|qfa-yen-pro|*eʌnʌ<t:offspring-in-law>}}.<ref>https://starlingdb.org/cgi-bin/response.cgi?single=1&basename=%2fDATA%2fYENISEY%2fYENET&text_number=72&root=config</ref><ref>{{R:qfa-yen:Vajda-Werner:2022|page=288}}</ref>
+
+The tilde before the dictionary form is carried over from Matthias A. Castrén's notation, but the function of which is not specified and this entry is reflected as [[ani]] for technical constraints.
+
+===Pronunciation===
+* {{IPA|zko|/ani/|~|/ŋani/}}
+
+===Noun===
+{{head|head={{superscript|~}}ani|zko|noun|plural|anân}}
+
+# [[son-in-law]], {{non-gloss|[[husband]] of the [[younger sister|youngest sister]]}}
+
+====Usage notes====
+* For felame equivalent of the term, see {{cog|zko|aneä<t:daughter-in-law><pos:wife of the youngest brother>}}.
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:zko:Castrén 1858|1=198}}
+* {{R:yen:Werner:2002|page=235?|volume=1}}
+* {{cite-book|de|author=Werner, Heinrich K.|editors=Röhrborn, Klaus;Schellbach-Kopra, Ingrid|isbn=3-447-04725-9|title=M. A. Castrén und die Jenissejistik: Die Jennisej-Sprachen des 19. Jahrhunderts|location=Wiesbaden|publisher=Harrassowitz Verlag|year=2003|series=Veröffentlichungen des Societas Uralo-Altaica|seriesvolume=62|page=160}}
+
+==Ladin==
+
+===Noun===
+{{head|lld|noun form}}
+
+# {{plural of|lld|an}}
+
+==Latin==
+
+===Noun===
+{{head|la|noun form|head=ānī}}
+
+# {{inflection of|la|ānus||gen|s|;|nom//voc|p}}
+
+===References===
+* {{R:la:du Cange}}
+
+==Makasar==
+
+===Etymology===
+{{rfe|mak}}
+
+===Pronunciation===
+* {{IPA|mak|/ˈani/|[ˈa.ni]}}
+* {{hyphenation|mak|a|ni}}
+
+===Verb===
+{{mak-verb|st=anngani}}
+
+# {{lb|mak|transitive}} to [[admit]]; to [[confess]]
+#: {{ux|mak|Tèai na'''ani''' kalenna|He refuses to '''admit''' who he is.}}
+#: {{ux|mak|Tena niaʼ eroʼ '''anngani'''|No one wants to '''confess'''.}}
+#: {{ux|mak|Anng'''ani'''mi palukkaka|The thief has '''confessed'''.}}
+# {{lb|mak|transitive}} to [[claim]]
+#: {{ux|mak|Na'''ani''' kalenna panrita|He '''claims''' to be a scholar.}}
+#: {{ux|mak|Na'''ani''' kalenna jarina karaenga riBone|He '''claims''' to be a descendant of the king of Bone.}}
+
+====Derived terms====
+{{col|mak|title=affixations
+|anngani
+|pappianiang
+|passipianiang
+|pianiang
+|pianì
+|pani-ani
+|sianiang
+|sipianì
+}}
+{{col|mak|title=reduplications
+|appianì sala
+}}
+
+===Further reading===
+{{R:mak:Cense:1979|page=19}}
+
+==Māori==
+
+===Etymology===
+{{rfe|mi}}
+
+===Adjective===
+{{mi-adj}}
+
+# [[echoing]], [[resounding]] (i.e. bounces sound waves)
+
+===Further reading===
+* {{R:mi:Williams:1917|page=18–9|entry=ani|entryurl=https://digital.soas.ac.uk/CB00000037/00001/39x}}
+* {{R:mi:Te Aka 3}}
+
+{{C|mi|Sound}}
+
+==Middle English==
+
+===Alternative forms===
+* {{alter|enm|æniȝ|aniȝ|eniȝ}} {{q|early forms}}
+* {{alter|enm|any|ayny|eani|eni|ony|oony}} {{q|common forms inherited by Modern English}}
+* {{alter|enm|ei|ai}} {{q|{{w|West Midlands English|West Midlands}} dialect}}
+
+===Etymology===
+{{etymon|enm|:inh|ang:ǣniġ}}
+From {{inh|enm|ang|ǣniġ}}, {{m|ang|āniġ|t=any}}, from {{inh|enm|gem-pro|*ainagaz}}.
+
+===Pronunciation===
+* {{IPA|enm|/ˈaniː/|/ˈɛniː/|/ˈɔniː/}}
+* {{q|early}} {{IPA|enm|/ˈɑːniː/|/ˈɛːniː/}}
+
+===Determiner===
+{{head|enm|determiner}}
+
+# [[any]]
+
+====Descendants====
+* {{desc|en|any}} ({{desc|en-geo|ony}})
+* {{desc|sco|onie|alts=1}}
+* {{desc|yol|aany|alts=1}}
+
+====References====
+* {{R:MED Online|entry=anī|pos=limiting adj|id=MED1643}}
+
+==Mizo==
+
+===Pronoun===
+{{head|lus|pronoun|plural|anni}}
+
+# [[he]], [[she]], [[it]] (emphatic)
+
+====See also====
+{{lus-pronouns}}
+
+===Further reading===
+* {{R:lus:Lorrain}}
+
+==Navajo==
+
+===Postposition===
+{{head|nv|postposition form}}
+
+# {{infl of|nv|bini||3|indefinite}}
+
+==Nupe==
+
+===Pronunciation===
+* {{IPA|nup|/ā.nĩ́/}}
+
+===Adverb===
+{{nup-pos|adverb|aní}}
+
+# [[already]]
+#: {{uxi|nup|Mi jin u '''aní'''.|I've done it '''already'''.}}
+#: {{uxi|nup|A gí yangíci kpáátá '''aní''', u á zo.|They've eaten all the food '''already''', it's finished.}}
+#: {{uxi|nup|Ǹdá á bici '''aní'''.|Father had run off.}}
+
+====Usage notes====
+* Used to form the present perfect tense, and can be used with ''á'' for emphasis or to express the pluperfect.
+
+==Old Czech==
+
+===Etymology===
+{{ety|zlw-ocs|:inh|sla-pro:*ani|:univ<surf>|a|ni|text=+|tree=1|etydate=14th century<ref:{{R:cs:Rejzek:2015|page=57}}>}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Conjunction===
+{{head|zlw-ocs|conjunction}}
+
+# [[and]] [[not]]
+# [[nor]]
+# {{lb|zlw-ocs|repeated}} [[neither … nor]]
+# {{lb|zlw-ocs|comparative}} [[than]]
+# [[but]] [[neither]]
+
+===Particle===
+{{head|zlw-ocs|particle}}
+
+# [[even]] {{gl|in reality; implying an extreme example in the case mentioned, as compared to the implied reality}}
+
+====Descendants====
+* {{desc|cs|ani}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:zlw-ocs:Gebauer}}
+
+==Old Irish==
+
+===Pronoun===
+{{head|sga|pronoun form}}
+
+# {{alt sp|sga|aní}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|hani}}
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*ani<ety:univ<sla-pro:*a<id:conj>><sla-pro:*ni>>|:univ<surf>|a|ni|etydate=1386|text=+|tree=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Conjunction===
+{{head|zlw-opl|conjunction}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} {{ng|connects negated elements}}; [[not]], [[and]] not
+#* {{RQ:zlw-opl:Zab|537|1396|Palatinus nigdi ne bil tey nyue w dzerzenu, o yansz zalowal, '''any''' gospodarzem|Palatinus nigdy nie był tej niwie w dzierżeniu, o jąż żałował, '''ani''' gospodarzem|-}}
+#* {{RQ:zlw-opl:AKPr|VIIIa|152|1420|Falislaw s Wiszni ne wsząl gymena v Maczea za gedennacze grziwen... '''ani''' mney, ani wanczey|Falisław z Wiszni nie wziął jimienia u Macieja za jedennacie grzywien... '''ani''' mniej, ani więcej|-}}
+#* {{RQ:zlw-opl:Dek|III|3|Ne szabyay bratha svadą, rąką, caszną '''any''' slą radą|Nie zabijaj brata swadą, ręką, kaźnią '''ani''' złą radą|-}}
+#* {{RQ:zlw-opl:Dek|III|1|Ne szabyay bratha swadą '''any''' røkø, kasnø, any radø|Nie zabijaj brata zwadą '''ani''' ręką, kaźnią, ani radą|-}}
+#* {{RQ:zlw-opl:Dek|V|4|Non occides nicogo røkø '''ani''' szlim przicladem, ani rzeczø slowa slego, ani k[a]sznø, ani kthorą szlą radą|Non occides nikogo ręką '''ani''' złym przykładem, ani rzeczą słowa złego, ani k[a]źnią, ani ktorą złą radą|-}}
+#* {{RQ:zlw-opl:Fl|74, 6|Nechaycze molwicz... lichoty. Bo '''ani''' ode wzchoda, ani od zachoda, ani od pustich gor (neque ab oriente, neque ab occidente, neque a desertis montibus, Puł: ny... ny... ny), bo bog sødzø iest|Niechajcie mołwić... lichoty. Bo '''ani''' ode wschoda, ani od zachoda, ani od pustych gor (neque ab oriente, neque ab occidente, neque a desertis montibus, Puł: ni... ni... ni), bo Bog sędzią jest|-}}
+#* {{RQ:zlw-opl:OrtBr|VI|364|Raczcze '''any''' zadny czlowyek ma szadzycz przyszasznyka... przesz gego vyny|Radźce '''ani''' żadny człowiek ma sędzić przysiężnika... przez jego winy|-}}
+#* {{RQ:zlw-opl:StPPP|VIII|8277|1399|'''Ani''' czy dedziczi, ani Borek byli gospodarzmi dzedziny[e]|'''Ani''' ci dziedzicy, ani Borek byli gospodarzmi dzedziny[e]|-}}
+#* {{RQ:zlw-opl:R|XXV|212|1453|Any lylya byalosczya, czyrvona roza krassznosczya, '''any''' nardus szva vonyosczya, zamorszky kvyat szva drogosczya Maryey szya rowna|Ani lilija białością, czyrwona roża krasnością, '''ani''' nardus swą wonnością, zamorski kwiat swą drogością Maryjej się rowna|-}}
+#* {{RQ:zlw-opl:AKPr|VIIIa|167|1427|Czterdzesczy grzywen possasnich, a ne skodnich '''any''' platowych, Vochna... wnosla do Lubanyey|Czterdzieści grzywien posażnych, a nie szkodnych '''ani''' płatowych, Wochna... wniosła do Lubaniej|-}}
+#* {{RQ:zlw-opl:Reg|708|1484|Braczya wszythczy... mayą myeczi odzyenye schare pospolyczye any barzo byale, '''any''' barzo czarne (in... colore non prorsus albo vel nigro)|Bracia wszytcy... mają mieć(i) odzienie szare pospolicie ani barzo białe, '''ani''' barzo czarne (in... colore non prorsus albo vel nigro)|-}}
+#* {{RQ:zlw-opl:Piek VI|306|1406|Dzerszek yest krwø bliszszi... ku Szacovu nisz Ramsz '''ani''' gego strig|Dzierżek jest krwią bliższy... ku Żakowu niż Ramsz '''ani''' jego stryj|-}}
+# {{lb|zlw-opl|reduplicated|attesed in|Lesser Poland|Sieradz|Greater Poland}} [[neither … nor]]
+#* {{RQ:zlw-opl:Zab|537|1396|Pecz ne vcradl duos equos... '''ani''' tego wzitka jma|Piecz nie ukradł duos equos... '''ani''' tego użytka ima|-}}
+#* {{RQ:zlw-opl:Spow|1|Szpowadami szø..., yszeszmi... podrosznika na nocz ne polozili '''any''' yemw drogy ne wkazali|Spowiadamy się..., iżesmy... podrożnika na noc nie położyli '''ani''' jemu drogi nie ukazali|-}}
+#* {{RQ:zlw-opl:Zab|540|1474|Jacobus... za poczestnego, czsnego od zadnego w szadnem zawodze podesrzany '''ani''' yest nalesøn y prze dobri luth... za *tagego myan, dzirsan y chowan|Jacobus... za poczestnego, czsnego od żadnego w żadnem zawodzie podeźrzany '''ani''' jest nalezion i prze dobry lud... za takiego mian, dzirżan i chowan|-}}
+#* {{RQ:zlw-opl:Fl|5, 5|'''Ani''' przebiwacz bødze przi tobe zglobliwi, any przebywacz bødø neprawy (neque habitabit iuxta te malignus, neque permanebunt iniusti)|'''Ani''' przebywać będzie przy tobie zgłobliwy, ani przebywać będą nieprawi (neque habitabit iuxta te malignus, neque permanebunt iniusti)|-}}
+#* {{RQ:zlw-opl:AKPr|VIIIa|166|1426|Ianow oczecz '''any''' szam ne prossyl kmeczy pana Yanowich do Zagorzicz..., '''any''' naymowal|Janow ociec '''ani''' sam nie prosił kmieci pana Janowych do Zagorzyc..., '''ani''' najmował|-}}
+#* {{RQ:zlw-opl:TymProc|197|1471|W xanzeyi pusczyey... any stampycz na swyerz nye stawyam, anym xanzego swyaza ny[e] pokrathl|W księżej puszczej... ani stępic na źwierz nie stawiam, anim księżego źwie[r]za ni[e] pokradł|-}}
+#* {{RQ:zlw-opl:Gn|175a|Abiscze vy tose ne kradly '''any''' slodzegmy byly, '''any''' ktorego cloueka szabyly|Abyście wy teże nie kradli '''ani''' złodziejmi byli, '''ani''' ktorego człowieka zabili|-}}
+#* {{RQ:zlw-opl:Fl|130, 1–2|Ne gest powyszono sercze moge '''any''' wznesle gesta se oczy moge, '''any''' chodzyl gesm w welykych, '''any''' w dzywech nad mø (non est exaltatum... neque elati sunt..., neque ambulavi..., neque in mirabilibus super me)|Nie jest powyszono sierce moje '''ani''' wznieśle jesta sie oczy moje, '''ani''' chodził jeśm w wielikich, '''ani''' w dziwiech nad mię (non est exaltatum... neque elati sunt..., neque ambulavi..., neque in mirabilibus super me)|-}}
+#* {{RQ:zlw-opl:BiblWarsz|1861|III|24|1435–1437|Sczepan Brilewsky Thomy dwayczy ne *szodzal w klodą y dwayczy ne wyszadzal '''any''' mu mecza gwaltem wsąl|Szczepan Brylewski Tomy dwajcy nie sadzał w kłodę i dwajcy nie wysadzał '''ani''' mu miecza gwałtem wziął|-}}
+#* {{RQ:zlw-opl:MW|111a|Oczecz od nikogo iest vczynyon '''any''' stworzon, any porodzon (pater a nullo est factus nec creatus nec genitus Ath 20)|Ociec od nikogo jest uczynion '''ani''' stworzon, ani porodzon (pater a nullo est factus nec creatus nec genitus Ath 20)|-}}
+#* {{RQ:zlw-opl:Fl|17, 24|Strzegl iesm drog boszich '''any''' iesm zle nosil od boga (custodivi vias domini nec impie gessi a deo)|Strzegł jeśm drog bożych '''ani''' jeśm złe nosił od Boga (custodivi vias domini nec impie gessi a deo)|-}}
+#* {{RQ:zlw-opl:RocznHist|XV|68|1432-1437|Then czlowyek sbyegl '''any''' nye vczynyw dosszycz podle prawa, nye oszadzywsszy podla szemszkyego wkładu|Ten człowiek zbiegł '''ani''' nie uczyniw dosyć podle prawa, nie osądziwszy podla ziemskiego układu|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=conjunctions|anić|aniż}}
+
+===Particle===
+{{head|zlw-opl|particle}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[not even]]
+#* {{RQ:zlw-opl:Fl|17, 41|Gonicz bødø neprzyacele moie y polapø ie; '''any''' se obroczø alisz zginø (persequar inimicos meos et comprehendam illos et non convertar donec deficiant)|Gonić będę nieprzyjaciele moje i połapię je; '''ani''' sie obrocę aliż zginą (persequar inimicos meos et comprehendam illos et non convertar donec deficiant)|-}}
+
+====Descendants====
+* {{desc|pl|ani}}
+* {{desc|szl|ani}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Old Tupi==
+
+===Noun===
+{{head|tpw|noun|var=1}}
+
+# {{alternative spelling of|tpw|anũ|any|from=HNB}}
+
+==Oromo==
+
+===Pronunciation===
+{{om-IPA}}
+{{om-syllables}}
+**{{audio|om|Om-ani.ogg}}
+
+===Pronoun===
+{{head|om|pronoun}}
+
+# [[i]]
+#: {{ux|om|'''Ani''' [[gurraacha]] [[dha]].|'''I''' am black.}}
+
+====See also====
+{{om-personal pronouns}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:ani|:univ<surf>|a|ni<id:neither>|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|hh=Ani|mp=#|ost=#|war=#|mas=#|kur=#|CGP=#|krk=#|pod=#}}
+
+===Conjunction===
+{{h|pl|conjunction}}
+
+# [[neither]], [[nor]], [[or]]
+#: {{syn|pl|ni}}
+#: {{ant|pl|abo|albo|bądź|czy|i|lub|oraz}}
+#: {{uxi|pl|Nie chce mi się '''ani''' jeść, '''ani''' pić.|I feel '''neither''' like eating '''nor''' drinking.}}
+# [[nary]], [[not]] [[a]], [[not]] [[even]] [[one]]
+#: {{syn|pl|ni}}
+#: {{uxi|pl|Nie było '''ani''' jednego ciasteczka.|There wasn't even '''a single''' cookie.}}
+## {{lb|pl|Kurpie}} [[not]] [[as much as]]; [[less than]]
+# {{lb|pl|Central Greater Poland|Czempiń|Brodnica|Western Kraków|Zebrzydowice|Podhale|Skawa|Żywiec|Sopotnia Mała}} {{ng|used [[emphatically]] with {{m|pl|nie}} for negation}}
+
+===Particle===
+{{h|pl|particle}}
+
+# {{lb|pl|Middle Polish}} [[not even]]
+# {{lb|pl|Middle Polish}} [[not]] [[also]]; {{def-uncertain|pl|undetailed=1|nohypothesis=1}}
+#* {{quote-book|pl|year=1588|author=w:Ambrogio Calepino|title=Dictionarium decem linguarum|chapter=|url=http://spxvi.edu.pl/korpus/teksty/Calep/|page=692a|text=Nec, et Neque - '''Ani''' tez.|t=-}}
+#* {{quote-book|pl|year=1588|author=w:Ambrogio Calepino|title=Dictionarium decem linguarum|chapter=|url=http://spxvi.edu.pl/korpus/teksty/Calep/|page=691b|text=Ne - Nie, '''ani'''.|t=-}}
+# {{lb|pl|Middle Polish}} {{def-uncertain|pl|nohypothesis=1}}
+#* {{quote-book|pl|year=1501–1558|title=Zapiski i roty polskie|text=Jakom ya slachathnegonego pawla segzowa nyeothbyla gwalthem oth kmyecza yego sbyeglego zvrzadem zyemskyem a nym gwalthv szwolala ('''a ny''') y dalyey wedluk posw.|t=-|url=http://spxvi.edu.pl/korpus/teksty/ZapWar/}}
+
+====Derived terms====
+{{col|pl|title=adverbs|ani rusz|ani tak, ani siak|ani trochę|ani w ząb}}
+{{col|pl|title=conjunctions|aniżeli|aniżeliby}}
+{{col|pl|title=interjections|ani be, ani me|ani mi się śni}}
+{{col|pl|title=particles|ani, ani}}
+
+===Trivia===
+{{pl-freq 1990|46|13|42|117|116|333|151|8|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|5491}}
+* {{R:pl:SXVII|ANI|7431|date=02.04.2011}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||37|1}}
+* {{R:pl:SgOWiM||124-125|1}}
+
+==Romanian==
+
+===Pronunciation===
+* {{IPA|ro|[anʲ]}}
+
+===Noun===
+{{head|ro|noun form}}
+
+# {{plural of|ro|an}}
+
+==Romansh==
+
+===Alternative forms===
+* {{alt|rm|anè||Rumantsch Grischun|Puter|Vallader}}
+* {{alt|rm|anel||Surmiran}}
+
+===Etymology===
+From {{inh|rm|la|ānellus||finger ring}}.
+
+===Noun===
+{{rm-noun|m|pl=anials|pl2=aneals}}
+
+# {{lb|rm|Sursilvan|Sutsilvan}} [[ring]]
+
+{{C|rm|Jewelry}}
+
+==Shona==
+
+===Pronoun===
+{{sn-pronoun|aní}} (''plural'' '''{{l|sn|vanáaní}}''')
+
+# {{lb|sn|interrogative}} [[who]]
+
+==Sidamo==
+
+===Etymology===
+From {{inh|sid|cus-pro|*ʔani}}, from {{inh|sid|afa-pro|*ʔanāku}}. Cognates include {{cog|aa|anú}}, {{cog|hdy|ane}}, {{cog|om|ani}} and {{cog|so|aniga}}, furthermore {{cog|am|እኔ}}.
+
+===Pronunciation===
+* {{IPA|sid|/ˈani/}}
+* {{hyph|sid|a|ni}}
+
+===Pronoun===
+{{head|sid|pronoun|cat2=personal pronouns}}
+
+# [[I]]
+
+====See also====
+{{sid-personal pronouns}}
+
+===References===
+* {{R:sid:Kawachi:2007|page=70}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:ani|:univ<surf>|a|ni|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Conjunction===
+{{head|szl|conjunction}}
+
+# [[neither]], [[nor]], [[or]]
+
+===Particle===
+{{head|szl|particle}}
+
+# [[not even]]
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Slovak==
+
+===Pronunciation===
+* {{sk-IPA|a=LL-Q9058 (slk)-TomášPolonec-ani.wav}}
+
+===Conjunction===
+{{head|sk|conjunction}}
+
+# [[neither]]
+# [[nor]]
+#: {{uxi|sk|Nechce sa mi '''ani''' jesť '''ani''' piť.|I feel '''neither''' like eating '''nor''' drinking.}}
+# [[even]] (with negative clause)
+#: {{uxi|sk|'''Ani''' [[vedieť|neviem]].|I don't '''even''' know.}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Tagalog==
+
+===Etymology 1===
+{{ety|tl|:inh|poz-pro:*qanih|tree=1|text=++|id=crop}} Compare {{cog|akl|ani}}, {{cog|ceb|ani}}, and {{cog|tsg|ani}}, as well as dialectal {{cog|ms|ani-ani|t=harvesting knife}}.
+
+====Pronunciation====
+{{tl-pr}}
+
+====Noun====
+{{tl-noun|b=+}}
+
+# [[harvest]]; [[crop]]
+# [[act]] of [[harvest]]ing
+# {{lb|tl|figurative}} [[outcome]] of one's [[work]]; [[consequence]] of one's [[effort]]
+
+=====Derived terms=====
+{{col|tl|anihan|anihin|mag-ani|pag-aani|pag-anihan|tag-ani}}
+
+=====See also=====
+{{col|tl|kung ano ang itinanim, siya rin ang aanihin}}
+
+===Etymology 2===
+{{ety|tl|:univ|<alt:*'a><ety:clip<wika>>|ni<id:possessive particle>|tree=+|id=said by}}
+{{univ|tl}} of {{clipping|tl|[[wika]] [[ni]]|nocap=1}}.
+
+====Pronunciation====
+{{tl-pr|+,aní}}
+
+====Adverb====
+{{tl-adv|+,aní|b=+}}
+
+# [[said]] [[by]]; [[according to]]
+
+=====Usage notes=====
+* The word is used before names of persons.
+
+=====Derived terms=====
+{{col|tl|aniko|aniya|anito|anila|animo}}
+
+=====Related terms=====
+{{col|tl|anang}}
+
+=====See also=====
+{{col|tl|'ka|'ika}}
+
+===Etymology 3===
+{{ety|tl|id=disgust}}
+
+====Pronunciation====
+{{tl-pr|aní}}
+
+====Noun====
+{{tl-noun|aní|b=+}}
+
+# [[loathing]]; [[disgust]]
+
+=====Derived terms=====
+{{col|tl|kaanihan|maani|pagkaani|ani-ani|kaani-ani}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+* {{R:map:ACD|qaniS}}
+
+===Anagrams===
+* {{anagrams|tl|a=ain|ina}}
+
+{{C|tl|Agriculture|Emotions}}
+
+==Tausug==
+
+===Etymology===
+From {{inh|tsg|poz-pro|*qanih}}.
+
+===Pronunciation===
+{{tsg-pr}}
+
+===Noun===
+{{tsg-noun|j=+}}
+
+# [[harvest]]
+
+==Turkish==
+
+===Etymology===
+{{ety|tr|:inh|ota:آنی<ety:uder<ar:آنِيّ<t:timely, present>>>|text=2|tree=1}}
+
+===Pronunciation===
+* {{tr-IPA|a:ni:}}
+
+===Adjective===
+{{head|tr|adjective}}
+
+# [[sudden]] (happening quickly and with little or no warning)
+#: {{ux|tr|'''Ani''' bir hareketle onun omzunu kavradı, öne itti, sonra aynı kuvvetle geri çekip bastırdı.|With a '''sudden''' movement, he grabbed his shoulder, pushed him forward, then pulled him back with the same force and pressed him.}}
+
+====Declension====
+{{tr-pred-v-adj|i}}
+
+====Derived terms====
+{{col|tr|aniden}}
+
+====Related terms====
+{{col|tr|an|ansızın}}
+
+===Further reading===
+* {{R:tr:TDK}}
+
+==Uneapa==
+
+===Etymology===
+From {{inh|bbn|poz-oce-pro|*(ia-)ni}}, from {{inh|bbn|poz-pro|*(ia-)ni}}, from {{inh|bbn|map-pro|*(ia-)ni}}. Compare {{cog|ceb|ani}}.
+
+===Pronunciation===
+* {{IPA|bbn|/ani/}}
+
+===Pronoun===
+{{head|bbn|pronoun}}
+
+# [[this]]
+
+===Further reading===
+* Terry Crowley et al, ''The Oceanic Languages'' (2013), page 367
+
+==Venetan==
+
+===Noun===
+{{head|vec|noun form}}
+
+# {{plural of|vec|ano}}
+
+==Veps==
+
+===Etymology===
+From {{inh|vep|urj-fin-pro|*ani}}.
+
+===Adverb===
+{{head|vep|adverb}}
+
+# [[quite]], [[rather]]
+# [[very]], [[highly]], [[extremely]]
+# [[nearly]], [[practically]], [[just about]]
+# [[absolutely]], [[totally]]
+# [[sufficiently]], [[enough]]
+# [[just]], [[exactly]]
+# [[generally]], [[in general]]
+
+===References===
+* {{R:vep:UVVV|абсолютно|весьма|вообще|довольно|как раз|крайне|очень|практически|совершенно|чрезвычайно}}
+
+==Yimchungru Naga==
+
+===Etymology===
+From {{inh|yim|sit-aao-pro|*nəj}}, from {{inh|yim|sit-pro|*ku-ni(k)}}.
+
+===Noun===
+{{head|yim|noun}}
+
+# [[sun]]
+
+====Derived terms====
+{{col|yim
+|nimung
+}}
+
+===Further reading===
+* {{R:yim:YEHTD|5}}
+* {{R:sit:PCN|207}}
+
+==Zaghawa==
+
+===Pronunciation===
+* {{IPA|zag|/ʔanɪ/}}
+
+===Noun===
+{{head|zag|noun}}
+
+# [[anteater]]
+# [[arrow]]
+
+===References===
+* ''[https://web.archive.org/web/20230314181521/http://www.tchad.org/zaghawa/Beria-Eng-BDict.pdf Beria-English English-Beria Dictionary] [provisional] ADESK, Iriba, Kobe Department, Chad''
+
+{{c|zag|African insectivores|Weapons}}

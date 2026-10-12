@@ -1,0 +1,2336 @@
+{{also|Appendix:Variations of "no"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{clip|mul|en:'''No'''rwegian,no:'''no'''rsk}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+===See also===
+* {{langcat}}
+
+==English==
+
+===Pronunciation===
+* {{a|en|UK}}
+** {{IPA|en|/nəʊ/|a=RP}}
+*** {{audio|en|en-uk-no.ogg}}
+** {{IPA|en|/no/|a=Scotland}}
+** {{IPA|en|/noː/|a=Wales,non-toe-tow}}
+** {{a|en|Northumbrian}}
+*** {{IPA|en|/niː/|a=determiner, adverb}}
+**** {{IPA|en|/neː/|a=sometimes}}
+*** {{IPA|en|/næ/|/nɜː/|/nɑː/|a=particle, noun}}
+* {{IPA|en|/noʊ/|a=GA,CA}}
+** {{audio|en|en-us-no.ogg}}
+* {{IPA|en|/nəʉ/|a=AU}}
+* {{IPA|en|/nɐʉ/|a=NZ}}
+** {{audio|en|en-nz-no.ogg}}
+* {{IPA|en|/nœʊ/|a=South Africa}}
+* {{rhymes|en|əʊ|s=1}}
+* {{homophones|en|noh|;|know<aa:toe-tow>}}
+
+===Etymology 1===
+{{inh+|en|enm|no}}, {{m|enm|noo}}, {{m|enm|na}}, a reduced form of {{m|enm|none}}, {{m|enm|noon}}, {{m|enm|nan||none, not any}} used before consonants (compare {{m|en|a}} to {{m|en|an}}), from {{inh|en|ang|nān|t=none, not any}}, from {{inh|en|gmw-pro|*nain}}, from {{inh|en|gem-pro|*nainaz|t=not any|lit=not one}}, equivalent to {{com|en|ne|t1=not|a}}. {{piecewise doublet|en|none}}.
+
+Cognate with {{cog|sco|nae|t=no, not any, none}}, {{cog|ofs|nān}}, {{m|ofs|nēn}} {{gl|"no, not any, none"; > {{cog|stq|naan}}, {{m|stq|neen|t=no, not any, none}}, {{cog|frr|nian|t=no, not any, none}}}}, {{cog|odt|nēn}} {{gloss|"no, not any, none"; > {{cog|nl|neen||no}}}}, {{cog|non|neinn||no, not any, none}}. Compare also {{cog|osx|nigēn}} {{gloss|"not any"; > {{cog|nds|nen}}}}, {{cog|odt|nehēn}} ({{cog|dum|negheen}}/{{m|dum|negeen}}, {{cog|nl|geen}}), {{cog|fy|gjin}}, {{cog|goh|nihein}} (> {{cog|de|kein}}). More at ''[[no#Etymology_2|no]]'', {{m|en|one}}.
+
+====Determiner====
+{{en-head|det}}
+
+# Not any.
+#: {{syn|en|zero#Determiner|not even one#Determiner|not one#Determiner}}
+#: {{ant|en|any#Determiner|some#Determiner|;|one#Determiner|;|a few#Determiner|a [[couple#English:_small number|couple]] of|a [[handful#English:_small number|handful]] of|;|multiple#Determiner|various#Determiner|;|many#Determiner|numerous#Determiner|;|countless#Determiner|every single#Determiner}}
+#: {{ux|en|[[no one|'''no''' one]]}}
+#: {{ux|en|There is '''no''' water left.}}
+#: {{ux|en|'''No''' hot dogs were sold yesterday.}}
+#: {{ux|en|I've got '''no''' wife and '''no''' children either.}}
+#: {{ux|en|'''No''' two people are the same.}}
+#: {{ux|en|There was '''no''' score at the end of the first period. (The score was 0-0.)}}
+# [[hardly|Hardly]] any.
+#: {{ant|en|quite|some}}
+#: {{ux|en|We'll be finished in '''no''' time at all.}}
+#: {{ux|en|Fifty pounds for this is '''no''' money, really.}}
+# Not any possibility or allowance of (something).
+#: {{ux|en|'''No''' smoking. '''No''' parking.}}
+#: {{ux|en|There's '''no''' stopping her once she gets going.}}
+#: {{ux|en|'''No''' [[under-]][[18s]] ([[allowed]]).}}
+# Not (a); not properly, not really; not fully.
+#: {{ux|en|My mother's '''no''' fool.}}
+#: {{ux|en|Working nine to five every day is '''no''' life.}}
+#: {{ux|en|'''No''' geese have blue beaks.}}
+
+=====Derived terms=====
+{{col|en|natheless|no clue|no-brow|no-hoper|no-legged|no-platform|no-scope|Nobama|nobbut|nocoiner|nogoer|nohow|nojito|nolisting|noman|noone|nopony|nosecco|noshore|NoSQL|nothing|NOTP|novid|noway|nowhat|nowhen|nowhence|nowhile|nowhither|nowise|all fur and no knickers|all retch and no vomit|certificate of no criminal conviction|duck or no dinner|no bigs|no good ass|no soup for you|no-stride
+|a closed mouth catches no flies|no later than|no-action letter
+|a closed mouth gathers no feet|no-self|waste no time
+|a little bit of bread and no cheese
+|no-account|no fall zone|no nothing|vote blue no matter who
+|no-brainer|no-show sock| have no right|no brown in town|no fidelity|no need|no-fi
+|no-fault
+|no flies on
+|no-fly
+|no glove no love
+|no-go
+|no-good
+|no guts, no glory
+|no harm, no foul
+|no-hit
+|no-hitter
+|no holds barred
+|no-load
+|no love lost
+|No Man's Heath
+|no man's land
+|No Man's Land
+|no-name
+|no names, no pack drill
+|no news is good news
+|no-no
+|no-nonsense
+|no one,no-one
+|no pain, no gain
+|no place,noplace
+|No Place
+|no problem
+|no quarter
+|no questions asked
+|no rest for the wicked
+|no room at the inn
+|no-score draw
+|no-see-um
+|no shit, Sherlock
+|no-show
+|no skin off one's back
+|no soap|no relation|no trumps|no 🧢|no-trumper
+|no strings attached
+|no through road
+|no-trade
+|no-trump
+|no way to treat a lady
+|no-win
+|no wonder
+|no worries
+|say no more
+|be no match for
+|no match for}}
+
+=====Translations=====
+{{see translation subpage|Determiner}}
+
+===Etymology 2===
+{{inh+|en|enm|no}}, {{m|enm|na}}, from {{inh|en|ang|nā}}, {{m|ang|nō|t=no, not, not ever, never}}, from {{inh|en|gmw-pro|*naiwō}}, from {{inh|en|gem-pro|*naiwô|t=never}}, from {{m|gem-pro|*ne|t=not}} + {{m|gem-pro|*aiwō|t=ever}}, equivalent to {{com|en|ne|aye}}. Cognate with {{cog|sco|na|t=no}}, {{cog|stq|noa|t=no}}, {{cog|fy|né|t=no}}, {{m|fy|nea|t=never}}, {{cog|nl|nee|t=no}}, {{cog|nds|nee|t=no}}, {{cog|de|nie|t=never}}, dialectal {{cog|de|nö|t=no}}, {{cog|da|nej|t=no}}, {{cog|sv|nej|t=no}}, {{cog|is|nei|t=no}}. {{doublet|en|nay}}.
+
+====Adverb====
+{{en-adv|-}}
+
+# {{lb|en|with following adjective}} [[not|Not]], not at all.
+## {{n-g|Used before ''[[different]]'', before comparatives with {{m|en|more}} and {{m|en|less}}, and idiomatically before other comparatives.}}
+##: {{ux|en|It is a less physical kind of torture, but '''no''' less gruesome.}}
+##: {{ux|en|I can think of '''no''' more deserving cause.}}
+##: {{ux|en|Look '''no''' further than one's nose.}}
+##: {{ux|en|This is '''no''' different from what we've been doing all along.}}
+##: {{ux|en|Is your sister any better? ~ '''No''' different. Still ill.}}
+## {{lb|en|informal}} {{n-g|Used idiomatically before certain other adjectives.}}
+##: {{ux|en|This thing is '''no''' good.}}
+##: {{ux|en|The teacher’s decision was '''no''' fair.}}
+# {{lb|en|without adjective|now|Scotland|informal}} [[not|Not]].
+#: {{ux|en|I just want to find out whether she's coming or '''no'''.}}
+#: {{ux|en|Can [[ye]] '''no''' help me?}}
+#* {{quote-text|en|year=1725|author=w:Daniel Defoe|title=An essay on the history and reality of apparitions
+|passage=AS the ''Devil'' is not so Black as he is Painted, so neither does he appear in so many Shapes as we make for him; we Dress him up in more Suits of Cloaths, and more Masquerade Habits, than ever he wore; and I question much, if he was to see the Pictures and Figures which we call ''Devil'', whether he would know himself by some of them or '''no'''.}}
+# {{lb|en|colloquial|usually|humorous}} Not, does not, do not, etc.
+#: {{ux|en|[[Ug]] '''no''' like veggie.}}
+
+=====Usage notes=====
+* When used humorously to mean {{m-g|not}} or {{m-g|does not}}, this word usually implies a [[caveman]]-like way of speaking.
+
+=====Translations=====
+{{trans-top}}
+* Russian: {{t+|ru|не}}, {{t+|ru|нет}}
+* Spanish: {{t+|es|no}}
+{{trans-bottom}}
+
+====Particle====
+{{en-head|pcl}}
+
+# {{ng|Used to show [[disagreement]], [[negation]], [[denial]], [[refusal]], or [[prohibition]].}}
+#: {{syn|en|nay|nope|Thesaurus:no}}
+#: {{ant|en|aye|maybe|yea|yes|Thesaurus:yes}}
+#: {{ux|en|'''No''', you are mistaken.}}
+#: {{ux|en|'''No''', you may not watch television now.}}
+#: {{ux|en|David, '''no!'''}}
+#* {{quote-text|en|date=February 5 2000|author={{w|Douglas Watkinson}}; et al|chapter=Beyond the Grave|title={{w|Midsomer Murders}}
+|passage=Why is it when I say {{'}}'''no'''{{'}}, you both hear 'yes'?}}
+# {{ng|Used to ask for [[confirmation]]}}.
+#: {{syn|en|yes|right}}
+#: {{ux|en|The legal drinking age in the States is 21, '''no'''?}}
+# {{ng|Used to express [[sadness]] or [[disappointment]].}}
+#: {{ux|en|"We lost." "'''No'''!"}}
+# {{ng|Used to express [[disbelief]].}}
+#: {{syn|en|no way}}
+#: {{ux|en|I got the job! / '''No'''! Really? That's fantastic!}}
+# {{ng|Used to show [[agreement]] with a [[negative]] [[question]].}}
+#: {{syn|en|nah|nay|nope}}
+#: {{ux|en|"Don’t you like milk?" "'''No'''." (i.e., "No, I don’t like milk.")}}
+# {{lb|en|colloquial}} {{ng|Used together with an [[affirmative]] word or phrase to show [[agreement]].}}
+#: {{ux|en|'''No''', totally.}}
+#: {{ux|en|'''No''', yeah, that's exactly right.}}
+#: {{ux|en|"Wow!" "Yeah, '''no''', it was really awful!"}}
+
+=====Derived terms=====
+{{col2|en|nossuh|yeah, no|yes and no}}
+
+=====Descendants=====
+* {{desc|ase|H^o@Side-PalmForward Flatten|bor=1}}
+
+=====Translations=====
+{{see translation subpage|Particle}}
+
+====Preposition====
+{{en-head|prep}}
+
+# [[without|Without]].
+#: {{usex|en|[[look Ma, no hands|Look Ma, '''no''' hands!]]}}
+# {{rfv-sense|en}} [[like|Like]].
+
+====Noun====
+{{anchor|English-Noun}}
+{{en-noun|es|s}}
+
+# A [[negate|negating]] [[expression]]; an answer that shows [[disagreement]], [[denial]], [[refusal]], or [[disapproval]].
+#* {{quote-av|en|year=1994|actor=John de Lancie|episode=All Good Things...|title=Star Trek: The Next Generation|writers=Brannon Braga; Ronald D. Moore|season=7|number=25-26|text=''Q'': I'll answer any ten questions that call for a yes or a '''no'''.}}
+# A [[vote]] not in favor, or opposing a [[proposition]].
+#: {{ux|en|The workers voted on whether to strike, and there were thirty yeses and two '''nos'''.}}
+
+=====Synonyms=====
+* {{l|en|nah}}
+* {{l|en|nope}}
+* {{l|en|naw}}
+* {{l|en|nay}}
+
+=====Antonyms=====
+* {{l|en|aye}}
+* {{l|en|yea}}
+* {{l|en|yes}}
+
+=====Translations=====
+{{see translation subpage|Noun}}
+
+====Verb====
+{{en-verb|~es}}
+
+# {{lb|en|intransitive|colloquial}} To [[say]] {{m-g|no}}.
+#* {{quote-book|en|year=1983|author=Sasha Moorsom|chapter=5|title=In the Shadow of the Paradise Tree|location=London&#59; Melbourne, Vic.&#59; Henley-on-Thame, Oxfordshire|publisher=[[w:Routledge|Routledge & Kegan Paul]]|page=80|pageurl=https://archive.org/details/inshadowofparadi0000moor/page/80/mode/1up|isbn=0-7100-9408-6|passage=She felt disquiet at these tales of Musa’s illicit activities. ‘Does your father know?’ / ‘My father always '''noes'''. He never yeses. Specially when he’s sick, then he '''noes''' all the time. I gotta get out. Can’t stick around the house with him yelling.{{nb...}}’}}
+#* {{quote-book|en|year=1994|author=Malcolm Ross|chapter=Part Three: The New Woman|title=Kernow & Daughter|location=London|publisher=[[w:Book Club Associates|BCA]]|page=293|pageurl=https://archive.org/details/kernowdaughter0000ross/page/293/mode/1up|isbn=9780749902629|passage=“Heaven knows why a woman ‘'''Noes'''’!” / Clarrie nodded glumly. “And why she ‘Yesses’ in the end.”}}
+#* {{quote-book|en|year=2001|author=Nicholas Weinstock|chapter=The Flowers|title=As Long As She Needs Me|location=New York, N.Y.|publisher=[[w:Harper Perennial|Perennial]]|year_published=2002|page=140|pageurl=https://books.google.com/books?id=E-eDKUgKBNMC&pg=PA140|isbn=0-06-019824-9|passage=There were days, entire years of his life, spent yessing and '''noing''' on the phone, picking up and hanging up and accomplishing nothing at all.}}
+# {{lb|en|transitive|colloquial}} To [[answer]] with {{m-g|no}}; to [[decline]], [[reject]].
+#* {{quote-journal|en|year=1835|month=April|title=The Whimsey Papers.—No. II. Vague Conclusions Concerning Selfishness and Benevolence—Vivid the Casuist—Skinflint the Misanthrope—Green, the Good-Natured Man.|editor={{quote-gloss|{{w|Caroline Norton}}}}|journal=[[w:La Belle Assemblée|The Court Magazine,]]{{nb...|Containing Original Papers, by Distinguished Writers, and Finely Engraved Portraits, Landscapes, and Costumes, from Paintings by Eminent Masters.}}|volume=VI|issue=IV|location=London|publisher=Edward Churton,{{nb...|Holles Street, Cavendish Square. (Late Bull and Churton.)}}|page=168|pageurl=https://archive.org/details/courtmagazinean00critgoog/page/n190/mode/1up|column=1|oclc=265367566|passage=Never accustom yourself to say ‘Yes,’—practise an emphatic and decisive enunciation of the far more dignified and important monosyllable, ‘No.’ {{...}} Believe me, it is of the utmost importance (the advice is not of recent date) that you should '''''No''''' the world.}}
+#* {{quote-journal|en|date=17 March 1940|title=Back of the CAA Fight: Independence or Closer Executive Control of Aviation Agency|editor=[[w:David Lawrence (publisher)|David Lawrence]]|journal=[[w:U.S. News & World Report|The United States News]]|location=Washington, D.C.|publisher=United States News Publishing Corporation|page=33|pageurl=https://archive.org/details/sim_u-s-news-weekly-special-issues_1940-05-17_8_20/page/33/mode/1up|column=2|issn=2834-4936|oclc=2436843|passage=BUDGET DIRECTOR SMITH / The President yessed his report {{...}} SENATOR McCARRAN / He '''noed''' the President’s report}}
+#* {{quote-book|en|year=1955|author=w:Fred Rodell|chapter=Powerful, Irresponsible, and Human|title=Nine Men: A Political History of the Supreme Court from 1790 to 1955|location=New York, N.Y.|publisher=w:Random House|page=12|pageurl=https://archive.org/details/ninemenpolitical1955rode/page/12/mode/1up|lccn=55-8154|oclc=345501|passage=Yet in every such instance—and there are scores of them—the Justices can do nothing but impotently point toward future action after Yessing or '''Noing''' past action by men in a position to act.}}
+
+===Etymology 3===
+Variant of {{m|en|No.}}, from the scribal abbreviation for {{bor|en|la|''(''[[in]]'')'' [[numerō]]||[[in]] [[number]], to the [[number]] of}}.
+
+====Adverb====
+{{en-adv|-}}
+
+# {{lb|en|archaic}} {{alt form|en|No.}}
+
+====Noun====
+{{en-noun}}
+
+# {{alt form|en|No.}}
+
+===See also===
+* [[Thesaurus:quantifier]]
+
+===References===
+* {{R:OneLook}}
+
+===Further reading===
+* {{pedia|''yes'' and ''no''}}
+
+===Anagrams===
+* {{anagrams|en|a=no|-on|ON|ON.|on|on-}}
+
+{{cln|en|phrasebook|responses|2-letter words}}
+
+==Achang==
+
+===Etymology 1===
+From {{inh|acn|sit-pro|*r-nəʔ|t=ear}}.
+
+====Pronunciation====
+* {{acn-IPA}}
+
+====Noun====
+{{head|acn|noun}}
+
+# [[ear]]
+#* {{RQ:acn:Bible|Psalm|115|6|'''No''' dap laus eq ma xauhgyo, nho dap laus eq ma yoh nam.|[The idols have] '''ears''' stuck [to them] but do not hear; [the idols have] noses stuck [to them] but cannot smell.|url=https://www.bible.com/bible/373/psa.115.6}}
+
+=====Usage notes=====
+Inglis's lexicon does not have this simple word for "ear", despite listing several compounds. The simple word ''does'' show up in his preliminary phonology and is attested in the Bible.
+
+=====Derived terms=====
+{{col|acn
+|no-khyung
+|no-jet
+|no-khung
+|no-khyvp
+}}
+
+===Etymology 2===
+From {{inh|acn|tbq-lob-pro|*na²}}, from {{inh|acn|sit-pro|*na|t=to rest}}.
+
+====Pronunciation====
+* {{acn-IPA
+|lh=na³¹
+|lx=na⁵¹
+|lc=nɔ³¹
+|xd=nɔ³¹
+}}
+
+====Verb====
+{{head|acn|verb}}
+
+# to [[rest]], [[stop]]
+
+===Further reading===
+* {{R:acn:Lexicon|93-94}}
+
+==Ainu==
+
+===Pronunciation===
+* {{ain-IPA|nó}}
+
+===Etymology 1===
+
+====Particle====
+{{ain-part|l|{{ain-kana-conv}}}}
+
+# {{n-g|Adverbialising particle}}; [[-ly]], [[ing]]
+#: {{ux|ain|[[asiri]]|t=new|inline=1}}
+#: {{ux|ain|asiri '''no'''|t=newly|inline=1}}
+#: {{ux|ain|[[pirika]]|t=good|inline=1}}
+#: {{ux|ain|pirika '''no'''|t=well|inline=1}}
+#: {{ux|ain|[[nukara]]|t=to see|inline=1}}
+#: {{ux|ain|nukara '''no''' an|t=seeing|lit=being seeing|inline=1}}
+#: {{ux|ain|[[opitta]]|t=all|inline=1}}
+#: {{ux|ain|opitta '''no''' okay|t=all|lit=being all|inline=1}}
+
+===Etymology 2===
+
+====Particle====
+{{ain-part|l|{{ain-kana-conv}}}}
+
+# {{alt form|ain|ro}}
+
+==Akan==
+
+===Pronoun===
+{{head|ak|pronoun}}
+
+# [[him]], [[her]], [[them]] (third singular animate accusative personal pronoun)
+
+===Pronoun===
+{{head|ak|pronoun}}
+
+# [[it]] (third singular inanimate accusative personal pronoun)
+
+===See also===
+{{ak-personal pronouns}}
+
+===Article===
+{{head|ak|articles|head=nó}}
+
+# {{lb|ak|postpositive}} [[the]]
+
+===References===
+* {{R:ak:LearnAkan|him|en}}
+* {{R:ak:LearnAkan|her|en}}
+* {{R:ak:LearnAkan|the|en}}
+
+==Alemannic German==
+
+===Etymology===
+Related to {{cog|de|noch}}.
+
+===Pronunciation===
+* {{IPA|gsw|/ˈnɔ/|a=Zurich}}
+
+===Adverb===
+{{head|gsw|adverbs}}
+
+# [[still]], [[yet]]
+#: {{ux|inline=1|gsw|Bisch '''no''' do?|Are you '''still''' here?}}
+# [[eventually]] {{gloss|at an unknown time in the future}}
+#: {{ux|inline=1|gsw|Er chunt scho '''no'''.|He will come '''eventually'''.}}
+# (only) just; barely {{gloss|by a small margin}}
+#: {{ux|inline=1|gsw|Sii hät grad '''no''' so gwunne.|She '''just barely''' won.}}
+# {{lb|gsw|with comparative}} [[even]]
+#: {{ux|inline=1|gsw|Das isch sogar '''no''' schönner.|This is '''even''' prettier.}}
+
+====Usage notes====
+* {{sense|eventually}} Often used together with an antecedent {{m|gsw|scho}}.
+* {{sense|just; barely}} In this sense always used together with an antecedent {{m|gsw|grad}}.
+* {{sense|even}} It can be used together with an antecedent {{m|gsw|sogar}} for amplification.
+
+===Particle===
+{{head|gsw|particles}}
+
+# {{rfdef|gsw}}
+
+==Ashkun==
+{{cardinalbox|ask|8|9|10|ōṣṭ|dos}}
+
+===Etymology===
+{{inh+|ask|iir-nur-pro|*no}} (or less likely borrowed from a descendant of {{der|ask|sa|नव|tr=náva}}), from {{inh|ask|iir-pro|*Hnáwa}}, from {{inh|ask|ine-pro|*h₁néwn̥}}.
+
+===Numeral===
+{{head|ask|numeral}} {{q|Sanu}}<ref name="NEL">{{R:iir-nur:NEL|n′o}}</ref>
+
+# [[nine]]
+
+===References===
+<references />
+
+==Asturian==
+
+===Etymology===
+From a contraction of the preposition {{m|ast|en||in}} + neuter singular article {{m|ast|lo||the}}. Compare {{cog|scn|ntô}}~{{m|scn|nnô}}.
+
+===Contraction===
+{{head|ast|contraction|g=n|masculine|nel|feminine|na|masculine plural|nos|feminine plural|nes}}
+
+# [[in]] [[the]]
+
+==Atong (India)==
+
+===Pronunciation===
+* {{IPA|aot|/no/}}
+
+===Etymology 1===
+
+====Verb====
+{{aot-verb|নো}}
+
+# to [[say]]
+
+===Etymology 2===
+{{bor+|aot|hi|नौ}}.
+
+====Numeral====
+{{aot-num|নো}}
+
+# [[nine]]
+
+=====Synonyms=====
+* {{l|aot|chykhyw}}
+* {{l|aot|nain}}
+
+===References===
+* {{R:aot:Breugel}} For "nine", stated in Appendix 3.
+
+==Awa (New Guinea)==
+
+===Noun===
+{{head|awb|nouns}}
+
+# [[water]]
+
+===References===
+* ''The Papuan Languages of New Guinea'' (1986, {{ISBN|0521286212}})
+
+{{C|awb|Water}}
+
+==Bangi==
+
+===Etymology===
+{{inh+|bni|bnt-pro|*-nók}}.
+
+===Verb===
+{{head|bni|verb}}
+
+# to [[fall]] (rain), to [[rain]]
+
+==Bavarian==
+
+===Etymology===
+{{inh+|bar|goh|noh}}, from {{inh|bar|gmw-pro|*noh}}, from {{inh|bar|gem-pro|*nuh}}, from {{der|bar|ine-pro|*nū-kʷe-}}. Cognates include {{cog|de|noch}}, {{cog|yi|נאָך|tr=nokh}} and {{cog|nl|nog}}, {{cog|nl|noch}}.
+
+===Pronunciation===
+* {{IPA|bar|/ˈnoː/|[no]|q2=unstressed}}
+* {{rhymes|bar|oː}}
+
+===Adverb===
+{{bar-adverb}}
+
+# [[still]], [[yet]] {{gloss|up to and including a given time}}
+#: {{uxi|bar|Mia san '''no''' ned då.|We're not there '''yet'''.}}
+#: {{uxi|bar|Des geht si '''no''' aus.|There's '''still''' time for that.}}
+# [[yet]], [[eventually]] {{gloss|at an unknown time in the future}}
+#: {{uxi|bar|Mia wern scho '''no''' åkumma.|We'll arrive '''eventually'''.}}
+# [[additionally]], [[in addition]], [[besides]], [[else]]; {{ng|more often expressed in English with}} [[another]], [[more]]
+#: {{uxi|bar|'''No''' ana!|'''Another''' one!}}
+#: {{uxi|bar|Foid da '''no''' wås ei?|Can you think of anything '''else'''?}}
+# (only) [[just]]; [[barely]] {{gloss|by a small margin}}
+#: {{uxi|bar|Is se gråd '''no''' ausgånga.|We made it '''just''' in time.}}
+# {{lb|bar|with comparative}} [[even]]
+#: {{uxi|bar|Des is jå '''no''' depperter.|That's '''even''' more stupid.}}
+
+==Catalan==
+
+===Etymology===
+{{inh+|ca|roa-oca|no}}, from {{inh|ca|la|nōn}}.
+
+===Pronunciation===
+* {{ca-IPA|ó}}
+* {{audio|ca|LL-Q7026 (cat)-Unjoanqualsevol-no.wav|a=Catalonia}}
+* {{rhymes|ca|o|s=1}}
+
+===Interjection===
+{{head|ca|interjection}}
+
+# {{l|en|no}} {{q|negation; commonly used to respond negatively to a question}}
+
+===Adverb===
+{{ca-adv}}
+
+# [[not]], main negation marker
+#: {{ant|ca|sí|hoc}}
+#: {{ux|inline=1|ca|'''No''' tinc diners.|'' No, I do not have money.''}}
+#: {{ux|inline=1|ca|'''No''' facis això.|'' No, don't do that.''}}
+
+====Derived terms====
+* {{l|ca|no-res}}
+* {{l|ca|si més no}}
+
+====See also====
+* {{l|ca|pas}}
+
+===Noun===
+{{ca-noun|m}}
+
+# [[no]]
+
+===Further reading===
+* {{R:ca:IEC2}}
+* {{R:ca:GDLC}}
+* {{R:ca:DNV}}
+* {{R:ca:DCVB}}
+
+==Cebuano==
+
+===Alternative forms===
+* {{alt|ceb|noh||slang}}
+
+===Etymology===
+{{der+|ceb|es|no}}.
+
+===Interjection===
+{{head|ceb|interjection}}
+
+# {{n-g|indicating surprise at, or requesting confirmation of, some new information; to express skepticism}}
+# {{n-g|indicating that what was just said was obvious and unnecessary; contrived incredulity}}
+
+==Chavacano==
+
+===Etymology===
+{{inh+|cbk|es|no||no}}.
+
+===Pronunciation===
+* {{cbk-IPA}}
+
+===Verb===
+{{cbk-verb}}
+
+# {{lb|cbk|pseudoverb}} [[do]] [[not]]; [[don't]] {{gl|used as a negative imperative}}
+
+==Czech==
+
+===Etymology===
+Short for {{m|cs|ano||yes}}.
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-no.wav}}
+
+===Interjection===
+{{head|cs|interjection}}
+
+# [[well]], [[why]]
+#: {{ux|inline=1|cs|'''No''' ne!|'''Well''', I never!}}
+
+===Adverb===
+{{head|cs|adverbs}}
+
+# [[certainly]], [[indeed]], [[of course]]
+# [[yeah]], [[yep]]
+
+====Derived terms====
+{{col|cs|no a co}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+==Dimasa==
+
+===Noun===
+{{head|dis|nouns}}
+
+# [[home]]
+
+==Dumbea==
+
+===Pronunciation===
+* {{IPA|duf|/noː/}}
+
+===Noun===
+{{head|duf|nouns}}
+
+# [[mosquito]]
+
+===References===
+* {{R:map:ABVD|lang=ⁿDuᵐbea|id=1487|cite={{cite-book|author=Leenhardt, M.|year=1946|title=Langues et dialectes de l'Austro-Mèlanèsie}}.}}
+* {{R:map:ABVD|lang=Drubea|id=1369|cite={{cite-book|title=Dictionnaire de la langue de Païta|author=Shintani, T.L.A. & Païta, Y.|year=1990|publisher=Sociéte d'etudes historiques de Nouvelle-Calédonie|location={{w|Nouméa}}}}.}}
+
+{{topics|duf|Dipterans|Parasites}}
+
+==Esperanto==
+
+===Pronunciation===
+{{eo-pr|a=LL-Q143 (epo)-Lepticed7-no.wav;LL-Q143 (epo)-Robin van der Vliet-no.wav}}
+
+===Noun===
+{{eo-head}}
+
+# {{Latn-def|eo|name|N|n}}
+
+====See also====
+{{list:Latin script letter names/eo}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+* {{R:eo:ReVo}}
+
+==Ewe==
+
+===Pronunciation===
+* {{ee-IPA|nǒ}} {{q|noun}}
+* {{ee-IPA|nò}} {{q|verb}}
+
+===Noun===
+{{head|ee|noun|head=nǒ}}
+
+# [[breast]]
+
+===Verb===
+{{head|ee|verb|head=nò}}
+
+# to [[drink]]
+# to [[suck]]
+
+==Fala==
+
+===Pronunciation===
+{{fax-pr}}
+
+===Etymology 1===
+{{inh+|fax|roa-opt|non}}, from {{inh|fax|la|nōn||not}}; probably influenced by {{der|fax|es|no}}.
+
+====Adverb====
+{{head|fax|adverbs}}
+
+# {{alternative form of|fax|non|t=no, not}}
+
+===Etymology 2===
+{{ety|fax|:inh|roa-opt:no|:af<surf>|en<t:in>|o<pos:masculine singular definite article>|text=+|tree=1}}
+
+====Alternative forms====
+* {{alt|fax|nu||Lagarteiru|Valverdeñu}}
+
+====Contraction====
+{{head|fax|contractions|g=m-s|plural|nos|feminine|na|feminine plural|nas}}
+
+# {{lb|fax|Mañegu}} [[in]] [[the]]
+
+===References===
+* {{R:fax:Diccionariu|209}}
+
+==Finnish==
+
+===Etymology===
+Similar interjections can be found in other Finnic languages (compare {{cog|et|no}}, {{m|et|noh}}, {{cog|izh|no}}, {{cog|krl|no}}, {{cog|liv|no}}, {{m|liv|noh}}, {{cog|lud|no}}, {{cog|vot|no}}) and possibly also in other Uralic languages (compare {{cog|kpv|но}}, {{cog|udm|но}}). Compare also to those found in neighboring Indo-European languages (such as {{cog|sv|nå}}, {{cog|lv|nu}}, {{cog|ru|ну}}), which may all trace back as far as {{cog|ine-pro|*nu}}. SSA concludes that the interjection is probably part original and part foreign.<ref>{{R:fi:SSA}}</ref>
+
+===Pronunciation===
+{{fi-pronunciation}}
+
+===Interjection===
+{{head|fi|intj}}
+
+# [[well]]! {{gl|to acknowledge a situation; encouragement to answer or react; expressing the overcoming of reluctance to say something; exclamation of indignance}}
+#: {{alti|fi|noh}}
+#: {{ux|inline=1|fi|'''No''' sepä mukavaa!|'''Well''', that’s nice.}}
+#: {{ux|inline=1|fi|'''No''' kai meidän sitten pitää käydä katsomassa.|'''Well''' I guess we have to go look then.}}
+#: {{ux|inline=1|fi|'''No''', mikset mennyt juhliin?|'''Well''', why didn't you go to the party?}}
+#: {{ux|inline=1|fi|Siellä oli, '''no''', aika tylsää.|It was, '''well''', pretty boring there.}}
+#: {{ux|inline=1|fi|'''No''', et sinä nyt noin voi käyttäytyä!|'''Well'''! You can't behave like that!}}
+# [[well]]? {{gl|replaces an obvious question}}
+#: {{ux|fi|– Kävin kysymässä sulkemisaikaa. – '''No'''?|– I went and asked them for their closing time. – '''Well'''?}}
+
+===References===
+<references />
+
+===Further reading===
+* {{R:fi:KTSK|accessdate=2023-07-03}}
+
+===Anagrams===
+* {{anagrams|fi|a=no|-on|on}}
+
+==French==
+
+===Alternative forms===
+* {{alt|fr|nº|Nº}}
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|LL-Q150 (fra)-Lyokoï-no.wav|a=<<France>> (<<Lyon>>)}}
+
+===Noun===
+{{head|fr|noun|g=m}}
+
+# {{abbreviation of|fr|numéro|t=[[number]]}}
+
+===Anagrams===
+* {{anagrams|fr|on}}
+
+==Friulian==
+
+===Etymology===
+{{inh+|fur|la|nōn}}.
+
+===Adverb===
+{{head|fur|adverbs}}
+
+# {{l|en|no}}
+#: {{ant|fur|sì}}
+
+==Fula==
+
+===Etymology===
+{{rfe|ff}}
+
+===Adverb===
+{{head|ff|adverbs}}
+
+# [[how]]?
+
+==Galician==
+
+===Pronunciation===
+{{gl-pr|nŏ}}
+* {{hyph|gl|no}}
+
+===Etymology 1===
+From contraction of preposition {{m|gl|en||in}} + masculine article {{m|gl|o||the}}.
+
+====Contraction====
+{{head|gl|contraction|g=m|feminine|na|masculine plural|nos|feminine plural|nas}}
+
+# [[in]] [[the]]
+#: {{ux|gl|Pois eu anque lexos estaba do conde ben o vin '''no''' tempro.|Well, even though I was from the count's house, I saw him well '''in the''' temple.}}
+
+===Etymology 2===
+From a mutation of {{m|gl|o}}.
+
+====Pronoun====
+{{head|gl|pronoun|g=m|accusative|cat2=personal pronouns}}
+
+# {{alternative form of|gl|o|t=[[him]]}}
+
+=====Usage notes=====
+The ''n-'' forms of accusative third-person pronouns are used when the preceding word ends in ''-u'' or a diphthong, and are suffixed to the preceding word.
+
+===See also===
+{{gl-personal pronouns}}
+
+===Related terms===
+{{col3|gl|lo|na|o}}
+
+===References===
+* {{R:gl:DRAG}}
+* {{R:gl:Estraviz}}
+* {{R:gl:DDGM}}
+* {{R:gl:CX}}
+* {{R:gl:DDLG}}
+
+==Garo==
+
+===Noun===
+{{head|grt|nouns}}
+
+# [[younger sister]]
+
+====Synonyms====
+* {{l|grt|nogipa}} {{qualifier|formal}}
+* {{l|grt|nono}}
+
+{{C|grt|Female family members}}
+
+==Guinea-Bissau Creole==
+
+===Etymology===
+{{der+|pov|pt|nós}}. Cognate with {{cog|kea|nu}}.
+
+===Pronoun===
+{{head|pov|pronouns}}
+
+# [[we]]
+
+==Hawaiian==
+
+===Etymology===
+{{rfe|haw}}
+
+===Pronunciation===
+* {{haw-IPA}}
+
+===Preposition===
+{{head|haw|prepositions}}
+
+# [[for]], [[belonging]] to, [[from]]
+
+====Usage notes====
+* Used for possessions that are inherited, out of personal control, and for things that can be got into (houses, clothes, cars), while {{m|haw|na}} is used for acquired possessions.
+
+==Hone==
+
+===Noun===
+{{head|juh|nouns}}
+
+# [[husband]]
+
+===Further reading===
+* Anne Storch, ''Hone'', in ''Coding Participant Marking: Construction Types in Twelve African Languages'', edited by Gerrit Jan Dimmendaal
+
+{{C|juh|Male family members|Marriage}}
+
+==Ido==
+
+===Etymology===
+{{io-bor|no|non||no||no}} Paronym to {{m|io|ne}}.
+
+===Pronunciation===
+* {{io-IPA}}
+
+===Interjection===
+{{head|io|interjection}}
+
+# [[#English|no]]
+#: {{ant|io|yes}}
+
+==Ingrian==
+
+===Etymology 1===
+Cognate with {{cog|fi|no}} and {{cog|et|no}}. It is uncertain whether this word is natively Finnic or a borrowing from an {{ncog|ine|-}} language (compare {{ncog|ru|ну}} and {{ncog|sv|nå}}).
+
+====Pronunciation====
+* {{izh-p}}
+
+====Interjection====
+{{head|izh|interjection}}
+
+# [[well]]
+#* {{RQ:izh:Lukukirja-1:1936|'''No''' nii, peen - vastajaa Valja.|'''Well''' yes, small - Valja replies.|page=12}}
+
+=====Synonyms=====
+* {{l|izh|nu}}
+
+===Etymology 2===
+{{bor+|izh|ru|но}}.
+
+====Pronunciation====
+* {{izh-p}}
+
+====Conjunction====
+{{head|izh|conjunctions}}
+
+# [[but]]
+#* {{RQ:izh:Geografia-1:1936|'''No''' määmmä tunniin, toisen, a laageria ei oo.|'''But''' we walk for an hour, another, and the camp isn't there.|page=5}}
+
+=====Synonyms=====
+* {{l|izh|mut}}, {{l|izh|vaa}}
+
+=====See also=====
+* {{l|izh|odnako||however}}
+
+===References===
+* {{R:izh:Nirvi:1971|page=343}}
+
+==Interlingua==
+
+===Adverb===
+{{head|ia|adverbs}}
+
+# [[#English|no]]
+#: {{ux|inline=1|ia|'''No''', ille non travalia hodie.|'''No''', he is not working today.}}
+
+===Noun===
+{{ia-noun|s}}
+
+# [[#English|no]]
+#: {{ux|inline=1|ia|Illa time audir un '''no'''.|She is afraid of hearing '''no'''.}}
+
+==Italian==
+
+===Etymology 1===
+{{ety|it|id=particle|:inh|la:nōn}}
+{{inh+|it|la|nōn}}.
+
+====Pronunciation====
+{{it-pr|nò*<audio:It-no.ogg>}}
+
+====Particle====
+{{head|it|particle}}
+
+# {{l|en|no}}
+#: {{ant|it|sì}}
+#: {{ux|inline=1|it|dire di '''no'''|to say '''no'''}}
+
+====Adverb====
+{{it-adv}}
+
+# [[not]]
+#: {{ux|inline=1|it|Vieni o '''no'''?|Are you coming or '''not'''?}}
+#: {{uxi|it|[[perché no|Perché '''no'''?]]|Why '''not'''?}}
+# {{n-g|Used at the end of a sentence as a sort of tag question or to emphasize a statement}}; [[isn't it so]], [[right]]
+#: {{syn|it|nevvero|neh}}
+#: {{ux|inline=1|it|Te l'ho già detto, '''no'''?|I already told you, '''right'''?}}
+
+=====Derived terms=====
+{{col|it
+|nì
+|nossignore
+|sì e no
+|uno sì e uno no
+}}
+
+=====See also=====
+{{col|it
+|non
+}}
+
+===Etymology 2===
+{{ety|it|id=Noh|:bor|ja:能<tr:nō><lit:[performing] [[skill]], [[talent]]>}}
+{{bor+|it|ja|能|tr=nō|lit=[performing] [[skill]], [[talent]]}}.
+
+====Alternative forms====
+* {{alt|it|nō}}
+
+====Pronunciation====
+{{it-pr|nò**<audio:It-no.ogg>}}
+* Unlike the above word, this word may or may not trigger {{w|syntactic gemination}} in the following word.
+
+====Noun====
+{{it-noun|m|#}}
+
+# [[Noh]] {{gloss|a type of Japanese drama}}
+
+===Etymology 3===
+{{ety|it|id=anti-|:bor|en:no}}
+{{bor+|it|en|no}}.
+
+====Pronunciation====
+{{it-pr|nȯ°}}
+* Unlike the above words, this word is unstressed and never triggers {{w|syntactic gemination}} in the following word.
+
+====Determiner====
+{{it-det|inv=1}}
+
+# {{l|en|no}}, [[anti-]]; {{n-g|found in numerous expressions borrowed from English, such as {{m|it|no comment}}, and in [[pseudo-anglicism]]s such as {{m|it|no logo||anti-globalization}} and {{m|it|no-vax||anti-vax}} (also written {{m|it|no vax}})}}
+
+==Jair Awyu==
+
+===Pronoun===
+{{head|awv|pronoun}}
+
+# [[I]]
+
+===References===
+* Randy Lebold, Ronald Kriens and Yunita Susanto , ''A report on the Bamgi, Kia, and Lower Digul River language survey in Papua, Indonesia'' (2013), SIL ''Journal of Language Survey Reports''
+
+==Jamaican Creole==
+
+===Etymology===
+{{der+|jam|en|no}}.
+
+===Pronunciation===
+* {{IPA|jam|/no/}}
+
+===Adverb===
+{{head|jam|adv}}
+
+# [[no]]
+#: {{ux|jam|Im av '''no''' sta.|He has '''no''' sister.}}
+# [[not]]
+#: {{ux|jam|'''No''' fi waant a tong mek kau '''no''' taak.|'''Not''' for want of a tongue that a cow does '''not''' talk.}}
+
+===Verb===
+{{jam-verb}}
+
+# [[don't]], [[doesn't]]
+#: {{ux|jam|Mi '''no''' nuo.|I '''don't''' know.}}
+#: {{ux|jam|Bot dat '''no''' pruuv se wa mi a du rait.|But that '''doesn't''' prove that what I am doing is right.}}
+
+===Further reading===
+* {{R:jam:majstro.com}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{Latn-def|ja|syllable|の|ノ|no}}
+
+==Kalasha==
+
+===Etymology===
+{{inh+|kls|sa|नव|tr=náva}}.
+
+===Numeral===
+{{head|kls|numerals}}
+
+# {{cln|kls|cardinal numbers}} [[nine]]; 9
+
+==Kapampangan==
+
+===Pronunciation===
+* {{pam-IPA|no}}
+* {{hyph|pam|no}}
+
+===Pronoun===
+{{pam-head|pronoun|no}}
+
+# {{alt sp|pam|nala}}
+# {{alt sp|pam|nalu}}
+# {{alt sp|pam|nayu}}
+
+{{pam-personal pronouns}}
+
+===Particle===
+{{head|pam|particle}}
+
+# {{ng|indicates emphasis}}
+#: {{ux|pam|Kuwanan ku'''no'''.|I '''should now''' take '''them'''.}}
+#: {{ux|pam|Kanan ku'''no'''...|I'm gonna eat '''these now'''...}}
+# {{ng|indicates confirmation and clarification in a question, depending on intonation}}
+#: {{syn|pam|na|ne}}
+#: {{ux|pam|Menanu '''no'''?|What is it '''now'''?}}
+#: {{ux|pam|Kayan mu'''no'''?|You '''sure''' you're gonna do it?}}
+
+==Kikuyu==
+
+===Pronunciation===
+* {{IPA|ki|/nɔ/}}
+
+===Particle===
+{{head|ki|particles}}
+
+# (it is) [[only]]<ref>{{R:Benson1964|entry=no}}</ref>
+#: ''{{l|ki|gĩkũrũ kĩega no kĩratina|Gĩkũrũ kĩega '''no''' kĩratina}}.''<ref name="gjw2001">Wanjohi, G. J. (2001). ''Under One Roof: Gĩkũyũ Proverbs Consolidated'', [https://books.google.co.jp/books?id=exNlAAAAMAAJ&q=gikuru+kiega+no+kiratina&dq=gikuru+kiega+no+kiratina&hl=en&sa=X&ved=0ahUKEwjGi8idvqPXAhUEbrwKHfNxBNoQ6AEIJjAA p. 21]. Paulines Publications Africa.</ref> - The '''only''' good old thing '''is''' a [[sausage tree]] fruit (for fermenting [[muratina]]).
+#: ''{{l|ki|mũndũ ũtathiaga oigaga no nyina ũrugaga wega|Mũndũ ũtathiaga oigaga '''no''' nyina ũrugaga wega}}.'' - One who does not travel says '''only''' his/her mother's cooking is good.
+
+===Conjunction===
+{{head|ki|conjunctions}}
+
+# [[but]]<ref name="arb1960">Barlow, A. Ruffell (1960). ''Studies in Kikuyu Grammar and Idiom'', [https://books.google.co.jp/books?id=5ahkAAAAMAAJ&q=no+only+but&dq=no+only+but&hl=en&sa=X&ved=0ahUKEwj385CAmofXAhUKVbwKHZMDAfoQ6AEINDAC pp. 32, 235].</ref>
+#: ''{{l|ki|mĩano ndĩtukanagio no kanua|Mĩano ndĩtukanagio '''no''' kanua}}.'' - The [[diviner]]'s [[gourd]]s do not get confused, '''but''' a mouth does.<ref name="gb1960">Barra, G. (1960). ''1,000 Kikuyu proverbs: with translations and English equivalents'', [https://books.google.co.jp/books?id=q95HAAAAMAAJ&q=miano+nditukanagio+no+kanua&dq=miano+nditukanagio+no+kanua&hl=en&sa=X&ved=0ahUKEwj7793hna7WAhWBVrwKHauLDpUQ6AEIKDAA p. 51]. London: Macmillan.</ref>
+
+===References===
+<references />
+
+==Ladin==
+
+===Etymology===
+{{inh+|lld|la|nōn}}.
+
+===Adverb===
+{{head|lld|adverbs}}
+
+# [[not]]
+# [[#English|no]]
+
+==Ladino==
+
+===Alternative forms===
+* {{alt|lad|non}}
+
+===Etymology===
+{{inh+|lad|osp|no}}, {{m|osp|non||not}}, from {{inh|lad|la|nōn}} (compare {{cog|ca|no}}, {{cog|gl|non}}, {{cog|fr|non}}, {{cog|it|no}}, {{cog|pt|não}}, {{cog|ro|nu}}, {{cog|scn|no}}, {{m|scn|nun}}, & {{cog|es|no}}).
+
+===Pronunciation===
+* {{audio|lad|lad-no.ogg|a=Paris}}
+
+===Adverb===
+{{lad-adv|heb=נו}}
+
+# [[not]]
+#* {{quote-journal|lad
+|journal=Şalom
+|title=El Antisemitizmo De Oy
+|author=Dora Niyego
+|date=2018-2-7
+|url=https://www.salom.com.tr/arsiv/haber/105826/el-antisemitzmo-de-oy
+|passage=Kritikar Israel '''no''' es el antisemitizmo.
+|t=Criticizing Israel is '''not''' antisemitism.}}
+
+===Interjection===
+{{lad-intj|heb=נו}}
+
+# [[no]] {{gl|[[nope]]}}
+#: {{ant|lad|si}}
+#* {{quote-book|lad|author=Miriam Raymond|editor=Matilda Koén-Sarano
+|title=De Saragosa a Yerushaláyim: kuentos sefaradís
+|url=https://books.google.com/books?id=vX_YAAAAMAAJ
+|location=Zaragoza
+|publisher=Ibercaja
+|year=1988|year_published=1995
+|page=67
+|pageurl=https://books.google.com/books?id=vX_YAAAAMAAJ&q=kosta
+|ISBN=84-88793-49-9
+|text='''''No''', sinyor bakal, esto kosta sólo siete!''
+|t='''No''', mister shopkeeper, this costs only seven!}}
+
+===Derived terms===
+{{col|lad|no es koza}}
+
+===References===
+* {{R:lad:Folkmasa}}
+
+==Latin==
+
+===Etymology===
+{{ety|la|title=nō|:inh|itc-pro:*(s)nāō|text=++|tree=1}} Cognate with {{cog|grc|νάω}}.
+
+===Pronunciation===
+* {{la-IPA|nō}}
+
+===Verb===
+{{la-verb|1.nopass|nō|nāv}}
+
+# {{lb|la|intransitive}} to [[swim]]
+#: {{ux|inline=1|la|'''Nat''' lupus inter oves.|The wolf '''swims''' between the sheep.}}
+#: {{ux|inline=1|la|'''Nare''' contra aquam|To '''swim''' against the stream}}
+#: {{ux|inline=1|la|Piger ad '''nandum'''|Slow at '''swimming'''}}
+#: {{ux|inline=1|la|Ars '''nandi'''|The art of '''swimming'''}}
+#* '''1st century BC''', {{w|Lucretius}}, ''De rerum natura'' iii. 479.
+#*: {{quote|la|Cum vini vis penetravit,<br>Consequitur gravitas membrorum, præpediuntur<br>Crura vacillanti, tardescit lingua, madet mens,<br>'''Nant''' oculi, clamor, sigultis, jurgia gliscunt. --
+|translation=When once the force of wine hath inly pierst,<br>Limbes-heavinesse is next, legs faine would goe,<br>But reeling cannot, tongue drawles, mindes disperst,<br>Eyes '''swime''', ciries, hickups, brables grow.}}
+# {{lb|la|intransitive}} to [[float]]
+#: {{syn|la|fluitō}}
+#: {{ux|inline=1|la|Carinae '''nant''' freto.|Ships '''float''' in the sea.}}
+# {{lb|la|poetic|intransitive}} to [[sail]], [[flow]], [[fly]], etc.
+#: {{ux|inline=1|la|Per medium classi barbara '''navit''' Athon.|The barbarian youth '''sailed''' its fleet through the middle of Athos.}}
+#: {{ux|inline=1|la|Undae '''nantes''' refulgent.|The '''flowing''' waves glitter.}}
+
+====Conjugation====
+{{la-conj|1.nopass|nō|nāv}}
+
+====Derived terms====
+{{col|la
+|adnō
+|enō
+|innābilis
+|[[nans|nāns, nantis]]<t:[[swimming]], [[floating]]>
+|[[nans|nāns, nantis]]<t:a [[swimmer]]><g:m>
+|natō
+|trānō
+|nāre sine cortice<t:to do without a guardian><lit:to swim without corks>
+|nāre per aestatem liquidam<t:to [[fly]]><lit:to swim through cloudless summer>
+}}
+
+===References===
+* [https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=no&lang=latin no] in {{cite-book|author=Charlton T. Lewis and Charles Short|title=[[w:A Latin Dictionary|A Latin Dictionary]]|publisher=Clarendon Press|location=Oxford|year=1879}}
+* [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0060:entry=no no] in {{cite-book|author=Charlton T. Lewis|title=An Elementary Latin Dictionary|publisher=Harper & Brothers|location=New York|year=1891}}
+<!--* {{R:M&A}}-->
+
+==Latvian==
+
+===Etymology===
+From {{inh|lv|ine-bsl-pro|*nō|t=on, onto}}, from {{inh|lv|ine-pro|*h₂en-|t=on, onto}}.
+
+===Preposition===
+{{head|lv|prepositions}}
+
+# [[from]]
+#: {{ux|inline=1|lv|skaitīt '''no''' viens līdz desmit|to count '''from''' one to ten}}
+#: {{ux|inline=1|lv|viņš ir '''no''' Latvijas|he is '''from''' Latvia}}
+# [[out of]]
+#: {{ux|inline=1|lv|iziet '''no''' istabas|to go '''out of''' the room}}
+# [[for]]
+# [[of]]
+#: {{ux|inline=1|lv|viens '''no''' viņa draugiem|one '''of''' his friends}}
+#: {{ux|inline=1|lv|izgatavots '''no''' koka|made '''of''' wood}}
+# [[with]]
+#: {{ux|inline=1|lv|'''no''' sirds|'''with''' all one's heart}}
+
+==Lingala==
+
+===Etymology===
+{{bor+|ln|bni|no}}.
+
+===Verb===
+{{head|ln|verb}}
+
+# to [[fall]] (rain), to [[rain]]
+
+==Livonian==
+
+===Etymology===
+Compare {{cog|fi|no}}, {{cog|et|no}}; see the former for more.
+
+===Pronunciation===
+{{liv-p}}
+
+===Interjection===
+{{head|liv|interjection}}
+
+# [[well]]
+
+===References===
+* {{R:liv:LEL|no}}
+
+==Lombard==
+
+===Adverb===
+{{head|lmo|adverbs}}
+
+# {{alternative spelling of|lmo|nò}}
+
+==Louisiana Creole==
+
+===Etymology===
+{{rfe|lou|Probably from French "nous" or a clipping of Louisiana Creole "nouzòt" and/or French "nous autres".}}
+
+===Pronunciation===
+* {{IPA|lou|/no/}}
+* {{rhymes|lou|o|s=1}}
+* {{homophones|lou|nô}}
+
+===Pronoun===
+{{head|lou|pronoun|cat2=personal pronouns}}
+
+# {{alternative form of|lou|nouzòt|t=we, us}}
+
+==Lower Tanana==
+
+===Etymology 1===
+From {{inh|taa|ath-pro|*noˑ}}.
+
+====Alternative forms====
+* {{alter|taa|not}}
+
+====Postposition====
+{{head|taa|postposition}}
+
+# [[sign]] of, [[premonition]] of, [[omen]] of
+# [[recurring]] event of
+
+====Root====
+{{head|taa|root}}
+
+# to [[move]], [[tremble]], [[shake]]; for there to be an [[earthquake]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|dur|no|no'|noɬ|no'}}
+{{taa-stem-set-row|mom|noyh|nonh|noɬ|no'}}
+{{taa-stem-set-row|cust|noyh|noyh|noyh|noyh}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+{{col2|taa
+|sronot<t:early spring>
+|gheno<t:it is shaking>
+|ghini'i<t:maggots, rice>
+|noghenoyi<t:fresh fish>
+|ghedeno<t:he/she labors, is industrious>
+}}
+
+====References====
+* {{Kari24|page=331-332}}
+
+===Etymology 2===
+From {{inh|taa|ath-pro|*naˑʷ}}. Cognate with {{cog|aht|naa}}, {{cog|nv|-NÁ}}.
+
+====Root====
+{{head|taa|root}}
+
+# to [[nomadize]]
+# to [[live]] in or [[occupy]] an area
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|mom|nayh|no|naɬ|naɬ}}
+{{taa-stem-set-row|cont|na'|no|na'|na'}}
+{{taa-stem-set-row|per|nayh|no|nayh|nayh}}
+{{taa-stem-set-row|cust|niyh|niyh|niyh|niyh}}
+{{taa-stem-set-row|neu|no'|no'|no'|no'}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+{{col2|taa
+|ghenaɬna<t:band of people traveling>
+|Ninano'<t:Nenana River>
+|xwnoya<t:gyrfalcon>
+|Ninano' Xwt'ana<t:Nenana River band>
+}}
+
+====References====
+* {{Kari24|page=332-334}}
+
+===Etymology 3===
+From {{inh|taa|ath-pro|*naˑ}}. The cognate root appears in {{cog|aht|ʼelnaa||drudge, slave}}.
+
+====Root====
+{{head|taa|root}}
+
+# to [[capture]], [[work]] for
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row2|neu|{{l|taa|no}}|{{l|taa|no'}}|{{l|taa|noɬ}}|—}}
+{{taa-stem-set-row2|conc|—|{{l|taa|nonh}}|—|—}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+{{col2|taa
+|elno<t:captive, slave>
+}}
+
+====References====
+* {{Kari24|page=329}}
+
+===Etymology 4===
+From {{inh|taa|ath-pro|*ŋaˑ}}, {{m|ath-pro|*ŋeˑ}}. Cognate with {{cog|aht|naa}}.
+
+====Root====
+{{head|taa|root}}
+
+# to become [[depleted]], [[exhausted]]; plural subjects [[die]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|conc|na|nonh|naɬ|naɬ}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+{{col2|taa
+|ndena<t:it is leaking>
+|nena<t:they die one by one>
+}}
+
+====References====
+* {{Kari24|page=330}}
+
+===Etymology 5===
+Related to {{af|taa|no-|t1=across}}.
+
+====Postposition====
+{{head|taa|postposition}}
+
+# {{alternative form of|taa|noda||across}}
+
+====References====
+* {{Kari24|page=336}}
+
+==Luxembourgish==
+
+===Etymology===
+{{etymon|lb|id=near|:inh|gmh:nāh<ety:inh<goh:nāh>>|tree=1|text=++}}
+
+===Pronunciation===
+* {{IPA|lb|/noː/}}
+** {{rhymes|lb|oː|s=1}}
+
+===Preposition===
+{{head|lb|preposition|+ dative}}
+
+# [[after]] (in time)
+# [[after]] (in a sequence)
+# after (the further side of, past)
+# [[according to]]
+# [[to]], [[towards]] (a direction)
+
+====Derived terms====
+* {{l|lb|no an no}}
+
+===Adjective===
+{{lb-adj|sup2=nächsten}}
+
+# [[nearby]], [[near]], [[nigh]]
+#: {{uxa|lb|'''nächsten''' Arrêt|'''next''' stop}}
+# [[close]], [[closely]] [[related]]
+
+====Declension====
+{{lb-decl-adj}}
+
+==Middle Dutch==
+
+===Conjunction===
+{{head|dum|conjunction|head=nō}}
+
+# {{alternative form of|dum|noch}}
+
+===Further reading===
+* {{R:VMNW|ID34382|II}}
+* {{R:MNW|32704|II}}
+
+==Middle English==
+
+===Pronunciation===
+* {{IPA|enm|/nɔː/|}}
+* {{q|early}} {{IPA|enm|/nɑː/}}
+
+===Etymology 1===
+{{inh+|enm|ang|nā,nō|pos=adj}}.
+
+====Alternative forms====
+* {{alter|enm|na}}
+
+====Adjective====
+{{enm-adj}}
+
+# [[#English|no]]
+
+=====Descendants=====
+* {{desc|en|no}}
+* {{desc|yol|na|alts=1}}
+
+=====References=====
+* {{R:MED Online|entry=nō|pos=adj|id=MED29602}}
+
+===Etymology 2===
+{{inh+|enm|ang|nā}}, {{m|ang|nō}}.
+
+====Alternative forms====
+* {{alter|enm|na}}
+
+====Adverb====
+{{enm-adv}}
+
+# [[not]]
+
+=====Descendants=====
+* {{desc|en|no}}
+* {{desc|en-geo|ne}}
+* {{desc|sco|nae}}
+* {{desc|yol|no|alts=1}}
+
+=====References=====
+* {{R:MED Online|entry=nō|pos=adv|id=MED29603}}
+
+==Mizo==
+
+===Etymology 1===
+{{etymid|lus|cup}}
+From {{inh|lus|tbq-kuk-pro|*naw|t=cup}}.
+
+====Noun====
+{{head|lus|noun}}
+
+# [[cup]], [[mug]]
+
+===Etymology 2===
+{{etymid|lus|young}}
+From {{inh|lus|tbq-kuk-pro|*naw|t=young}}.
+
+====Adjective====
+{{lus-adj}}
+
+# [[young]], [[tender]]
+
+=====Related terms=====
+* {{l|lus|nau}}
+
+===Further reading===
+* {{R:lus:Lorrain}}
+
+==Mòcheno==
+
+===Etymology===
+{{root|mhn|ine-pro|*h₂neḱ-}}
+{{inh+|mhn|gmh|nāch}}, from {{inh|mhn|goh|nāh}}. Cognate with {{cog|cim|nå}} and {{cog|de|nach}}; see there for more.
+
+===Preposition===
+{{head|mhn|prepositions}}
+
+# {{lb|mhn|+ dative}} [[after]]
+
+====Derived terms====
+* {{l|mhn|nomitto}}
+
+===References===
+* {{R:CLM}}
+
+==Mokilese==
+
+===Pronunciation===
+* {{IPA|mkj|/ˈno/|[ˈnõ]}}
+
+===Noun===
+{{head|mkj|noun}}
+
+# [[wave]]
+
+====Derived terms====
+{{col|mkj|nohno}}
+
+===References===
+* {{R:mkj:MED|page=172}}
+
+==Nalögo==
+
+===Noun===
+{{head|nlz|noun}}
+
+# [[fish]]
+
+===References===
+* {{R:nlz:Alfarano:2021|page=98}}
+
+{{C|nlz|Fish}}
+
+==Narua==
+
+===Etymology===
+{{inh+|nru|sit-pro|*na-ŋ||you}}.
+
+===Pronoun===
+{{head|nru|pronoun|cat2=personal pronouns}}
+
+# [[you]] {{q|singular}}
+
+====Declension====
+{{rfc|njz|manual inflection table should be moved to a template}}
+{| class="inflection inflection-table"
+! NOM
+| {{l|njz|no}}
+|-
+! ACC
+| {{l|njz|nom}}
+|-
+! DAT
+| {{l|njz|nokégébé}}
+|-
+! ABL
+| {{l|njz|nokélo}}
+|-
+! GEN
+| {{l|njz|noké}}
+|-
+! COM
+| {{l|njz|nolékobé}}
+|}
+
+==Norwegian Bokmål==
+
+===Alternative forms===
+* {{alt|no|nå|nu}}
+
+===Adverb===
+{{head|nb|adverbs}}
+
+# {{lb|nb|obsolete}} [[now]] {{gloss|this very moment}}
+
+====Usage notes====
+Part of the "Nazi reform" of 1941, made during Norwegian occupation by Germany. Almost exclusively used in texts made under occupation, and not generally considered a part of the official Bokmål chronology.
+
+==Norwegian Nynorsk==
+
+===Alternative forms===
+* {{alt|nn|nu|nå||dialectal}}
+
+===Etymology===
+{{inh+|nn|non|núna}}, derived from {{m|non|nú}}.
+
+{{s|interjection}} May be related to Finno-Ugric, like {{m+|fi|-}} and {{cog|et|no}}, {{cog|izh|no}}, {{m+|kpv|но}}, {{m+|udm|но}}. Compare also {{cog|sv|nå}}, {{m+|lv|nu}} and {{m+|ru|ну}}.
+
+===Pronunciation===
+* {{IPA|nn|/nuː/}}
+
+===Noun===
+{{nn-noun-n1}}
+
+# [[moment]]; point in [[time]]
+
+===Adverb===
+{{head|nn|adverbs}}
+
+# [[now]]
+
+====Derived terms====
+* {{l|nn|noverande}}
+
+===Interjection===
+{{head|nn|interjection}}
+
+# used when finding something out; when being irritated
+#* {{quote-book|nn|year=1861|author=w:Aasmund Olavsson Vinje|title=Ferdaminni fraa Sumaren 1860|text=Der maa '''no''' vera nokot smaatt fint Gras imillom, som Femulen finner, for ellers kunde der ikki bu annat Liv enn Reinsdyret.|t=There must be some small fine grass in between for the cattle to find, otherwise no other life than the reindeer could live there.}}
+#* {{quote-book|nn|year=1851|author=w:Ludvig Mathias Lindeman|title=Liti Kjersti og bergekongen<qq:transcription of an oral song>|text=Gakk '''no''' deg i Stova inn|t=Go (you) inside the house}}
+#* Det kan '''no''' faen ikkje stemme at traktor'n var så billeg
+#*: It can't be damn right that the tractor was so cheap
+#* Er det '''no''' sånn at dåkk vil ikkje bli med på fjellturen?
+#*: Is it so, that ya'll don't want to join on the mountain trip?
+#* Eg skulle '''no''' vore på elgjakta no, men i staden for det må eg vera her og rydde.
+#*: I was supposed to be on the moose hunt now, but I must be here and clean up instead.
+#* Kom igjen '''no''' då!
+#*: C'mon!
+#: {{syn|nn|altso|då}}
+
+===References===
+* {{R:nn:OB}}
+
+==Notsi==
+
+===Particle===
+{{head|ncf|particles}}
+
+# {{n-g|plural marker}}
+
+===Further reading===
+* ''Language Complexity: Typology, Contact, Change'', edited by Matti Miestamo, Kaius Sinnemäki, Fred Karlsson
+
+==Old English==
+
+===Etymology===
+{{affix|ang|ne|ā}}
+
+===Pronunciation===
+* {{ang-IPA|nō}}
+* {{rhymes|ang|oː|s=1}}
+
+===Adverb===
+{{ang-adv|nō}}
+
+# {{alternative form of|ang|nā}}
+
+==Old Galician-Portuguese==
+
+===Alternative forms===
+* {{alt|roa-opt|eno|ẽno}}
+
+===Contraction===
+{{head|roa-opt|contraction}}
+
+# {{contraction of|roa-opt|en|o}}
+#* {{quote-book|roa-opt|year=1291|editor=E. Cal Pardo|title=Colección diplomática medieval do arquivo da catedral de Mondoñedo|location=Santiago|publisher=Consello da Cultura Galega|page=79
+|passage=''et disso que despenderan en tres ueces que fora a San Cibrao a pinnorar a balea et a entregala ccc mor. et disso que ennas pinnaças et '''no''' trager da balea metera c mor. et quandor foronon o maestreescola et don Pedro Dias a San Cibrao con quinentos ommes et con xxx a caualo por tomar esta balea aos ommes do infante''
+|t=And he said that he spent, in three times that he went to San Cibrao to pawn the whale and to deliver it, 300 mor.; and he said that in the pinnaces and '''in the''' delivery of the whale he spent 100 mor.; and when the schoolmaster and lord Pedro Dias went to San Cibrao with five hundred peons and 30 mounted men, for seizing the whale from the prince’s men.}}
+
+====Descendants====
+* {{desc|fax|no}}
+* {{desc|gl|no}}
+* {{desc|pt|no}}
+
+===References===
+* {{R:roa-opt:DDGM}}
+
+==Old Irish==
+
+===Conjunction===
+{{head|sga|conjunctions}}
+
+# {{alt sp|sga|nó}}
+
+==Old Occitan==
+
+===Alternative forms===
+* {{alt|pro|non}}
+
+===Etymology===
+{{inh+|pro|la|non}}.
+
+===Adverb===
+{{head|pro|adverbs}}
+
+# [[#English|no]]
+#: {{ant|pro|oc}}
+
+====Descendants====
+* {{desc|oc|non}}
+
+==Old Spanish==
+
+===Alternative forms===
+* {{alt|osp|non}}
+
+===Etymology===
+{{inh+|osp|la|nōn||not}}.
+
+===Adverb===
+{{head|osp|adverb}}
+
+# [[not]]
+#* {{Q|osp|Diego de San Pedro|Cárcel de Amor|151|year=1492|quote=Lo cual yo '''no''' niego, pero atrevime a ello pensando que me harías merced '''no''' segund quien la pedía, mas segund tú, que la haviés de dar|t=I deny this '''not''', but I dared to do it thinking that you would forgive me, '''not''' because of who was asking for forgiveness, but because it is proper of you, who had to do it}}
+
+====Descendants====
+* {{desc|lad|no|נו}}
+* {{desc|es|no}}
+
+===References===
+* {{R:osp:TDMS|358}}
+
+==Pali==
+
+===Alternative forms===
+{{pi-alt}}
+
+===Etymology 1===
+{{inh+|pi|sa|नस्|नः|t=us}}.
+
+====Pronoun====
+{{head|pi|pronoun forms}}
+
+# {{inflection of|pi|ahaṃ||acc//ins//gen//dat|p|t=us}}
+
+===Etymology 2===
+{{inh+|pi|sa|नो|t=and not}}.
+
+====Particle====
+{{pi-particle}}
+
+# surely not
+# indeed not
+
+=====Usage notes=====
+Sometimes reinforced by {{m|pi|na||not}}
+
+=====Derived terms=====
+* {{l|pi|no ce||unless}}
+* {{l|pi|noce||unless}}
+
+===Etymology 3===
+Emphatic form of {{m|pi|nu||then, now}}
+
+====Particle====
+{{pi-particle}}
+
+# indeed, then, now
+
+===References===
+{{R:pi:PTS}}
+
+==Papiamentu==
+
+===Etymology===
+{{ety|pap|:der<conj:and>|pt:não|es:no|kea:nau|text=+|tree=1}}
+
+===Adverb===
+{{head|pap|adverbs}}
+
+# {{l|en|no}}
+# [[not]]
+
+==Plautdietsch==
+
+===Etymology===
+From {{inh|pdt|gml|nâ}}, from {{inh|pdt|osx|nāh}}.
+
+===Preposition===
+{{head|pdt|prep}}
+
+# [[towards]]
+#: {{syn|pdt|opptoo}}
+# [[near]]
+#: {{syn|pdt|dichtbie}}
+# {{q|as a prefix}} [[after]]
+
+====Derived terms====
+* ('''''no''' + däm'') {{l|de|nom|g=m|g2=n}}
+
+====Related terms====
+* {{l|pdt|Noheit|t=vicinity}}
+
+==Polabian==
+{{Wiktionary:Picture dictionary/pox:prep-place}}
+
+===Etymology===
+{{ety|pox|:inh|sla-pro:*na<id:auf>|text=+|tree=1}}
+
+===Pronunciation===
+* {{IPA|pox|/no/}}
+
+===Preposition===
+{{pox-prep|}}
+
+# [[on]]
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=Pl-no.ogg|hh=-no|prz=#|pdg=#|bie=#|krk=#|pod=#|sbl=#|mas=#|pdl=#}}
+
+===Etymology 1===
+{{ety|pl|:clipping|ano<id:particle><ref:{{R:pl:Bańkowski|no II}}>|etydate=19th century<ref:{{R:pl:SJP1900||398|3}}>|id=yeah|tree=+|text=+}} Compare {{cog|cs|no}}, {{cog|szl|no}}, {{cog|sk|no}}.
+
+====Alternative forms====
+* {{alt|pl|ną||Western Kraków|Bochnia|Wadowice|Biecz|Ropczyce|Żywiec|Podhale|Zakopane|Skawa}}
+
+====Interjection====
+{{head|pl|interjection}}
+
+# {{lb|pl|colloquial|or|Podlachia|Drohiczyn|Western Kraków|Kraków|Bochnia|Wadowice|Myślenice|Pisarzowice|Biecz dialect|Ropczyce|Podhale|Zakopane|Rabka-Zdrój}} [[yeah]], [[yep]]
+#: {{syn|pl|ano|tak}}
+
+=====Alternative forms=====
+* {{alt|pl|nu||Far Masovian}}
+
+====Particle====
+{{head|pl|particle}}
+
+# {{ng|used to state the speaker thinks something is obvious and that one should not ponder further}}; [[well]], well [[yeah]]
+# {{ng|used to state that the speaker thinks everything that can be said has been said and would like to finish the topic}}
+# {{lb|pl|colloquial|hedge}} {{ng|expresses uncertainty}}; [[well]]
+# {{lb|pl|usually as a question}} {{ng|used to encourage the conversation partner to give a response}}; [[well]]?
+# {{lb|pl|often extended}} {{ng|used to express surprise, awe, or caution}}
+# {{lb|pl|colloquial|or|Western Kraków|Zebrzydowice}} {{n-g|[[filled pause|Filled pause]], usually connecting a previous sentence}}; [[well]]
+# {{ng|introduces a question, often lightly emotionally charged}}
+# {{ng|used to draw attention to the current situation}}
+
+===Etymology 2===
+{{ety|pl|:clipping|jeno<ref:{{R:pl:Bańkowski|no I}}>|etydate=1749<ref:{{R:pl:SXVII|NO|51617|AW|07.12.2021}}>|id=cmon|tree=+|text=+}} Compare {{cog|szl|no}}.
+
+====Alternative forms====
+* {{alt|pl|ną||Western Kraków|Bochnia|Wadowice|Biecz|Ropczyce|Żywiec|Podhale|Zakopane|Skawa}}
+
+====Particle====
+{{head|pl|particle}}
+
+# {{lb|pl|originally dialectal|Western Kraków|Bochnia|Wadowice|Podegrodzie|Nowy Sącz|Biecz|Ropczyce|Podhale|Zakopane}} {{ng|emphatic particle used with imperatives to speed up a performed action}}; [[c'mon]], [[now]]
+#: {{syn|pl|ano}}
+#: {{ux|pl|'''No''', rusz się! Swiatło jest zielone!|'''C'mon''', move! The light is green!}}
+#* {{quote-book|pl|year=1841|author=Józef Ignacy Kraszewski|title=Szkice obyczajowe i historyczne|page=171|text={{nb...}} wróciwszy z kluczem na posłanie. — Niech mnie licho porwie, jeśli cię puszczę — musisz zostać z nami. — O! figle! '''no'''! '''no'''! daj '''no''' klucza, rzekł śmiejąc się Alexy, daj '''no''', serce, klucza! daj!|t={{nb...}} having returned with the key. "Goddamn it, if I let you go, you'll have to stay with us." "Oh! Jokes! '''Cmon'''! '''Cmon'''! '''Cmon''', give the key!" Alex said laughing. "'''Cmon''', heart, give the key!"}}
+## {{lb|pl|Southern Borderlands|Kamianets-Podilskyi}} {{ng|used to urge a horse}}; [[hyah]]!
+# {{lb|pl|Masurian|Western Kraków}} {{syn of|pl|jeno}}
+
+=====Derived terms=====
+{{col|pl|title=particle|no ba}}
+
+===Trivia===
+{{pl-freq 1990|3|0|7|106|484|600|76|293|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SGP1900||330|3}}
+* {{R:pl:NFJP}}
+* {{R:pl:Saloni:1908||342}}
+
+==Portuguese==
+
+===Pronunciation===
+{{pt-IPA}}
+* {{audio|pt|LL-Q5146 (por)-JnpoJuwan-no.wav|a=<<Brazil>> (<<São Paulo>>)}}
+* {{audio|pt|LL-Q5146 (por)-Santamarcanda-no.wav|a=<<Portugal>> (<<Porto>>)}}
+* {{hyph|pt|no}}
+
+===Etymology 1===
+{{inh+|pt|roa-opt|no}}, clipping of {{m|roa-opt|eno}}, from {{m|roa-opt|en||in}} + {{m|roa-opt|o||the}}.
+
+====Contraction====
+{{pt-contr-adj}}
+
+# {{senseid|pt|em o}} {{contraction of|pt|em|o|lit=[[in]] [[the]], [[on]] the}}
+#* {{quote-book|pt|year=2003|author=w:J. K. Rowling; w:Lia Wyler|title=Harry Potter e a Ordem da Fênix|publisher=Rocco|page=546
+|passage=Está na hora de testarmos os nossos talentos '''no''' mundo real, você não acha?|t=It's time to test our talents '''in the''' real world, don't you think?}}
+
+=====Quotations=====
+{{see citations|pt}}
+
+===Etymology 2===
+
+====Pronoun====
+{{head|pt|pronoun forms}}
+
+# {{senseid|pt|pronoun}} {{pt-pronoun-with-n|m|sg}}
+#: {{ux|pt|Eles removeram-'''no''' do grupo devido a mau comportamento da sua parte.|They removed '''him''' from the group due to bad behavior on his behalf.}}
+#: {{ux|pt|Costumava estar aqui um copo, mas eles partiram-'''no''' quando cá estiveram.|There used to be a glass here, but they broke '''it''' when they were here.}}
+
+=====Quotations=====
+{{see citations|pt}}
+
+==Rohingya==
+{{cardinalbox|rhg|8|9|10|añcto|doc}}
+
+===Alternative forms===
+* {{l|rhg|𐴕𐴡}} - {{w|Hanifi Rohingya script}}
+
+===Etymology===
+{{der+|rhg|sa|नव|t=nine|tr=náva}}.
+
+===Numeral===
+{{head|rhg|numeral|Hanifi spelling|𐴕𐴡}}
+
+# [[nine]]
+
+{{cln|rhg|cardinal numbers}}
+
+==Romanian==
+
+===Etymology===
+Related to (or derived from) the {{cog|gmw-tsx|-}} cognate of {{m+|de|na}}?
+
+===Pronunciation===
+* {{IPA|ro|/nɔ(ː)/|/no/}}
+
+===Interjection===
+{{head|ro|interjection}}
+
+# {{lb|ro|Transylvania}} [[well]], [[so]]
+
+==Sakao==
+
+===Noun===
+{{head|sku|noun}}
+
+# [[turtle]]
+
+===References===
+* Benjamin Touati, ''Description du sakao, langue océanienne du nord-est Santo (Vanuatu)'' (2014)
+* Darrell T. Tryon, ''New Hebrides languages: an internal classification'' (1976)
+* J. B. M. Guy, ''A grammar of the northern dialect of Sakao'' (1974)
+
+==Scottish Gaelic==
+
+===Alternative forms===
+* {{alter|gd|neo|na|nà}}
+
+===Etymology===
+{{inh+|gd|sga|nó}}, {{m|sga|nú}}, from {{inh|gd|cel-pro|*nowe}} (compare {{cog|cy|neu}} and {{cog|obt|nou}}).
+
+===Pronunciation===
+* {{IPA|gd|/na/|/nɔ/|ref2={{R:gd:Oftedal}} !!! {{R:gd:Borgstrom1937}} !!! {{R:gd:Wentworth:2003}}}}
+* {{hyph|gd|no}}
+
+===Conjunction===
+{{head|gd|conjunctions}}
+
+# [[or]]
+# [[nor]]
+# [[neither]]
+
+====Related terms====
+* {{l|gd|air neo}}, {{l|gd|air dheadh}}, {{l|gd|deadh}}
+
+===References===
+{{reflist|size=smaller}}
+
+==Serbo-Croatian==
+
+===Etymology 1===
+{{inh+|sh|sla-pro|*nъ}}, ({{cog|ru|но}}, {{m|ru|ну}}), from {{der|sh|ine-bsl-pro|*nu}} ({{cog|lt|nu}}), from {{der|sh|ine-pro|*nu|t=now}}, ({{cog|la|nunc|nun-c}}, {{cog|grc|νῦν}}).
+
+====Pronunciation====
+* {{sh-IPA|no}}
+
+====Conjunction====
+{{sh-con}}
+
+# {{lb|sh|after a comparative|regional|dated|expressive}} [[than]] (={{l|sh|nȅgo}}, {{l|sh|ȍd}})
+#: {{coi|sh|bolji '''no''' on|better '''than''' him}}
+#: → (= modern) {{coi|sh|bolji nego on/bolji od njega|better than him}}
+#: {{uxi|sh|Izgledaš bolje '''no''' ikad.|You're looking better '''than''' ever.}}
+#: {{uxi|sh|Proračunski manjak Grčke u bio je značajno veći '''no''' što je vlada proc(ij)enila.|Greece's budget deficit was significantly bigger '''than''' the government had estimated.}}
+# {{lb|sh|denoting exclusion}} [[but]], [[however]]
+#: {{uxi|sh|Pogrešno, '''no''' bio si dosta blizu.|Wrong, '''but''' you were pretty close.}}
+#: {{uxi|sh|'''No''' os(j)ećam samo sreću.|'''But''' I can't feel anything but happy.}}
+#: {{uxi|sh|Tekst nije savršen, '''no''' nije li mogao biti bolji?|The text is not perfect, '''but''' could it have been better?}}
+
+===Etymology 2===
+{{der+|sh|ja|能|tr=nō}}.
+
+====Pronunciation====
+* {{sh-IPA|nȏ}}
+
+====Noun====
+{{sh-noun|nȏ|m}}
+
+# {{lb|sh|theater}} [[noh]] {{attn|sh|please check [12:01, 16 December 2017 (UTC)]}}
+
+===Etymology 3===
+From the conjunction {{m|sh|no}}.
+
+====Pronunciation====
+* {{sh-IPA|no}}
+
+====Particle====
+{{sh-pcl}}
+
+# {{lb|sh|in a dialog, when responding to the interlocutor}} [[damn right]]!, [[you bet]]! very much so!
+
+===References===
+* {{R:sh:HJP|eF1uURU%3D}}
+* {{R:sh:HJP|eF1uURM%3D}}
+* {{R:sh:HJP|eF1uURY%3D}}
+
+==Shabo==
+
+===Verb===
+{{head|sbf|verbs}}
+
+# [[go]]
+
+==Siane==
+
+===Noun===
+{{head|snp|nouns}}
+
+# [[water]]
+
+===References===
+* ''The Papuan Languages of New Guinea'' (1986, {{ISBN|0521286212}})
+
+{{C|snp|Water}}
+
+==Silesian==
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Other forms===
+[[Nů]] (Also spelt ''Nō'')
+
+===Etymology 1===
+{{ety|szl|id=well|:clipping|ano|text=+|tree=1}} Compare {{cog|pl|no}}.
+
+====Particle====
+{{head|szl|particle}}
+
+# {{n-g|used to state the speaker thinks something is obvious and that one should not ponder further}}; [[well]], well [[yeah]]
+# {{lb|szl|usually as a question}} {{n-g|used to encourage the conversation partner to give a response}}; [[well]]?
+
+===Etymology 2===
+{{ety|szl|id=c'mon|:clipping|ino|text=+|tree=1}} Compare {{cog|pl|no}}.
+
+====Particle====
+{{head|szl|particle}}
+
+# {{n-g|emphatic particle used with imperatives to speed up a performed action}}; [[c'mon]], [[now]]
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Spanish==
+
+===Etymology 1===
+{{inh+|es|osp|no}}, {{m|osp|non}}, from {{inh|es|la|nōn}} (compare {{cog|ca|no}}, {{cog|gl|non}}, {{cog|fr|non}}, {{cog|it|no}}, {{cog|pt|não}}, {{cog|ro|nu}}, {{cog|scn|no}}/{{m|scn|nun}}).
+
+====Pronunciation====
+{{es-pr}}
+
+====Adverb====
+{{es-adv}}
+
+# [[not]]
+
+=====Alternative forms=====
+* {{alt|es|non||archaic}}
+
+=====Derived terms=====
+{{col|es|de no<ll:Ecuador>
+|anda que no
+|cómo no
+|cuando no
+|no más
+|no ni na
+|no obstante
+|quieras que no
+|si no
+|sí y no
+|y que no
+|ya no
+}}
+
+====Interjection====
+{{head|es|interjection|head=¿no?}}
+
+# {{l|en|no}}
+#: {{ant|es|sí}}
+# [[eh]]?, [[right]]?, [[isn't it]]? {{gloss|used as a tag question, to emphasise what precedes, or to request that the listener express an opinion}}
+
+=====Derived terms=====
+{{col|es|nonada}}
+
+====Noun====
+{{es-noun|m|noes}}
+
+# {{l|en|no}}
+
+===Etymology 2===
+Contracted form of {{der|es|la|numero}}, ablative singular of {{m|la|numerus||number}}.
+
+====Pronunciation====
+{{es-pr|número}}
+
+====Noun====
+{{es-noun|m}}
+
+# {{abbreviation of|es|número}}; [[no.]]
+
+=====Alternative forms=====
+* {{alt|es|№|No.|no.}}
+
+===Further reading===
+* {{R:es:DRAE}}
+* {{R:es:DA}}
+
+==Sranan Tongo==
+
+===Etymology===
+From {{der|srn|en|no}}. For the sense "(more) than", possibly compare dialectical {{noncog|en|nor||than}}.
+
+===Pronunciation===
+* {{srn-IPA}}
+
+===Adverb===
+{{head|srn|adverbs}}
+
+# [[#English|no]]
+# [[not]]
+
+===Particle===
+{{head|srn|particle}}
+
+# {{n-g|Used to construct comparative phrases involving a non-human standard}}<ref>
+{{cite-thesis|page=76-77
+|author=Jacques Arends
+|title=Syntactic Developments in Sranan
+|year=1989
+|url=https://www.dbnl.org/tekst/aren012synt01_01/aren012synt01_01_0005.php}}</ref>
+#: {{ux|srn|A nyan switi '''no''' todo.|lit=The food is tasti'''er than''' a toad|The food is delicious.}}
+#: {{ux|srn|A waran '''no''' hèl.|lit=It's hot'''ter than''' hell|It's awfully hot.}}
+
+===References===
+<references/>
+
+==Tagalog==
+
+===Particle===
+{{tl-head|particle|b=+}}
+
+# {{alt sp|tl|'no}}
+
+===Anagrams===
+* {{anagrams|tl|a=no|on}}
+
+==Tok Pisin==
+
+===Etymology===
+{{inh+|tpi|en|no}}.
+
+===Adverb===
+{{head|tpi|adverbs}}
+
+# [[not]]
+#* {{RQ:Buk Baibel|Jenesis|2|5|passage=...i no gat diwai na gras samting i kamap long graun yet, long wanem, em i '''no''' salim ren i kam daun yet. Na i no gat man bilong wokim gaden.|5=...and no tree or kind of herb had appeared on the earth yet, because he had '''not''' sent rain to come down yet. And there was no one to work the garden.}}
+
+====Derived terms====
+* {{l|tpi|nogat}}
+
+==Vietnamese==
+
+===Etymology===
+{{inh+|vi|mkh-vie-pro|*ɗɔː|t=[[satiated]]}}. Cognate with {{cog|mtq|-}} Bi {{m|mtq|đo}} and {{cog|aem||dɑː}}.
+
+===Pronunciation===
+{{vi-IPA}}
+
+===Adjective===
+{{vi-adj|[[奴]], [[𩛂]]}}
+
+# [[full]] {{gloss|of the stomach}}
+#: {{syn|vi|no bụng}}
+#: {{ant|vi|đói}}
+#: {{ux|vi|Đang '''no'''.|I'm '''full'''.}}
+#: {{ux|vi|'''No''' bụng rồi.|My stomach's '''full'''.}}
+# {{lb|vi|archaic}} [[full]]; [[complete]]
+# {{lb|vi|chemistry|of a [[solution]]}} [[saturated]]
+# {{lb|vi|chemistry|of an [[organic compound]]}} [[saturated]]
+
+====Usage notes====
+* In modern usages, ''no'' only refers to the stomach being full, or by extension, a person having had enough to eat.
+
+====Derived terms====
+{{col3|vi|no nê|no ấm|ấm no|không no|no đủ|no say|no đòn|no bụng đói con mắt|ăn no ngủ kĩ}}
+
+==Votic==
+
+===Pronunciation===
+{{vot-p|J=+|C=+|E=+}}
+
+===Etymology 1===
+{{etymid|vot|well}}
+{{rfe|vot}} Cognate with {{cog|fi|no}} and {{cog|izh|no}}.
+
+====Interjection====
+{{head|vot|interjections}}
+
+# [[well]]
+
+===Etymology 2===
+{{etymid|vot|but}}
+Borrowed from {{bor|vot|ru|но}}.
+
+====Conjunction====
+{{head|vot|conjunctions}}
+
+# [[but]] {{gloss|when serving to contrast}}
+
+===References===
+* {{R:vot:VKS|no}}
+
+==Walloon==
+
+===Etymology===
+{{etymon|wa|:inh|fro:nom}}
+{{inh+|wa|fro|nom}}, from {{inh|wa|la|nōmen|t=name}}, from {{inh|wa|ine-pro|*h₁nómn̥}}.
+
+===Pronunciation===
+* {{IPA|wa|/nɔ/}}
+
+===Noun===
+{{wa-noun|m}}
+
+# [[name]]
+
+==West Frisian==
+
+===Etymology===
+From {{inh|fy|ofs|nū}}, from {{inh|fy|gmw-pro|*nū}}, from {{inh|fy|gem-pro|*nu}}, from {{inh|fy|ine-pro|*nū|t=now}}.
+
+===Adverb===
+{{head|fy|adverbs}}
+
+# [[now]]
+
+====Derived terms====
+* {{l|fy|notiid}}
+
+====Further reading====
+* {{R:WFT|67431}}
+
+===Interjection===
+{{head|fy|interjection}}
+
+# [[eh]], [[isn't it]], [[true]] (at end of declarative sentence, forms question to prompt listener's agreement)
+
+====Further reading====
+* {{R:WFT|67431}}
+
+==White Hmong==
+
+===Pronunciation===
+{{mww-pron}}
+
+===Etymology 1===
+{{inh+|mww|hmx-pro|*ʔnu̯ɔmH|t=cold}}.<ref name=Ratliff>{{R:hmx-pro:Ratliff 2010|page=277}}</ref>
+
+====Adjective====
+{{head|mww|adj}}
+
+# {{lb|mww|of [[weather]]}} [[cold]]
+#: {{uxi|mww|No no li.|It's cold.}}
+
+=====Derived terms=====
+{{col2|mww
+|tsho tiv no<t:sweater, warm jacket>
+}}
+
+===Etymology 2===
+{{inh+|mww|hmx-pro|*ʔneinX|t=this}}.<ref name=Ratliff />
+
+====Determiner====
+{{head|mww|determiner}}
+
+# ''an [[indicator]] of [[current]] or [[present]] [[location]]: [[this]] ([[place]], [[time]], [[person]], [[thing]])''
+#: {{uxi|mww|lub tsev no|this house}}
+
+=====Derived terms=====
+{{col2|mww
+|hnub no<t:today>
+}}
+
+===References===
+* {{R:mww:Heimbach|page=141}}
+<references />
+
+==Xârâgurè==
+
+===Etymology===
+From {{inh|axx|poz-oce-pro|*niuʀ}}, from {{inh|axx|pqe-pro|*niuʀ}}, from {{inh|axx|poz-cet-pro|*niuʀ}}, from {{inh|axx|poz-pro|*niuʀ}}.
+
+===Noun===
+{{head|axx|noun}}
+
+# [[coconut]] {{qualifier|fruit of coco palm}}
+
+===References===
+* {{R:axx:CMF|page=93}}
+
+{{C|axx|Nuts|Polynesian canoe plants|Trees}}
+
+==Yola==
+
+===Etymology 1===
+{{inh+|yol|enm|no|no, na}}, from {{inh|yol|ang|nā}}.
+
+====Alternative forms====
+* {{alter|yol|na}}
+
+====Pronunciation====
+* {{IPA|yol|/nɔː/|/naː/}}
+
+====Adverb====
+{{head|yol|adverbs}}
+
+# [[not]]
+#* '''1867''', “GLOSSARY OF THE DIALECT OF FORTH AND BARGY“, page 32:<ref name="Poole 1867">{{R:Poole 1867|page=32, &c.}}</ref>
+#*: {{quote|yol|Aamezil cou '''no''' stoane.|Themselves could '''not''' stand.}}
+#* {{quote-book|yol|year=1867|page=90|chapter=A YOLA ZONG|number=14|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Outh o'mee hoane ch'ull '''no''' part wi' Wathere.|translation=Out of my hand I'll '''not''' part with Walter.}}
+#* {{quote-book|yol|year=1867|chapter=SONG|number=2|page=108|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Hea had '''no''' much wut,|translation=He had '''not''' much wit,}}
+
+=====Derived terms=====
+* {{l|yol|canna}}
+* {{l|yol|dinna}}
+
+===Etymology 2===
+
+====Determiner====
+{{head|yol|determiners}}
+
+# {{alt form|yol|na}}
+#* {{quote-book|yol|year=1927|chapter=ZONG O DHREE YOLA MYTHENS|line=3 <ref name="Browne 1927">{{R:Browne 1927|page=129}}</ref>|title=THE ANCIENT DIALECT OF THE BARONIES OF FORTH AND BARGY, COUNTY WEXFORD|passage=Vo '''no''' own caars.|translation=Whom '''no''' one cares.}}
+
+===References===
+<references/>
+
+==Zazaki==
+
+===Pronoun===
+{{head|zza|pronouns|masculine demonstrative}}
+
+# [[this]]

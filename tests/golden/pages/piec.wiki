@@ -1,0 +1,328 @@
+{{also|Piec|pięć}}
+==Kashubian==
+
+===Pronunciation===
+{{csb-pr}}
+
+===Etymology 1===
+{{etymon|csb|id=oven|:inh|sla-pro:*pȅťь|tree=+|text=+}}
+
+====Noun====
+{{csb-noun|m-in|dim=piéck|adj=piecowi}}
+
+# [[stove]], [[furnace]] {{gl|device that produces high temperatures, used for heating rooms and for cooking, especially baking bread}}
+# [[oven]]; [[furnace]] {{gl|industrial device used for thermal treatment of materials in technological processes requiring very high temperatures}}
+
+=====Declension=====
+{{csb-decl-noun|piec|pieca|piecowi|piec|piecã|piecu|piecu|piece|pieców|piecóm|piece|piecama|piecach|piece}}
+
+===Etymology 2===
+{{etymon|csb|id=bake|:inh|sla-pro:*peťì|tree=+|text=+}}
+
+====Verb====
+{{csb-verb|impf}}
+
+# {{lb|csb|transitive}} to [[bake]] {{gl|to subject to high temperatures in an oven, on a grill etc., in order to produce or prepare a food to eat}}
+# {{lb|csb|transitive}} to [[fry]] {{gl|to prepare a product for consumption by exposing it to very hot fat}}
+#: {{syn|csb|brunic|prażëc}}
+# {{lb|csb|transitive|metaphorically|of e.g. the sun}} to [[bake]] {{gl|to heat strongly}}
+# {{lb|csb|reflexive-sã}} to [[bake]]; to be [[bake]]d {{gl|to be subjected to high temperatures in an oven or on a grill}}
+
+=====Derived terms=====
+{{csb-derived verbs
+|*piec/-
+|na
+|ù
+|*piec/piekac
+|do
+|ò
+|pòd
+|pò
+|prze
+|przë
+|s
+|wë}}
+
+===Further reading===
+* {{R:csb:Treder:1993|piec 1}}
+* {{R:csb:Treder:1993|piec 2}}
+* {{R:csb:Sychta:1967|ṕec|244|4}}
+* {{R:csb:Sychta:1967|ṕec, ṕec są|245|4}}
+* {{R:csb:Trepczyk:1994|piec}}
+* {{R:csb:Trepczyk:1994|piec (się)}}
+* {{R:csb:SPK|piec I}}
+* {{R:csb:SPK|piec II}}
+* {{R:csb:SPK|piec (się)}}
+* {{R:csb:ISKJ|piec I|10077}}
+* {{R:csb:ISKJ|piec II|10079}}
+
+{{C|csb|Baking|Cooking|Home appliances}}
+
+==Ladin==
+
+===Etymology===
+From {{inh|lld|la|peior}}.
+
+===Adjective===
+{{head|lld|adjective}}
+
+# {{comparative of|lld|mel}}: [[worse]]
+#: {{ant|lld|miec}}
+
+==Old Polish==
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Etymology 1===
+{{etymon|zlw-opl|id=oven|:inh|sla-pro:*pȅťь|tree=+|text=+}} {{etydate|14th century}}.
+
+====Noun====
+{{zlw-opl-noun|m-in|dim=piecyk|adj=piecowy}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Masovia|Greater Poland}} [[oven]]; [[furnace]] {{gl|device in which a fire is burned to obtain a high temperature; often specialized for various things}}
+#* {{RQ:zlw-opl:Gn|174b|A s te to gisthe gory gestcy barszo veliky diim setl byl, tako gakoby s '''pecza''' gorøczego ogzen|A z te to jiste gory jestci barzo wieliki dym szedł był, tako jakoby z '''pieca''' gorącego ogień|-}}
+#* {{RQ:zlw-opl:Fl|20, 9|Poloszisz ie iaco ogenny '''pecz''' w brzemø oblicza twego|Położysz je jako ogienny '''piec''' w brzemię oblicza twego|-}}
+#* {{RQ:zlw-opl:SKJ|III|192|1400|Jako prawye panu Spithcowi, woyewodze, nye obyanzal yesm sye dacz za wyny drew we dwa '''pyecza''' wappna szedz|Jako prawie panu Spytkowi, wojewodzie, nie obiązał jeśm sie dać za winy drew we dwa '''pieca''' wapna żec|-}}
+#* {{RQ:zlw-opl:KsMaz|I|258|1403|Cszom vczinil Margorzacze, tom vczinil za iey poczøtkem, kedi mø s '''pecza''' pchala|Csom uczynił Margorzacie, tom uczynił za jej początkiem, kiedy mię z '''pieca''' pchała|-}}
+#* {{RQ:zlw-opl:R|XXIV|81|c. 1420|Fenum agri, quod hodie est et cras in clibanum, w komin albo w '''pecz''', mititur|Fenum agri, quod hodie est et cras in clibanum, w komin albo w '''piec''', mititur|-}}
+#* {{RQ:zlw-opl:Kościan|1072|1424|Jaco kyedim ssą prowadzyl s grodu, tedym tam nye poschcodzy[ł] przantraw, '''pyeczew''', canycz, tako dobrich yaco centum marce|Jako kiedym się prowadził s grodu, tedym tam nie poszkodzi[ł] przętrow, '''piecew''', kanic, tako dobrych jako centum marce|-}}
+#* {{RQ:zlw-opl:TymProc|241|1436|Prefato kmethoni{{...}} Paulus bovem sibi non dedit, sed solum vitulum unius anni stantem post fornacem al. czelą za '''piecem'''|Prefato kmethoni{{...}} Paulus bovem sibi non dedit, sed solum vitulum unius anni stantem post fornacem al. cielę za '''pyeczem'''|-}}
+#* {{RQ:zlw-opl:MonIur|II|86|1450|Quicunque de sectoribus {{...}} aliquos labores, fornaces dictas '''pecze'''{{...}} habere et possidere debeant iure hereditario|Quicunque de sectoribus {{...}} aliquos labores, fornaces dictas '''piece'''{{...}} habere et possidere debeant iure hereditario|-}}
+#* {{RQ:zlw-opl:JA|XIV|489|c. 1455|Pyaszeczny '''pyecz''' cunotiboria|Piaseczny '''piec''' cunotiboria|-}}
+#* {{RQ:zlw-opl:BZ|Lev|26, 26|Tak ze dzeszøcz zon pyecz bødø w yednem '''pyeczv''' chlebi|Tak że dziesięć żon piec będą w jednem '''piecu''' chleby|-}}
+#* {{RQ:zlw-opl:BZ|Dan|3, 6|W tøsz godzinø wrzvczon bødze w '''pyecz''' ognya gorøcego|W tąż godzinę wrzucon będzie w '''piec''' ognia gorącego|-}}
+#* {{RQ:zlw-opl:Rost|252|1472|'''Pyecz''' fornax|'''Piec''' fornax|-}}
+#* {{RQ:zlw-opl:ZapWarsz|3080|1472|Jakom ya przischethwschi sszamotrzecz gwaltem do '''pyecza''' szmoli na gimyenyv Zvzeli nye zabilem czlowyeka|Jakom ja przyszedwszy samotrzeć gwałtem do '''pieca''' smoły na jimieniu Zuzeli nie zabiłem człowieka|-}}
+#* {{RQ:zlw-opl:SprTNW|VIII|2, 41|1479|Kmyecza xanzego od '''pyecza''' smolnego sbvdowanego{{...}} nye odebral|Kmiecia księżego od '''pieca''' smolnego zbudowanego{{...}} nie odebrał|-}}
+#* {{RQ:zlw-opl:WokLub|29r|c. 1500|Clibanus id est fornax vel cumulus feni '''pyecz''' albo stog szan[y]ą|Clibanus id est fornax vel cumulus feni '''piec''' albo stog siana|-}}
+#* {{RQ:zlw-opl:WokLub|53v|c. 1500|Fornax eyn ofen et dicitur a fos quod est ignis '''pyecz'''|Fornax eyn ofen et dicitur a fos quod est ignis '''piec'''|-}}
+#* {{RQ:zlw-opl:WokLub|55v|c. 1500|Furnus id est clybanus eyn backofen vel est idem quod niger pyekarsky '''pyecz''' vel nadvorny '''pyecz'''|Furnus id est clybanus eyn backofen vel est idem quod niger piekarski '''piec''' vel nadworny '''piec'''|-}}
+
+=====Declension=====
+{{zlw-opl-decl-noun
+|piec|-|-
+|pieca|-|piecew
+|-|-|-
+|piec|pieca|piece
+|piecem|-|-
+|piecu|-|-
+|-|-|-}}
+
+=====Derived terms=====
+{{col|zlw-opl|title=nouns|piec pkielny}}
+{{col|zlw-opl|title=proper nouns|Piecak|Piecan|Piecczyn|Pieczechowic|Piecek|Piecka|Piecna|Piecuch|Piecych}}
+
+=====Related terms=====
+{{col|zlw-opl|title=proper nouns|Pieckowic|Pieckowski|Piecyk|Pieczynica|Pieczyński|Piecysz}}
+
+=====Descendants=====
+* {{desctree|pl|piec|id=oven}}
+* {{desc|szl|piec}}
+
+===Etymology 2===
+{{etymon|zlw-opl|id=bake|:inh|sla-pro:*peťì|tree=+|text=+}} {{etydate|15th century}}.
+
+====Verb====
+{{zlw-opl-verb|impf}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Greater Poland|transitive}} to [[bake]] {{gl|to expose food to fire or heat}}
+#* {{RQ:zlw-opl:BZ|Ex|12, 8|A *bodø geszcz myøsso tey noczi '''pyeczyone''' w ognyy|A będą jeść mięso tej nocy '''pieczone''' w ogniu|-}}
+#* {{RQ:zlw-opl:BZ|Ex|12, 9|Nye bødzeczye nyczs surowego geszcz any uwarzonego w wodzye, alye gedno '''pyeczone''' w ognyu|Nie będziecie nic surowego jeść ani uwarzonego w wodzie, ale jedno '''pieczone''' w ogniu|-}}
+#* {{RQ:zlw-opl:BZ|Lev|7, 12|Bøødzyeli za dzøkowanye obyata albo offyara, offyerowacz bødø chlebi przes kwassv{{...}} a '''pyeczonøø''' byalkø|Będzieli za dziękowanie obiata albo ofiara, ofierować b ędą chleby przez kwasy{{...}} a '''pieczoną''' białkę|-}}
+#* {{RQ:zlw-opl:BZ|Lev|26, 26|Tak ze dzeszøcz zon '''pyecz''' bødø w yednem pyeczv chlebi|Tak że dziesięć żon '''piec''' będą w jednem piecu chleby|-}}
+#* {{RQ:zlw-opl:BZ|I Par|16, 3|Rozdzelyl{{...}} czøscz myøsa '''pyeczonego''' bawolowego|Rozdzielił{{...}} część mięsa '''pieczonego''' bawołowego|-}}
+#* {{RQ:zlw-opl:Park|404|Pech '''pecze''' peceną|Pech '''piecze''' pieczenia|-}}
+#* {{RQ:zlw-opl:Kałużn|276|XV p. post.|Igne decoquitur '''pyecze'''|Igne decoquitur '''piecze'''|-}}
+#* {{RQ:zlw-opl:WokLub|101r|c. 1500|Pinsere id est pistare panem facere backen chleb '''pyecz'''|Pinsere id est pistare panem facere backen chleb '''piec'''|-}}
+
+=====Derived terms=====
+{{col|zlw-opl|title=nouns|pieczanie|pieczenia|pieczeń|piekarz|piekuta}}
+{{col|zlw-opl|title=proper nouns|Pieczarka|Pieczona|Pieczony|Pieczychostka|Pieczychwostski|Pieczygroch|Pieczygrochowic|Pieczykabat|Pieczykotczyna|Pieczykurek|Pieczymleko|Pieczymucha}}
+{{zlw-opl-derived verbs|-/piekać
+|*piec/-
+|przy
+|s
+|u
+|*pice/piekać
+|za}}
+
+=====Related terms=====
+{{col|zlw-opl|title=adjectives|bezpieczny|nieprzezpieczny|pieczliwy|przepieczny|przezpieczny|nieprzepiekły|opiekadlny|piekarski}}
+{{col|zlw-opl|title=adverbs|bezpiecznie|nieprzezpieczno|przezpiecznie|przezpieczno}}
+{{col|zlw-opl|title=nouns|nieprzezpieczeństwo|nieprzezpieczność|piecza|pieczałowanie|pieczęć|pieczołowanie|pecyna|przezpiecznoć|przezpieczność|przezpieczstwo|uprzezpieczenie|zapieczętanie|opieka| opiekadlnictwo|opiekadlnik|opiekanie|opiekun|opiekunka|opiekuństwo|piekanie|piekarcze|piekarka|piekarne|piekarnia|piekarzowa|piekarzyk}}
+{{col|zlw-opl|title=proper nouns|Piecz|Piecza|Pieczeniaski|Pieczeniecki|Pieczonczyn|Pieczonka|Pieczonkowic}}
+{{zlw-opl-derived verbs|-/pieczałować|-/pieczołować|-/przezpieczać|uprzezpieczyć/uprzezpieczać|zapieczętać/-|zapieczętować/-}}
+
+=====Descendants=====
+* {{desc|pl|piec|id=bake|alts=1}}
+* {{desc|szl|piyc}}
+
+===References===
+* {{R:pl:Boryś|piec I-II}}
+* {{R:pl:Mańczak|piec I-II}}
+* {{R:pl:Bańkowski|piec 1-2}}
+* {{R:pl:Bruckner}}
+* {{R:zlw-opl:SSP1953|piec 1-2|84|6}}
+* {{R:zlw-opl:SPJSP|1. piec|10025}}
+* {{R:zlw-opl:SPJSP|2. piec|10026}}
+* {{R:zlw-opl:BLŚP|1. piec|2062}}
+* {{R:zlw-opl:BLŚP|2. piec|2063}}
+* {{R:zlw-opl:Rozariusze|1. piec|2062}}
+* {{R:zlw-opl:Rozariusze|2. piec|2063}}
+
+{{C|zlw-opl|Baking|Cooking|Home appliances}}
+
+==Polish==
+{{wp|pl:}}
+{{img
+|image1=Liisi talu elamu interjöör Ruhnul.JPG|caption1={{l|pl|piec}} {{senseno|pl|household}}
+|image2=Furnace8.jpg|caption2={{l|pl|piec}}  {{senseno|pl|industrial}}
+|image3=KL Stutthof piec ceglany.jpg|caption3={{l|pl|piec}} {{senseno|pl|cremation}}
+|image4=Peavey Classic 30 amp.jpg|caption4={{l|pl|piec}} {{senseno|pl|music}}
+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-piec.ogg<text:#>;LL-Q809 (pol)-Olaf-piec się.wav<text:~>|hh=Piec|mp=#|nbl=#|MB=#|koc=#|CGP=#|zag=#}}
+
+===Etymology 1===
+{{etymon|pl|id=oven|:inh|zlw-opl:piec<id:oven><t:oven>|tree=+|text=+}}
+
+====Noun====
+{{pl-noun|m-in|dim=piecyk|dim2=piecek<q:dialectal>|adj=piecowy}}
+
+# {{senseid|pl|household}} [[oven]]; [[furnace]] {{gl|device that produces high temperatures, used for heating rooms and for cooking}}
+#: {{uxa|pl|Wsadź ciasto do '''pieca'''.|Put the cake in the '''oven'''.}}
+# {{senseid|pl|industrial}} [[oven]]; [[furnace]] {{gl|industrial device used for thermal treatment of materials in technological processes requiring very high temperatures}}
+# {{senseid|pl|cremation}} [[oven]], [[furnace]], [[retort]] {{gl|device for burning corpses}}
+# {{senseid|pl|music}} {{lb|pl|music|colloquial}} [[combo]] [[amp]] {{gl|strong amplifier set with a built-in speaker to which musicians connect their electric guitar during stage performances}}
+#: {{hyper|pl|wzmacniacz}}
+# {{lb|pl|obsolete}} [[oven]] [[load]]; [[furnace]] load {{gl|number of items baked or fired at once in an oven or furnace}}
+# {{lb|pl|obsolete|salt|_|mining}} [[gallery]] {{gl|mining or prospecting gallery, especially one that is carried through empty lands to the intersection of a salt layer}}
+# {{lb|pl|Middle Polish}} {{syn of|pl|piekło|t=[[hell]]}} {{gl|place of execution by fire}}
+
+=====Declension=====
+{{pl-decl-noun-m-in}}
+
+====Noun====
+{{pl-noun|f}}
+
+# {{lb|pl|Northern Borderlands|Near Masovian|Międzyrzec Podlaski}} {{alt form|pl|piec|id=household}}
+
+=====Derived terms=====
+{{col|pl|title=adverbs|jak u Pana Boga za piecem|z pieca na łeb}}
+{{col|pl|title=nouns|głuchy piec<q:dialectal>|piec wapienny|piecarz|piecownia|piecowisko|piecuch|zapiecek}}
+{{col|pl|title=proverbs|w starym piecu diabeł pali}}
+{{pl-derived verbs|dorzucić do pieca/-|-/z niejednego pieca chleb jeść|zacząć od pieca/zaczynać od pieca}}
+
+=====Descendants=====
+* {{desc|zle-ort|пецъ|bor=1}}
+** {{desc|rue|пец}}
+** {{desc|uk|п'єц}}
+
+===Etymology 2===
+{{etymon|pl|id=bake|:inh|zlw-opl:piec<id:bake><t:to bake>|tree=+|text=+}}
+
+====Alternative forms====
+* {{alt|pl|piyc||Zagórze}}
+* {{alt|pl|piekć||Northern Borderlands}}
+
+====Verb====
+{{pl-verb|impf|freq=piekać<q:dialectal>}}
+
+# {{lb|pl|transitive}} to [[bake]] {{gl|to subject to high temperatures in an oven, on a grill etc., in order to produce or prepare a food to eat}}
+# {{lb|pl|transitive|metaphorically|of e.g. the sun}} to [[bake]] {{gl|to heat strongly}}
+#: {{syn|pl|palić|prażyć|przypiekać|przyskwarzać|skwarzyć}}
+# {{lb|pl|transitive|of e.g. one's eyes}} to [[burn]] {{gl|to cause pain combined with a sensation of heat}}
+#: {{syn|pl|palić}}
+# {{lb|pl|transitive|obsolete|metaphorically}} to [[bother]]; to [[eat at]]; to [[worry]]
+#: {{syn|pl|dokuczać|doskwie­rać|gryźć|niepokoić}}
+# {{lb|pl|transitive|Middle Polish}} to [[burn]] {{gl|to torture with fire}}
+# {{lb|pl|reflexive-się}} to [[bake]]; to be [[bake]]d {{gl|to be subjected to high temperatures in an oven or on a grill}} {{+obj|pl|:na(loc)<on what>|:w(loc)<in what>}}
+# {{lb|pl|reflexive-się}} to [[bake]] {{gl|to feel intense heat}} {{+obj|pl|:w(loc)<in what>}}
+#: {{syn|pl|[[skwarzyć]] [[się]]|[[smażyć]] [[się]]}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[warm up]]
+#: {{syn|pl|[[grzać]] [[się]]}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[burn]] {{gl|to be tortured with fire}}
+
+=====Conjugation=====
+{{pl-conj-ai-XI|pi|e|k|pp}}
+
+=====Derived terms=====
+{{col|pl|title=adjectives|pieczysty}}
+{{col|pl|title=nouns|pieczarka|pieczeń|pieczywo|piekarnia|piekarnik|piekarz}}
+{{col|pl|title=proverbs|pieczone gołąbki nie wlecą same do gąbki}}
+{{pl-derived verbs|
+|*piec/piekać
+|do
+|o
+|pod
+|prze
+|przy
+|roz
+|s
+|wy
+|za
+|*piec/-
+|na
+|po
+|u
+}}
+{{pl-derived verbs|impf_first=1|piec dwie pieczenie na jednym ogniu/upiec dwie pieczenie na jednym ogniu|piec własną pieczeń/upiec własną pieczeń}}
+
+=====Related terms=====
+{{col|pl|title=adjectives|piekarski}}
+{{col|pl|title=nouns|opiekacz|wypiek|zapiekanka|opieka|opiekun|piecza}}
+
+=====Related terms=====
+{{col|pl|title=nouns|pieczara|pieczęć|pot}}
+
+===Further reading===
+* {{R:pl:WSJP|piec I|9617}}
+* {{R:pl:WSJP|piec II|4420}}
+* {{R:pl:WSJP|piec się|4546}}
+* {{R:pl:PWN}}
+* {{R:pl:PWN Encyclopedia}}
+* {{R:pl:SXVI|1. piec|82554}}
+* {{R:pl:SXVI|2. piec|82555}}
+* {{R:pl:SXVI|piec sie|82556}}
+* {{R:pl:SXVII|PIEC I|7349||05.08.2025}}
+* {{R:pl:SXVII|PIEC II|7348||12.09.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900|1. piec|139|4}}
+* {{R:pl:SJP1900|2. piec|140|4}}
+* {{R:pl:SGP1900||85|4}}
+* {{R:pl:SPP||226}}
+* {{R:pl:NFJP}}
+* {{R:pl:Sychta:1980|ṕec|46-47|3}}
+* {{R:pl:Kobylińska:2001||114}}
+* {{R:pl:Grek-Pabisowa:2017||750}}
+* {{R:pl:Kobus:Wilkosz:2024||215}}
+
+{{C|pl|Baking|Electronics|Home appliances|Torture}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=oven|:inh|zlw-opl:piec<id:oven><t:oven>|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr}}
+
+===Noun===
+{{szl-noun|m-in|dim=piecyk}}
+
+# [[oven]]; [[furnace]] {{gl|device that produces high temperatures, used for heating rooms and for cooking}}
+# [[oven]]; [[furnace]] {{gl|industrial device used for thermal treatment of materials in technological processes requiring very high temperatures}}
+# {{lb|szl|mining}} [[gallery]] {{gl|horizontal working in a mine}}
+
+====Declension====
+{{szl-decl-noun|piec|pieca|piecowi|piec|piecym|piecu|piecu|piece|piecōw|piecōm|piece|[[piecami]]/[[piecōma]]|piecach|piece }}
+
+===Further reading===
+* {{R:szl:silling}}
+* {{R:szl:ZPJŚ|+|110}}
+* {{R:szl:Podgórscy:2008||211}}
+
+{{C|szl|Cooking|Home appliances}}

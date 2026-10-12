@@ -1,0 +1,137 @@
+{{also|zrobic}}
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:af|z-<id:verbal>|robić|etydate=1477|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|pf}}
+
+# to [[do]]; to [[make]]
+#* {{RQ:zlw-opl:AGZ|XVIII|147|1477|Extunc... Nicolaus et Iohannes debent illam seminacionem totam... fato Michno conlaborare al. spravicz y '''zrobicz'''|Extunc... Nicolaus et Iohannes debent illam seminacionem totam... fato Michno conlaborare al. sprawić i '''zrobić'''|-}}
+# {{lb|zlw-opl|reflexive-się}} to [[get]] [[tired]]
+#* {{RQ:zlw-opl:Rozm|82|Tako {{...}} '''szye zrobyly''' ydącz (sic per dies quadraginta eundo laborabant)|Tako {{...}} '''sie zrobili''' idąc (sic per dies quadraginta eundo laborabant)|-}}
+
+====Descendants====
+* {{desc|pl|zrobić}}
+* {{desc|szl|zrobić}}
+
+===References===
+* {{R:zlw-opl:SPJSP|zrobić, zrobić się (cf. Zb-)|22116}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:zrobić|:af<surf>|z-|robić|tree=+|text=+}} Compare {{cog|csb|zrobic}}, {{cog|zlw-slv|zrôbjic}}, {{cog|uk|зроби́ти}}, and {{cog|be|зрабі́ць}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg<text:#>;LL-Q809 (pol)-Poemat-# się.wav<text:~>|mp=#|zyw=#}}
+
+===Verb===
+{{pl-verb|pf|impf=robić}}
+
+# {{lb|pl|transitive}} to [[make]] {{gl|to cause the existence of}}
+# {{lb|pl|transitive}} to [[do]] {{gl|to perform; to execute}}
+#: {{syn|pl|wykonać}}
+# {{lb|pl|transitive}} to [[make]]; to [[cause]] {{gl|to effect or produce by means of some action}}
+#: {{syn|pl|urządzić}}
+# {{lb|pl|transitive}} to [[throw]] {{gl|to organize; to cause something to happen}}
+# {{lb|pl|transitive}} to [[make]] {{gl|to cause someone to take on traits of something, to become something}} {{+obj|pl|:z(gen)<out of what>}}
+# {{lb|pl|transitive}} to [[make]] {{gl|to unfairly assign traits of something to someone or something}} {{+obj|pl|:z(gen)<out of what>}}
+# {{lb|pl|intransitive}} {{ng|used as a generic verb, sometimes to replace another}}; to [[do]]
+# {{lb|pl|intransitive|anaphora}} {{ng|used [[anaphorically]] instead of repeating a previous verb}}; to [[do]]
+# {{lb|pl|intransitive}} to [[act]], to [[behave]]
+#: {{syn|pl|postąpić|[[zachować]] [[się]]}}
+# {{lb|pl|reflexive-się}} to [[come about]], to [[arise]]
+#: {{syn|pl|nastać|[[uczynić]] [[się]]}}
+# {{lb|pl|reflexive-się}} to [[get]], to [[become]] {{+obj|pl|:z(gen)<out of what>}}
+# {{lb|pl|reflexive-się|impersonal}} to [[start]] to [[feel]] {{+obj|pl|dat<who>}}
+# {{lb|pl|reflexive-się|colloquial}} to [[dress to kill]] {{+obj|pl|:na(acc)}}
+# {{lb|pl|reflexive-się}} to be [[do|done]]; to be [[make|made]]
+# {{lb|pl|reflexive-się|Żywiec}} to [[work]] oneself [[tired]]
+
+====Conjugation====
+{{pl-conj-ap-ić|zro|b|pp|imp=zrób}}
+
+====Derived terms====
+{{col|pl|title=adjective|zrobiony}}
+{{col|pl|title=interjection|zrobi się}}
+{{col|pl|title=phrases|co z tym fantem zrobić|jak móc zrobić}}
+{{col|pl|title=proverbs|i w Paryżu nie zrobią z owsa ryżu|zrób dziś, co masz zrobić jutro|murzyn zrobił swoje, murzyn może odejść}}
+{{pl-derived verbs|zrobić się na szaro/-|co zrobić najlepszego/co robić najlepszego
+|zrobić dobrze/robić dobrze
+|zrobić różnicę/robić różnicę
+|zrobić swoje/robić swoje
+|zrobić źle/robić źle
+|zrobić chlew/robić chlew
+|zrobić dziecko/robić dziecko
+|zrobić idiotę/robić idiotę
+|zrobić kilometr/robić kilometr
+|zrobić reklamę/robić reklamę
+|zrobić kasę/robić kasę
+|zrobić koło pióra/robić koło pióra
+|zrobić kupę/robić kupę
+|zrobić loda/robić loda
+|zrobić łaskę/robić łaskę
+|zrobić marmoladę/robić marmoladę
+|zrobić na złość/robić na złość
+|zrobić nadzieję/robić nadzieję
+|zrobić pa/robić pa
+|zrobić piekło/robić piekło
+|zrobić pieniądze/robić pieniądze
+|zrobić pod siebie/robić pod siebie
+|zrobić porządek/robić porządek
+|zrobić się na bóstwo/robić się na bóstwo
+|zrobić siusiu/robić siusiu
+|zrobić sprawę/robić sprawę
+|zrobić w konia/robić w konia
+|zrobić w majtki/robić w majtki
+|zrobić wielkie oczy/robić wielkie oczy
+|zrobić wodę z mózgu/robić wodę z mózgu
+|zrobić z nocy dzień/robić z nocy dzień
+|zrobić dzień/robić dzień
+|zrobić furorę/robić furorę
+|zrobić się ciemno przed oczami/robić się ciemno przed oczami
+|zrobić się zimno/robić się zimno
+|zrobić miejsce/robić miejsce|zrobić z igły widły/robić z igły widły}}
+
+===Trivia===
+{{pl-freq 1990|5|4|19|65|175|268|187||2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|37138}}
+* {{R:pl:SXVI|zrobić się|37139}}
+* {{R:pl:SXVII|ZROBIĆ|3711|date=26.03.2020}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||609|8}}
+* {{R:pl:NFJP}}
+* {{R:pl:Kopernicki:1875||379}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:zrobić|:af<surf>|z-|robić|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|pf}}
+
+# {{lb|szl|transitive}} to [[do]]; to [[make]]
+
+====Conjugation====
+{{szl-conj-ap-Va|zro|b|pp}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|zrobic}}
+* {{R:szl:silling}}

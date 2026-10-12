@@ -1,0 +1,153 @@
+{{also|ISC|-isc|-isc-}}
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|ić||Middle Polish}}
+* {{alt|pl|jiś||Zagórze}}
+
+===Etymology===
+{{etymon|pl|id=go|:inh|zlw-opl:ić<id:go>|tree=1}}
+Regularization of {{inh|pl|zlw-opl|ić}} which had a stem of ''id-'', and other such verbs, such as {{m|pl|siąść}}, have an ''-ś-'' in the infinitive and ''-d-'' in oblique stems.
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|EL=#|prz=#|pod=#|MB=#|las=#|MD=#|suw=#|nbl=#|WGP=#}}
+
+===Verb===
+{{pl-verb|impf|pf=pójść}}
+
+# {{lb|pl|intransitive|of people or animals}} to [[go]]; to [[walk]]
+# {{lb|pl|intransitive}} to [[go]], to [[attend]] {{+obj|pl|:do(gen)/:na(acc)<what>}}
+# {{lb|pl|intransitive}} to [[go]] after, to [[follow]] {{gl|to imitate in one's actions or thoughts}}
+# {{lb|pl|intransitive|of vehicles}} to [[go]], to [[move]]
+# {{lb|pl|intransitive|of letters, packages}} to [[go]] {{gl|to move from sender to receiver}}
+# {{lb|pl|intransitive|of smells, etc.}} to [[go]]; to [[spread]]
+# {{lb|pl|intransitive|of lines, roads, etc.}} to [[go]], to [[lead]] {{gl|to connect two points in space}}
+# {{lb|pl|intransitive|of media}} to [[go]]; to be [[publish]]ed; to be [[show]]n
+# {{lb|pl|intransitive|of events}} to [[go]] {{gl|to take place in particular manner}}
+#: {{uxi|pl|Wszystko '''idzie''' zgodnie z planem.|Everything '''is going''' according to plan.}}
+# {{lb|pl|intransitive|colloquial}} to [[come along]] {{gl|to not cause difficulties for someone}} {{+obj|pl|dat<for whom>}}
+# {{lb|pl|intransitive|of machines, devices, etc.}} to [[run]] {{gl|to operate as normal}}
+# {{lb|pl|intransitive|colloquial}} to [[go]] to {{gl|to be for a particular goal}} {{+obj|pl|:na(acc)<to what>}}
+# {{lb|pl|intransitive|proscribed}} to [[go]]; to be [[take]]n {{gl|to take place in a particular order}}
+# {{lb|pl|intransitive}} to [[count]], to [[number]] in {{gl|to measure a certain amount}} {{+obj|pl|:w(acc)<in the what>}}
+#: {{syn|pl|liczyć<q:prescribed>}}
+# {{lb|pl|intransitive}} to [[go for]] {{gl|to decide on something in a given situation}} {{+obj|pl|:na(acc)<for what>}}
+# {{lb|pl|intransitive|colloquial}} to [[sell like hot cakes]]
+# {{lb|pl|intransitive|impersonal}} to [[mean]], to [[be on about]]; to [[have in mind]] {{+obj|pl|dat<who, i.e. the subject of the English sentence> + :o(acc)<(about) who or what/what in mind>}}
+#: {{syn|pl|chodzić|[[rozchodzić]] [[się]]}}
+# {{lb|pl|intransitive|reflexive-sobie}} to [[go]], to [[leave]]
+
+====Usage notes====
+* {{U:sla:directional verb|pl|uni|impf=+|pf=pójść|other=chodzić}}
+
+====Conjugation====
+{{pl-conj-ai|iść|idę|idzie|idą|szed|sz|sz|idź|vn=iście}}
+{{box-top|Dialectal forms}}
+* In the {{w|Eastern Lublin dialect}} ({{w|Tomaszów Lubelski County}}, {{w|Chełm County}}:
+** Third person masculine singular past tense: {{m|pl|iszed}} or {{m|pl|jiszed}}
+** Third person feminine singular past tense: {{m|pl|iszła}} or {{m|pl|jiszła}}
+** Virile past tense: {{m|pl|iszli}} or {{m|pl|jiszli}}.
+* In the {{w|Przemyśl dialect}} ({{w|San river}}) and the {{w|Eastern Lublin dialect}} ({{w|Krzywowola}}), the third person feminine singular past tense may be formed as {{m|pl|iszła}}.
+* In the {{w|Podhale dialect}}, the third person neuter singular past tense may be formed as {{m|pl|iszło}}.
+* In the {{w|Podhale dialect}} ({{w|Zakopane}}), the third person masculine singular past tense may be formed as {{m|pl|seł}}.
+* In the {{w|Near Masovian dialect}} ({{w|Międzyrzec Podlaski}}), the first person masculine singular past tense may be formed as {{m|pl|isłem}} and the third person masculine singular past tense as {{m|pl|iseł}}.
+* In the {{w|Lasovia dialect}} ({{w|Tarnobrzeg}}):
+** Third person masculine past tense singular: {{m|pl|sed}}, {{m|pl|seł}}
+** First person masculine past tense singular: {{m|pl|sedem}}, {{m|pl|słem}}
+** Second person masculine past tense singular: {{m|pl|sedeś}}, {{m|pl|słeś}}
+** First person virile past tense: {{m|pl|słaśwa}}, {{m|pl|śliśmy}}
+** Second person virile past tense: {{m|pl|słaśta}}, {{m|pl|śliście}}
+** Third person virile past tense: {{m|pl|śli}}
+* In the {{w|Far Masovian dialect}} ({{w|Przasznysz}}), the third person masculine singular past tense may be formed as {{m|pl|setem}}.
+* In the {{w|Suwałki dialect}}, the first person feminine singular past tense may be formed as {{m|pl|szedłam}}.
+* In the {{w|Northern Borderlands dialect}} ({{w|Lithuania}}),
+** First person masculine singular past tense: {{m|pl|szłem}}
+** First person feminine singular past tense: {{m|pl|szedłam}}
+** Second person masculine singular past tense: {{m|pl|szłeś}}
+** Second person feminine singular past tense: {{m|pl|szedłaś}}
+** Third person feminine singular past tense: {{m|pl|szedła}}
+** First person virile past tense: {{m|pl|szedliśmy}}
+** Second person virile past tense: {{m|pl|szedliście}}
+** Third person virile past tense: {{m|pl|szedli}}
+* In the {{w|Eastern Lublin dialect}} ({{w|Tarnogóra}}) and the {{w|Przemyśl dialect}} ({{w|Żołynia}}), the third person masculine singular past tense may be formed as {{m|pl|szoł}}.
+* In the {{w|Przemyśl dialect}} ({{w|Iwonicz-Zdrój}}), the third person masculine singular past tense may be formed as {{m|pl|száł}}.
+* In the {{w|Przemyśl dialect}} ({{w|San river}}), the third person masculine singular past tense may be formed as {{m|pl|szeł}}.
+* In the {{w|Western Greater Poland dialect}} ({{w|Rakoniewice}}), the third person feminine singular past tense may be formed as {{m|pl|czła}}.
+{{box-bottom}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|intransitive|of events}} to [[head]] for {{gl|to draw near to some event}} {{+obj|pl|:na(acc)<for what>}}
+# {{lb|pl|intransitive|impersonal|colloquial}} to be [[possible]] {{+obj|pl|inf<to do what> + :z(ins)<with whom>}}
+# {{lb|pl|intransitive|of time}} to [[fly by]]
+
+====Conjugation====
+{{pl-conj-ai|iść|idę|idzie|idą|szed|sz|sz|idź|vn=iście}}
+
+====Derived terms====
+{{col|pl|title=idioms|idzie luty, podkuj buty|psy szczekają, karawana idzie dalej|na świętego Grzegorza idzie zima do morza|psie głosy nie idą w niebiosy|kto nie idzie do przodu, ten się cofa}}
+{{col|pl|title=particle|jeśli idzie o}}
+{{col|pl|title=phrase|a idź}}
+{{pl-derived verbs|impf_first=1|karta idzie/-|bomba idzie w górę/bomba poszła w górę|iść do głowy/-|iść jak burza/pójść jak burza|iść na marne/pójść na marne|iść na sztych/-|iść pod kilof/pójść pod kilof|iść pod młotek/pójść pod młotek|iść pod nóż/pójść pod nóż|iść pod topór/pójść pod topór|iść w diabły/pójść w diabły|iść w dół/pójść w dół|iść w dym/pójść w dym|iść w górę/pójść w górę|iść w kąt/pójść w kąt|iść w nogi/pójść w nogi|iść w parze/pójść w parze|iść w Polskę/pójść w Polskę|iść w ruch/pójść w ruch|iść w świat/pójść w świat|iść w zapomnienie/pójść w zapomnienie|iść z dymem/pójść z dymem|idzie któryś rok/-|iść do Canossy/pójść do Canossy|iść do gazu/pójść do gazu|iść do lasu/-|iść do łóżka/pójść do łóżka|iść do piachu/pójść do piachu|iść jak burza/pójść jak burza|iść między ludzi/pójść między ludzi|iść na całość/pójść na całość|iść na dno/pójść na dno|iść na łatwiznę/pójść na łatwiznę|iść na noże/pójść na noże|iść na szafot/pójść na szafot|iść na śmierć/-|iść na udry/pójść na udry|iść na żywioł/pójść na żywioł|iść o zakład/pójść o zakład|iść po trupach/-|iść pod kościół/pójść pod kościół|iść pod mur/pójść pod mur|iść pod nóż/pójść pod nóż|iść prostą drogą/pójść prostą drogą|iść swoją drogą/pójść swoją drogą|iść w górę/-|iść w kimono/pójść w kimono|iść w nogę/-|iść w świat/pójść w świat|iść w tango/pójść w tango|iść w zaparte/pójść w zaparte|iść z prądem/pójść z prądem|iść z torbami/pójść z torbami|iść za ciosem/pójść za ciosem|iść spać/pójść spać|cała para idzie w gwizdek/cała para poszła w gwizdek|iść jak po grudzie/-|iść jak z płatka/pójść jak z płatka|iść na konto/pójść na konto|iść na lep/pójść na lep|iść na pasku/-|iść na rękę/pójść na rękę|iść w ślady/pójść w ślady|iść z duchem czasu/pójść z duchem czasu|iść za głosem serca/pójść za głosem serca|iść w rozsypkę/pójść w rozsypkę|nauka nie idzie w las/nauka nie poszła w las|przykład idzie z góry/-|iść jak krew z nosa/-|nie idzie do głowy/-|iść po linii najmniejszego oporu/pójść po linii najmniejszego oporu|iść po rozum do głowy/pójść po rozum do głowy|iść w zawody/pójść w zawody}}
+{{pl-derived verbs
+|*jść/[chodzić]
+|do
+|na
+|prze
+|przy
+|u
+|wy
+|*ejść/[chodzić]
+|nad
+|ob
+|od
+|pod
+|roz
+|w
+|wzejść/[wschodzić]
+|zejść/[schodzić]
+}}
+{{pl-derived verbs|impf_first=1
+|iść na bandos/-
+|iść o zakład/pójść o zakład
+|iść ręką/-
+}}
+
+===Trivia===
+{{pl-freq 1990|18|7|28|141|169|363|137|157|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|55337}}
+* {{R:pl:SXVII|IŚĆ|7622|SPas|20.01.2023}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||113|2}}
+* {{R:pl:SGP1900|chodzić|193|1}}
+* {{R:pl:NFJP}}
+
+{{cln|pl|suppletive verbs}}
+
+==Silesian==
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf|pf=pōjść|indet=chodzić}}
+
+# {{alt form of|szl|iś}}
+
+====Usage notes====
+* {{U:sla:directional verb|szl|uni|impf=+|pf=pōjść|other=chodzić}}
+
+====Conjugation====
+{{rfinfl|szl|verb}}
+
+===Further reading===
+* {{R:szl:silling}}

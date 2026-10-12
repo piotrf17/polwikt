@@ -1,0 +1,243 @@
+{{also|mówić|mówic|mowič|mōwić}}
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|mołwić}}
+
+===Etymology===
+{{ety|zlw-opl|id=speak|:inh|sla-pro:*mъlviti<id:speak>|:af<surf>|mowa|-ić|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf|freq=mawiać}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland|Masovia|Greater Poland}} to [[say]], to [[speak]] {{gl|to vocalize using words}} {{+obj|zlw-opl|:ku(dat)|:do(gen)|dat|:na(acc)|:o(loc)|:przeciwo(dat)}}
+#: {{syn|zlw-opl|gatać|rzec}}
+#* {{RQ:zlw-opl:Kśw|br 9|Pobudaiø ie moui [bog] vsemogøcy: Vstan|Pobudzaję je '''mowi''' [Bóg] wszemogący: Wstań|-}}
+#* {{RQ:zlw-opl:EwZam|287|Poslanem yest movycz do czyebye|Posłan-em jest '''mowić''' do ciebie|-}}
+#* {{RQ:zlw-opl:Kśw|br 15|A tim usem tec to bog mylosciuy moui reca: Vstan! Y mouy piruey sedøcim: Vstan|A tym wszem teć to Bog miłościwy '''mowi''', rzeka: Wstań! I '''mowi''' pirzwej siedzącym|-}}
+#* {{RQ:zlw-opl:Gn|4b|A tako vøcz gego mila matuchna... ona gest bila k nemv barszo laskaue '''mouila''' a *rzekocz|A tako więc jego miła {matuchna}... ona jest była k niemu barzo łaskawie '''mowiła''' a rzekąc|-}}
+#* {{RQ:zlw-opl:BZ|I Par|17, 17|Przeto '''mowylesz''' na dom slugy twego|Przeto '''mowiłeś''' na dom sługi twego|-}}
+#* {{RQ:zlw-opl:Fl|77, 22|I zle molwili sø o bodze|I źle mołwili są o Bodze|-}}
+#* {{RQ:zlw-opl:Fl|63, 5|'''Molwili''' sø, bichø pocrili sidla|'''Mołwili''' są, bychą pokryli sidła|-}}
+#* {{RQ:zlw-opl:Sul|36|Bąndzely nyewyesta mązzatha, yasz kv kthorey dzedzynye myeny y '''mowy''' szą dlya possagv alybo kthorimkole obiczayem prawo myecz|Będzieli niewiesta mężata, jaż ku ktorej dziedzinie mieni i '''mowi''' się dla posagu alibo ktorymkole obyczajem prawo mieć|-}}
+#* {{RQ:zlw-opl:Fl|5, 6|Zgubisz wsz[y]stky, gisz molwø lsze|Zgubisz wsz[y]stki, jiż mołwią łże|-}}
+#* {{RQ:zlw-opl:Kśw|br 10|'''Moui''' to slou[o] albo sedøcim, albo spøcim, albo lezøcim|'''Mowi''' to słowo albo siedzącym, albo śpiącym, albo leżącym|-}}
+#* {{RQ:zlw-opl:Fl|11, 2|Prosznoscy molwili sø kaszdi ku swemu blisznemu, wargi lsciwe w sercy y serczem molwili sø |Prozności mołwili są każdy ku swemu bliźniemu, wargi lściwe w siercy i siercem mołwili są|-}}
+#* {{RQ:zlw-opl:Fl|30, 22|Nema bødzcze vsta lscziwa, isze '''mowø''' przecziwo prawemu lichotø|Niema bądźcie usta lściwa iże '''mowią''' przeciwo prawemu lichotę|-}}
+#* {{RQ:zlw-opl:WokLub|129v|c. 1500|Spuridicus {{...}} id est immunda dicens plvgąvye '''movyaczy'''|Spuridicus {{...}} id est immunda dicens plugawie '''mowiący'''|-}}
+## {{lb|zlw-opl|attested in|Lesser Poland}} to [[speak against]], to [[deny]], to [[negate]] {{+obj|zlw-opl|:naprzeciw(dat)<what>}}
+##* {{RQ:zlw-opl:Gn|12a|Allecz ga naprzecif themv nix ne '''mouø''', ysze ktoricz clouek ma on vele dzecy a na slusbøcz ge on vyrzødzy, vøczcy ony byuagø slachethny a dobrich obyczagof napelneny|Aleć ja naprzeciw temu nics nie '''mowię''', iże ktoryć człowiek ma on wiele dzieci a na służbęć je on wyrządzi, więcci oni bywają ślachetni a dobrych obyczajow napełnieni|-}}
+## to [[insult]], to [[maledict]] {{+obj|zlw-opl|:przeciw(dat)<whom>}}
+##* {{RQ:zlw-opl:Rozm|429|O dobry czye vczynek nye kamyenvyemy, ale yze '''movysch''' przeczyw bogu, yze ty bądącz czlovyekyem dzyalasz szye bogyem|O dobry cie uczynek nie kamienujemy, ale iże '''mowisz''' przeciw Bogu i iże ty będąc człowiekiem działasz sie Bogiem|-}}
+## to [[speak for]], to speak in someone's [[name]] {{+obj|zlw-opl|:za(acc)<for whom>}}
+##* {{RQ:zlw-opl:Rozm|422|Vymy, ysch ten yest syn... Wschakocz ma lata, pytayczye yego, nyechacz sam za szye '''movy'''|Wimy, iż ten jest syn... wszakoć ma lata, pytajcie jego, niechać sam za sie '''mowi'''|-}}
+## to [[speak]] with, to [[converse]] with {{+obj|zlw-opl|:z(ins)<with whom>|:miedzy(ins)<amongst whom>}}
+##* {{RQ:zlw-opl:BZ|Ex|34, 34|Wloszyl zakryczye na lycze swoge, ktore, wchodzø ku bogu a '''mowyø''' z nym, odgymal|Włożył zakrycie na lice swoje, ktore, wchodzę ku Bogu a '''mowię''' z nim, odjimał|-}}
+##* {{RQ:zlw-opl:R|XXIV|73|XV in.|'''Mouili''' a preto medzi soba dixerunt ergo ad invicem|'''Mowili''' a przeto miedzy sobą dixerunt ergo ad invicem|-}}
+## to [[speak]] {{gl|to be able to use a particular language}} {{+obj|zlw-opl|:po(dat)<in what language>}}
+##* {{RQ:zlw-opl:BZ|IV Reg|18, 26|Tedi rzeknø Elyachym..., a Sobnya, a Iohae...: Prosymi, abi nam '''mowyl'''... po syrsku, bo rozumyemi temv iøzikv, a nye mow nam po szidowsku|Tedy rzekną Elijachym... a Sobnia, a Johae...: Prosimy, aby nam '''mowił'''... po syrsku, bo rozumiemy temu języku, a nie mow nam po żydowsku|-}}
+## {{lb|zlw-opl|attested in|Lesser Poland}} to [[narrate]]; to [[tell]] a [[story]]
+##* {{RQ:zlw-opl:Fl|39, 13|Prawdø twoiø y zbawene twoie '''molwil''' iesm|Prawdę twoję i zbawienie twoje '''mołwił''' jeśm|-}}
+## {{lb|zlw-opl|attested in|Lesser Poland}} to [[recite]]
+##* {{RQ:zlw-opl:Fl|26, 11|Psalm '''molwicz''' bødø gospodnu|Psalm '''mołwić''' będę Gospodnu|-}}
+##* {{RQ:zlw-opl:Sul|63|Gdyby vrzadnik... gynako rothą przysągy '''mowyl''' swyathkom, nyszly gest skazano..., gyny w myastho gego ma bycz vstawyon|Gdyby urzędnik... jinako rotę przysięgi '''mowił''' świadkom, niżli jest skazano..., jiny w miasto jego ma być ustawion|-}}
+## to [[repeat]] {{+obj|zlw-opl|:za(ins)<after whom>}}
+##* {{RQ:zlw-opl:Spow|5|'''Mowczye''' za mną spovyecz powszednya|'''Mowcie''' za mną spowiedź powszednią|-}}
+## to [[say]]; {{def-unc|zlw-opl|undetailed=1}}
+##* {{RQ:zlw-opl:R|XXIV|72|XV in.|'''Movil''' dicebat|'''Mowił''' dicebat|-}}
+# {{lb|zlw-opl|attested in|Masovia|Greater Poland}} to [[call]], to [[name]] {{+obj|zlw-opl|dat/acc<whom> + gen/ins<by what>}}
+#* {{RQ:zlw-opl:R|XXV|161|XV p. post.|Cogitans vel nominans baczvcz albo myszlącz, albo '''mowyącz'''|Cogitans vel nominans bacząc albo myśląc, albo '''mowiąc'''|-}}
+#* {{RQ:zlw-opl:BZ|Gen|17, 15|Swey zenye nye bødzesz '''mowycz''' Saray, ale Sara|Swej żenie nie będziesz '''mowić''' Saraj, ale Sara|-}}
+#* {{RQ:zlw-opl:Rozm|476|Alyecz yest oczyecz moy, ktory mye vyelby, ktorego vy '''movyczye''', by byl vasch bog|Aleć jest ociec moj, ktory mie wielbi, ktorego wy '''mowicie''', by był wasz Bog|-}}
+#* {{RQ:zlw-opl:Sul|47|Taczy nye badą szą mocz '''mowycz''' dobrymy, gdysz szą nyerowny dobrym mąszom *dompnymany|Tacy nie będą się moc '''mowić''' dobrymi, gdyż są nierowni dobrym mężom dompnimani|-}}
+#* {{RQ:zlw-opl:SKJ|I|144|XV ex.|Nye mov bycz szwyąthym, nysly bądzye, ale pyrvey bycz, czo by prawdzyvyey '''movyono'''|Nie mow być świętym, niźli będzie, ale pirwej być, co by prawdziwiej '''mowiono'''|-}}
+# {{lb|zlw-opl|law|attested in|Masovia|Lesser Poland}} to [[speak]] {{gl|to make statements in court}}
+#* {{RQ:zlw-opl:Sul|78|Komornyczy albo vrzadnyczy thako poszadzeny nye mayą, nyszlyby wlosthne szwe rzeczy, '''mowycz'''|Komornicy albo urzędnicy tako posadzeni nie mają, niżliby włostne swe rzeczy '''mowić'''|-}}
+## {{lb|zlw-opl|law}} to [[accuse]] {{+obj|zlw-opl|:na(acc)/:przeciwo(dat)<whom>}}
+##* {{RQ:zlw-opl:Dział|30|Vstawiamy, aby gednemv dano winą abo pomowyon o glową y poprzyssyąszon przez tego, kto nany '''mowy'''|Ustawiamy, aby jednemu dano winę, abo pomowion o głowę i poprzysiężon przez tego, kto nań '''mowi'''|-}}
+##* {{RQ:zlw-opl:Fl|49, 21|Sedzøcz przeciwo bratu twemu '''molwil''' ies|Siedząc przeciwo bratu twemu '''mołwił''' jeś|-}}
+## to [[protest]] {{+obj|zlw-opl|:przeciwo(dat)<against what>}}
+##* {{RQ:zlw-opl:OrtBr|VI|389|Dorotha... ono tho czyrpyala, szlowye przeczyw temv nye '''mowyla'''|Dorota... ona to cirpiała, słowie przeciw temu nie '''mowiła'''|-}}
+## {{lb|zlw-opl|attested in|Lesser Poland|Greater Poland}} to [[dispute]] {{+obj|zlw-opl|:ku(dat) + :o(acc)}}
+##* {{RQ:zlw-opl:Małk|118|XV in.|A take ten gisti Jassek ma mu dacz veczni pocoy hy weczne milczenie o wsithky rzeczi, *czosbø mal k nemu gdi '''mowicz'''|A takie ten jisti Jaszek ma mu dać wieczny pokoj hy wieczne milczenie o wszytki rzeczy, cożby miał k niemu gdy '''mowić'''|-}}
+##* {{RQ:zlw-opl:OrtMac|79|Tako ona zlomy they drugyey panyey wwyazanye przetho, ysz ona w czasz gye odwolala y pyrwey k nemu '''mowyla''' podlug prawa|Tako ona złomi tej drugiej paniej wwiązanie, przeto iż ona w czas je odwołała i pirwej k niemu '''mowiła''' podług prawa|-}}
+##* {{RQ:zlw-opl:Dział|28|Vstawyamy, aby w tey dzedzynye, ktora by byla nagabana... dano yawny rok, ... acz kto ma '''mowycz''' czso k tey dzedzynye, abo yszby byla gego, abo ktore prawo w nyey ma, aby... tv na rokv vkazonem praw[a] swa vkazal|Ustawiamy, aby w tej dziedzinie, ktora by była nagabana... dano jawny rok, ... acz kto ma '''mowić''' cso k tej dziedzinie, abo iżby była jego, abo ktore prawo w niej ma, aby... tu na roku ukazanem [a] praw[a] swa ukazał|-}}
+##* {{RQ:zlw-opl:Piek VI|172|1403|Jaco mi Czibek ne '''movil''' o ten con|Jako mi Cybek nie '''mowił''' o ten koń|-}}
+# {{lb|zlw-opl|attested in|Masovia|Lesser Poland}} to [[decide]]
+#* {{RQ:zlw-opl:Sul|64|A thakesz '''mowymy''', kedyby przeth starostą naszym tho szą sstalo|A takież '''mowimy''', kiedyby przed starostą naszym to się zstało|-}}
+#* {{RQ:zlw-opl:Dział|7|I na to '''mowymy''' my, aczby tesz rzeka moczą czlowieczą gynądy obroczona, a wszakosz pyrwsze brzegy myedzy dzedzinamy graniczą czynyą|I na to '''mowimy''' my, aczby też rzeka mocą człowieczą jinędy obrocona, a wszakoż pirwsze brzegi miedzy dziedzinami granicę czynią|-}}
+# {{lb|zlw-opl|attested in|Greater Poland|Lesser Poland}} to [[tell]] {{gl|to inform, to let know}}
+#* {{RQ:zlw-opl:R|XXII|235|XV med.|'''Mowy''' ewange[li]a, eze Xpus, nysze '''mowil''', vsta swa otworzil|'''Mowi''' ewanjelista, eże Krystus niże '''mowił''', usta swa otworzył|-}}
+#* {{RQ:zlw-opl:Pozn|187|1395|Dami gim rok do Koz[e]mina, yako gosczine listi '''movø'''|Damy jim rok do Koź[e]mina, jako gościne listy '''mowią'''|-}}
+#* {{RQ:zlw-opl:Puł|11|Sym wyklada szye plastr, bo '''molwy''', yze smętek lyeczy rany grzechow|Sin wykłada sie plastr, bo '''mołwi''', iże smętek leczy rany grzechow|-}}
+#* {{RQ:zlw-opl:Kśw|cv 20|Y '''moui''' ewangelista suøti pod obrazem trsy crolew poganskih: Gde iesc tec, ienze sø narodil crol zidowsky|I '''mowi''' ewanjelista święty pod obrazem trzy krolew pogańskich: Gdzie jeść teć, jenże się narodził, krol żydowski|-}}
+## {{lb|zlw-opl|attested in|Silesia}} to [[explain]] {{+obj|zlw-opl|:k(dat) + :na(acc)}}
+##* {{RQ:zlw-opl:PF|III|290|XV p. post.|Na tho pyszmo wyencze '''mowy'''|Na to pismo więce '''mowi'''|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|mowny|mówięcy}}
+{{col|zlw-opl|title=nouns|mowodworna|moworzeczna|mowstwo|mówca|mówienie}}
+{{col|zlw-opl|title=particles|mowiąc ku prawdzie}}
+{{zlw-opl-derived verbs|
+|*mówić/mawiać
+|do
+|na
+|ob
+|od
+|o
+|po
+|przemówić/-
+|przy
+|roz
+|u
+|wy
+|za
+|z
+|-/dobrzemówić
+|-/przeciwomołwić
+|-/wzmawiać
+}}
+{{zlw-opl-derived verbs|-/mówić od siebie|-/źle mówić|-/na żywot mówić}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|niewymowiący|niewymowny|niewymówiony|omowny|przymowny|rozmowny|umowny|wymowny|wymówiony|zmowny}}
+{{col|zlw-opl|title=adverbs|niewymownie|rozmownie}}
+{{col|zlw-opl|title=nouns|domowa|gwiazdomówca|mowa|namowa|namówienie|niemowa|niemowiątko|obmawianie|obmowa|obmówca|obmówienie|odmowa|odmówienie|omowa|omówca|omówienie|obmawiacz|odmawianie|omawianie|pomowa|pomówca|pomówienie|przeciwomołwa|przeciwomołwienie|przedmowa|przemowa|przemówca|przemówienie|przymowa|przymówca|przymówienie|przymówka|pomawianie|przymawianie|rozmowa|rozmówienie|rozmawianie|umowa|umówca|umówienie|umówka|umawianie|wielemowna|wielomówienie|wymowa|wymowność|wymówca|wymówienie|wymówka|wymawianie|zamowa|zamówienie|zmowa|zmówca|zmówienie}}
+
+====Descendants====
+* {{desc|pl|mówić|alts=1}}
+* {{desc|szl|mōwić}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:SEUW|mówić|91}}
+* {{R:zlw-opl:SPJSP|mówić, mołwić|6346}}
+* {{R:zlw-opl:Rozariusze|+|2947}}
+
+{{C|zlw-opl|Talking}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|mówieć||Middle Polish}}
+
+===Etymology===
+{{ety|pl|id=speak|:inh|zlw-opl:mówić<id:speak>|:af<surf>|mowa|-ić|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav|mp=#|CGP=#|SGP=#|MB=#|krk=#|ekr=#|kuj=#|MD=#|sbl=#|low=#}}
+
+===Verb===
+{{pl-verb|impf|pf=powiedzieć|freq=mawiać}}
+
+# {{lb|pl|transitive}} to [[say]], to [[tell]] {{gl|to vocalize using words}} {{+obj|pl|:do(gen)/dat<to whom> + :o(loc)<about what>|:na(acc)<to whom><l:Far Masovian,Przasnysz>}}
+#: {{syn|pl|powiadać|prawić|rzec}}
+#: {{ant|pl|milczeć}}
+# {{lb|pl|transitive}} to [[call]], to [[name]] {{gl|to speak using a particular name}} {{+obj|pl|:do(gen)/dat<whom> + nom<by what name>}}
+#: {{syn|pl|nazywać|q1=synonymous when referring to names}}
+#: {{coi|pl|'''mówić''' do kogoś Janik|to '''call''' someone Janik}}
+# {{lb|pl|transitive}} to [[say]], to [[tell]] {{gl|to indicate how someone should proceed or act}} {{+obj|pl|dat<whom>}}
+# {{lb|pl|transitive}} to [[say]], to [[tell]] {{gl|to be an indicator or sign of something else}}
+# {{lb|pl|transitive}} to [[say]]; to [[go]], to [[tell]] about {{gl|to contain or communicate specific information on a topic}} {{+obj|pl|dat<to whom> + :o(loc)<about what>|:za(acc)<about whom/what><l:Southern Borderlands,Drohobych>}}
+#: {{coi|pl|legenda '''mówi'''|the legend '''goes'''}}
+#: {{coi|pl|autor '''mówi'''|an author '''says'''}}
+# {{lb|pl|transitive}} to [[say]], to [[tell]] {{gl|to communicate by non-verbal means}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|transitive}} to [[talk]], to [[converse]] {{gl|to speak with one or more people in a conversation}}
+#: {{syn|pl|gadać|rozmawiać}}
+# {{lb|pl|intransitive}} to [[speak]] {{gl|to be able to talk in a given lect or language}} {{+obj|pl|:w(loc)/:po(old&dative)<in what language>}}
+#: {{uxi|pl|Czy '''mówi''' Pan(i) po angielsku?|Do you '''speak''' English? (''formal'')}}
+#: {{uxi|pl|'''Mówisz''' po angielsku?|Do you '''speak''' English? (''informal'')}}
+# {{lb|pl|intransitive}} to [[say]], to [[tell]] {{gl|to appear in someone's behavior}} {{+obj|pl|:przez(acc)<through whom/what>}}
+#: {{syn|pl|przemawiać}}
+# {{lb|pl|intransitive|Central Greater Poland|Odolanów|Kościan|Śrem|Southern Greater Poland|Śmigiel|Near Masovian|Czaplin|Czersk|Western Kraków|Sławków|Koziegłówki|Szczodrkowice|Biały Kościół|Eastern Kraków|Kłaj}} {{syn of|pl|prosić}} {{+obj|pl|:o(acc)<for what>}}
+# {{lb|pl|intransitive|Kujawy|Kowal|Bogusławice|Strzelno|Central Greater Poland|Dębicz|Czeszewo|Łowicz}} {{syn of|pl|myśleć}} {{+obj|pl|:że(subordinate clause)<that what>}}
+# {{lb|pl|intransitive|Podhale}} {{ellip of|pl|mówić na książce|t=to [[pray]]}}
+# {{lb|pl|transitive|Łowicz|Jackowice}} to [[move]]; to [[touch]]; to [[hook]]
+
+====Conjugation====
+{{pl-conj-ai-ić|mó|w|pp}}
+* The {{w|Przemyśl dialect}} ({{w|San river}}) shows a first-person singular present form {{m|pl|mówiem}}.
+
+====Derived terms====
+{{col|pl|title=adjectives|mówcowy|mówczy|mówieniowy|mówniczy|mowny|mówiony}}
+{{col|pl|title=adverbs|mownie|tam, gdzie diabeł mówi dobranoc}}
+{{col|pl|title=interjections|co ja mówię|lepiej nie mówić|mówisz i masz|nie mów}}
+{{col|pl|title=nouns|mowa|mówca|mówczyni|móweczka|mowina|mowisko|mówka|mównica|mównictwo|mównik|mowność|mówiący|mówiąca}}
+{{col|pl|title=particles|a nie mówiłem|co tu dużo mówić|inaczej mówiąc|krótko mówiąc|mówiąc między nami|nawiasem mówiąc|prawdę mówiąc|szczerze mówiąc|nie mówiąc o}}
+{{col|pl|title=phrases|czy ja coś mówię|jak to mówią|mów, co chcesz|nawet mi nie mów|nie ma o czym mówić|tak się tylko mówi}}
+{{col|pl|title=proverbs|mówiły jaskółki, że niedobre są spółki|nie mów hop, póki nie przeskoczysz|w domu powieszonego nie mówi się o sznurze}}
+{{pl-derived verbs|
+|*mówić/mawiać
+|do
+|na
+|ob
+|od
+|o
+|po
+|pod
+|prze
+|przy
+|rozmówić,porozmawiać/rozmawiać
+|u
+|w
+|-/współmówić
+|wy
+|wz
+|z
+|za
+|-/przeciwmówić
+}}
+{{pl-derived verbs
+|mówić sam za siebie/-
+|mówić jak do ściany/-
+|mówić jednym głosem/przemówić jednym głosem
+|mówić pas/powiedzieć pas
+|mówić przez łzy/-
+|mówić różnymi językami/-
+|mówić tym samym językiem/-
+|mówić zagadkami/-
+|nie mówić jeszcze ostatniego słowa/nie powiedzieć jeszcze ostatniego słowa
+|nie mówić złego słowa/nie powiedzieć złego słowa
+|mówić na książce<l:dialectal>/-
+|mówić bez zęby<l:dialectal>/-
+|mówić w świat<l:dialectal>/-
+|impf_first=1}}
+
+====Related terms====
+{{col|pl|title=adjectives|namowny|obmowliwy|obmowny|odmowny|omowny|pomowny|podmowny|przedmowny|przemowny|przeciwmowny|przemówieniowy|przymowny|rozmówczy|rozmówkowy|rozmówniczy|rozmowny|rozmowowy|umowny|umowowy|wymawialny|wymawianiowy|wymowny|zamówieniowy|zmowny}}
+{{col|pl|title=adverbs|namownie|odmownie|omownie|rozmownie|umownie|wymownie|zmownie}}
+{{col|pl|title=nouns|mowa|namawiacz|namowa|namówca|namówiny|namówka|namównik|obmawiacz|obmowa|obmówca|obmowisko|obmówka|obmównica|obmównik|odmowa|odmówka|odmowność|omawianie|omowa|omówca|omowisko|omówka|omownik|omowność|omówienie|pomowa|pomowacz|pomówienie|pomówisko|pomówka|podmawiacz|podmowa|podmówca|przeciwmówca|przedmowa|przedmówca|przedmówczyni|przedmówka|przemawiacz|przeciwmowa|przeciwmowność|przemowa|przemówca|przemówczyni|przemówienie|przemówionko|przymawiacz|przymowa|przymówca|przymówisko|przymówka|rozmawiacz|rozmowa|rozmówca|rozmówczyni|rozmóweczka|rozmówiny|rozmowisko|rozmówka|rozmówki|rozmównica|rozmównik|rozmowność|umowa|umówca|umówienie|umówiny|umówka|umowność|wmawiacz|wmowa|wymawialność|wymowa|wymówca|wymóweczka|wymówienie|wymówisko|wymówka|wymowność|zamawiacz|zamawiaczka|zamowa|zamówienie|zamówiny|zamówka|zmowa|zmówca|zmówiny|zmowność}}
+
+===Trivia===
+{{pl-freq 1990|59|29|118|215|476|897|45|257|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP||7908}}
+** {{R:pl:PWN}}
+** {{R:pl:NFJP}}
+** {{R:pl:SGJP|+|272458}}
+* Middle Polish:
+** {{R:pl:SXVI|mowić, mowieć|67601}}
+** {{R:pl:SXVII|MÓWIĆ|11315|ER|29.03.2023}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||1056|2}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900|mówić|191|3}}
+** {{R:pl:Świderska:1929|muv́ić|115}}
+
+{{C|pl|Talking|Thinking|Prayer}}

@@ -1,0 +1,84 @@
+{{also|Appendix:Variations of "sie"}}
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|siebie}}
+
+===Etymology===
+{{etymon|zlw-opl|id=self|:inh|sla-pro:*sę|tree=+|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Pronoun===
+{{head|zlw-opl|pronoun}}
+
+# {{ng|reflexive pronoun}}; [[oneself]], [[self]]
+# {{lb|zlw-opl|in the|_|dative}} {{ng|used for emphasis}}; [[now]]
+# [[each other]], [[one another]]
+# one's own [[home]]
+
+====Declension====
+{{zlw-opl-decl-siebie}}
+
+====Descendants====
+* {{desc|pl|się}}
+* {{desc|szl|sie}}
+
+===References===
+* {{R:zlw-opl:SPJSP|siebie, sobie, sobą|14942}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=self|:inh|zlw-opl:się|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-się.ogg;LL-Q809 (pol)-Olaf-się.wav;LL-Q809 (pol)-Gower-się.wav;LL-Q809 (pol)-Krokus-się.wav|mp=#}}
+
+===Pronoun===
+{{head|pl|pronoun|[[genitive case|genitive]] and [[accusative case|accusative]] cases}}
+
+# {{ng|reflexive pronoun}}; [[oneself]], [[self]]
+# [[each other]], [[one another]]
+# one's own [[home]]
+#: {{uxi|pl|Wracam do '''siebie'''|I'm going back '''to my place'''.}}
+
+====Declension====
+{{pl-decl-generic|title=Declension of się|heads=singular and plural
+|-
+|się/siebie
+|sobie
+|się/siebie
+|sobą
+|sobie
+|-
+}}
+
+====Alternative forms====
+* {{alt|pl|siebie}}
+
+===Particle===
+{{head|pl|particle}}
+
+# {{ng|used to form impersonal present or future tense}}
+#: {{uxi|pl|Robi '''się''' późno.|It's getting late.}}
+#: {{uxi|pl|Mówi '''się''', że...|It is said that...}}
+
+===Trivia===
+{{pl-freq 1990|1569|1321|1287|2614|2511|9302|4|527|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|10879}}
+* {{R:pl:SXVII|SIĘ|18254|AW|21.11.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||110|6}}
+
+===Anagrams===
+* {{anagrams|pl|a=isę|ęsi}}

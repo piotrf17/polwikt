@@ -108,8 +108,14 @@ large to stay in page cache on this box, revive P2 (decision 6).
 
 ---
 
-## M3 — Golden fixtures and test harness
-*Needs M2. 1–2 days.*
+## M3 — Golden fixtures and test harness ✅
+*Done 2026-10-12.* 66 pages in `tests/golden/` (1.2 MB of full-page wikitext), listed
+with the reason for each in `pages.toml`. The all-Middle-Polish pages are `kradźba` (pure)
+and `barzo`, whose first sense is labelled Middle Polish *and* several modern dialects,
+so R6.6a drops it too. Alternative spellings: `ketchup` (standard), `fijokier`
+(dialectal); two tables in one entry: `zniknąć`, `-wać`. Harness: 135 integrity checks
+pass, 66 extraction diffs skip until the M4 snapshot. `polwikt inspect` prints the
+wikitext and the unexpanded node tree, from the store or `--golden`.
 
 - `tools/golden.py` pulls ~50 chosen pages' raw wikitext from `pages.sqlite` into
   `tests/golden/` (R8.1). A dev tool, not pipeline code.

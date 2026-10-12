@@ -57,7 +57,7 @@ PAGES = [
 ]
 
 
-def _dump_xml() -> bytes:
+def dump_xml() -> bytes:
     pages = []
     for page_id, ns, title, redirect, model, text in PAGES:
         redirect_xml = f'<redirect title="{escape(redirect)}" />' if redirect else ""
@@ -78,7 +78,7 @@ def _dump_xml() -> bytes:
 @pytest.fixture
 def dump(tmp_path: Path) -> Path:
     path = tmp_path / "enwiktionary-test-pages-articles.xml.bz2"
-    path.write_bytes(bz2.compress(_dump_xml()))
+    path.write_bytes(bz2.compress(dump_xml()))
     return path
 
 
@@ -179,7 +179,7 @@ def test_rescan_is_skipped_when_current(tmp_path: Path, dump: Path) -> None:  # 
 def test_interrupted_scan_leaves_no_store(tmp_path: Path) -> None:
     db = tmp_path / "pages.sqlite"
     broken = tmp_path / "broken.xml.bz2"
-    broken.write_bytes(bz2.compress(_dump_xml()[:-200]))
+    broken.write_bytes(bz2.compress(dump_xml()[:-200]))
     with pytest.raises(ScanError):
         scan(load_config(REPO), broken, db, dump_sha1=SHA1)
     assert not db.exists()

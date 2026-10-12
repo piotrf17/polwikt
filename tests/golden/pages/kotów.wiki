@@ -1,0 +1,10 @@
+{{also|kotow|kótow}}
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Noun===
+{{head|pl|noun form}}
+
+# {{inflection of|pl|kot||gen|p}}

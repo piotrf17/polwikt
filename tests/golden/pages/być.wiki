@@ -1,0 +1,211 @@
+{{also|byc}}
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=to be|:inh|sla-pro:*byti<id:to be>|text=+|tree=1|etydate=14th century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf|indet=bywać}}
+
+# {{lb|zlw-opl|intransitive}} to [[be]], to [[exist]]
+# {{lb|zlw-opl|copulative}} to [[be]] {{qualifier|indicates sameness or membership in a class}} {{+obj|zlw-opl|nom/ins}}
+#: {{uxi|zlw-opl|'''Jeśm''' kowalem.|'''I am''' a blacksmith.}}
+# {{lb|zlw-opl|copulative}} to [[be]] {{qualifier|auxiliary verb used for [[predication]]}} {{+obj|zlw-opl|adjective}}
+#: {{uxi|zlw-opl|'''Jeśm''' zmęczona.|t=I '''am''' tired.}}
+# {{lb|zlw-opl|auxiliary}} {{ng|in future tense, forms the compound future tense of imperfective verbs}} {{+obj|zlw-opl|inf}}
+#: {{uxi|zlw-opl|'''Będę''' biegać.|'''I'll be''' running.}}
+# {{lb|zlw-opl|auxiliary}} {{ng|in present tense, forms the compound past tense}} {{+obj|zlw-opl|past&participle}}
+#: {{uxi|zlw-opl|Wczora to napisał '''jeśm'''.|I wrote this down yesterday.}}
+# {{lb|zlw-opl|auxiliary}} {{ng|in past tense, forms the pluperfect tense}} {{+obj|zlw-opl|past&participle}}
+#: {{uxi|zlw-opl|On to '''był''' zrobił przód tem.|He '''had''' done it before.}}
+# {{lb|zlw-opl|auxiliary}} {{ng|in aorist, forms the conditional mood}} {{+obj|zlw-opl|past&participle}}
+#: {{uxi|zlw-opl|My '''bychom''' tam poszli.|We '''would have''' gone there.}}
+
+====Conjugation====
+{{rfinfl|zlw-opl|verb}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|zbyteczny}}
+{{col|zlw-opl|title=nouns|nabytek<g:m>|pobyt<g:m>|przybytek<g:m>|bydło<g:n>|byt<g:m>}}
+{{zlw-opl-derived verbs|
+|*być/bywać
+|do
+|wydo
+|na
+|obyć/-
+|od
+|prze
+|-/przybywać
+|u
+|z
+|poz
+}}
+
+====Descendants====
+* {{desc|pl|być}}
+* {{desc|szl|być}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:pl:WSEHJP|+|pages=74-78}}
+* {{R:pl:Bruckner}}
+* {{R:zlw-opl:SSP1953||182|3}}
+* {{R:zlw-opl:SPJSP||811}}
+* {{R:zlw-opl:Rozariusze|+|485}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|id=to be|:inh|zlw-opl:być<id:to be>|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav;LL-Q809 (pol)-Poemat-#.wav;LL-Q809 (pol)-Jest Spoczko-#.wav;LL-Q809 (pol)-Krokus-#.wav;LL-Q809 (pol)-Matlin-#.wav|mp=#|prz=#|zag=#}}
+
+===Verb===
+{{pl-verb|impf|indet=bywać}}
+
+# {{lb|pl|copulative}} to [[be]] {{ng|(used to indicate sameness or membership in a class)}} {{+obj|pl|nom/ins}}
+#: {{uxa|pl|'''Jestem''' Kamil, a to '''jest''' Marta.|t=I '''am''' Kamil, and this '''is''' Marta.}}
+#: {{uxa|pl|On '''jest''' nauczycielem chemii.|He '''is''' a chemistry teacher.}}
+# {{lb|pl|copulative|auxiliary}} to [[be]] {{ng|(used for predication)}} {{+obj|pl|adjective}}
+#: {{uxa|pl|'''Jestem''' potwornie zmęczona.|t=I '''am''' dead tired.}}
+#: {{uxa|pl|Czemu '''jesteś''' dziś taki nie w sosie?|Why '''are''' you so grumpy today?}}
+# {{lb|pl|copulative}} to [[be]] {{ng|(used to indicate the time of day)}} {{+obj|pl|nom}}
+#: {{uxa|pl|Jutro '''będzie''' piątek.|t=Tomorrow '''it'll be''' Friday.}}
+# {{lb|pl|intransitive|auxiliary|in the future tense}} {{ng|used to form the future tense of imperfective verbs}} {{+obj|pl|inf/past-cl}}
+#: {{uxa|pl|'''Będziesz''' dzisiaj sprzątać/sprzątała?|'''Are''' you '''going to''' clean today?}}
+# {{lb|pl|intransitive|auxiliary|archaic|in the past tense}} {{ng|used to form the pluperfect tense}} {{+obj|pl|past-cl}}
+#* {{quote-book|pl|year=1859|author=Jean Jacques Rapet|title=Przewodnik moralności i ekonomii politycznéj dla użytku klass robotniczych|publisher=Behr Bock|page=170|passage=Gdybyś naprzykład, panie Rawski, '''był''' zjadł wszystko coś zarobił, to byś nie '''był''' zebrał majątku.|t=If you, Mr Rawski, '''had''', for example, eaten everything that you earned, then you would not '''have''' collected your fortune.}}
+#* {{quote-book|pl|year=1869|author=Charles Edmond|translator=Edmund Chojecki|title=Alkhadar: ustęp z dziejów ojców naszych|publisher=F.A. Brockhaus|page=231|text=Nastusia na pół osunięta, na pół wsparta na dębie, na pół omdlała, z oczyma szeroko, nieruchomie otwartemi, utkwionemi w stronę, gdzie jastrząb dokonał '''był''' pomyślnych swoich łowów, strasznie dyszała.|t=Nastusia, half-fallen, half-supported by the oak, with her eyes opened wide in a motionless manner, fixed in the direction where the hawk '''had''' successfully carried out its hunts, was panting terribly.}}
+#* {{quote-book|pl|year=1871|author=Czesław Pieniążek|title=Włościanin: czasopismo ilustrowane dla ludu|publisher=Budweiser|page=34|passage=Ale cóż, gdyby '''był''' poszedł tam w to miejsce, jakie przystało honorowi i jego osobie, toby '''był''' musiał co dzień kilka i kilkanaście złotych wydać; to cóż on robił?|t=Oh well, if he '''had''' gone there into that place, as befitted his honour and his person, then he would have '''had''' to spend a few and a few dozen złoty; so what did he do?}}
+# {{lb|pl|intransitive}} to [[be]], [[there be]] {{ng|(used to indicate location)}}
+#: {{ant|pl|nie ma}}
+#: {{uxa|pl|Dlaczego w moim pokoju '''jest''' tylko jedno łóżko, a w jej '''są''' dwa?|Why '''is there''' only one bed in my room but two in hers?}}
+# {{lb|pl|transitive|Przemyśl}} {{syn of|pl|spędzać}}
+#: {{uxa|pl|Kázáł mu król, żeby '''był''' noc z niedźwiedziem.|The king ordered him to '''spend''' a night with a bear.}}
+
+====Usage notes====
+* When the predicate is an adjective phrase, it is always used in the nominative case (e.g. ''Jestem '''zmęczony''''' – ''I am '''tired'''''; ''Ona jest bardzo '''mądra''''' – ''She is very '''smart'''''; ''Wczorajszy dzień był '''piękny''', ale dzisiaj jest brzydko'' – ''Yesterday was a '''beautiful''' day, but today the weather is bad'').
+* When the predicate is a noun phrase, it can be used either in the instrumental or the nominative case, though it is found mostly in the former.
+** The instrumental case is used for:
+*** permanent identities (e.g. ''Jestem '''człowiekiem''''' – ''I am a '''human being'''''; ''Jestem '''katolikiem''''' – ''I am a '''Catholic'''''; ''Dinozaury były bardzo dużymi '''gadami''''' – ''Dinosaurs were very large '''reptiles''''');
+*** genders (e.g. ''Ja jestem '''kobietą''', a on jest '''mężczyzną''''' – ''I am a '''woman''' and he is a '''man''''');
+*** professions (e.g. ''Byłeś najlepszym '''nauczycielem''' biologii w naszym gimnazjum'' – ''You were the best biology '''teacher''' at our gimnazjum'');
+*** nationalities and ethnicities (e.g. ''On jest '''Polakiem''''' – ''He is '''Polish''''' (lit. ''He is a '''Pole'''''));
+*** relationships (e.g. ''Ona jest '''moją siostrą''''' – ''She is '''my sister'''''; ''On jest '''twoim narzeczonym'''?'' – ''Is he '''your fiancé'''?'');
+*** definite/unique identities (e.g. ''Bruce Wayne jest '''Batmanem''''' – ''Bruce Wayne is '''Batman''''').
+** The nominative case is used for:
+*** introducing oneself (e.g. ''Jestem '''Kamil''''' – ''I am '''Kamil''''' ''/'' ''My name is '''Kamil''''');
+*** directly identifying, specifying, or pointing out who someone is by name or unique identity (e.g. ''A więc to ty jesteś ta słynna '''Maryla Rodowicz'''?'' – ''So you are the famous '''Maryla Rodowicz'''?'').
+** However, when introducing other people or things, the phrase ''to jest/to są'' (''this is/these are'') is mostly used instead, where {{m|pl|to}} acts as a pointing demonstrative pronoun (e.g. ''To jest '''Marysia''', a to '''Tomek''''' – ''This is '''Marysia''' and this is '''Tomek'''''; ''To jest '''moja szefowa''''' – ''This is '''my boss''''', which is roughly synonymous with a standard instrumental phrase such as: ''Ona jest '''moją szefową''''').
+
+====Conjugation====
+{{pl-conj-być}}
+
+====Derived terms====
+{{col|pl|title=adjectives|zbyteczny}}
+{{col|pl|title=nouns|nabytek|pobyt|przybytek|ubytek|zbytek}}
+{{col|pl|title=particles|to jest}}
+{{pl-derived verbs|
+|*być/bywać
+|-/być w błędzie
+|do
+|wydo
+|zdo
+|na
+|od
+|o
+|pobyć/-
+|prze
+|przy
+|u
+|z
+|poz
+|wyz
+}}
+
+====Related terms====
+{{col|pl|title=nouns|bydło|byt}}
+{{col|pl|title=verbs|bawić<g:impf>}}
+
+===Trivia===
+{{pl-freq 1990|2049|1174|1865|1791|2742|9621|3|39|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||31129}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|45272}}
+* {{R:pl:SXVII|BYĆ|7|SPas|10.12.2021}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||243|1}}
+* {{R:pl:NFJP}}
+* {{R:pl:Saloni:1908||332}}
+* {{R:pl:Kobylińska:2001|być|11}} <!---być, przebywać, znajdować się--->
+
+{{cln|pl|suppletive verbs}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=to be|:inh|zlw-opl:być<id:to be>|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf|indet=bywać}}
+
+# {{lb|szl|copulative}} to [[be]] {{q|indicates sameness or membership in a class}} {{+obj|szl|nom/ins}}
+# {{lb|szl|copulative}} to [[be]] {{q|auxiliary verb used for [[predication]]}} {{+obj|szl|adjective}}
+# {{lb|szl|intransitive}} {{ng|in future tense, forms future tense of imperfective verbs}} {{+obj|szl|inf/past-cl}}
+# {{lb|szl|intransitive}} {{ng|in past tense, forms pluperfect tense}} {{+obj|szl|past-cl}}
+
+====Conjugation====
+{{szl-conj-być}}
+
+====Related terms====
+{{col|szl|title=nouns|bydło|byt}}
+{{col|szl|title=verb|bawić<g:impf>}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|byc}}
+* {{R:szl:silling}}
+
+==Upper Sorbian==
+
+===Etymology===
+{{dercat|hsb|ine-bsl-pro|ine-pro|inh=2}}
+{{inh+|hsb|sla-pro|*bỳti}}.
+
+===Pronunciation===
+{{hsb-pr|a=Hsb-być.ogg}}
+
+===Verb===
+{{hsb-verb|impf}}
+
+# {{lb|hsb|intransitive}} to [[be]]
+#: {{uxi|hsb|'''Sym''' redaktor Wikisłownika.|t='''I'm''' a Wiktionary editor.}}
+# {{ng|forms compound past tense}} {{+obj|hsb|lptcp}}
+#* {{quote-newsgroup|hsb|date=07/30/24|title=W aktualnym wudaću nańdźeće mjez druhim tole:|newsgroup=Katolski Posoł|url=https://www.posol.de/blog/katolski-posol-30-junija-2024/|text='''Zahajili běchu''' ju z dwurěčnymi swjedźenskimi kemšemi, kotrež swjećeše lětsa Zhorjelski biskop Wolfgang Ipolt.|t=They '''opened''' it with a bilingual festive service, which this year was celebrated by Görlitz Bishop Wolfgang Ipolt.}}
+
+====Conjugation====
+{{hsb-conj-być}}
+
+====Derived terms====
+{{col|hsb|title=verbs|dobyć<g:pf>|donabyć<g:pf>|dowotbyć<g:pf>|nabyć<g:pf>|dozabyć<g:pf>|njebyć<g:impf>|pozabyć<g:pf>|pobyć<g:pf>|pozbyć<g:pf>|předobyć<g:impf>|wotbyć<g:pf>|přidobyć<g:pf>|přibyć<g:pf>}}
+
+===Further reading===
+* {{R:hsb:Mudra}}
+* {{R:hsb:Soblex}}
+* {{R:hsb:LSS1866|być|57}}
+* {{R:hsb:LSS1866|buć|54}}
