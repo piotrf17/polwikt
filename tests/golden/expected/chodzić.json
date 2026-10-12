@@ -1,0 +1,652 @@
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈxɔ.d͡ʑit͡ɕ/"
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Kuyavia"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Near Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Far Masovian"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Suwałki"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Masovian Borderland"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Kielce"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Lasovia"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Western Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Eastern Lublin"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Przemyśl"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Zagórze"
+     ]
+    },
+    {
+     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "chodzić na nogi",
+       "translation": "to walk (on one's feet)"
+      }
+     ],
+     "gloss": "to walk (to move by means of one's feet)",
+     "keywords": [
+      {
+       "text": "walk"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
+    },
+    {
+     "gloss": "to climb (to go up something)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "po"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "climb"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "wspinać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Chodzę na siłownię dwa razy w tygodniu.",
+       "translation": "I go to the gym twice a week."
+      }
+     ],
+     "gloss": "to go, to frequent (to regularly participate in an activity)",
+     "government": [
+      {
+       "description": "inf: to do what"
+      },
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "frequent"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
+    },
+    {
+     "gloss": "to go in; to wear (to go in a particular vestment)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "wear"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "subsenses": [
+      {
+       "gloss": "to dress up as",
+       "government": [
+        {
+         "description": "as whom",
+         "grammatical_case": "CASE_ACCUSATIVE",
+         "preposition": "za"
+        }
+       ],
+       "keywords": [
+        {
+         "text": "dress up"
+        }
+       ],
+       "labels": [
+        "intransitive"
+       ],
+       "regions": [
+        "Kuyavia",
+        "Bogusławice",
+        "Lasovia",
+        "Stalowa Wola",
+        "Krzątka",
+        "Western Kraków",
+        "Siewierze",
+        "Koziegłowy",
+        "Rudawa"
+       ]
+      }
+     ]
+    },
+    {
+     "gloss": "to go out with, to date (to be in a romantic relationship with someone)",
+     "government": [
+      {
+       "description": "with whom",
+       "grammatical_case": "CASE_INSTRUMENTAL",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go out with"
+      },
+      {
+       "text": "date"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "spotykać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to go (to continuously or habitually be in a state)",
+     "keywords": [
+      {
+       "text": "go"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "copulative"
+     ]
+    },
+    {
+     "gloss": "to go (to follow a particular route)",
+     "keywords": [
+      {
+       "text": "go"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial",
+      "of vehicles"
+     ],
+     "relations": [
+      {
+       "term": "kursować",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mój laptop chodzi na baterii najwyżej trzy godziny.",
+       "translation": "My laptop works on battery for at most three hours."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Ten zegarek dawno przestał chodzić.",
+       "translation": "This clock stopped ticking a long time ago."
+      }
+     ],
+     "gloss": "to work",
+     "government": [
+      {
+       "description": "on a source of power",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "work"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial",
+      "of devices"
+     ],
+     "relations": [
+      {
+       "term": "działać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to bob, to throb, to tremble (to move beyond one's volition)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "bob"
+      },
+      {
+       "text": "throb"
+      },
+      {
+       "text": "tremble"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial",
+      "of body parts"
+     ]
+    },
+    {
+     "gloss": "to be felt on the body",
+     "keywords": [
+      {
+       "text": "feel"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of shudders"
+     ]
+    },
+    {
+     "gloss": "to spread (to disseminate; to proliferate, to become widely known or present)",
+     "keywords": [
+      {
+       "text": "spread"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of news, rumors, etc."
+     ],
+     "subsenses": [
+      {
+       "gloss": "to spread (to be published)",
+       "government": [
+        {
+         "description": "in what publication",
+         "grammatical_case": "CASE_LOCATIVE",
+         "preposition": "w"
+        }
+       ],
+       "keywords": [
+        {
+         "text": "spread"
+        }
+       ],
+       "labels": [
+        "intransitive",
+        "impersonal"
+       ],
+       "regions": [
+        "Western Kraków",
+        "Smardzowice"
+       ]
+      }
+     ]
+    },
+    {
+     "gloss": "to get stuck in one's head (to remain constantly in one's thoughts and memories)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_INSTRUMENTAL",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      },
+      {
+       "text": "stuck"
+      },
+      {
+       "text": "head"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "przyczepić się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to be an object of desire for someone",
+     "keywords": [
+      {
+       "text": "object"
+      },
+      {
+       "text": "desire"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ]
+    },
+    {
+     "gloss": "to go for (to visit a particular location to finish a particular task or to acquire a particular thing)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_INSTRUMENTAL",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go for"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "proscribed"
+     ]
+    },
+    {
+     "gloss": "to tend to, to care for, to take care of",
+     "government": [
+      {
+       "description": "to/for/of whom/what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "koło"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "tend"
+      },
+      {
+       "text": "care"
+      },
+      {
+       "text": "take care of"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "dbać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "troszczyć się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czy wiesz, o co mi chodzi?",
+       "translation": "Do you know what I mean?"
+      }
+     ],
+     "gloss": "to mean, to be on about; to have in mind",
+     "government": [
+      {
+       "description": "who, i.e. the subject of the English sentence",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "(about) who or what/what in mind",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "mean"
+      },
+      {
+       "text": "be on about"
+      },
+      {
+       "text": "have in mind"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "impersonal"
+     ],
+     "relations": [
+      {
+       "term": "iść",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "rozchodzić się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to go for, to cost (to be offered to sell for a certain price)",
+     "government": [
+      {
+       "description": "how much",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "po"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go for"
+      },
+      {
+       "text": "cost"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "wychodzić",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of wychodzić (“to marry”)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of a woman"
+     ],
+     "regions": [
+      "Kuyavia",
+      "Kowal",
+      "Rakutowo",
+      "Świerczyn"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "fermentować",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of fermentować",
+     "labels": [
+      "intransitive",
+      "of e.g. beer, dough"
+     ],
+     "regions": [
+      "Suwałki",
+      "Augustów Governorate",
+      "Northern Borderlands",
+      "Lithuania"
+     ]
+    },
+    {
+     "gloss": "to go for a walk, to stroll",
+     "keywords": [
+      {
+       "text": "walk"
+      },
+      {
+       "text": "stroll"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "spacerować",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to participate in an excursion against someone, to war with",
+     "government": [
+      {
+       "description": "against whom",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "excursion"
+      },
+      {
+       "text": "against"
+      },
+      {
+       "text": "war"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "obsolete"
+     ]
+    }
+   ],
+   "topics": [
+    "Mind",
+    "Pregnancy"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish chodzić. By surface analysis, chód + -ić."
+  }
+ ],
+ "lemma": "chodzić"
+}

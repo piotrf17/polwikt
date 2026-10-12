@@ -1,0 +1,248 @@
+{{also|chodźić}}
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*xoditi|:af<surf>|chód|-ić|etydate=14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf-indet|det=ić}}
+
+# to [[walk]] {{gl|to move by means of one's feet}} {{+obj|zlw-opl|ins<on what trail>|:po(loc/acc)<along what>|:na(loc)<on what>|:w(loc)<in what>|:przed(ins)<in front of whom/what>|:między(ins)/:pośrzod(gen)/:weśrod(gen)<between/among whom>|:z(ins)<with whom/what>|:ku(dat)/:do(gen)<towards what>|:na(acc)<onto what>|:w(acc)<into what>|:mimo(acc)/:podle(gen)/:około(gen)<around what>}}
+#* {{RQ:zlw-opl:Fl|58, 4|Przez lichoti begal iesm y '''chodzil''' (sine iniquitate cucurri et direxi)|Przez lichoty biegał jeśm i '''chodził''' (sine iniquitate cucurri et direxi)|-}}
+#* {{RQ:zlw-opl:Fl|125, 7|Idancz '''chodzyly''' y plakaly (euntes ibant, Leopolita i Wujek: idąc szli)|Idąc '''chodzili''' i płakali (euntes ibant, Leopolita i Wujek: idąc szli)|-}}
+# {{lb|zlw-opl|copulative}} to [[go]] {{gl|to continuously or habitually be in a state}}
+#* {{RQ:zlw-opl:Fl|37, 6|Smøczen '''chodzil''' iesm (contristatus ingrediebar)|Smęcien '''chodził''' jeśm (contristatus ingrediebar)|-}}
+# {{lb|zlw-opl|locative}} to [[be]]; to [[find oneself]]; to [[last]] a certain amount of time
+#* {{RQ:zlw-opl:Fl|67, 23|Bog zlame glowi neprzyacelow swogich, wirzch wlosa '''chodzøczich''' w grzeszech swogich (verticem capilli perambulantium in delictis suis)|Bog złamie głowy nieprzyjacielow swojich, wirzch włosa '''chodzących''' w grzeszech swojich (verticem capilli perambulantium in delictis suis)|-}}
+# to [[be]] in [[contact]] with something
+#* {{RQ:zlw-opl:HubeZb|53|1410|Jacom w them '''chodzil''', gdi Staszek ne chczal ranczicz za starostan Thomka dz<e>sanci grziwen Lewkowskim|Jakom w tem '''chodził''', gdy Staszek nie chciał ręczyć za starostę Tomka dzi<e>siąci grzywien Lewkowskim|-}}
+# to [[follow]] {{gl|to move along the same line as someone}} {{+obj|zlw-opl|:za(ins)<whom/what>}}
+#* {{RQ:zlw-opl:BZ|I Par|14, 14|Y *rzek gemv bog: Nye '''chodzi''' za nymy, otydzi ot nych (non ascendas post eos, recede ab eis)|I rzek jemu Bog: Nie '''chodzi''' za nimi, otydzi ot nich (non ascendas post eos, recede ab eis)|-}}
+# to [[act]] [[against]] {{+obj|zlw-opl|:przeciwko(dat)<against whom>}}
+#* {{RQ:zlw-opl:BZ|Lev|26, 41|Sznødzeny bødø, doyøød... zlego... nye wspomyonø, gimze to przestøpili sø przecziwko mnye. Przetos y ia '''chodzicz''' bødø przecziwko gim (ambulaverunt ex adverso mihi. Ambulabo igitur et ego contra eos)|Snędzeni będą, dojąd... złego... nie wspomioną, jimże to przestąpili są przeciwko mnie. Przetoż i ja '''chodzić''' będę przeciwko jim (ambulaverunt ex adverso mihi. Ambulabo igitur et ego contra eos)|-}}
+# to [[wear]] {{+obj|zlw-opl|:w(loc)<what>}}
+#* {{RQ:zlw-opl:Gn|182a|Szøcz ony bily swe sludzy f drodzem odzenv '''chodzøcz''' vsrzely|Sąć oni byli swe sługi w drogiem odzieniu '''chodząc''' uźrzeli|-}}
+# to be [[pregnant]]
+#* {{RQ:zlw-opl:Gn|176a|Maria gest ona brzemenna byla a svim szinkem milim gestcy ona bila '''chodzila'''|Maryja jest ona brzemienna była a swym synkiem miłym jestci ona była '''chodziła''' |-}}
+# to [[invade]] {{+obj|zlw-opl|:na(acc)<what/whom>}}
+#* {{RQ:zlw-opl:KsMaz|I|349|1403|Iacom ia ne '''chodzil''' na Staskowi dom ni na gednø scodø|Jakom ja nie '''chodził''' na Staszkowy dom ni na jednę szkodę|-}}
+# to [[come]]
+#* {{RQ:zlw-opl:Fl|65, 4|'''Chodzicze''' i widzcze (venite et videte) dzala bosza|'''Chodzicie''' i widzcie (venite et videte) działa boża|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|chodzenie|chodnik}}
+{{zlw-opl-derived verbs|impf_first=1|*chodzić/-
+|do
+|nad
+|ob
+|o
+|od
+|po
+|pod
+|prze
+|przed
+|przy
+|roz
+|s
+|u
+|w
+|ws
+|wy
+|za
+}}
+
+====Related terms====
+{{col|zlw-opl|title=adjectives|niedochodni|niedochodzący|nieochodzący|odchodzący|pochodzący|przechodzący|przychodni|przychodniowy|wschodowy|wychodowy|zachodni}}
+{{col|zlw-opl|title=adverbs|nieodchodnie|pochodnie|wychodnie}}
+{{col|zlw-opl|title=nouns|chód|darmochód|dochód|innochodnik|inochoda|inochodnik|mimochodnik
+|nachód|niechodza|niedochodzony|niedochodźca
+|obchodzenie|obchód|obochód|odchodność|odchodzenie|odchód
+|pochodnia|pochodzenie|pochód|proznochodka|próznochód|przechodzienie|przechodźca|przechód|przodochodźca|przychodzący|przychodzień|przychodca|przychód|rozchodnik
+|schodzenie|schód|sinochodnik|uchodzenie
+|wchodza|wchodzenie|wchodzień|wchód|wschód|wychodne|wychodzień|wychód|zachodne|zachodźca|zachód|zapochodzący}}
+
+====Descendants====
+* {{desc|pl|chodzić}}
+* {{desc|szl|chodzić}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Pregnancy}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:chodzić|:af<surf>|chód|-ić|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav|mp=#|prz=#|PM=#|MD=#|EL=#|WL=#|kuj=#|MB=#|kie=#|las=#|krk=#|suw=#|nbl=#|zag=#}}
+
+===Verb===
+{{pl-verb|impf-indet|freq=chadzać|det=iść|pf=pójść}}
+
+# {{lb|pl|intransitive}} to [[walk]] {{gl|to move by means of one's feet}}
+#: {{coa|pl|'''chodzić''' na nogi|to '''walk''' (on one's feet)|qq=Kielce, Łysica}}
+# {{lb|pl|intransitive}} to [[climb]] {{gl|to go up something}} {{+obj|pl|:po(loc)<what>}}
+#: {{syn|pl|[[wspinać]] [[się]]}}
+# {{lb|pl|intransitive}} to [[go]], to [[frequent]] {{gl|to regularly participate in an activity}} {{+obj|pl|inf<to do what>|:na(acc)<for what>}}
+#: {{uxi|pl|'''Chodzę''' na siłownię dwa razy w tygodniu.|I '''go''' to the gym twice a week.}}
+# {{lb|pl|intransitive}} to [[go]] in; to [[wear]] {{gl|to go in a particular vestment}} {{+obj|pl|:w(loc)<what>}}
+## {{lb|pl|intransitive|Kujawy|Bogusławice|Lasovia|Stalowa Wola|Krzątka|Western Kraków|Siewierze|Koziegłowy|Rudawa}} to [[dress up]] as {{+obj|pl|:za(acc)<as whom>}}
+# {{lb|pl|intransitive|colloquial}} to [[go out with]], to [[date]] {{gl|to be in a romantic relationship with someone}} {{+obj|pl|:z(ins)<with whom>}}
+#: {{syn|pl|[[spotykać]] [[się]]}}
+# {{lb|pl|intransitive|copulative}} to [[go]] {{gl|to continuously or habitually be in a state}}
+# {{lb|pl|intransitive|colloquial|of vehicles}} to [[go]] {{gl|to follow a particular route}}
+#: {{syn|pl|kursować}}
+# {{lb|pl|intransitive|colloquial|of devices}} to [[work]] {{+obj|pl|:na(loc)<on a source of power>}}
+#: {{syn|pl|działać}}
+#: {{uxi|pl|Mój laptop '''chodzi''' na baterii najwyżej trzy godziny.|My laptop '''works''' on battery for at most three hours.}}
+#: {{uxi|pl|Ten zegarek dawno przestał '''chodzić'''.|This clock stopped '''ticking''' a long time ago.}}
+# {{lb|pl|intransitive|colloquial|of body parts}} to [[bob]], to [[throb]], to [[tremble]] {{gl|to move beyond one's volition}} {{+obj|pl|dat<whom>}}
+# {{lb|pl|intransitive|of shudders}} to be [[feel|felt]] on the body
+# {{lb|pl|intransitive|of news, rumors, etc.}} to [[spread]] {{gl|to disseminate; to proliferate, to become widely known or present}}
+## {{lb|pl|intransitive|impersonal|Western Kraków|Smardzowice}} to [[spread]] {{gl|to be published}} {{+obj|pl|:w(loc)<in what publication>}}
+# {{lb|pl|intransitive|colloquial}} to [[get]] [[stuck]] in one's  [[head]] {{gl|to remain constantly in one's thoughts and memories}} {{+obj|pl|:za(ins)<whom>}}
+#: {{syn|pl|[[przyczepić]] [[się]]}}
+# {{lb|pl|intransitive|colloquial}} to be an [[object]] of [[desire]] for someone
+# {{lb|pl|intransitive|proscribed}} to [[go for]] {{gl|to visit a particular location to finish a particular task or to acquire a particular thing}} {{+obj|pl|:za(ins)<what>}}
+# {{lb|pl|intransitive}} to [[tend]] to, to [[care]] for, to [[take care of]] {{+obj|pl|:koło(gen)<to/for/of whom/what>}}
+#: {{syn|pl|dbać|[[troszczyć]] [[się]]}}
+# {{lb|pl|intransitive|impersonal}} to [[mean]], to [[be on about]]; to [[have in mind]] {{+obj|pl|dat<who, i.e. the subject of the English sentence> + :o(acc)<(about) who or what/what in mind>}}
+#: {{syn|pl|iść|[[rozchodzić]] [[się]]}}
+#: {{uxi|pl|Czy wiesz, o co mi '''chodzi'''?|Do you know what I '''mean'''?}}
+# {{lb|pl|intransitive|colloquial}} to [[go for]], to [[cost]] {{gl|to be offered to sell for a certain price}} {{+obj|pl|:po(acc)<how much>}}
+# {{lb|pl|intransitive|Kuyavia|Kowal|Rakutowo|Świerczyn|of a woman}} {{syn of|pl|wychodzić|t=to [[marry]]}} {{+obj|pl|:za(acc)<whom>}}
+# {{lb|pl|intransitive|Suwałki|Augustów Governorate|Northern Borderlands|Lithuania|of e.g. beer, dough}} {{syn of|pl|fermentować}}
+# {{lb|pl|intransitive|obsolete}} to go for a [[walk]], to [[stroll]]
+#: {{syn|pl|spacerować}}
+# {{lb|pl|intransitive|obsolete}} to participate in an [[excursion]] [[against]] someone, to [[war]] with {{+obj|pl|:na(acc)<against whom>}}
+# {{lb|pl|intransitive|Middle Polish|or|Near Masovian|Krężel|Budziszyn}} to [[act]], to [[behave]]
+#: {{syn|pl|[[zachowywać]] [[się]]}}
+#: {{coa|pl|'''chodzić''' po zły woli|to '''act''' out of ill will|qq=Near Masovian, Krężel, Budziszyn}}
+# {{lb|pl|intransitive|Middle Polish}} to [[obey]]
+#: {{syn|pl|[[słuchać]] [[się]]}}
+# {{lb|pl|intransitive|Middle Polish}} to be [[pregnant]]
+#: {{syn|pl|[[być]] [[w ciąży]]}}
+# {{lb|pl|intransitive|Middle Polish}} to [[court]], to [[romance]]
+#: {{syn|pl|zabiegać}}
+# {{lb|pl|intransitive|Middle Polish}} to [[swim]]
+#: {{syn|pl|pływać}}
+# {{lb|pl|intransitive|Middle Polish}} to [[reach]]
+#: {{syn|pl|dosięgać|sięgać}}
+# {{lb|pl|intransitive|Middle Polish|property law}} to have some [[status]] of [[functioning]] or [[use]] [[guarantee]]d by a [[contract]] or [[agreement]]
+# {{lb|pl|intransitive|Middle Polish|of a state}} to be [[govern]]ed
+
+====Conjugation====
+{{pl-conj-ai-ić|cho|dz}}
+* In the {{w|Masovian Borderland dialect}}, the second person imperative singular may be formed as {{m|pl|chodzi}}.
+* In the {{w|Far Masovian dialect}} ({{w|Przasnysz}}), the second person imperative singular may be formed as {{m|pl|chodzij}}.
+* In the {{w|Eastern Lublin dialect}} ({{w|Tomaszów Lubelski County}}) and the {{w|Masovian Borderland dialect}} ({{w|Radom}}) , the second person imperative singular may be formed as {{m|pl|chodz}}.
+* In the {{w|Eastern Lublin dialect}} and the {{w|Western Lublin dialect}} ({{w|Lublin Voivodeship}}) , the second person imperative singular may be formed as {{m|pl|chódź}}.
+* In the {{w|Western Lublin dialect}} ({{w|Gmina Serniki}}), the second person imperative dual may be formed as {{m|pl|chojca}}.
+
+====Derived terms====
+{{col|pl|title=adjectives|chodliwy|chodny|chodziwy|chodzący}}
+{{col|pl|title=adverbs|tam, gdzie król piechotą chodzi}}
+{{col|pl|title=idioms|jak nie wiadomo, o co chodzi, to chodzi o pieniądze}}
+{{col|pl|title=interjections|chodź|chodźcie}}
+{{col|pl|title=nouns|chodacz|chodak|chodnica|chodnik|chodzenie|chodziarz|chodzidło|chodzień|chodzik|chodzony|}}
+{{col|pl|title=particles|jeśli chodzi o}}
+{{col|pl|title=phrases|nieszczęścia chodzą parami|nieszczęścia chodzą po ludziach|szewc bez butów chodzi}}
+{{pl-derived verbs|impf_first=1
+|*chodzić/[jść]
+|do
+|na
+|prze
+|przy
+|u
+|wy
+|*chodzić/[ejść]
+|nad
+|ob
+|od
+|pod
+|roz
+|w
+|wschodzić<g:impf>/[wzejść]<g:pf>
+|schodzić<g:impf>/[zejść]<g:pf>
+|przedchodzić/-
+}}
+{{pl-derived verbs|impf_first=1|chodzić kanałami/-|nie chodzić piechotą/-|chodzić jak paw/-|chodzić jak struty/-|chodzić na rzęsach/-|chodzić własnymi drogami/-|chodzić z kapeluszem/-|chodzić jak błędna owca/-|chodzić jak na sznurku/-|chodzić spać z kurami/-|chodzić po głowie/-|chodzić od drzwi do drzwi/-|chodzić na palcach/-|chodzić po dengusie<l:dialectal>/-|chodzić po gaiku<l:dialectal>/-|chodzić na fraj<l:dialectal>/-|chodzić po wilku<l:dialectal>/-|chodzić po pytaniu<l:dialectal>/-|chodzić po wsi<l:dialectal>/-}}
+
+====Related terms====
+{{col|pl|title=adjectives|chodaczkowy|chodnikowy|chodowy|chodzeniowy|chodziarski}}
+{{col|pl|title=nouns|chodaczek|chodacznik|chodliwość|chodniczek|chodnikowiec|chodziarstwo|chód}}
+
+===Trivia===
+{{pl-freq 1990|37|16|97|96|153|399|121|47|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP||10552}}
+** {{R:pl:PWN}}
+** {{R:pl:NFJP}}
+** {{R:pl:SGJP|+|272858}}
+** {{R:pl:SGJP|+|279572}}
+* Middle Polish:
+** {{R:pl:SXVI|+|46017}}
+** {{R:pl:SXVII|CHODZIĆ|1478|WM|12.02.2019}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||289|1}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||193|1}}
+** {{R:pl:Saloni:1908|chodzi o coś|333}}
+** {{R:pl:Kapusta:2017|chodzi|76}}
+** {{R:pl:Kobylińska:2001|chodzić|15}}
+
+{{cln|pl|multidirectional verbs}}
+{{C|pl|Mind|Pregnancy}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:chodzić|:af<surf>|chōd|-ić|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf-indet|det=iść}}
+
+# {{lb|szl|intransitive}} to [[walk]] {{gl|to move by means of one's feet}}
+
+====Conjugation====
+{{szl-conj-ai-Va|cho|dz}}
+
+====Derived terms====
+{{szl-derived verbs|impf_first=1|*chodzić/[jś]
+|do
+|pochodzić/[pōjś]
+|u
+|wy
+|za
+|*chodzić/-
+|na
+|prze
+|roz
+|s
+|w
+|ws
+|za}}
+
+===Further reading===
+* {{R:szl:dykcjonorz|chodzic}}
+* {{R:szl:silling}}
+
+{{cln|szl|multidirectional verbs}}

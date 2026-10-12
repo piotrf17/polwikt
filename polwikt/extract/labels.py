@@ -71,7 +71,7 @@ class LabelIndex:
         """The labels of one {{lb|pl|…}} call (its arguments after the language)."""
         out: list[Label] = []
         for value in values:
-            for part in value.split(", ") if ", " in value else [value]:
+            for part in split_on_comma(value):
                 if not part.strip() or part.strip() in _CONNECTORS:
                     continue
                 label = self.classify(part)
@@ -85,6 +85,23 @@ class LabelIndex:
                     continue
                 out.append(label)
         return out
+
+
+def split_on_comma(value: str) -> list[str]:
+    """Module:labels' rule: "regional,dated" is two labels, but a comma followed by
+    whitespace is prose ("of news, rumors, etc." is one), and nothing inside <...> or
+    [...] is split."""
+    parts: list[str] = []
+    depth, start = 0, 0
+    for i, char in enumerate(value):
+        if char in "<[":
+            depth += 1
+        elif char in ">]" and depth:
+            depth -= 1
+        elif char == "," and depth == 0 and not value[i + 1 : i + 2].isspace():
+            parts.append(value[start:i])
+            start = i + 1
+    return [*parts, value[start:]]
 
 
 @cache

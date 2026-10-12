@@ -9,6 +9,7 @@ import pytest
 
 from polwikt.config import load_config
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.labels import split_on_comma
 from polwikt.extract.page import PageResult, Settings, extract_record
 from polwikt.proto import polwikt_pb2 as pb
 from tests.golden_harness import fixtures
@@ -42,6 +43,22 @@ def test_labels_are_split_by_kind(wtp: PolwiktWtp) -> None:  # R6.7
     assert list(sense.regions) == ["Far Masovian", "Krotoszyn"]  # town: by capital
     assert list(sense.topics) == ["hunting"]
     assert sense.gloss == "fox"  # labels never reach the gloss text
+
+
+@pytest.mark.parametrize(
+    ("written", "labels"),
+    [
+        ("of news, rumors, etc.", ["of news, rumors, etc."]),  # prose: not split
+        ("dated,colloquial", ["dated", "colloquial"]),  # Module:labels splits this
+        # Module:labels' own example: never inside <<...>> or [...]
+        (
+            "regional,older <<non-rhotic,and,non-hoarse-horse>> speakers",
+            ["regional", "older <<non-rhotic,and,non-hoarse-horse>> speakers"],
+        ),
+    ],
+)
+def test_label_commas_follow_module_labels(written: str, labels: list[str]) -> None:
+    assert split_on_comma(written) == labels
 
 
 def test_aliases_resolve_through_wiktionary_data(wtp: PolwiktWtp) -> None:
@@ -224,3 +241,18 @@ def test_pies_has_a_taxonomic_keyword(wtp: PolwiktWtp) -> None:  # R6.14
     sense = result.word.entries[0].senses[0]
     keywords = [(k.text, k.taxonomic) for k in sense.keywords]
     assert keywords == [("dog", False), ("Canis lupus familiaris", True)]
+
+
+def test_chodzic_keeps_prose_qualifiers_whole(wtp: PolwiktWtp) -> None:
+    # "{{lb|pl|intransitive|of news, rumors, etc.}}" — split on ", " this made "rumors"
+    # and "etc." labels, and on iść turned "roads" into the topic "road transport".
+    result = golden(wtp, "chodzić")
+    assert result.word is not None
+    labels = [list(s.labels) for s in result.word.entries[0].senses]
+    assert ["intransitive", "of news, rumors, etc."] in labels
+    assert ["intransitive", "of e.g. beer, dough"] in labels
+    iść = golden(wtp, "iść")
+    assert iść.word is not None
+    for entry in iść.word.entries:
+        for sense in entry.senses:
+            assert "road transport" not in sense.topics
