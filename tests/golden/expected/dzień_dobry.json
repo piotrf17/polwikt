@@ -9,7 +9,31 @@
    ],
    "senses": [
     {
-     "gloss": "good day, good morning, good afternoon"
+     "gloss": "good day, good morning, good afternoon",
+     "keywords": [
+      {
+       "text": "good day"
+      },
+      {
+       "text": "good morning"
+      },
+      {
+       "text": "good afternoon"
+      }
+     ],
+     "labels": [
+      "idiomatic"
+     ],
+     "relations": [
+      {
+       "term": "dobranoc",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "dobry wieczór",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
     }
    ]
   }

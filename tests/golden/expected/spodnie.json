@@ -15,8 +15,33 @@
    ],
    "senses": [
     {
-     "gloss": "pants, trousers"
+     "gloss": "pants, trousers",
+     "keywords": [
+      {
+       "text": "pants"
+      },
+      {
+       "text": "trousers"
+      }
+     ],
+     "relations": [
+      {
+       "term": "gacie",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "pantalony",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "portki",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Clothing"
    ]
   },
   {
@@ -35,8 +60,47 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "spodni",
+      "tag_sets": [
+       {
+        "gender": "GENDER_NEUTER",
+        "grammatical_case": "CASE_NOMINATIVE",
+        "number": "NUMBER_SINGULAR"
+       },
+       {
+        "gender": "GENDER_NEUTER",
+        "grammatical_case": "CASE_ACCUSATIVE",
+        "number": "NUMBER_SINGULAR"
+       },
+       {
+        "gender": "GENDER_NEUTER",
+        "grammatical_case": "CASE_VOCATIVE",
+        "number": "NUMBER_SINGULAR"
+       },
+       {
+        "gender": "GENDER_NONVIRILE",
+        "grammatical_case": "CASE_NOMINATIVE",
+        "number": "NUMBER_PLURAL"
+       },
+       {
+        "gender": "GENDER_NONVIRILE",
+        "grammatical_case": "CASE_ACCUSATIVE",
+        "number": "NUMBER_PLURAL"
+       },
+       {
+        "gender": "GENDER_NONVIRILE",
+        "grammatical_case": "CASE_VOCATIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "inflection of spodni: neuter nominative/accusative/vocative singular; nonvirile nominative/accusative/vocative plural"
     }
+   ],
+   "topics": [
+    "Clothing"
    ]
   }
  ],

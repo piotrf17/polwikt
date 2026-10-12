@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import bz2
 import importlib
 from pathlib import Path
 
@@ -10,9 +9,6 @@ import pytest
 from click.testing import CliRunner
 
 from polwikt.cli.main import cli
-from polwikt.config import load_config
-from polwikt.dump.scan import scan
-from tests.test_scan import dump_xml
 
 REPO = Path(__file__).resolve().parent.parent
 
@@ -82,32 +78,28 @@ def test_inspect_unknown_title_fails() -> None:
     assert "not a golden fixture" in result.output
 
 
-def test_inspect_reads_the_page_store(tmp_path: Path) -> None:
-    dump = tmp_path / "dump.xml.bz2"
-    dump.write_bytes(bz2.compress(dump_xml()))
-    db = tmp_path / "pages.sqlite"
-    scan(load_config(REPO), dump, db, dump_sha1="0" * 40)
-    result = CliRunner().invoke(cli, ["inspect", "kot", "--db", str(db)])
+def test_inspect_reads_the_page_store(golden_store: Path) -> None:
+    result = CliRunner().invoke(cli, ["inspect", "kot", "--db", str(golden_store)])
     assert result.exit_code == 0, result.output
-    assert "page 1, revision 100" in result.output
-    assert "TEMPLATE greet | kocie" in result.output
-    missing = CliRunner().invoke(cli, ["inspect", "cat", "--db", str(db)])
+    assert "page 50282, revision 92535143" in result.output
+    assert "TEMPLATE pl-decl-noun-m-anml" in result.output
+    missing = CliRunner().invoke(cli, ["inspect", "cat", "--db", str(golden_store)])
     assert missing.exit_code != 0
     assert "not a Polish page" in missing.output
 
 
 @pytest.mark.parametrize("jobs", ["1", "2"])
-def test_extract_writes_shards_and_reports(tmp_path: Path, jobs: str) -> None:
-    dump = tmp_path / "dump.xml.bz2"
-    dump.write_bytes(bz2.compress(dump_xml()))
-    db = tmp_path / "pages.sqlite"
-    scan(load_config(REPO), dump, db, dump_sha1="0" * 40)
+def test_extract_writes_shards_and_reports(
+    tmp_path: Path, golden_store: Path, jobs: str
+) -> None:
     out = tmp_path / "out"
-    argv = ["extract", "--db", str(db), "--out", str(out), "--jobs", jobs]
+    argv = ["extract", "--db", str(golden_store), "--out", str(out), "--jobs", jobs]
+    argv += ["--pages", "kot,mamy,kradźba"]
     result = CliRunner().invoke(cli, argv)
     assert result.exit_code == 0, result.output
-    assert "2 pages, 2 entries, 0 errors" in result.output  # kot, pies (R3.9)
+    assert "3 pages, 3 entries, 0 errors" in result.output  # kradźba: no record (R6.6a)
     assert sorted(p.name for p in out.iterdir()) == [
+        "dropped_colabelled.jsonl",
         "errors.jsonl",
         "p3-00000-of-00001.pb.zst",
         "stats.json",

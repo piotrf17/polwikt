@@ -33,74 +33,258 @@
    ],
    "senses": [
     {
-     "gloss": "good (moral, ethical)"
+     "gloss": "good (moral, ethical)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (kind, nice, willing to help)"
+     "gloss": "good (kind, nice, willing to help)",
+     "government": [
+      {
+       "description": "for whom",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "dla"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (of a mood; cheerful, fun, nice)"
+     "gloss": "good (of a mood; cheerful, fun, nice)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (successful)"
+     "gloss": "good (successful)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (hard-working; tending to carry out one's duties)"
+     "gloss": "good (hard-working; tending to carry out one's duties)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (of a living thing or its parts; functioning)"
+     "gloss": "good (of a living thing or its parts; functioning)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (high quality)"
+     "gloss": "good (high quality)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (apt, as wanted or expected)"
+     "gloss": "good (apt, as wanted or expected)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (of food and drink; tasty)"
+     "gloss": "good (of food and drink; tasty)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (beneficial)"
+     "gloss": "good (beneficial)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (resulting from a correct choice)"
+     "gloss": "good (resulting from a correct choice)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (having a high quality or skill at)"
+     "gloss": "good (having a high quality or skill at)",
+     "government": [
+      {
+       "description": "at what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      },
+      {
+       "description": "at what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (kind, fair, just)"
+     "gloss": "good (kind, fair, just)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (having a high social hierarchical position)"
+     "gloss": "good (having a high social hierarchical position)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (in close relations)"
+     "gloss": "good (in close relations)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (expressing approval)"
+     "gloss": "good (expressing approval)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "good (having a large size; lasting a long time)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Obrót Ziemi wokół Słońca zajmuje dobre 365 dni.",
+       "translation": "The rotation of the Earth around the Sun takes a good 365 days."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "We drove a good chunk of road.",
+       "text": "Pojechaliśmy dobry kawałek drogi.",
+       "translation": "We covered a good bit of distance"
+      }
+     ],
+     "gloss": "good (having a large size; lasting a long time)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ]
     },
     {
-     "gloss": "good (healthy)"
+     "gloss": "good (healthy)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ]
     },
     {
-     "gloss": "rich"
+     "gloss": "rich",
+     "keywords": [
+      {
+       "text": "rich"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "bogaty",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "good; Further details are uncertain."
+     "gloss": "ripe",
+     "keywords": [
+      {
+       "text": "ripe"
+      }
+     ],
+     "regions": [
+      "Chełmno-Dobrzyń"
+     ],
+     "relations": [
+      {
+       "term": "dojrzały",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "ripe"
+     "gloss": "grave; great",
+     "keywords": [
+      {
+       "text": "grave"
+      },
+      {
+       "text": "great"
+      }
+     ],
+     "labels": [
+      "of a sin"
+     ],
+     "regions": [
+      "Far Masovian",
+      "Przasnysz"
+     ],
+     "relations": [
+      {
+       "term": "ciężki",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "grave; great"
-    },
-    {
-     "gloss": "good (wanted; desired)"
+     "gloss": "good (wanted; desired)",
+     "keywords": [
+      {
+       "text": "good"
+      }
+     ],
+     "regions": [
+      "Central Greater Poland",
+      "Jaraczewo",
+      "Krotoszyn"
+     ]
     }
+   ],
+   "topics": [
+    "Academic grades"
    ]
   },
   {
@@ -136,8 +320,32 @@
    ],
    "senses": [
     {
-     "gloss": "B (the letter grade assigned)"
+     "gloss": "B (the letter grade assigned)",
+     "government": [
+      {
+       "description": "in what subject",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "B"
+      }
+     ],
+     "relations": [
+      {
+       "term": "czwórka",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "education"
+     ]
     }
+   ],
+   "topics": [
+    "Academic grades"
    ]
   }
  ],

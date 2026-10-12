@@ -22,42 +22,149 @@
    "senses": [
     {
      "gloss": "upper limb",
-     "subsenses": [
+     "keywords": [
       {
-       "gloss": "arm"
+       "text": "upper"
       },
       {
-       "gloss": "hand"
+       "text": "limb"
       }
-     ]
-    },
-    {
-     "gloss": "handball (offence of a player other than the goalkeeper touching the ball with the hand or arm on the field during play)"
-    },
-    {
-     "gloss": "hand (person that can perform a task, usually one requiring the hands)"
-    },
-    {
-     "gloss": "hand (person or institution that has the authority or competence or the ability to decide in an issue)"
-    },
-    {
-     "gloss": "hand (right to marriage)"
-    },
-    {
-     "gloss": "style of writing"
-    },
-    {
-     "gloss": "synonym of działka",
+     ],
      "subsenses": [
       {
-       "gloss": "synonym of poletko"
+       "gloss": "arm",
+       "keywords": [
+        {
+         "text": "arm"
+        }
+       ],
+       "relations": [
+        {
+         "term": "ramię",
+         "type": "TYPE_SYNONYM"
+        }
+       ]
+      },
+      {
+       "gloss": "hand",
+       "keywords": [
+        {
+         "text": "hand"
+        }
+       ],
+       "relations": [
+        {
+         "term": "dłoń",
+         "type": "TYPE_SYNONYM"
+        },
+        {
+         "term": "łapa",
+         "type": "TYPE_SYNONYM"
+        },
+        {
+         "term": "łapina",
+         "type": "TYPE_SYNONYM"
+        }
+       ]
+      }
+     ],
+     "topics": [
+      "anatomy"
+     ]
+    },
+    {
+     "gloss": "handball (offence of a player other than the goalkeeper touching the ball with the hand or arm on the field during play)",
+     "keywords": [
+      {
+       "text": "handball"
+      }
+     ],
+     "topics": [
+      "soccer"
+     ]
+    },
+    {
+     "gloss": "hand (person that can perform a task, usually one requiring the hands)",
+     "keywords": [
+      {
+       "text": "hand"
       }
      ]
     },
     {
-     "gloss": "synonym of strona (“side”) (one half (especially left or right) of something or someone)"
+     "gloss": "hand (person or institution that has the authority or competence or the ability to decide in an issue)",
+     "keywords": [
+      {
+       "text": "hand"
+      }
+     ]
+    },
+    {
+     "gloss": "hand (right to marriage)",
+     "keywords": [
+      {
+       "text": "hand"
+      }
+     ],
+     "labels": [
+      "literary"
+     ]
+    },
+    {
+     "gloss": "style of writing",
+     "keywords": [
+      {
+       "text": "style"
+      },
+      {
+       "text": "write"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "działka",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of działka",
+     "labels": [
+      "obsolete"
+     ],
+     "regions": [
+      "Eastern Lublin",
+      "Tomaszów Lubelski County"
+     ],
+     "subsenses": [
+      {
+       "form_of": {
+        "lemma": "poletko",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of poletko",
+       "regions": [
+        "Western Kraków"
+       ]
+      }
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "strona",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of strona (“side”) (one half (especially left or right) of something or someone)",
+     "labels": [
+      "obsolete"
+     ]
     }
-   ]
+   ],
+   "topics": [
+    "Limbs"
+   ],
+   "usage_notes": "The locative plural form ręku (historically a locative dual form) may be used for a single hand/arm or the hands/arms of a single person, and is used chiefly directly after w and na, and it is proscribed to use any sort of adjective etc. between the preposition and the noun. This form may be considered slightly more higher register."
   }
  ],
  "etymologies": [

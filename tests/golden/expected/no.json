@@ -57,7 +57,43 @@
    ],
    "senses": [
     {
-     "gloss": "yeah, yep"
+     "gloss": "yeah, yep",
+     "keywords": [
+      {
+       "text": "yeah"
+      },
+      {
+       "text": "yep"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "regions": [
+      "Podlachia",
+      "Drohiczyn",
+      "Western Kraków",
+      "Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Myślenice",
+      "Pisarzowice",
+      "Biecz dialect",
+      "Ropczyce",
+      "Podhale",
+      "Zakopane",
+      "Rabka-Zdrój"
+     ],
+     "relations": [
+      {
+       "term": "ano",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "tak",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   },
@@ -118,22 +154,62 @@
    ],
    "senses": [
     {
-     "gloss": "used to state the speaker thinks something is obvious and that one should not ponder further; well, well yeah"
+     "gloss": "used to state the speaker thinks something is obvious and that one should not ponder further; well, well yeah",
+     "keywords": [
+      {
+       "text": "well"
+      },
+      {
+       "text": "yeah"
+      }
+     ]
     },
     {
      "gloss": "used to state that the speaker thinks everything that can be said has been said and would like to finish the topic"
     },
     {
-     "gloss": "expresses uncertainty; well"
+     "gloss": "expresses uncertainty; well",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "hedge"
+     ]
     },
     {
-     "gloss": "used to encourage the conversation partner to give a response; well?"
+     "gloss": "used to encourage the conversation partner to give a response; well?",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "labels": [
+      "usually as a question"
+     ]
     },
     {
-     "gloss": "used to express surprise, awe, or caution"
+     "gloss": "used to express surprise, awe, or caution",
+     "labels": [
+      "often extended"
+     ]
     },
     {
-     "gloss": "Filled pause, usually connecting a previous sentence; well"
+     "gloss": "Filled pause, usually connecting a previous sentence; well",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "regions": [
+      "Western Kraków",
+      "Zebrzydowice"
+     ]
     },
     {
      "gloss": "introduces a question, often lightly emotionally charged"
@@ -201,15 +277,73 @@
    ],
    "senses": [
     {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "No, rusz się! Swiatło jest zielone!",
+       "translation": "C'mon, move! The light is green!"
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Józef Ignacy Kraszewski, Szkice obyczajowe i historyczne (1841)",
+       "text": "[…] wróciwszy z kluczem na posłanie. — Niech mnie licho porwie, jeśli cię puszczę — musisz zostać z nami. — O! figle! no! no! daj no klucza, rzekł śmiejąc się Alexy, daj no, serce, klucza! daj!",
+       "translation": "[…] having returned with the key. \"Goddamn it, if I let you go, you'll have to stay with us.\" \"Oh! Jokes! Cmon! Cmon! Cmon, give the key!\" Alex said laughing. \"Cmon, heart, give the key!\""
+      }
+     ],
      "gloss": "emphatic particle used with imperatives to speed up a performed action; c'mon, now",
+     "keywords": [
+      {
+       "text": "c'mon"
+      },
+      {
+       "text": "now"
+      }
+     ],
+     "labels": [
+      "originally dialectal"
+     ],
+     "regions": [
+      "Western Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Podegrodzie",
+      "Nowy Sącz",
+      "Biecz",
+      "Ropczyce",
+      "Podhale",
+      "Zakopane"
+     ],
+     "relations": [
+      {
+       "term": "ano",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
      "subsenses": [
       {
-       "gloss": "used to urge a horse; hyah!"
+       "gloss": "used to urge a horse; hyah!",
+       "keywords": [
+        {
+         "text": "hyah"
+        }
+       ],
+       "regions": [
+        "Southern Borderlands",
+        "Kamianets-Podilskyi"
+       ]
       }
      ]
     },
     {
-     "gloss": "synonym of jeno"
+     "form_of": {
+      "lemma": "jeno",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of jeno",
+     "regions": [
+      "Masuria",
+      "Western Kraków"
+     ]
     }
    ]
   }

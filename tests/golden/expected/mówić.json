@@ -69,23 +69,198 @@
    ],
    "senses": [
     {
-     "gloss": "to say, to tell (to vocalize using words)"
+     "gloss": "to say, to tell (to vocalize using words)",
+     "government": [
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "about what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "o"
+      },
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "powiadać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "prawić",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "rzec",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "milczeć",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "to call, to name (to speak using a particular name)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "mówić do kogoś Janik",
+       "translation": "to call someone Janik"
+      }
+     ],
+     "gloss": "to call, to name (to speak using a particular name)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "by what name",
+       "grammatical_case": "CASE_NOMINATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "call"
+      },
+      {
+       "text": "name"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "nazywać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to say, to tell (to indicate how someone should proceed or act)"
+     "gloss": "to say, to tell (to indicate how someone should proceed or act)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to say, to tell (to be an indicator or sign of something else)"
+     "gloss": "to say, to tell (to be an indicator or sign of something else)",
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "legenda mówi",
+       "translation": "the legend goes"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "autor mówi",
+       "translation": "an author says"
+      }
+     ],
+     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)",
+     "government": [
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "about what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "o"
+      },
+      {
+       "description": "about whom/what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "go"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to say, to tell (to communicate by non-verbal means)"
+     "gloss": "to say, to tell (to communicate by non-verbal means)",
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     }
+   ],
+   "topics": [
+    "Talking",
+    "Thinking",
+    "Prayer"
    ]
   },
   {
@@ -157,26 +332,193 @@
    ],
    "senses": [
     {
-     "gloss": "to talk, to converse (to speak with one or more people in a conversation)"
+     "gloss": "to talk, to converse (to speak with one or more people in a conversation)",
+     "keywords": [
+      {
+       "text": "talk"
+      },
+      {
+       "text": "converse"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "gadać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "rozmawiać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to speak (to be able to talk in a given lect or language)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czy mówi Pan(i) po angielsku?",
+       "translation": "Do you speak English? (formal)"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mówisz po angielsku?",
+       "translation": "Do you speak English? (informal)"
+      }
+     ],
+     "gloss": "to speak (to be able to talk in a given lect or language)",
+     "government": [
+      {
+       "description": "in what language",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      },
+      {
+       "description": "old&dative: in what language",
+       "preposition": "po"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "speak"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "to say, to tell (to appear in someone's behavior)"
+     "gloss": "to say, to tell (to appear in someone's behavior)",
+     "government": [
+      {
+       "description": "through whom/what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "przez"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "przemawiać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "synonym of prosić"
+     "form_of": {
+      "lemma": "prosić",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of prosić",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "o"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "regions": [
+      "Central Greater Poland",
+      "Odolanów",
+      "Kościan",
+      "Śrem",
+      "Southern Greater Poland",
+      "Śmigiel",
+      "Near Masovian",
+      "Czaplin",
+      "Czersk",
+      "Western Kraków",
+      "Sławków",
+      "Koziegłówki",
+      "Szczodrkowice",
+      "Biały Kościół",
+      "Eastern Kraków",
+      "Kłaj"
+     ]
     },
     {
-     "gloss": "synonym of myśleć"
+     "form_of": {
+      "lemma": "myśleć",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of myśleć",
+     "government": [
+      {
+       "description": "subordinate clause: that what",
+       "preposition": "że"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "regions": [
+      "Kuyavia",
+      "Kowal",
+      "Bogusławice",
+      "Strzelno",
+      "Central Greater Poland",
+      "Dębicz",
+      "Czeszewo",
+      "Łowicz"
+     ]
     },
     {
-     "gloss": "ellipsis of mówić na książce (“to pray”)"
+     "form_of": {
+      "lemma": "mówić na książce",
+      "raw_tags": [
+       "ellipsis"
+      ],
+      "type": "TYPE_ABBREVIATION"
+     },
+     "gloss": "ellipsis of mówić na książce (“to pray”)",
+     "labels": [
+      "intransitive"
+     ],
+     "regions": [
+      "Podhale"
+     ]
     },
     {
-     "gloss": "to move; to touch; to hook"
+     "gloss": "to move; to touch; to hook",
+     "keywords": [
+      {
+       "text": "move"
+      },
+      {
+       "text": "touch"
+      },
+      {
+       "text": "hook"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "regions": [
+      "Łowicz",
+      "Jackowice"
+     ]
     }
+   ],
+   "topics": [
+    "Talking",
+    "Thinking",
+    "Prayer"
    ]
   }
  ],

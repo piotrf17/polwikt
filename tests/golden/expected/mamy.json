@@ -9,6 +9,17 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "mieć",
+      "tag_sets": [
+       {
+        "number": "NUMBER_PLURAL",
+        "person": "PERSON_FIRST",
+        "tense": "TENSE_PRESENT"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "first-person plural present of mieć"
     }
    ]
@@ -22,6 +33,28 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "mama",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_GENITIVE",
+        "number": "NUMBER_SINGULAR"
+       },
+       {
+        "grammatical_case": "CASE_NOMINATIVE",
+        "number": "NUMBER_PLURAL"
+       },
+       {
+        "grammatical_case": "CASE_ACCUSATIVE",
+        "number": "NUMBER_PLURAL"
+       },
+       {
+        "grammatical_case": "CASE_VOCATIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "inflection of mama: genitive singular; nominative/accusative/vocative plural"
     }
    ]

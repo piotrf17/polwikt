@@ -9,40 +9,139 @@
    ],
    "senses": [
     {
-     "gloss": "to read (to look at and interpret letters and symbols that are written)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Tomek czyta nam interesującą książkę.",
+       "translation": "Tomek is reading an interesting book to us."
+      }
+     ],
+     "gloss": "to read (to look at and interpret letters and symbols that are written)",
+     "government": [
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "about whom/what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to read (to look at other information and interpret that is written or drawn)"
+     "gloss": "to read (to look at other information and interpret that is written or drawn)",
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to read (to interpret, or infer a meaning, significance, thought, intention, etc.)"
+     "gloss": "to read (to interpret, or infer a meaning, significance, thought, intention, etc.)",
+     "government": [
+      {
+       "description": "from what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      },
+      {
+       "description": "in what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      },
+      {
+       "description": "on what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "odczytywać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to read (to recognize the proper meaning of something)"
+     "gloss": "to read (to recognize the proper meaning of something)",
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to read (to fetch data from (a storage medium, etc.))"
+     "gloss": "to read (to fetch data from (a storage medium, etc.))",
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "odczytywać",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "computing"
+     ]
     },
     {
-     "gloss": "to read (to speak aloud words or other information that is written)"
+     "gloss": "to read (to speak aloud words or other information that is written)",
+     "keywords": [
+      {
+       "text": "read"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to teach (to cause to learn)"
-    },
-    {
-     "gloss": "to read (to interpret written text)"
-    },
-    {
-     "gloss": "to read (to contain some message)"
-    },
-    {
-     "gloss": "to study"
-    },
-    {
-     "gloss": "to read (to divine the future based on heavenly bodies)"
-    },
-    {
-     "gloss": "to pronounce (to say foreign words and phrases a particular way)"
+     "gloss": "to teach (to cause to learn)",
+     "keywords": [
+      {
+       "text": "teach"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "obsolete",
+      "rare"
+     ],
+     "relations": [
+      {
+       "term": "uczyć",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   }

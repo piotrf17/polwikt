@@ -9,6 +9,17 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "robić",
+      "tag_sets": [
+       {
+        "gender": "GENDER_MASCULINE",
+        "number": "NUMBER_SINGULAR",
+        "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "masculine singular passive adjectival participle of robić"
     }
    ]

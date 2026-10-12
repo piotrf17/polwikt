@@ -21,27 +21,194 @@
    ],
    "senses": [
     {
-     "gloss": "to be (used to indicate sameness or membership in a class)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jestem Kamil, a to jest Marta.",
+       "translation": "I am Kamil, and this is Marta."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "On jest nauczycielem chemii.",
+       "translation": "He is a chemistry teacher."
+      }
+     ],
+     "gloss": "to be (used to indicate sameness or membership in a class)",
+     "government": [
+      {
+       "grammatical_case": "CASE_NOMINATIVE"
+      },
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "be"
+      }
+     ],
+     "labels": [
+      "copulative"
+     ]
     },
     {
-     "gloss": "to be (used for predication)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jestem potwornie zmęczona.",
+       "translation": "I am dead tired."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czemu jesteś dziś taki nie w sosie?",
+       "translation": "Why are you so grumpy today?"
+      }
+     ],
+     "gloss": "to be (used for predication)",
+     "government": [
+      {
+       "description": "adjective"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "be"
+      }
+     ],
+     "labels": [
+      "copulative",
+      "auxiliary"
+     ]
     },
     {
-     "gloss": "to be (used to indicate the time of day)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jutro będzie piątek.",
+       "translation": "Tomorrow it'll be Friday."
+      }
+     ],
+     "gloss": "to be (used to indicate the time of day)",
+     "government": [
+      {
+       "grammatical_case": "CASE_NOMINATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "be"
+      }
+     ],
+     "labels": [
+      "copulative"
+     ]
     },
     {
-     "gloss": "used to form the future tense of imperfective verbs"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Będziesz dzisiaj sprzątać/sprzątała?",
+       "translation": "Are you going to clean today?"
+      }
+     ],
+     "gloss": "used to form the future tense of imperfective verbs",
+     "government": [
+      {
+       "description": "inf"
+      },
+      {
+       "description": "past-cl"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "auxiliary",
+      "in the future tense"
+     ]
     },
     {
-     "gloss": "used to form the pluperfect tense"
+     "examples": [
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Jean Jacques Rapet, Przewodnik moralności i ekonomii politycznéj dla użytku klass robotniczych (1859)",
+       "text": "Gdybyś naprzykład, panie Rawski, był zjadł wszystko coś zarobił, to byś nie był zebrał majątku.",
+       "translation": "If you, Mr Rawski, had, for example, eaten everything that you earned, then you would not have collected your fortune."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Charles Edmond, Alkhadar: ustęp z dziejów ojców naszych (1869)",
+       "text": "Nastusia na pół osunięta, na pół wsparta na dębie, na pół omdlała, z oczyma szeroko, nieruchomie otwartemi, utkwionemi w stronę, gdzie jastrząb dokonał był pomyślnych swoich łowów, strasznie dyszała.",
+       "translation": "Nastusia, half-fallen, half-supported by the oak, with her eyes opened wide in a motionless manner, fixed in the direction where the hawk had successfully carried out its hunts, was panting terribly."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Czesław Pieniążek, Włościanin: czasopismo ilustrowane dla ludu (1871)",
+       "text": "Ale cóż, gdyby był poszedł tam w to miejsce, jakie przystało honorowi i jego osobie, toby był musiał co dzień kilka i kilkanaście złotych wydać; to cóż on robił?",
+       "translation": "Oh well, if he had gone there into that place, as befitted his honour and his person, then he would have had to spend a few and a few dozen złoty; so what did he do?"
+      }
+     ],
+     "gloss": "used to form the pluperfect tense",
+     "government": [
+      {
+       "description": "past-cl"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "auxiliary",
+      "archaic",
+      "in the past tense"
+     ]
     },
     {
-     "gloss": "to be, there be (used to indicate location)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Dlaczego w moim pokoju jest tylko jedno łóżko, a w jej są dwa?",
+       "translation": "Why is there only one bed in my room but two in hers?"
+      }
+     ],
+     "gloss": "to be, there be (used to indicate location)",
+     "keywords": [
+      {
+       "text": "be"
+      },
+      {
+       "text": "there be"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "nie ma",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "synonym of spędzać"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Kázáł mu król, żeby był noc z niedźwiedziem.",
+       "translation": "The king ordered him to spend a night with a bear."
+      }
+     ],
+     "form_of": {
+      "lemma": "spędzać",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of spędzać",
+     "labels": [
+      "transitive"
+     ],
+     "regions": [
+      "Przemyśl"
+     ]
     }
-   ]
+   ],
+   "usage_notes": "* When the predicate is an adjective phrase, it is always used in the nominative case (e.g. Jestem zmęczony – I am tired; Ona jest bardzo mądra – She is very smart; Wczorajszy dzień był piękny, ale dzisiaj jest brzydko – Yesterday was a beautiful day, but today the weather is bad).\n* When the predicate is a noun phrase, it can be used either in the instrumental or the nominative case, though it is found mostly in the former.\n** The instrumental case is used for:\n*** permanent identities (e.g. Jestem człowiekiem – I am a human being; Jestem katolikiem – I am a Catholic; Dinozaury były bardzo dużymi gadami – Dinosaurs were very large reptiles);\n*** genders (e.g. Ja jestem kobietą, a on jest mężczyzną – I am a woman and he is a man);\n*** professions (e.g. Byłeś najlepszym nauczycielem biologii w naszym gimnazjum – You were the best biology teacher at our gimnazjum);\n*** nationalities and ethnicities (e.g. On jest Polakiem – He is Polish (lit. He is a Pole));\n*** relationships (e.g. Ona jest moją siostrą – She is my sister; On jest twoim narzeczonym? – Is he your fiancé?);\n*** definite/unique identities (e.g. Bruce Wayne jest Batmanem – Bruce Wayne is Batman).\n** The nominative case is used for:\n*** introducing oneself (e.g. Jestem Kamil – I am Kamil / My name is Kamil);\n*** directly identifying, specifying, or pointing out who someone is by name or unique identity (e.g. A więc to ty jesteś ta słynna Maryla Rodowicz? – So you are the famous Maryla Rodowicz?).\n** However, when introducing other people or things, the phrase to jest/to są (this is/these are) is mostly used instead, where to acts as a pointing demonstrative pronoun (e.g. To jest Marysia, a to Tomek – This is Marysia and this is Tomek; To jest moja szefowa – This is my boss, which is roughly synonymous with a standard instrumental phrase such as: Ona jest moją szefową)."
   }
  ],
  "etymologies": [

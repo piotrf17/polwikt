@@ -9,8 +9,22 @@
    ],
    "senses": [
     {
-     "gloss": "scissors (tool used for cutting)"
+     "gloss": "scissors (tool used for cutting)",
+     "keywords": [
+      {
+       "text": "scissors"
+      }
+     ],
+     "relations": [
+      {
+       "term": "nożyce",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Tools"
    ]
   }
  ],

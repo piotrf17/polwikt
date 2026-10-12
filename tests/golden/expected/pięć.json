@@ -9,8 +9,16 @@
    ],
    "senses": [
     {
-     "gloss": "five"
+     "gloss": "five",
+     "keywords": [
+      {
+       "text": "five"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Five"
    ]
   },
   {
@@ -22,8 +30,19 @@
    ],
    "senses": [
     {
-     "gloss": "five (highest school grade)"
+     "gloss": "five (highest school grade)",
+     "keywords": [
+      {
+       "text": "five"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ]
     }
+   ],
+   "topics": [
+    "Five"
    ]
   }
  ],

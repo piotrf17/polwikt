@@ -1,0 +1,6 @@
+# Labels Wiktionary's label data does not know (R6.7). Module:labels shows them as plain
+# text; on Polish entries a capitalised one is nearly always a locality used as a
+# dialect label ({{lb|pl|Central Greater Poland|Jaraczewo|Krotoszyn}}), so it is filed
+# under `regions` — counted as label.region_by_capital so the heuristic stays visible.
+# Lower-case ones ("of a sin") are free-text qualifiers and stay in `labels`.
+unrecognized_capitalized = "region"

@@ -9,7 +9,25 @@
    ],
    "senses": [
     {
-     "gloss": "abbreviation of kwas dezoksyrybonukleinowy"
+     "form_of": {
+      "lemma": "kwas dezoksyrybonukleinowy",
+      "type": "TYPE_ABBREVIATION"
+     },
+     "gloss": "abbreviation of kwas dezoksyrybonukleinowy",
+     "relations": [
+      {
+       "term": "kwas deoksyrybonukleinowy",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "kwas dezoksyrybonukleinowy",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "genetics",
+      "molecular biology"
+     ]
     }
    ]
   }

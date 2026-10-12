@@ -15,7 +15,18 @@
    ],
    "senses": [
     {
-     "gloss": "to disappear, to vanish"
+     "gloss": "to disappear, to vanish",
+     "keywords": [
+      {
+       "text": "disappear"
+      },
+      {
+       "text": "vanish"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     }
    ]
   }

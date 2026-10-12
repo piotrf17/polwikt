@@ -9,7 +9,27 @@
    ],
    "senses": [
     {
-     "gloss": "comparative degree of dobry; better"
+     "form_of": {
+      "lemma": "dobry",
+      "tag_sets": [
+       {
+        "degree": "DEGREE_COMPARATIVE"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "comparative degree of dobry; better",
+     "keywords": [
+      {
+       "text": "better"
+      }
+     ],
+     "relations": [
+      {
+       "term": "gorszy",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     }
    ]
   }

@@ -51,79 +51,125 @@
    ],
    "senses": [
     {
-     "gloss": "neither, nor, or"
-    },
-    {
-     "gloss": "nary, not a, not even one",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "not as much as; less than"
+       "kind": "KIND_EXAMPLE",
+       "text": "Nie chce mi się ani jeść, ani pić.",
+       "translation": "I feel neither like eating nor drinking."
+      }
+     ],
+     "gloss": "neither, nor, or",
+     "keywords": [
+      {
+       "text": "neither"
+      },
+      {
+       "text": "nor"
+      },
+      {
+       "text": "or"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ni",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "abo",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "albo",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "bądź",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "czy",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "i",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "lub",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "oraz",
+       "type": "TYPE_ANTONYM"
       }
      ]
     },
     {
-     "gloss": "used emphatically with nie for negation"
-    }
-   ]
-  },
-  {
-   "pos": "POS_PARTICLE",
-   "pronunciations": [
-    {
-     "ipa": "/ˈa.ɲi/"
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Central Greater Poland"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Nie było ani jednego ciasteczka.",
+       "translation": "There wasn't even a single cookie."
+      }
+     ],
+     "gloss": "nary, not a, not even one",
+     "keywords": [
+      {
+       "text": "nary"
+      },
+      {
+       "text": "not"
+      },
+      {
+       "text": "a"
+      },
+      {
+       "text": "even"
+      },
+      {
+       "text": "one"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ni",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "subsenses": [
+      {
+       "gloss": "not as much as; less than",
+       "keywords": [
+        {
+         "text": "not"
+        },
+        {
+         "text": "as much as"
+        },
+        {
+         "text": "less than"
+        }
+       ],
+       "regions": [
+        "Kurpie"
+       ]
+      }
      ]
     },
     {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Ostróda"
+     "gloss": "used emphatically with nie for negation",
+     "regions": [
+      "Central Greater Poland",
+      "Czempiń",
+      "Brodnica",
+      "Western Kraków",
+      "Zebrzydowice",
+      "Podhale",
+      "Skawa",
+      "Żywiec",
+      "Sopotnia Mała"
      ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Warmia"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Masuria"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Kurpie"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Podhale"
-     ]
-    }
-   ],
-   "senses": [
-    {
-     "gloss": "not even"
-    },
-    {
-     "gloss": "not also; Further details are uncertain."
-    },
-    {
-     "gloss": "The meaning of this term is uncertain."
     }
    ]
   }

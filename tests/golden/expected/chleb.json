@@ -15,20 +15,92 @@
    ],
    "senses": [
     {
-     "gloss": "bread (food product made from flour and water with yeast or leaven, shaped into round or elongated lumps; single loaf of this product)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "kromka chleba",
+       "translation": "a slice of bread"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bochenek chleba",
+       "translation": "a loaf of bread"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "chleb razowy",
+       "translation": "whole-meal bread"
+      }
+     ],
+     "gloss": "bread (food product made from flour and water with yeast or leaven, shaped into round or elongated lumps; single loaf of this product)",
+     "keywords": [
+      {
+       "text": "bread"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "synonym of karo"
+     "form_of": {
+      "lemma": "karo",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of karo",
+     "regions": [
+      "Łowicz",
+      "Strugienice"
+     ],
+     "topics": [
+      "card games"
+     ]
     },
     {
-     "gloss": "bread (job; work performed for a fee)"
+     "gloss": "bread (job; work performed for a fee)",
+     "keywords": [
+      {
+       "text": "bread"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "literary",
+      "figuratively"
+     ]
     },
     {
-     "gloss": "bread (all the means to meet basic life needs)"
-    },
-    {
-     "gloss": "synonym of pożywienie"
+     "gloss": "bread (all the means to meet basic life needs)",
+     "keywords": [
+      {
+       "text": "bread"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "literary",
+      "figuratively"
+     ],
+     "relations": [
+      {
+       "term": "chleb powszedni",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "utrzymanie",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "życie",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Breads",
+    "Foods",
+    "Grains"
    ]
   }
  ],

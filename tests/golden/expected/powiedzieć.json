@@ -9,20 +9,177 @@
    ],
    "senses": [
     {
-     "gloss": "to speak, to talk (to use one's voice to communicate)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Dlaczego mi nie powiedziałeś?",
+       "translation": "Why didn't you tell me?"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Możesz mi powiedzieć, gdzie jest najbliższy przystanek autobusowy?",
+       "translation": "Can you tell me where the nearest bus stop is?"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Ja tego nie powiedziałem.",
+       "translation": "I didn't say that."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Powiedział, że będzie tutaj jutro.",
+       "translation": "He said he would be here tomorrow."
+      }
+     ],
+     "gloss": "to speak, to talk (to use one's voice to communicate)",
+     "government": [
+      {
+       "description": "(to) whom",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "(to) whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "about what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "speak"
+      },
+      {
+       "text": "talk"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "rzec",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to call, to name (to speak using particular pronouns)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "powiedzieć na ty",
+       "translation": "to use T-forms with each other"
+      }
+     ],
+     "gloss": "to call, to name (to speak using particular pronouns)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "by what name",
+       "grammatical_case": "CASE_NOMINATIVE",
+       "preposition": "per"
+      },
+      {
+       "description": "by what name",
+       "grammatical_case": "CASE_NOMINATIVE",
+       "preposition": "na"
+      },
+      {
+       "description": "by what name",
+       "grammatical_case": "CASE_NOMINATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "call"
+      },
+      {
+       "text": "name"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)"
+     "gloss": "to say; to go, to tell about (to contain or communicate specific information on a topic)",
+     "government": [
+      {
+       "description": "to whom",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "about what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "go"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to say, to tell (to communicate by non-verbal means)"
+     "gloss": "to say, to tell (to communicate by non-verbal means)",
+     "keywords": [
+      {
+       "text": "say"
+      },
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to tell (to suggest a course of action)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "Serce powiedziało mi...",
+       "translation": "My heart told me..."
+      }
+     ],
+     "gloss": "to tell (to suggest a course of action)",
+     "government": [
+      {
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "tell"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     }
+   ],
+   "topics": [
+    "Talking"
    ]
   }
  ],

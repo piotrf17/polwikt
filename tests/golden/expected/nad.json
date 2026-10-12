@@ -15,31 +15,262 @@
    ],
    "senses": [
     {
-     "gloss": "denotes location; above, over"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Nad biurkiem wisi piękny obraz.",
+       "translation": "Above the desk hangs a beautiful painting."
+      }
+     ],
+     "gloss": "denotes location; above, over",
+     "government": [
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "above"
+      },
+      {
+       "text": "over"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ponad",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "powyżej",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "pod",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "popod",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
     },
     {
-     "gloss": "denotes location, particularly in relation to a body of water; on, by"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mieszkają w dużym domu nad morzem.",
+       "translation": "They live in a big house by the sea."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Opole leży nad Odrą.",
+       "translation": "Opole lies on the Oder."
+      }
+     ],
+     "gloss": "denotes location, particularly in relation to a body of water; on, by",
+     "government": [
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "on"
+      },
+      {
+       "text": "by"
+      }
+     ]
     },
     {
-     "gloss": "denotes motion; to above, to over"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Podnieś ręce nad głowę!",
+       "translation": "Put your hands above your head!"
+      }
+     ],
+     "gloss": "denotes motion; to above, to over",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "above"
+      },
+      {
+       "text": "over"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ponad",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "powyżej",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "pod",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "popod",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
     },
     {
-     "gloss": "denotes movement, particularly in relation to a body of water; to"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "W niedzielę jedziemy nad jezioro.",
+       "translation": "We're going to the lake on Sunday."
+      }
+     ],
+     "gloss": "denotes movement, particularly in relation to a body of water; to",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "to"
+      }
+     ],
+     "relations": [
+      {
+       "term": "znad",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "denotes position in comparison; than; over"
+     "gloss": "denotes position in comparison; than; over",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "than"
+      },
+      {
+       "text": "over"
+      }
+     ],
+     "labels": [
+      "literary",
+      "dialectal"
+     ],
+     "regions": [
+      "Chełmno"
+     ]
     },
     {
-     "gloss": "over"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Nauczyciel umiejętnie panuje nad klasą.",
+       "translation": "The teacher skillfully keeps control over the class."
+      }
+     ],
+     "gloss": "over",
+     "government": [
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "over"
+      }
+     ],
+     "labels": [
+      "indicates relative status, authority or power"
+     ],
+     "relations": [
+      {
+       "term": "pod",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "denotes highest degree of intensity of an action or state;"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Kocham to nad życie.",
+       "translation": "I love it to death/more than life itself/more than anything in the world."
+      }
+     ],
+     "gloss": "denotes highest degree of intensity of an action or state;",
+     "labels": [
+      "literary"
+     ],
+     "relations": [
+      {
+       "term": "ponad",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "denotes subject of activities; on"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Pracuję nad scenariuszem do nowego filmu.",
+       "translation": "I'm working on a script for a new film."
+      }
+     ],
+     "gloss": "denotes subject of activities; on",
+     "government": [
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "on"
+      }
+     ]
     },
     {
-     "gloss": "with a reduplicated noun, expresses superlative nature; the greatest of all, of"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Oj, marzy mi się pizza nad pizzami!",
+       "translation": "Oh, I dream of the greatest of all pizzas!"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Zawisza Czarny, rycerz nad rycerzami, zginął po wzięciu do tureckiej niewoli.",
+       "translation": "Zawisza Czarny, a knight of the knights, was killed after being captured by the Turks."
+      }
+     ],
+     "gloss": "with a reduplicated noun, expresses superlative nature; the greatest of all, of",
+     "government": [
+      {
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      },
+      {
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "great"
+      },
+      {
+       "text": "of"
+      }
+     ]
     }
    ]
   }

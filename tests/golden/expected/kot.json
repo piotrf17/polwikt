@@ -15,23 +15,103 @@
    ],
    "senses": [
     {
-     "gloss": "cat (any mammal of the genus Felis)"
+     "gloss": "cat (any mammal of the genus Felis)",
+     "keywords": [
+      {
+       "text": "cat"
+      },
+      {
+       "taxonomic": true,
+       "text": "Felis"
+      }
+     ]
     },
     {
-     "gloss": "cat, tomcat (male Felis catus)"
+     "gloss": "cat, tomcat (male Felis catus)",
+     "keywords": [
+      {
+       "text": "cat"
+      },
+      {
+       "text": "tomcat"
+      },
+      {
+       "taxonomic": true,
+       "text": "Felis catus"
+      }
+     ]
     },
     {
-     "gloss": "dust bunny (clump of dust that accumulates indoors)"
+     "gloss": "dust bunny (clump of dust that accumulates indoors)",
+     "keywords": [
+      {
+       "text": "dust bunny"
+      }
+     ],
+     "labels": [
+      "in the plural",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "rookie (inexperienced recruit)"
+     "gloss": "rookie (inexperienced recruit)",
+     "keywords": [
+      {
+       "text": "rookie"
+      }
+     ],
+     "labels": [
+      "military slang"
+     ]
     },
     {
-     "gloss": "hare (any mammal of the genus Lepus, similar to a rabbit, but larger and with longer ears)"
+     "examples": [
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Adam Mickiewicz, Pan Tadeusz (1834)",
+       "text": "W istocie, kot czuł s tyłu myśliwych i psiarnie,Rwał w pole, słuchy wytknął jak dwa różki sarnie",
+       "translation": "In very truth, the hare felt behind it the hunters and the pack; it was making for the field; it stretched out behind it its ears like two deer's horns [transl. by George Rapall Noyes]"
+      }
+     ],
+     "gloss": "hare (any mammal of the genus Lepus, similar to a rabbit, but larger and with longer ears)",
+     "keywords": [
+      {
+       "text": "hare"
+      }
+     ],
+     "labels": [
+      "slang"
+     ],
+     "topics": [
+      "hunting"
+     ]
     },
     {
-     "gloss": "type of game"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "dać kota",
+       "translation": "to win at this game"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "dostać kota",
+       "translation": "to lose at this game"
+      }
+     ],
+     "gloss": "type of game",
+     "regions": [
+      "Przemyśl"
+     ]
     }
+   ],
+   "topics": [
+    "Cats",
+    "Cleaning",
+    "Games",
+    "Hares",
+    "Male animals",
+    "People"
    ]
   }
  ],

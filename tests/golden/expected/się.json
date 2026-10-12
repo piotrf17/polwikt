@@ -12,13 +12,41 @@
    ],
    "senses": [
     {
-     "gloss": "reflexive pronoun; oneself, self"
+     "gloss": "reflexive pronoun; oneself, self",
+     "keywords": [
+      {
+       "text": "oneself"
+      },
+      {
+       "text": "self"
+      }
+     ]
     },
     {
-     "gloss": "each other, one another"
+     "gloss": "each other, one another",
+     "keywords": [
+      {
+       "text": "each other"
+      },
+      {
+       "text": "one another"
+      }
+     ]
     },
     {
-     "gloss": "one's own home"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Wracam do siebie",
+       "translation": "I'm going back to my place."
+      }
+     ],
+     "gloss": "one's own home",
+     "keywords": [
+      {
+       "text": "home"
+      }
+     ]
     }
    ]
   },
@@ -34,6 +62,18 @@
    ],
    "senses": [
     {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Robi się późno.",
+       "translation": "It's getting late."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mówi się, że...",
+       "translation": "It is said that..."
+      }
+     ],
      "gloss": "used to form impersonal present or future tense"
     }
    ]

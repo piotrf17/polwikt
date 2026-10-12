@@ -15,41 +15,161 @@
    ],
    "senses": [
     {
-     "gloss": "eye (vision organ)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Twoje oczy są piękne.",
+       "translation": "Your eyes are beautiful."
+      }
+     ],
+     "gloss": "eye (vision organ)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "relations": [
+      {
+       "term": "źrenica",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "anatomy"
+     ]
     },
     {
-     "gloss": "sight (ability to see)"
+     "gloss": "sight (ability to see)",
+     "keywords": [
+      {
+       "text": "sight"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "wzrok",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "eyes (gaze, manner of looking)"
+     "gloss": "eyes (gaze, manner of looking)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "in the plural"
+     ],
+     "relations": [
+      {
+       "term": "spojrzenie",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "eye (manner of seeing that expresses one's emotions i.e. through art)"
+     "gloss": "eye (manner of seeing that expresses one's emotions i.e. through art)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "eye (supervision or guarding)"
+     "gloss": "eye (supervision or guarding)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ]
     },
     {
-     "gloss": "eye (anything round)"
+     "gloss": "eye (anything round)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "eye (part of a camera)"
+     "gloss": "eye (part of a camera)",
+     "keywords": [
+      {
+       "text": "eye"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "relations": [
+      {
+       "term": "ślepie",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "ślepię",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "unit of weight equal to three pounds"
+     "gloss": "unit of weight equal to three pounds",
+     "keywords": [
+      {
+       "text": "unit"
+      },
+      {
+       "text": "weight"
+      },
+      {
+       "text": "pound"
+      }
+     ],
+     "labels": [
+      "countable",
+      "obsolete"
+     ]
     },
     {
-     "gloss": "presence, countenance"
-    },
-    {
-     "gloss": "point on a game die"
-    },
-    {
-     "gloss": "eye (colorful circle on a peacock's tail)"
-    },
-    {
-     "gloss": "bud of a shoot of a plant transplanted to another plant"
+     "gloss": "presence, countenance",
+     "keywords": [
+      {
+       "text": "presence"
+      },
+      {
+       "text": "countenance"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "obsolete"
+     ]
     }
+   ],
+   "topics": [
+    "Eye",
+    "Fats and oils",
+    "People",
+    "Water",
+    "Units of measure"
    ]
   },
   {
@@ -67,32 +187,153 @@
    ],
    "senses": [
     {
-     "gloss": "layer of fat or lard on top of a liquid"
+     "gloss": "layer of fat or lard on top of a liquid",
+     "keywords": [
+      {
+       "text": "layer"
+      },
+      {
+       "text": "fat"
+      },
+      {
+       "text": "lard"
+      },
+      {
+       "text": "liquid"
+      }
+     ],
+     "labels": [
+      "in the plural"
+     ]
     },
     {
-     "gloss": "hole of a net"
+     "gloss": "hole of a net",
+     "keywords": [
+      {
+       "text": "hole"
+      },
+      {
+       "text": "net"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "blackjack"
+     "gloss": "blackjack",
+     "keywords": [
+      {
+       "text": "blackjack"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ],
+     "relations": [
+      {
+       "term": "blackjack",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "card games"
+     ]
     },
     {
-     "gloss": "observation duty on the bow of a ship"
+     "gloss": "observation duty on the bow of a ship",
+     "keywords": [
+      {
+       "text": "observation"
+      },
+      {
+       "text": "duty"
+      },
+      {
+       "text": "bow"
+      },
+      {
+       "text": "ship"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "colloquial"
+     ],
+     "topics": [
+      "sailing"
+     ]
     },
     {
-     "gloss": "sailor performing such a duty"
+     "gloss": "sailor performing such a duty",
+     "keywords": [
+      {
+       "text": "sailor"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "colloquial"
+     ],
+     "topics": [
+      "sailing"
+     ]
     },
     {
-     "gloss": "eye of a cyclone"
+     "gloss": "eye of a cyclone",
+     "keywords": [
+      {
+       "text": "eye"
+      },
+      {
+       "text": "cyclone"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "topics": [
+      "meteorology"
+     ]
     },
     {
-     "gloss": "tarn"
+     "gloss": "tarn",
+     "keywords": [
+      {
+       "text": "tarn"
+      }
+     ],
+     "labels": [
+      "dialectal"
+     ]
     },
     {
-     "gloss": "shiny surface of water"
+     "gloss": "shiny surface of water",
+     "keywords": [
+      {
+       "text": "shiny"
+      },
+      {
+       "text": "surface"
+      },
+      {
+       "text": "water"
+      }
+     ]
     },
     {
-     "gloss": "part of a rod holding a ladder to a wagon (luśnia which is placed at the end of the axis"
+     "gloss": "part of a rod holding a ladder to a wagon (luśnia which is placed at the end of the axis",
+     "regions": [
+      "Near Masovian"
+     ]
     }
+   ],
+   "topics": [
+    "Eye",
+    "Fats and oils",
+    "People",
+    "Water",
+    "Units of measure"
    ]
   }
  ],

@@ -15,49 +15,261 @@
    ],
    "senses": [
     {
-     "gloss": "to make (to cause the existence of)"
+     "gloss": "to make (to cause the existence of)",
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to do (to perform; to execute)"
+     "gloss": "to do (to perform; to execute)",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "wykonać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to make; to cause (to effect or produce by means of some action)"
+     "gloss": "to make; to cause (to effect or produce by means of some action)",
+     "keywords": [
+      {
+       "text": "make"
+      },
+      {
+       "text": "cause"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "urządzić",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to throw (to organize; to cause something to happen)"
+     "gloss": "to throw (to organize; to cause something to happen)",
+     "keywords": [
+      {
+       "text": "throw"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to make (to cause someone to take on traits of something, to become something)"
+     "gloss": "to make (to cause someone to take on traits of something, to become something)",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to make (to unfairly assign traits of something to someone or something)"
+     "gloss": "to make (to unfairly assign traits of something to someone or something)",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "used as a generic verb, sometimes to replace another; to do"
+     "gloss": "used as a generic verb, sometimes to replace another; to do",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "used anaphorically instead of repeating a previous verb; to do"
+     "gloss": "used anaphorically instead of repeating a previous verb; to do",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "anaphora"
+     ]
     },
     {
-     "gloss": "to act, to behave"
+     "gloss": "to act, to behave",
+     "keywords": [
+      {
+       "text": "act"
+      },
+      {
+       "text": "behave"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "postąpić",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zachować się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to come about, to arise"
+     "gloss": "to come about, to arise",
+     "keywords": [
+      {
+       "text": "come about"
+      },
+      {
+       "text": "arise"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "nastać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "uczynić się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to get, to become"
+     "gloss": "to get, to become",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      },
+      {
+       "text": "become"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to start to feel"
+     "gloss": "to start to feel",
+     "government": [
+      {
+       "description": "who",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "start"
+      },
+      {
+       "text": "feel"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "impersonal"
+     ]
     },
     {
-     "gloss": "to dress to kill"
+     "gloss": "to dress to kill",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "dress to kill"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to be done; to be made"
+     "gloss": "to be done; to be made",
+     "keywords": [
+      {
+       "text": "do"
+      },
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to work oneself tired"
+     "gloss": "to work oneself tired",
+     "keywords": [
+      {
+       "text": "work"
+      },
+      {
+       "text": "tired"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "regions": [
+      "Żywiec"
+     ]
     }
    ]
   }

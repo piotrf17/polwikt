@@ -11,6 +11,7 @@ Outputs in `out_dir`:
 - `unhandled.jsonl`: templates no policy entry covers, with an example page (R4.6)
 - `errors.jsonl`: pages that raised, with the traceback (R3.12)
 - `title_only.jsonl`: pages whose expansion read a title-only page (R3.2a)
+- `dropped_colabelled.jsonl`: pages that lost a co-labelled Middle Polish sense (R6.6c)
 """
 
 from __future__ import annotations
@@ -57,6 +58,7 @@ class PageOutcome:
     stats: Counter[str] = field(default_factory=Counter)
     unhandled: list[str] = field(default_factory=list)
     title_only: list[str] = field(default_factory=list)
+    colabelled: int = 0
     error: str = ""
 
 
@@ -132,6 +134,7 @@ def _extract(ref: PageRef) -> PageOutcome:
     outcome.stats.update(Counter(wtp.stats) - before)
     outcome.unhandled = result.unhandled
     outcome.title_only = sorted(wtp.title_only_reads)
+    outcome.colabelled = len(result.colabelled)
     return outcome
 
 
@@ -169,6 +172,7 @@ def run_p3(
     unhandled = Unhandled()
     errors: list[dict[str, Any]] = []
     title_only: list[dict[str, Any]] = []
+    colabelled: list[dict[str, Any]] = []
     budget = max_error_rate * len(refs)
     try:
         with ShardWriter(out_dir, prefix=PREFIX) as writer:
@@ -194,13 +198,15 @@ def run_p3(
                 stats.update(outcome.stats)
                 for name in outcome.unhandled:
                     unhandled.add(name, ref.title)
+                if outcome.colabelled:
+                    colabelled.append({"page": ref.title, "senses": outcome.colabelled})
                 if outcome.title_only:
                     title_only.append({"page": ref.title, "titles": outcome.title_only})
                 if n % 5000 == 0:
                     rate = n / (time.monotonic() - started)
                     log.info("  %d / %d pages, %.1f pages/s", n, len(refs), rate)
     finally:
-        _write_reports(out_dir, stats, unhandled, errors, title_only)
+        _write_reports(out_dir, stats, unhandled, errors, title_only, colabelled)
     seconds = time.monotonic() - started
     log.info(
         "P3 done: %d pages in %.0f s (%.1f pages/s), %d errors",
@@ -218,6 +224,7 @@ def _write_reports(
     unhandled: Unhandled,
     errors: list[dict[str, Any]],
     title_only: list[dict[str, Any]],
+    colabelled: list[dict[str, Any]],
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     summary = {
@@ -232,6 +239,7 @@ def _write_reports(
     _jsonl(out_dir / "unhandled.jsonl", unhandled.rows())
     _jsonl(out_dir / "errors.jsonl", errors)
     _jsonl(out_dir / "title_only.jsonl", title_only)
+    _jsonl(out_dir / "dropped_colabelled.jsonl", colabelled)
 
 
 def _jsonl(path: Path, rows: list[dict[str, Any]]) -> None:

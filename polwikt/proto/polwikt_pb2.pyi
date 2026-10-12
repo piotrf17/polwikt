@@ -275,7 +275,7 @@ class Keyword(_message.Message):
     def __init__(self, text: _Optional[str] = ..., taxonomic: _Optional[bool] = ...) -> None: ...
 
 class FormOf(_message.Message):
-    __slots__ = ("type", "lemma", "tag_sets")
+    __slots__ = ("type", "lemma", "tag_sets", "raw_tags")
     class Type(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
         __slots__ = ()
         TYPE_UNSPECIFIED: _ClassVar[FormOf.Type]
@@ -283,18 +283,22 @@ class FormOf(_message.Message):
         TYPE_ALTERNATIVE_FORM: _ClassVar[FormOf.Type]
         TYPE_SYNONYM: _ClassVar[FormOf.Type]
         TYPE_ABBREVIATION: _ClassVar[FormOf.Type]
+        TYPE_DERIVATION: _ClassVar[FormOf.Type]
     TYPE_UNSPECIFIED: FormOf.Type
     TYPE_INFLECTION: FormOf.Type
     TYPE_ALTERNATIVE_FORM: FormOf.Type
     TYPE_SYNONYM: FormOf.Type
     TYPE_ABBREVIATION: FormOf.Type
+    TYPE_DERIVATION: FormOf.Type
     TYPE_FIELD_NUMBER: _ClassVar[int]
     LEMMA_FIELD_NUMBER: _ClassVar[int]
     TAG_SETS_FIELD_NUMBER: _ClassVar[int]
+    RAW_TAGS_FIELD_NUMBER: _ClassVar[int]
     type: FormOf.Type
     lemma: str
     tag_sets: _containers.RepeatedCompositeFieldContainer[GrammaticalTags]
-    def __init__(self, type: _Optional[_Union[FormOf.Type, str]] = ..., lemma: _Optional[str] = ..., tag_sets: _Optional[_Iterable[_Union[GrammaticalTags, _Mapping]]] = ...) -> None: ...
+    raw_tags: _containers.RepeatedScalarFieldContainer[str]
+    def __init__(self, type: _Optional[_Union[FormOf.Type, str]] = ..., lemma: _Optional[str] = ..., tag_sets: _Optional[_Iterable[_Union[GrammaticalTags, _Mapping]]] = ..., raw_tags: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class Example(_message.Message):
     __slots__ = ("kind", "text", "translation", "literal", "source")

@@ -9,6 +9,15 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "czytać",
+      "tag_sets": [
+       {
+        "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "active adjectival participle of czytać"
     }
    ]

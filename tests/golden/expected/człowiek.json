@@ -21,32 +21,152 @@
    ],
    "senses": [
     {
-     "gloss": "man, human, human being; person"
+     "gloss": "man, human, human being; person",
+     "keywords": [
+      {
+       "text": "man"
+      },
+      {
+       "text": "human"
+      },
+      {
+       "text": "human being"
+      },
+      {
+       "text": "person"
+      }
+     ],
+     "relations": [
+      {
+       "term": "osoba",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "man (adult male)"
+     "gloss": "man (adult male)",
+     "keywords": [
+      {
+       "text": "man"
+      }
+     ],
+     "relations": [
+      {
+       "term": "dorosły",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "person (being that characterizes a particular thing)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "człowiek biznesu",
+       "translation": "person of business"
+      }
+     ],
+     "gloss": "person (being that characterizes a particular thing)",
+     "keywords": [
+      {
+       "text": "person"
+      }
+     ]
     },
     {
-     "gloss": "person (someone who behaves well and does positive things)"
+     "gloss": "person (someone who behaves well and does positive things)",
+     "keywords": [
+      {
+       "text": "person"
+      }
+     ]
     },
     {
-     "gloss": "worker; man, person"
+     "gloss": "worker; man, person",
+     "keywords": [
+      {
+       "text": "worker"
+      },
+      {
+       "text": "man"
+      },
+      {
+       "text": "person"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "pracownik",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "person, man (someone underneath someone else in hierarchy)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "człowiek prezydenta",
+       "translation": "president's man"
+      }
+     ],
+     "gloss": "person, man (someone underneath someone else in hierarchy)",
+     "keywords": [
+      {
+       "text": "person"
+      },
+      {
+       "text": "man"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ]
     },
     {
-     "gloss": "used to refer to oneself instead of ja"
+     "gloss": "used to refer to oneself instead of ja",
+     "labels": [
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "ja",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "synonym of mąż (“husband”)"
+     "form_of": {
+      "lemma": "mąż",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of mąż (“husband”)",
+     "regions": [
+      "Southern Borderlands",
+      "Drohobych"
+     ]
     },
     {
-     "gloss": "synonym of sługa / służący (“servant”)"
+     "form_of": {
+      "lemma": "sługa//służący",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of sługa / służący (“servant”)",
+     "regions": [
+      "Northern Borderlands",
+      "Lithuania"
+     ]
     }
+   ],
+   "topics": [
+    "Female people",
+    "Hominids",
+    "Male family members",
+    "Male people",
+    "Marriage",
+    "Occupations",
+    "People"
    ]
   }
  ],

@@ -1,0 +1,60 @@
+# Form-of tags (R6.6): Wiktionary's canonical tag names (Module:form of/data/1 and /2,
+# after shortcuts like "gen" -> "genitive" and "3s" -> third-person singular are
+# resolved) mapped onto polwikt.GrammaticalTags. A tag in neither table lands in
+# FormOf.raw_tags, never dropped (CLAUDE.md invariant 4).
+
+[fields]
+"nominative" = "grammatical_case.CASE_NOMINATIVE"
+"genitive" = "grammatical_case.CASE_GENITIVE"
+"dative" = "grammatical_case.CASE_DATIVE"
+"accusative" = "grammatical_case.CASE_ACCUSATIVE"
+"instrumental" = "grammatical_case.CASE_INSTRUMENTAL"
+"locative" = "grammatical_case.CASE_LOCATIVE"
+"vocative" = "grammatical_case.CASE_VOCATIVE"
+"singular" = "number.NUMBER_SINGULAR"
+"plural" = "number.NUMBER_PLURAL"
+"dual" = "number.NUMBER_DUAL"
+"masculine" = "gender.GENDER_MASCULINE"
+"feminine" = "gender.GENDER_FEMININE"
+"neuter" = "gender.GENDER_NEUTER"
+"virile" = "gender.GENDER_VIRILE"
+"nonvirile" = "gender.GENDER_NONVIRILE"
+"personal" = "animacy.ANIMACY_PERSONAL"
+"animate" = "animacy.ANIMACY_ANIMATE"
+"inanimate" = "animacy.ANIMACY_INANIMATE"
+"first-person" = "person.PERSON_FIRST"
+"second-person" = "person.PERSON_SECOND"
+"third-person" = "person.PERSON_THIRD"
+"present" = "tense.TENSE_PRESENT"
+"past" = "tense.TENSE_PAST"
+"future" = "tense.TENSE_FUTURE"
+"indicative" = "mood.MOOD_INDICATIVE"
+"imperative" = "mood.MOOD_IMPERATIVE"
+"conditional" = "mood.MOOD_CONDITIONAL"
+"imperfective" = "aspect.ASPECT_IMPERFECTIVE"
+"perfective" = "aspect.ASPECT_PERFECTIVE"
+"positive" = "degree.DEGREE_POSITIVE"
+"comparative" = "degree.DEGREE_COMPARATIVE"
+"superlative" = "degree.DEGREE_SUPERLATIVE"
+"comparative degree" = "degree.DEGREE_COMPARATIVE"
+"superlative degree" = "degree.DEGREE_SUPERLATIVE"
+"infinitive" = "verb_form.VERB_FORM_INFINITIVE"
+"verbal noun" = "verb_form.VERB_FORM_VERBAL_NOUN"
+
+# Non-finite forms written as several tags ("contemporary|adverbial|participle"):
+# matched as a whole first, so the parts don't also become raw tags.
+[[combination]]
+tags = ["active", "adjectival", "participle"]
+value = "verb_form.VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+[[combination]]
+tags = ["passive", "adjectival", "participle"]
+value = "verb_form.VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+[[combination]]
+tags = ["contemporary", "adverbial", "participle"]
+value = "verb_form.VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+[[combination]]
+tags = ["anterior", "adverbial", "participle"]
+value = "verb_form.VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE"
+[[combination]]
+tags = ["impersonal", "past"]
+value = "verb_form.VERB_FORM_IMPERSONAL_PAST"

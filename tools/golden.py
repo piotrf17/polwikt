@@ -8,10 +8,10 @@
 store, records its ids and sha1 in manifest.json, creates a `"TODO"` expectation for
 any new page, and deletes fixtures that are no longer listed.
 
-`snapshot` fully expands each fixture's Polish section against the real store with the
-lookup recorder on, then writes tests/golden/store.sqlite.zst (R8.1a): the fixtures,
-every page and title the expansion touched, and the list of lookups it made, so a
-test whose expansion strays outside the snapshot reports it as stale.
+`snapshot` fully expands, then extracts, each fixture's Polish section against the
+real store with the lookup recorder on, then writes tests/golden/store.sqlite.zst
+(R8.1a): the fixtures, every page and title the expansion touched, and the lookups it
+made, so a test whose expansion strays outside the snapshot reports it as stale.
 """
 
 from __future__ import annotations
@@ -35,6 +35,7 @@ from polwikt.config import load_config  # noqa: E402
 from polwikt.expand.policy import canonical_name  # noqa: E402
 from polwikt.expand.run import expand_text  # noqa: E402
 from polwikt.expand.wtp import PolwiktWtp  # noqa: E402
+from polwikt.extract.page import Settings, extract_record  # noqa: E402
 from polwikt.parse.sections import language_section  # noqa: E402
 from polwikt.parse.tree import iter_templates, template_name  # noqa: E402
 
@@ -132,6 +133,7 @@ def snapshot(db: Path, golden: Path, out_dir: Path) -> Path:
     """Builds the golden store snapshot from what expanding the fixtures touches."""
     pages = json.loads((golden / "manifest.json").read_text(encoding="utf-8"))["pages"]
     wtp = PolwiktWtp(db, record=True)
+    settings = Settings.from_config(load_config(REPO))
     try:
         for page in pages:
             path = golden / "pages" / f"{page['slug']}.wiki"
@@ -143,6 +145,8 @@ def snapshot(db: Path, golden: Path, out_dir: Path) -> Path:
             result = expand_text(wtp, section)
             if result.errors:
                 log.warning("%s: %d errors", page["title"], len(result.errors))
+            # Extraction looks up more than full expansion does (label/tag data).
+            extract_record(wtp, page["title"], text, settings)
             wtp.found_pages.add((page["title"], 0))
         lookups, found_pages, found_titles = (
             wtp.lookups,
@@ -182,7 +186,13 @@ def _write_snapshot(
     conn = sqlite3.connect(f"file:{dst}", uri=True)
     try:
         conn.execute("ATTACH DATABASE ? AS src", (f"file:{src}?mode=ro",))
-        tables = ("pages", "page_meta", "all_titles", "scan_meta")
+        tables = (
+            "pages",
+            "page_meta",
+            "all_titles",
+            "scan_meta",
+            "transclusion_targets",
+        )
         for (sql,) in conn.execute(
             "SELECT sql FROM src.sqlite_master WHERE type = 'table' AND name IN "
             f"({','.join('?' * len(tables))}) ORDER BY name",
@@ -210,6 +220,11 @@ def _write_snapshot(
         conn.execute(
             "INSERT INTO all_titles SELECT a.* FROM src.all_titles a "
             "JOIN want_titles w ON a.title = w.title AND a.ns = w.ns ORDER BY a.page_id"
+        )
+        conn.execute(
+            "INSERT INTO transclusion_targets SELECT t.* "
+            "FROM src.transclusion_targets t JOIN want_pages w "
+            "ON t.title = w.title AND w.ns = 0 ORDER BY t.title"
         )
         conn.execute("INSERT INTO scan_meta SELECT * FROM src.scan_meta ORDER BY key")
         conn.execute("INSERT INTO scan_meta VALUES ('snapshot', 'golden (R8.1a)')")

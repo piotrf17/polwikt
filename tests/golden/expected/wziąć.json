@@ -9,118 +9,626 @@
    ],
    "senses": [
     {
-     "gloss": "to take (to grab with the hands)"
+     "gloss": "to take (to grab with the hands)",
+     "government": [
+      {
+       "description": "with what",
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      },
+      {
+       "description": "by what part",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (grabbing with one's hands, to place somewhere)"
+     "gloss": "to take (grabbing with one's hands, to place somewhere)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take in (to agree to take care of)"
+     "gloss": "to take in (to agree to take care of)",
+     "keywords": [
+      {
+       "text": "take in"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to allow to join)"
+     "gloss": "to take (to allow to join)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to ensure that one has something with them when they depart)"
+     "gloss": "to take (to ensure that one has something with them when they depart)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take, to charge (to ask for or demand a certain amount of money for something)"
+     "gloss": "to take, to charge (to ask for or demand a certain amount of money for something)",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      },
+      {
+       "text": "charge"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to have temporarily, e.g. a room at a hotel)"
+     "gloss": "to take (to have temporarily, e.g. a room at a hotel)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to hire a particular person for a job or task)"
+     "gloss": "to take (to hire a particular person for a job or task)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take; to get (to gain from a particular source, e.g. a resource)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wziąć pomysł",
+       "translation": "to get an idea"
+      }
+     ],
+     "gloss": "to take; to get (to gain from a particular source, e.g. a resource)",
+     "keywords": [
+      {
+       "text": "take"
+      },
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take, to take away (to deprive of)"
+     "gloss": "to take, to take away (to deprive of)",
+     "government": [
+      {
+       "description": "from whom",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      },
+      {
+       "text": "take away"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "zabrać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to take (to force someone to go somewhere, e.g. to the police)"
+     "gloss": "to take (to force someone to go somewhere, e.g. to the police)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to ingest e.g. medicine)"
+     "gloss": "to take (to ingest e.g. medicine)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to conquer, to gain e.g. a city)"
+     "gloss": "to take (to conquer, to gain e.g. a city)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to have sexual relations with a woman)"
+     "gloss": "to take (to have sexual relations with a woman)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "vulgar",
+      "of men"
+     ]
     },
     {
-     "gloss": "to take (to pass on the road while driving)"
+     "gloss": "to take (to pass on the road while driving)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "wyprzedzić",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to take (to consider someone or something to be something, especially unfairly)"
+     "gloss": "to take (to consider someone or something to be something, especially unfairly)",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to get someone to do something (to convince someone to taking a particular action)"
+     "gloss": "to get someone to do something (to convince someone to taking a particular action)",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take; to get (as a light verb, to be the performer or subject of an action)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wziąć prysznic",
+       "translation": "to take a shower"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wziąć masaż",
+       "translation": "to get a massage"
+      }
+     ],
+     "gloss": "to take; to get (as a light verb, to be the performer or subject of an action)",
+     "keywords": [
+      {
+       "text": "take"
+      },
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to appear in someone's body or psyche)"
+     "gloss": "to take (to appear in someone's body or psyche)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "of emotions",
+      "etc."
+     ],
+     "topics": [
+      "disease"
+     ]
     },
     {
-     "gloss": "to bite; to take (to attach to a hook on a rod; to be caught)"
+     "gloss": "to bite; to take (to attach to a hook on a rod; to be caught)",
+     "government": [
+      {
+       "description": "with what bait",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "bite"
+      },
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "topics": [
+      "fishing"
+     ]
     },
     {
-     "gloss": "to take on (to accept a position or function)"
+     "gloss": "to take on (to accept a position or function)",
+     "keywords": [
+      {
+       "text": "take on"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to defeat someone or something)"
+     "gloss": "to take (to defeat someone or something)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to put on (to begin wearing some article of clothing)"
+     "gloss": "to put on (to begin wearing some article of clothing)",
+     "government": [
+      {
+       "description": "what clothing",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "put on"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to interest, to grab someone's attention)"
+     "gloss": "to take (to interest, to grab someone's attention)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to build up"
+     "gloss": "to build up",
+     "keywords": [
+      {
+       "text": "build up"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of weather"
+     ]
     },
     {
-     "gloss": "to get (to understand somehow)"
+     "gloss": "to get (to understand somehow)",
+     "keywords": [
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take (to get hit)"
+     "gloss": "to take (to get hit)",
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "dostać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to take after, to get from (to inherit some traits)"
+     "gloss": "to take after, to get from (to inherit some traits)",
+     "keywords": [
+      {
+       "text": "take after"
+      },
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to take, to choose, to select"
+     "gloss": "to take, to choose, to select",
+     "keywords": [
+      {
+       "text": "take"
+      },
+      {
+       "text": "choose"
+      },
+      {
+       "text": "select"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "wybrać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to take oneself (to grab oneself by something)"
+     "gloss": "to take oneself (to grab oneself by something)",
+     "government": [
+      {
+       "description": "by what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "pod"
+      },
+      {
+       "description": "by what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to take each other (to grab each other by something)"
+     "gloss": "to take each other (to grab each other by something)",
+     "government": [
+      {
+       "description": "by what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "pod"
+      },
+      {
+       "description": "by what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "w"
+      },
+      {
+       "description": "by what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to get to (to begin to do some activity)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wziąć się do roboty",
+       "translation": "to get to work"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wziąć ślub",
+       "translation": "to get married"
+      }
+     ],
+     "gloss": "to get to (to begin to do some activity)",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to be convinced (to allow oneself to be convinced to doing something)"
+     "gloss": "to be convinced (to allow oneself to be convinced to doing something)",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "convince"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to take on (to begin to deal intensively with matters related to a specific person)"
+     "gloss": "to take on (to begin to deal intensively with matters related to a specific person)",
+     "government": [
+      {
+       "description": "whom",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "take on"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to come from (to have a source from)"
+     "gloss": "to come from (to have a source from)",
+     "keywords": [
+      {
+       "text": "come from"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to be deceived"
+     "gloss": "to be deceived",
+     "keywords": [
+      {
+       "text": "deceive"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "nabrać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to get to (to arrive, to go to)"
-    },
-    {
-     "gloss": "to appear, to show up"
+     "gloss": "to get to (to arrive, to go to)",
+     "keywords": [
+      {
+       "text": "get"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "udać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   },
@@ -133,7 +641,34 @@
    ],
    "senses": [
     {
-     "gloss": "to get the urge, to get a hankering (to feel a strong need or want to do something to the point where one cannot help themself)"
+     "gloss": "to get the urge, to get a hankering (to feel a strong need or want to do something to the point where one cannot help themself)",
+     "government": [
+      {
+       "description": "subject",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      },
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      },
+      {
+       "text": "urge"
+      },
+      {
+       "text": "hankering"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "impersonal",
+      "colloquial"
+     ]
     }
    ]
   }

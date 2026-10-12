@@ -9,8 +9,16 @@
    ],
    "senses": [
     {
-     "gloss": "three"
+     "gloss": "three",
+     "keywords": [
+      {
+       "text": "three"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Three"
    ]
   },
   {
@@ -22,8 +30,25 @@
    ],
    "senses": [
     {
-     "gloss": "three, C (passing grade in school)"
+     "gloss": "three, C (passing grade in school)",
+     "keywords": [
+      {
+       "text": "three"
+      },
+      {
+       "text": "C"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "topics": [
+      "education"
+     ]
     }
+   ],
+   "topics": [
+    "Three"
    ]
   }
  ],

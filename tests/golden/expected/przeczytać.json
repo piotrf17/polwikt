@@ -9,7 +9,18 @@
    ],
    "senses": [
     {
-     "gloss": "to read; to read up"
+     "gloss": "to read; to read up",
+     "keywords": [
+      {
+       "text": "read"
+      },
+      {
+       "text": "read up"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     }
    ]
   }

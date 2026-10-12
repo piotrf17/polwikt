@@ -9,7 +9,19 @@
    ],
    "senses": [
     {
-     "gloss": "he , it"
+     "gloss": "he , it",
+     "keywords": [
+      {
+       "text": "he"
+      },
+      {
+       "text": "it"
+      }
+     ],
+     "labels": [
+      "for animate nouns",
+      "for inanimate nouns"
+     ]
     }
    ]
   },
@@ -22,7 +34,16 @@
    ],
    "senses": [
     {
-     "gloss": "this"
+     "gloss": "this",
+     "keywords": [
+      {
+       "text": "this"
+      }
+     ],
+     "labels": [
+      "dated",
+      "demonstrative"
+     ]
     }
    ]
   }

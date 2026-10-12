@@ -9,35 +9,75 @@
    ],
    "senses": [
     {
-     "gloss": "year (solar year)"
+     "gloss": "year (solar year)",
+     "keywords": [
+      {
+       "text": "year"
+      }
+     ]
     },
     {
-     "gloss": "year (time it takes for any planet to orbit its star)"
+     "gloss": "year (time it takes for any planet to orbit its star)",
+     "keywords": [
+      {
+       "text": "year"
+      }
+     ],
+     "labels": [
+      "by extension"
+     ],
+     "topics": [
+      "astronomy"
+     ]
     },
     {
-     "gloss": "year (calendar year)"
+     "gloss": "year (calendar year)",
+     "keywords": [
+      {
+       "text": "year"
+      }
+     ]
     },
     {
-     "gloss": "year (scheduled part of a calendar year spent in a specific activity)"
+     "gloss": "year (scheduled part of a calendar year spent in a specific activity)",
+     "keywords": [
+      {
+       "text": "year"
+      }
+     ]
     },
     {
-     "gloss": "year (group of people belonging to the same calendar year of typically educational events)"
+     "gloss": "year (group of people belonging to the same calendar year of typically educational events)",
+     "keywords": [
+      {
+       "text": "year"
+      }
+     ]
     },
     {
-     "gloss": "court case"
-    },
-    {
-     "gloss": "indiscriminate length of time"
-    },
-    {
-     "gloss": "age of a being"
-    },
-    {
-     "gloss": "agreed upon length of time for work or employment"
-    },
-    {
-     "gloss": "time set aside for performing a task"
+     "gloss": "court case",
+     "keywords": [
+      {
+       "text": "court"
+      },
+      {
+       "text": "case"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ],
+     "topics": [
+      "law"
+     ]
     }
+   ],
+   "topics": [
+    "Gregorian calendar months",
+    "Law",
+    "Months",
+    "Units of measure",
+    "Years"
    ]
   }
  ],

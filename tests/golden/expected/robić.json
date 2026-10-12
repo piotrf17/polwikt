@@ -63,54 +63,356 @@
    ],
    "senses": [
     {
-     "gloss": "to make (to cause the existence of)"
-    },
-    {
-     "gloss": "to do (to perform; to execute)"
-    },
-    {
-     "gloss": "to make; to cause (to effect or produce by means of some action)"
-    },
-    {
-     "gloss": "to throw (to organize; to cause something to happen)"
-    },
-    {
-     "gloss": "to make (to cause someone to take on traits of something, to become something)"
-    },
-    {
-     "gloss": "to make (to unfairly assign traits of something to someone or something)"
-    },
-    {
-     "gloss": "used as a generic verb, sometimes to replace another; to do"
-    },
-    {
-     "gloss": "used anaphorically instead of repeating a previous verb; to do",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "used as a light verb"
+       "kind": "KIND_EXAMPLE",
+       "text": "Robię im śniadanie.",
+       "translation": "I'm making them breakfast."
+      }
+     ],
+     "gloss": "to make (to cause the existence of)",
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Co robisz?",
+       "translation": "What are you doing?"
+      }
+     ],
+     "gloss": "to do (to perform; to execute)",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "wykonywać",
+       "type": "TYPE_SYNONYM"
       }
      ]
     },
     {
-     "gloss": "to act, to behave"
+     "gloss": "to make; to cause (to effect or produce by means of some action)",
+     "keywords": [
+      {
+       "text": "make"
+      },
+      {
+       "text": "cause"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "urządzać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to come about, to arise"
+     "gloss": "to throw (to organize; to cause something to happen)",
+     "keywords": [
+      {
+       "text": "throw"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to get, to become"
+     "gloss": "to make (to cause someone to take on traits of something, to become something)",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to start to feel"
+     "gloss": "to make (to unfairly assign traits of something to someone or something)",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to dress to kill"
+     "gloss": "used as a generic verb, sometimes to replace another; to do",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
+    },
+    {
+     "gloss": "used anaphorically instead of repeating a previous verb; to do",
+     "keywords": [
+      {
+       "text": "do"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "anaphora"
+     ],
+     "subsenses": [
+      {
+       "examples": [
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "niewodem robić",
+         "translation": "to fish with a seine"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić siano",
+         "translation": "to scatter and turn over dried grass to dry"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić z kwiatami",
+         "translation": "to work with flowers"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić z drutem",
+         "translation": "to make something out of wire"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić w gru(j)ńcie",
+         "translation": "to work land"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić kruszec",
+         "translation": "to mine ore"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić krośna",
+         "translation": "to weave cloth"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić zastole",
+         "translation": "to seat guests for breakfast"
+        },
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "robić błogosławieństwo",
+         "translation": "to organize a ceremony of blessing the bride and groom by their parents"
+        }
+       ],
+       "gloss": "used as a light verb",
+       "labels": [
+        "intransitive",
+        "transitive"
+       ],
+       "regions": [
+        "Central Greater Poland",
+        "Kościan",
+        "Near Masovian",
+        "Żelechów",
+        "Ostróda",
+        "Olsztynek",
+        "Western Kraków",
+        "Sławków",
+        "Biała Błotna",
+        "Eastern Lublin",
+        "Chełm County",
+        "Żywiec",
+        "Sopotnia Mała",
+        "Podhale",
+        "Skawa",
+        "Zakopane"
+       ]
+      }
+     ]
+    },
+    {
+     "gloss": "to act, to behave",
+     "keywords": [
+      {
+       "text": "act"
+      },
+      {
+       "text": "behave"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "term": "postępować",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zachowywać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to come about, to arise",
+     "keywords": [
+      {
+       "text": "come about"
+      },
+      {
+       "text": "arise"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "nastawać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "czynić się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Robi się późno.",
+       "translation": "It's getting late."
+      }
+     ],
+     "gloss": "to get, to become",
+     "government": [
+      {
+       "description": "out of what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "get"
+      },
+      {
+       "text": "become"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
+    },
+    {
+     "gloss": "to start to feel",
+     "government": [
+      {
+       "description": "who",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "start"
+      },
+      {
+       "text": "feel"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "impersonal"
+     ]
+    },
+    {
+     "gloss": "to dress to kill",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "dress to kill"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "colloquial"
+     ]
     },
     {
      "gloss": "to be done; to be made",
+     "keywords": [
+      {
+       "text": "do"
+      },
+      {
+       "text": "make"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
      "subsenses": [
       {
-       "gloss": "to go on; to happen"
+       "gloss": "to go on; to happen",
+       "keywords": [
+        {
+         "text": "go on"
+        },
+        {
+         "text": "happen"
+        }
+       ],
+       "labels": [
+        "reflexive-się"
+       ],
+       "regions": [
+        "Western Kraków"
+       ]
       }
      ]
     }
@@ -179,24 +481,88 @@
    ],
    "senses": [
     {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Robię trzy godziny dziennie.",
+       "translation": "I work three hours a day."
+      }
+     ],
      "gloss": "to work; to toil",
+     "keywords": [
+      {
+       "text": "work"
+      },
+      {
+       "text": "toil"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ],
+     "regions": [
+      "Kuyavia",
+      "Brześć Kujawski",
+      "Wieniec",
+      "Near Masovian",
+      "Czaplin",
+      "Sobików",
+      "Czarny Las",
+      "Kielce"
+     ],
+     "relations": [
+      {
+       "term": "pracować",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
      "subsenses": [
       {
-       "gloss": "to work on (to be to someone's benefit)"
+       "gloss": "to work on (to be to someone's benefit)",
+       "government": [
+        {
+         "description": "on whom",
+         "grammatical_case": "CASE_ACCUSATIVE",
+         "preposition": "na"
+        }
+       ],
+       "keywords": [
+        {
+         "text": "work on"
+        }
+       ],
+       "labels": [
+        "intransitive"
+       ],
+       "regions": [
+        "Podhale",
+        "Rabka-Zdrój"
+       ]
       }
      ]
     },
     {
-     "gloss": "to use, to apply"
-    },
-    {
-     "gloss": "to move (to cause to change location)"
-    },
-    {
-     "gloss": "to ferment"
-    },
-    {
-     "gloss": "to act, to substitute"
+     "gloss": "to act, to substitute",
+     "government": [
+      {
+       "description": "as what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "act"
+      },
+      {
+       "text": "substitute"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "colloquial"
+     ]
     }
    ]
   }

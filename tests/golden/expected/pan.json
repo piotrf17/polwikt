@@ -21,38 +21,128 @@
    ],
    "senses": [
     {
-     "gloss": "gentleman, man (specific male person, especially one unknown to the speaker)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jakiś pan mi pomógł.",
+       "translation": "A certain gentleman helped me."
+      }
+     ],
+     "gloss": "gentleman, man (specific male person, especially one unknown to the speaker)",
+     "keywords": [
+      {
+       "text": "gentleman"
+      },
+      {
+       "text": "man"
+      }
+     ]
     },
     {
-     "gloss": "master, lord (person with power over something)"
+     "gloss": "master, lord (person with power over something)",
+     "keywords": [
+      {
+       "text": "master"
+      },
+      {
+       "text": "lord"
+      }
+     ]
     },
     {
-     "gloss": "sir (rich, well-presenting person)"
+     "gloss": "sir (rich, well-presenting person)",
+     "keywords": [
+      {
+       "text": "sir"
+      }
+     ],
+     "relations": [
+      {
+       "term": "panisko",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "lord (master of a house)"
+     "gloss": "lord (master of a house)",
+     "keywords": [
+      {
+       "text": "lord"
+      }
+     ]
     },
     {
-     "gloss": "teacher"
+     "gloss": "teacher",
+     "keywords": [
+      {
+       "text": "teacher"
+      }
+     ],
+     "relations": [
+      {
+       "term": "nauczyciel",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "master (owner of a household pet)"
+     "gloss": "master (owner of a household pet)",
+     "keywords": [
+      {
+       "text": "master"
+      }
+     ]
     },
     {
-     "gloss": "Mr, mister (title before a last name)"
+     "gloss": "Mr, mister (title before a last name)",
+     "keywords": [
+      {
+       "text": "Mr"
+      },
+      {
+       "text": "mister"
+      }
+     ]
     },
     {
-     "gloss": "husband (male member of a marriage)"
+     "gloss": "owner",
+     "keywords": [
+      {
+       "text": "owner"
+      }
+     ],
+     "labels": [
+      "dated"
+     ],
+     "relations": [
+      {
+       "term": "właściciel",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "protector"
-    },
-    {
-     "gloss": "owner"
-    },
-    {
-     "gloss": "father"
+     "gloss": "father",
+     "keywords": [
+      {
+       "text": "father"
+      }
+     ],
+     "regions": [
+      "Chełmno"
+     ],
+     "relations": [
+      {
+       "term": "ojciec",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Male family members",
+    "Male people",
+    "Titles"
    ]
   },
   {
@@ -76,8 +166,35 @@
    ],
    "senses": [
     {
-     "gloss": "you polite second person m-personal nominative, it takes verbs as third-person sg form"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czy mógłby pan zamknąć drzwi?",
+       "translation": "Could you close the door?"
+      }
+     ],
+     "gloss": "you polite second person m-personal nominative, it takes verbs as third-person sg form",
+     "keywords": [
+      {
+       "text": "you"
+      }
+     ],
+     "relations": [
+      {
+       "term": "pani",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "państwo",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Male family members",
+    "Male people",
+    "Titles"
    ]
   }
  ],

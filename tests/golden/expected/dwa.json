@@ -15,8 +15,16 @@
    ],
    "senses": [
     {
-     "gloss": "two"
+     "gloss": "two",
+     "keywords": [
+      {
+       "text": "two"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Two"
    ]
   },
   {
@@ -34,8 +42,19 @@
    ],
    "senses": [
     {
-     "gloss": "two (grade in school)"
+     "gloss": "two (grade in school)",
+     "keywords": [
+      {
+       "text": "two"
+      }
+     ],
+     "topics": [
+      "education"
+     ]
     }
+   ],
+   "topics": [
+    "Two"
    ]
   }
  ],

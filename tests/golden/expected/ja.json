@@ -15,9 +15,22 @@
    ],
    "senses": [
     {
-     "gloss": "first-person pronoun; I"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Ja chcę mieć przyjaciół.",
+       "translation": "I want to have friends."
+      }
+     ],
+     "gloss": "first-person pronoun; I",
+     "keywords": [
+      {
+       "text": "I"
+      }
+     ]
     }
-   ]
+   ],
+   "usage_notes": "The mute forms mię and mi cannot be used in accented positions in the sentence. Mię is considered dated in standard Polish but can still be heard commonly in some dialects or in colloquial speech."
   },
   {
    "etymology": 1,
@@ -35,7 +48,14 @@
    ],
    "senses": [
     {
-     "gloss": "alternative form of jo"
+     "form_of": {
+      "lemma": "jo",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "alternative form of jo",
+     "regions": [
+      "Żywiec"
+     ]
     }
    ]
   }

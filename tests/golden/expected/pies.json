@@ -93,17 +93,64 @@
    ],
    "senses": [
     {
-     "gloss": "dog (Canis lupus familiaris)"
+     "gloss": "dog (Canis lupus familiaris)",
+     "keywords": [
+      {
+       "text": "dog"
+      },
+      {
+       "taxonomic": true,
+       "text": "Canis lupus familiaris"
+      }
+     ]
     },
     {
-     "gloss": "dog (any member of the family Canidae, including domestic dogs, wolves, coyotes, jackals, foxes, and their relatives (extant and extinct); canid)"
+     "gloss": "dog (any member of the family Canidae, including domestic dogs, wolves, coyotes, jackals, foxes, and their relatives (extant and extinct); canid)",
+     "keywords": [
+      {
+       "text": "dog"
+      },
+      {
+       "taxonomic": true,
+       "text": "Canidae"
+      }
+     ]
     },
     {
-     "gloss": "male fox or badger"
+     "gloss": "male fox or badger",
+     "keywords": [
+      {
+       "text": "fox"
+      },
+      {
+       "text": "badger"
+      }
+     ],
+     "topics": [
+      "hunting"
+     ]
     },
     {
-     "gloss": "child who chases another in various games"
+     "gloss": "child who chases another in various games",
+     "regions": [
+      "Biecz",
+      "Ropczyce-Sędziszów County",
+      "Eastern Kraków",
+      "Gdów",
+      "Bochnia"
+     ],
+     "topics": [
+      "children's games"
+     ]
     }
+   ],
+   "topics": [
+    "Dogs",
+    "Foxes",
+    "Male animals",
+    "Mustelids",
+    "Occupations",
+    "People"
    ]
   },
   {
@@ -199,11 +246,61 @@
    ],
    "senses": [
     {
-     "gloss": "cop, policeman"
+     "gloss": "cop, policeman",
+     "keywords": [
+      {
+       "text": "cop"
+      },
+      {
+       "text": "policeman"
+      }
+     ],
+     "labels": [
+      "derogatory",
+      "slang"
+     ],
+     "relations": [
+      {
+       "term": "glina",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "gliniarz",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "law enforcement"
+     ]
     },
     {
-     "gloss": "dog (someone contemptible)"
+     "gloss": "dog (someone contemptible)",
+     "keywords": [
+      {
+       "text": "dog"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "dialectal",
+      "derogatory"
+     ],
+     "regions": [
+      "Near Masovian",
+      "Jagodne",
+      "Łowicz",
+      "Domaniewice",
+      "Western Kraków"
+     ]
     }
+   ],
+   "topics": [
+    "Dogs",
+    "Foxes",
+    "Male animals",
+    "Mustelids",
+    "Occupations",
+    "People"
    ]
   },
   {
@@ -299,29 +396,149 @@
    ],
    "senses": [
     {
-     "gloss": "chaff stick (narrower stick in the chaff counter)"
+     "gloss": "chaff stick (narrower stick in the chaff counter)",
+     "keywords": [
+      {
+       "text": "chaff"
+      },
+      {
+       "text": "stick"
+      }
+     ],
+     "regions": [
+      "Western Kraków"
+     ]
     },
     {
-     "gloss": "support (small plank attached to the front of the bed of a butcher's box which one's leg rests on to add strength)"
+     "gloss": "support (small plank attached to the front of the bed of a butcher's box which one's leg rests on to add strength)",
+     "keywords": [
+      {
+       "text": "support"
+      }
+     ],
+     "regions": [
+      "Podegrodzie"
+     ],
+     "relations": [
+      {
+       "term": "wapka",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "horse mount (iron cart for mounting the front horses)"
+     "gloss": "horse mount (iron cart for mounting the front horses)",
+     "keywords": [
+      {
+       "text": "horse"
+      },
+      {
+       "text": "mount"
+      }
+     ],
+     "regions": [
+      "Sieradz",
+      "Wieluń",
+      "Radomsko"
+     ],
+     "relations": [
+      {
+       "term": "furmanek",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "synonym of strunnik"
+     "form_of": {
+      "lemma": "strunnik",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of strunnik",
+     "regions": [
+      "Western Lublin",
+      "Głodno"
+     ],
+     "topics": [
+      "music"
+     ]
     },
     {
-     "gloss": "peg stuck in the lower end of a rafter"
+     "gloss": "peg stuck in the lower end of a rafter",
+     "keywords": [
+      {
+       "text": "peg"
+      },
+      {
+       "text": "rafter"
+      }
+     ],
+     "regions": [
+      "Przemyśl"
+     ]
     },
     {
-     "gloss": "sewn-in strips on the shoulders of shirts"
+     "gloss": "sewn-in strips on the shoulders of shirts",
+     "keywords": [
+      {
+       "text": "sew"
+      },
+      {
+       "text": "strip"
+      },
+      {
+       "text": "shoulder"
+      },
+      {
+       "text": "shirt"
+      }
+     ],
+     "labels": [
+      "in the plural"
+     ],
+     "regions": [
+      "Kielce"
+     ]
     },
     {
-     "gloss": "piece of crap (anything bad, unpleasant, or meaningless)"
+     "gloss": "piece of crap (anything bad, unpleasant, or meaningless)",
+     "keywords": [
+      {
+       "text": "piece of crap"
+      }
+     ],
+     "labels": [
+      "obsolete",
+      "dialectal",
+      "derogatory"
+     ],
+     "regions": [
+      "Kuyavia"
+     ]
     },
     {
-     "gloss": "support (toothed wheel at the rear beam of a weaving workshop and a rod supporting the wheel to keep the thread firmly in place)"
+     "gloss": "support (toothed wheel at the rear beam of a weaving workshop and a rod supporting the wheel to keep the thread firmly in place)",
+     "keywords": [
+      {
+       "text": "support"
+      }
+     ],
+     "regions": [
+      "Łowicz",
+      "Złaków Borowy",
+      "Duplice Duże"
+     ],
+     "topics": [
+      "weaving"
+     ]
     }
+   ],
+   "topics": [
+    "Dogs",
+    "Foxes",
+    "Male animals",
+    "Mustelids",
+    "Occupations",
+    "People"
    ]
   }
  ],

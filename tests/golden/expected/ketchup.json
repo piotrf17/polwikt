@@ -12,8 +12,17 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "keczup",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
      "gloss": "alternative spelling of keczup"
     }
+   ],
+   "topics": [
+    "Condiments",
+    "Sauces",
+    "Standards of identity"
    ]
   }
  ],

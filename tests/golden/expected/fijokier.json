@@ -18,7 +18,14 @@
    ],
    "senses": [
     {
-     "gloss": "alternative form of fiakier (“cabdriver”)"
+     "form_of": {
+      "lemma": "fiakier",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "alternative form of fiakier (“cabdriver”)",
+     "regions": [
+      "Zagórze"
+     ]
     }
    ]
   }

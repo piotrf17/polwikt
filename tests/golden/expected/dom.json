@@ -9,24 +9,95 @@
    ],
    "senses": [
     {
-     "gloss": "house (building for living)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "dom aukcyjny",
+       "translation": "auction house"
+      }
+     ],
+     "gloss": "house (building for living)",
+     "keywords": [
+      {
+       "text": "house"
+      }
+     ]
     },
     {
-     "gloss": "home (place where one resides)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Idę do domu.",
+       "translation": "I'm going home."
+      }
+     ],
+     "gloss": "home (place where one resides)",
+     "keywords": [
+      {
+       "text": "home"
+      }
+     ],
+     "relations": [
+      {
+       "term": "chałupa",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "chata",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "house, household; family (people within a home)"
+     "gloss": "house, household; family (people within a home)",
+     "keywords": [
+      {
+       "text": "house"
+      },
+      {
+       "text": "household"
+      },
+      {
+       "text": "family"
+      }
+     ]
     },
     {
-     "gloss": "household (all affairs associated with a family within a home)"
+     "gloss": "household (all affairs associated with a family within a home)",
+     "keywords": [
+      {
+       "text": "household"
+      }
+     ]
     },
     {
-     "gloss": "house (royal, aristocratic, or otherwise high-society family)"
+     "gloss": "house (royal, aristocratic, or otherwise high-society family)",
+     "keywords": [
+      {
+       "text": "house"
+      }
+     ],
+     "labels": [
+      "literary"
+     ]
     },
     {
-     "gloss": "house; home (place where specialized activities are carried out)"
+     "gloss": "house; home (place where specialized activities are carried out)",
+     "keywords": [
+      {
+       "text": "house"
+      },
+      {
+       "text": "home"
+      }
+     ]
     }
-   ]
+   ],
+   "topics": [
+    "Buildings",
+    "Housing"
+   ],
+   "usage_notes": "The form domie in the locative and vocative is considered dated.\nIt must be noted, however, that -ie is the regular and productive locative suffix in modern Polish for roots ending with -m or -n. This is reflected in derived terms, such as brand names ending with -dom, and place names (e.g. Dom), for which the ending is always regularized to -ie in the locative.\nCompare syn and pan for the same exception."
   }
  ],
  "etymologies": [

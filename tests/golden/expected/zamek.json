@@ -15,11 +15,44 @@
    ],
    "senses": [
     {
-     "gloss": "lock (something used for fastening)"
+     "gloss": "lock (something used for fastening)",
+     "keywords": [
+      {
+       "text": "lock"
+      }
+     ]
     },
     {
-     "gloss": "zip, zip fastener, zipper"
+     "gloss": "zip, zip fastener, zipper",
+     "keywords": [
+      {
+       "text": "zip"
+      },
+      {
+       "text": "zip fastener"
+      },
+      {
+       "text": "zipper"
+      }
+     ],
+     "relations": [
+      {
+       "term": "suwak",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zamek błyskawiczny",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Buildings",
+    "Fasteners",
+    "Mechanisms",
+    "Prison",
+    "Royal residences"
    ]
   },
   {
@@ -38,11 +71,30 @@
    ],
    "senses": [
     {
-     "gloss": "castle (fortified building)"
+     "gloss": "castle (fortified building)",
+     "keywords": [
+      {
+       "text": "castle"
+      }
+     ]
     },
     {
-     "gloss": "synonym of więzienie"
+     "form_of": {
+      "lemma": "więzienie",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of więzienie",
+     "regions": [
+      "Lasovia"
+     ]
     }
+   ],
+   "topics": [
+    "Buildings",
+    "Fasteners",
+    "Mechanisms",
+    "Prison",
+    "Royal residences"
    ]
   }
  ],

@@ -1,0 +1,104 @@
+# Form-of senses (R6.6, R3.13a): canonical template -> FormOf. Only `inflection` folds
+# into its lemma at P4; alternative forms, synonyms, abbreviations and derivations are
+# records of their own that keep the link. `lemma` is the argument holding the target;
+# `tags_from` the first tag argument (R6.6's `;` and `//`); `tags` adds fixed tags and
+# `raw` fixed raw tags ("diminutive"), so the kind of link is never lost.
+# Arguments as written on the page: "1" is the language for most, not for pl-pre-*.
+
+[templates."inflection of"]
+type = "inflection"
+lemma = "2"
+tags_from = 4
+[templates."comparative of"]
+type = "inflection"
+lemma = "2"
+tags = ["comparative"]
+[templates."superlative of"]
+type = "inflection"
+lemma = "2"
+tags = ["superlative"]
+
+[templates."alternative form of"]
+type = "alternative_form"
+lemma = "2"
+[templates."alternative spelling of"]
+type = "alternative_form"
+lemma = "2"
+[templates."alternative case form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["case form"]
+[templates."obsolete form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["obsolete"]
+[templates."nonstandard form of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["nonstandard"]
+[templates."censored spelling of"]
+type = "alternative_form"
+lemma = "2"
+raw = ["censored"]
+[templates."pl-pre-1936"]
+type = "alternative_form"
+lemma = "1"
+raw = ["pre-1936 spelling"]
+[templates."pl-pre-1816"]
+type = "alternative_form"
+lemma = "1"
+raw = ["pre-1816 spelling"]
+
+[templates."synonym of"]
+type = "synonym"
+lemma = "2"
+
+[templates."abbreviation of"]
+type = "abbreviation"
+lemma = "2"
+[templates."initialism of"]
+type = "abbreviation"
+lemma = "2"
+raw = ["initialism"]
+[templates."clipping of"]
+type = "abbreviation"
+lemma = "2"
+raw = ["clipping"]
+[templates."ellipsis of"]
+type = "abbreviation"
+lemma = "2"
+raw = ["ellipsis"]
+[templates."contraction of"]
+type = "abbreviation"
+lemma = "2"
+raw = ["contraction"]
+
+[templates."verbal noun of"]
+type = "derivation"
+lemma = "2"
+tags = ["verbal noun"]
+[templates."diminutive of"]
+type = "derivation"
+lemma = "2"
+raw = ["diminutive"]
+[templates."augmentative of"]
+type = "derivation"
+lemma = "2"
+raw = ["augmentative"]
+[templates."female equivalent of"]
+type = "derivation"
+lemma = "2"
+raw = ["female equivalent"]
+[templates."frequentative of"]
+type = "derivation"
+lemma = "2"
+raw = ["frequentative"]
+[templates."relational adjective of"]
+type = "derivation"
+lemma = "2"
+raw = ["relational adjective"]
+# {{form of|pl|emphatic form|niech}}: the description is the raw tag.
+[templates."form of"]
+type = "derivation"
+lemma = "3"
+raw_from = "2"

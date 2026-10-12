@@ -117,11 +117,46 @@
    ],
    "senses": [
     {
-     "gloss": "elder (bush of genus Sambucus)"
+     "gloss": "elder (bush of genus Sambucus)",
+     "keywords": [
+      {
+       "text": "elder"
+      },
+      {
+       "taxonomic": true,
+       "text": "Sambucus"
+      }
+     ]
     },
     {
-     "gloss": "lilac (bush of genus Syringa)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "pachnieć bzem",
+       "translation": "to smell of lilac"
+      }
+     ],
+     "gloss": "lilac (bush of genus Syringa)",
+     "keywords": [
+      {
+       "text": "lilac"
+      },
+      {
+       "taxonomic": true,
+       "text": "Syringa"
+      }
+     ],
+     "relations": [
+      {
+       "term": "lilak",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Moschatel family plants",
+    "Olive family plants"
    ]
   },
   {
@@ -242,20 +277,39 @@
    ],
    "senses": [
     {
-     "gloss": "without, lacking"
-    },
-    {
-     "gloss": "minus, less"
-    },
-    {
-     "gloss": "contra, against"
-    },
-    {
-     "gloss": "besides, except"
-    },
-    {
-     "gloss": "without; Further details are uncertain."
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Proszę o kawę bez mleka.",
+       "translation": "A coffee with no milk, please."
+      }
+     ],
+     "gloss": "without, lacking",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_GENITIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "without"
+      },
+      {
+       "text": "lacking"
+      }
+     ],
+     "relations": [
+      {
+       "term": "z",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Moschatel family plants",
+    "Olive family plants"
    ]
   },
   {
@@ -376,28 +430,204 @@
    ],
    "senses": [
     {
-     "gloss": "synonym of przez (“across, through”)"
-    },
-    {
-     "gloss": "synonym of przez (“for”)",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "synonym of o (“at”)"
+       "kind": "KIND_EXAMPLE",
+       "text": "Bez ten płot nie mógem preleźć.",
+       "translation": "I couldn't go across this fence."
       },
       {
-       "gloss": "synonym of po / za (“after, in”)"
+       "kind": "KIND_QUOTATION",
+       "source": "Aneta Majkowska, Polszczyzna mówiona mieszkańców Częstochowy (2000)",
+       "text": "Nie tu szosą tylko drogą polną bez pola my jechali z chłopem sąsiadki.",
+       "translation": "We drove through the fields with the neighbor's man, not on the paved road, but on a dirt road."
+      }
+     ],
+     "form_of": {
+      "lemma": "przez",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of przez (“across, through”)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "regions": [
+      "Chełmno-Dobrzyń",
+      "Kuyavia",
+      "Central Greater Poland",
+      "Nadziejewo",
+      "Mądra",
+      "Near Masovian",
+      "Międzyrzec Podlaski",
+      "Far Masovian",
+      "Masuria",
+      "Łowicz",
+      "Podlachia",
+      "Drohiczyn",
+      "Żywiec",
+      "Przemyśl",
+      "San river",
+      "Lasovia",
+      "Sandomierz",
+      "Western Kraków",
+      "Będzin",
+      "Kielce",
+      "Sichów Mały",
+      "Podhale",
+      "Zagórze",
+      "Southern Borderlands",
+      "Drohobych"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "przez",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of przez (“for”)",
+     "government": [
+      {
+       "description": "what amount of time",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "regions": [
+      "Kuyavia",
+      "Brześć Kujawski",
+      "Chodecz",
+      "Western Kraków",
+      "Lasovia",
+      "Sandomierz",
+      "Przemyśl",
+      "San river",
+      "Zagórze"
+     ],
+     "subsenses": [
+      {
+       "examples": [
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "bez połednie",
+         "translation": "at noon"
+        }
+       ],
+       "form_of": {
+        "lemma": "o",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of o (“at”)",
+       "government": [
+        {
+         "description": "what time",
+         "grammatical_case": "CASE_ACCUSATIVE"
+        }
+       ],
+       "regions": [
+        "Western Kraków",
+        "Sławków"
+       ]
+      },
+      {
+       "examples": [
+        {
+         "kind": "KIND_COLLOCATION",
+         "text": "bez kilka czasów",
+         "translation": "after some times, in a while"
+        }
+       ],
+       "form_of": {
+        "lemma": "po//za",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of po / za (“after, in”)",
+       "government": [
+        {
+         "description": "what amount of time",
+         "grammatical_case": "CASE_ACCUSATIVE"
+        }
+       ],
+       "regions": [
+        "Central Greater Poland",
+        "Kościan",
+        "Southern Greater Poland",
+        "Krobia",
+        "Morownica"
+       ]
       }
      ]
     },
     {
-     "gloss": "synonym of przez (“because of”)"
+     "form_of": {
+      "lemma": "przez",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of przez (“because of”)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "regions": [
+      "Central Greater Poland",
+      "Poznań",
+      "Kościan",
+      "Eastern Greater Poland",
+      "Sompolno",
+      "Lasovia",
+      "Sandomierz",
+      "Przemyśl",
+      "San river",
+      "Biecz",
+      "Ropczyce",
+      "Podhale"
+     ]
     },
     {
-     "gloss": "synonym of przez (“by, creates the passive voice”)"
+     "form_of": {
+      "lemma": "przez",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of przez (“by, creates the passive voice”)",
+     "government": [
+      {
+       "description": "whom/what",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "regions": [
+      "Kuyavia",
+      "Unisławice",
+      "Central Greater Poland",
+      "Czeszewo",
+      "Southern Greater Poland",
+      "Leszno",
+      "Śmigiel"
+     ]
     },
     {
-     "gloss": "synonym of dla (“for”)"
+     "form_of": {
+      "lemma": "dla",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of dla (“for”)",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_ACCUSATIVE"
+      }
+     ],
+     "regions": [
+      "Western Kraków"
+     ]
     }
+   ],
+   "topics": [
+    "Moschatel family plants",
+    "Olive family plants"
    ]
   },
   {
@@ -518,8 +748,22 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "beza",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_GENITIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "genitive plural of beza"
     }
+   ],
+   "topics": [
+    "Moschatel family plants",
+    "Olive family plants"
    ]
   }
  ],

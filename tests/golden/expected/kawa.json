@@ -16,27 +16,111 @@
    "senses": [
     {
      "gloss": "coffee (beverage made by infusing the beans of the coffee plant in hot water)",
+     "keywords": [
+      {
+       "text": "coffee"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ],
      "subsenses": [
       {
-       "gloss": "coffee (serving of this beverage)"
+       "gloss": "coffee (serving of this beverage)",
+       "keywords": [
+        {
+         "text": "coffee"
+        }
+       ],
+       "labels": [
+        "countable"
+       ]
       },
       {
-       "gloss": "coffee (act of drinking this beverage)"
+       "gloss": "coffee (act of drinking this beverage)",
+       "keywords": [
+        {
+         "text": "coffee"
+        }
+       ],
+       "labels": [
+        "countable"
+       ]
       }
      ]
     },
     {
-     "gloss": "coffee (any plant of the genus Coffea)"
+     "gloss": "coffee (any plant of the genus Coffea)",
+     "keywords": [
+      {
+       "text": "coffee"
+      },
+      {
+       "taxonomic": true,
+       "text": "Coffea"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "relations": [
+      {
+       "term": "kawowiec",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "coffee (seeds of the plant used to make coffee, called “beans” due to their shape)"
+     "gloss": "coffee (seeds of the plant used to make coffee, called “beans” due to their shape)",
+     "keywords": [
+      {
+       "text": "coffee"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "coffee-like beverage made from grains, seeds, or roots of various plants"
+     "gloss": "coffee-like beverage made from grains, seeds, or roots of various plants",
+     "keywords": [
+      {
+       "text": "coffee"
+      },
+      {
+       "text": "beverage"
+      },
+      {
+       "text": "grain"
+      },
+      {
+       "text": "seed"
+      },
+      {
+       "text": "root"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     },
     {
-     "gloss": "coffee (short social gathering where coffee is served)"
+     "gloss": "coffee (short social gathering where coffee is served)",
+     "keywords": [
+      {
+       "text": "coffee"
+      }
+     ],
+     "labels": [
+      "countable"
+     ]
     }
+   ],
+   "topics": [
+    "Coffee",
+    "Corvids",
+    "Madder family plants",
+    "Parties"
    ]
   },
   {
@@ -55,8 +139,33 @@
    ],
    "senses": [
     {
-     "gloss": "jackdaw (any corvid of the genus Coloeus)"
+     "gloss": "jackdaw (any corvid of the genus Coloeus)",
+     "keywords": [
+      {
+       "text": "jackdaw"
+      },
+      {
+       "taxonomic": true,
+       "text": "Coloeus"
+      }
+     ],
+     "labels": [
+      "obsolete",
+      "dialectal"
+     ],
+     "relations": [
+      {
+       "term": "kawka",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Coffee",
+    "Corvids",
+    "Madder family plants",
+    "Parties"
    ]
   },
   {
@@ -75,8 +184,26 @@
    ],
    "senses": [
     {
-     "gloss": "tree roof (roof supported by pillars as a display in front of a house for setting a tree)"
+     "gloss": "tree roof (roof supported by pillars as a display in front of a house for setting a tree)",
+     "keywords": [
+      {
+       "text": "tree"
+      },
+      {
+       "text": "roof"
+      }
+     ],
+     "regions": [
+      "Western Lublin",
+      "Kamionka"
+     ]
     }
+   ],
+   "topics": [
+    "Coffee",
+    "Corvids",
+    "Madder family plants",
+    "Parties"
    ]
   }
  ],

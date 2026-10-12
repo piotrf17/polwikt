@@ -219,10 +219,15 @@ message FormOf {
     TYPE_ALTERNATIVE_FORM = 2;   // {{alt form}}, {{alternative spelling of}}
     TYPE_SYNONYM = 3;            // {{syn of}}
     TYPE_ABBREVIATION = 4;       // {{abbreviation of}}, {{initialism of}}
+    // A word of its own derived from the lemma: {{diminutive of}}, {{verbal noun of}},
+    // {{female equivalent of}}. Never folded; the link lets an app show "→ kot".
+    TYPE_DERIVATION = 5;
   }
   Type type = 1;
   string lemma = 2;
   repeated GrammaticalTags tag_sets = 3;  // `;` / `//` in the template expand to several
+  // Tags no enum covers, in source order ("short", "diminutive"): never dropped.
+  repeated string raw_tags = 4;
 }
 
 message Example {

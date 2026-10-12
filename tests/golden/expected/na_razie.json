@@ -9,7 +9,31 @@
    ],
    "senses": [
     {
-     "gloss": "for now, as yet, for the time being"
+     "gloss": "for now, as yet, for the time being",
+     "keywords": [
+      {
+       "text": "for now"
+      },
+      {
+       "text": "as yet"
+      },
+      {
+       "text": "for the time being"
+      }
+     ],
+     "labels": [
+      "idiomatic"
+     ],
+     "relations": [
+      {
+       "term": "póki co",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "tymczasem",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   },
@@ -22,7 +46,56 @@
    ],
    "senses": [
     {
-     "gloss": "see you, see you later, bye"
+     "gloss": "see you, see you later, bye",
+     "keywords": [
+      {
+       "text": "see you"
+      },
+      {
+       "text": "see you later"
+      },
+      {
+       "text": "bye"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "idiomatic"
+     ],
+     "relations": [
+      {
+       "labels": [
+        "colloquial"
+       ],
+       "term": "nara",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "narazicho",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "familiar"
+       ],
+       "term": "pa",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "informal"
+       ],
+       "term": "do zobaczenia",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "formal"
+       ],
+       "term": "do widzenia",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   }

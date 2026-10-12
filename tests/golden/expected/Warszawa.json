@@ -9,26 +9,148 @@
    ],
    "senses": [
     {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "Warszawa lat wojny i okupacji",
+       "translation": "Warsaw of the war and occupation years"
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Leon Potocki, Święcone, czyli Pałac Potockich w Warszawie (1854)",
+       "text": "Arcybiskupowi przeznaczono rocznéj pensyi 140,000 franków, prócz pieniędzy na reprezentacyą; gdyż cesarz w udzielonych mu instrukcyach chciał, aby w Warszawie wielki dom prowadził.",
+       "translation": "The archbishop was allowed a yearly pension of 140,000 franks, in addition to the money for representation; where as the emperor, as in his conferred instructions, wanted him to lead a great house in Warsaw."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Adam Szczypiorski, Ćwierć wieku Warszawy, 1806–1830 (1964)",
+       "text": "Od daty 18 maja 1815 roku, kiedy traktat wiedeński powołał do życia Królestwo Polskie, rozpoczęła się dla Warszawy nowa epoka.",
+       "translation": "From May 18, 1815, when the Treaty of Vienna brought the Polish Kingdom back to life, a new epoch for Warsaw begun."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Artur III Nadolski, Pani Chłodna (opowieść o warszawskiej ulicy) (2008)",
+       "text": "W takiej atmosferze rewolucyjnego września opuszczał na zawsze Warszawę i Ojczyznę Fryderyk Chopin.",
+       "translation": "In this revolutionist atmosphere of September, Frederyk Chopin left Warsaw and his fatherland forever."
+      }
+     ],
      "gloss": "Warsaw (the capital and largest city of Poland)"
     },
     {
      "gloss": "Warsaw (the capital and largest city of Masovian Voivodeship, Poland)"
     },
     {
-     "gloss": "Warsaw (Polish presidency and its administration)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "stosunki między Warszawą a Berlinem",
+       "translation": "relations between Warsaw and Berlin"
+      }
+     ],
+     "gloss": "Warsaw (Polish presidency and its administration)",
+     "keywords": [
+      {
+       "text": "Warsaw"
+      }
+     ],
+     "labels": [
+      "metonymic"
+     ],
+     "topics": [
+      "government"
+     ]
     },
     {
-     "gloss": "Warsaw authorities"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "miasto stołeczne Warszawa",
+       "translation": "the capital city of Warsaw"
+      }
+     ],
+     "gloss": "Warsaw authorities",
+     "keywords": [
+      {
+       "text": "Warsaw"
+      },
+      {
+       "text": "authority"
+      }
+     ],
+     "labels": [
+      "metonymic"
+     ],
+     "topics": [
+      "government"
+     ]
     },
     {
-     "gloss": "Warsaw residents"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "pomoc dla Warszawy",
+       "translation": "aid to Warsaw"
+      }
+     ],
+     "gloss": "Warsaw residents",
+     "keywords": [
+      {
+       "text": "Warsaw"
+      },
+      {
+       "text": "resident"
+      }
+     ],
+     "labels": [
+      "collective",
+      "metonymic"
+     ]
     },
     {
-     "gloss": "sports team from Warsaw"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "zremisować z Warszawą",
+       "translation": "to tie with Warsaw"
+      }
+     ],
+     "gloss": "sports team from Warsaw",
+     "keywords": [
+      {
+       "text": "sports team"
+      },
+      {
+       "text": "Warsaw"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "metonymic"
+     ],
+     "topics": [
+      "sports"
+     ]
     },
     {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "taksówka marki „Warszawa”",
+       "translation": "“Warsaw” brand cab"
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Aleksander Sowa, Legendy naszej motoryzacji (2010)",
+       "text": "W 1958 roku Warszawę wyposażono już w dwuramienną kierownicę.",
+       "translation": "In 1958, the Warsaw was equipped with a two-armed steering wheel."
+      }
+     ],
      "gloss": "FSO Warszawa (line of cars manufactured in Warsaw between 1951 and 1973)"
     }
+   ],
+   "topics": [
+    "Collectives",
+    "Polish politics"
    ]
   }
  ],

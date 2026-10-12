@@ -21,11 +21,26 @@
    ],
    "senses": [
     {
-     "gloss": "city, town (area, center, administration, or population of a densely populated region of people larger than a village)"
-    },
-    {
-     "gloss": "place"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "jeść na mieście",
+       "translation": "to eat out"
+      }
+     ],
+     "gloss": "city, town (area, center, administration, or population of a densely populated region of people larger than a village)",
+     "keywords": [
+      {
+       "text": "city"
+      },
+      {
+       "text": "town"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Polities"
    ]
   },
   {
@@ -50,8 +65,30 @@
    ],
    "senses": [
     {
-     "gloss": "instead of"
+     "gloss": "instead of",
+     "government": [
+      {
+       "grammatical_case": "CASE_GENITIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "instead of"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ],
+     "regions": [
+      "Far Masovian",
+      "Ciechanów",
+      "Suwałki",
+      "Augustów Governorate"
+     ]
     }
+   ],
+   "topics": [
+    "Polities"
    ]
   }
  ],

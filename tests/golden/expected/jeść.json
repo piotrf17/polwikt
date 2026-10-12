@@ -15,27 +15,162 @@
    ],
    "senses": [
     {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Lubię jeść chińskie dania.",
+       "translation": "I like to eat Chinese dishes."
+      }
+     ],
      "gloss": "to eat (to ingest)",
+     "keywords": [
+      {
+       "text": "eat"
+      }
+     ],
+     "labels": [
+      "ambitransitive"
+     ],
      "subsenses": [
       {
-       "gloss": "to eat (to consume a meal)"
+       "gloss": "to eat (to consume a meal)",
+       "keywords": [
+        {
+         "text": "eat"
+        }
+       ],
+       "labels": [
+        "ambitransitive"
+       ]
       }
      ]
     },
     {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Stres mnie je od środka.",
+       "translation": "Stress is gnaving at me from inside."
+      }
+     ],
      "gloss": "to bite, to sting",
+     "keywords": [
+      {
+       "text": "bite"
+      },
+      {
+       "text": "sting"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "of insects"
+     ],
+     "relations": [
+      {
+       "term": "kąsać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "żądlić",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
      "subsenses": [
       {
-       "gloss": "to gnaw, to plague (to produce anxiety or worry)"
+       "gloss": "to gnaw, to plague (to produce anxiety or worry)",
+       "keywords": [
+        {
+         "text": "gnaw"
+        },
+        {
+         "text": "plague"
+        }
+       ],
+       "labels": [
+        "transitive",
+        "figurative"
+       ],
+       "relations": [
+        {
+         "term": "dokuczać",
+         "type": "TYPE_SYNONYM"
+        },
+        {
+         "term": "nękać",
+         "type": "TYPE_SYNONYM"
+        },
+        {
+         "term": "trapić",
+         "type": "TYPE_SYNONYM"
+        }
+       ]
       }
      ]
     },
     {
-     "gloss": "to eat away (to corrode gradually)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Rdza je i je ten przyrząd, wkrótce nie będzie się nadawał do użytku.",
+       "translation": "Rust corrodes and corrodes this equipment, soon it won't be possible to use it."
+      }
+     ],
+     "gloss": "to eat away (to corrode gradually)",
+     "keywords": [
+      {
+       "text": "eat away"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "of rust"
+     ],
+     "relations": [
+      {
+       "term": "nadżerać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to bicker, to wrangle"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Ale wy się obie jecie z Eweliną!",
+       "translation": "You both with Ewelina argue so fiercelly!"
+      }
+     ],
+     "gloss": "to bicker, to wrangle",
+     "government": [
+      {
+       "description": "with whom",
+       "grammatical_case": "CASE_INSTRUMENTAL",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "bicker"
+      },
+      {
+       "text": "wrangle"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "figurative"
+     ],
+     "relations": [
+      {
+       "term": "użerać się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Food and drink"
    ]
   },
   {
@@ -53,8 +188,43 @@
    ],
    "senses": [
     {
-     "gloss": "food"
+     "gloss": "food",
+     "keywords": [
+      {
+       "text": "food"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "coś na ząb",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "literary"
+       ],
+       "term": "jadło",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "dialectal"
+       ],
+       "term": "jedza",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "jedzenie",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Food and drink"
    ]
   }
  ],

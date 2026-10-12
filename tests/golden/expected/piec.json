@@ -39,26 +39,109 @@
    ],
    "senses": [
     {
-     "gloss": "oven; furnace (device that produces high temperatures, used for heating rooms and for cooking)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Wsadź ciasto do pieca.",
+       "translation": "Put the cake in the oven."
+      }
+     ],
+     "gloss": "oven; furnace (device that produces high temperatures, used for heating rooms and for cooking)",
+     "keywords": [
+      {
+       "text": "oven"
+      },
+      {
+       "text": "furnace"
+      }
+     ]
     },
     {
-     "gloss": "oven; furnace (industrial device used for thermal treatment of materials in technological processes requiring very high temperatures)"
+     "gloss": "oven; furnace (industrial device used for thermal treatment of materials in technological processes requiring very high temperatures)",
+     "keywords": [
+      {
+       "text": "oven"
+      },
+      {
+       "text": "furnace"
+      }
+     ]
     },
     {
-     "gloss": "oven, furnace, retort (device for burning corpses)"
+     "gloss": "oven, furnace, retort (device for burning corpses)",
+     "keywords": [
+      {
+       "text": "oven"
+      },
+      {
+       "text": "furnace"
+      },
+      {
+       "text": "retort"
+      }
+     ]
     },
     {
-     "gloss": "combo amp (strong amplifier set with a built-in speaker to which musicians connect their electric guitar during stage performances)"
+     "gloss": "combo amp (strong amplifier set with a built-in speaker to which musicians connect their electric guitar during stage performances)",
+     "keywords": [
+      {
+       "text": "combo"
+      },
+      {
+       "text": "amp"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "wzmacniacz",
+       "type": "TYPE_HYPERNYM"
+      }
+     ],
+     "topics": [
+      "music"
+     ]
     },
     {
-     "gloss": "oven load; furnace load (number of items baked or fired at once in an oven or furnace)"
+     "gloss": "oven load; furnace load (number of items baked or fired at once in an oven or furnace)",
+     "keywords": [
+      {
+       "text": "oven"
+      },
+      {
+       "text": "load"
+      },
+      {
+       "text": "furnace"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
     },
     {
-     "gloss": "gallery (mining or prospecting gallery, especially one that is carried through empty lands to the intersection of a salt layer)"
-    },
-    {
-     "gloss": "synonym of piekło (“hell”) (place of execution by fire)"
+     "gloss": "gallery (mining or prospecting gallery, especially one that is carried through empty lands to the intersection of a salt layer)",
+     "keywords": [
+      {
+       "text": "gallery"
+      }
+     ],
+     "labels": [
+      "obsolete",
+      "salt"
+     ],
+     "topics": [
+      "mining"
+     ]
     }
+   ],
+   "topics": [
+    "Baking",
+    "Electronics",
+    "Home appliances",
+    "Torture"
    ]
   },
   {
@@ -100,8 +183,23 @@
    ],
    "senses": [
     {
-     "gloss": "alternative form of piec"
+     "form_of": {
+      "lemma": "piec",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "alternative form of piec",
+     "regions": [
+      "Northern Borderlands",
+      "Near Masovian",
+      "Międzyrzec Podlaski"
+     ]
     }
+   ],
+   "topics": [
+    "Baking",
+    "Electronics",
+    "Home appliances",
+    "Torture"
    ]
   },
   {
@@ -144,32 +242,163 @@
    ],
    "senses": [
     {
-     "gloss": "to bake (to subject to high temperatures in an oven, on a grill etc., in order to produce or prepare a food to eat)"
+     "gloss": "to bake (to subject to high temperatures in an oven, on a grill etc., in order to produce or prepare a food to eat)",
+     "keywords": [
+      {
+       "text": "bake"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to bake (to heat strongly)"
+     "gloss": "to bake (to heat strongly)",
+     "keywords": [
+      {
+       "text": "bake"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "figuratively",
+      "of e.g. the sun"
+     ],
+     "relations": [
+      {
+       "term": "palić",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "prażyć",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "przypiekać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "przyskwarzać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "skwarzyć",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to burn (to cause pain combined with a sensation of heat)"
+     "gloss": "to burn (to cause pain combined with a sensation of heat)",
+     "keywords": [
+      {
+       "text": "burn"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "of e.g. one's eyes"
+     ],
+     "relations": [
+      {
+       "term": "palić",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to bother; to eat at; to worry"
+     "gloss": "to bother; to eat at; to worry",
+     "keywords": [
+      {
+       "text": "bother"
+      },
+      {
+       "text": "eat at"
+      },
+      {
+       "text": "worry"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "obsolete",
+      "figuratively"
+     ],
+     "relations": [
+      {
+       "term": "dokuczać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "doskwie­rać",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "gryźć",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niepokoić",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to burn (to torture with fire)"
+     "gloss": "to bake; to be baked (to be subjected to high temperatures in an oven or on a grill)",
+     "government": [
+      {
+       "description": "on what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "na"
+      },
+      {
+       "description": "in what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "bake"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to bake; to be baked (to be subjected to high temperatures in an oven or on a grill)"
-    },
-    {
-     "gloss": "to bake (to feel intense heat)"
-    },
-    {
-     "gloss": "to warm up"
-    },
-    {
-     "gloss": "to burn (to be tortured with fire)"
+     "gloss": "to bake (to feel intense heat)",
+     "government": [
+      {
+       "description": "in what",
+       "grammatical_case": "CASE_LOCATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "bake"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "skwarzyć się",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "smażyć się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Baking",
+    "Electronics",
+    "Home appliances",
+    "Torture"
    ]
   }
  ],

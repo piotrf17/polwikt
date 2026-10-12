@@ -87,34 +87,135 @@
    ],
    "senses": [
     {
-     "gloss": "brother (son of the same parents as another person)"
-    },
-    {
-     "gloss": "brother (male having at least one parent in common with another)"
-    },
-    {
-     "gloss": "brother (member of a men's religious order)"
-    },
-    {
-     "gloss": "brother (member of a fraternity, tribe, or brotherhood)",
-     "subsenses": [
+     "gloss": "brother (son of the same parents as another person)",
+     "keywords": [
       {
-       "gloss": "male assistant to a bridesmaid"
-      },
+       "text": "brother"
+      }
+     ],
+     "labels": [
+      "family"
+     ],
+     "relations": [
       {
-       "gloss": "brother (assistent to a reaper)"
+       "term": "siostra",
+       "type": "TYPE_COORDINATE"
       }
      ]
     },
     {
-     "gloss": "brother (male companion or friend, usually with the same interests, experience, views, etc.)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "przyrodni brat",
+       "translation": "half brother"
+      }
+     ],
+     "gloss": "brother (male having at least one parent in common with another)",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ],
+     "labels": [
+      "family"
+     ],
+     "relations": [
+      {
+       "term": "siostra",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
     },
     {
-     "gloss": "brother (fellow human being)"
+     "gloss": "brother (member of a men's religious order)",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ],
+     "relations": [
+      {
+       "term": "zakonnik",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "religion"
+     ]
     },
     {
-     "gloss": "brother endearing term of address for a male"
+     "gloss": "brother (member of a fraternity, tribe, or brotherhood)",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ],
+     "subsenses": [
+      {
+       "gloss": "male assistant to a bridesmaid",
+       "keywords": [
+        {
+         "text": "male"
+        },
+        {
+         "text": "assistant"
+        },
+        {
+         "text": "bridesmaid"
+        }
+       ],
+       "regions": [
+        "Suwałki",
+        "Augustów Governorate",
+        "Northern Borderlands",
+        "Lithuania"
+       ]
+      },
+      {
+       "gloss": "brother (assistent to a reaper)",
+       "keywords": [
+        {
+         "text": "brother"
+        }
+       ],
+       "regions": [
+        "Central Greater Poland",
+        "Mystki"
+       ]
+      }
+     ]
+    },
+    {
+     "gloss": "brother (male companion or friend, usually with the same interests, experience, views, etc.)",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ]
+    },
+    {
+     "gloss": "brother (fellow human being)",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ]
+    },
+    {
+     "gloss": "brother endearing term of address for a male",
+     "keywords": [
+      {
+       "text": "brother"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Male family members",
+    "Siblings",
+    "Male people",
+    "Marriage"
    ]
   }
  ],

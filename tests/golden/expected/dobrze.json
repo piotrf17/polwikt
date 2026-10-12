@@ -33,28 +33,116 @@
    ],
    "senses": [
     {
-     "gloss": "well (in a correct or proper manner)"
+     "gloss": "well (in a correct or proper manner)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "relations": [
+      {
+       "term": "niedobrze",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "źle",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (in a positive manner)"
+     "gloss": "well (in a positive manner)",
+     "government": [
+      {
+       "description": "for whom",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "relations": [
+      {
+       "term": "niedobrze",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "źle",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (in a manner that one might expect something positive)"
+     "gloss": "well (in a manner that one might expect something positive)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "relations": [
+      {
+       "term": "niedobrze",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "źle",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (in a kind, compassionate, or fair manner)"
+     "gloss": "well (in a kind, compassionate, or fair manner)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "relations": [
+      {
+       "term": "niedobrze",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "źle",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (in an approving manner)"
+     "gloss": "well (in an approving manner)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ],
+     "relations": [
+      {
+       "term": "niedobrze",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "źle",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (such that the suggested course of action would be the wisest)"
+     "gloss": "well (such that the suggested course of action would be the wisest)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ]
     },
     {
-     "gloss": "well (not sick)"
-    },
-    {
-     "gloss": "abundantly; profusely"
+     "gloss": "well (not sick)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ]
     }
    ]
   },
@@ -91,19 +179,88 @@
    ],
    "senses": [
     {
-     "gloss": "expresses agreement; alright"
+     "gloss": "expresses agreement; alright",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "alright"
+      }
+     ],
+     "relations": [
+      {
+       "term": "dobra",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "expresses a request; alright?"
+     "gloss": "expresses a request; alright?",
+     "keywords": [
+      {
+       "text": "alright"
+      }
+     ],
+     "relations": [
+      {
+       "term": "dobra",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "used to interrupt; alright"
+     "gloss": "used to interrupt; alright",
+     "keywords": [
+      {
+       "text": "alright"
+      }
+     ],
+     "labels": [
+      "repeated"
+     ],
+     "relations": [
+      {
+       "term": "dobra",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "well (to a significant degree)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "dobrze po północy",
+       "translation": "well after midnight"
+      }
+     ],
+     "gloss": "well (to a significant degree)",
+     "keywords": [
+      {
+       "text": "well"
+      }
+     ]
     },
     {
-     "gloss": "synonym of o mało"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Bije go i bije, dobrze nie zabije.",
+       "translation": "He's beating and beating him, and he'll nearly kill him."
+      }
+     ],
+     "form_of": {
+      "lemma": "o mało",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of o mało",
+     "regions": [
+      "Przemyśl",
+      "Podhale"
+     ]
     }
    ]
   },
@@ -140,7 +297,14 @@
    ],
    "senses": [
     {
-     "gloss": "synonym of dużo"
+     "form_of": {
+      "lemma": "dużo",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of dużo",
+     "regions": [
+      "Zagórze"
+     ]
     }
    ]
   },
@@ -178,6 +342,16 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "dobro",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_LOCATIVE",
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "locative singular of dobro"
     }
    ]

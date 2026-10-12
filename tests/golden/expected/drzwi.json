@@ -24,11 +24,27 @@
    ],
    "senses": [
     {
-     "gloss": "door (portal)"
+     "gloss": "door (portal)",
+     "keywords": [
+      {
+       "text": "door"
+      }
+     ]
     },
     {
-     "gloss": "door (means of approach or access)"
+     "gloss": "door (means of approach or access)",
+     "keywords": [
+      {
+       "text": "door"
+      }
+     ],
+     "labels": [
+      "figurative"
+     ]
     }
+   ],
+   "topics": [
+    "Architectural elements"
    ]
   }
  ],

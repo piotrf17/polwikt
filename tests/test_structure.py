@@ -2,19 +2,16 @@
 
 from __future__ import annotations
 
-import bz2
 from collections.abc import Iterator
 from pathlib import Path
 
 import pytest
 
 from polwikt.config import load_config
-from polwikt.dump.scan import scan
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.page import PageResult, Settings, extract_page, extract_record
 from polwikt.proto import polwikt_pb2 as pb
 from tests.golden_harness import fixtures
-from tests.test_scan import dump_xml
 
 REPO = Path(__file__).resolve().parent.parent
 SETTINGS = Settings.from_config(load_config(REPO))
@@ -22,13 +19,9 @@ FIX = fixtures()
 
 
 @pytest.fixture(scope="module")
-def wtp(tmp_path_factory: pytest.TempPathFactory) -> Iterator[PolwiktWtp]:
-    tmp = tmp_path_factory.mktemp("structure")
-    dump = tmp / "dump.xml.bz2"
-    dump.write_bytes(bz2.compress(dump_xml()))
-    db = tmp / "pages.sqlite"
-    scan(load_config(REPO), dump, db, dump_sha1="0" * 40)
-    w = PolwiktWtp(db)
+def wtp(golden_store: Path) -> Iterator[PolwiktWtp]:
+    # The snapshot carries the label and form-of data every page now needs (R6.7).
+    w = PolwiktWtp(golden_store)
     yield w
     w.close_db_conn()
 
@@ -115,8 +108,7 @@ def test_senses_nest(wtp: PolwiktWtp) -> None:  # R5.4
 
 
 def test_gloss_leaves_labels_to_their_own_field(wtp: PolwiktWtp) -> None:
-    # Canonical name: the synthetic store has no {{lb}} -> {{label}} redirect.
-    result = run(wtp, "===Noun===\n# {{label|pl|dated}} [[cat]] {{R:pl:PWN}}\n")
+    result = run(wtp, "===Noun===\n# {{lb|pl|dated}} [[cat]] {{R:pl:PWN}}\n")
     assert result.word is not None
     assert result.word.entries[0].senses[0].gloss == "cat"
 

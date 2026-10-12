@@ -9,7 +9,51 @@
    ],
    "senses": [
     {
-     "gloss": "computer (programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "komputer osobisty",
+       "translation": "personal computer"
+      }
+     ],
+     "gloss": "computer (programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media)",
+     "keywords": [
+      {
+       "text": "computer"
+      }
+     ],
+     "relations": [
+      {
+       "term": "komp",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "labels": [
+        "obsolete"
+       ],
+       "term": "mózg elektronowy",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "laptop",
+       "type": "TYPE_HYPONYM"
+      },
+      {
+       "term": "mikrokomputer",
+       "type": "TYPE_HYPONYM"
+      },
+      {
+       "term": "minikomputer",
+       "type": "TYPE_HYPONYM"
+      },
+      {
+       "term": "superkomputer",
+       "type": "TYPE_HYPONYM"
+      }
+     ],
+     "topics": [
+      "computing"
+     ]
     }
    ]
   }

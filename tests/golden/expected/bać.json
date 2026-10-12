@@ -51,22 +51,195 @@
    ],
    "senses": [
     {
-     "gloss": "to fear, to be afraid",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "synonym of bać się"
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się Boga",
+       "translation": "to fear God"
       },
       {
-       "gloss": "synonym of bać się"
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się ciemności",
+       "translation": "to be afraid of the dark"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się konkurencji",
+       "translation": "to be afraid of competition"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się konsekwencji",
+       "translation": "to be afraid of consequences"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się ośmieszenia",
+       "translation": "to be afraid of ridicule"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się podejmować decyzję",
+       "translation": "to be afraid to make a decision"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się przyszłości",
+       "translation": "to fear the future"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się śmierci",
+       "translation": "to be afraid of death"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się reformy",
+       "translation": "to be afraid of change"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się ryzyka",
+       "translation": "to be afraid of a risk"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Boję się tego egzaminu, bo prawie się do niego nie uczyłem.",
+       "translation": "I am afraid of this exam, because I haven't studied for it almost at all."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Rozalia Brzezińska, Czytanki drugie (1911)",
+       "text": "Żabeczka zielona po krzakach skakała,Wojtusia, bocianka, oj, bała się, bała! […]",
+       "translation": "The green frog was jumping around the bushes,Wojtuś, the little stork, oh, she was afraid, she was afraid! […]"
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Julia Fiedorczuk, Bliskie kraje (2016)",
+       "text": "Boi się, ciągle się boi, że zanim zacznie być żywa, wszystko się skończy.",
+       "translation": "She is afraid, she is always afraid, that before she starts to live, everything will end."
+      }
+     ],
+     "gloss": "to fear, to be afraid",
+     "government": [
+      {
+       "description": "of what",
+       "grammatical_case": "CASE_GENITIVE"
+      },
+      {
+       "description": "inf: to do what"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "fear"
+      },
+      {
+       "text": "be"
+      },
+      {
+       "text": "afraid"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "subsenses": [
+      {
+       "form_of": {
+        "lemma": "bać",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of bać się",
+       "labels": [
+        "intransitive"
+       ],
+       "regions": [
+        "Central Greater Poland",
+        "Kalisz",
+        "Western Lublin",
+        "Eastern Lublin",
+        "Lublin Voivodeship",
+        "Podlachia"
+       ]
+      },
+      {
+       "form_of": {
+        "lemma": "bać",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of bać się",
+       "labels": [
+        "transitive"
+       ],
+       "regions": [
+        "Podhale",
+        "Rabka-Zdrój"
+       ]
       }
      ]
     },
     {
-     "gloss": "to fear, to be afraid for, to worry about something"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "bać się o dzieci",
+       "translation": "to fear for the children"
+      }
+     ],
+     "gloss": "to fear, to be afraid for, to worry about something",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "fear"
+      },
+      {
+       "text": "be"
+      },
+      {
+       "text": "afraid"
+      },
+      {
+       "text": "worry"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to not doubt; to be sure"
+     "gloss": "to not doubt; to be sure",
+     "keywords": [
+      {
+       "text": "doubt"
+      },
+      {
+       "text": "sure"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "in the negative",
+      "ironic"
+     ],
+     "regions": [
+      "Central Greater Poland",
+      "Kórnik",
+      "Gądki",
+      "Suwałki",
+      "Northern Borderlands",
+      "Lithuania"
+     ]
     }
+   ],
+   "topics": [
+    "Fear"
    ]
   }
  ],

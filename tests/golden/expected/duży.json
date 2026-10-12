@@ -15,37 +15,148 @@
    ],
    "senses": [
     {
-     "gloss": "big, large (having a large physical size)"
-    },
-    {
-     "gloss": "capital"
-    },
-    {
-     "gloss": "significant, big; strong; much (of high intensity)"
-    },
-    {
-     "gloss": "big (grown, adult)"
-    },
-    {
-     "gloss": "significant, big; high (having considerable material value)"
-    },
-    {
-     "gloss": "significant, big, high (giving better-than-average profit)"
-    },
-    {
-     "gloss": "significant, big (of outstanding or extraordinary note)"
-    },
-    {
-     "gloss": "big (tall, well-built)",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "synonym of silny"
+       "kind": "KIND_EXAMPLE",
+       "text": "Ten pokój jest duży.",
+       "translation": "This room is big."
+      }
+     ],
+     "gloss": "big, large (having a large physical size)",
+     "keywords": [
+      {
+       "text": "big"
+      },
+      {
+       "text": "large"
       }
      ]
     },
     {
-     "gloss": "strong (capable of producing great physical force)"
+     "gloss": "capital",
+     "keywords": [
+      {
+       "text": "capital"
+      }
+     ],
+     "relations": [
+      {
+       "term": "wielki",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "mały",
+       "type": "TYPE_COORDINATE"
+      }
+     ],
+     "topics": [
+      "typography"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Masz duży kłopot.",
+       "translation": "You're in big trouble."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "He is a person with big knowledge.",
+       "text": "On jest człowiekiem z dużą wiedzą.",
+       "translation": "He is a person with a lot of knowledge"
+      }
+     ],
+     "gloss": "significant, big; strong; much (of high intensity)",
+     "keywords": [
+      {
+       "text": "significant"
+      },
+      {
+       "text": "big"
+      },
+      {
+       "text": "strong"
+      },
+      {
+       "text": "much"
+      }
+     ]
+    },
+    {
+     "gloss": "big (grown, adult)",
+     "keywords": [
+      {
+       "text": "big"
+      }
+     ]
+    },
+    {
+     "gloss": "significant, big; high (having considerable material value)",
+     "keywords": [
+      {
+       "text": "significant"
+      },
+      {
+       "text": "big"
+      },
+      {
+       "text": "high"
+      }
+     ]
+    },
+    {
+     "gloss": "significant, big, high (giving better-than-average profit)",
+     "keywords": [
+      {
+       "text": "significant"
+      },
+      {
+       "text": "big"
+      },
+      {
+       "text": "high"
+      }
+     ]
+    },
+    {
+     "gloss": "significant, big (of outstanding or extraordinary note)",
+     "keywords": [
+      {
+       "text": "significant"
+      },
+      {
+       "text": "big"
+      }
+     ]
+    },
+    {
+     "gloss": "big (tall, well-built)",
+     "keywords": [
+      {
+       "text": "big"
+      }
+     ],
+     "subsenses": [
+      {
+       "form_of": {
+        "lemma": "silny",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of silny",
+       "labels": [
+        "of a man"
+       ],
+       "regions": [
+        "Suwałki",
+        "Augustów Governorate"
+       ]
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Size"
    ]
   }
  ],

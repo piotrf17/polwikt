@@ -7,6 +7,10 @@ and alternative-forms sections among its children are shared by every entry insi
 nearest `Etymology` heading before it, numbered (`Etymology 2` around it) or not
 (`Etymology` as a preceding sibling). Entry subsections (`Declension`, `Usage notes`)
 belong to the entry they follow, as children or as siblings.
+
+Middle Polish cascade (R6.6a): a sense with a `drop_labels` label is dropped by the
+sense parser; an entry goes with a `{{tlb}}` drop label or when all its senses went;
+page.py drops the page when no entry is left. Every step is counted (R6.6c).
 """
 
 from __future__ import annotations
@@ -14,15 +18,18 @@ from __future__ import annotations
 import re
 from collections import Counter
 from dataclasses import dataclass, field
+from typing import Any
 
 from wikitextprocessor import NodeKind, WikiNode
 
 from polwikt.expand.policy import Action, Policy, canonical_name
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import pronunciations
+from polwikt.extract.sense import Indexes, SenseParser, positional, template_args
 from polwikt.parse.headings import Heading, HeadingMap, Kind
-from polwikt.parse.text import one_line, plain_text
+from polwikt.parse.text import plain_text
 from polwikt.proto import p3_pb2 as p3
 from polwikt.proto import polwikt_pb2 as pb
 
@@ -40,6 +47,8 @@ _NAMED_ARG = re.compile(r"^\s*([^=\n{}\[\]|]+?)\s*=(.*)$", re.DOTALL)
 _TABLE_SECTIONS = frozenset(
     {"Declension", "Declination", "Inflection", "Conjugation", "Conjugation/Declension"}
 )
+_USAGE_SECTIONS = frozenset({"Usage notes", "Usage", "Note", "Usage terms"})
+_TOPIC_TEMPLATES = frozenset({"topics"})  # {{C|pl|Cats}}, {{topics|pl|…}} (R6.10)
 
 
 @dataclass
@@ -65,12 +74,26 @@ class Walk:
     policy: Policy
     headings: HeadingMap
     drop_labels: frozenset[str]
+    index: Indexes
+    title: str = ""
     groups: list[Group] = field(default_factory=list)
     entries: list[EntryDraft] = field(default_factory=list)
     unknown: list[p3.UnknownSection] = field(default_factory=list)
     stats: Counter[str] = field(default_factory=Counter)
+    page_topics: list[str] = field(default_factory=list)  # {{C}} outside any entry
+    colabelled: list[str] = field(default_factory=list)  # R6.6c report
+    dropped_any: list[str] = field(default_factory=list)  # drop labels that fired
     _default_group: int | None = None
     _pron_cache: dict[int, list[pb.Pronunciation]] = field(default_factory=dict)
+    _parser: SenseParser | None = None
+
+    @property
+    def parser(self) -> SenseParser:
+        if self._parser is None:
+            self._parser = SenseParser(
+                self.wtp, self.policy, self.index, self.stats, canonical
+            )
+        return self._parser
 
     # -- containers ---------------------------------------------------------------
 
@@ -89,6 +112,7 @@ class Walk:
         ]
         scope = shared + local
         last: EntryDraft | None = None
+        last_dropped = False
         for child, head in zip(children, heads, strict=True):
             match head.kind:
                 case Kind.ETYMOLOGY:
@@ -101,13 +125,19 @@ class Walk:
                         last = None
                 case Kind.POS:
                     last = self._entry(child, head, scope, group)
+                    last_dropped = last is None
                 case Kind.POS_NOT_EMITTED:
                     self.stats[f"pos.not_emitted.{head.name}"] += 1
                     last = None
                 case Kind.ENTRY:
-                    self._entry_section(last, child, head)
+                    if last is None and last_dropped:  # its Declension, Usage notes…
+                        self.stats[f"dropped.section.{head.name}"] += 1
+                    else:
+                        self._entry_section(last, child, head)
                 case Kind.TRIVIA | Kind.IGNORED:
-                    pass  # Trivia's frequency is M6 (R6.13)
+                    # Trivia's frequency is M9 (R6.13). A {{C|pl|…}} here sits at the
+                    # foot of the page, after every entry: it is the page's.
+                    _extend_unique(self.page_topics, self._topics(child))
                 case Kind.UNKNOWN:
                     self._unknown(child, head)
 
@@ -158,11 +188,11 @@ class Walk:
 
     def _entry(
         self, node: WikiNode, head: Heading, shared: list[WikiNode], group: int | None
-    ) -> EntryDraft:
+    ) -> EntryDraft | None:
         draft = EntryDraft(pb.Entry(pos=f"POS_{head.pos}"), 0)
-        draft.group = self._group_for(group)
-        draft.entry.etymology = draft.group
         own_shared: list[WikiNode] = []
+        term_drop: list[str] = []
+        dropped_before = len(self.parser.dropped)
         for child in node.children:
             if not isinstance(child, WikiNode):
                 continue
@@ -170,9 +200,13 @@ class Walk:
                 name = canonical(self.wtp, child)
                 if self.policy.action(name) is Action.BOTH:
                     draft.calls.headword.append(template_call(self.wtp, child, name))
+                elif name == "term-label":
+                    term_drop += self._term_labels(draft.entry, child)
+                elif name in _TOPIC_TEMPLATES:
+                    _extend_unique(draft.entry.topics, self._topic_args(child))
             elif child.kind == NodeKind.LIST and child.sarg == "#":
                 for item in list_items(child):
-                    if (sense := self._sense(item)) is not None:
+                    if (sense := self.parser.parse(item)) is not None:
                         draft.entry.senses.append(sense)
             elif child.kind in LEVELS:
                 sub = self.headings.classify(heading_text(child))
@@ -182,12 +216,56 @@ class Walk:
                     self._entry_section(draft, child, sub)
                 elif sub.kind == Kind.UNKNOWN:
                     self._unknown(child, sub)
+        dropped = self.parser.dropped[dropped_before:]
+        self._count_dropped_senses(dropped)
+        if term_drop or (dropped and not draft.entry.senses):
+            labels = term_drop or sorted({lab for d in dropped for lab in d.labels})
+            for label in labels:
+                self.stats[f"dropped.entry.{label}"] += 1
+            self.dropped_any.extend(labels)
+            return None  # R6.6a: a Middle Polish entry, or one with nothing left
         for section in shared + own_shared:
             if self.headings.classify(heading_text(section)).kind is Kind.PRONUNCIATION:
                 draft.entry.pronunciations.extend(self._pronunciations(section))
+        draft.group = self._group_for(group)
+        draft.entry.etymology = draft.group
         self.stats[f"pos.{head.pos}"] += 1
         self.entries.append(draft)
         return draft
+
+    def _count_dropped_senses(self, dropped: list[Any]) -> None:
+        for d in dropped:
+            for label in d.labels:
+                self.stats[f"dropped.sense.{label}"] += d.senses
+                self.dropped_any.append(label)
+            if d.colabelled:
+                self.stats["dropped.sense.colabelled"] += 1
+                self.colabelled.append(self.title)
+
+    def _term_labels(self, entry: pb.Entry, node: WikiNode) -> list[str]:
+        """{{tlb|pl|…}} on the headword line: entry labels, or an entry drop (R6.6a)."""
+        values = positional(template_args(self.wtp, node))[1:]
+        labels = self.index.labels.parse_args(values, self.stats)
+        hits = sorted({lab.name for lab in labels} & self.index.drop)
+        for label in labels:
+            target = entry.topics if label.kind is LabelKind.TOPIC else entry.labels
+            _extend_unique(target, [label.name])
+        return hits
+
+    def _topics(self, node: WikiNode) -> list[str]:
+        found: list[str] = []
+        for child in node.children:
+            if isinstance(child, WikiNode) and child.kind == NodeKind.TEMPLATE:
+                if canonical(self.wtp, child) in _TOPIC_TEMPLATES:
+                    _extend_unique(found, self._topic_args(child))
+            elif isinstance(child, WikiNode) and child.kind in LEVELS:
+                _extend_unique(found, self._topics(child))
+        return found
+
+    def _topic_args(self, node: WikiNode) -> list[str]:
+        return [
+            plain_text(v) for v in positional(template_args(self.wtp, node))[1:] if v
+        ]
 
     def _entry_section(
         self, draft: EntryDraft | None, node: WikiNode, head: Heading
@@ -195,6 +273,17 @@ class Walk:
         if draft is None:
             self.stats[f"section.orphan.{head.name}"] += 1
             return
+        _extend_unique(draft.entry.topics, self._topics(node))
+        if head.name in _USAGE_SECTIONS:
+            body = "".join(
+                self.wtp.node_to_wikitext(c)
+                for c in node.children
+                if not (isinstance(c, WikiNode) and c.kind in LEVELS)
+            )
+            text = plain_text(expand_text(self.wtp, body).text)
+            if text:
+                notes = draft.entry.usage_notes
+                draft.entry.usage_notes = f"{notes}\n{text}" if notes else text
         if head.name in _TABLE_SECTIONS:
             for child in node.children:
                 if isinstance(child, WikiNode) and child.kind == NodeKind.TEMPLATE:
@@ -212,35 +301,11 @@ class Walk:
             )
         return self._pron_cache[key]  # RepeatedField.extend copies each message
 
-    # -- senses -------------------------------------------------------------------
 
-    def _sense(self, item: WikiNode) -> pb.Sense | None:
-        parts: list[str] = []
-        sub_items: list[WikiNode] = []
-        for child in item.children:
-            if isinstance(child, WikiNode) and child.kind == NodeKind.LIST:
-                if re.fullmatch(r"#+", child.sarg) and len(child.sarg) > len(item.sarg):
-                    sub_items.extend(list_items(child))
-                continue  # #: examples and #* quotations are M6 (R6.9)
-            if (
-                isinstance(child, WikiNode)
-                and child.kind == NodeKind.TEMPLATE
-                and not self.policy.in_gloss(canonical(self.wtp, child))
-            ):
-                continue
-            parts.append(
-                child if isinstance(child, str) else self.wtp.node_to_wikitext(child)
-            )
-        expanded = expand_text(self.wtp, "".join(parts)).text
-        sense = pb.Sense(gloss=one_line(plain_text(expanded)))
-        for sub in sub_items:
-            if (child_sense := self._sense(sub)) is not None:
-                sense.subsenses.append(child_sense)
-        if not sense.gloss and not sense.subsenses:
-            self.stats["sense.empty"] += 1
-            return None
-        self.stats["senses" if len(item.sarg) == 1 else "subsenses"] += 1
-        return sense
+def _extend_unique(target: Any, values: list[str]) -> None:
+    for value in values:
+        if value and value not in target:
+            target.append(value)
 
 
 def list_items(node: WikiNode) -> list[WikiNode]:

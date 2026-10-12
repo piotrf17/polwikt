@@ -9,63 +9,365 @@
    ],
    "senses": [
     {
-     "gloss": "to have"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mam kota.",
+       "translation": "I have a cat."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "I have [it] far to school.",
+       "text": "Mam daleko do szkoły.",
+       "translation": "It's a long way to school for me."
+      }
+     ],
+     "gloss": "to have",
+     "keywords": [
+      {
+       "text": "have"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to be some age"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "I have 22 years.",
+       "text": "Mam 22 lata.",
+       "translation": "I am 22 years old."
+      }
+     ],
+     "gloss": "to be some age",
+     "keywords": [
+      {
+       "text": "be"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "used as a semantically weak verb with some nouns"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mam bzika na ich punkcie.",
+       "translation": "I'm crazy about them."
+      }
+     ],
+     "gloss": "used as a semantically weak verb with some nouns",
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to have, to have sex with"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Chyba nigdy chłopa nie miała.",
+       "translation": "She probably never had a man."
+      }
+     ],
+     "gloss": "to have, to have sex with",
+     "keywords": [
+      {
+       "text": "have"
+      },
+      {
+       "text": "sex"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to consider someone as something"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Miałem Cię za przyjaciela.",
+       "translation": "I considered you my friend."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "You consider yourself better?",
+       "text": "Masz się za lepszego?",
+       "translation": "You think you are better?"
+      }
+     ],
+     "gloss": "to consider someone as something",
+     "government": [
+      {
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "za"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "consider"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to have (e.g. to have something (that is) cooked)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "Mam cały wieczór zaplanowany.",
+       "translation": "I have the whole evening planned."
+      }
+     ],
+     "gloss": "to have (e.g. to have something (that is) cooked)",
+     "keywords": [
+      {
+       "text": "have"
+      }
+     ],
+     "labels": [
+      "with the passive participle"
+     ]
     },
     {
-     "gloss": "expresses obligation; to be supposed to, must, to have to, to need to; should, shall"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mamy iść na zakupy.",
+       "translation": "We're supposed to go shopping."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czy mam zaparzyć herbatę?",
+       "translation": "Should/Shall I brew some tea?"
+      }
+     ],
+     "gloss": "expresses obligation; to be supposed to, must, to have to, to need to; should, shall",
+     "keywords": [
+      {
+       "text": "supposed to"
+      },
+      {
+       "text": "must"
+      },
+      {
+       "text": "have to"
+      },
+      {
+       "text": "need"
+      },
+      {
+       "text": "should"
+      },
+      {
+       "text": "shall"
+      }
+     ],
+     "labels": [
+      "auxiliary",
+      "intransitive"
+     ]
     },
     {
-     "gloss": "creates a future in the past; would, was going to"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "Ten chłopiec miał w przyszłości zostać wielkim naukowcem.",
+       "translation": "This boy would in the future become a great scientist."
+      }
+     ],
+     "gloss": "creates a future in the past; would, was going to",
+     "keywords": [
+      {
+       "text": "would"
+      },
+      {
+       "text": "going to"
+      }
+     ],
+     "labels": [
+      "auxiliary",
+      "formal",
+      "in the past"
+     ]
     },
     {
-     "gloss": "denotes that something might not have happened despite earlier beliefs; to be supposed to, must, to have to, to need to"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "System informatyczny miał obsługiwać klientów.",
+       "translation": "The IT system was supposed to serve customers"
+      }
+     ],
+     "gloss": "denotes that something might not have happened despite earlier beliefs; to be supposed to, must, to have to, to need to",
+     "keywords": [
+      {
+       "text": "supposed to"
+      },
+      {
+       "text": "must"
+      },
+      {
+       "text": "have to"
+      },
+      {
+       "text": "need"
+      }
+     ],
+     "labels": [
+      "auxiliary",
+      "intransitive",
+      "in the past",
+      "evidential"
+     ]
     },
     {
-     "gloss": "denotes uncertain, unverified information; allegedly, supposedly"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Mężczyzna miał wykrzykiwać obraźliwe hasła.",
+       "translation": "The man was allegedly shouting obscenities."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Paweł Jasienica, Polska Piastów (1966)",
+       "text": "Zapisana przez Galla legenda głosi, że Piasto był chłopem i mieszkał na podgrodziu. Polanie, zrażeni okrucieństwami poprzedniego władcy ― Popiela ― mieli zrzucić go z tronu i obrać na księcia Ziemowita.",
+       "translation": "The legend recorded by Gallus says that Piast was a peasant who lived in a podgrodzie. The Polans, disgusted by the cruelties of the previous ruler, Popiel, supposedly deposed him and elected Ziemowit duke."
+      }
+     ],
+     "gloss": "denotes uncertain, unverified information; allegedly, supposedly",
+     "keywords": [
+      {
+       "text": "allegedly"
+      },
+      {
+       "text": "supposedly"
+      }
+     ],
+     "labels": [
+      "auxiliary",
+      "intransitive",
+      "in the past",
+      "evidential"
+     ]
     },
     {
-     "gloss": "to feel something"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Miałem do niego żal o to.",
+       "translation": "I resented him for that."
+      }
+     ],
+     "gloss": "to feel something",
+     "keywords": [
+      {
+       "text": "feel"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "to fare (to be in any state, or pass through any experience, good or bad)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jak się masz?",
+       "translation": "How are you?"
+      }
+     ],
+     "gloss": "to fare (to be in any state, or pass through any experience, good or bad)",
+     "keywords": [
+      {
+       "text": "fare"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to appear, to bode"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Dzień miał się ku końcowi.",
+       "translation": "The day was coming to an end."
+      }
+     ],
+     "gloss": "to appear, to bode",
+     "government": [
+      {
+       "grammatical_case": "CASE_DATIVE",
+       "preposition": "ku"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "appear"
+      },
+      {
+       "text": "bode"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to be in relation to something"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jak to się ma do tematu?",
+       "translation": "How is this related to the subject?"
+      }
+     ],
+     "gloss": "to be in relation to something",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "relation"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
     },
     {
-     "gloss": "to head somewhere"
-    },
-    {
-     "gloss": "to behave"
-    },
-    {
-     "gloss": "to address, to turn towards"
-    },
-    {
-     "gloss": "to function"
-    },
-    {
-     "gloss": "to be had"
+     "gloss": "to head somewhere",
+     "government": [
+      {
+       "grammatical_case": "CASE_DATIVE",
+       "preposition": "ku"
+      },
+      {
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "head"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "obsolete"
+     ]
     }
-   ]
+   ],
+   "usage_notes": "* While the passive participle miany is attested and used in passive constructions, this is generally rare. Impersonal constructions using się are usually preferred for a similar use."
   },
   {
    "etymology": 1,
@@ -77,6 +379,17 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "mieść",
+      "tag_sets": [
+       {
+        "mood": "MOOD_IMPERATIVE",
+        "number": "NUMBER_SINGULAR",
+        "person": "PERSON_SECOND"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "second-person singular imperative of mieść"
     }
    ]

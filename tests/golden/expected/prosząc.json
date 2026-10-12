@@ -9,6 +9,15 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "prosić",
+      "tag_sets": [
+       {
+        "verb_form": "VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "contemporary adverbial participle of prosić"
     }
    ]

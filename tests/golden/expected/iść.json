@@ -63,60 +63,342 @@
    ],
    "senses": [
     {
-     "gloss": "to go; to walk"
+     "gloss": "to go; to walk",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "walk"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of people or animals"
+     ]
     },
     {
-     "gloss": "to go, to attend"
+     "gloss": "to go, to attend",
+     "government": [
+      {
+       "description": "what",
+       "grammatical_case": "CASE_GENITIVE",
+       "preposition": "do"
+      },
+      {
+       "description": "what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "attend"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "to go after, to follow (to imitate in one's actions or thoughts)"
+     "gloss": "to go after, to follow (to imitate in one's actions or thoughts)",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "follow"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "to go, to move"
+     "gloss": "to go, to move",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "move"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of vehicles"
+     ]
     },
     {
-     "gloss": "to go (to move from sender to receiver)"
+     "gloss": "to go (to move from sender to receiver)",
+     "keywords": [
+      {
+       "text": "go"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of letters",
+      "packages"
+     ]
     },
     {
-     "gloss": "to go; to spread"
+     "gloss": "to go; to spread",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "spread"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of smells",
+      "etc."
+     ]
     },
     {
-     "gloss": "to go, to lead (to connect two points in space)"
+     "gloss": "to go, to lead (to connect two points in space)",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "lead"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of lines",
+      "etc."
+     ],
+     "topics": [
+      "road transport"
+     ]
     },
     {
-     "gloss": "to go; to be published; to be shown"
+     "gloss": "to go; to be published; to be shown",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "publish"
+      },
+      {
+       "text": "show"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of media"
+     ]
     },
     {
-     "gloss": "to go (to take place in particular manner)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Wszystko idzie zgodnie z planem.",
+       "translation": "Everything is going according to plan."
+      }
+     ],
+     "gloss": "to go (to take place in particular manner)",
+     "keywords": [
+      {
+       "text": "go"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of events"
+     ]
     },
     {
-     "gloss": "to come along (to not cause difficulties for someone)"
+     "gloss": "to come along (to not cause difficulties for someone)",
+     "government": [
+      {
+       "description": "for whom",
+       "grammatical_case": "CASE_DATIVE"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "come along"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to run (to operate as normal)"
+     "gloss": "to run (to operate as normal)",
+     "keywords": [
+      {
+       "text": "run"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of machines",
+      "devices",
+      "etc."
+     ]
     },
     {
-     "gloss": "to go to (to be for a particular goal)"
+     "gloss": "to go to (to be for a particular goal)",
+     "government": [
+      {
+       "description": "to what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to go; to be taken (to take place in a particular order)"
+     "gloss": "to go; to be taken (to take place in a particular order)",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "take"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "proscribed"
+     ]
     },
     {
-     "gloss": "to count, to number in (to measure a certain amount)"
+     "gloss": "to count, to number in (to measure a certain amount)",
+     "government": [
+      {
+       "description": "in the what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "w"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "count"
+      },
+      {
+       "text": "number"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ],
+     "relations": [
+      {
+       "labels": [
+        "prescribed"
+       ],
+       "term": "liczyć",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to go for (to decide on something in a given situation)"
+     "gloss": "to go for (to decide on something in a given situation)",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "go for"
+      }
+     ],
+     "labels": [
+      "intransitive"
+     ]
     },
     {
-     "gloss": "to sell like hot cakes"
+     "gloss": "to sell like hot cakes",
+     "keywords": [
+      {
+       "text": "sell like hot cakes"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to mean, to be on about; to have in mind"
+     "gloss": "to mean, to be on about; to have in mind",
+     "government": [
+      {
+       "description": "who, i.e. the subject of the English sentence",
+       "grammatical_case": "CASE_DATIVE"
+      },
+      {
+       "description": "(about) who or what/what in mind",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "o"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "mean"
+      },
+      {
+       "text": "be on about"
+      },
+      {
+       "text": "have in mind"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "impersonal"
+     ],
+     "relations": [
+      {
+       "term": "chodzić",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "rozchodzić się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "to go, to leave"
+     "gloss": "to go, to leave",
+     "keywords": [
+      {
+       "text": "go"
+      },
+      {
+       "text": "leave"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "reflexive-sobie"
+     ]
     }
-   ]
+   ],
+   "usage_notes": "* The imperfective verb iść with corresponding perfective pójść is a unidirectional verb. Its multidirectional counterpart is chodzić."
   },
   {
    "pos": "POS_VERB",
@@ -181,13 +463,58 @@
    ],
    "senses": [
     {
-     "gloss": "to head for (to draw near to some event)"
+     "gloss": "to head for (to draw near to some event)",
+     "government": [
+      {
+       "description": "for what",
+       "grammatical_case": "CASE_ACCUSATIVE",
+       "preposition": "na"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "head"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of events"
+     ]
     },
     {
-     "gloss": "to be possible"
+     "gloss": "to be possible",
+     "government": [
+      {
+       "description": "inf: to do what"
+      },
+      {
+       "description": "with whom",
+       "grammatical_case": "CASE_INSTRUMENTAL",
+       "preposition": "z"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "possible"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "impersonal",
+      "colloquial"
+     ]
     },
     {
-     "gloss": "to fly by"
+     "gloss": "to fly by",
+     "keywords": [
+      {
+       "text": "fly by"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "of time"
+     ]
     }
    ]
   }

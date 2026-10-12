@@ -9,20 +9,83 @@
    ],
    "senses": [
     {
-     "gloss": "bed (piece of furniture, usually flat and soft, on which to rest or sleep)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "łóżko polowe",
+       "translation": "camp bed/cot"
+      }
+     ],
+     "gloss": "bed (piece of furniture, usually flat and soft, on which to rest or sleep)",
+     "keywords": [
+      {
+       "text": "bed"
+      }
+     ],
+     "relations": [
+      {
+       "term": "wyro",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     },
     {
-     "gloss": "bed (place for a customer or client to lay down)"
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "łóżko opalające",
+       "translation": "sun tanning bed"
+      }
+     ],
+     "gloss": "bed (place for a customer or client to lay down)",
+     "keywords": [
+      {
+       "text": "bed"
+      }
+     ]
     },
     {
-     "gloss": "bed (place for one person in a hospital or hotel)"
+     "gloss": "bed (place for one person in a hospital or hotel)",
+     "keywords": [
+      {
+       "text": "bed"
+      }
+     ],
+     "labels": [
+      "administrative"
+     ]
     },
     {
-     "gloss": "bed (sexual activity)"
-    },
-    {
-     "gloss": "placenta"
+     "gloss": "bed (sexual activity)",
+     "keywords": [
+      {
+       "text": "bed"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "figurative"
+     ],
+     "relations": [
+      {
+       "term": "pożycie",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "seks",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "stosunek",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
+   ],
+   "topics": [
+    "Furniture",
+    "Sleep",
+    "Sex"
    ]
   }
  ],

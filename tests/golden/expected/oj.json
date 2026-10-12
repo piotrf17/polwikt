@@ -9,7 +9,26 @@
    ],
    "senses": [
     {
-     "gloss": "oops"
+     "examples": [
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Rozalia Brzezińska, Czytanki drugie (1911)",
+       "text": "Żabeczka zielona po krzakach skakała,Wojtusia, bocianka, oj, bała się, bała! […]",
+       "translation": "The green frog was jumping around the bushes,Wojtuś, the little stork, oh, she was afraid, she was afraid! […]"
+      }
+     ],
+     "gloss": "oops",
+     "keywords": [
+      {
+       "text": "oops"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ojej",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
     }
    ]
   }

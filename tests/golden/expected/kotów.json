@@ -9,6 +9,16 @@
    ],
    "senses": [
     {
+     "form_of": {
+      "lemma": "kot",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_GENITIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
      "gloss": "genitive plural of kot"
     }
    ]

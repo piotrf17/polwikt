@@ -51,32 +51,224 @@
    ],
    "senses": [
     {
-     "gloss": "to want (to wish for or desire)",
-     "subsenses": [
+     "examples": [
       {
-       "gloss": "to want (to wish to take as a spouse)"
+       "kind": "KIND_EXAMPLE",
+       "text": "Chciałbym zjeść spaghetti.",
+       "translation": "I would like to eat spaghetti."
+      }
+     ],
+     "gloss": "to want (to wish for or desire)",
+     "government": [
+      {
+       "description": "something",
+       "grammatical_case": "CASE_ACCUSATIVE"
       },
       {
-       "gloss": "to want (to be in heat)"
+       "description": "something",
+       "grammatical_case": "CASE_GENITIVE"
+      },
+      {
+       "description": "inf: to do something"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "want"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "subsenses": [
+      {
+       "gloss": "to want (to wish to take as a spouse)",
+       "keywords": [
+        {
+         "text": "want"
+        }
+       ],
+       "labels": [
+        "transitive"
+       ],
+       "regions": [
+        "Ostróda",
+        "Near Masovian",
+        "Łukowiec",
+        "Western Kraków",
+        "Lasovia",
+        "Bilcza"
+       ]
+      },
+      {
+       "gloss": "to want (to be in heat)",
+       "government": [
+        {
+         "description": "for what stallion",
+         "grammatical_case": "CASE_GENITIVE",
+         "preposition": "do"
+        }
+       ],
+       "keywords": [
+        {
+         "text": "want"
+        }
+       ],
+       "labels": [
+        "intransitive",
+        "of a mare"
+       ],
+       "regions": [
+        "Eastern Kraków",
+        "Skalbmierz"
+       ]
       }
      ]
     },
     {
-     "gloss": "used in polite commands; to want"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Chcę, żebyś zjadł spaghetti.",
+       "translation": "I want you to eat spaghetti."
+      }
+     ],
+     "gloss": "used in polite commands; to want",
+     "government": [
+      {
+       "description": ":żeby: to do what"
+      },
+      {
+       "description": ":aby: to do what"
+      },
+      {
+       "description": "past-cl: to do what",
+       "preposition": "by"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "want"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
     },
     {
-     "gloss": "to be able to, can"
+     "gloss": "to be able to, can",
+     "keywords": [
+      {
+       "text": "be able to"
+      },
+      {
+       "text": "can"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "of objects",
+      "usually negated"
+     ]
     },
     {
-     "gloss": "synonym of mieć (“going to; supposed to”)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jak me zarzno, to ty chcij ze mnie flaki cyścić.",
+       "translation": "If they slaughter me, then you're going to clean out my guts."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Woda całe miasto chciała zalać.",
+       "translation": "Water was going to flood the whole city,"
+      }
+     ],
+     "form_of": {
+      "lemma": "mieć",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of mieć (“going to; supposed to”)",
+     "government": [
+      {
+       "description": "inf: to do something"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "regions": [
+      "Far Masovian",
+      "Przasnysz",
+      "Western Kraków"
+     ]
     },
     {
-     "gloss": "to feel like, to want (to have a desire for something, or to do something)"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Chce mi się pobiegać.",
+       "translation": "I feel like running for a bit."
+      }
+     ],
+     "gloss": "to feel like, to want (to have a desire for something, or to do something)",
+     "government": [
+      {
+       "description": "inf"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "feel like"
+      },
+      {
+       "text": "want"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "impersonal"
+     ]
     },
     {
-     "gloss": "used to indicate when someone is experiencing a specific condition of their body that is associated with an action indicated by the subordinate verb; to want"
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "No one felt like sleeping.",
+       "text": "Nikomu nie chciało się spać.",
+       "translation": "No one was tired."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "I feel like eating.",
+       "text": "Chce mi się jeść.",
+       "translation": "Im hungry."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "I feel like drinking.",
+       "text": "Chce mi się pić.",
+       "translation": "Im thirsty."
+      }
+     ],
+     "gloss": "used to indicate when someone is experiencing a specific condition of their body that is associated with an action indicated by the subordinate verb; to want",
+     "government": [
+      {
+       "description": "inf"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "want"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "impersonal"
+     ]
     }
-   ]
+   ],
+   "usage_notes": "The use of accusative or genitive is somewhat conditioned; accusative may be used when referring to concrete nouns in their entirety, e.g. chcieć bułkę (“to want a (whole) bun”), and genitive may be used either for abstract nouns or as a partitive, e.g. chcieć pomocy (“to want help”) or partitive chcieć bułki (“to want (some of a) bun”)."
   }
  ],
  "etymologies": [

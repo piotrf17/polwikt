@@ -9,10 +9,29 @@
    ],
    "senses": [
     {
-     "gloss": "interrogative pronoun, referring to a number of choices; what, which one"
+     "gloss": "interrogative pronoun, referring to a number of choices; what, which one",
+     "keywords": [
+      {
+       "text": "what"
+      },
+      {
+       "text": "which"
+      }
+     ]
     },
     {
-     "gloss": "relative pronoun; that, who, which"
+     "gloss": "relative pronoun; that, who, which",
+     "keywords": [
+      {
+       "text": "that"
+      },
+      {
+       "text": "who"
+      },
+      {
+       "text": "which"
+      }
+     ]
     }
    ]
   }

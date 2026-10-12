@@ -12,6 +12,9 @@ On top of `wikitextprocessor.Wtp` this adds:
   Transcluding one renders empty, counted.
 - **A lookup recorder**: every page lookup, and which rows answered it, so the golden
   snapshot can hold exactly what expansion touched (R3.8a, R8.1a).
+- **Virtual modules**: Lua source registered in Python (`virtual_modules`) and served
+  to `{{#invoke:}}` without touching the store, for reading Wiktionary's data modules
+  inside a real frame (expand/lua_data.py).
 - **Strict snapshot mode**: opened on a snapshot store, a lookup the snapshot did not
   record is listed in `stale_lookups` — the snapshot needs regenerating.
 """
@@ -58,6 +61,9 @@ class PolwiktWtp(Wtp):
         self.found_titles: set[tuple[str, int]] = set()
         self.stale_lookups: set[LookupKey] = set()
         self.title_only_reads: set[str] = set()
+        self.virtual_modules: dict[str, str] = {}
+        # Per-worker caches of what extraction derives from Wiktionary data (labels).
+        self.extract_cache: dict[str, Any] = {}
         self._snapshot_lookups = _snapshot_lookups(self.db_conn)
         self._title_cache: dict[LookupKey, Page | None] = {}
 
@@ -87,6 +93,8 @@ class PolwiktWtp(Wtp):
         return page
 
     def get_page_body(self, title: str, namespace_id: int | None) -> str | None:
+        if (virtual := self.virtual_modules.get(title)) is not None:
+            return virtual
         page = self.get_page_resolve_redirect(title, namespace_id)
         if page is not None and page.model == TITLE_ONLY:
             # Raising instead (the first design) turned a missing link in an etymology
