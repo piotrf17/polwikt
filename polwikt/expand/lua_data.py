@@ -71,4 +71,15 @@ def load_modules(wtp: PolwiktWtp, modules: list[str]) -> dict[str, dict[str, Any
     for name, value in data.items():
         if "__error" in value:
             raise LuaDataError(f"{name}: {value['__error']}")
-    return data
+    return {name: _tables(value) for name, value in data.items()}
+
+
+def _tables(value: Any) -> Any:
+    """jsonEncode writes an empty table as `[]`; every exported table is keyed by
+    strings, so an array can only be an empty one (labels["by extension"] is `{}` once
+    Module:labels/data has moved its aliases out)."""
+    if isinstance(value, list):
+        return {}
+    if isinstance(value, dict):
+        return {k: _tables(v) for k, v in value.items()}
+    return value

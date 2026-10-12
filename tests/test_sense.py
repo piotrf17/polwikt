@@ -9,7 +9,7 @@ import pytest
 
 from polwikt.config import load_config
 from polwikt.expand.wtp import PolwiktWtp
-from polwikt.extract.labels import split_on_comma
+from polwikt.extract.labels import LabelIndex, split_on_comma
 from polwikt.extract.page import PageResult, Settings, extract_record
 from polwikt.proto import polwikt_pb2 as pb
 from tests.golden_harness import fixtures
@@ -64,6 +64,14 @@ def test_label_commas_follow_module_labels(written: str, labels: list[str]) -> N
 def test_aliases_resolve_through_wiktionary_data(wtp: PolwiktWtp) -> None:
     sense = first_sense(run(wtp, "# {{lb|pl|idiom}} x\n"))
     assert list(sense.labels) == ["idiomatic"]
+
+
+def test_labels_whose_data_is_only_aliases_are_known(wtp: PolwiktWtp) -> None:
+    # labels["by extension"] = {aliases = {"hence"}} is an empty table once the module
+    # moves the aliases out, which jsonEncode writes as [].
+    index = LabelIndex(wtp)
+    assert index.classify("by extension").recognized
+    assert index.classify("hence") == index.classify("by extension")
 
 
 def test_keywords_come_from_gloss_links_only(wtp: PolwiktWtp) -> None:  # R6.14
@@ -220,6 +228,13 @@ def test_dobry_loses_its_middle_polish(wtp: PolwiktWtp) -> None:
         for sense in entry.senses:
             assert "Middle Polish" not in [*sense.labels, *sense.regions]
         assert all("Middle Polish" not in p.labels for p in entry.pronunciations)
+
+
+def test_a_dropped_pronunciation_alone_touches_the_page(wtp: PolwiktWtp) -> None:
+    # mieć's only Middle Polish is its mp= line: the R6.6a magnitude check counts it.
+    result = golden(wtp, "mieć")
+    assert result.stats["dropped.pronunciation.Middle Polish"] >= 1
+    assert result.stats["pages.touched_by_drop"] == 1
 
 
 @pytest.mark.parametrize("title", ["kradźba", "barzo"])

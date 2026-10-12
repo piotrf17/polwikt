@@ -706,7 +706,8 @@ operational consequences that are *not* optional:
   0.04 s / 0.10 s; peak RSS 147 MB. That is ~3.2 h at `--jobs 2`. The provisional
   2 h was optimistic. *Re-measured at M5 with the real policy* (first 3,000 pages
   by id, `--jobs 2`): **18.2 pages/s, ~2.7 h projected**, 282 MB peak per worker.
-  The first full P3 run is at the end of M6, when it also sets the R8.4 baseline. P3
+  *First full run at M6:* **176,750 pages in 2.4 h (20.6 pages/s), 628 MB peak per
+  worker**, 0 page errors. P3
   must not regress this by more than 10%. `--pages` / `--limit` runs finish in seconds; the full run is not
   part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the

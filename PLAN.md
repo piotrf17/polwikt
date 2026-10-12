@@ -211,8 +211,18 @@ shared page-level pronunciation is copied into each of its entries (R5.5).
 
 ---
 
-## M6 — Senses in detail
-*Needs M5. ~1 week.*
+## M6 — Senses in detail ✅
+*Needs M5. ~1 week.* *Done 2026-10-12.* First full P3 run (code at `e6ffc89`):
+176,750 pages in 8,563 s (20.6 pages/s, 2.4 h) at `--jobs 2`, 628 MB peak worker RSS,
+0 page errors, 3 Lua errors (malformed source args), 176,382 records with 199,663
+entries and 254,080 senses; 107 unhandled templates (384 uses), most of them rarer
+form-of templates (`misspelling of`, `archaic form of`, `participle of`, …: ~90 uses).
+The run found three bugs, fixed afterwards: labels split on prose commas
+(`e6f1415`), `{{tcl}}` glosses with no keyword (`ce3a8f1`), and label data that is
+only aliases (`by extension`) read as unknown, because `jsonEncode` writes an empty
+table as `[]`. `pages.touched_by_drop` (1,428) also missed pages whose only Middle
+Polish is an `mp=` line; the store has 4,430 pages carrying some Middle Polish marker.
+Its `stats.json` is therefore not the R8.4 baseline: the next full run is.
 
 - Labels → canonical label-name strings, aliases resolved through Wiktionary's label
   data modules, and split by the kind that data assigns into `labels` / `regions` /

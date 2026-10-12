@@ -80,8 +80,9 @@ def extract_record(
             walk.container(node, [], None)
     stats.update(walk.stats)
     record.unknown_sections.extend(walk.unknown)
-    if walk.dropped_any:
-        stats["pages.touched_by_drop"] += 1  # R6.6a magnitude check
+    drops = [n for k, n in walk.stats.items() if k.startswith("dropped.")]
+    if walk.dropped_any or any(drops):
+        stats["pages.touched_by_drop"] += 1  # R6.6a magnitude check: mp= lines too
     if not walk.entries:
         if walk.dropped_any:
             for label in sorted(set(walk.dropped_any)):
