@@ -109,6 +109,12 @@ def language_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
     return re.compile(rf"^==[ \t]*(?:{names})[ \t]*==[ \t]*$", re.MULTILINE)
 
 
+def any_heading_re(languages: tuple[str, ...]) -> re.Pattern[str]:
+    """A heading line of any level naming one of `languages`: near-miss detection."""
+    names = "|".join(re.escape(lang) for lang in languages)
+    return re.compile(rf"^=+[ \t]*(?:{names})[ \t]*=+.*$", re.MULTILINE)
+
+
 def predicate(cfg: Config) -> dict[str, Any]:
     """Everything that decides what P1 keeps; its hash invalidates a stale store."""
     return {
@@ -252,7 +258,8 @@ def _build(cfg: Config, dump: Path, part: Path) -> ScanCounters:
 
 def _fill(cfg: Config, dump: Path, wtp: Wtp) -> ScanCounters:
     heading = language_heading_re(cfg.languages)
-    # A cheap substring test before the regex; the near-miss check below reuses it.
+    near = any_heading_re(cfg.languages)
+    # A cheap substring test before the regexes.
     needles = tuple(f"={lang}" for lang in cfg.languages) + tuple(
         f"= {lang}" for lang in cfg.languages
     )
@@ -283,7 +290,7 @@ def _fill(cfg: Config, dump: Path, wtp: Wtp) -> ScanCounters:
         for n, page in enumerate(iter_pages(stream), 1):
             counters.read[page.ns] += 1
             titles.append((page.page_id, page.ns, page.title, page.redirect_to))
-            if _keep(page, namespaces, heading, needles, counters):
+            if _keep(page, namespaces, heading, near, needles, counters):
                 wtp.add_page(
                     page.title,
                     page.ns,
@@ -326,6 +333,7 @@ def _keep(
     page: RawPage,
     namespaces: frozenset[int],
     heading: re.Pattern[str],
+    near: re.Pattern[str],
     needles: tuple[str, ...],
     counters: ScanCounters,
 ) -> bool:
@@ -335,9 +343,10 @@ def _keep(
             return False
         if heading.search(page.text):
             return True
-        # "==Polish" somewhere but no L2 heading line: an L3+ heading, a trailing
-        # comment, or a predicate bug. Kept out, but listed so it can be audited (R3.5).
-        counters.near_misses.append(page.title)
+        # A Polish heading line, but not an L2 one: an L3 typo, a trailing comment, or a
+        # predicate bug. Kept out, but listed with the line so it can be audited (R3.5).
+        if m := near.search(page.text):
+            counters.near_misses.append(f"{page.title}\t{m.group(0)}")
         return False
     if page.ns not in namespaces:
         return False

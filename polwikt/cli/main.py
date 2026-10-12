@@ -30,6 +30,7 @@ def cli(verbose: bool) -> None:
     logging.basicConfig(
         level=logging.DEBUG if verbose else logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+        force=True,  # wikitextprocessor calls basicConfig at import time
     )
 
 

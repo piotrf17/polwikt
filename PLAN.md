@@ -72,8 +72,14 @@ additive-only after. Review it against what an app needs *before* M5 writes extr
 
 ---
 
-## M2 — Dump acquisition and P1 scan
-*2–3 days of work, plus ~1 h wall clock per scan.*
+## M2 — Dump acquisition and P1 scan ✅
+*Done 2026-10-11.* `polwikt fetch` (5 min at ~5 MB/s) and `polwikt scan`: **12 min**
+wall clock (R9.1 ≤ 60), no process above 75 MB RSS, **176,750** ns-0 pages kept of
+9,245,875, 0 near misses, store **1.47 GB** → P2 stays deferred. A rerun hashes the dump
+(7 s) and skips. Template 54,508 / Module 60,099 / Reconstruction 51,960 / Appendix
+31,886 / Thesaurus 6,642 pages. Full counts in REQUIREMENTS R3.2; the three main Polish
+Lua templates (`pl-pr`, `pl-noun`, `pl-decl-noun-*`) were checked to expand from the
+store with no errors.
 
 - `polwikt fetch`: download the pinned recombined file
   (`enwiktionary-20261001-pages-articles.xml.bz2`, 1.65 GB, sha1 `f9ed426c…`) with a
@@ -89,7 +95,9 @@ additive-only after. Review it against what an app needs *before* M5 writes extr
   plus our side tables `page_meta`, `all_titles`, `scan_meta` (R3.1, R3.2a). ns-0 kept
   **only** on a `==Polish==` heading line (R3.2); R2.2 namespaces unfiltered (R3.3);
   everything else title-only; redirects recorded (R2.3).
-- Resumability + predicate fingerprint (R3.4); read/kept counters (R3.5).
+- Resumability + predicate fingerprint (R3.4); read/kept counters (R3.5). An
+  interrupted scan restarts from scratch (`.part` discarded): resuming mid-stream would
+  still decompress and parse everything before the cut, so it saves nothing.
 - `TMPDIR`/`SQLITE_TMPDIR` inside the project share — `/` has 6.8 GB (§9).
 
 **Exit:** `pages.sqlite` built from the pinned dump; kept ns-0 count lands in
@@ -128,6 +136,12 @@ dump.
   `parse`, Lua via lupa, per-page time limit.
 - Hermeticity (R4.5): stub upstream's **live Wikidata HTTP** entry points
   (`mw.wikibase.*` and label/description lookups) and count every hit; no other network.
+  Supply the `interwiki_maps` table P1 doesn't create (upstream fills it from the live
+  API) — a committed snapshot or empty, decided on what the golden set needs.
+- Decide on `need_pre_expand`: P1 stores every page with it unset, since upstream's
+  `analyze_templates` needs a template-classifying callback (wiktextract supplies one).
+  Templates that emit headings or list markup must be pre-expanded before parsing, or
+  section walking breaks. Either port the check (license-checked) or derive it.
 - Existence via `all_titles`; `getContent()` on a pruned ns-0 page raises a counted
   error rather than upstream's silent nil (R3.2a).
 - Touched-page recorder (R3.8a) → `tools/golden.py --snapshot` builds the committed

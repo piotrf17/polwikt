@@ -145,7 +145,7 @@ def test_counters_and_near_misses(store: Path) -> None:  # R3.5
     assert counters["read"]["0"] == 5
     assert counters["kept"]["0"] == 2
     assert counters["skipped"] == {"model:sanitized-css": 1, "subpage": 2}
-    assert json.loads(meta["near_misses"]) == ["ptak"]
+    assert json.loads(meta["near_misses"]) == ["ptak\t===Polish==="]
     assert meta["dump_sha1"] == SHA1
     assert meta["pinned"] == "false"
 

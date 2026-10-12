@@ -177,7 +177,12 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
 - Expected magnitudes (sanity checks, not hard contracts): page ids in the 20261001 dump
   run to ~12.2M. On 2026-10-11 `Category:Polish lemmas` held ~101k pages and
   `Category:Polish non-lemma forms` ~80k, so P1 should keep **~1.5–2×10^5** ns-0 pages
-  (some pages are in both). Template and Module counts are measured at M2, not guessed.
+  (some pages are in both).
+  - **Measured at M2** (20261001): 11.08M pages read, of which 9,245,875 in ns 0; kept
+    **176,750** ns-0 pages (1.91%), 54,508 Template (of 74,588), 60,099 Module (of
+    63,154), 51,960 Reconstruction, 31,886 Appendix, 6,642 Thesaurus. Skipped and
+    counted: 22,966 `/documentation`/`/testcases` subpages, 171 css/text-model pages.
+    Zero near misses: no page has a Polish heading at any level but L2.
 
 ### P2 — Template / module closure (DEFERRED)
 
@@ -309,6 +314,11 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     queries to wikidata.org**. Those entry points must be stubbed out by the expansion
     layer; each call is counted (`stats.json`) and returns the "no data" answer, so a
     module that depends on Wikidata degrades visibly instead of reaching the network.
+  - The **interwiki map** is the other network dependency: upstream's `process_dump`
+    fills an `interwiki_maps` table from the live siteinfo API, and `{{fullurl:}}` /
+    `mw.site.interwikiMap` read it. P1 doesn't call that, so the table is absent from
+    our store; M4 supplies it from a committed snapshot or an empty table, never the
+    API.
 - **R4.6** Every template name encountered and *not* handled by a rule must be counted in
   `unhandled.jsonl` with an example page. This list drives the work backlog.
 
@@ -616,6 +626,7 @@ operational consequences that are *not* optional:
 
 - **R9.1** P1 (full dump scan) target: ≤ 60 min on this box (`lbzcat` uses both cores
   for decompression; the XML parse is the single-threaded part). It runs once per dump.
+  *Measured at M2: 12 min; no process above 75 MB RSS.*
 - **R9.2** P3 (extraction over all ~1.8×10^5 Polish pages) target: **≤ 2 h at
   `--jobs 2`**, provisional — it is reset from the throughput M4 measures
   (pages/sec/worker), and the measured number replaces this one. Most pages are short
@@ -629,8 +640,9 @@ operational consequences that are *not* optional:
 - **R9.5** Disk budget documented (dump + page store + subset + output). Target total
   ≤ 60 GB, to fit the 63 GB available on the project share. The pinned dump itself is
   ~1.65 GB compressed (`enwiktionary-20261001-pages-articles.xml.bz2`), and R2.4 forbids
-  ever holding it decompressed on disk. `pages.sqlite` stores bodies uncompressed (R3.1);
-  its real size is measured at M2.
+  ever holding it decompressed on disk. `pages.sqlite` stores bodies uncompressed (R3.1):
+  *measured at M2*, **1.47 GB** (0.76 GB of page text, the rest `all_titles` and
+  indexes).
 
 ---
 
@@ -652,7 +664,8 @@ operational consequences that are *not* optional:
     appear in the package's install requirements. `make` wraps the uv commands.
 - **R10.3** CLI shape:
   ```
-  polwikt scan     --dump enwiktionary-*.xml.bz2 --db pages.sqlite
+  polwikt fetch                         # the pinned dump, sha1-verified
+  polwikt scan     [--dump …] [--db …]  # defaults: the pin, data/pages.sqlite
   polwikt extract  --db pages.sqlite --out out/ --jobs 2 [--limit N] [--pages …]
   polwikt finalize --in out/ --out polwikt.pb.zst
   polwikt inspect  <title>            # human-readable dump of one entry
@@ -724,7 +737,8 @@ Kept here as the record of what was decided and why.
    runtime, so a static closure needs a fallback to the full store anyway; and
    `--pages`/`--limit` already give the fast loop. P3 reads `pages.sqlite` directly, and
    expansion records what it touches (R3.8a). P2 returns only if M2 measures the store too
-   big for page cache.
+   big for page cache. *M2 measured 1.47 GB against ~4 GB of page cache: P2 stays
+   deferred.*
 7. ~~Where do golden fixtures and their template/module dependencies come from?~~
    **Decided: a snapshot of the pinned dump** (R8.1, R8.1a). Fixture pages plus exactly
    the templates/modules their expansion touched, committed as one compressed store and

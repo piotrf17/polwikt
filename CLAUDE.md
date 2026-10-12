@@ -42,15 +42,16 @@ Every target is `uv run --locked …`, so `make` and CI run identical commands.
 ### Running the pipeline
 
 ```bash
-export TMPDIR=$PWD/data/tmp SQLITE_TMPDIR=$PWD/data/tmp   # `/` has only ~6.8 GB free
-polwikt scan     --dump data/enwiktionary-<pinned>-pages-articles.xml.bz2 --db data/pages.sqlite
+export TMPDIR=$PWD/data/tmp SQLITE_TMPDIR=$PWD/data/tmp   # `/` has only ~6 GB free
+polwikt fetch                      # the pinned dump -> data/, sha1-verified
+polwikt scan                       # -> data/pages.sqlite (~12 min; skipped when current)
 polwikt extract  --db data/pages.sqlite --out data/out/ --jobs 2
 polwikt finalize --in data/out/ --out data/polwikt.pb.zst
 polwikt inspect <title>            # one entry, expanded wikitext + node tree + proto
 polwikt extract --pages kot,mamy,zamek   # the fast debug loop; seconds, not minutes
 ```
 
-`scan` is the hour-long pass and runs once per dump; **never re-run it to test an
+`scan` is the slow pass (~12 min) and runs once per dump; **never re-run it to test an
 extraction change** — iterate on `pages.sqlite` with `--pages` / `--limit`. There is no
 `subset` pass: P2 is deferred (REQUIREMENTS §3, decision 6) and its command is a stub.
 
