@@ -1,6 +1,9 @@
 {
  "entries": [
   {
+   "adjective": {
+    "not_comparable": true
+   },
    "pos": "POS_ADVERB",
    "pronunciations": [
     {

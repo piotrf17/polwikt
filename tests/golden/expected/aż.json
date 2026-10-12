@@ -1,0 +1,272 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "ażem",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "ażeśmy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "ażeś",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "ażeście",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "aż",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "aż",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    }
+   ],
+   "pos": "POS_CONJUNCTION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈaʂ/"
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Dokuczał mi, aż zacząłem płakać.",
+       "translation": "He bullied me until I started crying."
+      }
+     ],
+     "gloss": "until",
+     "keywords": [
+      {
+       "text": "until"
+      }
+     ],
+     "relations": [
+      {
+       "term": "póki nie, dopóki nie",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "voila; soon, shortly; suddenly",
+     "keywords": [
+      {
+       "text": "voila"
+      },
+      {
+       "text": "soon"
+      },
+      {
+       "text": "shortly"
+      },
+      {
+       "text": "suddenly"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_COMBINED_FORMS",
+     "title": "Combined forms of aż"
+    }
+   ],
+   "usage_notes": "Combined forms for this word are uncommon and often formed for stylization."
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈaʂ/"
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Central Greater Poland"
+     ]
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Ostróda"
+     ]
+    },
+    {
+     "ipa": "[ˈaʂ]",
+     "labels": [
+      "Western Kraków"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "aż tak, że",
+       "translation": "to the point that"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Oj, nie narzekaj, nie jest aż tak źle.",
+       "translation": "Oh, don't complain, it's not that bad."
+      }
+     ],
+     "gloss": "that much, so, so much so; emphasizes the scale of a quality",
+     "keywords": [
+      {
+       "text": "that"
+      },
+      {
+       "text": "so"
+      },
+      {
+       "text": "so much so"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "On zarabiał aż 3000 dolarów w zeszłym miesiącu.",
+       "translation": "He earned as much as 3000 dollars last month."
+      }
+     ],
+     "gloss": "as many as, as much as; emphasizes the amount",
+     "keywords": [
+      {
+       "text": "so many"
+      },
+      {
+       "text": "so much"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "On dał radę pójść aż tam?",
+       "translation": "He managed to go all the way there?"
+      }
+     ],
+     "gloss": "all the way; emphasizes the distance",
+     "keywords": [
+      {
+       "text": "all the way"
+      }
+     ]
+    },
+    {
+     "gloss": "voila; soon, shortly; suddenly",
+     "keywords": [
+      {
+       "text": "voila"
+      },
+      {
+       "text": "soon"
+      },
+      {
+       "text": "shortly"
+      },
+      {
+       "text": "suddenly"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    },
+    {
+     "gloss": "let, may; in order to",
+     "keywords": [
+      {
+       "text": "let"
+      },
+      {
+       "text": "may"
+      },
+      {
+       "text": "in order to"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    },
+    {
+     "gloss": "than",
+     "keywords": [
+      {
+       "text": "than"
+      }
+     ],
+     "labels": [
+      "obsolete",
+      "comparative"
+     ],
+     "relations": [
+      {
+       "term": "niż",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish aż."
+  }
+ ],
+ "lemma": "aż"
+}

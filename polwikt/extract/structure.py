@@ -25,6 +25,13 @@ from wikitextprocessor import NodeKind, WikiNode
 from polwikt.expand.policy import Action, Policy, canonical_name
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.headword import (
+    NOUN_TEMPLATES,
+    comparison,
+    comparison_templates,
+    noun_info,
+)
+from polwikt.extract.inflection import TableParser, drop_label, table_kind
 from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import pronunciations
 from polwikt.extract.sense import Indexes, SenseParser, positional, template_args
@@ -86,6 +93,7 @@ class Walk:
     _default_group: int | None = None
     _pron_cache: dict[int, list[pb.Pronunciation]] = field(default_factory=dict)
     _parser: SenseParser | None = None
+    _tables: TableParser | None = None
 
     @property
     def parser(self) -> SenseParser:
@@ -94,6 +102,14 @@ class Walk:
                 self.wtp, self.policy, self.index, self.stats, canonical
             )
         return self._parser
+
+    @property
+    def table_parser(self) -> TableParser:
+        if self._tables is None:
+            self._tables = TableParser(
+                self.wtp, self.index.labels, self.index.drop, self.stats
+            )
+        return self._tables
 
     # -- containers ---------------------------------------------------------------
 
@@ -198,8 +214,12 @@ class Walk:
                 continue
             if child.kind == NodeKind.TEMPLATE:
                 name = canonical(self.wtp, child)
-                if self.policy.action(name) is Action.BOTH:
+                action = self.policy.action(name)
+                if action is Action.BOTH:
                     draft.calls.headword.append(template_call(self.wtp, child, name))
+                    self._headword(draft, child, name)
+                elif action is Action.EXPAND:  # a table straight under the POS
+                    self._table(draft, child, name)
                 elif name == "term-label":
                     term_drop += self._term_labels(draft.entry, child)
                 elif name in _TOPIC_TEMPLATES:
@@ -289,9 +309,54 @@ class Walk:
                 if isinstance(child, WikiNode) and child.kind == NodeKind.TEMPLATE:
                     name = canonical(self.wtp, child)
                     if self.policy.action(name) is Action.EXPAND:
-                        draft.calls.inflection.append(
-                            template_call(self.wtp, child, name)
-                        )
+                        self._table(draft, child, name)
+
+    # -- grammar --------------------------------------------------------------------
+
+    def _headword(self, draft: EntryDraft, node: WikiNode, name: str) -> None:
+        """Genders and comparison from the headword call's arguments (R6.1, R6.3)."""
+        entry = draft.entry
+        if name in NOUN_TEMPLATES and not entry.HasField("noun"):
+            entry.noun.CopyFrom(noun_info(template_args(self.wtp, node), self.stats))
+        elif name in comparison_templates() and not entry.HasField("adjective"):
+            found = comparison(
+                self.title,
+                template_args(self.wtp, node),
+                self.index.labels,
+                self.index.drop,
+                self.stats,
+            )
+            entry.adjective.CopyFrom(found.info)
+            if found.forms:
+                self._add_table(entry, found.table(), found.forms)
+
+    def _table(self, draft: EntryDraft, node: WikiNode, name: str) -> None:
+        """One table template: its raw call (R4.2.1), then its parsed paradigm."""
+        draft.calls.inflection.append(template_call(self.wtp, node, name))
+        if label := drop_label(name):
+            self.stats[f"dropped.table.{label}"] += 1  # R6.6a, never expanded
+            return
+        if table_kind(name) == "conjugation":
+            self.stats["table.deferred.conjugation"] += 1  # M8
+            return
+        paradigm = self.table_parser.parse(name, node)
+        entry = draft.entry
+        for table, forms in paradigm.tables:
+            self._add_table(entry, table, forms)
+        if entry.pos in (pb.Pos.POS_NOUN, pb.Pos.POS_PROPER_NOUN):
+            if paradigm.plurale_tantum:
+                entry.noun.plurale_tantum = True
+            if paradigm.singulare_tantum:
+                entry.noun.singulare_tantum = True
+
+    @staticmethod
+    def _add_table(
+        entry: pb.Entry, table: pb.InflectionTable, forms: list[pb.Form]
+    ) -> None:
+        for form in forms:
+            form.table = len(entry.tables)
+        entry.tables.append(table)
+        entry.forms.extend(forms)
 
     def _pronunciations(self, section: WikiNode) -> list[pb.Pronunciation]:
         key = id(section)  # a page-level section is shared: expand it once

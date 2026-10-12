@@ -231,9 +231,13 @@ class InflectionTable(_message.Message):
         KIND_UNSPECIFIED: _ClassVar[InflectionTable.Kind]
         KIND_DECLENSION: _ClassVar[InflectionTable.Kind]
         KIND_CONJUGATION: _ClassVar[InflectionTable.Kind]
+        KIND_COMPARISON: _ClassVar[InflectionTable.Kind]
+        KIND_COMBINED_FORMS: _ClassVar[InflectionTable.Kind]
     KIND_UNSPECIFIED: InflectionTable.Kind
     KIND_DECLENSION: InflectionTable.Kind
     KIND_CONJUGATION: InflectionTable.Kind
+    KIND_COMPARISON: InflectionTable.Kind
+    KIND_COMBINED_FORMS: InflectionTable.Kind
     KIND_FIELD_NUMBER: _ClassVar[int]
     TITLE_FIELD_NUMBER: _ClassVar[int]
     IRREGULAR_FIELD_NUMBER: _ClassVar[int]
@@ -428,6 +432,14 @@ class GenderAnimacy(_message.Message):
     animacy: Animacy
     def __init__(self, gender: _Optional[_Union[Gender, str]] = ..., animacy: _Optional[_Union[Animacy, str]] = ...) -> None: ...
 
+class AdjectiveInfo(_message.Message):
+    __slots__ = ("not_comparable", "indeclinable")
+    NOT_COMPARABLE_FIELD_NUMBER: _ClassVar[int]
+    INDECLINABLE_FIELD_NUMBER: _ClassVar[int]
+    not_comparable: bool
+    indeclinable: bool
+    def __init__(self, not_comparable: _Optional[bool] = ..., indeclinable: _Optional[bool] = ...) -> None: ...
+
 class VerbInfo(_message.Message):
     __slots__ = ("aspect",)
     ASPECT_FIELD_NUMBER: _ClassVar[int]
@@ -435,7 +447,7 @@ class VerbInfo(_message.Message):
     def __init__(self, aspect: _Optional[_Union[Aspect, str]] = ...) -> None: ...
 
 class Entry(_message.Message):
-    __slots__ = ("pos", "etymology", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb")
+    __slots__ = ("pos", "etymology", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb", "adjective")
     POS_FIELD_NUMBER: _ClassVar[int]
     ETYMOLOGY_FIELD_NUMBER: _ClassVar[int]
     SENSES_FIELD_NUMBER: _ClassVar[int]
@@ -451,6 +463,7 @@ class Entry(_message.Message):
     TOPICS_FIELD_NUMBER: _ClassVar[int]
     NOUN_FIELD_NUMBER: _ClassVar[int]
     VERB_FIELD_NUMBER: _ClassVar[int]
+    ADJECTIVE_FIELD_NUMBER: _ClassVar[int]
     pos: Pos
     etymology: int
     senses: _containers.RepeatedCompositeFieldContainer[Sense]
@@ -466,7 +479,8 @@ class Entry(_message.Message):
     topics: _containers.RepeatedScalarFieldContainer[str]
     noun: NounInfo
     verb: VerbInfo
-    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., etymology: _Optional[int] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., tables: _Optional[_Iterable[_Union[InflectionTable, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ...) -> None: ...
+    adjective: AdjectiveInfo
+    def __init__(self, pos: _Optional[_Union[Pos, str]] = ..., etymology: _Optional[int] = ..., senses: _Optional[_Iterable[_Union[Sense, _Mapping]]] = ..., forms: _Optional[_Iterable[_Union[Form, _Mapping]]] = ..., tables: _Optional[_Iterable[_Union[InflectionTable, _Mapping]]] = ..., pronunciations: _Optional[_Iterable[_Union[Pronunciation, _Mapping]]] = ..., audio: _Optional[_Iterable[_Union[Audio, _Mapping]]] = ..., syllabification: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ..., relations: _Optional[_Iterable[_Union[Relation, _Mapping]]] = ..., examples: _Optional[_Iterable[_Union[Example, _Mapping]]] = ..., usage_notes: _Optional[str] = ..., topics: _Optional[_Iterable[str]] = ..., noun: _Optional[_Union[NounInfo, _Mapping]] = ..., verb: _Optional[_Union[VerbInfo, _Mapping]] = ..., adjective: _Optional[_Union[AdjectiveInfo, _Mapping]] = ...) -> None: ...
 
 class Etymology(_message.Message):
     __slots__ = ("text",)

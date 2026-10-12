@@ -1,0 +1,99 @@
+# Inflection tables and headword grammar (R6.1, R6.3, R6.4, R7.8).
+#
+# A table cell's tags are its row headers (left) plus its column headers (above), each
+# header text mapped here onto Wiktionary's canonical tag names (data/tags.toml types
+# them). Text is matched lowercased with spaces collapsed; "a/b" is one form per
+# alternative ("nominative/vocative"). A header not listed becomes a raw tag and is
+# counted (table.header.unknown.<text>).
+
+[headers]
+"" = []
+"nominative" = ["nominative"]
+"genitive" = ["genitive"]
+"dative" = ["dative"]
+"accusative" = ["accusative"]
+"instrumental" = ["instrumental"]
+"locative" = ["locative"]
+"vocative" = ["vocative"]
+"singular" = ["singular"]
+"plural" = ["plural"]
+"masculine" = ["masculine"]
+"feminine" = ["feminine"]
+"neuter" = ["neuter"]
+"animate" = ["animate"]
+"inanimate" = ["inanimate"]
+"masculine animate" = ["masculine", "animate"]
+"masculine inanimate" = ["masculine", "inanimate"]
+"masculine personal" = ["masculine", "personal"]
+# Animate or inanimate: no Animacy value says that, so it stays a raw tag.
+"masculine nonpersonal" = ["masculine", "nonpersonal"]
+"singular and plural" = []  # się: the same forms for either number
+"virile" = ["virile"]
+"virile (= masculine personal)" = ["virile"]
+"nonvirile" = ["nonvirile"]
+"non-virile" = ["nonvirile"]
+"other" = ["nonvirile"]  # numerals: "virile" vs "other"
+"1st person" = ["first-person"]
+"2nd person" = ["second-person"]
+"3rd person" = ["third-person"]
+# {{pl-decl-pronoun}}: m/f/n are its singular columns, against "vir pl"/"nvir pl".
+# {{pl-decl-generic}}: surnames.
+"m" = ["masculine", "singular"]
+"f" = ["feminine", "singular"]
+"n" = ["neuter", "singular"]
+"vir pl" = ["virile", "plural"]
+"nvir pl" = ["nonvirile", "plural"]
+"npers pl" = ["nonvirile", "plural"]  # non-personal plural
+"masculine singular" = ["masculine", "singular"]
+"feminine singular" = ["feminine", "singular"]
+"masc plural" = ["masculine", "plural"]
+
+# Which kind of table a template makes (canonical name, then the longest prefix);
+# anything else in a table section is a declension.
+[kinds]
+names = { "pl-decl-combined-forms" = "combined_forms", "pl-decl-combined-forms-e" = "combined_forms" }
+prefixes = { "pl-conj-" = "conjugation" }
+
+# Paradigms the article marks irregular: by template, or by the category the
+# expansion adds ("Polish irregular adjectives").
+[irregular]
+templates = ["pl-decl-noun-irreg"]
+category = "Polish irregular "
+
+# Tables not output, by template prefix, and the label they are counted under
+# (dropped.table.<label>): Middle Polish (R6.6a) and Standard Kurpian, a separate
+# regional standard whose paradigms would read as Polish ones.
+[drop]
+"pl-mid-decl-" = "Middle Polish"
+"pl-skur-decl-" = "Kurpian"
+"pl-skur-conj-" = "Kurpian"
+
+# Number agreement the expansion's categories state.
+[tantum]
+plurale = "Polish pluralia tantum"
+singulare = "Polish singularia tantum"
+
+# {{pl-noun}} / {{pl-proper noun}} gender specs: "m-pr", "nv-p", "m-anml,m-in", "m-an!".
+# Parts are split on "-"; "p" marks a plurale tantum, a trailing "!" an animacy the
+# source leaves unattested.
+[headword.genders]
+"m" = "masculine"
+"f" = "feminine"
+"n" = "neuter"
+"nv" = "nonvirile"
+"vr" = "virile"
+[headword.animacy]
+"pr" = "personal"
+"anml" = "animate"
+"an" = "animate"
+"in" = "inanimate"
+
+# {{pl-adj}} / {{pl-adv}} comparison, as Module:zlw-lch-headword builds it: "peri" is
+# the periphrastic comparative, and a missing superlative is `sup` + the comparative.
+[headword.comparison]
+templates = ["pl-adj", "pl-adv"]
+periphrastic = "bardziej"
+superlative = "naj"
+title = "Comparison"
+# Arguments for forms that are not output, with the label they are counted under.
+dropped_args = { "mpcomp" = "Middle Polish", "mpsup" = "Middle Polish" }

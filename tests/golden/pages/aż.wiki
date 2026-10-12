@@ -1,0 +1,176 @@
+{{also|Appendix:Variations of "az"}}
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|aże|haże|jaż}}
+
+===Etymology===
+{{etymon|zlw-opl|:inh|sla-pro:*aže|etydate=first half of the 14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Conjunction===
+{{head|zlw-opl|conjunction}}
+
+# {{lb|zlw-opl|attested in|Greater Poland|Masovia}} {{ng|connects clauses}}; [[that]]
+#* {{RQ:zlw-opl:HubeZb|116|1401|Wøczsla[w]ow synowecz dal policzek I[a]cuboui parobku, '''as''' sø crwa oblal|Więcsła[w]ow synowiec dał policzek J[a]kubowu parobku, '''aż''' się krwią oblał|-}}
+#* {{RQ:zlw-opl:KsMaz|I|1458|1410|Yacom ya ymal s Potrkem liczbø, '''aze''' ne mal na mø o sszethm cop zalowacz|Jakom ja imiał z Piotrkiem liczbę, '''aże''' nie miał na mię o siedm kop żałować|-}}
+#* {{RQ:zlw-opl:Zab|209|1423|Pop[r]ossimi Mariey mathki yego, '''asz''' nam ghot[o]wa v ssina swego vprossicz daru ducha swenthego|Pop[r]osimy Maryjej matki jego, '''aż''' nam got[o]wa u syna swego uprosić daru Ducha Świętego|-}}
+#* {{RQ:zlw-opl:ZapWarsz|1118|1461|Jako ja tho vyem, '''haze''' Pyotr Stanislavem sgednan|Jako ja to wiem, '''haże''' Piotr z Stanisławem sjednan|-}}
+#* {{RQ:zlw-opl:Kałużn|283|End of the 15th century|A gdy szye masczisny zwadzą a ud[z]erzy geden drugego kamyenyem..., tako '''asz''' nye vmrze, ale asz lązą (leg. lęże) w lozv (et ille mortuus non fuerit, sed iacuerit in lectulo Ex 21, 18)|A gdy sie mężczyźni zwadzą a ud[z]erzy jeden drugiego kamieniem..., tako '''aż''' nie umrze, ale aż lęże w łożu (et ille mortuus non fuerit, sed iacuerit in lectulo Ex 21, 18)|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} [[until]]
+#* {{RQ:zlw-opl:Leksz|II|1300|1399|Quousque jus fiet inter ipsos vlg. '''asz''' prawo przebeszy|Quousque ius fiet inter ipsos vlg. '''aż''' prawo przebieży|-}}
+#* {{RQ:zlw-opl:BZ|Judith|6, 4|Nye odetchnyesz, '''az''' s nymy y zgynyesz (donec extermineris)|Nie odetchniesz, '''aż''' s nimi i zginiesz (donec extermineris)|-}}
+#* {{RQ:zlw-opl:BZ|Gen|33, 14|Yacz poydø z nyenagla..., '''aze''' (donec) przydø do Seyr|Jać pojdę znienagła..., '''aże''' (donec) przydę do Seir|-}}
+# {{lb|zlw-opl|attested in|}} [[as soon as]], at the [[moment]] when; [[immediately]] [[after]]
+#* {{RQ:zlw-opl:Rozm|32|Jedno ją wziął, '''aż''' natychmiast ona ista sucha laska puściła odrośli|Jedno ją wziął, '''aż''' natychmiast ona ista sucha laska puściła odrośli|-}}
+
+===Particle===
+{{head|zlw-opl|particle}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[up to]], [[as far as]]
+#* {{RQ:zlw-opl:Fl|18, 7|Od wirzchnego neba wiszce iego, i potkane iego '''asz''' do wirzcha (usque ad summum)|Od wirzchniego nieba wyszcie jego, i potkanie jego '''aż''' do wirzcha (usque ad summum)|-}}
+#* {{RQ:zlw-opl:Fl|48, 20|Wszedl '''asz''' (usque) do pocolena oczczow swogich y asz (usque) na weky ne vzrzy swecze|Wszedł '''aż''' (usque) do pokolenia oćcow swojich i aż (usque) na wieki nie uźrzy świece|-}}
+#* {{RQ:zlw-opl:Fl|70, 18|'''Asz''' nine (usque nunc) przepowadacz bødø dzywi twoie|'''Aż''' ninie (czy nynie, usque nunc) przepowiadać będę dziwy twoje|-}}
+#* {{RQ:zlw-opl:Fl|13, 2|Ne iest, kto bi vczinil dobrego, ne iest '''asz''' do iednego (non est usque ad unum)|Nie jest, kto by uczynił dobrego, nie jest '''aż''' do jednego (non est usque ad unum)|-}}
+#* {{RQ:zlw-opl:StPPP|VIII|6621|1398|Tey niwe Albertus ne bil nigdiy gospodarz po wcupenu asz do tich mayst (pro myast)|Tej niwie Albertus nie był nigdy gospodarz po ukupieniu aż dotichmiast|-}}
+#* {{RQ:zlw-opl:Gn|2b|Tho giste veszele ku dlugosczy gest cy ono bilo velike, przes to iscy szø gest ono od fchodu sluncza '''asz''' do szapadu bilo rosczøglo|To jiste wiesiele ku długości jestci ono było wielikie, przezto iżci się jest ono od wchodu słuńca '''aż''' do zapadu było rozciągło|-}}
+#* {{RQ:zlw-opl:Gn|181b|Od srothnocy '''asze''' do balego dna gest cy gim on bil kaszal|Od środnocy '''aże''' do białego dnia jestci jim on był kazał|-}}
+#* {{RQ:zlw-opl:BZ|Neh|3, 16|Po nyem dzalal Neemyas..., ksyøszø pol stroni vlyce Betsur, a przecyw grobu Dauidowu, '''az''' do ribnyka (et usque ad piscinam)..., a ez do domu mocznich|Po niem działał Neemijasz..., książę poł strony ulice Betsur, a przeciw grobu Dawidowu, a '''aż''' do rybnika (et usque ad piscinam)..., a eż do domu mocnych|-}}
+#* {{RQ:zlw-opl:BZ|I Par|16, 3|Rozdzelyl wszem po wszitkich ot møsza '''az''' (usque) do nyewyasti|Rozdzielił wszem po wszytkich ot męża '''aż''' (usque) do niewiasty|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} {{def-uncertain|zlw-opl|nohypothesis=1}}
+#* {{RQ:zlw-opl:Kśw|cr 31|Deuicha Maria '''az''' pelusek dobrih... ne ymala, a togo dla gy ue zle hustky ogar[nęła]|Dziewica Maryja '''aż''' pieluszek dobrych... nie imiała, a togodla ji we złe chustki ogar[nęła]|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=conjunctions|ażby|ażci|ażciby}}
+
+====Descendants====
+* {{desc|pl|aż|alts=1}}
+* {{desc|szl|aż|alts=1}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SPJSP|aż(e), haże, jaż|133}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|:inh|zlw-opl:aż|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Olaf-#.wav|hh=-arz,-aż|mp=#|krk=#|CGP=#|ost=#}}
+
+===Conjunction===
+{{head|pl|conjunction}}
+
+# [[until]]
+#: {{syn|pl|[[póki|póki nie]], [[dopóki|dopóki nie]]}}
+#: {{uxi|pl|Dokuczał mi, '''aż''' zacząłem płakać.|He bullied me '''until''' I started crying.}}
+# {{lb|pl|obsolete}} [[voila]]; [[soon]], [[shortly]]; [[suddenly]]
+# {{lb|pl|Middle Polish}} [[only]]; [[scarcely]]; [[as soon as]]; [[when]], [[as]]
+
+====Usage notes====
+Combined forms for this word are uncommon and often formed for stylization.
+
+====Declension====
+{{pl-decl-combined-forms-e}}
+
+===Particle===
+{{head|pl|particle}}
+
+# [[that|that much]], [[so]], [[so much so]]; {{n-g|emphasizes the scale of a quality}}
+#: {{coi|pl|'''aż''' tak, że|'''to the point''' that}}
+#: {{uxi|pl|Oj, nie narzekaj, nie jest '''aż''' tak źle.|Oh, don't complain, it's not '''that''' bad.}}
+# [[so many|as many as]], [[so much|as much as]]; {{n-g|emphasizes the amount}}
+#: {{uxi|pl|On zarabiał '''aż''' 3000 dolarów w zeszłym miesiącu.|He earned '''as much as''' 3000 dollars last month.}}
+# [[all the way]]; {{n-g|emphasizes the distance}}
+#: {{uxi|pl|On dał radę pójść '''aż''' tam?|He managed to go '''all the way''' there?}}
+# {{lb|pl|obsolete}} [[voila]]; [[soon]], [[shortly]]; [[suddenly]]
+# {{lb|pl|obsolete}} [[let]], [[may]]; [[in order to]]
+# {{lb|pl|obsolete|comparative}} [[than]]
+#: {{syn|pl|niż}}
+# {{lb|pl|Middle Polish}} [[unless]]
+#: {{syn|pl|chyba że}}
+# {{lb|pl|Middle Polish}} [[although]]
+#: {{syn|pl|chociaż}}
+# {{lb|pl|Middle Polish}} {{ng|connects clauses}}; [[that]]
+#: {{syn|pl|że}}
+# {{lb|pl|Middle Polish}} [[until]]; {{def-uncertain|pl|undetailed=1|nohypothesis=1}}
+#* {{RQ:pl:Mącz|94c|Donec, adverbium, '''Aż''' záś|Donec, adverbium, '''Aż''' zsś|-}}
+#* {{RQ:pl:Mącz|94c|Donec ad haec tempora perventum est '''Aż'''.|Donec ad haec tempora perventum est '''Aż'''.|-}}
+#* {{RQ:pl:Mącz|343d|Quoad idem quod donec. Yáko/ poki/ '''aż'''.|Quoad idem quod donec. Yáko/ poki/ '''aż'''.|-}}
+#* {{RQ:pl:Mącz|449b|Hactenus '''Aż''' poty/ '''áż''' dotąd.|Hactenus '''Aż''' poty/ '''aż''' dotąd.|-}}
+#* {{RQ:pl:Mącz|509b|Usque praepositio, '''Aż'''.|Usque praepositio, '''Aż'''.|-}}
+#* {{RQ:pl:Calag|92b|'''Aż''' Donec, Dum, Quo ad|'''Aż''' Donec, Dum, Quo ad|-}}
+#* {{RQ:pl:Calep|23b|Adhuc ‒ Ieſzcze, '''Az''' dotąd.|Adhuc ‒ Jeszcze, '''Aż''' dotąd.|-}}
+#* {{RQ:pl:Calep|340b|Donec ‒ Pokąd, '''az'''dotąd.|Donec ‒ Pokąd, '''aż''' dotąd.|-}}
+#* {{RQ:pl:Calep|344b|Dum ‒ Pokąd, '''az'''|Dum ‒ Pokąd, '''aż'''|-}}
+#* {{RQ:pl:Calep|469b|Hactenus ‒ '''Az''' potąd.|Hactenus ‒ '''Aż''' potąd.|-}}
+#* {{RQ:pl:Calep|890b|Quoad ‒ Iako długo, iz, '''az'''.|Quoad ‒ Jako długo, iż, '''aż'''.|-}}
+#* {{RQ:pl:Calep|1055a|Tenus ‒ '''Az''', do|Tenus ‒ '''Aż''', do|-}}
+#* {{RQ:pl:Calep|1144a|Usque ‒ '''Az'''.|Usque ‒ '''Aż'''.|-}}
+
+====Derived terms====
+{{col|pl|title=particle|aż nadto}}
+{{col|pl|title=prepositions|aż do|aż po}}
+
+===Synonyms===
+{{dial syn|pl}}
+
+===Trivia===
+{{pl-freq 1990|36|23|14|70|70|213|263|16|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|aż, aże|5898}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900|aż, aże, jaż, jaże|76|1}}
+* {{R:pl:SGP1900|aż, aże, auż, jaż, jaże|24|1}}
+
+==Silesian==
+
+===Alternative forms===
+* {{alt|szl|aże}}
+
+===Etymology===
+{{etymon|szl|:inh|zlw-opl:aż|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Particle===
+{{head|szl|particle}}
+
+# {{ng|emphasizes the quantity}}; [[so many|as many as]]
+#: {{ux|szl|'''Aż''' siedym chałup bez miesiōnc hań postawiyli.|They put up ''seven'' houses during the month here.}}
+# {{ng|emphasizes the amount}}; [[so much|as much as]]
+#: {{ux|szl|Straciōł ech '''aż''' tysiōnc litrōw miodu skuli tych pierōńskich chrobŏkōw.|I lost ''a thousand'' litres of honey because of these bloody bugs.}}
+# {{ng|emphasizes the scale of a quality}}; [[so]], [[almost]]; [[even]], [[actually]]
+#: {{ux|szl|Ôbejzdrzij sie na niego, ôn je '''aż''' bioły ze strachu.|Look at him, he's so scared he '''even''' turned white.}}
+# {{ng|emphasizes the length of time}}; [[all the way]]
+#: {{ux|szl|Tōż trzeba bōło '''aż''' do połednia czekać.|So we had to wait '''all the way up''' 'til noon.}}
+# {{ng|emphasizes the distance}}; [[all the way]]
+#: {{uxi|szl|Mōm '''aż''' tam zōńś?!|I have to go '''all the way''' up there?!}}
+# {{lb|szl|emphatic}} {{ng|used for exaggeration}}; [[basically]], [[essentially]], [[practically]]
+#: {{ux|szl|Tak sie zeszterowoł, że '''aż''' mu ôgyń z pyska lecioł.|He got so furious that you could say he was '''practically''' breathing fire.}}
+
+===Conjunction===
+{{head|szl|conjunction}}
+
+# {{ng|emphasizes the extent or degree}}; [[so much so]] [[that]], [[to the point]] [[that]]
+#: {{ux|szl|Tak sie tyn synek wyuczōł, '''aż''' ôstoł farŏrzym.|This chap learnt '''so much that''' he became a local pastor.}}
+#: {{ux|szl|Babie bōło głupio, '''aż''' sie borŏka cołkŏ czerwiōnŏ zrobiyła.|The lady was so embarrassed '''that''' she went all red.}}
+# {{ng|sets a precondition}}; [[until]]
+#: {{ux|szl|Nic ci niy dōm, '''aż''' mie szyciŏ niy nauczysz!|I won't give you ought '''until''' you teach me how to sew!}}
+
+===Further reading===
+* {{R:szl:silling}}

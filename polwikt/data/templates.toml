@@ -20,10 +20,11 @@ names = [
   "pl-adecl",
   "pl-decl-noun",
   "pl-decl-phrase",
-  "pl-cardinals",
   "pl-mid-decl-noun",   # Middle Polish: expanded, then dropped and counted (R6.6a)
 ]
-prefixes = ["pl-decl-", "pl-conj-", "pl-mid-decl-", "pl-pronoun-", "pl-skur-conj-"]
+prefixes = [
+  "pl-decl-", "pl-conj-", "pl-mid-decl-", "pl-pronoun-", "pl-skur-conj-", "pl-skur-decl-",
+]
 
 [capture]
 names = [
@@ -96,6 +97,7 @@ names = [
   "rfd", "rfi", "rfe", "rfv-etym", "see citations", "nomstub", "picdic", "picdiclabel",
   "picdicimg", "color panel", "number table", "pl-family", "nonlemma", "bottom",
   "box-top", "box-bottom", "rfc", "top2", "top3",
+  "pl-cardinals",  # a navigation box of numbers, not a paradigm
 ]
 prefixes = ["R:", "list:", "Wiktionary:Picture dictionary/", "table:"]
 

@@ -1,0 +1,77 @@
+{{also|jakis}}
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|jakisi||Przemyśl|Rzeszów|Iwonicz-Zdrój|Podhale|Zakopane|Skawa|Zagórze}}
+
+===Etymology===
+{{ety|pl|:af|jaki|-ś<id:some-><ref:{{R:pl:Sławski|jakiś}}>|etydate=1534<ref:{{R:pl:SXVI|+|55500}}>|tree=+|text=+}} Compare {{cog|csb|jaczis}}, {{cog|szl|jakiś}}, and {{cog|zlw-slv|jakjysz}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-jakiś.ogg|mp=#}}
+
+===Pronoun===
+{{h|pl|pronoun}}
+
+# [[some]]; {{ng|unspecified member of the category described by the following word}}
+#: {{syn|pl|jaki|jeden|pewien}}
+#: {{ux|pl|W ogrodzie widziałem '''jakieś''' zwierzę.|I saw '''some''' animal in the garden. ''(and I'm not sure what it was)''}}
+#: {{ux|pl|Jeśli będziesz w sklepie, to kup '''jakąś''' herbatę.|If you visit a store, buy '''some''' tea. ''(any tea will do)''}}
+
+===Particle===
+{{h|pl|particle}}
+
+# {{lb|pl|colloquial}} {{ng|used to express doubt on the usage of a term on the speaker's part}}; [[kinda]], [[sorta]]
+#: {{uxi|pl|Ona jest '''jakaś''' niemiła.|She's '''kinda''' mean.}}
+# {{lb|pl|colloquial}} {{ng|used to express doubt on the amount on the speaker's part}}; [[about]]
+#: {{syn|pl|jaki|gdzieś}}
+#: {{uxi|pl|Ma '''jakiś''' litr.|It has '''about''' a liter.}}
+
+====Declension====
+{{pl-decl-pronoun
+|jakiś|jakaś|jakieś|jacyś|jakieś
+|jakiegoś|jakiejś|jakiegoś|jakichś|jakichś
+|jakiemuś|jakiejś|jakiemuś|jakimś|jakimś
+|jakiegoś/jakiś|jakąś|jakieś|jakichś|jakieś
+|jakimś|jakąś|jakimś|jakimiś|jakimiś
+|jakimś|jakiejś|jakimś|jakichś|jakichś
+}}
+In the accusative, the form {{m|pl|jakiegoś}} is used for masculine personal and masculine animate nouns, while {{m|pl|jakiś}} is used for masculine inanimate nouns.
+
+===Derived terms===
+{{col|pl|title=pronoun|jakiści<q:obsolete>|jakiściś<q:nonstandard>}}
+
+===Trivia===
+{{pl-freq 1990|65|4|71|175|185|500|89|160|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||128|2}}
+* {{R:pl:SGP1900||224|2}}
+* {{R:pl:NFJP}}
+
+==Silesian==
+
+===Alternative forms===
+* {{alt|szl|jakisi}}
+
+===Etymology===
+{{ety|szl|:af|jaki|-ś|tree=+|text=+}} Compare {{cog|pl|jakiś}} and {{cog|csb|jaczis}}.
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Pronoun===
+{{h|szl|pronoun}}
+
+# [[some]]; {{ng|unspecified member of the category described by the following word}}
+#: {{syn|szl|jedyn|kerysi<q:Cieszyn>|kerysik<q:Cieszyn>}}
+
+===Further reading===
+* {{R:szl:silling}}

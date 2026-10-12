@@ -1,0 +1,174 @@
+{{also|Agrest|agrèst|agrëst|agręst}}
+==Old Czech==
+
+===Alternative forms===
+* {{alt|zlw-ocs|agresta}}
+
+===Etymology===
+{{ety|zlw-ocs|id=verjuice|:bor|it:agresto<t:juice of sour grapes, verjuice><id:verjuice>|text=+|tree=1|etydate=15th century<ref:{{R:cs:Rejzek 2015|angrešt|51}}>}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Noun===
+{{h|zlw-ocs|noun|g=m|g2=f}}
+
+# [[verjuice]] {{gl|juice from unripe fruit, esp. from grape wine}}
+
+====Declension====
+{{zlw-ocs-ndecl|m}}
+or
+{{zlw-ocs-ndecl|f}}
+
+====Descendants====
+* {{desc|cs|angrešt}}
+* {{desctree|zlw-opl|agrest}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:zlw-ocs:Gebauer}}
+
+{{C|zlw-ocs|Wines}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|hrabrest}}
+
+===Etymology===
+{{ety|zlw-opl|id=verjuice|:bor|zlw-ocs:agrest<id:verjuice>|etydate=1472|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|m-an!}}
+
+# [[verjuice]] {{gl|type of [[sour]] [[wine]]}}
+#: {{syn|zlw-opl|motłoch}}
+#* {{RQ:zlw-opl:Rost|1039|1472|'''Agrest''' pusca|'''Agrest''' pusca|-}}
+#* {{RQ:zlw-opl:ErzGlos|178|XV ex.|Labruscam vlg. motloch uel '''agrest'''|Labruscam vlg. motłoch vel '''agrest'''|-}}
+#* {{RQ:zlw-opl:Rost|1033|1472|'''Hrabrest''' vinum pomorum al. pomaceum|'''Hrabrest''' vinum pomorum al. pomaceum|-}}
+
+====Declension====
+{{zlw-opl-decl-noun|[[agrest]], [[hrabrest]]}}
+
+====Descendants====
+* {{desctree|pl|agrest|noalts=1}}
+* {{desc|szl|agrys|alts=1}}
+
+===References===
+* {{R:pl:USJP}}
+* {{R:pl:Bruckner}}
+* {{R:pl:SJPD}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SSP1953|agrest, hrabrest|21|1}}
+* {{R:zlw-opl:SPJSP|agrest, hrabrest|40}}
+* {{R:zlw-opl:BLŚP|agrest, hrabrest|4462}}
+
+{{C|zlw-opl|Wines}}
+
+==Polish==
+{{wp|pl:}}
+{{img
+|image1=Stachelbeeren.jpg|caption1={{l|pl|agrest}}
+}}
+
+===Etymology===
+{{ety|pl|id=gooseberry|:inh|zlw-opl:agrest<t:verjuice><id:verjuice>|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Gower-#.wav|mp=#|skur=#}}
+
+===Noun===
+{{pl-noun|m-in|dim=angrystek<l:dialectal>|adj=agrestowy}}
+
+# {{vern|European gooseberry}}, [[gooseberry]] {{gl|{{taxfmt|Ribes uva-crispa|species}}}} {{defdate|from 16th c.|ref={{R:pl:SXVI|agrest|5256}}}}
+#: {{coa|pl|chiński '''agrest'''|Chinese '''gooseberry'''}}
+#: {{coa|pl|dziki '''agrest'''|wild '''gooseberry'''}}
+#: {{coa|pl|zielony '''agrest'''|green '''gooseberry'''}}
+#: {{coa|pl|czerwony '''agrest'''|red '''gooseberry'''}}
+#: {{coa|pl|czarny '''agrest'''|black '''gooseberry'''}}
+#: {{coa|pl|krzak '''agrestu'''|a '''gooseberry''' bush}}
+#: {{coa|pl|krzew '''agrestu'''|a '''gooseberry''' shrub}}
+#: {{coa|pl|owoc '''agrestu'''|a '''gooseberry''' fruit}}
+#: {{coa|pl|uprawa '''agrestu'''|'''gooseberry''' cultivation/growing/crop/farming}}
+#: {{coa|pl|liście '''agrestu'''|'''gooseberry''' leaves}}
+#* {{RQ:pl:Murm|106|Labrusca genus vitis agrestis, quae erratica dicitur, quod in terrae marginibus et sepibus nascatur. Eyn widle weynrem/ ader agresten. '''Agreſt'''|Labrusca genus vitis agrestis, quae erratica dicitur, quod in terrae marginibus et sepibus nascatur. Eyn widle weynrem/ ader agresten. '''Agrest'''|Labrusca is a type of wild vine, which is called erratic because it grows on the edges of the land and in hedges. A wild vine/ ader agresten. '''Gooseberry'''.}}
+#* {{RQ:pl:FalZioł|I 16d|á możeſzli też ſoku z '''agreſty''' mieć/ wley też ze trzy łyſzki|A możeszli też soku z '''agresty''' mieć/ wlej też ze trzy łyżki|And you can also have '''gooseberry''' juice/pour in also three spoons.}}
+#* {{quote-book|pl|author=Daniel Gottlieb Settegast|title=Nauka o pszczołach w sposobie pytań i odpowiedzi|year=1809|page=53|pageurl=https://polona2.pl/item/nauka-o-pszczolach-w-sposobie-pytan-i-odpowiedzi,MzE5NzQ1NTI/62/#info:search:agrestu|text=Drzewa te rosną wysoko i daią mieyscu od zimna i słot zasłonę. — Wewnątrz Pasieki poróbcie uliczki z '''agrestu''' i malin, w środku których zasadźcie śliwy, iabłonie i gruszki w odległości 9 łokci iedna od drugiey; lecz tym drzewkom nie pozwólcie wysoko rosnąć, naywyżey na półtora chłopa.|translation=These trees grow tall and provide shade from the cold and sun. —Inside the apiary, make alleys of '''gooseberries''' and raspberries, in the middle of which plant plum trees, apple trees, and pears at a distance of 9 cubits, one from the other; but do not allow these trees to grow high grow to be at most one and a half men tall.}}
+#* {{quote-book|pl|publisher=SuperNowa|title=Miecz przeznaczenia|author=Andrzej Sapkowski|year=1992|text=Wplótł palce w jej włosy pachnące bzem i '''agrestem'''.|translation=He threaded his fingers through her hair, which smelled of lilac and '''gooseberries'''.}}
+#* {{quote-book|pl|author=Roman Antoszewski|title=Kariera na trzy karpie morskie|publisher=Philip Wilson|year=2000|text=Zupełnie zapomniałam, ten słoik z konfiturami truskawkowymi na cukrze wyniosłyśmy do piwniczki z Baśką, bo tu nie było miejsca. Tu mam '''agrest''', ale Władek najlepiej lubił truskawki mocno scukrzone, choć mu to szkodziło.|t=I had completely forgotten that I took this jar of strawberry sugar preserves out to the basement with Baśka because up here there was no room. Here I have '''gooseberry''', but Władek loved strongly sweetened strawberreis best, even though it was bad for his health.}}
+# {{lb|pl|Middle Polish}} [[verjuice]] {{gl|fine sour wine}} {{defdate|15th|17th c.|ref={{R:zlw-opl:SPJSP|agrest, hrabrest|40}}|ref2={{R:pl:SXVII|AGREST|3810|TS|21.05.2019}}}}
+#* {{RQ:pl:FalZioł|I 155c|'''AGreſt''' ieſt wino kwaſne kthore wyciſną z gron niezrzałech|'''Agrest''' jest wino kwaśne ktore wycisną z gron niezrzałech|'''''Verjuice''''' is a sour wine that they extrude from unripe bunches}}
+#* {{RQ:pl:FalZioł|V 64a|Kurcżęta młode rocżnie z '''agreſtem'''/ to ieſt z kwaſnem winem/ albo z Limunijami przyprawione dobre ſą.|Kurczęte młode rocznie z '''''agrestem'''''/albo z limunijami przyprawione dobre są.|Young chickens all year with '''''verjuice'''''/ that is with sour wine/ or spiced with rue they are good.}}
+#* {{RQ:pl:BielKron|30|á chleb nie kwáſzony z láktuką y z '''ágreſtem''' będzye|a chleb nie kwaszony z laktuką i z '''agrestem''' będzie|and bread not soured with lactuca and will be with '''verjuice'''}}
+#* {{RQ:pl:Calep|730a|Omphacium ‒ '''Agreſt''', ſok kwaskowi z winna nieżrałego.|Omphacium ‒ '''''Agrest''''', sok kwaskowy z wina nieźrałego.|Omphacium ‒ '''''Agrest''''', sour juice from unripe wine.}}
+#* {{RQ:pl:GostGosp|130|Octy winne/ miodowe/ piwne/ '''ágreſty'''/ to roſkázowáć doſtátkiem cżynić: y przypomináć kiedy to dziáłáć.|Octy winne/ miodowe/ piwne/ '''agresty'''/ to rozkazować dostatkiem czynić: i przypominać kiedy to działać.|Wine/honey/beer vinegars/ '''verjuice'''/ to manage the goods: and to remember when to do that.}}
+#* {{RQ:pl:SyrZiel|914|{{...}} ze dwie grzance z chlebá rżánego vpiec/ w winnym octcie/ ábo w '''Agreśćie''' ie rozmoczyć {{...}}.|{{...}} ze dwie grzańce z chleba rżanego upiec/ w winnym occie/ albo w '''agreście''' je rozmoczyć {{...}}.|{{...}} bake two mulled bread rolls/ in wine vinegar/ or soak them in '''verjuice''' {{...}}.}}
+#* {{RQ:pl:SyrZiel|1036|Jednák świeżo zielone w strączu swym wárzone/ á z oliwą i z '''ágrestą''' przypráwione/ [fasole] są tucznieysze y smácznieysze.|Jednak świeżo zielone w strychu swym warzone/ a z oliwą i z '''agrestą''' przyprawione/ [fasole] są tuczniejsze i smaczniejsze.|Yet freshly green boiled in the attic/ and spiced with olive oil and with '''sour wine'''/ [the beans] are more filling and tastier.}}
+#* {{RQ:pl:SyrZiel|1140|{{...}} ocet winny z '''agrestem''' nápoły nato [kłącza kopru z solą] leią/ y w mieyscu suchym żeby niepopleśniáło stáwiáią {{...}}.|{{...}} ocet winny z '''agrestem'''' napoły na to [kłącza kopru z solą] leją/ i w miejscu suchym żeby niepopleśniało stawiają {{...}}.|{{...}} wine vinegar with '''verjuice''' in half for that [dill rhizomes with salt] they pour/ and in a dry place so they do not mould over {{...}}.}}
+#* {{RQ:pl:HaurEk|111|Winnice lepiey się dostawáią, gdy chłodny, y zimny Sierpien, ná '''Agrest''' niektore zrywác, áby inne groná tym prędzey dochodziły, liście tákże zrywáć według wzwyż opisania o Winnicy.|It is better to harvest the vineyards during a cool and cold August, to harvest some of the grapes for '''verjuice''', so that the other grapes ripen more quickly, and to harvest the leaves as described above about the vineyard.}}
+
+====Declension====
+{{pl-decl-noun-m-in}}
+Middle Polish:
+{{pl-mid-decl-noun
+|noms=agrest
+|gens=agrestu
+|dats=-
+|accs=agrest
+|inss=agrestem
+|locs=-
+|vocs=-
+|nomp=-
+|genp=-
+|datp=-
+|accp=-
+|insp=-
+|locp=-
+|vocp=-
+}}
+Standard Kurpian:
+{{pl-skur-decl-noun-m|agre|st|hard|in}}
+
+====Synonyms====
+{{dial syn|pl}}
+
+====Derived terms====
+{{col|pl|title=nouns|agrestnik|agreściak|agreśniak}}
+
+====Descendants====
+* {{desctree|zle-ort|акгрестъ|bor=1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP}}
+** {{R:pl:PWN}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||14|1}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||6|1}}
+** {{R:pl:Gadomski:2022||46}}
+
+{{C|pl|Berries|Saxifragales order plants|Wines}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:lbor|la:agrestis|:bor|fr:agreste|text=+|tree=1}}
+
+===Adjective===
+{{ro-adj}}
+
+# [[rustic]]
+
+====Declension====
+{{ro-decl-adj}}

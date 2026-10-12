@@ -1,0 +1,29 @@
+{{also|dwoję|dwóje|dwóję}}
+==Polish==
+{{number box|pl}}
+
+===Etymology===
+{{ety|pl|:inh|sla-pro:*dъvojь|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-dwoje.ogg|hh=dwoję}}
+
+===Numeral===
+{{head|pl|numeral}}
+
+# {{lb|pl|collective}} [[two]]
+
+====Declension====
+{{pl-decl-numeral-coll|dwoj|e}}
+
+====Coordinate terms====
+{{number table|pl|collective}}
+
+====Derived terms====
+{{col|pl|title=phrase|na dwoje babka wróżyła}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Two}}

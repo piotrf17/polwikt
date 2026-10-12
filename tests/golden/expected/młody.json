@@ -1,0 +1,714 @@
+{
+ "entries": [
+  {
+   "adjective": {},
+   "forms": [
+    {
+     "form": "młodszy",
+     "tags": {
+      "degree": "DEGREE_COMPARATIVE"
+     }
+    },
+    {
+     "form": "najmłodszy",
+     "tags": {
+      "degree": "DEGREE_SUPERLATIVE"
+     }
+    },
+    {
+     "form": "młody",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młody",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młoda",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młoda",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodzi",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodzi",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodego",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodej",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodego",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodych",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodemu",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodej",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodemu",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodego",
+     "table": 1,
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młody",
+     "table": 1,
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodą",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młode",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodą",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodymi",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodymi",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodej",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodym",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodych",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmwɔ.dɘ/"
+    },
+    {
+     "ipa": "[ˈmwɔ.di]",
+     "labels": [
+      "Kurpie"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "young (in the early part of growth or life; born not long ago; characteristic of such a person or thing)",
+     "keywords": [
+      {
+       "text": "young"
+      }
+     ],
+     "relations": [
+      {
+       "term": "stary",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "young; new, fresh (having been in a particular function or type of person for very few years)",
+     "keywords": [
+      {
+       "text": "young"
+      },
+      {
+       "text": "new"
+      },
+      {
+       "text": "fresh"
+      }
+     ],
+     "relations": [
+      {
+       "term": "stary",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "young (at an early stage of existence or development; having recently come into existence)",
+     "keywords": [
+      {
+       "text": "young"
+      }
+     ],
+     "relations": [
+      {
+       "term": "stary",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "new (having grown in the current season)",
+     "keywords": [
+      {
+       "text": "new"
+      }
+     ],
+     "labels": [
+      "not comparable",
+      "of fruit, crops, etc."
+     ],
+     "relations": [
+      {
+       "term": "nowy",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "tegoroczny",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zeszłoroczny",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "young; immature",
+     "keywords": [
+      {
+       "text": "young"
+      },
+      {
+       "text": "immature"
+      }
+     ],
+     "labels": [
+      "of products"
+     ],
+     "relations": [
+      {
+       "term": "niedojrzały",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "young, budding",
+     "keywords": [
+      {
+       "text": "young"
+      },
+      {
+       "text": "budding"
+      }
+     ],
+     "labels": [
+      "of plants"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_COMPARISON",
+     "title": "Comparison"
+    },
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of młody (hard)"
+    }
+   ],
+   "topics": [
+    "Age",
+    "Collectives",
+    "Male children",
+    "Male people",
+    "Marriage",
+    "People"
+   ]
+  },
+  {
+   "forms": [
+    {
+     "form": "młody",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodzi",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodego",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodemu",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodym",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodego",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodym",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodymi",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młodym",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodych",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "młody",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "młodzi",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_PERSONAL",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmwɔ.dɘ/"
+    },
+    {
+     "ipa": "[ˈmwɔ.di]",
+     "labels": [
+      "Kurpie"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "young boy",
+     "keywords": [
+      {
+       "text": "young boy"
+      }
+     ],
+     "labels": [
+      "nominalized",
+      "colloquial"
+     ]
+    },
+    {
+     "gloss": "bridegroom, groom (man in the context of his own wedding; one who is going to marry or has just been married)",
+     "keywords": [
+      {
+       "text": "bridegroom"
+      },
+      {
+       "text": "groom"
+      }
+     ],
+     "labels": [
+      "nominalized"
+     ],
+     "relations": [
+      {
+       "term": "nowożeniec",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "oblubieniec",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "pan młody",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "newlyweds (newly married couple)",
+     "keywords": [
+      {
+       "text": "newlywed"
+      }
+     ],
+     "labels": [
+      "nominalized",
+      "in the plural"
+     ],
+     "relations": [
+      {
+       "term": "młoda para",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "nowożeńcy",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "oblubieńcy",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "państwo młodzi",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "kawaler",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of kawaler (“bachelor”) (unmarried man)",
+     "labels": [
+      "nominalized"
+     ],
+     "regions": [
+      "Kurpie"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of młody"
+    }
+   ],
+   "topics": [
+    "Age",
+    "Collectives",
+    "Male children",
+    "Male people",
+    "Marriage",
+    "People"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish młody."
+  }
+ ],
+ "lemma": "młody"
+}

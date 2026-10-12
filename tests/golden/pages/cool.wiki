@@ -1,0 +1,765 @@
+{{also|Cool|COOL}}
+==English==
+{{wp}}
+
+===Alternative forms===
+* {{alt|en|c00l|k00l|kewl|kool|qewl|qool||all|_|Internet slang}}
+* {{alt|en|coo||slang}}
+* {{alt|en|coole||obsolete}}
+
+===Pronunciation===
+* {{enPR|ko͞ol|a=RP}}, {{IPA|en|/kuːl/}}
+* {{IPA|en|/kul/|a=US}}
+* {{IPA|en|/kʉl/|a=Scotland}}
+* {{IPA|en|/kʲɪul/|/kʲuːl/|a=[[w:Local Dublin English|Local Dublin]]}}
+** {{IPA|en|/kʲeul/|a=working-class}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-cool.wav|a=Southern England}}
+* {{rhymes|en|uːl|s=1}}
+* {{hmp|en|call<aa:fool-fall>}}
+
+===Etymology 1===
+{{ety|en|:inh|enm:cool<ety:inh<ang:cōl<id:cool>>>|id=adj|tree=1}}
+From {{inh|en|enm|cool}}, from {{inh|en|ang|cōl|id=cool|t=cool, cold, tranquil, calm}}, from {{inh|en|gmw-pro|*kōl(ī)}}, from {{inh|en|gem-pro|*kōluz|t=cool}}, from {{m|gem-pro|*kalaną|t=to be cold, to freeze}}, {{der|en|ine-pro|*gel-|t=to be cold, to freeze}}.
+{{col-top|2|cog}}
+Cognate with {{cog|frr|kool}}, {{m|frr|koul}}, {{m|frr|kuul}}, {{m|frr|kölj}}, {{m|frr|kööl|t=cold}}, {{cog|stq|köil|t=cool}}, {{cog|fy|koel|t=cool}}, {{cog|cim|khuul|t=chilly, cool}}, {{cog|nl|koel|t=cool}}, {{cog|de|kühl|t=cool}}, {{cog|nds|köhl|t=cool}}, {{cog|lb|kill|t=cool}}, {{cog|wym|kił|t=cool}}; also {{cog|la|gelū}}, {{m|la|gelum}}, {{m|la|gelus|t=frost; chill, cold}}, {{cog|be|хо́лад|t=cold}}, {{cog|bg|хлад|t=chill, coolness}}, {{cog|cs|chlad|t=cold}}, {{cog|mk|лад|t=shade; coolness}}, {{cog|pl|chłód|t=cold}}, {{cog|ru,uk|хо́лод|t=cold}}, {{cog|sh|хла̑д}}, {{m|sh|hlȃd|t=shade}}, {{cog|sa|जड|t=cold; stiff}}, {{m|sa|जल|t=water}}. Related to {{m|en|cold}}.
+{{col-bottom}}
+
+====Adjective====
+{{en-adj|er}}
+[[File:Warm and cool colors.svg|thumb|'''cool''' colors]]
+
+# {{senseid|en|temperature}} Of a mildly low temperature.
+#: {{syn|en|chilly}}
+#: {{ant|en|lukewarm|tepid|warm}}
+#: {{ux|en|I like '''cool''' weather the most 'cause it's not too hot to wear a jacket but I won't be too cold in my shorts.}}
+#* {{RQ:Churchill Celebrity|chapter=8|passage=The day was '''cool''' and snappy for August, and the Rise all green with a lavish nature. Now we plunged into a deep shade with the boughs lacing each other overhead, and crossed dainty, rustic bridges over the cold trout-streams, the boards giving back the clatter of our horses' feet:{{...}}.}}
+#* {{quote-journal|en|author=Ashley Strickland|title=Astronomers discover nearby six-planet solar system with ‘pristine configuration’|magazine=w:CNN|url=https://edition.cnn.com/2023/11/29/world/six-exoplanets-resonance-scn|date=2023-11-29|passage=Many exoplanets have been found orbiting dwarf stars that are much '''cooler''' and smaller than our sun, such as the famed TRAPPIST-1 system and its seven planets, announced in 2017.}}
+# Allowing or suggesting heat [[relief]].
+#: {{ux|en|Linen has made '''cool''' and breathable clothing for millennia.}}
+#* {{RQ:Allingham China Governess|chapter=2|passage=Now that she had rested and had fed from the luncheon tray Mrs. Broome had just removed, she had reverted to her normal gaiety.&nbsp; She looked '''cool''' in a grey tailored cotton dress with a terracotta scarf and shoes and her hair a black silk helmet.}}
+# Of a color, in the range of violet to green.
+#: {{ant|en|warm}}
+#: {{ux|en|If you have a reddish complexion, you should mainly wear '''cool''' colors.}}
+# {{senseid|en|calm}}{{lb|en|of a person}} Not showing emotion; [[calm]] and in control of oneself.
+#: {{syn|en|distant|phlegmatic|standoffish|unemotional}}
+#: {{ant|en|passionate}}
+#: {{ux|en|Be '''cool'''. There's no need to panic.}}
+# {{senseid|en|unenthusiastic; lukewarm; skeptical}} [[unenthusiastic|Unenthusiastic]]; [[lukewarm]]; [[skeptical]].
+#: {{syn|en|chilly|lukewarm|tepid}}
+#: {{ant|en|warm}}
+#: {{ux|en|His proposals had a '''cool''' reception.}}
+# {{senseid|en|calmly audacious}} {{lb|en|obsolete}} Calmly [[audacious]].
+#* {{RQ:Hawthorne Scarlet Letter|chapter=Hester at her Needle|passage=Its '''cool''' stare of familiarity was intolerable.}}
+#* {{quote-text|en|date=Feb 27 1860|url=https://www.abrahamlincolnonline.org/lincoln/speeches/cooper.htm|author=Abe Lincoln|title=Cooper Union address|passage=In that supposed event, you say, you will destroy the Union; and then, you say, the great crime of having destroyed it will be upon us! That is '''cool'''.}}
+#* {{RQ:Alcott Little Women|part=1|chapter=13|passage="Well, that's '''cool'''," said Laurie to himself, "to have a picnic and never ask me!"}}
+# {{senseid|en|of money}} {{non-gloss|Applied facetiously to a sum of money, commonly as if to give emphasis to the largeness of the amount.}}
+#* {{RQ:Fielding Tom Jones
+|passage=Who will lend me a '''cool''' hundred.}}
+#* {{RQ:Dickens Great Expectations|volume=III|chapter=XVIII|page=303|passage=But she had wrote out a little coddleshell in her own hand a day or two afore the accident, leaving a '''cool''' four thousand to Mr. Matthew Pocket.}}
+#* {{quote-book|en|year=1900|author=w:Dora Sigerson Shorter|title=Transmigration|passage=You remember Bulger, don't you? You lost a '''cool''' hundred to him one night here over the cards, eh?}}
+#* {{quote-av|en|date=1944 November 28|writer=w:Irving Brecher; w:Fred F. Finklehoffe|title=w:Meet Me in St. Louis|publisher=Metro-Goldwyn-Mayer|passage=My father was talking to the World's Fair Commission yesterday, and they estimate it's going to cost a '''cool''' fifty million.}}
+# {{senseid|en|knowing how to behave astutely; popular with others}} {{lb|en|informal|of a person}} Knowing what to do and how to behave; behaving with [[effortless]] and [[enviable]] style and [[panache]]; considered [[popular]] by others.
+#: {{ant|en|awkward|uncool}}
+#* {{RQ:Dickens Pickwick Papers|chapter=28|page=284|passage={{...|Another crack of the whip, and on they speed, at a smart gallop, the horses tossing their heads and rattling the harness as if in exhilaration at the rapidity of the motion,}} while the coachman holding whip and reins in one hand, takes off his hat with the other, and resting it on his knees, pulls out his handkerchief, and wipes his forehead, partly because he has a habit of doing it, and partly because it's as well to shew the passengers how '''cool''' he is, and what an easy thing it is to drive four-in-hand, when you have had as much practice as he has.}}
+#* {{quote-book|en|year=2000|author=Malcolm Gladwell|title=The Tipping Point|passage=Maggie the au pair, and Pam P. on the school bus and Billy G. with his Grateful Dead records were all deeply '''cool''' people. But they weren’t '''cool''' because they smoked. They smoked because they were '''cool'''.}}
+#* {{quote-journal|en|date=December 27, 2017| title=The Guardian view on Prince Harry: the monarchy’s best insurance policy| work=the Guardian| url=https://www.theguardian.com/commentisfree/2017/dec/27/the-guardian-view-on-prince-harry-the-monarchys-best-insurance-policy| passage=He managed to conduct interviews with the least '''cool''' global figure – his father, Prince Charles – and the most '''cool''', Barack Obama, in a way that allowed them both to look as good as they could.}}
+#* {{RQ:NYT|author=Christina Caron|title=What Makes Someone Cool? A New Study Offers Clues.|date=2025-06-30|url=https://www.nytimes.com/2025/06/30/well/mind/cool-people-traits-study.html|passage=Is there a secret sauce that helps explain why people as different as David Bowie, Samuel L. Jackson and Charli XCX all seem so self-assured and, well, '''cool'''? A new study suggests that there are six specific traits that these people tend to have in common: '''Cool''' people are largely perceived to be extroverted, hedonistic, powerful, adventurous, open and autonomous.}}
+# {{senseid|en|fashionable; trendy; hip}} {{lb|en|informal|originally|AAVE}} [[fashionable|Fashionable]]; [[trendy]]; [[hip#English:_trendy|hip]].
+#: {{syn|en|à la mode|fashionable|in fashion|modish|stylish|happening|hip|in|trendy}}
+#: {{ant|en|démodé|old hat|out|out of fashion}}
+#* {{quote-av|en|year=1953|writers=w:Dalton Trumbo; w:Ian McLellan Hunter; w:John Dighton|title=w:Roman Holiday|role=Mario Delani|actor=Paolo Carlini|passage=You be nice without long hair. Now it's '''cool''', hmm?}}
+#* '''2008''', Lou Schuler, "Foreward", ''in'' Nate Green, ''Built for Show'', page xii
+#*: The fact that I was middle-aged, bald, married, and raising girls instead of chasing them didn't really bother me. Muscles are '''cool''' at any age.
+# {{senseid|en|all right; acceptable; good}} {{lb|en|informal}} [[all right|All right]]; [[acceptable]]; [[good]].
+#: {{syn|en|acceptable|all right|OK}}
+#: {{ant|en|not cricket|q1=UK|not on|unacceptable}}
+#: {{ux|en|Is it '''cool''' if I sleep here tonight?}}
+#* {{quote-song|en|lyricist={{w|Bobby Pickett|Bobby "Boris" Pickett}}, Lenny Capizzi|title=w:Monster Mash|artist=Bobby (Boris) Pickett and The Crypt-Kickers|year=1962|text=Now everything's '''cool''', Drac's a part of the band / And my Monster Mash is the hit of the land / For you, the living, this Mash was meant too / When you get to my door, tell them Boris sent you.}}
+# {{lb|en|informal}} Very interesting or exciting.
+#: {{syn|en|awesome|neat}}
+#: {{ux|en|I think astronomy is really '''cool'''.}}
+# {{lb|en|informal}} Followed by [[with]]: able to tolerate.
+#: {{syn|en|easy|fine|not [[bothered]]|not [[fussed]]}}
+#: {{ant|en|bothered|upset}}
+#: {{ux|en|I'm completely '''cool''' with my girlfriend leaving me.}}
+# {{lb|en|informal}} Of a pair of people, Having good relations.
+#: {{ux|en|We're '''cool''', right?}}
+
+=====Derived terms=====
+{{col3|en
+|coola boola|coolamundo|cooldrink|coolheaded|coolhouse|coolhunter|coolhunting|coolometer|coolsome|coolspeak|hypercool|megacool|outcool|overcool|radicool|supercool|tacticool|ubercool|ultracool
+|cool and the gang
+|cool as a cucumber
+|cool box
+|coolbox
+|cool cat
+|coolchest|cool chain
+|coolen|cool burn
+|cool head
+|coolish
+|coolly
+|coolness|cool kids' table
+|coolroom
+|cool store|Too Cool
+|coolth
+|keep one's cool|Cool S|übercool
+|lose one's cool
+|uncool|cool center|cool pop|zero-cool
+|be cool|before it was cool|blow one's cool|cool arrow|cool art|cool bag|cool beans|cool change|cool flame|cool gray|cool grey|cool hand|cool heads must prevail|cool heads prevail|cool heads will prevail|cool hunter|cool jazz|cool kid|cool medium|cool pose|cool story bro|cool tankard|cool-headed|cool-headedness|cool-o-meter|ice cool|ice-cool|keep a cool head||too cool for school|ur-cool|coolcation}}
+
+=====Descendants=====
+{{top2}}
+* {{desc|zh|酷|bor=1}}
+* {{desc|da|cool|bor=1}}
+* {{desc|nl|cool|bor=1}}
+* {{desc|arz|كول|tr=kūl|bor=1}}
+* {{desc|fr|cool|bor=1}}
+* {{desc|de|cool|bor=1}}
+* {{desc|he|קוּל|tr=kul|bor=1}}
+* {{desc|ja|クール|tr=kūru|bor=1}}
+*: {{desc|ja|クーデレ|tr=kūdere|der=1}}
+*:: {{desc|en|kuudere|bor=1}}
+* {{desc|pl|cool|bor=1}}
+* {{desc|ro|cool|bor=1}}
+* {{desc|sh|-|bor=1}}
+** {{desc|sh|кул|sclang=1}}
+** {{desc|sh|kul|sclang=1}}
+* {{desc|es|cool|bor=1}}
+* {{desc|sv|cool|bor=1}}
+* {{desc|tr|cool|bor=1}}
+{{bottom}}
+
+=====Translations=====
+{{trans-top-see|having a slightly low temperature|refreshing|temperate|moderate}}
+* Altai:
+*: Southern Altai: {{t|alt|серӱӱн}}
+* Arabic: {{t|ar|بَارِد}}
+*: Egyptian Arabic: {{t|arz|سقعان|tr=saʔʕān}}
+* Armenian: {{t+|hy|զով}}, {{qualifier|of weather}} {{t+|hy|հով}}
+* Azerbaijani: {{t+|az|sərin}}
+* Bashkir: {{t|ba|һалҡын}}
+* Belarusian: {{t|be|халаднава́ты}}
+* Breton: {{t+|br|fresk}}, {{t+|br|sin}}
+* Burmese: {{t+|my|အေး}}
+* Catalan: {{t+|ca|fred}}, {{t+|ca|fresc}}
+* Chinese:
+*: Cantonese: {{t|yue|涼|tr=loeng4}}
+*: Mandarin: {{t+|cmn|涼快|tr=liángkuài}}, {{t+|cmn|清涼|tr=qīngliáng}}
+* Czech: {{t+|cs|chladný}}
+* Danish: {{t+|da|kølig}}
+* Dutch: {{t+|nl|koel}}, {{t+|nl|fris}}
+* Esperanto: {{t|eo|malvarmeta}}
+* Finnish: {{t+|fi|viileä}}
+* French: {{t+|fr|frais}}
+* Georgian: {{t|ka|გრილი}}
+* German: {{t+|de|kühl}}
+* Guarani:
+*: Paraguayan Guarani: {{t-check|gug|ro'ysã}}
+* Hebrew: {{t|he|צונן|tr=tzonen}}, {{t|he|קריר|tr=karir}}
+* Hungarian: {{t+|hu|hűvös}}
+* Icelandic: {{t+|is|svalur}}
+* Ido: {{t+|io|koldeta}}
+* Indonesian: {{t+|id|sejuk}}
+* Ingrian: {{t|izh|viiliä}}, {{t|izh|siitiä}}
+* Interlingua: {{t|ia|fresc}}, {{t|ia|frigide}}
+* Italian: {{t+|it|fresco}}, {{t+|it|freddo}}
+* Japanese: {{t+|ja|涼しい|tr=suzushii}}
+* Kashubian: {{t|csb|chłodny}}
+* Korean: {{t+|ko|쌀쌀하다}}, {{t+|ko|시원하다}}
+* Kurdish:
+*: Central Kurdish: {{t+|ckb|فێنک|tr=fênik}}
+*: Northern Kurdish: {{t+|kmr|hênik}}, {{t+|kmr|hîn}}, {{t+|kmr|fênik}}
+* Kyrgyz: {{t+|ky|серүүн}}
+* Latin: {{t|la|frigidulus}}
+* Latvian: {{t+|lv|vēss}}
+* Māori: {{t|mi|mātaotao}}, {{t|mi|mātao}}, {{t|mi|kōangi}}, {{t|mi|hauangi}}, {{t|mi|pūangiangi}}, {{t|mi|pūangi}}, {{t|mi|kōtao}}
+* Marathi: {{t|mr|थंड}}
+* Norwegian:
+*: Bokmål: {{t|nb|kjølig}}, {{t|nb|sval}}
+*: Nynorsk: {{t|nn|kjølig}}, {{t|nn|sval}}
+* Occitan: {{t+|oc|fresc}}
+* Persian: {{t+|fa|خنک|tr=xonak}}
+* Polish: {{t+|pl|chłodny}}
+* Portuguese: {{t+|pt|fresco}}
+* Romanian: {{t+|ro|friguros}}
+* Romansh: {{t|rm|frestg}}, {{t|rm|fraid}}
+* Russian: {{t+|ru|прохла́дный}}, {{t+|ru|холоднова́тый}}
+* Scottish Gaelic: {{t|gd|fionnar}}
+* Slovak: {{t|sk|chladný}}, {{t|sk|[[mierne]] [[chladný]]}}, {{t|sk|svieži}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|chłodny}}
+* Spanish: {{t+|es|fresco}}, {{t|es|friito}}, {{t|es|friecito}}
+* Swedish: {{t+|sv|sval}}
+* Thai: {{t+|th|เย็น}}
+* Tupinambá: {{t|tpn|ro'ysang}}
+* Turkish: {{t+|tr|serin}}
+*: Ottoman Turkish: {{t|ota|سرین|tr=serin}}, {{t|ota|قریر|tr=karir}}
+* Ukrainian: {{t|uk|прохоло́дний}}
+* Vietnamese: {{t+|vi|mát}}, {{t+|vi|mát mẻ}}
+* Yiddish: {{t|yi|קיל}}
+{{trans-bottom}}
+
+{{trans-top-see|allowing or suggesting heat relief|cold}}
+* Dutch: {{t+|nl|koel}}, {{t+|nl|verkoelend}}, {{t+|nl|verkwikkend}}
+* Esperanto: {{t|eo|malvarmiga}}
+* Finnish: {{t+|fi|viileä}}
+* Hungarian: {{t+|hu|hűs}}, {{t+|hu|hűsítő}}
+* Italian: {{t+|it|termico}}, {{t+|it|fresco}}, {{t+|it|leggero}}
+* Polish: {{t+|pl|chłodny}}
+* Portuguese: {{t+|pt|frio}}
+* Slovak: {{t|sk|chladný}}, {{t|sk|svieži}}, {{t|sk|chladivý}}
+{{trans-bottom}}
+
+{{trans-top-see|not showing emotion, calm|calm|tranquil|serene}}
+* Catalan: {{t+|ca|fred}}
+* Chinese:
+*: Mandarin: {{t+|cmn|酷|tr=kù}}
+* Danish: {{t+|da|kold}}
+* Dutch: {{t+|nl|kil}}, {{t+|nl|kalm}}, {{t+|nl|kalmpjes}}, {{t+|nl|koel}}, {{t+|nl|koeltjes}}
+* Esperanto: {{t+|eo|trankvila}}, {{t+|eo|serena}}, {{t|eo|senemocia}}, {{t+|eo|flegma}}
+* Finnish: {{t+|fi|viileä}}, {{t+|fi|hillitty}}, {{t+|fi|rauhallinen}}, {{t+|fi|kylmähermoinen}}, {{t+|fi|tyyni}}
+* Georgian: {{t|ka|გულგრილი}}, {{t|ka|მშვიდი}}
+* German: {{t+|de|cool}}, {{t+|de|kalt}}
+* Hungarian: {{t+|hu|szenvtelen}}, {{t+|hu|nyugodt}}
+* Irish: {{t|ga|réidh}}
+* Italian: {{t+|it|tranquillo}}, {{t+|it|calmo}}, {{t+|it|imperturbabile}}, {{t+|it|freddo}}
+* Macedonian: {{t|mk|ла́ден}}, {{t|mk|нево́збуден}}, {{t|mk|ладно́крвен}}
+* Norwegian: {{t+|no|kald}}, {{t+|no|rolig}}, {{t|no|behersket}}
+* Polish: {{t+|pl|opanowany}}, {{t+|pl|spokojny}}
+* Portuguese: {{t+|pt|tranquilo}}
+* Russian: {{t+|ru|хладнокро́вный}}, {{t+|ru|невозмути́мый}}
+* Scottish Gaelic: {{t|gd|fionnar}}
+* Serbo-Croatian: {{t+|sh|kul}}, {{t+|sh|hladan}}
+* Slovak: {{t+|sk|pokojný}}
+* Swedish: {{t+|sv|kylig}}, {{t+|sv|lugn}}
+* Turkish: {{t+|tr|soğukkanlı}}, {{t+|tr|sakin}}
+{{trans-bottom}}
+
+{{trans-top-see|unenthusiastic, lukewarm, skeptical|unenthusiastic|skeptical}}
+* Chinese:
+*: Mandarin: {{t|cmn|沉著//沉着|tr=chénzhuó}}
+* Danish: {{t+|da|kølig}}
+* Dutch: {{t+|nl|kil}}, {{t+|nl|koel}}, {{t+|nl|lauw}}, {{t|nl|onenthousiast}}
+* Esperanto: {{t|eo|malvarmeta}}
+* Finnish: {{t+|fi|viileä}}
+* Georgian: {{t|ka|გულგრილი}}
+* German: {{t+|de|kühl}}
+* Hungarian: {{t+|hu|közömbös}}
+* Irish: {{t|ga|fuarchúiseach}}, {{t|ga|doicheallach}}
+* Italian: {{t+|it|distaccato}}, {{t+|it|indifferente}}, {{t+|it|scettico}}
+* Macedonian: {{t|mk|рамно́душен}}, {{t|mk|млак}}
+* Norwegian: {{t+|no|kald}}, {{t|no|behersket}}, {{t|no|reservert}}
+* Polish: {{t+|pl|chłodny}}
+* Portuguese: {{t+|pt|frio}}
+* Russian: {{t+|ru|прохла́дный}}, {{t+|ru|холо́дный}}, {{t+|ru|равноду́шный}}
+* Scottish Gaelic: {{t|gd|fionnar}}
+* Serbo-Croatian: {{t+|sh|mlak}}, {{t+|sh|ravnodušan}}
+* Slovak: {{t|sk|chladný}}, {{t|sk|vlažný}}
+* Swedish: {{t+|sv|sval}}, {{t+|sv|kylig}}
+{{trans-bottom}}
+
+{{trans-top|calmly audacious}}
+* Dutch: {{t+|nl|stoer}}
+* Finnish: {{t+|fi|rohkea}}
+* Hungarian: {{t+|hu|laza}}, {{t|hu|bevállalós}}
+* Italian: {{t+|it|intrepido}}, {{t+|it|fantastico}}
+* Macedonian: {{t|mk|др́зок}}
+* Navajo: {{t|nv|sxih}}
+* Russian: {{t+|ru|де́рзкий}}
+* Serbo-Croatian: {{t+|sh|drzak}}
+{{trans-bottom}}
+
+{{trans-top-see|colloquial: knowing how to behave; considered popular|stupendous}}
+* American Sign Language: {{t|ase|5@Chest-ThumbBack Wiggle}}
+* Bengali: {{t+|bn|জোস}}
+* Bulgarian: {{t|bg|го́тин}}
+* Chinese:
+*: Mandarin: {{t+|cmn|酷|tr=kù}}, {{t+|cmn|棒|tr=bàng}}, {{t+|cmn|冷靜|tr=lěngjìng}}
+* Danish: {{t+|da|cool}}, {{t|da|koldblodig}}
+* Dutch: {{t+|nl|cool}}, {{t+|nl|koel}}, {{t+|nl|koelbloedig}}, {{t|nl|([[ijzig]]) [[kalm]]}}, {{t+|nl|beheerst}}, {{t+|nl|zelfzeker}}
+* Esperanto: {{t+|eo|mojosa}}, {{t+|eo|malaĉa}}
+* Faroese: {{t|fo|kulur}}
+* Finnish: {{t+|fi|siisti}}, {{t|fi|makee}}, {{t+|fi|upea}}
+* French: {{t+|fr|chouette}}
+* German: {{t+|de|cool}}, {{t+|de|geil}}
+* Hebrew: {{t+|he|מגניב}}
+* Hungarian: {{t+|hu|menő}}, {{t+|hu|király}}, {{t+|hu|vagány}}, {{t+|hu|baró}}, {{t+|hu|zsír}}, {{t+|hu|klassz}}, {{t+|hu|dögös}}, {{t+|hu|állat}}, {{t+|hu|belevaló}}
+* Indonesian: {{t+|id|keren}}
+* Italian: {{t+|it|ganzo}}, {{t+|it|figo}}, {{t+|it|disinvolto}}, {{t|it|sicuro di se}}, {{t|it|in gamba}}
+* Japanese: {{t+|ja|クール|tr=kūru}}, {{t+|ja|素敵|tr=suteki}}, {{t+|ja|すごい|tr=sugoi}}, {{t+|ja|モテる|tr=moteru}}, {{t+|ja|格好いい|tr=kakkoii}}
+* Korean: {{t+|ko|멋있다}}, {{t+|ko|멋지다}}, {{t+|ko|훌륭하다}}
+* Norwegian: {{t+|no|cool}}, {{t+|no|populær}}, {{t+|no|rolig}}, {{t|no|behersket}}
+* Polish: {{t+|pl|fajny}}, {{t+|pl|kozak}}, {{t+|pl|chwat}}
+* Portuguese: {{t+|pt|bacana}}, {{t+|pt|descolado}}, {{t+|pt|fixe}} {{qualifier|Portugal}}, {{t+|pt|legal}} {{qualifier|Brazil}}, {{t+|pt|massa}} {{qualifier|Brazil}}
+* Russian: {{t+|ru|круто́й}}, {{t+|ru|клёвый}}, {{t+|ru|кла́ссный}}, {{t+|ru|потря́сный}}, {{t+|ru|потряса́ющий}}
+* Serbo-Croatian: {{t+|sh|kul}}
+* Spanish: {{t+|es|genial}}, {{t+|es|guay}}, {{t+|es|bacán}}, {{t+|es|chévere}}, {{t|es|cul}}
+* Swedish: {{t+|sv|cool}}, {{t+|sv|poppis}}, {{t+|sv|häftig}} {{qualifier|literally "violent" or "forceful"}}, {{t+|sv|fet}} {{qualifier|literally "fat"}}, {{t+|sv|schysst}}
+* Thai: {{t+|th|เจ๋ง}}
+{{trans-bottom}}
+
+{{trans-top-see|colloquial: in fashion|fine|lovely}}
+* American Sign Language: {{t|ase|5@Chest-ThumbBack Wiggle}}
+* Bengali: {{t+|bn|জোস}}
+* Catalan: {{t+|ca|guai}}
+* Chinese:
+*: Mandarin: {{t+|cmn|酷|tr=kù}}, {{t+|cmn|棒|tr=bàng}}, {{t|cmn|厲害//利害//厉害|tr=lìhai}}
+* Czech: {{t+|cs|skvělý}}
+* Dutch: {{t+|nl|cool}}, {{t|nl|[[in]] ([[de]] [[mode]])}}, {{t+|nl|hip}}, {{t+|nl|blits}}
+* Esperanto: {{t+|eo|mojosa}}, {{t|eo|laŭmoda}}
+* Faroese: {{t|fo|kulur}}
+* Finnish: {{t+|fi|cool}}
+* French: {{t+|fr|cool}}
+* Georgian: {{t|ka|მოდური}}, {{t+|ka|ძერსკი}}
+* German: {{t+|de|cool}}
+* Hebrew: {{t+|he|מגניב}}
+* Hungarian: {{t+|hu|menő}}, {{t+|hu|divatos}}
+* Icelandic: {{t|is|töff}}
+* Irish: {{t|ga|cúl}}, {{t|ga|cúileach}}, {{t|ga|fionnuar}}
+* Italian: {{t+|it|figo}}
+* Japanese: {{t+|ja|クール|tr=kūru}}, {{t+|ja|素敵|tr=suteki}}, {{t+|ja|すごい|tr=sugoi}}, {{t+|ja|格好いい|tr=kakkoii}}
+* Korean: {{t+|ko|멋있다}}, {{t+|ko|쿨하다}}
+* Norwegian: {{t|no|stilig}}, {{t+|no|cool}}, {{t+|no|kul}}
+* Portuguese: {{t+|pt|descolado}}, {{t+|pt|bacana}}
+* Russian: {{t+|ru|круто́й}}, {{t+|ru|клёвый}}, {{t+|ru|кла́ссный}}, {{t+|ru|потря́сный}}, {{t+|ru|потряса́ющий}}, {{t+|ru|мо́дный}}
+* Serbo-Croatian: {{t+|sh|kul}}
+* Spanish: {{t+|es|guay}}, {{t+|es|bacán}}, {{t+|es|bacano}}, {{t+|es|bárbaro}}, ''Peru'': {{t|es|bravazo}}, {{t+|es|mostro}}; {{t|es|cachilupi}}, {{t+|es|chévere}}, {{t+|es|chido}}, {{t|es|shido}}, {{t|es|chilero}}, {{t+|es|chilo}}, {{t+|es|chiva}}, {{t+|es|chivo}}, {{t+|es|choro}}, {{t|es|dabuten}}, {{t|es|dabute}} {{q|Spain}}, {{t|es|fetén}}, {{t+|es|machete}}, {{t+|es|nota}}, {{t+|es|padre}}, {{t+|es|pavo}}, {{t|es|pura vida}}, {{t+|es|suave}}, {{t|es|tuanis}}, {{t|es|tuani}}, {{t+|es|piola}}, {{t+|es|paja}}, {{t+|es|cul}} {{q|U.S.}}, ''Panama'': {{t|es|supicucú}}, {{t|es|supicucu}}; {{t+|es|pulento}}
+* Swedish: {{t+|sv|stilig}}
+* Turkish: {{t-needed|tr}}
+{{trans-bottom}}
+
+{{trans-top|colloquial: all right, acceptable}}
+* American Sign Language: {{t|ase|5@Chest Wiggle}}
+* Catalan: {{t+|ca|guai}}
+* Chinese:
+*: Mandarin: {{t|cmn|[[很]][[棒]]|tr=hěn bàng}}, {{t+|cmn|沒事|tr=méishì}}, {{t+|cmn|不錯|tr=bùcuò}}
+* Czech: {{t|cs|v pořádku}}, {{t+|cs|ok}}
+* Danish: {{t+|da|ok}}, {{t|da|fint}}
+* Dutch: {{t+|nl|aanvaardbaar}}, {{t+|nl|acceptabel}}, {{t+|nl|in orde}}, {{t|nl|okee}}, {{t|nl|patabel}}
+* Esperanto: {{t|eo|en ordo}}, {{t|eo|enorda}}, {{t+|eo|akceptebla}}
+* Finnish: {{t+|fi|okei}}, {{t+|fi|ookoo}}
+* French: {{t+|fr|cool}}
+* Georgian: {{t|ka|მოსულა}}
+* German: {{t|de|in Ordnung}}, {{t|de|ganz Recht}}, {{t|de|alles klar}}, {{t+|de|akzeptabel}}
+* Hebrew: {{t+|he|סבבה|tr=sababa}}
+* Hungarian: {{t+|hu|belefér}}, {{t|hu|[[nem]] [[gáz]]}}, {{t|hu|[[nem]] [[gond]]}}
+* Indonesian: {{t+|id|keren}}
+* Italian: {{t|it|a posto}}, {{t+|it|accettabile}}
+* Macedonian: {{t|mk|во ред}}, {{t|mk|може}}
+* Norwegian: {{t+|no|grei}}, {{t+|no|ok}}
+* Polish: {{t+|pl|fajny}}
+* Portuguese: {{t+|pt|aceitável}}
+* Russian: {{t+|ru|в поря́дке}}, {{t+|ru|норма́льный}}, {{t+|ru|ничего́}}
+* Serbo-Croatian: {{t+|sh|kul}}
+* Slovak: {{t|sk|v poriadku}}, {{t|sk|okej}}
+* Swedish: {{t+|sv|ok}}, {{t+|sv|schysst}}, {{t+|sv|bra}}, {{t+|sv|fin}}
+* Turkish: {{t-needed|tr}}
+{{trans-bottom}}
+
+{{trans-top|colloquial: not upset}}
+* Catalan: {{t|ca|tranqui}}
+* Chinese:
+*: Mandarin: {{t+|cmn|平息|tr=píngxí}}
+* Danish: {{t+|da|rolig}}
+* Dutch: {{t+|nl|kalm}}, {{t+|nl|bedaard}}, {{t+|nl|rustig}}, {{t+|nl|beheerst}}
+* Esperanto: {{t+|eo|trankvila}}
+* Finnish: {{t+|fi|tyyni}}
+* German: {{t+|de|kühl}}, {{t+|de|cool}}
+* Hungarian: {{t|hu|[[nem]] [[bán]]ja}}, {{q|not angry anymore}} {{t|hu|szent a béke}}
+* Italian: {{t+|it|tranquillo}}, {{t+|it|calmo}}, {{t+|it|imperturbabile}}
+* Macedonian: {{t|mk|спо́коен}}, {{t|mk|нево́збуден}}
+* Norwegian: {{t+|no|rolig}}, {{t|no|behersket}}
+* Portuguese: {{t+|pt|de boa}} {{qualifier|Brazil}}
+* Russian: {{t+|ru|невозмути́мый}}, {{t+|ru|споко́йный}}
+* Scottish Gaelic: {{t|gd|fionnar}}
+* Serbo-Croatian: {{t+|sh|kul}}, {{t+|sh|hladan}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* French: {{t+check|fr|sympa}}, {{t-check|fr|looc}}
+* Interlingua: {{t-check|ia|disinvolte}}, {{t-check|ia|experte}}, {{t-check|ia|bon}}, {{t-check|ia|excellente}}
+{{trans-bottom}}
+
+====Noun====
+{{en-noun|-}}
+
+# A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; [[coolness]].
+#: {{ux|en|in the '''cool''' of the morning}}
+# A [[calm]] [[temperament]].
+#: {{syn|en|calmness|composure}}
+# The property of being cool, popular or in fashion.
+
+=====Translations=====
+{{trans-top|moderate temperature}}
+* Esperanto: {{t|eo|malvarmeto}}
+* Finnish: {{t+|fi|viileys}}
+* French: {{t+|fr|frais|m}}
+* Italian: {{t+|it|fresco}}
+* Latvian: {{t|lv|vēsums|m}}
+* Polish: {{t+|pl|chłód|m}}
+* Russian: {{t+|ru|прохла́да|f}}
+* Serbo-Croatian: {{t+|sh|svjež}}
+{{trans-bottom}}
+
+{{trans-top|calm temperament}}
+* Bulgarian: {{t+|bg|хладнокръвие|n}}
+* Esperanto: {{t+|eo|flegmo}}
+* Finnish: {{t+|fi|tyyneys}}
+* French: {{t+|fr|calme|m}}, {{t+|fr|sang-froid|m}}
+* Greek: {{t+|el|ψυχραιμία|f}}
+* Italian: {{t+|it|posato}}, {{t+|it|calmo}}
+* Latvian: {{t|lv|aukstasinība|f}}
+* Russian: {{t+|ru|хладнокро́вие|n}}
+* Serbo-Croatian: {{t+|sh|hladnokrvnost|f}}
+{{trans-bottom}}
+
+===Etymology 2===
+{{ety|en|:inh|enm:colen<ety:inh<ang:cōlian>>|id=verb|tree=1}}
+From {{inh|en|enm|colen}}, from {{inh|en|ang|cōlian||to cool, grow cold, be cold}}, from {{inh|en|gmw-pro|*kōlēn||to become cold}}, from {{der|en|ine-pro|*gel-||to freeze}}.
+
+Cognate with {{cog|nl|koelen||to cool}}, {{cog|de|kühlen||to cool}}, {{cog|sv|kyla||to cool, refrigerate}}. Also partially from {{inh|en|enm|kelen}}, from {{inh|en|ang|cēlan||to cool, be cold, become cold}}, from {{inh|en|gmw-pro|*kōlijan}}, from {{inh|en|gem-pro|*kōlijaną||to cool}}, altered to resemble the adjective {{m|en|cool}}. See {{m|en|keel}}.
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|intransitive|literally}} To lose heat, to get [[colder]].
+#: {{syn|en|cool down}}
+#: {{ant|en|warm#Verb|warm up|heat#Verb|heat up}}
+#: {{hypo|en|freeze#Verb}}
+#: {{ux|en|I like to let my tea '''cool''' before drinking it so I don't burn my tongue.}}
+# {{lb|en|transitive|literally}} To [[make]] cooler, less warm.
+#: {{syn|en|chill#Verb|cool down|refrigerate|;|deheat|qq4=rare}}
+#: {{ant|en|warm#Verb|warm up|heat#Verb|heat up}}
+#: {{hypo|en|freeze#Verb}}
+#* {{RQ:KJV|Luke|16|24|text=Send Lazarus, that he may dip the tip of his finger in water, and '''cool''' my tongue.}}
+# {{lb|en|intransitive|figuratively}} To become less intense, e.g. less [[amicable]] or [[passionate]].
+#: {{ux|en|Relations '''cooled''' between the USA and the USSR after 1980.}}
+# {{lb|en|transitive|figuratively}} To make less intense, e.g. less [[amicable]] or [[passionate]].
+#* {{RQ:Shakespeare Othello|I|iii|passage=We have reason to '''cool''' our raging motions, our carnal stings, our unbitted lusts.}}
+# {{lb|en|transitive|slang|dated}} To [[kill#Verb|kill]], [[murder#Verb|murder]].
+#* '''1965''', "Sex Jungle" (narrated in ''Perversion for Profit'')
+#*: Maybe he would die. That would mean I had murdered him. I smiled, trying the idea on for size. One of the things that always had cheesed me a little was that I had no kills to my credit. I'd been in plenty of rumbles, but somehow, I'd never '''cooled''' anyone. Well maybe now I had my first one. I couldn't feel very proud of skulling an old man, but at least I could say that I'd scored. That was a big kick.
+#* {{quote-book|en|author=w:Piri Thomas|title=w:Down These Mean Streets|publisher=w:Alfred A. Knopf|location=New York, N.Y.|year=1967|page=31|pageurl=https://archive.org/details/downthesemeanstr0000thom/page/31/mode/1up|passage=Big-mouth got up as fast as he could, and I was thinking how much heart he had. But I ran toward him like my life depended on it; I wanted to '''cool''' him.}}
+# {{lb|en|intransitive|AAVE|slang}} To [[relax#Verb|relax]], [[hang out#Verb|hang out]].
+#: {{syn|en|bool<qq:slang>}}
+#* {{quote-song|en|artist=w:Ice-T|title=w:6 in the Mornin'|url=https://www.youtube.com/watch?v=pzCGPlDgbgU|year=1986|passage=Seen my homeboys '''coolin'''{{'}} way way out / Told 'em bout my mornin' cold bugged' em out}}
+#* {{quote-book|en|author=w:Paul Beatty|title=Tuff: A Novel|location=New York, N.Y.|publisher=w:Anchor Books|year=2000|year_published=2001|page=223|pageurl=https://archive.org/details/tuffnovel0000beat/page/223/mode/1up|isbn=978-0-385-72111-0|passage="What up, kid?" ¶ "'''Coolin'''{{'}}."}}
+#* {{quote-book|en|author=w:Courttia Newland|title=The Scholar: A West Side Story|location=London|publisher=[[w:Abacus (imprint)|Abacus]]|year=1997|page=207|pageurl=https://archive.org/details/scholarwestsides0000newl/page/207/mode/1up|isbn=0-349-10844-7|passage='<nowiki/>''Asbestos''? Raa, dat's a dangerous t'ing boy, dat ain't good. You know what though, you guys should min' yourselves walkin' street star, dere's bere nutters about. I know you're in a crew but boy can't you jus' '''cool''' at someone's house?'}}
+
+=====Derived terms=====
+{{col3|en|aftercool|coolable|hydrocool|intercool|overcool|precool|recool|subcool|undercool
+|coolant
+|cooler
+|cooling|self-cooling
+|cooling card
+|cooling center
+|cool off
+|cool down
+|cool it|cool out
+|cool one's heels
+|cool one's jets
+|sodium-cooled
+|keep one's breath to cool one's porridge|save one's breath to cool one's porridge}}
+
+=====Translations=====
+{{trans-see|cool down}}
+
+{{trans-top|to make colder (literally)}}
+* Arabic: {{t|ar|يُبَرِّد|m}}
+*: Egyptian Arabic: {{t|arz|يبرد|m|tr=yebárrad}}
+* Bulgarian: {{t+|bg|изстудявам}}
+* Dutch: {{t+|nl|afkoelen}}, {{t+|nl|bekoelen}}, {{t+|nl|koelen}}, {{t+|nl|verkoelen}}, (mildy) [[verfrissen]], (much) [[verkillen]]
+* Esperanto: {{t|eo|malvarmigi}}
+* Finnish: {{t+|fi|jäähdyttää}}
+* French: {{t+|fr|refroidir}}, {{t+|fr|rafraichir}}
+* Greek:
+*: Ancient Greek: {{t|grc|ψύγω}}
+* Irish: {{t|ga|fuaraigh}}
+* Māori: {{t|mi|whakamātao}}
+* Norman: {{t|nrf|fraidgi}}
+* Polish: [[chłodzić]] / [[schłodzić]]
+* Quechua: {{t|qu|chiriyachiy}}
+* Russian: {{t+|ru|остужа́ть|impf}}, {{t+|ru|остуди́ть|pf}}
+* Scottish Gaelic: {{t|gd|fuaraich}}
+* Slovak: {{t|sk|ochladiť}}, {{t|sk|chladiť}}
+* Turkish: {{t+|tr|serinletmek}}, {{t+|tr|soğutmak}}
+* Turkmen: {{t|tk|sowatmak}}
+* Welsh: {{t+|cy|oeri}}
+{{trans-bottom}}
+
+{{trans-top|to become less intense, e.g. less amicable}}
+* Chinese:
+*: Mandarin: {{t+|cmn|冷淡|tr=lěngdàn}} {{qualifier|adjective, may be used as verb}}
+* Dutch: {{t+|nl|afkoelen}}, {{t+|nl|bekoelen}}, {{t+|nl|verkoelen}}, (much) [[verkillen]]
+* Finnish: {{t+|fi|viilentyä}}
+* German: {{t+|de|abkühlen}}
+* Norwegian: {{t|no|hardne}}
+* Russian: {{t+|ru|остыва́ть|impf}}, {{t+|ru|осты́ть|pf}}, {{t+|ru|успока́иваться|impf}}, {{t+|ru|успоко́иться|pf}}, {{t+|ru|охладева́ть|impf}}, {{t+|ru|охладе́ть|pf}}
+* Slovak: {{t|sk|upokojiť sa}}, {{t|sk|upokojovať sa}}
+* Swedish: {{t+|sv|svalna}}
+{{trans-bottom}}
+
+{{trans-top|to make less intense, e.g. less amicable}}
+* Dutch: {{t+|nl|afkoelen}}, {{t+|nl|koelen}}, {{t+|nl|verkoelen}}, (much) [[verkillen]]
+* Finnish: {{t+|fi|viilentää}}
+* Russian: {{t+|ru|охлажда́ть|impf}}, {{t+|ru|охлади́ть|pf}}
+* Slovak: {{t|sk|upokojiť}}, {{t|sk|upokojovať}}
+{{trans-bottom}}
+
+===Etymology 3===
+{{ety|en|id=butter measure}}
+Alteration of {{m|en|cowl}}.
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|chiefly|Ireland|now|rare}} A measure of [[butter]], usually around 40lb; a [[container]] holding such an amount of butter. {{defdate|from 18th c.}}
+#* {{RQ:Joyce Ulysses|212|Father Conmee saluted Mr William Gallagher and perceived the odours that came from baconflitches and ample '''cools''' of butter.}}
+
+===References===
+* {{R:Greens|id=bc7pncy|pos=v|sense=2}}
+* {{R:Greens|id=ympzlhq|pos=v|sense=3}}
+* {{R:Century}}
+* {{R:OneLook}}
+
+===Anagrams===
+* {{anagrams|en|a=cloo|Colo|Colo.|colo|colo-|loco}}
+
+{{C|en|Emotions|Temperature}}
+
+==Dutch==
+
+===Etymology===
+{{ety|nl|:bor|en:cool<id:adj>}}
+{{bor+|nl|en|cool}}. {{doublet|nl|koel}}.
+
+===Pronunciation===
+* {{IPA|nl|/kul/}}
+* {{audio|nl|Nl-cool.ogg}}
+* {{hyphenation|nl|cool}}
+* {{rhymes|nl|ul}}
+* {{homophones|nl|koel}}
+
+===Adjective===
+{{nl-adj}}
+
+# {{l|en|cool}}, fashionable
+
+====Declension====
+{{nl-decl-adj}}
+
+====Derived terms====
+{{col|nl
+|coolheid
+|oncool
+|retecool
+|supercool
+}}
+
+==French==
+
+===Etymology===
+{{ety|fr|:bor|en:cool}}
+{{bor+|fr|en|cool}}.
+
+===Pronunciation===
+* {{fr-IPA|coule}}
+* {{audio|fr|LL-Q150 (fra)-DSwissK-cool.wav|a=<<Switzerland>> (<<Valais>>)}}
+* {{audio|fr|LL-Q150 (fra)-LoquaxFR-cool.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-cool.wav|a=<<France>> (<<Vosges>>)}}
+* {{rhymes|fr|ul|s=1}}
+* {{homophones|fr|coule|coules|coulent}}
+
+===Adjective===
+{{fr-adj|inv=1}}
+
+# {{l|en|cool}} (only its informal senses, mainly fashionable)
+#: {{ux|fr|Les jeunes boivent de l'alcool pour être '''cool'''.|Young people drink alcohol to be '''cool'''.}}
+
+===Interjection===
+{{fr-intj}}
+
+# cool! [[great]]!
+
+====Derived terms====
+* {{l|fr|cool, Raoul}}
+* {{l|fr|coolitude}}
+
+===Anagrams===
+* {{l|fr|looc}}
+
+==German==
+
+===Etymology===
+{{ety|de|:bor|en:cool<id:adj>}}
+{{bor+|de|en|cool}}. {{doublet|de|kühl}}.
+
+===Pronunciation===
+* {{IPA|de|/kuːl/}}
+* {{audio|de|De-cool.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Adjective===
+{{de-adj|comp}}
+
+# {{lb|de|colloquial}} {{l|en|cool}} (in its informal senses)
+#: {{syn|de|brilliant|genial|geil}}
+#: {{uxi|de|Die Musik war echt '''cool'''.|The music was very '''cool'''.}}
+#* {{quote-song|de|title=Der Kommissar|artist={{w|Falco (musician)|Falco}}|year=1982|album=Einzelhaft|passage=Wir treffen Jill und Joe und dessen Bruder Hip / Und auch den Rest der '''coolen''' Gang}}
+# {{lb|de|colloquial}} [[#English|cool]], [[calm]], [[easy-going]]
+#: {{syn|de|lässig|ruhig}}
+#: {{ux|de|Als Trainer muss mann ziemlich '''cool''' sein.|As a trainer you have to be quite '''easy-going'''.}}
+
+====Declension====
+{{de-adecl|comp}}
+
+===Further reading===
+* {{R:de:DWDS}}
+* {{R:de:UniLeipzig}}
+* {{R:de:Duden}}
+* {{R:de:OpenThesaurus}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:ubor|en:cool<id:adj>|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|kul|a=LL-Q809 (pol)-Olaf-cool.wav|h=cool}}
+
+===Adjective===
+{{pl-adj|-|adv=-}}
+
+# {{lb|pl|slang}} {{l|en|cool}} {{gl|in its informal senses}}
+#: {{syn|pl|świetny|wspaniały|znakomity}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+==Portuguese==
+
+===Pronunciation===
+{{pt-IPA|cu}}
+* {{rhymes|pt|u}}
+
+===Noun===
+{{pt-noun|m|cools}}
+
+# {{filter-avoidance spelling of|pt|cu||anus, butthole}}
+#: {{syn|pt|🆒}}
+
+{{C|pt|Body parts}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:ubor|en:cool<id:adj>}}
+{{ubor|ro|en|cool}}.
+
+===Adjective===
+{{ro-adj|inv}}
+
+# {{l|en|cool}}
+
+====Declension====
+{{ro-decl-adj|inv}}
+
+===Adverb===
+{{head|ro|adverb}}
+
+# {{l|en|cool}}
+
+===Noun===
+{{ro-noun|n|-}}
+
+# {{l|en|cool}}
+
+====Declension====
+{{ro-noun-n|n=sg}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:ubor|en:cool<id:adj>|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr|cul|hyph=cool}}
+
+===Adjective===
+{{es-adj|f=#|pl=#,#s}}
+
+# {{l|en|cool}} {{gl|in its informal sense}}
+#: {{alti|es|cul}}
+
+====Usage notes====
+* {{es-unadapted}}
+
+===Further reading===
+* {{R:es:DA}}
+* {{R:es:DEA}}
+* {{R:es:DAEE:2018}}
+
+===Anagrams===
+* {{anagrams|es|loco}}
+
+==Swedish==
+
+===Etymology===
+{{ety|sv|:bor|en:cool<id:adj>}}
+{{bor+|sv|en|cool}}. Attested since 1951.
+
+===Pronunciation===
+* {{IPA|sv|/kuːl/}}
+* {{rhymes|sv|uːl|s=1}}
+
+===Adjective===
+{{sv-adj}}
+
+# {{lb|sv|colloquial}} {{l|en|cool}} {{gloss|calm, collected}}
+#: {{ux|sv|Träskmonstret röt åt honom, men han var helt '''cool'''.|The swamp monster roared at him, but he was completely '''cool'''.}}
+# {{lb|sv|colloquial}} {{l|en|cool}} {{gloss|appealing in a calm, controlled way}}
+#: {{ux|sv|en '''cool''' snubbe med '''coola''' solglasögon|a '''cool''' guy with '''cool''' sunglasses}}
+#: {{ux|sv|Han tyckte rymden var '''cool'''.|He thought space was '''cool'''.}}
+
+====Declension====
+{{sv-adj-reg}}
+
+====See also====
+* {{l|sv|ball}}
+* {{l|sv|häftig}}
+* {{l|sv|tuff}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+
+==Turkish==
+
+===Etymology===
+{{ety|tr|:ubor|en:cool<id:adj>|text=+|tree=1}}
+
+===Pronunciation===
+* {{tr-IPA|ku:l}}
+* {{hyph|tr|kul}}
+
+===Adjective===
+{{tr-adj}}
+
+# [[#English|cool]]
+
+==Yola==
+
+===Etymology===
+{{ety|yol|:inh|enm:cole}}
+From {{inh|yol|enm|cole}}.
+
+===Pronunciation===
+* {{IPA|yol|/kuːl/}} 
+
+===Noun===
+{{head|yol|noun}}
+
+# A very light [[wind]].
+
+===References===
+* {{R:Muirithe 1990|page=156}}

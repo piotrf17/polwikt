@@ -1,0 +1,239 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "familia",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familie",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familii",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familii",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familij",
+     "labels": [
+      "obsolete"
+     ],
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familii",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familiom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familię",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familie",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familią",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familiami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familii",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familiach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "familio",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "familie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_FEMININE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/faˈmi.lja/"
+    },
+    {
+     "ipa": "[faˈmi.lʲja]",
+     "labels": [
+      "Northern Borderlands"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "rodzina",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of rodzina (“family”) (husband and wife and their children)",
+     "labels": [
+      "dated",
+      "literary"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "rodzina//ród",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of rodzina / ród (“family”) (group of people related by blood or marriage, including deceased ancestors)",
+     "labels": [
+      "dated",
+      "historical"
+     ],
+     "subsenses": [
+      {
+       "form_of": {
+        "lemma": "rodzina",
+        "type": "TYPE_SYNONYM"
+       },
+       "gloss": "synonym of rodzina (“family”) (established and socially binding name referring to such a group)",
+       "labels": [
+        "dated",
+        "historical"
+       ]
+      }
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "służba",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of służba",
+     "labels": [
+      "obsolete"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "rodzina//grupa",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of rodzina / grupa",
+     "labels": [
+      "obsolete"
+     ],
+     "topics": [
+      "taxonomy"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "klasa",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of klasa (type of curved surfaces)",
+     "labels": [
+      "obsolete"
+     ],
+     "topics": [
+      "mathematics"
+     ]
+    },
+    {
+     "form_of": {
+      "lemma": "nazwisko",
+      "type": "TYPE_SYNONYM"
+     },
+     "gloss": "synonym of nazwisko (“surname”)",
+     "labels": [
+      "proscribed"
+     ],
+     "regions": [
+      "Northern Borderlands",
+      "Lithuania"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of familia"
+    }
+   ],
+   "topics": [
+    "Collectives",
+    "Family",
+    "Onomastics"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Learned borrowing from Latin familia. Sense 6 is a semantic loan from Russian фами́лия (famílija). First attested in 1559."
+  }
+ ],
+ "lemma": "familia"
+}

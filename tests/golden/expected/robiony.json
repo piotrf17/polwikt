@@ -1,6 +1,298 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "robiony",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robiony",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robiona",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robiona",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robieni",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robieni",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionego",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionego",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionych",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionemu",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionemu",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionego",
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robiony",
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robioną",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robione",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robioną",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionymi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionymi",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "robionych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "robionych",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
    "pos": "POS_PARTICIPLE",
    "pronunciations": [
     {
@@ -21,6 +313,12 @@
       "type": "TYPE_INFLECTION"
      },
      "gloss": "masculine singular passive adjectival participle of robić"
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of robiony (hard)"
     }
    ]
   }

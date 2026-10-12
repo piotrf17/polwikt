@@ -432,6 +432,10 @@ English-Wiktionary Polish sections follow this nesting:
   Full declension: 7 cases (nom, gen, dat, acc, ins, loc, voc) × singular/plural, with
   alternative forms per cell (e.g. nom pl `profesorowie` / `profesorzy`) and
   defective/pluralia-tantum paradigms represented as *absent*, not as empty strings.
+  *Implemented at M7:* genders and animacy from the `{{pl-noun}}` / `{{pl-proper noun}}`
+  spec (`m-pr`, `m-anml,m-in`, `nv-p`; a trailing `!` leaves animacy unset, a `-p` part
+  marks a plurale tantum), `indecl=` as `indeclinable`, singularia/pluralia tantum also
+  from the categories the table expansion adds. Tables: see R7.8.
 - **R6.2 — Verbs.** Aspect (imperfective / perfective / biaspectual) and the aspect
   partner. The full paradigm must include: infinitive; present (or perfective future)
   1/2/3 sg & pl; past by person × number × gender (singular m/f/n, plural
@@ -442,7 +446,11 @@ English-Wiktionary Polish sections follow this nesting:
   participle (`-wszy`). Also frequentative/iterative and reflexive `się` marking.
 - **R6.3 — Adjectives.** Full declension (case × number × gender incl. virile/nonvirile),
   degree (positive / comparative / superlative), and non-comparable marking. Derived
-  adverbs where the article links them.
+  adverbs where the article links them. *Implemented at M7:* comparison comes from the
+  `{{pl-adj}}` / `{{pl-adv}}` arguments the way `Module:zlw-lch-headword` builds it —
+  arg 1's comparatives (`-` alone: `AdjectiveInfo.not_comparable`; `peri`: *bardziej X*),
+  `sup=` or a derived *naj-* superlative — as `Form`s of a `KIND_COMPARISON` table, so
+  *lepszy* is found like any declined form (poldict's lookup). Derived adverbs are M10.
 - **R6.4 — Pronouns / numerals.** Their irregular paradigms, including collective
   numerals (`dwoje`, `pięcioro`) and the special numeral agreement patterns.
 - **R6.5 — Pronunciation.** IPA, audio file names, **syllabification** and homophones
@@ -483,7 +491,9 @@ English-Wiktionary Polish sections follow this nesting:
     `Middle Polish` (`{{a|Middle Polish}}`).
   - **Alternative forms** qualified Middle Polish (`{{alt|pl|dóbr||Middle Polish}}`).
   - **Declension tables** from Middle Polish templates (`{{pl-mid-decl-noun}}`,
-    `Module:pl-mid-noun`).
+    `Module:pl-mid-noun`), counted `dropped.table.Middle Polish` without being expanded;
+    table cells and comparatives labelled Middle Polish, and the headword's `mpcomp=` /
+    `mpsup=` forms (`dropped.form.Middle Polish`).
   - **Reference groups** headed `Middle Polish:` (links to the 16th/17th-century
     dictionaries) — moot since decision 11: no reference list is output at all.
   - Cascade like R3.13a: if every entry on a page is dropped, the page yields no `Word`.
@@ -506,6 +516,11 @@ English-Wiktionary Polish sections follow this nesting:
       their titles in `dropped_colabelled.jsonl`. They are dropped on purpose (decision
       8, confirmed 2026-10-12), but they are the modern usage the rule costs, so the
       number is reported rather than buried in the total.
+- **R6.6d — Standard Kurpian tables are not output.** `{{pl-skur-decl-*}}` /
+  `{{pl-skur-conj-*}}` give an entry's paradigm in Standard Kurpian, a regional written
+  standard; read as Polish forms they would mislead an app ("which form do I use?").
+  They are dropped and counted (`dropped.table.Kurpian`), configured in
+  `data/inflection.toml` beside the Middle Polish table prefix. Decided at M7.
 - **R6.7 — Labels.** `{{lb|pl|…}}` / `{{tlb|pl|…}}` values and qualifiers (colloquial,
   dated, obsolete, vulgar, transitive, reflexive-się, …) are stored as **plain strings**
   in `labels` — Wiktionary's canonical label names, with aliases resolved through its own
@@ -622,7 +637,8 @@ to keep in sync:
 - Each `Entry` carries its own pronunciation, audio, relations, usage notes and
   topics; with its `Word`'s lemma and the etymology it points at, that is enough to
   build one flashcard. Etymology text is stored once per group, not per entry. POS-specific detail is
-  a `oneof` of `NounInfo` (genders with animacy, tantum flags) / `VerbInfo` (aspect).
+  a `oneof` of `NounInfo` (genders with animacy, tantum flags) / `VerbInfo` (aspect) /
+  `AdjectiveInfo` (not comparable, indeclinable; adverbs too).
 - Usage labels, dialect names and topics are plain strings (R6.7); grammatical features
   use the closed enums in `GrammaticalTags`, with `raw_tags` for any that don't map.
 - A table cell covering several cases (nom/acc) becomes one `Form` per case, so
@@ -640,6 +656,17 @@ to keep in sync:
 - **R7.8** Forms are a **flat tagged list**, not a fixed 7×2 table message. Paradigms are
   irregular (defective nouns, alternative cells, virile/nonvirile) and a flat list with
   tags survives that; consumers can pivot it into a table.
+  *Implemented at M7* (`parse/tables.py`, `extract/inflection.py`): the expanded table
+  is laid out as a grid (rowspan/colspan as a browser does), and a data cell's tags are
+  its row headers plus its column headers, mapped through `data/inflection.toml`;
+  `nominative/vocative` is one Form per case. A cell spanning positions that differ
+  only in animacy is one Form without it (*dobry*'s masculine nominative); otherwise one
+  Form per distinct tag set. Alternatives in a cell are adjacent Forms, primary first;
+  cell qualifiers (`familij<q:obsolete>`, `downy (deprecative)`) become Form `labels`;
+  footnote digits are stripped and counted. An unmapped header text is a raw tag and
+  counted (`table.header.unknown.<text>`) — the golden set has none. Each table's
+  `title` is its caption ("Declension of dobry (hard)"); `irregular` comes from the
+  template or the expansion's "Polish irregular …" category.
 
 ---
 
@@ -710,7 +737,11 @@ operational consequences that are *not* optional:
   2 h was optimistic. *Re-measured at M5 with the real policy* (first 3,000 pages
   by id, `--jobs 2`): **18.2 pages/s, ~2.7 h projected**, 282 MB peak per worker.
   *First full run at M6:* **176,750 pages in 2.4 h (20.6 pages/s), 628 MB peak per
-  worker**, 0 page errors. P3
+  worker**, 0 page errors. *M7 adds the tables* (Lua expansion of ~76k declension
+  calls): the first 3,000 pages run at **14.1 pages/s against M5's 18.2** (−22%; tables
+  are ~20% of extraction time in a profile, Lua most of it), ~3.1 h projected at full
+  scale. That is new work, not a regression of existing work; the 10% rule applies
+  from each milestone's own measurement. P3
   must not regress this by more than 10%. `--pages` / `--limit` runs finish in seconds; the full run is not
   part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the

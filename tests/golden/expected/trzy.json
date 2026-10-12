@@ -22,6 +22,13 @@
    ]
   },
   {
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_NEUTER"
+     }
+    ]
+   },
    "pos": "POS_NOUN",
    "pronunciations": [
     {

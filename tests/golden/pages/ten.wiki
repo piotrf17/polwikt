@@ -1,0 +1,1323 @@
+{{also|Appendix:Variations of "ten"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology 1===
+{{bor+|mul|en|ten}}.
+
+====Alternative forms====
+* {{alt|mul|Ten|TEN}}
+
+====Pronunciation====
+* {{IPA|mul|[ˈtɛn]}}
+
+====Noun====
+{{mul-noun}}
+
+# {{lb|mul|international standards}} {{ng|{{w|NATO}}, {{w|International Civil Aviation Organization|ICAO}}, {{w|International Telecommunication Union|ITU}} & {{w|International Maritime Organization|IMO}}}} {{w|NATO phonetic alphabet|radiotelephony}} code for [[10]], used only with [[o'clock]] to indicate direction.
+
+===Etymology 2===
+
+====Symbol====
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+[[Category:ICAO spelling alphabet]]
+[[Category:ITU & IMO phonetic alphabet]]
+{{C|mul|Ten}}
+
+==English==
+{{number box|en|10}}
+{{wp}}
+
+===Etymology===
+{{PIE word|en|déḱm̥}}
+[[File:Triangle10.svg|thumb|Ten circles]]
+{{word|en|ine|déḱm̥}}
+From {{inh|en|enm|ten}}, {{m|enm|tene}}, from {{inh|en|ang|tīen}}, from {{inh|en|gmw-pro|*tehun}}, from {{inh|en|gem-pro|*tehun}}, from {{inh|en|ine-pro|*déḱm̥}}. Cognate with {{cog|sco|ten}}, {{m|sco|tene||ten}}, {{cog|fy|tsien||ten}}, {{cog|stq|tjoon||ten}}, {{cog|frr|tiin||ten}}. See also [[teen]].
+
+===Pronunciation===
+* {{enPR|tĕn|a=RP,GenAm}} {{IPA|en|/tɛn/|[tʰɛn]}}
+** {{audio|en|en-us-inlandnorth-ten.ogg|a=US,Inland North}}
+** {{audio|en|en-us-ten.ogg|a=US}}
+* {{IPA|en|/tɪn/|aa=pin-pen}}
+* {{IPA|en|/ten/|aa=AU,NZ}}
+* {{rhymes|en|ɛn|s=1|ɪn|a2=pin-pen}}
+* {{homophones|en|tin|aa=pin-pen}}
+
+===Numeral===
+{{head|en|numeral}}
+
+# {{senseid|en|Q23806}} {{cln|en|cardinal numbers}} The [[number]] [[occur]]ring after [[nine]] and before [[eleven]], [[represent]]ed in [[Arabic numerals]] ([[base]] ten) as [[10]] and in [[Roman numerals]] as [[X]].
+#* {{RQ:Dunsany Pegana|chapter=The Sayings of Slid (whose Soul is by the Sea)|page=15|passage=There is a melody upon the Earth as though '''ten''' thousand streams all sang together for their homes that they had forsaken in the hills.}}
+#* {{quote-web|en|title=What is a Ten Frame and why is it a useful tool for developing early number relationships and fact fluency?|url=https://www.ru.ac.za/media/rhodesuniversity/content/sanc/documents/SANC_10-frames_reading.pdf|date=|page=1|work=w:Rhodes University|passage=A '''ten''' frame is a simple graphic tool that allows people to “see” numbers.}}
+
+====Related terms====
+* {{l|en|tenth}}
+
+====Translations====
+{{see translation subpage|Numeral}}
+
+===Noun===
+{{en-noun|~}}
+
+# A [[set]] or [[group]] with ten [[element]]s.
+#: {{ux|en|We divided the chocolates into '''tens''' to hand out to Hallowe'en visitors.}}
+#* {{quote-journal|en|title=An eighth-grade unit on number systems|journal=The Mathematics Teacher|volume=51|issue=5|date=May 1958|author=Carolyn J. Ingham; Joseph N. Payne|page=392|passage=They can readily state the number of '''tens''' in a hundred. But somehow they do not have a full appreciation of the "tenness" of our system and how the system is structured.}}
+#* {{quote-web|en|title=What is a Ten Frame and why is it a useful tool for developing early number relationships and fact fluency?|url=https://www.ru.ac.za/media/rhodesuniversity/content/sanc/documents/SANC_10-frames_reading.pdf|date=|page=1|work=w:Rhodes University|passage=Understanding that numbers are composed of '''tens''' and ones is an important foundational concept, setting the stage for work with larger numbers.}}
+# {{lb|en|in plural}} An inexact quantity, typically understood to be between [[20]] and [[100]].
+#: {{ux|en|Our houses are '''tens''' of meters apart, so we don't have to worry about noise from our neighbours.}}
+#: {{ux|en|'''tens''' of thousands of voters}}
+#* {{quote-journal|en|author=Katie Hunt|title=Scientists discover hidden ancient forest on treeless island|magazine=w:CNN|url=https://www.cnn.com/2024/09/27/science/ancient-forest-falkland-islands|date=2024-09-27|passage=No trees have grown on the windswept Falkland Islands in the South Atlantic Ocean for '''tens''' of thousands of years — just shrubs and other low-lying vegetation. That’s why a recent arboreal discovery nearly 20 feet (6 meters) beneath the ground caught researchers’ attention.}}
+# {{lb|en|countable|cards}} A [[card]] in a [[given]] [[suit]] with a [[value]] of ten.
+# {{lb|en|countable}} A [[denomination]] of [[currency]], such as a [[banknote]], with a [[value]] of ten [[monetary unit|units]].
+#: {{syn|en|tenner}}
+#: {{ux|en|Can you give me two '''tens''' for this twenty?}}
+# {{lb|en|countable|US|slang}} A [[perfect]] [[specimen]], {{lb|en|particularly}} a [[physically]] [[attractive]] [[person]].
+#: {{syn|en|dime piece}}
+#* {{quote-av
+|en
+|url=https://ia800705.us.archive.org/33/items/Penn_Radio_archive/The.Penn.Jillette.Radio.Show.2006.05.09.mp3
+|time=22:22
+|quotee=Chris
+|date=May 09, 2006
+|title=w:Penn Radio
+|author=w:Penn Jillette; w:Michael Goudeau
+|text=I was in the Woodley Park–Zoo in D.C. and mom and sister were waiting to see the pandas, so me and my pops broke away to check out the monkey house. Well, there was a beautiful teacher, I mean we're talking a '''ten''', she was blond, had a low-cut dress on, just gorgeous. And she has about eight or nine students and she's pointing out all the different monkeys. And me and my dad noticed this huge orangutan kind of fiddling with himself. And on close [''censored''] And we kept checking it out and he was looking directly at the teacher. Well, a couple minutes passed by [''censored''] he proceeds to [''censored''] that's when the teacher noticed and, you know, took the kids away very hurriedly. But I looked at my dad and said, you know, they're so much like us.}}
+#* {{quote-web|en|url=https://www.thecut.com/article/office-ten-essay.html|title=Why Am I Attracted to My Coworker? Meet ‘The Office Ten’|work=New York Magazine|date=2023-09-11|author=Danielle Cohen|passage=An Office '''Ten''' is a person who falls somewhere between average to mildly good-looking in the world at large but skyrockets to wildly attractive within the confines of an open-concept desk plan.}}
+# {{rfv-sense|en}} {{lb|en|countable|US|slang}} A high level of intensity.
+#* {{quote-av|en|date=March 2, 1981|artist={{w|Ted Nugent}}|title={{w|Intensities in 10 Cities}}|text="Intensities in '''10''' Cities"}}
+#* {{quote-av|en|date=March 2, 1984|writers={{w|Christopher Guest}}; {{w|Michael McKean}}; {{w|Harry Shearer}}; Rob Reiner (writers)|title={{w|This is Spinal Tap}}|text=...<br/>Marty Di Bergi (Rob Reiner): ''"Why don't you just make '''ten''' louder, and make '''ten''' be the top number?"''<br/><br/>Nigel Tufnel (Christopher Guest): {{w|Up_to_eleven|''"These go to eleven."''}}}}
+#* {{quote-av|en|date=February 14, 1992|writers={{w|Mike Myers}}; {{w|Bonnie and Terry Turner|Bonnie Turner}}; {{w|Bonnie and Terry Turner|Terry Turner}}|title={{w|Wayne's World (film)}}|text=...<br/>Wayne Campbell (Mike Myers): ''"You guys kick ass. You're {{w|Double Live Gonzo}}. {{w|Intensities in '''10''' Cities}}. {{w|Live_at_Budokan_(Ozzy_Osbourne_album)|Live at Budokan}}."''}}
+# {{lb|en|countable|rowing}} The act of rowing ten [[stroke]]s [[flat out]].
+#* {{quote-text|en|year=1911|title=The Cambridge Review|volume=32|page=486
+|passage=At the 1,000-metres post we gave a '''ten''', which raised our lead to 1&frac23; lengths; the Belgians were rowing hard, but one felt that they still had plenty of spurting power.}}
+#* {{quote-text|en|year=1982|author=Stanley French|title=Aspects of Downing history|page=105
+|passage=Morris gave a '''ten''', and an unbelievable surge ran through the boat, one that I had never felt before.}}
+
+====Coordinate terms====
+* '''Previous''': [[nine]] ([[9]])
+* '''Next''': [[eleven]] ([[11]])
+
+====Derived terms====
+{{col3|en|title=Terms derived from the numeral or noun ''ten''|a hundred and ten percent
+|at ten and two
+|Bayard of ten toes|ten-tenths
+|card of ten
+|catch the ten
+|count to ten|handbags at ten paces
+|feel ten feet tall
+|five-and-ten,five and ten
+|five will get you ten
+|four score and ten
+|grade ten
+|hang ten
+|high ten
+|nine times out of ten
+|not touch something with a ten-foot pole,not touch with a ten-foot pole
+|number ten|ten-cent
+|starter for ten
+|take ten
+|ten a penny
+|ten-bagger,ten bagger|teenty|tenday|tenfoot|tenish|tenkey|tenmantale|tenness|tenpence|tenpenny|tenpercentery|tenpins|tenplex|tenscore|tensies|tensomething
+|ten-ball
+|ten-cent store
+|ten-cent tour
+|ten-cent word
+|ten-code
+|Ten Commandments
+|ten-dollar word
+|ten-eighty
+|ten foot|ten points from Gryffindor
+|ten-footer
+|ten foot pole
+|ten-for
+|ten-four
+|ten-gallon hat
+|ten-hut
+|ten-in-one
+|ten-lined June beetle|ten toes
+|Ten Mile Bank
+|Ten Mile Hollow
+|ten million
+|tenner
+|ten o'clock
+|ten penny nail
+|ten-penny nail
+|ten-percenter
+|ten piece
+|ten-pin,ten-pin bowling
+|ten points to Gryffindor
+|ten-pounder
+|tenpounder
+|ten pound pom
+|ten pound Pom
+|ten-pound tourist
+|ten pound tourist
+|ten sack
+|tens across the board
+|ten-second car
+|ten-second rule
+|ten-shun
+|ten-speed
+|ten-spot
+|ten-strike
+|ten-strip
+|ten thousand
+|ten-thousandth
+|ten toes down
+|ten to one
+|ten to the dozen
+|ten ways from Sunday
+|ten ways to Sunday
+|ten-wheeler
+|ten will get you twenty
+|ten-year series
+|three score and ten
+|top ten
+|two and ten
+|two upon ten
+|upper ten
+|upper ten thousand
+}}
+
+====Related terms====
+{{col2|en|tenfold|tenth}}
+
+====Translations====
+{{trans-top|set or group with ten elements}}{{multitrans|data=
+* Azerbaijani: {{t|az|[[on]] [[dənə]]}}, {{t|az|[[on]] [[nəfər]]}}, {{t|az|onluq}}
+* Bashkir: {{tt|ba|унау}}
+* Catalan: {{tt+|ca|desena}}
+* Finnish: {{tt+|fi|kymmenen}} {{q|attribute, use with [[ryhmä]], [[kasa]], [[nippu]] etc.}}, {{t+|fi|kymmenikkö}}
+* French: {{tt+|fr|dizaine}}
+* Greek: {{tt+|el|δεκάδα}}
+* Hindi: {{tt+|hi|दस|m}}, {{tt+|hi|दश|m}}, {{tt+|hi|दह|m}}
+* Polish: {{tt+|pl|dziesiątka|f}}
+* Russian: {{tt+|ru|деся́ток|m}}
+* Spanish: {{tt+|es|decena}}
+* Swedish: {{tt+|sv|tia|c}}
+* Urdu: {{t|ur|دَہَائی|f}}
+{{trans-bottom}}
+
+{{trans-top|inexact quantity}}
+* Finnish: {{t+|fi|kymmen}}
+{{trans-bottom}}
+
+{{trans-top|playing card with a value of ten}}
+* Bulgarian: {{t|bg|деся́тка|f}}
+* Czech: {{tt+|cs|desítka|f}}
+* Estonian: {{tt+|et|kümme}}
+* Finnish: {{tt+|fi|kymppi}}
+* German: {{tt+|de|Zehner|m}}
+* Hindi: {{t+|hi|दहला}}
+* Spanish: {{tt+|es|diez|m}}
+* Swedish: {{tt+|sv|tia|c}}
+{{trans-bottom}}
+
+{{trans-top|denomination of currency with a value of ten}}
+* Bulgarian: {{t|bg|десета́чка|f}}
+* Finnish: {{tt+|fi|kymppi}}
+* German: {{tt+|de|Zehnerl}}
+* Italian: {{tt+|it|dieci}}
+* Swedish: {{tt+|sv|tia|c}}
+{{trans-bottom}}
+
+{{trans-top|perfect specimen}}
+* Finnish: {{tt|fi|[[täysi]] [[kymppi]]}}
+{{trans-bottom}}
+
+{{trans-top|slang: high level of intensity}}
+* Finnish: {{tt+|fi|kybä}}
+{{trans-bottom}}
+
+{{trans-top|rowing: act of rowing ten strokes flat out}}
+{{trans-bottom}}
+
+{{rfc|en}}
+{{checktrans-top|the number following nine}}
+<!-- The translations in this list seem to have been under the header "number following nine", but the list seems to contain at least nouns and numerals -->
+* Afrikaans: {{tt+|af|tien}}
+* Albanian: {{tt+|sq|dhjetë}}
+* Amharic: {{tt|am|አስር}}
+* Arabic: {{tt+|ar|عَشَرَة|m}}, {{tt|ar|عَشْر|f}} (numeral: {{tt|ar|١٠}})
+*: Egyptian Arabic: {{tt|arz|عشرة|tr=ʕašaṛa}}
+* Aramaic:
+*: Classical Syriac: {{tt|syc|ܥܣܪܐ|m|tr=ʿesrā}}, {{tt|syc|ܥܣܪ|f|tr=ʿəsar}}
+*: Jewish Babylonian Aramaic: {{tt|arc|עַסְרָא|m|tr=ʿasrā}}, {{tt|arc|עֲסַר|f|tr=ʿăsar}}
+*: Western Neo-Aramaic: {{tt|amw|ܐܥܣܪ|m|tr=ʾeʿsar}}, {{tt|amw|ܥܣܪܐ|f|tr=ʿasraʾ}}
+* Armenian: {{tt+|hy|տասը}}, {{tt+|hy|տասն}}
+* Asturian: {{tt+|ast|diez|m}}
+* Bashkir: {{tt|ba|ун}}
+* Basque: {{tt+|eu|hamar}}
+* Belarusian: {{tt|be|дзяся́тка}}
+* Bengali: {{tt+|bn|দশ}}
+* Bulgarian: {{tt|bg|десет}}
+* Burmese: {{tt+|my|တဆယ်}}
+* Catalan: {{tt+|ca|deu|m}} (1,2,3)
+* Cebuano: {{tt|ceb|napulo}}
+* Chichewa: {{tt|ny|khumi}}
+* Chinese:
+*: Mandarin: {{tt+|cmn|十|tr=shí}}
+* Corsican: {{tt+|co|deci}}
+* Czech: {{tt+|cs|pětka|f}} (3)
+* Danish: {{tt|da|tital|n}} (1), {{tt|da|tier|c}} (2, 3)
+* Dutch: {{tt+|nl|tien|f}} (1,2), {{tt+|nl|tientje|n}} (3)
+* Estonian: {{tt+|et|kümme}}
+* French: {{tt+|fr|dix|m}} (1,2,3)
+* Frisian:
+*: West Frisian: {{tt+|fy|tsien}}
+* Galician: {{tt+|gl|dez}}
+* Georgian: {{tt+|ka|ათი}}
+* German: {{tt+|de|Zehn|f}} (2)
+*: Alemannic German: {{tt|gsw|zää}}
+* Gilbertese: {{tt|gil|tebwina}}
+* Gujarati: {{tt|gu|દસ}}
+* Haitian Creole: {{tt|ht|dis}}
+* Hausa: {{tt|ha|goma}}
+* Hawaiian: {{tt|haw|umi}}
+* Hebrew: {{tt+|he|עֶשְׂרֵה|tr=ʾesré|f}}
+*: Biblical Hebrew: {{tt+|he|עֲשָּׂרָה|tr=ʿăśśārā|m}}, {{tt+|he|עֶשֶׂר|tr=ʿeśer|f}}
+* Hungarian: {{tt+|hu|tíz}}
+* Icelandic: {{tt+|is|tíu}}
+* Indonesian: {{tt+|id|sepuluh}}
+* Irish: {{tt+|ga|deich}}
+* Italian: {{tt+|it|dieci|m}} (1,2,3)
+* Japanese: {{tt+|ja|十|tr=jū}}, {{tt+|ja|とお|tr=tō}}
+* Javanese: {{tt+|jv|sepuluh}}
+* Kannada: {{tt+|kn|ಹತ್ತು}}
+* Kazakh: {{tt+|kk|он}}
+* Khmer: {{tt+|km|ដប់}}
+* Korean: {{tt+|ko|십}}
+* Kurdish:
+*: Northern Kurdish: {{tt+|kmr|deh}}
+* Kyrgyz: {{tt+|ky|он}}
+* Ladino: {{tt|lad|דייס}}, {{tt|lad|dyes}}
+* Latin: {{tt+|la|decem}}
+* Latvian: {{tt+|lv|desmit}}
+* Lithuanian: {{tt+|lt|dešimt}}
+* Lü: {{tt|khb|ᦉᦲᧇ}}
+* Luxembourgish: {{tt+|lb|zéng}}
+* Macedonian: {{tt|mk|десетка|f}}
+* Malagasy: {{tt+|mg|folo}}
+* Malay: {{tt+|ms|sepuluh}}
+* Malayalam: {{tt+|ml|പത്ത്}}
+* Maltese: {{tt+|mt|għaxra}}
+* Māori: {{tt+|mi|tekau}}
+* Marathi: {{tt|mr|दहा}}
+* Miwok:
+*: Central Sierra Miwok: {{tt|csm|naˀá·ča-}}
+* Mongolian: {{tt+|mn|арав}}, {{tt|mn|арван}}
+* Nepali: {{tt|ne|दस}}
+* Norwegian: {{tt+|no|ti}}
+* Persian: {{tt+|fa|ده}} (dah)
+* Polish: {{tt+|pl|dziesiątka|f}} (1,2), {{tt+|pl|dycha|f}} {{qualifier|informal}} (3)
+* Portuguese: {{tt+|pt|dez|m}} (1,2)
+* Punjabi: {{tt|pa|ਦਸ}}
+* Romanian: {{tt+|ro|zece|m}} (1), {{tt+|ro|decar|m}} (2)
+* Russian: {{tt+|ru|деся́тка|f}}
+* Samoan: {{tt|sm|sefulu}}
+* Scottish Gaelic: {{tt|gd|deich|m}}
+* Serbo-Croatian: {{tt|sh|десет}}, {{tt|sh|deset}}
+* Shona: {{tt|sn|gumi}}
+* Sindhi: {{tt+|sd|ڏَهَه}}, {{tt|sd|ڏَهَيلو}}
+* Slovak: {{tt|sk|desiatka|f}} (1,2), {{tt|sk|desaťkorunáčka|f}} (3)
+* Slovene: {{tt+|sl|desét}}
+* Somali: {{tt+|so|toban}}
+* Sotho: {{tt+|st|leshome}}
+* Spanish: {{tt+|es|diez}}
+* Sundanese: {{tt+|su|sapuluh}}
+* Swahili: {{tt+|sw|kumi}}
+* Tagalog: {{tt+|tl|sampu}}, {{tt|tl|diyes}}
+* Tajik: {{tt+|tg|даҳ}}
+* Tamil: {{tt+|ta|பத்து}}
+* Telugu: {{tt+|te|పది}}
+* Thai: {{tt+|th|สิบ}}
+* Turkish: {{tt+|tr|on}}
+* Ukrainian: {{tt+|uk|десять}}
+* Uzbek: {{tt+|uz|o‘n}}
+* Vietnamese: {{tt+|vi|mười}} (1)
+* Welsh: {{tt+|cy|deg}}
+* Xhosa: {{tt|xh|shumi}}
+* Yiddish: {{tt+|yi|צען}}
+* Zulu: {{tt|zu|ishumi}}
+}}
+{{trans-bottom}}
+{{checktrans-top}}
+* Gun: Awo
+* Ogun: Awóh, Wó, Awo
+{{trans-bottom}}
+
+====See also====
+* {{sense|prefix}} [[deca-]], [[deka-]]
+* {{sense|adjective}} [[decadal]], [[decenary]]
+* {{sense|a set of 10 items}} [[decimate]], [[decimal]]; [[decaplet]], [[decuplet]] {{qualifier|of babies, musical notes, or baryons}}
+* {{sense|containing 10 items}} [[decenary]]
+* {{sense|related to base-10 numeration}} ''See'' '''[[decimal]]'''
+* {{sense|period of 10 months}} [[decimestrial]]
+* {{sense|period of 10 years}} ''See'' '''[[decade]]''' ''and'' '''[[decennium]]'''
+* {{sense|related to a 10-year period}} ''See'' '''[[decadal]]''' ''and'' '''[[decennial]]'''
+* {{sense|10-year anniversary}} ''See'' '''[[decennial]]'''
+* {{sense|rule by 10 people}} ''See'' '''[[decemvirate]]'''
+* {{sense|commander of 10 soldiers}} ''See'' '''[[decener]]'''
+* {{sense|chief of 10 men in early English law}} ''See'' '''[[tithingman]]'''
+* {{sense|payment or collection of a 10% tax}} ''See'' '''[[tithe]]'''
+
+{{table:playing cards/en}}
+
+===Anagrams===
+* {{anagrams|en|a=ent|Net|net|ent|NET|-ent|.NET|ENT|Ent|ent-}}
+
+{{C|en|Appearance|Ten}}
+
+==Ahtna==
+
+===Etymology 1===
+From {{inh|aht|ath-pro|*tən||ice, frost}}. Cognate with {{cog|nv|tin}}.
+
+====Noun====
+{{head|aht|noun|cat2=∅-gender nouns}}
+
+# [[ice]]
+
+====Root====
+{{head|aht|root}}
+
+# to [[freeze]], be [[frozen]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{aht-stem-set-row|conc|ten|ten|ten|ten}}
+{{aht-stem-set-row2|mom|{{l|aht|tiis}}|{{l|aht|ten}}|{{l|aht|tiił}}|?}}
+{{aht-stem-set-row|dist|ten|ten|ten|ten}}
+{{aht-stem-set-row|cust|tiis|tiis|tiis|tiis}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+{{col2|aht
+|sten<t:it froze, is frozen>
+|testen<t:it is starting to freeze>
+|ngheltiis<t:it customarily freezes>
+|dakngelten<t:it froze inside>
+|nangalten<t:it froze downward>
+|uyii ngeltiisi<t:freezer>
+|natsaanʼngełteni<t:hailstone>
+}}
+
+====References====
+* {{Kari|page=331-332}}
+
+===Etymology 2===
+From {{m|aht|tene||trail}}
+
+====Root====
+{{head|aht|root}}
+
+# to [[have]] a [[trail]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{aht-stem-set-row|neu|ten|tiinʼ|tiił|tiinʼ}}
+{{aht-stem-set-footer}}
+
+====References====
+* {{Kari|page=333}}
+
+===Etymology 3===
+
+====Root====
+{{head|aht|root}}
+
+# [[dirt]] [[accumulate]]s
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{aht-stem-set-row|neu|ten|tiinʼ|tiił|tiinʼ}}
+{{aht-stem-set-footer}}
+
+====References====
+* {{Kari|page=332}}
+
+===Etymology 4===
+
+====Root====
+{{head|aht|root}}
+
+# to be [[surfeit]], get [[tired]] of
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{aht-stem-set-row|conc|ten|ten|ten|ten}}
+{{aht-stem-set-row|mom|tiis|ten|tiił|tiinʼ}}
+{{aht-stem-set-row|cust|tiis|tiis|tiis|tiis}}
+{{aht-stem-set-footer}}
+
+====References====
+* {{Kari|page=332}}
+
+{{topics|aht|Ice|Water}}
+
+==Atong (India)==
+
+===Etymology===
+From {{bor|aot|en|ten}}.
+
+===Pronunciation===
+* {{IPA|aot|/ten/}}
+
+===Numeral===
+{{aot-num|তেন}}
+
+# [[ten]]
+
+====Synonyms====
+* {{l|aot|chyigyk}}
+* {{l|aot|dys}} / {{l|aot|das}}
+
+===References===
+* {{R:aot:Breugel}} Stated in Appendix 2.
+
+==Bislama==
+{{numberbox|bi}}
+
+===Etymology===
+From {{inh|bi|en|ten}}.
+
+===Numeral===
+{{head|bi|numeral}}
+
+# [[#English|ten]]
+
+==Catalan==
+
+===Pronunciation===
+* {{ca-IPA|é}}
+* {{rhymes|ca|en|s=1}}
+
+===Verb===
+{{head|ca|verb form}}
+
+# {{ca-verb form of|tenir}}
+# {{ca-verb form of|tindre}}
+
+====Usage notes====
+Generally, the imperative form {{m|ca|ten}} is a contextual form of {{m|ca|té}} used when clitic pronouns (e.g., {{m|ca|te}}) are attached to the end of the verb.
+
+==Cornish==
+
+===Noun===
+{{head|kw|mutated noun}}
+
+# {{hard mutation of|kw|den}}
+# {{mixed mutation of|kw|den}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:ten|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-ten.ogg}}
+
+===Pronoun===
+{{head|cs|pronoun|cat2=demonstrative pronouns}}
+
+# [[the]], [[this]], [[that]]
+
+====Declension====
+{{cs-adecl|<irreg>|pos=pronoun}}
+
+====Derived terms====
+{{col|cs|tamten|tenhle|tentam|tento|tentýž|kdo dřív přijde, ten dřív mele|komu se nelení, tomu se zelení}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+==Danish==
+
+===Etymology===
+From {{inh|da|non|teinn||stick}}.
+
+===Noun===
+{{da-noun}}
+
+# a [[spindle]]; a rod or stick used together with a [[distaff]] to [[spin]] yarn
+# in a [[spinning wheel]] or similar machine: the [[reel]] on which the finished yarn is spooled
+
+====Declension====
+{{da-decl|en|e}}
+
+====Derived terms====
+* {{l|da|håndten||manual spindle}}
+
+===Further reading===
+* {{R:DDO}}
+
+==Dena'ina==
+
+===Pronunciation===
+* {{tfn-IPA|ten}}
+
+===Etymology 1===
+From {{inh|tfn|ath-pro|*tən}}.
+
+====Noun====
+{{head|tfn|noun}}
+
+# [[ice]]
+
+====References====
+* {{Kari13|page=129}}
+
+===Etymology 2===
+From {{inh|tfn|ath-pro|*təŋʸ-eˑ}}.
+
+====Noun====
+{{head|tfn|noun}}
+
+# [[trail]], [[road]], [[path]]
+#: {{syn|tfn|tinitun}}
+
+====Derived terms====
+* {{l|tfn|kʼten}}
+
+====References====
+* {{Kari13|page=234}}
+
+{{topics|tfn|Water}}
+
+==Dutch==
+
+===Etymology===
+A contraction of {{m|nl|te}} + {{m|nl|den}}. Compare {{cog|de|zum}}.
+
+===Pronunciation===
+* {{IPA|nl|/tɛn/}}
+* {{audio|nl|Nl-ten.ogg}}
+
+===Contraction===
+{{head|nl|contraction}}
+
+# to the, at the {{qualifier|followed by a masculine or neuter word}}
+#: {{uxi|nl|'''ten''' goede of '''ten''' kwade|for better or for worse}}
+#: {{uxi|nl|'''ten''' dele|partly}}
+#: {{uxi|nl|'''ten''' tijde van|during the time of}}
+
+====Usage notes====
+: {{m|nl|ten}} is part of many fossilized idiomatic expressions. Being derived in part from {{m|nl|te}}, it is followed by the (similarly fossilized) dative case.
+: {{m|nl|ten}} is commonly used in Dutch family names such as {{w|Corrie ten Boom}}, {{w|Bernhard ten Brink}}, {{w|Marti ten Kate}}, and {{w|Simeon ten Holt}}.
+
+====Derived terms====
+{{col|nl
+|dientengevolge
+|heden ten dage
+|Sint Jan ten Heere
+|ten aanzien van
+|ten algemenen nutte
+|ten behoeve van
+|ten dode opgeschreven
+|ten eerste
+|ten gehore brengen
+|ten gevolge van
+|ten gunste van
+|ten langen leste
+|ten minste,tenminste
+|ten naaste bij
+|ten onrechte
+|ten opzichte van
+|ten slotte,tenslotte
+|ten spijt
+|ten tijde van
+|tentoonstellen
+|ten zeerste
+}}
+
+====Related terms====
+* {{l|nl|ter}}
+
+===Anagrams===
+* {{l|nl|ent}}, {{l|nl|net}}
+
+==Galician==
+
+===Alternative forms===
+* {{alter|gl|tem||Reintegrationist}}
+
+===Pronunciation===
+{{gl-pr|tèn}}
+* {{hyph|gl|ten|}}
+
+===Verb===
+{{head|gl|verb form}}
+
+# [[has]]; {{inflection of|gl|ter||3|s|pres|indc}}
+#: {{ux|gl|A cervexa '''ten''' en Galicia unha longa historia.|Beer '''has''' a long history in Galicia.}}
+# {{gl-verb form of|ter}}
+
+===References===
+* {{R:gl:DRAG|ter}}
+* {{R:gl:DDLG}}
+* {{R:gl:DDGM|ter}}
+* {{R:gl:CX}}
+
+==Gilbertese==
+{{number box|gil}}
+
+===Etymology 1===
+From {{inh|gil|poz-oce-pro|*tolu}}, from {{inh|gil|poz-pro|*təlu}}, from {{inh|gil|map-pro|*təlu}}.
+
+====Pronunciation====
+* {{IPA|gil|/ten/}}
+
+====Numeral====
+{{head|gil|numerals|cat2=cardinal numbers}}
+
+# [[three]]
+
+===Etymology 2===
+From {{bor|gil|en|tin}}.
+
+====Pronunciation====
+* {{IPA|gil|/ten/}}
+
+====Noun====
+{{head|gil|noun}}
+
+# [[tin]]
+
+===References===
+* {{R:gil:KED|dic_t.htm#ten}}
+
+{{C|gil|Three|Metals}}
+
+==Jamaican Creole==
+{{number box|jam|10}}
+
+===Etymology===
+{{ety|jam|:inh|en:ten|tree=1}}
+{{inh+|jam|en|ten}}.
+
+===Numeral===
+{{head|jam|num}}
+
+# {{l|en|ten}}
+
+===Further reading===
+* {{R:jam:majstro.com}}
+* {{R:jam:OGP}}
+
+{{cln|jam|cardinal numbers}}
+{{C|jam|Ten}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|てん}}
+# {{ja-romanization of|テン}}
+
+==Kabuverdianu==
+
+===Etymology===
+{{ety|kea|:der|pt:ter|text=+|tree=1}}
+
+===Verb===
+{{head|kea|verb}}
+
+# to [[have]]
+# to [[possess]]
+
+==Karaim==
+
+===Etymology===
+From Ultimately from {{der|kdr|ltc|-}} {{ltc-l|等|to equate}}.
+
+Cognate with
+{{cog|otk||tr=teŋ|t=equal, equivalent, appropriate}};
+{{cog|crh|teñ}},
+{{cog|krc|тенг}},
+{{cog|kum|тенг}},
+{{cog|uum|тэнг|tr=teŋ}},
+{{cog|kk|тең|t=equal}},
+{{cog|alt|теҥ|t=equal}}
+{{cog|uz|teng|t=equal}},
+{{cog|tr|denk|t=equal, equivalent}},
+{{cog|cjs|тең}},
+{{cog|sah|тэҥ|t=equal}}.
+
+===Adjective===
+{{head|kdr|adjective}}
+
+# [[equal]]
+
+===References===
+* {{R:kdr:Baskakov}}
+
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=this|:inh|sla-pro:*tъ<id:this>|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Pronoun===
+{{head|csb|pronoun|cat2=demonstrative pronouns}}
+
+# [[this]] {{gl|nearby}}
+
+===Further reading===
+* {{R:csb:SJP1893|+|213}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|9286}}
+
+==Lithuanian==
+
+===Etymology===
+From Proto-Baltic [[Reconstruction:Proto-Baltic/ten|*ten]] "thither", formed from [[Reconstruction:Proto-Balto-Slavic/tas|*tas]] by analogy with Proto-Balto-Slavic [[Reconstruction:Proto-Balto-Slavic/kun|*kun]] "whither", from Proto-Indo-European [[Reconstruction:Proto-Indo-European/kú|*kú]], with an accusative suffix ''-m''.<ref>https://www.prusistika.flf.vu.lt/zodynas/paieska/1?id=808</ref>
+
+===Pronunciation===
+{{lt-pr|teñ}}
+
+===Adverb===
+{{head|lt|adverbs}}
+
+# [[there]]
+
+===References===
+{{reflist}}
+
+==Lower Sorbian==
+
+===Etymology===
+{{inh+|dsb|sla-pro|*tъ}}.
+
+===Pronunciation===
+* {{IPA|dsb|[tɛn]}}
+
+===Determiner===
+{{head|dsb|determiner|feminine|ta|neuter|to|dual|tej|plural|te}}
+
+# [[this]]
+
+====Declension====
+{{dsb-decl-det-50|t}}
+
+==Lower Tanana==
+
+===Etymology 1===
+From {{inh|taa|ath-pro|*tən||ice}}, whence also {{m|taa|tenh}}. Cognate with {{cog|aht|ten}}.
+
+====Root====
+{{head|taa|root}}
+
+# to [[freeze]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|conc|ten|ten|ten|ten}}
+{{taa-stem-set-row|mom|tiyh|tenh|tiɬ|tiɬ}}
+{{taa-stem-set-row2|neu|{{l|taa|ten}}|{{l|taa|tin'}}|—|—}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+* {{l|taa|benenh noxwdetiyi||March}}
+* {{l|taa|ch'etenh||frozen object}}
+* {{l|taa|deteni||large pike}}
+* {{l|taa|ghedetenh||it is freezing (''gh-''gender)}}
+* {{l|taa|negholtiɬ||it is freezing (∅-gender)}}
+* {{l|taa|tdathdetenh||it (e.g. a lake) is starting to freeze}}
+* {{l|taa|noxuthdetenh||crusted snow}}
+* {{l|taa|xuthdetenh||an area is frozen}}
+
+====References====
+* {{Kari24|page=347-348}}
+
+===Etymology 2===
+From {{inh|taa|ath-pro|*təŋ}}.
+
+====Root====
+{{head|taa|root}}
+
+# to be [[asleep]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|neu|tenh|tin'|tin'|tiɬ}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+* {{l|taa|beɬneltenh||he/she is asleep}}
+
+====References====
+* {{Kari24|page=348}}
+
+===Etymology 3===
+From {{inh|taa|ath-pro|*təm}}. Cognate with {{cog|aht|łteni}}, {{m|aht|nełteni||thunder, grasshopper}}.
+
+====Root====
+{{head|taa|root}}
+
+# to [[thunder]]
+
+=====Stem set=====
+{{aht-stem-set-header}}
+{{taa-stem-set-row|cns|tenh|tenh|tenh|tenh}}
+{{taa-stem-set-row|mom|tiyh|tenh|tiɬ|tiɬ}}
+{{aht-stem-set-footer}}
+
+=====Derived terms=====
+* {{l|taa|nexwɬtenh||thunder strikes, a thunderstorm moves}}
+* {{l|taa|neɬteni||thunder}}
+* {{l|taa|neɬteni ch'ejega'||silverberry}}
+* {{l|taa|neɬteni dhedli'||rainbow}}
+* {{l|taa|neɬteni nagha'||silverberry}}
+
+====References====
+* {{Kari24|page=348-349}}
+
+==Middle Dutch==
+
+===Contraction===
+{{head|dum|contraction}}
+
+# {{contraction of|dum|te|den}}
+
+==Middle English==
+{{number box|enm|10}}
+
+===Etymology 1===
+{{dercat|enm|gmw-pro|gem-pro|ine-pro|inh=3}}
+{{inh|enm|ang|tīen}}, from {{inh|enm|gmw-pro|*tehun}}, from {{inh|enm|gem-pro|*tehun}}, from {{inh|enm|ine-pro|*déḱm̥}}.
+
+====Alternative forms====
+* {{alter|enm|tenne||late}}
+
+====Pronunciation====
+* {{IPA|enm|/tɛn/|/teːn/}}
+* {{rhymes|enm|ɛn|s=1}}
+
+====Numeral====
+{{enm-numeral|tene|pp_qual=especially <<early>>}}
+
+# [[#English|ten]]
+
+=====Related terms=====
+* {{l|enm|-tene}}
+* {{l|enm|tenthe}}, {{l|enm|tithe}}
+* {{l|enm|-ty}}
+
+=====Descendants=====
+* {{desc|en|ten}}
+* {{desc|sco|ten}}
+* {{desc|yol|dhen}}
+
+=====References=====
+* {{R:MED Online|entry=ten|pos=num|id=MED44763}}
+
+===Etymology 2===
+{{etymid|enm|to draw}}
+From {{inh|enm|ang|tēon}}, from {{inh|enm|gmw-pro|*teuhan|t=to pull, lead}}, from {{inh|enm|gem-pro|*teuhaną|t=to draw, lead, bring, pull, help}}, from {{der|enm|ine-pro|*dewk-|t=to pull, lead}}.
+
+====Alternative forms====
+* {{alter|enm|teen|tene}}
+
+====Verb====
+{{enm-verb|teth||tegh|towen|stem=te}}
+
+# {{lb|enm|transitive}} To [[draw]]; [[lead]].
+# {{lb|enm|intransitive}} To [[draw away]]; [[go]]; [[proceed]].
+
+=====Conjugation=====
+{{enm-conj-st|c=2|t|tegh|tow|tow|3s=teth|part=teynge|y=0}}
+
+=====Derived terms=====
+* {{l|enm|biteon}}
+* {{l|enm|forten}}
+
+===Etymology 3===
+From {{bor|enm|non|tennr}}, nominative indefinite plural of {{m|non|tǫnn||tooth}}.
+
+====Noun====
+{{head|enm|noun form}}
+
+# {{plural of|enm|toth}}
+
+{{cln|enm|cardinal numbers}}
+{{C|enm|Ten}}
+
+==Northern Kurdish==
+
+===Etymology===
+From {{bor|kmr|ar|طَعْن|t=piercing, attack, criticism}}.
+
+===Pronunciation===
+* {{kmr-IPA}}
+
+===Noun===
+{{kmr-noun|mf|}}
+
+# [[scolding]], [[reproach]], [[censure]], [[blame]], [[criticism]], [[mockery]], [[ridicule]]
+# [[threat]]
+
+===References===
+* {{R:kmr:Chyet|ten|page=604}}
+
+==Old Czech==
+
+===Alternative forms===
+* {{alt|zlw-ocs|tet}}
+
+===Etymology===
+{{ety|zlw-ocs|:inh|sla-pro:*tъ|text=+|tree=1}}
+
+===Pronunciation===
+* {{zlw-ocs-IPA}}
+
+===Pronoun===
+{{head|zlw-ocs|pronoun|cat2=demonstrative pronouns}}
+
+# [[this]] {{gl|nearby}}
+
+====Declension====
+{{zlw-ocs-adecl|<irreg>}}
+
+====Coordinate terms====
+{{zlw-ocs-adverbs}}
+
+====Derived terms====
+{{col|zlw-ocs|tento|toť|toten|tuten|mezitiem|zatiem|přědtiem|přitom|vtom|točúš|tověz|proto|protož|vetčas|mezitojú}}
+
+====Descendants====
+* {{desc|cs|ten}}
+
+====See also====
+{{col|zlw-ocs|tý|onen|sen}}
+
+===References===
+* {{R:zlw-ocs:Gebauer|+}}
+
+==Old English==
+
+===Alternative forms===
+* {{alter|ang|tēne|tȳn|tīen}}
+* {{alter|ang|tȳn|tīen||West Saxon}}
+
+===Etymology===
+See {{m|ang|tīen}}.
+
+===Pronunciation===
+* {{ang-IPA|tēn}}
+* {{rhymes|ang|eːn|s=1}}
+
+===Numeral===
+{{head|ang|numeral|head=tēn}}
+
+# {{lb|ang|Mercian}} {{cln|ang|cardinal numbers}} [[ten]]
+
+===References===
+* A. L. Mayhew, M. A. Synopsis of Old English Phonology, 123
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|tet}}
+
+===Etymology===
+{{etymon|zlw-opl|id=this|:inh|sla-pro:*tъ<id:this>|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Pronoun===
+{{head|zlw-opl|pronoun|cat2=demonstrative pronouns}}
+
+# [[this]] {{gl|nearby}}
+
+====Declension====
+{{rfinfl|zlw-opl|pronoun}}
+
+====Descendants====
+* {{desc|pl|ten}}
+* {{desc|szl|tyn}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Old Tupi==
+
+===Etymology===
+{{onomatopoeic|tpw}}.
+
+===Pronunciation===
+* {{IPA|tpw|/ten/|[ˈtɛ̃n]}}
+* {{rhyme|tpw|en|s=1}}
+
+===Particle===
+{{head|tpw|particle}}
+
+# {{lb|tpw|used with the verb ''{{link|tpw|'e}}''}} to be [[firm]], [[fixed]], or [[snug]] {{qlit|to make a "ten" sound}}
+
+====Related terms====
+{{col|tpw|gûym|tyk}}
+
+===References===
+{{reflist}}
+
+==Pipil==
+
+===Etymology===
+From {{inh|ppl|azc-nah-pro|*teen-|*teen-tlɨ}}, from {{inh|ppl|azc-pro|*tïni}}. Compare {{cog|nci|tēntli||lips}}.
+
+===Pronunciation===
+* {{IPA|ppl|/teːŋ/|a=standard}}
+* {{IPA|ppl|/teŋ/|a=Izalco}}
+
+===Noun===
+{{ppl-noun|head=-tēn|pl=[[tejten|-tejtēn]]}}
+
+# [[mouth]]
+#: {{ux|ppl|Muchi tikishtukak tik mu'''ten''' kwak tishulutzin katka|You used to put everything in your '''mouth''' when you were a little baby}}
+# [[edge]], [[brim]]
+#: {{ux|ppl|Shiktema ishta ma ne at ajsi ne i'''ten''' ne tzutzukul|Fill it up until the water reaches the '''edge''' of the jug}}
+# [[opening]]
+#: {{ux|ppl|Inat ka ini tepet kishtia pukti tik i'''ten'''|They say this volcano expels smoke form its “'''opening'''” (its crater)}}
+
+====Derived terms====
+{{col|ppl
+|[[tenpan|-tēnpan]]<t:edge>
+|[[tenshipal|-tēnshīpal]]<t:lip>
+|[[tentzun|-tēntzun]]<t:moustache” or “beard>
+|tēnkal<t:door”, “doorway>
+|tēntzin<t:window>
+|tēntzakka<t:lid” or “door>
+|[[tennamiki|-tēnnāmiki]]<t:to kiss>
+|tēnpēlua<t:to open one's mouth>
+}}
+
+===Noun===
+{{head|head=-tēn|ppl|relational noun}}
+
+# on the edge, [[outside]]
+#: {{ux|ppl|Tejchishket ka i'''ten''' ne shaput|They waited '''outside''' the cave}}
+
+{{ppl-rel||ten}}
+
+{{C|ppl|Face}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=this|:inh|zlw-opl:ten<id:this>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-ten.ogg;LL-Q809 (pol)-Olaf-ten.wav|mp=#}}
+
+===Pronoun===
+{{head|pl|pronoun|cat2=demonstrative pronouns}}
+
+# [[this]] {{gl|nearby}}
+
+====Usage notes====
+<sup>1</sup>The feminine accusative singular form [[tą#Pronoun|''tą'']] is {{l|en|proscribed}}, but overall much more common.
+
+====Declension====
+{{pl-decl-ten}}
+
+====Derived terms====
+{{col|pl|title=determiners|cały ten|ten cały}}
+{{col|pl|title=pronouns|tamten}}
+
+====Related terms====
+{{col|pl|potem|tydzień|przytomny|wtedy|tędy|taki|tutaj}}
+
+===Particle===
+{{head|pl|particle}}
+
+# {{ng|filler word}}
+#: {{uxi|pl|A no, '''ten'''...|Ah, '''yeah'''...}}
+
+===Trivia===
+{{pl-freq 1990|1196|782|1457|1080|1228|5743|10|600|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVII|TEN|11178|date=02.12.2008}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||42|7}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:bor|fr:teint|text=+|tree=1}}
+
+===Noun===
+{{ro-noun|n|tenuri}}
+
+# [[color]] of the [[face]]
+
+====Declension====
+{{ro-noun-n-uri}}
+
+==Scots==
+{{number box|sco|10}}
+
+===Etymology===
+{{word|sco|ine|déḱm̥}}
+{{inh+|sco|enm|ten}}, {{m|enm|tene}}, from {{inh|sco|ang|tīen}}, from {{inh|sco|gmw-pro|*tehun}}, from {{inh|sco|gem-pro|*tehun}}, from {{inh|sco|ine-pro|*déḱm̥}}.
+
+===Numeral===
+{{head|sco|numeral}}
+
+# {{l|en|ten}}
+
+===References===
+* {{R:Dictionary of the Scots Language|pos=num|accessdate=7 June 2024|source=DOST}}
+* {{R:Dictionary of the Scots Language|pos=num. adj|accessdate=7 June 2024|source=SND}}
+
+==Slovak==
+
+===Etymology===
+{{inh+|sk|sla-pro|*tъ}}, from {{der|sk|ine-pro|*só}}.
+
+===Pronunciation===
+* {{sk-IPA|Ten}}
+
+===Pronoun===
+{{head|sk|pronoun|g=m}}
+
+# [[the]]; [[this]]; [[that]]
+
+====Declension====
+{{sk-adecl|<irreg>|pos=pronoun}}
+
+====Related terms====
+* {{l|sk|to}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr|+<audio:LL-Q1321 (spa)-AdrianAbdulBaha-ten.wav<a:Colombia>>}}
+
+===Verb===
+{{head|es|verb form}}
+
+# {{es-verb form of|tener}}
+
+==Sranan Tongo==
+
+===Etymology===
+From {{der|srn|en|time}}.
+
+===Noun===
+{{head|srn|noun}}
+
+# [[time]]
+#* {{quote-song
+|srn
+|year=1975
+|author=w:nl:Mighty Botai
+|album=Onafhankelijkheid (Srefidensi) Suriname
+|title=Sranang Kong Fri
+|text=Atleba '''ten''' no sa de moro ini Sranan / Den bakra, den ben hori wi na baka / Den de bow den kondre kon na fesi / Meki wi e pina
+|t=The '''period''' of toiling will be no more in Suriname / The Dutch, they held us back / They built up their country successfully / Made us suffer}}
+
+{{topics|srn|Time}}
+
+==Sumerian==
+
+===Romanization===
+{{sux-rom}}
+
+# {{romanization of|sux|𒋼|tr=ten}}
+
+==Swedish==
+
+===Etymology===
+From {{inh|sv|gmq-osw|ten}}, from {{inh|sv|non|teinn|t=sprout, twig, branch}}, from {{inh|sv|gem-pro|*tainaz}}
+
+===Pronunciation===
+* {{audio|sv|LL-Q9027 (swe)-Moonhouse-ten.wav}}
+
+===Noun===
+{{sv-noun|c}}
+
+# a thin [[metal]] [[rod]]
+# {{lb|sv|spinning}} the [[shaft]] of a [[spindle]] (in any material)
+
+====Declension====
+{{sv-infl-noun-c-ar}}
+
+====Derived terms====
+* {{l|sv|telning}}
+
+====See also====
+* {{l|sv|slända||spindle}}
+* {{l|sv|sländtrissa||spindle whorl}}
+
+===References===
+* {{R:svenska.se}}
+* {{R:runeberg.org|svetym|1049.html ten}}
+
+==Tiang==
+
+===Noun===
+{{head|tbj|noun}}
+
+# [[woman]]
+
+===Further reading===
+* {{R:poz-oce:Ross:1988}}
+
+==Tok Pisin==
+{{number box|tpi|10}}
+
+===Etymology===
+From {{inh|tpi|en|ten}}.
+
+===Numeral===
+{{head|tpi|numeral}}
+
+# [[ten#English|ten]]
+
+====Usage notes====
+Used when counting; see also [[tenpela]].
+
+====Coordinate terms====
+{{tpi-cardinals}}
+
+{{cln|tpi|cardinal numbers}}
+
+==Turkish==
+
+===Etymology===
+{{ety|tr|:inh|ota:تن<tr:ten><ety:uder<fa:تن<tr:tan>>>|text=2|tree=1}}
+
+===Pronunciation===
+* {{IPA|tr|/tɛn/}}
+
+===Noun===
+{{tr-noun|i|ler}}
+
+# [[skin]]
+# [[body]]
+# {{lb|tr|dialectal}} vulva of a cow
+
+====Declension====
+{{tr-infl-noun-c|e|poss=1}}
+
+===References===
+* {{R:tr:DS}}

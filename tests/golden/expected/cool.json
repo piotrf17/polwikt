@@ -1,0 +1,48 @@
+{
+ "entries": [
+  {
+   "adjective": {
+    "not_comparable": true
+   },
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈkul/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "cool (in its informal senses)",
+     "keywords": [
+      {
+       "text": "cool"
+      }
+     ],
+     "labels": [
+      "slang"
+     ],
+     "relations": [
+      {
+       "term": "świetny",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "wspaniały",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "znakomity",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Unadapted borrowing from English cool."
+  }
+ ],
+ "lemma": "cool"
+}

@@ -249,8 +249,18 @@ figure.
 
 ---
 
-## M7 — Nominal inflection (nouns, adjectives, pronouns, numerals)
-*Needs M4, M5. ~1–2 weeks.*
+## M7 — Nominal inflection (nouns, adjectives, pronouns, numerals) ✅
+*Needs M4, M5. ~1–2 weeks.* *Done 2026-10-12.* `parse/tables.py` (grid with spans),
+`extract/inflection.py` + `data/inflection.toml` (header → tag map, table kinds,
+irregular, drop prefixes), `extract/headword.py` (genders, tantum, comparison). Schema:
+`AdjectiveInfo`, table kinds `COMPARISON` and `COMBINED_FORMS`. `{{pl-cardinals}}` is a
+navigation box, now ignored; Standard Kurpian tables are dropped and counted (R6.6d).
+11 nominal fixtures added (85 pages); `tests/test_inflection.py` holds the exit cases.
+Measured on the first 3,000 pages: 14.1 pages/s (R9.2), 0 errors, every table template
+yielded a table, no unknown header. Declension coverage among lemma entries: nouns
+83.6%, proper nouns 67.9%, pronouns 63.6%, numerals 100%, adjectives 26.3% — the misses
+are entries whose page has no table (indeclinable loans: *DVD*, *NATO*, *cool*,
+*khaki*; 15 adjectives are marked `indecl`), not parser failures.
 
 - Each expanded table becomes an `InflectionTable` (kind, title, irregular) and its
   cells `Form`s pointing into it, in table order with alternatives primary-first.

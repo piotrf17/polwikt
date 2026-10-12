@@ -1,6 +1,50 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "się",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE"
+     }
+    },
+    {
+     "form": "siebie",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE"
+     }
+    },
+    {
+     "form": "sobie",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE"
+     }
+    },
+    {
+     "form": "się",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE"
+     }
+    },
+    {
+     "form": "siebie",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE"
+     }
+    },
+    {
+     "form": "sobą",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL"
+     }
+    },
+    {
+     "form": "sobie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE"
+     }
+    }
+   ],
    "pos": "POS_PRONOUN",
    "pronunciations": [
     {
@@ -47,6 +91,12 @@
        "text": "home"
       }
      ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of się"
     }
    ]
   },

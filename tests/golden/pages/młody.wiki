@@ -1,0 +1,203 @@
+==Lower Sorbian==
+
+===Alternative forms===
+* {{l|dsb|mlody}} {{qualifier|obsolete}}
+
+===Etymology===
+{{dercat|dsb|ine-bsl-pro|ine-pro|inh=2}}
+{{inh+|dsb|sla-pro|*moldъ}}.
+
+===Pronunciation===
+* {{IPA|dsb|[ˈmwɔdɨ]}}
+
+===Adjective===
+{{dsb-adj|młodšy}}
+
+# [[young]]
+
+====Declension====
+{{dsb-decl-adj-auto}}
+
+====Antonyms====
+* {{l|dsb|stary||old}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=young|:inh|sla-pro:*mȏldъ|tree=1|text=+}} {{etydate|14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|młody:}}
+
+===Adjective===
+{{zlw-opl-adj|młodszy}}
+
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[young]] {{gl|recently born}}
+#* {{RQ:zlw-opl:Gn|4b|Tesczy szø gest on Xt dzisza vczin[i]l stary y '''mlody'''|Teżci się jest on [Kryst] dzisia uczyn[i]ł stary i '''młody'''|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[young]]; [[small]]
+#* {{RQ:zlw-opl:Gn|172a|Alle szø ga po grzechu tego barszo bogø, yszeszmy iusz ten tho dar fszythczy straczyly, a tho vygøfszy dzatky '''mlode'''|Ale się ja po grzechu tego barzo boję, iżesmy już ten to dar wszytcy stracili, a to wyjąwszy dziatki '''młode'''|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[little]] {{gl|of a sibling, younger in age}}
+#* {{RQ:zlw-opl:AcCas|317|1394|Item '''mlody''' Wolek|Item '''młody''' Wołek|-}}
+# {{lb|zlw-opl|relational}} [[youth]] {{gl|of or relating to the early years of life}}
+#* {{RQ:zlw-opl:Wisł|228|85|1437|Mlodich lat annis pubescentibus|Młodych lat annis pubescentibus|-}}
+# {{lb|zlw-opl|attested in|Greater Poland}} [[new]], not [[old]]; [[fresh]]
+#* {{RQ:zlw-opl:OrtMac|37|Obwyny-ly '''mloda''' rada szthara|Obwinili '''młoda''' rada starą|-}}
+# [[immature]]
+#* {{RQ:zlw-opl:Rost|2463|1437|'''Mlodi''' groch ascania|'''Młody''' groch ascania|-}}
+
+===Noun===
+{{zlw-opl-noun|m-an!}}
+
+# {{lb|zlw-opl|nominalized|attested in|Lesser Poland}} [[young]] person
+#* {{RQ:zlw-opl:Fl|77, 69|'''Mlode''' gich snadl ogen (iuvenes eorum comedit ignis)|'''Młode''' jich śniadł ogień (iuvenes eorum comedit ignis)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjectives|młodszy lat|młodziwny}}
+{{col|zlw-opl|title=nouns|młodość|młodzic|młodzica|młodziczka|młodziec|młodzież|młodzik|młodzianek|młodzienica|młodzieniec|młodzieństwo|młodzionek|odmłódź|młoda niewiasta}}
+{{zlw-opl-derived verbs|-/młodnąć|odmłodzić/-}}
+
+====Descendants====
+* {{desc|pl|młody|alts=1}}
+* {{desc|szl|mody}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+* {{R:zlw-opl:Rozariusze|+|46}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|mołody|młód||Middle Polish}}
+
+===Etymology===
+{{etymon|pl|id=young|:inh|zlw-opl:młody|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809 (pol)-Gower-#.wav|mp=#|kur=#}}
+
+===Adjective===
+{{pl-adj|młodszy|adv=młodo|mpsup=namłodszy}}
+
+# [[young]] {{gl|in the early part of growth or life; born not long ago; characteristic of such a person or thing}}
+#: {{ant|pl|stary}}
+# [[young]]; [[new]], [[fresh]] {{gl|having been in a particular function or type of person for very few years}}
+#: {{ant|pl|stary}}
+# [[young]] {{gl|at an early stage of existence or development; having recently come into existence}}
+#: {{ant|pl|stary}}
+# {{lb|pl|not comparable|of fruit, crops, etc.}} [[new]] {{gl|having grown in the current season}}
+#: {{syn|pl|nowy|tegoroczny}}
+#: {{ant|pl|zeszłoroczny}}
+# {{lb|pl|of products}} [[young]]; [[immature]]
+#: {{syn|pl|niedojrzały}}
+# {{lb|pl|of plants}} [[young]], [[budding]]
+# {{lb|pl|relational|Middle Polish}} [[youth]]; [[early]]
+#: {{syn|pl|wczesny}}
+# {{lb|pl|Middle Polish}} [[innocent]]
+#: {{syn|pl|niewinny}}
+# {{lb|pl|Middle Polish}} [[crisp]]; [[perky]]; [[durable]]
+# {{lb|pl|Middle Polish}} [[delicate]], [[weak]]
+#: {{syn|pl|delikatny|słaby}}
+# {{lb|pl|Middle Polish}} [[junior]] {{gl|having a lower position in a hierarchy}}
+# {{lb|pl|Middle Polish}} [[inexperienced]]
+#: {{syn|pl|niedoświadczony}}
+# {{lb|pl|Middle Polish}} {{def-uncertain|pl|nohypothesis=1}}
+#* {{RQ:pl:BartBydg|156b|Tener, mdly, mollis, fragilis, flexibilis, '''mlody''', czudny|Tener, mdly, mollis, fragilis, flexibilis, '''młody''', cudny|-}}
+#* {{RQ:pl:Calep|841b|Praetener – Barzo '''młodi''', czienki.|Praetener – Barzo '''młody''', cienki.|-}}
+
+====Declension====
+{{pl-adecl}}
+
+====Derived terms====
+{{col|pl|title=adjectives|młody duchem|młodszy|wiecznie młody|młodociany|młodzieńczy|młodzieżowy|młodziutki|młodopolski}}
+{{col|pl|title=adverbs|jak młody bóg|młodzieńczo|młodziutko|młodzieżowo|za młodu}}
+{{col|pl|title=interjections|młody człowieku}}
+{{col|pl|title=nouns
+|młode
+|młodzi
+|młodziak
+|młodzian
+|młodzieniec
+|młodzież
+|młodzieżowiec
+|młodziczka
+|młodzieńczość
+|młodzieniaszek
+|młodnik
+|młodniak
+|młodość
+|młodopolszczyzna
+|młódka
+|pan młody
+|młoda godzina
+|młoda gwardia
+|młoda para
+|Młoda Polska
+|młody dorosły
+|młody księżyc
+|młody wilk
+|panna młoda
+|młoda woda<l:dialectal>
+}}
+{{pl-derived verbs|impf_first=1|młodnieć/odmłodnieć}}
+
+====Trivia====
+{{pl-freq 1990|26|29|43|61|47|206|268|250|1}}
+
+===Noun===
+{{pl-noun|m-pr|f=młoda}}
+
+# {{lb|pl|nominalized|colloquial}} [[young boy]]
+## {{lb|pl|nominalized|Middle Polish}} [[descendant]] {{gl|one who is the progeny of someone}}
+##: {{syn|pl|potomek}}
+# {{lb|pl|nominalized}} [[bridegroom]], [[groom]] {{gl|man in the context of his own wedding; one who is going to marry or has just been married}}
+#: {{syn|pl|nowożeniec|oblubieniec|pan młody}}
+# {{lb|pl|nominalized|in plural}} [[newlywed]]s {{gl|newly married couple}}
+#: {{syn|pl|młoda para|[[nowożeniec|nowożeńcy]]|[[oblubieniec|oblubieńcy]]|państwo młodzi}}
+# {{lb|pl|nominalized|Kurpie}} {{syn of|pl|kawaler|t=[[bachelor]]}} {{gl|unmarried man}}
+
+====Declension====
+{{pl-decl-noun-m-pr}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|67057}}
+* {{R:pl:SXVII|MŁODY|8182|WM|18.07.2008}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||1009|4}}
+* {{R:pl:SGP1900||172|3}}
+
+{{C|pl|Age|Collectives|Male children|Male people|Marriage|People}}
+
+==Upper Sorbian==
+
+===Etymology===
+{{ety|hsb|:inh|sla-pro:*mȏldъ|text=+|tree=1}} Cognate with {{cog|dsb|młody}}.
+
+===Pronunciation===
+{{hsb-pr}}
+
+===Adjective===
+{{hsb-adj|młódši|adv=młodźe}}
+
+# [[young]]
+#* {{RQ:hsb:Mezotop|Assyriologija jako poměrnje '''młoda''' wědomosć so stajnje wuwiwa; štož wčera płaćeše, njetrjeba dźensa płaćić.|Assyriology, as a relatively '''young''' science, is constantly evolving; what was true yesterday may not be true today.|page=177|chapter=XI}}
+
+====Declension====
+{{hsb-decl-adj-auto}}
+
+====Derived terms====
+{{col|hsb|title=nouns|młódnosć<g:f>}}
+
+===Further reading===
+* {{R:hsb:LSS1866|młody|371}}
+* {{R:hsb:Mudra}}
+* {{R:hsb:Soblex}}
+
+{{C|hsb|Age}}

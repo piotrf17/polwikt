@@ -1,0 +1,355 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "ten",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "to",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ta",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ci",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "te",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tego",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tego",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tych",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "temu",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "temu",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tego",
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "to",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tę",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tą",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "te",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ten",
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tą",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tymi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tymi",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "tych",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ten",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "to",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ta",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ci",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "te",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈtɛn/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "this (nearby)",
+     "keywords": [
+      {
+       "text": "this"
+      }
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of ten"
+    }
+   ],
+   "usage_notes": "1The feminine accusative singular form tą is proscribed, but overall much more common."
+  },
+  {
+   "pos": "POS_PARTICLE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈtɛn/"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "A no, ten...",
+       "translation": "Ah, yeah..."
+      }
+     ],
+     "gloss": "filler word"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish ten."
+  }
+ ],
+ "lemma": "ten"
+}

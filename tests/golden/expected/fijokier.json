@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_PERSONAL",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
    "pos": "POS_NOUN",
    "pronunciations": [
     {

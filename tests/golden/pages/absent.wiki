@@ -1,0 +1,489 @@
+{{also|absént}}
+==English==
+
+===Alternative forms===
+* {{l|en|abs.}}
+
+===Etymology 1===
+{{etymon|en|id=adjective|:inh|enm:absent<ety:bor<frm:absent<ety:der<fro:ausent<ety:der<la:absēns>>>>><la:absēns>>|tree=1}}
+From {{inh|en|enm|absent}}, from {{der|en|frm|absent}}, from {{der|en|fro|ausent|}}, and their source, {{der|en|la|absens|}}, present participle of {{m|la|absum||to be away from}}, from {{m|la|ab||away}} + {{m|la|sum||to be}}.
+
+====Pronunciation====
+* {{IPA|en|/ˈæb.sn̩t/|a=RP}}
+* {{IPA|en|/ˈæb.sn̩t/|a=US}}, {{enPR|ăb'sənt}}
+* {{audio|en|En-us-absent.ogg|a=US}}
+
+====Adjective====
+{{wikidata lexeme|L9458}}
+{{en-adj|er}}<ref>{{R:MW3 1976|page=6}}</ref>
+
+# {{lb|en|not comparable}} Being [[away]] from a place; [[withdrawn]] from a place; existing but not [[present]]; {{lb|en|sometimes}} [[missing#Adjective|missing]]. {{defdate|First attested around 1350 to 1470.}}<ref name=SOED>{{R:SOED5|page=8}}</ref>
+#: {{ant|en|present#Adjective}}
+#: {{cot|en|accounted for<!--Those "[either] present or accounted for" = "present" + "absent but accounted for"; those plus the ones "absent and not accounted for" = everyone.-->}}
+#: {{ux|en|Owing to his own illness and then his family's, Ramzi has often been '''absent''' from class this month. We will help him catch up with his studies.}}
+#: {{ux|en|When they were able to return to the clinic some months later, certain pieces of equipment were '''absent'''.}}
+#* {{quote-book|en|year=1623|author=w:William Shakespeare|title=All’s Well That Ends Well|section=II-iii|passage=Expecting '''absent''' friends.}}
+#* {{see more citations|en}}
+# {{lb|en|not comparable}} Not [[exist]]ing. {{defdate|First attested around 1350 to 1470.}}<ref name=SOED/>
+#: {{ant|en|present#Adjective|existing#Adjective|extant#Adjective}}
+#: {{hypo|en|lacking#Adjective<qq:denotes that the absent thing [[ought to]] exist>}}
+#: {{ux|en|The body part was rudimentary or '''absent''' in 1% of specimens.}}
+#: {{ux|en|Empathy seemed to be '''absent''' from the messages.<!--It was likewise [[lacking]], because it was desirable.-->}}
+#: {{ux|en|Signs of forced entry were '''absent'''.<!--They were not "lacking", because "lacking" would imply that forced entry is desirable.-->}}
+# {{lb|en|comparable}} [[inattentive|Inattentive]] to what is passing; [[absent-minded]]; [[preoccupied]]. {{defdate|First attested in the early 18<sup>th</sup> century.}}<ref name=SOED/>
+#: {{ant|en|present#Adjective}}
+#: {{ux|en|Tom was there, but he seemed '''absent''' and withdrawn. Normally he is quite present [&equals; engaged] during a meeting.}}
+#* {{quote-book|en|year=1746-1747|author=Chesterfield|title=Letters to his Son|passage=What is commonly called an '''absent''' man is commonly either a very weak or a very affected man.}}
+#* {{quote-text|en|year=1902|author=John Buchan|title=The Outgoing of the Tide
+|passage=For days Ailie had an '''absent''' eye and a sad face, and it so fell out that in all that time young Heriotside, who had scarce missed a day, was laid up with a broken arm and never came near her.}}
+
+=====Derived terms=====
+{{col|en|absentation|absentative|absently|absentment|absentness|nonabsent|omniabsent
+|absent over leave
+|absent referent
+|absent treatment
+|absent voter
+|absent without leave
+}}
+
+=====Related terms=====
+* {{l|en|absence}}
+* {{l|en|absentee}}
+* {{l|en|absenteeism}}
+* {{l|en|absentia}}, {{l|en|in absentia}}
+
+=====Translations=====
+{{trans-top|being away from a place}}
+* Afrikaans: {{t+|af|afwesig}}
+* American Sign Language: {{t|ase|1@NearFinger-Open8@Center-PalmDown Contact 1@NearFinger-Open8@Center-PalmDown}}
+* Arabic: {{t|ar|غَائِب}}
+* Armenian: {{t+|hy|բացակա}}
+* Asturian: {{t|ast|ausente}}
+* Belarusian: {{t|be|адсу́тны}}, {{qualifier|verb}} {{t|be|адсу́тнічаць|impf}}
+* Bulgarian: {{t+|bg|отсъ́стващ}}
+* Catalan: {{t+|ca|absent}}
+* Chinese:
+*: Mandarin: {{t+|cmn|缺席|tr=quēxí}}
+* Czech: {{t|cs|nepřítomný}}
+* Danish: {{t+|da|fraværende}}
+* Dutch: {{t+|nl|afwezig}}, {{t+|nl|weg}}, {{t+|nl|absent}}
+* Estonian: {{t|et|puuduv}}
+* Finnish: {{t+|fi|puuttuva}}, {{t|fi|[[poissa]] ([[oleva]])}}
+* French: {{t+|fr|absent}}
+* Galician: {{t|gl|ausente}}
+* Georgian: {{t|ka|არდამსწრე}}, {{t|ka|არმყოფი}}
+* German: {{t+|de|abwesend}}
+* Greek: {{t+|el|απών}}
+*: Ancient Greek: {{t|grc|οἰχόμενος}}
+* Gujarati: {{t|gu|ગેરહાજર|tr=gěrhājar}}
+* Hindi: {{t+|hi|अनुपस्थित}}, {{t|hi|ग़ैरहाज़िर}}
+* Hungarian: {{t|hu|[[távol van|távol lévő]]}}
+* Ido: {{t+|io|absenta}}
+* Italian: {{t+|it|assente}}
+* Japanese: {{t+|ja|いない|tr=inai}}, {{t+|ja|欠席|tr=kesseki suru|alt=欠席する}} {{q|verb}}
+* Korean: {{t+|ko|없다|alt=없는}}, {{t+|ko|결석하다|alt=결석하는}}
+* Latin: {{t+|la|absēns}}
+* Macedonian: {{t|mk|отсутен}}
+* Malay:
+*: Rumi: {{t+|ms|absen}}
+* Maltese: {{t+|mt|nieqes}}
+* Māori: {{t|mi|ngaro}}, {{t|mi|kaitu}}, {{t|mi|tamō}}, {{t|mi|matangaro}}
+* Marathi: {{t|mr|गैरहजर|tr=gairhaj̈ar}}
+* Norwegian:
+*: Bokmål: {{t|nb|fraværende}}
+*: Nynorsk: {{t|nn|fråverande}}
+* Old English: {{t|ang|æfweard}}
+* Persian: {{t+|fa|غایب|tr=ġâyeb}}
+* Polish: {{t+|pl|nieobecny}}
+* Portuguese: {{t+|pt|ausente}}
+* Romanian: {{t+|ro|absent}}, {{t|ro|neprezent}}
+* Russian: {{t+|ru|отсу́тствующий}}, {{qualifier|verb}} {{t+|ru|отсу́тствовать|impf}}
+* Serbo-Croatian: {{t+|sh|neprisutan}}, {{t|sh|неприсутан}}, {{t+|sh|odsutan}}
+* Slovak: {{t|sk|neprítomný}}
+* Slovene: {{t|sl|odsoten}}
+* Spanish: {{t+|es|ausente}}, {{t+|es|absente}} {{q|disused}}
+* Swedish: {{t+|sv|frånvarande}}
+* Tagalog: {{t+|tl|liban}}, {{t|tl|huwat}}
+* Thai: {{t|th|ไม่อยู่}}, {{t+|th|หายหัว}}
+* Ukrainian: {{t|uk|відсу́тній}}
+* Urdu: {{t|ur|غیر حاضر|tr=ġair hāzir}}, {{t|ur|غائب|tr=ġā'ib}}
+* Vietnamese: {{t+|vi|vắng mặt}}
+* Woiwurrung: {{t|wyi|yani'jak}}
+{{trans-bottom}}
+
+{{trans-top|not existing}}
+* Afrikaans: {{t+|af|afwesig}}
+* Armenian: {{t+|hy|բացակա}}
+* Bulgarian: {{t+|bg|несъществу́ващ}}
+* Catalan: {{t+|ca|absent}}
+* Dutch: {{t+|nl|afwezig}}, {{t+|nl|ontbrekend}}, {{t|nl|niet meer voorhanden}}, {{t+|nl|tekort}}
+* Finnish: {{t+|fi|puuttuva}}, {{t+|fi|olematon}}
+* French: {{t+|fr|absent}}
+* Greek: {{t+|el|ανύπαρκτος}}
+* Hungarian: {{t|hu|[[hiányzik|hiányzó]]}}
+* Ido: {{t+|io|absenta}}
+* Italian: {{t+|it|assente}}
+* Japanese: {{t+|ja|無い|tr=nai}}, {{t+|ja|持つ|alt=持たない|tr=motanai}}
+* Norwegian:
+*: Bokmål: {{t|nb|fraværende}}, {{t|nb|ikke-eksisterende}}
+*: Nynorsk: {{t|nn|fråverande}}
+* Portuguese: {{t+|pt|ausente}}, {{t+|pt|inexistente}}
+* Romanian: {{t+|ro|absent}}, {{t+|ro|inexistent}}, {{t|ro|neexistent}}
+* Russian: {{t+|ru|несуществу́ющий}}
+* Spanish: {{t+|es|ausente}}, {{t+|es|absente}} {{q|disused}}
+* Swedish: {{t+|sv|frånvarande}}
+* Turkish:
+*: Ottoman Turkish: {{t|ota|اكسیك|tr=eksik}}, {{t|ota|نقصان|tr=noksan}}
+{{trans-bottom}}
+
+{{trans-top|inattentive}}
+* Arabic: {{t|ar|شارِد|m}}
+* Armenian: {{t|hy|անջատված}}
+* Bulgarian: {{t+|bg|отсъ́стващ}}, {{t+|bg|невнима́телен}}
+* Catalan: {{t+|ca|absent}}
+* Chinese:
+*: Mandarin: {{t+|cmn|缺席|tr=quēxí}}
+* Dutch: {{t+|nl|afwezig}}, {{t+|nl|verstrooid}}, {{t+|nl|dromerig}}, {{t|nl|elders met zijn gedachten}}
+* Finnish: {{t+|fi|poissaoleva}}
+* French: {{t+|fr|absent}}
+* German: geistig {{t+|de|abwesend}}
+* Greek: {{t+|el|αφηρημένος}}
+* Hungarian: {{t+|hu|szórakozott}}
+* Italian: {{t+|it|assente}}
+* Latin: {{t|la|amens}}
+* Māori: {{t|mi|muhukai}}
+* Norwegian:
+*: Bokmål: {{t|nb|fraværende}}
+*: Nynorsk: {{t|nn|fråverande}}
+* Portuguese: {{t+|pt|ausente}}
+* Romanian: {{t+|ro|neatent}}, {{t+|ro|distrat}}, {{qualifier|spiritual}} {{t+|ro|absent}}
+* Russian: {{t+|ru|невнима́тельный}}, {{t+|ru|отсу́тствующий}}
+* Spanish: {{t+|es|ausente}}, {{t+|es|distraído}}, {{t+|es|absente}} {{q|disused}}
+* Swedish: {{t+|sv|frånvarande}}
+* Vietnamese: {{t|vi|lơ đãng}}
+* Woiwurrung: {{t|wyi|abenden ngargit}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Indonesian: {{t+check|id|absen}}, {{t-check|id|[[tidak]] [[hadir]]}}
+* Interlingua: {{t-check|ia|absente}}
+{{trans-bottom}}
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|with definite article}} Something absent, especially absent [[people]] collectively; those who were or are not there. {{defdate|from 15th c.}}
+#* '''1772''', {{w|Frances Burney}}, ''Journals & Letters'', Penguin 2001, 30 May:
+#*: The Applause he met with exceeds all belief of the '''Absent'''.
+#* {{quote-text|en|year=1947|author=w:Cecil Day Lewis|title=Poetic Image
+|passage=That very sense of longing, of yearning for the '''absent''', which 'nostalgia' conveys to us now.}}
+# {{lb|en|obsolete|Scotland}} An [[absentee]]; a person who is not there. {{defdate|15th–19th c.}}<ref name=DSL>{{R:DSL|pos=n}}</ref>
+
+====Preposition====
+{{wikidata lexeme|L11790}}
+{{en-head|prep}}
+
+# In the absence of; [[without]]; except. {{defdate|First attested in the mid 20<sup>th</sup> century.}}<ref name=SOED/>
+#: {{ux|en|'''Absent''' taxes modern governments cannot function.}}
+#* {{quote-journal|en|year=1919|title=State vs. Britt, Supreme Court of Missouri, Division 2|journal=The Southwestern Reporter|page=427|passage=If the accused refuse upon demand to pay money or deliver property ('''absent''' any excuse or excusing circumstance) which came into his hands as a bailee, such refusal might well constitute some evidence of conversion, with the requisite fraudulent intent required by the statute.}}
+#* {{quote-journal|en|year=2011|author=David Elstein|magazine=London Review of Books|volume=33|issue=15|passage=the Princess Caroline case {{...}} established that – '''absent''' a measurable ‘public interest’ in publication – she was safe from being photographed while out shopping.}}
+#* {{quote-book|en|year=2013|author=Stephen K. Wegren|chapter=Agriculture|editor=Stephen K. Wegren|title=Return to Putin's Russia: Past Imperfect, Future Uncertain|edition=5th|location=Lanham, MD|publisher=w:Rowman & Littlefield Publishers, Inc.|isbn=9781442213456|page=223|pageurl=https://archive.org/details/returntoputinsru0000unse/page/222/mode/2up?q=absent|passage=About 25 percent of Russia’s large farms continue to be unprofitable, and that number would be considerably higher '''absent''' government subsidies and assistance programs.}}
+#* {{quote-journal|en|magazine=The Atlantic|author=Ian Bogost|title=I tried to limit my screen time (It didn't go well)|url=https://www.theatlantic.com/technology/archive/2019/09/why-apple-screen-time-mostly-makes-things-worse/597397/|date=2019-09-05|passage=And the distraction-management software Freedom offers a mode that won’t unlock affected apps '''absent''' a telephone-support call. }}
+#* {{quote-book|en|title=The Brussels Effect. How the European Union Rules the World|chapter=8. Is the Brussels Effect Beneficial?|author=w:Anu Bradford|publisher=Oxford University Press|year=2020|isbn=9780190088583|page=258|passage=California cannot promulgate regulations that are inconsistent with US federal laws '''absent''' an explicit waiver from the federal government.}}
+
+=====Translations=====
+{{trans-top|without}}
+* Dutch: {{t+|nl|behalve}}, {{t+|nl|zonder}}, {{t+|nl|uitgezonderd}}, {{t|nl|in afwezigheid van}}
+* Finnish: {{t+|fi|ilman}}, {{t+|fi|vailla}}
+* Norwegian:
+*: Bokmål: {{t+|nb|uten}}, {{t|nb|unntatt}}
+* Portuguese: {{t|pt|[[na]] [[ausência]] [[de]]}}
+{{trans-bottom}}
+
+===Etymology 2===
+{{wikidata lexeme|L330737}}
+From {{inh|en|enm|absenten}}, from {{der|en|fro|absenter}}, from {{der|en|la-lat|absento|absentāre|t=keep away, be away}}.
+
+====Pronunciation====
+* {{IPA|en|/æbˈsɛnt/|a=RP}}, {{enPR|ăbsĕnt'}}
+** {{audio|en|LL-Q1860 (eng)-Vealhurl-absent (verb).wav|a=Southern England}}
+* {{IPA|en|/æbˈsɛnt/|a=US}}
+* {{rhymes|en|ɛnt|s=2}}
+
+====Verb====
+{{en-verb}}
+
+# {{anchor|absentfrom}}{{lb|en|reflexive}} To keep (oneself) away.
+#: {{ux|en|Most of the men are retired, jobless, or have otherwise temporarily '''absented''' themselves from the workplace.}}
+#* {{quote-book|en|year=ca. 1600|author=William Shakespeare|title=Hamlet, Prince of Denmark|passage='''Absent''' thee from felicity awhile, and in this harsh world draw thy breath in pain, to tell my story.}}
+#* {{quote-book|en|year=1701-1703|author=[[w:Joseph Addison|Addison]]|title=Remarks on Italy|passage=If after due summons any member '''absents''' himself, he is to be fined.}}
+#* {{RQ:Orwell Animal Farm|6
+|passage=This work was strictly voluntary, but any animal who '''absented''' himself from it would have his rations reduced by half.}}
+#* {{quote-journal|en|date=07 Dec 86|volume=14|number=21|journal=Gay Community News|page=1|author=Marcos Bisticas-Cocoves|title=Just the Facts, Miss Thing|text=Some people expect that the news should be written "professionally," that it should conform to certain "journalistic standards," and that it should not "editorialize." And this is tantamount to saying it should be written objectively, that we should '''absent''' ourselves when writing copy.}}
+# {{lb|en|transitive|archaic}} To keep (someone) away. {{defdate|First attested around 1350 to 1470.}}<ref name=SOED/>
+#* {{RQ:Milton Paradise Lost|book=IX|passage=Go; for thy stay, not free, '''absents''' thee more;|year=1873}}
+# {{lb|en|intransitive|obsolete}} Stay away; withdraw. {{defdate|Attested from around 1350 to 1470 until the late 18<sup>th</sup> century.}}<ref name=SOED/>
+#* {{RQ:Douglass Bondage|passage=The iron rule of the plantation, always passionately and violently enforced in that neighborhood, makes flogging the penalty of failing to be in the field before sunrise in the morning, unless special permission be given to the '''absenting''' slave.}}
+# {{lb|en|transitive|rare}} Leave. {{defdate|First attested around 1350 to 1470.}}<ref name=SOED/>
+# {{lb|en|transitive|rare}} To [[omit]].
+#* {{quote-book|en|year=2004|page=188|chapter=Reflections on Eisenstein and Digital Imagery: Of Mice and Men|author=Paul Willemen|title=The Montage Principle||text=When we realize that the digitalisation of the image involves - by reducing and even '''absenting''' - the role of 'the physical', the 'sensuous' (by reducing and eventually '''absenting''' the indexical aspects of the image) {{...}}}}
+#* {{quote-book|en|year=2018|title=Bad Environmentalism|author=Nicole Seymour|page=61|text=Such sequences draw attention to the affective appeals that environmental documentary typically makes, precisely by '''absenting''' those appeals.}}
+
+=====Derived terms=====
+{{col|en|reabsent}}
+
+=====Translations=====
+{{trans-top|to withhold from being present}}
+* Catalan: {{t+|ca|absentar}}
+* Dutch: {{t|nl|wegblijven van}}, {{t|nl|zich absenteren}}, {{t|nl|niet opdagen}}
+* Esperanto: {{t|eo|foresti}}
+* Finnish: {{t|fi|[[olla]] [[poissa]]}}
+* German: {{t+|de|fehlen}}, {{t+|de|fernbleiben}}
+* Greek: {{t+|el|απουσιάζω}}
+*: Ancient Greek: {{t|grc|ἅπειμι}}
+* Ido: {{t+|io|absenteskar}}
+* Indonesian: {{t+|id|absen}}, {{t+|id|alpa}}
+* Latin: {{t+|la|absum}}
+* Māori: {{t|mi|takē}}
+* Norwegian:
+*: Bokmål: {{t|nb|absentere}}
+* Portuguese: {{t+|pt|ausentar}}
+* Quechua: {{t|qu|ch'usay}}
+* Spanish: {{t+|es|ausentarse}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Bulgarian: {{t+|bg|отсъствам}}
+* Dutch: {{t+|nl|afwezig}} {{t+|nl|zijn}}, {{t+|nl|verwijderen|alt=zich verwijderen}}, {{t+|nl|vertrekken}}
+* French: {{t+|fr|absenter|alt=s'absenter}}
+* Malay: {{t+|ms|pergi}}
+{{trans-bottom}}
+
+===References===
+{{reflist}}
+
+===Anagrams===
+* {{anagrams|en|a=abenst|besant|Batens|abnets|Banets|basnet|Basnet}}
+
+{{cln|en|heteronyms}}
+
+==Catalan==
+
+===Etymology===
+{{ety|ca|:lbor|la:absēns<alt:absentem>}}
+{{lbor|ca|la|absēns|absentem}}. {{doublet|ca|ausent}}.
+
+===Pronunciation===
+* {{ca-IPA|é}}
+* {{audio|ca|LL-Q7026 (cat)-Marvives-absent.wav|a=Barcelona}}
+
+===Adjective===
+{{ca-adj}}
+
+# {{l|en|absent}}
+#: {{ant|ca|present}}
+
+====Related terms====
+* {{l|ca|absència}}
+
+===Further reading===
+* {{R:ca:IEC2}}
+
+==Dutch==
+
+===Etymology===
+{{bor+|nl|fr|absent}}.
+
+===Pronunciation===
+* {{IPA|nl|/ɑpˈsɛnt/}}
+* {{audio|nl|Nl-absent.ogg}}
+* {{hyph|nl|ab|sent}}
+* {{rhymes|nl|ɛnt|s=2}}
+
+===Adjective===
+{{nl-adj}}
+
+# {{l|en|absent}}
+#: {{syn|nl|afwezig}}
+#: {{ant|nl|present|aanwezig}}
+
+====Declension====
+{{nl-decl-adj}}
+
+====Related terms====
+{{col|nl
+|absenteïsme
+|absenteren
+|absentie
+}}
+
+==French==
+
+===Etymology===
+{{ety|fr|:lbor|la:absēns<alt:absentem>}}
+{{lbor|fr|la|absēns|absentem}}. Compare the popular form {{m|fr|ausent}}.
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|Fr-absent.ogg}}
+* {{audio|fr|LL-Q150 (fra)-DSwissK-absent.wav|a=<<Switzerland>> (<<Valais>>)}}
+* {{audio|fr|LL-Q150 (fra)-Lepticed7-absent.wav|a=<<France>> (<<Toulouse>>)}}
+* {{audio|fr|LL-Q150 (fra)-LoquaxFR-absent.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-absent.wav|a=France}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-absent.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-WikiLucas00-absent.wav|a=<<France>> (<<Lyon>>)}}
+
+===Adjective===
+{{fr-adj}}
+
+# {{l|en|absent}}
+# [[absent-minded]]
+
+====Derived terms====
+* {{l|fr|aux abonnés absents}}
+* {{l|fr|absent le chat, les souris dansent}}
+
+====Related terms====
+* {{l|fr|absence}}
+
+===Noun===
+{{fr-noun|m}}
+
+# [[absentee]]; [[missing person]]
+
+====Derived terms====
+* {{l|fr|les absents ont toujours tort}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+===Anagrams===
+* {{l|fr|basent}}
+
+==German==
+
+===Pronunciation===
+* {{audio|de|De-absent.ogg}}
+* {{audio|de|De-absent2.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Adjective===
+{{de-adj}}
+
+# [[#English|absent]], not present
+# absent-minded
+
+====Declension====
+{{de-adecl}}
+
+==Norman==
+
+===Etymology===
+From {{inh|nrf|fro|ausent}}, relatinized on the model of its ancestor, {{der|nrf|la|absēns||absent, missing}}, present active participle of {{m|la|absum|absum, abesse|be away, be absent}}.
+
+===Adjective===
+{{nrf-adj}}
+
+# {{lb|nrf|Jersey}} {{l|en|absent}}
+
+====Derived terms====
+* {{l|nrf|absemment||absently}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:lbor|la:absēns|text=+|tree=1|etydate=r,1571,1632}}
+
+===Pronunciation===
+{{pl-pr|-|mp=#}}
+
+===Noun===
+{{pl-noun|m-an!}}
+
+# {{def-uncertain|pl}}
+#* {{RQ:pl:AktaSyn|III|559|strony '''absentów''' tak duchownego, jako i świeckiego stanu conclusum, żeby dyscyplina ekstendowana była.|-}}
+## {{lb|pl|Middle Polish}} [[absence]]
+## {{lb|pl|Middle Polish}} [[absentee]]
+
+====Declension====
+{{pl-mid-decl-noun
+|rnoms=absent
+|gens=-
+|dats=-
+|accs=-
+|inss=-
+|locs=-
+|vocs=-
+|nomp=-
+|genp=absentów
+|datp=-
+|accp=-
+|insp=-
+|locp=-
+|vocp=-
+}}
+
+====Related terms====
+{{col|pl|title=adjective|absencyjny}}
+{{col|pl|title=nouns
+|absencyjność
+|absentacyja
+|absenteista
+|absenteizm
+|absentyzm
+}}
+{{col|pl|title=verb
+|absentować<g:impf>
+}}
+
+===References===
+* {{R:pl:SXVII|ABSENT|2403|MK-G|29.09.2014}}
+
+==Romanian==
+
+===Etymology===
+{{bor+|ro|fr|absent}}, {{der|ro|la|absens|absēns, absēntem}}.
+
+===Pronunciation===
+* {{IPA|ro|/abˈsent/|/apˈsent/}}
+
+===Adjective===
+{{ro-adj}}
+
+# {{l|en|absent}}
+#: {{ant|ro|prezent}}
+
+====Declension====
+{{ro-decl-adj}}
+
+====Related terms====
+{{col3|ro|absenta|absentare|absentat|absenteism|absenteist|absență}}
+
+===Further reading===
+* {{R:DEX}}
+
+==Tagalog==
+
+===Alternative forms===
+* {{alt|tl|absen}}
+
+===Etymology===
+{{bor+|tl|en|absent}}, from {{der|tl|enm|absent}}, from {{der|tl|frm|absent}}, from {{der|tl|fro|ausent|}}, from {{der|tl|la|absens}}. {{dbt|tl|awsente}}.
+
+===Pronunciation===
+{{tl-pr|audio=LL-Q34057 (tgl)-Geoffjop0908-absent2.wav}}
+
+===Adjective===
+{{tl-adj|b=+}}
+
+# {{l|en|absent}}
+#: {{syn|tl|wala|huwat|liban|lumiban|awsente|di-dumalo}}
+
+====Derived terms====
+{{col3|tl|mag-absent|umabsent|absentero}}
+
+====Related terms====
+{{col3|tl|absentismo}}
+
+===Further reading===
+* {{R:KWF Diksiyonaryo}}
+* {{R:Pambansang Diksiyonaryo}}

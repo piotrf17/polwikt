@@ -1,0 +1,239 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "agrest",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agresty",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agrestu",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agrestów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agrestowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agrestom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agrest",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agresty",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agrestem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agrestami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agreście",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agrestach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "agreście",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "agresty",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈa.ɡrɛst/"
+    },
+    {
+     "ipa": "[ˈa.ɡrɛst]",
+     "labels": [
+      "Standard Kurpie"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "chiński agrest",
+       "translation": "Chinese gooseberry"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "dziki agrest",
+       "translation": "wild gooseberry"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "zielony agrest",
+       "translation": "green gooseberry"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "czerwony agrest",
+       "translation": "red gooseberry"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "czarny agrest",
+       "translation": "black gooseberry"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "krzak agrestu",
+       "translation": "a gooseberry bush"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "krzew agrestu",
+       "translation": "a gooseberry shrub"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "owoc agrestu",
+       "translation": "a gooseberry fruit"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "uprawa agrestu",
+       "translation": "gooseberry cultivation/growing/crop/farming"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "liście agrestu",
+       "translation": "gooseberry leaves"
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "1528, J. Murmelius, Dictionarius, page 106:(please add the primary text of this quotation)[Labrusca genus vitis agrestis, quae erratica dicitur, quod in terrae marginibus et sepibus nascatur. Eyn widle weynrem/ ader agresten. Agrest](please add an English translation of this quotation)",
+       "text": "Labrusca genus vitis agrestis, quae erratica dicitur, quod in terrae marginibus et sepibus nascatur. Eyn widle weynrem/ ader agresten. Agreſt",
+       "translation": "Labrusca is a type of wild vine, which is called erratic because it grows on the edges of the land and in hedges. A wild vine/ ader agresten. Gooseberry."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "1534, S. Falimirz, O ziołach, page I 16d:(please add the primary text of this quotation)[A możeszli też soku z agresty mieć/ wlej też ze trzy łyżki](please add an English translation of this quotation)",
+       "text": "á możeſzli też ſoku z agreſty mieć/ wley też ze trzy łyſzki",
+       "translation": "And you can also have gooseberry juice/pour in also three spoons."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Daniel Gottlieb Settegast, Nauka o pszczołach w sposobie pytań i odpowiedzi (1809)",
+       "text": "Drzewa te rosną wysoko i daią mieyscu od zimna i słot zasłonę. — Wewnątrz Pasieki poróbcie uliczki z agrestu i malin, w środku których zasadźcie śliwy, iabłonie i gruszki w odległości 9 łokci iedna od drugiey; lecz tym drzewkom nie pozwólcie wysoko rosnąć, naywyżey na półtora chłopa.",
+       "translation": "These trees grow tall and provide shade from the cold and sun. —Inside the apiary, make alleys of gooseberries and raspberries, in the middle of which plant plum trees, apple trees, and pears at a distance of 9 cubits, one from the other; but do not allow these trees to grow high grow to be at most one and a half men tall."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Andrzej Sapkowski, Miecz przeznaczenia (1992)",
+       "text": "Wplótł palce w jej włosy pachnące bzem i agrestem.",
+       "translation": "He threaded his fingers through her hair, which smelled of lilac and gooseberries."
+      },
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "Roman Antoszewski, Kariera na trzy karpie morskie (2000)",
+       "text": "Zupełnie zapomniałam, ten słoik z konfiturami truskawkowymi na cukrze wyniosłyśmy do piwniczki z Baśką, bo tu nie było miejsca. Tu mam agrest, ale Władek najlepiej lubił truskawki mocno scukrzone, choć mu to szkodziło.",
+       "translation": "I had completely forgotten that I took this jar of strawberry sugar preserves out to the basement with Baśka because up here there was no room. Here I have gooseberry, but Władek loved strongly sweetened strawberreis best, even though it was bad for his health."
+      }
+     ],
+     "gloss": "European gooseberry, gooseberry (Ribes uva-crispa) [from 16th c.]",
+     "keywords": [
+      {
+       "text": "gooseberry"
+      },
+      {
+       "taxonomic": true,
+       "text": "Ribes uva-crispa"
+      }
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of agrest"
+    }
+   ],
+   "topics": [
+    "Berries",
+    "Saxifragales order plants",
+    "Wines"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish agrest (“verjuice”)."
+  }
+ ],
+ "lemma": "agrest"
+}

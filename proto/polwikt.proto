@@ -176,6 +176,8 @@ message InflectionTable {
     KIND_UNSPECIFIED = 0;
     KIND_DECLENSION = 1;
     KIND_CONJUGATION = 2;
+    KIND_COMPARISON = 3;      // comparative and superlative, from the headword line
+    KIND_COMBINED_FORMS = 4;  // a word fused with the past-tense endings: aż -> ażem
   }
   Kind kind = 1;
   string title = 2;    // "Declension", "Conjugation (reflexive)"
@@ -305,6 +307,12 @@ message GenderAnimacy {
   Animacy animacy = 2;
 }
 
+// Adjectives and adverbs. Comparative and superlative forms are `Form`s in a
+// KIND_COMPARISON table, so they are searchable like any other form (lepszy -> dobry).
+message AdjectiveInfo {
+  bool not_comparable = 1;  // {{pl-adj|-}}: shown as "not comparable"
+  bool indeclinable = 2;    // adjectives only: no declension table exists
+}
 message VerbInfo {
   Aspect aspect = 1;  // partners and frequentatives are Relations
 }
@@ -337,6 +345,7 @@ message Entry {
   oneof detail {  // matches `pos` where it applies
     NounInfo noun = 14;
     VerbInfo verb = 15;
+    AdjectiveInfo adjective = 16;
   }
 }
 

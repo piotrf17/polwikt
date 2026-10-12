@@ -1,0 +1,420 @@
+{{also|fôlder}}
+==English==
+{{wp}}
+
+===Etymology===
+From {{af|en|fold|-er|id2=agent noun}}.
+
+===Pronunciation===
+* {{IPA|en|/ˈfoʊldɚ/|a=GenAm}}
+* {{IPA|en|/ˈfəʊldə/|a=RP}}
+* {{audio|en|en-us-folder.ogg|a=US}}
+* {{rhymes|en|əʊldə(ɹ)|s=2}}
+
+===Noun===
+{{en-noun}}
+[[File:38254-new folder-3.svg|thumbnail|A typical icon of a folder (2)]]
+
+# An [[organizer]] that [[paper]]s are kept in, usually with an [[index]] tab, to be stored as a single unit in a [[filing cabinet]].
+#: {{ux|en|I keep all my schoolwork in a yellow '''folder'''.}}
+# {{lb|en|computing}} A [[virtual]] container in a [[computer]]'s [[file system]], in which [[file]]s and other folders may be [[store]]d. The files and [[subfolder]]s in a folder are usually [[related]].
+#: {{syn|en|directory}}
+#: {{ux|en|My essays are in the '''folder''' named "Schoolwork".}}
+# A machine or person that [[fold]]s things.
+# {{senseid|en|Q115929617}} A [[folding knife]], typically a folding [[pocketknife]].
+#* {{quote-book|en|date=2010-08-20|author=Joe Kertzman|title=Knives 2011: The World's Greatest Knife Book|publisher=F+W Media, Inc.|isbn=9781440216282
+|text=A funny name for a knife, the Needs Work '''folder''' is purpose-built as a working '''folder''', and includes a straight, plain-edge, modified-wharncliffe blade, and a comfortable, ergonomic handle.}}
+
+====Derived terms====
+{{col|en|bone folder
+|book folder
+|file folder
+|folderful
+|folderless
+|folderlike|magazine folder
+|hot folder
+|manila folder|homework folder
+|paper-folder
+|refolder
+|superfolder
+|watched folder
+}}
+
+====Descendants====
+{{top2}}
+* {{desc|pt-BR|folder|bor=1|alts=1}}
+* {{desc|nl|folder|bor=1}}
+* {{desc|id|folder|bor=1}}
+* {{desc|ja|フォルダ|tr=foruda|bor=1}}, {{ja-r|フォルダー}}
+* {{desc|ko|폴더|bor=1}}
+* {{desc|pl|folder|bor=1}}
+* {{desc|pt|folder|bor=1}}
+* {{desc|sh|folder|bor=1}}
+* {{desc|es|folder|bor=1}}
+* {{desc|sv|folder|bor=1}}
+{{bottom}}
+
+====Translations====
+{{trans-top-see|organizer|binder}}
+* Afrikaans: {{t|af|lêergids}}
+* Arabic: {{t|ar|مِلَفّ|m}}, {{t|ar|مُجَلَّد|m}}, {{t|ar|ضُبَارَة|f}}
+*: Gulf Arabic: {{t|afb|مَلَف|m|tr=malaf}}
+*: Hijazi Arabic: {{t|acw|مَلَف|m|tr=malaf}}, {{t|acw|دوسيه|m|tr=dōsē}}
+* Aramaic:
+*: Assyrian Neo-Aramaic: {{t|aii|ܡܹܐܣܵܪܬܵܐ|f}}
+* Armenian: {{t+|hy|թղթապանակ}}
+* Azerbaijani: {{t+|az|qovluq}}, {{t|az|papka}}
+* Belarusian: {{t+|be|па́пка|f}}, {{t|be|скорасшыва́льнік|m}}, {{t|be|тэ́чка|f}}
+* Bulgarian: {{t+|bg|па́пка|f}}
+* Catalan: {{t+|ca|carpeta|f}}
+* Chinese:
+*: Mandarin: {{t+|cmn|卷宗|tr=juànzōng}}, {{t+|cmn|文件夾|tr=wénjiànjiā}}
+* Dutch: {{t+|nl|hechtmap|f}}, {{t+|nl|map|f}}
+* Estonian: {{t|et|mapp}}
+* Finnish: {{t+|fi|kansio}}
+* French: {{t+|fr|dossier|m}}, {{t+|fr|chemise|f}}, {{t+|fr|classeur|m}}
+* Galician: {{t|gl|cartafol|m}}
+* Georgian: {{t|ka|მკეცავი}}, {{t|ka|საქაღალდე}}
+* German: {{t+|de|Ordner|m}}, {{t+|de|Mappe|f}}
+* Greek: {{t+|el|φάκελος|m}}
+* Hebrew: {{t|he|תיקייה|f|tr=tikiyá|alt=תִּיקִיָּה}}
+* Hungarian: {{t+|hu|iratgyűjtő}}
+* Icelandic: {{t+|is|mappa|f}}
+* Indonesian: {{t+|id|map}}, {{t+|id|folder}}
+* Irish: {{t+|ga|fillteán|m}}
+* Italian: {{t+|it|cartella|f}}, {{t+|it|fascicolo|m}}
+* Japanese: {{t+|ja|フォルダ|tr=foruda}}
+* Korean: {{t+|ko|서류철(書類綴)}}, {{t|ko|폴더}}
+* Latin: {{t|la|categoria|f}}
+* Latvian: {{t|lv|mape|f}}, {{t|lv|vāks|m}}
+* Lithuanian: {{t|lt|segtuvas|m}}
+* Luxembourgish: {{t|lb|Mapp|f}}, {{t|lb|Classeur|m}}
+* Macedonian: {{t|mk|папка|f}}, {{t|mk|фасцикла|f}}
+* Malay: {{t|ms|pelipat}}
+* Māori: {{t|mi|kōpaki}}
+* Mongolian:
+*: Cyrillic: {{t|mn|папк}}
+* Norman: {{t|nrf|dôssyi|m}} {{q|Jersey}}
+* Norwegian:
+*: Bokmål: {{t+|nb|perm|m}}
+* Persian:
+*: Iranian Persian: {{t|fa-ira|پوشِه}}
+* Polish: {{t+|pl|teczka|f}}, {{t+|pl|skoroszyt|m}}, {{t+|pl|folder|m}}
+* Portuguese: {{t+|pt|pasta|f}}
+* Romanian: {{t+|ro|dosar|n}}
+* Russian: {{t+|ru|па́пка|f}}, {{t+|ru|скоросшива́тель|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|фасцѝкл|m}}
+*: Latin: {{t+|sh|fascìkl|m}}
+* Sicilian: {{t+|scn|carpetta|f}}
+* Slovene: {{t|sl|mapa|f}}
+* Spanish: {{t+|es|carpeta|f}}, {{t+|es|fólder|m}}, {{t|es|folder|m}}
+* Swahili: {{t+|sw|folda}}
+* Swedish: {{t+|sv|pärm|c}}
+* Tagalog: {{t|tl|ipitan}}
+* Turkish: {{t+|tr|klasör}}
+* Ukrainian: {{t|uk|па́пка|f}}, {{t|uk|швидкозшива́ч|m}}, {{t+|uk|те́ка|f}}, {{t|uk|те́чка|f}}
+* Vietnamese: {{t|vi|bìa hồ sơ}}
+* Welsh: {{t|cy|ffolder|m|f}}
+{{trans-bottom}}
+
+{{trans-top|container of computer files}}
+* Afrikaans: {{t|af|vouer}}
+* Albanian: {{t+|sq|kartotekë|f}}
+* Arabic: {{t|ar|مُجَلَّد|m}}
+*: Gulf Arabic: {{t|afb|مَلَف|m|tr=malaf}}
+* Aramaic:
+*: Assyrian Neo-Aramaic: {{t|aii|ܕܘܼܒܵܩܵܐ|m}}
+* Armenian: {{t+|hy|պանակ}}
+* Azerbaijani: {{t+|az|qovluq}}
+* Belarusian: {{t+|be|па́пка|f}}, {{t|be|катало́г|m}}, {{t|be|дырэкто́рыя|f}}
+* Bulgarian: {{t+|bg|директо́рия|f}}
+* Catalan: {{t+|ca|carpeta|f}}
+* Chinese:
+*: Mandarin: {{t+|cmn|目錄|tr=mùlù}}, {{t+|cmn|文件夾}}
+* Czech: {{t+|cs|složka|f}}, {{t+|cs|adresář|m}}
+* Danish: {{t+|da|mappe|c}}
+* Dutch: {{t+|nl|map|m}}
+* Esperanto: {{t|eo|dosierujo}}
+* Estonian: {{t|et|valtsija}}
+* Finnish: {{t+|fi|kansio}}
+* French: {{t+|fr|dossier|m}}, {{t+|fr|répertoire|m}}
+* Galician: {{t|gl|cartafol|m}}
+* Georgian: {{t|ka|ფოლდერი}}, {{t|ka|საქაღალდე}}
+* German: {{t+|de|Ordner|m}}, {{t+|de|Verzeichnis|n}}
+* Greek: {{t+|el|φάκελος|m}}
+* Hebrew: {{t|he|תיקייה|f|tr=tikiyá|alt=תִּיקִיָּה}}
+* Hindi: {{t|hi|फ़ोल्डर|m}}
+* Hungarian: {{t+|hu|mappa}}
+* Icelandic: {{t+|is|mappa|f}}
+* Ido: {{t+|io|repertorio}}
+* Indonesian: {{t+|id|folder}}, {{t+|id|map}}
+* Irish: {{t+|ga|fillteán|m}}
+* Italian: {{t+|it|cartella}}
+* Japanese: {{t+|ja|フォルダ|tr=foruda}}, {{t+|ja|ディレクトリ|tr=direkutori}}
+* Korean: {{t|ko|폴더}}, {{t+|ko|디렉토리}}
+* Latin: {{t|la|catēgoria|f}}
+* Latvian: {{t|lv|mape|f}}
+* Lithuanian: {{t|lt|aplankas|m}}
+* Macedonian: {{t|mk|папка|f}}, {{t|mk|директориум|m}}
+* Malay: {{t|ms|pelipat}}
+* Marathi: {{t+|mr|फोल्डर|m}}
+* Norman: {{t|nrf|dôssyi|m}}
+* Norwegian:
+*: Bokmål: {{t|nb|mappe|m}}
+* Persian: {{t|fa|دایرکتوری|tr=dâyrektori}}
+* Polish: {{t+|pl|folder|m}}, {{t+|pl|katalog|m}}
+* Portuguese: {{t+|pt|pasta|f}}, {{t+|pt|diretório|m}} {{qualifier|Portugal}}, {{t+|pt|diretoria|f}} {{qualifier|Brazil}}
+* Romanian: {{t|ro|folder|n}}, {{t+|ro|director|n}}
+* Russian: {{t+|ru|па́пка|f}}, {{t+|ru|катало́г|m}}, {{t+|ru|директо́рия|f}} {{qualifier|dated}}
+* Scottish Gaelic: {{t|gd|pasgan|m}}
+* Serbo-Croatian: {{t+|sh|fascikla|f}}
+*: Cyrillic: {{t|sh|дирѐкто̄ријум|m}}, {{t|sh|дирѐкто̄риј|m}}, {{t|sh|ма̏па|f}}
+*: Latin: {{t|sh|dirèktōrijum|m}}, {{t+|sh|dirèktōrij|m}}, {{t+|sh|mȁpa|f}}
+* Sicilian: {{t+|scn|carpetta|f}}
+* Slovak: {{t|sk|priečinok|m}}, {{t+|sk|adresár|m}}
+* Slovene: {{t|sl|mapa|f}}
+* Spanish: {{t+|es|carpeta|f}}
+* Swedish: {{t+|sv|mapp|c}}, {{t+|sv|katalog|c}}
+* Thai: {{t|th|โฟลเดอร์}}
+* Turkish: {{t+|tr|klasör}}
+* Ukrainian: {{t|uk|па́пка|f}}, {{t+|uk|катало́г|m}}, {{t|uk|директо́рія|f}}, {{t+|uk|те́ка|f}}
+* Urdu: {{t|ur|فولڈر|m|tr=folḍar}}
+* Vietnamese: {{t+|vi|thư mục}}
+* Welsh: {{t|cy|ffolder}}
+{{trans-bottom}}
+
+{{trans-top|person who folds things}}
+* Bulgarian: {{t-needed|bg}}
+* French: {{t+|fr|plieur|m}} {{qualifier|person}}, {{t+|fr|plieuse|f}} {{qualifier|machine}}
+* Macedonian: {{t|mk|пресвиткувач|m}}
+* Malay: {{t|ms|pelipat}}
+* Polish: {{t+|pl|składacz|m}}, {{t|pl|składaczka|f}}
+* Portuguese: {{t|pt|dobrador|m}}
+* Russian: {{t+|ru|фальцо́вщик|m}}, {{t+|ru|фальцо́вщица|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|пресавијач|m}}
+*: Latin: {{t|sh|presavijač|m}}
+* Spanish: {{t|es|doblador|m}}, {{t|es|dobladora|f}}
+* Turkish: {{t|tr|katlamacı}}
+{{trans-bottom}}
+
+{{trans-see|a folding knife, typically a pocketknife|folding knife|pocketknife}}
+
+===Anagrams===
+* {{anagrams|en|a=deflor|forled|refold|rolfed}}
+
+{{cln|en|agent nouns}}
+
+==Chinese==
+
+===Etymology===
+From {{bor|yue|en|folder}}.
+
+===Pronunciation===
+{{zh-pron
+|c=fou1 daa2,fou1 daa4
+|cat=n
+}}
+
+===Noun===
+{{head|zh|noun}}
+
+# {{lb|zh|HKC}} [[#English|folder]]; [[organizer]]
+# {{lb|zh|HKC|computing}} [[#English|folder]]
+
+===References===
+* {{R:yue:Bauer 2021|page=284}}
+
+==Danish==
+
+===Noun===
+{{head|da|noun form|g=c-p}}
+
+# {{inflection of|da|folde||indef|p}}
+
+===Verb===
+{{head|da|verb form}}
+
+# {{inflection of|da|folde||pres|tense}}
+
+==Dutch==
+
+===Etymology===
+Borrowed from {{bor|nl|en|folder}}.
+
+===Pronunciation===
+* {{audio|nl|Nl-folder.ogg}}
+* {{hyphenation|nl|fol|der}}
+* {{rhymes|nl|ɔldər|s=2}}
+
+===Noun===
+{{nl-noun|m|-s|+}}
+
+# (folded) [[leaflet]] with information or advertising
+
+====Derived terms====
+{{col2|nl|aanbiedingsfolder|reclamefolder}}
+
+==Indonesian==
+
+===Etymology===
+From {{bor|id|en|folder}}.
+
+===Pronunciation===
+{{id-pr|rhyme=0}}
+
+===Noun===
+{{id-noun|head=foldêr}}
+
+# {{lb|id|computing}} {{l|en|folder}} {{gl|a [[virtual]] container in a [[computer]]'s [[file system]]}}
+#: {{syn|id|direktori}}
+# {{l|en|folder}} {{gl|an [[organizer]] that [[paper]]s are kept in}}
+#: {{syn|id|map}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Manx==
+
+===Noun===
+{{gv-noun|m|folderyn|-}}
+
+# {{alternative spelling of|gv|foldyr}}
+
+==Norwegian Bokmål==
+
+===Verb===
+{{head|nb|verbf}}
+
+# {{infl of|nb|folde||pres}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:bor|en:folder|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-folder.ogg}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|computing}} {{l|en|folder}}
+#: {{syn|pl|katalog}}
+# [[brochure]]
+
+====Declension====
+{{pl-decl-noun
+|folder|foldery
+|folderu (''more rarely'' foldera)|folderów
+|folderowi|folderom
+|folder|foldery
+|folderem|folderami
+|folderze|folderach
+|folderze|foldery
+}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+==Portuguese==
+
+===Alternative forms===
+* {{alt|pt|fôlder}}
+
+===Etymology===
+{{ety|pt|:ubor|en:folder|text=+|tree=1}}
+
+===Pronunciation===
+{{pt-IPA|br=fôlder}}
+
+===Noun===
+{{pt-noun|m|#s,+}}
+
+# {{lb|pt|Brazil}} [[leaflet]] {{gloss|small piece of paper with information}}
+#: {{syn|pt|panfleto}}
+
+===Further reading===
+* {{R:pt:Dicio|fôlder}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{bor+|sh|en|folder}}.
+
+===Pronunciation===
+* {{sh-IPA|fòlder}}
+
+===Noun===
+{{sh-noun}}
+
+# {{lb|sh|computing|colloquial}} {{l|en|folder}}
+#: {{syn|sh|fascikl|mapa}}
+
+===Further reading===
+* {{R:sh:HJP|fFllXxA%3D}}
+* {{R:sh:HJP|fFllXxE%3D}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:ubor|en:folder|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr|fólder}}
+
+===Noun===
+{{es-noun|m|#s}}
+
+# {{lb|es|Latin America}} {{alt form|es|fólder}}
+
+====Usage notes====
+* {{es-unadapted}}
+
+===Further reading===
+* {{R:es:DA}}
+
+==Swedish==
+{{multiple images|perrow = 2|total_width=300
+| image1 = Folder icon.png
+| image2 = Great Walk pamphlets.jpg
+|footer=''en folder, flera foldrar''
+}}
+
+===Etymology===
+{{ubor|sv|en|folder}}. According to SO attested since 1948.
+
+===Noun===
+{{sv-noun|c}}
+
+# A folded [[leaflet]].
+#: {{syn|sv|broschyr}}
+#* {{quote-journal|sv|date=6 July 2020|author=Christian S Zetterdahl|journal=w:SVT Nyheter|title='''Folder''' uppmärksammar om våld i hemmet|trans-title='''Leaflet''' highlights domestic violence|titleurl=https://www.svt.se/nyheter/lokalt/ost/folder-ska-uppmarksamma-om-vald-i-hemmet|text=Länstyrelsen tillsammans med Region Östergötland har tagit fram en '''folder''' med information om utsatthet i hemmet relaterat till covid-19.|t=The County Administrative Board, together with Region Östergötland, has produced a '''leaflet''' with information on vulnerability in the home related to COVID-19.}}
+# {{lb|sv|computer|nonstandard}} {{synonym of|sv|mapp||folder}}
+#* {{quote-journal|sv|date=06 March 2023|journal=w:sv:Computer Sweden|title=Jobba smartare – här är 10 finfina tillägg till Microsoft Office|trans-title=Work smarter – here are 10 excellent add-ons for Microsoft Office|titleurl=https://computersweden.se/article/1275414/jobba-smartare-har-ar-10-finfina-tillagg-till-microsoft-office.html|text=Det här tillägget, som är gratis, vägleder dig genom förloppet i tre enkla steg. Du ombeds välja den '''folder''' där de raderade mejlen först fanns (Återskapa dokument eller Rensa).|t=This add-on, which is free, guides you through the process in three simple steps. You are asked to select the '''folder''' where the deleted emails were originally located (Restore documents or Clean up).}}
+
+===References===
+* {{R:svenska.se|SO}}
+
+==Tagalog==
+
+===Alternative forms===
+* {{alt|tl|polder}}
+
+===Etymology===
+{{ety|tl|:bor|en:folder|text=+|tree=1}}
+
+===Pronunciation===
+{{tl-pr}}
+
+===Noun===
+{{tl-noun|b=+}}
+
+# {{l|en|folder}} {{gl|[[organizer]] that [[paper]]s are kept in}}
+#: {{syn|tl|karpeta}}
+
+===Further reading===
+* {{R:KWF Diksiyonaryo}}
+* {{R:Pambansang Diksiyonaryo}}

@@ -1,6 +1,21 @@
 {
  "entries": [
   {
+   "adjective": {},
+   "forms": [
+    {
+     "form": "lepiej",
+     "tags": {
+      "degree": "DEGREE_COMPARATIVE"
+     }
+    },
+    {
+     "form": "najlepiej",
+     "tags": {
+      "degree": "DEGREE_SUPERLATIVE"
+     }
+    }
+   ],
    "pos": "POS_ADVERB",
    "pronunciations": [
     {
@@ -143,6 +158,12 @@
        "text": "well"
       }
      ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_COMPARISON",
+     "title": "Comparison"
     }
    ]
   },

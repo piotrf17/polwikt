@@ -1,0 +1,32 @@
+{
+ "entries": [
+  {
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_QUOTATION",
+       "source": "1983, Akta synodów różnowierczych w Polsce, volume III, page 559",
+       "text": "strony absentów tak duchownego, jako i świeckiego stanu conclusum, żeby dyscyplina ekstendowana była."
+      }
+     ],
+     "gloss": "The meaning of this term is uncertain. Possibilities include:"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Learned borrowing from Latin absēns. First attested in 1571–1632."
+  }
+ ],
+ "lemma": "absent"
+}

@@ -1,0 +1,1505 @@
+{{also|Down|down-}}
+==English==
+{{wp}}
+
+===Alternative forms===
+* {{alt|en|doon||Northumbrian}}
+
+===Pronunciation===
+* {{IPA|en|/daʊ̯n/|a=RP,GA,CA}}
+** {{audio|en|En-us-down.ogg|a=US}}
+*** {{IPA|en|/dʌʊ̯n/|[dəu̯n]|a=Atlantic Canada}}
+* {{IPA|en|/dæʊ̯n/|a=Southern US,Midland US,Mid-Atlantic US,NYC,AU,NZ,[[w:Fronting (sound change)|/aʊ̯/-fronting]]}}
+* {{IPA|en|/daːn/|a=Pittsburgh,ZA,[[w:monophthongization|/aʊ̯/-monophthongization]]}}
+* {{IPA|en|/duːn/|a=Northumbrian}}
+* {{rhymes|en|aʊn|s=1}}
+* {{hyph|en|down}}
+
+===Etymology 1===
+{{etymon|en|id=direction|:inh|enm:doun<id:direction>|tree=1}}
+From {{inh|en|enm|doun}}, {{m|enm|doune||down}}, from {{inh|en|ang|dūne||down}}, [[w:Apheresis (linguistics)|aphetic]] form of {{m|ang|adūne||down, downward}}, from earlier {{m|ang|ofdūne|t=down|lit=off the hill}}, from {{m|ang|of||of, off of}} + {{m|ang|dūn||hill, mount, dune, down}}. More at Etymology 2 below. For the development from directional phrases to prepositions, compare {{ncog|ofs|dene|t=down|pos=adverb|lit=(to the) floor}}, {{ncog|gml|dāle|t=down, downwards|lit=(in/to the) dale/valley}}, whence {{ncog|nds-de|dal||down}}. Compare also {{ncog|stq|deel|t=down|lit=to/into the dale}}, {{ncog|fy|del||down}}. Cognate with {{cog|sco|doon||down}}.
+
+====Adverb====
+{{en-adv|-,further}}
+
+# {{lb|en|comparable}} From a higher position to a [[lower]] one; [[downwards]].
+#: {{ux|en|The cat jumped '''down''' from the table.}}
+#* {{RQ:Lincoln Pratt's Patients|chapter=6|passage=She was so mad she wouldn't speak to me for quite a spell, but at last I coaxed her into going up to Miss Emmeline's room and fetching '''down''' a tintype of the missing Deacon man.}}
+#* {{quote-book|en|year=1967| author=w:Barbara Sleigh| title=w:Jessamy| edition=year_published| location=Sevenoaks, Kent| publisher=Bloomsbury| isbn=0 340 19547 9| page=48| passage=To her humiliation Jessamy found there were tears trickling '''down''' her cheeks.}}
+#* {{quote-book|en|year = 1967| author=w:Barbara Sleigh| title = w:Jessamy| year_published = 1993| location=Sevenoaks, Kent| publisher=Bloomsbury| isbn=0 340 19547 9| page = 122| passage = Through the open front door ran Jessamy, '''down''' the steps to where Kitto was sitting at the bottom with the pram beside him.}}
+#* {{see more citations|en}}
+# To or towards what is considered the bottom of something, irrespective of whether this is presently physically lower.
+#: {{ux|en|Go '''down''' to the bottom of the page.}}
+#: {{ux|en|As I lay on my back, a pain shot '''down''' from my neck to my waist.}}
+# {{lb|en|comparable}} At a lower or further [[place]] or [[position]] along a set path.
+#: {{ux|en|His place is farther '''down''' the road.}}
+#: {{ux|en|The company was well '''down''' the path to bankruptcy.}}
+#* {{RQ:Weyman Chippinge Borough|I|01|passage=It was April 22, 1831, and a young man was walking '''down''' Whitehall in the direction of Parliament Street. He wore shepherd's plaid trousers and the swallow-tail coat of the day, with a figured muslin cravat wound about his wide-spread collar.}}
+# To the [[south|south]] (as south is at the bottom of typical maps).
+#: {{ux|en|I went '''down''' to Miami for a conference.}}
+# Away from the city (regardless of direction).
+#: {{ux|en|He went '''down''' to Cavan.}}
+#: {{ux|en|'''down''' on the farm}}
+#: {{ux|en|'''down''' to the country}}
+#* '''1722''', {{w|Daniel Defoe}}, ''{{w|A Journal of the Plague Year}},'' London: E. Nutt ''et al.,'' p.{{nbsp}}12,<sup>[https://archive.org/details/b30518362/page/12/mode/1up]</sup>
+#*: But then my Servant who I had intended to take '''down''' with me <nowiki>[</nowiki>''[[i.e.]]'' from London to [[Bedfordshire]]<nowiki>]</nowiki>, deceiv’d me;
+# At or towards any place that is visualised as 'down' by virtue of local features or local convention, or arbitrarily, irrespective of direction or elevation change.
+#: {{cot|en|over}}
+#: {{ux|en|She lives '''down''' by the park.}}
+# Forward, straight ahead.
+#: {{ux|en|At the first intersection turn left and walk '''down''', then turn right.}}
+# {{anchor|Adv_rail}}{{lb|en|rail transport}} In the direction leading away from the principal terminus, away from [[milepost]] zero.
+# {{lb|en|UK|academia|dated}} Away from [[Oxford]] or [[Cambridge]].
+#: {{ux|en|He's gone back '''down''' to Newcastle for Christmas.}}
+# To a subordinate or less prestigious position or rank.
+#: {{ux|en|Smith was sent '''down''' to the minors to work on his batting.}}
+#: {{ux|en|After the incident, Kelly went '''down''' to Second Lieutenant.}}
+# {{lb|en|sport}} Towards the opponent's side (in ball-sports).
+#* {{quote-journal|en|journal=Daily Telegraph| title=Frustrated Prince Harry howls as he misses open goal| date=25 May 2015| url = https://www.telegraph.co.uk/sport/othersports/polo/11627962/Frustrated-Prince-Harry-howls-as-he-misses-open-goal.html| passage=The charity match, played Sunday afternoon at Cirencester Park Polo Club in Gloucestershire, reached a dramatic climax when Prince Harry tore '''down''' the pitch but failed to score what was described as an “open goal”.}}
+#* {{quote-web|en| title=LBW explained| date=Sept 2005| url=http://news.bbc.co.uk/sport1/hi/cricket/rules_and_equipment/6126324.stm| passage=By moving further down the pitch, the batsman lengthens the distance between the ball and the stumps.}}
+# So as to lessen quantity, level or intensity.
+#: {{ux|en|You need to tone '''down''' the rhetoric.}}
+#: {{ux|en|Please turn the music '''down'''!}}
+# So as to reduce size, weight or volume.
+#: {{ux|en|Trim the stick '''down''' to a length of about twelve inches.}}
+#: {{ux|en|Thanks to my strict diet, I've slimmed '''down''' to eleven stone.}}
+#: {{ux|en|Boil the mixture '''down''' to a syrupy consistency.}}
+#* {{quote-book|en|year=1788|author=Mary Cole (cook)|title=The Lady's Complete Guide; or, Cookery in all its Branches|location=London|publisher=G. Kearsley|oclc=6545073|page=92|passage=ſtew it gently till quite tender, then take it up and boil '''down''' the gravy in the pan to a quart}}
+#* {{quote-journal|en|date=29 Aug 81|volume=9|number=7|journal=Gay Community News|page=4|author=Nancy Wechsler|title=Pornography and the Lawyers Guild|text=At that point I perhaps should have gone back through the interview and changed what I said — slightly re-worded it to better reflect my feelings about the two resolutions. But I did not think to do that. I was caught up in the crunch of trying to get it all ready for publication, and edit it '''''down''''', not add more explanations to it.}}
+# From less to greater detail.
+#: {{ux|en|This spreadsheet lets you drill '''down''' to daily or even hourly sales figures.}}
+#* {{quote-journal|en|date=2013-08-03|volume=408|issue=8847|magazine=w:The Economist
+|title=[http://www.economist.com/news/finance-and-economics/21582498-america-has-changed-way-it-measures-gdp-boundary-problems Boundary problems]
+|passage=Economics is a messy discipline: too fluid to be a science, too rigorous to be an art. Perhaps it is fitting that economists’ most-used metric, gross domestic product (GDP), is a tangle too. GDP measures the total value of output in an economic territory. Its apparent simplicity explains why it is scrutinised '''down''' to tenths of a percentage point every month.}}
+# From a remoter or higher antiquity.
+#: {{ux|en|These traditions have been handed '''down''' over generations.}}
+#* {{quote-book|en|date=June 17, 1825|author=w:Daniel Webster|title=An address delivered at the laying of the corner stone of the Bunker Hill monument|location=Boston|publisher=Cummings, Hilliard, and Co.|oclc=228718257|page=12|passage=Venerable men! you have come '''down''' to us from a former generation.}}
+# Into a state of non-[[operation]].
+#: {{ux|en|The computer has been shut '''down'''.}}
+#: {{ux|en|They closed the shop '''down'''.}}
+# So as to secure or compress something to the floor, ground, or other (usually horizontal) surface.
+#: {{ux|en|We need to nail '''down''' this carpet so people don't keep tripping over it.}}
+# On [[paper]] (or in a [[durable]] [[record]]).
+#: {{ux|en|You need to write '''down''' what happened while it's still fresh in your mind.}}
+# So as to be [[cow]]ed into [[silence]].
+#: {{ux|en|The speaker was heckled and shouted '''down'''.}}
+#: {{ux|en|The comedy club's audience was known for hooting '''down''' timid performers.}}
+# As a [[down payment]].
+#: {{ux|en|We put £100 '''down''' on a new sofa.}}
+#: {{ux|en|You can have it, no money '''down'''.}}
+# {{lb|en|crosswords, in relation to a numbered clued word}} In a downwards direction; vertically.
+#: {{ux|en|I'm stuck on 11 '''down'''.}}
+# {{non-gloss|Used with verbs to indicate that the action of the verb was carried to some state of completion, permanence, or success rather than being of indefinite duration.}}
+#: {{ux|en|He closed operations. / He closed '''down''' operations.}}
+#: {{ux|en|He chased answers. / He chased '''down''' answers.}}
+# {{lb|en|sentence substitute|imperative}} [[get down|Get down]].
+#: {{ux|en|'''Down''', boy! {{qualifier|such as to direct a dog to stand on four legs from two, or to sit from standing on four legs.}}}}
+
+=====Usage notes=====
+* '''Down''' can be used with verbs in ways that change the meaning of the verb in ways not entirely predictable from the meanings of the '''down''' and the verb, though related to them. See [[:Category:English phrasal verbs formed with "down"]].
+
+=====Antonyms=====
+* {{antsense|from a higher position to a lower one}} {{l|en|up}}
+* {{antsense|at a lower place}} {{l|en|up}}
+* {{antsense|away from the city}} {{l|en|up}}
+* {{antsense|into a state of non-operation}} {{l|en|up}}
+* {{antsense|rail transport: direction leading away from the principal terminus}} {{l|en|up}}
+* {{antsense|in crosswords}} {{l|en|across}}
+* {{antsense|forward, straight ahead}} {{l|en|back}};  {{l|en|backwards}};  {{l|en|rearwards}}
+
+=====Translations=====
+{{trans-top-see|from a high to a low position, downwards|downwards}}
+* Albanian: {{t|sq|ndër}}
+* Amharic: {{t|am|ቁልቁል}}
+* Arabic: {{t+|ar|تَحْتَ}}, {{t+|ar|تَحْت}}
+* Aromanian: {{t|rup|dighios}}
+* Asturian: {{t|ast|abaxo}}
+* Azerbaijani: {{t+|az|aşağı}}, {{t|az|aşağıya}}
+* Bashkir: {{t|ba|аҫҡа}}, {{t|ba|түбән}}
+* Belarusian: {{t|be|ўніз}}
+* Bulgarian: {{t|bg|надо́лу}}
+* Catalan: {{t+|ca|avall}}
+* Chechen: {{t|ce|охьа}}
+* Chinese:
+*: Mandarin: {{t+|cmn|下|tr=xià}}
+* Cornish: {{t|kw|war-nans}}
+* Czech: {{t+|cs|dolů}}
+* Danish: {{t+|da|ned}}, {{t|da|nedad}}
+* Dutch: {{t+|nl|beneden|alt=naar beneden}}, {{t+|nl|neer}}
+* Esperanto: {{t+|eo|malsupren}}, {{t+|eo|suben}}
+* Estonian: {{t|et|alla}}, {{t|et|allapoole}}
+* Evenki: {{t|evn|хэргиски}}
+* Faroese: {{t|fo|niður}}, {{t|fo|oman}}
+* Fijian: {{t+|fj|ra}}
+* Finnish: {{t+|fi|alas}}, {{t+|fi|alaspäin}}
+* French: {{t+|fr|à bas}}, {{t+|fr|en bas}}
+* Frisian:
+*: West Frisian: {{t|fy|del}}
+* Friulian: {{t|fur|jù}}
+* Galician: {{t+|gl|abaixo}}
+* Georgian: {{t-needed|ka}}
+* German: {{t+|de|runter}} {{qualifier|toward the speaker}}, {{t+|de|herunter}} {{qualifier|toward the speaker}}, {{t+|de|hinunter}} {{qualifier|away from the speaker}}
+* Gothic: {{t|got|𐌳𐌰𐌻𐌰𐌸}}
+* Greek: {{t+|el|κάτω}}
+*: Ancient Greek: {{t|grc|κάτω}}
+* Hebrew: {{t+|he|מַטָּה|tr=máta}}
+* Hindi: {{t+|hi|नीचे}}, {{t+|hi|तह}}
+* Hungarian: {{t+|hu|le}}
+* Icelandic: {{t+|is|niður}}
+* Irish: {{t|ga|síos}} {{qualifier|away from the speaker}}, {{t|ga|anuas}} {{qualifier|toward the speaker}}
+* Italian: {{t+|it|abbasso}}, {{t+|it|giù}}
+* Japanese: {{t+|ja|下|tr=した に, shita ni|alt=下に}}
+* Khmer: {{t+|km|ចុះ}}
+* Korean: {{t+|ko|아래|alt=아래-에}} {{qualifier|where}}, {{t+|ko|아래|alt=아래-로}} {{qualifier|where to}}, {{t+|ko|밑|alt=밑으로}}
+* Kurdish:
+*: Northern Kurdish: {{t+|kmr|jêr}}, {{t+|kmr|xwarê}}
+* Lao: {{t|lo|ລົງ}}
+* Latin: {{t+|la|deorsum}}, {{t|la|pessum}}
+* Latvian: {{t|lv|lejā}}, {{t|lv|[[uz]] [[leju]]}}, {{t|lv|lejup}}
+* Lombard: {{t+|lmo|giò}}
+* Low German: {{t|nds|dal}}
+* Macedonian: {{t|mk|надолу}}
+* Malayalam: {{t+|ml|താഴെ}}
+* Maltese: {{t|mt|baxx}}, {{t|mt|'l isfel}}
+* Manx: {{t|gv|sheese}} {{qualifier|away from speaker}}, {{t|gv|neose}} {{qualifier|towards speaker}}
+* Māori: {{t|mi|iho}}, {{t|mi|ki raro}}
+* Marathi: {{t+|mr|खाली|tr=khālī}}
+* Navajo: {{t|nv|yaago}}
+* Norwegian: {{t+|no|ned}}
+* Occitan: {{t+|oc|aval}}
+* Old English: {{t|ang|niþer}}
+* Persian: {{t+|fa|پایین|tr=pâyin}}
+* Plautdietsch: {{t|pdt|rauf}}
+* Polabian: {{t|pox|ardol}}, {{t|pox|ai zimă}}
+* Polish: {{t|pl|na dół}}, {{t+|pl|w dół}}
+* Portuguese: {{t+|pt|abaixo}}, {{t|pt|para baixo}}, {{qualifier|archaic}} {{t+|pt|juso}}
+* Punjabi: {{t|pa|ਹੇਠਾਂ|tr=heṭhā̃}}
+* Romani: {{t|rom|tele}}
+* Romanian: {{t+|ro|jos}}, {{t|ro|în jos}}, {{t|ro|spre-n jos}}
+* Russian: {{t+|ru|вниз}}, {{t+|ru|кни́зу}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|sìos}}, {{t|gd|a-bhuas}}, {{t|gd|a-bhàn}}, {{t|gd|a-nuas}}
+* Slovak: {{t|sk|dolu}}
+* Slovene: {{t+|sl|spodaj}}
+* Spanish: {{t+|es|([[para]]) [[abajo]]}}
+* Swahili: {{t+|sw|chini}}
+* Swedish: {{t+|sv|ned}}, {{t+|sv|ner}}
+* Thai: {{t+|th|ลง}}
+* Tibetan: {{t-needed|bo}}
+* Turkish:
+*: Ottoman Turkish: {{t|ota|آشاغی|tr=aşağı}}
+* Ukrainian: {{t|uk|вниз}}, {{t|uk|дони́зу}}, {{t|uk|уни́з}}, {{t|uk|доліли́ць}}, {{t|uk|ниць}}
+* Urdu: {{t|ur|نیچے|tr=nīce}}
+* Venetan: {{t|vec|xó}}, {{t|vec|zó}}, {{t|vec|xóxo}}, {{t|vec|zóxo}}, {{t|vec|dóxo}}, {{t|vec|dho}}, {{t|vec|abaso}}, {{t|vec|dabaso}}, {{t|vec|dabas}}
+* Vietnamese: {{t+|vi|xuống}}
+* Yakut: {{t|sah|аллара}}
+{{trans-bottom}}
+
+{{trans-top|to the south}}
+* Bulgarian: {{t+|bg|юг}}
+* Catalan: {{t|ca|al sud}}
+* Czech: {{t+|cs|dolů}}, {{t+|cs|dole}}
+* Danish: {{t+|da|ned}}
+* Dutch: {{t+|nl|beneden|alt=naar beneden}}
+* Esperanto: {{t|eo|suden}}
+* Finnish: {{t+|fi|etelään}}
+* French: {{t+|fr|sud}}
+* Galician: {{t+|gl|abaixo}}
+* Irish: {{t|ga|suas}}
+* Japanese: {{t+|ja|南|tr=みなみ に, minami ni|alt=南に}}
+* Korean: {{t+|ko|남쪽|alt=남쪽으로}}
+* Macedonian: {{t|mk|југ|alt=на југ}}
+* Maltese: {{t|mt|isfel}}
+* Māori: {{t|mi|tonga}}
+* Portuguese: {{t+|pt|embaixo}} {{q|Brazil}}
+* Romanian: {{t|ro|la sud}}
+* Russian: {{qualifier|where}} {{t+|ru|юг|alt=на ю́ге}}, {{qualifier|whither}} {{t+|ru|юг|alt=на юг}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|deas}}
+* Slovene: {{t|sl|južno}}
+* Ukrainian: {{t+|uk|південь|alt=на пі́вдень}} {{qualifier|to where}}, {{t+|uk|південь|alt=на пі́вдні}} {{qualifier|where}}, {{t|uk|півде́нніше}}
+* Vietnamese: {{qualifier|in Vietnam}} {{t+|vi|vào}}
+{{trans-bottom}}
+
+{{trans-top|away from the city}}
+* Asturian: {{t|ast|afuera}}
+* Catalan: {{t+|ca|enfora}}
+* Czech: {{t+|cs|ven}}
+* Esperanto: {{t|eo|malurben}}
+* Galician: {{t|gl|afora}}
+* Korean: {{t+|ko|내려가다}} {{qualifier|to go away from the city}}
+* Portuguese: {{t+|pt|fora}}
+* Russian: {{qualifier|where}} {{t+|ru|город|alt=за го́родом}}, {{qualifier|whither}} {{t+|ru|город|alt=за́ го́род}}
+* Scottish Gaelic: {{t|gd|a-mach}}
+* Ukrainian: {{t+|uk|місто|alt=за мі́сто}} {{qualifier|to where}}, {{t+|uk|місто|alt=за мі́стом}}, {{t+|uk|місто|alt=по́за мі́стом}} {{qualifier|where}}
+{{trans-bottom}}
+
+{{trans-top|forward, straight ahead}}
+* Bulgarian: {{t+|bg|напре́д}}
+* Catalan: {{t|ca|tot recte}}
+* German: {{t+|de|geradeaus}}
+* Russian: {{t+|ru|вперёд}}
+* Ukrainian: {{t|uk|попе́реду}}, {{t|uk|спе́реду}}, {{t|uk|впере́д}}, {{t|uk|упере́д}}
+{{trans-bottom}}
+
+{{trans-top|rail transport: away from principal terminus}}
+* Bulgarian:  {{t-needed|bg}}
+* Japanese: {{t+|ja|下り|tr=くだり の, kudari no|alt=下りの}}
+{{trans-bottom}}
+
+{{trans-top|into a state of non-operation}}
+* Asturian: {{t+|ast|fuera}}
+* Bulgarian: {{not used|bg}}
+* Catalan: {{t|ca|fora de servei}}
+* Danish: {{t|da|nede}}
+* Dutch: {{t+|nl|uit}}, {{t+|nl|af}}
+* Finnish: {{t+|fi|alas}} {{qualifier|only in some contexts, otherwise no translation}}
+* Galician: {{t+|gl|fóra}}
+* Korean: {{t+|ko|꺼지다|alt=꺼져}} {{qualifier|of machinery}}, {{t+|ko|닫다|alt=닫혀}} {{qualifier|of working place}}
+* Māori: {{t|mi|pakaru}}
+* Russian: {{t|ru|вы́ключен|m}}, {{t+|ru|лежит}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|sìos}}
+* Swahili: {{t+|sw|chini}}
+* Ukrainian: {{t|uk|ви́мкнено}}
+{{trans-bottom}}
+
+{{trans-top-see|in crosswords|vertical}}
+* Catalan: {{t+|ca|vertical}}
+* Finnish: {{t|fi|pystysuoraan}}
+* Hebrew: {{t+|he|מאונך|m}}
+* Norwegian:
+*: Bokmål: {{t|nb|loddrett}}
+*: Nynorsk: {{t|nn|loddrett}}
+* Polish: {{t+|pl|pionowo}}
+* Russian: {{t+|ru|по вертика́ли}}
+* Swedish: {{t+|sv|lodrätt}}
+* Ukrainian: {{t|uk|вертика́льно}}
+{{trans-bottom}}
+
+{{trans-top|sentence substitute for "get down"}}
+* Bulgarian: {{t|bg|до́лу}}
+* Catalan: {{qualifier|said to a dog}} {{t+|ca|jau!}}, {{qualifier|said to a person; informal}} {{t+|ca|baixa}}, {{qualifier|said to a person; formal}} {{t+|ca|baixi}}, {{t+|ca|avall}}
+* Finnish: {{t+|fi|maahan}}
+* French: {{qualifier|said to a dog}} {{t+|fr|couché}}, {{qualifier|said to a person; informal}} {{t+|fr|descends}}, {{qualifier|said to a person; formal}} {{t+|fr|descendez}}
+* Italian: {{t+|it|giù}}
+* Russian: {{t+|ru|спусти́ться}}
+* Spanish: {{t+|es|abajo}}
+* Swahili: {{t+|sw|chini}}
+* Ukrainian: {{t|uk|дони́зу}}, {{t|uk|вниз}}, {{t|uk|уни́з}}, {{t|uk|додо́лу}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Albanian: {{t+check|sq|poshtë}}
+* Asturian: {{t|ast|debaxo}}
+* Belarusian: {{t|be|ўні́зе}}
+* Bulgarian: {{t|bg|долу}}
+* Chickasaw: {{t|cic|akka'}}
+* Cornish: {{t|kw|war-woles}}
+* Czech: {{t+|cs|dole}}
+* Danish: {{t|da|nede}}
+* Fijian: {{t+|fj|ra}}
+* Finnish: {{t+|fi|alhaalla}}, {{t|fi|alempana}}
+* French: {{t+|fr|descendre|lit=to go down}}, {{t|fr|en descendant}}
+* Galician: {{t+|gl|debaixo}}
+* German: {{t+|de|unten}}
+* Hungarian: {{t+|hu|lent}}
+* Ido: {{t+check|io|infre}}, {{t+check|io|adinfre}}
+* Indonesian: {{t+check|id|bawah}}
+* Irish: {{t|ga|thíos}}
+* Italian: {{t|it|giuso}}, {{t|it|verso il basso}}, {{t-check|it|([[in]]) [[giù]]}}
+* Kurdish:
+*: Northern Kurdish: {{t+check|kmr|jêr}}, {{t+check|kmr|binî}}
+* Latvian: {{t|lv|lejā}}
+* Macedonian: {{t|mk|долу}}
+* Manx: {{t|gv|heese}}
+* Māori: {{t|mi|i raro}}, {{t+|mi|kei raro}}
+* Marathi: {{t+check|mr|खाली}}
+* Norwegian: {{t+|no|nede}}
+* Old English: {{t|ang|niþre}}
+* Polish: {{t+|pl|na dole}}
+* Portuguese: {{t+|pt|embaixo}} {{q|Brazil}}, {{t+|pt|abaixo}}
+* Romanian: {{t+|ro|jos}}, {{t+check|ro|jos}}
+* Russian: {{t+|ru|внизу́}}, {{t+|ru|ни́же}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|shìos}}, {{t|gd|a-bhuas}}, {{t|gd|a-bhàn}}
+* Serbo-Croatian: {{t+check|sh|dolje}}
+* Slovak: {{t|sk|dole}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|dołojce}}
+* Swahili: {{t+|sw|chini}}
+* Ukrainian: {{t|uk|внизу́}}
+{{trans-bottom}}
+
+====Preposition====
+{{en-head|prep}}
+
+# From the [[higher]] [[end]] to the [[lower]] of.
+#: {{ux|en|The ball rolled '''down''' the hill.}}
+#* {{RQ:Churchill Celebrity|chapter=5|passage=We expressed our readiness, and in ten minutes were in the station wagon, rolling rapidly '''down''' the long drive, for it was then after nine. We passed on the way the van of the guests from Asquith.}}
+# From [[north]] to [[south]] of.
+#: {{ux|en|We sailed '''down''' the eastern seaboard.}}
+# Towards the mouth of (a river); in the direction of flow of.
+#: {{ux|en|In this game we float sticks '''down''' the river.}}
+# From one end to another of (in any direction); [[along]].
+#: {{ux|en|The bus went '''down''' the street.}}
+#: {{ux|en|They walked '''down''' the beach holding hands.}}
+#* {{quote-web|en|work=Skip Boring|date=2026-08-07|author=Nicholas Muhoro|title=Korrina Malinoski, 26, Vanished After an Argument in 1987. Less Than a Year Later, Her 11-Year-Old Daughter Disappeared Too|archiveurl=https://web.archive.org/web/20260807235024/https://skipboring.com/korrina-malinoski-annette-sagers-disappearance/|text=She got into her Dodge Omni and drove '''down''' the curving driveway towards the plantation’s main gate and onto Highway 52.}}
+# {{lb|en|UK|Ireland}} At (a given place that is seen as removed from one's present location or other point of reference).
+#: {{ux|en|I'll see you later '''down''' the pub.}}
+# {{lb|en|UK|Ireland}} To (a given place that is seen as removed from one's present location or other point of reference).
+#: {{ux|en|I'm going '''down''' the shops.}}
+
+=====Antonyms=====
+* {{antsense|From the higher end to the lower}} {{l|en|up}}
+
+=====Derived terms=====
+* {{sense|from the higher end to the lower}} {{l|en|like kicking dead whales down the beach}}, {{l|en|like throwing a sausage down a hallway}}, {{l|en|sell down the river}}, {{l|en|throw one's hotdog down someone's hallway}}
+
+=====Translations=====
+{{trans-top|from one end to another}}
+* Arabic: {{t+|ar|حَتَى}}, {{t+|ar|إِلَى}}
+*: Egyptian Arabic: {{t|arz|لحد|tr=leḥād}}, {{t|arz|لغايت|tr=leḡayet}}
+* Asturian: {{t-needed|ast}}
+* Belarusian: {{t|be|уні́з}}
+* Bulgarian: {{t+|bg|по}}
+* Catalan: {{t+|ca|avall}}
+* Danish: {{t|da|ned ad}}, {{t|da|hen ad}}
+* Dutch: {{t+|nl|af}}, {{t+|nl|beneden|alt=naar beneden}}
+* Esperanto: {{t|eo|[[sub]] ...[[-n]]}} {{qualifier|i.e. with an object in the accusative case}}
+* Estonian: {{t-needed|et}}
+* Finnish: {{t|fi|[[-n]] {{q|genitive}} [[poikki]]}}
+* Galician: {{t+|gl|por}}
+* German: {{t+|de|ab}}
+* Greek: {{t|el|κάτω σε}}
+* Khmer: {{t+|km|ចុះ|tr=coh}}
+* Korean: {{t+|ko|아래|alt=아래로}}
+* Mirandese: {{t-needed|mwl}}
+* Portuguese: {{t+|pt|por}}, {{t|pt|[[através]] [[de]]}}
+* Romanian: {{t-needed|ro}}
+* Russian: {{t+|ru|вниз}}, {{t+|ru|вдоль}} {{qualifier|along}}, {{t+|ru|по}} {{qualifier|along}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|a-bhàn}}, {{t|gd|sìos}}, {{t|gd|le}}
+* Sikkimese: {{t-needed|sip}}
+* Slovak: {{t-needed|sk}}
+* Slovene: {{t+|sl|dôl}}
+* Spanish: {{t+|es|por}}
+* Telugu: {{t-needed|te}}
+* Thai: {{t+|th|ลง}}
+* Ukrainian: {{t|uk|уни́з}}, {{t|uk|вниз}}, {{t|uk|дони́зу}}, {{t|uk|додо́лу}}
+* Volapük: {{t-needed|vo}}
+* Welsh: {{t|cy|i lawr}}, {{t|cy|lawr}}
+* Yiddish: {{t|yi|דורך}}
+{{trans-bottom}}
+
+====Adjective====
+{{en-adj}} {{tlb|en|chiefly|predicative|see usage notes}}
+
+# [[face|Facing]] downwards.
+#: {{ux|en|Turn the cloth over so that the patterned side is '''down'''.}}
+#* {{quote-text|en|year=1993|publisher=Calvert|title=Finite Mathematics: Overrun Edition|page=251
+|passage=You win a dollar if the '''down''' side of the card is different to the up side; otherwise, you lose a dollar.}}
+#* {{quote-text|en|year=2004|author=Robert M. Gray; Lee D. Davisson|title=An Introduction to Statistical Signal Processing|page=170
+|passage=Define the event F as the event that the '''down''' face of the die is 1 or 4.}}
+#* {{quote-text|en|year=2016|author=Keith E. Stanovich; Richard F. West; Maggie E. Toplak|title=The Rationality Quotient: Toward a Test of Rational Thinking|page=332
+|passage=Each time the 10 cards are reshuffled, your task is to predict the letter on the '''down''' side of the top card.}}
+# At a lower level than before.
+#: {{ant|en|up}}
+#: {{ux|en|The stock market is '''down'''.}}
+#: {{ux|en|Prices are '''down'''.}}
+#* {{quote-web|en|date=2026-08-06|work=Pew|author=Meaghan McDonald;Michael Friedrich|title=Why Are Homicides Declining Across the United States?|url=https://www.pew.org/en/research-and-analysis/articles/2026/08/06/why-are-homicides-declining-across-the-united-states?subscriberkey=0037V00002o2AeOQAU|text=Nationwide, in 2025, homicides were '''down''' by about 18% compared with 2024, marking the largest one-year decrease on record.}}
+# {{lb|en|informal}} [[sad|Sad]], [[unhappy]], [[depressed]], feeling [[low]].
+#: {{syn|en|miserable|sorrowful|Thesaurus:sad}}
+#: {{ant|en|up}}
+#: {{ux|en|Mary seems very '''down''' since she split up with her boyfriend.}}
+#: {{ux|en|[[w:I Will Turn Your Money Green|Been '''down''' so long it seems like up to me]]}}
+#* {{quote-song|en|author=w:Rachel Platten|title=Overwhelmed|album=Be Here|year=2011|url=https://www.youtube.com/watch?v=hqCqV_fluBE|text=We get '''down''', '''down''', '''down''' / We feel sorry for ourselves / We get '''down''', '''down''', '''down''' / We all need somebody's help}}
+#* {{quote-journal|en|date=March 30, 2014|author=William Yardley|quotee=w:Eddie Lawrence|title=Eddie Lawrence Dies at 95; Comedy's ‘Old Philosopher’|newspaper=New York Times|url=http://www.nytimes.com/2014/03/31/arts/eddie-lawrence-comedian-actor-and-pitchman-is-dead-at-95.html|section=Arts|passage=You say you opened up a bicycle wash and the first six customers drowned [...] Is that what’s got you '''down''', pussy cat?}}
+# ''Sick, wounded, or damaged:''
+## {{lb|en|normally in the combination 'down with'}} [[sick|Sick]] or [[ill]].
+##: {{ux|en|He is '''down''' with the flu.}}
+## {{lb|en|not comparable|military|police|slang|of a person}} [[wound|Wounded]] and unable to [[move]] normally, or [[kill]]ed.
+##: {{ux|en|We have an officer '''down''' outside the suspect's house.}}
+##: {{ux|en|There are three soldiers '''down''' and one walking wounded.}}
+## {{lb|en|veterinary medicine|of a cow}} Stranded in a [[recumbent]] position; unable to [[stand]].
+##: {{syn|en|q1=of "down cow"|downer}}
+##: {{coi|en|a '''down''' cow}}
+## {{lb|en|not comparable|military|aviation|slang|of an aircraft}} Mechanically [[fail]]ed, [[collide]]d, [[shot down]], or otherwise suddenly unable to [[fly]].
+##: {{ux|en|We have a chopper '''down''' near the river.}}
+## {{lb|en|not comparable}} [[inoperable|Inoperable]]; [[out of order]]; out of service.
+##: {{ant|en|up}}
+##: {{ux|en|The system is '''down'''.}}
+# {{lb|en|slang}} In [[prison]].
+#* {{quote-journal|en|date=7 Feb 88|volume=15|number=29|journal=Gay Community News|page=5|title=Let's Start Caring About Ourselves|author=Crystal Dawn Boyd|text=I'm a TS who has been '''down''' for over 5 years and will be going up for parole in the next 1 to 3 years.}}
+# Having a lower score than an opponent.
+#: {{ant|en|up}}
+#: {{ux|en|They are '''down''' by 3–0 with just 5 minutes to play.}}
+#: {{ux|en|He was '''down''' by a bishop and a pawn after 15 moves.}}
+#: {{ux|en|At 5–1 '''down''', she produced a great comeback to win the set on a tiebreak.}}
+# {{lb|en|baseball|cricket|colloquial|following the noun modified}} [[out|Out]].
+#: {{ux|en|Two '''down''' and one to go in the bottom of the ninth.}}
+# {{senseid|en|negative about}} {{lb|en|colloquial|with "[[on]]"}} Negative about; hostile to.
+#: {{ux|en|She's been '''down''' on clams since a bad case of food poisoning; she's lost her appetite for them.}}
+#* {{quote-journal|en|date=13 Aug 83|volume=11|number=5|journal=Gay Community News|page=22|author=Dennis Stinson|title=Personal advertisement|text=The prisoners here are '''down on''' gays (they bring the outside in here with them when they come in). I sometimes think they hate us because they fear to be us.}}
+# {{senseid|en|accepting}} {{lb|en|North America|slang}} Comfortable [with]; accepting [of]; okay [with].
+#: {{nearsyn|en|feel like|would like|fancy}}
+#: {{ux|en|He's chill enough; he'd probably be totally '''down''' with it.}}
+#: {{ux|en|''Asker:'' Are you '''down''' to hang out at the mall? / ''Answerer:'' Yeah, as long as you're '''down''' with helping me pick a phone.}}
+#: {{ux|en|''Asker:'' You '''down'''? Yes or no? / ''Answerer:'' You know I'm '''down''' for whatever.}}
+#* {{quote-book|en|title=For the Love of Money| page=121| author=Omar Tyree| year=2001| passage=Then again, with your name being Juanita Perez, I wasn't sure if you were more '''down''' with the Latinos or something.}}
+#* {{quote-book|en|title=Good Morning Blues: The Autobiography Of Count Basie| page=194| author=Count Basie; Albert Murray| year=2002| passage=He said Lunceford's band was smoother and had more musical variety and great show-band novelties, but that there was something about the way we did our things that made us sound more '''down''' with it.}}
+#* {{quote-book|en|title=Small Talk--big Cure!: Talking Your Way to a Better Life| page=58| author=David W. Shave| year=2007| passage=And we could then feel more "'''down'''" with more unconscious guilt.}}
+#* {{quote-web|en|url=https://www.vanityfair.com/style/2019/09/an-oral-history-of-lilith-fair |title=Building a Mystery: An Oral History of Lilith Fair |work=w:Vanity Fair |date=September 30, 2019 |author=Jessica Hopper; Sasha Geffen; Jenn Pelly |text=I thought, Oh, Sarah must be one of these super gentle, herbal-tea-drinking, crystal-having kind of people. And she was just super '''down'''. She belched like a sailor.}}
+# {{lb|en|AAVE|slang}} [[accepted|Accepted]], [[respected]], or loyally [[participating]] in the ([[thug life|thug]]) community.
+#: {{ux|en|What you mean, 'No'? Man, I thought you was '''down'''.}}
+#* {{quote-song|en|year=1994|lyricist=Coolio|title=Gangsta's Paradise|passage=my homies is '''down''' so don't arouse my anger}}
+#* {{quote-book|en|year=1995| title=Colors - Volume 4 |author=| page=28| passage=Nigga you ain't '''down'''. You heard what Nate said. If you ain't '''down''' for the dead homie you sure ain't '''down''' for us.}}
+#* {{quote-book|en|year=2009| title=L.A. Unified|author=Mike Flax | page=129| passage=Cause you're a whiteboy, you know, an' if you get locked up you gotta be '''down''' for the Aryans and the Surenos, you know? You gotta be '''down'''. }}
+# [[finished|Finished]] (of a task); [[defeat]]ed or [[deal with|dealt with]] (of an opponent or obstacle); [[elapsed]] (of time). Often coupled with ''[[to go]]'' (remaining).
+#: {{ux|en|Two '''down''' and three to go.}}
+#: {{ux|en|Ten minutes '''down''' and nothing's happened yet.}}
+# Thoroughly [[practiced]], [[learned]] or [[memorised]]; [[mastered]]. {{qualifier|Compare ''[[down pat]]''.}}
+#: {{ux|en|It's two weeks until opening night and our lines are still not '''down''' yet.}}
+#* {{quote-book|en|year=2013|author=P.J. Hoover|title=Solstice|isbn=0765334690|page=355
+|passage=I stay with Chloe the longest. When she's not hanging out at the beach parties, she lives in a Japanese garden complete with an arched bridge spanning a pond filled with koi of varying sizes and shapes. Reeds shoot out of the water, rustling when the fish swim through them, and river-washed stones are sprinkled in a bed of sand. Chloe has this whole new Japanese thing '''down'''.}}
+# {{lb|en|informal|of a person}} {{1|settled}}, having one's life or affairs [[in order]].
+#*{{quote-text|en|title=Diary|author={{w|Lou Sullivan}}|date=28 Jan 1973|text=I don't feel at all past 18... time stopped for me when I turned 18. But 22... shit, a person should be somewhat '''down''' by then.}}
+# {{lb|en|obsolete}} Downright; absolute; positive.
+#* {{quote-book|en|year=1764|author=Jonathan Mayhew|title=A Defence of the Observations on the Charter and Conduct of the Society for the Propagation of the Gospel in Foreign Parts|location=London|publisher=W. Nicoll|oclc=940171697|page=84|passage=This, he muſt give me leave to tell him, is an abſolute, right '''down'''—falſehood.}}
+# {{lb|en|of a tree, limb, etc}} [[fallen|Fallen]] or [[felled]].
+#* {{quote-book|en|year=1897|author=Royal Canadian Mounted Police|title=Report of the Commissioner ...|page=72
+|text=Left again at 1.05 p.m., and for two miles it was over rolling county with easy grades, but a good deal of '''down''' timber.}}
+#* {{quote-book|en|year=1920|title=Boys and Girls Bookshelf: A Practical Plan of Character Building ...|page=309
+|text=The mere fact that there are quantities of trees near by with "loads” of '''down''' wood, does not signify that it is desirable camp fuel.}}
+#* '''1935''' (printed in '''2009'''), Powell, ''Shenandoah Letters'', 54:
+#*: Will you please let me get two loads of '''down''' wood.
+#* {{quote-book|en|year=1981|title=Ecological Characteristics of Old-growth Douglas-fir Forests|page=31
+|text=The average weight of '''down''' logs in seven old-growth stands, from 250 to over 900 years old, was 53 tons per acre (118 tonnes/ha); the range was 38 to 70 tons per acre (85 to 156 tonnes/ha). The largest accumulation of '''down''' wood recorded for a stand thus far is in the Carbon River Valley {{...}} }}
+# {{lb|en|rail transport|of a train}} Travelling in the direction leading away from the principal [[terminus]], away from [[milepost]] zero.
+#: {{ant|en|up}}
+#: {{ux|en|The '''down''' train leaves at 10:05.}}
+
+=====Usage notes=====
+In many senses, using this adjective in an attributive position (before the noun) is avoided in everyday Standard English:
+: {{ux|en|The system is '''down'''. / ''{{q|nonstandard}}'' They were fixing the '''down''' system.}}
+Compare a synonym, {{m|en|faulty}}, which can be used either predicatively or attributively:
+: {{ux|en|The system is '''faulty'''. / They were fixing the '''faulty''' system.}} (both acceptable)
+In certain specialised uses (such as the veterinary medicine, timber and rail transport senses), there is no avoidance of the attributive placement, which is used freely.
+
+=====Derived terms=====
+* {{l|en|down bad}}
+* {{l|en|down but not out}}
+* {{l|en|downtime}}
+
+=====Translations=====
+{{trans-top|on a lower level than before}}
+* Bulgarian: {{t+|bg|пониже́н}}
+* Catalan: {{t+|ca|baix}}
+* Danish: {{t+|da|lav}}, {{t|da|nedadgående}}, {{t|da|aftagende}}
+* Dutch: {{t+|nl|laag}}
+* Esperanto: {{t|eo|malsupra}}, {{t|eo|suba}}
+* Finnish: {{t|fi|alempana}}
+* Galician: {{t+|gl|baixo}}
+* German: {{t+|de|unten}}
+* Macedonian: {{t|mk|намален}}
+* Portuguese: {{t+|pt|baixo}}
+* Russian: {{t+|ru|снижа́ющийся}}
+* Thai: {{t+|th|ต่ำ}}
+* Ukrainian: {{t|uk|зни́жений}}
+{{trans-bottom}}
+
+{{trans-top-see|depressed}}
+* Bulgarian: {{t+|bg|поти́снат}}, {{t+|bg|печа́лен}}, {{t+|bg|опечале́н}}
+* Catalan: {{t+|ca|deprimit}}, {{t+|ca|moix}}
+* Danish: {{t|da|langt nede}}, {{t|da|nede}}, {{t|da|deprimeret}}
+* Dutch: {{t+|nl|down}}, {{t+|nl|depri}}, {{t+|nl|depressief}}
+* Finnish: {{t+|fi|allapäin}}, {{t+|fi|alakuloinen}}
+* French: {{t+|fr|dépressif|m}}
+* Galician: {{t+|gl|triste}}
+* German: {{t+|de|down}}
+* Macedonian: {{t|mk|потиштен}}, {{t|mk|тажен}}
+* Malay: {{t+|ms|sedih}}, {{t|ms|murung}}
+* Portuguese: {{t+|pt|triste}}, {{t+|pt|deprimido}}, {{t+|pt|borocoxô}}
+* Romanian: {{t+|ro|căzut}}, {{t+|ro|deprimat}}
+* Russian: {{t+|ru|печа́льный}}, {{t+|ru|пода́вленный}}
+* Scots: {{t|sco|dowie}}
+* Swedish: {{t+|sv|nere}}
+* Ukrainian: {{t|uk|пригні́чений}}, {{t|uk|журбе́нний}}, {{t|uk|зажу́рений}}, {{t|uk|сумни́й}}, {{t|uk|сумови́тий}}, {{t|uk|сумува́тий}}, {{t|uk|журни́й}}
+{{trans-bottom}}
+
+{{trans-see|sick or ill|ill}}
+
+{{trans-top|having a lower score}}
+* Bulgarian: {{t|bg|гу́бя с}}
+* Finnish: {{t|fi|alempana}}
+{{trans-bottom}}
+
+{{trans-top|(baseball) out}}
+* Bulgarian:  {{t-needed|bg}}
+{{trans-bottom}}
+
+{{trans-top|negative or hostile to}}
+* Bulgarian: {{t+|bg|проти́вен}}, {{t+|bg|вражде́бен}}
+* Hungarian: {{t+|hu|pikkel}}
+{{trans-bottom}}
+
+{{trans-top-see|comfortable with|willing|feel like}}
+* Bulgarian: {{t+|bg|нави́т}}
+{{trans-bottom}}
+
+{{trans-top-see|inoperable; out of service|inoperable|inoperative|out of service}}
+* Bulgarian: {{t+|bg|неизпра́вен}}, {{t|bg|не рабо́ти}}
+* Finnish: {{t+|fi|alhaalla}} {{qualifier|adverb}}
+* French: {{t+|fr|hors-service}}, {{t+|fr|HS}}
+* Hungarian: {{t|hu|[[nem]] [[működik]]}}, {{t|hu|[[nem]] [[üzemel]]}}, {{t|hu|[[üzem]]en [[kívül]] [[van]]}}
+* Korean: {{t+|ko|멈추다|alt=멈춘}}
+* Portuguese: {{t+|pt|em baixo}}
+* Russian: {{t+|ru|лежащий}}
+* Spanish: {{t+|es|[[que]] [[no]] [[está]] [[funcionando]]​/​[[funcando]]}}
+* Ukrainian: {{t|uk|зла́маний}}, {{t+|uk|працювати|alt=не працю́є}}
+{{trans-bottom}}
+
+{{trans-top|finished; dealt with}}
+* Bulgarian: {{t+|bg|гото́в}}, {{t+|bg|пребо́рен}}
+{{trans-bottom}}
+
+{{trans-top|wounded or killed}}
+* Bulgarian: {{t+|bg|па́днал}}, {{t+|bg|повале́н}}, {{t+|bg|свале́н}}
+{{trans-bottom}}
+
+{{trans-top|(aircraft) unable to fly}}
+* Bulgarian: {{t+|bg|свале́н}} {{q|shot down}}
+{{trans-bottom}}
+
+{{trans-top|thoroughly learned}}
+* Bulgarian: {{t+|bg|нау́чен}}, {{t+|bg|наизусте́н}}, {{t+|bg|изрепети́ран}}
+{{trans-bottom}}
+
+{{trans-see|absolute}}
+
+{{checktrans-top}}
+* Esperanto: {{t-check|eo|korpremata}}, {{t-check|eo|korpremita}}, {{t-check|eo|korprema}}
+* Italian: {{t+check|it|giù}}
+* Kurdish:
+*: Northern Kurdish: {{t-check|kmr|depresîf}}, {{t-check|kmr|moralşkestî}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|transitive}} To [[knock down|knock]] (someone or something) [[knock down|down]]; to cause to come down; to [[fell]]. {{defdate|from 16th c.}}
+#: {{ux|en|The storm '''downed''' several old trees along the highway.}}
+#: {{ux|en|A single rifle shot '''downed''' the mighty beast.}}
+## {{lb|en|transitive}} Specifically, to cause (something in the air) to [[fall]] to the [[ground]]; to bring down (with a [[missile]] etc.). {{defdate|from 19th c.}}
+##: {{ux|en|The helicopter was '''downed''' by a surface-to-air missile.}}
+# {{lb|en|transitive}} To [[lower]]; to put (something) down. {{defdate|from 16th c.}}
+#: {{ux|en|The bell rang for lunch, and the workers '''downed''' their tools.}}
+# {{lb|en|transitive|figurative}} To [[defeat]]; to [[overpower]]. {{defdate|from 17th. c.}}
+#* {{quote-book|en|year=1725|author=Philip Sidney|title=The works of the Honourable Sir Philip Sidney, kt., in prose and verse|location=London|publisher=W. Innys|oclc=18146617|page=156|passage=To '''down''' proud hearts that would not willing die.}}
+# {{lb|en|transitive|colloquial}} To [[disparage]]; to [[put down]]. {{defdate|from 18th c.}}
+#* {{quote-text|en|year=1779|author=w:Frances Burney|title=Journals & Letters|page=141|publisher=Penguin|year_published=2001
+|passage=‘I remember how you '''downed''' Beauclerk and Hamilton, ''the Wits'', once at our House, – when they talked of ''Ghosts''.’}}
+#* {{quote-journal|en|date=12 Apr 86|journal=Gay Community News|page=3|author=Anonymous|title=One Day I'll Write a Book on This|text=Now you have a social worker who '''downs''' women who are gay! {{...}} I have met a woman and fell in love with her and I still get humiliated and discriminated against because he (social worker) is against homosexuality and is causing a lot of confusion here.}}
+# {{lb|en|intransitive|rare|or|obsolete}} To go or come down; to [[descend]]. {{defdate|from 17th. c.}}
+#* {{quote-book|en|year=1933|quotee=Samuel Pepys ('''1664''', February 2nd)|author=Arthur Bryant|title=Samuel Pepys: The Man in the Making|location=New York|publisher=Macmillan|oclc=247768037|page=215|passage=...that is, that the trade of the world is too little for us two, therefore one must '''down'''.}}
+# {{lb|en|transitive|colloquial}} To [[drink]] or [[swallow]], especially without stopping before the [[vessel]] containing the liquid is empty. {{defdate|from 19th c.}}
+#: {{ux|en|He '''downed''' an ale and ordered another.}}
+#* {{quote-journal|en|date=2022 November 30|author=Paul Bigland|title=Destination Oban: a Sunday in Scotland|journal=RAIL|issue=971|page=75|text=After watching people '''downing''' drink on the train, I am in need of slaking my own thirst, so I pop into the station's ''Centurion Bar''.}}
+# {{lb|en|transitive|American football|Canadian football}} To render (the [[ball]]) [[dead]], typically by [[touch]]ing the [[ground]] while in [[possession]]. {{defdate|from 19th c.}}
+#: {{ux|en|He '''downed''' it at the seven-yard line.}}
+# {{lb|en|transitive|golf|pocket billiards}} To [[sink]] (a [[ball]]) into a [[hole]] or [[pocket]]. {{defdate|from 20th c.}}
+#: {{ux|en|He '''downed''' two balls on the break.}}
+
+=====Synonyms=====
+* {{sense|drink}} See also [[Thesaurus:drink]]
+
+=====Derived terms=====
+* {{l|en|double down}}
+* {{l|en|down tools}}
+* {{l|en|triple down}}
+
+=====Translations=====
+{{trans-top|to drink or swallow}}
+* Bulgarian: {{t|bg|пия на екс}}
+* Danish: {{t+|da|sluge}}, {{t|da|hælde ned}}
+* Dutch: {{t+|nl|atten}}, {{t+|nl|drinken}}, {{t+|nl|zuipen}}
+* Esperanto: {{t|eo|trinkegi}}
+* Finnish: {{t+|fi|kumota}}
+* French: {{t+|fr|faire cul sec}}
+* German: {{t+|de|exen}}, {{t|de|runterkippen}}, {{t+|de|trinken}}, {{t+|de|schlucken}}
+* Hungarian: {{t+|hu|lehajt}}, {{t+|hu|felhajt}}
+* Kurdish:
+*: Northern Kurdish: {{qualifier|transitive}} {{t+|kmr|daqurtandin}}, {{t+|kmr|daûrandin}}, {{t+|kmr|dabelandin}}, {{qualifier|intransitive}} {{t+|kmr|daqurtîn}}, {{t+|kmr|daûrîn}}, {{t+|kmr|dabelîn}}
+* Macedonian: {{t|mk|пие на екс}}
+* Malay: {{t+|ms|teguk}}
+* Portuguese: {{t+|pt|engolir}}
+* Russian: {{t|ru|[[вы́пить]] [[залп|за́лпом]]|pf}}
+* Scottish Gaelic: {{t|gd|sguab às}}
+* Serbo-Croatian: {{t|sh|(пити) наискап|m}}
+* Slovene: {{t+|sl|pogoltniti}}
+* Ukrainian: {{t|uk|хиля́ти|impf}}
+* Vietnamese: {{t+|vi|cạn}}
+{{trans-bottom}}
+
+{{trans-top|to pot a ball}}
+* Bulgarian:  {{t-needed|bg}}
+* Dutch: {{t+|nl|potten}}
+* Finnish: {{t+|fi|pussittaa}}
+* German: {{t+|de|versenken}}
+{{trans-bottom}}
+
+{{trans-top|to drop}}
+* Arabic: {{t+|ar|سقط}}
+* Bulgarian:  {{t-needed|bg}}
+* Danish: {{t|da|tabe}}, {{t|da|lade falde}}
+* Dutch: {{t+|nl|laten}} {{t+|nl|vallen}}, {{t+|nl|droppen}}
+* Finnish: {{t+|fi|kaataa}}
+* French: {{t+|fr|laisser tomber}}
+* German: {{t|de|fallen lassen}}
+* Kurdish:
+*: Northern Kurdish: {{t+|kmr|daxistin}}, {{t+|kmr|dahanîn}}, {{t+|kmr|daketin}}, {{t+|kmr|dahatin}}
+* Russian: {{t+|ru|урони́ть|pf}} {{qualifier|to drop}}, {{t+|ru|свали́ть|pf}} {{qualifier|e.g. trees}}, {{t+|ru|сбить|pf}} {{qualifier|aircraft}}
+* Ukrainian: {{t|uk|впуска́ти|impf}}, {{t|uk|упуска́ти|pf}}, {{t|uk|впусти́ти}}, {{t|uk|упусти́ти|pf}}
+{{trans-bottom}}
+
+====Noun====
+{{en-noun}}
+
+# A [[negative]] aspect; a [[downer]], a [[downside]].
+#: {{ux|en|I love almost everything about my job. The only '''down''' is that I can't take Saturdays off.}}
+# {{lb|en|dated}} A [[grudge]] ({{m|en|on}} someone).
+#* {{quote-text|en|year=1974|author=w:GB Edwards|title=The Book of Ebenezer Le Page|page=10|year_published=2007|location=New York
+|passage=She had a '''down''' on me. I don't know what for, I'm sure; because I never said a word.}}
+# A [[downer]], [[depressant]].
+#* {{quote-journal|en|date=29 Dec 84|volume=12|number=25|journal=Gay Community News|page=4|author=Gena Spero|title=Innocent Lesbian In Prison|text=I am on drugs that I don't need to be on. They feel if I'm on a lot of '''downs''', then I won't complain about my prison life}}
+# An act of swallowing an entire drink at once.
+# {{lb|en|American football}} A single play, from the time the ball is snapped (the start) to the time the whistle is blown (the end) when the ball ''is down'', or ''is downed''.
+#: {{ux|en|I bet after the third '''down''', the kicker will replace the quarterback on the field.}}
+# {{lb|en|crosswords}} A clue whose solution runs [[vertical]]ly in the [[grid]].
+#: {{ux|en|I haven't solved 12 or 13 across, but I've got most of the '''downs'''.}}
+# {{lb|en|gambling}} The [[shift]] or period of time during which a [[dealer]] manages a given table before rotating<!-- being pushed --> to the next table at a [[casino]] or [[cardroom]], which is often 30 minutes.
+# A downstairs room of a two-story house.
+#: {{ux|en|She lives in a two-up two-'''down'''.}}
+# [[down payment|Down payment]].
+# The lightest [[quark]] with a charge number of &minus;{{frac|1|3}}.
+
+=====Derived terms=====
+{{col3|en|title=Terms derived from the adjective, adverb, preposition, noun, or verb ''down''| down the generations|amp down
+|antidown|downage|sell down|theredown
+|a whisper down the lane|down perm|ease down
+|backdown
+|bag down|power-down|toboggan down
+|ball down|buss it down|bust it down
+|bar down
+|Barwon Downs|balance down|beard-down|down the plughole
+|be down with
+|belt down
+|bid down
+|blaze down
+|boildown
+|bolt down
+|bone down
+|bottle down
+|bouncedown
+|bowl down
+|Branton
+|break-down
+|breast down
+|Bridgeman Downs
+|bringdown
+|bring down on
+|bring down the curtain
+|bro down
+|buck down
+|buff down
+|bug down
+|builddown
+|bump down
+|bunk down
+|burn one down
+|buss down
+|buss-down
+|bust-down
+|bust down
+|butter down
+|buy down
+|buydown
+|camp down
+|Carnon Downs
+|Carrum Downs
+|cast down
+|cast-me-down
+|catch someone with their pants down
+|chalk down
+|chalk it down
+|champ down on
+|chuck down
+|clean down
+|cleardown
+|clew down
+|climbdown
+|comb down
+|come down upon
+|copy down
+|couch down
+|countdown
+|cramdown
+|cure down
+|darken down
+|dig down
+|Dorset Down
+|douche down
+|downable
+|downalator
+|down and distance
+|down and out
+|down at heel
+|down at heels
+|down-at-the-heel
+|downbeat
+|downblend
+|downblouse
+|downbound
+|downbow
+|downburst
+|downcard
+|downcase
+|downchirp
+|downclimb
+|downcoast
+|downcomer
+|down-crested
+|downcutting
+|downcycle
+|downdip
+|downdraft
+|downed<qq:US and Canadian football>
+|downer
+|downface
+|downfall
+|downfalling
+|downfield
+|downflood
+|downflow
+|downfold
+|downforce
+|down for the count
+|downgauge
+|downgaze
+|downglide
+|downgoing
+|downgone
+|downgyved
+|down-gyved
+|down-hearted
+|downhearted
+|down-hole
+|down in the dumps
+|down in the mouth
+|downish
+|downless
+|downlight
+|downlighting
+|downlike
+|download
+|downlooked
+|downlooker
+|downlying
+|downmass
+|down memory lane
+|down-modulate
+|downmost
+|downness
+|down on one's luck
+|down-page
+|down pat
+|down payment
+|downpick
+|downpipe
+|downpress
+|downpression
+|downpressor
+|down quark
+|downrange
+|downrank
+|down-river
+|down round
+|down route,downroute
+|downsample
+|downselection
+|downshift
+|downshifter
+|downsitting
+|downslope
+|downsloping
+|downslur
+|downsome
+|down someone's alley
+|downspout
+|downstair
+|downstate
+|downstreet
+|downstrike
+|downstroke
+|downstroy
+|downstyle
+|downtempo
+|down-tempo
+|down the hatch
+|down the house
+|downthrow
+|downthrown
+|downtick
+|down to every move on the board
+|downtone
+|down to the short strokes
+|downtown
+|downtread
+|downtube
+|down upon one's luck
+|downward
+|downwarp
+|down with one's dust
+|down with the dust
+|downzone
+|dragger-down
+|drawdown
+|drilldown
+|drink down
+|drop-down menu
+|drydown
+|dubdown
+|duck down
+|dumbed-down
+|East Down
+|eat down
+|eiderdown
+|evendown
+|eyes down
+|farm down
+|fasten down
+|featherdown
+|first down<qq:US and Canadian football>
+|fish down
+|flake down
+|flat down
+|flatten down
+|flop down
+|flump down
+|fold-down
+|force down someone's throat
+|fourth down<qq:US football>
+|get down on
+|get down to
+|glow-down
+|gobble down
+|go down south
+|go down swinging
+|goosedown
+|guzzle down
+|hands-down
+|harsh down
+|have down
+|have down as
+|hew down
+|hoedown
+|hold it down
+|hoot down
+|horf down
+|hound down
+|howl down
+|ice down
+|jaw down
+|keep one's voice down
+|Keilor Downs
+|knockdown
+|knock down
+|knock-down-and-drag-out
+|lamb down
+|land down
+|lard down
+|lay down
+|lay down on
+|lay the hammer down
+|lengthen down
+|lift down
+|live down to
+|load down
+|lookdown
+|lop down
+|lowdown
+|lower-down
+|mack down
+|manage down
+|mixdown
+|mix down
+|moondown
+|mop down
+|mountdown
+|neckdown
+|North Downs
+|officer down
+|party-down
+|party down
+|pastedown
+|pat-down
+|playdown
+|plead down
+|plough down
+|plow down
+|pop down
+|press down
+|pull-down resistor
+|pull the shutters down
+|push down
+|pushdown
+|put it down
+|put something down to experience
+|pyramid down
+|render down
+|ride down
+|ride down on
+|ringdown
+|rinse down
+|rip down
+|salt down
+|scale-down
+|scoff down
+|scour down
+|scrape down
+|scrawl down
+|scribble down
+|scrounge down
+|scrub down
+|sdown
+|seat down
+|second down<qq:US and Canadian football>
+|sell down the river
+|send down for
+|shave down
+|shine down on
+|shine down upon
+|shoot down
+|short down
+|shorten down
+|shove down
+|showdown
+|show down
+|shrink down
+|shut-down
+|sit one's butt down
+|skinny down
+|slam down
+|slapdown
+|slowing-down time
+|slump down
+|smackdown
+|snack down on
+|snork down
+|snug down
+|soap down
+|sober down
+|speak down to
+|spelldown
+|spindown
+|splashdown
+|spooldown
+|staredown
+|steep-down
+|Stonebeck Down
+|stowdown
+|straight up and down
+|strapdown
+|sugar down
+|sundown
+|swab down
+|swallow down
+|swill down
+|tail down
+|take someone down the garden path
+|talkdown
+|teem down
+|ten toes down
+|the house down
+|thin down
+|third down<qq:US and Canadian football>
+|thistledown
+|tighten down
+|top-down
+|torch down
+|toss down
+|touchdown
+|towel down
+|trace down
+|tread down
+|trickledown
+|trim down
+|tune down
+|turndown
+|turtle down
+|Tyrrell Downs
+|up and down house
+|up hill and down dell
+|upside down
+|walk down
+|warm-down
+|wet down
+|while you're down there
+|whisper down the lane
+|whittle down
+|window down
+|winnow down
+|wolve down|keep the rent down
+|you can't keep a good man down
+|zipper down
+}}
+
+=====Translations=====
+{{trans-top|American football: a single play}}
+* Bulgarian:  {{t-needed|bg}}
+* Catalan: {{t+|ca|intent|m}}
+* Dutch: {{t+|nl|down|m}}, {{t+|nl|ronde|f}}, {{t+|nl|kwart|n}}
+{{trans-bottom}}
+
+====References====
+* Andrea Tyler and Vyvyan Evans, "Spatial particles of orientation", in ''The Semantics of English Prepositions: Spatial Scenes, Embodied Meaning and Cognition'', Cambridge University Press, 2003, 0-521-81430 8
+
+===Etymology 2===
+{{etymon|en|id=hill|:inh|enm:doune<ety:inh<ang:dūn>>|tree=1}}
+From {{inh|en|enm|doune}}, from {{inh|en|ang|dūn}}, from {{inh|en|gmw-pro|*dūnā|*dūn|t=sandhill, dune}}, of {{unc|en|title=uncertain origin}}. Perhaps from {{inh|en|gem-pro|*dūnaz}}, {{m|gem-pro|*dūnǭ|t=pile, heap}}, from {{der|en|ine-pro|*dʰewh₂-|t=smoke, haze, dust}}. 
+
+Alternatively, perhaps borrowed from {{der|en|cel-pro|*dūnom||hill; hillfort}} (compare {{cog|cy|din||city, fort, stronghold}}, {{cog|ga|dún||hill, fort}}), from {{der|en|ine-pro|*dʰewh₂-||to finish, come full circle}}. 
+
+Cognate with {{cog|fy|dún||dune, sandhill}}, {{cog|nl|duin||dune, sandhill}}, {{cog|de|Düne||dune}}. More at {{m|en|town}}; akin to {{m|en|dune}}. {{doublet|en|Down}}.
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|especially|southern England|also Australia|often plural|often in place names}} A [[hill]]; in England, especially a chalk hill.
+#: {{ux|en|We went for a walk over the '''downs'''.}}
+#: {{ux|en|The North '''Downs''' are a ridge of chalk hills in south east England.}}
+#* {{RQ:Shakespeare Tempest|4|1|text=And with each end of thy blue bow [[dost]] crown <br> My [[bosky]] acres and my unshrubb'd '''down'''}}
+#* {{quote-book|en|year=1691|author=John Ray|title=The Wisdom of God Manifested in the Works of the Creation|location=London|publisher=Pr. for S. Smith|oclc=49840862|passage=...as they muſt needs acknowledge who have been on the '''Downs''' of Suſſex, and enjoyed that ravishing Proſpect of the Sea on one Hand, and the Country far and wide on the other.}}
+#* {{quote-book|en|year=1842|author=Alfred Tennyson|title=Poems|location=London|publisher=Edward Moxon|oclc=896031040|page=198|chapter=Lady Clare|passage=She went by dale, and she went by '''down''', <br> With a single rose in her hair.}}
+#* {{quote-book
+|en
+|year=1898
+|author=[[w:Herbert George Wells|H. G. Wells]]
+|title=Certain Personal Matters: A Collection of Material, Mainly Autobiographical
+|url=https://archive.org/details/certainpersonal00wellgoog/
+|publisher=w:Lawrence & Bullen
+|OCLC=1120852385
+|page=256
+|pageurl=https://archive.org/details/certainpersonal00wellgoog/page/n247/
+|text=The amateur nature-lover proceeds over the '''down''', appreciating all this as hard as he can appreciate, and anon gazing up at the grey and white cloud shapes melting slowly from this form to that, and showing lakes, and wide expanses, and serene distances of blue between their gaps.}}
+# {{lb|en|usually|in the plural}} A field, especially one used for horse racing.
+# {{lb|en|UK|mostly|in the plural}} A tract of poor, sandy, undulating or hilly land near the sea, covered with fine turf which serves chiefly for the grazing of sheep.
+#* {{quote-web|en|year=1636|author=George Sandys|title=A Paraphrase Vpon Iob|work=Early English Books|url=http://quod.lib.umich.edu/e/eebo/A11474.0001.001/1:12?rgn=div1;view=fulltext|passage=Seven thousand broad-taild Sheepe gras'd on his '''Downes''';}}
+
+=====Derived terms=====
+{{col3|en
+|Abingdon Downs
+|Alton Downs
+|Ashley Down
+|Barwon Downs
+|Bedminster Down
+|Bridgeman Downs
+|Bulloo Downs
+|Carnon Downs
+|Carrum Downs
+|Christie Downs
+|Clifton Down
+|Crawley Down
+|Darling Downs
+|downland
+|Downside
+|Dundee Downs
+|Durham Downs
+|Dutson Downs
+|East Down
+|Elizabeth Downs
+|Emery Down
+|Emu Downs
+|Epsom Downs
+|Frome Downs
+|Hackney Downs
+|Juna Downs
+|Karana Downs
+|Keilor Downs
+|Kiama Downs
+|Mantuan Downs
+|May Downs
+|Millmerran Downs
+|Minnie Downs
+|Mulga Downs
+|Munno Para Downs
+|Murray Downs
+|Murrumba Downs
+|Noarlunga Downs
+|North Downs
+|Perham Down
+|Quintrell Downs
+|Regency Downs
+|Roxby Downs
+|Salisbury Downs
+|Seaview Downs
+|Sippy Downs
+|South Downs
+|Southern Downs
+|St Boniface Down
+|Surrey Downs
+|Telopea Downs
+|Tyrrell Downs
+|Wembley Downs
+|Werrington Downs
+|West Down
+|Western Downs
+|Weyba Downs
+|Windsor Downs
+}}
+
+=====Translations=====
+{{trans-top|hill, rolling grassland}}
+* Bulgarian: {{t+|bg|хълм|m}}, {{t+|bg|моги́ла|f}}, {{t+|bg|бъ́рдо|n}}, {{t+|bg|баи́р|m}}
+* Cornish: {{t|kw|goon|f}}
+* Danish: {{t|da|højdedrag}}
+* Dutch: {{t+|nl|heuvel|m}}
+* Finnish: {{t+|fi|kumpu}}
+* German: {{t+|de|Hügel|m}}
+* Greek: {{t+|el|λοφάκι|n}}
+* Macedonian: {{t|mk|ритче|n}}
+* Portuguese: {{t+|pt|colina|f}}
+* Russian: {{t+|ru|холм|m}}, {{t|ru|[[безлесый|безле́сая]] [[возвы́шенность]]|f}}
+* Ukrainian: {{t|uk|па́горб|m}}
+{{trans-bottom}}
+
+{{trans-top|field, especially for racing}}
+* Bulgarian:  {{t-needed|bg}}
+* Danish: {{t+|da|bane}}
+* Dutch: {{t+|nl|veld|n}}, {{t+|nl|baan|f}}
+* Finnish: {{t+|fi|rata}}
+* Hindi: {{t+|hi|मैदान|m}}
+* Persian: {{t+|fa|میدان|tr=meydân}}
+* Ukrainian: {{t|uk|іподро́м|m}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Italian: {{t+check|it|piumino|m}}
+{{trans-bottom}}
+
+===Etymology 3===
+{{etymon|en|id=feathers|:inh|enm:doun<id:feathers>|tree=1}}
+From {{inh|en|enm|doun}}, from {{der|en|non|dúnn}}, from {{der|en|gem-pro|*dūnaz||down}}, which is related to {{m|gem-pro|*dauniz||(pleasant) smell}}, from {{der|en|ine-pro||*dʰowh₂-nis}}, from the root {{m|ine-pro|*dʰewh₂-}}.
+
+Cognate with {{cog|stq|Duune||fluff, down}}, {{cog|de|Daune||down}} and {{cog|da|dun||down}}.
+
+====Noun====
+[[File:Donsvlokje.jpg|thumb|Down feather ({{senseno|en|feathers}})]]
+{{en-noun|~}}
+
+# {{senseid|en|feathers}} Soft, [[fluffy]] immature [[feather]]s which grow on young birds. Used as insulating material in [[duvet]]s, [[sleeping bag]]s and [[jacket]]s.
+# {{senseid|en|pubescence}} {{lb|en|botany}} The [[pubescence]] of [[plant]]s; the hairy crown or envelope of the seeds of certain plants, such as the [[thistle]].
+#* {{quote-book|en|year=1718|author=Nicholas Culpeper|title=The English Physician Enlarged|location=London|publisher=W. Churchill|oclc=316759094|page=120|passage='''Down''' or Cotton-Thiſtle. This hath many large Leaves lying on the Ground, ſomewhat cut in, and as it were crumpled on the Edges, of a green Colour on the upper ſide, but covered with long hairy Wool or Cottony '''Down''', ſet with moſt ſharp and cruel pricks}}
+#* {{quote-book|en|year=1998|author=Valerie Worth|title=The Crone's Book of Charms and Spells|location=Minnesota|publisher=Llewellyn Publications|isbn=1567188117|page=152|passage=No candle should light it, neither should any flower adorn it, save for several dried stalks of old and withered thistles, their heads pale with silken '''down''', held in a common glass jar.}}
+# The soft hair of the face when beginning to appear.
+#* {{quote-book|en|year=1717|author=John Dryden|title=The Dramatick Works of John Dryden, Esq.|location=London|publisher=Jacob Tonson|volume=the fourth|oclc=83307675|page=136|passage=But love him as he was, when youthful Grace, <br> And the firſt '''Down''' began to ſhade his face}}
+#* {{RQ:Turgenev Fathers and Sons|chapter=I|page=1|passage=The servant to whom he put this question was a young fellow with chubby cheeks, small, dull eyes, and a round chin, covered with a colorless '''down'''.}}
+# That which is made of down, as a bed or pillow; that which affords ease and repose, like a bed of down.
+#* {{quote-book|en|author=[[w:Thomas Southerne|Tho[mas] Southerne]]|title=Oroonoko: A Tragedy{{nb...|as It is Acted at the Theatre-Royal, by His Majesty’s Servants.}}|location=London|publisher={{...|Printed for}} [[w:Henry Playford|H[enry] Playford]]{{nb...|in the Temple-Change.}}; B[enjamin] Tooke{{nb...|at the Middle-Temple-Gate.}}; [a]nd S. Buckley{{nb...|at the Dolphin against St. Dunstan’s Church in Fleetstreet.}}|year=1696|section=act V, scene the last [iv]|pages=76–77|pageurl=https://archive.org/details/oroonokotragedya00sout/page/76/mode/1up|oclc=1227540146|passage=Thou boſom Softneſs! '''Down''' of all my Cares! <br> I cou'd recline my thoughts upon this Breaſt <br> To a forgetfulneſs of all my Griefs, <br> And yet be happy: but it wonnot be.}}
+#* {{RQ:Tennyson In Memoriam|passage=When in the '''down''' I sink my head, <br> Sleep, Death's twin brother, times my breath.}}
+
+=====Derived terms=====
+{{col|en
+|down feather
+|down jacket
+|downlike
+|down mattress
+|downy
+|powder-down feather
+|powder-down patch
+}}
+
+=====Translations=====
+{{trans-top|soft, immature feathers}}
+* Arabic: {{t|ar|زَغَب}}
+* Armenian: {{t+|hy|աղվամազ}}, {{t+|hy|բմբուլ}}
+* Bashkir: {{t|ba|мамыҡ}}
+* Breton: {{t+|br|marbluñv}}, {{t|br|dum}}
+* Bulgarian: {{t|bg|пух|m}}, {{t|bg|мъх|m}}
+* Catalan: {{t|ca|plomissol|m}}, {{t|ca|plomís|m}}, {{t+|ca|borrissol|m}}
+* Chinese:
+*: Mandarin: {{t+|cmn|羽絨|tr=yǔróng}}
+* Cornish: {{t|kw|manbluv|f}}
+* Czech: {{t|cs|chmýří|n}}
+* Danish: {{t+|da|dun}}
+* Dutch: {{t+|nl|dons|n}}
+* Esperanto: {{t|eo|lanugo}}
+* Finnish: {{t+|fi|untuva}}
+* French: {{t+|fr|duvet|m}}
+* Galician: {{t+|gl|penuxe|f}}, {{t|gl|froxel|m}}, {{t+|gl|peluxe|f}}
+* Georgian: {{t|ka|ღინღლი}}
+* German: {{t+|de|Daune|f}}
+* Greek: {{t+|el|πούπουλα|f-p}}
+*: Ancient Greek: {{t|grc|λάχνη|f}}, {{t|grc|μνοῦς|m}}
+* Greenlandic: {{t|kl|qivioq}}
+* Hawaiian: {{t|haw|heu}}
+* Hungarian: {{t+|hu|pihe}}, {{t+|hu|pihetoll}}, {{t+|hu|pehely}}
+* Icelandic: {{t|is|dúnn}}
+* Irish: {{t|ga|clúmh|m}}
+* Italian: {{t+|it|piumino|m}}
+* Japanese: {{t+|ja|羽毛|tr=うもう, umou}}, {{t+|ja|綿毛|tr=わたげ, watage}}, {{t+|ja|ダウン|tr=daun}}
+* Korean: {{t+|ko|솜털}}
+* Lithuanian: {{t|lt|pūkas|m}}
+* Macedonian: {{t|mk|паперје|n}}, {{t|mk|мов|f}}
+* Māori: {{t|mi|hune}}
+* Mari:
+*: Eastern Mari: {{t|mhr|ававун}}
+* Norwegian:
+*: Bokmål: {{t+|nb|dun|m|f|n}}
+*: Nynorsk: {{t|nn|dun|f|n}}
+* Polish: {{t+|pl|puch|m}}
+* Portuguese: {{t+|pt|penugem|f}}
+* Romanian: {{t+|ro|puf|n}}
+* Russian: {{t+|ru|пух|m}}, {{t+|ru|пушо́к|m}}
+* Scots: {{t|sco|doon}}
+* Scottish Gaelic: {{t|gd|clòimh|f}}, {{t|gd|clòimhteach|f}}
+* Slovak: {{t|sk|páperie|n-p}}
+* Slovene: {{t|sl|puh}}
+* Spanish: {{t+|es|plumón|m}}, {{t+|es|flojel|m}}
+* Swedish: {{t+|sv|dun|n}}
+* Tày: {{t|tyz|khuôn búa}}, {{t|tyz|khuôn buốt}}
+* Thai: {{t+|th|ขนอุย}}
+* Tibetan: {{t|bo|བྱ་སྤུ}}
+* Turkish: {{t+|tr|kuş tüyü}}, {{t+|tr|tüy}}, {{t+|tr|pufla}}
+*: Ottoman Turkish: {{t|ota|توی|tr=tüy}}
+* Ukrainian: {{t|uk|пух|m}}
+* Volapük: {{t+|vo|daun}}
+* Welsh: {{t|cy|manblu|f-p}}
+{{trans-bottom}}
+
+{{trans-top|the pubescence of plants}}
+* Arabic: {{t|ar|زَغَب}}
+* Bulgarian:  {{t-needed|bg}}
+* Catalan: {{t+|ca|borrissol|m}}
+* Chinese:
+*: Mandarin: {{t+|cmn|絮|tr=xù}}
+* Hawaiian: {{t|haw|heu}}
+* Hungarian: {{t+|hu|moholy}}, {{t+|hu|pihe}}, {{t|hu|bolyhosság}}, {{t+|hu|bolyh}}
+* Italian: {{t|it|pubescenza|f}}
+* Latin: {{t|la|lānūgō|f}}
+* Māori: {{t|mi|tāhuna}}, {{t|mi|tāhune}}, {{t|mi|tāhunga}}
+* Norwegian:
+*: Bokmål: {{t+|nb|dun|m|f|n}}
+*: Nynorsk: {{t|nn|dun|f|n}}
+* Romanian: {{t+|ro|puf|n}}
+* Ukrainian: {{t|uk|пух|m}}
+* Welsh: {{t|cy|manflew|m-p}}, {{t|cy|goflew|m-p}}
+{{trans-bottom}}
+
+{{trans-top|soft hair of the face}}
+* Arabic: {{t|ar|زَغَب}}
+* Breton: {{t|br|marblev}}
+* Bulgarian: {{t|bg|мъх|m}}
+* Esperanto: {{t|eo|lanugo}}
+* French: {{t+|fr|duvet|m}}
+* Georgian: {{t|ka|ღინღლი}}
+* Greek: {{t+|el|χνούδι|n}}
+*: Ancient Greek: {{t|grc|ἴουλος|m}}
+* Hungarian: {{t+|hu|pihe}}
+* Latin: {{t|la|lānūgō|f}}
+* Portuguese: {{t+|pt|buço|m}}
+* Romanian: {{t+|ro|puf|n}}, {{t+|ro|tulei|n}}
+* Spanish: {{t+|es|vello|m}}, {{t+|es|lanugo|m}}
+* Turkish: {{t+|tr|ayva tüyü}}
+* Ukrainian: {{t|uk|пух|m}}, {{t|uk|пушо́к|m}}
+* Welsh: {{t|cy|manflew|m-p}}, {{t|cy|blewiach|p}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|transitive}} To cover, ornament, line, or stuff with down.
+#* {{quote-book|en|year=1742|author=w:Edward Young|title=The Complaint: or, Night-thoughts on Life, Death, & Immortality|location=London|publisher=R. Dodsley|oclc=54334640|page=264|passage=What pain to quit the world, just made their own, <br> Their nest so deeply '''downed''', and built so high !}}
+
+===Further reading===
+* {{R:gem:EDPG|dauna-|90}}
+* {{R:OneLook}}
+
+===Anagrams===
+* {{anagrams|en|a=dnow|nowd}}
+
+{{cln|en|intensifiers|movement adverbs|position adverbs}}
+{{C|en|Directions|Hair|Sadness}}
+
+==Chinese==
+
+===Pronunciation===
+{{zh-pron
+|m=dàn
+|c=daan1,daang1
+|cat=v,a
+}}
+
+===Etymology 1===
+From {{bor|yue|en|down||sad; depressed}}.
+
+====Adjective====
+{{head|zh|adjective}}
+
+# {{lb|zh|Hong Kong Cantonese}} [[sad]]; [[depressed]]
+
+====Verb====
+{{head|zh|verb}}
+
+# {{lb|zh|Hong Kong Cantonese}} to be [[sad]]; to be [[depressed]]
+
+===Etymology 2===
+From {{bor|yue|en|down||inoperable; out of service|pos=adjective}}.
+
+====Verb====
+{{head|zh|verb}}
+
+# {{lb|zh|Hong Kong Cantonese|chiefly|computing}} to be [[out of service]]
+
+=====Related terms=====
+* {{l|zh|當機}}
+
+===Etymology 3===
+From clipping of {{der|zh|en|download|'''down'''load}}.
+
+====Verb====
+{{head|zh|verb}}
+
+# {{lb|zh|informal}} to [[download]]
+{{see citations|zh}}
+
+=====Synonyms=====
+* {{zh-l|下載}}
+
+====See also====
+* {{l|zh|download}}
+
+==Cornish==
+
+===Etymology===
+From {{inh|kw|cel-bry-pro|*duβn}}, from {{inh|kw|cel-pro|*dubnos}}, from {{inh|kw|ine-pro|*dʰubʰnós}}. Cognate with {{cog|cy|dwfn}} and {{cog|br|don}}.
+
+===Pronunciation===
+* {{IPA|kw|/ˈdɔʊn/}}
+
+===Adjective===
+{{kw-adj}}
+
+# [[deep]], [[profound]]
+
+===References===
+* {{R:CDGK}}
+
+==Dutch==
+
+===Etymology===
+Borrowed from {{bor|nl|en|down}}.
+
+===Pronunciation===
+* {{IPA|nl|/dɑu̯n/}}
+** {{audio|nl|Nl-down.ogg}}
+* {{hyphenation|nl|down}}
+
+===Adjective===
+{{nl-adj|pred=1}}
+
+# {{l|en|down}}, [[depressed]]
+
+====Synonyms====
+* {{l|nl|depressief}}, {{l|nl|depri}}
+
+===Anagrams===
+* {{l|nl|wond}}
+
+==German==
+
+===Etymology===
+From {{der|de|en|down}}.
+
+===Pronunciation===
+* {{audio|de|De-down.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Adjective===
+{{de-adj}}
+
+# {{lb|de|colloquial}} {{l|en|down}}, [[depressed]]
+# {{lb|de|internet|of websites and servers}} {{l|en|down}}, not online
+# {{lb|de|video games}} {{l|en|down}}, [[defeated]], without health left
+
+===Further reading===
+* {{R:de:Duden}}
+* {{R:de:DWDS}}
+
+==Polish==
+
+===Etymology===
+{{named-after|pl|nationality=British|occupation=physician|John Langdon Down|wplink=John Langdon Down}}.
+
+===Pronunciation===
+{{pl-pr|dałn|h=down}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|informal|neurology}} [[Down syndrome]] {{gl|genetic disorder caused by the presence of all or part of a third copy of chromosome 21 (a chromosomal excess), whereby the patients typically have a delay in cognitive ability and physical growth, as well as a small head and tilted eyelids}}
+#: {{syn|pl|mongolizm|mongołowatość|zespół Downa}}
+
+====Declension====
+{{pl-decl-noun-m-anml|tantum=s}}
+
+===Noun===
+{{pl-noun|m-pr}}
+
+# {{lb|pl|colloquial|derogatory}} [[Downie]] {{gl|person with Down syndrome}}
+# {{lb|pl|colloquial|derogatory}} [[dip]], [[dumbhead]], [[dumb cluck]], [[dummkopf]], [[hammerhead]], [[ignorant]] {{gl|stupid person}}
+#: {{syn|pl|Thesaurus:głupiec}}
+
+====Declension====
+{{pl-decl-noun-m-pr|nomp=downi/downy (deprecative)}}
+
+===Further reading===
+* {{R:pl:WSJP||74574}}
+* {{R:pl:PWN}}
+
+{{C|pl|Genetic disorders|People|Syndromes}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:bor|en:down<id:direction>|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr|daun|hyph=+}}
+
+===Adjective===
+{{es-adj|pl=#}}
+
+# {{lb|es|colloquial|Puerto Rico}} {{l|en|down}}, [[depressed]]
+#: {{syn|es|deprimido|triste}}
+
+===Further reading===
+* {{R:es:DA}}
+
+==Welsh==
+
+===Alternative forms===
+* {{alter|cy|dawn||colloquial first-person plural future}}
+* {{alter|cy|delwn|deswn|dethwn||colloquial first-person singular conditional}}
+* {{alter|cy|deuwn||literary; all forms}}
+
+===Pronunciation===
+* {{IPA|cy|/dou̯n/}}
+* {{rhymes|cy|ou̯n|s=1}}
+
+===Verb===
+{{cy-verb form}}
+
+# {{infl of|cy|dod||1p|pres//fut|;|1s|impf//cond|;|{{lb|cy|literary}}|1p|impr}}
+
+===Mutation===
+{{cy-mut}}

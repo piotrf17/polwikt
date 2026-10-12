@@ -111,13 +111,26 @@ def _rich_word() -> pb.Word:
             )
         ],
     )
+    # Comparison forms live in their own table (R6.3).
+    adjective = pb.Entry(
+        pos=pb.Pos.POS_ADJECTIVE,
+        forms=[
+            pb.Form(
+                form="kocszy",
+                tags=pb.GrammaticalTags(degree=pb.Degree.DEGREE_COMPARATIVE),
+                labels=["humorous"],
+            )
+        ],
+        tables=[pb.InflectionTable(kind=pb.InflectionTable.Kind.KIND_COMPARISON)],
+        adjective=pb.AdjectiveInfo(not_comparable=False, indeclinable=True),
+    )
     return pb.Word(
         lemma="kot",
         etymologies=[
             pb.Etymology(text="Inherited from Proto-Slavic *kotъ."),
             pb.Etymology(),
         ],
-        entries=[entry, form_entry],
+        entries=[entry, form_entry, adjective],
         frequency=pb.Frequency(rank=1234, count=56, source="SFPW 1990"),
     )
 

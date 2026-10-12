@@ -1,0 +1,307 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "down",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downa",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downa",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ],
+    "singulare_tantum": true
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdawn/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Down syndrome (genetic disorder caused by the presence of all or part of a third copy of chromosome 21 (a chromosomal excess), whereby the patients typically have a delay in cognitive ability and physical growth, as well as a small head and tilted eyelids)",
+     "keywords": [
+      {
+       "text": "Down syndrome"
+      }
+     ],
+     "labels": [
+      "informal"
+     ],
+     "relations": [
+      {
+       "term": "mongolizm",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "mongołowatość",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zespół Downa",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "neurology"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of down"
+    }
+   ],
+   "topics": [
+    "Genetic disorders",
+    "People",
+    "Syndromes"
+   ]
+  },
+  {
+   "forms": [
+    {
+     "form": "down",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downi",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downy",
+     "labels": [
+      "deprecative"
+     ],
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downa",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downa",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downów",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "downi",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "downy",
+     "labels": [
+      "deprecative"
+     ],
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_PERSONAL",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈdawn/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Downie (person with Down syndrome)",
+     "keywords": [
+      {
+       "text": "Downie"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "derogatory"
+     ]
+    },
+    {
+     "gloss": "dip, dumbhead, dumb cluck, dummkopf, hammerhead, ignorant (stupid person)",
+     "keywords": [
+      {
+       "text": "dip"
+      },
+      {
+       "text": "dumbhead"
+      },
+      {
+       "text": "dumb cluck"
+      },
+      {
+       "text": "dummkopf"
+      },
+      {
+       "text": "hammerhead"
+      },
+      {
+       "text": "ignorant"
+      }
+     ],
+     "labels": [
+      "colloquial",
+      "derogatory"
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of down"
+    }
+   ],
+   "topics": [
+    "Genetic disorders",
+    "People",
+    "Syndromes"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Named after British physician John Langdon Down."
+  }
+ ],
+ "lemma": "down"
+}

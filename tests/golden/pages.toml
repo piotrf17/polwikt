@@ -245,3 +245,38 @@ why = "{{acronym of}} a Wikipedia target (w:pl:…)"
 [[page]]
 title = "straż ogniowa"
 why = "{{former name of}} with an inline <t:…> modifier"
+
+# --- Nominal inflection (M7: R6.1, R6.3, R6.4, R7.8) ---------------------------------
+[[page]]
+title = "ten"
+why = "hand-written pronoun table: rowspans, an animate/inanimate accusative, a footnote digit"
+[[page]]
+title = "jakiś"
+why = "{{pl-decl-pronoun}}: m/f/n singular columns, jakiegoś/jakiś in one cell"
+[[page]]
+title = "dwoje"
+why = "collective numeral (R6.4): plural-only hand-written table"
+[[page]]
+title = "aż"
+why = "{{pl-decl-combined-forms-e}}: a combined-forms table (ażem, ażeś)"
+[[page]]
+title = "familia"
+why = "a cell qualifier <q:obsolete> on one alternative, and a Middle Polish table dropped"
+[[page]]
+title = "down"
+why = "a trailing (deprecative) in a cell, and a singulare tantum entry"
+[[page]]
+title = "folder"
+why = "explicit-cell {{pl-decl-noun}} with prose in a cell: 'folderu (more rarely foldera)'"
+[[page]]
+title = "cool"
+why = "{{pl-adj|-}}: not comparable"
+[[page]]
+title = "młody"
+why = "derived superlative (naj- + comparative) and an mpsup= Middle Polish superlative dropped"
+[[page]]
+title = "absent"
+why = "{{pl-noun|m-an!}} (animacy unattested) and only a Middle Polish table"
+[[page]]
+title = "agrest"
+why = "a Standard Kurpian {{pl-skur-decl-noun-m}} table: dropped and counted"
