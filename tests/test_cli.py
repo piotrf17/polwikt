@@ -21,9 +21,8 @@ COMMANDS = {
     "stats-diff",
     "run",
 }
+IMPLEMENTED = {"config", "fetch", "scan"}
 STUB_INVOCATIONS = [
-    ["fetch"],
-    ["scan"],
     ["subset"],
     ["extract"],
     ["finalize"],
@@ -43,7 +42,7 @@ def test_cli_exposes_every_documented_command() -> None:
 
 
 def test_stubs_cover_every_pass() -> None:
-    assert {argv[0] for argv in STUB_INVOCATIONS} == COMMANDS - {"config"}
+    assert {argv[0] for argv in STUB_INVOCATIONS} == COMMANDS - IMPLEMENTED
 
 
 @pytest.mark.parametrize("argv", STUB_INVOCATIONS)

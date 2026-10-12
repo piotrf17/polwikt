@@ -13,6 +13,9 @@ dependencies = [
     "protobuf>=6.31,<8",
     "zstandard>=0.25,<0.26",
     "click>=8.2,<9",
+    # P1 streams the dump with iterparse (R3.1); upstream depends on it too, but we
+    # import it directly.
+    "lxml>=6.1,<7",
 ]
 
 [project.scripts]
@@ -53,7 +56,7 @@ files = ["polwikt", "tests"]
 exclude = ['_pb2\.pyi?$']
 
 [[tool.mypy.overrides]]
-module = ["wikitextprocessor.*", "wiktextract.*", "zstandard.*"]
+module = ["wikitextprocessor.*", "wiktextract.*", "zstandard.*", "lxml.*"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

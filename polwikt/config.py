@@ -42,6 +42,7 @@ class Config:
     dump: DumpPin
     languages: tuple[str, ...]
     drop_labels: tuple[str, ...]
+    scan_namespaces: tuple[int, ...]
     root: Path
 
 
@@ -60,6 +61,7 @@ def load_config(root: Path) -> Config:
     data = _load_toml(root / CONFIG_NAME)
     dump = _table(data, "dump")
     extract = _table(data, "extract")
+    scan = _table(data, "scan")
     pin = DumpPin(
         date=_str(dump, "dump", "date"),
         sha1=_str(dump, "dump", "sha1").lower(),
@@ -74,10 +76,14 @@ def load_config(root: Path) -> Config:
     languages = _str_list(extract, "extract", "languages")
     if not languages:
         raise ConfigError("[extract].languages must name at least one language")
+    namespaces = _int_list(scan, "scan", "namespaces")
+    if 0 in namespaces:
+        raise ConfigError("[scan].namespaces must not list 0: ns-0 is filtered (R3.2)")
     return Config(
         dump=pin,
         languages=languages,
         drop_labels=_str_list(extract, "extract", "drop_labels"),
+        scan_namespaces=namespaces,
         root=root,
     )
 
@@ -110,4 +116,15 @@ def _str_list(table: dict[str, Any], section: str, key: str) -> tuple[str, ...]:
     value = table.get(key)
     if not isinstance(value, list) or not all(isinstance(v, str) for v in value):
         raise ConfigError(f"[{section}].{key} must be a list of strings, got {value!r}")
+    return tuple(value)
+
+
+def _int_list(table: dict[str, Any], section: str, key: str) -> tuple[int, ...]:
+    value = table.get(key)
+    if not isinstance(value, list) or not all(
+        isinstance(v, int) and not isinstance(v, bool) for v in value
+    ):
+        raise ConfigError(
+            f"[{section}].{key} must be a list of integers, got {value!r}"
+        )
     return tuple(value)

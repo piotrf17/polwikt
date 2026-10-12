@@ -3,12 +3,18 @@
 from __future__ import annotations
 
 import logging
+import os
+import tempfile
 from pathlib import Path
 from typing import NoReturn
 
 import click
 
-from polwikt.config import ConfigError, find_project_root, load_config
+from polwikt.config import Config, ConfigError, find_project_root, load_config
+from polwikt.dump.fetch import FetchError, sha1_of
+from polwikt.dump.fetch import fetch as fetch_dump
+from polwikt.dump.scan import ScanError
+from polwikt.dump.scan import scan as scan_dump
 
 log = logging.getLogger("polwikt")
 
@@ -30,10 +36,7 @@ def cli(verbose: bool) -> None:
 @cli.command()
 def config() -> None:
     """Print the resolved configuration from polwikt.toml."""
-    try:
-        cfg = load_config(find_project_root())
-    except ConfigError as e:
-        raise click.ClickException(str(e)) from e
+    cfg = _config()
     pin = cfg.dump
     click.echo(f"root:        {cfg.root}")
     click.echo(f"dump:        {pin.filename if pin.date else '(not pinned yet)'}")
@@ -42,18 +45,75 @@ def config() -> None:
     click.echo(f"drop_labels: {', '.join(cfg.drop_labels) or '-'}")
 
 
+def _config() -> Config:
+    try:
+        return load_config(find_project_root())
+    except ConfigError as e:
+        raise click.ClickException(str(e)) from e
+
+
 @cli.command()
-def fetch() -> None:
+@click.option(
+    "--dest",
+    type=click.Path(path_type=Path),
+    help="Directory to download into [default: <root>/data].",
+)
+def fetch(dest: Path | None) -> None:
     """Download and sha1-verify the pinned dump (R2.1, R2.1a)."""
-    _todo("M2", "fetch")
+    cfg = _config()
+    try:
+        path = fetch_dump(cfg.dump, dest or cfg.root / "data")
+    except FetchError as e:
+        raise click.ClickException(str(e)) from e
+    click.echo(path)
 
 
 @cli.command()
-@click.option("--dump", "dump_path", type=click.Path(path_type=Path))
-@click.option("--db", type=click.Path(path_type=Path))
-def scan(dump_path: Path | None, db: Path | None) -> None:
+@click.option(
+    "--dump",
+    "dump_path",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    help="Dump file [default: the pinned one under <root>/data].",
+)
+@click.option(
+    "--db",
+    type=click.Path(dir_okay=False, path_type=Path),
+    help="Page store to build [default: <root>/data/pages.sqlite].",
+)
+@click.option("--no-verify", is_flag=True, help="Accept a dump that isn't the pin.")
+@click.option("--force", is_flag=True, help="Rebuild even if the store is current.")
+def scan(dump_path: Path | None, db: Path | None, no_verify: bool, force: bool) -> None:
     """P1: stream the dump into the page store, keeping only Polish ns-0 (R3.1-R3.5)."""
-    _todo("M2", "scan")
+    cfg = _config()
+    data = cfg.root / "data"
+    _keep_temp_files_in(data / "tmp")
+    dump = dump_path or data / cfg.dump.filename
+    if not dump.exists():
+        raise click.ClickException(f"{dump} does not exist; run `polwikt fetch`")
+    log.info("hashing %s", dump)
+    sha1 = sha1_of(dump)
+    if sha1 != cfg.dump.sha1:
+        if not no_verify:
+            raise click.ClickException(
+                f"{dump}: sha1 {sha1} is not the pinned {cfg.dump.sha1} (R2.1); "
+                "pass --no-verify to scan it anyway"
+            )
+        log.warning("%s is not the pinned dump; the store is marked unpinned", dump)
+    try:
+        result = scan_dump(
+            cfg, dump, db or data / "pages.sqlite", dump_sha1=sha1, force=force
+        )
+    except ScanError as e:
+        raise click.ClickException(str(e)) from e
+    click.echo(result.db)
+
+
+def _keep_temp_files_in(tmp: Path) -> None:
+    """SQLite and lbzcat spill to $TMPDIR, which defaults to the 6 GB root fs (§9)."""
+    tmp.mkdir(parents=True, exist_ok=True)
+    for var in ("TMPDIR", "SQLITE_TMPDIR"):
+        os.environ.setdefault(var, str(tmp))
+    tempfile.tempdir = None  # re-read TMPDIR
 
 
 @cli.command()

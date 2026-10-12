@@ -390,6 +390,7 @@ version = "0.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "click" },
+    { name = "lxml" },
     { name = "protobuf" },
     { name = "wikitextprocessor" },
     { name = "zstandard" },
@@ -408,6 +409,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.2,<9" },
+    { name = "lxml", specifier = ">=6.1,<7" },
     { name = "protobuf", specifier = ">=6.31,<8" },
     { name = "wikitextprocessor", git = "https://github.com/tatuylonen/wikitextprocessor?rev=04e9833735a502b288ede14be8989710a59c7cf2" },
     { name = "zstandard", specifier = ">=0.25,<0.26" },

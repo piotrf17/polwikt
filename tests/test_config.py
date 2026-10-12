@@ -22,6 +22,9 @@ date = "20261001"
 sha1 = "F9ED426C69C6B21D026613BD0F200C2AAA1145E9"
 url_base = "https://dumps.wikimedia.org/enwiktionary/"
 
+[scan]
+namespaces = [10, 828]
+
 [extract]
 languages = ["Polish"]
 drop_labels = ["Middle Polish"]
@@ -67,6 +70,8 @@ def test_unpinned_dump_has_no_filename(tmp_path: Path) -> None:
         ('["Polish"]', "[]", "at least one language"),
         ('["Middle Polish"]', '"Middle Polish"', "list of strings"),
         ("[extract]", "[extraction]", r"missing \[extract\]"),
+        ("[10, 828]", "[0, 10]", "must not list 0"),
+        ("[10, 828]", '["10"]', "list of integers"),
         ("[dump]\n", "[dump\n", re.escape(CONFIG_NAME)),
     ],
 )
