@@ -186,3 +186,34 @@ def test_no_golden_header_is_unknown(wtp: PolwiktWtp) -> None:
         if key.startswith(("table.header.unknown.", "headword.gender.unknown."))
     }
     assert not unknown
+
+
+def test_forms_are_in_reading_order(wtp: PolwiktWtp) -> None:
+    # `tej` spans the genitive and dative rows: its dative Form sits in the dative row.
+    ten = entry(wtp, "ten")
+    order = [(f.form, f.tags.grammatical_case) for f in ten.forms]
+    dative = order.index(("temu", C.CASE_DATIVE))
+    assert order.index(("tej", C.CASE_DATIVE)) > dative
+    assert order.index(("tej", C.CASE_GENITIVE)) < dative
+
+
+def test_module_footnote_becomes_a_label(wtp: PolwiktWtp) -> None:
+    polski = entry(wtp, "polski")
+    assert [list(f.labels) for f in polski.forms if f.form == "polsku"] == [
+        ["archaic"],
+        ["archaic"],
+    ]
+
+
+def test_usage_notes_footnote_labels_its_form(wtp: PolwiktWtp) -> None:
+    result = golden(wtp, "ten")
+    assert result.word is not None
+    ten = result.word.entries[0]
+    (acc,) = [
+        f
+        for f in ten.forms
+        if f.form == "tą" and f.tags.grammatical_case == C.CASE_ACCUSATIVE
+    ]
+    assert "proscribed" in acc.labels[0]
+    assert not ten.usage_notes.startswith("1")  # the marker moved to the form
+    assert result.stats["table.footnote.unresolved"] == 0

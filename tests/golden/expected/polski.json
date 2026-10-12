@@ -1,0 +1,502 @@
+{
+ "entries": [
+  {
+   "adjective": {
+    "not_comparable": true
+   },
+   "forms": [
+    {
+     "form": "polski",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polski",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polska",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polska",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polscy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polscy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskiego",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskiej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskiego",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskiemu",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polsku",
+     "labels": [
+      "archaic"
+     ],
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskiej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskiemu",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polsku",
+     "labels": [
+      "archaic"
+     ],
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskiego",
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polski",
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polską",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polską",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskimi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskimi",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskiej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpɔl.ski/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Polish (of, or from Poland)",
+     "keywords": [
+      {
+       "text": "Polish"
+      }
+     ],
+     "labels": [
+      "relational"
+     ],
+     "relations": [
+      {
+       "term": "słowiański",
+       "type": "TYPE_HYPERNYM"
+      }
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of polski (velar)"
+    }
+   ],
+   "topics": [
+    "Languages",
+    "Nationalities",
+    "Poland"
+   ]
+  },
+  {
+   "forms": [
+    {
+     "form": "polski",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskiego",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskiemu",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polski",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskimi",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polskim",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskich",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "polski",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "polskie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈpɔl.ski/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Polish (language)",
+     "keywords": [
+      {
+       "text": "Polish"
+      }
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of polski"
+    }
+   ],
+   "topics": [
+    "Languages",
+    "Nationalities",
+    "Poland"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish polski. By surface analysis, pole + -ski."
+  }
+ ],
+ "lemma": "polski"
+}

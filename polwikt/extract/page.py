@@ -100,6 +100,7 @@ def extract_record(
         word.etymologies.append(pb.Etymology(text=group.text))
         record.etymology_calls.append(p3.EtymologyCalls(calls=group.calls))
     for draft in walk.entries:
+        stats["table.footnote.unresolved"] += len(draft.markers)
         draft.entry.etymology = renumber[draft.group]
         for topic in walk.page_topics:  # {{C|pl|…}} at the foot of the page (R6.10)
             if topic not in draft.entry.topics:

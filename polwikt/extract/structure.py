@@ -56,6 +56,9 @@ _TABLE_SECTIONS = frozenset(
 )
 _USAGE_SECTIONS = frozenset({"Usage notes", "Usage", "Note", "Usage terms"})
 _TOPIC_TEMPLATES = frozenset({"topics"})  # {{C|pl|Cats}}, {{topics|pl|…}} (R6.10)
+# A footnote defined in Usage notes: "<sup>1</sup>The feminine accusative … tą is …"
+_FOOTNOTE_LINE = re.compile(r"(?im)^\s*<sup\b[^>]*>\s*([0-9]+|[*†]+)\s*</sup>(.*)$")
+_SUP_MARKER = re.compile(r"(?i)<sup\b[^>]*>\s*(?:[0-9]+|[*†]+)\s*</sup>")
 
 
 @dataclass
@@ -71,6 +74,10 @@ class EntryDraft:
     entry: pb.Entry
     group: int  # index into Walk.groups
     calls: p3.EntryCalls = field(default_factory=p3.EntryCalls)
+    # Table footnotes the expansion left unexplained, (index into entry.forms,
+    # marker), and the notes the entry's Usage notes define: `ten`'s "1" lives there.
+    markers: list[tuple[int, str]] = field(default_factory=list)
+    footnotes: dict[str, str] = field(default_factory=dict)
 
 
 @dataclass
@@ -300,7 +307,11 @@ class Walk:
                 for c in node.children
                 if not (isinstance(c, WikiNode) and c.kind in LEVELS)
             )
+            for marker, note in _FOOTNOTE_LINE.findall(body):
+                draft.footnotes[marker] = plain_text(expand_text(self.wtp, note).text)
+            body = _SUP_MARKER.sub("", body)  # the marker's meaning moves to the form
             text = plain_text(expand_text(self.wtp, body).text)
+            self._resolve_footnotes(draft)
             if text:
                 notes = draft.entry.usage_notes
                 draft.entry.usage_notes = f"{notes}\n{text}" if notes else text
@@ -341,13 +352,29 @@ class Walk:
             return
         paradigm = self.table_parser.parse(name, node)
         entry = draft.entry
-        for table, forms in paradigm.tables:
-            self._add_table(entry, table, forms)
+        for parsed in paradigm.tables:
+            base = len(entry.forms)
+            self._add_table(entry, parsed.table, parsed.forms)
+            draft.markers += [(base + i, marker) for i, marker in parsed.markers]
+        self._resolve_footnotes(draft)
         if entry.pos in (pb.Pos.POS_NOUN, pb.Pos.POS_PROPER_NOUN):
             if paradigm.plurale_tantum:
                 entry.noun.plurale_tantum = True
             if paradigm.singulare_tantum:
                 entry.noun.singulare_tantum = True
+
+    def _resolve_footnotes(self, draft: EntryDraft) -> None:
+        """Label the forms whose marker the entry's Usage notes explain; the rest wait
+        (page.py counts what is left as table.footnote.unresolved)."""
+        waiting: list[tuple[int, str]] = []
+        for index, marker in draft.markers:
+            if marker in draft.footnotes:
+                self.table_parser.add_note(
+                    draft.entry.forms[index], draft.footnotes[marker]
+                )
+            else:
+                waiting.append((index, marker))
+        draft.markers = waiting
 
     @staticmethod
     def _add_table(

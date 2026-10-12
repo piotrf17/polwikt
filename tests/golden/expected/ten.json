@@ -67,14 +67,6 @@
      }
     },
     {
-     "form": "tej",
-     "tags": {
-      "gender": "GENDER_FEMININE",
-      "grammatical_case": "CASE_DATIVE",
-      "number": "NUMBER_SINGULAR"
-     }
-    },
-    {
      "form": "tych",
      "tags": {
       "gender": "GENDER_VIRILE",
@@ -102,6 +94,14 @@
      "form": "temu",
      "tags": {
       "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "tej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_DATIVE",
       "number": "NUMBER_SINGULAR"
      }
@@ -149,6 +149,9 @@
     },
     {
      "form": "tą",
+     "labels": [
+      "The feminine accusative singular form tą is proscribed, but overall much more common"
+     ],
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_ACCUSATIVE",
@@ -323,7 +326,7 @@
      "title": "Declension of ten"
     }
    ],
-   "usage_notes": "1The feminine accusative singular form tą is proscribed, but overall much more common."
+   "usage_notes": "The feminine accusative singular form tą is proscribed, but overall much more common."
   },
   {
    "pos": "POS_PARTICLE",

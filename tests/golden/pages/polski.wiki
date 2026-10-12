@@ -1,0 +1,163 @@
+{{also|Appendix:Variations of "polski"}}
+==Finnish==
+
+===Etymology 1===
+Borrowed from {{bor|fi|pl|polski||Polish}}.
+
+====Pronunciation====
+{{fi-p}}
+
+====Noun====
+{{fi-noun}}
+{{tlb|fi|colloquial|possibly|derogatory}}
+
+# [[Pole]] {{gloss|person from Poland or of Polish descent}}
+
+=====Declension=====
+{{fi-decl-risti|polsk|||a}}
+
+====Further reading====
+* {{R:fi:KTSK|accessdate=2026-05-14}}
+
+===Etymology 2===
+
+====Pronunciation====
+{{fi-p-3-conn}}
+
+====Verb====
+{{head|fi|verb form}}
+
+# {{infl of|fi|polskia||3s|ind|past|;|ind|pres|conn|;|2s|imp|pres//pres|conn}}
+
+==Lower Sorbian==
+
+===Adjective===
+{{dsb-adj}}
+
+# {{sup sp|dsb|pólski}}
+
+====Declension====
+{{dsb-decl-adj-auto}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=Polish|:inh|sla-pro:*poľьskъ<id:of field>|:af<surf>|pole|-ski|text=+|tree=1|etydate=14th century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA|polski:}}
+
+===Adjective===
+{{zlw-opl-adj}}
+
+# {{lb|zlw-opl|relational|attested in|Greater Poland|Masovia|Lesser Poland}} [[Polish]] {{gl|of, or from Poland}}
+#* {{RQ:zlw-opl:JA|VI|207|1402|Eze Maczey v Yana ne prziymowal nemeczskego prawa, ale '''polske'''|Eże Maciej u Jana nie przyjmował niemiecskiego prawa, ale '''polskie'''|-}}
+#* {{RQ:zlw-opl:PF|I|481|c. 1428|Zastawyamy dzedzini nassze... w tyssonczu grzywen syrokych grossy praskey kusny liczby '''polskey''', numeri Polonicalis, obwikley, lyczoncz w kaszdø grzywnø czterdzesczy y oszm grossy|Zastawiamy dziedziny nasze... w tysiącu grzywien szyrokich groszy praskiej kuźni liczby '''polskiej''', numeri Polonicalis, obwykłej, licząc w każdą grzywnę czterdzieści i ośm groszy|-}}
+#* {{RQ:zlw-opl:Reg|703|1484|Ktoryz tho zakon vezvan yesth zakon pokuthvyączych, ktoryz sye tako vykłada '''polzką''' movą|Ktoryż to zakon wezwan jest zakon pokutujących, ktoryż sie tako wykłada '''polską''' mową|-}}
+# {{lb|zlw-opl|relational|attested in|Lesser Poland}} [[written]] in [[Polish]]
+#* {{RQ:zlw-opl:Fl|I Prol 15|Tu se doconawa prolog lacynsky, '''polzki''' (Polonicus) y nemeczski a poczina se drugi takisz lacinski, polzky (in Polonico) y nemeczski|Tu sie dokonawa prolog łaciński, '''polski''' (Polonicus) i niemiecski, a poczyna sie drugi takiż łaciński, polski (in Polonico) i niemiecski|-}}
+# {{lb|zlw-opl|relational}} [[field]] {{gl|of, or relating to a field}}
+#: {{syn|zlw-opl|polny}}
+#* {{RQ:zlw-opl:BZ|Gen|2,5|Gdisz bog vdzalal... wszelkø *chrøszlyna '''polskø''' (virgultum agri)|Gdyż Bog udziałał... wszelką chroślinę '''polską''' (virgultum agri)|-}}
+
+====Descendants====
+* {{desc|pl|polski}}
+* {{desc|szl|polski}}
+
+===Adverb===
+{{zlw-opl-adv}}
+
+# {{lb|zlw-opl|attested in|Masovia}} in [[Polish]]
+#* {{RQ:zlw-opl:Sul|20|Ivsz lyepak s pelna wyklaad gych (sc. praw) '''polsky''' naslyadwye|Już lepak z pełna wykład jich (sc. praw) '''polski''' naśladuje|-}}
+
+===References===
+* {{R:zlw-opl:SPJSP|1. polski|11205}}
+* {{R:zlw-opl:SPJSP|2. polski|11206}}
+
+{{C|zlw-opl|Nationalities|Poland}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|id=Polish|:inh|zlw-opl:polski<id:Polish>|:af<surf>|pole<id:noun>|-ski|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=pl-polski.ogg;LL-Q809 (pol)-Olaf-polski.wav;LL-Q809 (pol)-Gower-polski.wav|hh=Polski|mp=#}}
+
+===Adjective===
+{{pl-adj|-|peri|adv=polsko}}
+
+# {{lb|pl|relational}} [[Polish]] {{gl|of, or from Poland}}
+#: {{hyper|pl|słowiański}}
+
+====Declension====
+{{pl-adecl|<archdat>}}
+
+===Noun===
+{{pl-noun|m-in|abbr=pol.}}
+
+# [[Polish]] {{gl|language}}
+
+====Declension====
+{{pl-decl-noun
+|polski|polskie
+|polskiego|polskich
+|polskiemu|polskim
+|polski|polskie
+|polskim|polskimi
+|polskim|polskich
+|polski|polskie}}
+
+====Related terms====
+{{col|pl|title=adjectives|angielsko-polski|antypolski|polskojęzyczny|staropolski}}
+{{col|pl|title=adverbs|po polsku|polsko|z polskiego na nasze}}
+{{col|pl|title=nouns|Polak|Polka|Polska|polskość|polszczyzna|staropolszczyzna}}
+{{col|pl|title=verbs|polszczyć|spolszczyć}}
+
+===Trivia===
+{{pl-freq 1990|70|186|159|29|14|458|100|397|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|87487}}
+* {{R:pl:SXVII|POLSKI|1593|date=21.01.2022}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||541|4}}
+* {{R:pl:NFJP}}
+
+{{C|pl|Languages|Nationalities|Poland}}
+{{cln|pl|autological terms}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=Polish|:inh|zlw-opl:polski<id:Polish>|:af<surf>|pole|-ski|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Adjective===
+{{szl-adj|-}}
+
+# {{lb|szl|relational}} [[Polish]] {{gl|of, or from Poland}}
+# {{lb|szl|relational|archaic}} [[Silesian]]
+#: {{syn|szl|ślōnski}}
+
+====Declension====
+{{szl-decl-adj-auto|pols|k|i}}
+
+===Noun===
+{{szl-noun|m-in}}
+
+# [[Polish]] {{gl|language}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+
+{{C|szl|Languages|Nationalities|Poland}}

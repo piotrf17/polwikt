@@ -661,9 +661,14 @@ to keep in sync:
   its row headers plus its column headers, mapped through `data/inflection.toml`;
   `nominative/vocative` is one Form per case. A cell spanning positions that differ
   only in animacy is one Form without it (*dobry*'s masculine nominative); otherwise one
-  Form per distinct tag set. Alternatives in a cell are adjacent Forms, primary first;
-  cell qualifiers (`familij<q:obsolete>`, `downy (deprecative)`) become Form `labels`;
-  footnote digits are stripped and counted. An unmapped header text is a raw tag and
+  Form per distinct tag set. Forms are in reading order, row by row — a spanning cell's
+  Forms each at the position they describe (*ten*'s dative `tej` in the dative row) —
+  and alternatives in a cell are adjacent, primary first. Cell qualifiers
+  (`familij<q:obsolete>`, `downy (deprecative)`) become Form `labels`; so do footnotes:
+  the marker is taken off the form and its note — printed under the table by the
+  module (`polsku`¹ "Archaic." → `archaic`), or defined in the entry's Usage notes
+  (*ten*'s `tą`) — becomes a label, canonical when it names one. A marker no note
+  explains is counted (`table.footnote.unresolved`). An unmapped header text is a raw tag and
   counted (`table.header.unknown.<text>`) — the golden set has none. Each table's
   `title` is its caption ("Declension of dobry (hard)"); `irregular` comes from the
   template or the expansion's "Polish irregular …" category.

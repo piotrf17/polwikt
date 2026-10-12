@@ -16,7 +16,7 @@ import itertools
 import re
 import tomllib
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import cache
 from importlib import resources
 from typing import Any
@@ -48,10 +48,21 @@ _ANIMACY = frozenset({"personal", "animate", "inanimate"})
 _MODIFIER = re.compile(r"<(q|qq|l|ll):([^<>]*)>")
 _PROTECTED = re.compile("\x01(q|qq|l|ll):([^\x02]*)\x02")
 _BREAK = re.compile(r"(?i)<br\s*/?>")
-_FOOTNOTE = re.compile(r"(?<=[^\W\d_])\d+$")
+# Footnote markers: <sup>1</sup> from the modules, or a bare digit a hand-written table
+# puts after a form (`tą1`). Held as \x03…\x04 through plain_text.
+_SUP = re.compile(r"(?i)<sup\b[^>]*>\s*([0-9]+|[*†]+)\s*</sup>")
+_MARKER = re.compile("\x03([^\x04]*)\x04")
+_FOOTNOTE = re.compile(r"(?<=[^\W\d_])(\d+)$")
+# A note the module prints after its table: `<sup>1</sup>Archaic.`
+_NOTE = re.compile(r"(?i)<sup\b[^>]*>\s*([0-9]+|[*†]+)\s*</sup>[ \t]*([^\n<][^\n]*)")
+_TABLE = re.compile(r"(?s)\{\|.*?\n\|\}")
 _TRAILING_PAREN = re.compile(r"^(.*?)\s*\(([^()]*)\)$")
 _ABSENT = frozenset({"", "-", "\u2013", "\u2014", "?"})  # hyphen, en and em dash
 _SPACE = re.compile(r"\s+")
+
+
+# A cell's tags at one of its positions: (tags, unmapped header texts, (row, col)).
+TagSet = tuple[tuple[str, ...], tuple[str, ...], tuple[int, int]]
 
 
 @dataclass(frozen=True)
@@ -99,10 +110,19 @@ def drop_label(name: str) -> str | None:
 
 
 @dataclass
+class ParsedTable:
+    table: pb.InflectionTable
+    forms: list[pb.Form]
+    # Footnote markers the expansion itself doesn't explain: (index into forms,
+    # marker), for the entry's Usage notes to resolve (`ten`).
+    markers: list[tuple[int, str]] = field(default_factory=list)
+
+
+@dataclass
 class Paradigm:
     """One table template's output: its tables, each with its forms."""
 
-    tables: list[tuple[pb.InflectionTable, list[pb.Form]]]
+    tables: list[ParsedTable]
     plurale_tantum: bool = False
     singulare_tantum: bool = False
 
@@ -135,11 +155,20 @@ class TableParser:
         out.singulare_tantum = f"[[Category:{cfg.singulare_category}" in text
         # Before parsing: the parser would read `<q:obsolete>` as an HTML <q> tag.
         protected = _MODIFIER.sub(lambda m: f"\x01{m.group(1)}:{m.group(2)}\x02", text)
+        protected = _SUP.sub(lambda m: f"\x03{m.group(1)}\x04", protected)
+        outside = _TABLE.sub("", text)  # notes the module prints under its table
+        notes = {m.group(1): plain_text(m.group(2)) for m in _NOTE.finditer(outside)}
         found = tables(self.wtp, self.wtp.parse(protected))
         if not found:
             self.stats["table.none"] += 1
         for table in found:
-            forms = self._forms(table)
+            forms, markers = self._forms(table)
+            unresolved = []
+            for index, marker in markers:
+                if marker in notes:
+                    self.add_note(forms[index], notes[marker])
+                else:
+                    unresolved.append((index, marker))
             if not forms:
                 self.stats["table.no_forms"] += 1
                 continue
@@ -147,15 +176,28 @@ class TableParser:
             message = pb.InflectionTable(
                 kind=_KINDS[kind], title=title, irregular=irregular
             )
-            out.tables.append((message, forms))
+            out.tables.append(ParsedTable(message, forms, unresolved))
             self.stats[f"table.{kind}"] += 1
             self.stats["table.forms"] += len(forms)
         return out
 
     # -- cells ----------------------------------------------------------------------
 
-    def _forms(self, table: Table) -> list[pb.Form]:
-        forms: list[pb.Form] = []
+    def add_note(self, form: pb.Form, note: str) -> None:
+        """A footnote on a form is a label: canonical when it names one ("Archaic.")."""
+        text = note.strip().rstrip(".").strip()
+        if not text:
+            return
+        label = self.labels.classify(text.lower())
+        name = label.name if label.recognized else text
+        if name not in form.labels:
+            form.labels.append(name)
+        self.stats["table.footnote.resolved"] += 1
+
+    def _forms(self, table: Table) -> tuple[list[pb.Form], list[tuple[int, str]]]:
+        """Forms in reading order — row by row, a spanning cell at each position it
+        covers — plus the footnote markers on them (index into the forms)."""
+        placed: list[tuple[tuple[int, int], int, pb.Form, str | None]] = []
         self._headers: dict[int, list[tuple[str, ...]] | None] = {}  # per header cell
         for cell in table.cells:
             if cell.header:
@@ -167,19 +209,20 @@ class TableParser:
             if tag_sets is None:
                 self.stats["table.cell.no_headers"] += 1
                 continue
-            for tags, raw_headers in tag_sets:
+            for tags, raw_headers, position in tag_sets:
                 grammatical, raw = to_grammatical(list(tags))
-                for text, labels in alternatives:
+                for text, labels, marker in alternatives:
                     form = pb.Form(form=text, tags=grammatical, labels=labels)
                     form.raw_tags.extend(dict.fromkeys([*raw, *raw_headers]))
-                    forms.append(form)
-        return forms
+                    placed.append((position, len(placed), form, marker))
+        placed.sort(key=lambda p: (p[0], p[1]))
+        forms = [form for _, _, form, _ in placed]
+        markers = [(i, m) for i, (_, _, _, m) in enumerate(placed) if m is not None]
+        return forms, markers
 
-    def _tag_sets(
-        self, table: Table, cell: Cell
-    ) -> list[tuple[tuple[str, ...], tuple[str, ...]]] | None:
-        """The distinct (tags, unmapped header texts) a cell's positions carry."""
-        found: list[tuple[tuple[str, ...], tuple[str, ...]]] = []
+    def _tag_sets(self, table: Table, cell: Cell) -> list[TagSet] | None:
+        """The distinct (tags, unmapped header texts, first position) of a cell."""
+        found: list[TagSet] = []
         any_header = False
         for row, col in cell.positions():
             headers = table.row_headers(row, col) + table.col_headers(row, col)
@@ -196,8 +239,8 @@ class TableParser:
                     choices.append(alternatives)
             for combo in itertools.product(*choices):
                 tags = tuple(dict.fromkeys(t for part in combo for t in part))
-                if (tags, tuple(unknown)) not in found:
-                    found.append((tags, tuple(unknown)))
+                if all((tags, tuple(unknown)) != (t, u) for t, u, _ in found):
+                    found.append((tags, tuple(unknown), (row, col)))
         if not any_header:
             return None
         return _merge_animacy(found)
@@ -213,11 +256,13 @@ class TableParser:
         self.stats[f"table.header.unknown.{text}"] += 1
         return None
 
-    def _alternatives(self, wikitext: str) -> list[tuple[str, list[str]]]:
-        """A cell's forms in source order, each with its labels."""
+    def _alternatives(self, wikitext: str) -> list[tuple[str, list[str], str | None]]:
+        """A cell's forms in source order, each with its labels and footnote marker."""
         text = plain_text(_BREAK.sub(" / ", wikitext))
-        out: list[tuple[str, list[str]]] = []
+        out: list[tuple[str, list[str], str | None]] = []
         for part in _split_alternatives(text):
+            marker = next((m.group(1) for m in _MARKER.finditer(part)), None)
+            part = _MARKER.sub("", part)
             labels = [
                 label for m in _PROTECTED.finditer(part) for label in self._modifier(m)
             ]
@@ -226,8 +271,9 @@ class TableParser:
                 form, note = paren.group(1).strip(), paren.group(2).strip()
                 labels.append(note)
                 self.stats["table.form.parenthetical"] += 1
-            if _FOOTNOTE.search(form):
-                form = _FOOTNOTE.sub("", form)
+            if bare := _FOOTNOTE.search(form):
+                form, marker = form[: bare.start()], marker or bare.group(1)
+            if marker is not None:
                 self.stats["table.form.footnote"] += 1
             if form in _ABSENT:
                 continue
@@ -236,7 +282,8 @@ class TableParser:
                 for label in dropped:
                     self.stats[f"dropped.form.{label}"] += 1
                 continue
-            out.append((form, list(dict.fromkeys(label for label in labels if label))))
+            unique = list(dict.fromkeys(label for label in labels if label))
+            out.append((form, unique, marker))
         return out
 
     def _modifier(self, match: re.Match[str]) -> list[str]:
@@ -267,15 +314,17 @@ def _split_alternatives(text: str) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
-def _merge_animacy(
-    found: list[tuple[tuple[str, ...], tuple[str, ...]]],
-) -> list[tuple[tuple[str, ...], tuple[str, ...]]]:
-    """Positions of one cell that differ only in animacy are one Form without it."""
-    groups: dict[tuple[tuple[str, ...], tuple[str, ...]], list[tuple[str, ...]]] = {}
-    for tags, unknown in found:
+def _merge_animacy(found: list[TagSet]) -> list[TagSet]:
+    """Positions of one cell that differ only in animacy are one Form without it,
+    placed at the first of them."""
+    groups: dict[tuple[tuple[str, ...], tuple[str, ...]], list[TagSet]] = {}
+    for tags, unknown, position in found:
         key = (tuple(t for t in tags if t not in _ANIMACY), unknown)
-        groups.setdefault(key, []).append(tags)
-    out: list[tuple[tuple[str, ...], tuple[str, ...]]] = []
+        groups.setdefault(key, []).append((tags, unknown, position))
+    out: list[TagSet] = []
     for (bare, unknown), members in groups.items():
-        out.append((bare if len(members) > 1 else members[0], unknown))
+        if len(members) == 1:
+            out.append(members[0])
+        else:
+            out.append((bare, unknown, min(m[2] for m in members)))
     return out

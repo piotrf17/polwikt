@@ -280,3 +280,6 @@ why = "{{pl-noun|m-an!}} (animacy unattested) and only a Middle Polish table"
 [[page]]
 title = "agrest"
 why = "a Standard Kurpian {{pl-skur-decl-noun-m}} table: dropped and counted"
+[[page]]
+title = "polski"
+why = "a module footnote: polsku<sup>1</sup> with '1 Archaic.' under the table -> label archaic"
