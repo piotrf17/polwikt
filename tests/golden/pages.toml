@@ -300,3 +300,32 @@ why = "{{pl-verb|impf-freq}}: frequentative and indeterminate"
 [[page]]
 title = "potrafić"
 why = "{{pl-verb|biasp}}: a biaspectual verb"
+
+# --- M9: pronunciation and frequency ---------------------------------------------------
+[[page]]
+title = "grapefruit"
+why = "{{pl-pr}} respellings with <a:colloquial>: a qualifier after the IPA marker labels one transcription; hh= homophone"
+[[page]]
+title = "zoo"
+why = "<q:colloquial> respelling; h= with two syllabifications"
+[[page]]
+title = "Bergamo"
+why = "audio with an <a:colloquial> accent label"
+[[page]]
+title = "od"
+why = "audio with <q:isolated>; several homophones; mp= dropped"
+[[page]]
+title = "nałóg"
+why = "a homophone with <qq:for some speakers>"
+[[page]]
+title = "co"
+why = "four {{pl-freq 1990}} calls, three of them per POS (head=co (pronoun))"
+[[page]]
+title = "znaleźć"
+why = "{{pl-freq 1990|…|head=znaleźć się}}: a frequency for another term, counted"
+[[page]]
+title = "a-moll"
+why = "literal {{IPA|pl|…}} instead of {{pl-pr}}"
+[[page]]
+title = "siekierka"
+why = "{{audio}} beside {{pl-pr|a=}} naming the same file"

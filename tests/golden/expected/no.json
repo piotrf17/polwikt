@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-no.ogg"
+    }
+   ],
    "pos": "POS_INTERJECTION",
    "pronunciations": [
     {
@@ -9,50 +14,21 @@
     {
      "ipa": "[ˈnɔ]",
      "labels": [
-      "Masuria"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
+      "Masuria",
+      "Podlachia",
+      "Western Kraków",
+      "Podegrodzie",
+      "Biecz",
+      "Przemyśl",
+      "Podhale",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "-no",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -95,9 +71,15 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "no"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-no.ogg"
+    }
+   ],
    "pos": "POS_PARTICLE",
    "pronunciations": [
     {
@@ -106,50 +88,21 @@
     {
      "ipa": "[ˈnɔ]",
      "labels": [
-      "Masuria"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
+      "Masuria",
+      "Podlachia",
+      "Western Kraków",
+      "Podegrodzie",
+      "Biecz",
+      "Przemyśl",
+      "Podhale",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "-no",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -217,9 +170,15 @@
     {
      "gloss": "used to draw attention to the current situation"
     }
-   ]
+   ],
+   "syllabification": "no"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-no.ogg"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_PARTICLE",
    "pronunciations": [
@@ -229,50 +188,21 @@
     {
      "ipa": "[ˈnɔ]",
      "labels": [
-      "Masuria"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈnɔ]",
-     "labels": [
+      "Masuria",
+      "Podlachia",
+      "Western Kraków",
+      "Podegrodzie",
+      "Biecz",
+      "Przemyśl",
+      "Podhale",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "-no",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -345,7 +275,8 @@
       "Western Kraków"
      ]
     }
-   ]
+   ],
+   "syllabification": "no"
   }
  ],
  "etymologies": [
@@ -356,5 +287,10 @@
    "text": "Clipping of jeno. First attested in 1749. Compare Silesian no."
   }
  ],
+ "frequency": {
+  "count": 600,
+  "rank": 76,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "no"
 }

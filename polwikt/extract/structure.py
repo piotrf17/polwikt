@@ -35,10 +35,12 @@ from polwikt.extract.headword import (
 )
 from polwikt.extract.inflection import TableParser, drop_label
 from polwikt.extract.labels import Kind as LabelKind
-from polwikt.extract.pronunciation import pronunciations
+from polwikt.extract.pronunciation import Sounds, sounds
+from polwikt.extract.pronunciation import config as pronunciation_config
 from polwikt.extract.sense import Indexes, SenseParser, positional, template_args
 from polwikt.parse.headings import Heading, HeadingMap, Kind
 from polwikt.parse.text import plain_text
+from polwikt.parse.tree import iter_templates
 from polwikt.proto import p3_pb2 as p3
 from polwikt.proto import polwikt_pb2 as pb
 
@@ -100,7 +102,8 @@ class Walk:
     colabelled: list[str] = field(default_factory=list)  # R6.6c report
     dropped_any: list[str] = field(default_factory=list)  # drop labels that fired
     _default_group: int | None = None
-    _pron_cache: dict[int, list[pb.Pronunciation]] = field(default_factory=dict)
+    frequency_calls: list[dict[str, str]] = field(default_factory=list)  # R6.13
+    _pron_cache: dict[int, Sounds] = field(default_factory=dict)
     _parser: SenseParser | None = None
     _tables: TableParser | None = None
 
@@ -160,9 +163,11 @@ class Walk:
                     else:
                         self._entry_section(last, child, head)
                 case Kind.TRIVIA | Kind.IGNORED:
-                    # Trivia's frequency is M9 (R6.13). A {{C|pl|…}} here sits at the
-                    # foot of the page, after every entry: it is the page's.
+                    # A {{C|pl|…}} here sits at the foot of the page, after every
+                    # entry: it is the page's.
                     _extend_unique(self.page_topics, self._topics(child))
+                    if head.kind is Kind.TRIVIA:
+                        self._trivia(child)
                 case Kind.UNKNOWN:
                     self._unknown(child, head)
 
@@ -243,6 +248,8 @@ class Walk:
                     own_shared.append(child)
                 elif sub.kind == Kind.ENTRY:
                     self._entry_section(draft, child, sub)
+                elif sub.kind == Kind.TRIVIA:
+                    self._trivia(child)
                 elif sub.kind == Kind.UNKNOWN:
                     self._unknown(child, sub)
         dropped = self.parser.dropped[dropped_before:]
@@ -255,7 +262,7 @@ class Walk:
             return None  # R6.6a: a Middle Polish entry, or one with nothing left
         for section in shared + own_shared:
             if self.headings.classify(heading_text(section)).kind is Kind.PRONUNCIATION:
-                draft.entry.pronunciations.extend(self._pronunciations(section))
+                self._add_sounds(draft.entry, self._sounds(section))
         draft.group = self._group_for(group)
         draft.entry.etymology = draft.group
         self.stats[f"pos.{head.pos}"] += 1
@@ -393,13 +400,29 @@ class Walk:
         entry.tables.append(table)
         entry.forms.extend(forms)
 
-    def _pronunciations(self, section: WikiNode) -> list[pb.Pronunciation]:
+    def _sounds(self, section: WikiNode) -> Sounds:
         key = id(section)  # a page-level section is shared: expand it once
         if key not in self._pron_cache:
-            self._pron_cache[key] = pronunciations(
-                self.wtp, section, self.drop_labels, self.stats
+            self._pron_cache[key] = sounds(
+                self.wtp, section, self.title, self.drop_labels, self.stats
             )
-        return self._pron_cache[key]  # RepeatedField.extend copies each message
+        return self._pron_cache[key]
+
+    @staticmethod
+    def _add_sounds(entry: pb.Entry, found: Sounds) -> None:
+        """R6.5; RepeatedField.extend copies each message."""
+        entry.pronunciations.extend(found.pronunciations)
+        entry.audio.extend(found.audio)
+        if found.syllabification and not entry.syllabification:
+            entry.syllabification = ", ".join(found.syllabification)
+        entry.relations.extend(found.homophones)
+
+    def _trivia(self, node: WikiNode) -> None:
+        """{{pl-freq 1990}} calls, for Word.frequency (R6.13)."""
+        name = pronunciation_config().frequency["template"]
+        for call in iter_templates(node):
+            if canonical(self.wtp, call) == name:
+                self.frequency_calls.append(template_args(self.wtp, call))
 
 
 def _extend_unique(target: Any, values: list[str]) -> None:

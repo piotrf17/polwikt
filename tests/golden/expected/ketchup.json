@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-ketchup.wav"
+    }
+   ],
    "forms": [
     {
      "form": "ketchup",
@@ -115,7 +120,10 @@
      "ipa": "/ˈkɛ.t͡ʂup/"
     },
     {
-     "ipa": "/ˈkɛ.t͡ʂap/"
+     "ipa": "/ˈkɛ.t͡ʂap/",
+     "labels": [
+      "rare"
+     ]
     }
    ],
    "senses": [
@@ -127,6 +135,7 @@
      "gloss": "alternative spelling of keczup"
     }
    ],
+   "syllabification": "ke‧tchup",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

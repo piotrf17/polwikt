@@ -2,6 +2,11 @@
  "entries": [
   {
    "adjective": {},
+   "audio": [
+    {
+     "file": "Pl-dobry.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "lepszy",
@@ -350,26 +355,17 @@
     {
      "ipa": "[ˈdɔ.brɘ]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Central Greater Poland",
+      "Far Masovian",
       "Zagórze"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Dobry",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -624,6 +620,7 @@
      ]
     }
    ],
+   "syllabification": "do‧bry",
    "tables": [
     {
      "kind": "KIND_COMPARISON",
@@ -639,6 +636,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-dobry.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "dobry",
@@ -755,26 +757,17 @@
     {
      "ipa": "[ˈdɔ.brɘ]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.brɘ]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Central Greater Poland",
+      "Far Masovian",
       "Zagórze"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Dobry",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -803,6 +796,7 @@
      ]
     }
    ],
+   "syllabification": "do‧bry",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -819,5 +813,10 @@
    "text": "Inherited from Old Polish dobry."
   }
  ],
+ "frequency": {
+  "count": 296,
+  "rank": 170,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "dobry"
 }

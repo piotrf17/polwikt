@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-bez.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "bez",
@@ -117,110 +122,35 @@
     {
      "ipa": "[ˈbɛs]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Eastern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Kuyavia",
+      "Central Greater Poland",
+      "Eastern Greater Poland",
+      "Southern Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Podlachia",
+      "Łowicz",
+      "Kielce",
+      "Western Kraków",
+      "Lasovia",
+      "Biecz",
+      "Przemyśl",
+      "Żywiec",
+      "Podhale",
+      "Zagórze",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Bes",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "bez-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -262,6 +192,7 @@
      ]
     }
    ],
+   "syllabification": "bez",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -274,6 +205,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-bez.ogg"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_PREPOSITION",
    "pronunciations": [
@@ -283,110 +219,35 @@
     {
      "ipa": "[ˈbɛs]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Eastern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Kuyavia",
+      "Central Greater Poland",
+      "Eastern Greater Poland",
+      "Southern Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Podlachia",
+      "Łowicz",
+      "Kielce",
+      "Western Kraków",
+      "Lasovia",
+      "Biecz",
+      "Przemyśl",
+      "Żywiec",
+      "Podhale",
+      "Zagórze",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Bes",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "bez-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -421,12 +282,18 @@
      ]
     }
    ],
+   "syllabification": "bez",
    "topics": [
     "Moschatel family plants",
     "Olive family plants"
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-bez.ogg"
+    }
+   ],
    "etymology": 2,
    "pos": "POS_PREPOSITION",
    "pronunciations": [
@@ -436,110 +303,35 @@
     {
      "ipa": "[ˈbɛs]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Eastern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Kuyavia",
+      "Central Greater Poland",
+      "Eastern Greater Poland",
+      "Southern Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Podlachia",
+      "Łowicz",
+      "Kielce",
+      "Western Kraków",
+      "Lasovia",
+      "Biecz",
+      "Przemyśl",
+      "Żywiec",
+      "Podhale",
+      "Zagórze",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Bes",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "bez-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -739,12 +531,18 @@
      ]
     }
    ],
+   "syllabification": "bez",
    "topics": [
     "Moschatel family plants",
     "Olive family plants"
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-bez.ogg"
+    }
+   ],
    "etymology": 3,
    "pos": "POS_NOUN",
    "pronunciations": [
@@ -754,110 +552,35 @@
     {
      "ipa": "[ˈbɛs]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Eastern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈbɛs]",
-     "labels": [
+      "Chełmno-Dobrzyń",
+      "Kuyavia",
+      "Central Greater Poland",
+      "Eastern Greater Poland",
+      "Southern Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Podlachia",
+      "Łowicz",
+      "Kielce",
+      "Western Kraków",
+      "Lasovia",
+      "Biecz",
+      "Przemyśl",
+      "Żywiec",
+      "Podhale",
+      "Zagórze",
       "Southern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Bes",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "bez-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -875,6 +598,7 @@
      "gloss": "genitive plural of beza"
     }
    ],
+   "syllabification": "bez",
    "topics": [
     "Moschatel family plants",
     "Olive family plants"
@@ -895,5 +619,10 @@
    "text": "See the etymology of the corresponding lemma form."
   }
  ],
+ "frequency": {
+  "count": 459,
+  "rank": 99,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "bez"
 }

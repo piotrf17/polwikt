@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-dom.ogg"
+    },
+    {
+     "file": "Pl-dom-2.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-KaMan-dom.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-dom.wav"
+    }
+   ],
    "forms": [
     {
      "form": "dom",
@@ -215,6 +229,7 @@
      ]
     }
    ],
+   "syllabification": "dom",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -233,5 +248,10 @@
    "text": "Inherited from Old Polish dom."
   }
  ],
+ "frequency": {
+  "count": 373,
+  "rank": 134,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "dom"
 }

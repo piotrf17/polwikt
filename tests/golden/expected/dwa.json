@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-dwa.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Matlin-dwa.wav"
+    }
+   ],
    "forms": [
     {
      "form": "dwaj",
@@ -375,6 +383,7 @@
      ]
     }
    ],
+   "syllabification": "dwa",
    "tables": [
     {
      "irregular": true,
@@ -387,6 +396,14 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-dwa.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Matlin-dwa.wav"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -420,6 +437,7 @@
      ]
     }
    ],
+   "syllabification": "dwa",
    "topics": [
     "Two"
    ]
@@ -430,5 +448,10 @@
    "text": "Inherited from Old Polish dwa."
   }
  ],
+ "frequency": {
+  "count": 936,
+  "rank": 42,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "dwa"
 }

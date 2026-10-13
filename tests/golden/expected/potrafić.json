@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-potrafić.ogg"
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -9,18 +14,8 @@
     {
      "ipa": "[pɔˈtra.fit͡ɕ]",
      "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[pɔˈtra.fit͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[pɔˈtra.fit͡ɕ]",
-     "labels": [
+      "Near Masovian",
+      "Przemyśl",
       "Southern Borderlands"
      ]
     }
@@ -141,11 +136,17 @@
      ]
     }
    ],
+   "syllabification": "po‧tra‧fić",
    "verb": {
     "aspect": "ASPECT_BIASPECTUAL"
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-potrafić.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "potrafić",
@@ -1709,18 +1710,8 @@
     {
      "ipa": "[pɔˈtra.fit͡ɕ]",
      "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[pɔˈtra.fit͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[pɔˈtra.fit͡ɕ]",
-     "labels": [
+      "Near Masovian",
+      "Przemyśl",
       "Southern Borderlands"
      ]
     }
@@ -1813,6 +1804,7 @@
      ]
     }
    ],
+   "syllabification": "po‧tra‧fić",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1834,5 +1826,10 @@
    "text": "From po- + trafić. First attested in 1544. Compare Czech potrefit, Kashubian pòtrafic, Carpathian Rusyn потрафити (potrafyty), Silesian potrefić, Serbo-Croatian pòtrefiti / по̀трефити, and Slovak potrafiť."
   }
  ],
+ "frequency": {
+  "count": 111,
+  "rank": 553,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "potrafić"
 }

@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-ten.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-ten.wav"
+    }
+   ],
    "forms": [
     {
      "form": "ten",
@@ -284,6 +292,7 @@
      ]
     }
    ],
+   "syllabification": "ten",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -293,6 +302,14 @@
    "usage_notes": "The feminine accusative singular form tą is proscribed, but overall much more common."
   },
   {
+   "audio": [
+    {
+     "file": "Pl-ten.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-ten.wav"
+    }
+   ],
    "pos": "POS_PARTICLE",
    "pronunciations": [
     {
@@ -310,7 +327,8 @@
      ],
      "gloss": "filler word"
     }
-   ]
+   ],
+   "syllabification": "ten"
   }
  ],
  "etymologies": [
@@ -318,5 +336,10 @@
    "text": "Inherited from Old Polish ten."
   }
  ],
+ "frequency": {
+  "count": 5743,
+  "rank": 10,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "ten"
 }

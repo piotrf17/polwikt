@@ -1,6 +1,18 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-wziąć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-wziąć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-wziąć się.wav",
+     "label": "wziąć się"
+    }
+   ],
    "forms": [
     {
      "form": "wziąć",
@@ -1869,6 +1881,7 @@
      ]
     }
    ],
+   "syllabification": "wziąć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1884,6 +1897,18 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-wziąć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-wziąć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-wziąć się.wav",
+     "label": "wziąć się"
+    }
+   ],
    "forms": [
     {
      "form": "wziąć",
@@ -1966,6 +1991,7 @@
      ]
     }
    ],
+   "syllabification": "wziąć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1982,5 +2008,10 @@
    "text": "Inherited from Old Polish wziąć. By surface analysis, wz- + jąć."
   }
  ],
+ "frequency": {
+  "count": 224,
+  "rank": 247,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "wziąć"
 }

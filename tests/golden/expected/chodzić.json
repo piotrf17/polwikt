@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-chodzić.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-chodzić.wav"
+    }
+   ],
    "forms": [
     {
      "form": "chodzić",
@@ -873,78 +881,18 @@
     {
      "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Suwałki"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Masovian Borderland"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Western Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈxɔ.d͡ʑit͡ɕ]",
-     "labels": [
+      "Kuyavia",
+      "Near Masovian",
+      "Far Masovian",
+      "Suwałki",
+      "Masovian Borderland",
+      "Kielce",
+      "Western Kraków",
+      "Lasovia",
+      "Western Lublin",
+      "Eastern Lublin",
+      "Przemyśl",
+      "Zagórze",
       "Northern Borderlands"
      ]
     }
@@ -1515,6 +1463,7 @@
      ]
     }
    ],
+   "syllabification": "cho‧dzić",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1536,5 +1485,10 @@
    "text": "Inherited from Old Polish chodzić. By surface analysis, chód + -ić."
   }
  ],
+ "frequency": {
+  "count": 399,
+  "rank": 121,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "chodzić"
 }

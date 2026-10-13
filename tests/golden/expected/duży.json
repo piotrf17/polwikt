@@ -2,6 +2,14 @@
  "entries": [
   {
    "adjective": {},
+   "audio": [
+    {
+     "file": "Pl-duży.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-duży.wav"
+    }
+   ],
    "forms": [
     {
      "form": "większy",
@@ -314,6 +322,16 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "durzy",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "Duży",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -456,6 +474,7 @@
      ]
     }
    ],
+   "syllabification": "du‧ży",
    "tables": [
     {
      "kind": "KIND_COMPARISON",
@@ -476,5 +495,10 @@
    "text": "Inherited from Proto-Slavic *dužь. First attested in 1551."
   }
  ],
+ "frequency": {
+  "count": 374,
+  "rank": 131,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "duży"
 }

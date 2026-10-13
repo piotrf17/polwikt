@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-jakiś.ogg"
+    }
+   ],
    "pos": "POS_PRONOUN",
    "pronunciations": [
     {
@@ -42,9 +47,15 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "ja‧kiś"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-jakiś.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "jakiś",
@@ -352,6 +363,7 @@
      ]
     }
    ],
+   "syllabification": "ja‧kiś",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -365,5 +377,10 @@
    "text": "From jaki + -ś. First attested in 1534. Compare Kashubian jaczis, Silesian jakiś, and Slovincian jakjysz."
   }
  ],
+ "frequency": {
+  "count": 500,
+  "rank": 89,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "jakiś"
 }

@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-zamek.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "zamek",
@@ -121,6 +126,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "Zamek",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "lock (something used for fastening)",
@@ -155,6 +166,7 @@
      ]
     }
    ],
+   "syllabification": "za‧mek",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -170,6 +182,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-zamek.ogg"
+    }
+   ],
    "etymology": 1,
    "forms": [
     {
@@ -291,6 +308,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "Zamek",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "castle (fortified building)",
@@ -311,6 +334,7 @@
      ]
     }
    ],
+   "syllabification": "za‧mek",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

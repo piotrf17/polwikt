@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-familia.wav"
+    }
+   ],
    "forms": [
     {
      "form": "familia",
@@ -217,6 +222,7 @@
      ]
     }
    ],
+   "syllabification": "fa‧mi‧lia",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

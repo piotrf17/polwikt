@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-ja.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-ja.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-ja.wav"
+    }
+   ],
    "forms": [
     {
      "form": "ja",
@@ -137,6 +148,7 @@
      ]
     }
    ],
+   "syllabification": "ja",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -146,6 +158,17 @@
    "usage_notes": "The mute forms mię and mi cannot be used in accented positions in the sentence. Mię is considered dated in standard Polish but can still be heard commonly in some dialects or in colloquial speech."
   },
   {
+   "audio": [
+    {
+     "file": "Pl-ja.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-ja.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-ja.wav"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_PARTICLE",
    "pronunciations": [
@@ -170,7 +193,8 @@
       "Żywiec"
      ]
     }
-   ]
+   ],
+   "syllabification": "ja"
   }
  ],
  "etymologies": [
@@ -181,5 +205,10 @@
    "text": "See jo."
   }
  ],
+ "frequency": {
+  "count": 3028,
+  "rank": 15,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "ja"
 }

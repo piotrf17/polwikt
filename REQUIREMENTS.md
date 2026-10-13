@@ -477,6 +477,21 @@ English-Wiktionary Polish sections follow this nesting:
   `zag=`, `krk=`, …) — so regional variants are captured as separate `Pronunciation`s
   labelled with their dialect. The parameter → dialect map is config (R10.5). The
   Middle Polish variant (`mp=`) is dropped per R6.6a.
+  *Implemented at M9:* read from the expansion, not the parameters — the dialect
+  transcriptions are derived by `Module:zlw-lch-IPA` from the respelling and exist
+  nowhere else, so the module's dialect map is used as is rather than copied into
+  config. Each rendered line kind (transcription, audio, syllabification, homophones;
+  rhymes read and not output) is identified by a marker in `data/pronunciation.toml`,
+  and any other line is counted (`pronunciation.line.unknown`). A qualifier after the
+  "IPA:" marker labels the one transcription it precedes (`grapefruit`: colloquial
+  /ˈɡrɛj.frut/); dialects transcribed identically share one `Pronunciation` labelled
+  with each (`robić`: one [ˈrɔ.bit͡ɕ] for nine dialects, not nine rows). `Audio.label`
+  is the spoken text when it is not the lemma (*robić się*), `Audio.labels` its
+  qualifiers (*colloquial*, *isolated*); a file named twice (`{{audio}}` beside `a=`)
+  is one recording. Several syllabifications are kept as Wiktionary shows them,
+  comma-joined (`zoo`: "zo‧o, zoo"). Homophones are `TYPE_HOMOPHONE` Relations of
+  each entry the section applies to, with their qualifiers. Request boxes
+  (`{{rfap}}`: "please record this word") are maintenance and are skipped.
 - **R6.6 — Form-of entries.** A very large share of Polish pages are inflected forms
   whose only content is `{{inflection of|pl|lemma||gen|p}}`. These must parse into
   structured `form_of` links with the grammatical tags decoded, not a gloss string. One
@@ -565,7 +580,10 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.8 — Etymology.** The rendered etymology as **plain text** ("Inherited from
   Proto-Slavic *kotъ"). Structured etymology links — source language codes, cognates,
   reconstructions — are historical-linguistics data an app for Polish learners does
-  not use, and are not output (decision 11).
+  not use, and are not output (decision 11). Request boxes and maintenance lines
+  ("This etymology is missing or incomplete…", from `{{rfref}}` or from inside a
+  module call as `{{ety|pl|rfe=1}}`) are not etymology and are dropped from the text,
+  which can leave it empty.
 - **R6.9 — Examples & quotations.** `{{ux|pl|…}}` / `{{uxi|pl|…}}` and
   `{{quote-*}}`/`{{RQ:pl:…}}`: Polish text, English translation and literal translation
   as separate fields; a quotation also gets a one-line `source` ("Henryk Sienkiewicz,
@@ -596,6 +614,11 @@ English-Wiktionary Polish sections follow this nesting:
   ordering for a learning deck. Only the most frequent few thousand words carry it, so
   it complements rather than replaces an external frequency list (poldict ranks on
   KWJP100, which covers 77% of its noun/verb/adjective lemmas).
+  *Implemented at M9:* a page can carry several calls: per part of speech
+  (`head=co (pronoun)`), which count this word, and for another term
+  (`head=znaleźć się`), which is not output (`frequency.other_term`). The word's
+  frequency is the best rank among its own calls. A call with no rank is counted
+  (`frequency.unparsed`); one with a rank but no count keeps the rank.
 - **R6.14 — English keywords.** Each sense lists the English terms its gloss links to
   (`[[dog]]`, `{{l|en|dog}}`), as `Sense.keywords`. They are the keys for English→Polish
   search — human-chosen and multi-word-preserving, far better than tokenizing the gloss

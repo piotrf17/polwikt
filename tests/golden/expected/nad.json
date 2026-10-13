@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "pl-nad.ogg"
+    }
+   ],
    "pos": "POS_PREPOSITION",
    "pronunciations": [
     {
@@ -11,6 +16,12 @@
      "labels": [
       "Chełmno-Dobrzyń"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "nad-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -272,7 +283,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "nad"
   }
  ],
  "etymologies": [
@@ -280,5 +292,10 @@
    "text": "Inherited from Old Polish nad."
   }
  ],
+ "frequency": {
+  "count": 498,
+  "rank": 90,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "nad"
 }

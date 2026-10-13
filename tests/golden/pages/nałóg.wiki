@@ -1,0 +1,31 @@
+{{also|nalog}}
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{ety|pl|:inh|sla-pro:*nalogъ|sla-pro:*naloga|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-nałóg.ogg|hh=nauk<qq:for some speakers>}}
+
+===Noun===
+{{pl-noun|m-in}}
+
+# [[bad]] [[habit]], [[vice]]
+# [[addiction]]
+
+====Declension====
+{{pl-decl-noun-masc-inani|nało|g|u|nałóg}}
+
+====Derived terms====
+{{col|pl|nałogowiec|nałogowy}}
+
+====See also====
+* {{l|pl|nawyk}}
+* {{l|pl|uzależnienie}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Human behaviour|Medicine}}

@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-Polska.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "Polska",
@@ -66,6 +71,12 @@
      "ipa": "/ˈpɔl.ska/"
     }
    ],
+   "relations": [
+    {
+     "term": "polska",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "Poland (a country in Central Europe; official name: Rzeczpospolita Polska)",
@@ -76,6 +87,7 @@
      ]
     }
    ],
+   "syllabification": "Pol‧ska",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

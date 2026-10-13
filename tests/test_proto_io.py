@@ -78,7 +78,10 @@ def _rich_word() -> pb.Word:
             )
         ],
         pronunciations=[pb.Pronunciation(ipa="/kɔt/")],
-        audio=[pb.Audio(file="Pl-kot.ogg")],
+        audio=[
+            pb.Audio(file="Pl-kot.ogg"),
+            pb.Audio(file="Pl-od.ogg", labels=["isolated"]),
+        ],
         relations=[pb.Relation(type=pb.Relation.Type.TYPE_DIMINUTIVE, term="kotek")],
         topics=["Cats"],
         noun=pb.NounInfo(

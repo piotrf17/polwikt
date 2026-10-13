@@ -4,6 +4,11 @@
    "adjective": {
     "not_comparable": true
    },
+   "audio": [
+    {
+     "file": "Pl-na razie.ogg"
+    }
+   ],
    "pos": "POS_ADVERB",
    "pronunciations": [
     {
@@ -38,9 +43,15 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "na‿ra‧zie"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-na razie.ogg"
+    }
+   ],
    "pos": "POS_INTERJECTION",
    "pronunciations": [
     {
@@ -100,7 +111,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "na‿ra‧zie"
   }
  ],
  "etymologies": [

@@ -1,0 +1,495 @@
+{{also|Appendix:Variations of "od"}}
+==English==
+
+===Etymology 1===
+Alteration of {{m|en|God}}.
+
+====Pronunciation====
+* {{IPA|en|/ɒd/|a=RP}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-od.wav|a=Southern England}}
+* {{IPA|en|/ɑd/|a=GA}}
+* {{rhymes|en|ɒd|s=1}}
+* {{homophones|en|odd}}
+
+====Noun====
+{{head|en|noun}}
+
+# {{lb|en|now|archaic|regional}} (Euphemistic form of) [[God]]. {{defdate|from 17th c.}}
+
+=====Derived terms=====
+* {{l|en|od's bobs}}
+* {{l|en|ods bodikins}}
+* {{l|en|od's niggers}}
+
+===Etymology 2===
+Borrowed from {{bor|en|de|Od}}, arbitrarily {{coinage|en|Carl Reichenbach|nat=the German|occ=scientist and philosopher|nobycat=1|nocap=1}} (1788–1869).<ref>{{cite-book|author=Charles von Reichenbach [''i.e.'', {{w|Carl Reichenbach}}]|chapter=Sixth Treatise. The Material World in General.|title=Physico-psychological Researches on the Dynamics of Magnetism, Electricity, Heat, Light, Crystallization, and Chemism, in Their Relations to Vital Force.{{nb...|[...] The Complete Work, from the German Second Edition. With the Addition of a Preface and Critical Notes, by John Ashburner, M.D.}}|location=London|publisher=Hippolyte Baillière,{{nb...|219, Regent Street. Paris: J.-B. Baillière, rue Hautefeuille. New York: H. Baillière.}}|year=1850|section=paragraph 215|page=224|pageurl=https://archive.org/details/b28407222/page/224/mode/1up|oclc=6321057|passage=Leaving the etymological derivation to be justified at some other opportunity, I will take the liberty to propose the short word ''Od'' for the force which we are engaged in examining. Every one will admit it to be desirable that an uni-syllabic word beginning with a vowel should be selected for an object which occurs universally in an infinity of complex conditions of the material world, for the sake of convenient conjunction in the manifold compound words. The words magnetism, electricity, &c., are by far too long for convenient use in the language of science.}}</ref><ref>{{R:OED Online|entry=Od|pos=''n.''{{sup|2}}|noformat=1|id=4616948825|date=July 2023|nodot=1}}; {{R:Lexico|alt=od{{sup|1}}|pos=n|url=https://web.archive.org/web/20220530130151/https://www.lexico.com/definition/Od}}</ref>
+
+====Pronunciation====
+* {{IPA|en|/ɒd/|/əʊd/|a=RP}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-od.wav|a=Southern England}}
+* {{IPA|en|/ɑd/|/ɔd/|/oʊd/|a=GA}}
+* {{rhymes|en|ɒd|əʊd|ɔd|s=1}}
+* {{homophones|en|odd|ode}}
+
+====Noun====
+{{head|en|noun}}
+
+# {{lb|en|pseudoscience|historical|also|attributive}} A [[hypothetical#Adjective|hypothetical]] [[force#Noun|force]] or [[natural#Adjective|natural]] [[power#Noun|power]], which was [[suppose]]d by {{w|Carl Reichenbach}} and others to [[inhere]] in certain [[person#Noun|people]] and [[produce#Verb|produce]] [[phenomenon|phenomena]] such as [[animal magnetism]] and [[mesmerism]], and to be [[develop]]ed by various [[agency|agencies]], as by [[chemical#Adjective|chemical]] or [[vital#Adjective|vital]] [[action#Noun|action]], [[heat#Noun|heat]], [[light#Noun|light]], [[magnet]]s, etc.
+#: {{synonyms|en|odyl<q:obsolete>|odyle}}
+
+=====Alternative forms=====
+* {{alter|en|Od|õd}}
+
+=====Derived terms=====
+{{col|en|odize
+|odic
+|odically
+|odism
+|odyl,odyle
+|odylic,odyllic
+|odylism
+|odylist
+}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{pedia|Odic force}}
+
+===Anagrams===
+* {{anagrams|en|a=do|DO|D.O.|'do|D&O|do.|d/o|do}}
+
+{{cln|en|heteronyms|2-letter words}}
+
+==Azerbaijani==
+{{az-variant|од|اوْد}}
+
+===Etymology===
+{{inh+|az|trk-pro|*ōt||fire}}. {{root|az|trk-pro|*ōt}}
+
+===Pronunciation===
+* {{IPA|az|/od/}}
+* {{IPA|az|/ot/|a=Tabriz|ref={{cite-thesis|title=A generative phonology of Azerbaijani|page=153|year=1976|type=PhD|first=Hüseynqulu|last=Səlimi|quote=[T]he words for 'milk' and 'fire' differ with respect to the final stop in Tabriz from the literary dialect. In Tabriz we have [süt] 'milk' and [ot] 'fire' whereas in the literary dialect we have [süd] and [od]. |url=https://ufdcimages.uflib.ufl.edu/AA/00/05/27/76/00001/generativephonol00sali.pdf|publisher=University of Florida}}}} {{q|as if spelled ''ot''}}
+* {{IPA|az|/ut/|a=Sonqori|ref={{cite-web|title=Sonqori: ut|url=https://turkic.elegantlexicon.com/lxforms.php?lx=snq|author=Straughn, Christopher A.|work=Turkic database at Elegant Lexicon|year=2023}}}} {{q|as if spelled ''ut''}}
+* {{audio|az|LL-Q9292 (aze)-Azerbaijani audiorecordings-od.wav|a=Baku}}
+
+===Noun===
+{{az-noun}}
+
+# [[fire]] {{C|az|Fire}}
+#: {{syn|az|atəş|nar}}
+
+====Declension====
+{{az-decl-noun|o|c}}
+
+====Related terms====
+* {{l|az|odun}}
+* {{l|az|ocaq}}
+
+===References===
+{{reflist}}
+
+==Czech==
+
+===Etymology===
+{{inh+|cs|zlw-ocs|ot}}, from {{inh|cs|sla-pro|*otъ}}, from {{der|cs|ine-pro|*éti}}.
+
+===Pronunciation===
+* {{IPA|cs|/ot/}}
+* {{audio|cs|Cs-od.ogg}}
+
+===Preposition===
+{{head|cs|preposition}} {{+obj|cs|gen|catpos=prep}}
+
+# [[from]]
+#: {{uxi|cs|Dostal jsem dopis '''od''' bratra.|I got a letter from my brother.}}
+# [[since]]
+#: {{uxi|cs|'''Od''' té doby jsem tam nebyl.|I haven't been there since.}}
+# [[of]]
+#: {{uxi|cs|To je '''od''' tebe moc hezké.|That is very nice of you.}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+
+==Danish==
+
+===Etymology===
+From {{inh|da|non|oddr}}, from {{inh|da|gem-pro|*uzdaz}}, cognate with {{cog|de|Ort||place, point}}.
+
+===Pronunciation===
+* {{IPA|da|/ˈɔðˀ/|[ˈʌðˀ]}}
+
+===Noun===
+{{da-noun|stem=odd|en|e}}
+
+# sharp [[point]]
+
+====Declension====
+{{da-decl|stem=odd|en|e}}
+
+==Ido==
+
+===Alternative forms===
+* {{alter|io|o}} {{qualifier|apocope}}
+
+===Etymology===
+Borrowing from {{bor|io|en|or}}, {{bor|io|fr|ou}}, {{bor|io|it|od}} and {{bor|io|es|o}}.
+
+===Pronunciation===
+* {{IPA|io|/ɔd/}}
+
+===Conjunction===
+{{head|io|conjunction}}
+
+# [[or]]
+
+====Related terms====
+* {{l|io|ed||and}}
+* {{l|io|ad||to}}
+
+==Italian==
+
+===Pronunciation===
+* {{it-IPA|od}}
+
+===Conjunction===
+{{head|it|conjunction}}
+
+# [[or]] (used before a vowel for euphony instead of ''[[o#Italian|o]]'')
+
+===Anagrams===
+* {{anagrams|it|a=do|D-o|do|dò}}
+
+{{cln|it|terms with voicing of Latin /-p t k-/}}
+
+==Latvian==
+
+===Verb===
+{{head|lv|verb form}}
+
+# {{infl of|lv|ost||2|s|pres|ind|;|2|s|imp}}
+
+==Middle English==
+
+===Adjective===
+{{head|enm|adjective|var=1}}
+
+# {{alt form|enm|odde}}
+
+===Adverb===
+{{head|enm|adverb|var=1}}
+
+# {{alt form|enm|odde}}
+
+===Noun===
+{{head|enm|noun|var=1}}
+
+# {{alt form|enm|odde}}
+
+==Norwegian Nynorsk==
+
+===Etymology 1===
+{{root|nn|ine-pro|*weh₂t-}}
+From {{inh|nn|non|óðr}}.
+
+====Adjective====
+{{head|nn|adjective|neuter singular|odt|definite singular and plural|ode|comparative|odare|indefinite superlative|odast|definite superlative|odaste}}
+
+# [[mad]], [[frenzied]]
+#: {{syn|nn|galen|styrlaus}}
+#: {{usex|nn|Han er så '''od''' i dag at eg torer ikkje snakka til han.|He's so '''mad''' today that I don't dare talk to him.}}
+# [[on heat]], [[rutting]]
+#: {{syn|nn|brunstig|brundgalen}}
+
+=====Derived terms=====
+* {{l|no|odgalen}}
+* {{l|no|oding}}
+* {{l|no|odskap}}
+
+===Etymology 2===
+From {{der|nn|non|óðr}}.
+
+====Noun====
+{{nn-noun-n1}}
+
+# [[wild]] [[impulse]], [[sudden]] [[compulsion]], [[yearning]], [[frenzy]]
+#: {{syn|nn|ihuge|hugskot}}
+#: {{usex|nn|Eg gjorde det med '''odet''' var på meg.|I did it while the '''impulse''' was on me.}}
+# [[stormy]] [[weather]]
+#: {{syn|nn|hardver|uver}}
+
+=====Derived terms=====
+* {{l|no|odkast}}
+* {{l|no|verod}}
+
+===References===
+* {{R:nn:OB}}
+* {{R:nn:NO}}
+
+==Old French==
+
+===Alternative forms===
+* {{alt|fro|ot|ob|of|o}}
+
+===Etymology===
+From {{der|fro|la|apud}}.
+
+===Preposition===
+{{head|fro|preposition}}
+
+# [[with]]
+
+====Descendants====
+* {{desc|roa-gal|ot|d'ot}}
+* {{desc|nrf|d'od}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alt|zlw-opl|hod|hot|ode|ot|ote}}
+
+===Etymology===
+{{etymon|zlw-opl|id=away|:inh|sla-pro:*otъ<id:away>|tree=+|text=+}}  The final ''d'' is due to analogy with other prepositions such as {{m|zlw-opl|nad}} and {{m|zlw-opl|pod}}. {{etydate|first half of the 14th century}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Preposition===
+{{head|zlw-opl|preposition}} {{+obj|zlw-opl|gen}}
+
+# {{ng|indicates the beginning of an action has lasted}}; [[since]], [[from]], [[for]]
+# {{ng|indicates length of time}}; [[for]]
+# {{ng|indicates distance}}; [[from]], [[away from]]
+# {{ng|indicates source or cause}}; [[from]], [[because of]]
+# {{ng|indicates agent of a request}}; [[from]]
+# {{ng|indicates physical origin, sometimes used in names}}; [[from]]
+# {{ng|indicates author or letter}}; [[by]], [[from]]
+# {{ng|used in passive constructions}}; [[by]]
+# {{ng|indicates the scope, manner or degree}}
+# {{ng|indicates relation, intended purpose or use, material, or age}}; [[from]]
+# {{ng|used in comparisons}}; [[than]]
+
+====Derived terms====
+{{col|zlw-opl|title=prefix|od-}}
+
+====Descendants====
+* {{desc|pl|od}}
+* {{desc|szl|ôd}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|ode}}
+
+===Etymology===
+{{etymon|pl|id=away|:inh|zlw-opl:od|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-od.ogg<q:isolated>;LL-Q809 (pol)-Krokus-od.wav|hh=od-,ot,-ot|mp=#|kie=#}}
+
+===Preposition===
+{{head|pl|preposition}} {{+obj|pl|gen}}
+
+# {{ng|indicates separation, distance, loss of contact}}; [[from]], [[away]]
+#: {{uxi|pl|Jesteśmy dość daleko '''od''' domu.|We're pretty far '''from''' home.}}
+#: {{uxi|pl|Odsuń się '''od''' niej!|Get away '''from''' her!}}
+# {{ng|indicates origin of movement}}; [[from]], [[away]]
+#: {{uxi|pl|Dostałem dziś list '''od''' siostry.|I got a letter '''from''' my sister today.}}
+#: {{uxi|pl|Odchodzę '''od''' tego budynku.|I am walking away '''from''' that building.}}
+# {{ng|indicates moment of origin in time}}; [[from]], [[since]], [[for]]
+#: {{uxi|pl|Pracuję codziennie '''od''' siódmej do piętnastej.|I work '''from''' 7 AM till 3 PM every day.}}
+#: {{uxi|pl|'''Od''' jutra będę mieszkał we własnym mieszkaniu.|'''Starting''' tomorrow I'll be living in my own flat.}}
+#: {{uxi|pl|Odlicz '''od''' dziesięciu w dół.|Count backwards '''from''' ten.}}
+#: {{uxi|pl|Czekam na ciebie '''od''' osiemnastej.|I have been waiting for you '''since''' 6 PM.}}
+# {{ng|indicates source or cause}}; [[from]], [[because of]]
+#: {{uxi|pl|Jestem mokry '''od''' deszczu|I'm wet '''from''' the rain.}}
+# {{ng|indicates intended use or purpose}}; [[for]]
+#: {{uxi|pl|Czy widzisz przez dziurkę '''od''' klucza?|Can you see through the keyhole?|lit=Can you see through the hole '''for''' the key?}}
+#: {{uxi|pl|Zamknąłeś okno '''od''' samochodu?|Did you shut the car window?}}
+# {{ng|indicates specialization}}
+#: {{uxi|pl|nauczyciel '''od''' biologii|biology teacher}}
+# {{ng|used in comparisons}}; [[than]]
+#: {{syn|pl|aniżeli|aniżeliby|niż|niżby|niźli|niźliby|niżeli|niżeliby}}
+#: {{uxi|pl|Janusz jest wyższy '''od''' Piotra.|Janusz is taller '''than''' Piotr.}}
+# {{lb|pl|Middle Polish}} {{ng|used to indicate the author of a letter or work}}; [[from]], [[by]]
+# {{lb|pl|Middle Polish}} {{ng|used in passive constructions}}; [[by]]
+# {{lb|pl|Middle Polish}} {{ng|indicates material}}; [[from]]
+#: {{syn|pl|z}}
+
+====Derived terms====
+{{col|pl|title=numerals|od cholery|od groma|od metra}}
+
+===Trivia===
+{{pl-freq 1990|477|319|310|371|303|1780|23|309|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|75738}}
+* {{R:pl:SXVII|OD|15780|date=24.05.2010}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||564|3}}
+* {{R:pl:Łoś:1886|já ńe od tego|186}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{inh+|sh|sla-pro|*otъ}}, from {{der|sh|ine-pro|*éti}}. See {{m|sh|od-}}, {{m|sh|ot-}}, {{m|sh|o}}, {{m|sh|oda-}}.
+
+===Pronunciation===
+* {{sh-IPA|ȍd}}
+
+===Preposition===
+{{sh-prep|ȍd}}
+
+# [[from]], [[since]] {{+obj|sh|gen}}
+#: {{coi|sh|'''od''' Zagreba do Beograda|'''from''' Zagreb to Belgrade}}
+#: {{coi|sh|'''od''' Orjena do Lovćena|'''from''' {{w|Orjen}} to {{w|Lovćen}}}} (the location of {{w|Bay of Kotor}})
+#: {{coi|sh|'''od''' Timoka do mora Crnoga|'''from''' {{w|Timok}} to the {{w|Black Sea}}}} (the location of {{w|Stara Planina}})
+#: {{coi|sh|'''od''' Triglava do Demir Kapije|'''from''' {{w|Triglav}} to {{w|Demir Kapija}}}} (the territory of Yugoslavia 1945-1992)
+#: {{coi|sh|'''od''' Nirvane do Silvane|'''from''' {{w|Nirvana (band)|Nirvana}} to {{w|Silvana Armenulić|Silvana}} (wide variety of music genres)}}
+#: {{coi|sh|'''od''' jutra do mraka|'''from''' dusk until dawn}}
+#: {{coi|sh|'''od''' 5 do 10 sati|'''from''' 5 to 10 o'clock}}
+#: {{coi|sh|'''od''' danas|'''from''' today on}}
+#: {{coi|sh|'''od''' sad(a)|'''from''' now on}}
+#: {{coi|sh|'''od''' tad(a)|'''since''' then}}
+#: {{coi|sh|'''od''' kraja zime|'''from''' the end of winter}}
+# [[of]] {{+obj|sh|gen}}
+#: {{coi|sh|selo '''od''' tri kuće|a village '''of''' three houses|inline=1}}
+#: {{coi|sh|jedan '''od''' njih|one '''of''' them}}
+#: {{coi|sh|čovjek '''od''' (svoje) r(ij)eči.|a man '''of''' his word}}
+#: {{uxi|sh|Hvala! To je bilo jako l(ij)epo '''od''' tebe!|Thank you! That was very nice '''of''' you!}}
+# {{lb|sh|comparison}} {{+obj|sh|gen}} [[than]]
+#: {{uxi|sh|Avioni su brži '''od''' helikoptera.|Airplanes are faster '''than''' helicopters.}}
+#: {{uxi|sh|Stariji je '''od''' svoje sestre.|He is older '''than''' his sister.}}
+# [[made]] of, made out of, made from {{+obj|sh|gen}}
+#: {{coi|sh|stolica '''od''' drveta|a chair '''made of''' wood}}
+#: {{uxi|sh|Plastika se proizvodi '''od''' nafte.|Plastic is made '''from''' oil.}}
+#: {{uxi|sh|U slamovima, ljudi često žive u kućama napravljenim '''od''' otpadnog metala.|In slums, people often live in houses '''made out of''' scrap metal.}}
+# {{lb|sh|proscribed|passive}} {{+obj|sh|gen}} [[by]] (usually followed by ''{{l|sh|strane}}'' ("side/party") denoting the party which is doing the action; active form is preferred in formal language)
+#: {{uxi|sh|Bomba je bila pronađena '''od''' (strane) policije.|The bomb was found '''by''' the police.}}
+# because [[of]], [[from]], [[with]] (denoting a direct or indirect cause) {{+obj|sh|gen}}
+#: {{coi|sh|umr(ij)eti '''od''' dosade|to die '''of''' boredom}}
+#: {{coi|sh|drhtati '''od''' straha|to tremble '''with''' fear}}
+#: {{coi|sh|tresti se '''od''' hladnoće|to shiver '''with''' cold}}
+#: {{uxi|sh|Umrla je '''od''' raka kože.|She died '''of''' skin cancer.}}
+#: {{uxi|sh|Umrla je '''od''' alkoholizma.|She died '''from''' alcoholism.}}
+
+==Slovak==
+
+===Alternative forms===
+* {{alt|sk|odo}}
+
+===Etymology===
+{{inh+|sk|sla-pro|*otъ}}, from {{der|sk|ine-pro|*éti}}.
+
+===Pronunciation===
+* {{IPA|sk|/ˈɔd/}}
+
+===Preposition===
+{{head|sk|preposition|+ genitive}}
+
+# [[from]]
+# [[since]]
+# [[of]]
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Slovene==
+
+===Etymology===
+{{dercat|sl|ine-bsl-pro|ine-pro|inh=1}}
+From {{inh|sl|sla-pro|*otъ}}
+
+===Pronunciation===
+* {{sl-IPA|od}}
+
+===Preposition===
+{{sl-head|prep|-}}
+
+# [[from]], away from {{+obj|sl|gen}}
+# [[since]] or starting from (place or time) {{+obj|sl|gen}}
+# [[originate|originating]] from, having origin in {{+obj|sl|gen}}
+# [[of]], belonging to, part of {{+obj|sl|gen}}
+# {{lb|sl|with genitive|in comparisons}} [[than]]
+# of, from, because of, due to {{+obj|sl|gen}}
+
+==Turkish==
+
+===Etymology===
+From {{inh|tr|ota|اود|tr=od}}, {{m|ota|اوت|tr=ot}}, from {{inh|tr|trk-oat|اود|tr=od}}, from {{inh|tr|trk-pro|*ōt||fire}}.
+
+===Pronunciation===
+* {{tr-IPA}}
+
+===Noun===
+{{tr-noun|u|lar}}
+
+# {{lb|tr|archaic|or|dialectal}} [[fire]]
+#: {{syn|tr|ateş|nâr}}
+
+====Declension====
+{{tr-infl-noun-c|u|poss=1}}
+
+====Related terms====
+* {{l|tr|oda}}
+* {{l|tr|odun}}
+
+==Volapük==
+
+===Pronoun===
+{{head|vo|pronoun}}
+
+# [[each other]]
+
+====Declension====
+{{vo-decl-pronoun}}
+
+==Welsh==
+
+===Pronunciation===
+* {{IPA|cy|/ɔd/}}
+
+===Etymology 1===
+From {{bor|cy|enm|odde}}.
+
+====Adjective====
+{{cy-adj|ach}}
+
+# [[odd]], [[strange]]
+#: {{syn|cy|anarferol|rhyfedd}}
+# [[odd]] {{gloss|not even}}
+#: {{ant|cy|cynifer}}
+
+=====Usage notes=====
+Unusually for a monosyllabic word ending in a monophthong and single {{l|cy|d}}, the current spelling of this word does not require the grave accent to indicate that the vowel is short. Likewise, there is a circumflex in the word {{m|cy|ôd}} to show that its vowel is long. Compare this to regular spellings such as {{m|cy|mwd}} and {{m|cy|mẁd}} or {{m|cy|nod}} and {{m|cy|nòd}}. This phenomenon of not requiring a grave accent where one may expect it is more common in well-established grammatical words such as {{m|cy|od}} below. See also {{m|cy|os}}, {{m|cy|nid}} or {{m|cy|nag}} for similar cases.
+
+=====Derived terms=====
+* {{l|cy|odiaeth||excellent, splendid}}
+* {{l|cy|odrif||odd number}}
+
+===Etymology 2===
+
+====Conjunction====
+{{head|cy|conjunction}}
+
+# {{lb|cy|literary}} {{alt form|cy|o|t=if, whether}} {{n-g|used before vowels.}}
+
+===Mutation===
+{{cy-mut}}
+
+===Further reading===
+* {{R:cy:Gweiadur}}
+* {{R:cy:GPC}}
+
+{{c|cy|Mathematics}}

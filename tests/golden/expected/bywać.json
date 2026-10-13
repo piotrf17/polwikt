@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-bywać.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "bywać",
@@ -873,36 +878,11 @@
     {
      "ipa": "[ˈbɘ.vat͡ɕ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘ.vat͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘ.vat͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘ.vat͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘ.vat͡ɕ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘ.vat͡ɕ]",
-     "labels": [
+      "Central Greater Poland",
+      "Western Kraków",
+      "Eastern Lublin",
+      "Przemyśl",
+      "Podhale",
       "Northern Borderlands"
      ]
     }
@@ -1011,6 +991,7 @@
      ]
     }
    ],
+   "syllabification": "by‧wać",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1029,5 +1010,10 @@
    "text": "Inherited from Old Polish bywać. By surface analysis, być + -wać."
   }
  ],
+ "frequency": {
+  "count": 80,
+  "rank": 800,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "bywać"
 }

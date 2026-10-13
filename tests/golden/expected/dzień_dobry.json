@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-dzień dobry.ogg"
+    },
+    {
+     "file": "Pl-dzień dobry-2.ogg"
+    },
+    {
+     "file": "Pl-dzień dobry-3.oga"
+    }
+   ],
    "pos": "POS_INTERJECTION",
    "pronunciations": [
     {
@@ -35,7 +46,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "dzień do‧bry"
   }
  ],
  "etymologies": [

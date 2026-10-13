@@ -8,6 +8,7 @@ from dataclasses import dataclass, field
 from polwikt.config import Config
 from polwikt.expand.policy import Policy, canonical_name, default_policy
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.pronunciation import frequency
 from polwikt.extract.sense import indexes
 from polwikt.extract.structure import Walk
 from polwikt.parse.headings import HeadingMap, heading_map
@@ -107,7 +108,14 @@ def extract_record(
                 draft.entry.topics.append(topic)
         word.entries.append(draft.entry)
         record.entry_calls.append(draft.calls)
+    if (found := frequency(title, walk.frequency_calls, stats)) is not None:
+        word.frequency.CopyFrom(found)
+        stats["frequency"] += 1
     record.word = word.SerializeToString(deterministic=True)
     stats["pages.with_record"] += 1
     stats["entries"] += len(word.entries)
+    for entry in word.entries:  # R6.5 coverage
+        stats["entries.with_ipa"] += bool(entry.pronunciations)
+        stats["entries.with_audio"] += bool(entry.audio)
+        stats["entries.with_syllabification"] += bool(entry.syllabification)
     return PageResult(record, word, stats, unhandled, walk.colabelled)

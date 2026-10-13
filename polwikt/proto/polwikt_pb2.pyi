@@ -409,12 +409,14 @@ class Pronunciation(_message.Message):
     def __init__(self, ipa: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class Audio(_message.Message):
-    __slots__ = ("file", "label")
+    __slots__ = ("file", "label", "labels")
     FILE_FIELD_NUMBER: _ClassVar[int]
     LABEL_FIELD_NUMBER: _ClassVar[int]
+    LABELS_FIELD_NUMBER: _ClassVar[int]
     file: str
     label: str
-    def __init__(self, file: _Optional[str] = ..., label: _Optional[str] = ...) -> None: ...
+    labels: _containers.RepeatedScalarFieldContainer[str]
+    def __init__(self, file: _Optional[str] = ..., label: _Optional[str] = ..., labels: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class NounInfo(_message.Message):
     __slots__ = ("genders", "plurale_tantum", "singulare_tantum", "indeclinable")

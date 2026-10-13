@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-czytać.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "czytać",
@@ -1054,6 +1059,7 @@
      ]
     }
    ],
+   "syllabification": "czy‧tać",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",

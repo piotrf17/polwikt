@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-rok.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "rok",
@@ -227,6 +232,16 @@
      "ipa": "/ˈrɔk/"
     }
    ],
+   "relations": [
+    {
+     "term": "rock",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "Rok",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "year (solar year)",
@@ -292,6 +307,7 @@
      ]
     }
    ],
+   "syllabification": "rok",
    "tables": [
     {
      "irregular": true,
@@ -317,5 +333,10 @@
    "text": "Inherited from Old Polish rok. The plural forms are a result of suppletion with lato (“summer”)."
   }
  ],
+ "frequency": {
+  "count": 1025,
+  "rank": 28,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "rok"
 }

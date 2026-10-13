@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-brat.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "brat",
@@ -117,78 +122,18 @@
     {
      "ipa": "[ˈbrat]",
      "labels": [
-      "Northern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Suwałki"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Biecz"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
-      "Babia Góra"
-     ]
-    },
-    {
-     "ipa": "[ˈbrat]",
-     "labels": [
+      "Northern Greater Poland",
+      "Central Greater Poland",
+      "Southern Greater Poland",
+      "Near Masovian",
+      "Suwałki",
+      "Western Kraków",
+      "Lasovia",
+      "Biecz",
+      "Eastern Lublin",
+      "Podhale",
+      "Zagórze",
+      "Babia Góra",
       "Northern Borderlands"
      ]
     }
@@ -319,6 +264,7 @@
      ]
     }
    ],
+   "syllabification": "brat",
    "tables": [
     {
      "irregular": true,
@@ -339,5 +285,10 @@
    "text": "Inherited from Old Polish brat."
   }
  ],
+ "frequency": {
+  "count": 82,
+  "rank": 779,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "brat"
 }

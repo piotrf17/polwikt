@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-lepszy.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-lepszy.wav"
+    }
+   ],
    "forms": [
     {
      "form": "lepszy",
@@ -288,6 +296,7 @@
      ]
     }
    ],
+   "syllabification": "lep‧szy",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -301,5 +310,10 @@
    "text": "Inherited from Old Polish lepszy."
   }
  ],
+ "frequency": {
+  "count": 241,
+  "rank": 224,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "lepszy"
 }

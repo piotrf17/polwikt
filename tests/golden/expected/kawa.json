@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-kawa.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "kawa",
@@ -120,6 +125,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "Kawa",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "coffee (beverage made by infusing the beans of the coffee plant in hot water)",
@@ -223,6 +234,7 @@
      ]
     }
    ],
+   "syllabification": "ka‧wa",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -237,6 +249,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-kawa.ogg"
+    }
+   ],
    "etymology": 1,
    "forms": [
     {
@@ -357,6 +374,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "Kawa",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "jackdaw (any corvid of the genus Coloeus)",
@@ -381,6 +404,7 @@
      ]
     }
    ],
+   "syllabification": "ka‧wa",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -395,6 +419,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-kawa.ogg"
+    }
+   ],
    "etymology": 2,
    "noun": {
     "genders": [
@@ -415,6 +444,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "Kawa",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "tree roof (roof supported by pillars as a display in front of a house for setting a tree)",
@@ -432,6 +467,7 @@
      ]
     }
    ],
+   "syllabification": "ka‧wa",
    "topics": [
     "Coffee",
     "Corvids",
@@ -447,9 +483,7 @@
   {
    "text": "Inherited from Old Polish *kawa."
   },
-  {
-   "text": "(This etymology is missing or incomplete. Please add to it, or discuss it at the Etymology scriptorium. )"
-  }
+  {}
  ],
  "lemma": "kawa"
 }

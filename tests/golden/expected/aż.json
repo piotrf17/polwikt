@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-aż.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-aż.wav"
+    }
+   ],
    "forms": [
     {
      "form": "ażem",
@@ -53,20 +61,20 @@
     {
      "ipa": "[ˈaʂ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈaʂ]",
-     "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈaʂ]",
-     "labels": [
+      "Central Greater Poland",
+      "Ostróda",
       "Western Kraków"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "-arz",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "-aż",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -112,6 +120,7 @@
      ]
     }
    ],
+   "syllabification": "aż",
    "tables": [
     {
      "kind": "KIND_COMBINED_FORMS",
@@ -121,6 +130,14 @@
    "usage_notes": "Combined forms for this word are uncommon and often formed for stylization."
   },
   {
+   "audio": [
+    {
+     "file": "Pl-aż.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-aż.wav"
+    }
+   ],
    "pos": "POS_PARTICLE",
    "pronunciations": [
     {
@@ -129,20 +146,20 @@
     {
      "ipa": "[ˈaʂ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈaʂ]",
-     "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈaʂ]",
-     "labels": [
+      "Central Greater Poland",
+      "Ostróda",
       "Western Kraków"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "-arz",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "-aż",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -260,7 +277,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "aż"
   }
  ],
  "etymologies": [
@@ -268,5 +286,10 @@
    "text": "Inherited from Old Polish aż."
   }
  ],
+ "frequency": {
+  "count": 213,
+  "rank": 263,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "aż"
 }

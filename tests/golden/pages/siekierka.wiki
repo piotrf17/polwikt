@@ -1,0 +1,25 @@
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{ety|pl|:af|siekiera|-ka|text=+|tree=1}}
+
+===Pronunciation===
+* {{audio|pl|LL-Q809 (pol)-Poemat-siekierka.wav}}
+{{pl-pr|a=LL-Q809 (pol)-Poemat-siekierka.wav}}
+
+===Noun===
+{{pl-noun|f}}
+
+# {{diminutive of|pl|siekiera}}
+# {{vern|Amur bitterling}} {{gl|{{taxlink|Rhodeus sericeus|species}}}}
+#: {{syn|pl|różanka pospolita|różanka|pukas}}
+
+====Declension====
+{{pl-decl-noun-f}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Cyprinids|Tools}}

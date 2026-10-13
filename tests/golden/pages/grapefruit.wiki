@@ -1,0 +1,303 @@
+{{also|Grapefruit}}
+==English==
+{{wp}}
+[[File:EnamporGrapefruit1.JPG|thumb|upright=0.61|A grapefruit (tree) in Enampore, Senegal]]
+[[File:Pomelos - Grapefruits.jpg|thumb|upright=0.61|Grapefruit (fruit), one sliced in half]]
+
+===Etymology===
+{{ety|en|:af|grape<id:wine-berry>|fruit|:from|greatfruit}}
+Widely assumed to be a marketing term from {{compound|en|grape|fruit}}, an allusion to the supposed grapelike clusters of fruit on the tree,{{ref|{{cite-book|title=Appendix to the Journals of the Senate and Assembly of the twenty-first Session of the Legislature of the State of California|volume=V|chapter=Report of the Secretary–the pomelo|location=Sacramento|year=1895|page=65|pageurl=https://books.google.de/books?id=7SNIAQAAMAAJ&pg=RA1-PA65&hl=it&sa=X&ved=0ahUKEwjW_YqHiMrgAhUmMuwKHcCPClIQ6AEIKTAA#v=onepage&f=false|passage=The pomelo is now marketed under the name “grape-fruit,” which is a misnomer. This is confusing and misleading. The name “grape-fruit” was given to this fruit in Florida, as it hangs on trees in clusters resembling the grape, but has no relation to it whatever. Growers and shippers should drop the name “grape-fruit” and apply to it the name ''pomelo'', which is popular, and botanically correct.}}}} early {{C.|19}} Ciardi proposes another theory: one of the [[pomelo]]'s botanical names is {{taxlink|Citrus grandis|species}}, meaning “great citrus {{q-g|fruit}}”, due to the size of its fruit. A new pomelo variety might first have been called a {{m|en||GRAYT-froot}} (see {{m|en|greatfruit}}), and through the process of {{lg|assimilation}}, the word came to be pronounced {{m|en||GRAYP-froot}}.
+
+===Pronunciation===
+* {{enPR|grāp'''′'''fro͞ot}}
+* {{IPA|en|/ˈɡɹeɪ̯pfɹuːt/|a=RP}}
+* {{IPA|en|/ˈɡɹɛjpfɹʉwt/|a=SSB}}
+* {{IPA|en|/ˈɡɹeɪ̯pfɹut/|a=GA}}
+** {{audio|en|En-us-grapefruit.ogg|a=GA}}
+* {{IPA|en|/ˈɡɹæɪ̯pfɹʉːt/|a=AU,NZ}}
+* {{IPA|en|/ˈɡɾepfɾʉt/|a=Scotland}}
+* {{IPA|en|/ˈɡɹepfɹʉt/|a=NI}}
+* {{IPA|en|/ˈɡɾeːpfɾɪʊ̯t/|a=Wales,non-pane-pain}}
+* {{rhymes|en|eɪpfɹuːt|s=2}}
+* {{hyph|en|grape|fruit}}
+
+===Noun===
+{{en-noun|~|s|*}}
+
+# The [[tree]] of the species {{taxfmt|Citrus paradisi|species}}, a hybrid of {{taxfmt|Citrus maxima|species}} and [[sweet orange]].
+#* {{quote-journal|en|journal=The Farmer|year=1932|page=64|passage=Results have begun to come in and at Comfort Castle this month I spent a useful and happy half day carting round 8 children in my car to their homes where we all helped to fill in with good soil and manure, their excellently dug holes and planted the '''grapefruit'''.}}
+# {{senseid|en|Q21552830}}The large [[spherical]] [[tart]] [[fruit]] produced by this tree.
+#: {{syn|en|pomelo|shaddock|forbidden fruit}}
+#* {{quote-book|en|chapter=Fruits|title=Encyclopedia of Foods: A Guide to Healthy Nutrition|publisher=w:Academic Press|year=2002|section=part II (Encyclopedia of Foods)|page=176|column=3|isbn=978-0-12-219803-8|passage='''Grapefruit''' is high in vitamin C. The pink and red varieties contain vitamin A (betacarotene) and lycopene, an antioxidant that may help prevent cancer. '''Grapefruit''' contains a chemical that can alter intestinal absorption of some medications and lead to higher than normal blood levels of some drugs and potential problems.}}
+#* {{quote-journal|en|journal=NLRB Advice Memorandum Reporter|publisher=Labor Relations Press|year=2002|page=100|passage=Once loaded by Canaveral, the '''grapefruit''' are transported to Japan, where the shipments are unloaded by employees of Japanese stevedoring companies. The '''grapefruit''' are then received by the Japanese importers.}}
+# {{lb|en|vulgar|usually|in the plural}} Large [[breasts]]; by extension, a woman with large breasts.
+#: {{ux|en|Cupping her '''grapefruits''' in her hands, she closed her eyes and imagined her date grasping them, exploring their size, weight, and firmness.}}
+#* {{quote-book |en |year=1993 |author=Leandra Logan |title=Joyride |publisher=Harlequin Books |page=162 |url=https://books.google.com/books?id=u_uvDzt3ybcC |text=Dan hauled her to the carpet as she fell limp over him.  She stretched out on her back, her '''grapefruits''', fitted snugly into her sturdy cotton bra, rock hard under his nose.}}
+#* {{quote-book |en |year=1997 |editors=Delphus David Bourland, Paul Dennithorne Johnston |author=Paul Dennithorne Johnston |title=E-Prime III!: A Third Anthology |publisher=International Society for General Semantics |chapter=Boiling Creek: The G.S. Detective, Part II |page=357 |url=https://books.google.com/books?id=BDU-yK0vNI0C |text=In walked my supposedly dead niece Esmerelda wearing shorts that didn't exist and a top that made her '''grapefruits''' look like honeydews, if you get my drift.}}
+#* {{quote-book |en |year=2000 |author=Irving Shulman |title=Harlow: An Intimate Biography |publisher=iUniverse |page=122 |url=https://books.google.com/books?id=ZPglPswSVPAC |text=He raised his hand again.  "If you scratch my face and I give you a black eye—who's worse off?  Because what've you got besides a pair of '''grapefruits''' and a pretty face?  So let me show you something else I bought."}}
+#* {{quote-book |en |year=2016 |author=Andrew Matheson |title=Sick On You: The Disastrous Story of the Hollywood Brats, the Greatest Band You've Never Heard Of |publisher=Penguin |page=184 |url=https://books.google.com/books?id=YsOcDAAAQBAJ |text=A new pair of '''grapefruits''' arrives with yet another tray of drinks.  She says that they were sent by someone at another table and points a fingernail in the direction of our benefactor.}}
+#* {{quote-book |en |year=2020 |author=Nick Hughes |title=Bahama Boyz |publisher=Troubador Publishing Ltd |page=140 |url=https://books.google.com/books?id=ayfFDwAAQBAJ |text=I lay there for about twenty seconds trying to get my wind back, until slowly and painfully I picked myself up as best I could and with as much class as I could muster in the circumstances, but keeping my eyes on her '''grapefruits''' – the ones in the bag, I hasten to add.}}
+#* {{quote-book |en |year=2016 |author=David James |title=Love and Sex at the Post Office |publisher=Xlibris Corporation |chapter=A Chance Meeting, Mary Jane |url=https://books.google.com/books?id=TDPSDwAAQBAJ |text=I walked up behind her and pushed my cucumber hard against her booty.  Kissed her on the neck and felt those '''grapefruits'''.  Our mouths met and our tongues also.  Strong sexual desire consumed us.  I pulled the straps of her outfit over her shoulders and I was soon flavoring her '''grapefruits''', while she unzipped my pants and tasted my cucumber.  Soon, we were both naked in the bed.  My cucumber had found her orchard.}}
+
+====Synonyms====
+* {{sense|tree}} grapefruit [[tree]]; {{taxlink|Citrus × paradisi|nothospecies}}; {{taxfmt|Citrus sinensis|species}} × {{taxlink|Citrus grandis|species}}, {{taxfmt|Citrus sinensis|species}} × {{taxfmt|Citrus maxima|species}}
+* {{sense|breasts}} see [[Thesaurus:breasts]]
+
+====Hypernyms====
+* [[Thesaurus:fruit|fruit]]
+** {{l|en|citrus}}
+
+====Derived terms====
+{{col|en
+|Chinese grapefruit
+|grapefruitade
+|grapefruit ade
+|grapefruit juice
+|grapefruit knife
+|Grapefruit League
+|grapefruitlike
+|grapefruit mint
+|grapefruit spoon
+|grapefruitini
+|grapefruity
+}}
+
+====Descendants====
+{{top3}}
+* {{desc|da|grapefrugt|pclq=1}}
+* {{desc|nl|grapefruit|bor=1}}
+* {{desc|fo|greypfrukt|pclq=1}}
+* {{desc|fr-CH|grapefruit|bor=1}}
+* {{desc|de|Grapefruit|bor=1}}
+* {{desc|hu|grépfrút|bor=1}}
+* Norwegian:
+*: {{desc|nb|grapefrukt|pclq=1}}
+*: {{desc|nn|grapefrukt|pclq=1}}
+* {{desc|pl|grejpfrut|bor=1}}
+* {{desctree|ru|грейпфру́т|bor=1}}
+* {{desc|sh|грејпфрут//grejpfrut|bor=1}}
+** {{desc|rsk|ґрейпфрут|bor=1}}
+* {{desc|sv|grapefrukt|pclq=1}}
+* {{desc|tr|greyfurt|bor=1}}
+{{bottom}}
+
+====Translations====
+{{trans-top|tree}}
+* Arabic: {{t|ar|زَنْبَاع|m}}
+* Armenian: {{t+|hy|գրեյպֆրուտ}}
+* Asturian: {{t+|ast|pomelar}}, {{t+|ast|pomelu}}, {{t+|ast|sidru}}
+* Basque: {{t|eu|arabisagar arbola}}
+* Bulgarian: {{t+|bg|грейпфру́т|m}}
+* Catalan: {{t|ca|aranger|m}}
+* Chinese:
+*: Cantonese: {{t|yue|西柚}}
+*: Hokkien: {{t|nan-hbl|柚仔樹|tr=iū-á-chhiu}}, {{t+|nan-hbl|葡萄柚|tr=phû-tô-iū}}
+*: Mandarin: {{t+|cmn|柚子}}, {{t+|cmn|葡萄柚}}
+* Finnish: {{t|fi|[[greippi]][[puu]]}}, {{t+|fi|greippi}}
+* French: {{t+|fr|pamplemoussier|m}}
+* Hebrew: {{t|he|עץ האשכולית|m}}
+* Hungarian: {{t|hu|grépfrútfa}}, {{t|hu|citrancsfa}} {{qualifier|obsolete}}
+* Icelandic: {{t|is|greipaldin|n}}, {{t|is|greipaldintré|n}}
+* Italian: {{t+|it|pompelmo|m}}
+* Japanese: {{t+|ja|グレープフルーツ|tr=gurēpufurūtsu}}
+* Korean: {{t+|ko|그레이프프루트}}
+* Persian: {{t|fa|گریپ‌فروت|tr=gereypfrut}}
+* Polish: {{t+|pl|grejpfrut|m}}, {{t+|pl|grapefruit|m}}
+* Portuguese: {{t+|pt|toranjeira|f}}
+* Russian: {{t+|ru|грейпфру́т|m}}
+* Spanish: {{t|es|toronjo|m}}
+* Swahili: {{t|sw|mbalungi}}
+* Tagalog: {{t|tl|kahil}}
+* Turkish: {{t+|tr|greyfurt}}
+* Ukrainian: {{t|uk|гре́йпфру́т|m}}
+* Ulwa (Nicaragua): {{t|ulw|aduk}}
+* Vietnamese: {{t+|vi|bưởi chùm}}
+{{trans-bottom}}
+
+{{trans-top|fruit}}
+* Alabama: {{t|akz|yalàaha kaskaha}}
+* Albanian: {{t|sq|grapefruit|m}}
+* Arabic: {{t|ar|لَيْمُون هِنْدِيّ|m}}, {{t|ar|جْرِيب فْرُوت|m|tr=greyb frūt}}, {{t|ar|كْرِيفُون|m}}, {{t|ar|كَرِيفُون|m}}, {{t|ar|زَنْبَاع|m}}
+*: Egyptian Arabic: {{t|ar|جْريْپ فْروت|tr=grēp frūt}}
+*: Moroccan Arabic: {{t|ar|پومْپلْموس|tr=pampelmūss}}
+*: North Levantine Arabic: {{t|apc|غْريْب فْروت|tr=greyp frūt}} {{q|Lebanon}}
+*: South Levantine Arabic: {{t|ar|غْريْب فْروت|tr=grēp frūt}}
+*: Tunisian Arabic: {{t|aeb|زِنْباع|tr=zinbēʕ}}
+* Armenian: {{t+|hy|գրեյպֆրուտ}}, {{t+|hy|թուրինջ}}
+* Asturian: {{t+|ast|pomelu}}, {{t+|ast|sidru}}
+* Azerbaijani: {{t|az|qreypfrut}}
+* Basque: {{t+|eu|arabisagar}}
+* Belarusian: {{t|be|грэйпфру́т|m}}
+* Bengali: {{t+|bn|জাম্বুরা}}
+* Bulgarian: {{t+|bg|грейпфру́т|m}}
+* Burmese: {{t|my|ဂရိတ်ဖရု}}, {{t|my|ကျွဲကောသီး}}
+* Catalan: {{t|ca|aranja|f}}
+* Chechen: {{t|ce|грейпфрукт}}
+* Chinese:
+*: Cantonese: {{t|yue|西柚}}
+*: Hokkien: {{t|nan-hbl|柚仔樹|tr=iū-á-chhiu}}, {{t+|nan-hbl|葡萄柚|tr=phû-tô-iū}}
+*: Mandarin: {{t+|cmn|柚子}}, {{t+|cmn|葡萄柚}}
+* Cornish: {{t|kw|aval paradhis|m}}
+* Czech: {{t+|cs|grapefruit|m}}
+* Danish: {{t+|da|grapefrugt}}, {{t+|da|grape}}
+* Dutch: {{t+|nl|grapefruit|m}}
+* Esperanto: {{t+|eo|grapfrukto}}
+* Estonian: {{t|et|greip}}, {{t|et|greipfruut}}, {{t|et|greibipuu}}
+* Faroese: {{t|fo|greypfrukt|f}}
+* Fataluku: {{t|ddg|sapu}}, {{t|ddg|sapua}}
+* Finnish: {{t+|fi|greippi}}
+* French: {{t+|fr|pamplemousse|m}}, {{t+|fr|pomélo|m}}, {{t|fr|chadègue|f}} {{qualifier|Louisiana}}, {{t|fr|chadigue|f}} {{qualifier|Louisiana}}
+* Georgian: {{t|ka|გრეიპფრუტი}}
+* German: {{t+|de|Grapefruit|f}}, {{t+|de|Pampelmuse|f}}
+* Greek: {{t+|el|γκρέιπφρουτ|n}}
+* Haitian Creole: {{t|ht|chadèk}}
+* Hebrew: {{t+|he|אֶשְׁכּוֹלִית|f|tr=eshkolít}}
+* Hindi: {{t|hi|मौसमी}}, {{t|hi|छोटा चकोतरा|m}}, {{t+|hi|चकोतरा|m}}
+* Hungarian: {{t+|hu|grépfrút}}, {{t+|hu|citrancs}} {{qualifier|largely obsolete}}
+* Icelandic: {{t|is|greipaldin|n}}, {{t|is|greip|f}}, {{t|is|tröllaldin|n}}
+* Ido: {{t+|io|pompelmuso}}
+* Ilocano: {{t|ilo|lukban}}
+* Indonesian: {{t|id|[[jeruk]] [[bali]]}}, {{t+|id|jeruk keprok}}, {{t|id|limau gedang}}
+* Irish: {{t|ga|seadóg|f}}
+* Italian: {{t+|it|pompelmo|m}}
+* Japanese: {{t+|ja|グレープフルーツ|tr=gurēpufurūtsu}}
+* Javanese: {{t|jv|jeruk bali}}
+* Kazakh: {{t|kk|грейпфрут}}
+* Korean: {{t+|ko|그레이프프루트}}, {{t+|ko|자몽}}
+* Kyrgyz: {{t|ky|грейпфрут}}
+* Lao: {{t|lo|ພຸກ}}, {{t|lo|ໝາກສົ້ມໂອ}}, {{t|lo|ສົ້ມ​ໂອ}}
+* Latvian: {{t|lv|greipfrūts|m}}, {{t|lv|sulenis|m}}
+* Lithuanian: {{t|lt|greipfrutas|m}}
+* Macedonian: {{t|mk|гре́јпфрут|m}}, {{t|mk|цитро́н|m}}
+* Makasae: {{t|mkz|dambua}}
+* Malay: {{t|ms|limau gedang}}
+* Maltese: {{t|mt|lumi-larinġ}}, {{t|mt|tronġa|f}}
+* Manchu: {{t|mnc|ᠵᠣᡶᠣᡥᠣᠨ}}
+* Manx: {{t|gv|shaddag|m}}, {{t|gv|shaddoge|m}}
+* Māori: {{t|mi|kerepe-whurutu}}
+* Mauritian Creole: {{t|mfe|panplemous}}
+* Mongolian: {{t|mn|бэрсүүт жүрж}}
+* Navajo: {{t|nv|chʼil łitsxooí ntsxaaígíí}}
+* Norwegian:
+*: Bokmål: {{t+|nb|grapefrukt|m|f}}
+*: Nynorsk: {{t|nn|grapefrukt|f}}
+* Pashto: {{t-needed|ps}}
+* Persian: {{t|fa|گریپ فروت|tr=greyp frut}}
+* Plautdietsch: {{t|pdt|Pommelmooss|f}}
+* Polish: {{t+|pl|grejpfrut|m}}, {{t+|pl|grapefruit|m}}
+* Portuguese: {{t+|pt|toranja|f}}, {{t+|pt|toronja|f}}
+* Quechua: {{t|qu|turunja}}
+* Romanian: {{t+|ro|grepfrut|n}}
+* Romansh: {{t|rm|grepfrut|m}}
+* Russian: {{t+|ru|грейпфру́т|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|грѐјпфрут|m}}, {{t|sh|лиму̀ника|f}}
+*: Latin: {{t+|sh|grèjpfrut|m}}, {{t+|sh|limùnika|f}}
+* Sindhi: {{t-needed|sd}}
+* Slovak: {{t+|sk|grapefruit|m}}
+* Slovene: {{t+|sl|grenivka|f}}
+* Spanish: {{t+|es|toronja|f}}, {{t+|es|pomelo|m}}
+* Swahili: {{t|sw|balungi}}
+* Swedish: {{t+|sv|grape|c}}, {{t+|sv|grapefrukt|c}}
+* Tagalog: {{t|tl|kahil}}
+* Tajik: {{t|tg|норинҷ}}, {{t|tg|грейпфрут}}
+* Tausug: {{t|tsg|suwa' gadja}}
+* Tetum: {{t|tet|jambua}}
+* Thai: {{t|th|เกรปฟรูต}}, {{t+|th|ส้มโอ}}
+* Tigrinya: {{t|ti|ናርገ}}
+* Turkish: {{t+|tr|greyfurt}}
+* Turkmen: {{t|tk|greýpfrut}}
+* Ukrainian: {{t|uk|гре́йпфру́т|m}}
+* Urdu: {{t|ur|چکوترا|m|tr=cakotrā}}
+* Uzbek: {{t|uz|greypfrut}}
+* Vietnamese: {{t+|vi|bưởi chùm}}, {{t|vi|bưởi đắng}}
+* Welsh: {{t+|cy|grawnffrwyth|m}}
+* Wolof: {{t|wo|pampëlëmuus}}, {{t|wo|pàmpalmuus}}
+* Yiddish: {{t|yi|גרייפּפֿרוכט|f}}, {{t|yi|גרייפּפֿרוט|f}}
+{{trans-bottom}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:OneLook}}
+* {{specieslite|Citrus paradisi|i=1}}
+* {{comcatlite|Citrus paradisi|i=1}}
+* {{comcatlite|Grapefruits}}
+
+{{C|en|Citrus subfamily plants|Fruits}}
+
+==Dutch==
+{{wp|nl:}}
+
+===Etymology===
+Borrowed from {{bor|nl|en|grapefruit}}.
+
+===Pronunciation===
+* {{IPA|nl|/ˈɡreːp.frut/}}
+* {{audio|nl|Nl-grapefruit.ogg}}
+* {{hyphenation|nl|grape|fruit}}
+
+===Noun===
+{{nl-noun|m|-s|+}}
+
+# {{l|en|grapefruit}} {{gloss|tree of the species {{taxfmt|Citrus paradisi|species}}}}
+# {{l|en|grapefruit}} {{gloss|fruit produced by the tree of the species {{taxfmt|Citrus paradisi|species}}}}
+
+===See also===
+* {{l|nl|pompelmoes}}
+
+{{C|nl|Fruits}}
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA|grapfruite|grepfruite|grepfroute}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-grapefruit.wav|a=France}}
+* {{audio|fr|LL-Q150 (fra)-Penegal-grapefruit.wav|a=<<France>> (<<Vosges>>)}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{lb|fr|Switzerland}} {{l|en|grapefruit}}
+#: {{syn|fr|pamplemousse}}
+
+{{C|fr|Fruits}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|tree=1|text=*|:ubor|en:grapefruit}}
+
+===Pronunciation===
+{{pl-pr|'grejp.frut,'grej.frut<a:colloquial>|hh=grejpfrut|h=grape.fruit|a=LL-Q809 (pol)-Poemat-grapefruit.wav}}
+
+===Noun===
+{{pl-noun|m-in|adj=grapefruitowy}}
+
+# {{alt form of|pl|grejpfrut||grapefruit}} {{gl|tree; fruit}}
+
+====Declension====
+{{pl-decl-noun-m-in|grapefrui|t|a}}
+
+===Further reading===
+* {{R:pl:WSJP|grejpfrut|103461}}
+* {{R:pl:PWN}}
+* {{R:pl:NFJP}}
+* {{R:pl:SGJP|+|32090}}
+
+==Slovak==
+
+===Pronunciation===
+* {{sk-IPA|grejpfrút}}
+
+===Noun===
+{{sk-noun|m-in|adj=grapefruitový}}
+
+# {{l|en|grapefruit}}
+
+====Declension====
+{{sk-ndecl|m-in|g=u}}
+
+===Further reading===
+* {{R:sk:SDK}}

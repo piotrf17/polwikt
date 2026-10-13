@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-spodnie.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "spodnie",
@@ -99,6 +104,7 @@
      ]
     }
    ],
+   "syllabification": "spod‧nie",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -110,6 +116,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-spodnie.ogg"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_ADJECTIVE",
    "pronunciations": [
@@ -164,6 +175,7 @@
      "gloss": "inflection of spodni: neuter nominative/accusative/vocative singular; nonvirile nominative/accusative/vocative plural"
     }
    ],
+   "syllabification": "spod‧nie",
    "topics": [
     "Clothing"
    ]

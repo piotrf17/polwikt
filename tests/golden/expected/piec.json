@@ -1,6 +1,15 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-piec.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-piec się.wav",
+     "label": "piec się"
+    }
+   ],
    "forms": [
     {
      "form": "piec",
@@ -117,32 +126,18 @@
     {
      "ipa": "[ˈpjɛt͡s]",
      "labels": [
-      "Kociewie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
+      "Kociewie",
+      "Central Greater Poland",
+      "Near Masovian",
+      "Zagórze",
       "Northern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Piec",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -245,6 +240,7 @@
      ]
     }
    ],
+   "syllabification": "piec",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -259,6 +255,15 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-piec.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-piec się.wav",
+     "label": "piec się"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -274,32 +279,18 @@
     {
      "ipa": "[ˈpjɛt͡s]",
      "labels": [
-      "Kociewie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
+      "Kociewie",
+      "Central Greater Poland",
+      "Near Masovian",
+      "Zagórze",
       "Northern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Piec",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -316,6 +307,7 @@
      ]
     }
    ],
+   "syllabification": "piec",
    "topics": [
     "Baking",
     "Electronics",
@@ -324,6 +316,15 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-piec.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-piec się.wav",
+     "label": "piec się"
+    }
+   ],
    "etymology": 1,
    "forms": [
     {
@@ -1237,30 +1238,10 @@
     {
      "ipa": "[ˈpjɛt͡s]",
      "labels": [
-      "Kociewie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
-      "Zagórze"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛt͡s]",
-     "labels": [
+      "Kociewie",
+      "Central Greater Poland",
+      "Near Masovian",
+      "Zagórze",
       "Northern Borderlands"
      ]
     }
@@ -1272,6 +1253,10 @@
      ],
      "term": "piekać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "Piec",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1428,6 +1413,7 @@
      ]
     }
    ],
+   "syllabification": "piec",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",

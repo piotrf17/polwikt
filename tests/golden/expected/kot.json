@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-kot.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-kot.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-kot.wav"
+    }
+   ],
    "forms": [
     {
      "form": "kot",
@@ -121,6 +132,16 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "kod",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "Kot",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "cat (any mammal of the genus Felis)",
@@ -213,6 +234,7 @@
      ]
     }
    ],
+   "syllabification": "kot",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

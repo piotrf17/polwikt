@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-powinien.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "powinienem",
@@ -356,6 +361,7 @@
      ]
     }
    ],
+   "syllabification": "po‧wi‧nien",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -373,5 +379,10 @@
    "text": "Inherited from Old Polish powinien. By surface analysis, univerbation of po + winie + -ny. Compare Czech povinný."
   }
  ],
+ "frequency": {
+  "count": 346,
+  "rank": 146,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "powinien"
 }

@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-dwoje.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "dwoje",
@@ -58,6 +63,12 @@
      "ipa": "/ˈdvɔ.jɛ/"
     }
    ],
+   "relations": [
+    {
+     "term": "dwoję",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "two",
@@ -71,6 +82,7 @@
      ]
     }
    ],
+   "syllabification": "dwo‧je",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

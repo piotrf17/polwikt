@@ -4,6 +4,17 @@
    "adjective": {
     "not_comparable": true
    },
+   "audio": [
+    {
+     "file": "pl-polski.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-polski.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-polski.wav"
+    }
+   ],
    "forms": [
     {
      "form": "polski",
@@ -288,6 +299,12 @@
      "ipa": "/ˈpɔl.ski/"
     }
    ],
+   "relations": [
+    {
+     "term": "Polski",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "Polish (of, or from Poland)",
@@ -307,6 +324,7 @@
      ]
     }
    ],
+   "syllabification": "pol‧ski",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -320,6 +338,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "pl-polski.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-polski.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-polski.wav"
+    }
+   ],
    "forms": [
     {
      "form": "polski",
@@ -434,6 +463,12 @@
      "ipa": "/ˈpɔl.ski/"
     }
    ],
+   "relations": [
+    {
+     "term": "Polski",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "Polish (language)",
@@ -444,6 +479,7 @@
      ]
     }
    ],
+   "syllabification": "pol‧ski",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -462,5 +498,10 @@
    "text": "Inherited from Old Polish polski. By surface analysis, pole + -ski."
   }
  ],
+ "frequency": {
+  "count": 458,
+  "rank": 100,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "polski"
 }

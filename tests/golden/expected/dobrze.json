@@ -2,6 +2,17 @@
  "entries": [
   {
    "adjective": {},
+   "audio": [
+    {
+     "file": "Pl-dobrze.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-dobrze.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-dobrze.wav"
+    }
+   ],
    "forms": [
     {
      "form": "lepiej",
@@ -24,24 +35,9 @@
     {
      "ipa": "[ˈdɔ.bʐɛ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
+      "Central Greater Poland",
+      "Przemyśl",
+      "Podhale",
       "Zagórze"
      ]
     }
@@ -160,6 +156,7 @@
      ]
     }
    ],
+   "syllabification": "do‧brze",
    "tables": [
     {
      "kind": "KIND_COMPARISON",
@@ -168,6 +165,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-dobrze.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-dobrze.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-dobrze.wav"
+    }
+   ],
    "pos": "POS_PARTICLE",
    "pronunciations": [
     {
@@ -176,24 +184,9 @@
     {
      "ipa": "[ˈdɔ.bʐɛ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
+      "Central Greater Poland",
+      "Przemyśl",
+      "Podhale",
       "Zagórze"
      ]
     }
@@ -283,9 +276,21 @@
       "Podhale"
      ]
     }
-   ]
+   ],
+   "syllabification": "do‧brze"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-dobrze.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-dobrze.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-dobrze.wav"
+    }
+   ],
    "pos": "POS_NUMERAL",
    "pronunciations": [
     {
@@ -294,24 +299,9 @@
     {
      "ipa": "[ˈdɔ.bʐɛ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
+      "Central Greater Poland",
+      "Przemyśl",
+      "Podhale",
       "Zagórze"
      ]
     }
@@ -327,9 +317,21 @@
       "Zagórze"
      ]
     }
-   ]
+   ],
+   "syllabification": "do‧brze"
   },
   {
+   "audio": [
+    {
+     "file": "Pl-dobrze.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-dobrze.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-dobrze.wav"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_NOUN",
    "pronunciations": [
@@ -339,24 +341,9 @@
     {
      "ipa": "[ˈdɔ.bʐɛ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈdɔ.bʐɛ]",
-     "labels": [
+      "Central Greater Poland",
+      "Przemyśl",
+      "Podhale",
       "Zagórze"
      ]
     }
@@ -375,7 +362,8 @@
      },
      "gloss": "locative singular of dobro"
     }
-   ]
+   ],
+   "syllabification": "do‧brze"
   }
  ],
  "etymologies": [
@@ -386,5 +374,10 @@
    "text": "See the etymology of the corresponding lemma form."
   }
  ],
+ "frequency": {
+  "count": 392,
+  "rank": 124,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "dobrze"
 }

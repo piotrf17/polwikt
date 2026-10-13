@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-mamy.wav"
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -22,9 +27,15 @@
      },
      "gloss": "first-person plural present of mieć"
     }
-   ]
+   ],
+   "syllabification": "ma‧my"
   },
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-mamy.wav"
+    }
+   ],
    "pos": "POS_NOUN",
    "pronunciations": [
     {
@@ -57,7 +68,8 @@
      },
      "gloss": "inflection of mama: genitive singular; nominative/accusative/vocative plural"
     }
-   ]
+   ],
+   "syllabification": "ma‧my"
   }
  ],
  "etymologies": [

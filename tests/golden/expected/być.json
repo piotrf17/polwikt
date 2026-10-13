@@ -1,6 +1,26 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-być.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-być.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-być.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Jest Spoczko-być.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-być.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Matlin-być.wav"
+    }
+   ],
    "forms": [
     {
      "form": "być",
@@ -624,12 +644,7 @@
     {
      "ipa": "[ˈbɘt͡ɕ]",
      "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈbɘt͡ɕ]",
-     "labels": [
+      "Przemyśl",
       "Zagórze"
      ]
     }
@@ -829,6 +844,7 @@
      ]
     }
    ],
+   "syllabification": "być",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -846,5 +862,10 @@
    "text": "Inherited from Old Polish być."
   }
  ],
+ "frequency": {
+  "count": 9621,
+  "rank": 3,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "być"
 }

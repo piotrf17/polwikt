@@ -288,13 +288,16 @@ message Relation {
 
 message Pronunciation {
   string ipa = 1;
-  // Empty for the standard pronunciation; dialect names otherwise (R6.5).
+  // Empty for the standard pronunciation; otherwise the dialects it is recorded for
+  // ("Kuyavia", "Podhale": identical transcriptions share one Pronunciation) or its
+  // qualifier ("colloquial") (R6.5).
   repeated string labels = 2;
 }
 
 message Audio {
   string file = 1;   // Wikimedia Commons file name; the URL is derivable from it
   string label = 2;  // what is spoken, when not the bare lemma: "mieć się"
+  repeated string labels = 3;  // qualifiers of the recording: "colloquial", "isolated"
 }
 
 message NounInfo {

@@ -1,0 +1,237 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-od.ogg",
+     "labels": [
+      "isolated"
+     ]
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-od.wav"
+    }
+   ],
+   "pos": "POS_PREPOSITION",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɔt/"
+    },
+    {
+     "ipa": "[ˈɔt]",
+     "labels": [
+      "Kielce"
+     ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "od-",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "ot",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "-ot",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jesteśmy dość daleko od domu.",
+       "translation": "We're pretty far from home."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Odsuń się od niej!",
+       "translation": "Get away from her!"
+      }
+     ],
+     "gloss": "indicates separation, distance, loss of contact; from, away",
+     "keywords": [
+      {
+       "text": "from"
+      },
+      {
+       "text": "away"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Dostałem dziś list od siostry.",
+       "translation": "I got a letter from my sister today."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Odchodzę od tego budynku.",
+       "translation": "I am walking away from that building."
+      }
+     ],
+     "gloss": "indicates origin of movement; from, away",
+     "keywords": [
+      {
+       "text": "from"
+      },
+      {
+       "text": "away"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Pracuję codziennie od siódmej do piętnastej.",
+       "translation": "I work from 7 AM till 3 PM every day."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Od jutra będę mieszkał we własnym mieszkaniu.",
+       "translation": "Starting tomorrow I'll be living in my own flat."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Odlicz od dziesięciu w dół.",
+       "translation": "Count backwards from ten."
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Czekam na ciebie od osiemnastej.",
+       "translation": "I have been waiting for you since 6 PM."
+      }
+     ],
+     "gloss": "indicates moment of origin in time; from, since, for",
+     "keywords": [
+      {
+       "text": "from"
+      },
+      {
+       "text": "since"
+      },
+      {
+       "text": "for"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jestem mokry od deszczu",
+       "translation": "I'm wet from the rain."
+      }
+     ],
+     "gloss": "indicates source or cause; from, because of",
+     "keywords": [
+      {
+       "text": "from"
+      },
+      {
+       "text": "because of"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "literal": "Can you see through the hole for the key?",
+       "text": "Czy widzisz przez dziurkę od klucza?",
+       "translation": "Can you see through the keyhole?"
+      },
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Zamknąłeś okno od samochodu?",
+       "translation": "Did you shut the car window?"
+      }
+     ],
+     "gloss": "indicates intended use or purpose; for",
+     "keywords": [
+      {
+       "text": "for"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "nauczyciel od biologii",
+       "translation": "biology teacher"
+      }
+     ],
+     "gloss": "indicates specialization"
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Janusz jest wyższy od Piotra.",
+       "translation": "Janusz is taller than Piotr."
+      }
+     ],
+     "gloss": "used in comparisons; than",
+     "keywords": [
+      {
+       "text": "than"
+      }
+     ],
+     "relations": [
+      {
+       "term": "aniżeli",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "aniżeliby",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niż",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niżby",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niźli",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niźliby",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niżeli",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "niżeliby",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ],
+   "syllabification": "od"
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish od."
+  }
+ ],
+ "frequency": {
+  "count": 1780,
+  "rank": 23,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
+ "lemma": "od"
+}

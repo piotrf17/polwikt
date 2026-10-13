@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-który.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-który.wav"
+    }
+   ],
    "forms": [
     {
      "form": "który",
@@ -290,6 +298,7 @@
      ]
     }
    ],
+   "syllabification": "któ‧ry",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -303,5 +312,10 @@
    "text": "Inherited from Old Polish który."
   }
  ],
+ "frequency": {
+  "count": 2997,
+  "rank": 16,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "który"
 }

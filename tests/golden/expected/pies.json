@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-pies.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pies.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-pies.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pies",
@@ -117,84 +128,19 @@
     {
      "ipa": "[ˈpjɛs]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łęczyca"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Sieradz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
+      "Kuyavia",
+      "Near Masovian",
+      "Łowicz",
+      "Łęczyca",
+      "Sieradz",
+      "Kielce",
+      "Western Kraków",
+      "Eastern Kraków",
+      "Lasovia",
+      "Podegrodzie",
+      "Western Lublin",
+      "Przemyśl",
+      "Podhale",
       "Babia Góra"
      ]
     }
@@ -252,6 +198,7 @@
      ]
     }
    ],
+   "syllabification": "pies",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -268,6 +215,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-pies.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pies.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-pies.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pies",
@@ -395,84 +353,19 @@
     {
      "ipa": "[ˈpjɛs]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łęczyca"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Sieradz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
+      "Kuyavia",
+      "Near Masovian",
+      "Łowicz",
+      "Łęczyca",
+      "Sieradz",
+      "Kielce",
+      "Western Kraków",
+      "Eastern Kraków",
+      "Lasovia",
+      "Podegrodzie",
+      "Western Lublin",
+      "Przemyśl",
+      "Podhale",
       "Babia Góra"
      ]
     }
@@ -527,6 +420,7 @@
      ]
     }
    ],
+   "syllabification": "pies",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -543,6 +437,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-pies.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pies.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-pies.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pies",
@@ -659,84 +564,19 @@
     {
      "ipa": "[ˈpjɛs]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Łęczyca"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Sieradz"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podegrodzie"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Western Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈpjɛs]",
-     "labels": [
+      "Kuyavia",
+      "Near Masovian",
+      "Łowicz",
+      "Łęczyca",
+      "Sieradz",
+      "Kielce",
+      "Western Kraków",
+      "Eastern Kraków",
+      "Lasovia",
+      "Podegrodzie",
+      "Western Lublin",
+      "Przemyśl",
+      "Podhale",
       "Babia Góra"
      ]
     }
@@ -879,6 +719,7 @@
      ]
     }
    ],
+   "syllabification": "pies",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

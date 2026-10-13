@@ -1,0 +1,57 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-Bergamo-first-syllable.ogg"
+    },
+    {
+     "file": "Pl-Bergamo-second-syllable.ogg",
+     "labels": [
+      "colloquial"
+     ]
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-Bergamo.wav"
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_NEUTER"
+     }
+    ],
+    "indeclinable": true
+   },
+   "pos": "POS_PROPER_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛr.ɡa.mɔ/"
+    },
+    {
+     "ipa": "/bɛrˈɡa.mɔ/",
+     "labels": [
+      "colloquial"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "Bergamo (a province of Lombardy, Italy) Bergamo (a city and comune, the capital of the province of Bergamo, Lombardy, Italy)",
+     "keywords": [
+      {
+       "text": "Bergamo"
+      }
+     ]
+    }
+   ],
+   "syllabification": "Ber‧ga‧mo"
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Borrowed from Italian Bergamo, from Latin Bergomum."
+  }
+ ],
+ "lemma": "Bergamo"
+}

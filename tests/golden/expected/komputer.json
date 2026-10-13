@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-komputer.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "komputer",
@@ -164,6 +169,7 @@
      ]
     }
    ],
+   "syllabification": "kom‧pu‧ter",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

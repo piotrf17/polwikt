@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-ani.ogg"
+    }
+   ],
    "pos": "POS_CONJUNCTION",
    "pronunciations": [
     {
@@ -9,44 +14,20 @@
     {
      "ipa": "[ˈa.ɲi]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Warmia"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Masuria"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Kurpie"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈa.ɲi]",
-     "labels": [
+      "Central Greater Poland",
+      "Ostróda",
+      "Warmia",
+      "Masuria",
+      "Kurpie",
+      "Western Kraków",
       "Podhale"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Ani",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -171,7 +152,8 @@
       "Sopotnia Mała"
      ]
     }
-   ]
+   ],
+   "syllabification": "a‧ni"
   }
  ],
  "etymologies": [
@@ -179,5 +161,10 @@
    "text": "Inherited from Old Polish ani. By surface analysis, univerbation of a + ni."
   }
  ],
+ "frequency": {
+  "count": 333,
+  "rank": 151,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "ani"
 }

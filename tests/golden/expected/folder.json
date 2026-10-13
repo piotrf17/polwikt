@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-folder.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "folder",
@@ -145,6 +150,7 @@
      ]
     }
    ],
+   "syllabification": "fol‧der",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

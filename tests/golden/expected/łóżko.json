@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-łóżko.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-łóżko.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-łóżko.wav"
+    }
+   ],
    "forms": [
     {
      "form": "łóżko",
@@ -189,6 +200,7 @@
      ]
     }
    ],
+   "syllabification": "łóż‧ko",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

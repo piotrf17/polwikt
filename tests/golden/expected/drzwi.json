@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-drzwi.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-drzwi.wav"
+    }
+   ],
    "forms": [
     {
      "form": "drzwi",
@@ -66,7 +74,10 @@
      "ipa": "/ˈdʐvi/"
     },
     {
-     "ipa": "/ˈd͡ʐvi/"
+     "ipa": "/ˈd͡ʐvi/",
+     "labels": [
+      "colloquial"
+     ]
     },
     {
      "ipa": "[ˈdʐvi]",
@@ -102,6 +113,7 @@
      ]
     }
    ],
+   "syllabification": "drzwi",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -118,5 +130,10 @@
    "text": "Inherited from Old Polish drzwi."
   }
  ],
+ "frequency": {
+  "count": 132,
+  "rank": 455,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "drzwi"
 }

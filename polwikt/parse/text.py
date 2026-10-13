@@ -18,7 +18,12 @@ _BOLD_ITALIC = re.compile(r"'{2,}")
 _SPACE = re.compile(r"[ \t\u00a0]+")
 _DIV = re.compile(r"(?i)<(/?)div\b[^>]*>")
 # Collapsible boxes are navigation, never prose: {{etymon|tree=1}}'s "Etymology tree".
-_BOX = re.compile(r'(?i)<div\b[^>]*class="[^"]*\b(?:NavFrame|etytree)\b[^"]*"[^>]*>')
+# Request boxes are maintenance: "This section or entry lacks references…" ({{rfref}},
+# or {{ety|…|rfe=…}} from inside a module call, where no template policy reaches).
+_BOX = re.compile(
+    r'(?i)<div\b[^>]*class="[^"]*\b(?:NavFrame|etytree|request-box)\b[^"]*"[^>]*>'
+)
+_MAINTENANCE_LINE = re.compile(r'(?is)<span class="maintenance-line">.*?</span>')
 _LIST_MARK = re.compile(r"^[#*:;]+\s*")
 # Bidi marks and zero-width characters, e.g. the LRM {{surf}} puts after "+".
 _INVISIBLE = re.compile(r"[\u200b-\u200f\u2060\ufeff]")
@@ -26,7 +31,8 @@ _INVISIBLE = re.compile(r"[\u200b-\u200f\u2060\ufeff]")
 
 def plain_text(wikitext: str) -> str:
     """Display text of expanded wikitext: links become labels, markup and tags go."""
-    text = _drop_boxes(_REF.sub("", wikitext))
+    text = drop_boxes(_REF.sub("", wikitext))
+    text = _MAINTENANCE_LINE.sub("", text)
     text = _COMMENT.sub("", text)
     text = _CATEGORY.sub("", text)
     text = _FILE.sub("", text)
@@ -60,8 +66,8 @@ def _link_label(m: re.Match[str]) -> str:
     return target.split(":", 1)[1] if re.match(r"^[a-z]{1,3}:", target) else target
 
 
-def _drop_boxes(text: str) -> str:
-    """Removes each collapsible box with everything nested inside it."""
+def drop_boxes(text: str) -> str:
+    """Removes each collapsible or request box with everything nested inside it."""
     while (start := _BOX.search(text)) is not None:
         depth, end = 0, len(text)
         for tag in _DIV.finditer(text, start.start()):

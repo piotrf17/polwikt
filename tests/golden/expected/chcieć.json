@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-chcieć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-chcieć.wav"
+    }
+   ],
    "forms": [
     {
      "form": "chcieć",
@@ -913,42 +921,12 @@
     {
      "ipa": "[ˈxt͡ɕɛt͡ɕ]",
      "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈxt͡ɕɛt͡ɕ]",
-     "labels": [
+      "Ostróda",
+      "Near Masovian",
+      "Far Masovian",
+      "Western Kraków",
+      "Eastern Kraków",
+      "Lasovia",
       "Podhale"
      ]
     }
@@ -1172,6 +1150,7 @@
      ]
     }
    ],
+   "syllabification": "chcieć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1189,5 +1168,10 @@
    "text": "Inherited from Old Polish chcieć."
   }
  ],
+ "frequency": {
+  "count": 839,
+  "rank": 52,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "chcieć"
 }

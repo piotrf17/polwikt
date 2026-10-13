@@ -2,6 +2,14 @@
  "entries": [
   {
    "adjective": {},
+   "audio": [
+    {
+     "file": "Pl-młody.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-młody.wav"
+    }
+   ],
    "forms": [
     {
      "form": "młodszy",
@@ -424,6 +432,7 @@
      ]
     }
    ],
+   "syllabification": "mło‧dy",
    "tables": [
     {
      "kind": "KIND_COMPARISON",
@@ -444,6 +453,14 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-młody.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-młody.wav"
+    }
+   ],
    "forms": [
     {
      "form": "młody",
@@ -649,6 +666,7 @@
      ]
     }
    ],
+   "syllabification": "mło‧dy",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -670,5 +688,10 @@
    "text": "Inherited from Old Polish młody."
   }
  ],
+ "frequency": {
+  "count": 206,
+  "rank": 268,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "młody"
 }

@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-się.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-się.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-się.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-się.wav"
+    }
+   ],
    "forms": [
     {
      "form": "się",
@@ -48,10 +62,16 @@
    "pos": "POS_PRONOUN",
    "pronunciations": [
     {
-     "ipa": "/ɕɛ/"
+     "ipa": "/ɕɛ/",
+     "labels": [
+      "normal speech"
+     ]
     },
     {
-     "ipa": "/ɕɛw̃/"
+     "ipa": "/ɕɛw̃/",
+     "labels": [
+      "careful speech"
+     ]
     }
    ],
    "senses": [
@@ -93,6 +113,7 @@
      ]
     }
    ],
+   "syllabification": "się",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -101,13 +122,33 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-się.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-się.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-się.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-się.wav"
+    }
+   ],
    "pos": "POS_PARTICLE",
    "pronunciations": [
     {
-     "ipa": "/ɕɛ/"
+     "ipa": "/ɕɛ/",
+     "labels": [
+      "normal speech"
+     ]
     },
     {
-     "ipa": "/ɕɛw̃/"
+     "ipa": "/ɕɛw̃/",
+     "labels": [
+      "careful speech"
+     ]
     }
    ],
    "senses": [
@@ -126,7 +167,8 @@
      ],
      "gloss": "used to form impersonal present or future tense"
     }
-   ]
+   ],
+   "syllabification": "się"
   }
  ],
  "etymologies": [
@@ -134,5 +176,10 @@
    "text": "Inherited from Old Polish się."
   }
  ],
+ "frequency": {
+  "count": 9302,
+  "rank": 4,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "się"
 }

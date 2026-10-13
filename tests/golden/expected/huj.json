@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-huj.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "huj",
@@ -122,6 +127,16 @@
      "ipa": "/ˈxuj/"
     }
    ],
+   "relations": [
+    {
+     "term": "chuj",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "Chuj",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "form_of": {
@@ -137,6 +152,7 @@
      ]
     }
    ],
+   "syllabification": "huj",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -149,6 +165,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-huj.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "huj",
@@ -263,6 +284,16 @@
      "ipa": "/ˈxuj/"
     }
    ],
+   "relations": [
+    {
+     "term": "chuj",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "Chuj",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "form_of": {
@@ -279,6 +310,7 @@
      ]
     }
    ],
+   "syllabification": "huj",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

@@ -1,0 +1,159 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Poemat-grapefruit.wav"
+    }
+   ],
+   "forms": [
+    {
+     "form": "grapefruit",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruity",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruita",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruitów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruitowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruitom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruit",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruity",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruitem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruitami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruicie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruitach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "grapefruicie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "grapefruity",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈɡrɛjp.frut/"
+    },
+    {
+     "ipa": "/ˈɡrɛj.frut/",
+     "labels": [
+      "colloquial"
+     ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "grejpfrut",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "grejpfrut",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "alternative form of grejpfrut (“grapefruit”) (tree; fruit)"
+    }
+   ],
+   "syllabification": "grape‧fruit",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of grapefruit"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Unadapted borrowing from English grapefruit."
+  }
+ ],
+ "lemma": "grapefruit"
+}

@@ -1,6 +1,15 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-robić.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-robić się.wav",
+     "label": "robić się"
+    }
+   ],
    "forms": [
     {
      "form": "robić",
@@ -913,54 +922,14 @@
     {
      "ipa": "[ˈrɔ.bit͡ɕ]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
+      "Kuyavia",
+      "Central Greater Poland",
+      "Ostróda",
+      "Near Masovian",
+      "Kielce",
+      "Western Kraków",
+      "Eastern Lublin",
+      "Żywiec",
       "Podhale"
      ]
     }
@@ -1334,6 +1303,7 @@
      ]
     }
    ],
+   "syllabification": "ro‧bić",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1345,6 +1315,15 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-robić.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-robić się.wav",
+     "label": "robić się"
+    }
+   ],
    "forms": [
     {
      "form": "robić",
@@ -2257,54 +2236,14 @@
     {
      "ipa": "[ˈrɔ.bit͡ɕ]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Ostróda"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Kielce"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
-      "Żywiec"
-     ]
-    },
-    {
-     "ipa": "[ˈrɔ.bit͡ɕ]",
-     "labels": [
+      "Kuyavia",
+      "Central Greater Poland",
+      "Ostróda",
+      "Near Masovian",
+      "Kielce",
+      "Western Kraków",
+      "Eastern Lublin",
+      "Żywiec",
       "Podhale"
      ]
     }
@@ -2395,6 +2334,7 @@
      ]
     }
    ],
+   "syllabification": "ro‧bić",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -2411,5 +2351,10 @@
    "text": "Inherited from Old Polish robić."
   }
  ],
+ "frequency": {
+  "count": 265,
+  "rank": 196,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "robić"
 }

@@ -1,0 +1,119 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:af|z-<id:verbal>|naleźć<ety:af<na-><leźć<ety:inh<sla-pro:*lězti>>>>|etydate=fifteenth century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|pf}}
+
+# to [[find]] {{gl|to reach while looking for someone}}
+#* {{RQ:zlw-opl:Rozm|145|'''Znalaschy''' myle dzyczye Iesucrista y vroczyly szye do Nazaret|'''Znalazszy''' miłe dzicie Jesukrysta i wrocili sie do Nazaret|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland|Sieradz}} to [[claim]] a certain [[state]] or [[property]]
+#* {{RQ:zlw-opl:MW|92b|Nye yesth '''znalezyona''' myedzi nyewyastamy ządna Anni swyąthey podobna|Nie jest '''znaleziona''' miedzy niewiastami żądna Anny świętej podobna|-}}
+# to [[gain]], to [[acquire]], to [[secure]] for oneself
+#* {{RQ:zlw-opl:Rozm|49|Nye lyekay szye, Marya, '''znalaslass''' myloscz (invenisti... gratiam Luc 1, 30) v boga|Nie lękaj sie, Maryja, '''znalazłaś''' miłość (invenisti... gratiam Luc 1, 30) u Boga|-}}
+
+====Related terms====
+{{zlw-opl-derived verbs|-/leźć}}
+
+====Descendants====
+* {{desc|pl|znaleźć}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:zlw-opl:SPJSP||22029}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:znaleźć|tree=+|text=+}} {{surf|pl|z-|naleźć}}. This word is {{lg|suppletive}} with {{m|pl|znajść}} (< {{cog|zlw-opl|znajć}}), which has a similar meaning and where the future forms with ''znajd-'' come from.<ref>{{R:pl:Boryś}}</ref><ref>{{R:pl:Mańczak}}</ref>
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg<text:#>;LL-Q809 (pol)-Olaf-#.wav<text:#>;LL-Q809 (pol)-Olaf-# się.wav<text:~>|mp=#}}
+
+===Verb===
+{{pl-verb|pf|impf=znajdować}}
+
+# {{lb|pl|transitive}} to [[find]] {{gl|to determine the location of a person or thing}}
+#: {{syn|pl|odnaleźć}}
+#: {{uxa|pl|'''Znalazłem''' mapę skarbu.|I '''found''' the treasure map.}}
+# {{lb|pl|transitive}} to [[find]] {{gl|to acquire or invent something needed}}
+#: {{uxa|pl|'''Znalazłem''' synonim, którego szukałem.|I '''found''' the synonym i was looking for.}}
+# {{lb|pl|transitive}} to [[find]] {{gl|to claim pressence of or see something or someone somewhere; to come across}}
+#: {{syn|pl|spotkać}}
+#: {{uxa|pl|'''Znalazłem''' pieniążek na ulicy.|I '''found''' a coin on the street.}}
+# {{lb|pl|transitive}} to [[find]], to [[come across]], to [[run into]] {{gl|to encounter someone in a particular state}}
+# {{lb|pl|transitive}} to [[find]], to [[work up]] {{gl|to summon up or muster i.e. courage}}
+#: {{syn|pl|[[zdobyć]] [[się]]}}
+#: {{uxa|pl|W końcu '''znajdziesz''' w sobie odwagę, by wyjawić swe uczucia..|At some point you will '''find''' the courage to confess.}}
+# {{lb|pl|transitive|archaic}} to [[find]] {{gl|to assess the state of something}}
+# {{lb|pl|intransitive}} {{ng|used as a [[light verb]] with [[deverbal]] [[noun]]s or [[gerund]]s to indicate the beginning of said verb}}
+# {{lb|pl|reflexive-się}} to [[end up]] somewhere {{gl|to go to a certain place or to a certain group}}
+#: {{uxa|pl|Nagle, '''znalazłem się''' wśród motocyklistów.|Suddenly, I '''found myself''' among motorcyclists.}}
+# {{lb|pl|reflexive-się}} to [[find oneself]] somewhere {{gl|to be in some situation or state}}
+#: {{uxa|pl|'''Znalazłem się''' w nieprzyjemnej sytuacji.|I '''was''' in an unpleasant situation.}}
+# {{lb|pl|reflexive-się}} to be [[find|found]] {{gl|to be acquired or thought up}}
+#: {{syn|pl|[[najść]] [[się]]}}
+# {{lb|pl|reflexive-się}} to be [[find|found]] {{gl|after going missing, to be discovered again}}
+#: {{syn|pl|[[odnaleźć]] [[się]]}}
+#: {{ant|pl|zaginąć|zginąć}}
+#: {{uxa|pl|Poszukiwana dziewczyna '''znalazła się''' po 3 dniach poszukiwań.|The girl we were looking for was '''found''' after 3 days of searching for her.}}
+
+===Verb===
+{{pl-verb|pf}}
+
+# {{lb|pl|reflexive-się|of people}} to [[behave]] [[properly]]
+# {{lb|pl|copulative|reflexive-się|obsolete}} to [[become]] {{+obj|pl|ins<whom/what>}}
+
+====Conjugation====
+{{pl-conj-ap|znaleźć|znajdę|znajdzie|znajdą|znalaz|znalaz|znaleź|znajdź|ip=znaleziono
+|pp=znalezion|pp2=znalezieni|ap=znalazłszy|vn=znalezienie}}
+
+====Derived terms====
+{{col|pl|title=adverb|jak znalazł}}
+{{col|pl|title=nouns|biuro rzeczy znalezionych|znajda|znajdźka|znalazca|znalezisko|znaleźne}}
+{{col|pl|title=proverbs|jak się chce psa uderzyć, to kij się znajdzie|każda potwora znajdzie swojego amatora|lepiej z mądrym zgubić, niż z głupim znaleźć|siedź w kącie, a znajdą cię}}
+{{pl-derived verbs|-/nie móc znaleźć sobie miejsca
+|znaleźć ujście/znajdować ujście
+|znaleźć wyraz/znajdować wyraz
+|nie znaleźć słów/-
+|znaleźć śmierć/znajdować śmierć
+|znaleźć w chipsach/-
+|znaleźć się na indeksie/znajdować się na indeksie
+|znaleźć się między młotem a kowadłem/znajdować się między młotem a kowadłem
+|znaleźć się na celowniku/znajdować się na celowniku
+|znaleźć się na rozdrożu/znajdować się na rozdrożu
+|znaleźć się w kropce/-
+|znaleźć się za burtą/-
+|znaleźć się na tapecie/-
+|znaleźć się na topie/znajdować się na topie
+|znaleźć się pod lupą/znajdować się pod lupą
+|znaleźć się w centrum uwagi/znajdować się w centrum uwagi}}
+
+====Related terms====
+{{pl-derived verbs|-/leźć}}
+
+===Trivia===
+{{pl-freq 1990|33|27|34|44|56|194|287|781|2}}
+
+{{pl-freq 1990|11|16|9|36|12|84|764|782|2|head=znaleźć się}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|36748}}
+* {{R:pl:SXVI|znaleźć się|36749}}
+* {{R:pl:SXVII|ZNALEŹĆ|11182|date=02.12.2008}}
+* {{R:pl:SXVII|ZNALEŹĆ%20SIĘ|14643|SPas|21.09.2009}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||579|8}}
+
+{{cln|pl|suppletive verbs}}

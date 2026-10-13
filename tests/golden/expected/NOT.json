@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-NOT.wav"
+    }
+   ],
    "forms": [
     {
      "form": "NOT",
@@ -79,6 +84,7 @@
      "gloss": "acronym of w:pl:Naczelna Organizacja Techniczna: Polish Federation of Engineering Associations"
     }
    ],
+   "syllabification": "NOT",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

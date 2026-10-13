@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-oj.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-oj.wav"
+    }
+   ],
    "pos": "POS_INTERJECTION",
    "pronunciations": [
     {
@@ -30,7 +38,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "oj"
   }
  ],
  "etymologies": [

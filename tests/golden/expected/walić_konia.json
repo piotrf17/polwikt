@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Tashi-walić konia.wav"
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -44,6 +49,7 @@
      ]
     }
    ],
+   "syllabification": "wa‧lić ko‧nia",
    "topics": [
     "Masturbation"
    ],

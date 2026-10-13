@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-nożyczki.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-nożyczki.wav"
+    }
+   ],
    "forms": [
     {
      "form": "nożyczki",
@@ -82,6 +90,7 @@
      ]
     }
    ],
+   "syllabification": "no‧życz‧ki",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

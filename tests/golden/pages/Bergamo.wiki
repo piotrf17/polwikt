@@ -1,0 +1,104 @@
+{{also|Bérgamo}}
+==English==
+{{wp}}
+[[File:Bergamo, Lombardy, Italy - old town, citta alta, centre.jpg|thumb|200px|Bergamo]]
+
+===Etymology===
+{{ety|en|:bor|it:Bergamo|text=+|tree=1}}
+
+===Pronunciation===
+* {{IPA|en|/ˈbɜːɡəˌməʊ/|a=UK}}
+* {{IPA|en|/ˈbɝɡəˌmoʊ/|a=US}}
+
+===Proper noun===
+{{en-proper noun|~|s}}
+
+# {{lb|en|uncountable}} A [[placename]]:
+## {{sid|en|Q16137}}{{place|en|province|r/Lombardy|c/Italy}}.
+## {{sid|en|Q628}}{{place|en|city/and/comune/capital|p:pref/Bergamo|r/Lombardy|c/Italy}}.
+# {{lb|en|countable}} {{surname|en|[[habitational]]|from=Italian}}.
+
+====Translations====
+{{trans-top|province of Italy}}
+* Bulgarian: {{t|bg|Бѐргамо}}
+* Catalan: {{t|ca|Bèrgam}}
+* French: {{t+|fr|Bergame}}
+* Greek: {{t+|el|Μπέργκαμο|n}}
+* Italian: {{t+|it|Bergamo|f}}
+* Lombard: {{t|lmo|Bèrghem}}
+* Marathi: {{t|mr|बेर्गामो}}
+* Polish: {{t+|pl|Bergamo|n}}
+* Russian: {{t|ru|Берга́мо|f}}
+{{trans-bottom}}
+
+{{trans-top|city and capital of Bergamo}}
+* Bulgarian: {{t|bg|Бѐргамо}}
+* Catalan: {{t|ca|Bèrgam}}
+* French: {{t+|fr|Bergame}}
+* Italian: {{t+|it|Bergamo|f}}
+* Latin: {{t|la|Bergomum}}
+* Lombard: {{t|lmo|Bèrghem}}
+* Marathi: {{t|mr|बेर्गामो}}
+* Occitan: {{t|oc|Bergam}}
+* Polish: {{t+|pl|Bergamo|n}}
+* Portuguese: {{t|pt|Bérgamo}}
+* Romanian: {{t+|ro|Bergamo}}
+* Russian: {{t|ru|Берга́мо|m}}
+* Sicilian: {{t|scn|Bèrgamu}}
+* Spanish: {{t+|es|Bérgamo}}
+{{trans-bottom}}
+
+====Statistics====
+* According to the 2010 United States Census, ''Bergamo'' is the 41303<sup>rd</sup> most common surname in the United States, belonging to 527 individuals. ''Bergamo'' is most common among White (92.22%) individuals.
+
+===Further reading===
+* {{R:en:DAFN}}
+
+===Anagrams===
+* {{anagrams|en|a=abegmor|embargo}}
+
+==Italian==
+{{wp|it:}}
+[[File:Bergamo, Lombardy, Italy - old town, citta alta, centre.jpg|thumb|200px|Bergamo]]
+
+===Etymology===
+From {{der|it|la|Bergomum}}.
+
+===Pronunciation===
+{{it-pr|Bèrgamo<audio:It-Bergamo.ogg>}}
+
+===Proper noun===
+{{it-proper noun|f|dem=bergamasco}}
+
+# {{tcl|it|Bergamo|id=Q16137,Q628}}
+
+===Proper noun===
+{{it-proper noun|mfbysense}}
+
+# {{surname|it|from=place names}}
+
+===Further reading===
+* {{R:it:MdC|bergamo}}
+
+===Anagrams===
+* {{anagrams|it|a=abegmor|embargo|gambero}}
+
+{{cln|it|terms with unexpected vowel outcomes}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Bergamo, Lombardy, Italy - old town, citta alta, centre.jpg|thumb|200px|Bergamo]]
+
+===Etymology===
+{{ety|pl|:bor|it:Bergamo<ety:uder<la:Bergomum>>|text=2|tree=1}}
+
+===Pronunciation===
+{{pl-pr|'Ber.ga.mo,Ber'ga.mo<a:colloquial>|a=Pl-Bergamo-first-syllable.ogg;Pl-Bergamo-second-syllable.ogg<a:colloquial>;LL-Q809 (pol)-Poemat-Bergamo.wav}}
+
+===Proper noun===
+{{pl-proper noun|n|indecl=yes}}
+
+# {{tcl|pl|Bergamo|id=Q16137,Q628}}
+
+===Further reading===
+* {{R:pl:PWN}}

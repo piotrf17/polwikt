@@ -3,8 +3,8 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0–M8 ✅ (M0/M1 restarted from scratch 2026-10-11; M8 done 2026-10-12)
-— next is M9. No full run since M6: M7/M8 are measured on samples only.
+**Progress:** M0–M9 ✅ (M0/M1 restarted from scratch 2026-10-11; M9 done 2026-10-13)
+— next is M10. No full run since M6: M7–M9 are measured on samples only.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
 pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
 history (`6fced42`); its lessons are folded into the M1 notes below, not its code.
@@ -311,8 +311,20 @@ reflexive verb all match expectations, every paradigm slot tagged.
 
 ---
 
-## M9 — Pronunciation and etymology
-*Needs M4, M5. ~1 week.*
+## M9 — Pronunciation and etymology ✅
+*Needs M4, M5. ~1 week.* *Done 2026-10-13.* The Pronunciation section is read from its
+expansion (every line kind by a marker in `data/pronunciation.toml`, unknown lines
+counted and logged): per-transcription qualifiers (fixing M5, which lost
+`grapefruit`'s "colloquial"), identical dialect transcriptions merged into one
+labelled `Pronunciation`, audio with spoken text and qualifiers (schema, additive:
+`Audio.labels`), syllabification, homophones as Relations; `{{pl-freq 1990}}` →
+`Word.frequency`, best rank among the calls for this word (R6.13). Request boxes are
+dropped from etymology text and pronunciation lines. The dialect-map-in-config item
+didn't apply: the dialect transcriptions exist only in the module's output, so its
+own map is used. Nine fixtures added (100 pages); `tests/test_pronunciation.py`.
+Measured on the first 3,000 pages: 0 errors, 14.0 pages/s; of 3,810 entries 3,789
+have IPA, 2,837 audio, 3,569 syllabification; 363 dialect rows merged; 110 words with
+a frequency; 1 unknown line kind (an `{{rfap}}` box, now skipped).
 
 - `{{pl-pr}}` parameters: IPA, `a=` audio with `<text:…>` labels, `hh=` homophones (as
   relations), **syllabification**, and per-dialect variants as separate

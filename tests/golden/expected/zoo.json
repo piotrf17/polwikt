@@ -1,0 +1,78 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-zoo.wav"
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_NEUTER"
+     }
+    ],
+    "indeclinable": true
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈzɔ.ɔ/"
+    },
+    {
+     "ipa": "/ˈzɔ/",
+     "labels": [
+      "colloquial"
+     ]
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "nature preserve, zoo, zoological garden, zoological park",
+     "keywords": [
+      {
+       "text": "nature preserve"
+      },
+      {
+       "text": "zoo"
+      },
+      {
+       "text": "zoological garden"
+      },
+      {
+       "text": "zoological park"
+      }
+     ],
+     "relations": [
+      {
+       "term": "ogród zoologiczny",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zoolog",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zwierzyniec",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "zoology"
+     ]
+    }
+   ],
+   "syllabification": "zo‧o, zoo",
+   "topics": [
+    "Buildings",
+    "Places"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Unadapted borrowing from English zoo."
+  }
+ ],
+ "lemma": "zoo"
+}

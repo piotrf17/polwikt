@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "pl-oko.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "oko",
@@ -292,6 +297,7 @@
      ]
     }
    ],
+   "syllabification": "o‧ko",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -307,6 +313,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "pl-oko.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "oko",
@@ -569,6 +580,7 @@
      ]
     }
    ],
+   "syllabification": "o‧ko",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -589,5 +601,10 @@
    "text": "Inherited from Old Polish oko."
   }
  ],
+ "frequency": {
+  "count": 295,
+  "rank": 171,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "oko"
 }

@@ -1,6 +1,15 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-bać się.ogg",
+     "label": "bać się"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-bać.wav"
+    }
+   ],
    "forms": [
     {
      "form": "bać",
@@ -873,42 +882,12 @@
     {
      "ipa": "[ˈbat͡ɕ]",
      "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
-      "Podlachia"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
-      "Suwałki"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
-      "Western Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈbat͡ɕ]",
-     "labels": [
+      "Central Greater Poland",
+      "Podlachia",
+      "Suwałki",
+      "Western Lublin",
+      "Eastern Lublin",
+      "Podhale",
       "Northern Borderlands"
      ]
     }
@@ -920,6 +899,10 @@
      ],
      "term": "bojać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "Bać",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1111,6 +1094,7 @@
      ]
     }
    ],
+   "syllabification": "bać",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1130,5 +1114,10 @@
    "text": "Inherited from Old Polish bać."
   }
  ],
+ "frequency": {
+  "count": 122,
+  "rank": 491,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "bać"
 }

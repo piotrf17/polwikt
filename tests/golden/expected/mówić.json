@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-mówić.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mówić.wav"
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -9,60 +17,22 @@
     {
      "ipa": "[ˈmo.vit͡ɕ]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Far Masovian"
+      "Kuyavia",
+      "Central Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Eastern Kraków",
+      "pre-21st c."
      ]
     },
     {
      "ipa": "[ˈmu.vit͡ɕ]",
      "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
+      "Southern Greater Poland",
+      "Łowicz",
+      "Western Kraków",
+      "Eastern Kraków",
+      "21st c.",
       "Southern Borderlands"
      ]
     }
@@ -267,6 +237,7 @@
      ]
     }
    ],
+   "syllabification": "mó‧wić",
    "topics": [
     "Talking",
     "Thinking",
@@ -277,6 +248,14 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-mówić.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mówić.wav"
+    }
+   ],
    "forms": [
     {
      "form": "mówić",
@@ -1189,60 +1168,22 @@
     {
      "ipa": "[ˈmo.vit͡ɕ]",
      "labels": [
-      "Kuyavia"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Central Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Southern Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Far Masovian"
+      "Kuyavia",
+      "Central Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Eastern Kraków",
+      "pre-21st c."
      ]
     },
     {
      "ipa": "[ˈmu.vit͡ɕ]",
      "labels": [
-      "Łowicz"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmo.vit͡ɕ]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈmu.vit͡ɕ]",
-     "labels": [
+      "Southern Greater Poland",
+      "Łowicz",
+      "Western Kraków",
+      "Eastern Kraków",
+      "21st c.",
       "Southern Borderlands"
      ]
     }
@@ -1432,6 +1373,7 @@
      ]
     }
    ],
+   "syllabification": "mó‧wić",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1453,5 +1395,10 @@
    "text": "Inherited from Old Polish mówić. By surface analysis, mowa + -ić."
   }
  ],
+ "frequency": {
+  "count": 897,
+  "rank": 45,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "mówić"
 }

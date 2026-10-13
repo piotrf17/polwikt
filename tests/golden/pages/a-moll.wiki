@@ -1,0 +1,90 @@
+{{also|a-Moll}}
+==Hungarian==
+
+===Etymology===
+From {{af|hu|a|moll|t2=minor|pos=noun}}.
+
+===Pronunciation===
+* {{hu-IPA|ámoll}}
+* {{rhymes|hu|olː|s=2}}
+* {{hyphenation|hu|a-moll}}
+
+===Noun===
+{{hu-noun|head=[[a]]-[[moll]]}}
+
+# {{lb|hu|music}} [[A minor]]
+
+====Declension====
+{{hu-infl-nom|a-mollo|o|-}}{{hu-pos-otok|a-moll|j|jai}}
+
+====Derived terms====
+{{col|hu
+|a-mollos
+}}
+
+==Norwegian Bokmål==
+{{wp|nb:}}
+[[Image:C-major a-minor.svg|250px|thumb|A-minor.]]
+
+===Etymology===
+{{root|nb|ine-pro|*(s)mel-}}
+{{prefix|nb|a|moll}}, first part is the first letter of the Norwegian alphabet. Last part from {{bor|nb|de|Moll||minor}}, from {{der|nb|la-med|molle}}, of {{der|nb|la|mollis||soft}}, from earlier {{m|la||*molduis}}, from {{der|nb|itc-pro|*moldus}}, from {{der|nb|ine-pro|*ml̥dus||soft, weak}}, from {{der|nb|ine-pro|*mel-||soft, weak, tender}}.
+
+===Pronunciation===
+* {{IPA|nb|/ɑː.mɔl/}}
+* {{audio|nb|nb-a-moll.ogg}}
+* {{rhymes|nb|ɔl}}
+* {{hyph|nb|a-|moll}}
+
+===Noun===
+{{nb-noun-m1}}
+
+# {{lb|nb|music}} [[A minor]] {{q|the minor key with A as its tonic, consisting of the pitches A, B, C, D, E, F, and G}}
+#* {{quote-book|nb|year=1957|author=w:Axel Jensen|title=Ikaros|page=84|passage=nordmenn utenfor Norges grenser får tårer i øynene når de hører a-moll av Grieg|t=Norwegians outside Norway's borders get tears in their eyes when they hear A minor by Grieg}}
+
+===References===
+* {{R:nb:OB}}
+* {{R:nb:NAOB}}
+* “[http://www.snl.no/a-moll a-moll]” in ''Store norske leksikon''
+
+==Norwegian Nynorsk==
+
+===Noun===
+{{head|nn|noun|g=m|head=[[a]]-[[moll]]}}
+
+# {{lb|nn|music}} [[A minor]]
+
+===References===
+* {{R:nn:OB}}
+
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{ety|pl|etydate=|tree=1|text=*|:af|a|moll}}
+
+===Pronunciation===
+* {{IPA|pl|/ˈa‿mɔl/}}
+
+===Noun===
+{{pl-noun|n|indecl=1}}
+
+# {{senseid|pl|Q277855}} {{lb|pl|music}} [[A minor]]
+#: {{hyper|pl|gama}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:PWN}}
+
+==Swedish==
+
+===Alternative forms===
+* {{alt|sv|a moll}}
+
+===Noun===
+{{head|sv|noun|head=[[a]]-[[moll]]|indeclinable}}
+
+# {{lb|sv|music}} [[A minor]]
+
+===References===
+* {{R:svenska.se|saol|a-moll}}

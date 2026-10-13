@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-pan.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pan.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-pan.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pan",
@@ -127,14 +138,23 @@
     {
      "ipa": "[ˈpan]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈpan]",
-     "labels": [
+      "Chełmno-Dobrzyń",
       "Central Greater Poland"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Pan",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "PAN",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "pan-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -257,6 +277,7 @@
      ]
     }
    ],
+   "syllabification": "pan",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -270,6 +291,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-pan.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pan.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-pan.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pan",
@@ -388,14 +420,23 @@
     {
      "ipa": "[ˈpan]",
      "labels": [
-      "Chełmno-Dobrzyń"
-     ]
-    },
-    {
-     "ipa": "[ˈpan]",
-     "labels": [
+      "Chełmno-Dobrzyń",
       "Central Greater Poland"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "Pan",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "PAN",
+     "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "pan-",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -425,6 +466,7 @@
      ]
     }
    ],
+   "syllabification": "pan",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -443,5 +485,10 @@
    "text": "Inherited from Old Polish pan."
   }
  ],
+ "frequency": {
+  "count": 1819,
+  "rank": 22,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "pan"
 }

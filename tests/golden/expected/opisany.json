@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-opisany.wav"
+    }
+   ],
    "forms": [
     {
      "form": "opisany",
@@ -277,6 +282,7 @@
      "gloss": "passive adjectival participle participle of opisać"
     }
    ],
+   "syllabification": "o‧pi‧sa‧ny",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

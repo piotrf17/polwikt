@@ -1,0 +1,521 @@
+{{also|zoo꞉|zôo|zōo|zoo-|-zoo|zoö-|Zoo}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{abbrev|mul|en:[['''Z'''ap'''o'''tec]], [[Asunci'''ó'''n]],es:[['''z'''ap'''o'''teco]], [[Asunci'''ó'''n]]}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==English==
+{{wp}}
+[[File:View of the Zoological Gardens1835.jpg|thumb|A painting of the London '''Zoo''' in 1835.]]
+
+===Etymology===
+{{clip|en|zoological garden,zoological park}}, now the usual form. See {{m|en|zoology}}.
+
+* {{senseno|en|zoophile|uc=1}} is a {{clip|en|zoophile,zoophilia|nocap=1}}.
+
+===Pronunciation===
+* {{IPA|en|/zuː/}}
+* {{IPA|en|/zʉw/|a=SSB}}
+* {{audio|en|en-us-zoo.ogg|a=US}}
+* {{rhymes|en|uː|s=1}}
+
+===Noun===
+{{en-noun|~}}
+
+# {{lb|en|countable}} A [[park]] where [[live]] [[animal]]s are [[exhibit]]ed.
+#: {{ux|en|The London '''Zoo''' was built in 1828.}}
+#* {{quote-journal|en|date=2013-07-26|author=Nick Miroff|title=Mexico gets a taste for eating insects as chefs put bugs back on the menu|magazine=w:The Guardian Weekly|url=http://www.theguardian.com/world/2013/jul/23/mexico-insect-cuisine-sustainable-food|volume=189|issue=7|page=32
+|passage=The San Juan market is Mexico City's most famous deli of exotic meats, where an adventurous shopper can hunt down hard-to-find critters such as ostrich, wild boar and crocodile. Only the city '''zoo''' offers greater species diversity.|archiveurl=https://web.archive.org/web/20230426212645/https://www.theguardian.com/world/2013/jul/23/mexico-insect-cuisine-sustainable-food}}
+# {{lb|en|countable|informal|figuratively}} Any place that is [[wild]], [[crowd]]ed, or [[chaotic]].
+#: {{ux|en|The shopping center was a '''zoo''' the week before Christmas.}}
+# {{lb|en|countable|informal|figuratively}} A large and varied collection of something.
+#* {{quote-book|en|year=1993| title=Soul in Suspense: Hitchcock's Fright and Delight |author=Neil P. Hurley | page=xii| passage=After his insightful book ''The Art of Alfred Hitchcock'', Spoto published ''The Dark Side of Genius'', a portrayal of the elderly director as a lonely man who was a veritable '''zoo''' of desires, suspicions, fears, and addictions (food, drink, romantic infatuation, and filmmaking).}}
+#* {{quote-book|en|year=2001| title=Theory and Experiment Heading for New Physics|author=Antonino Zichichi | page=| passage=From this point on, an entire '''zoo''' of possibilities arose: strange stars, different families of neutron stars, hybrid stars, etc.}}
+#* {{quote-book|en|year=2021| title=The God Equation|author=Michio Kaku| page=| passage=But powerful as the quark model and the electroweak theory were in describing the '''zoo''' of subatomic particles, this still left a huge gap.}}
+# {{lb|en|countable|US|military|slang}} The [[jungle]].
+#* {{quote-web|en|date=2013-08-12|author=E. E. "Doc" Murdock|title=My Vietnam War|page=152|isbn=978-0923178239
+|passage=I'm not all that unhappy about being out on an actual patrol, but there's a worried feeling wandering around the back of my mind, not exactly fear, more like a sort of lurking anxiety at being out in the dreaded jungle, the '''zoo''', where the enemy hides.}}
+# {{sid|en|zoophile}} {{lb|en|countable|informal}} {{clipping of|en|zoophile}}.
+#* {{quote-book|en|year=2013|author=Mark Hawthorne|title=Bleating Hearts: The Hidden World of Animal Suffering
+|passage=Zoophiles, or ''''zoos''',' are sexually and emotionally attracted to animals, as in a sexual orientation.}}
+#* {{quote-text|en|year=2016|author=Jessica Pierce|title=Run, Spot, Run: The Ethics of Keeping Pets|page=129
+|passage=Bestiality or zoophilia—whatever we decide to call it—is one of the most pressing issues for all domesticated animals, {{...}} From the scanty research available, the following picture emerges: the majority of '''zoos''' are male, though certainly not all; {{...}}}}
+## {{lb|en|by extension|uncountable}} [[pornographic|Pornographic]] [[material]] depicting actual animals or [[bestiality]].
+
+====Derived terms====
+{{col|en|antizoo|from goo to you by way of the zoo|human zoo|interzoo|like feeding time at the zoo|megazoo|minizoo|morning zoo|particle zoo|petting zoo|safari zoo|who's who in the zoo|zoo animal|zoo blot|zoo break|zoo format|zoo plane|zoofari|zooful|zoogoer|zoogoing|zookeeper|zookeeping|zooless|zoopark|zooplasty|zoopraxiscope|zoothanasia|zoothanize}}
+
+====Related terms====
+{{col|en
+|zoo-
+|zooey
+|zooish
+|zoolike
+|zoologist
+|zoology
+}}
+
+====Translations====
+{{trans-top|park where live animals are exhibited}}
+* Afrikaans: {{t+|af|dieretuin}}
+* Albanian: {{t|sq|kopësht zoologjik|m}}
+* Amharic: {{t|am|መካነ አራዊት}}
+* Arabic: {{t|ar|حَدِيقَة الْحَيَوَان|tr=ḥadīqat al-ḥayawān|f}}, {{t|ar|حَدِيقَة حَيَوَان|f}}
+*: Egyptian Arabic: {{t|arz|جنينة الحيوانات|tr=genenet el-ḥayawanat|f|}}
+* Aramaic:
+*: Assyrian Neo-Aramaic: {{t|aii|ܓܲܢܬܵܐ ܕܚܲܝܘܵܬܹ̈ܐ|f|tr=gantā d-ḵaywātē}}
+* Armenian: {{qualifier|formal}} {{t+|hy|կենդանաբանական այգի}}, {{qualifier|informal}} {{t+|hy|գազանանոց}}
+* Assamese: {{t|as|চিৰিয়াখানা}}
+* Asturian: {{t|ast|zoolóxicu|m}}
+* Azerbaijani: {{t|az|zoologiya parkı}}
+* Belarusian: {{t|be|заапа́рк|m}}, {{t|be|заалагі́чны парк|m}}
+* Bengali: {{t+|bn|চিড়িয়াখানা}}
+* Bhojpuri: {{t|bho|चिड़ियाघर}}
+* Bulgarian: {{t|bg|зоопа́рк|m}}, {{t|bg|зоологи́ческа гради́на|f}}
+* Burmese: {{t+|my|တိရစ္ဆာန်ရုံ}}, {{t+|my|တိရစ္ဆာန်ဥယျာဉ်}}
+* Catalan: {{t|ca|zoològic|m}}
+* Cherokee: {{t|chr|ᏧᎾᏓᎴᎸᏓᏧᏂᏙᏗ}}
+* Chinese:
+*: Cantonese: {{t|yue|動物園}}
+*: Dungan: {{t|dng|есынйүан}}
+*: Hokkien: {{t+|nan-hbl|動物園|tr=tōng-bu̍t-hn̂g}}
+*: Mandarin: {{t+|cmn|動物園}}
+* Cornish: {{t|kw|milva|f}}
+* Czech: {{t+|cs|zoo|f}}, {{t+|cs|zoologická zahrada|f}}
+* Danish: {{t|da|zoo|c}}, {{t|da|zoologisk have|c}}
+* Dusun:
+*: Central Dusun: {{t|dtp|zoo}}
+* Dutch: {{t+|nl|dierentuin}}, {{t+|nl|zoo}}
+* Erzya: {{t|myv|ракшапире}}
+* Esperanto: {{t+|eo|zoo}}, {{t|eo|bestoĝardeno}}, {{t|eo|zoologia ĝardeno}}
+* Estonian: {{t+|et|loomaaed}}
+* Finnish: {{t+|fi|eläintarha}}
+* French: {{t+|fr|zoo|m}}
+* Galician: {{t+|gl|zoolóxico|m}}, {{t+|gl|parque zoolóxico|m}}, {{t+|gl|zoo|m}}
+* Georgian: {{t+|ka|ზოოპარკი}}
+* German: {{t+|de|Zoo|m}}, {{t+|de|Tiergarten|m}}, {{t+|de|Tierpark|m}}
+* Greek: {{t+|el|ζωολογικός κήπος|m}}
+*: Ancient Greek: {{t|grc|θηριοτροφεῖον|n}}, {{t|grc|ζωγρεῖον|n}}
+* Hebrew: {{t+|he|גַּן חַיּוֹת|m|tr=gan khayót}}, {{t|he|גן זואולוגי|m|tr=gan zo'ológi}}
+* Hindi: {{t+|hi|चिड़ियाघर|m}}, {{t|hi|चिड़ियाख़ाना|m}}, {{t|hi|पशु-वाटिका|m}}, {{t|hi|जीवादि वाटिका|m}}
+* Hungarian: {{t+|hu|állatkert}}
+* Icelandic: {{t+|is|dýragarður|m}}
+* Ido: {{t+|io|zoo}}, {{t+|io|menajerio}}, {{t|io|animalparko}}
+* Indonesian: {{t+|id|kebun binatang}}, {{t|id|bonbin}} {{qualifier|colloquial}}
+* Irish: {{t+|ga|zú|m}}, {{t|ga|gairdín ainmhithe|m}}
+* Italian: {{t+|it|zoo|m}}
+* Japanese: {{t+|ja|動物園|tr=dōbutsuen}}
+* Kazakh: {{t|kk|хайуанаттар бағы}}, {{t|kk|хайуанатхана}}
+* Khmer: {{t|km|សួនសត្វ}}, {{t|km|ឧទ្យានសត្វ}}
+* Korean: {{t+|ko|동물원(動物園)}}
+* Kurdish:
+*: Northern Kurdish: {{t+|kmr|baxçeyê heywanan}}
+* Kyrgyz: {{t+|ky|ажайыпкана}}, {{t|ky|аң бакчасы}}
+* Lao: {{t+|lo|ສວນສັດ}}
+* Latin: {{t|la|vīvārium|n}}
+* Latvian: {{t|lv|zooloģiskais dārzs|m}}, {{t|lv|zoodārzs|m}}
+* Lithuanian: {{t|lt|zoologijos sodas|m}}
+* Macedonian: {{t|mk|зоолошка градина|f}}
+* Malay: {{t+|ms|zoo}}, {{t|ms|kebun binatang}}, {{t|ms|taman haiwan}}
+* Maltese: {{t|mt|żu|m}}
+* Melanau:
+*: Central Melanau: {{t|mel|zoo}}
+* Mongolian:
+*: Cyrillic: {{t|mn|амьтны хүрээлэн}}
+* Norwegian:
+*: Bokmål: {{t|nb|dyrehage|m}}
+*: Nynorsk: {{t|nn|dyrehage|m}}
+* Odia: {{t|or|ଚିଡିଆଖାନ}}
+* Pashto: {{t+|ps|ژوبڼ|m|tr=žobaṇ}}
+* Persian:
+*: Iranian Persian: {{t|fa-ira|باغِ وَحْش}}
+* Plautdietsch: {{t|pdt|Tiabood|f}}, {{t|pdt|Tiagoaden|m}}
+* Polish: {{t+|pl|ogród zoologiczny|m}}, {{t+|pl|zoo|n}}, {{t+|pl|zoolog|m}}, {{t+|pl|zwierzyniec|m}}
+* Portuguese: {{t+|pt|zoológico|m}}, {{t|pt|jardim zoológico|m}}, {{t+|pt|zoo|m}} {{qualifier|uncommon}}
+* Quechua: {{t|qu|k'ita uywap wasin}}
+* Romanian: {{t+|ro|zoo|f}}, {{t+|ro|parc zoologic|n}}, {{t+|ro|grădină zoologică|f}}, {{t+|ro|zooparc|n}}
+* Russian: {{t+|ru|зоопа́рк|m}}, {{t|ru|зоологи́ческий сад|m}}, {{t+|ru|зооса́д|m}}, {{t+|ru|звери́нец|m}} {{qualifier|menagerie}}
+* Sami:
+*: Inari Sami: {{t|smn|elleekärdi}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|зоо̀лошкӣ вр̏т|m}}, {{t|sh|зверињак|m}}
+*: Latin: {{t|sh|zoòloškī vȑt|m}}, {{t|sh|zverinjak|m}}
+* Shan: {{t|shn|သူၼ်သတ်း}}
+* Sikkimese: {{t|sip|གཅན་གཟན་ཁང}}
+* Slovak: {{t+|sk|zoo|f|n}}, {{t+|sk|zoologická záhrada|f}}
+* Slovene: {{t|sl|živalski vrt|m}}
+* Spanish: {{t+|es|zoo|m}}, {{t|es|jardín zoo|m}}, {{t+|es|zoológico|m}}
+* Swahili: {{t+|sw|bustani ya wanyama}}
+* Swedish: {{t+|sv|zoo|n}}, {{t+|sv|djurpark|c}}
+* Tagalog: {{t|tl|hayupan}}
+* Tajik: {{t|tg|боғи ҳайвонот}}, {{t|tg|боғи ваҳш}}
+* Tamil: {{t|ta|உயிரியல் பூங்கா}}, {{t|ta|விலங்குக் காட்சி சாலை}}
+* Telugu: {{t|te|జంతుప్రదర్శనశాల}}
+* Thai: {{t+|th|สวนสัตว์}}
+* Turkish: {{t+|tr|hayvanat bahçesi}}
+* Turkmen: {{t|tk|haýwanat bagy}}
+* Ukrainian: {{t|uk|зоопа́рк|m}}, {{t+|uk|звіри́нець|m|lit=menagerie}}
+* Urdu: {{t|ur|چِڑْیا گَھر|m}}, {{t|ur|چِڑْیا خانَہ|m}}
+* Uyghur: {{t|ug|ھايۋانات باغچىسى}}
+* Uzbek: {{t|uz|hayvonot bogʻi}}, {{t|uz|hayvonot bogʻlari}}
+* Vietnamese: {{t+|vi|thảo cầm viên}}, {{t+|vi|sở thú}}, {{t|vi|vườn thú}}
+* Walloon: {{t+|wa|zô|m}}, {{t|wa|djårdén zolodjike|m}}, {{t|wa|djårdén d' aclimataedje|m}}
+* Welsh: {{t|cy|sw|m}}, {{t|cy|milodfa|f}}
+* Yiddish: {{t|yi|זאָאָגאָרטן|m}}, {{t|yi|זאָאָלאָגישער גאָרטן|m}}, {{t|yi|זאָאָפּאַרק|m}}
+{{trans-bottom}}
+
+{{cln|en|3-letter words|calculator words}}
+{{C|en|Bestiality|Places|People|Zoology}}
+
+==Catalan==
+
+===Pronunciation===
+* {{ca-IPA|zóː}}
+* {{audio|ca|LL-Q7026 (cat)-Marvives-zoo.wav|a=Barcelona}}
+
+===Noun===
+{{ca-noun|m}}
+
+# {{clipping of|ca|zoològic}}
+#* {{quote-journal|ca|date=November 9 2016|title='Midnight Cowboy'|work=El Periódico|url=http://www.elperiodico.cat/ca/noticias/oci-i-cultura/midnight-cowboy-5619059|passage=O sigui, els sorolls del '''zoo''' de demòcrates i republicans.}}
+
+===Further reading===
+* {{R:ca:IEC2}}
+
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Noun===
+{{cs-noun|f,n}}
+
+# {{l|en|zoo}}
+#: {{syn|cs|zoologická zahrada}}
+
+====Declension====
+''Normally indeclinable. When neuter, can be declined as follows, although it is dated:''
+{{cs-ndecl|n}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{cln|cs|indeclinable nouns}}
+
+==Danish==
+
+===Etymology===
+From {{der|da|en|zoo}}.
+
+===Noun===
+{{da-noun|en|er}}
+
+# a {{l|en|zoo}}, [[zoological garden]]
+
+====Synonyms====
+* {{l|da|zoologisk have}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|nl|/zoː/|a=BE}}
+* {{IPA|nl|/zuː/|/zoː/|a=NL}}
+* {{hyphenation|nl|zoo}}
+* {{rhymes|nl|oː|s=1}}
+
+===Etymology 1===
+Probably a borrowing from {{bor|nl|fr|zoo}}. Equivalent to a shortening of {{m|nl|[[zoölogische]] [[tuin]]}}.
+
+====Noun====
+{{nl-noun|m|-s|+}}
+
+# {{lb|nl|chiefly|Belgium}} {{l|en|zoo}}
+
+=====Synonyms=====
+* {{l|nl|dierentuin}}, {{l|nl|diergaarde}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Adverb====
+{{nl-adv}}
+
+# {{obsolete spelling of|nl|zo}}
+
+==Esperanto==
+{{wp|eo:}}
+
+===Etymology===
+{{ety|eo|:clipping|[[zoologia]] [[ĝardeno]]|text=+|tree=1}}
+
+===Pronunciation===
+{{eo-pr|a=Eo-zoo.oga}}
+
+===Noun===
+{{eo-head}}
+
+# {{lb|eo|zoology}} {{l|en|zoo}}
+
+====Synonyms====
+* {{l|en|bestoĝardeno}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+* {{R:eo:ReVo}}
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA|zo|zôo}}
+* {{audio|fr|Fr-zoo.ogg}}
+* {{audio|fr|LL-Q150 (fra)-Benoît Prieur-zoo.wav|a=<<France>> (<<Saint-Maurice-de-Beynost>>)}}
+* {{audio|fr|LL-Q150 (fra)-Lepticed7-zoo.wav|a=<<France>> (<<Toulouse>>)}}
+* {{audio|fr|LL-Q150 (fra)-LoquaxFR-zoo.wav|a=<<France>> (<<Vosges>>)}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-zoo.wav|a=<<France>> (<<Vosges>>)}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{l|en|zoo}}
+
+====Related terms====
+* {{l|fr|zoologique}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+==Galician==
+
+===Verb===
+{{head|gl|verb form}}
+
+# {{gl-verb form of|zoar}}
+
+==Italian==
+
+===Pronunciation===
+{{it-pr|dzòo|dzò*<pre:{{a|it|especially Rome}}>}}
+
+===Noun===
+{{it-noun|m|#}}
+
+# {{l|en|zoo}}
+
+====Related terms====
+* {{l|it|giardino zoologico}}
+
+==Malay==
+{{wp|ms:}}
+
+===Etymology===
+From {{der|ms|en|zoo}}.
+
+===Pronunciation===
+* {{IPA|ms|/zu/}}
+* {{rhymes|ms|zu|u}}
+
+===Noun===
+{{ms-noun|j=زو}}
+
+# [[#English|zoo]] {{gloss|park where live animals are exhibited}}
+#* {{quote-web|ms|date=2013 February 13|work=Astro Awani|title=Gorilla lahirkan anak di zoo Moscow|trans-title=Gorilla gives birth to offspring at Moscow Zoo|url=https://www.astroawani.com/berita-dunia/gorilla-lahirkan-anak-di-zoo-moscow-7196|text=Jurucakap '''zoo''', Elena Mendosa memberitahu pembiakan gorilla di '''Zoo''' Moscow merupakan sesuatu yang unik dan berharap proses berkenaan akan berterusan.|t=A '''zoo''' spokeswoman, Elena Mendosa said that gorilla breeding at the Moscow '''Zoo''' is something unique and hoped the process would continue.}}
+
+====Synonyms====
+* {{l|ms|kebun binatang}}
+* {{l|ms|taman haiwan}}
+
+==Polish==
+{{wp|pl:}}
+[[Image:Izhevsk Zoo-21.jpg|thumb|right|Zoo.]]
+
+===Etymology===
+{{ety|pl|:ubor|en:zoo|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|#,zo<q:colloquial>|a=LL-Q809 (pol)-Olaf-zoo.wav|h=zo.o,zoo}}
+
+===Noun===
+{{pl-noun|n|indecl=yes}}
+
+# {{lb|pl|zoology}} [[nature preserve]], {{l|en|zoo}}, [[zoological garden]], [[zoological park]]
+#: {{syn|pl|ogród zoologiczny|zoolog|zwierzyniec}}
+
+====Derived terms====
+{{col|pl|title=nouns|antropozoonoza|zoonoza}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Buildings|Places}}
+
+==Portuguese==
+
+===Alternative forms===
+* {{alt|pt|zôo||Brazil|superseded}}
+
+===Etymology 1===
+
+====Pronunciation====
+{{pt-IPA|pt=zwu,zu|br=+,zou}}
+* {{rhymes|pt|u|ou|s=2}}
+
+====Noun====
+{{pt-noun|m}}
+
+# {{clipping of|pt|jardim zoológico}}
+#: {{syn|pt|zoológico|q1=Brazil}}
+
+===Etymology 2===
+{{ety|pt|nl=1}}
+
+====Pronunciation====
+{{pt-IPA|pt=+|br=+,zow}}
+* {{rhymes|pt|ou|s=2}}
+* {{hyph|pt|zo|o}}
+
+====Verb====
+{{head|pt|verb form}}
+
+# {{pt-verb form of|zoar}}
+
+===Further reading===
+* {{R:pt:Aulete}}
+* {{R:pt:Priberam}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:bor|fr:zoo|text=+|tree=1}}
+
+===Noun===
+{{ro-noun|n|-}}
+
+# {{l|en|zoo}}
+
+====Declension====
+{{ro-noun-n|n=sg}}
+
+==Slovak==
+{{wp|sk:}}
+
+===Alternative forms===
+* {{alter|sk|ZOO}}
+
+===Etymology===
+{{abbrev|sk|zoologická záhrada}}, apparently also {{bor+|sk|en|zoo|nocap=1}}. {{etydate|20th century}}.<ref>{{R:sk:Králik||688}}</ref> See {{m|sk|zoo-}} for more.
+
+===Noun===
+{{sk-noun|f,n|indecl=1}}
+
+# {{lb|sk|informal}} [[zoological garden]]
+#: {{syn|sk|zoologická záhrada|zoopark|zverinec<ll:dated>|menažéria}}
+
+====Declension====
+{{sk-decl-noun|zoo|zoo|zoo|zoo|zoo|zoo|zoo|zoo|zoo|zoo|zoo|zoo}}
+
+====Derived terms====
+{{col|sk|
+minizoo<g:f>}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:clipping|zoológico|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr|zoː}}
+
+===Noun===
+{{es-noun|m}}
+
+# {{l|en|zoo}}
+
+====Related terms====
+{{col|es|zoológico}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Swedish==
+{{wp|sv:}}
+
+===Pronunciation===
+* {{IPA|sv|/suː/}}
+* {{homophone|sv|so}}
+* {{rhymes|sv|uː|s=1}}
+
+===Noun===
+{{sv-noun|n}}
+
+# a {{l|en|zoo}}
+#: {{syn|sv|djurpark}}
+#: {{ux|sv|Det fanns exotiska djur på '''zoot'''|There were exotic animals at '''the zoo'''}}
+
+====Declension====
+{{sv-infl-noun-n-n}}
+{{sv-infl-noun-n-n|2=zooe|3=zoo}}
+
+====Related terms====
+* {{l|sv|zoo-}}
+
+====See also====
+* {{l|sv|menageri}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+* {{R:svenska.se|saob}}
+
+==White Hmong==
+
+===Etymology===
+From {{inh|mww|hmx-pro|*-ʔrɔŋH||good}}, possibly {{bor+|mww|och|良|t=good|nocap=1}}.<ref>https://web.archive.org/web/20101031002604/http://wold.livingsources.org/vocabulary/25</ref> Cognate with {{cog|ium|longx}}.
+
+===Pronunciation===
+{{mww-pron}}
+
+===Adjective===
+{{head|mww|adjective}}
+
+# [[good]], [[fair]], [[fine]], [[well]]
+
+====Derived terms====
+{{col2|mww
+|mus zoo
+|nyob zoo
+}}
+
+===References===
+* {{R:mww:Heimbach}}
+{{reflist}}
+
+==Yola==
+
+===Interjection===
+{{head|yol|interjection}}
+
+# {{alt form|yol|zo}}
+#* {{quote-book|yol|year=1867|chapter=THE WEDDEEN O BALLYMORE|number=5|page=96|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage='''Zoo''' wough aul vell a-danceen; earch bye gae a poage|translation='''So''' we all fell a-dancing; each boy gave a kiss}}
+#* {{quote-book|yol|year=1867|chapter=THE WEDDEEN O BALLYMORE|number=6|page=96|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage='''Zoo''' wough kisth, an wough parthet; earch man took his laave;|translation='''So''' we kissed and we parted, each man took his leave;}}
+#* {{quote-book|yol|year=1867|chapter=THE WEDDEEN O BALLYMORE|number=6|page=96|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage='''Zoo''' wough aul returnth hime, contented an gaay,|translation='''So''' we all returned home, contented and gay,}}
+
+===References===
+* {{R:Poole 1867|page=82}}

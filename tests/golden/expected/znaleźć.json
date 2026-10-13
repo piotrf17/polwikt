@@ -1,0 +1,911 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-znaleźć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-znaleźć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-znaleźć się.wav",
+     "label": "znaleźć się"
+    }
+   ],
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈzna.lɛɕt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "znajdować",
+     "type": "TYPE_IMPERFECTIVE_COUNTERPART"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Znalazłem mapę skarbu.",
+       "translation": "I found the treasure map."
+      }
+     ],
+     "gloss": "to find (to determine the location of a person or thing)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "odnaleźć",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Znalazłem synonim, którego szukałem.",
+       "translation": "I found the synonym i was looking for."
+      }
+     ],
+     "gloss": "to find (to acquire or invent something needed)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Znalazłem pieniążek na ulicy.",
+       "translation": "I found a coin on the street."
+      }
+     ],
+     "gloss": "to find (to claim pressence of or see something or someone somewhere; to come across)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "spotkać",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to find, to come across, to run into (to encounter someone in a particular state)",
+     "keywords": [
+      {
+       "text": "find"
+      },
+      {
+       "text": "come across"
+      },
+      {
+       "text": "run into"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "W końcu znajdziesz w sobie odwagę, by wyjawić swe uczucia..",
+       "translation": "At some point you will find the courage to confess."
+      }
+     ],
+     "gloss": "to find, to work up (to summon up or muster i.e. courage)",
+     "keywords": [
+      {
+       "text": "find"
+      },
+      {
+       "text": "work up"
+      }
+     ],
+     "labels": [
+      "transitive"
+     ],
+     "relations": [
+      {
+       "term": "zdobyć się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to find (to assess the state of something)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "archaic"
+     ]
+    },
+    {
+     "gloss": "used as a light verb with deverbal nouns or gerunds to indicate the beginning of said verb",
+     "labels": [
+      "intransitive"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Nagle, znalazłem się wśród motocyklistów.",
+       "translation": "Suddenly, I found myself among motorcyclists."
+      }
+     ],
+     "gloss": "to end up somewhere (to go to a certain place or to a certain group)",
+     "keywords": [
+      {
+       "text": "end up"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Znalazłem się w nieprzyjemnej sytuacji.",
+       "translation": "I was in an unpleasant situation."
+      }
+     ],
+     "gloss": "to find oneself somewhere (to be in some situation or state)",
+     "keywords": [
+      {
+       "text": "find oneself"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ]
+    },
+    {
+     "gloss": "to be found (to be acquired or thought up)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "najść się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Poszukiwana dziewczyna znalazła się po 3 dniach poszukiwań.",
+       "translation": "The girl we were looking for was found after 3 days of searching for her."
+      }
+     ],
+     "gloss": "to be found (after going missing, to be discovered again)",
+     "keywords": [
+      {
+       "text": "find"
+      }
+     ],
+     "labels": [
+      "reflexive-się"
+     ],
+     "relations": [
+      {
+       "term": "odnaleźć się",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "zaginąć",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "zginąć",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    }
+   ],
+   "syllabification": "zna‧leźć",
+   "verb": {
+    "aspect": "ASPECT_PERFECTIVE"
+   }
+  },
+  {
+   "audio": [
+    {
+     "file": "Pl-znaleźć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-znaleźć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-znaleźć się.wav",
+     "label": "znaleźć się"
+    }
+   ],
+   "forms": [
+    {
+     "form": "znaleźć",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "znajdę",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdziemy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdziesz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdziecie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdzie",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdą",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znajdzie się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "znalazłem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znaleźliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znaleźliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazłyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znaleźli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znalazły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "znaleziono",
+     "tags": {
+      "verb_form": "VERB_FORM_IMPERSONAL_PAST"
+     }
+    },
+    {
+     "form": "znalazłbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym znalazł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znalazłabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym znalazła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znalazłobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym znalazło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znaleźlibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy znaleźli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znalazłybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy znalazły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znalazłbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś znalazł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znalazłabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś znalazła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znalazłobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś znalazło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znaleźlibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście znaleźli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znalazłybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście znalazły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znalazłby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by znalazł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znalazłaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by znalazła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znalazłoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by znalazło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znaleźliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by znaleźli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znalazłyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by znalazły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znaleziono by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech znajdę",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znajdźmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "znajdź",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "znajdźcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech znajdzie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech znajdą",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "znaleziony",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znaleziona",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znalezione",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znalezieni",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znalezione",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znalazłszy",
+     "tags": {
+      "verb_form": "VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "znalezienie",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈzna.lɛɕt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to behave properly",
+     "keywords": [
+      {
+       "text": "behave"
+      },
+      {
+       "text": "properly"
+      }
+     ],
+     "labels": [
+      "reflexive-się",
+      "of people"
+     ]
+    },
+    {
+     "gloss": "to become",
+     "government": [
+      {
+       "description": "whom/what",
+       "grammatical_case": "CASE_INSTRUMENTAL"
+      }
+     ],
+     "keywords": [
+      {
+       "text": "become"
+      }
+     ],
+     "labels": [
+      "copulative",
+      "reflexive-się",
+      "obsolete"
+     ]
+    }
+   ],
+   "syllabification": "zna‧leźć",
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of znaleźć pf"
+    }
+   ],
+   "verb": {
+    "aspect": "ASPECT_PERFECTIVE"
+   }
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish znaleźć. By surface analysis, z- + naleźć. This word is suppletive with znajść (< Old Polish znajć), which has a similar meaning and where the future forms with znajd- come from."
+  }
+ ],
+ "frequency": {
+  "count": 194,
+  "rank": 287,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
+ "lemma": "znaleźć"
+}

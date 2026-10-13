@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-on.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-on.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-on.wav"
+    }
+   ],
    "forms": [
     {
      "form": "on",
@@ -93,6 +104,12 @@
      "ipa": "/ˈɔn/"
     }
    ],
+   "relations": [
+    {
+     "term": "-on",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "he , it",
@@ -110,6 +127,7 @@
      ]
     }
    ],
+   "syllabification": "on",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -118,6 +136,17 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-on.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-on.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Krokus-on.wav"
+    }
+   ],
    "forms": [
     {
      "form": "on",
@@ -380,6 +409,12 @@
      "ipa": "/ˈɔn/"
     }
    ],
+   "relations": [
+    {
+     "term": "-on",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "this",
@@ -394,6 +429,7 @@
      ]
     }
    ],
+   "syllabification": "on",
    "tables": [
     {
      "irregular": true,
@@ -408,5 +444,10 @@
    "text": "Inherited from Old Polish on. The oblique case forms come from Proto-Slavic *jь."
   }
  ],
+ "frequency": {
+  "count": 6650,
+  "rank": 8,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "on"
 }

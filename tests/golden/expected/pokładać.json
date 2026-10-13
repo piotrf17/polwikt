@@ -1,6 +1,15 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-pokładać.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pokładać się.wav",
+     "label": "pokładać się"
+    }
+   ],
    "forms": [
     {
      "form": "pokładać",
@@ -913,12 +922,7 @@
     {
      "ipa": "[pɔˈkwa.dat͡ɕ]",
      "labels": [
-      "Eastern Kraków"
-     ]
-    },
-    {
-     "ipa": "[pɔˈkwa.dat͡ɕ]",
-     "labels": [
+      "Eastern Kraków",
       "Lasovia"
      ]
     }
@@ -1109,6 +1113,7 @@
      ]
     }
    ],
+   "syllabification": "po‧kła‧dać",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",

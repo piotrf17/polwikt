@@ -1,6 +1,18 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-mieć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mieć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mieć się.wav",
+     "label": "mieć się"
+    }
+   ],
    "forms": [
     {
      "form": "mieć",
@@ -915,6 +927,10 @@
     {
      "term": "miewać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "miedź",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1277,6 +1293,7 @@
      ]
     }
    ],
+   "syllabification": "mieć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1289,11 +1306,29 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-mieć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mieć.wav"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mieć się.wav",
+     "label": "mieć się"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_VERB",
    "pronunciations": [
     {
      "ipa": "/ˈmjɛt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "miedź",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1311,7 +1346,8 @@
      },
      "gloss": "second-person singular imperative of mieść"
     }
-   ]
+   ],
+   "syllabification": "mieć"
   }
  ],
  "etymologies": [
@@ -1322,5 +1358,10 @@
    "text": "See the etymology of the corresponding lemma form."
   }
  ],
+ "frequency": {
+  "count": 2591,
+  "rank": 17,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "mieć"
 }

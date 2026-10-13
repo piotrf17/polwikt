@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "pl-miasto.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "miasto",
@@ -116,12 +121,7 @@
     {
      "ipa": "[ˈmjas.tɔ]",
      "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈmjas.tɔ]",
-     "labels": [
+      "Far Masovian",
       "Suwałki"
      ]
     }
@@ -146,6 +146,7 @@
      ]
     }
    ],
+   "syllabification": "mias‧to",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -157,6 +158,11 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "pl-miasto.ogg"
+    }
+   ],
    "etymology": 1,
    "pos": "POS_PREPOSITION",
    "pronunciations": [
@@ -166,12 +172,7 @@
     {
      "ipa": "[ˈmjas.tɔ]",
      "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈmjas.tɔ]",
-     "labels": [
+      "Far Masovian",
       "Suwałki"
      ]
     }
@@ -200,6 +201,7 @@
      ]
     }
    ],
+   "syllabification": "mias‧to",
    "topics": [
     "Polities"
    ]
@@ -213,5 +215,10 @@
    "text": "Inherited from Old Polish miasto (“instead of”)."
   }
  ],
+ "frequency": {
+  "count": 452,
+  "rank": 101,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "miasto"
 }

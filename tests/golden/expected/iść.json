@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-iść.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "iść",
@@ -858,54 +863,14 @@
     {
      "ipa": "[ˈiɕt͡ɕ]",
      "labels": [
-      "Western Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Suwałki"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
+      "Western Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Suwałki",
+      "Lasovia",
+      "Eastern Lublin",
+      "Przemyśl",
+      "Podhale",
       "Northern Borderlands"
      ]
     }
@@ -1245,6 +1210,7 @@
      ]
     }
    ],
+   "syllabification": "iść",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1257,6 +1223,11 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-iść.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "iść",
@@ -2114,54 +2085,14 @@
     {
      "ipa": "[ˈiɕt͡ɕ]",
      "labels": [
-      "Western Greater Poland"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Near Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Far Masovian"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Suwałki"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Lasovia"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Eastern Lublin"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Przemyśl"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
-      "Podhale"
-     ]
-    },
-    {
-     "ipa": "[ˈiɕt͡ɕ]",
-     "labels": [
+      "Western Greater Poland",
+      "Near Masovian",
+      "Far Masovian",
+      "Suwałki",
+      "Lasovia",
+      "Eastern Lublin",
+      "Przemyśl",
+      "Podhale",
       "Northern Borderlands"
      ]
     }
@@ -2222,6 +2153,7 @@
      ]
     }
    ],
+   "syllabification": "iść",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -2238,5 +2170,10 @@
    "text": "Regularization of Old Polish ić which had a stem of id-, and other such verbs, such as siąść, have an -ś- in the infinitive and -d- in oblique stems."
   }
  ],
+ "frequency": {
+  "count": 363,
+  "rank": 137,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "iść"
 }

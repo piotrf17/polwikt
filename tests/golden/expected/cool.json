@@ -4,6 +4,11 @@
    "adjective": {
     "not_comparable": true
    },
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-cool.wav"
+    }
+   ],
    "pos": "POS_ADJECTIVE",
    "pronunciations": [
     {
@@ -36,7 +41,8 @@
       }
      ]
     }
-   ]
+   ],
+   "syllabification": "cool"
   }
  ],
  "etymologies": [

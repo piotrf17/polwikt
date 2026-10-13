@@ -1,0 +1,26 @@
+# Pronunciation sections and word frequency (R6.5, R6.13).
+#
+# A Pronunciation section is read from its expansion: {{pl-pr}} (Module:zlw-lch-IPA)
+# renders one line per transcription, recording, syllabification and homophone list,
+# and a literal {{IPA}} / {{audio}} renders the same lines. These are the markers that
+# identify each kind of line.
+
+[lines]
+ipa = "International Phonetic Alphabet|IPA]]"
+audio = 'class="audiotable"'
+syllabification = "Syllabification:"
+homophones = 'class="homophones"'
+# A recording's caption when it names no spoken text: "Audio", "Audio 2" (a regex).
+audio_caption = "Audio(?: [0-9]+)?"
+# Lines read and not output (rhymes, R6.5).
+ignored = ["Rhymes:"]
+
+# {{pl-freq 1990}} in Trivia: Słownik frekwencyjny polszczyzny współczesnej (1990).
+# `head=` names the term counted when it is not the page title: "co (pronoun)" is a
+# part of speech of this word, "znaleźć się" is another term and is not output.
+[frequency]
+template = "pl-freq 1990"
+count = "6"
+rank = "7"
+head = "head"
+source = "Słownik frekwencyjny polszczyzny współczesnej (1990)"

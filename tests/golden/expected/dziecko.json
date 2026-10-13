@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-dziecko.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "dziecko",
@@ -170,6 +175,7 @@
      ]
     }
    ],
+   "syllabification": "dziec‧ko",
    "tables": [
     {
      "irregular": true,
@@ -189,5 +195,10 @@
    "text": "Inherited from Old Polish dziecko."
   }
  ],
+ "frequency": {
+  "count": 415,
+  "rank": 114,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "dziecko"
 }

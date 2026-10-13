@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-agrest.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-agrest.wav"
+    }
+   ],
    "forms": [
     {
      "form": "agrest",
@@ -217,6 +225,7 @@
      ]
     }
    ],
+   "syllabification": "a‧grest",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

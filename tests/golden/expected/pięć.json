@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-pięć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pięć.wav"
+    }
+   ],
    "forms": [
     {
      "form": "pięciu",
@@ -85,6 +93,12 @@
      "ipa": "/ˈpjɛɲt͡ɕ/"
     }
    ],
+   "relations": [
+    {
+     "term": "piędź",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
    "senses": [
     {
      "gloss": "five",
@@ -95,6 +109,7 @@
      ]
     }
    ],
+   "syllabification": "pięć",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -106,6 +121,14 @@
    ]
   },
   {
+   "audio": [
+    {
+     "file": "Pl-pięć.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-pięć.wav"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -118,6 +141,12 @@
    "pronunciations": [
     {
      "ipa": "/ˈpjɛɲt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "piędź",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -133,6 +162,7 @@
      ]
     }
    ],
+   "syllabification": "pięć",
    "topics": [
     "Five"
    ]
@@ -143,5 +173,10 @@
    "text": "Inherited from Old Polish pięć. Doublet of cynek and poncz."
   }
  ],
+ "frequency": {
+  "count": 431,
+  "rank": 367,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "pięć"
 }

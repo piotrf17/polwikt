@@ -1,6 +1,17 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-Warszawa.ogg"
+    },
+    {
+     "file": "Warszawa pl.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Poemat-Warszawa.wav"
+    }
+   ],
    "forms": [
     {
      "form": "Warszawa",
@@ -64,6 +75,12 @@
    "pronunciations": [
     {
      "ipa": "/varˈʂa.va/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "warszawa",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -207,6 +224,7 @@
      "gloss": "FSO Warszawa (line of cars manufactured in Warsaw between 1951 and 1973)"
     }
    ],
+   "syllabification": "War‧sza‧wa",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

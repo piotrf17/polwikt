@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-powiedzieć.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "powiedzieć",
@@ -769,6 +774,7 @@
      ]
     }
    ],
+   "syllabification": "po‧wie‧dzieć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -788,5 +794,10 @@
    "text": "Inherited from Old Polish powiedzieć. By surface analysis, po- + wiedzieć."
   }
  ],
+ "frequency": {
+  "count": 785,
+  "rank": 55,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "powiedzieć"
 }

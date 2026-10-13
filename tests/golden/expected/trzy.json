@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "pl-trzy.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-trzy.wav"
+    }
+   ],
    "pos": "POS_NUMERAL",
    "pronunciations": [
     {
@@ -17,11 +25,20 @@
      ]
     }
    ],
+   "syllabification": "trzy",
    "topics": [
     "Three"
    ]
   },
   {
+   "audio": [
+    {
+     "file": "pl-trzy.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-trzy.wav"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -54,6 +71,7 @@
      ]
     }
    ],
+   "syllabification": "trzy",
    "topics": [
     "Three"
    ]
@@ -64,5 +82,10 @@
    "text": "Inherited from Old Polish trzy. Doublet of dryja."
   }
  ],
+ "frequency": {
+  "count": 568,
+  "rank": 82,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "trzy"
 }

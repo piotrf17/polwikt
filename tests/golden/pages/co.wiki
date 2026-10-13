@@ -1,0 +1,934 @@
+{{also|Appendix:Variations of "co"|со}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{clip|mul|en:'''Co'''rsican,co:'''co'''rsu}}, from {{der|mul|la|Corsica}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+===See also===
+* {{langcat}}
+
+==English==
+{{wp}}
+
+===Pronunciation===
+* {{enPR|kō|a=RP}}, {{IPA|en|/kəʊ/}}
+* {{enPR|kō|a=GA}}, {{IPA|en|/koʊ/}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-co.wav|a=Southern England}}
+* {{rhymes|en|əʊ|s=1}}
+
+===Etymology 1===
+{{ety|en|:clip|company|tree=1|text=+}}
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|colloquial}} {{clipping of|en|company}}.
+
+=====Alternative forms=====
+* {{alt|en|co.|Co|Co.}}
+
+=====Derived terms=====
+{{col|en|newco|shitco|yield co}}
+
+===Etymology 2===
+{{coinage|en|Mary Orovan|w=-|occ=feminist writer|in=1970}}; in common usage in [[intentional communities]] of the {{w|Federation of Egalitarian Communities}}.<ref>{{cite-web|author=Dennis Baron|work=Illinois University|title=The Epicene Pronouns|url=http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm|accessdate=2010-06-22}}</ref><ref>{{cite-web|author=Jim Kingdon|work=Panix|title=Gender-free Pronouns in English|url=http://www.panix.com/~kingdon/gender.html|accessdate=2010-06-22}}</ref>
+
+====Pronoun====
+{{en-pron|desc=third-person singular, gender-neutral|reflexive|coself}}
+
+# {{lb|en|nonstandard}} {{non-gloss|[[gender-neutral|Gender-neutral]] subject pronoun, coordinate with gendered pronouns {{m|en|he}} and {{m|en|she}}.}}
+#* {{quote-book|en|year=1983|author=Ingrid Komar|title=Living the Dream: A Documentary Study of Twin Oaks Community|passage='''Co''' consistently does less than [[cos]] share of the Community work. 4. '''Co''' absents [[coself]] from the Community for more than three weeks [...]}}
+#* {{quote-book|en|year=1996|author=Beemyn, Brett; Elianon, Mickey|title=Queer studies: A Lesbian, Gay, Bisexual, and Transgender Anthology|page=74|pageurl=https://archive.org/details/queerstudieslesb0000unse/page/74/mode/1up|url=https://archive.org/details/queerstudieslesb0000unse|passage=At the very least, an individual might have to use different terms to describe [[coself]] in a heterosexual context than '''co''' uses in a sexual minority context and different terms in a Euro-American cultural context than in other racial and ethnic contexts.}}
+#* {{quote-newsgroup|en|date=April 1 2004|author=Pieira dos Lobos|title=Fern's Story two|newsgroup=alt.magick.serious
+|passage=A youngster of my own introduction had been rejected by an object of preadolescent craving and had killed [[coself]] by leaping at the ceiling of co's quarters. '''Co''' was a rising Large Game star, her spring was powerful, our gravity flux was low - co's head struck the surface with enough force to kill on impact.}}
+# {{lb|en|nonstandard}} {{non-gloss|[[gender-neutral|Gender-neutral]] object pronoun, coordinate with gendered pronouns {{m|en|him}} and {{m|en|her}}.}}
+
+=====Derived terms=====
+* {{l|en|cos}}
+* {{l|en|coself}}
+
+===References===
+{{reflist}}
+
+===See also===
+* {{l|en|co-wash}} {{i|etymologically unrelated}}
+
+===Anagrams===
+* {{anagrams|en|a=co|Oc|O. C.|oc|Oc.|O.C.|OC}}
+
+{{cln|en|third person pronouns}}
+{{C|en|Gender}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:čso|text=+|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-co.ogg}}
+* {{audio|cs|LL-Q9056 (ces)-Akronos123-co.wav}}
+
+===Pronoun===
+{{head|cs|pronoun|g=n}}
+
+# [[what]]
+#: {{uxi|cs|'''Co''' se děje?|t='''What'''{{'}}s up?}}
+#: {{uxi|cs|'''Co''' se stalo?|t='''What''' happened?}}
+
+====Declension====
+{{cs-ndecl|pron}}
+
+===Conjunction===
+{{head|cs|conjunction}}
+
+# [[that]]
+#: {{uxi|cs|Od té doby, '''co''' jsme spolu…|t=Since we’ve been together…|lit=Since the time '''that''' we’ve been together…}}
+# [[what]]
+#: {{uxi|cs|Ví, '''co''' chce.|t=He knows '''what''' he wants.}}
+
+===Particle===
+{{head|cs|particle}}
+
+# {{lb|cs|indeclinable}} [[isn't it so]], don't you think?
+#: {{uxi|cs|To je pěkné, '''co'''?|t=That’s nice, '''isn’t it'''?}}
+
+====Derived terms====
+{{col|cs|co by dup
+|cokoli
+|cokoliv
+|copak
+|cosi
+|což
+|cože
+|něco
+|no a co
+|nic}}
+
+===See also===
+* {{l|cs|kdo}}
+* {{l|cs|kdy}}
+* {{l|cs|kde}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+==Dalmatian==
+
+===Etymology===
+From {{inh|dlm|la|quod}}.
+
+===Pronoun===
+{{head|dlm|pronoun}}
+
+# [[what]]
+
+==Dumbea==
+
+===Pronunciation===
+* {{IPA|duf|/soː/}}
+
+===Noun===
+{{head|duf|noun}}
+
+# [[water]]
+
+===References===
+* {{R:map:ABVD|lang=ⁿDuᵐbea|id=1487|cite={{cite-book|author=Leenhardt, M.|year=1946|title=Langues et dialectes de l'Austro-Mèlanèsie}}.}}
+* {{R:map:ABVD|lang=Drubea|id=1369|cite={{cite-book|title=Dictionnaire de la langue de Païta|author=Shintani, T.L.A. & Païta, Y.|year=1990|publisher=Sociéte d'etudes historiques de Nouvelle-Calédonie|location={{w|Nouméa}}}}.}}
+
+{{topics|duf|Water}}
+
+==Esperanto==
+
+===Pronunciation===
+{{eo-pr|a=LL-Q143 (epo)-Lepticed7-co.wav;LL-Q143 (epo)-Robin van der Vliet-co.wav}}
+
+===Noun===
+{{eo-head}}
+
+# {{Latn-def|eo|name|C|c}}
+
+====See also====
+{{list:Latin script letter names/eo}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+* {{R:eo:ReVo}}
+
+==Fijian==
+
+===Etymology===
+{{rfe|fj}} Compare {{cog|wyy|o|ō|grass}}.
+
+===Noun===
+{{head|fj|noun|head=cō}}
+
+# any small non-woody [[plant]], including [[grass]]es and [[herb]]s
+#: {{ux|fj|Na '''co''' e vakaveretaka na qele.|The '''grass''' protects the soil.}}
+# {{lb|fj|by extension}} any [[herbaceous]] plant
+
+====Usage notes====
+This term applies to various types of grasses and herbs, including lawn grass, as well as any small plant that is not woody or shrub-like.
+
+====Derived terms====
+{{col|fj
+|co boi,bucago,bucavu<t:West Indian lemon grass, lemongrass ({{taxfmt|Cymbopogon citratus|species}})>
+|co ca<t:weed, unwanted plant>
+|co drogadroga,co gadrogadro<t:sensitive plant, touch-me-not ({{taxfmt|Mimosa pudica|species}})>
+|cocona<t:overgrown (of a garden)><qq:Lau>
+|covuata<t:cereal grain (wheat, rice, corn, etc.)><qq:rare>
+|ikoti-ni-co<t:lawnmower, bush-cutter><lit:grass cutter>
+|veico<t:grassland>}}
+
+===See also===
+* {{l|fj|karasi||marijuana, weed, grass|qq=slang}}
+
+===References===
+* {{R:fj:Gatty:2009|+|page=49}}
+
+{{C|fj|Grasses|Herbs|Plants}}
+
+==Gagauz==
+
+===Conjunction===
+{{head|gag|conjunction}}
+
+# {{obsolete spelling of|gag|ko}}
+
+===Further reading===
+* {{R:gag:Ciachir:1938|page=34|co}}
+
+==Galician==
+
+===Etymology===
+From contraction of preposition {{m|gl|con||with}} + masculine definite article {{m|gl|o||the}}.
+
+===Pronunciation===
+* {{IPA|gl|/ˈkoː/}}
+
+===Contraction===
+{{head|gl|contraction|g=m|feminine|coa|masculine plural|cos|feminine plural|coas}}
+
+# [[with]] [[the]]
+
+===References===
+* {{R:gl:DRAG|con}}
+
+==Gallo==
+
+===Etymology===
+From {{inh|roa-gal|fro|coc}}.
+
+===Noun===
+{{head|roa-gal|noun|g=m}}
+
+# [[rooster]], [[cockerel]], [[cock]]
+
+{{C|roa-gal|Chickens|Male animals}}
+
+==Ido==
+
+===Pronunciation===
+* {{io-IPA}}
+
+===Pronoun===
+{{head|io|pronoun|plural|ci}}
+
+# {{alternative form of|io|ico||this}}
+
+==Irish==
+
+===Pronunciation===
+* {{IPA|ga|/kɔ/|ref={{R:ga:Quiggin|114|329}}}}
+
+===Adverb===
+{{ga-adverb|var=1}}
+
+# {{alternative form of|ga|chomh|from=Ulster}}
+
+===References===
+{{reflist|size=smaller}}
+
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=what|:inh|sla-pro:*česo<id:what>|tree=1|text=+}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Pronoun===
+{{head|csb|pronoun|cat2=interrogative pronouns}}
+
+# {{ng|interrogative pronoun}}; [[what]]?
+# {{ng|relative pronoun}}; that [[what]]..., [[which]], [[that]]
+
+====Declension====
+{{csb-decl-co}}
+
+===Further reading===
+* {{R:csb:SJP1893|+|18}}
+* {{R:csb:SPK|+}}
+* {{R:csb:ISKJ|+|13339}}
+
+==Khumi Chin==
+
+===Pronunciation===
+* {{IPA|cnk|/so˥/}}
+
+===Noun===
+{{head|cnk|noun}}
+
+# {{alternative form of|cnk|caw|from=Northern Khumi}}
+
+===References===
+* {{R:cnk:Peterson:2013|page=220}}
+
+==Ladin==
+
+===Conjunction===
+{{head|lld|conjunction}}
+
+# [[than]] {{gloss|used in comparisons}}
+
+===Adverb===
+{{head|lld|adverb}}
+
+# [[how]] {{gloss|in what manner}}
+# [[how]] {{gloss|in what state}}
+
+====Derived terms====
+* {{l|lld|coche}}
+
+==Lower Sorbian==
+
+===Alternative forms===
+* {{alter|dsb|zo||obsolete}}
+
+===Pronunciation===
+* {{IPA|dsb|/t͡sɔ/}}
+
+===Etymology 1===
+From {{inh|dsb|sla-pro|*česo}}, from {{der|dsb|ine-pro|*kʷid}}, {{m|ine-pro|*kʷís}}.
+
+====Pronoun====
+{{head|dsb|pronoun}}
+
+# [[what]] {{gloss|interrogative}}
+
+=====Declension=====
+{{dsb-decl-pron-57|c}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Verb====
+{{head|dsb|verb form}}
+
+# {{inflection of|dsb|kśěś||3|s|pres}}
+
+===Further reading===
+* {{R:dsb:Muka}}
+* {{R:dsb:Starosta}}
+
+==Macanese==
+
+===Alternative forms===
+* {{alt|mzs|cô|com}}
+
+===Etymology===
+From {{der|mzs|pt|com}}. Sense of "and" may be a {{semantic loan|mzs|yue|同|nocap=1}}.
+
+===Pronunciation===
+* {{IPA|mzs|/kɔ/}}
+
+===Preposition===
+{{head|mzs|preposition}}
+
+# [[with]]
+#: {{uxi|mzs|nhonha '''co''' fula|the girl '''with''' the flower}}
+# [[to]], [[at]]
+#: {{uxi|mzs|Já gritâ '''co''' iou|t=He shouted '''at''' me}}
+
+===Conjunction===
+{{head|mzs|conjunction}}
+
+# [[and]]
+#: {{coi|mzs|iou '''co''' vôs|t=me '''and''' you}}
+
+====Usage notes====
+* ''co'' is not very commonly used to connect two clauses. More often, related clauses are simply listed one after the other with no connectives, or connected with pronouns such as {{m|mzs|qui}} or {{m|mzs|quelóra}}.
+* The Portuguese compound forms {{m|pt|comigo}}, {{m|pt|contigo}} etc. are not used in Macanese. As seen in the examples, "with me" is given as {{m|mzs||co iou}}.
+
+==Middle Irish==
+
+===Alternative forms===
+* {{alter|mga|go}}
+
+===Etymology===
+From {{inh|mga|sga|co}}, from {{inh|mga|cel-pro|*kʷos}}.
+
+===Preposition===
+{{head|mga|preposition|takes the accusative; triggers h-prothesis before vowels}}
+
+# [[to]], [[toward]]
+#* {{RQ:mga:SMMD|1|passage=Ro·ferad failte friu uile, ocus ructha '''chucisium''' isin mbruidin.|translation=They were all made welcome and brought to him in the hall.}}
+
+====Inflection====
+Forms combined with an object pronoun
+* 1st person singular: {{l|mga|chucum}}, {{l|mga|chucom}}, {{l|mga|cucom}}, {{l|mga|cugam}}
+** emphatic: {{l|mga|chucumsa}}, {{l|mga|chucomso}}, {{l|mga|cucomsa}}, {{l|mga|cugamsa}}
+* 2nd person singular: {{l|mga|chucut}}
+** emphatic: {{l|mga|chucutsu}}
+* 3rd person singular masculine: {{l|mga|[[chuci|chuc]]([[chucai|a]])[[chuci|i]]}}, {{l|mga|[[cuci|cuc]]([[cucai|a]])[[cuci|i]]}}, {{l|mga|[[chuce|chu]]([[chuice|i]])[[chuce|ce]]}}, {{l|mga|cuce}}
+** emphatic: {{l|mga|[[cucisium|c]]([[chucisium|h]])[[cucisium|ucisium]]}}
+* 3rd person singular feminine: {{l|mga|[[chucci|chu]]([[chuicci|i]])[[chucci|cci]]}}
+* 1st person plural: {{l|mga|[[cucain]]([[cucainn|n]])}}, {{l|mga|chucaind}}, {{l|mga|chucund}}, {{l|mga|cucund}}
+** emphatic: {{l|mga|cucainni}}, {{l|mga|cucainne}}
+* 3rd person plural: {{l|mga|[[cucu|c]]([[chucu|h]])[[cucu|ucu]]}}, {{l|mga|chucco}}, {{l|mga|cuco}}, {{l|mga|[[cuca|c]]([[chuca|h]])[[cuca|uca]])}}, {{l|mga|[[cuctu|c]]([[chuctu|h]])[[cuctu|uctu]]}}, {{l|mga|chucta}}
+
+Forms combined with the definite article:
+* {{l|mga|[[cosin|cos]]([[cossin|s]])[[cosin|in]]}}, {{l|mga|[[cusin|cus]]([[cussin|s]])[[cusin|in]]([[cusind|d]])|pos=masculine/feminine singular}}
+* {{l|mga|[[cosa|cos]]([[cossa|s]])[[cosa|a]]|pos=neuter singular}}
+* {{l|mga|cusna|pos=plural}}
+Forms combined with the relative particle:
+* {{l|mga|[[cosa|cos]]([[cossa|s]])[[cosa|a]]}}
+Forms combined with a possessive determiner:
+* 1st person singular: {{l|mga|com}}
+* 2nd person singular: {{l|mga|cot}}
+* 3rd person: {{l|mga|co [[a]]}}, {{l|mga|ca}}
+
+====Descendants====
+* {{desc|ga|chuig|chun|go}}
+* {{desc|gd|gu|chun}}
+
+===Further reading===
+* {{R:DIL|head=1 co {{m-g|to, towards}}|9786}}
+
+==Norman==
+
+===Etymology 1===
+From {{inh|nrf|fro|colp}}, {{m|fro|coup}}, from {{inh|nrf|la-vul|*colpus}}, from Classical {{inh|nrf|la|colaphus||blow with the fist; cuff}}, from {{der|nrf|grc|κόλαφος||blow, slap}}.
+
+====Noun====
+{{nrf-noun|m}}
+
+# {{lb|nrf|Jersey}} [[blow]]
+
+=====Alternative forms=====
+* {{l|nrf|coup}}
+
+=====Derived terms=====
+{{col3|nrf|co d'poing,coup d'tampon
+|coup d'feu
+|coup d'ôrage
+|coup d'sang
+|coup d'solé
+|coup d'yi
+|porter un coup}}
+
+===Etymology 2===
+From {{inh|nrf|fro|coq}}, {{m|fro|coc}}.
+
+====Noun====
+{{nrf-noun|m}}
+
+# {{lb|nrf|Jersey}} [[cockerel]]
+
+=====Derived terms=====
+* {{l|nrf|co journieaux}}
+
+===Etymology 3===
+From {{inh|nrf|fro|col}}, from {{inh|nrf|la|collum||neck}}.
+
+====Noun====
+{{nrf-noun|m}}
+
+# {{lb|nrf|Jersey|Guernsey|Normandy|anatomy}} [[neck]]
+
+=====Alternative forms=====
+* {{l|nrf|ko}} {{qualifier|Sark}}
+
+==Northern Kurdish==
+
+===Alternative forms===
+* {{alter|kmr|cihok}}
+
+===Etymology===
+Compare {{cog|fa|جوی|tr=juy}} or {{cog|fa|جو|tr=ju}}.
+
+===Pronunciation===
+* {{kmr-IPA}}
+
+===Noun===
+{{kmr-noun|m}}
+
+# [[ditch]], [[trench]], [[channel]], [[canal]], [[duct]], [[fosse]], [[aqueduct]], [[sluice]]
+
+====Derived terms====
+* {{l|kmr|cobar}}
+
+==Old Irish==
+
+===Pronunciation===
+* {{sga-IPA|c}}
+
+===Etymology 1===
+{{etymid|sga|with}}
+From {{inh|sga|cel-pro|*kom}}, from {{inh|sga|ine-pro|*ḱóm||next to, at, with, along}}.<ref>{{R:cel:EDPC|head=*kom|page=213}}</ref> Cognate with {{cog|de|ge-||with}} (collective prefix) and {{m|de|gegen||toward, against}}, {{cog|en|gain-}}, {{cog|es|con||with}}.
+
+====Preposition====
+{{head|sga|preposition|triggers nasalization}} {{abbreviated|sga|ɔ}} {{+obj|sga|dat|catpos=prep}}
+
+# [[with]]
+{{see citations|sga}}
+
+=====Inflection=====
+Usually the inflected forms of {{m|sga|la}} are used instead.
+{{sga-prep-infl
+|3sgm-dat=cono
+}}
+Forms combined with the definite article:
+* {{l|sga|cosind}} {{i|dative singular}}
+* {{l|sga|cosnaib}} {{i|dative plural}}
+
+Combinations with possessive determiners:
+* {{l|sga|com}} {{i|1st person singular}}
+* {{l|sga|cut}}, {{l|sga|cot}} {{i|2nd person singular}}
+* {{l|sga|cona}} {{i|3rd person singular}}
+
+=====Synonyms=====
+* {{l|sga|la}}
+
+=====Descendants=====
+* {{desc|mga|co}}
+
+====Further reading====
+* {{R:DIL|head=2 co {{m-g|with}}|9787}}
+* {{R:sga:GOI|pp=274; 502–4|s=436; 830}}
+
+===Etymology 2===
+{{etymid|sga|how}}
+From {{inh|sga|ine-pro|*kʷís|*kʷóbʰi}} or {{m|ine-pro|*kʷís|*kʷódʰi}}.<ref>{{R:ine:LIPP|vol=2|page=463}}</ref>
+
+====Adverb====
+{{head|sga|adverb|cat2=interrogative adverbs}}
+
+# [[how]]?
+#: {{ux|sga|'''Co'''·bbia mo ḟechtas?|'''How''' will my expedition be?}}
+
+=====Usage notes=====
+The adverb is followed by the dependent form of the verb, which is neither nasalized nor lenited.
+
+=====Derived terms=====
+* {{l|sga|cote}}
+
+====Further reading====
+* {{R:DIL|head=4 co {{m-g|how?}}|9789}}
+
+===Etymology 3===
+{{etymid|sga|until}}
+From {{inh|sga|cel-pro|*kʷuts|t=to, towards}}, cognate with {{cog|wlm|py|t=to}}. This may be from {{w|Proto-Italo-Celtic|}} ''*kuts'' ‘some (of the) way’, whence {{cog|la|usquam|alt=us-quam|t=somewhere}}, {{m|la|usque|us-que|t=all of the way}}{{,}} and {{cog|osc|𐌐𐌖𐌆|t=as, that|pos=conjunction}}.<ref>{{cite-journal|year=1993|author=Kim McCone|title=Varia II. Old Irish ''co'', ''cucci'' ‘as far as (him, it)’ and Latin ''usque'' ‘as far as’|journal=Ériu|url=https://www.jstor.org/stable/30006886|volume=44|pages=171-76|accessdate=31 May 2024}}</ref><ref>{{R:ine:LIPP|vol=2|page=439|entry=?''kúth₂-s''}}</ref><ref>{{R:itc:WOU|pages=627-28|head=O.u.puz}}</ref> See {{m+|ine-pro|*kú|t=where}}.
+
+The inflected forms on the other hand are from {{m+|cel-pro||*kʷunkʷe}} ← {{affix|cel-pro||alt1=*kʷum|*-kʷe|nocat=1}}, for which compare {{cog|sla-pro|*kъ(n)|t=to, towards}}.
+
+====Preposition====
+{{head|sga|preposition|triggers h-prothesis before vowels}} {{+obj|sga|acc|catpos=prep}}
+
+# [[to]], [[toward]]
+# [[up to]], [[until]]
+# {{n-g|used with the neuter accusative singular of an adjective to form an adverb}}: [[-ly]]<ref>{{R:sga:Thurneysen|p=239|s=381}}</ref>
+{{see citations|sga}}
+
+=====Inflection=====
+{{sga-prep-infl
+|1sg         = [[cucum|cuc]]([[cuccum|c]])[[cucum|um]]
+|1sg-em      = [[cucumsa|cuc]]([[cuccumsa|c]])[[cucumsa|umsa]]
+|2sg         = [[cucut|cuc]]([[cuccut|c]])[[cucut|ut]]
+|2sg-em      = [[cucutsu|cuc]]([[cuccutsu|c]])[[cucutsu|utsu]]
+|3sgm-acc    = [[cuci|cuc]]([[cucci|c]])[[cuci|i]], [[cucai|cuc]]([[cuccai|c]])[[cucai|ai]]
+|3sgm-acc-em = [[cucisom|cuc]]([[cuccisom|c]])[[cucisom|isom]], [[cucaisom|cuc]]([[cuccaisom|c]])[[cucaisom|isom]]
+|3sgf-acc    = [[cuice|cuic]]([[cuicce|c]])[[cuice|e]], [[cucae|cuc]]([[cuccae|c]])[[cucae|e]]
+|3sgf-acc-em =
+|1pl         = [[cucunn|cuc]]([[cuccunn|c]])[[cucunn|unn]]
+|1pl-em      =
+|2pl         = [[cucuib|cuc]]([[cuccuib|c]])[[cucuib|uib]]
+|2pl-em      = [[cucuibsi|cuc]]([[cuccuibsi|c]])[[cucuibsi|uibsi]]
+|3pl-acc     = [[cucu|cuc]]([[cuccu|c]])[[cucu|u]]
+|3pl-acc-em  =
+}}
+Forms combined with the definite article:
+* {{l|sga|[[cosin|cos]]([[cossin|s]])[[cosin|in]]|pos=masculine/feminine singular}}
+* {{l|sga|[[cosa|cos]]([[cossa|s]])[[cosa|a]]|pos=neuter singular}}
+* {{l|sga|cosna|pos=plural}}
+Forms combined with the relative particle:
+* {{l|sga|[[cosa|cos]]([[cossa|s]])[[cosa|a]]}}
+
+=====Derived terms=====
+* {{l|sga|cosse}}
+
+=====Descendants=====
+* {{desctree|mga|co}}
+
+====Conjunction====
+{{head|sga|conjunction|triggers nasalization||followed by the prototonic or conjunct form of a verb||may be followed by an infixed pronoun}} {{abbreviated|sga|ɔ}}
+
+# [[until]]
+# {{senseid|sga|so that}} [[so that]]
+{{see citations|sga}}
+
+=====Usage notes=====
+A leniting {{m|sga||co}} that takes absolute and deuterotonic forms is also attested in the glosses only.
+
+=====Alternative forms=====
+* {{alt|sga|con}}
+
+=====Synonyms=====
+* {{l|sga|ara}}
+
+=====Derived terms=====
+{{col|sga
+|coní<t:so that…not><qq:corresponding to the nasalizing conjunction>
+|conna<t:so that…not><qq:corresponding to the leniting conjunction>
+|conid<t:so that…is>
+}}
+
+=====Descendants=====
+* {{desc|ga|go}}
+* {{desc|gd|gu}}
+* {{desc|gv|dy}}
+
+====Further reading====
+* {{R:DIL|head=1 co {{m-g|to, towards}}|9786}}
+* {{R:DIL|head=3 co {{m-g|until, so that}}|9788}}
+* {{R:sga:Thurneysen|ss=433, 829, 896–97}}
+* {{R:cel:EDPC|head=*kʷo-|page=180}}
+
+===References===
+{{reflist|size=smaller}}
+
+==Old Polish==
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Pronoun===
+{{head|zlw-opl|pronoun|g=n}}
+
+# {{alt form|zlw-opl|czso}}
+
+===Conjunction===
+{{head|zlw-opl|conjunction}}
+
+# {{alt form|zlw-opl|czso}}
+
+===Particle===
+{{head|zlw-opl|particle}}
+
+# {{alt form|zlw-opl|czso}}
+
+==Polish==
+
+===Etymology===
+{{ety|pl|id=what|:inh|zlw-opl:czso<id:what>|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-co.ogg;LL-Q809 (pol)-Olaf-co.wav;LL-Q809 (pol)-Gower-co.wav|hh=co-|mp=#|kuj=#}}
+
+===Pronoun===
+{{head|pl|pronoun|g=n}}
+
+# {{ng|interrogative pronoun}}; [[what]]
+#: {{ux|pl|'''Co''' to?|t='''What''' is that?}}
+# {{ng|pronoun for introducing a [[subordinate clause]] that narrows the scope of the [[main clause]]}}; [[which]], [[that]]; [[what]]; [[who]]
+#: {{ux|pl|Znam takiego gościa, '''co''' ma konia.|I know a guy '''that''' has a horse.}}
+# {{ng|pronoun that attaches a [[relative clause]] to the [[main clause]]}}; [[which]], [[that]]; [[what]]; [[who]]
+#: {{ux|pl|Ta kobieta, '''co''' mieszkała w tym mieszkaniu, wyjechała do Niemiec.|That woman, '''who''' lived in that apartment, moved to Germany.}}
+# {{lb|pl|colloquial}} {{ng|relative pronoun}}
+#: {{ux|pl|Jakość będzie równa temu, '''co''' zapłacisz.|The quality will be equal to '''whatever''' you pay.}}
+# {{lb|pl|colloquial}} [[why]]
+#: {{ux|pl|'''Co''' ona taka smutna?|'''Why''' is she so sad?}}
+
+====Declension====
+{{pl-decl-noun-sing|co|[[czego]]|[[czemu]]|co|[[czym]]|[[czym]]|co}}
+
+====Derived terms====
+{{col|pl|title=adverbs|dopiero co|o mało co|póki co}}
+{{col|pl|title=numeral|co niemiara}}
+{{col|pl|title=particles|bądź co bądź|co dopiero|co gorsza|co więcej|nie ma co}}
+{{col|pl|title=pronouns|co za}}
+
+====Related terms====
+{{col|pl|title=pronouns|coś|cóż}}
+
+====Trivia====
+{{pl-freq 1990|207|81|219|465|1252|2224|19|56|1|head=co (pronoun)}}
+
+===Preposition===
+{{head|pl|preposition}}
+
+# [[every]] {{gl|referring to frequency}} {{+obj|pl|acc}}
+#: {{coi|pl|'''co''' drugi dzień|'''every''' other day}}
+#: {{coi|pl|'''co''' miesiąc|'''every''' month}}
+#: {{coi|pl|'''co''' rok|'''every''' year, annually}}
+#: {{coi|pl|'''co''' minutę|'''every''' minute}}
+#: {{coi|pl|'''co''' środę|'''every''' Wedneday}}
+#: {{coi|pl|'''co''' chwilę|'''every''' moment}}
+
+====Derived terms====
+{{col|pl|co drugi}}
+
+====Related terms====
+{{col|pl|title=prefix|co-}}
+
+====Trivia====
+{{pl-freq 1990|8|10|10|33|16|77|836|56|1|head=co (preposition)}}
+
+===Conjunction===
+{{head|pl|conjunction}}
+
+# [[as]]
+#: {{uxi|pl|Ma ten sam rower '''co''' ja.|He has the same bike '''as''' me.}}
+# {{lb|pl|Kujawy}} {{syn of|pl|że}}
+
+====Trivia====
+{{pl-freq 1990|14|4|10|33|73|134|450|56|1|head=co (conjunction)}}
+
+===Particle===
+{{head|pl|particle}}
+
+# {{ng|used as a [[tag question]], to emphasise what goes before or to request that the listener express an opinion about what has been said}}
+#: {{uxi|pl|Interesujące, '''co'''?|Interesting, isn't it?}}
+
+===Trivia===
+{{pl-freq 1990|207|81|219|465|1252|2224|19|56|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|co|46915}}
+* {{R:pl:SXVII|CO I|4256|SPas|21.05.2019}}
+* {{R:pl:SXVII|CO II|4257|SPas|07.05.2010}}
+* {{R:pl:SXVII|CO III|4258|SPas|11.04.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||345|1}}
+* {{R:pl:Bliziński:1860||621}}
+* {{R:pl:Kolberg:1867||269}}
+
+{{cln|pl|degree adverbs}}
+
+==Portuguese==
+
+===Alternative forms===
+* {{alt|pt|c'o|co'o||pre-1911}}
+
+===Etymology===
+From [[ecthlipsis]] of {{m|pt|com}}, followed by [[crasis]]. Cognate with {{cog|scn|cû}} ~ {{m|scn|cô}}.
+
+===Pronunciation===
+{{pt-IPA|cȯ}}
+* {{hyph|pt|co}}
+
+===Contraction===
+{{pt-contr-adj|f=coa|f2=ca<l:colloquial>}}
+
+# {{lb|pt|colloquial|or|poetic}} {{contr of|pt|com<t:with>|o<g:m-s><pos:definite article>}}
+
+====Usage notes====
+Although superseded in the first spelling reforms of Portuguese, the spellings {{m|pt|c'o}}, {{m|pt|c'os}}, {{m|pt|co'a}}{{,}} {{m|pt|co'as}} are often still used in poetic works in order to make the contraction transparent.
+
+==Romansh==
+
+===Alternative forms===
+* {{alt|rm|che||Rumantsch Grischun|Sursilvan}}
+* {{alt|rm|ca||Sutsilvan}}
+* {{alt|rm|tgi||Surmiran}}
+* {{alt|rm|cu||Puter}}
+
+===Etymology===
+From {{inh|rm|la|quam}} or {{m|la|quod}}.
+
+===Conjunction===
+{{head|rm|conjunction}}
+
+# {{lb|rm|Vallader}} [[than]]
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=what|:inh|zlw-opl:czso<id:what>|text=+|tree=1}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Pronoun===
+{{head|szl|pronoun|cat2=interrogative pronouns|g=n}}
+
+# {{lb|szl|interrogative}} [[what]]
+#: {{uxi|szl|'''Co'''ś kupiōł?|'''What''' did you buy?}}
+# {{lb|szl|relative}} [[that]]
+#: {{uxi|szl|Te zoki, '''co'''ch ci je bez zimã kupiyła.|Those socks '''that''' I bought you in winter.}}
+# {{lb|szl|interrogative}} [[why]], [[what for]]
+#: {{uxi|szl|'''Co''' ty mi sie sam po chałupie smykŏsz?|'''What''' are you having a stroll around my house '''for'''?}}
+
+====Declension====
+{{szl-decl-co}}
+
+===Conjunction===
+{{head|szl|conjunction}}
+
+# {{lb|szl|proscribed}} {{ng|coordinating conjunction}}; [[that]]
+#: {{syn|szl|że<q:prescribed>}}
+
+===Preposition===
+{{head|szl|preposition}}
+
+# [[every]] {{gl|referring to frequency}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr|có}}
+
+===Noun===
+{{es-noun|m}}
+
+# {{lb|es|Aragon|colloquial}} [[dude]], [[friend]]
+
+====Related terms====
+{{col|es|compañero|colega|compa}}
+
+===Pronoun===
+{{head|es|pronoun}}
+
+# {{misspelling of|es|có}}
+
+==Venetan==
+
+===Alternative forms===
+* {{l|vec|con}}
+
+===Etymology===
+From {{inh|vec|la|cum}}. Compare {{cog|it|con}}.
+
+===Preposition===
+{{head|vec|preposition}}
+
+# [[with]], [[together]]
+
+===See also===
+* {{l|vec|có}}
+
+==Vietnamese==
+
+===Pronunciation===
+{{vi-IPA}}
+
+===Verb===
+{{vi-verb}}
+
+# to [[shrink]] (to become [[smaller]])
+#: {{ant|vi|phồng}}
+
+====See also====
+{{col|vi|co ro|quanh co|co giãn|kéo co|co rúm|đôi co|giằng co}}
+<!-- I have never heard about this and the only reference I can find is from Vietnamese Wiktionary, which is ...unreliable, to say at least. Also, kéo co ("to pull (outwards)" + "to shrink, to pull inwards") belongs to the etymology above.
+
+===Etymology 2===
+From {{bor|vi|fr|corpse}}.
+
+===Noun===
+{{vi-noun}}
+
+# [[body]]; [[shape]]
+
+====Derived terms====
+{{vi-der|có co|giữ co}}
+-->
+
+==West Makian==
+
+===Pronunciation===
+* {{IPA|mqs|/t͡ʃo/}}
+
+===Verb===
+{{head|mqs|verb}}
+
+# {{lb|mqs|transitive}} to [[see]]
+
+====Conjugation====
+{{mqs-conj|1}}
+
+====Alternative forms====
+* {{alter|mqs|coo|cio}}
+
+===References===
+* {{R:mqs:Voorhoeve:1982}}
+
+==Wutunhua==
+
+===Etymology===
+From {{der|wuh|bo|མཚོ}}.
+
+===Pronunciation===
+* {{IPA|wuh|[t͡sʰo]}}
+
+===Noun===
+{{head|wuh|noun}}
+
+# [[lake]]
+
+===References===
+* {{R:wuh:Janhunen}}
+
+{{c|wuh|Landforms|Water}}
+
+==Yola==
+
+===Alternative forms===
+* {{alter|yol|quo}}
+
+===Etymology===
+{{root|yol|ine-pro|*gʷet-|id=say}}
+From {{inh|yol|enm|quethen}}, from {{inh|yol|ang|cweþan}}, from {{inh|yol|gmw-pro|*kweþan}}.
+
+===Pronunciation===
+* {{IPA|yol|/kɔː/|/kwɔː/}}
+
+===Verb===
+{{head|yol|verb}}
+
+# [[quoth]], [[saith]]<ref name=Poole>{{R:Poole 1867|page=31, &c.}}</ref>
+#* '''1867''', “GLOSSARY OF THE DIALECT OF FORTH AND BARGY“, page 31:<ref name=Poole />  
+#*: {{quote|yol|'''Co''' thou; '''Co''' he.|'''Quoth''' thou;  '''Says''' he.}}
+#* '''1867''', “A YOLA ZONG“, number 1, page 84:<ref name=Poole />
+#*: {{quote|yol|Fᴀᴅᴇ teil thee zo lournagh, '''co''' Joane, zo knaggee?|Wʜᴀᴛ ails you so melancholy, '''quoth''' John, so cross?}}
+#* '''1867''', “A YOLA ZONG“, number 13, page 90:<ref name=Poole />
+#*: {{quote|yol|Ha-ho! be mee coshes, th'ast ee-pait it, '''co''' Joane;|Hey-ho! by my conscience, you have paid it, '''quoth''' John;}}
+#* '''1927''', “ZONG OF TWI MAARKEET MOANS“, page 129:<ref name=Browne>{{R:Browne 1927|page=129, 132}}</ref>
+#*: {{quote|yol|"Swingale," '''co''' the umost, "thou liest well a rent,|"Swindle," '''said''' the other, "you know quite well,}}
+#* '''1927''', “ZONG OF TWI MAARKEET MOANS“, page 129:<ref name=Browne />
+#*: {{quote|yol|Thou liest valse '''co''' secun that thou an ye thick|You lie false, '''said''' the second, that you and your kid,}}
+#* '''1927''', “YOLA ZONG O BARONY VORTH“, page 132:<ref name=Browne />
+#*: {{quote|yol|"Faad thay goul ez upa thee, thou stouk" '''co''' Billeen,|"What the divil is on you, you fool?" '''quoth''' Billy;}}
+#* '''1927''', “YOLA ZONG O BARONY VORTH“, page 132:<ref name=Browne />
+#*: {{quote|yol|'''Co'''  Sooney, "Billeen dowstthee zee faads lewer,|'''Says''' Alice "Billy, do you see what's yonder?"}}
+
+===References===
+{{reflist}}

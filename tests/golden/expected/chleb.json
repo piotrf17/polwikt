@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-chleb.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-chleb.wav"
+    }
+   ],
    "forms": [
     {
      "form": "chleb",
@@ -205,6 +213,7 @@
      ]
     }
    ],
+   "syllabification": "chleb",
    "tables": [
     {
      "kind": "KIND_DECLENSION",

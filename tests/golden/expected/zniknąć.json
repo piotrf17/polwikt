@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-zniknąć.wav"
+    }
+   ],
    "forms": [
     {
      "form": "zniknąć",
@@ -1186,6 +1191,7 @@
      ]
     }
    ],
+   "syllabification": "znik‧nąć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",

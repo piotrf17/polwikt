@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-ręka.ogg"
+    }
+   ],
    "forms": [
     {
      "form": "ręka",
@@ -130,12 +135,7 @@
     {
      "ipa": "[ˈrɛŋ.ka]",
      "labels": [
-      "Western Kraków"
-     ]
-    },
-    {
-     "ipa": "[ˈrɛŋ.ka]",
-     "labels": [
+      "Western Kraków",
       "Eastern Lublin"
      ]
     }
@@ -282,6 +282,7 @@
      ]
     }
    ],
+   "syllabification": "rę‧ka",
    "tables": [
     {
      "kind": "KIND_DECLENSION",
@@ -299,5 +300,10 @@
    "text": "Inherited from Old Polish ręka."
   }
  ],
+ "frequency": {
+  "count": 344,
+  "rank": 147,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
  "lemma": "ręka"
 }

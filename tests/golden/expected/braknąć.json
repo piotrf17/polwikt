@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Poemat-braknąć.wav"
+    }
+   ],
    "forms": [
     {
      "form": "braknąć",
@@ -137,6 +142,7 @@
      ]
     }
    ],
+   "syllabification": "brak‧nąć",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",

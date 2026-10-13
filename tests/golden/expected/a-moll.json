@@ -1,0 +1,45 @@
+{
+ "entries": [
+  {
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_NEUTER"
+     }
+    ],
+    "indeclinable": true
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈa‿mɔl/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "A minor",
+     "keywords": [
+      {
+       "text": "A minor"
+      }
+     ],
+     "relations": [
+      {
+       "term": "gama",
+       "type": "TYPE_HYPERNYM"
+      }
+     ],
+     "topics": [
+      "music"
+     ]
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From a + moll."
+  }
+ ],
+ "lemma": "a-moll"
+}

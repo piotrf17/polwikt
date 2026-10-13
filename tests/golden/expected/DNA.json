@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-DNA.ogg"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -41,7 +46,8 @@
       "molecular biology"
      ]
     }
-   ]
+   ],
+   "syllabification": "D‧N‧A"
   }
  ],
  "etymologies": [

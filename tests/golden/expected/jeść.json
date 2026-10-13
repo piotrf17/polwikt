@@ -1,6 +1,14 @@
 {
  "entries": [
   {
+   "audio": [
+    {
+     "file": "Pl-jeść.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-jeść.wav"
+    }
+   ],
    "forms": [
     {
      "form": "jeść",
@@ -925,6 +933,10 @@
     {
      "term": "jadać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "jeźdź",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1083,6 +1095,7 @@
      ]
     }
    ],
+   "syllabification": "jeść",
    "tables": [
     {
      "kind": "KIND_CONJUGATION",
@@ -1098,6 +1111,14 @@
    }
   },
   {
+   "audio": [
+    {
+     "file": "Pl-jeść.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Gower-jeść.wav"
+    }
+   ],
    "noun": {
     "genders": [
      {
@@ -1116,6 +1137,12 @@
      "labels": [
       "Łowicz"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "jeźdź",
+     "type": "TYPE_HOMOPHONE"
     }
    ],
    "senses": [
@@ -1155,6 +1182,7 @@
      ]
     }
    ],
+   "syllabification": "jeść",
    "topics": [
     "Food and drink"
    ]
