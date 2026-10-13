@@ -57,7 +57,25 @@
      }
     },
     {
+     "form": "-wa się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
      "form": "-wałem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)m -wał",
      "tags": {
       "gender": "GENDER_MASCULINE",
       "number": "NUMBER_SINGULAR",
@@ -75,7 +93,25 @@
      }
     },
     {
+     "form": "-(e)m -wała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-wałom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)m -wało",
      "tags": {
       "gender": "GENDER_NEUTER",
       "number": "NUMBER_SINGULAR",
@@ -93,7 +129,25 @@
      }
     },
     {
+     "form": "-(e)śmy -wali",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-wałyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)śmy -wały",
      "tags": {
       "gender": "GENDER_NONVIRILE",
       "number": "NUMBER_PLURAL",
@@ -111,7 +165,25 @@
      }
     },
     {
+     "form": "-(e)ś -wał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-wałaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)ś -wała",
      "tags": {
       "gender": "GENDER_FEMININE",
       "number": "NUMBER_SINGULAR",
@@ -129,6 +201,15 @@
      }
     },
     {
+     "form": "-(e)ś -wało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-waliście",
      "tags": {
       "gender": "GENDER_VIRILE",
@@ -138,7 +219,25 @@
      }
     },
     {
+     "form": "-(e)ście -wali",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-wałyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)ście -wały",
      "tags": {
       "gender": "GENDER_NONVIRILE",
       "number": "NUMBER_PLURAL",
@@ -747,6 +846,15 @@
      }
     },
     {
+     "form": "-wano by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
      "form": "niech -wam",
      "tags": {
       "mood": "MOOD_IMPERATIVE",
@@ -948,7 +1056,27 @@
      }
     },
     {
+     "form": "-uje się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "table": 1,
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
      "form": "-ywałem",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)m -ywał",
      "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
@@ -968,7 +1096,27 @@
      }
     },
     {
+     "form": "-(e)m -ywała",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-ywałom",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)m -ywało",
      "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
@@ -988,7 +1136,27 @@
      }
     },
     {
+     "form": "-(e)śmy -ywali",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-ywałyśmy",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)śmy -ywały",
      "table": 1,
      "tags": {
       "gender": "GENDER_NONVIRILE",
@@ -1008,7 +1176,27 @@
      }
     },
     {
+     "form": "-(e)ś -ywał",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-ywałaś",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)ś -ywała",
      "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
@@ -1028,6 +1216,16 @@
      }
     },
     {
+     "form": "-(e)ś -ywało",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-ywaliście",
      "table": 1,
      "tags": {
@@ -1038,7 +1236,27 @@
      }
     },
     {
+     "form": "-(e)ście -ywali",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
      "form": "-ywałyście",
+     "table": 1,
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "-(e)ście -ywały",
      "table": 1,
      "tags": {
       "gender": "GENDER_NONVIRILE",
@@ -1712,6 +1930,16 @@
       "mood": "MOOD_CONDITIONAL",
       "number": "NUMBER_PLURAL",
       "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "-ywano by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "table": 1,
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
      }
     },
     {

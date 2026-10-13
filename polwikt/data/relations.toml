@@ -84,3 +84,16 @@ abbr = "TYPE_ABBREVIATION"
 [headword."pl-adv"]
 dim = "TYPE_DIMINUTIVE"
 abbr = "TYPE_ABBREVIATION"
+
+# {{head|pl|<pos>|label|form|label|form…}}: the generic headword's label/form pairs
+# (Module:headword) whose label names a relation. Other labelled forms are counted
+# (headword.head.unmapped.<label>); a label with no form ("indeclinable") is not one.
+[head_pairs]
+"feminine form" = "TYPE_FEMININE_EQUIVALENT"
+"feminine" = "TYPE_FEMININE_EQUIVALENT"
+"masculine form" = "TYPE_MASCULINE_EQUIVALENT"
+"masculine" = "TYPE_MASCULINE_EQUIVALENT"
+"neuter" = "TYPE_NEUTER_EQUIVALENT"
+"abbreviation" = "TYPE_ABBREVIATION"
+"diminutive" = "TYPE_DIMINUTIVE"
+"augmentative" = "TYPE_AUGMENTATIVE"

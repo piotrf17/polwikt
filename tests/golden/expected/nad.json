@@ -200,7 +200,7 @@
        "translation": "The teacher skillfully keeps control over the class."
       }
      ],
-     "gloss": "over",
+     "gloss": "over (indicates relative status, authority or power)",
      "government": [
       {
        "grammatical_case": "CASE_INSTRUMENTAL"
@@ -210,9 +210,6 @@
       {
        "text": "over"
       }
-     ],
-     "labels": [
-      "indicates relative status, authority or power"
      ],
      "relations": [
       {

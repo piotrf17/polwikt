@@ -1003,7 +1003,15 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "dojść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "nachodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "najść",
      "type": "TYPE_DERIVED"
     },
     {
@@ -1011,7 +1019,15 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "nadejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "obchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obejść",
      "type": "TYPE_DERIVED"
     },
     {
@@ -1019,11 +1035,23 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "odejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "podchodzić",
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "podejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "przechodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejść",
      "type": "TYPE_DERIVED"
     },
     {
@@ -1035,7 +1063,15 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "przyjść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "rozchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozejść",
      "type": "TYPE_DERIVED"
     },
     {
@@ -1043,7 +1079,15 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "zejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "uchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ujść",
      "type": "TYPE_DERIVED"
     },
     {
@@ -1051,11 +1095,23 @@
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "wejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "wschodzić",
      "type": "TYPE_DERIVED"
     },
     {
+     "term": "wzejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "wychodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyjść",
      "type": "TYPE_DERIVED"
     },
     {

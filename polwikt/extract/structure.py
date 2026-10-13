@@ -33,7 +33,7 @@ from polwikt.extract.headword import (
     verb,
     verb_templates,
 )
-from polwikt.extract.inflection import TableParser, drop_label
+from polwikt.extract.inflection import Paradigm, TableParser, drop_label
 from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import Sounds, sounds
 from polwikt.extract.pronunciation import config as pronunciation_config
@@ -355,11 +355,22 @@ class Walk:
             found = self.relation_parser.section(head.name, node)
             self._add_found(draft.entry, found)
         if head.name in _TABLE_SECTIONS:
+            handwritten: list[str] = []
             for child in node.children:
                 if isinstance(child, WikiNode) and child.kind == NodeKind.TEMPLATE:
                     name = canonical(self.wtp, child)
                     if self.policy.action(name) is Action.EXPAND:
                         self._table(draft, child, name)
+                elif not (isinstance(child, WikiNode) and child.kind in LEVELS):
+                    handwritten.append(
+                        child
+                        if isinstance(child, str)
+                        else self.wtp.node_to_wikitext(child)
+                    )
+            body = "".join(handwritten)
+            if "{|" in body:  # a table written out by hand, not a template
+                kind = "conjugation" if head.name == "Conjugation" else "declension"
+                self._add_paradigm(draft, self.table_parser.parse_wikitext(kind, body))
 
     # -- grammar --------------------------------------------------------------------
 
@@ -388,7 +399,7 @@ class Walk:
             entry.adjective.CopyFrom(found.info)
             if found.forms:
                 self._add_table(entry, found.table(), found.forms)
-        if name in relation_config().headword:  # dim=, adj=, f=, dem=… (R3.14)
+        if name in relation_config().headword or name == "head":  # dim=, f= (R3.14)
             add_unique(
                 entry,
                 headword_relations(
@@ -407,7 +418,9 @@ class Walk:
         if label := drop_label(name):
             self.stats[f"dropped.table.{label}"] += 1  # R6.6a, never expanded
             return
-        paradigm = self.table_parser.parse(name, node)
+        self._add_paradigm(draft, self.table_parser.parse(name, node))
+
+    def _add_paradigm(self, draft: EntryDraft, paradigm: Paradigm) -> None:
         entry = draft.entry
         for parsed in paradigm.tables:
             base = len(entry.forms)

@@ -106,6 +106,14 @@
    ],
    "relations": [
     {
+     "term": "ona",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
+     "term": "ono",
+     "type": "TYPE_NEUTER_EQUIVALENT"
+    },
+    {
      "labels": [
       "Eastern Lublin",
       "Krynice and Kryniczki"
@@ -120,7 +128,7 @@
    ],
    "senses": [
     {
-     "gloss": "he , it",
+     "gloss": "he (for animate nouns), it (for inanimate nouns)",
      "keywords": [
       {
        "text": "he"
@@ -128,10 +136,6 @@
       {
        "text": "it"
       }
-     ],
-     "labels": [
-      "for animate nouns",
-      "for inanimate nouns"
      ]
     }
    ],

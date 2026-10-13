@@ -60,6 +60,7 @@ class Config:
     not_terms: frozenset[str]
     not_term_prefixes: tuple[str, ...]
     headword: dict[str, dict[str, str]]
+    head_pairs: dict[str, str]
 
     def handles(self, heading: str) -> bool:
         return heading in self.sections or heading in self.collocation_sections
@@ -85,6 +86,7 @@ def config() -> Config:
         not_terms=frozenset(t["not_terms"]),
         not_term_prefixes=tuple(t["not_term_prefixes"]),
         headword={k: dict(v) for k, v in data["headword"].items()},
+        head_pairs=dict(data["head_pairs"]),
     )
 
 
@@ -130,8 +132,11 @@ def headword_relations(
     drop: frozenset[str],
     stats: Counter[str],
 ) -> list[pb.Relation]:
-    """{{pl-noun|f|dim=uliczka|abbr=ul.}} -> diminutive and abbreviation Relations."""
+    """{{pl-noun|f|dim=uliczka|abbr=ul.}} -> diminutive and abbreviation Relations;
+    {{head|pl|pronoun|feminine|ona}} -> a feminine equivalent."""
     out: list[pb.Relation] = []
+    if template == "head":
+        out += _head_pairs(args, labels, drop, stats)
     for param, type_name in config().headword.get(template, {}).items():
         for key in numbered(args, param):
             for t in terms(args[key], labels, stats):
@@ -139,6 +144,28 @@ def headword_relations(
                     continue
                 if relation := _relation(type_name, t, drop, stats):
                     out.append(relation)
+    return out
+
+
+def _head_pairs(
+    args: dict[str, str],
+    labels: LabelIndex,
+    drop: frozenset[str],
+    stats: Counter[str],
+) -> list[pb.Relation]:
+    pairs = config().head_pairs
+    values = positional(args)[2:]  # after the language and the part of speech
+    out: list[pb.Relation] = []
+    for label, form in zip(values[0::2], values[1::2], strict=False):
+        label = plain_text(label).strip()
+        if not form.strip():
+            continue  # a bare label: "indeclinable"
+        if label not in pairs:
+            stats[f"headword.head.unmapped.{label}"] += 1
+            continue
+        for t in terms(form, labels, stats):
+            if relation := _relation(pairs[label], t, drop, stats):
+                out.append(relation)
     return out
 
 

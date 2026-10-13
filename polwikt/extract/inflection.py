@@ -24,7 +24,7 @@ from typing import Any
 from wikitextprocessor import WikiNode
 
 from polwikt.expand.policy import canonical_name
-from polwikt.expand.run import expand_node
+from polwikt.expand.run import expand_node, expand_text
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.labels import LabelIndex
 from polwikt.extract.tags import tag_map, to_grammatical
@@ -154,13 +154,21 @@ class TableParser:
         self.stats = stats
 
     def parse(self, name: str, node: WikiNode) -> Paradigm:
+        """One table template, expanded."""
+        text = expand_node(self.wtp, node, self._plain_link).text
+        irregular = name in config().irregular_templates
+        return self._parse(table_kind(name), text, irregular)
+
+    def parse_wikitext(self, kind: str, wikitext: str) -> Paradigm:
+        """A table written by hand in a Declension section ({| … |}), not a
+        template: `trzy`, `cztery`."""
+        self.stats["table.handwritten"] += 1
+        text = expand_text(self.wtp, wikitext, template_fn=self._plain_link).text
+        return self._parse(kind, text, False)
+
+    def _parse(self, kind: str, text: str, irregular: bool) -> Paradigm:
         cfg = config()
-        expansion = expand_node(self.wtp, node, self._plain_link)
-        text = expansion.text
-        kind = table_kind(name)
-        irregular = name in cfg.irregular_templates or (
-            f"[[Category:{cfg.irregular_category}" in text
-        )
+        irregular = irregular or f"[[Category:{cfg.irregular_category}" in text
         out = Paradigm([])
         out.plurale_tantum = f"[[Category:{cfg.plurale_category}" in text
         out.singulare_tantum = f"[[Category:{cfg.singulare_category}" in text
@@ -191,6 +199,9 @@ class TableParser:
             self.stats[f"table.{kind}"] += 1
             self.stats["table.forms"] += len(forms)
         return out
+
+    def _suffix_page(self) -> bool:
+        return (self.wtp.title or "").startswith("-")
 
     def _plain_link(self, name: str, args: dict[Any, str]) -> str | None:
         """`{{l|pl|robię|accel-form=1|s|pres}}` inside a table, rendered as
@@ -318,9 +329,10 @@ class TableParser:
                 label for m in _PROTECTED.finditer(part) for label in self._modifier(m)
             ]
             form = _PROTECTED.sub("", part).strip()
-            if form.startswith("-") and " " in form:
+            if form.startswith("-") and " " in form and not self._suffix_page():
                 # `robiłem, -m robił`, `jestem, -m (jest)`: Wiktionary's notation for
-                # the detached personal ending, not a form anyone can look up.
+                # the detached personal ending, not a form anyone can look up. On a
+                # suffix's own page (`-wać`: `-uje się`) every form looks like that.
                 self.stats["table.form.detached_ending"] += 1
                 continue
             if paren := _TRAILING_PAREN.match(form):

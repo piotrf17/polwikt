@@ -1,0 +1,242 @@
+# The wiktextract cross-check's triage (M13, decision 1): `tools/oracle.py diff`
+# compares wiktextract's JSON for each golden page with ours, as sets of normalised
+# items per page and field, and every item found on one side only must match a rule
+# here. `kind` says what the divergence is:
+#
+#   their-flattening  wiktextract loses or merges structure we keep
+#   deliberate        a difference our spec chose (REQUIREMENTS, decision 11)
+#   our-bug           a known defect of ours, with where it is tracked
+#
+# A rule matches `field` ("*" for any), `side` (where the item is found: "ours",
+# "theirs", "both"), an optional `pages` list, and `match`, a regex searched in
+# "key | context" (their tags, or our labels).
+
+[map]
+# wiktextract's pos names -> ours (polwikt.Pos without POS_).
+pos = { noun = "NOUN", name = "PROPER_NOUN", verb = "VERB", adj = "ADJECTIVE", adv = "ADVERB", pron = "PRONOUN", num = "NUMERAL", det = "DETERMINER", prep = "PREPOSITION", conj = "CONJUNCTION", particle = "PARTICLE", intj = "INTERJECTION", prefix = "PREFIX", suffix = "SUFFIX", phrase = "PHRASE", prep_phrase = "PREPOSITIONAL_PHRASE", proverb = "PROVERB", abbrev = "ABBREVIATION", contraction = "CONTRACTION", character = "LETTER", letter = "LETTER" }
+# wiktextract's linkage fields -> our Relation types (without TYPE_).
+relations = { synonyms = "SYNONYM", antonyms = "ANTONYM", hypernyms = "HYPERNYM", hyponyms = "HYPONYM", meronyms = "MERONYM", holonyms = "HOLONYM", coordinate_terms = "COORDINATE", derived = "DERIVED", related = "RELATED" }
+# Their `forms` entries that are table bookkeeping, not word forms.
+form_skip_tags = ["table-tags", "inflection-template", "class"]
+# Their headword-line forms (no `source`), by tags, as our Relation types; first match.
+headword_forms = [
+  { tags = ["demonym", "feminine"], type = "FEMALE_DEMONYM" },
+  { tags = ["demonym"], type = "DEMONYM" },
+  { tags = ["diminutive"], type = "DIMINUTIVE" },
+  { tags = ["augmentative"], type = "AUGMENTATIVE" },
+  { tags = ["adjective"], type = "RELATED_ADJECTIVE" },
+  { tags = ["adverb"], type = "RELATED_ADVERB" },
+  { tags = ["alternative"], type = "ALTERNATIVE_FORM" },
+  { tags = ["abbreviation"], type = "ABBREVIATION" },
+  { tags = ["frequentative"], type = "FREQUENTATIVE" },
+  { tags = ["determinate"], type = "DETERMINATE_COUNTERPART" },
+  { tags = ["indeterminate"], type = "INDETERMINATE_COUNTERPART" },
+  { tags = ["perfective"], type = "PERFECTIVE_COUNTERPART" },
+  { tags = ["imperfective"], type = "IMPERFECTIVE_COUNTERPART" },
+  { tags = ["feminine"], type = "FEMININE_EQUIVALENT" },
+  { tags = ["masculine"], type = "MASCULINE_EQUIVALENT" },
+  { tags = ["neuter"], type = "NEUTER_EQUIVALENT" },
+]
+
+# -- deliberate ----------------------------------------------------------------------
+[[rule]]
+field = "*"
+side = "theirs"
+match = "Middle,Polish|middle-polish"
+kind = "deliberate"
+why = "Middle Polish senses, entries, IPA and alternative forms are dropped (R6.6a, decision 8)"
+
+[[rule]]
+field = "form"
+side = "theirs"
+match = '^-\(e\)'
+kind = "deliberate"
+why = "'-(e)m robił' is the table's notation for a detached ending, not a word (M8: table.form.detached_ending)"
+
+# -- their flattening ----------------------------------------------------------------
+[[rule]]
+field = "audio"
+side = "ours"
+kind = "their-flattening"
+why = "wiktextract reads no recording from {{pl-pr|a=…}}; we keep each file and its spoken text (R6.5)"
+
+[[rule]]
+field = "*"
+side = "theirs"
+pages = ["chodzić", "potrafić"]
+match = "toacttobehave|zachowywać się|potrefić"
+kind = "deliberate"
+why = "co-labelled Middle Polish ('Middle Polish or Near Masovian'): dropped and counted (R6.6c); wiktextract keeps them without the Middle Polish tag"
+
+[[rule]]
+field = "form"
+side = "theirs"
+pages = ["absent", "familia"]
+kind = "deliberate"
+why = "forms of a {{pl-mid-decl-noun}} table: Middle Polish, dropped (R6.6a)"
+
+[[rule]]
+field = "form"
+side = "theirs"
+pages = ["agrest"]
+kind = "deliberate"
+why = "forms of a {{pl-skur-decl-noun-*}} table: Standard Kurpian, a separate regional standard (R6.6d)"
+
+[[rule]]
+field = "form"
+side = "theirs"
+match = '^- \|'
+kind = "deliberate"
+why = "'-' marks a cell with no form; it is not one"
+
+[[rule]]
+field = "relation"
+side = "theirs"
+pages = ["dwoje", "zero", "trzy", "pięć", "dwa", "brat"]
+match = "^coordinate_terms:"
+kind = "deliberate"
+why = "navboxes of a whole set ({{pl-cardinals}}, {{number table}}, {{pl-family}}) are counted, not the entry's terms (M10: relation.not_terms)"
+
+[[rule]]
+field = "relation"
+side = "theirs"
+match = "synonym-of"
+kind = "deliberate"
+why = "a {{syn of}} sense is the sense's FormOf (TYPE_SYNONYM), not a synonym Relation as well"
+
+[[rule]]
+field = "relation"
+side = "theirs"
+pages = ["nałóg", "który", "-wać"]
+match = "^related:"
+kind = "deliberate"
+why = "terms under See also: Wiktionary navigation, not output (R5.5)"
+
+[[rule]]
+field = "relation"
+side = "both"
+pages = ["bać"]
+match = "boć"
+kind = "deliberate"
+why = "{{alt|pl|boć<alt:boć się>}}: our term is the linked lemma, theirs the displayed text"
+
+[[rule]]
+field = "pos"
+side = "ours"
+match = "^PARTICIPLE$"
+kind = "deliberate"
+why = "===Participle=== entries stay participles with their own declension (decision 10)"
+
+[[rule]]
+field = "etymology"
+side = "theirs"
+pages = ["kawa"]
+kind = "deliberate"
+why = "'This etymology is missing or incomplete…' is a maintenance notice, dropped (M9)"
+
+[[rule]]
+field = "etymology"
+side = "theirs"
+pages = ["ą"]
+kind = "deliberate"
+why = "{{pl-ety-letter}}: the same orthography note on every letter page, ignored by policy"
+
+[[rule]]
+field = "form"
+side = "theirs"
+pages = ["ą"]
+match = "uppercase"
+kind = "deliberate"
+why = "a letter's uppercase twin: no relation type and no app use"
+
+[[rule]]
+field = "pos"
+side = "theirs"
+pages = ["robiony", "czytający", "prosząc", "opisany"]
+match = "^VERB$"
+kind = "their-flattening"
+why = "wiktextract files a ===Participle=== entry as a verb"
+
+[[rule]]
+field = "gloss"
+side = "both"
+pages = ["spodnie", "mamy"]
+kind = "their-flattening"
+why = "one {{inflection of}} sense with several tag sets: wiktextract splits it into a sense per set, we keep the sense and its FormOf.tag_sets"
+
+[[rule]]
+field = "homophone"
+side = "both"
+pages = ["nałóg"]
+kind = "their-flattening"
+why = "<qq:for some speakers>: wiktextract leaves it in the word, we make it the relation's label"
+
+[[rule]]
+field = "hyphenation"
+side = "both"
+pages = ["-wać", "do-"]
+kind = "their-flattening"
+why = "an affix's hyphen: wiktextract rebuilds the syllabification from its parts and loses it; we keep the rendered '-wać'"
+
+[[rule]]
+field = "form"
+side = "both"
+pages = ["folder"]
+match = "^folderu"
+kind = "their-flattening"
+why = "'folderu (more rarely foldera)': wiktextract keeps the note in the form"
+
+[[rule]]
+field = "form"
+side = "theirs"
+pages = ["ten"]
+match = '^tą1'
+kind = "their-flattening"
+why = "the footnote digit stays on their form; ours moves its note to a label (M7)"
+
+[[rule]]
+field = "form"
+side = "theirs"
+pages = ["się"]
+match = "^cases"
+kind = "their-flattening"
+why = "a table header read as a form"
+
+[[rule]]
+field = "*"
+side = "both"
+pages = ["Staręga"]
+match = "(?i)married"
+kind = "their-flattening"
+why = "marr=/unmarr=: wiktextract keeps the label in the form ('married form Starężyna'); ours is a typed relation"
+
+[[rule]]
+field = "relation"
+side = "theirs"
+pages = ["dobry"]
+match = "see Thesaurus"
+kind = "their-flattening"
+why = "a Thesaurus link read as a term"
+
+[[rule]]
+field = "relation"
+side = "ours"
+pages = ["centrować"]
+match = "^derived:"
+kind = "their-flattening"
+why = "{{pl-derived verbs}} with *suffixes and prefixes: wiktextract does not paste them into verbs"
+
+[[rule]]
+field = "relation"
+side = "ours"
+pages = ["komputer", "pan"]
+kind = "their-flattening"
+why = "{{hypo}} lines under a sense and {{col}} coordinate terms wiktextract does not read"
+
+# -- our bugs --------------------------------------------------------------------------
+[[rule]]
+field = "gloss"
+side = "both"
+pages = ["Bergamo"]
+kind = "our-bug"
+why = "{{tcl|pl|Bergamo|id=Q1,Q2}} transcludes two senses; we make one gloss of both. Rare (multi-id {{tcl}}); open in PLAN M13"

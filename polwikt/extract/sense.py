@@ -159,6 +159,15 @@ class SenseParser:
             elif child.kind == NodeKind.TEMPLATE:
                 name = self.canonical(self.wtp, child)
                 args = template_args(self.wtp, child)
+                if name in _QUALIFIER_TEMPLATES and plain_text("".join(parts)).strip():
+                    # After gloss text a qualifier qualifies the word before it ("he
+                    # (for animate nouns), it (…)"): it stays in the text (R6.7).
+                    inline = ", ".join(
+                        t for v in positional(args) if (t := plain_text(v))
+                    )
+                    parts.append(f"({inline})")
+                    self.stats["sense.qualifier.inline"] += 1
+                    continue
                 if not self._template(sense, labels, name, args, child):
                     continue  # not part of the gloss text
             parts.append(self.wtp.node_to_wikitext(child))

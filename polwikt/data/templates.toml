@@ -80,7 +80,7 @@ names = [
   "prefixusex", "affixusex", "cognate", "noncognate", "doublet", "internationalism",
   "onomatopoeic", "coinage", "back-formation", "univerbation", "deverbal", "clipping",
   "uncertain", "unknown", "genericized trademark", "displaced", "transliteration",
-  "etydate", "defdate", "def-uncertain", "nb...", "...", "ellipsis", "em dash",
+  "etydate", "def-uncertain", "nb...", "...", "ellipsis", "em dash",
   "en dash", ",", "sqbrace", "transclude", "senseno", "only used in", "blend",
   "partial calque", "piecewise doublet", "root", "abbreviation", "initialism", "acronym",
   "contraction", "long s", "cap", "IPAchar", "nobold", "name translit", "l-self",
@@ -90,6 +90,9 @@ prefixes = []
 
 [ignore]
 names = [
+  # A sense's attestation date ("from 16th c."): not part of the definition, and the
+  # schema has no field for it (M13: it was rendered into glosses).
+  "defdate",
   "reflist", "ref", "cite-book", "cite-journal", "cite-web", "wikipedia", "wikipedia inline",
   "wikisource inline", "multiple images", "number box", "chemical element box",
   "mapframe", "descendant", "descendants tree", "anagrams", "senseid", "was fwotd",

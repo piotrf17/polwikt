@@ -503,6 +503,10 @@
    ],
    "relations": [
     {
+     "term": "pani",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
      "term": "Pan",
      "type": "TYPE_HOMOPHONE"
     },

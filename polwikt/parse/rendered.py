@@ -37,5 +37,6 @@ def terms(html: str, lang: str) -> list[str]:
 
 @cache
 def term_separator(lang: str) -> re.Pattern[str]:
-    """The ", " between two terms of a list, where one term's qualifiers end."""
-    return re.compile(rf',\s*(?=<span class="[^"]*" lang="{re.escape(lang)}">)')
+    """The ", " between two terms of a list, where one term's qualifiers end; a
+    bracketed second term (`dochodzić impf, [dojść pf]`) too."""
+    return re.compile(rf',\s*\[?(?=<span class="[^"]*" lang="{re.escape(lang)}">)')

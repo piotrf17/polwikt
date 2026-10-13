@@ -1,9 +1,7 @@
 {
  "entries": [
   {
-   "adjective": {
-    "not_comparable": true
-   },
+   "adjective": {},
    "audio": [
     {
      "file": "pl-polski.ogg"
@@ -17,7 +15,20 @@
    ],
    "forms": [
     {
+     "form": "bardziej polski",
+     "tags": {
+      "degree": "DEGREE_COMPARATIVE"
+     }
+    },
+    {
+     "form": "najbardziej polski",
+     "tags": {
+      "degree": "DEGREE_SUPERLATIVE"
+     }
+    },
+    {
      "form": "polski",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_NOMINATIVE",
@@ -26,6 +37,7 @@
     },
     {
      "form": "polski",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_VOCATIVE",
@@ -34,6 +46,7 @@
     },
     {
      "form": "polska",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_NOMINATIVE",
@@ -42,6 +55,7 @@
     },
     {
      "form": "polska",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_VOCATIVE",
@@ -50,6 +64,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_NOMINATIVE",
@@ -58,6 +73,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_VOCATIVE",
@@ -66,6 +82,7 @@
     },
     {
      "form": "polscy",
+     "table": 1,
      "tags": {
       "gender": "GENDER_VIRILE",
       "grammatical_case": "CASE_NOMINATIVE",
@@ -74,6 +91,7 @@
     },
     {
      "form": "polscy",
+     "table": 1,
      "tags": {
       "gender": "GENDER_VIRILE",
       "grammatical_case": "CASE_VOCATIVE",
@@ -82,6 +100,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_NOMINATIVE",
@@ -90,6 +109,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_VOCATIVE",
@@ -98,6 +118,7 @@
     },
     {
      "form": "polskiego",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_GENITIVE",
@@ -106,6 +127,7 @@
     },
     {
      "form": "polskiej",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_GENITIVE",
@@ -114,6 +136,7 @@
     },
     {
      "form": "polskiego",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_GENITIVE",
@@ -122,6 +145,7 @@
     },
     {
      "form": "polskich",
+     "table": 1,
      "tags": {
       "grammatical_case": "CASE_GENITIVE",
       "number": "NUMBER_PLURAL"
@@ -129,6 +153,7 @@
     },
     {
      "form": "polskiemu",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_DATIVE",
@@ -140,6 +165,7 @@
      "labels": [
       "archaic"
      ],
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_DATIVE",
@@ -148,6 +174,7 @@
     },
     {
      "form": "polskiej",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_DATIVE",
@@ -156,6 +183,7 @@
     },
     {
      "form": "polskiemu",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_DATIVE",
@@ -167,6 +195,7 @@
      "labels": [
       "archaic"
      ],
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_DATIVE",
@@ -175,6 +204,7 @@
     },
     {
      "form": "polskim",
+     "table": 1,
      "tags": {
       "grammatical_case": "CASE_DATIVE",
       "number": "NUMBER_PLURAL"
@@ -182,6 +212,7 @@
     },
     {
      "form": "polskiego",
+     "table": 1,
      "tags": {
       "animacy": "ANIMACY_ANIMATE",
       "gender": "GENDER_MASCULINE",
@@ -191,6 +222,7 @@
     },
     {
      "form": "polski",
+     "table": 1,
      "tags": {
       "animacy": "ANIMACY_INANIMATE",
       "gender": "GENDER_MASCULINE",
@@ -200,6 +232,7 @@
     },
     {
      "form": "polską",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_ACCUSATIVE",
@@ -208,6 +241,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_ACCUSATIVE",
@@ -216,6 +250,7 @@
     },
     {
      "form": "polskich",
+     "table": 1,
      "tags": {
       "gender": "GENDER_VIRILE",
       "grammatical_case": "CASE_ACCUSATIVE",
@@ -224,6 +259,7 @@
     },
     {
      "form": "polskie",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_ACCUSATIVE",
@@ -232,6 +268,7 @@
     },
     {
      "form": "polskim",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_INSTRUMENTAL",
@@ -240,6 +277,7 @@
     },
     {
      "form": "polską",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_INSTRUMENTAL",
@@ -248,6 +286,7 @@
     },
     {
      "form": "polskim",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_INSTRUMENTAL",
@@ -256,6 +295,7 @@
     },
     {
      "form": "polskimi",
+     "table": 1,
      "tags": {
       "grammatical_case": "CASE_INSTRUMENTAL",
       "number": "NUMBER_PLURAL"
@@ -263,6 +303,7 @@
     },
     {
      "form": "polskim",
+     "table": 1,
      "tags": {
       "gender": "GENDER_MASCULINE",
       "grammatical_case": "CASE_LOCATIVE",
@@ -271,6 +312,7 @@
     },
     {
      "form": "polskiej",
+     "table": 1,
      "tags": {
       "gender": "GENDER_FEMININE",
       "grammatical_case": "CASE_LOCATIVE",
@@ -279,6 +321,7 @@
     },
     {
      "form": "polskim",
+     "table": 1,
      "tags": {
       "gender": "GENDER_NEUTER",
       "grammatical_case": "CASE_LOCATIVE",
@@ -287,6 +330,7 @@
     },
     {
      "form": "polskich",
+     "table": 1,
      "tags": {
       "grammatical_case": "CASE_LOCATIVE",
       "number": "NUMBER_PLURAL"
@@ -330,6 +374,10 @@
    ],
    "syllabification": "pol‧ski",
    "tables": [
+    {
+     "kind": "KIND_COMPARISON",
+     "title": "Comparison"
+    },
     {
      "kind": "KIND_DECLENSION",
      "title": "Declension of polski (velar)"

@@ -132,10 +132,15 @@ def comparison(
     drop: frozenset[str],
     stats: Counter[str],
 ) -> Comparison:
-    """{{pl-adj|lepszy|sup=…}} -> comparative and superlative Forms (R6.3)."""
+    """{{pl-adj|lepszy|sup=…}} -> comparative and superlative Forms (R6.3).
+
+    Every list parameter is numbered (Module:zlw-lch-headword): the comparatives are
+    the positional arguments in order (`{{pl-adj|-|peri}}`: not generally comparable,
+    periphrastic), the superlatives `sup=`, `sup2=`, …
+    """
     cfg = config().headword["comparison"]
     out = Comparison(pb.AdjectiveInfo(indeclinable=truthy(args.get("indecl"))))
-    comps = _terms(args.get("1", ""), labels, stats)
+    comps = [t for value in positional(args) for t in _terms(value, labels, stats)]
     if comps and comps[0][0] == "-":
         if len(comps) == 1:
             out.info.not_comparable = True
@@ -148,7 +153,9 @@ def comparison(
             term = f"{cfg['periphrastic']} {lemma}"
             comps[i] = (term, term_labels)
         defaults.append((f"{cfg['superlative']}{term}", term_labels))
-    sups = _terms(args.get("sup", ""), labels, stats)
+    sups = [
+        t for key in numbered(args, "sup") for t in _terms(args[key], labels, stats)
+    ]
     if not sups and not truthy(args.get("nodefsup")):
         sups = [("+", [])]
     combined: list[tuple[str, list[str]]] = []
@@ -167,8 +174,9 @@ def comparison(
             unique = list(dict.fromkeys(term_labels))
             out.forms.append(pb.Form(form=term, tags=grammatical, labels=unique))
     for arg, label in cfg["dropped_args"].items():
-        if dropped := _terms(args.get(arg, ""), labels, stats):
-            stats[f"dropped.form.{label}"] += len(dropped)
+        for key in numbered(args, arg):
+            if dropped := _terms(args[key], labels, stats):
+                stats[f"dropped.form.{label}"] += len(dropped)
     return out
 
 
