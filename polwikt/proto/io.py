@@ -463,6 +463,14 @@ class CorpusIndex:
             ),
         )
 
+    def dedupe_forms(self) -> None:
+        """Keeps the first row of each identical (surface, lemma, entry, tags) hit: a
+        folded spelling is usually in its lemma's paradigm too."""
+        self._db.execute(
+            "DELETE FROM forms WHERE rowid NOT IN (SELECT MIN(rowid) FROM forms"
+            " GROUP BY surface, lemma, entry_index, tags, raw_tags)"
+        )
+
     def locate(self, lemma: str) -> Location | None:
         row = self._db.execute(
             "SELECT shard, frame_offset, idx FROM words WHERE lemma = ?", (lemma,)

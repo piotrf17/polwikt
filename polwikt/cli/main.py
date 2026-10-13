@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import sys
 import tempfile
 from contextlib import ExitStack
 from pathlib import Path
@@ -22,6 +23,8 @@ from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.p3 import P3Error, run_p3
 from polwikt.extract.page import Settings, extract_page
+from polwikt.finalize.run import P4Error, run_p4
+from polwikt.finalize.stats_diff import diff_files, report
 from polwikt.parse.sections import language_section
 from polwikt.parse.tree import format_tree
 from polwikt.proto.io import CorpusError, to_json
@@ -185,11 +188,35 @@ def extract(
 
 
 @cli.command()
-@click.option("--in", "in_dir", type=click.Path(path_type=Path))
-@click.option("--out", type=click.Path(path_type=Path))
+@click.option(
+    "--in",
+    "in_dir",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="P3 output [default: <root>/data/out].",
+)
+@click.option(
+    "--out",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="Corpus directory [default: <root>/data/corpus].",
+)
 def finalize(in_dir: Path | None, out: Path | None) -> None:
     """P4: fold forms into lemmas, link, write the canonical corpus (R3.13-R3.16)."""
-    _todo("M11", "finalize")
+    cfg = _config()
+    data = cfg.root / "data"
+    _keep_temp_files_in(data / "tmp")
+    try:
+        summary = run_p4(
+            in_dir or data / "out",
+            out or data / "corpus",
+            dump_date=cfg.dump.date,
+            drop_labels=list(cfg.drop_labels),
+        )
+    except (P4Error, CorpusError) as e:
+        raise click.ClickException(str(e)) from e
+    click.echo(
+        f"{summary.words} words, {summary.folded} entries folded, "
+        f"{summary.unresolved} unresolved, in {summary.seconds:.0f} s"
+    )
 
 
 @cli.command()
@@ -269,8 +296,15 @@ def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
 @click.argument("old", type=click.Path(path_type=Path))
 @click.argument("new", type=click.Path(path_type=Path))
 def stats_diff(old: Path, new: Path) -> None:
-    """Direction-aware regression check between two stats.json files (R8.3)."""
-    _todo("M11", "stats-diff")
+    """Direction-aware regression check between two stats.json files (R8.3).
+
+    Exits 1 when a coverage counter drops, or a failure counter rises, by more than
+    the threshold in data/stats.toml.
+    """
+    changes = diff_files(old, new)
+    click.echo(report(changes))
+    if any(c.regression for c in changes):
+        sys.exit(1)
 
 
 @cli.command()

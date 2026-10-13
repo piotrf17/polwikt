@@ -126,7 +126,7 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
    [P3] extract  (parallel workers) ─►  words-*.pb.zst     (protobuf shards; reads
         │                                                    pages.sqlite directly)
         │                              + unhandled.jsonl, stats.json
-   [P4] link & finalize ─────────────►  polwikt.pb.zst     (canonical corpus)
+   [P4] link & finalize ─────────────►  corpus/            (canonical corpus)
                                         + index.sqlite (title → shard, offset)
 ```
 
@@ -285,6 +285,24 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     link is broken, or the lemma's forms lack the string) is emitted per the rule above,
     and also counted, logged to `unresolved_forms.jsonl`, and exposed in `stats.json` —
     a rising count is the signal that folding or table parsing is losing ground.
+  - *Implemented at M11* (`polwikt/finalize/`, config `data/finalize.toml`): two
+    streaming passes over P3's shards with an on-disk SQLite staging file between them
+    (R9.3). A candidate is an entry whose senses are all `TYPE_INFLECTION` form-of and
+    whose POS isn't a participle; it folds when every sense's lemma has a record, and a
+    lemma entry of that record — same POS first — has a Form spelled like the title.
+    Otherwise the reason is logged: `lemma_missing`, `lemma_not_a_lemma` (the target's
+    own entries are all forms), `form_missing`, `self`. Folding carries the sense's
+    labels and regions onto the lemma's Forms whose tags match a tag set, and moves the
+    candidate's own tables (`lepszy`'s declension onto `dobry`, each Form gaining
+    *comparative* when the candidate has that one tag set). The index holds every Form
+    of every record (except the lemma's own spelling) and every folded spelling, one
+    row per distinct (surface, lemma, entry, tags). Measured on 1,864 sampled form
+    pages plus the 1,861 lemmas they name: 91.0% of form entries folded; of the 180
+    left, 118 point at a Polish lemma outside the sample, 21 at a red link, 3 at a page
+    with no Polish section, 16 at a page that is itself only forms, and 22 at a lemma
+    whose paradigm lacks the spelling — plurals of lemmas marked singulare tantum
+    (`terapiami`), nonstandard or dialectal forms (`dwanastu`, `szedła`), and source
+    errors (`zaprogramować` conjugated with `{{pl-conj-ap-yć}}`).
 - **R3.14** Build derived cross-references: verb **aspect pairs**, directed —
   `PERFECTIVE_COUNTERPART` / `IMPERFECTIVE_COUNTERPART`, since a biaspectual verb's
   partner is not simply "the other aspect" (from the aspect-partner arguments of `{{pl-verb}}` and from the *Related
@@ -294,6 +312,11 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   `freq=` (with `pf2=`, … and inline `<l:…>`/`<t:…>`) become entry Relations —
   perfective, imperfective, determinate, indeterminate counterparts and
   frequentatives — directed, as the article states them.
+  *Implemented at M11* across pages: a counterpart or equivalent one entry states
+  implies its inverse (perfective ↔ imperfective, determinate ↔ indeterminate,
+  feminine ↔ masculine equivalent; `data/finalize.toml`), added to the target's first
+  entry of the same POS when the target is in the corpus and doesn't state it already.
+  Comparatives and superlatives are folded into their positive's comparison table.
   *Implemented at M10* for the rest of the headword line and the term-list sections.
   The `{{pl-noun}}` / `{{pl-proper noun}}` / `{{pl-adj}}` / `{{pl-adv}}` parameters
   Module:zlw-lch-headword lists (`f=`, `m=`, `n=`, `dim=`, `aug=`, `pej=`, `adj=`/
@@ -777,6 +800,11 @@ to keep in sync:
   regression. CI has no dump, so CI gates the stats of the golden run; the full-run diff
   is a local `polwikt stats-diff old.json new.json` that must be clean (or explained) in
   any commit that changes extraction behaviour or moves the pin.
+  *Implemented at M11:* counters are classed coverage / failure / neutral by globs in
+  `data/stats.toml`; a counter appearing counts as moving from zero, and the R8.4
+  percentages are coverage. `stats-diff` exits 1 on a regression. P4's `stats.json`
+  holds P3's counts plus `finalize.*` and `coverage.*`, and a `coverage` block with
+  R8.4's percentages.
 - **R8.4** Coverage metrics reported per run: % of Polish lemmas with ≥1 sense, % of
   nouns with a declension, % of verbs with a conjugation, % of pages with pronunciation,
   count of unhandled templates, count of form pages folded vs. unresolved (R3.13c).
@@ -860,14 +888,14 @@ operational consequences that are *not* optional:
   polwikt fetch                         # the pinned dump, sha1-verified
   polwikt scan     [--dump …] [--db …]  # defaults: the pin, data/pages.sqlite
   polwikt extract  --db pages.sqlite --out out/ --jobs 2 [--limit N] [--pages …]
-  polwikt finalize --in out/ --out polwikt.pb.zst
+  polwikt finalize --in out/ --out corpus/
   polwikt inspect  <title>            # human-readable dump of one entry
   polwikt stats-diff old.json new.json   # R8.3 regression check
   ```
   plus `polwikt run` to chain all passes. `polwikt subset` stays as a stub while P2 is
   deferred (§3).
 - **R10.4** Package layout: `polwikt/{dump,subset,expand,parse,extract/{noun,verb,adj,
-  etymology,pronunciation,sense},proto,cli}` (`subset/` stays an empty stub while P2 is
+  etymology,pronunciation,sense},finalize,proto,cli}` (`subset/` stays an empty stub while P2 is
   deferred). Polish-specific knowledge lives under
   `extract/`, so the engine layer stays language-agnostic for a possible future language.
 - **R10.5** Configuration (POS heading map, label→tag map, section name map,

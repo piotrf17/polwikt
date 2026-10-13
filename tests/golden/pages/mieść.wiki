@@ -1,0 +1,45 @@
+==Polish==
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:mieść<ety:inh<sla-pro:*mesti>>|text=*|tree=+}}
+
+===Pronunciation===
+{{pl-pr}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|transitive}} to [[throw]], [[hurl]]
+#: {{syn|pl|miotać|rzucać}}
+# {{lb|pl|transitive}} to [[sweep]]
+#: {{syn|pl|zamiatać|podmiatać|omiatać}}
+
+====Conjugation====
+{{pl-conj-ai|mieść|miotę|miecie|miotą|miot|miot|miet|mieć|pp=miecion|pp2=mieceni|ip=mieciono|vn=miecenie|altpasttense=miót}}
+
+====Derived terms====
+{{col|pl|title=adjective|miotłowy}}
+{{col|pl|title=nouns|miotła|miotełka|miotlarz|zmiotka|zamiatarka|zamiatacz|zamiataczka}}
+{{pl-derived verbs
+|*mieść/miatać
+|do
+|na
+|ob
+|od
+|o
+|po
+|pod
+|prze
+|przy
+|roz
+|u
+|w
+|wy
+|wz
+|z
+|za
+}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

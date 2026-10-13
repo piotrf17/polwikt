@@ -1,0 +1,35 @@
+# P4: folding form-of entries into their lemmas, cross-page relations, corpus metadata
+# (R3.13-R3.16, R7.4, R11).
+
+[fold]
+# An entry folds when every one of its senses is a form-of sense of one of these types
+# (polwikt.FormOf.Type names) and every one resolves (R3.13a). Other types — alternative
+# forms, synonyms, abbreviations, derivations — are records of their own.
+types = ["TYPE_INFLECTION"]
+# Entries of these parts of speech never fold (decision 10): a participle has its own
+# declension and often its own senses.
+never_pos = ["POS_PARTICIPLE"]
+
+# R3.14: a relation one entry states implies its inverse on the target's entry of the
+# same part of speech. It is added there when the target is in the corpus and lacks it.
+[inverse]
+TYPE_PERFECTIVE_COUNTERPART = "TYPE_IMPERFECTIVE_COUNTERPART"
+TYPE_IMPERFECTIVE_COUNTERPART = "TYPE_PERFECTIVE_COUNTERPART"
+TYPE_DETERMINATE_COUNTERPART = "TYPE_INDETERMINATE_COUNTERPART"
+TYPE_INDETERMINATE_COUNTERPART = "TYPE_DETERMINATE_COUNTERPART"
+TYPE_FEMININE_EQUIVALENT = "TYPE_MASCULINE_EQUIVALENT"
+TYPE_MASCULINE_EQUIVALENT = "TYPE_FEMININE_EQUIVALENT"
+
+# R7.4 / R11.1: carried in corpus.meta.pb and LICENSE-DATA.
+[corpus]
+license = "CC BY-SA 4.0"
+attribution = """\
+Contains content from English Wiktionary (https://en.wiktionary.org/), \
+by its contributors, available under the Creative Commons \
+Attribution-ShareAlike 4.0 International License \
+(https://creativecommons.org/licenses/by-sa/4.0/). \
+Extracted and restructured by polwikt; shared under the same license."""
+
+# R8.4 coverage: lemma entries of these parts of speech, with at least one table.
+[coverage]
+tables = ["POS_NOUN", "POS_VERB", "POS_ADJECTIVE"]

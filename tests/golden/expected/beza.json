@@ -1,0 +1,156 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-beza.ogg"
+    }
+   ],
+   "forms": [
+    {
+     "form": "beza",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezy",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezy",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bez",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezie",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezę",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezy",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezą",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bezo",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "bezy",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_FEMININE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbɛz.a/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "bezowy",
+     "type": "TYPE_DERIVED"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "meringue (mixture consisting of beaten egg whites and sugar which is added to the tops of pies then browned)",
+     "keywords": [
+      {
+       "text": "meringue"
+      }
+     ]
+    }
+   ],
+   "syllabification": "bez‧a",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of beza"
+    }
+   ],
+   "topics": [
+    "Cakes and pastries"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Borrowed from German Baiser, from French baiser (“kiss”)."
+  }
+ ],
+ "lemma": "beza"
+}

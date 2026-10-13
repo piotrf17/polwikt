@@ -376,3 +376,14 @@ why = "{{pl-proper noun|…|dem=…|fdem=…}}: demonyms"
 [[page]]
 title = "łyżka"
 why = "{{alt|pl|…||Middle Polish}}: a Middle Polish alternative form, dropped (R6.6a)"
+
+# --- M11: P4 folding — the lemmas the golden form pages fold into ----------------------
+[[page]]
+title = "beza"
+why = "lemma of bez's genitive-plural entry (R3.13a)"
+[[page]]
+title = "mama"
+why = "lemma of one of mamy's two form-of entries"
+[[page]]
+title = "mieść"
+why = "lemma of mieć's imperative entry"

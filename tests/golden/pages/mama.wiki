@@ -1,0 +1,1755 @@
+{{also|Appendix:Variations of "mama"}}
+{{minitoc}}
+==English==
+{{was wotd|2026|May|10}}
+[[File:Mother with Daughter at Roadside - En Route from Qazvin to Rudbar - Northwestern Iran (7419752832).jpg|thumb|A young [[daughter]] and her mama ''({{senseno|en|mother}})'' or [[mother#Noun|mother]] in [[Iran]].]]
+
+===Etymology 1===
+The origin of the {{lg|noun}} is {{uncertain|en|nocap=1}}; it is probably a {{lg|reduplication}} of ''ma'', thought to be a sound made by babies when breastfeeding. The word is possibly influenced by {{cog|frm|maman|t=mother}} (modern {{cog|fr|maman}}), {{m|frm|mamme}} (both probably from {{cog|la|mamma|t=breast; nurse; (''childish'') mother, mama; grandmother}}, probably cognate with {{cog|grc|μᾰ́μμη|t=breast; (''childish'') mother, mama; (''Koine'') grandmother}}, both possibly ultimately from {{cog|ine-pro|*meh₂-|t=to nurse; mama, mother}}), but this is also uncertain as all the words could have developed independently as {{onomatopoeic|en|title={{lg|onomatopoeia}}s}}.<ref name="OED">{{R:OED Online|pos=''n.''{{sup|1}} (and int.)|noformat=1|id=3044075647|date=December 2025|nodot=1}}; {{R:Lexico|pos=n|us=1}}</ref>
+
+{{senseno|en|address for woman|uc=1}} (“(''Caribbean'') ''used as a term of address for a woman''”) is possibly partly from a West African language; compare {{noncog|ak|mmá}}, {{m|ak|mmaa|t=woman}}.<ref name="OED"/>
+
+The {{lg|interjection}}<ref name="OED"/> and {{lg|verb}}<ref>{{R:OED Online|entry=† mama|pos=v|id=714759454|date=July 2023}}</ref> are derived from the noun.
+
+====Pronunciation====
+* Sense 1:
+** {{IPA|en|/ˈmæmə/|/ˈmʌ-/|a=RP|/məˈmɑː/|a3=archaic}}
+** {{audio|en|LL-Q1860 (eng)-Vealhurl-mama.wav|a=Southern England|IPA=/ˈmʌmə/}}
+** {{enPR|mäʹmə|a=GA}}, {{IPA|en|/ˈmɑmə/|/məˈmɑː/|a2=archaic}}
+** {{audio|en|LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-mama.wav|a=GA|IPA=/ˈmɑmə/}}{{audio|en|LL-Q1860 (eng)-Wodencafe-mama.wav|-}}
+* Other senses:
+** {{IPA|en|/ˈmæmə/|/ˈmʌ-/|a=RP}}
+** {{IPA|en|/ˈmɑmə/|a=GA}}
+** {{IPA|en|/ˈmɐmə/|a=AU}}
+** {{IPA|en|/ˈmamʌ/|a=Caribbean}}
+* {{rhymes|en|q1=RP|æmə|ʌmə(ɹ)|q3=GA|ɑːmə|q4=archaic|ɑː|s=2}}
+* {{hyphenation|en|ma|ma}}
+
+====Noun====
+{{en-noun}}
+
+# {{senseid|en|mother}}{{lb|en|now|chiefly|Canada|US|often|childish}} {{synonym of|en|mother#Noun|t=a [[female#Adjective|female]] [[parent#Noun|parent]]}}.
+#: {{ux|en|I love the cookies which '''mama''' bakes me every week.}}
+#* {{RQ:Lyly Euphues|part=1|chapter=Of the Education of Youth|folio=51|passage=[S]hée is admoniſhed of nature, yea commaunded of dutie, to cheriſhe hir owne childe, with hir owne teates, otherwiſe when the babe ſhall nowe beginne to tattle and call hir '''Mamma''', with what force canne ſhe heare it of his mouth vnto whome ſhée hath denyed '''Mamma'''?}}
+#* {{RQ:Locke Human Understanding|chapter=Of General Terms|section=7|page=191|passage=The ''Ideas'' of the Nurſe, and the Mother, are vvell framed in their Minds; and, like Pictures of them there, repreſent only thoſe Individuals. The Names they firſt give to them, are confined to theſe Individuals; and the names of Nurſe, and '''''Mamma''''', the Child uſes, determine themſelves to thoſe Perſons.}}
+#* {{RQ:Shadwell Scowrers|chapter=Epilogue|passage=This begets Scorn, hovv can one stand in avve, / Of a vain Tavvdry, Amorous '''''Mamma'''''.}}
+#* {{RQ:John Gay Beggar's Opera|scene=xii|page=16|passage=If he keep out of the vvay, my Papa and '''Mama''' may in time relent, and vve may be happy.—If he ſtays, he is hang'd, and then he is loſt for ever!}}
+#* {{RQ:Goldsmith She Stoops to Conquer|page=102|passage=Alack, '''mama''', it vvas all your ovvn fault. You vvould be for running avvay by night, vvithout knovving one inch of the vvay.}}
+#* {{RQ:Byron Don Juan|canto=I|stanza=XLVIII|page=27|passage=I can't but say that his '''mamma''' was right, / If such an education was the true one.}}
+#* {{RQ:Dickens Dombey and Son|chapter=Dombey and Son|page=8|passage="'''Mama'''!" cried the child sobbing aloud. "Oh dear '''Mama'''! oh dear '''Mama'''!"}}
+#* {{RQ:Flaubert Marx Bovary|page=47|passage=Charles {{...}} respected his mother, and he loved his wife infinitely; he considered the judgment of the one infallible, and yet he thought the conduct of the other irreproachable. When Madame Bovary had gone, he tried timidly and in the same terms to hazard one or two of the more anodyne observations he had heard from his '''mamma'''. Emma proved to him with a word that he was mistaken, and sent him off to his patients.}}
+#* {{RQ:Ruskin Praeterita|volume=II|chapter=Cumæ|pages=71–72|pageref=72|passage=[T]he cameo cutters were also skilful in mortal portraiture, and papa and '''mamma''', still expectant of my future greatness, resolved to have me carved in cameo.}}
+#* {{RQ:West This Real Night|page=10|passage=Silly '''Mamma''', of course you should have your hair done like other '''Mammas'''.}}
+#* {{quote-song|en|year='''1990''' January 8|author=[[w:Prince (musician)|Prince Rogers Nelson]]|artist=[[w:Sinéad O'Connor|Sinéad O’Connor]]|title=w:Nothing Compares 2 U|album=[[w:I Do Not Want What I Haven't Got|I Do Not Want What I Haven’t Got]]|location=London|publisher=w:Chrysalis Records|oclc=868190222|passage=All the flowers that you planted, '''mama''', in the backyard / All died when you went away}}
+## {{lb|en|figurative}} {{synonym of|en|mother|t=an [[origin]], a [[source#Noun|source]]}}.
+##* {{RQ:Thackeray Essays|title=May Gambols|page=256|passage=The exhibition of the New Society of Water-Colour Painters has grown to be quite as handsome and agreeable as that of its '''mamma''', the old Society in Pall Mall East.}}
+## {{lb|en|obsolete}} {{non-gloss|[[use#Verb|Used]] preceding a [[name#Noun|name]] as a [[title#Noun|title]] for a mother.}}
+##* {{RQ:Trollope Ayala's Angel|volume=II|chapter=Lady Albury's Letter|page=59|passage=That they should spend their Christmas at Merle Park was an acknowledged thing;—to '''mamma''' Tringle an acknowledged benefit, because she liked to have her daughter with her; to papa Tringle an acknowledged evil, because he could not endure to be made to give more than he intended to give.}}
+# {{lb|en|LGBTQ slang}} A [[lesbian#Adjective|lesbian]] [[partner#Noun|partner]].
+# {{senseid|en|address for woman}}{{lb|en|Caribbean|<<US>> (originally <<AAVE>>)|informal}} {{non-gloss|Used as a ([[respectful]]) [[term of address]] for a [[woman#Noun|woman]], especially an [[old#Adjective|older]] one.}}
+#* {{RQ:Southey Common-place Book|year=1799|series=4|chapter=Mango Capac|page=4|column=1|passage=About {{smallcaps|a.d.}} 1150 Mango Capac and '''Mama''' Oella, his sister-wife {{quote-gloss|{{w|Manco Cápac}} and {{w|Mama Ocllo}}}}, appeared by the Lake Titicaca.}}
+# {{lb|en|chiefly|<<US>> (originally <<AAVE>>)|slang}}
+## A [[girlfriend#Noun|girlfriend]].
+##* {{RQ:Wodehouse Meet Mr Mulliner|page=179|passage=[W]hat would I do supposing the Jane on whom I had always looked as a steady '''mamma''' had handed me the old skimmer and told me to take all the air I needed because she had gotten another sweetie?}}
+# {{lb|en|BDSM}} A dominant female partner, often used as a term of address.
+#: {{ux|en|My girlfriend loves it when I call her '''mama'''.}}
+## A [[wife#Noun|wife]].
+##: {{ux|en|I need to talk to '''mama''' before I buy the car.}}
+## A woman [[regard#Verb|regarded]] as [[sexually]] [[attractive]] or {{lb|en|derogatory}} [[promiscuous]].
+##: {{ux|en|Whoa, that chick in the bikini is a real '''mama'''!}}
+
+=====Alternative forms=====
+* {{alter|en|mamma|momma|mumma}}
+
+=====Derived terms=====
+{{col3|en
+|baby-mama,baby mama
+|big mama
+|crunchy mama
+|godmama
+|grandmama
+|hoochie mama
+|ma
+|mama-bear,mama bear
+|mama grizzly
+|mamahood
+|mama-in-law
+|mamaji
+|mama pad
+|mama-pian<qq:Jamaica, obsolete>
+|mama put
+|mamarazzi
+|mama's baby, papa's maybe
+|mama's boy
+|mama's girl
+|mamiji
+|mamma-yaw<qq:Jamaica>
+|mammy
+|mauma<qq:African-American Vernacular>
+|motorcycle mama
+|save the drama for your mama
+|scrunchy mama
+|silky mama
+|stepmama
+|sugar mama
+|sweet mama
+|yo mama
+}}
+
+=====Related terms=====
+{{col3|en
+|mamasan
+|mom
+|mommy
+|mother
+|mum
+|mummy
+|study mama
+}}
+
+=====Translations=====
+{{trans-see|''synonym of'' mother|mother}}
+{{trans-see|girlfriend}}
+{{trans-see|wife}}
+
+====Interjection====
+{{en-intj}}
+
+# {{lb|en|Caribbean|US}} ''Often preceded by'' '''[[oh#Interjection|oh]]''': {{non-gloss|[[use#Verb|used]] to [[express#Verb|express]] [[approval]], [[joy#Noun|joy]], [[surprise#Noun|surprise]], etc.}}
+#* {{RQ:Ade Artie|edition=2nd|chapter=XII|page=109|passage=He do&nbsp;n't do a thing in the world except travel around with some more o' them handy boys and lay for jack-pots. And the talk he gives you! '''Mamma'''! He&nbsp;'s better 'n any o' them shell-workers that used to graft out at the gover'ment pier.}}
+#* {{quote-book|en|year=1960|author=Rowland Barber|chapter=Mlle. Fifi from Paris, France|title=The Night They Raided Minsky’s: A Fanciful Expedition to the Lost Atlantis of Show Business|location=New York, N.Y.|publisher=[[w:Simon & Schuster|Simon and Schuster]]|page=130|pageurl=https://archive.org/details/nighttheyraidedm0000barb/page/130/mode/1up|oclc=264913|passage=He scribbled a name and address on the back of his business card and handed it to Betty. "Only one show, kid, but it draws real good. Sunday vaudeville is the best showcase in town." Betty could scarcely breathe. It was like seven spotlights converging deep inside her into a searing hot nucleus. The Winter Garden! Oh, '''Mama'''!}}
+
+=====Translations=====
+{{trans-see|''used to express approval''|yes}}
+{{trans-see|''used to express joy or surprise|oh}}
+
+====Verb====
+{{en-verb}} {{tlb|en|informal|uncommon}}
+
+# {{lb|en|transitive}}
+## {{synonym of|en|mother#Verb|t=to [[treat#Verb|treat]] (someone) as a [[mother#Noun|mother]] would be [[expect]]ed to treat her [[child#Noun|child]]; to [[nurture#Verb|nurture]]}}.
+##* {{quote-journal|en|date=7 May 1905|title=The Lancer|journal=[[w:Los Angeles Times|Los Angeles Sunday Times]]|location=Los Angeles, Calif.|publisher=[[w:Times Mirror Company|The Times-Mirror Company]]|volume=47|issue=155|section=part II|page=5|pageurl=https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1905-05-07/page/n16/mode/1up|column=2|oclc=634549976|passage=What shall be the effeminating effect upon the rising generation if the brave men of today are to be '''mammaed''' by a crew of timid Supervisors?}}
+##* {{quote-book|en|year=1995|author=Janice Daugharty|chapter=2|title=Necessary Lies{{nb...|a Novel}}|location=New York, N.Y.|publisher=[[w:HarperCollins|HarperCollinsPublishers]]|page=40|pageurl=https://archive.org/details/necessaryliesnov00daug/page/40/mode/1up|isbn=978-0-06-017177-3|passage=Had Maude deduced that if Cliffie could smoke she was grown and on her own, that she no longer needed '''mamaing'''?}}
+##* {{quote-book|en|year=2003|author=Janice Daugharty|chapter=You’re No Angel Yourself|editor=Hugh Ruppersburg|title=After O’Connor: Stories from Contemporary Georgia|location=Athens, Ga.|publisher=w:University of Georgia Press|page=59|pageurl=https://archive.org/details/afteroconnorstor0000rupp/page/59/mode/1up|isbn=978-0-8203-2556-9|passage=And that's how come Lyniece to volunteer as mama to Son's children. That and desperation to get out of the woods and away from her daddy. She'd like to say that her reason was solely for the purpose of '''mamaing''' Son's children, but that would be a lie. She'd raised them well enough with what she had to raise them with—sent them to school, clean and neat and fed, till they got grown. But never really '''mamaed''' them.}}
+##* {{quote-journal|en|year=2007|month=September|author=Chris(tine) [pseudonym]|title=Columns|journal=w:Maximum Rocknroll|location=San Francisco, Calif.|publisher=Maximum Rocknroll|issue=292|page=|pageurl=https://archive.org/details/mrr_292/page/n24/mode/1up|column=3|issn=0743-3530|oclc=10553172|passage=I've been pretty out of the loop—immersed in my small world of day-to-day living, working and baby-'''mammaing'''.|footer={{small|A noun use.}}}}
+## {{lb|en|obsolete|rare}} To [[call#Verb|call]] (someone) "[[mama#Noun|mama]]" ''(noun sense)''.
+##* {{RQ:Richardson Clarissa|edition=2nd|volume=III|letter=LXIV|chapter=Miss Clarissa Harlowe, to Miss Howe|page=320|passage=Priſc{{quote-gloss|illa}} vvill '''Mamma'''-up Mrs. Sinclair, and vvill undertake to court her guardian to let her paſs a delightful vveek vvith her.}}
+# {{lb|en|intransitive}} To call out "mama".
+#* {{quote-journal|en|date=6 December 1905|title=Humor: Babies and the parson: How his scheme for keeping them quiet was spoiled|journal=[[w:The Peterborough Examiner|The Evening Examiner]]|location=Peterborough, Ont.|publisher=&#91;{{w|The Peterborough Examiner}}&#93;|volume=XXXIX|issue=132|page=9|pageurl=https://archive.org/details/peterboroughexaminer/Peterborough%20Examiner%201905%2011%2007-1906%2001%2005/page/n249/mode/1up|column=4|issn=0839-0878|oclc=1097300484|passage=[W]hen the next Sunday two and the third Sunday four babies cooed and '''mammaed''' and howled in chorus it was more than he could stand.|footer={{small|Originally published in the ''Magazine of Fun''.}}}}
+#* {{RQ:Henry Strictly Business|story=Compliments of the Season|page=199|passage=They passed a newspaper back and forth among themselves. The item that each solid and blunt forefinger pointed out was an advertisement headed "One Hundred Dollars Reward." To earn it one must return the rag-doll lost, strayed, or stolen from the Millionaire's mansion. It seemed that grief still ravaged, unchecked, in the bosom of the too faithful Child. {{...}} She wailed for her Betsy in the faces of walking, talking, '''mama-ing''', and eye-closing French Mabelles and Violettes. The advertisement was a last resort.|footer=An adjective use.}}
+
+=====Translations=====
+{{trans-see|''synonym of'' mother|mother}}
+
+{{trans-top|to call out “mama”}}
+* French: {{t-needed|fr}}
+{{trans-bottom}}
+
+===Etymology 2===
+Borrowed from {{bor|en|xh|umama}} and {{bor|en|zu|umama}},<ref>Compare {{R:DSAE|pos=n|id=e04515}}</ref> sometimes only distinguishable from [[w:English language|English]] ''[[mama#Noun|mama]]'' (see [[#Etymology 1|etymology 1]]) by the context and pronunciation.<ref>{{R:OED Online|pos=''n.''{{sup|2}}|noformat=1|id=7257781433|date=July 2023}}</ref>
+
+====Pronunciation====
+* {{IPA|en|/ˈmʌmə/|/ˈmɑː-/|a=RP,South Africa}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-mama.wav|a=Southern England|IPA=/ˈmʌmə/}}
+{{rfap|en|South African pronunciation|variety=South African}}
+* {{IPA|en|/ˈmæmə/|/ˈmə-/|/ˈmɑ-/|a=GA}}
+* {{audio|en|LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-mama.wav|a=GA|IPA=/ˈmɑmə/}}{{audio|en|LL-Q1860 (eng)-Wodencafe-mama.wav|-}}
+* {{rhymes|en|q1=RP, SA|ʌmə(ɹ)|ɑːmə|q3=GA|æmə|s=2}}
+* {{hyphenation|en|ma|ma}}
+
+====Noun====
+{{en-noun}} {{tlb|en|South Africa}}
+
+# {{synonym of|en|mother#Noun|t=a [[female#Adjective|female]] [[parent#Noun|parent]]}}.
+## {{lb|en|often|familiar}} {{non-gloss|[[use#Verb|Used]] as a ([[respectful]]) [[term of address]] for one's mother.}}
+##* {{quote-book|en|year=1982|author=[[w:Mbulelo Mzamane|Mbulelo Vizikhungo Mzamane]]|chapter=Book One: My Schooldays in Soweto|title=The Children of Soweto: A Trilogy|location=Harlow, Essex|publisher=w:Longman|year_published=1992|page=41|pageurl=https://archive.org/details/childrenofsoweto0000mzam_k6q6/page/41/mode/1up|isbn=978-0-582-01680-4|passage=We had gone to his house on our way to school, as usual, when we learnt of his arrest. His mother said they'd been worken up about three a.m. by the police who took him away. {{...}} 'Did they say when he'll be back, '''Mama'''?' I asked. 'No, my child,' his mother said.}}
+# A [[middle-aged]] [[black#Adjective|black]] [[woman#Noun|woman]].
+#* {{quote-book|en|year=1989|author=Jenny Hobbs|chapter=17|title=Thoughts in a Makeshift Mortuary|location=London; Glasgow|publisher=[[w:Grafton (publisher)|Grafton Books]]|year_published=1990|page=9|pageurl=https://archive.org/details/thoughtsinmakesh0000hobb/page/9/mode/1up|isbn=978-0-586-20840-3|passage=And the old mealie '''mamas''' who used to go past in the street with big bulging sacks on their heads, calling "Meeeeealies!"}}
+## {{lb|en|often|familiar}} ''Often in the form'' '''[[Mama]]''': {{non-gloss|used as a (respectful) term of address for an [[adult#Adjective|adult]] woman.}}
+##* {{quote-book|en|year=2003|author=w:Damon Galgut|chapter=4|title=[[w:The Good Doctor (novel)|The Good Doctor]]|edition=1st American|location=New York, N.Y.|publisher=w:Grove Press|year_published=9 January 2004|page=39|pageurl=https://archive.org/details/gooddoctor00galg/page/39/mode/1up|isbn=978-0-8021-1764-9|passage=She came over now, sweating and smiling amiably, to wipe the table with a filthy cloth. 'How are you today, Mr Doctor?' {{...}} 'I'm good, '''Mama'''. How about you?' {{...}} When she'd gone he asked, 'Why do you call her '''Mama'''?' {{...}} 'I don't know. It's a term of affection or something. Respect. I don't know.'}}
+##* {{quote-web|en|date=11 September 2019|author=Arwa Haider|title={{w|Pata Pata}}: The World’s Most Defiantly Joyful Song?|work=w:BBC|archiveurl=https://web.archive.org/web/20240627065313/https://www.bbc.com/culture/article/20190911-pata-pata-the-worlds-most-defiantly-joyful-song|passage=She {{quote-gloss|{{w|Miriam Makeba}}}} was 76 when she died, with {{w|Nelson Mandela}} (who had eventually persuaded Makeba, a long-time campaigner for his freedom, to return to post-apartheid South Africa) leading the tributes to an artist now revered as ‘'''Mama''' Africa’.}}
+
+=====Alternative forms=====
+* {{sense|term of address}} {{alter|en|Mama}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{pedia|mother}}
+* {{pedia|2=mama (disambiguation)}}
+
+===Anagrams===
+* {{anagrams|en|a=aamm|amma|ma'am}}
+
+{{cln|en|reduplicated coordinated pairs|terms of address}}
+{{c|en|Female family members}}
+
+==Aklanon==
+
+===Etymology===
+From {{inh|akl|poz-pro|*mamaq}}, compare {{cog|ms|mamah}}.
+
+===Verb===
+{{head|akl|verbs}}
+
+# to [[chew]] ([[tobacco]], [[betel]])
+
+==Amis==
+
+===Noun===
+{{head|ami|nouns}}
+
+# [[father]]
+
+=='Are'are==
+
+===Etymology===
+From {{af|alu|ma-|ama}}.
+
+===Pronunciation===
+* {{alu-IPA}}
+
+===Noun===
+{{head|alu|nouns}}
+
+# [[father]]
+
+===References===
+* {{R:alu:Naitoro}}
+
+{{C|alu|Parents}}
+
+==Aukan==
+
+===Noun===
+{{head|djk|nouns}}
+
+# [[mother]]
+# [[woman]]
+#: {{syn|djk|uman}}
+
+==Aymara==
+
+===Pronunciation===
+* {{IPA|ay|/ma.ma/}}
+
+===Noun===
+{{head|ay|nouns}}
+
+# [[mother]]
+# [[Mrs.]], [[mistress]] {{qualifier|general respectful address for married women}}.
+#: {{ux
+| inline = 1|ay|tatanak '''mamanaka'''|'''ladies''' and gentlemen
+}}
+
+==Azerbaijani==
+{{az-variant|мама|ماما}}
+
+===Pronunciation===
+* {{az-IPA}}
+* {{audio|az|LL-Q9292 (aze)-Azerbaijani audiorecordings-mama.wav|a=Baku}}
+
+===Noun===
+{{az-noun}}
+
+# {{lb|az|dialectal}} [[paternal aunt]] {{ref|group=nt.|{{lb|az|in the dialects of|_|Ağcabədi|Ağdam|Ağdərə|Balakən|Başkeçid|Borçalı|Böyük Qarakilsə|Cəbrayıl|Füzuli|Göyçay|İmişli|Qax|Qarakilsə|Qazax|Laçın|Mingəçevir|Şəki|Şəmkir|Tərtər|Ucar|Yevlax|Zaqatala|Zəngilan}}
+.<ref>{{R:az:ADL}}.</ref>}}
+#: {{syn|az|bibi}}
+# [[mom]]
+#: {{syn|az|ana}}
+# [[midwife]]
+#: {{syn|az|mamaça}}
+
+====Usage notes====
+{{reflist|group=nt.}}
+
+====Declension====
+{{az-decl-noun|a}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{R:az:ADIL|page=286}}
+
+==Bangi==
+
+===Etymology===
+{{inh+|bni|bnt-pro|*mààmá}}.
+
+===Noun===
+{{head|bni|noun}}
+
+# [[mother]]
+
+==Bavarian==
+
+===Noun===
+{{head|bar|noun}}
+
+# {{lb|bar|Timau}} [[mother]], [[mom]], [[#English|mama]]
+
+===References===
+* Umberto Patuzzi, ed., (2013) [https://web.archive.org/web/20201023025421/http://www.lusern.it/documenti/Centro_documentazione/libri-depliant-att--didattica-relazioni-etc-/libri/le-nostre-parole-luserna.pdf Ünsarne Börtar], Luserna: Comitato unitario delle linguistiche storiche germaniche in Italia / Einheitskomitee der historischen deutschen Sprachinseln in Italien.
+
+==Brunei Malay==
+
+===Noun===
+{{head|kxd|nouns}}
+
+# A [[mother]].
+#: {{syn|kxd|babu}}
+
+==Catalan==
+
+===Etymology 1===
+From {{der|ca|la|mamma}}.
+
+====Pronunciation====
+* {{ca-IPA}}
+
+====Noun====
+{{ca-noun|f}}
+
+# {{lb|ca|informal}} [[mom]]
+# {{lb|ca|anatomy}} [[mamma]]
+
+=====Derived terms=====
+* {{l|ca|càncer de mama|t=[[breast cancer]]}}
+
+=====Related terms=====
+{{col2|ca
+|mamar
+|mamari
+|mare
+|mamella}}
+
+====Further reading====
+* {{R:ca:IEC2}}
+* {{R:ca:GDLC}}
+* {{R:ca:DNV}}
+* {{R:ca:DCVB}}
+
+===Etymology 2===
+
+====Verb====
+{{head|ca|verb form}}
+
+# {{ca-verb form of|mamar}}
+
+==Cebuano==
+
+===Etymology 1===
+Possibly from {{bor|ceb|es|mamá}}. Compare {{cog|tl|mama}}, {{cog|bcl|mama}}.
+
+====Pronunciation====
+* {{hyph|ceb|ma|ma}}
+
+====Noun====
+{{head|ceb|nouns}}
+
+# a [[mother]]; a ([[human]]) [[female]] who (a) [[parent#Verb|parent]]s a [[child]] (b) gives [[birth]] to a [[baby]] (c) donates a fertilized egg or (d) donates a body cell which has resulted in a clone
+#: {{syn|ceb|ina|inahan|nanay}}
+# {{n-g|a [[term]] of address to one's [[mother]], [[mother-in-law]] or [[wife]]}}
+
+=====Usage notes=====
+* Sense 1 is sometimes used in reference to a [[pregnant]] female, possibly as a shortened form of [[mother-to-be]].
+
+===Etymology 2===
+
+====Pronunciation====
+* {{hyph|ceb|ma|ma}}
+* {{ceb-IPA|mamâ}}
+
+====Noun====
+{{head|ceb|nouns|head=mamâ}}
+
+# [[betel nut]]
+
+=====Derived terms=====
+{{col3|ceb|magmama|mamaon}}
+
+==Central Bikol==
+
+===Etymology 1===
+Possibly from {{bor|bcl|es|mamá}}. Compare {{cog|tl|mama}}, {{cog|ceb|mama}}.
+
+====Pronunciation====
+* {{hyph|bcl|ma|ma}}
+* {{bcl-IPA}}
+
+====Noun====
+{{head|bcl|nouns|head=máma|masculine|papa}}
+
+# a [[mother]]; a ([[human]]) [[female]] who (a) [[parent#Verb|parent]]s a [[child]] (b) gives [[birth]] to a [[baby]] (c) donates a fertilized egg or (d) donates a body cell which has resulted in a clone. Sometimes used in reference to a [[pregnant]] female, possibly as a shortened form of [[mother-to-be]]
+#: {{syn|bcl|ina|nanay}}
+# a [[term]] of address to one's [[mother]], [[mother-in-law]] or [[wife]]
+
+===Etymology 2===
+
+====Pronunciation====
+* {{hyph|bcl|ma|ma}}
+* {{bcl-IPA|mamâ}}
+
+====Noun====
+{{head|bcl|nouns|head=mamâ}}
+
+# [[betel nut]]
+
+=====Derived terms=====
+{{col3|bcl|magmama|mamaon}}
+
+==Chinook Jargon==
+
+===Etymology===
+From {{bor|chn|en|mama}} or {{bor|chn|fr|maman}}.
+
+===Noun===
+{{head|chn|nouns}}
+
+# [[mother]]
+#: {{syn|chn|naha}}
+#: {{coordinate terms|chn|papa}}
+
+{{C|chn|Female family members}}
+
+==Dutch==
+
+===Etymology===
+Loaned from {{bor|nl|fr|maman}}<ref>{{R:nl:Etymologiebank}}</ref>
+
+===Pronunciation===
+* {{audio|nl|Nl-mama.ogg}}
+* {{IPA|nl|/ˈmɑmaː/}}
+* {{IPA|nl|/mɑˈmaː/|a=BE}}
+* {{rhymes|nl|aː|s=2}}
+
+===Noun===
+{{nl-noun|f|-'s|+}}
+
+# {{C|nl|Parents|Female family members}} {{l|en|mama}}, [[mother]]
+#: {{ux|inline=1|nl|'''Mama''', ik heb honger!|'''Mommy''', I’m hungry!}}
+#: {{syn|nl|ma|mam}}
+#: {{syn|nl|moeder|moe|moeke|q3=Flemish}}
+
+====Alternative forms====
+* {{alt|nl|mamma}}
+
+====Derived terms====
+* {{l|nl|mama appelsap}}
+
+====Descendants====
+* {{desc|brc|mama}}
+* {{desc|dcr|mama|Mama}}
+** {{desc|vic|muma|bor=1}}
+
+===References===
+<references/>
+
+{{cln|nl|reduplications}}
+
+==Ewe==
+
+===Noun===
+{{head|ee|nouns}}
+
+# [[grandmother]]
+
+{{C|ee|Female family members}}
+
+==Fijian==
+
+===Etymology 1===
+{{rfe|fj}}
+
+====Verb====
+{{head|fj|verb|transitive|mamā}}
+
+# to [[chew]] {{gloss|to crush with teeth prior to swallowing}}
+#: {{ux|fj|'''Mama''' mada na kakana.|'''Chew''' the food first.}}
+# {{lb|fj|by extension}} to [[mumble]] {{gloss|to speak unintelligibly}}
+
+===Etymology 2===
+{{rfe|fj}}
+
+====Noun====
+{{head|fj|noun}}
+
+# [[ring]] {{gloss|round piece of metal worn around the finger}}
+#: {{ux|fj|E yaga na '''mama''' oqo.|This '''ring''' is beautiful.}}
+
+=====Usage notes=====
+Rings were not traditionally worn by Fijians before European contact.
+
+=====Derived terms=====
+{{col|fj
+|mama ni vakamau<t:wedding ring>}}
+
+===Etymology 3===
+{{rfe|fj}}
+
+====Adjective====
+{{head|fj|adjective|head=māmā}}
+
+# {{lb|fj|Rewa|dialectal}} [[light]] {{gloss|of low weight}}
+#: {{syn|fj|mamada}}
+
+=====Derived terms=====
+{{col|fj
+|mamaca<t:dry; definite, effective>
+|mamada<t:light (in weight)>
+|mamadua<t:shy>
+|mamakeukeu<t:to sob, whimper>
+|mamaqi<t:stingy, mean>
+|mamarau<t:very joyful>
+|mamare<t:translucent; thin (of flat objects)>
+|mamau<t:sated, full (from eating)>
+|mamavoavoa<t:very badly wounded>}}
+
+===References===
+* {{R:fj:Gatty:2009|+|page=154–5}}
+
+{{C|fj|Jewelry}}
+
+==Galician==
+
+===Etymology 1===
+{{wp|gl:}}
+{{etymon|gl|id=breast|:inh|roa-opt:mama<id:breast>|text=++}}
+
+====Noun====
+{{gl-noun|f}}
+
+# {{lb|gl|anatomy}} [[mamma]], [[breast]]
+
+=====Related terms=====
+{{col|gl|mamar|mamífero}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Verb====
+{{head|gl|verb form}}
+
+# {{gl-verb form of|mamar}}
+
+==Garo==
+
+===Etymology===
+Likely from {{bor|grt|bn|মামা}}
+
+===Noun===
+{{head|grt|nouns}}
+
+# [[maternal uncle]]
+# [[husband]] of [[aunt]]
+# [[father-in-law]]
+# [[brother]] of [[father-in-law]]
+
+====Synonyms====
+* {{l|grt|mamagipa}} {{qualifier|formal}}
+* {{l|grt|mamatang}} {{qualifier|formal}}
+
+{{C|grt|Male family members}}
+
+==Guinea-Bissau Creole==
+
+===Etymology===
+From {{der|pov|pt|mama}}. Cognate with {{cog|kea|mama}}.
+
+===Noun===
+{{head|pov|nouns}}
+
+# [[bosom]]
+# [[breast]] of a woman
+
+==Hausa==
+
+===Pronunciation===
+* {{ha-IPA|mā̀ma}}
+
+===Noun===
+{{ha-noun|f|mā̀ma}}
+
+# [[mother]]
+#: {{syn|ha|uwa}}
+
+===Noun===
+{{ha-noun|m|mā̀ma}}
+
+# [[breast]]
+#: {{syn|ha|nono}}
+
+{{C|ha|Female family members|Body parts}}
+
+==Hawaiian==
+
+===Etymology===
+{{dercat|haw|poz-pol-pro|poz-oce-pro|inh=2}}
+{{inh+|haw|poz-pro|*mamaq}}.
+
+===Pronunciation===
+* {{haw-IPA}}
+
+===Verb===
+{{head|haw|verb}}
+
+# to [[chew]], [[masticate]] (but not swallow)
+
+===References===
+* {{R:haw:Pukui:1986}}
+
+==Hungarian==
+
+===Pronunciation===
+* {{hu-IPA}}
+* {{audio|hu|Hu-mama.ogg}}
+* {{hyph|hu|ma|ma}}
+* {{rhymes|hu|mɒ|s=2}}
+
+===Noun===
+{{hu-noun|pl=mamák}}
+
+# [[mom]], [[mum]]
+#: {{syn|hu|anya|anyu|édesanya|anyuka|anyuci}}
+#: {{coord|hu|papa}}
+# {{lb|hu|dialectal}} [[grandmom]]
+
+====Declension====
+{{hu-infl-nom|mamá|o}}{{hu-pos-tok|mamá}}
+
+====Derived terms====
+{{col4|hu|title=Compound words
+|kismama
+|mamahotel
+|nagymama
+|pótmama
+}}
+
+===Further reading===
+* {{R:ErtSz}}
+
+{{C|hu|Female family members}}
+
+==Ido==
+
+===Etymology===
+{{io-bor|mama|maman|Mama|mamma|ма́ма|mamá}}
+
+===Pronunciation===
+{{io-IPA}}
+
+===Noun===
+{{io-noun|mama}}
+
+# [[#English|mama]], [[mom]], [[mommy]], [[mum]]
+#: {{syn|io|matro}}
+#: {{coordinate terms|io|papa|patro}}
+
+{{C|io|Female family members}}
+
+==Ilocano==
+
+===Pronunciation===
+* {{ilo-IPA|mamá}}
+* {{hyph|ilo|ma|ma}}
+
+===Noun===
+{{ilo-noun|mamá|b=+}}
+
+# {{l|en|momma|id=Philippines}} {{gl|a [[betel nut]] plus other ingredients to be chewed on}}
+#: {{ux|ilo|Maiparit ti agtupra ti '''mama'''.|Spitting of '''momma''' is not allowed.}}
+
+==Indonesian==
+
+===Pronunciation===
+{{id-pr}}
+
+===Etymology 1===
+Originally from baby talk.
+
+====Noun====
+{{id-noun}}
+
+# [[mother]] {{gl|female parent}}
+#: {{syn|id|biyung|bunda|emak|embok|ibu|ibunda|ibung|indung|mak|mami|mandeh|mbok|umi}}
+
+=====Alternative forms=====
+* {{alt|id|mamah}}
+
+===Etymology 2===
+{{lbor|id|la|mamma}}, from {{der|id|grc|μάμμη}}.
+
+====Noun====
+{{id-noun}}
+
+# {{lb|id|medicine}} [[mamma]], [[breast]], [[udder]] {{gl|the milk-secreting organ of female humans and other mammals}}
+#: {{syn|id|buah dada|bukit kembar|gunung kembar|payudara|susu|tetek|toket}}
+# {{lb|id|meteorology}} [[mamma]] {{gl|an accessory cloud like a mammary in appearance, which can form on the underside of most cloud genera}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Ingrian==
+
+===Etymology===
+Borrowed from {{bor|izh|ru|мама}}.
+
+===Pronunciation===
+* {{izh-p}}
+
+===Noun===
+{{head|izh|nouns}}
+
+# [[mum]], [[#English|mama]]
+#* {{RQ:izh:Bukvari:1936|Kana, ka-ka-ka, na, '''mama''', kana.|A hen, cluck cluck cluck, here, '''mummy''', a hen.}}
+
+====Declension====
+{{izh-decl/kana|m|m}}
+
+====Coordinate terms====
+* {{l|izh|papa|t=dad; papa}}
+
+===References===
+* {{R:izh:Tumansky:1790|мама|page=699}}
+* {{R:izh:Nirvi:1971|page=295}}
+
+{{C|izh|Parents|Female family members}}
+
+==Irish==
+
+===Etymology===
+From {{der|ga|la|mamma}}.
+
+===Noun===
+{{ga-noun|m|~|~í}}
+
+# {{lb|ga|literary}} [[breast]], [[pap]]
+# {{lb|ga|anatomy}} [[mamma]]
+#: {{syn|ga|faireog mhamach}}
+
+====Declension====
+{{ga-decl-m4|m|ama|amaí}}
+
+===Mutation===
+{{ga-mut}}
+
+===Further reading===
+* {{R:ga:Ó Dónaill}}
+* {{R:DIL|31504}}
+* {{R:ga:NEID}}
+
+==Istriot==
+
+===Etymology===
+From {{inh|ist|la|mamma}}.
+
+===Noun===
+{{head|ist|nouns|g=f}}
+
+# [[mom]], [[mamma]], [[mother]]
+
+====See also====
+* {{l|ist|mare}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|まま}}
+# {{ja-romanization of|ママ}}
+
+==Kabuverdianu==
+
+===Etymology===
+{{ety|kea|:der|pt:mama|text=+|tree=1}}
+
+===Noun===
+{{head|kea|nouns}}
+
+# [[bosom]]
+# [[breast]] of a woman
+
+==Krisa==
+
+===Pronoun===
+{{head|ksi|pronouns}}
+
+# [[you]]
+
+==Laboya==
+
+===Pronunciation===
+* {{IPA|lmy|[ˈmaːma]}}
+
+===Etymology 1===
+
+====Verb====
+{{head|lmy|verbs}}
+
+# to [[chew]] [[betel]]
+
+===Etymology 2===
+
+====Noun====
+{{head|lmy|nouns}}
+
+# to [[mother]]
+
+===References===
+* {{r:lmy:verdizade19b}}
+
+{{C|lmy|Betel}}
+
+==Latgalian==
+
+===Etymology===
+From {{inh|ltg|ine-bsl-pro|*mā́ˀmāˀ}}. Cognates include {{cog|lv|mama}} and {{cog|lt|mama}}.
+
+===Pronunciation===
+* {{ltg-IPA}}
+* {{hyph|ltg|ma|ma}}
+
+===Noun===
+{{ltg-noun|f|mameņa}}
+
+# {{lb|ltg|colloquial}} [[mum]], [[mummy]]
+
+====Declension====
+{{ltg-decl-noun/4}}
+
+====Synonyms====
+* {{q|more formal}} {{l|ltg|muote}}
+
+====Coordinate terms====
+* {{l|ltg|tēte||dad}}
+
+===References===
+* {{R:ltg:Andronov:2008|page=10}}
+
+{{C|ltg|Parents|Female family members}}
+
+==Lingala==
+
+===Etymology===
+{{bor+|ln|bni|mama}}.
+
+===Noun===
+{{head|ln|noun}}
+
+# [[mother]], [[mom]]
+
+==Lithuanian==
+
+===Etymology===
+A {{onomatopoeic|lt|title=nursery}} word. From {{inh|lt|ine-bsl-pro|*mā́ˀmāˀ}}, from {{der|lt|ine-pro|*méh₂-méh₂}}, a reduplication of {{m|ine-pro|*méh₂-}} - the root of {{m|ine-pro|*méh₂tēr||mother}}.
+
+Cognate with {{cog|sla-pro|*mama}}, {{cog|de|Muhme|t=aunt}}, {{cog|la|mamma|t=mother, nurse}}, {{cog|ga|mam|t=mother}}  among others.
+
+===Noun===
+{{lt-noun|f|mãmos|4|head=mamà}}
+
+# [[mother]]
+
+====Declension====
+{{lt-noun-f-a-4|mam|mãm}}
+
+====Related terms====
+* {{l|lt|mamytė|mamýtė}}, {{l|lt|mamelė|mamẽlė|pos=diminutive}}
+
+{{C|lt|Female family members}}
+
+==Lower Sorbian==
+
+===Etymology===
+A {{onomatopoeic|dsb|title=nursery}} word. From {{inh|dsb|sla-pro|*mama}}, from {{inh|dsb|ine-bsl-pro|*mā́ˀmāˀ}}, from {{inh|dsb|ine-pro|*méh₂-méh₂}}, a reduplication of {{m|ine-pro|*méh₂-}} - the root of {{m|ine-pro|*méh₂tēr||mother}}.
+
+Cognate with {{cog|de|Muhme|t=aunt}}, {{cog|la|mamma|t=mother, nurse}}, {{cog|ga|mam|t=mother}}, {{cog|lt|mama}}, {{m|lt|moma|t=mother}} among others. Cf. {{cog|sla-pro|*tata}}, {{m|sla-pro|*baba}}.
+
+===Pronunciation===
+* {{IPA|dsb|[ˈmama]}}
+
+===Noun===
+{{dsb-noun|f|dim=maminka}}
+
+# [[mother]], [[mom]]
+
+====Declension====
+{{dsb-decl-noun-1|mam}}
+
+===Further reading===
+* {{R:dsb:Muka}}
+* {{R:dsb:Starosta}}
+
+{{C|dsb|Female family members}}
+
+==Maguindanao==
+
+===Etymology===
+From ''[[ma-]]'' and ''[[ama]]''.
+
+===Adjective===
+{{head|mdh|adjectives}}
+
+# [[male]]
+
+===Noun===
+{{head|mdh|nouns}}
+
+# a [[male]]
+
+==Maranao==
+
+===Etymology===
+From {{af|mrw|ma-|ama}}.
+
+===Adjective===
+{{head|mrw|adjectives}}
+
+# [[male]] {{rfclarify|mrw}}<!--, also human adult male or a characteristic  sex/gender only. ?-->
+
+===Noun===
+{{head|mrw|nouns}}
+
+# a [[male]]
+
+==Martuthunira==
+{{was fwotd|vma|2014|April|10}}
+
+===Pronunciation===
+* {{IPA|vma|/mama/}}
+
+===Noun===
+{{head|vma|nouns}}
+
+# [[paternal uncle]] {{gloss|one’s father’s brother}}
+
+====References====
+* Dench, Alan Charles. 1995. ''Martuthunira: A Language of the Pilbara Region of Western Australia.'' Canberra: Pacific Linguistics. Series C-125.
+
+{{C|vma|Male family members}}
+
+==Mauritian Creole==
+
+===Etymology===
+From {{inh|mfe|fr|maman}}.
+
+===Noun===
+{{head|mfe|nouns}}
+
+# [[mother]]
+
+====References====
+* {{R:mfe:Baker:1987|page=213}}
+* {{R:mfe:Carpooran:2011|page=669}}
+
+==Mòcheno==
+
+===Etymology===
+Possibly derived from {{der|mhn|gmh|muome}}, from {{der|mhn|goh|muoma}}, from {{der|mhn|gmw-pro|*mōmā||mama, mother}}, from {{inh|mhn|gem-pro|*mōmǭ||mama, mother; aunt, auntie}}. Cognate with {{cog|de|Mama}}, {{cog|en|mama}}.
+
+===Noun===
+{{mhn-noun|f}}
+
+# [[mother]]
+
+===References===
+* {{R:CLM}}
+* {{R:Patuzzi}}
+
+{{C|mhn|Female family members}}
+
+==Mwani==
+
+===Noun===
+{{head|wmw|noun}}
+
+# [[mother]]
+
+==Nigerian Pidgin==
+
+===Noun===
+{{pcm-noun}}
+
+# [[mother]]
+
+{{C|pcm|Female family members}}
+
+==Old Galician-Portuguese==
+
+===Pronunciation===
+* {{IPA|roa-opt|/ˈmama/}}
+* {{rhyme|roa-opt|ama|s=2}}
+* {{hyph|roa-opt|ma|ma}}
+
+===Etymology 1===
+{{etymon|roa-opt|id=breast|:inh|la:mamma<id:breast>|text=++}}
+
+====Noun====
+{{roa-opt-noun|f}}
+
+# [[breast]]
+# [[teat]]; [[udder]]
+
+=====Related terms=====
+{{col|roa-opt|mamar|mamyllo|mamoa}}
+
+=====Descendants=====
+* {{desc|gl|mama}}
+* {{desc|pt|mama}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Verb====
+{{head|roa-opt|verb form}}
+
+# {{inflection of|roa-opt|mamar||3|s|pres|ind|;|2|s|imp}}
+
+===References===
+* {{R:roa-opt:VPM|55231}}
+
+{{C|roa-opt|Body parts|Animal body parts}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*màma|etydate=fifteenth century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|f}}
+
+# {{lb|zlw-opl|attested in|Masovia}} [[mom]], [[mother]]
+#* {{RQ:zlw-opl:ZapWarsz|1308|1470|Yakom ya Malgorzacze, '''mamye''' mey, nye szabral dwu szuknyv|Jakom ja Małgorzacie, '''mamie''' mej, nie zabrał dwu sukniu|-}}
+# [[wet nurse]], [[nurse]]
+#* {{RQ:zlw-opl:Rozm|12|Nye tako, yako ynne panny czynyv, yze schvkaya ynych opczych '''mam''' (non ut solent homines extraneam quaesivit nutricem mater puero), alye swe dzyeczatko svymy pyrszyamy karmyla (sc. Anna)|Nie tako, jako inne panny czynią, iże szukają inych obcych '''mam''' (non ut solent homines extraneam quaesivit nutricem mater puero), ale swe dzieciątko swymi pirsiami karmiła (sc. Anna)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|mamka}}
+
+====Descendants====
+* {{desc|pl|mama}}
+* {{desc|szl|mama}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Mańczak}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Female family members|Parents}}
+
+==Old Slovak==
+
+===Etymology===
+{{ety|zlw-osk|:inh|sla-pro:*mama|text=+|tree=1}}
+
+===Noun===
+{{zlw-osk-noun|f}}
+
+# [[mom]], [[mother]]
+
+====Descendants====
+* {{desc|sk|mama}}
+
+===References===
+* {{R:sk:HSSJ}}
+
+{{C|zlw-osk|Female family members|Parents}}
+
+==Pali==
+
+===Alternative forms===
+{{pi-alt}}
+
+===Pronoun===
+{{head|pi|pronoun forms}}
+
+# {{inflection of|pi|ahaṃ||gen//dat|s|t=me}}
+
+==Panyjima==
+{{was fwotd|pnw|2016|April|2}}
+
+===Pronunciation===
+* {{IPA|pnw|/mama/}}
+
+===Noun===
+{{head|pnw|nouns}}
+
+# [[father]]
+#: {{syn|pnw|papu}}
+# [[paternal uncle]] {{gloss|one’s father’s brother}}
+
+====References====
+* Dench, Alan (1991). "Panyjima", in R.M.W. Dixon and Barry J. Blake: ''The Handbook of Australian Languages, Volume 4''. Melbourne: Oxford University Press Australia, 125–244.
+
+{{C|pnw|Male family members}}
+
+==Papiamentu==
+
+===Etymology===
+{{ety|pap|:der|nl:mama|text=+|tree=1}}
+
+===Noun===
+{{head|pap|nouns}}
+
+# [[mother]]
+
+==Pitjantjatjara==
+
+===Pronunciation===
+* {{IPA|pjt|[ˈmɐmɐ]}}
+
+===Noun===
+{{head|pjt|noun}}
+
+# [[father]]
+#: {{syn|pjt|punari}}
+# father’s older brother or close male friend; [[uncle]]
+#: {{syn|pjt|mama puḻka}}
+# [[god]]
+
+====Derived terms====
+{{col|pjt
+|mama maḻatja<t:father's younger brother; uncle>
+|mama ngunytju<t:parents>
+|maṟa mama<t:thumb>
+|tjina mama<t:big toe>
+}}
+
+{{C|pjt|Male family members|Gods}}
+
+==Polish==
+{{wp|pl:}}
+
+===Alternative forms===
+* {{alt|pl|nana||Kujawy|Near Masovian|Łuków County|Łowicz|Strugienice|Bogoria Górna|Western Lublin|Gmina Serniki}}
+* {{alt|pl|maa||Biecz|Brzeziny}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:mama|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|mp=#}}
+
+===Noun===
+{{pl-noun|f|dim=mamula<l:dialectal>,mamecka<l:dialectal>,mámunieńka<l:dialectal>}}
+
+# [[mum]], [[mom]], [[mother]]
+# {{lb|pl|Middle Polish}} [[wetnurse]]
+#: {{syn|pl|mamka}}
+# {{lb|pl|Middle Polish}} [[nurse]], [[caregiver]]
+#: {{syn|pl|piastunka}}
+
+====Declension====
+{{pl-decl-noun-f}}
+* The {{w|Near Masovian dialect}} ({{w|Jagodne}}) shows a vocative singular form {{m|pl|mamu}}.
+
+====Derived terms====
+{{col|pl|title=nouns|tata z mamą|bajzelmama|burdelmama}}
+
+===Trivia===
+{{pl-freq 1990|0|0|1|17|93|111|552|233|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|65255}}
+* {{R:pl:SXVII|MAMA|15984|MM|19.02.2015}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||868|2}}
+* {{R:pl:NFJP}}
+
+{{C|pl|Female family members|Female people|Parents}}
+
+==Portuguese==
+
+===Alternative forms===
+* {{alt|pt|mamma||pre-standardization}}
+
+===Pronunciation===
+{{pt-IPA}}
+* {{audio|pt|LL-Q5146 (por)-MedK1-mama.wav|a=<<Brazil>> (<<Caipira>>)}}
+* {{rhymes|pt|ɐmɐ|q1=Portugal|ɐ̃mɐ|q2=Brazil|s=2}}
+* {{hyph|pt|ma|ma}}
+
+===Etymology 1===
+{{etymon|pt|id=breast|:inh|roa-opt:mama<id:breast>|text=++}} Compare {{cog|gl|mama}}.
+
+====Noun====
+{{pt-noun|f}}
+
+# {{lb|pt|human}} [[breast]], [[bosom]]
+# {{lb|pt|animal}} [[udder]], [[teat]]
+
+=====Derived terms=====
+{{col|pt|mamão|maminha|mamica}}
+
+=====Related terms=====
+{{col|pt|mamar|mamilo}}
+
+===Etymology 2===
+
+====Verb====
+{{head|pt|verb forms}}
+
+# {{pt-verb form of|mamar}}
+
+===Further reading===
+* {{R:pt:Aulete}}
+* {{R:pt:Priberam}}
+
+==Quechua==
+
+===Pronunciation===
+* {{IPA|qu|/ˈma.ma/}}
+
+===Noun===
+{{head|qu|nouns}}
+
+# [[mother]]
+#: {{cot|qu|yaya|tayta|tata<t:father>}}
+# [[madam]], [[lady]]
+#: {{syn|qu|wayru}}
+#: {{cot|qu|tayta|tata<t:mister>}}
+# {{lb|qu|geology}} [[vein]]
+# {{lb|qu|mathematics}} [[matrix]]
+
+====Declension====
+{{qu-noun-v}}{{qu-poss-v}}
+
+====Derived terms====
+{{col3|qu|hatun mama|qucha mama|Pacha Mama|mamaku|mamacha|mamakuna}}
+
+====See also====
+* {{l|qu|ayllu}}
+
+{{C|qu|Family}}
+{{C|qu|Female family members}}
+
+==Rapa Nui==
+
+===Etymology===
+{{dercat|rap|poz-pol-pro|poz-oce-pro|inh=2}}
+{{inh+|rap|poz-pro|*mamaq}}.
+
+===Verb===
+{{head|rap|verb}}
+
+# to [[chew]]
+
+==Romanian==
+
+===Noun===
+{{head|ro|noun forms}}
+
+# {{noun form of|ro|mamă||def|nom//acc|s}}
+
+==Rwanda-Rundi==
+
+===Etymology===
+{{inh+|rw|bnt-pro|*mààmá}}.
+
+===Noun===
+{{rw-noun|māmá|1a|bāmâmá}}
+
+# my [[mother]]
+# my [[maternal]] [[aunt]]
+
+====See also====
+* {{l|rw|nyoko||your mother}}
+* {{l|rw|nyina||his/her mother}}
+* {{l|rw|data||my father}}
+
+{{C|rw|Female family members}}
+
+==Sardinian==
+
+===Etymology===
+From {{inh|sc|la|mamma}}, from {{der|sc|grc|μάμμη}}.
+
+===Pronunciation===
+* {{IPA|sc|/ˈmama/}}
+
+===Noun===
+{{head|sc|nouns|g=f|plural|mamas}} {{tlb|sc|Limba Sarda Comuna}}
+
+# [[mother]]
+
+===See also===
+* {{l|sc|babbu}}
+* {{l|sc|tzia}}
+
+{{C|sc|Female family members}}
+
+==Serbo-Croatian==
+
+===Pronunciation===
+* {{IPA|sh|/mâma/}}
+* {{hyph|sh|ma|ma}}
+
+===Noun===
+{{sh-noun|mȁma|f}}
+
+# [[mom]]
+
+====Declension====
+{{sh-decl-noun
+|mama|mame
+|mame|mama
+|mami|mamama
+|mamu|mame
+|mamo|mame
+|mami|mamama
+|mamom|mamama
+}}
+
+{{C|sh|Female family members}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|:inh|zlw-opl:mama|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|f}}
+
+# {{lb|szl|colloquial}} [[mom]], [[mother]]
+#: {{syn|szl|Thesaurus:muter}}
+#: {{cot|szl|Thesaurus:fater}}
+
+====Declension====
+{{szl-decl-noun|mama|mamy|mamie|mamã|mamōm|mamie|mamo|mamy|mam|mamōm|mamy|[[mamami]]/[[mamōma]]|mamach|mamy}}
+
+====Related terms====
+{{szl-derived verbs|-/mamczyć}}
+
+===Further reading===
+* {{R:szl:dykcjonorz}}
+* {{R:szl:silling}}
+
+{{C|szl|Female family members|Parents}}
+
+==Slovak==
+
+===Etymology===
+{{inh+|sk|zlw-osk|mama}}, from {{inh|sk|sla-pro|*mama}}, from {{inh|sk|ine-bsl-pro|*mā́ˀmāˀ}}, from {{inh|sk|ine-pro|*méh₂-méh₂}}, a reduplication of {{m|ine-pro|*méh₂-}} - the root of {{m|ine-pro|*méh₂tēr||mother}}.
+
+===Pronunciation===
+* {{sk-IPA}}
+
+===Noun===
+{{sk-noun|f|gen=mamy|pl=mamy|genpl=mám|decl=žena}}
+
+# {{l|en|mama}}
+
+====Declension====
+{{sk-ndecl|f}}
+
+====Derived terms====
+{{col2|sk
+|mamina<g:f>
+|mamička<g:f>|mami<g:f>
+}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+{{C|sk|Female family members}}
+
+==Spanish==
+
+===Etymology===
+{{ety|es|:inh|la:mamma|text=+|tree=1}}
+
+===Pronunciation===
+{{es-pr}}
+
+===Noun===
+{{es-noun|f}}
+
+# {{lb|es|anatomy}} [[mamma]], [[breast]]
+#: {{syn|es|pecho|seno}}
+# {{lb|es|regional|colloquial}} {{l|en|mama}}, [[mom]]
+#: {{syn|es|mamá|mami}}
+
+====Related terms====
+{{col|es
+|mamar
+|mamífero}}
+
+===Verb===
+{{head|es|verb form}}
+
+# {{es-verb form of|mamar}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Sranan Tongo==
+
+===Alternative forms===
+* {{alter|srn|m'ma}}
+* {{alter|srn|mma}}
+
+===Pronunciation===
+* {{srn-IPA|m'ma}}
+* {{srn-IPA|ma_ma}}
+
+===Noun===
+{{head|srn|noun}}
+
+# {{l|en|mother}}
+# {{lb|srn|figuratively|in compounds}} {{l|en|origin}}, {{l|en|source}}, {{l|en|centre}}, {{l|en|basis}}
+
+====Derived terms====
+{{col4|srn
+|granmama
+|gronmama
+|Mama Aisa
+|mamabere
+|mamafoto
+|mamafowru
+|mamakaw
+|mamakerki
+|mamakondre
+|mamapanpan
+|mamapima
+|Mama Sranan
+|mamasroto
+|mamatongo
+|mamawèt
+|yesimama
+|watramama}}
+
+==Swahili==
+[[File:Maasai Mothers.jpg|thumb]]
+{{wp|sw:}}
+
+===Etymology===
+{{ety|sw|:inh|bnt-pro:*mààmá|text=+|tree=1}} Reinforced by {{bor|sw|en|mama}} and {{bor|sw|de|mama}}.
+
+===Pronunciation===
+{{sw-IPA}}
+* {{audio|sw|Sw-ke-mama.flac|a=Kenya}}
+
+===Noun===
+{{sw-noun|n|anim=y}}
+
+# [[mother]] {{gloss|female parent}}
+#: {{coordinate terms|sw|baba}}
+# {{n-g|Respectful term of address for an older woman.}}
+
+====Derived terms====
+{{col|sw
+|mama mkwe<t:mother-in-law>
+|mama wa kambo<t:stepmother>
+|mama mboga<t:female vegetable hawker>
+|mama ntilie<t:female food hawker>
+|mama samaki<t:female fish hawker>
+|mama mdogo<t:mother's younger sister>
+|mama mkubwa<t:mother's elder sister>
+}}
+
+{{C|sw|Parents|Female family members}}
+
+==Tagalog==
+
+===Etymology 1===
+{{ety|tl|:inh|poz-pro:*mama<ety:inh<map-pro:*mamah>>|tree=1|text=++|id=male}} Compare {{cog|ms|mamak}}. See also {{ncog|sa|माम}}, and {{ncog|ta|மாமா}}.
+
+====Pronunciation====
+{{tl-pr|mamà}}
+
+====Noun====
+{{tl-noun|mamà|b=+}}
+
+# {{n-g|a term used in referring to, or in addressing, a male unknown to the speaker}}
+#: {{syn|tl|mang|manong}}
+#: {{ux|tl|Itanong natin sa '''mama''' sa kanto.|Let's ask the '''man''' at the street.}}
+#: {{uxi|tl|'''Mama'''ng Ano|'''Mister''' What's-the-name}}
+# {{lb|tl|archaic|familiar}} [[uncle]] {{gl|parent's younger brother}}
+# {{lb|tl|archaic|familiar|childish}} any [[relative]] of the father or mother
+
+=====Derived terms=====
+* {{l|tl|mang}}
+
+====See also====
+* {{l|tl|ale}}
+
+===Etymology 2===
+{{ety|tl|:bor|es:mamá|nan-hbl:媽媽<tr:mâ-mâ>|en:mama|id=mother}}
+Each pronunciation has a different source:
+* {{IPAchar|/maˈma/}} from {{bor|tl|es|mamá}}, adapted from {{der|tl|fr|maman}}
+* {{IPAchar|/ma.ma/}} from {{bor|tl|nan-hbl|媽媽|tr=mâ-mâ}}
+* {{IPAchar|/ˈmama/}} from {{bor|tl|en|mama}} / {{m|en|momma}}
+
+====Pronunciation====
+{{tl-pr
+|mamá<qq:Spanish pronunciation>
+|raw:/ma.ma/ [ma.ma]<qq:Hokkien pronunciation><syll:ma.ma>
+|+<qq:English pronunciation>
+}}
+
+====Noun====
+{{tl-noun|+,mamá|b=+}} {{tlb|tl|colloquial|familiar|childish}}
+
+# [[mum]], [[mom]]
+#: {{syn|tl|ma|ina|nanay|inay|nay|inang|nanang}}
+#: {{cot|tl|papa}}
+
+=====Derived terms=====
+{{col|tl|asukal de mama|mamay|ma|mama mo}}
+
+===Etymology 3===
+{{ety|tl|id=betelnut chewing|:inh|phi-pro:*mamaq<ety:inh<poz-pro:*mamaq>>|tree=1|text=++}} Compare {{cog|bcl|mama}}, {{cog|mbb|mama'}}, {{cog|tsg|mama'}}, {{cog|ch|måma'}}, {{cog|jv|ꦩꦩꦃ}}, and {{cog|ms|mamah}}.
+
+====Pronunciation====
+{{tl-pr|mamâ}}
+
+====Noun====
+{{tl-noun|mamâ|b=+}}
+
+# [[betelnut]] [[chew]]ing
+
+=====Derived terms=====
+{{col|tl|mam-in|magmam-in|maminan|mangmama|pamama|pamamain|palamama|palamam-an|palamam-inan}}
+
+=====See also=====
+{{col|tl|buyo|hitso|ikmo|itmo|nganga|sama}}
+
+===Etymology 4===
+{{ety|tl|id=letter}}
+
+====Pronunciation====
+{{tl-pr|mamâ}}
+
+====Noun====
+{{tl-noun|mamâ|b=+}} {{tlb|tl|obsolete}}
+
+# {{n-g|name of the Baybayin letter {{l|tl|ᜋ}}, corresponding to "ma"}}
+
+====See also====
+* {{l|tl|ma}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+* {{R:Vocabulario de la lengua tagala 1613}}
+** page 173: “Comer) Mama (pc) buyo”
+** page 400: “M) Mama (pc) letra del .A.b.c. Tagalog .I. mama yaon .I. {{tl-bay sc|ma|disp=1}} . ſumulat ca nang mama nang iniõg ſulat, eſcriue la. M. de bueſtra eſcritura, yſulat mo aco nang mama, eſcriueme vna .M.”
+** page 575: “Tio) Mama (pp) llamandole el ſobrino y como en Eſpañol vſamos llamar tio al hias viejo, tambien lo vſan eſtos y diçen, mama ay, ola tio, yaring ſi mama a, eſte mi tio.”
+
+===Anagrams===
+* {{anagrams|tl|a=aamm|amam}}
+
+{{C|tl|Baybayin letter names}}
+
+==Tetum==
+
+===Verb===
+{{head|tet|verbs}}
+
+# to [[chew]] betel
+
+==Tok Pisin==
+
+===Etymology===
+{{etymon|tpi|:inh|en:mama}}
+From {{inh|tpi|en|mama}}.
+
+===Noun===
+{{head|tpi|nouns}}
+
+# [[mother]]
+#: {{ant|tpi|papa}}
+#* {{RQ:Buk Baibel|Jenesis|3|20|passage=Man i kolim meri bilong em Iv, long wanem, em i tumbuna '''mama''' bilong olgeta manmeri.}}
+
+====Derived terms====
+* {{l|tpi|mama karim}}
+
+{{C|tpi|Parents}}
+
+==Tumbuka==
+
+===Etymology===
+{{inh+|tum|bnt-pro|*máá}}.
+
+===Noun===
+{{tum-noun|1a}}
+
+# [[mother]], [[mom]]
+
+====Coordinate terms====
+* {{l|tum|dada}}
+
+{{C|tum|Female family members}}
+
+==Turkish==
+
+===Pronunciation===
+* {{tr-IPA||[mɑˈmɑ]}}
+* {{hyph|tr|ma|ma}}
+
+===Noun===
+{{tr-noun|yı|lar}}
+
+# [[baby food]]
+# [[pet]] [[food]]
+# [[food]] {{q|in child's language}}
+
+====Declension====
+{{tr-infl-noun-v|a|poss=1}}
+
+===Further reading===
+* {{R:tr:TDK}}
+
+==Turkmen==
+
+===Pronunciation===
+* {{IPA|tk|[maːma]}}
+
+===Etymology 1===
+
+====Noun====
+{{head|tk|noun}}
+
+# [[maternal grandmother]]
+# term of address for old women
+
+===Etymology 2===
+{{rfe|tk}}
+
+====Noun====
+{{head|tk|noun}}
+
+# [[smallpox]]
+#: {{syn|tk|jäjek}}
+
+=====Declension=====
+{{tk-decl-noun-auto|a|v}}
+
+===Further reading===
+* {{R:tk:Enedilim}}
+* {{R:tk:webonary}}
+
+{{c|tk|Diseases|Family}}
+
+==Upper Sorbian==
+
+===Pronunciation===
+* {{hsb-IPA}}
+
+===Noun===
+{{head|hsb|nouns|g=f|diminutive|mamička|or|mamimka}}
+
+# [[#English|mama]], [[mommy]], [[mum]]
+
+====Declension====
+{{hsb-ndecl|f}}
+
+====Related terms====
+{{col2|hsb|mać|maćerka}}
+
+===Further reading===
+* {{R:hsb:Mudra}}
+* {{R:hsb:Soblex}}
+
+{{C|hsb|Female family members|Parents}}
+
+==Venda==
+
+===Verb===
+{{head|ve|verbs}}
+
+# to [[suck]]
+
+==Venetan==
+
+===Etymology===
+From {{inh|vec|la|mamma}}. Compare {{cog|it|mamma}}.
+
+===Noun===
+{{vec-noun|mam|f|a|e}}
+
+# [[mother]]
+# [[mum]], [[mummy]]
+
+==Wanyi==
+
+===Etymology===
+Compare {{cog|kky|mayi}}.
+
+===Noun===
+{{head|wny|nouns}}
+
+# (vegetable-based) [[food]]
+
+===References===
+* Mary Laughren, Rob Pensalfini, Tom Mylne, ''Accounting for verb-initial order in an Australian language'', in ''Verb First: On the syntax of verb-initial languages'' (2005)
+
+==West Makian==
+
+===Pronunciation===
+* {{IPA|mqs|/ˈma.ma/}}
+
+===Noun===
+{{head|mqs|nouns}}
+
+# [[mother]]
+#: {{syn|mqs|mamu}}
+
+====Usage notes====
+The terms ''mama'' and {{m|mqs|mamu}} are used for referring to a mother, whereas the term {{m|mqs|yaya}} is used for addressing one's mother.
+
+===References===
+* {{R:mqs:Voorhoeve:1982}}
+
+==Ye'kwana==
+{{mch-variant}}
+
+===Alternative forms===
+* {{alt|mch|maama||Caura River}}
+
+===Pronunciation===
+* {{mch-IPA}}
+
+===Noun===
+{{head|mch|noun forms}}
+
+# {{lb|mch|Cunucunuma River}} {{inflection of|mch|nü||first-person|possessed|form}}
+
+==Yoruba==
+
+===Alternative forms===
+* {{l|yo|mọmọ|mọ̀mọ́}}
+
+===Etymology===
+Probably influenced by {{bor|yo|en|mama}}, may have existed before contact with English though. Possibly a corruption of {{m|yo|mọ̀mọ́}}.
+
+===Pronunciation===
+* {{yo-IPA|màmá}}
+
+===Noun===
+{{yo-noun|màmá}}
+
+# [[mother]]
+#: {{syn|yo|iye|iya|alt2=ìyá|mọmi|alt3=mọ́mì|yeye|alt4=yèyé|eye|alt5=èye}}
+# a [[term]] of [[endearment]] or [[respect]] for an older [[woman]] or [[female]] [[relative]]
+#: {{syn|yo|iye|iya|alt2=ìyá|mọmi|alt3=mọ́mì|yeye|alt4=yèyé}}
+
+====Coordinate terms====
+* {{l|yo|baba|bàbá}}
+
+{{C|yo|Female family members}}

@@ -12,7 +12,16 @@ from polwikt.cli.main import cli
 
 REPO = Path(__file__).resolve().parent.parent
 
-SUBPACKAGES = ["cli", "dump", "subset", "expand", "parse", "extract", "proto"]
+SUBPACKAGES = [
+    "cli",
+    "dump",
+    "subset",
+    "expand",
+    "parse",
+    "extract",
+    "finalize",
+    "proto",
+]
 COMMANDS = {
     "config",
     "fetch",
@@ -24,11 +33,17 @@ COMMANDS = {
     "stats-diff",
     "run",
 }
-IMPLEMENTED = {"config", "fetch", "scan", "inspect", "extract"}
+IMPLEMENTED = {
+    "config",
+    "fetch",
+    "scan",
+    "inspect",
+    "extract",
+    "finalize",
+    "stats-diff",
+}
 STUB_INVOCATIONS = [
     ["subset"],
-    ["finalize"],
-    ["stats-diff", "a.json", "b.json"],
     ["run"],
 ]
 

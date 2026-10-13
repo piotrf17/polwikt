@@ -1,0 +1,24 @@
+# `polwikt stats-diff` (R8.3): which stats.json counters are coverage, which are
+# failures. A coverage count that drops by more than `threshold` percent, or a failure
+# count that rises by more, is a regression. Everything else is reported when it moves
+# but never fails the check — dropped.* (Middle Polish) moves with the source, not the
+# code. Patterns are shell globs over the counter names; the first class that matches
+# wins, failures first.
+
+threshold = 1.0
+
+failure = [
+  "pages.error", "unhandled_templates", "unhandled_uses",
+  "*.unknown", "*.unknown.*", "*unresolved*", "finalize.unfoldable.*",
+  "*target_missing*", "wikidata.*", "*title_only*", "label.unrecognized",
+  "sense.empty", "*.untemplated", "frequency.unparsed", "quotation.no_text",
+  "section.orphan.*", "pages.no_entries", "finalize.labels.unmatched",
+  "finalize.inverse.no_entry", "pronunciation.audio.no_file",
+]
+
+coverage = [
+  "pages.with_record", "entries", "senses", "subsenses", "entries.with_*", "pos.*",
+  "table.forms", "table.declension", "table.conjugation", "frequency",
+  "finalize.words", "finalize.words.*", "finalize.entries", "finalize.entries.folded",
+  "finalize.forms", "finalize.relations", "coverage.*",
+]

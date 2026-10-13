@@ -3,8 +3,8 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0–M10 ✅ (M0/M1 restarted from scratch 2026-10-11; M10 done 2026-10-13)
-— next is M11. No full run since M6: M7–M10 are measured on samples only; the next
+**Progress:** M0–M11 ✅ (M0/M1 restarted from scratch 2026-10-11; M11 done 2026-10-13)
+— next is M12. No full run since M6: M7–M11 are measured on samples only; the next
 full run is M12's.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
 pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
@@ -372,8 +372,27 @@ the unhandled-section counter rather than being dropped.
 
 ---
 
-## M11 — P4: folding, linking, finalize
-*Needs M6–M10. ~1 week.*
+## M11 — P4: folding, linking, finalize ✅
+*Needs M6–M10. ~1 week.* *Done 2026-10-13.* `polwikt finalize` (`polwikt/finalize/`,
+config `data/finalize.toml`): two streaming passes over P3's shards with an on-disk
+SQLite staging file between them; folds inflectional form-of entries per POS entry
+when the lemma's record has the spelling, carries their labels onto the matching
+Forms and moves their own tables (a comparative's declension onto its positive);
+emits the rest with the reason in `unresolved_forms.jsonl`; adds the inverse of
+stated counterparts and gender equivalents (R3.14); writes `words-*` shards,
+`index.sqlite` (every Form and every folded spelling), `corpus.meta.pb`,
+`LICENSE-DATA` and a merged `stats.json` with R8.4 coverage. `polwikt stats-diff`
+(classes in `data/stats.toml`) exits 1 on a regression. Exit cases are
+`tests/test_finalize.py` (fixtures `beza`, `mama`, `mieść` added, 118 pages): `bez` and
+`mieć` keep their lemma halves, `mamy` and `kotów` yield no record and resolve,
+`DNA` is emitted, `lepszy` folds into `dobry` with its declension; output is
+byte-identical across runs. Measured on 1,864 sampled form pages plus the 1,861
+lemmas they name: 91.0% of form entries folded in 2 s; of the 180 left, 118 point
+outside the sample and 62 are genuinely unfoldable — 21 red links, 3 pages with no
+Polish section, 16 targets that are themselves only forms, 22 lemmas whose paradigm
+lacks the spelling (singulare-tantum lemmas with plural form pages, nonstandard and
+dialectal forms, one source template error). Memory at full scale is M12's to
+measure.
 
 - Resolve `form_of`/`alt_of` to lemma and specific entry (R3.13).
 - **Fold and drop** inflectional form-of entries, per POS entry not per page — but only

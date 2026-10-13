@@ -1,0 +1,71 @@
+{{also|beza|Beza|beża'|bezą}}
+==Basque==
+
+===Pronunciation===
+{{eu-pr|+<audio:LL-Q8752 (eus)-Xabier Cañas-beza.wav>}}
+
+===Verb===
+{{eu-verb form|izan<nor-nork>}}
+
+==Malay==
+
+===Alternative forms===
+* {{alt|ms|beda||predominantly|_|in|Indonesia}}
+* {{alt|ms|bedza||dated}}
+
+===Etymology===
+A [[hypercorrection]] and thus a {{doublet|ms|beda|nocap=1}}, from {{der|ms|sa|भेद||contrast, distinction, difference}},<ref>{{cite-book|entryurl=https://nla.gov.au/nla.obj-60272771/view?partId=nla.obj-435853831#page/n107/mode/1up/search/bedza|entry=beda|title=A Malay-English dictionary (romanised)|last=Wilkinson|first=Richard James|publisher=Salavopoulos & Kinderlis|location=Mytilene, Greece|year=1932|volume=I|pages=97-8|passage=Often written as '''bedza''' though not an Arabic word...}}</ref><ref>{{cite-book|1=en|year=2024|author=Tom Hoogervorst|title=The Oxford guide to the Malayo-Polynesian languages of Southeast Asia|chapter=Non-areal contact|url=https://www.academia.edu/128007592/_2024_Non_areal_contact_In_Alexander_Adelaar_and_Antoinette_Schapper_eds_The_Oxford_Guide_to_the_Malayo_Polynesian_Languages_of_Southeast_Asia_303_321_Oxford_Oxford_University_Press|page=312|text=Some of these borrowed phonemes also occur in pseudo-Arabic forms, for example, Malaysian '''''beza''''' 'difference' ( ← ''beda'' < Sanskrit ''bheda'' 'separation, difference'), Indonesian ''fihaq'' 'side' ( ← ''pihak'', but alternatively and without firm verification explained as < Arabic ''fi baqq'' 'concerning'), and Malaysian/Indonesian ''ʃurga'' 'heaven' ( ← ''surga'' < Sanskrit ''svarga'').}}</ref> likely influenced by other words with conflation of /d/ and /ð/ (as /dz/) represented originally with the Jawi د ''[[:w:dāl|dal]]'' and ذ ''[[:w:Ḏāl|dzal]]'' respectively (thus بيدا ''beda'' ⇆ بيذا ''bedza'') , such as between {{m|ms|dikir}} and {{m|ms|zikir}} both [[Appendix:Glossary#doublet|doublet]]s from {{noncog|ar|ذِكْر|t=recollection, remembrance}}.
+
+===Pronunciation===
+{{ms-IPA|béze|a=Johor-Riau}}
+** {{rhymes|ms|ezə|ə|s=2}}
+{{ms-IPA|béza|a=Baku}}
+** {{rhymes|ms|eza|a|s=2}}
+* {{hyph|ms|be|za}}
+
+===Noun===
+{{ms-noun|j=بيذا|head=béza}}
+
+# {{lb|ms|Brunei|Malaysia|Singapore}} [[dissimilarity]]
+# {{lb|ms|Brunei|Malaysia|Singapore}} [[difference]]
+
+====Derived terms====
+{{ms-der|340|310+221|21+31|21|210+21|350+221|360+221}}
+
+===References===
+{{reflist}}
+
+* {{cite-book|entryurl=https://archive.org/details/ahy2565.0001.001.umich.edu/page/n113/mode/2up?q=bedza|entry=بيذا bedza|title=Maleisch-Hollandsch woordenboek|publisher=John Enschede en Zonen, Frederik Muller|year=1875|first=Jan|last=Pijnappel|page=68}}
+* {{cite-book|entryurl=https://archive.org/details/aeg2034.0001.001.umich.edu/page/n147/mode/2up?q=beda|entry=بيذ bedza|title=A Malay-English dictionary|last=Wilkinson|first=Richard James|publisher=Kelly & Walsh limited|location=Hong Kong|year=1901|page=140}}
+* Wilkinson, Richard James (1932) [https://nla.gov.au/nla.obj-60272771/view?partId=nla.obj-435854153#page/n109/mode/1up/search/bedza “bedza”]. ''ibid'', page 100.
+
+===Further reading===
+* {{R:PRPM}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Meringues 9027.jpg|thumb|beza]]
+
+===Etymology===
+{{dercat|pl|frm|fro|la}}
+{{bor+|pl|de|Baiser}}, from {{der|pl|fr|baiser<id:noun>||kiss}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-beza.ogg}}
+
+===Noun===
+{{pl-noun|f}}
+
+# [[meringue]] {{gl|mixture consisting of beaten egg whites and sugar which is added to the tops of pies then browned}}
+
+====Declension====
+{{pl-decl-noun-f}}
+
+====Derived terms====
+{{col|pl|title=adjective|bezowy}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Cakes and pastries}}
