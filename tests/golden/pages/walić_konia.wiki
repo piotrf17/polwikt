@@ -1,0 +1,23 @@
+==Polish==
+
+===Etymology===
+{{lit|to beat a horse}}.
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Tashi-walić konia.wav}}
+
+===Verb===
+{{pl-verb|impf|head=[[walić]] [[koń|konia]]|pf=zwalić konia}}
+
+# {{lb|pl|intransitive|colloquial|idiomatic}} to [[masturbate]], to [[beat one's meat]]
+#: {{syn|pl|[[masturbować]] [[się]]}}
+#: {{uxa|pl|'''Walisz konia'''?|Are you '''beating the meat'''?}}
+
+====Conjugation====
+{{pl-conj-see|walić}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Masturbation}}

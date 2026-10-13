@@ -1,10 +1,601 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "powiedzieć",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "powiem",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powiemy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powiesz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powiecie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powie",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powiedzą",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powie się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "powiedziałem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedzieliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedzieliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziałyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedział",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedzieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "powiedziano",
+     "tags": {
+      "verb_form": "VERB_FORM_IMPERSONAL_PAST"
+     }
+    },
+    {
+     "form": "powiedziałbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym powiedział",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedziałabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym powiedziała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedziałobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym powiedziało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedzielibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy powiedzieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedziałybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy powiedziały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedziałbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś powiedział",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedziałabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś powiedziała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedziałobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś powiedziało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedzielibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście powiedzieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedziałybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście powiedziały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedziałby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by powiedział",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedziałaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by powiedziała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedziałoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by powiedziało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedzieliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by powiedzieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedziałyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by powiedziały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedziano by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech powiem",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedzmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "powiedz",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "powiedzcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech powie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech powiedzą",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "powiedziany",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedziana",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedziane",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedziani",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedziane",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedziawszy",
+     "tags": {
+      "verb_form": "VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "powiedzenie",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
      "ipa": "/pɔˈvjɛ.d͡ʑɛt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "mówić",
+     "type": "TYPE_IMPERFECTIVE_COUNTERPART"
     }
    ],
    "senses": [
@@ -178,9 +769,18 @@
      ]
     }
    ],
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of powiedzieć pf"
+    }
+   ],
    "topics": [
     "Talking"
-   ]
+   ],
+   "verb": {
+    "aspect": "ASPECT_PERFECTIVE"
+   }
   }
  ],
  "etymologies": [

@@ -364,6 +364,8 @@ class Relation(_message.Message):
         TYPE_RELATED_ADVERB: _ClassVar[Relation.Type]
         TYPE_PARTICIPLE_OF: _ClassVar[Relation.Type]
         TYPE_IMPERFECTIVE_COUNTERPART: _ClassVar[Relation.Type]
+        TYPE_DETERMINATE_COUNTERPART: _ClassVar[Relation.Type]
+        TYPE_INDETERMINATE_COUNTERPART: _ClassVar[Relation.Type]
     TYPE_UNSPECIFIED: Relation.Type
     TYPE_SYNONYM: Relation.Type
     TYPE_ANTONYM: Relation.Type
@@ -386,6 +388,8 @@ class Relation(_message.Message):
     TYPE_RELATED_ADVERB: Relation.Type
     TYPE_PARTICIPLE_OF: Relation.Type
     TYPE_IMPERFECTIVE_COUNTERPART: Relation.Type
+    TYPE_DETERMINATE_COUNTERPART: Relation.Type
+    TYPE_INDETERMINATE_COUNTERPART: Relation.Type
     TYPE_FIELD_NUMBER: _ClassVar[int]
     TERM_FIELD_NUMBER: _ClassVar[int]
     GLOSS_FIELD_NUMBER: _ClassVar[int]
@@ -441,10 +445,24 @@ class AdjectiveInfo(_message.Message):
     def __init__(self, not_comparable: _Optional[bool] = ..., indeclinable: _Optional[bool] = ...) -> None: ...
 
 class VerbInfo(_message.Message):
-    __slots__ = ("aspect",)
+    __slots__ = ("aspect", "motion", "frequentative", "defective")
+    class Motion(int, metaclass=_enum_type_wrapper.EnumTypeWrapper):
+        __slots__ = ()
+        MOTION_UNSPECIFIED: _ClassVar[VerbInfo.Motion]
+        MOTION_DETERMINATE: _ClassVar[VerbInfo.Motion]
+        MOTION_INDETERMINATE: _ClassVar[VerbInfo.Motion]
+    MOTION_UNSPECIFIED: VerbInfo.Motion
+    MOTION_DETERMINATE: VerbInfo.Motion
+    MOTION_INDETERMINATE: VerbInfo.Motion
     ASPECT_FIELD_NUMBER: _ClassVar[int]
+    MOTION_FIELD_NUMBER: _ClassVar[int]
+    FREQUENTATIVE_FIELD_NUMBER: _ClassVar[int]
+    DEFECTIVE_FIELD_NUMBER: _ClassVar[int]
     aspect: Aspect
-    def __init__(self, aspect: _Optional[_Union[Aspect, str]] = ...) -> None: ...
+    motion: VerbInfo.Motion
+    frequentative: bool
+    defective: bool
+    def __init__(self, aspect: _Optional[_Union[Aspect, str]] = ..., motion: _Optional[_Union[VerbInfo.Motion, str]] = ..., frequentative: _Optional[bool] = ..., defective: _Optional[bool] = ...) -> None: ...
 
 class Entry(_message.Message):
     __slots__ = ("pos", "etymology", "senses", "forms", "tables", "pronunciations", "audio", "syllabification", "labels", "relations", "examples", "usage_notes", "topics", "noun", "verb", "adjective")

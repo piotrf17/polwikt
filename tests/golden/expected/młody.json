@@ -136,16 +136,6 @@
      "form": "młodych",
      "table": 1,
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_GENITIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "młodych",
-     "table": 1,
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_GENITIVE",
       "number": "NUMBER_PLURAL"
      }
@@ -181,16 +171,6 @@
      "form": "młodym",
      "table": 1,
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_DATIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "młodym",
-     "table": 1,
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_DATIVE",
       "number": "NUMBER_PLURAL"
      }
@@ -282,16 +262,6 @@
      "form": "młodymi",
      "table": 1,
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_INSTRUMENTAL",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "młodymi",
-     "table": 1,
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_INSTRUMENTAL",
       "number": "NUMBER_PLURAL"
      }
@@ -327,16 +297,6 @@
      "form": "młodych",
      "table": 1,
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_LOCATIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "młodych",
-     "table": 1,
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_LOCATIVE",
       "number": "NUMBER_PLURAL"
      }

@@ -1,6 +1,591 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "zrobić",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "zrobię",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobimy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobisz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobicie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobi",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobią",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobi się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "zrobiłem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiłyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobił",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobili",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "zrobiono",
+     "tags": {
+      "verb_form": "VERB_FORM_IMPERSONAL_PAST"
+     }
+    },
+    {
+     "form": "zrobiłbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym zrobił",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrobiłabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym zrobiła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrobiłobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym zrobiło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrobilibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy zrobili",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrobiłybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy zrobiły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrobiłbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś zrobił",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zrobiłabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś zrobiła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zrobiłobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś zrobiło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zrobilibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście zrobili",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zrobiłybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście zrobiły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zrobiłby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by zrobił",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiłaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by zrobiła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiłoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by zrobiło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by zrobili",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiłyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by zrobiły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiono by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech zrobię",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zróbmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "zrób",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "zróbcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech zrobi",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech zrobią",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "zrobiony",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobiona",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobione",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobieni",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobione",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobiwszy",
+     "tags": {
+      "verb_form": "VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "zrobienie",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -11,6 +596,12 @@
      "labels": [
       "Żywiec"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "robić",
+     "type": "TYPE_IMPERFECTIVE_COUNTERPART"
     }
    ],
    "senses": [
@@ -271,7 +862,16 @@
       "Żywiec"
      ]
     }
-   ]
+   ],
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of zrobić pf"
+    }
+   ],
+   "verb": {
+    "aspect": "ASPECT_PERFECTIVE"
+   }
   }
  ],
  "etymologies": [

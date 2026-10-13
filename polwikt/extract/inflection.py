@@ -23,10 +23,11 @@ from typing import Any
 
 from wikitextprocessor import WikiNode
 
+from polwikt.expand.policy import canonical_name
 from polwikt.expand.run import expand_node
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.labels import LabelIndex
-from polwikt.extract.tags import to_grammatical
+from polwikt.extract.tags import tag_map, to_grammatical
 from polwikt.parse.tables import Cell, Table, cell_wikitext, tables
 from polwikt.parse.text import plain_text
 from polwikt.proto import polwikt_pb2 as pb
@@ -42,7 +43,8 @@ _DEFAULT_TITLES = {
     "conjugation": "Conjugation",
     "combined_forms": "Combined forms",
 }
-_ANIMACY = frozenset({"personal", "animate", "inanimate"})
+# Dimensions a spanning cell may leave unspecified, merged in this order (see _merge).
+_MERGED_FIELDS = ("animacy", "gender", "number")
 # Inline modifiers in a cell, `familij<q:obsolete>`, held as \x01q:obsolete\x02 while
 # the expansion is parsed and reduced to plain text.
 _MODIFIER = re.compile(r"<(q|qq|l|ll):([^<>]*)>")
@@ -59,6 +61,13 @@ _TABLE = re.compile(r"(?s)\{\|.*?\n\|\}")
 _TRAILING_PAREN = re.compile(r"^(.*?)\s*\(([^()]*)\)$")
 _ABSENT = frozenset({"", "-", "\u2013", "\u2014", "?"})  # hyphen, en and em dash
 _SPACE = re.compile(r"\s+")
+# A word as Module:links would write it unchanged (letters, spaces, hyphens,
+# apostrophes incl. U+2019), alone or as [[word]] [[word]].
+_WORD = r"[^\W\d_][\w'\u2019-]*"
+_PLAIN_TERM = re.compile(r"[^\W\d_][\w '\u2019-]*")
+_LINKED_WORD = re.compile(rf"\[\[({_WORD})\]\]")
+_LINKED_WORDS = re.compile(rf"\[\[{_WORD}\]\](?: \[\[{_WORD}\]\])*")
+_ACCEL_ARGS = frozenset({"accel-form", "accel-lemma", "accel-gender"})
 
 
 # A cell's tags at one of its positions: (tags, unmapped header texts, (row, col)).
@@ -76,6 +85,7 @@ class Config:
     plurale_category: str
     singulare_category: str
     headword: dict[str, Any]
+    link_languages: dict[str, str]
 
 
 @cache
@@ -92,6 +102,7 @@ def config() -> Config:
         plurale_category=data["tantum"]["plurale"],
         singulare_category=data["tantum"]["singulare"],
         headword=data["headword"],
+        link_languages=dict(data["links"]["languages"]),
     )
 
 
@@ -144,7 +155,7 @@ class TableParser:
 
     def parse(self, name: str, node: WikiNode) -> Paradigm:
         cfg = config()
-        expansion = expand_node(self.wtp, node)
+        expansion = expand_node(self.wtp, node, self._plain_link)
         text = expansion.text
         kind = table_kind(name)
         irregular = name in cfg.irregular_templates or (
@@ -181,6 +192,40 @@ class TableParser:
             self.stats["table.forms"] += len(forms)
         return out
 
+    def _plain_link(self, name: str, args: dict[Any, str]) -> str | None:
+        """`{{l|pl|robię|accel-form=1|s|pres}}` inside a table, rendered as
+        Module:links renders it.
+
+        A conjugation table links each of its ~90 forms through Module:links, nearly
+        all of a verb page's extraction time. A call with just the language, a plain
+        word (or plain words each in [[…]]) and accelerator metadata has one possible
+        rendering, so it is written directly; anything else (alt text, inline
+        modifiers, other named arguments) goes to Lua as usual. The golden set holds
+        both paths to the same output."""
+        if canonical_name(self.wtp, name) != "link":
+            return None
+        if not {1, 2} <= set(args) or set(args) - {1, 2, *_ACCEL_ARGS}:
+            return None
+        code, term = args[1].strip(), args[2].strip()
+        language = config().link_languages.get(code)
+        if language is None:
+            return None
+        if _PLAIN_TERM.fullmatch(term):
+            links = f"[[:{term}#{language}|{term}]]"
+        elif _LINKED_WORDS.fullmatch(term):
+            links = _LINKED_WORD.sub(
+                lambda m: f"[[:{m.group(1)}#{language}|{m.group(1)}]]", term
+            )
+        else:
+            return None
+        classes = "Latn"
+        if form := args.get("accel-form", "").strip():
+            lemma = args.get("accel-lemma", "").strip()
+            origin = f" origin-{lemma.replace(' ', '_')}" if lemma else ""
+            classes = f"Latn form-of lang-{code} {form}-form-of{origin}"
+        self.stats["table.link.direct"] += 1
+        return f'<span class="{classes}" lang="{code}">{links}</span>'
+
     # -- cells ----------------------------------------------------------------------
 
     def add_note(self, form: pb.Form, note: str) -> None:
@@ -199,15 +244,21 @@ class TableParser:
         covers — plus the footnote markers on them (index into the forms)."""
         placed: list[tuple[tuple[int, int], int, pb.Form, str | None]] = []
         self._headers: dict[int, list[tuple[str, ...]] | None] = {}  # per header cell
+        data: list[tuple[Cell, list[TagSet]]] = []
         for cell in table.cells:
             if cell.header:
                 continue
-            alternatives = self._alternatives(cell_wikitext(self.wtp, cell))
-            if not alternatives:
-                continue
             tag_sets = self._tag_sets(table, cell)
             if tag_sets is None:
-                self.stats["table.cell.no_headers"] += 1
+                if self._alternatives(cell_wikitext(self.wtp, cell)):
+                    self.stats["table.cell.no_headers"] += 1
+                continue
+            data.append((cell, tag_sets))
+        for field_name in _MERGED_FIELDS:
+            data = _merge(data, field_name)
+        for cell, tag_sets in data:
+            alternatives = self._alternatives(cell_wikitext(self.wtp, cell))
+            if not alternatives:
                 continue
             for tags, raw_headers, position in tag_sets:
                 grammatical, raw = to_grammatical(list(tags))
@@ -243,7 +294,7 @@ class TableParser:
                     found.append((tags, tuple(unknown), (row, col)))
         if not any_header:
             return None
-        return _merge_animacy(found)
+        return found
 
     def _header(self, header: Cell) -> list[tuple[str, ...]] | None:
         text = _header_text(self.wtp, header).lower()
@@ -267,6 +318,11 @@ class TableParser:
                 label for m in _PROTECTED.finditer(part) for label in self._modifier(m)
             ]
             form = _PROTECTED.sub("", part).strip()
+            if form.startswith("-") and " " in form:
+                # `robiłem, -m robił`, `jestem, -m (jest)`: Wiktionary's notation for
+                # the detached personal ending, not a form anyone can look up.
+                self.stats["table.form.detached_ending"] += 1
+                continue
             if paren := _TRAILING_PAREN.match(form):
                 form, note = paren.group(1).strip(), paren.group(2).strip()
                 labels.append(note)
@@ -277,6 +333,7 @@ class TableParser:
                 self.stats["table.form.footnote"] += 1
             if form in _ABSENT:
                 continue
+
             dropped = sorted(self.drop.intersection(labels))
             if dropped:
                 for label in dropped:
@@ -314,17 +371,43 @@ def _split_alternatives(text: str) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
-def _merge_animacy(found: list[TagSet]) -> list[TagSet]:
-    """Positions of one cell that differ only in animacy are one Form without it,
-    placed at the first of them."""
-    groups: dict[tuple[tuple[str, ...], tuple[str, ...]], list[TagSet]] = {}
-    for tags, unknown, position in found:
-        key = (tuple(t for t in tags if t not in _ANIMACY), unknown)
-        groups.setdefault(key, []).append((tags, unknown, position))
-    out: list[TagSet] = []
-    for (bare, unknown), members in groups.items():
-        if len(members) == 1:
-            out.append(members[0])
-        else:
-            out.append((bare, unknown, min(m[2] for m in members)))
+def _merge(
+    data: list[tuple[Cell, list[TagSet]]], field_name: str
+) -> list[tuple[Cell, list[TagSet]]]:
+    """A cell covering every value of one dimension the table has in that context
+    leaves the dimension out: `robię` spans masculine, feminine and neuter (1st
+    singular, any gender); `dobry` spans masculine animate and inanimate (just
+    masculine). `tego` spans masculine and neuter but not feminine, so it stays two
+    Forms. The merged Form sits at the first position it covered."""
+    fields = tag_map().fields
+
+    def split(tags: tuple[str, ...]) -> tuple[str | None, tuple[str, ...]]:
+        value = next((t for t in tags if fields.get(t, ("",))[0] == field_name), None)
+        return value, tuple(t for t in tags if t != value)
+
+    universe: dict[tuple[tuple[str, ...], tuple[str, ...]], set[str]] = {}
+    for _, tag_sets in data:
+        for tags, unknown, _ in tag_sets:
+            value, rest = split(tags)
+            if value is not None:
+                universe.setdefault((rest, unknown), set()).add(value)
+    out: list[tuple[Cell, list[TagSet]]] = []
+    for cell, tag_sets in data:
+        groups: dict[tuple[tuple[str, ...], tuple[str, ...]], list[TagSet]] = {}
+        for tag_set in tag_sets:
+            value, rest = split(tag_set[0])
+            key = (rest, tag_set[1]) if value is not None else (tag_set[0], tag_set[1])
+            groups.setdefault(key, []).append(tag_set)
+        merged: list[TagSet] = []
+        for (rest, unknown), members in groups.items():
+            values = {split(m[0])[0] for m in members}
+            if (
+                len(members) > 1
+                and None not in values
+                and values == universe.get((rest, unknown))
+            ):
+                merged.append((rest, unknown, min(m[2] for m in members)))
+            else:
+                merged.extend(members)
+        out.append((cell, merged))
     return out

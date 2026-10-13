@@ -277,6 +277,8 @@ message Relation {
     TYPE_RELATED_ADVERB = 19;     // dobry -> dobrze
     TYPE_PARTICIPLE_OF = 20;      // on a participle entry: its verb (decision 10)
     TYPE_IMPERFECTIVE_COUNTERPART = 21;  // zrobić -> robić (R3.14)
+    TYPE_DETERMINATE_COUNTERPART = 22;    // chodzić -> iść
+    TYPE_INDETERMINATE_COUNTERPART = 23;  // iść -> chodzić
   }
   Type type = 1;
   string term = 2;             // a Polish lemma
@@ -315,6 +317,16 @@ message AdjectiveInfo {
 }
 message VerbInfo {
   Aspect aspect = 1;  // partners and frequentatives are Relations
+  // Motion verbs come in pairs: iść (determinate: one trip, now) vs chodzić
+  // (indeterminate: habitual, back and forth). The partner is a Relation.
+  enum Motion {
+    MOTION_UNSPECIFIED = 0;
+    MOTION_DETERMINATE = 1;
+    MOTION_INDETERMINATE = 2;
+  }
+  Motion motion = 2;
+  bool frequentative = 3;  // {{pl-verb|impf-freq}}: bywać, chadzać
+  bool defective = 4;      // the paradigm lacks forms (powinien, musieć's imperative)
 }
 
 // ---------------------------------------------------------------------------

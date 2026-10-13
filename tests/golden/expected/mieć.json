@@ -1,10 +1,920 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "mieć",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "mam",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "mamy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "masz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "macie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "ma",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "mają",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "ma się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "miałem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "mieliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "mieliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miałyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "miano",
+     "tags": {
+      "verb_form": "VERB_FORM_IMPERSONAL_PAST"
+     }
+    },
+    {
+     "form": "będę miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę mieć",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę mieć",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę mieć",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy mieć",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy mieć",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz mieć",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz mieć",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz mieć",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie mieć",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie mieć",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie mieć",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie mieć",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie mieć",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą mieć",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą mieć",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie mieć się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "miałbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miałabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miałobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "mielibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miałybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miałbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "miałabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "miałobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "mielibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "miałybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "miałby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by miał",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "miałaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by miała",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "miałoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by miało",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "mieliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by mieli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "miałyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by miały",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "miano by",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech mam",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miejmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "miej",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "miejcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech ma",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech mają",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "mający",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mająca",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mające",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mający",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mające",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "miany",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "miana",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "miane",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "miani",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "miane",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_PASSIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mając",
+     "tags": {
+      "verb_form": "VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "mienie",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
      "ipa": "/ˈmjɛt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "miewać",
+     "type": "TYPE_FREQUENTATIVE"
     }
    ],
    "senses": [
@@ -367,7 +1277,16 @@
      ]
     }
    ],
-   "usage_notes": "* While the passive participle miany is attested and used in passive constructions, this is generally rare. Impersonal constructions using się are usually preferred for a similar use."
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of mieć impf"
+    }
+   ],
+   "usage_notes": "* While the passive participle miany is attested and used in passive constructions, this is generally rare. Impersonal constructions using się are usually preferred for a similar use.",
+   "verb": {
+    "aspect": "ASPECT_IMPERFECTIVE"
+   }
   },
   {
    "etymology": 1,

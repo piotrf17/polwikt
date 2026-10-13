@@ -1,6 +1,621 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "być",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "jestem",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "jesteśmy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "jesteś",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "jesteście",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "jest",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "są",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "byłem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byłyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "był",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "była",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "było",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "byli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "były",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "będę",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "byłbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym był",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byłabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym była",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byłobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym było",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bylibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy byli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byłybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy były",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byłbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś był",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byłabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś była",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byłobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś było",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "bylibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście byli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byłybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście były",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byłby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by był",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "byłaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by była",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "byłoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by było",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "byliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by byli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "byłyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by były",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech będę",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bądźmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bądź",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "bądźcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech będzie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech będą",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "będący",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "będąca",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "będące",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "będący",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "będące",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "będąc",
+     "tags": {
+      "verb_form": "VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "bywszy",
+     "tags": {
+      "verb_form": "VERB_FORM_ANTERIOR_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "bycie",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -17,6 +632,12 @@
      "labels": [
       "Zagórze"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "bywać",
+     "type": "TYPE_INDETERMINATE_COUNTERPART"
     }
    ],
    "senses": [
@@ -208,7 +829,16 @@
      ]
     }
    ],
-   "usage_notes": "* When the predicate is an adjective phrase, it is always used in the nominative case (e.g. Jestem zmęczony – I am tired; Ona jest bardzo mądra – She is very smart; Wczorajszy dzień był piękny, ale dzisiaj jest brzydko – Yesterday was a beautiful day, but today the weather is bad).\n* When the predicate is a noun phrase, it can be used either in the instrumental or the nominative case, though it is found mostly in the former.\n** The instrumental case is used for:\n*** permanent identities (e.g. Jestem człowiekiem – I am a human being; Jestem katolikiem – I am a Catholic; Dinozaury były bardzo dużymi gadami – Dinosaurs were very large reptiles);\n*** genders (e.g. Ja jestem kobietą, a on jest mężczyzną – I am a woman and he is a man);\n*** professions (e.g. Byłeś najlepszym nauczycielem biologii w naszym gimnazjum – You were the best biology teacher at our gimnazjum);\n*** nationalities and ethnicities (e.g. On jest Polakiem – He is Polish (lit. He is a Pole));\n*** relationships (e.g. Ona jest moją siostrą – She is my sister; On jest twoim narzeczonym? – Is he your fiancé?);\n*** definite/unique identities (e.g. Bruce Wayne jest Batmanem – Bruce Wayne is Batman).\n** The nominative case is used for:\n*** introducing oneself (e.g. Jestem Kamil – I am Kamil / My name is Kamil);\n*** directly identifying, specifying, or pointing out who someone is by name or unique identity (e.g. A więc to ty jesteś ta słynna Maryla Rodowicz? – So you are the famous Maryla Rodowicz?).\n** However, when introducing other people or things, the phrase to jest/to są (this is/these are) is mostly used instead, where to acts as a pointing demonstrative pronoun (e.g. To jest Marysia, a to Tomek – This is Marysia and this is Tomek; To jest moja szefowa – This is my boss, which is roughly synonymous with a standard instrumental phrase such as: Ona jest moją szefową)."
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of być impf"
+    }
+   ],
+   "usage_notes": "* When the predicate is an adjective phrase, it is always used in the nominative case (e.g. Jestem zmęczony – I am tired; Ona jest bardzo mądra – She is very smart; Wczorajszy dzień był piękny, ale dzisiaj jest brzydko – Yesterday was a beautiful day, but today the weather is bad).\n* When the predicate is a noun phrase, it can be used either in the instrumental or the nominative case, though it is found mostly in the former.\n** The instrumental case is used for:\n*** permanent identities (e.g. Jestem człowiekiem – I am a human being; Jestem katolikiem – I am a Catholic; Dinozaury były bardzo dużymi gadami – Dinosaurs were very large reptiles);\n*** genders (e.g. Ja jestem kobietą, a on jest mężczyzną – I am a woman and he is a man);\n*** professions (e.g. Byłeś najlepszym nauczycielem biologii w naszym gimnazjum – You were the best biology teacher at our gimnazjum);\n*** nationalities and ethnicities (e.g. On jest Polakiem – He is Polish (lit. He is a Pole));\n*** relationships (e.g. Ona jest moją siostrą – She is my sister; On jest twoim narzeczonym? – Is he your fiancé?);\n*** definite/unique identities (e.g. Bruce Wayne jest Batmanem – Bruce Wayne is Batman).\n** The nominative case is used for:\n*** introducing oneself (e.g. Jestem Kamil – I am Kamil / My name is Kamil);\n*** directly identifying, specifying, or pointing out who someone is by name or unique identity (e.g. A więc to ty jesteś ta słynna Maryla Rodowicz? – So you are the famous Maryla Rodowicz?).\n** However, when introducing other people or things, the phrase to jest/to są (this is/these are) is mostly used instead, where to acts as a pointing demonstrative pronoun (e.g. To jest Marysia, a to Tomek – This is Marysia and this is Tomek; To jest moja szefowa – This is my boss, which is roughly synonymous with a standard instrumental phrase such as: Ona jest moją szefową).",
+   "verb": {
+    "aspect": "ASPECT_IMPERFECTIVE"
+   }
   }
  ],
  "etymologies": [

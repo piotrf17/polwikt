@@ -1,6 +1,855 @@
 {
  "entries": [
   {
+   "forms": [
+    {
+     "form": "iść",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "idę",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziemy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziesz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziecie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idzie",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idą",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idzie się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "szedłem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szedłeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "będę szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "szedłbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szlibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szedłbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szlibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szedłby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech idę",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "idźmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "idź",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "idźcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech idzie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech idą",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "idący",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idąca",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idące",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idący",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idące",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idąc",
+     "tags": {
+      "verb_form": "VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "iście",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -59,6 +908,12 @@
      "labels": [
       "Northern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "pójść",
+     "type": "TYPE_PERFECTIVE_COUNTERPART"
     }
    ],
    "senses": [
@@ -390,9 +1245,867 @@
      ]
     }
    ],
-   "usage_notes": "* The imperfective verb iść with corresponding perfective pójść is a unidirectional verb. Its multidirectional counterpart is chodzić."
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of iść impf"
+    }
+   ],
+   "usage_notes": "* The imperfective verb iść with corresponding perfective pójść is a unidirectional verb. Its multidirectional counterpart is chodzić.",
+   "verb": {
+    "aspect": "ASPECT_IMPERFECTIVE"
+   }
   },
   {
+   "forms": [
+    {
+     "form": "iść",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "idę",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziemy",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziesz",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idziecie",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idzie",
+     "tags": {
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idą",
+     "tags": {
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "idzie się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "szedłem",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłam",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłom",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szliśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szedłeś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłaś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłoś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szliście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szłyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "będę szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będę iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziemy iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziesz iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będziecie iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą iść",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będą iść",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD",
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie iść się",
+     "raw_tags": [
+      "impersonal"
+     ],
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "szedłbym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłabym",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłobym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "bym szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szlibyśmy",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szłybyśmy",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "byśmy szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "szedłbyś",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłabyś",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłobyś",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byś szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szlibyście",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szłybyście",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "byście szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "szedłby",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szedł",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłaby",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szła",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłoby",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szło",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szliby",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szli",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "szłyby",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "by szły",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "mood": "MOOD_CONDITIONAL",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech idę",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "idźmy",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_FIRST"
+     }
+    },
+    {
+     "form": "idź",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "idźcie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_SECOND"
+     }
+    },
+    {
+     "form": "niech idzie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_SINGULAR",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "niech idą",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE",
+      "number": "NUMBER_PLURAL",
+      "person": "PERSON_THIRD"
+     }
+    },
+    {
+     "form": "idący",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idąca",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idące",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "number": "NUMBER_SINGULAR",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idący",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idące",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "number": "NUMBER_PLURAL",
+      "verb_form": "VERB_FORM_ACTIVE_ADJECTIVAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "idąc",
+     "tags": {
+      "verb_form": "VERB_FORM_CONTEMPORARY_ADVERBIAL_PARTICIPLE"
+     }
+    },
+    {
+     "form": "iście",
+     "tags": {
+      "verb_form": "VERB_FORM_VERBAL_NOUN"
+     }
+    }
+   ],
    "pos": "POS_VERB",
    "pronunciations": [
     {
@@ -508,7 +2221,16 @@
       "of time"
      ]
     }
-   ]
+   ],
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of iść impf"
+    }
+   ],
+   "verb": {
+    "aspect": "ASPECT_IMPERFECTIVE"
+   }
   }
  ],
  "etymologies": [

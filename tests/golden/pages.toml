@@ -283,3 +283,20 @@ why = "a Standard Kurpian {{pl-skur-decl-noun-m}} table: dropped and counted"
 [[page]]
 title = "polski"
 why = "a module footnote: polsku<sup>1</sup> with '1 Archaic.' under the table -> label archaic"
+
+# --- Verbal inflection (M8: R6.2, R3.14) ----------------------------------------------
+[[page]]
+title = "powinien"
+why = "{{pl-conj-powinienem}}, {{pl-verb|…|def=1}}: a defective verb"
+[[page]]
+title = "braknąć"
+why = "{{pl-conj-ai-impersonal}}: 'present/past/future indicative' rows, third person only"
+[[page]]
+title = "walić konia"
+why = "{{pl-conj-see}}: a pointer table with no forms, counted"
+[[page]]
+title = "bywać"
+why = "{{pl-verb|impf-freq}}: frequentative and indeterminate"
+[[page]]
+title = "potrafić"
+why = "{{pl-verb|biasp}}: a biaspectual verb"

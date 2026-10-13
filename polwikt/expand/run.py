@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+from collections.abc import Callable
 from dataclasses import dataclass
+from typing import Any
 
 from wikitextprocessor import WikiNode
 
@@ -19,10 +21,16 @@ class Expansion:
         return not self.errors
 
 
-def expand_text(wtp: PolwiktWtp, text: str) -> Expansion:
+# Upstream's template hook: (name, args) -> the expansion, or None to expand normally.
+TemplateFn = Callable[[str, dict[Any, str]], str | None]
+
+
+def expand_text(
+    wtp: PolwiktWtp, text: str, template_fn: TemplateFn | None = None
+) -> Expansion:
     """Expands `text` on the current page; Lua failures become counted errors (R4.3)."""
     before = len(wtp.errors)
-    out = wtp.expand(text)
+    out = wtp.expand(text, template_fn=template_fn)
     errors = tuple(e["msg"] for e in wtp.errors[before:])
     for msg in errors:
         kind = (
@@ -34,6 +42,8 @@ def expand_text(wtp: PolwiktWtp, text: str) -> Expansion:
     return Expansion(out, errors)
 
 
-def expand_node(wtp: PolwiktWtp, node: WikiNode) -> Expansion:
+def expand_node(
+    wtp: PolwiktWtp, node: WikiNode, template_fn: TemplateFn | None = None
+) -> Expansion:
     """Expands one parsed template call, e.g. a `{{pl-decl-noun-m-anml}}` table."""
-    return expand_text(wtp, wtp.node_to_wikitext(node))
+    return expand_text(wtp, wtp.node_to_wikitext(node), template_fn)

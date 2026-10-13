@@ -47,12 +47,41 @@
 "masculine singular" = ["masculine", "singular"]
 "feminine singular" = ["feminine", "singular"]
 "masc plural" = ["masculine", "plural"]
+# Conjugation tables (R6.2): rows are tense or mood and person, columns number and
+# gender. Present/past/future rows carry tense only; mood is said only where it isn't
+# indicative. "impersonal" + "past" is VerbForm IMPERSONAL_PAST (data/tags.toml);
+# with any other tense it stays a raw tag ("robi się").
+"person" = []
+"infinitive" = ["infinitive"]
+"present tense" = ["present"]
+"past tense" = ["past"]
+"future tense" = ["future"]
+"present indicative" = ["present"]
+"past indicative" = ["past"]
+"future indicative" = ["future"]
+"pluperfect tense" = ["pluperfect"]
+"conditional" = ["conditional"]
+"imperative" = ["imperative"]
+"1st" = ["first-person"]
+"2nd" = ["second-person"]
+"3rd" = ["third-person"]
+"impersonal" = ["impersonal"]
+"active adjectival participle" = ["active", "adjectival", "participle"]
+"passive adjectival participle" = ["passive", "adjectival", "participle"]
+"contemporary adverbial participle" = ["contemporary", "adverbial", "participle"]
+"anterior adverbial participle" = ["anterior", "adverbial", "participle"]
+"verbal noun" = ["verbal noun"]
 
 # Which kind of table a template makes (canonical name, then the longest prefix);
 # anything else in a table section is a declension.
 [kinds]
 names = { "pl-decl-combined-forms" = "combined_forms", "pl-decl-combined-forms-e" = "combined_forms" }
 prefixes = { "pl-conj-" = "conjugation" }
+
+# {{l|<code>|word}} in a table is written directly, without Module:links, for these
+# language codes (extract/inflection.py: _plain_link); the name is the link anchor.
+[links]
+languages = { "pl" = "Polish" }
 
 # Paradigms the article marks irregular: by template, or by the category the
 # expansion adds ("Polish irregular adjectives").
@@ -87,6 +116,16 @@ singulare = "Polish singularia tantum"
 "anml" = "animate"
 "an" = "animate"
 "in" = "inanimate"
+
+# {{pl-verb}}: arg 1 is the aspect, comma-separated when there are several (two
+# aspects make a biaspectual verb); the named list parameters are its counterparts
+# (Module:zlw-lch-headword), as Relations of the entry (R3.14).
+[headword.verb]
+templates = ["pl-verb"]
+aspects = { "pf" = "perfective", "impf" = "imperfective", "biasp" = "biaspectual", "both" = "biaspectual", "impf-det" = "imperfective", "impf-indet" = "imperfective", "impf-freq" = "imperfective" }
+motion = { "impf-det" = "determinate", "impf-indet" = "indeterminate", "impf-freq" = "indeterminate" }
+frequentative = ["impf-freq"]
+relations = { "pf" = "TYPE_PERFECTIVE_COUNTERPART", "impf" = "TYPE_IMPERFECTIVE_COUNTERPART", "det" = "TYPE_DETERMINATE_COUNTERPART", "indet" = "TYPE_INDETERMINATE_COUNTERPART", "freq" = "TYPE_FREQUENTATIVE" }
 
 # {{pl-adj}} / {{pl-adv}} comparison, as Module:zlw-lch-headword builds it: "peri" is
 # the periphrastic comparative, and a missing superlative is `sup` + the comparative.

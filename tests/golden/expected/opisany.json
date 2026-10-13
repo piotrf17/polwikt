@@ -109,15 +109,6 @@
     {
      "form": "opisanych",
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_GENITIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "opisanych",
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_GENITIVE",
       "number": "NUMBER_PLURAL"
      }
@@ -149,15 +140,6 @@
     {
      "form": "opisanym",
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_DATIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "opisanym",
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_DATIVE",
       "number": "NUMBER_PLURAL"
      }
@@ -239,15 +221,6 @@
     {
      "form": "opisanymi",
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_INSTRUMENTAL",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "opisanymi",
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_INSTRUMENTAL",
       "number": "NUMBER_PLURAL"
      }
@@ -279,15 +252,6 @@
     {
      "form": "opisanych",
      "tags": {
-      "gender": "GENDER_VIRILE",
-      "grammatical_case": "CASE_LOCATIVE",
-      "number": "NUMBER_PLURAL"
-     }
-    },
-    {
-     "form": "opisanych",
-     "tags": {
-      "gender": "GENDER_NONVIRILE",
       "grammatical_case": "CASE_LOCATIVE",
       "number": "NUMBER_PLURAL"
      }

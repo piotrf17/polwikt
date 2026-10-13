@@ -1,0 +1,136 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|id=be|:inh|sla-pro:*byvàti<id:be>|:af<surf>|być|-wać|etydate=end of the 14th century|tree=+|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Verb===
+{{zlw-opl-verb|impf}}
+
+# {{lb|zlw-opl|attested in|Masovia}} {{ng|used with the past participle to form the present and past passive tenses of verbs}}
+#* {{RQ:zlw-opl:Sul|28|Thacy slostnyczy przes thakee zachoczczow myenyenye wyzwalyaany '''biwaly''' (huiusmodi malefactores per eandem nominationem a poena liberabantur)|Tacy złostnicy przez takie zachodźcow mienienie wyzwalani '''bywali''' (huiusmodi malefactores per eandem nominationem a poena liberabantur)|-}}
+#* {{RQ:zlw-opl:Sul|99|Przes wschitky, gysch przi they przissyąndze syedzeli albo przistali, milczano '''bywalo''' (per omnes assidentes vel astantes iuramento tacebatur)|Przez wszytki, jiż przy tej przysiędze siedzieli albo przystali, milczano '''bywało''' (per omnes assidentes vel astantes iuramento tacebatur)|-}}
+#* {{RQ:zlw-opl:Pocz|233|End of the 14th century|Vkazana tobe '''biwa''' miloszcziwa|Ukazana tobie '''bywa''' miłościwa|-}}
+# {{lb|zlw-opl|copulative}} {{ng|copulative in compound predicates}}
+#* {{RQ:zlw-opl:MPKJ|V|427|Middle of the 15th century|[Trzecie odzie]nye, to yest yedwa[bne], '''[b]ywa''' s chrobakow (tertium vestimentum scilicet sericum, quod sit de vermibus)|[Trzecie odzie]nie, to jest jedwa[bne], '''[b]ywa''' z chrobakow (tertium vestimentum scilicet sericum, quod sit de vermibus)|-}}
+# {{frequentative of|zlw-opl|być}}
+#* {{RQ:zlw-opl:BZ|Tob|5, 8|Ti wszitky scyeszki sø my iawni, bom gymy czøsto chodzil, a '''biwalem''' v Gabela brata waszego (et mansi apud Gabelum fratrem nostrum)|Ty wszytki ścieżki są mi jawny, bom jimi często chodził a '''bywałem''' u Gabela brata waszego (et mansi apud Gabelum fratrem nostrum)|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} to [[linger]]; to [[remain]]
+#* {{RQ:zlw-opl:Fl|54, 20|Odkupi w pocoiu duszø moiø od tich, gich (pro gisz) se bliszø ku mne, bo medzy welmi '''bywal''' se mnø (quoniam inter multos erant mecum)|Odkupi w pokoju duszę moję od tych, jiż sie bliżą ku mnie, bo miedzy wielmi '''bywal[i]''' se mną (quoniam inter multos erant mecum)|-}}
+# {{lb|zlw-opl|attested in|Masovia}} to [[happen]]; to [[occur]]
+#* {{RQ:zlw-opl:Sul|28|Czanstokrocz '''bywa''' (plerumque fit), ysz... nyekthorzy... przes baklywoscz... wycząnstwo obikli odnoszycz|Częstokroć '''bywa''' (plerumque fit), iż... niektorzy... przez bakliwość... wicięstwo obykli odnosić|-}}
+# to [[befall]], to [[fall to]]
+#* {{RQ:zlw-opl:MacDod|139|End of the 15th century|Yelye dny do roką '''bywa''', thele lath Szandomyrz odpustow myewa|Jele dni do roka '''bywa''', tele lat Sędomirz odpustow miewa|-}}
+# {{lb|zlw-opl|attested in|}} to [[arise]]
+#* {{RQ:zlw-opl:Gn|12a|Sz nesktorego szyna slodzeg '''byua''', kostarsz y pyganicza, a s dzefkicz tesze mnogdy sla szona '''byua'''|Z nie z ktorego syna złodziej '''bywa''', kostarz i pijanica, a z dziewkić teże mnogdy zła żona '''bywa'''|-}}
+# to [[take place]]
+#* {{RQ:zlw-opl:OrtKał|200|We trzych wylkych sandzech, gdy '''bywayą''' gyeden na szwyathego Iana y Pawla dzyen, ... gdy burgrabya szyedzy na sąndze..., gyest wyna osszmdzyeszath szelągow|We trzech wi[e]lkich sądziech, gdy '''bywają''' jeden na Świętego Jana i Pawła dzień, ... gdy burgrabia siedzi na sądzie..., jest wina ośmdziesiąt szelągow|-}}
+
+====Derived terms====
+{{zlw-opl-derived verbs|impf_first=1
+|*bywać/być
+|do
+|wydo
+|na
+|od
+|prze
+|przybywać/-
+|u
+|z
+|poz
+}}
+
+====Descendants====
+* {{desc|pl|bywać|alts=1}}
+* {{desc|szl|bywać}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Sławski}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|bewać||Podhale|Zakopane}}
+
+===Etymology===
+{{ety|pl|id=be|:inh|zlw-opl:bywać<id:be>|:af<surf>|być|-wać|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-bywać.ogg|mp=#|CGP=#|krk=#|EL=#|pod=#|prz=#|nbl=#}}
+
+===Verb===
+{{pl-verb|impf-freq|impf=być}}
+
+# {{lb|pl|intransitive|copulative}} {{frequentative of|pl|być}}
+#: {{uxi|pl|On '''bywa''' całkiem wredny.|He '''can be''' pretty mean.}}
+#: {{uxi|pl|'''Bywam''' w kinie.|I '''frequent''' the movie theater.}}
+# {{lb|pl|intransitive|Central Greater Poland|Środa Wielkopolska|Września|Western Kraków|Tyniec|Eastern Lublin|Biskupice|Pawłów|Chojno Nowe Pierwsze}} {{syn of|pl|przybywać//przychodzić}}
+## {{lb|pl|intransitive|Northern Borderlands|Lithuania|hunting|to an animal}} {{syn of|pl|przychodzić}}
+# {{lb|pl|intransitive|Podhale|Pieniążkowice|Łopuszna}} {{syn of|pl|przebywać//mieszkać}}
+# {{lb|pl|intransitive|Przemyśl|San river}} {{syn of|pl|trafiać//składać<alt:składać się>|t=to [[turn out]]}}
+
+====Conjugation====
+{{pl-conj-ai-am,asz|bywa}}
+* The second person imperative plural may be {{m|pl|bywajta}} in the {{w|Near Masovian dialect}} ({{w|Jagodne}}) and is used as a farewell.
+
+====Derived terms====
+{{col|pl|title=adjectives|bywały}}
+{{col|pl|title=interjections|bywaj|bywaj zdrów}}
+{{col|pl|title=nouns|bywalec}}
+{{pl-derived verbs|impf_first=1
+|*bywać/być
+|do
+|wydo
+|zdo
+|na
+|o
+|od
+|prze
+|przy
+|u
+|z
+|poz
+|wyz
+}}
+
+===Trivia===
+{{pl-freq 1990|23|0|16|19|22|80|800|40|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|45334}}
+* {{R:pl:SXVII|BYWAĆ|14092||10.12.2021}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||248|1}}
+* {{R:pl:SGP1900||155|1}}
+* {{R:pl:NFJP}}
+
+==Silesian==
+
+===Etymology===
+{{ety|szl|id=be|:inh|zlw-opl:bywać<id:be>|:af<surf>|być|-wać|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Verb===
+{{szl-verb|impf-freq|impf=być}}
+
+# {{lb|szl|intransitive|copulative}} {{frequentative of|szl|być}}
+
+====Conjugation====
+{{szl-conj-ai-I|byw}}
+
+===Further reading===
+* {{R:szl:silling}}
+* {{R:szl:Wencel:2023|+|96}}

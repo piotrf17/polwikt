@@ -33,6 +33,7 @@
 "conditional" = "mood.MOOD_CONDITIONAL"
 "imperfective" = "aspect.ASPECT_IMPERFECTIVE"
 "perfective" = "aspect.ASPECT_PERFECTIVE"
+"biaspectual" = "aspect.ASPECT_BIASPECTUAL"
 "positive" = "degree.DEGREE_POSITIVE"
 "comparative" = "degree.DEGREE_COMPARATIVE"
 "superlative" = "degree.DEGREE_SUPERLATIVE"

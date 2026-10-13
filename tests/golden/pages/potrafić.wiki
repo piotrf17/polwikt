@@ -1,0 +1,84 @@
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|potrefić||Middle Polish|Podhale|Skawa}}
+
+===Etymology===
+{{ety|pl|:af|po-|trafić<ref:{{R:pl:Boryś|trafić}} !!! {{R:pl:Bańkowski}}>|etydate=1544<ref:{{R:pl:SXVI|+|90437}}>|tree=+|text=+}} Compare {{cog|cs|potrefit}}, {{cog|csb|pòtrafic}}, {{cog|rue|потрафити}}, {{cog|szl|potrefić}}, {{cog|sh|pòtrefiti//по̀трефити}}, and {{cog|sk|potrafiť}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg|mp=#|prz=#|sbl=#|MB=#}}
+
+===Verb===
+{{pl-verb|biasp|impf=potrafiać<l:obsolete,or,dialectal>}}<ref>{{R:pl:SGJP|+|269860}}</ref><ref>{{R:pl:SGJP|+|279436}}</ref>
+
+# {{lb|pl|intransitive|auxiliary}} to [[know]] how, to [[be able to]], [[can]] {{gl|to have enough skill, strength, means, or ability to do something}} {{+obj|pl|inf<to do what>}} <!--Far Masovian, Ciechanów-->
+#: {{syn|pl|umieć}}
+#: {{uxa|pl|Czy '''potrafisz''' śpiewać?|'''Can''' you sing?}}
+# {{lb|pl|intransitive|auxiliary|of objects}} to [[be able to]], [[can]] {{gl|to be designed for something}} {{+obj|pl|inf<to do what>}}
+#: {{uxa|pl|To auto '''potrafi''' osiągnąć prędkosć naddźwiękową.|This car '''can''' reach ultrasonic speed.}}
+# {{lb|pl|intransitive|auxiliary}} to [[be able to]], [[can]] {{gl|to do something regularly, usually considered negative by the speaker}} {{+obj|pl|inf<to do what>}}
+# {{lb|pl|intransitive|auxiliary}} to [[be able to]], [[can]] {{gl|to go to certain limits in one's behavior or to reach a certain state}} {{+obj|pl|inf<to do what>}}
+
+===Verb===
+{{pl-verb|pf}}
+
+# {{lb|pl|transitive|Przemyśl|San river}} {{syn of|pl|trafić//natrafić}} {{+obj|pl|:na(acc)<across who/what>}}
+# {{lb|pl|transitive|Southern Borderlands|Dobromyl}} {{syn of|pl|wpaść//zgadnąć}} {{+obj|pl|:na(acc)<what>}}
+# {{lb|pl|transitive|obsolete}} to [[capture]] [[likeness]]; to [[hit the mark]] {{gl|to draw or carve successfully}}
+# {{lb|pl|transitive|obsolete}} to [[hit the mark]] {{gl|to succeed, to manage to do}}
+#: {{syn|pl|dokazać|poradzić sobie|zaradzić}}
+# {{lb|pl|transitive|Middle Polish}} to [[meet]], to [[come across]], to [[find]]
+#: {{syn|pl|spotkać|[[natknąć]] [[się]]| znaleźć}}
+# {{lb|pl|transitive|Middle Polish}} to [[achieve]], to [[get]]
+#: {{syn|pl|osiągnąć|uzyskać}}
+# {{lb|pl|transitive|Middle Polish}} to [[hit]]
+#: {{syn|pl|ugodzić|uderzyć}}
+# {{lb|pl|transitive|Middle Polish}} to [[happen]] to someone, to [[meet]]
+# {{lb|pl|transitive|Middle Polish}} to [[reach]], to [[get]] somewhere
+#: {{syn|pl|[[dostać]] [[się]]}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[occur]], to [[happen]], to [[ensue]]
+#: {{syn|pl|[[przydarzyć]] [[się]]|[[zdarzyć]] [[się]]|zaistnieć}}
+## {{lb|pl|reflexive-się|Middle Polish|of people}} to [[appear]], to [[show up]]
+##: {{syn|pl|[[zjawić]] [[się]]}}
+# {{lb|pl|reflexive-się|Middle Polish}} to [[meet]], to [[meet up]], to meet [[each other]]
+#: {{syn|pl|[[spotkać]] [[się]]}}
+
+====Usage notes====
+Complex future forms such as {{m|pl|[[będzie]] potrafić/potrafił(a/o)}} are proscribed. Instead only the simple future {{m|pl|potrafi}} or {{m|pl|[[będzie]] [[umieć]]/umiał(a/o)}} are prescribed.
+
+The active adjectival participle {{m|pl|potrafiący}} is also proscribed, instead either a subordinate clause with {{m|pl|który}} or {{m|pl|umiejący}} are prescribed.
+
+====Conjugation====
+Imperfective:
+{{pl-conj-ai|potrafić|potrafię|potrafi|potrafią|potrafi|potrafi|potrafi|potraf|pp=potrafion|pp2=potrafieni|ip=potrafiono|vn=potrafienie}}
+Perfective:
+{{pl-conj-ap|potrafić|potrafię|potrafi|potrafią|potrafi|potrafi|potrafi|potraf|pp=potrafion|pp2=potrafieni|ap=potrafiwszy|ip=potrafiono|vn=potrafienie}}
+
+====Derived terms====
+{{col|pl|title=proverbs|jeśli nie potrafisz, nie pchaj się na afisz}}
+{{pl-derived verbs|-/nie potrafić zliczyć do trzech}}
+
+===Trivia===
+{{pl-freq 1990|21|5|17|32|36|111|553|416|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* Modern Standard Polish:
+** {{R:pl:WSJP||41449}}
+** {{R:pl:PWN}}
+** {{R:pl:NFJP}}
+** {{R:pl:SGJP|+|269860}}
+** {{R:pl:SGJP|+|279436}}
+* Middle Polish:
+** {{R:pl:SXVI|potrafić się|90438}}
+** {{R:pl:SXVII|POTRAFIĆ|12226|SPas|14.01.2020}}
+** {{R:pl:SXVII|POTRAFIĆ%20SIĘ|45267|PK|14.01.2020}}
+* Historic dictionaries:
+** {{R:pl:SJP1807}}
+** {{R:pl:SJP1861}}
+** {{R:pl:SJP1900||812|4}}
+* Dialectal dictionaries:
+** {{R:pl:SGP1900||300|4}} <!--»potrefić = umieć« Opole, Pr. fil. V, 848-->

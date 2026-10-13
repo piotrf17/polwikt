@@ -1,0 +1,161 @@
+{
+ "entries": [
+  {
+   "forms": [
+    {
+     "form": "braknąć",
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "braknie",
+     "tags": {
+      "tense": "TENSE_PRESENT"
+     }
+    },
+    {
+     "form": "brakło",
+     "tags": {
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "będzie braknąć",
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "będzie brakło",
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "brakłoby",
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "by brakło",
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech braknie",
+     "tags": {
+      "mood": "MOOD_IMPERATIVE"
+     }
+    },
+    {
+     "form": "braknąć",
+     "table": 1,
+     "tags": {
+      "verb_form": "VERB_FORM_INFINITIVE"
+     }
+    },
+    {
+     "form": "braknie",
+     "table": 1,
+     "tags": {
+      "tense": "TENSE_FUTURE"
+     }
+    },
+    {
+     "form": "brakło",
+     "table": 1,
+     "tags": {
+      "tense": "TENSE_PAST"
+     }
+    },
+    {
+     "form": "brakłoby",
+     "table": 1,
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "by brakło",
+     "table": 1,
+     "tags": {
+      "mood": "MOOD_CONDITIONAL"
+     }
+    },
+    {
+     "form": "niech braknie",
+     "table": 1,
+     "tags": {
+      "mood": "MOOD_IMPERATIVE"
+     }
+    }
+   ],
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbrak.nɔɲt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "to be insufficient",
+     "keywords": [
+      {
+       "text": "insufficient"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "impersonal"
+     ],
+     "relations": [
+      {
+       "term": "brakować",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "to be missing",
+     "keywords": [
+      {
+       "text": "missing"
+      }
+     ],
+     "labels": [
+      "transitive",
+      "impersonal"
+     ],
+     "relations": [
+      {
+       "term": "brakować",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of braknąć"
+    },
+    {
+     "kind": "KIND_CONJUGATION",
+     "title": "Conjugation of braknąć"
+    }
+   ],
+   "verb": {
+    "aspect": "ASPECT_BIASPECTUAL"
+   }
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From brak + -nąć."
+  }
+ ],
+ "lemma": "braknąć"
+}

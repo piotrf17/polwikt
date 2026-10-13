@@ -30,8 +30,10 @@ from polwikt.extract.headword import (
     comparison,
     comparison_templates,
     noun_info,
+    verb,
+    verb_templates,
 )
-from polwikt.extract.inflection import TableParser, drop_label, table_kind
+from polwikt.extract.inflection import TableParser, drop_label
 from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import pronunciations
 from polwikt.extract.sense import Indexes, SenseParser, positional, template_args
@@ -329,6 +331,15 @@ class Walk:
         entry = draft.entry
         if name in NOUN_TEMPLATES and not entry.HasField("noun"):
             entry.noun.CopyFrom(noun_info(template_args(self.wtp, node), self.stats))
+        elif name in verb_templates() and not entry.HasField("verb"):
+            info, relations = verb(
+                template_args(self.wtp, node),
+                self.index.labels,
+                self.index.drop,
+                self.stats,
+            )
+            entry.verb.CopyFrom(info)
+            entry.relations.extend(relations)
         elif name in comparison_templates() and not entry.HasField("adjective"):
             found = comparison(
                 self.title,
@@ -346,9 +357,6 @@ class Walk:
         draft.calls.inflection.append(template_call(self.wtp, node, name))
         if label := drop_label(name):
             self.stats[f"dropped.table.{label}"] += 1  # R6.6a, never expanded
-            return
-        if table_kind(name) == "conjugation":
-            self.stats["table.deferred.conjugation"] += 1  # M8
             return
         paradigm = self.table_parser.parse(name, node)
         entry = draft.entry

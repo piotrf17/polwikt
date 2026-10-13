@@ -290,6 +290,10 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   partner is not simply "the other aspect" (from the aspect-partner arguments of `{{pl-verb}}` and from the *Related
   terms* section), frequentatives (`{{pl-verb|…|freq=}}`), diminutive/augmentative
   chains (`{{pl-noun|…|dim=}}`), comparative ↔ positive adjectives (`{{pl-adj}}`).
+  *Implemented at M8* for verbs: `{{pl-verb}}`'s `pf=`, `impf=`, `det=`, `indet=` and
+  `freq=` (with `pf2=`, … and inline `<l:…>`/`<t:…>`) become entry Relations —
+  perfective, imperfective, determinate, indeterminate counterparts and
+  frequentatives — directed, as the article states them.
 - **R3.15** Emit the canonical sharded corpus plus a `lemma → (shard, offset)` index.
 - **R3.16** Emit `stats.json`: counts by POS, senses, forms, pages with/without
   inflection, top unhandled templates by frequency. This is the primary quality signal.
@@ -444,6 +448,18 @@ English-Wiktionary Polish sections follow this nesting:
   (`-no`/`-to`); verbal noun (`-nie`/`-cie`); active adjectival participle; passive
   adjectival participle; contemporary adverbial participle (`-ąc`); anterior adverbial
   participle (`-wszy`). Also frequentative/iterative and reflexive `się` marking.
+  *Implemented at M8:* conjugation tables go through the same grid as declensions
+  (R7.8); tense or mood come from the row group, person from the row, number and
+  gender from the columns. Present-tense cells span all three singular genders and
+  carry none; `-no`/`-to` is `VERB_FORM_IMPERSONAL_PAST`; other impersonal rows
+  (`robi się`) keep `impersonal` as a raw tag. Both periphrastic futures and both
+  conditional spellings (`robiłby` / `by robił`) are adjacent alternatives; the
+  table's detached-ending notation (`robiłem, -m robił`, `jestem, -m`) is not a form
+  and is skipped, counted (`table.form.detached_ending`). `VerbInfo` holds aspect,
+  motion (determinate/indeterminate: *iść*/*chodzić*), `frequentative` and
+  `defective`, from `{{pl-verb}}` as Module:zlw-lch-headword reads it. Reflexive
+  `się` is a sense label (`reflexive-się`): no conjugation template in the pinned dump
+  has a separate reflexive table.
 - **R6.3 — Adjectives.** Full declension (case × number × gender incl. virile/nonvirile),
   degree (positive / comparative / superlative), and non-comparable marking. Derived
   adverbs where the article links them. *Implemented at M7:* comparison comes from the
@@ -659,9 +675,11 @@ to keep in sync:
   *Implemented at M7* (`parse/tables.py`, `extract/inflection.py`): the expanded table
   is laid out as a grid (rowspan/colspan as a browser does), and a data cell's tags are
   its row headers plus its column headers, mapped through `data/inflection.toml`;
-  `nominative/vocative` is one Form per case. A cell spanning positions that differ
-  only in animacy is one Form without it (*dobry*'s masculine nominative); otherwise one
-  Form per distinct tag set. Forms are in reading order, row by row — a spanning cell's
+  `nominative/vocative` is one Form per case. A cell covering *every* value of a
+  dimension (animacy, gender, number) the table has in that context leaves the
+  dimension out: *dobry*'s masculine nominative spans animate and inanimate, *robię*
+  all three singular genders, an infinitive every column. Otherwise it is one Form per
+  distinct tag set (*tego* covers masculine and neuter, not feminine: two Forms). Forms are in reading order, row by row — a spanning cell's
   Forms each at the position they describe (*ten*'s dative `tej` in the dative row) —
   and alternatives in a cell are adjacent, primary first. Cell qualifiers
   (`familij<q:obsolete>`, `downy (deprecative)`) become Form `labels`; so do footnotes:
@@ -746,7 +764,12 @@ operational consequences that are *not* optional:
   calls): the first 3,000 pages run at **14.1 pages/s against M5's 18.2** (−22%; tables
   are ~20% of extraction time in a profile, Lua most of it), ~3.1 h projected at full
   scale. That is new work, not a regression of existing work; the 10% rule applies
-  from each milestone's own measurement. P3
+  from each milestone's own measurement. *M8 adds conjugation:* a verb page links each
+  of ~90 forms through Module:links, one `#invoke` each — nearly all of its time. Inside
+  tables, a plain `{{l|pl|word}}` (plus accelerator metadata) is written directly
+  instead (`extract/inflection.py`), with identical records on 500 sampled pages and
+  a golden test holding both paths equal: verb pages 4.2 → 9.9 pages/s. ~3.2 h
+  projected for the full run. P3
   must not regress this by more than 10%. `--pages` / `--limit` runs finish in seconds; the full run is not
   part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the

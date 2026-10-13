@@ -277,8 +277,22 @@ paradigms included; noun-declension coverage measured over a `--limit` sample.
 
 ---
 
-## M8 — Verbal inflection
-*Needs M4, M5. ~2 weeks — the largest paradigm.*
+## M8 — Verbal inflection ✅
+*Needs M4, M5. ~2 weeks — the largest paradigm.* *Done 2026-10-12.* Conjugation tables
+through the M7 grid, with the span rule generalised (a cell covering every value of a
+dimension drops it); verb headers in `data/inflection.toml`; `{{pl-verb}}` → `VerbInfo`
+(aspect, motion, frequentative, defective) and counterpart Relations (R3.14). Schema
+(additive): `VerbInfo.motion/frequentative/defective`, Relation types
+`DETERMINATE_COUNTERPART` / `INDETERMINATE_COUNTERPART`. Plain `{{l|pl|…}}` calls in
+tables bypass Module:links (identical output, verb pages 2.4× faster). `pl-skur-*`
+tables are dropped (R6.6d) — they are Kurpian, not a Polish class to parse. The exit's
+"reflexive verb" premise didn't hold: no template has a separate reflexive table
+(reflexivity is the `reflexive-się` sense label); `potrafić` (biaspectual, two titled
+tables) and `bać` cover the multi-table and reflexive-use cases instead. Five verb
+fixtures added (91 pages); `tests/test_verbs.py`. Measured on 692 verb pages (every
+20th with a conjugation): 9.9 pages/s, 0 errors, no unknown header or aspect, 629
+tables, 85.5% of verb lemma entries with a conjugation (misses: `pl-conj-see` pointers
+for phrases, second Verb entries sharing one table).
 
 - Parse the conjugation template families — `{{pl-conj-ai}}`/`{{pl-conj-ap}}` and their
   class subtemplates (`-uję`, `-ić`, `-nąć`, `-VII`, …), `{{pl-conj-być}}`,

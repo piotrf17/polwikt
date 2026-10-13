@@ -1,0 +1,100 @@
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:univ|po|wina<alt:winie><ety:inh<sla-pro:*vinà>>|-ny|etydate=r,1448,1450|tree=+|text=+}} Compare {{cog|zlw-ocs|povinný}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Adjective===
+{{zlw-opl-adj|adv=powinnie}}
+
+# {{lb|zlw-opl|attested in|Masovia}} [[obligate]]d; [[force]]d to doing something
+#* {{RQ:zlw-opl:Sul|13|Popaszanczy zytho czyge, oth kaszdego clyvsząncza alybo skocząncza yaną czfyrcz pyenądzy zaplaczicz '''powynny''' banczcze (exsolvere teneantur)|Popasący żyto czyje, ot każdego klusięcia alibo skocięcia janę ćwirć pieniędzy zapłacić '''powinni''' bądźcie (exsolvere teneantur)|-}}
+# {{lb|zlw-opl|attested in|Masovia}} as [[ought]]; [[owe]]d
+#* {{RQ:zlw-opl:Sul|41|Taka placza nye czinila dosycz kv '''powinnemv''' skaranyv (ad debitam coertionem)|Taka płaca nie czyniła dosyć ku '''powinnemu''' skaraniu (ad debitam coertionem)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=adjective|niepowinny}}
+{{col|zlw-opl|title=noun|powinność}}
+
+====Related terms====
+{{col|zlw-opl|title=adverb|niepowinnie}}
+{{col|zlw-opl|title=noun|niepowinność|powinik|wina}}
+{{zlw-opl-derived verbs|-/powinić}}
+
+====Descendants====
+* {{desc|pl|powinien|alts=1}}
+* {{desc|szl|powiniyn}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:pl:Bańkowski}}
+* {{R:zlw-opl:SPJSP}}
+
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|powinny|powinień||Middle Polish}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:powinien|:univ<surf>|po|wina<alt:winie>|-ny|tree=+|text=+}} Compare {{cog|cs|povinný}}.
+
+===Pronunciation===
+{{pl-pr|a=Pl-powinien.ogg|mp=#}}
+
+===Verb===
+{{pl-verb|impf|def=1}}
+
+# {{lb|pl|intransitive|auxiliary}} [[ought]]; [[should]] {{ng|(indicating duty or obligation)}}
+# {{lb|pl|intransitive|auxiliary}} [[ought]]; [[should]] {{ng|(indicating advisability or prudence)}}
+# {{lb|pl|intransitive|auxiliary}} [[ought]]; [[should]] {{ng|(indicating desirability)}}
+# {{lb|pl|intransitive|auxiliary}} [[ought]]; [[should]] {{ng|(indicating likelihood or probability)}}
+# {{lb|pl|intransitive|auxiliary|Middle Polish}} [[ought]]; [[should]] {{ng|(indicating owing debt)}}
+
+====Conjugation====
+{{pl-conj-powinienem|powinien}}
+
+====Derived terms====
+{{col|pl|title=adjectives|powinny}}
+{{col|pl|title=nouns|powinność}}
+
+===Trivia===
+{{pl-freq 1990|52|38|134|47|75|346|146|420|1}}
+
+===Adjective===
+{{pl-adj|mpcomp=powinniejszy|mpsup=napowinniejszy}}
+
+# {{lb|pl|Middle Polish}} [[ought]] {{gl|having a duty or obligation}}
+#: {{syn|pl|zobowiązany}}
+# {{lb|pl|Middle Polish}} [[applicable]], [[due]], [[rightful]]
+#: {{syn|pl|obowiązujący|należny|słuszny}}
+# {{lb|pl|Middle Polish}} [[fixed]], [[sure]]
+#: {{syn|pl|nieruchomy|pewny}}
+# {{lb|pl|Middle Polish}} [[subordinate]], [[subservient]]
+#: {{syn|pl|poddany|podległy}}
+# {{lb|pl|Middle Polish}} [[needed]], [[necessary]]
+#: {{syn|pl|konieczny|potrzebny}}
+# {{lb|pl|Middle Polish}} [[loyal]], [[obedient]], [[obliging]] {{gl|ready to serve}}
+#: {{syn|pl|posłuszny|usłużny}}
+# {{lb|pl|Middle Polish}} [[grateful]], [[indebted]]
+#: {{syn|pl|wdzięczny|zawdzięczający}}
+# {{lb|pl|Middle Polish}} [[close]] {{gl|being in close personal relationships, especially those of kinship or affinity}}
+
+===Noun===
+{{pl-noun|m-pr|f=powinna}}
+
+# {{lb|pl|nominalized|Middle Polish}} [[relative]], [[kinsman]]; [[friend]], [[devoted]] person
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|powinny, powinien|90942}}
+* {{R:pl:SXVII|POWINIEN|15497|SPas|16.04.2020}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||851|4}}
+* {{R:pl:NFJP}}

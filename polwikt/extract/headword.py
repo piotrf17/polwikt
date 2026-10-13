@@ -26,6 +26,10 @@ def comparison_templates() -> frozenset[str]:
     return frozenset(config().headword["comparison"]["templates"])
 
 
+def verb_templates() -> frozenset[str]:
+    return frozenset(config().headword["verb"]["templates"])
+
+
 def truthy(value: str | None) -> bool:
     return value is not None and value.strip().lower() not in ("", "0", "no", "false")
 
@@ -60,6 +64,62 @@ def noun_info(args: dict[str, str], stats: Counter[str]) -> pb.NounInfo:
         if pair.gender and pair not in info.genders:
             info.genders.append(pair)
     return info
+
+
+def verb(
+    args: dict[str, str],
+    labels: LabelIndex,
+    drop: frozenset[str],
+    stats: Counter[str],
+) -> tuple[pb.VerbInfo, list[pb.Relation]]:
+    """{{pl-verb|impf|pf=zrobić}} -> aspect, motion, counterparts (R6.2, R3.14)."""
+    cfg = config().headword["verb"]
+    info = pb.VerbInfo(defective=truthy(args.get("def")))
+    aspects: list[str] = []
+    for spec, _ in _terms(args.get("1", ""), labels, stats):
+        if spec == "?":
+            continue
+        if spec not in cfg["aspects"]:
+            stats[f"headword.aspect.unknown.{spec}"] += 1
+            continue
+        aspects.append(cfg["aspects"][spec])
+        if spec in cfg["motion"]:
+            motion = cfg["motion"][spec]
+            info.MergeFrom(pb.VerbInfo(motion=f"MOTION_{motion.upper()}"))
+        if spec in cfg["frequentative"]:
+            info.frequentative = True
+    distinct = set(aspects)
+    if len(distinct) > 1:
+        distinct = {"biaspectual"}  # {{pl-verb|impf,pf}}
+    if distinct:
+        info.aspect = to_grammatical(list(distinct))[0].aspect
+    relations: list[pb.Relation] = []
+    for param, type_name in cfg["relations"].items():
+        for key in _numbered(args, param):
+            for term, term_labels, gloss in _terms_with_gloss(args[key], labels, stats):
+                if hit := sorted(drop.intersection(term_labels)):
+                    for label in hit:
+                        stats[f"dropped.relation.{label}"] += 1
+                    continue
+                relations.append(
+                    pb.Relation(
+                        type=type_name,
+                        term=term,
+                        gloss=gloss,
+                        labels=list(dict.fromkeys(term_labels)),
+                    )
+                )
+    return info, relations
+
+
+def _numbered(args: dict[str, str], param: str) -> list[str]:
+    """`pf`, `pf2`, `pf3`, … in order: a list parameter's keys present in `args`."""
+    keys = [param] if param in args else []
+    n = 2
+    while f"{param}{n}" in args:
+        keys.append(f"{param}{n}")
+        n += 1
+    return keys
 
 
 @dataclass
@@ -125,7 +185,14 @@ def _terms(
     value: str, labels: LabelIndex, stats: Counter[str]
 ) -> list[tuple[str, list[str]]]:
     """A list parameter: comma-separated terms with inline <q:…>/<l:…> modifiers."""
-    out: list[tuple[str, list[str]]] = []
+    return [(t, ls) for t, ls, _ in _terms_with_gloss(value, labels, stats)]
+
+
+def _terms_with_gloss(
+    value: str, labels: LabelIndex, stats: Counter[str]
+) -> list[tuple[str, list[str], str]]:
+    """Terms with their labels and their <t:…>/<gloss:…> gloss."""
+    out: list[tuple[str, list[str], str]] = []
     for raw in split_on_comma(value):
         if not raw.strip():
             continue
@@ -137,5 +204,6 @@ def _terms(
         for key in ("l", "ll"):
             if given := modifiers.get(key):
                 found += [lab.name for lab in labels.parse_args([given], stats)]
-        out.append((plain_text(term), found))
+        gloss = modifiers.get("t") or modifiers.get("gloss") or ""
+        out.append((plain_text(term), found, plain_text(gloss)))
     return out

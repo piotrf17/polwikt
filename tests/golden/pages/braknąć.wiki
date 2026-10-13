@@ -1,0 +1,26 @@
+==Polish==
+
+===Etymology===
+{{ety|pl|:af|brak|-nąć|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Poemat-braknąć.wav}}
+
+===Verb===
+{{pl-verb|biasp}}
+
+# {{lb|pl|transitive|impersonal}} to be [[insufficient]]
+#: {{syn|pl|brakować}}
+# {{lb|pl|transitive|impersonal}} to be [[missing]]
+#: {{syn|pl|brakować}}
+
+====Conjugation====
+Imperfective:
+{{pl-conj-ai-impersonal|braknie|brakło}}
+
+Perfective:
+{{pl-conj-ap-impersonal|braknie|brakło}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

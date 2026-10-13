@@ -124,13 +124,24 @@ def _rich_word() -> pb.Word:
         tables=[pb.InflectionTable(kind=pb.InflectionTable.Kind.KIND_COMPARISON)],
         adjective=pb.AdjectiveInfo(not_comparable=False, indeclinable=True),
     )
+    verb = pb.Entry(
+        pos=pb.Pos.POS_VERB,
+        verb=pb.VerbInfo(
+            aspect=pb.Aspect.ASPECT_IMPERFECTIVE,
+            motion=pb.VerbInfo.Motion.MOTION_INDETERMINATE,
+            frequentative=True,
+        ),
+        relations=[
+            pb.Relation(type=pb.Relation.Type.TYPE_DETERMINATE_COUNTERPART, term="iść")
+        ],
+    )
     return pb.Word(
         lemma="kot",
         etymologies=[
             pb.Etymology(text="Inherited from Proto-Slavic *kotъ."),
             pb.Etymology(),
         ],
-        entries=[entry, form_entry, adjective],
+        entries=[entry, form_entry, adjective, verb],
         frequency=pb.Frequency(rank=1234, count=56, source="SFPW 1990"),
     )
 

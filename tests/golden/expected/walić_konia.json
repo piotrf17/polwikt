@@ -1,0 +1,61 @@
+{
+ "entries": [
+  {
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈva.lit͡ɕ ˈkɔ.ɲa/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "zwalić konia",
+     "type": "TYPE_PERFECTIVE_COUNTERPART"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Walisz konia?",
+       "translation": "Are you beating the meat?"
+      }
+     ],
+     "gloss": "to masturbate, to beat one's meat",
+     "keywords": [
+      {
+       "text": "masturbate"
+      },
+      {
+       "text": "beat one's meat"
+      }
+     ],
+     "labels": [
+      "intransitive",
+      "colloquial",
+      "idiomatic"
+     ],
+     "relations": [
+      {
+       "term": "masturbować się",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ],
+   "topics": [
+    "Masturbation"
+   ],
+   "verb": {
+    "aspect": "ASPECT_IMPERFECTIVE"
+   }
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Literally, “to beat a horse”."
+  }
+ ],
+ "lemma": "walić konia"
+}
