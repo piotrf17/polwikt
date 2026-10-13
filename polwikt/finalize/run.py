@@ -7,9 +7,9 @@ SQLite staging file, so memory holds only the fold decisions (R9.3):
    candidates, and the relations whose inverse is implied (R3.14).
 2. Decide each candidate (fold.py). Then write the Words in page order, without the
    folded entries (a page left with none yields no record), with what they left on
-   their lemmas, and index every Form and every folded spelling (R3.13b).
+   their lemmas. A folded spelling stays findable as one of its lemma's Forms (R3.13b).
 
-Outputs in `out_dir`: `words-NNNNN-of-MMMMM.pb.zst`, `index.sqlite`, `corpus.meta.pb`,
+Outputs in `out_dir`: `words-NNNNN-of-MMMMM.pb.zst`, `corpus.meta.pb`,
 `LICENSE-DATA`, `stats.json` (P3's counts plus P4's and the R8.4 coverage) and
 `unresolved_forms.jsonl` (R3.13c).
 """
@@ -46,10 +46,8 @@ from polwikt.finalize.fold import (
 from polwikt.proto import p3_pb2 as p3
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import (
-    INDEX_NAME,
     META_NAME,
     SCHEMA_VERSION,
-    CorpusIndex,
     ShardWriter,
     read_records,
     shard_paths,
@@ -88,7 +86,6 @@ class Plan:
     inverse: dict[str, list[tuple[int, int, str]]] = field(
         default_factory=lambda: defaultdict(list)
     )
-    final_index: dict[tuple[str, int], int] = field(default_factory=dict)
     titles: frozenset[str] = frozenset()
     unresolved: list[dict[str, Any]] = field(default_factory=list)
 
@@ -154,8 +151,8 @@ MARKER = "finalize.json"
 _OWNED = (
     "words-*.pb.zst",
     "words-*.pb.zst.part",
-    INDEX_NAME,
-    f"{INDEX_NAME}-journal",
+    "index.sqlite",  # written by runs before the index was dropped (R7.3)
+    "index.sqlite-journal",
     META_NAME,
     "LICENSE-DATA",
     "stats.json",
@@ -303,7 +300,6 @@ def _decide(db: sqlite3.Connection, stats: Counter[str]) -> Plan:
                     common,
                 )
             )
-    _final_indices(db, plan)
     for _order, source, pos, kind, target in db.execute(
         "SELECT ord, source, pos, type, target FROM inverse ORDER BY ord, rowid"
     ):
@@ -354,34 +350,19 @@ def _resolve(
     return folds, None
 
 
-def _final_indices(db: sqlite3.Connection, plan: Plan) -> None:
-    """Each fold target's entry index once the folded entries are gone."""
-    for lemma in sorted({f.lemma for folds in plan.folded.values() for f in folds}):
-        new = 0
-        for (idx,) in db.execute(
-            "SELECT idx FROM entries WHERE title = ? ORDER BY idx", (lemma,)
-        ):
-            if (lemma, idx) not in plan.folded:
-                plan.final_index[(lemma, idx)] = new
-                new += 1
-
-
 # -- pass 2 ---------------------------------------------------------------------------
 
 
 def _pass2(paths: list[Path], plan: Plan, out_dir: Path, stats: Counter[str]) -> int:
     words = 0
-    with ShardWriter(out_dir) as writer, CorpusIndex(out_dir / INDEX_NAME) as index:
+    with ShardWriter(out_dir) as writer:
         for title, word in _records(paths):
             kept = [
                 (idx, e)
                 for idx, e in enumerate(word.entries)
                 if (title, idx) not in plan.folded
             ]
-            for idx in range(len(word.entries)):
-                if (folds := plan.folded.get((title, idx))) is not None:
-                    stats["finalize.entries.folded"] += 1
-                    _index_folded(index, title, folds, plan)
+            stats["finalize.entries.folded"] += len(word.entries) - len(kept)
             if not kept:
                 stats["finalize.pages.folded_away"] += 1
                 continue
@@ -396,11 +377,9 @@ def _pass2(paths: list[Path], plan: Plan, out_dir: Path, stats: Counter[str]) ->
             _apply_inverse(out, plan.inverse.get(title, []), stats)
             renumber_etymologies(out)
             _count_links(out, plan.titles, stats)
-            index.add_word(title, writer.write(out))
-            _index_forms(index, out)
+            writer.write(out)
             _coverage(out, stats)
             words += 1
-        index.dedupe_forms()
     return words
 
 
@@ -445,31 +424,6 @@ def _count_links(word: pb.Word, titles: frozenset[str], stats: Counter[str]) -> 
             if r.term not in titles:
                 stats["finalize.relation.target_missing"] += 1
         stats["finalize.relations"] += len(entry.relations)
-
-
-def _index_folded(
-    index: CorpusIndex, surface: str, folds: list[Fold], plan: Plan
-) -> None:
-    for f in folds:
-        entry = plan.final_index[(f.lemma, f.entry)]
-        for tags in f.tag_sets or [pb.GrammaticalTags()]:
-            index.add_form(surface, f.lemma, entry, tags, f.raw_tags)
-
-
-def _index_forms(index: CorpusIndex, word: pb.Word) -> None:
-    for i, entry in enumerate(word.entries):
-        seen: set[tuple[str, bytes, tuple[str, ...]]] = set()
-        for form in entry.forms:
-            if form.form == word.lemma:
-                continue
-            key = (
-                form.form,
-                form.tags.SerializeToString(deterministic=True),
-                tuple(form.raw_tags),
-            )
-            if key not in seen:
-                seen.add(key)
-                index.add_form(form.form, word.lemma, i, form.tags, form.raw_tags)
 
 
 def _coverage(word: pb.Word, stats: Counter[str]) -> None:

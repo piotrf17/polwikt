@@ -46,7 +46,7 @@ export TMPDIR=$PWD/data/tmp SQLITE_TMPDIR=$PWD/data/tmp   # `/` has only ~6 GB f
 polwikt fetch                      # the pinned dump -> data/, sha1-verified
 polwikt scan                       # -> data/pages.sqlite (~12 min; skipped when current)
 polwikt extract  --db data/pages.sqlite --out data/out/ --jobs 2
-polwikt finalize --in data/out/ --out data/corpus/   # shards + index.sqlite + meta
+polwikt finalize --in data/out/ --out data/corpus/   # shards + meta + stats
 polwikt stats-diff old/stats.json new/stats.json   # R8.3; exit 1 on a regression
 polwikt inspect <title>            # one entry, expanded wikitext + node tree + proto
 polwikt extract --pages kot,mamy,zamek   # the fast debug loop; seconds, not minutes
@@ -131,7 +131,7 @@ golden store).
     expand/      wikitextprocessor wiring, expansion policy
     parse/       WikiNode tree helpers, section walking
     extract/     noun, verb, adj, sense, etymology, pronunciation  ← Polish-specific
-    finalize/    P4: folding, cross-page relations, corpus + index, stats-diff
+    finalize/    P4: folding, cross-page relations, corpus, stats-diff
     proto/       polwikt.proto + generated modules + read/write helpers
     data/        config tables
     cli/

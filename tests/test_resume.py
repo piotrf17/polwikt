@@ -70,3 +70,11 @@ def test_complete_run_is_skipped_and_other_runs_refused(
     assert run_p3(SETTINGS, golden_store, out, jobs=1, titles=PAGES[:2]).skipped
     with pytest.raises(P3Error, match="another P3 run"):
         run_p3(SETTINGS, golden_store, out, jobs=1, titles=PAGES[:3])
+
+
+def test_output_does_not_depend_on_jobs(golden_store: Path, tmp_path: Path) -> None:
+    """R3.11: records are written in page-id order however the pages were scheduled."""
+    one, two = tmp_path / "one", tmp_path / "two"
+    run_p3(SETTINGS, golden_store, one, jobs=1, titles=PAGES)
+    run_p3(SETTINGS, golden_store, two, jobs=2, titles=PAGES)
+    assert _files(one) == _files(two)

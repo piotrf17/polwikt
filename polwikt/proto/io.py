@@ -1,9 +1,9 @@
-"""Corpus files: varint-framed `Word` shards in zstd, the index, metadata (R7.2-R7.5).
+"""Corpus files: varint-framed `Word` shards in zstd, and metadata (R7.2-R7.5).
 
 A shard is a sequence of independent zstd frames, each holding up to
 `records_per_frame` length-delimited records. A `Location` names a frame by its byte
 offset in the compressed file plus the record's index inside it, so one record can be
-read by seeking to its frame and decompressing only that frame (R7.3).
+read by seeking to its frame and decompressing only that frame.
 
 Output is deterministic (G5): records are serialized with `deterministic=True`,
 compression is single-threaded at a fixed level, and the shard count lives in the file
@@ -14,8 +14,7 @@ from __future__ import annotations
 
 import os
 import re
-import sqlite3
-from collections.abc import Iterable, Iterator
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 from types import TracebackType
@@ -25,11 +24,10 @@ import zstandard
 from google.protobuf import json_format
 from google.protobuf.message import DecodeError, Message
 
-from polwikt.proto.polwikt_pb2 import Corpus, GrammaticalTags, Word
+from polwikt.proto.polwikt_pb2 import Corpus, Word
 
 SCHEMA_VERSION = "1"
 META_NAME = "corpus.meta.pb"
-INDEX_NAME = "index.sqlite"
 DEFAULT_PREFIX = "words"
 ZSTD_LEVEL = 10
 _READ_CHUNK = 1 << 20
@@ -406,116 +404,3 @@ def to_json(message: Message, indent: int | None = None) -> str:
         ensure_ascii=False,
     )
     return rendered
-
-
-# ---------------------------------------------------------------------------
-# index.sqlite
-# ---------------------------------------------------------------------------
-
-
-@dataclass(frozen=True)
-class FormHit:
-    """One way a surface form resolves to a lemma (R3.13b).
-
-    `entry_index` points into `Word.entries`; None when the form page didn't say which
-    of the lemma's entries it belongs to.
-    """
-
-    lemma: str
-    entry_index: int | None
-    tags: GrammaticalTags
-    raw_tags: tuple[str, ...]
-
-
-class CorpusIndex:
-    """lemma -> Location for records; surface form -> lemma entries for folded forms."""
-
-    def __init__(self, path: Path) -> None:
-        self._db = sqlite3.connect(path)
-        self._db.executescript(
-            """
-            CREATE TABLE IF NOT EXISTS words (
-                lemma TEXT PRIMARY KEY,
-                shard INTEGER NOT NULL,
-                frame_offset INTEGER NOT NULL,
-                idx INTEGER NOT NULL
-            );
-            CREATE TABLE IF NOT EXISTS forms (
-                surface TEXT NOT NULL,
-                lemma TEXT NOT NULL,
-                entry_index INTEGER,
-                tags BLOB NOT NULL,
-                raw_tags TEXT NOT NULL
-            );
-            CREATE INDEX IF NOT EXISTS forms_surface ON forms (surface);
-            """
-        )
-
-    def __enter__(self) -> Self:
-        return self
-
-    def __exit__(
-        self,
-        exc_type: type[BaseException] | None,
-        exc: BaseException | None,
-        tb: TracebackType | None,
-    ) -> None:
-        if exc_type is None:
-            self._db.commit()
-        self._db.close()
-
-    def add_word(self, lemma: str, location: Location) -> None:
-        try:
-            self._db.execute(
-                "INSERT INTO words VALUES (?, ?, ?, ?)",
-                (lemma, location.shard, location.frame_offset, location.index),
-            )
-        except sqlite3.IntegrityError as e:
-            raise CorpusError(f"duplicate lemma in index: {lemma!r}") from e
-
-    def add_form(
-        self,
-        surface: str,
-        lemma: str,
-        entry_index: int | None,
-        tags: GrammaticalTags,
-        raw_tags: Iterable[str] = (),
-    ) -> None:
-        self._db.execute(
-            "INSERT INTO forms VALUES (?, ?, ?, ?, ?)",
-            (
-                surface,
-                lemma,
-                entry_index,
-                tags.SerializeToString(deterministic=True),
-                "\x1f".join(raw_tags),
-            ),
-        )
-
-    def dedupe_forms(self) -> None:
-        """Keeps the first row of each identical (surface, lemma, entry, tags) hit: a
-        folded spelling is usually in its lemma's paradigm too."""
-        self._db.execute(
-            "DELETE FROM forms WHERE rowid NOT IN (SELECT MIN(rowid) FROM forms"
-            " GROUP BY surface, lemma, entry_index, tags, raw_tags)"
-        )
-
-    def locate(self, lemma: str) -> Location | None:
-        row = self._db.execute(
-            "SELECT shard, frame_offset, idx FROM words WHERE lemma = ?", (lemma,)
-        ).fetchone()
-        return Location(*row) if row else None
-
-    def resolve_form(self, surface: str) -> list[FormHit]:
-        """Every lemma entry `surface` is a form of, in insertion order."""
-        hits = []
-        for lemma, entry_index, tags_blob, raw in self._db.execute(
-            "SELECT lemma, entry_index, tags, raw_tags"
-            " FROM forms WHERE surface = ? ORDER BY rowid",
-            (surface,),
-        ):
-            tags = GrammaticalTags()
-            tags.ParseFromString(tags_blob)
-            raw_tags = tuple(raw.split("\x1f")) if raw else ()
-            hits.append(FormHit(lemma, entry_index, tags, raw_tags))
-        return hits

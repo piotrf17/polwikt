@@ -380,7 +380,7 @@ when the lemma's record has the spelling, carries their labels onto the matching
 Forms and moves their own tables (a comparative's declension onto its positive);
 emits the rest with the reason in `unresolved_forms.jsonl`; adds the inverse of
 stated counterparts and gender equivalents (R3.14); writes `words-*` shards,
-`index.sqlite` (every Form and every folded spelling), `corpus.meta.pb`,
+`index.sqlite` (dropped after M12, R7.3), `corpus.meta.pb`,
 `LICENSE-DATA` and a merged `stats.json` with R8.4 coverage. `polwikt stats-diff`
 (classes in `data/stats.toml`) exits 1 on a regression. Exit cases are
 `tests/test_finalize.py` (fixtures `beza`, `mama`, `mieść` added, 118 pages): `bez` and
@@ -408,13 +408,22 @@ measure.
   `polwikt stats-diff` (R8.3).
 
 **Exit:** `bez`/`mieć` keep only their lemma halves; `mamy` yields no record and resolves
-to both `mieć` and `mama`; `kotów` yields no record but resolves through the index;
+to both `mieć` and `mama`; `kotów` yields no record but is a Form of `kot`;
 `DNA` is emitted with a `form_of` sense; unfoldable-form count is small and explained.
 
 ---
 
-## M12 — Scale, parallelism, and the full run
-*Needs M11. ~1 week.*
+## M12 — Scale, parallelism, and the full run ✅
+*Needs M11. ~1 week.* *Done 2026-10-13.* P3 resumes from per-shard checkpoints keyed
+by a run fingerprint (pages + package source + config + lock); P4 writes a run marker
+and clears a superseded run; `polwikt run` chains them. Full run from f3630dd at
+`--jobs 2`: **176,750 pages → 199,663 entries in 3.0 h (16.3 pages/s), 0 page errors**
+(3 Lua failures in malformed source calls, counted), peak 675 MB per worker; P4
+109,673 words, 71,925 entries folded, 2,295 emitted unfoldable, 3.6 min, 298 MB.
+Disk: P3 36 MB, corpus 25 MB of shards. The 152 MB `index.sqlite` was dropped after
+this run (R7.3). An interrupted run resumed correctly (24,576 pages kept). The
+full-scale `--jobs 1` byte-identity run was waived by the user; `tests/test_resume.py`
+holds `--jobs 1` and `--jobs 2` byte-identical on ten golden pages (R3.11).
 
 - `--jobs` multiprocessing with stateless workers (R3.10); deterministic output order
   regardless of job count (R3.11); per-page error isolation and `--max-error-rate` (R3.12).
@@ -445,8 +454,8 @@ oracle diff has no unexplained entries.
 ## M14 — Release
 *Needs M13. ~3 days.*
 
-- README with the pipeline model and a consumer example (read shards, resolve a form
-  through the index).
+- README with the pipeline model and a consumer example (read shards, build a
+  surface-form lookup from the Forms).
 - `LICENSE-DATA` (CC BY-SA 4.0 + attribution) emitted next to every output; MIT for the
   code (R11).
 - Versioned corpus artifact named by dump date + schema version; documented dump re-pin

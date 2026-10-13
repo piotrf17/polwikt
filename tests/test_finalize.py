@@ -13,8 +13,6 @@ from polwikt.finalize.fold import renumber_etymologies, tags_match
 from polwikt.finalize.run import P4Error, P4Summary, run_p4
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import (
-    INDEX_NAME,
-    CorpusIndex,
     ShardWriter,
     read_corpus,
     read_corpus_meta,
@@ -67,10 +65,16 @@ def words(corpus: Path) -> dict[str, pb.Word]:
 
 
 def hits(
-    corpus: Path, surface: str
-) -> list[tuple[str, int | None, pb.GrammaticalTags]]:
-    with CorpusIndex(corpus / INDEX_NAME) as index:
-        return [(h.lemma, h.entry_index, h.tags) for h in index.resolve_form(surface)]
+    words: dict[str, pb.Word], surface: str
+) -> list[tuple[str, int, pb.GrammaticalTags]]:
+    """Where a surface form lands: the lemma entries whose Forms spell it (R3.13b)."""
+    return [
+        (lemma, i, f.tags)
+        for lemma, word in sorted(words.items())
+        for i, entry in enumerate(word.entries)
+        for f in entry.forms
+        if f.form == surface
+    ]
 
 
 def test_lemma_and_form_pages_keep_only_their_lemma_half(  # R3.13a, per POS entry
@@ -82,24 +86,24 @@ def test_lemma_and_form_pages_keep_only_their_lemma_half(  # R3.13a, per POS ent
         for e in bez.entries
         for s in e.senses
     )
-    assert ("beza", 0) in [(lemma, i) for lemma, i, _ in hits(corpus, "bez")]
+    assert ("beza", 0) in [(lemma, i) for lemma, i, _ in hits(words, "bez")]
     mieć = words["mieć"]
     assert [e.pos for e in mieć.entries] == [pb.Pos.POS_VERB]
-    assert "mieść" in [lemma for lemma, _, _ in hits(corpus, "mieć")]
+    assert "mieść" in [lemma for lemma, _, _ in hits(words, "mieć")]
 
 
 def test_a_page_of_forms_yields_no_record_and_resolves_to_both_lemmas(
     words: dict[str, pb.Word], corpus: Path
 ) -> None:
     assert "mamy" not in words and "kotów" not in words
-    found = hits(corpus, "mamy")
+    found = hits(words, "mamy")
     assert {lemma for lemma, _, _ in found} == {"mieć", "mama"}
     mama = [t for lemma, _, t in found if lemma == "mama"]
     wanted = pb.GrammaticalTags(
         grammatical_case=C.CASE_GENITIVE, number=N.NUMBER_SINGULAR
     )
     assert any(tags_match(wanted, t) for t in mama)
-    (kot,) = {(lemma, i) for lemma, i, _ in hits(corpus, "kotów")}
+    (kot,) = {(lemma, i) for lemma, i, _ in hits(words, "kotów")}
     assert kot == ("kot", 0)
 
 
@@ -117,11 +121,11 @@ def test_folded_comparative_brings_its_declension(
     assert "Declension of lepszy (hard)" in titles
     moved = [f for f in dobry.forms if f.form == "lepszego"]
     assert moved and all(f.tags.degree == pb.Degree.DEGREE_COMPARATIVE for f in moved)
-    assert "dobry" in [lemma for lemma, _, _ in hits(corpus, "lepszego")]
+    assert "dobry" in [lemma for lemma, _, _ in hits(words, "lepszego")]
 
 
-def test_paradigm_forms_are_indexed(corpus: Path) -> None:  # R3.13b
-    found = hits(corpus, "robiłem")
+def test_paradigm_forms_resolve(words: dict[str, pb.Word]) -> None:  # R3.13b
+    found = hits(words, "robiłem")
     assert found and found[0][0] == "robić"
     assert found[0][2].tense == pb.Tense.TENSE_PAST
 

@@ -11,7 +11,6 @@ import pytest
 from polwikt.proto import (
     META_NAME,
     CorpusError,
-    CorpusIndex,
     Location,
     ShardWriter,
     read_at,
@@ -319,56 +318,3 @@ def test_json_view_is_one_stable_line() -> None:  # R7.5
     assert data["lemma"] == "kot"
     assert data["entries"][0]["pos"] == "POS_NOUN"
     assert "łóżko" in to_json(pb.Word(lemma="łóżko"))  # not \u-escaped
-
-
-# --- index.sqlite ----------------------------------------------------------
-
-
-def test_index_locates_lemmas_and_resolves_forms(tmp_path: Path) -> None:
-    corpus = tmp_path / "corpus"
-    words = [pb.Word(lemma=t) for t in ("kot", "mama", "mieć")]
-    locations = _write(corpus, words)
-    gen_pl = pb.GrammaticalTags(
-        grammatical_case=pb.Case.CASE_GENITIVE, number=pb.Number.NUMBER_PLURAL
-    )
-    with CorpusIndex(tmp_path / "index.sqlite") as index:
-        for word, loc in zip(words, locations, strict=True):
-            index.add_word(word.lemma, loc)
-        index.add_form("kotów", "kot", None, gen_pl)
-        # mamy: a form of two lemmas, and a lemma of nothing on its own (R3.13a).
-        index.add_form(
-            "mamy",
-            "mieć",
-            0,
-            pb.GrammaticalTags(
-                person=pb.Person.PERSON_FIRST, tense=pb.Tense.TENSE_PRESENT
-            ),
-        )
-        index.add_form(
-            "mamy",
-            "mama",
-            0,
-            pb.GrammaticalTags(grammatical_case=pb.Case.CASE_GENITIVE),
-            raw_tags=["depreciative"],
-        )
-
-    with CorpusIndex(tmp_path / "index.sqlite") as index:  # survives reopening
-        found = index.locate("mieć")
-        assert found is not None
-        assert read_at(corpus, found).lemma == "mieć"
-        assert index.locate("kotów") is None  # forms are not records (R7.7a)
-
-        (kotow,) = index.resolve_form("kotów")
-        assert (kotow.lemma, kotow.entry_index, kotow.tags) == ("kot", None, gen_pl)
-
-        mamy = index.resolve_form("mamy")
-        assert [(h.lemma, h.entry_index) for h in mamy] == [("mieć", 0), ("mama", 0)]
-        assert mamy[1].raw_tags == ("depreciative",)
-        assert index.resolve_form("pies") == []
-
-
-def test_index_rejects_duplicate_lemmas(tmp_path: Path) -> None:
-    with CorpusIndex(tmp_path / "index.sqlite") as index:
-        index.add_word("kot", Location(0, 0, 0))
-        with pytest.raises(CorpusError, match="duplicate"):
-            index.add_word("kot", Location(0, 0, 1))

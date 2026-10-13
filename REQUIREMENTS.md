@@ -127,7 +127,6 @@ Multi-pass, each pass persisting an artifact so later passes can be re-run alone
         │                                                    pages.sqlite directly)
         │                              + unhandled.jsonl, stats.json
    [P4] link & finalize ─────────────►  corpus/            (canonical corpus)
-                                        + index.sqlite (title → shard, offset)
 ```
 
 ### P1 — Dump scan and page store
@@ -251,8 +250,8 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   entry (`kotów` = "genitive plural of *kot*") produces **no `Word` record of its own**.
   Its content is merged into the lemma's paradigm and then discarded.
   - **Fold only when it is safe** (decision 12). An entry folds when its lemma exists in
-    the corpus *and* the lemma's forms contain this exact string, so the index still
-    resolves it. Otherwise — lemma absent (1,280 of 12,902 form-of targets, measured by
+    the corpus *and* the lemma's forms contain this exact string, so a consumer
+    still finds it among the lemma's Forms. Otherwise — lemma absent (1,280 of 12,902 form-of targets, measured by
     poldict on the kaikki data), or the lemma doesn't produce the string (`DNA` →
     `kwas dezoksyrybonukleinowy`) — the entry is **emitted** as a record whose senses
     carry `form_of`. Dropping it would delete a findable word.
@@ -278,9 +277,9 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   - **Fold, don't just delete.** Before dropping, transfer what the lemma's own paradigm
     does not already carry: add forms the generated table missed, and carry labels from
     the form-of sense (*archaic*, *dialectal*) onto the matching `Form`'s labels.
-  - **R3.13b** Keep the lookup path alive: `index.sqlite` maps **every** folded surface
-    form → `(lemma, entry index, tags)`, so an app looking up `kotów` still lands on
-    `kot`. This mapping is index-only; it is not a protobuf record.
+  - **R3.13b** Keep the lookup path alive: **every** folded surface form is a `Form` of
+    the lemma entry it folded into, with its tags, so an app that indexes Forms finds
+    `kot` from `kotów`. The corpus ships no lookup index of its own (R7.3).
   - **R3.13c** A form-of entry that cannot be folded (target page absent, ambiguous, the
     link is broken, or the lemma's forms lack the string) is emitted per the rule above,
     and also counted, logged to `unresolved_forms.jsonl`, and exposed in `stats.json` —
@@ -294,9 +293,7 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
     own entries are all forms), `form_missing`, `self`. Folding carries the sense's
     labels and regions onto the lemma's Forms whose tags match a tag set, and moves the
     candidate's own tables (`lepszy`'s declension onto `dobry`, each Form gaining
-    *comparative* when the candidate has that one tag set). The index holds every Form
-    of every record (except the lemma's own spelling) and every folded spelling, one
-    row per distinct (surface, lemma, entry, tags). Measured on 1,864 sampled form
+    *comparative* when the candidate has that one tag set). Measured on 1,864 sampled form
     pages plus the 1,861 lemmas they name: 91.0% of form entries folded; of the 180
     left, 118 point at a Polish lemma outside the sample, 21 at a red link, 3 at a page
     with no Polish section, 16 at a page that is itself only forms, and 22 at a lemma
@@ -336,7 +333,7 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   are counted (`relation.not_terms.*`); `{{dialect synonyms}}` is counted too. Any
   other template there is counted as `relation.template.unknown.*`. An entry holds a
   (type, term, gloss) once.
-- **R3.15** Emit the canonical sharded corpus plus a `lemma → (shard, offset)` index.
+- **R3.15** Emit the canonical sharded corpus (no lookup index: R7.3).
 - **R3.16** Emit `stats.json`: counts by POS, senses, forms, pages with/without
   inflection, top unhandled templates by frequency. This is the primary quality signal.
 
@@ -689,8 +686,12 @@ English-Wiktionary Polish sections follow this nesting:
 - **R7.2** Storage: length-delimited (varint-prefixed) `Word` records, zstd-compressed,
   sharded (`words-00000-of-00064.pb.zst`). A single monolithic message is forbidden —
   the corpus must stream. Provide a reader helper that yields `Word`s.
-- **R7.3** A sidecar `index.sqlite` mapping lemma → shard + offset, and surface form →
-  (lemma, entry index, tags) (R3.13b).
+- **R7.3** ~~A sidecar `index.sqlite` mapping lemma → shard + offset, and surface form →
+  (lemma, entry index, tags).~~ **Dropped 2026-10-13.** The full run's index was 152 MB
+  against 25 MB of shards — an uncompressed second copy of every Form plus a B-tree on
+  the surface — and held nothing the Words don't: every folded spelling is a Form of
+  its lemma (R3.13b). Apps build the lookup structure they need (poldict builds its
+  own); shard frames stay seekable through `Location` and `read_at`.
 - **R7.4** A `Corpus` metadata message recording the schema version, dump date, pipeline
   version, word count, the active `drop_labels` set (R6.6b), and the license and
   attribution (R11). A consumer must be able to tell from the corpus alone what was
@@ -743,8 +744,8 @@ to keep in sync:
   tag we cannot map keeps its literal string in `raw_tags` — losing data is worse than an
   untyped field.
 - **R7.7a** The corpus holds **one `Word` per lemma page**, never per inflected form
-  (R3.13a). Expect ~10^5 records (~101k Polish lemmas on 2026-10-11) — the surface-form →
-  lemma mapping lives in `index.sqlite`.
+  (R3.13a). Expect ~10^5 records (~101k Polish lemmas on 2026-10-11) — a surface form
+  is found among its lemma's Forms (R3.13b).
 - **R7.8** Forms are a **flat tagged list**, not a fixed 7×2 table message. Paradigms are
   irregular (defective nouns, alternative cells, virile/nonvirile) and a flat list with
   tags survives that; consumers can pivot it into a table.
@@ -851,11 +852,14 @@ operational consequences that are *not* optional:
   instead (`extract/inflection.py`), with identical records on 500 sampled pages and
   a golden test holding both paths equal: verb pages 4.2 → 9.9 pages/s. ~3.2 h
   projected for the full run. P3
-  must not regress this by more than 10%. `--pages` / `--limit` runs finish in seconds; the full run is not
-  part of the edit loop.
+  must not regress this by more than 10%. *Full run at M12* (f3630dd, every
+  extractor through M13's first fixes): **176,750 pages in 3.0 h (10,841 s, 16.3
+  pages/s)**, 0 page errors; P4 3.6 min. Within the 3.5 h target. `--pages` /
+  `--limit` runs finish in seconds; the full run is not part of the edit loop.
 - **R9.3** Peak RSS **≤ 1.5 GB per worker**, so two workers plus the parent fit in the
   ~4 GB usable. The pipeline must not require the whole corpus in memory at any point —
   P4's folding and linking work through SQLite, not in-memory dicts of every word.
+  *Measured at M12:* 675 MB peak per P3 worker on the full run; P4 298 MB.
 - **R9.4** Resumable: each pass checkpoints; interrupting and re-running skips completed
   work.
 - **R9.5** Disk budget documented (dump + page store + subset + output). Target total
@@ -863,7 +867,9 @@ operational consequences that are *not* optional:
   ~1.65 GB compressed (`enwiktionary-20261001-pages-articles.xml.bz2`), and R2.4 forbids
   ever holding it decompressed on disk. `pages.sqlite` stores bodies uncompressed (R3.1):
   *measured at M2*, **1.47 GB** (0.76 GB of page text, the rest `all_titles` and
-  indexes).
+  indexes). *Measured at M12:* P3 output 36 MB, the corpus 25 MB of shards (plus
+  `unresolved_forms.jsonl` and metadata) once the 152 MB index was dropped (R7.3) —
+  about 3.2 GB in all with the dump and page store, far inside the budget.
 
 ---
 
@@ -933,7 +939,7 @@ Kept here as the record of what was decided and why.
 2. ~~Keep inflected-form pages as full records, or fold them into the lemma?~~
    **Decided: fold and drop** (R3.13a–c). Inflected-form entries never become `Word`
    records; what they carry that the lemma's paradigm lacks is merged into the lemma's
-   forms, and the surface-form → lemma mapping survives in `index.sqlite`. Folding is
+   forms, so the surface form is still found among the lemma's Forms. Folding is
    per POS entry, so pages that are simultaneously a lemma and a form keep their lemma
    half. Unresolvable form pages are counted and logged rather than dropped quietly.
 3. ~~How much rendered text do we keep alongside the structured data?~~
