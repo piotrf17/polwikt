@@ -16,6 +16,10 @@
     {
      "term": "zwalić konia",
      "type": "TYPE_PERFECTIVE_COUNTERPART"
+    },
+    {
+     "term": "walić",
+     "type": "TYPE_INFLECTED_LIKE"
     }
    ],
    "senses": [

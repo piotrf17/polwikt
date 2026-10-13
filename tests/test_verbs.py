@@ -175,11 +175,35 @@ def test_defective(wtp: PolwiktWtp) -> None:
     assert powinien.forms
 
 
-def test_pointer_tables_have_no_forms(wtp: PolwiktWtp) -> None:
-    result = golden(wtp, "walić konia")
-    assert result.stats["table.no_forms"] == 1
+@pytest.mark.parametrize(
+    ("title", "lemma"), [("walić konia", "walić"), ("jak najęty", "najęty")]
+)
+def test_see_pointers_are_relations_not_tables(
+    wtp: PolwiktWtp, title: str, lemma: str
+) -> None:  # {{pl-conj-see}}, {{pl-decl-see}}
+    result = golden(wtp, title)
+    assert result.stats["table.see"] == 1 and not result.stats["table.no_forms"]
     assert result.word is not None
-    assert not any(e.tables for e in result.word.entries)
+    (entry,) = result.word.entries
+    assert not entry.tables and not entry.forms
+    assert (R.TYPE_INFLECTED_LIKE, lemma) in relations(entry)
+
+
+@pytest.mark.parametrize("title", ["mówić", "znaleźć"])
+def test_sibling_entries_share_the_one_conjugation(
+    wtp: PolwiktWtp, title: str
+) -> None:  # R5.2: two ===Verb=== sections, one Conjugation under the last
+    first, second = verb(wtp, title, 0), verb(wtp, title, 1)
+    assert first.tables and list(first.tables) == list(second.tables)
+    assert list(first.forms) == list(second.forms)
+
+
+def test_a_sibling_of_another_gender_shares_nothing(wtp: PolwiktWtp) -> None:
+    result = golden(wtp, "chłopak")  # m-pr "boy" with a table; m-in "cylinder" none
+    assert result.word is not None
+    boy, cylinder = result.word.entries
+    assert boy.tables and not cylinder.tables and not cylinder.forms
+    assert not result.stats["table.shared_with_sibling"]
 
 
 @pytest.mark.parametrize("title", ["robić", "być", "potrafić", "dobry", "ten"])

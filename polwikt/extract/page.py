@@ -10,7 +10,7 @@ from polwikt.expand.policy import Policy, canonical_name, default_policy
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.pronunciation import frequency
 from polwikt.extract.sense import indexes
-from polwikt.extract.structure import Walk
+from polwikt.extract.structure import Walk, share_tables
 from polwikt.parse.headings import HeadingMap, heading_map
 from polwikt.parse.sections import language_section
 from polwikt.parse.tree import iter_templates, template_name
@@ -92,6 +92,7 @@ def extract_record(
             stats["pages.no_entries"] += 1
         return PageResult(record, None, stats, unhandled, walk.colabelled)
 
+    share_tables(walk.entries, stats)
     # Only groups some entry points at survive, renumbered in article order (R5.1).
     used = sorted({draft.group for draft in walk.entries})
     renumber = {old: new for new, old in enumerate(used)}

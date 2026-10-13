@@ -97,6 +97,12 @@ category = "Polish irregular "
 "pl-skur-decl-" = "Kurpian"
 "pl-skur-conj-" = "Kurpian"
 
+# Pointers that stand where a phrase's table would be: "Conjugation of walić konia:
+# see walić". Each positional argument becomes a TYPE_INFLECTED_LIKE relation, and
+# the template is not expanded as a table (table.see).
+[see]
+templates = ["pl-conj-see", "pl-decl-see"]
+
 # Number agreement the expansion's categories state.
 [tantum]
 plurale = "Polish pluralia tantum"

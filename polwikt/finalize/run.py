@@ -443,6 +443,15 @@ def _coverage(word: pb.Word, stats: Counter[str]) -> None:
         if entry.pos in config().coverage_tables:
             stats[f"coverage.{pos}"] += 1
             stats[f"coverage.{pos}.with_table"] += bool(entry.tables)
+            if not entry.tables and _no_table_expected(entry):
+                stats[f"table.not_expected.{pos}"] += 1
+
+
+def _no_table_expected(entry: pb.Entry) -> bool:
+    """An indeclinable noun, or a phrase whose table is another lemma's (R8.4)."""
+    return (entry.HasField("noun") and entry.noun.indeclinable) or any(
+        r.type == pb.Relation.TYPE_INFLECTED_LIKE for r in entry.relations
+    )
 
 
 def _write_stats(in_dir: Path, out_dir: Path, stats: Counter[str]) -> None:
@@ -475,7 +484,15 @@ def _percentages(counts: Counter[str]) -> dict[str, float]:
     )
     for pos in config().coverage_tables:
         name = pb.Pos.Name(pos)
-        ratio(f"{name}_with_table", f"coverage.{name}.with_table", f"coverage.{name}")
+        tables, every = (
+            counts[f"coverage.{name}.with_table"],
+            counts[f"coverage.{name}"],
+        )
+        # The target is of the entries that can have a table; the other, of all.
+        if tableable := every - counts[f"table.not_expected.{name}"]:
+            out[f"{name}_with_table"] = round(100 * tables / tableable, 2)
+        if every:
+            out[f"{name}_with_table_of_all"] = round(100 * tables / every, 2)
     ratio(
         "words_with_pronunciation",
         "finalize.words.with_pronunciation",

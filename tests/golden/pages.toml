@@ -387,3 +387,11 @@ why = "lemma of one of mamy's two form-of entries"
 [[page]]
 title = "mieść"
 why = "lemma of mieć's imperative entry"
+
+# --- M13: tables the page's layout or a pointer stands in for (R5.2, R8.4) -----------
+[[page]]
+title = "chłopak"
+why = "two ===Noun=== sections, m-pr with a table and m-in without: different genders, so nothing is shared (mówić shares)"
+[[page]]
+title = "jak najęty"
+why = "{{pl-decl-see|najęty}}: no table, a TYPE_INFLECTED_LIKE relation (table.see)"

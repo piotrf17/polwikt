@@ -288,6 +288,9 @@ message Relation {
     TYPE_ABBREVIATION = 29;      // the entry's abbreviation: "ul." on ulica
     TYPE_MARRIED_FORM = 30;      // a surname's traditional married form: Nowak -> Nowakowa
     TYPE_UNMARRIED_FORM = 31;    // ... and unmarried form: Nowak -> Nowakówna
+    // A phrase inflected through another lemma's paradigm: walić konia -> walić, from
+    // {{pl-conj-see}} / {{pl-decl-see}}, which stand where its table would be.
+    TYPE_INFLECTED_LIKE = 32;
   }
   Type type = 1;
   string term = 2;             // a Polish lemma
@@ -390,8 +393,8 @@ message Frequency {
   string source = 3;  // "Słownik frekwencyjny polszczyzny współczesnej (1990)"
 }
 
-// One Polish lemma (R7.7a). Inflected forms are folded into their lemma's `forms` and
-// found through index.sqlite; they are never records of their own.
+// One Polish lemma (R7.7a). Inflected forms are folded into their lemma's `forms`
+// (R3.13b); they are never records of their own.
 //
 // `etymologies` are in article order and each is referenced by at least one entry:
 // a group whose entries were all dropped or folded away is removed and the indices

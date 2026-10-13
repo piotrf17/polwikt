@@ -46,6 +46,7 @@ _NYMS = {
     "hypernyms": pb.Relation.Type.TYPE_HYPERNYM,
     "hyponyms": pb.Relation.Type.TYPE_HYPONYM,
     "coordinate terms": pb.Relation.Type.TYPE_COORDINATE,
+    "comeronyms": pb.Relation.Type.TYPE_COORDINATE,  # parts of the same whole
     "meronyms": pb.Relation.Type.TYPE_MERONYM,
     "holonyms": pb.Relation.Type.TYPE_HOLONYM,
     "inline alt forms": pb.Relation.Type.TYPE_ALTERNATIVE_FORM,

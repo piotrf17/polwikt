@@ -1,0 +1,26 @@
+==Polish==
+
+===Etymology===
+{{ety|pl|rfe=1}}
+
+===Pronunciation===
+{{pl-pr}}
+
+===Adverb===
+{{pl-adv|head=[[jak]] [[nająć|najęty]] {{g|m-s}}|-}}
+
+# {{lb|pl|idiomatic}} [[all the time]], [[long]]{{,}} and [[often]]
+#: {{syn|pl|jak nakręcony<l:colloquial>}}
+#: {{comeronyms|pl|bez przerwy|długo|często}}
+#: {{coa|pl|gadać '''jak najęty'''|to speak '''all the time, long{{,}} and often'''}}
+#: {{coa|pl|kłamać '''jak najęty'''|to lie '''all the time, long{{,}} and often'''}}
+#: {{coa|pl|łgać '''jak najęty'''|to lie '''all the time, long{{,}} and often'''}}
+#: {{coa|pl|paplać '''jak najęty'''|to babble '''all the time, long{{,}} and often'''}}
+#: {{coa|pl|wrzeszczeć '''jak najęty'''|to scream '''all the time, long{{,}} and often'''}}
+
+====Declension====
+{{pl-decl-see|najęty}}
+
+===Further reading===
+* {{R:pl:WSJP||42725}}
+* {{R:pl:PWN}}

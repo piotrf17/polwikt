@@ -448,6 +448,17 @@ English-Wiktionary Polish sections follow this nesting:
   POS-subsections at L4 or L5 accordingly. **Heading depth is not semantic**: attach a
   section by what its heading *is* (POS, POS-subsection, language-level), using depth
   only to find its parent.
+  - **R5.2a** One inflection section can serve several entries. Under one etymology,
+    two sections of the same POS with the same headword grammar (a verb's aspect, a
+    noun's genders) are one paradigm split by meaning, and the table follows the last
+    (`pisać`, `mówić`): an entry left without a table takes its sibling's, nearest
+    following first (`table.shared_with_sibling`). A different gender is a different
+    paradigm (`chłopak` m-pr "boy" vs m-in "cylinder") and shares nothing. ~350
+    entries in the 20261001 dump.
+  - **R5.2b** `{{pl-conj-see|walić}}` / `{{pl-decl-see}}` stand where a phrase's table
+    would be ("Conjugation of *walić konia*: see *walić*"). They are not tables: each
+    target becomes a `TYPE_INFLECTED_LIKE` relation (`table.see`), ~1,370 verb
+    phrases.
 - **R5.3** POS headings to recognize (English Wiktionary spelling): Noun, Proper noun,
   Verb, Adjective, Adverb, Pronoun, Numeral, Determiner, Preposition, Postposition,
   Conjunction, Particle, Interjection, Prefix, Suffix, Interfix, Infix, Letter, Symbol,
@@ -810,7 +821,11 @@ to keep in sync:
   nouns with a declension, % of verbs with a conjugation, % of pages with pronunciation,
   count of unhandled templates, count of form pages folded vs. unresolved (R3.13c).
   Targets for v1: senses ≥99%, noun declension ≥95% of lemma nouns, verb conjugation ≥90%
-  of lemma verbs.
+  of lemma verbs. *Table coverage is measured over the entries that can have one*
+  (decided 2026-10-13): an indeclinable noun, or a phrase whose table is another
+  lemma's (R5.2b), is counted as `table.not_expected.<POS>` and left out of the
+  denominator. `<POS>_with_table_of_all` keeps the plain ratio beside it. Neither
+  excuses a page that *has* a table we failed to read.
 - **R8.5** Structured logging with per-pass timing; `--limit N` and `--pages TITLE,…` for
   debugging a single article end-to-end, printing the expanded wikitext and node tree.
 

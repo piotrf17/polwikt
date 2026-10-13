@@ -34,7 +34,7 @@ names = [
   "ux", "uxi", "uxa", "coi", "collocation", "coa", "+obj", "quote-gloss",
   # sense-level relations (R6.4)
   "synonyms", "antonyms", "hypernyms", "hyponyms", "coordinate terms", "meronyms",
-  "holonyms", "parasynonyms", "dialect synonyms", "inline alt forms",
+  "holonyms", "comeronyms", "parasynonyms", "dialect synonyms", "inline alt forms",
   # term lists (R6.5)
   "col", "col-top", "col-bottom", "pl-derived verbs", "perfectives", "examples",
   # alternative forms section (R6.5)

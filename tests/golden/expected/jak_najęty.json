@@ -1,0 +1,90 @@
+{
+ "entries": [
+  {
+   "adjective": {
+    "not_comparable": true
+   },
+   "pos": "POS_ADVERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈjak naˈjɛn.tɘ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "najęty",
+     "type": "TYPE_INFLECTED_LIKE"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "gadać jak najęty",
+       "translation": "to speak all the time, long, and often"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "kłamać jak najęty",
+       "translation": "to lie all the time, long, and often"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "łgać jak najęty",
+       "translation": "to lie all the time, long, and often"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "paplać jak najęty",
+       "translation": "to babble all the time, long, and often"
+      },
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "wrzeszczeć jak najęty",
+       "translation": "to scream all the time, long, and often"
+      }
+     ],
+     "gloss": "all the time, long, and often",
+     "keywords": [
+      {
+       "text": "all the time"
+      },
+      {
+       "text": "long"
+      },
+      {
+       "text": "often"
+      }
+     ],
+     "labels": [
+      "idiomatic"
+     ],
+     "relations": [
+      {
+       "term": "jak nakręcony",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "bez przerwy",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "długo",
+       "type": "TYPE_COORDINATE"
+      },
+      {
+       "term": "często",
+       "type": "TYPE_COORDINATE"
+      }
+     ]
+    }
+   ],
+   "syllabification": "jak na‧ję‧ty"
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "jak najęty"
+}

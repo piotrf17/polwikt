@@ -374,6 +374,7 @@ class Relation(_message.Message):
         TYPE_ABBREVIATION: _ClassVar[Relation.Type]
         TYPE_MARRIED_FORM: _ClassVar[Relation.Type]
         TYPE_UNMARRIED_FORM: _ClassVar[Relation.Type]
+        TYPE_INFLECTED_LIKE: _ClassVar[Relation.Type]
     TYPE_UNSPECIFIED: Relation.Type
     TYPE_SYNONYM: Relation.Type
     TYPE_ANTONYM: Relation.Type
@@ -406,6 +407,7 @@ class Relation(_message.Message):
     TYPE_ABBREVIATION: Relation.Type
     TYPE_MARRIED_FORM: Relation.Type
     TYPE_UNMARRIED_FORM: Relation.Type
+    TYPE_INFLECTED_LIKE: Relation.Type
     TYPE_FIELD_NUMBER: _ClassVar[int]
     TERM_FIELD_NUMBER: _ClassVar[int]
     GLOSS_FIELD_NUMBER: _ClassVar[int]

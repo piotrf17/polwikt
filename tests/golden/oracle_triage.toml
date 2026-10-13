@@ -53,6 +53,13 @@ match = '^-\(e\)'
 kind = "deliberate"
 why = "'-(e)m robił' is the table's notation for a detached ending, not a word (M8: table.form.detached_ending)"
 
+[[rule]]
+field = "relation"
+side = "ours"
+match = "^INFLECTED_LIKE:"
+kind = "deliberate"
+why = "{{pl-conj-see}}/{{pl-decl-see}} kept as a relation to the lemma whose table applies; wiktextract keeps no pointer (M13)"
+
 # -- their flattening ----------------------------------------------------------------
 [[rule]]
 field = "audio"
@@ -130,7 +137,7 @@ why = "===Participle=== entries stay participles with their own declension (deci
 [[rule]]
 field = "etymology"
 side = "theirs"
-pages = ["kawa"]
+pages = ["kawa", "jak najęty"]
 kind = "deliberate"
 why = "'This etymology is missing or incomplete…' is a maintenance notice, dropped (M9)"
 
@@ -232,6 +239,14 @@ side = "ours"
 pages = ["komputer", "pan"]
 kind = "their-flattening"
 why = "{{hypo}} lines under a sense and {{col}} coordinate terms wiktextract does not read"
+
+[[rule]]
+field = "relation"
+side = "both"
+pages = ["jak najęty"]
+match = "comeronym|^coordinate_terms:"
+kind = "their-flattening"
+why = "{{comeronyms}}: wiktextract files them as related terms tagged comeronym; ours are coordinate terms"
 
 # -- our bugs --------------------------------------------------------------------------
 [[rule]]

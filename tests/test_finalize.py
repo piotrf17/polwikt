@@ -157,6 +157,21 @@ def test_stats_and_unresolved_report(corpus: Path) -> None:
     assert all({"title", "lemma", "reason"} <= set(r) for r in rows)
 
 
+def test_coverage_leaves_out_entries_that_have_no_table_to_find(
+    corpus: Path,
+) -> None:  # R8.4: indeclinable nouns, {{pl-conj-see}} phrases
+    import json
+
+    stats = json.loads((corpus / "stats.json").read_text())
+    counts, coverage = stats["counts"], stats["coverage"]
+    assert counts["table.not_expected.POS_VERB"] >= 1  # walić konia
+    for pos in ("POS_NOUN", "POS_VERB"):
+        every, tables = counts[f"coverage.{pos}"], counts[f"coverage.{pos}.with_table"]
+        tableable = every - counts.get(f"table.not_expected.{pos}", 0)
+        assert coverage[f"{pos}_with_table"] == round(100 * tables / tableable, 2)
+        assert coverage[f"{pos}_with_table_of_all"] == round(100 * tables / every, 2)
+
+
 def test_finalize_is_deterministic(p3_dir: Path, corpus: Path, tmp_path: Path) -> None:
     _p4(p3_dir, tmp_path)  # G5
     for name in (

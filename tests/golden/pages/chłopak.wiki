@@ -1,0 +1,51 @@
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|chłopoka||Przemyśl}}
+* {{alt|pl|chłopok||Łowicz|Zagórze}}
+* {{alt|pl|chłopiak||Podlachian|Tykocin}}
+
+===Etymology===
+From {{af|pl|chłop|-ak}}.<ref>{{R:pl:Boryś|chłop}}</ref><ref>{{R:pl:Mańczak|chłop}}</ref> Originally from the {{w|Mazovian dialect}}, as there is a tendency to use the suffix {{m|pl|-ak}} instead of {{m|pl|-ę}} to create young nouns (compare {{cog|pl|dziecię}} vs {{cog|pl|dzieciak}}, {{m|pl|źrebię}} vs {{m|pl|źrebak}}).<ref>{{R:pl:Bańkowski}}</ref> {{etydate|1731}}.{{ref|{{cite-book|pl|author=Karol Mikołaj Juniewicz|title=Refleksye duchowne ná mądry krolá Sálomoná sentyment oraz ná krotkość żyćia ludzkiego, śmierć, sąd straszny, wieczność szczęśliwą y nieszczęśliwą {{...}}|year=1731|page=42|url=https://polona.pl/item/refleksye-duchowne-na-madry-krola-salomona-sentyment-oraz-na-krotkosc-zycia-ludzkiego,MTEyNDM4MTQ/4/#info:metadata}}}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-#.ogg;LL-Q809_%28pol%29-Olaf-#.wav|mp=chłopák|MB=#}}
+
+===Noun===
+{{pl-noun|m-pr|dim=chłopiec,chłopacątko<l:dialectal>}}
+
+# [[boy]] {{gl|young male child}}
+#: {{syn|pl|chłopiec|pacholę}}
+# [[boy]] {{gl|son; male offspring}}
+#: {{syn|pl|chłopiec|syn|synuś}}
+# [[boy]] {{gl|young man}}
+#: {{syn|pl|chłopiec|chłoptaś|chłoptyś|młodzieniec}}
+# [[boyfriend]]; [[boy]] {{gl|male romantic partner, usually not married}}
+#: {{syn|pl|chłopiec}}
+# {{lb|pl|dated}} [[boy]] {{gl|young man performing menial work in some place or plant}} {{+obj|pl|:na(acc)<for what>}}
+#: {{syn|pl|chłopiec}}
+# {{lb|pl|colloquial}} [[boy]] {{gl|male representative of an animal species, usually a dog}}
+# {{lb|pl|chiefly|in the vocative}} {{ng|term of address towards a male seen lower in a hierarchy}}; [[boy]]
+
+====Declension====
+{{pl-decl-noun-m-pr}}
+* The {{w|Near Masovian dialect}} ({{w|Jagodne}}) shows the nominative plural form {{m|pl|chłopakowie}}.
+
+===Noun===
+{{pl-noun|m-in}}
+
+# {{lb|pl|Near Masovian}} [[cylinder]] on a [[windlass]] with a [[necklike]] [[indentation]] on which a [[rope]] is [[wind|wound]]
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP||9972}}
+* {{R:pl:WSJP|chłopaku|87117}}
+* {{R:pl:PWN}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||283|1}}
+* {{R:pl:SGP1900|chłop|185|1}}
+
+{{C|pl|Male animals|Male children|Male people}}

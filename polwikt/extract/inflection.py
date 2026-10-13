@@ -86,6 +86,7 @@ class Config:
     singulare_category: str
     headword: dict[str, Any]
     link_languages: dict[str, str]
+    see_templates: frozenset[str]
 
 
 @cache
@@ -103,6 +104,7 @@ def config() -> Config:
         singulare_category=data["tantum"]["singulare"],
         headword=data["headword"],
         link_languages=dict(data["links"]["languages"]),
+        see_templates=frozenset(data["see"]["templates"]),
     )
 
 
@@ -112,6 +114,11 @@ def table_kind(name: str) -> str:
         return cfg.kind_names[name]
     prefixes = [p for p in cfg.kind_prefixes if name.startswith(p)]
     return cfg.kind_prefixes[max(prefixes, key=len)] if prefixes else "declension"
+
+
+def is_see_pointer(name: str) -> bool:
+    """{{pl-conj-see|walić}}: a pointer to another lemma's table, not a table."""
+    return name in config().see_templates
 
 
 def drop_label(name: str) -> str | None:

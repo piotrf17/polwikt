@@ -33,7 +33,7 @@ from polwikt.extract.headword import (
     verb,
     verb_templates,
 )
-from polwikt.extract.inflection import Paradigm, TableParser, drop_label
+from polwikt.extract.inflection import Paradigm, TableParser, drop_label, is_see_pointer
 from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import Sounds, sounds
 from polwikt.extract.pronunciation import config as pronunciation_config
@@ -418,6 +418,19 @@ class Walk:
         if label := drop_label(name):
             self.stats[f"dropped.table.{label}"] += 1  # R6.6a, never expanded
             return
+        if is_see_pointer(name):
+            self.stats["table.see"] += 1
+            targets = positional(template_args(self.wtp, node))
+            add_unique(
+                draft.entry,
+                [
+                    pb.Relation(type=pb.Relation.TYPE_INFLECTED_LIKE, term=t.strip())
+                    for t in targets
+                    if t.strip()
+                ],
+                self.stats,
+            )
+            return
         self._add_paradigm(draft, self.table_parser.parse(name, node))
 
     def _add_paradigm(self, draft: EntryDraft, paradigm: Paradigm) -> None:
@@ -490,6 +503,55 @@ class Walk:
         for call in iter_templates(node):
             if canonical(self.wtp, call) == name:
                 self.frequency_calls.append(template_args(self.wtp, call))
+
+
+def share_tables(drafts: list[EntryDraft], stats: Counter[str]) -> None:
+    """A table-less entry takes the tables of a sibling with the same grammar (R5.2).
+
+    pisać has two ===Verb=== sections under one etymology and one Conjugation section,
+    under the last: it inflects both. A sibling shares when it has the same POS and
+    etymology group and the same headword grammar (a verb's aspect; a noun's genders),
+    the nearest one following first. A different gender is a different paradigm
+    (chłopak m-pr "boy" vs m-in "windlass cylinder"), so nothing is shared.
+    """
+    for i, draft in enumerate(drafts):
+        entry = draft.entry
+        if entry.tables or entry.forms or not _grammar(entry):
+            continue
+        if any(s.HasField("form_of") for s in entry.senses) or any(
+            r.type == pb.Relation.TYPE_INFLECTED_LIKE for r in entry.relations
+        ):
+            continue
+        order = [*drafts[i + 1 :], *reversed(drafts[:i])]
+        source = next(
+            (
+                d.entry
+                for d in order
+                if d.group == draft.group
+                and d.entry.pos == entry.pos
+                and d.entry.tables
+                and _grammar(d.entry) == _grammar(entry)
+            ),
+            None,
+        )
+        if source is None:
+            continue
+        entry.tables.extend(source.tables)
+        entry.forms.extend(source.forms)
+        if entry.HasField("noun"):
+            entry.noun.plurale_tantum |= source.noun.plurale_tantum
+            entry.noun.singulare_tantum |= source.noun.singulare_tantum
+        stats["table.shared_with_sibling"] += 1
+
+
+def _grammar(entry: pb.Entry) -> bytes:
+    """What decides an entry's paradigm, from its headword; empty when unknown."""
+    if entry.HasField("verb") and entry.verb.aspect:
+        return pb.VerbInfo(aspect=entry.verb.aspect).SerializeToString()
+    if entry.HasField("noun") and entry.noun.genders and not entry.noun.indeclinable:
+        info = pb.NounInfo(genders=entry.noun.genders)
+        return info.SerializeToString(deterministic=True)
+    return b""
 
 
 def _extend_unique(target: Any, values: list[str]) -> None:
