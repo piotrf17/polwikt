@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import json
 import logging
+import resource
 import sqlite3
 import time
 from collections import Counter, defaultdict
@@ -28,6 +29,8 @@ from importlib import metadata
 from pathlib import Path
 from typing import Any
 
+from polwikt import checkpoint
+from polwikt.extract.p3 import CHECKPOINT as P3_CHECKPOINT
 from polwikt.finalize.fold import (
     Fold,
     LemmaEntry,
@@ -44,6 +47,7 @@ from polwikt.proto import p3_pb2 as p3
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import (
     INDEX_NAME,
+    META_NAME,
     SCHEMA_VERSION,
     CorpusIndex,
     ShardWriter,
@@ -70,6 +74,7 @@ class P4Summary:
     unresolved: int
     stats: Counter[str]
     seconds: float
+    skipped: bool = False  # the run was already complete (R9.4)
 
 
 @dataclass
@@ -91,11 +96,14 @@ class Plan:
 def run_p4(
     in_dir: Path, out_dir: Path, *, dump_date: str, drop_labels: list[str]
 ) -> P4Summary:
+    """Finalizes `in_dir`; skipped when `out_dir` already holds this run (R9.4)."""
     started = time.monotonic()
     paths = shard_paths(in_dir, P3_PREFIX)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    if (out_dir / INDEX_NAME).exists():
-        raise P4Error(f"{out_dir} already holds an {INDEX_NAME}")
+    run_id = _fingerprint(in_dir, paths, dump_date, drop_labels)
+    if _prepare(in_dir, out_dir, run_id):
+        log.info("P4: %s is already complete for this run; nothing to do", out_dir)
+        return P4Summary(0, 0, 0, Counter(), 0.0, skipped=True)
+    checkpoint.write(out_dir / MARKER, {"run": run_id, "complete": False})
     stage = out_dir / STAGE_NAME
     stage.unlink(missing_ok=True)
     stats: Counter[str] = Counter()
@@ -125,17 +133,71 @@ def run_p4(
     )
     _write_stats(in_dir, out_dir, stats)
     _jsonl(out_dir / "unresolved_forms.jsonl", plan.unresolved)
+    checkpoint.write(out_dir / MARKER, {"run": run_id, "complete": True})
     seconds = time.monotonic() - started
     log.info(
-        "P4 done: %d words, %d entries folded, %d unresolved, in %.0f s",
+        "P4 done: %d words, %d entries folded, %d unresolved, in %.0f s, "
+        "peak RSS %d MB",
         words,
         stats["finalize.entries.folded"],
         len(plan.unresolved),
         seconds,
+        resource.getrusage(resource.RUSAGE_SELF).ru_maxrss // 1024,
     )
     return P4Summary(
         words, stats["finalize.entries.folded"], len(plan.unresolved), stats, seconds
     )
+
+
+MARKER = "finalize.json"
+# Every file P4 writes: what an interrupted or superseded run leaves to clear.
+_OWNED = (
+    "words-*.pb.zst",
+    "words-*.pb.zst.part",
+    INDEX_NAME,
+    f"{INDEX_NAME}-journal",
+    META_NAME,
+    "LICENSE-DATA",
+    "stats.json",
+    "unresolved_forms.jsonl",
+    STAGE_NAME,
+)
+
+
+def _fingerprint(
+    in_dir: Path, paths: list[Path], dump_date: str, drop_labels: list[str]
+) -> str:
+    """The run: P3's own run id when it checkpointed, else its files; the settings."""
+    saved = checkpoint.read(in_dir / P3_CHECKPOINT)
+    if saved is not None and saved.get("complete"):
+        source = [saved["run"]]
+    else:
+        source = [f"{p.name}:{p.stat().st_size}" for p in paths]
+    return checkpoint.fingerprint([*source, dump_date, ",".join(sorted(drop_labels))])
+
+
+def _prepare(in_dir: Path, out_dir: Path, run_id: str) -> bool:
+    """True when `out_dir` already holds this run; otherwise leaves it ready."""
+    if out_dir.resolve() == in_dir.resolve():
+        raise P4Error("--out must not be P3's directory")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    owned = sorted({p for pattern in _OWNED for p in out_dir.glob(pattern)})
+    saved = checkpoint.read(out_dir / MARKER)
+    if saved is None:
+        if owned:
+            raise P4Error(f"{out_dir} holds files P4 did not write: {owned[0].name}")
+        return False
+    if saved["run"] == run_id and saved["complete"]:
+        shard_paths(out_dir)  # raises if the shard set is not intact
+        return True
+    log.info(
+        "P4: clearing %s (%s)",
+        out_dir,
+        "interrupted run" if saved["run"] == run_id else "another run",
+    )
+    for path in owned:
+        path.unlink()
+    return False
 
 
 def _records(paths: list[Path]) -> Iterator[tuple[str, pb.Word]]:

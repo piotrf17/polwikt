@@ -134,7 +134,12 @@ class ShardWriter:
         prefix: str = DEFAULT_PREFIX,
         records_per_shard: int = 4096,
         records_per_frame: int = 64,
+        resume: int = 0,
+        keep_finished: bool = False,
     ) -> None:
+        """`resume=k` continues a run that checkpointed after k complete shards: their
+        `.part` files are kept, anything written after them is discarded (R9.4).
+        `keep_finished` makes an aborted run keep its finished shards for that."""
         if records_per_shard < 1 or records_per_frame < 1:
             raise ValueError("records_per_shard and records_per_frame must be >= 1")
         self._dir = out_dir
@@ -150,10 +155,21 @@ class ShardWriter:
         self._frame_records = 0
         self._shard_records = 0
         self._closed = False
+        self._keep_finished = keep_finished
+        self._finished = resume
         out_dir.mkdir(parents=True, exist_ok=True)
-        existing = [p.name for p in out_dir.glob(f"{prefix}-*.pb.zst*")]
-        if existing:
-            raise CorpusError(f"{out_dir} already holds shards: {sorted(existing)[:3]}")
+        existing = sorted(p.name for p in out_dir.glob(f"{prefix}-*.pb.zst*"))
+        if resume:
+            kept = [f"{prefix}-{i:05d}.pb.zst.part" for i in range(resume)]
+            missing = [name for name in kept if name not in existing]
+            if missing:
+                raise CorpusError(f"cannot resume {out_dir}: {missing[0]} is missing")
+            for name in existing:
+                if name not in kept:
+                    (out_dir / name).unlink()  # written after the last checkpoint
+            self._parts = [out_dir / name for name in kept]
+        elif existing:
+            raise CorpusError(f"{out_dir} already holds shards: {existing[:3]}")
 
     def __enter__(self) -> Self:
         return self
@@ -190,13 +206,22 @@ class ShardWriter:
             self._flush_frame()
         return location
 
+    def finish_full_shard(self) -> int | None:
+        """If the current shard is full, finishes it now rather than at the next write,
+        and returns how many shards are complete on disk — a checkpoint (R9.4)."""
+        if self._file is None or self._shard_records < self._per_shard:
+            return None
+        self._finish_shard()
+        return len(self._parts)
+
     def close(self) -> list[Path]:
         """Finishes the last shard and renames every `.part` to its final name."""
         if self._closed:
             raise CorpusError("ShardWriter closed twice")
-        if self._file is None:
+        if self._file is None and not self._parts:
             self._start_shard()  # an empty corpus is one empty shard, not none
-        self._finish_shard()
+        if self._file is not None:
+            self._finish_shard()
         self._closed = True
         total = len(self._parts)
         final = []
@@ -207,17 +232,20 @@ class ShardWriter:
         return final
 
     def abort(self) -> None:
-        """Discards everything written so far."""
+        """Discards everything written so far, or with `keep_finished` only the shard
+        in progress."""
         if self._file is not None:
             self._file.close()
             self._file = None
-        for part in self._parts:
+        keep = self._finished if self._keep_finished else 0
+        for part in self._parts[keep:]:
             part.unlink(missing_ok=True)
         self._closed = True
 
     def _start_shard(self) -> None:
         if self._file is not None:
             self._finish_shard()
+        self._shard_records = 0
         part = self._dir / f"{self._prefix}-{len(self._parts):05d}.pb.zst.part"
         self._parts.append(part)
         self._file = part.open("wb")
@@ -235,6 +263,7 @@ class ShardWriter:
         assert self._file is not None
         self._file.close()
         self._file = None
+        self._finished = len(self._parts)
 
 
 # ---------------------------------------------------------------------------

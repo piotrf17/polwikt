@@ -181,9 +181,10 @@ def extract(
         )
     except (P3Error, CorpusError) as e:
         raise click.ClickException(str(e)) from e
+    done = " (already complete)" if summary.skipped else ""
     click.echo(
         f"{summary.pages} pages, {summary.stats['entries']} entries, "
-        f"{summary.errors} errors in {summary.seconds:.0f} s"
+        f"{summary.errors} errors in {summary.seconds:.0f} s{done}"
     )
 
 
@@ -213,6 +214,9 @@ def finalize(in_dir: Path | None, out: Path | None) -> None:
         )
     except (P4Error, CorpusError) as e:
         raise click.ClickException(str(e)) from e
+    if summary.skipped:
+        click.echo("already complete")
+        return
     click.echo(
         f"{summary.words} words, {summary.folded} entries folded, "
         f"{summary.unresolved} unresolved, in {summary.seconds:.0f} s"
@@ -308,6 +312,12 @@ def stats_diff(old: Path, new: Path) -> None:
 
 
 @cli.command()
-def run() -> None:
-    """Run every pass in order."""
-    _todo("M12", "run")
+@click.option("--jobs", type=click.IntRange(min=1), default=2, show_default=True)
+@click.pass_context
+def run(ctx: click.Context, jobs: int) -> None:
+    """Run every pass in order: fetch, scan, extract, finalize (R9.4: each one skips
+    work already done, and an interrupted extract resumes)."""
+    ctx.invoke(fetch)
+    ctx.invoke(scan)
+    ctx.invoke(extract, jobs=jobs)
+    ctx.invoke(finalize)

@@ -41,10 +41,10 @@ IMPLEMENTED = {
     "extract",
     "finalize",
     "stats-diff",
+    "run",
 }
 STUB_INVOCATIONS = [
     ["subset"],
-    ["run"],
 ]
 
 
@@ -117,10 +117,16 @@ def test_extract_writes_shards_and_reports(
         "dropped_colabelled.jsonl",
         "errors.jsonl",
         "p3-00000-of-00001.pb.zst",
+        "p3.checkpoint.json",
         "stats.json",
         "title_only.jsonl",
         "unhandled.jsonl",
     ]
-    again = CliRunner().invoke(cli, argv)  # never overwrites a finished run
-    assert again.exit_code != 0
-    assert "already holds shards" in again.output
+    shard = (out / "p3-00000-of-00001.pb.zst").read_bytes()
+    again = CliRunner().invoke(cli, argv)  # the same run, complete: skipped (R9.4)
+    assert again.exit_code == 0, again.output
+    assert "already complete" in again.output
+    assert (out / "p3-00000-of-00001.pb.zst").read_bytes() == shard
+    other = CliRunner().invoke(cli, [*argv[:-1], "kot"])  # another run: refused
+    assert other.exit_code != 0
+    assert "holds another P3 run" in other.output

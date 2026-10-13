@@ -10,7 +10,7 @@ from polwikt.config import load_config
 from polwikt.expand.wtp import PolwiktWtp
 from polwikt.extract.page import Settings, extract_record
 from polwikt.finalize.fold import renumber_etymologies, tags_match
-from polwikt.finalize.run import P4Summary, run_p4
+from polwikt.finalize.run import P4Error, P4Summary, run_p4
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import (
     INDEX_NAME,
@@ -172,3 +172,21 @@ def test_renumber_etymologies() -> None:
     renumber_etymologies(word)
     assert [e.text for e in word.etymologies] == ["b"]
     assert word.entries[0].etymology == 0
+
+
+def test_finalize_skips_a_complete_run_and_redoes_an_interrupted_one(
+    p3_dir: Path, corpus: Path, tmp_path: Path
+) -> None:  # R9.4
+    out = tmp_path / "c"
+    _p4(p3_dir, out)
+    shard = (out / "words-00000-of-00001.pb.zst").read_bytes()
+    assert _p4(p3_dir, out).skipped
+    (out / "finalize.json").write_text('{"run": "x", "complete": false}')  # stale
+    (out / "index.sqlite").write_bytes(b"partial")
+    assert not _p4(p3_dir, out).skipped
+    assert (out / "words-00000-of-00001.pb.zst").read_bytes() == shard
+    stray = tmp_path / "stray"
+    stray.mkdir()
+    (stray / "stats.json").write_text("{}")
+    with pytest.raises(P4Error, match="did not write"):
+        _p4(p3_dir, stray)
