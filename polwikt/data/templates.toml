@@ -43,7 +43,8 @@ names = [
   "inflection of", "alternative form of", "alternative spelling of", "synonym of",
   "verbal noun of", "diminutive of", "augmentative of", "female equivalent of",
   "comparative of", "superlative of", "abbreviation of", "initialism of",
-  "clipping of", "ellipsis of", "obsolete form of", "pl-pre-1936", "pl-pre-1816",
+  "clipping of", "ellipsis of", "obsolete form of", "pl-pre-2026", "pl-pre-1936",
+  "pl-pre-1816",
   "frequentative of", "alternative case form of", "contraction of", "form of",
   "relational adjective of", "nonstandard form of", "censored spelling of",
   "plural of", "singular of", "noun form of", "participle of", "misspelling of",
@@ -63,12 +64,12 @@ names = [
   "pl-freq 1990", "topics", "catlangname",
   "quote",
 ]
-prefixes = ["quote-", "RQ:pl:"]
+prefixes = ["quote-", "RQ:"]  # RQ:Twitter, RQ:ota:Meninski: quotations too
 
 [both]
 names = [
   "head", "pl-noun", "pl-proper noun", "pl-verb", "pl-adj", "pl-adv",
-  "pl-participle", "letter", "pl-combined form",
+  "pl-participle", "letter", "pl-combined form", "head-lite",
 ]
 prefixes = []
 
@@ -84,9 +85,22 @@ names = [
   "en dash", ",", "sqbrace", "transclude", "senseno", "only used in", "blend",
   "partial calque", "piecewise doublet", "root", "abbreviation", "initialism", "acronym",
   "contraction", "long s", "cap", "IPAchar", "nobold", "name translit", "l-self",
-  "U:sla:directional verb", "syllabic abbreviation",
+  "syllabic abbreviation",
+  # M13 backlog (R4.6): typography and inline formatting
+  "nbsp", "sup", "sub", "small", "smallcaps", "noitalic", "letterspacing", "spaced type",
+  "underline", "code", "math", "IPAfont", "!", "=", "-", "BCE", "circa", "ISBN",
+  "orthography", "temp",
+  # links and mentions in other scripts and languages
+  "ja-r", "zh-l", "zh-m", "ltc-l", "och-l", "he-m", "egy-h", "l-lite", "ll", "xlit",
+  "word", "lw", "compass", "diacritical mark",
+  # etymology wording (R6.8)
+  "suffix", "from", "corruption", "foreign name", "orthographic borrowing",
+  "normalized", "rebracketing", "reduplication", "clipped compound", "com+",
+  "metathesis", "name respelling", "false cognate", "bor-lite", "der-lite", "PIE word",
+  # navigation lines like suffixsee (counted as relation.not_terms)
+  "derivsee", "interfixsee",
 ]
-prefixes = []
+prefixes = ["U:"]  # usage-note boilerplate: U:sla:directional verb, U:pl:verb suffixes
 
 [ignore]
 names = [
@@ -101,6 +115,11 @@ names = [
   "picdicimg", "color panel", "number table", "pl-family", "nonlemma", "bottom",
   "box-top", "box-bottom", "rfc", "top2", "top3",
   "pl-cardinals",  # a navigation box of numbers, not a paradigm
+  # M13 backlog (R4.6): maintenance requests, sister-project boxes, citations
+  "rfdatek", "rfquote-sense", "rfex", "rfv", "rfv-sense", "rfv-pron", "rfap", "rfclarify",
+  "attention", "move", "hot sense", "wikiquote", "slim-wikipedia", "wikidata inline",
+  "wsource", "also", "see descendants", "see-temp", "CSS image crop", "cite-newsgroup",
+  "cite-song", "cite-thesis", "csb-derived verbs",
 ]
 prefixes = ["R:", "list:", "Wiktionary:Picture dictionary/", "table:"]
 

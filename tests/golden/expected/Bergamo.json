@@ -37,7 +37,7 @@
    ],
    "senses": [
     {
-     "gloss": "Bergamo (a province of Lombardy, Italy) Bergamo (a city and comune, the capital of the province of Bergamo, Lombardy, Italy)",
+     "gloss": "Bergamo (a province of Lombardy, Italy)",
      "keywords": [
       {
        "text": "Bergamo"
@@ -46,11 +46,23 @@
      "topics": [
       "Provinces of Italy",
       "Places in Lombardy, Italy",
-      "Places in Italy",
+      "Places in Italy"
+     ]
+    },
+    {
+     "gloss": "Bergamo (a city and comune, the capital of the province of Bergamo, Lombardy, Italy)",
+     "keywords": [
+      {
+       "text": "Bergamo"
+      }
+     ],
+     "topics": [
       "Cities in Lombardy, Italy",
       "Cities in Italy",
       "Municipalities of Italy",
-      "Provincial capitals of Italy"
+      "Provincial capitals of Italy",
+      "Places in Lombardy, Italy",
+      "Places in Italy"
      ]
     }
    ],

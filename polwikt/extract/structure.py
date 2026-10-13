@@ -262,8 +262,7 @@ class Walk:
                     _extend_unique(draft.entry.topics, self._topic_args(child))
             elif child.kind == NodeKind.LIST and child.sarg == "#":
                 for item in list_items(child):
-                    if (sense := self.parser.parse(item)) is not None:
-                        draft.entry.senses.append(sense)
+                    draft.entry.senses.extend(self.parser.parse(item))
             elif child.kind in LEVELS:
                 sub = self.headings.classify(heading_text(child))
                 if sub.kind in (Kind.PRONUNCIATION, Kind.ALTERNATIVE_FORMS):

@@ -249,9 +249,4 @@ kind = "their-flattening"
 why = "{{comeronyms}}: wiktextract files them as related terms tagged comeronym; ours are coordinate terms"
 
 # -- our bugs --------------------------------------------------------------------------
-[[rule]]
-field = "gloss"
-side = "both"
-pages = ["Bergamo"]
-kind = "our-bug"
-why = "{{tcl|pl|Bergamo|id=Q1,Q2}} transcludes two senses; we make one gloss of both. Rare (multi-id {{tcl}}); open in PLAN M13"
+# None open. (Bergamo's multi-id {{tcl}} was fixed at M13.)

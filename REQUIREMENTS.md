@@ -826,6 +826,12 @@ to keep in sync:
   lemma's (R5.2b), is counted as `table.not_expected.<POS>` and left out of the
   denominator. `<POS>_with_table_of_all` keeps the plain ratio beside it. Neither
   excuses a page that *has* a table we failed to read.
+  *Noun target bounded by the source* (decided 2026-10-13): on the 20261001 dump ~2,400
+  lemma nouns — rare and dialectal words (`bolecha`, `okłos`, `guzieł`) — have no
+  Declension section or table template anywhere on the page, so extraction tops out at
+  **~93.1%** of declinable nouns (measured at M13). We do not synthesize a paradigm
+  from the headword gender: that would be inventing data. The 95% stays the goal for
+  the source; the gate is that no noun whose page has a table lacks one.
 - **R8.5** Structured logging with per-pass timing; `--limit N` and `--pages TITLE,…` for
   debugging a single article end-to-end, printing the expanded wikitext and node tree.
 

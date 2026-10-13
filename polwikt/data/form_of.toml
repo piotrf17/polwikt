@@ -54,6 +54,10 @@ raw = ["nonstandard"]
 type = "alternative_form"
 lemma = "2"
 raw = ["censored"]
+[templates."pl-pre-2026"]
+type = "alternative_form"
+lemma = "1"
+raw = ["pre-2026 spelling"]
 [templates."pl-pre-1936"]
 type = "alternative_form"
 lemma = "1"

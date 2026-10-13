@@ -39,6 +39,8 @@ _LABEL_TEMPLATES = frozenset({"label", "term-label"})
 _QUALIFIER_TEMPLATES = frozenset({"qualifier", "sense"})
 _EXAMPLE_TEMPLATES = frozenset({"ux", "uxi", "uxa"})
 _COLLOCATION_TEMPLATES = frozenset({"coi", "collocation", "coa"})
+# A multi-id {{tcl}} renders its senses as one line each, joined by "\n# ".
+_TRANSCLUDED_LINE = re.compile(r"\n#+\s*")
 _NYMS = {
     "synonyms": pb.Relation.Type.TYPE_SYNONYM,
     "parasynonyms": pb.Relation.Type.TYPE_SYNONYM,
@@ -143,8 +145,11 @@ class SenseParser:
     canonical: Any  # (wtp, node) -> canonical template name
     dropped: list[Dropped] = field(default_factory=list)
 
-    def parse(self, item: WikiNode) -> pb.Sense | None:
+    def parse(self, item: WikiNode) -> list[pb.Sense]:
+        """One gloss line's sense, or several: {{tcl|pl|Bergamo|id=Q1,Q2}} renders one
+        `# …` line per id."""
         sense = pb.Sense()
+        transcluded = False
         parts: list[str] = []
         labels: list[Label] = []
         sub_items: list[WikiNode] = []
@@ -169,13 +174,15 @@ class SenseParser:
                     parts.append(f"({inline})")
                     self.stats["sense.qualifier.inline"] += 1
                     continue
+                transcluded |= name == "transclude"
                 if not self._template(sense, labels, name, args, child):
                     continue  # not part of the gloss text
             parts.append(self.wtp.node_to_wikitext(child))
 
         expanded = expand_text(self.wtp, "".join(parts)).text
-        sense.gloss = one_line(plain_text(expanded))
-        for topic in topic_categories(expanded):  # {{place}}, {{tcl}} (R6.10)
+        pieces = _TRANSCLUDED_LINE.split(expanded) if transcluded else [expanded]
+        sense.gloss = one_line(plain_text(pieces[0]))
+        for topic in topic_categories(pieces[0]):  # {{place}}, {{tcl}} (R6.10)
             if topic not in sense.topics:
                 sense.topics.append(topic)
         self._labels(sense, labels)
@@ -183,15 +190,24 @@ class SenseParser:
         if hit:
             others = [n for n in _names(labels) if n not in self.index.drop]
             self.dropped.append(Dropped(hit, bool(others), 1 + _count(sub_items)))
-            return None
+            return []
         for sub in sub_items:
-            if (child_sense := self.parse(sub)) is not None:
-                sense.subsenses.append(child_sense)
+            sense.subsenses.extend(self.parse(sub))
         if not sense.gloss and not sense.subsenses:
             self.stats["sense.empty"] += 1
-            return None
-        self.stats["senses" if len(item.sarg) == 1 else "subsenses"] += 1
-        return sense
+            return []
+        senses = [sense]
+        for piece in pieces[1:]:  # the line's examples and subsenses stay on the first
+            extra = pb.Sense(gloss=one_line(plain_text(piece)))
+            extra.labels.extend(sense.labels)
+            extra.regions.extend(sense.regions)
+            extra.keywords.extend(sense.keywords)
+            extra.topics.extend(topic_categories(piece))
+            if extra.gloss:
+                senses.append(extra)
+                self.stats["sense.transcluded.split"] += 1
+        self.stats["senses" if len(item.sarg) == 1 else "subsenses"] += len(senses)
+        return senses
 
     # -- the gloss line -----------------------------------------------------------
 
