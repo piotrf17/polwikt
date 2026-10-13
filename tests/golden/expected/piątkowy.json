@@ -1,0 +1,656 @@
+{
+ "entries": [
+  {
+   "adjective": {
+    "not_comparable": true
+   },
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-piątkowy.wav"
+    }
+   ],
+   "forms": [
+    {
+     "form": "piątkowy",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowy",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowa",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowa",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowemu",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowemu",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowy",
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkową",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkową",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowymi",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/pjɔntˈkɔ.vɘ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "poniedziałkowy",
+     "type": "TYPE_COORDINATE"
+    },
+    {
+     "term": "wtorkowy",
+     "type": "TYPE_COORDINATE"
+    },
+    {
+     "term": "środowy",
+     "type": "TYPE_COORDINATE"
+    },
+    {
+     "term": "czwartkowy",
+     "type": "TYPE_COORDINATE"
+    },
+    {
+     "term": "sobotni",
+     "type": "TYPE_COORDINATE"
+    },
+    {
+     "term": "niedzielny",
+     "type": "TYPE_COORDINATE"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "piątkowy wieczór",
+       "translation": "Friday night"
+      }
+     ],
+     "gloss": "Friday (occurring on or pertaining to Friday)",
+     "keywords": [
+      {
+       "text": "Friday"
+      }
+     ],
+     "labels": [
+      "relational"
+     ]
+    }
+   ],
+   "syllabification": "piąt‧ko‧wy",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of piątkowy (hard)"
+    }
+   ]
+  },
+  {
+   "adjective": {
+    "not_comparable": true
+   },
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-piątkowy.wav"
+    }
+   ],
+   "etymology": 1,
+   "forms": [
+    {
+     "form": "piątkowy",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowy",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowa",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowa",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowi",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowemu",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowemu",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowego",
+     "tags": {
+      "animacy": "ANIMACY_ANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowy",
+     "tags": {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkową",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "gender": "GENDER_VIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowe",
+     "tags": {
+      "gender": "GENDER_NONVIRILE",
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkową",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowymi",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_MASCULINE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowej",
+     "tags": {
+      "gender": "GENDER_FEMININE",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowym",
+     "tags": {
+      "gender": "GENDER_NEUTER",
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "piątkowych",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/pjɔntˈkɔ.vɘ/"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "piątkowy system liczbowy",
+       "translation": "base-5 numeral system"
+      }
+     ],
+     "gloss": "five (pertaining to the number five)",
+     "keywords": [
+      {
+       "text": "five"
+      }
+     ],
+     "labels": [
+      "relational"
+     ]
+    },
+    {
+     "examples": [
+      {
+       "kind": "KIND_COLLOCATION",
+       "text": "uczeń piątkowy",
+       "translation": "straight A student"
+      }
+     ],
+     "gloss": "straight A (of or pertaining to the A-grade)",
+     "keywords": [
+      {
+       "text": "straight A"
+      }
+     ],
+     "labels": [
+      "relational"
+     ]
+    }
+   ],
+   "syllabification": "piąt‧ko‧wy",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of piątkowy (hard)"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "From piątek + -owy."
+  },
+  {
+   "text": "From piątka + -owy."
+  }
+ ],
+ "lemma": "piątkowy"
+}

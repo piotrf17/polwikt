@@ -1,0 +1,16 @@
+{{also|wielką}}
+==Polish==
+
+===Pronunciation===
+{{pl-pr}}
+
+===Adjective===
+{{head|pl|adjective form}}
+
+# {{inflection of|pl|wielki||f|nom//voc|s}}
+
+====Synonyms====
+* {{l|pl|duża}}
+
+====Antonyms====
+* {{l|pl|mała}}, {{l|pl|niewielka}}

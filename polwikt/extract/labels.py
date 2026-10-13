@@ -9,6 +9,7 @@ capitalised ones are localities and go to `regions` (data/labels.toml).
 
 from __future__ import annotations
 
+import re
 import tomllib
 from collections import Counter
 from dataclasses import dataclass
@@ -44,6 +45,9 @@ class Label:
     name: str
     kind: Kind
     recognized: bool
+    # A topical label's categories, as Module:labels names them (R6.10):
+    # `topical_categories = true` is the label itself, capitalised ("Music").
+    topics: tuple[str, ...] = ()
 
 
 class LabelIndex:
@@ -64,7 +68,9 @@ class LabelIndex:
                 langs = entry.get("langs")
                 if isinstance(langs, dict) and self._language not in langs.values():
                     continue
-                return Label(label, _kind(module, entry), True)
+                kind = _kind(module, entry)
+                topics = _topics(label, entry) if kind is Kind.TOPIC else ()
+                return Label(label, kind, True, topics)
         return Label(label, Kind.LABEL, False)
 
     def parse_args(self, values: list[str], stats: Counter[str]) -> list[Label]:
@@ -105,9 +111,24 @@ def split_on_comma(value: str) -> list[str]:
 
 
 @cache
-def _capitalized_kind() -> Kind:
+def _config() -> dict[str, Any]:
     path = resources.files("polwikt.data").joinpath("labels.toml")
-    return Kind(tomllib.loads(path.read_text("utf-8"))["unrecognized_capitalized"])
+    return tomllib.loads(path.read_text("utf-8"))
+
+
+def _capitalized_kind() -> Kind:
+    return Kind(_config()["unrecognized_capitalized"])
+
+
+@cache
+def _topic_category() -> re.Pattern[str]:
+    prefix = re.escape(_config()["topic_category_prefix"])
+    return re.compile(rf"\[\[\s*Category\s*:\s*{prefix}([^|\]]+)")
+
+
+def topic_categories(expanded: str) -> list[str]:
+    """The topical categories ("Countries in Africa") expanded wikitext emits."""
+    return list(dict.fromkeys(m.strip() for m in _topic_category().findall(expanded)))
 
 
 def _kind(module: str, entry: dict[Any, Any]) -> Kind:
@@ -118,3 +139,17 @@ def _kind(module: str, entry: dict[Any, Any]) -> Kind:
     if entry.get("topical_categories") or module.endswith("/topical"):
         return Kind.TOPIC
     return Kind.LABEL
+
+
+def _topics(label: str, entry: dict[Any, Any]) -> tuple[str, ...]:
+    cats = entry.get("topical_categories")
+    if cats is None or cats is True:
+        return (label[:1].upper() + label[1:],)
+    if isinstance(cats, dict):  # a Lua list decoded with string keys
+        values = [
+            cats[k]
+            for k in sorted(cats, key=lambda k: int(k) if str(k).isdigit() else 0)
+        ]
+    else:
+        values = cats if isinstance(cats, list) else [cats]
+    return tuple(label[:1].upper() + label[1:] if c is True else str(c) for c in values)

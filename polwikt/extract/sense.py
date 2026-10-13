@@ -23,7 +23,7 @@ from wikitextprocessor import NodeKind, WikiNode
 from polwikt.expand.policy import Policy
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
-from polwikt.extract.labels import Kind, Label, LabelIndex
+from polwikt.extract.labels import Kind, Label, LabelIndex, topic_categories
 from polwikt.extract.tags import TagIndex, to_grammatical
 from polwikt.parse.text import one_line, plain_text
 from polwikt.proto import polwikt_pb2 as pb
@@ -163,7 +163,11 @@ class SenseParser:
                     continue  # not part of the gloss text
             parts.append(self.wtp.node_to_wikitext(child))
 
-        sense.gloss = one_line(plain_text(expand_text(self.wtp, "".join(parts)).text))
+        expanded = expand_text(self.wtp, "".join(parts)).text
+        sense.gloss = one_line(plain_text(expanded))
+        for topic in topic_categories(expanded):  # {{place}}, {{tcl}} (R6.10)
+            if topic not in sense.topics:
+                sense.topics.append(topic)
         self._labels(sense, labels)
         hit = sorted(self.index.drop.intersection(_names(labels)))
         if hit:
@@ -220,10 +224,12 @@ class SenseParser:
 
     def _labels(self, sense: pb.Sense, labels: list[Label]) -> None:
         for label in labels:
-            target = {
-                Kind.REGION: sense.regions,
-                Kind.TOPIC: sense.topics,
-            }.get(label.kind, sense.labels)
+            if label.kind is Kind.TOPIC:  # "music" files the sense under "Music"
+                for topic in label.topics:
+                    if topic not in sense.topics:
+                        sense.topics.append(topic)
+                continue
+            target = sense.regions if label.kind is Kind.REGION else sense.labels
             if label.name and label.name not in target:
                 target.append(label.name)
 
@@ -341,7 +347,7 @@ class SenseParser:
                     if name in _EXAMPLE_TEMPLATES
                     else pb.Example.Kind.KIND_COLLOCATION
                 )
-                if example := self._example(kind, args):
+                if example := self.example(kind, args):
                     sense.examples.append(example)
                 handled = True
             elif name in _NYMS:
@@ -360,9 +366,7 @@ class SenseParser:
                 )
                 self.stats["example.untemplated"] += 1
 
-    def _example(
-        self, kind: pb.Example.Kind, args: dict[str, str]
-    ) -> pb.Example | None:
+    def example(self, kind: pb.Example.Kind, args: dict[str, str]) -> pb.Example | None:
         values = positional(args)
         text = self._text(values[1] if len(values) > 1 else "")
         if not text:

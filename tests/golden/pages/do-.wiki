@@ -1,0 +1,339 @@
+{{also|Appendix:Variations of "do"}}
+==English==
+
+===Etymology===
+{{ety|en|:clipping|dodeca-|tree=1}}
+From {{m|en|dodeca-}}, from {{der|en|grc|δώδεκα||twelve}}.
+
+===Prefix===
+{{en-prefix}}
+
+# {{lb|en|mainly|IUPAC}} {{alt form of|en|duo-}}
+
+====Derived terms====
+{{prefixsee|en}}
+
+==Czech==
+
+===Etymology===
+{{ety|cs|:inh|zlw-ocs:do-|text=2|tree=1}}
+
+===Pronunciation===
+* {{cs-IPA}}
+
+===Prefix===
+{{head|cs|prefix}}
+
+# {{n-g|a [[prefix]], usually indicating a destination or a completed action or state}}
+#: {{prefixusex|cs|studovat|dostudovat}}
+#: {{prefixusex|cs|hořet|dohořet}}
+#: {{prefixusex|cs|cestovat|docestovat}}
+#: {{prefixusex|cs|dělat|dodělat}}
+#: {{prefixusex|cs|vařit|dovařit}}
+#: {{prefixusex|cs|kouřit|dokouřit}}
+#: {{prefixusex|cs|číst|dočíst}}
+
+====Derived terms====
+{{prefixsee|cs}}
+
+===Further reading===
+* {{R:cs:Slovnik afixu}}
+
+==Irish==
+
+===Etymology===
+From {{inh|ga|sga|do-}}, {{m|sga|du-}}, from {{inh|ga|cel-pro|*dus-}}, from {{inh|ga|ine-pro|*dus-}}.
+
+===Pronunciation===
+* {{IPA|ga|/d̪ˠɔ/}}
+
+===Prefix===
+{{head|ga|prefix}}
+
+# [[impossible]], extremely [[difficult]]
+#: {{ant|ga|in-}}
+# [[ill]], [[evil]]
+#: {{ant|ga|so-}}
+
+====Derived terms====
+{{prefixsee|ga}}
+
+===Mutation===
+{{ga-mut}}
+
+===Further reading===
+* {{R:ga:Ó Dónaill}}
+* {{R:DIL|17099|head=do-, du-}}
+
+==Japanese==
+
+===Romanization===
+{{ja-rom}}
+
+# {{ja-rom of|ど}}
+
+==Kashubian==
+
+===Etymology===
+{{etymon|csb|id=verbal|:inh|sla-pro:*do-<ety:from<sla-pro:*do>>|tree=+|text=+}}
+
+===Pronunciation===
+{{csb-pr|h=-|r=-}}
+
+===Prefix===
+{{head|csb|prefix}}
+
+# {{ng|verbal prefix}}
+#: {{prefixusex|csb|wiedzec|dowiedzec}}
+
+====Derived terms====
+{{prefixsee|csb}}
+
+==Lower Tanana==
+
+===Etymology===
+From {{inh|taa|ath-pro|*daˑ}}.
+
+===Pronunciation===
+* {{IPA|taa|/tɔ/}}
+
+===Prefix===
+{{head|taa|prefix}}
+
+# {{ng|An interrogative prefix, used to form [[wh-question]]s}}; [[what]], [[how]].
+#: {{usex|taa|do'it'a?|how are you?|inline=1}}
+#: {{usex|taa|do'it'anh?|what are you doing?|inline=1}}
+# {{lb|taa|rare}} {{ng|Appears in a few negative imperatives}}
+#: {{usex|taa|'''do'''dhit'aną́|don't do it!|inline=1}}
+
+====Derived terms====
+* {{prefixsee|taa}}
+* {{l|taa|deyado}}
+
+===References===
+* {{Kari24|page=127}}
+
+==Manx==
+
+===Etymology===
+From {{inh|gv|sga|do-}}, {{m|sga|du-}}.
+
+===Prefix===
+{{head|gv|prefix}}
+
+# [[non-]], [[un-]]
+
+====Derived terms====
+{{prefixsee|gv}}
+
+===References===
+* {{R:DIL|17099|head=do-, du-}}
+
+==Old Czech==
+
+===Etymology===
+{{ety|zlw-ocs|:inh|sla-pro:*do-|text=+|tree=1}}
+
+===Prefix===
+{{head|zlw-ocs|prefix}}
+
+# {{ng|derives verbs of various meanings}}
+
+====Derived terms====
+{{prefixsee|zlw-ocs}}
+
+====Descendants====
+* {{desc|cs|do-}}
+
+==Old Irish==
+
+===Etymology 1===
+From {{inh|sga|cel-pro|*dus-}}, from {{inh|sga|ine-pro|*dus-}}.
+
+====Alternative forms====
+* {{l|sga|du-}}
+
+====Prefix====
+{{head|sga|prefix}}
+
+# [[impossible]], extremely [[difficult]]
+# [[ill]], [[evil]]
+#: {{syn|sga|mí-}}
+
+=====Antonyms=====
+* {{l|sga|so-}}, {{l|sga|su-}}
+
+=====Derived terms=====
+{{prefixsee|sga}}
+
+===Etymology 2===
+
+====Prefix====
+{{head|sga|prefix}}
+
+# {{form of|sga|pretonic form|dí-}}
+# {{form of|sga|pretonic form|to-}}
+
+===Mutation===
+{{sga-mutation}}
+
+===References===
+* {{R:DIL|17099|head=do-, du-}}
+
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=verbal|:inh|sla-pro:*do-<id:verbal><ety:from<sla-pro:*do<id:to>>>|tree=1|text=+}}
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Prefix===
+{{head|zlw-opl|prefix}}
+
+# {{ng|appended to verbs to indicate completion}}
+#: {{prefixusex|zlw-opl|mówić|domówić}}
+# {{ng|appended to verbs to indicate addition or furthering a previous process}}
+#: {{prefixusex|zlw-opl|sypać|dosypać}}
+# {{ng|appended to verbs to indicate addition or approaching a goal}}
+#: {{ant|zlw-opl|od-|ode-}}
+#: {{prefixusex|zlw-opl|ić|dojć}}
+
+====Derived terms====
+{{prefixsee|zlw-opl}}
+
+==Old Slovak==
+
+===Etymology===
+{{ety|zlw-osk|:inh|sla-pro:*do-<ety:from<*do>>|text=+|tree=+}} Cf. {{m|sk|do}}.
+
+===Prefix===
+{{head|zlw-osk|prefix}}
+
+# {{n-g|prefix used to express the complete finishing, exhaustion, or cessation of an action}}: [[finish]], [[out]]
+#: {{prefixusex|zlw-osk|bojovať<t:to fight>|dobojovať<t:to finish fighting/end a struggle>}}
+#: {{prefixusex|zlw-osk|žať<t:to reap/harvest>|dožať<t:to finish reaping/finish the harvest>}}
+# {{n-g|prefix used to indicate a large or full measure of an action, often resulting in damage or exhaustion}}: [[all over]], [[up]]
+#: {{prefixusex|zlw-osk|hrýzť<t:to bite>|dohrýzť<t:to bite all over/maul>}}
+#: {{prefixusex|zlw-osk|štípať<t:to sting/pinch>|doštípať<t:to sting all over>}}
+# {{n-g|prefix used to indicate movement reaching a specific boundary in space}}: [[to]], [[towards]], [[as far as]]
+#: {{prefixusex|zlw-osk|-behnúť<t:to run>|dobehnúť<t:to reach/arrive by running>}}
+#: {{prefixusex|zlw-osk|siahnuť<t:to reach for>|dosiahnuť<t:to reach/attain>}}
+# {{n-g|prefix used to indicate the additional performance of a missing part of an action to achieve completeness}}
+#: {{prefixusex|zlw-osk|platiť<t:to pay>|doplatiť<t:to pay the balance/pay extra>}}
+#: {{prefixusex|zlw-osk|variť<t:to cook>|dovariť<t:to finish cooking/cook the rest>}}
+# {{n-g|prefix used with reflexive verbs to indicate the successful achievement of a goal or state through effort}}
+#: {{prefixusex|zlw-osk|žiť<t:to live>|dožiť<alt:dožiť sa>|t2=to live to see/reach a certain age}}
+#: {{prefixusex|zlw-osk|volať<t:to call>|dovolať<alt:dovolať sa>|t2=to succesfully summon by voice}}
+
+====Derived terms====
+{{prefixsee|zlw-osk}}
+
+====Descendants====
+* {{desc|sk|do-}}
+
+==Polish==
+
+===Etymology===
+{{etymon|pl|id=verbal|:inh|zlw-opl:do-<id:verbal>|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-do-.wav}}
+
+===Prefix===
+{{head|pl|prefix}}
+
+# {{ng|appended to verbs to indicate completion}}
+#: {{prefixusex|pl|kończyć|dokończyć}}
+# {{ng|appended to verbs to indicate addition or furthering a previous process}}
+#: {{prefixusex|pl|lać|dolać}}
+# {{ng|appended to verbs to indicate addition or approaching a goal}}
+#: {{ant|pl|od-|ode-}}
+#: {{prefixusex|pl|iść|dojść}}
+
+====Derived terms====
+{{prefixsee|pl}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+==Scottish Gaelic==
+
+===Etymology===
+From {{inh|gd|sga|do-}}, {{m|sga|du-}}.
+
+===Prefix===
+{{head|gd|prefix}}
+
+# [[un-]]
+
+====Derived terms====
+{{prefixsee|gd}}
+
+===See also===
+* {{l|gd|ao-}}
+* {{l|gd|mì-}}
+* {{l|gd|eu-}}
+* {{l|gd|neo-}}
+
+===References===
+* {{R:DIL|17099|head=do-, du-}}
+
+==Slovak==
+
+===Etymology===
+{{ety|sk|:inh|zlw-osk:do-|etydate=14th century|text=+|tree=+}}<ref>{{R:sk:Králik||128}}</ref> Cf. {{m|sk|do}}.
+
+===Pronunciation===
+* {{sk-IPA}}
+
+===Prefix===
+{{head|sk|prefix}}
+
+# {{n-g|prefix used to express the complete finishing, exhaustion, or cessation of an action}}: [[finish]], [[out]]
+#: {{prefixusex|sk|čítať<t:to read>|dočítať<t:to finish reading>}}
+#: {{prefixusex|sk|jesť<t:to eat>|dojesť<t:to finish eating/eat up>}}
+# {{n-g|prefix used to indicate a large or full measure of an action, often resulting in damage or exhaustion}}: [[all over]], [[up]]
+#: {{prefixusex|sk|hrýzť<t:to bite>|dohrýzť<t:to bite all over/maul>}}
+#: {{prefixusex|sk|štípať<t:to sting/pinch>|doštípať<t:to sting all over>}}
+# {{n-g|prefix used to indicate movement reaching a specific boundary in space}}: [[to]], [[towards]], [[as far as]]
+#: {{prefixusex|sk|-behnúť<t:to run>|dobehnúť<t:to reach/arrive by running>}}
+#: {{prefixusex|sk|hnať<t:to drive/chase>|dohnať<t:to drive as far as/to a certain place>}}
+#: {{prefixusex|sk|siahnuť<t:to reach for>|dosiahnuť<t:to reach/attain>}}
+# {{n-g|prefix used to indicate the additional performance of a missing part of an action to achieve completeness}}
+#: {{prefixusex|sk|kúpiť<t:to buy>|dokúpiť<t:to buy more/buy the remainder>}}
+#: {{prefixusex|sk|soliť<t:to salt>|dosoliť<t:to add more salt>}}
+# {{n-g|prefix used with reflexive verbs to indicate the successful achievement of a goal or state through effort}}
+#: {{prefixusex|sk|žiť<t:to live>|dožiť<alt:dožiť sa>|t2=to live to see/reach a certain age}}
+#: {{prefixusex|sk|volať<t:to call>|dovolať<alt:dovolať sa>|t2=to reach someone by phone/get through to someone}}
+
+====Derived terms====
+{{prefixsee|sk}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:sk:SSJ}}
+
+==Slovene==
+
+===Etymology===
+From {{inh|sl|sla-pro|*do-}}. Prefixed form of the preposition {{m|sl|do}}.
+
+===Pronunciation===
+* {{sl-IPA|do-}}
+
+===Prefix===
+{{head|sl|prefix}}
+
+# {{n-g|Forms perfective verbs with the following meanings:}}
+## to [[finish]]
+##: {{prefixusex|sl|zídati|t1=to build|dozídati|t2=to finish building}}
+## [[up to]], to [[reach]]
+##: {{prefixusex|sl|téči|t1=to run|dotéči|t2=to catch up with}}
+## to [[add]]
+##: {{prefixusex|sl|líti|t1=to pour|dolíti|t2=to add by pouring}}
+
+====Derived terms====
+{{prefixsee|sl}}

@@ -424,6 +424,36 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "dwoisty",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dwojaki",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dwójka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bez dwóch zdań",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dwu-",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dwoić",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podwajać",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "two (grade in school)",
@@ -433,7 +463,7 @@
       }
      ],
      "topics": [
-      "education"
+      "Education"
      ]
     }
    ],

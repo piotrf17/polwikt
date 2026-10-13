@@ -66,6 +66,16 @@
      "ipa": "/ˈstraʂ ɔɡˈɲɔ.va/"
     }
    ],
+   "relations": [
+    {
+     "term": "strażacki",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "strażak",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "form_of": {
@@ -77,7 +87,7 @@
      },
      "gloss": "former name of straż pożarna (“fire brigade”)",
      "topics": [
-      "firefighting"
+      "Firefighting"
      ]
     }
    ],

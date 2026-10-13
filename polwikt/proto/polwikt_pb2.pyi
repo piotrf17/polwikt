@@ -366,6 +366,14 @@ class Relation(_message.Message):
         TYPE_IMPERFECTIVE_COUNTERPART: _ClassVar[Relation.Type]
         TYPE_DETERMINATE_COUNTERPART: _ClassVar[Relation.Type]
         TYPE_INDETERMINATE_COUNTERPART: _ClassVar[Relation.Type]
+        TYPE_NEUTER_EQUIVALENT: _ClassVar[Relation.Type]
+        TYPE_PEJORATIVE: _ClassVar[Relation.Type]
+        TYPE_POSSESSIVE_ADJECTIVE: _ClassVar[Relation.Type]
+        TYPE_DEMONYM: _ClassVar[Relation.Type]
+        TYPE_FEMALE_DEMONYM: _ClassVar[Relation.Type]
+        TYPE_ABBREVIATION: _ClassVar[Relation.Type]
+        TYPE_MARRIED_FORM: _ClassVar[Relation.Type]
+        TYPE_UNMARRIED_FORM: _ClassVar[Relation.Type]
     TYPE_UNSPECIFIED: Relation.Type
     TYPE_SYNONYM: Relation.Type
     TYPE_ANTONYM: Relation.Type
@@ -390,6 +398,14 @@ class Relation(_message.Message):
     TYPE_IMPERFECTIVE_COUNTERPART: Relation.Type
     TYPE_DETERMINATE_COUNTERPART: Relation.Type
     TYPE_INDETERMINATE_COUNTERPART: Relation.Type
+    TYPE_NEUTER_EQUIVALENT: Relation.Type
+    TYPE_PEJORATIVE: Relation.Type
+    TYPE_POSSESSIVE_ADJECTIVE: Relation.Type
+    TYPE_DEMONYM: Relation.Type
+    TYPE_FEMALE_DEMONYM: Relation.Type
+    TYPE_ABBREVIATION: Relation.Type
+    TYPE_MARRIED_FORM: Relation.Type
+    TYPE_UNMARRIED_FORM: Relation.Type
     TYPE_FIELD_NUMBER: _ClassVar[int]
     TERM_FIELD_NUMBER: _ClassVar[int]
     GLOSS_FIELD_NUMBER: _ClassVar[int]

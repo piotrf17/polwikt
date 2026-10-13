@@ -920,6 +920,199 @@
     {
      "term": "czytywać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "czytelny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytacz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytadło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytanina",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytelnia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytanie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "doczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "doczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "naczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dated"
+     ],
+     "term": "obczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przeczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przeczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "rare"
+     ],
+     "term": "uczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaczytać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaczytywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytać jak w otwartej księdze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytać między wierszami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytać w myślach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czytelniany",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czytelniczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czcionkowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "cet",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czcionka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czcionkarstwo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czcionnik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czytanka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czytelnictwo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "czytelnik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "cytać",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -1025,7 +1218,7 @@
       }
      ],
      "topics": [
-      "computing"
+      "Computing"
      ]
     },
     {

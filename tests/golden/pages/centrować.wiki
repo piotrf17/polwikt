@@ -1,0 +1,35 @@
+==Polish==
+
+===Etymology===
+{{bor+|pl|de|zentrieren}} + {{af|pl|-ować}}.
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Poemat-#.wav}}
+
+===Verb===
+{{pl-verb|impf}}
+
+# {{lb|pl|transitive|sports}} to [[center]]; to [[cross]] {{gl|to direct a ball or puck from the side of a court near the goal, towards other players, allowing them to shoot at goal}}
+#: {{syn|pl|dośrodkowywać}}
+# {{lb|pl|transitive|mechanics}} to [[align]] {{gl|to straighten a wheel by tightening or loosening its spokes}}
+#: {{syn|pl|docentrowywać|wycentrowywać}}
+# {{lb|pl|transitive|computer technology}} to [[center]], to [[align]] {{gl|to place text or an object in the center of a designated area when working in a computer program}}
+#: {{syn|pl|wyśrodkowywać}}
+# {{lb|pl|transitive|mechanical engineering}} to [[center]], to [[align]] {{gl|to position two objects so that their centers are located on a common axis}}
+# {{lb|pl|transitive|bicycling}} to [[center]], to [[align]] {{gl|to bend a bicycle wheel}}
+
+====Conjugation====
+{{pl-conj-ai-uję|centr|pp}}
+
+====Derived verbs====
+{{pl-derived verbs
+|scentrować/-
+|*centrować/centrowywać
+|do
+|prze
+|roz
+|wy}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

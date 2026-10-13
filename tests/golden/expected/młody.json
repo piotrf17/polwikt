@@ -322,6 +322,179 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "młodo",
+     "type": "TYPE_RELATED_ADVERB"
+    },
+    {
+     "term": "młody duchem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodszy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wiecznie młody",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodociany",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieńczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieżowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodziutki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodopolski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak młody bóg",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieńczo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodziutko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieżowo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "za młodu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młody człowieku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młode",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodziak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzian",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieniec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzież",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieżowiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodziczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieńczość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodzieniaszek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodniak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodopolszczyzna",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młódka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pan młody",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młoda godzina",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młoda gwardia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młoda para",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Młoda Polska",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młody dorosły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młody księżyc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młody wilk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panna młoda",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "młoda woda",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młodnieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odmłodnieć",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "gloss": "young (in the early part of growth or life; born not long ago; characteristic of such a person or thing)",
@@ -579,6 +752,12 @@
      "labels": [
       "Kurpie"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "młoda",
+     "type": "TYPE_FEMININE_EQUIVALENT"
     }
    ],
    "senses": [

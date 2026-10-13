@@ -145,6 +145,82 @@
    ],
    "relations": [
     {
+     "term": "pani",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
+     "term": "panek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "panisko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "p.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "pp.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "bezpański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wspaniały",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezpańsko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezpańskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pani",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panicz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panisko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panna",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "państwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być za pan brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panoszyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "panować",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "Pan",
      "type": "TYPE_HOMOPHONE"
     },

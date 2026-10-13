@@ -140,6 +140,813 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "rączka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "rączyńka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "rącycka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "ręczulka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "rączysko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "bezręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "białoręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odręczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podręczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poręczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zręczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z drugiej ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z pierwszej ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z wolnej ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "od ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pod ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z ręką na sercu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gołymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "hojną ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lekką ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "do rąk własnych",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na własną rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka w rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękami i nogami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobre ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobrych rękach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w obce ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z gołymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z otwartymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z pocałowaniem ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z pustymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z założonymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jakby ręką odjął",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z bronią w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z ołówkiem w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z rąk do rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z zegarkiem w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wszystkie ręce na pokład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niech ręka boska broni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niech ręka uschnie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręce precz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka, noga, mózg na ścianie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "atut w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brudne ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ciężka ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czyste ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "długie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lepkie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miękka ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niewidzialna ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prawa ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prywatne ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rączęta",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka Boga",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka sprawiedliwości",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wolna ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żelazna ręka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podręcznik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poręcz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rąsia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręcznik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękoczyn",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękodzieło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękojeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękojmia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękopis",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na wyciągnięcie ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niewidzialna ręka rynku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "reguła prawej ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka rękę myje",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak bez ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robota pali się w rękach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręczyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być narzędziem w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dać broń do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dawać broń do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dać się policzyć na palcach jednej ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeść z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kąsać rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "która karmi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lecieć przez ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lecieć z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lepić się do rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "machnąć ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć dwie lewe ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć dziurawe ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć fach w ręku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć krew na rękach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć lekką rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć pełne ręce roboty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć ręce i nogi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć związane ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mieć o co rąk zaczepić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie móc ruszyć ręką ani nogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie skalać sobie rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie kalać sobie rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w co ręce włożyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wypuścić z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wypuszczać z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nosić na rękach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obudzić się z ręką w nocniku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "budzić się z ręką w nocniku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oddać w czyjeś ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oddawać w czyjeś ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opuścić ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opuszczać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "patrzyć na ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pchać się w ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podać sobie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podawać sobie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podnieść rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podnosić rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpisać się obiema rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpisywać się obiema rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "położyć rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prowadzić za rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejść przez ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przechodzić przez ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przemówić do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przemawiać do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyłożyć rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przykładać rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręce opadły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręce opadają",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręce sięgają wszędzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka zadrżała",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka zaświerzbiła",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ręka świerzbi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozłożyć ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozkładać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozwiązać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozwiązywać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sięgać prawą ręką do lewego ucha",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "trzymać rękę na pulsie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ubrudzić sobie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brudzić sobie ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uciec z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uciekać z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "układać rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "umoczyć ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "umyć ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "umywać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "urobić ręce po łokcie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "urabiać ręce po łokcie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "usiąść z założonymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "siedzieć z założonymi rękami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "włazić pod rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wpaść w ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wpadać w ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyciągać kasztany z ognia rękoma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyciągnąć rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyciągnać rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wydawać w ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wydać w ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyjść obronną ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wychodzić obronną ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wymknąć się z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wymykać się z rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrącić broń z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrącać broń z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrącić pióro z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrącać pióro z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać do rąk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć sprawy w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać sprawy w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zagrać na cztery ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "grać na cztery ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zagrać z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "grać z ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "załamać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "załamywać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zarzucić ręce na szyję",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zarzucać ręce na szyję",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zatrzeć ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zacierać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złapać za rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złożyć na ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "składać na ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "związać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "związyzać ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rękaw",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rękawica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zaręczyny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Western Kraków",
+      "Lasovia",
+      "Stalowa Wola"
+     ],
+     "term": "reka",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Podhale"
+     ],
+     "term": "ruka",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "upper limb",
@@ -190,7 +997,7 @@
       }
      ],
      "topics": [
-      "anatomy"
+      "Anatomy"
      ]
     },
     {
@@ -201,7 +1008,7 @@
       }
      ],
      "topics": [
-      "soccer"
+      "Football (soccer)"
      ]
     },
     {

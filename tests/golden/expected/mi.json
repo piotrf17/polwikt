@@ -1,0 +1,103 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-mi.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mi.wav"
+    }
+   ],
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmi/"
+    }
+   ],
+   "relations": [
+    {
+     "labels": [
+      "stressed"
+     ],
+     "term": "mnie",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Daj mi rękę.",
+       "translation": "Give me your hand."
+      }
+     ],
+     "form_of": {
+      "lemma": "ja",
+      "raw_tags": [
+       "mute"
+      ],
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_DATIVE",
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "dative singular mute of ja"
+    }
+   ],
+   "syllabification": "mi",
+   "topics": [
+    "Greek letter names"
+   ]
+  },
+  {
+   "audio": [
+    {
+     "file": "Pl-mi.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-mi.wav"
+    }
+   ],
+   "etymology": 1,
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_NEUTER"
+     }
+    ],
+    "indeclinable": true
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈmi/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "my",
+      "type": "TYPE_ALTERNATIVE_FORM"
+     },
+     "gloss": "alternative form of my"
+    }
+   ],
+   "syllabification": "mi",
+   "topics": [
+    "Greek letter names"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  },
+  {}
+ ],
+ "lemma": "mi"
+}

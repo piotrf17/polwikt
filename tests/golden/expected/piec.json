@@ -136,6 +136,21 @@
    ],
    "relations": [
     {
+     "term": "piecyk",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "piecek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "piecowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
      "term": "Piec",
      "type": "TYPE_HOMOPHONE"
     }
@@ -204,7 +219,7 @@
       }
      ],
      "topics": [
-      "music"
+      "Music"
      ]
     },
     {
@@ -236,7 +251,7 @@
       "salt"
      ],
      "topics": [
-      "mining"
+      "Mining"
      ]
     }
    ],
@@ -288,6 +303,65 @@
     }
    ],
    "relations": [
+    {
+     "term": "jak u Pana Boga za piecem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z pieca na łeb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "głuchy piec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piec wapienny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piecarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piecownia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piecowisko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piecuch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapiecek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w starym piecu diabeł pali",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dorzucić do pieca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z niejednego pieca chleb jeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zacząć od pieca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaczynać od pieca",
+     "type": "TYPE_DERIVED"
+    },
     {
      "term": "Piec",
      "type": "TYPE_HOMOPHONE"
@@ -1255,8 +1329,194 @@
      "type": "TYPE_FREQUENTATIVE"
     },
     {
+     "term": "pieczysty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pieczarka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pieczeń",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pieczywo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piekarnia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piekarnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piekarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pieczone gołąbki nie wlecą same do gąbki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dopiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dopiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "napiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "popiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przepiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przepiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przypiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przypiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozpiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozpiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "upiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapiekać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piec dwie pieczenie na jednym ogniu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "upiec dwie pieczenie na jednym ogniu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piec własną pieczeń",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "upiec własną pieczeń",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piekarski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opiekacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypiek",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapiekanka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opieka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opiekun",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "piecza",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pieczara",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pieczęć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pot",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "Piec",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "piyc",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Northern Borderlands"
+     ],
+     "term": "piekć",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

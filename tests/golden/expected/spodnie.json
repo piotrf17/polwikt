@@ -77,6 +77,22 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "spodenki",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "Łowicz",
+      "Małszyce",
+      "Ostrów",
+      "Bocheń"
+     ],
+     "term": "cpodnie",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "pants, trousers",

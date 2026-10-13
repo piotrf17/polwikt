@@ -15,6 +15,12 @@
      "ipa": "/na‿ˈra.ʑɛ/"
     }
    ],
+   "relations": [
+    {
+     "term": "narazie",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "for now, as yet, for the time being",
@@ -56,6 +62,12 @@
    "pronunciations": [
     {
      "ipa": "/na‿ˈra.ʑɛ/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "narazie",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

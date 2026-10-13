@@ -1,0 +1,725 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "Pl-absurd.ogg"
+    }
+   ],
+   "examples": [
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kompletny absurd",
+     "translation": "complete absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "totalny absurd",
+     "translation": "total absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "czysty absurd",
+     "translation": "pure absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zupełny absurd",
+     "translation": "utter absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "biurokratyczny absurd",
+     "translation": "bureaucratic absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "piramidalny absurd",
+     "translation": "pyramidal absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "urzędniczy absurd",
+     "translation": "bureaucratic absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "oczywisty absurd",
+     "translation": "obvious absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jawny absurd",
+     "translation": "sheer absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "całkowity absurd",
+     "translation": "utter absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "cenowy absurd",
+     "translation": "absurdity of prices"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absolutny absurd",
+     "translation": "absolute absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "pełny absurd",
+     "translation": "full of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ekonomiczny absurd",
+     "translation": "economic absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "krwawy absurd",
+     "translation": "bloody absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tragiczny absurd",
+     "translation": "tragic absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "logiczny absurd",
+     "translation": "logical absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zwykły absurd",
+     "translation": "sheer absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "drogowy absurd",
+     "translation": "road absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "komunistyczny absurd",
+     "translation": "communist absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "śmieszny absurd",
+     "translation": "ridiculous absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "prawdziwy absurd",
+     "translation": "real absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wielki absurd",
+     "translation": "great absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "chory absurd",
+     "translation": "sick absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd prawny",
+     "translation": "legal absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd gospodarczy",
+     "translation": "economic absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "granica absurdu",
+     "translation": "borderline absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "teatr absurdu",
+     "translation": "theater of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kraina absurdu",
+     "translation": "land of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "spirala absurdu",
+     "translation": "spiral of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "szczyt absurdu",
+     "translation": "peak of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "poetyka absurdu",
+     "translation": "poetics of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "nagromadzenie absurdu",
+     "translation": "accumulation of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "poczucie absurdu",
+     "translation": "sense of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "pogranicze absurdu",
+     "translation": "borderline absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "komedia absurdu",
+     "translation": "comedy of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wyczucie absurdu",
+     "translation": "sense of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "poziom absurdu",
+     "translation": "level of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "teatrzyk absurdu",
+     "translation": "theater of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "skraj absurdu",
+     "translation": "edge of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dawka absurdu",
+     "translation": "dose of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wyżyny absurdu",
+     "translation": "thheights of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "znamię absurdu",
+     "translation": "mark of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "stek absurdów",
+     "translation": "bunch of absurdities"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dramat absurdu",
+     "translation": "drama of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "mnożenie absurdu",
+     "translation": "multiplication of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "rekord absurdu",
+     "translation": "record of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "piramida absurdu",
+     "translation": "pyramid of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sfera absurdu",
+     "translation": "realm of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "natężenie absurdu",
+     "translation": "intensity of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "świat absurdu",
+     "translation": "world of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dno absurdu",
+     "translation": "bottom of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "humor absurdu",
+     "translation": "humor of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "miłośnik absurdu",
+     "translation": "lover of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "logika absurdu",
+     "translation": "logic of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "literatura absurdu",
+     "translation": "literature of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "atmosfera absurdu",
+     "translation": "atmosphere of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kraj absurdu",
+     "translation": "land of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "przejaw absurdu",
+     "translation": "manifestation of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "mistrz absurdu",
+     "translation": "master of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "stopień absurdu",
+     "translation": "degree of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "klimat absurdu",
+     "translation": "climate of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "świątynia absurdu",
+     "translation": "temple of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kategoria absurdu",
+     "translation": "category of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "konwencja absurdu",
+     "translation": "convention of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "świadomość absurdu",
+     "translation": "awareness of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kino absurdu",
+     "translation": "cinema of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "morze absurdu",
+     "translation": "sea of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "koniec absurdu",
+     "translation": "end of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "likwidacja absurdu",
+     "translation": "elimination of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "księga absurdu",
+     "translation": "book of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "obszar absurdu",
+     "translation": "area of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "masa absurdu",
+     "translation": "mass of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "źródło absurdu",
+     "translation": "source of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "skala absurdu",
+     "translation": "scale of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "duch absurdu",
+     "translation": "spirit of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "państwo absurdu",
+     "translation": "state of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd codzienności",
+     "translation": "absurdity of everyday life"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd egzystencji",
+     "translation": "absurdity of existence"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd biurokracji",
+     "translation": "absurdity of bureaucracy"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd komunizmu",
+     "translation": "absurdity of communism"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd istnienia",
+     "translation": "absurdity of existence"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd rzeczywistości",
+     "translation": "absurdity of reality"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd życia",
+     "translation": "absurdity of life"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd wojny",
+     "translation": "absurdity of war"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd sytuacji",
+     "translation": "absurdity of the situation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd świata",
+     "translation": "absurdity of the world"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd systemu",
+     "translation": "absurdity of the system"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd historii",
+     "translation": "absurdity of history"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd prawa",
+     "translation": "absurdity of the law"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "trącić absurdem",
+     "translation": "to smack of absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "obnażać absurd",
+     "translation": "to expose absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tropić absurd",
+     "translation": "to track absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sięgać/sięgnąć/osiągnąć absurdu",
+     "translation": "to reach absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sprowadzać absurd",
+     "translation": "to bring absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wyjaśniać absurd",
+     "translation": "to explain the absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd goni",
+     "translation": "absurdity ensues"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd denerwuje",
+     "translation": "absurdity annoys"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "absurd oburza",
+     "translation": "absurdity is outrageous"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "prowadzić/sprowadzać/sprowadzić do absurdu",
+     "translation": "to reach absurdity"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "graniczyć z absurdem",
+     "translation": "to be on the edge of absurdity"
+    }
+   ],
+   "forms": [
+    {
+     "form": "absurd",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdy",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurdu",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurdowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurd",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdy",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurdem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurdzie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "absurdzie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "absurdy",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈap.surt/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "absurdzik",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "absurdalny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "absurdyzm",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "absurdystyczny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdalnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdalista",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdalizacja",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdalność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdysta",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absurdalizować",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "absurdum",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
+   "senses": [
+    {
+     "examples": [
+      {
+       "kind": "KIND_EXAMPLE",
+       "text": "Jego propozycje to jeden wielki absurd.",
+       "translation": "His suggestions are one big load of nonsense."
+      }
+     ],
+     "gloss": "absurdity, nonsense",
+     "keywords": [
+      {
+       "text": "absurdity"
+      },
+      {
+       "text": "nonsense"
+      }
+     ]
+    },
+    {
+     "gloss": "absurdity",
+     "keywords": [
+      {
+       "text": "absurdity"
+      }
+     ],
+     "topics": [
+      "Logic"
+     ]
+    }
+   ],
+   "syllabification": "ab‧surd",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of absurd"
+    }
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Learned borrowing from Latin absurdus. First attested in 1564."
+  }
+ ],
+ "lemma": "absurd"
+}

@@ -37,6 +37,13 @@ from polwikt.extract.inflection import TableParser, drop_label
 from polwikt.extract.labels import Kind as LabelKind
 from polwikt.extract.pronunciation import Sounds, sounds
 from polwikt.extract.pronunciation import config as pronunciation_config
+from polwikt.extract.relations import (
+    Found,
+    RelationParser,
+    add_unique,
+    headword_relations,
+)
+from polwikt.extract.relations import config as relation_config
 from polwikt.extract.sense import Indexes, SenseParser, positional, template_args
 from polwikt.parse.headings import Heading, HeadingMap, Kind
 from polwikt.parse.text import plain_text
@@ -104,6 +111,8 @@ class Walk:
     _default_group: int | None = None
     frequency_calls: list[dict[str, str]] = field(default_factory=list)  # R6.13
     _pron_cache: dict[int, Sounds] = field(default_factory=dict)
+    _alt_cache: dict[int, Found] = field(default_factory=dict)
+    _relations: RelationParser | None = None
     _parser: SenseParser | None = None
     _tables: TableParser | None = None
 
@@ -122,6 +131,19 @@ class Walk:
                 self.wtp, self.index.labels, self.index.drop, self.stats
             )
         return self._tables
+
+    @property
+    def relation_parser(self) -> RelationParser:
+        if self._relations is None:
+            self._relations = RelationParser(
+                self.wtp,
+                canonical,
+                self.index.labels,
+                self.index.drop,
+                self.stats,
+                self.parser.example,
+            )
+        return self._relations
 
     # -- containers ---------------------------------------------------------------
 
@@ -261,8 +283,11 @@ class Walk:
             self.dropped_any.extend(labels)
             return None  # R6.6a: a Middle Polish entry, or one with nothing left
         for section in shared + own_shared:
-            if self.headings.classify(heading_text(section)).kind is Kind.PRONUNCIATION:
+            kind = self.headings.classify(heading_text(section)).kind
+            if kind is Kind.PRONUNCIATION:
                 self._add_sounds(draft.entry, self._sounds(section))
+            elif kind is Kind.ALTERNATIVE_FORMS:  # R5.5: every entry in its scope
+                self._add_found(draft.entry, self._alternative_forms(section))
         draft.group = self._group_for(group)
         draft.entry.etymology = draft.group
         self.stats[f"pos.{head.pos}"] += 1
@@ -284,8 +309,10 @@ class Walk:
         labels = self.index.labels.parse_args(values, self.stats)
         hits = sorted({lab.name for lab in labels} & self.index.drop)
         for label in labels:
-            target = entry.topics if label.kind is LabelKind.TOPIC else entry.labels
-            _extend_unique(target, [label.name])
+            if label.kind is LabelKind.TOPIC:
+                _extend_unique(entry.topics, list(label.topics))
+            else:
+                _extend_unique(entry.labels, [label.name])
         return hits
 
     def _topics(self, node: WikiNode) -> list[str]:
@@ -324,6 +351,9 @@ class Walk:
             if text:
                 notes = draft.entry.usage_notes
                 draft.entry.usage_notes = f"{notes}\n{text}" if notes else text
+        if relation_config().handles(head.name):
+            found = self.relation_parser.section(head.name, node)
+            self._add_found(draft.entry, found)
         if head.name in _TABLE_SECTIONS:
             for child in node.children:
                 if isinstance(child, WikiNode) and child.kind == NodeKind.TEMPLATE:
@@ -358,6 +388,18 @@ class Walk:
             entry.adjective.CopyFrom(found.info)
             if found.forms:
                 self._add_table(entry, found.table(), found.forms)
+        if name in relation_config().headword:  # dim=, adj=, f=, dem=… (R3.14)
+            add_unique(
+                entry,
+                headword_relations(
+                    name,
+                    template_args(self.wtp, node),
+                    self.index.labels,
+                    self.index.drop,
+                    self.stats,
+                ),
+                self.stats,
+            )
 
     def _table(self, draft: EntryDraft, node: WikiNode, name: str) -> None:
         """One table template: its raw call (R4.2.1), then its parsed paradigm."""
@@ -407,6 +449,18 @@ class Walk:
                 self.wtp, section, self.title, self.drop_labels, self.stats
             )
         return self._pron_cache[key]
+
+    def _alternative_forms(self, section: WikiNode) -> Found:
+        key = id(section)  # shared like pronunciation: read once per page
+        if key not in self._alt_cache:
+            self._alt_cache[key] = self.relation_parser.section(
+                "Alternative forms", section
+            )
+        return self._alt_cache[key]
+
+    def _add_found(self, entry: pb.Entry, found: Found) -> None:
+        add_unique(entry, found.relations, self.stats)
+        entry.examples.extend(found.examples)
 
     @staticmethod
     def _add_sounds(entry: pb.Entry, found: Sounds) -> None:

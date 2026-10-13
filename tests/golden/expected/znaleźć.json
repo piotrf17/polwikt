@@ -849,6 +849,160 @@
      "ipa": "/ˈzna.lɛɕt͡ɕ/"
     }
    ],
+   "relations": [
+    {
+     "term": "jak znalazł",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biuro rzeczy znalezionych",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajda",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdźka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znalazca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znalezisko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźne",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak się chce psa uderzyć, to kij się znajdzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "każda potwora znajdzie swojego amatora",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lepiej z mądrym zgubić, niż z głupim znaleźć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "siedź w kącie, a znajdą cię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie móc znaleźć sobie miejsca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie znaleźć słów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się między młotem a kowadłem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się między młotem a kowadłem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się na celowniku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się na celowniku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się na indeksie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się na indeksie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się na rozdrożu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się na rozdrożu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się na tapecie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się na topie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się na topie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się pod lupą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się pod lupą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się w centrum uwagi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować się w centrum uwagi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się w kropce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć się za burtą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć śmierć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować śmierć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć ujście",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować ujście",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć w chipsach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znaleźć wyraz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znajdować wyraz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "leźć",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "to behave properly",

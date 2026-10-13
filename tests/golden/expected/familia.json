@@ -135,6 +135,51 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "familijka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "famuła",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "familijny",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "familiarny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familijnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familiarnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familijność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familiarność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familiant",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "familiantka",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "form_of": {
@@ -191,7 +236,7 @@
       "obsolete"
      ],
      "topics": [
-      "taxonomy"
+      "Taxonomy"
      ]
     },
     {
@@ -204,7 +249,7 @@
       "obsolete"
      ],
      "topics": [
-      "mathematics"
+      "Mathematics"
      ]
     },
     {

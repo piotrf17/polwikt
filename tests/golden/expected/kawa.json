@@ -127,6 +127,102 @@
    ],
    "relations": [
     {
+     "term": "kawka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "kawcia",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "kawunia",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "kawusia",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "kawowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "kawa na ławę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biała kawa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czarna kawa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawa po irlandzku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawa po turecku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawa po wiedeńsku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawa rozpuszczalna",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawa zbożowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiara",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiarka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiarnia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiarniczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawosz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawoszka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawowiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kawiarniany",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "kawiareczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "kawiarenka",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "Kawa",
      "type": "TYPE_HOMOPHONE"
     }

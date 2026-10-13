@@ -1716,6 +1716,16 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "jeśli nie potrafisz, nie pchaj się na afisz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie potrafić zliczyć do trzech",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "form_of": {

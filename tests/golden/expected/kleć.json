@@ -1,0 +1,244 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-kleć.wav"
+    }
+   ],
+   "forms": [
+    {
+     "form": "kleć",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "klecie",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "kleci",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "kleci",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "kleci",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "kleciom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "kleć",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "klecie",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "klecią",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "kleciami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "kleci",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "kleciach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "kleci",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "klecie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_FEMININE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈklɛt͡ɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "gloss": "granary",
+     "term": "spichlerz",
+     "type": "TYPE_SYNONYM"
+    },
+    {
+     "gloss": "outhouse, outbuilding",
+     "term": "dobudówka",
+     "type": "TYPE_SYNONYM"
+    },
+    {
+     "gloss": "outhouse, outbuilding",
+     "term": "przybudówka",
+     "type": "TYPE_SYNONYM"
+    },
+    {
+     "gloss": "lean-to",
+     "term": "przyścianek",
+     "type": "TYPE_SYNONYM"
+    },
+    {
+     "term": "klatka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "klitka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "klecić",
+     "type": "TYPE_RELATED"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "hutch",
+     "keywords": [
+      {
+       "text": "hutch"
+      }
+     ]
+    },
+    {
+     "gloss": "granary, outhouse, outbuilding, annex, lean-to",
+     "keywords": [
+      {
+       "text": "granary"
+      },
+      {
+       "text": "outhouse"
+      },
+      {
+       "text": "outbuilding"
+      },
+      {
+       "text": "annex"
+      },
+      {
+       "text": "lean-to"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    }
+   ],
+   "syllabification": "kleć",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of kleć"
+    }
+   ],
+   "topics": [
+    "Buildings"
+   ]
+  },
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-kleć.wav"
+    }
+   ],
+   "etymology": 1,
+   "pos": "POS_VERB",
+   "pronunciations": [
+    {
+     "ipa": "/ˈklɛt͡ɕ/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "klecić",
+      "tag_sets": [
+       {
+        "mood": "MOOD_IMPERATIVE",
+        "number": "NUMBER_SINGULAR",
+        "person": "PERSON_SECOND"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "second-person singular imperative of klecić"
+    }
+   ],
+   "syllabification": "kleć",
+   "topics": [
+    "Buildings"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Proto-Slavic *klětь."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "kleć"
+}

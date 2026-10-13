@@ -74,6 +74,12 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "siebie",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "reflexive pronoun; oneself, self",

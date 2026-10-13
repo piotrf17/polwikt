@@ -74,6 +74,28 @@
      "ipa": "/nɔˈʐɘt͡ʂ.ki/"
     }
    ],
+   "relations": [
+    {
+     "term": "nożycowaty",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "nożycowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "nożycowo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "nożyce",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "nożycować",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "scissors (tool used for cutting)",

@@ -128,8 +128,62 @@
    ],
    "relations": [
     {
+     "term": "zameczek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "zameńko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "zamkowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamek błyskawiczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamknięty",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamknięty w sobie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamknięcie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamkniętość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamykarka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamykać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamknąć",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "Zamek",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Przemyśl"
+     ],
+     "term": "zomek",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -309,6 +363,26 @@
     }
    ],
    "relations": [
+    {
+     "term": "zameczek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "zamczysko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "zamkowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podzamcze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "budować zamki na lodzie",
+     "type": "TYPE_DERIVED"
+    },
     {
      "term": "Zamek",
      "type": "TYPE_HOMOPHONE"

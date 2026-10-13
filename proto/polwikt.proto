@@ -279,6 +279,15 @@ message Relation {
     TYPE_IMPERFECTIVE_COUNTERPART = 21;  // zrobić -> robić (R3.14)
     TYPE_DETERMINATE_COUNTERPART = 22;    // chodzić -> iść
     TYPE_INDETERMINATE_COUNTERPART = 23;  // iść -> chodzić
+    // Headword-line relations (Module:zlw-lch-headword), M10:
+    TYPE_NEUTER_EQUIVALENT = 24;
+    TYPE_PEJORATIVE = 25;
+    TYPE_POSSESSIVE_ADJECTIVE = 26;
+    TYPE_DEMONYM = 27;           // Polska -> Polak
+    TYPE_FEMALE_DEMONYM = 28;    // Polska -> Polka
+    TYPE_ABBREVIATION = 29;      // the entry's abbreviation: "ul." on ulica
+    TYPE_MARRIED_FORM = 30;      // a surname's traditional married form: Nowak -> Nowakowa
+    TYPE_UNMARRIED_FORM = 31;    // ... and unmarried form: Nowak -> Nowakówna
   }
   Type type = 1;
   string term = 2;             // a Polish lemma

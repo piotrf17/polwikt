@@ -271,6 +271,45 @@
      "ipa": "/ˈktu.rɘ/"
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "Kuyavia"
+     ],
+     "term": "chtóry",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Kuyavia"
+     ],
+     "term": "chtury",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Kuyavia",
+      "Sieradz",
+      "Piotrków Voivodeship"
+     ],
+     "term": "tkóry",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Podegrodzie"
+     ],
+     "term": "chtory",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Podegrodzie"
+     ],
+     "term": "ftory",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "interrogative pronoun, referring to a number of choices; what, which one",

@@ -1259,6 +1259,14 @@
     {
      "term": "brać",
      "type": "TYPE_IMPERFECTIVE_COUNTERPART"
+    },
+    {
+     "labels": [
+      "nonstandard",
+      "proscribed"
+     ],
+     "term": "wziąść",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -1577,7 +1585,7 @@
       "transitive"
      ],
      "topics": [
-      "fishing"
+      "Fishing"
      ]
     },
     {
@@ -1957,6 +1965,554 @@
     {
      "term": "brać",
      "type": "TYPE_IMPERFECTIVE_COUNTERPART"
+    },
+    {
+     "term": "do wzięcia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "razem wzięty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wzięty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "no weź",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "weź",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziątka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wzięcie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Bóg dał, Bóg wziął",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Bóg powołał do siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złego diabli nie wezmą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powziąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przedsięwziąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uwziąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uwzinać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zawziąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zawzinać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cholera wzięła",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cholera bierze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "diabli wzięli",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "diabli biorą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wziąć do ust",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie brać do ust",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć azymut",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać azymut",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć do galopu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać do galopu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć do kieszeni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać do kieszeni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać do ręki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć do siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać do siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć dupę w troki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać dupę w troki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć i zrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać i robić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na ambit",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na ambit",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na bajer",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na bajer",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na cel",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na cel",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na języki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na języki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na kieł",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na kieł",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na klatę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na klatę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na lep",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na lep",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na rozum",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na rozum",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na spytki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na spytki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na swoje barki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na swoje barki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na swoje sumienie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na swoje sumienie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na tapet",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na tapet",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na warsztat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na warsztat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na widelec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na widelec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć na wstrzymanie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać na wstrzymanie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć nogi za pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać nogi za pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć odpowiedzialność",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać odpowiedzialność",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć po pysku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać po pysku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć początek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać początek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć pod fleki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać pod fleki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć pod lupę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać pod lupę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć pod uwagę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać pod uwagę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć pod włos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać pod włos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć poprawkę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać poprawkę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć przykład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać przykład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć się do rzeczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać się do rzeczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć się na sposób",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać się na sposób",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć się w garść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać się w garść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć się za bary",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać się za bary",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć się za łby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać się za łby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć sobie do serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać sobie do serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć sprawy w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać sprawy w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć stronę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać stronę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć udział",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać udział",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w jednej koszuli",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w jednej koszuli",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w karby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w karby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w łapę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w łapę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w łeb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w łeb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w nawias",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w nawias",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w obroty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w obroty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w pacht",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w pacht",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w rachubę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w rachubę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać w swoje ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć z sufitu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać z sufitu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć za dobrą monetę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać za dobrą monetę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć za frak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać za frak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć za mordę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać za mordę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć za złe",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać za złe",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jąć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "nonstandard",
+      "proscribed"
+     ],
+     "term": "wziąść",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

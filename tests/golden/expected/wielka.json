@@ -1,0 +1,52 @@
+{
+ "entries": [
+  {
+   "pos": "POS_ADJECTIVE",
+   "pronunciations": [
+    {
+     "ipa": "/ˈvjɛl.ka/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "duża",
+     "type": "TYPE_SYNONYM"
+    },
+    {
+     "term": "mała",
+     "type": "TYPE_ANTONYM"
+    },
+    {
+     "term": "niewielka",
+     "type": "TYPE_ANTONYM"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "wielki",
+      "tag_sets": [
+       {
+        "gender": "GENDER_FEMININE",
+        "grammatical_case": "CASE_NOMINATIVE",
+        "number": "NUMBER_SINGULAR"
+       },
+       {
+        "gender": "GENDER_FEMININE",
+        "grammatical_case": "CASE_VOCATIVE",
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "feminine nominative/vocative singular of wielki"
+    }
+   ],
+   "syllabification": "wiel‧ka"
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "wielka"
+}

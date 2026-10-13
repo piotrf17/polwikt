@@ -364,6 +364,10 @@
    ],
    "relations": [
     {
+     "term": "dobrze",
+     "type": "TYPE_RELATED_ADVERB"
+    },
+    {
      "term": "Dobry",
      "type": "TYPE_HOMOPHONE"
     }
@@ -766,6 +770,230 @@
    ],
    "relations": [
     {
+     "term": "arcydobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrowolny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobrym guście",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z dobrego domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak komu dobremu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na dobre i na złe",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na dzień dobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pod dobrą datą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobre ręce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobrej wierze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w dobrych rękach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z dobrego serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobranoc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobry wieczór",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dzień dobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobra nasza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrej nocy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bardzo dobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrobyt",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobroć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrodziej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrostan",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małodobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Dobra Nowina",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobra praktyka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobra wola",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobre słowo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Dobry Pasterz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobry wujek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "drzewo wiadomości dobrego i złego",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ocena bardzo dobra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ocena dobra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wujek Dobra Rada",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na dobrą sprawę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobra psu i mucha",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrego i karczma nie zepsuje, a złego i kościół nie naprawi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrymi chęciami piekło jest wybrukowane",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobry zwyczaj nie pożyczaj",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na frasunek dobry trunek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie ma tego złego, co by na dobre nie wyszło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z braku laku to i kit dobry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brak wiadomości to dobra wiadomość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobruchać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrzeć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być dobrej myśli",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być na dobrej drodze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być w dobrym tonie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć dobrą prasę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "postawić na dobrego konia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stawiać na dobrego konia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wziąć za dobrą monetę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać za dobrą monetę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dobrą minę do złej gry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dobrą minę do złej gry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobrotliwy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "arcydobrze",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "Dobry",
      "type": "TYPE_HOMOPHONE"
     }
@@ -792,7 +1020,7 @@
       }
      ],
      "topics": [
-      "education"
+      "Education"
      ]
     }
    ],

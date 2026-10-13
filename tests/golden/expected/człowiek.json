@@ -139,6 +139,211 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "człowieczyca",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
+     "term": "człowieczek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "człowieczyna",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "człowieczysko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "człowieczeński",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiekowaty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak człowiek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek uczy się na błędach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyzwyczajenie jest drugą naturą człowieka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek strzela, Pan Bóg kule nosi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gdy się człowiek spieszy, to się diabeł cieszy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "góra z górą się nie zejdzie, a człowiek z człowiekiem zawsze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiecze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "młody człowieku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiectwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczątko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczeńskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczeństwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiekowate",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek renesansu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek śniegu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dusza człowiek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "git-człowiek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prawa człowieka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "strzęp człowieka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek z miasta",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "pierwszy człowiek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "też człowiek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie szata zdobi człowieka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowieczeć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odczłowieczyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odczłowieczać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uczłowieczyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uczłowieczać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "Chełmno-Dobrzyń"
+     ],
+     "term": "czowiek",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Central Greater Poland",
+      "Kościan"
+     ],
+     "term": "czojek",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Suwałki"
+     ],
+     "term": "człojek",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Far Masovian",
+      "Przasnysz",
+      "Łowicz",
+      "Domaniewice"
+     ],
+     "term": "cłojek",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Western Kraków",
+      "Bukowno",
+      "Zagórze"
+     ],
+     "term": "cłowiek",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "man, human, human being; person",

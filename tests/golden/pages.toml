@@ -329,3 +329,50 @@ why = "literal {{IPA|pl|…}} instead of {{pl-pr}}"
 [[page]]
 title = "siekierka"
 why = "{{audio}} beside {{pl-pr|a=}} naming the same file"
+
+# --- M10: relations and the remaining sections ------------------------------------------
+[[page]]
+title = "centrować"
+why = "{{pl-derived verbs}} with *suffixes and bare prefixes, under a 'Derived verbs' heading"
+[[page]]
+title = "bieg"
+why = "{{col}} items holding raw links: '[[biec]] {{g|impf}}, [[pobiec]] {{g|pf}}'; adj= on the headword"
+[[page]]
+title = "mi"
+why = "Alternative forms as '* {{q|stressed}} {{l|pl|mnie}}' lines"
+[[page]]
+title = "jemu"
+why = "Alternative forms: two {{l}} on one line"
+[[page]]
+title = "Staręga"
+why = "{{alt}} with a trailing '(rare)'; {{pl-proper noun|f|marr=…|unmarr=…}} surname forms"
+[[page]]
+title = "ulica"
+why = "{{pl-noun|f|dim=uliczka|abbr=ul.}}"
+[[page]]
+title = "kleć"
+why = "Synonyms section: '* {{sense|granary}} {{l|pl|spichlerz}}'"
+[[page]]
+title = "wielka"
+why = "Antonyms section of plain {{l}} lines"
+[[page]]
+title = "piątkowy"
+why = "Coordinate terms as {{col}}; {{pl-adj|-|adv=-}}: no adverb"
+[[page]]
+title = "zero"
+why = "Coordinate terms as the {{pl-cardinals}} navbox: not relations, counted"
+[[page]]
+title = "absurd"
+why = "Collocations section of {{coi}} lines -> entry examples (R6.12)"
+[[page]]
+title = "akt"
+why = "Collocations in {{col-top}} groups titled by {{senseno}}"
+[[page]]
+title = "do-"
+why = "{{prefixsee}}: a category-driven list, counted"
+[[page]]
+title = "Łódź"
+why = "{{pl-proper noun|…|dem=…|fdem=…}}: demonyms"
+[[page]]
+title = "łyżka"
+why = "{{alt|pl|…||Middle Polish}}: a Middle Polish alternative form, dropped (R6.6a)"

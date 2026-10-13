@@ -1,0 +1,222 @@
+{{also|Bieg|biég}}
+==Afrikaans==
+
+===Etymology===
+From {{inh|af|nl|biecht}}.
+
+===Pronunciation===
+* {{IPA|af|/ˈbiχ/}}
+* {{audio|af|LL-Q14196 (afr)-Oesjaar-bieg.wav}}
+
+===Noun===
+{{af-noun|biegte}}
+
+# {{lb|af|religion}} [[confession]] of sin to a priest
+
+===Verb===
+{{af-verb}}
+
+# {{lb|af|religion}} to [[confess]]
+# to [[admit]] or confess, especially about something that is shameful or embarrassing
+
+{{C|af|Roman Catholicism}}
+
+==Old Polish==
+
+===Etymology===
+{{ety|zlw-opl|:inh|sla-pro:*bě̑gъ|text=+|tree=1|etydate=14th century}}
+
+===Pronunciation===
+* {{zlw-opl-IPA|bie:g}}
+
+===Noun===
+{{zlw-opl-noun|m-in}}
+
+# {{lb|zlw-opl|attested in|Łęczyca|Greater Poland|Pomerania}} [[run]] {{gl|act of running}}
+#* {{RQ:zlw-opl:R|XXII|14|1466|Lenyvim stąpanym '''byeg''' mudzysz pede sopito cursum moraris|Leniwym stąpanim '''bieg''' mudzisz pede sopito cursum moraris|-}}
+#* {{RQ:zlw-opl:R|XXII|23|1466|L[e]czaczych coni slonecznych '''byegyem''' po gwaszdnem nyebye Criste..., qui luciferorum alipedum tactu stellata per ethera gubernas|L[e]cących koni słonecznych '''biegiem''' po gwiazdnem niebie Kryste..., qui luciferorum alipedum tactu stellata per ethera gubernas|-}}
+#* {{RQ:zlw-opl:MPKJ|V|35|1471|'''Byeg''' passum|'''Bieg''' passum|-}}
+#* {{RQ:zlw-opl:WokLub|6v|c. 1500|Cursus eyn lauff '''byeg'''|Cursus eyn lauff '''bieg'''|-}}
+#* {{RQ:zlw-opl:R|XXV|152|XV med.|Exivit de utero meo giganteo cursu obrzymowym '''byegem'''|Exivit de utero meo giganteo cursu olbrzymowym '''biegiem'''|-}}
+#* {{RQ:zlw-opl:Erz|3|c. 1500|'''Byeg''' cursus|'''Bieg''' cursus|-}}
+#* {{RQ:zlw-opl:JA|XII|144|XV p.post.|'''Byegi''' gressus|'''Biegi''' gressus|-}}
+# {{lb|zlw-opl|attested in|Masovia|Lesser Poland}} [[course]], [[channel]], [[riverbed]] {{gl|confine of a river}}
+#* {{RQ:zlw-opl:Sul|21|Bąndzeli plynyenye rzeki oth wlostnego byegv... odwroczono..., thedi wyącz '''byeeg''' rzeeki za granicze zawzdi ma ymyaan bycz|Będzieli płynienie rzeki ot włostnego biegu... odwrocono..., tedy więc '''bieg''' rzeki za granice zawżdy ma imian być|-}}
+#* {{RQ:zlw-opl:Dział|7|Gdyby rzeka moczą swą... opvszczywszy pyrwszy '''byeg''', gynszym '''byegyem''' syą obroczila, tedy ony brzegy, ktorimi pyrwey woda rzeky czekla, dzedzynam badą za granycze|Gdyby rzeka mocą swą... opuściwszy pirwszy '''bieg''', jinszym '''byegyem''' się obrociła, tedy ony brzegy, ktorymi pirwej woda rzeki ciekła, dziedzinam będą za granicę|-}}
+#* {{RQ:zlw-opl:MPKJ|V|85|1471|Na '''byegv''' rzecznem ad oram|Na '''biegu''' rzecznem ad oram|-}}
+# {{lb|zlw-opl|attested in|Łęczyca}} [[course]] {{gl|path of a celestial body}}
+#* {{RQ:zlw-opl:SKJ|V|265|XV med.|Mądry a na wyączey then, ysz  sze na gwyasdach rosumye a z gych '''byegu''' o przyydączych rzeczach [przepowiada] sapiens et maxime, qui astrorum cursus sciens ex tali cursu de futuris [predicit]|Mądry a nawięcej ten, jiż sie na gwiazdach rozumie a z jich '''biegu''' o przyjdących rzeczach [przepowiada] sapiens et maxime, qui astrorum cursus sciens ex tali cursu de futuris [predicit]|-}}
+#* {{RQ:zlw-opl:R|XXII|17|1466|Przechodzy rok w ocrądze pochodzącze '''byegy''' agit celeres annus in orbe rotas|Przechodzi rok w okrędze pochodzące '''biegi''' agit celeres annus in orbe rotas|-}}
+#* {{RQ:zlw-opl:Rozm|5|Przykazalesz ym, bych dzyerzely barzy '''byeg''' vczvyrdzenya nyebyoss|Przykazałeś im, bych[ą] dzierżeli barzy '''bieg''' ućwirdzenia niebios|-}}
+#* {{RQ:zlw-opl:R|XXV|151|XV med.|Nastaloscz nyebyeszkych '''byegow''' successio|Nastałość niebieskich '''biegow''' successio|-}}
+# {{lb|zlw-opl|attested in|Greater Poland|Masovia}} [[passage]] {{gl|of time, act of passing}}
+#* {{RQ:zlw-opl:PF|I|480|c. 1428|Theliko do yednego '''byegu''' roka tantum ad vnius anni decursum|Teliko do jednego '''biegu''' roka tantum ad vnius anni decursum|-}}
+#* {{RQ:zlw-opl:BZ|II Par|21, 19|Dzen ku dnyv przichodzil a chwyle czasu przed syø biezali, a dwye lecye syø popelnyle swim '''byegem'''|Dzień ku dniu przychodził a chwile czasu przed się bieżały, a dwie lecie się popełnile swym '''biegiem'''|-}}
+# [[way]], [[manner]]; [[course]], [[proceeding]]
+#* {{RQ:zlw-opl:R|XXII|335|XV p. pr.|Inter omnia necessaria est cognoscere euentagium kursum '''byeg''' in omnibus, quod in omnibus est fructus et dampnum|Inter omnia necessaria est cognoscere euentagium kursum '''bieg''' in omnibus, quod in omnibus est fructus et dampnum|-}}
+#* {{RQ:zlw-opl:R|XXIV|361|XV med.|Podlug '''biegu''' przyrodzonego secundum cursum nature|Podług '''biegu''' przyrodzonego secundum cursum nature|-}}
+#* {{RQ:zlw-opl:R|XXV|158|XV med.|In habitu glorie seculorum szweczkego '''byegu'''|In habitu glorie seculorum świeckiego '''biegu'''|-}}
+#* {{RQ:zlw-opl:R|XXV|160|XV med.|Procz '''begu''' pospolnego sine incubitu concepisse|Procz '''biegu''' pospolnego sine incubitu concepisse|-}}
+#* {{RQ:zlw-opl:Rozm|46|Dzyevycze porodzenye przez mąskyego dotknyenya nade wschytky prava przyrodzonego '''byegv'''|Dziewicze porodzenie przez męskiego dotknienia nade wszytki prawa przyrodzonego '''biegu'''|-}}
+# [[escape]], [[flight]] {{gl| act of fleeing}}
+#* {{RQ:zlw-opl:BZ|II Par|25, 8|Gestly mnysz, iszbi w moci wogenskey zalezalo wycyøstwo boia: przepuscy pan, abi bil przemozon od nyeprzyiacyol, bocz to [boga] gest wspomoci y na '''byeg''' obrocycz|Jestli mnisz, iżby w mocy wojeńskiej zależało wicięstwo boja, przepuści Pan, aby był przemożon od nieprzyjacioł, boć to [boże] jest wspomocy i na '''bieg''' obrocić|-}}
+# {{lb|zlw-opl|attested in|Lesser Poland}} [[invasion]], [[onslaught]]
+#* {{RQ:zlw-opl:Fl|90, 6|Ne *bodzesz se bacz od strachu nocznego, ... od '''byegu''' y dyabla przepoludnego|Nie będziesz sie bać od strachu nocnego, ... od '''biegu''' i dyjabła przepołudniego|-}}
+
+====Descendants====
+* {{desc|pl|bieg}}
+* {{desc|szl|biyg}}
+
+===References===
+* {{R:pl:Bańkowski}}
+* {{R:pl:Sławski}}
+* {{R:zlw-opl:SSP1953||86|2}}
+* {{R:zlw-opl:SPJSP||345}}
+* {{R:zlw-opl:Rozariusze|+|3351}}
+
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{ety|pl|:inh|zlw-opl:bieg|text=+|tree=1}}
+
+===Pronunciation===
+{{pl-pr|a=pl-bieg.ogg|hh=Bieg}}
+
+===Noun===
+{{pl-noun|m-in|adj=biegowy}}
+
+# {{lb|pl|uncountable}} [[run]], [[jog]] {{gl|fast movement propelled by one's legs}}
+## {{lb|pl|Middle Polish}} [[aspiration]], [[intention]]
+##: {{syn|pl|dążenie|zamiar}}
+# {{lb|pl|countable|athletics|sports}} [[race]], [[run]], [[sprint]] {{gl|competition in which the competitors run}}
+# {{lb|pl|uncountable}} [[course]], [[trajectory]], [[sequence]] {{gl|movement of some objects}}
+# {{lb|pl|uncountable}} [[course]], [[watercourse]] {{gl|direction of a body of flowing water, e.g. a river, stream, etc.}}
+# {{lb|pl|uncountable}} [[stretch]] {{gl|particular segment of a body of flowing water, e.g. a river, stream, etc.}}
+# {{lb|pl|uncountable}} [[course]] {{gl|succession of something developing over time}}
+#: {{syn|pl|przebieg}}
+# {{lb|pl|countable}} [[gear]] {{gl|configuration of the transmission of a machine}}
+#: {{syn|pl|przekładnia}}
+# {{lb|pl|countable|obsolete|hunting}} [[leg]] {{gl|lower limb of a game animal}}
+#: {{syn|pl|noga}}
+# {{lb|pl|uncountable|obsolete}} [[circulation]] {{gl|of currency, circulating coins; notes, bills, etc., current for coin}}
+#: {{syn|pl|kurs|obieg}}
+# {{lb|pl|uncountable|obsolete}} [[mode]] {{gl|rules of operation}}
+#: {{syn|pl|porządek|tryb}}
+# {{lb|pl|Middle Polish}} [[driving]] {{gl|movement of people by means of an external force}}
+#: {{syn|pl|jazda|podróż}}
+# {{lb|pl|Middle Polish}} [[escape]], [[flight]] {{gl|act of fleeing}}
+#: {{syn|pl|ucieczka}}
+
+====Usage notes====
+The genitive singular form {{m|pl|biega}} is dialectal.
+
+====Declension====
+{{pl-decl-noun-m-in|gens=biegu/biega}}
+
+====Derived terms====
+{{col|pl|title=adjective/adverb|na jałowym biegu}}
+{{col|pl|title=adverbs|biegiem|w biegu|z biegiem czasu}}
+{{col|pl|title=interjections|biega}}
+{{col|pl|title=nouns|bieg patrolowy|bieg rozstawny|skrzynia biegów|bieg po zdrowie}}
+{{pl-derived verbs|nadać bieg/nadawać bieg|zwolnić biegu/zwalniać biegu}}
+
+====Related terms====
+{{col|pl|title=adjectives|biegnikowy|biegły|biegunowy}}
+{{col|pl|title=adverbs|biegle|biegowo|biegunowo}}
+{{col|pl|title=nouns
+|biegacz
+|biegaczka
+|bieganina
+|biegnik
+|biegłość
+|biegówka
+|biegun
+|biegunka
+|biegunowość
+|biegus
+|biegły
+|biegła
+}}
+{{col|pl|title=verbs
+|[[biec]] {{g|impf}}, [[pobiec]] {{g|pf}}
+|biegać<g:impf>
+}}
+
+====Collocations====
+{{col-top|2|col}}
+* {{coi|pl|'''bieg''' po zdrowie|a '''run''' for health}}
+* {{coi|pl|długi '''bieg'''|a long '''run'''}}
+* {{coi|pl|forsowny'''bieg'''|a strenuous '''run'''}}
+* {{coi|pl|krótki '''bieg'''|a short '''run'''}}
+* {{coi|pl|męczący '''bieg'''|a tiring '''run'''}}
+* {{coi|pl|szaleńczy '''bieg'''|a crazy/mad '''run'''}}
+* {{coi|pl|szybki '''bieg'''|a fast '''run'''}}
+* {{coi|pl|zmęczony '''biegiem'''|tired after a '''run'''}}
+* {{coi|pl|spocony od '''biegu'''|sweaty after a '''run'''}}
+* {{coi|pl|zdyszany od '''biegu'''|out of breath after a '''run'''}}
+* {{coi|pl|zmęczyć się '''biegiem'''|to tire oneself '''running'''}}
+* {{coi|pl|'''bieg''' długodystansowy|a long-distance '''run'''}}
+* {{coi|pl|'''bieg''' krótki|a short '''sprint'''}}
+* {{coi|pl|'''bieg''' eliminacyjny|preliminary '''run'''}}
+* {{coi|pl|'''bieg''' maratoński|a marathon '''run'''}}
+* {{coi|pl|'''bieg''' sprinterski|a '''sprint'''}}
+* {{coi|pl|'''bieg''' narciarski|a ski '''run'''}}
+* {{coi|pl|'''bieg''' przełajowy|a cross-country '''run'''}}
+* {{coi|pl|'''bieg''' zjazdowy|a downhill '''run'''}}
+* {{coi|pl|'''bieg''' uliczny|a downhill '''run'''}}
+* {{coi|pl|'''bieg''' na sto metrów|a hundred-meter '''run'''}}
+* {{coi|pl|'''bieg''' na orientację|'''orienteering'''}}
+* {{coi|pl|'''bieg''' przez płotki|a hurdle '''race'''}}
+* {{coi|pl|'''bieg''' z przeszkodami|obstacle '''race'''}}
+* {{coi|pl|wygrać '''bieg'''|to win a '''race'''}}
+* {{coi|pl|z '''biegiem''' czasu|over time/over the '''course''' of time}}
+* {{coi|pl|'''bieg''' planet|the '''trajectory''' of planets}}
+* {{coi|pl|'''bieg''' pociągu|a train’s '''course'''}}
+* {{coi|pl|przyspieszyć  '''bieg'''|to '''expedite'''}}
+* {{coi|pl|zwolnić '''bieg'''|to '''slow''' things '''down'''}}
+* {{coi|pl|dalszy '''bieg''' czegoś|a further '''course'''}}
+* {{coi|pl|dotychczasowy '''bieg''' czegoś|the hitherto '''course''' of something/the '''course''' thus far}}
+* {{coi|pl|normalny '''bieg''' czegoś|the normal '''flow''' of something}}
+* {{coi|pl|'''bieg''' dziejów/historii|the '''course''' of history}}
+* {{coi|pl|'''bieg''' spraw|the '''order''' of things}}
+* {{coi|pl|'''bieg''' wydarzeń/wypadków/zdarzeń|the '''course''' of events}}
+* {{coi|pl|'''bieg''' życia|the '''course''' of life}}
+* {{coi|pl|'''bieg''' myśli|a '''train''' of thought}}
+* {{coi|pl|'''bieg''' czasu|the '''course''' of time}}
+* {{coi|pl|odwrócić '''bieg''' czegoś|to turn the '''tide''' of something}}
+* {{coi|pl|zmienić '''bieg''' czegoś|to change the '''course''' of something}}
+* {{coi|pl|wpłynąć na '''bieg''' czegoś|to affect the '''course''' of something}}
+* {{coi|pl|'''bieg''' rzeki|a river’s '''watercourse'''}}
+* {{coi|pl|'''bieg''' strumienia|a stream’s '''watercourse'''}}
+* {{coi|pl|iść/płynąć z '''biegiem''' czegoś|to go with the (physical) '''flow''' of something/to go downstream}}
+* {{coi|pl|pierwszy '''bieg'''|first '''gear'''}}
+* {{coi|pl|wsteczny  '''bieg'''|reverse '''gear'''}}
+* {{coi|pl|bezpośredni '''bieg'''|fast '''gear'''}}
+* {{coi|pl|jałowy '''bieg'''|'''idle'''}}
+* {{coi|pl|zredukować '''bieg'''|to shift down a '''gear'''/to downshift}}
+* {{coi|pl|włączyć  '''bieg'''|to shift into a '''gear'''}}
+* {{coi|pl|wrzucić  '''bieg'''|to put into '''drive'''}}
+* {{coi|pl|zmienić '''bieg'''|to shift '''gears'''}}
+* {{coi|pl|ruszyć/ruszać na (pierwszym/wstecznym) '''bieg'''|to put into (first/reverse) '''gear'''}}
+{{col-bottom}}
+
+===Further reading===
+* {{R:pl:WSJP||16468}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|43895}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||149|1}}
+
+{{C|pl|Automotive|Exercise}}
+
+==Volapük==
+
+===Noun===
+{{vo-noun}}
+
+# an act of [[reverence]]
+
+====Declension====
+{{vo-decl-noun}}

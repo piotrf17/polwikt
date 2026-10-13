@@ -21,6 +21,14 @@
    "relations": [
     {
      "term": "nad-",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nade",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "term": "nad-",
      "type": "TYPE_HOMOPHONE"
     }
    ],

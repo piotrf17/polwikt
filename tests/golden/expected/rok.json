@@ -234,6 +234,170 @@
    ],
    "relations": [
     {
+     "term": "roczek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "coroczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "roczkowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznicowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznikarski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznikowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "roczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak rok długi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok w rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z roku na rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznicowo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznikowo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tak rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "do siego roku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok akademicki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Nowy Rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pora roku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok Pański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok przestępny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok szkolny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok świetlny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rok zerowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "roczba",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "archaic"
+     ],
+     "term": "roczeń",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "roczniaczek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "roczniak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznikarstwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rocznikarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "rocznokrąg",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "roczność",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "roczyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rokować",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zostawać na drugi rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zostać na drugi rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rzec",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "rock",
      "type": "TYPE_HOMOPHONE"
     },
@@ -262,7 +426,7 @@
       "by extension"
      ],
      "topics": [
-      "astronomy"
+      "Astronomy"
      ]
     },
     {
@@ -303,7 +467,7 @@
       "obsolete"
      ],
      "topics": [
-      "law"
+      "Law"
      ]
     }
    ],

@@ -299,6 +299,16 @@
      "ipa": "/pɔˈvi.ɲɛn/"
     }
    ],
+   "relations": [
+    {
+     "term": "powinny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powinność",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "gloss": "ought; should (indicating duty or obligation)",

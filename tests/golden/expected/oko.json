@@ -146,6 +146,876 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "oczko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "oczysko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "bezoki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "błękitnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brązowooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bystrooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ciemnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czarnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jasnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jednooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kosooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "modrooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niebieskooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "olbrzymiooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "orlooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pawiooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pięknooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piwnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ponurooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "siwooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "skośnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "słodkooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sowiooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "srebrnooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szarooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wielkooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wielooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaoczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zielonooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złotooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żółtooki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez mrugnięcia okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez zmrużenia oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "choć oko wykol",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "że oko wykol",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gdzie oczy poniosą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gołym okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak oka w głowie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak okiem sięgnąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kątem oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na piękne oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na własne oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oko w oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pi razy oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poza oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prosto w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spod oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w cztery oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z łezką w oku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z przymrużeniem oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z zamkniętymi oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kij w oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "argusowe oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bawole oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złotook",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cierń w oku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dno oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duże niebieskie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kącik oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "klapki na oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kurwiki w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mgnienie oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nieuzbrojone oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oko cyklonu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oko miarowe",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podkrążone oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozbiegane oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rybie oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sińce pod oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sokole oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tygrysie oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uzbrojone oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wole oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "złe oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żabie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żabie oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na moje oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy błyszczą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szkiełko i oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pod okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oko za oko, ząb za ząb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "źdźbło w oku bliźniego widzisz, a belki w swoim nie dostrzegasz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biednemu zawsze wiatr w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co z oczu, to z serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czego oczy nie widzą, tego sercu nie żal",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kruk krukowi oka nie wykole",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pańskie oko konia tuczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prawda w oczy kole",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "strach ma wielkie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bać się spojrzeć w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bić w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "błysnąć w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "błyskać w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "błyszczeć w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być solą w oku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "całe życie stanęło przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "całe życie staje przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dwoić się w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gryźć w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kłuć w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "latać przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łuski spadły z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łuski spadają z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łza się w oku zakręciła",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łza się w oku kręci",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łzy stanęły w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łzy stają w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć bielmo na oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć na oku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć obłęd w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć oczy szeroko otwarte",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć rentgen w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć wypisane na twarzy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mienić się w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "móc spojrzeć w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "napaść oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "paść oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nawet okiem nie mrugnąć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie odrywać oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie uwierzyć własnym oczom",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wierzyć własnym oczom",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie widzieć na oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gdzie oczy podziać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie zmrużyć oka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy ciskają błyskawice",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy otworzyły się",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy otwierają się",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy się kleją",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy się zaśmiały",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy się śmieją",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy stanęły w słup",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy stają w słup",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy wyszły na wierzch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy wychodzą na wierzch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy zabłysły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy zaszły mgłą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy zachodzą mgłą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oczy zaświeciły się",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "oko zbielało",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "otworzyć oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "otwierać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "patrzeć krzywym okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podbić oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podbijać oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podsunąć pod nos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podsuwać pod nos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "popatrzyć innymi oczyma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "patrzeć innymi oczyma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "postawić oczy w słup",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stawiać oczy w słup",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przecierać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejrzeć na oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przewrócić oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przewracać oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przymknąć oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przymykać oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "puścić oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "puszczać oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić maślane oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozbierać wzrokiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rwać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rzucać się w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rzucić okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rzucać okiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "skoczyć do oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "skakać do oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spać z jednym okiem otwartym",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spędzić sen z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spędzać sen z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spojrzał prawdzie w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stanąć przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stawać przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stracić z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tracić z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "strzelać oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "strzyc oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "sypać piaskiem w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "świecić oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "świeczki stanęły w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "świeczki stają w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "urosnąć w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rosnąć w oczach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "włazić w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wpaść w oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wpadać w oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypatrywać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypłakać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypłakiwać oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrzeszczyć oczy na",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wytrzeszczać oczy na",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zajrzeć śmierci w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaglądać śmierci w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zajrzeć w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaglądać w oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamknąć oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamydlić oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mydlić oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaszklić oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szklić oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zawiesić oko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zdjąć bielmo z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zdejmować bielmo z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zejść z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "schodzić z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zniknąć z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "znikać z oczu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zobaczyć oczyma wyobraźni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "widzieć oczyma wyobraźni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić się ciemno przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić się ciemno przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić wielkie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić wielkie oczy",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -171,7 +1041,7 @@
       }
      ],
      "topics": [
-      "anatomy"
+      "Anatomy"
      ]
     },
     {
@@ -489,7 +1359,7 @@
       }
      ],
      "topics": [
-      "card games"
+      "Card games"
      ]
     },
     {
@@ -513,7 +1383,7 @@
       "colloquial"
      ],
      "topics": [
-      "sailing"
+      "Sailing"
      ]
     },
     {
@@ -528,7 +1398,7 @@
       "colloquial"
      ],
      "topics": [
-      "sailing"
+      "Sailing"
      ]
     },
     {
@@ -545,7 +1415,7 @@
       "countable"
      ],
      "topics": [
-      "meteorology"
+      "Meteorology"
      ]
     },
     {

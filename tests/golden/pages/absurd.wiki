@@ -1,0 +1,646 @@
+{{also|absúrd|absürd}}
+==English==
+
+===Etymology===
+{{root|en|ine-pro|*swer- (swear)}}
+First attested in 1557. From {{bor|en|frm|absurde}}, from {{der|en|la|absurdus||[[incongruous]], dissonant, out of tune}},<ref name=RHD>{{R:RHCD|page=7}}</ref> from {{m|la|ab||away from, out}} + {{m|la|surdus||silent, deaf, dull-sounding}}.<ref name=WI3>{{R:MW3 1976|page=8}}</ref> Compare {{m|en|surd}}.
+
+===Pronunciation===
+* {{IPA|en|/əbˈsɜːd/|/əbˈzɜːd/|a=RP}}
+* {{IPA|en|/əbˈsɚd/|/əbˈzɚd/|/æbˈsɚd/|/æbˈzɚd/|a=<<GA>>, <<Canada>>}}
+** {{audio|en|en-us-absurd.ogg|a=US}}
+* {{rhymes|en|ɜː(ɹ)d|s=2}}
+
+===Adjective===
+{{en-adj|er,more}}
+
+# Contrary to reason or [[propriety]]; [[obviously]] and [[flatly]] opposed to [[manifest]] truth; [[inconsistent]] with the plain [[dictates]] of common sense; [[logically]] [[contradictory]]; [[nonsensical]]; [[ridiculous]]; silly. {{defdate|from mid-16th c.}}<ref name=SOED>{{R:SOED5|page=10}}</ref>
+#: {{syn|en|foolish|irrational|ridiculous|preposterous|ludicrous}}
+#* {{RQ:Shakespeare 6-1|V|iv|text=This proffer is '''absurd''' and reasonless.}}
+#* {{RQ:Pope Essay on Man|epistle=IV|text='Tis phrase '''absurd''' to call a villain great}}
+#* {{RQ:Maxwell Mirror and the Lamp|chapter=17|passage=“Perhaps it is because I have been excommunicated. It's '''absurd''', but I feel like the Jackdaw of Rheims.”&nbsp;¶&nbsp;She winced and bowed her head. Each time that he spoke flippantly of the Church he caused her pain.}}
+#* {{quote-song
+|en
+|lyricist=Roger Hodgson
+|title=The Logical Song
+|album=Breakfast in America
+|artist=Supertramp
+|year=1979
+|passage=I know it sounds '''absurd''' / But please, tell me who I am}}
+# {{lb|en|obsolete}} [[inharmonious|Inharmonious]]; [[dissonant]]. {{defdate|only early 17th c.}}<ref name=SOED/>
+#: {{syn|en|inconsistent|incongruous}}
+# Having no [[rational]] or [[orderly]] relationship to people's lives; [[meaningless]]; lacking order or value.
+#* {{quote-journal|en|passage=Adults have condemned them to live in what must seem like an '''absurd''' universe.|author=Joseph Featherstone|title=A New Kind of Schooling|work=The New Republic|date=March 2, 1968}}
+# Dealing with [[absurdism]].
+
+====Usage notes====
+* In the comparative and superlative degrees, the forms ''more absurd'' and ''most absurd'' are usually preferred over {{m|en|absurder}}, {{m|en|absurdest}}.
+* Webster 1913 has the sole definition "Contrary to reason or propriety; obviously and flatly opposed to manifest truth; inconsistent with the plain dictates of common sense; logically contradictory; nonsensical; ridiculous; as, an absurd person, an absurd opinion; an absurd dream."
+
+====Synonyms====
+* See also [[Thesaurus:absurd]]
+
+====Derived terms====
+{{col|en|absurdification|absurdify|absurdness|nonabsurd|unabsurd|absurdly|absurdity|Absurdistan|reduction to the absurd}}
+
+====Collocations====
+{{col-top|2|col}}
+* absurd idea
+* absurd thing
+* absurd notion
+* absurd story
+* absurd result
+* absurd consequence
+* absurd practice
+* absurd way
+* absurd manner
+* absurd figure
+* absurd thought
+* absurd question
+* absurd situation
+* absurd world
+* absurd desire
+{{col-bottom}}
+
+====Translations====
+{{trans-top|contrary to reason or propriety}}
+* Albanian: {{t+|sq|absurd}}
+* Arabic: {{t|ar|عَبَثِيّ|m}}, {{t|ar|سَخِيف|m}}
+* Armenian: {{t+|hy|անհեթեթ}}, {{t+|hy|աբսուրդ}}
+* Belarusian: {{t|be|абсу́рдны}}, {{t|be|недарэ́чны}}, {{t|be|бязглу́зды}}
+* Bulgarian: {{t+|bg|абсу́рден}}, {{t+|bg|неле́п}}, {{t+|bg|безсми́слен}}
+* Catalan: {{t+|ca|absurd}}
+* Chinese:
+*: Hokkien: {{t+|nan-hbl|譀古}}
+*: Mandarin: {{t+|cmn|荒謬|tr=huāngmiù}}, {{t+|cmn|荒唐|tr=huāngtáng}}, {{t+|cmn|荒誕|tr=huāngdàn}}, {{qualifier|literary}} {{t+|cmn|悖謬|tr=bèimiù}}
+* Czech: {{t+|cs|absurdní}}
+* Danish: {{t|da|absurd}}, {{t|da|meningsløs}}, {{t|da|forrykt}}, {{t|da|åndssvag}}
+* Dutch: {{t+|nl|absurd}}
+* Esperanto: {{t+|eo|absurda}}
+* Estonian: {{t+|et|absurdne}}, {{t|et|mõttetu}}
+* Finnish: {{t+|fi|absurdi}}, {{t+|fi|järjetön}}
+* French: {{t+|fr|absurde}}
+* Galician: {{t+|gl|absurdo}}
+* Georgian: {{t+|ka|აბსურდული}}, {{t|ka|უაზრო}}, {{t|ka|მცდარი}}
+* German: {{t+|de|absurd}}
+* Greek: {{t+|el|παράλογος}}
+* Hebrew: {{t+|he|אבסורד}}
+* Hungarian: {{t+|hu|abszurd}}
+* Ido: {{t+|io|absurda}}
+* Indonesian: {{t|id|tak masuk akal}}, {{t+|id|absurd}}
+* Interlingua: {{t|ia|absurde}}
+* Italian: {{t+|it|assurdo}}
+* Japanese: {{t+|ja|馬鹿らしい|tr=bakarashii}}, {{t+|ja|愚か|tr=oroka}}, {{t+|ja|荒唐|tr=こうとうな, kōtō na|alt=荒唐な}}
+* Khmer: {{t+|km|ផ្ដាស}}, {{t+|km|ព្រើល}}
+* Korean: {{t|ko|황당하다}}, {{t|ko|불합리하다}}
+* Latin: {{t+|la|absurdus}}
+* Latvian: {{t|lv|absurds}}, {{t|lv|bezjēdzīgs}}
+* Macedonian: {{t|mk|апсурден}}
+* Manx: {{t|gv|meecheeallagh}}
+* Māori: {{t|mi|haraki}}
+* Mongolian: {{t|mn|[[учир]] [[утга]][[-гүй|гүй]]}}
+* Norwegian:
+*: Bokmål: {{t+|nb|absurd}}, {{t|nb|meningsløs}}, {{t+|nb|tåpelig}}
+*: Nynorsk: {{t|nn|absurd}}, {{t|nn|meiningslaus}}
+* Plautdietsch: {{t|pdt|onveninftich}}
+* Polish: {{t+|pl|absurdalny}}, {{t+|pl|niedorzeczny}}, {{t+|pl|bezsensowny}}
+* Portuguese: {{t+|pt|absurdo}}
+* Romanian: {{t+|ro|absurd}}, {{t+|ro|irațional}}
+* Russian: {{t+|ru|абсу́рдный}}, {{t+|ru|неле́пый}}
+* Scottish Gaelic: {{t|gd|amaideach}}
+* Serbo-Croatian: {{t+|sh|bèsmislen}}
+* Slovak: {{t+|sk|absurdný}}
+* Slovene: {{t|sl|absúrden}}
+* Spanish: {{t+|es|absurdo}}
+* Swedish: {{t+|sv|absurd}}, {{t+|sv|befängd}}
+* Thai: {{t+|th|บ้า}}
+* Turkish: {{t+|tr|absürt}}, {{q|psychology etc, neologism}}, {{t+|tr|saçma}}, {{t+|tr|saçmalık}}, {{t|tr|ipe sapa gelmez}} {{qualifier|idiomatic}}, {{t+|tr|abes}}
+* Ukrainian: {{t+|uk|абсу́рдний}}, {{t+|uk|безглу́здий}}
+* Vietnamese: {{t+|vi|hoang đường}}
+* Yiddish: {{t|yi|אַבסורד}}
+{{trans-bottom}}
+
+===Noun===
+{{en-noun}}
+{{wp|+ism}}
+
+# {{lb|en|obsolete}} An [[absurdity]]. {{defdate|early 17th|mid 17th c.}}<ref name=SOED/>
+# {{lb|en|philosophy|often preceded by {{m|en|the}}}} The opposition between the human search for [[meaning]] in life and the inability to find any; the state or condition in which man exists in an [[irrational]] [[universe]] and his life has no meaning outside of his existence. {{defdate|from early 20th century in English}}<ref name=SOED/><ref>[http://plato.stanford.edu/entries/kierkegaard/ "Søren Kierkegaard" in ''The Stanford Encyclopedia of Philosophy'']</ref>
+
+====Derived terms====
+* {{w|Theatre of the Absurd}}
+
+====Translations====
+{{trans-top|obsolete: an absurdity}}
+* Bulgarian: {{t+|bg|абсу́рд|m}}
+* Danish: {{t|da|absurditet|c}}
+* Dutch: {{t+|nl|absurd|n}}
+* Finnish: {{t|fi|absurditeetti}}
+* Hungarian: {{t+|hu|abszurdum}}
+* Macedonian: {{t|mk|апсурд|m}}
+* Norwegian:
+*: Bokmål: {{t+|nb|absurditet|m}}, {{t+|nb|absurdisme|m}}
+* Polish: {{t+|pl|absurd|m-in}}, {{t+|pl|niedorzeczność|f}}, {{t+|pl|bezsens|m}}, {{t+|pl|nonsens|m}}, {{t+|pl|bzdura|f}}, {{t+|pl|brednia|f}}, {{t+|pl|bajda|f}}
+* Portuguese: {{t+|pt|absurdo|m}}
+* Romanian: {{t+|ro|absurd}}
+* Russian: {{t+|ru|абсу́рд|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|а̀псурд|m}}
+*: Latin: {{t+|sh|àpsurd|m}}
+* Spanish: {{t+|es|absurdo|m}}
+{{trans-bottom}}
+
+{{trans-top|that which is absurd}}
+* Bulgarian: {{t+|bg|абсурд}}, {{t+|bg|нелепост}}
+* Danish: {{t|da|absurditet|c}}
+* Japanese: {{t+|ja|愚鈍|tr=ぐどん, gudon}}
+* Norwegian:
+*: Bokmål: {{t+|nb|absurditet|m}}
+* Portuguese: {{t+|pt|absurdo|m}}
+* Russian: {{t+|ru|абсу́рд|m}}, {{t+|ru|неле́пость|f}}
+* Spanish: {{t+|es|absurdo}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+{{trans-bottom}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:Webster 1913}}
+* {{R:Century}}
+* {{R:OneLook}}
+* {{R:MWO}}
+* {{R:AHD}}
+* {{R:Collins}}
+* {{R:Macmillan}}
+
+===Anagrams===
+* {{anagrams|en|a=abdrsu|Brauds|Burdas}}
+
+==Catalan==
+
+===Etymology===
+{{ety|ca|:lbor|la:absurdus}}
+{{lbor|ca|la|absurdus}}.
+
+===Pronunciation===
+* {{ca-IPA}}
+* {{audio|ca|LL-Q7026 (cat)-Marvives-absurd.wav|a=Barcelona}}
+* {{rhymes|ca|uɾt|s=2}}
+
+===Adjective===
+{{ca-adj}}
+
+# {{l|en|absurd}}
+
+====Derived terms====
+* {{l|ca|absurdament}}
+
+====Related terms====
+* {{l|ca|absurditat}}
+* {{l|ca|sord}}
+
+===Noun===
+{{ca-noun|m}}
+
+# [[absurdity]]
+
+===Further reading===
+* {{R:ca:IEC2}}
+* {{R:ca:GDLC}}
+* {{R:ca:DNV}}
+* {{R:ca:DCVB}}
+
+==Danish==
+
+===Etymology===
+Borrowed from {{bor|da|la|absurdus||discordant, unreasonable}}.
+
+===Pronunciation===
+* {{IPA|da|/absurd/|[ɑbˈsuɐ̯ˀd̥]}}
+
+===Adjective===
+{{da-adj|absurd|absurde}}
+
+# {{l|en|absurd}}
+
+===Adverb===
+{{da-adv}}
+
+# [[absurdly]]
+
+====Derived terms====
+* {{l|da|absurditet}}
+
+==Dutch==
+
+===Etymology===
+Borrowed from {{bor|nl|frm|absurde}}, from {{der|nl|la|absurdus}}.
+
+===Pronunciation===
+* {{IPA|nl|/ɑpˈsʏrt/}}
+* {{audio|nl|Nl-absurd.ogg}}
+* {{hyphenation|nl|ab|surd}}
+* {{rhyme|nl|ʏrt}}
+
+===Adjective===
+{{nl-adj}}
+
+# {{l|en|absurd}}
+
+====Declension====
+{{nl-decl-adj|absurde}}
+
+====Related terms====
+* {{l|nl|absurdisme}}
+* {{l|nl|absurditeit}}
+
+====Descendants====
+* {{desc|id|bor=1|absurd}}
+
+==German==
+
+===Etymology===
+{{ety|de|:bor|la:absurdus}}
+{{bor+|de|la|absurdus}}.
+
+===Pronunciation===
+* {{IPA|de|/apˈzʊʁt/}}
+* {{audio|de|De-absurd.ogg}}
+* {{audio|de|De-absurd2.ogg|a=<<Germany>> (<<Berlin>>)}}
+
+===Adjective===
+{{de-adj|comp}}
+
+# [[#English|absurd]]
+#: {{syn|de|widersinnig}}
+
+====Declension====
+{{de-adecl|comp}}
+
+====Related terms====
+* {{l|de|Absurdismus}}
+* {{l|de|Absurdität}}
+
+====Descendants====
+* {{desc|bg|абсу́рд|bor=1}}
+
+===Further reading===
+* {{R:de:Duden}}
+* {{R:de:DWDS}}
+
+==Indonesian==
+
+===Etymology===
+From {{bor|id|nl|absurd}}, from {{der|id|frm|absurde}}, from {{der|id|la|absurdus}}.
+
+===Pronunciation===
+{{id-pr|rhyme=0}}
+
+===Adjective===
+{{id-adj}}
+
+# {{l|en|absurd}}
+
+====Derived terms====
+{{col|id
+|keabsurdan|t1=absurdness, absurdity
+|seabsurd|t2=as absurd as
+|terabsurd|t3=absurdest
+}}
+
+====Related terms====
+{{col|id
+|absurdisme
+|absurditas
+}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Kashubian==
+
+===Etymology===
+{{ety|csb|:bor|pl:absurd|text=+|tree=1}}
+
+===Pronunciation===
+{{csb-pr}}
+
+===Noun===
+{{csb-noun|m-in}}
+
+# [[absurdity]], [[nonsense]]
+#: {{syn|csb|bezsens}}
+
+====Derived terms====
+{{col|csb|title=adjective|absurdalny}}
+
+===Further reading===
+* {{R:csb:Trepczyk:1994|absurd}}
+* {{R:csb:SPK|absurd}}
+* {{R:csb:ISKJ|+|18092}}
+
+==Luxembourgish==
+
+===Etymology===
+From {{der|lb|de|absurd}}, from {{der|lb|la|absurdus}}.
+
+===Pronunciation===
+* {{IPA|lb|/ɑpˈzuʀt/|[ɑpˈzuχt]}}
+
+===Adjective===
+{{lb-adj}}
+
+# {{l|en|absurd}}
+
+====Declension====
+{{lb-decl-adj|t}}
+
+====Related terms====
+* {{l|lb|Absurditéit}}
+
+==Malay==
+
+===Etymology===
+{{bor+|ms|en|absurd}}.
+
+===Pronunciation===
+* {{IPA|ms|[ɛp̚.sət̚]|a=English-based}}
+** {{audio|ms|LL-Q9237 (msa)-GinormousBuildings-absurd (EB).wav|a=Malaysia}}
+** {{rhymes|ms|sət|ət|s2=2}}
+* {{IPA|ms|[ap̚.su(r)t̚]|a=spelling-based}}
+** {{audio|ms|LL-Q9237 (msa)-GinormousBuildings-absurd (SB).wav|a=Malaysia}}
+** {{rhymes|ms|surd|urd|s2=2}}
+* {{hyph|ms|ab|surd}}
+
+===Adjective===
+{{ms-adj|j=ابسورد}}
+
+# {{l|en|absurd}}
+#: {{syn|ms|mustahil}}
+
+===Further reading===
+* {{R:PRPM}}
+
+==Norwegian Bokmål==
+
+===Etymology===
+{{root|nb|ine-pro|*swer- (swear)}} {{root|nb|ine-pro|*swer-}}
+From {{der|nb|la|absurdus||incongruous, dissonant, out of tune}}, from '''both''' {{m|la|ab-||from, away from, off}}, from {{der|nb|la|ab||from, away from, on, in}}, from {{der|nb|itc-pro|*ab}}, from {{der|nb|ine-pro|*h₂epó||off, away}} + '''and''' from {{m|la|surdus||silent, deaf, dull-sounding}}, from {{der|nb|ine-pro|*swer-||to resound; ringing, whistling}}.
+
+===Pronunciation===
+* {{IPA|nb|/abˈsʉɖ/|/abˈsʉʁd/|/apˈsʉɖ/|/apˈsʉʁd/}}
+* {{audio|nb|nb-absurd.ogg}}
+* {{rhymes|nb|ʉɖ|ʉʁd|ʉrd}}
+* {{hyph|nb|ab|surd}}
+
+===Adjective===
+{{head|nb|adjective|neuter singular|absurd|definite singular and plural|absurde|comparative|[[mer]] [[absurd]]|superlative|[[mest]] [[absurd]]}}
+
+# {{l|en|absurd}} {{q|contrary to reason or [[propriety]]; [[obviously]] and [[flatly]] opposed to [[manifest]] truth}}
+#: {{syn|nb|fornuftsstridig|meningsløs|irrasjonell}}
+#: {{ux|nb|et '''absurd''' spørsmål|an absurd question}}
+#: {{ux|nb|dette er jo ganske '''absurd'''|this is quite absurd}}
+#* {{quote-book|nb|year=1882|author=w:Henrik Ibsen|title=En folkefiende|page=164|passage=absurde traditioner|t=absurd traditions}}
+#* {{quote-book|nb|year=1907|author=w:Alexander L. Kielland|title=Samlede værker II (Mindeutgave)|page=67|passage=en saa absurd forbindelse – med en stor rødhaaret bondepige|t=such an absurd connection - with a big red-haired peasant girl}}
+#* {{quote-book|nb|year=2000|author=w:Trude Marstein|title=Plutselig høre noen åpne en dør|page=188|passage=situasjonen er absurd, tenker jeg|t=the situation is absurd, I think}}
+#* {{quote-book|nb|year=1997|author=Espen Schaanning|title=Vitenskap som skapt viten|page=66|passage=radikalt nye innfallsvinkler og synsmåter står alltid i fare for å framtre som absurde og paradoksale|t=radically new approaches and views are always in danger of appearing absurd and paradoxical}}
+#* {{quote-book|nb|year=1999|author=Elsbeth Wessel|title=Wien|page=288|passage=[keiser Frans Josef] var en ensom mann, resignert, men fylt av en nesten absurd pliktfølelse|t=[Emperor Francis Joseph] was a lonely man, resigned, but filled with an almost absurd sense of duty}}
+#* {{quote-book|nb|year=2006|author=w:Lars Roar Langslet|title=Når fuglen letter|page=11|passage=i billedkunsten er det åpenbart absurd å tale om noe fremskritt|t=in the visual arts, it is obviously absurd to talk about any progress}}
+# {{lb|nb|theater|literary sciences}} [[absurdist]] {{q|of or relating to absurdism}}
+#: {{syn|nb|absurdistisk}}
+#* {{quote-book|nb|year=1982|author=w:Torolf Elster|title=Thomas Pihls annen lov|page=40|passage=en absurd komedie eller et absurd melodrama|t=an absurd comedy or an absurd melodrama}}
+#* {{quote-book|nb|year=1991|author=w:Åsfrid Svensen|title=Orden og kaos|page=326|passage=i absurd litteratur mangler gjerne motsetningen mellom normalitet og fantastikk|t=in absurd literature, the contrast between normality and fantastic is often lacking}}
+#* {{quote-book|nb|year=1998|author=w:Kjetil Rolness|title=Elvis Presley|page=37|passage=framførelsen nærmer seg grensen til absurd komikk|t=the performance is approaching the limit of absurd comedy}}
+#* {{quote-book|nb|year=1976|author=w:Leif Longum|title=Å lese skuespill|page=122|passage=ordenes sammenbrudd, som kanskje er det viktigste fellestema ved det absurde teater|t=the breakdown of words, which is perhaps the most important common theme of the absurd theater}}
+
+====Derived terms====
+{{col4|nb
+|absurditet
+|absurdistisk
+|absurdteater
+|absurdisme
+|absurdist
+|ad absurdum
+|in absurdum
+}}
+
+===References===
+* {{R:nb:OB}}
+* {{R:nb:NAOB}}
+* “[http://www.snl.no/absurd absurd]” in ''Store norske leksikon''
+
+===Anagrams===
+* {{anagrams|nb|a=abdrsu|bardus}}
+
+==Norwegian Nynorsk==
+
+===Etymology===
+Borrowed from {{bor|nn|la|absurdus}}.
+
+===Adjective===
+{{head|nn|adjective|neuter singular|absurd|definite singular and plural|absurde}}
+
+# {{l|en|absurd}}
+
+====Related terms====
+* {{l|nn|absurditet}}
+
+===References===
+* {{R:nn:OB}}
+
+==Polish==
+{{wp|pl:}}
+
+===Alternative forms===
+* {{alt|pl|absurdum||obsolete}}
+
+===Etymology===
+{{ety|pl|:lbor|la:absurdus<ref:{{R:pl:WSWO}} !!! {{R:pl:Bańkowski}} !!! {{R:pl:SJPD}}>|text=+|tree=1|etydate=1564<ref:{{R:pl:SXVI|absurdum|5176}}>}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-absurd.ogg}}
+
+===Noun===
+{{pl-noun|m-in|dim=absurdzik}}
+
+# [[absurdity]], [[nonsense]]
+#: {{syn|pl|Thesaurus:nonsens}}
+#: {{uxi|pl|Jego propozycje to jeden wielki '''absurd'''.|His suggestions are one big load of '''nonsense'''.}}
+# {{lb|pl|logic}} [[absurdity]]
+
+====Declension====
+{{pl-decl-noun-m-in}}
+
+====Derived terms====
+{{col|pl|title=adjective|absurdalny}}
+{{col|pl|title=noun|absurdyzm}}
+
+====Related terms====
+{{col|pl|title=adjective|absurdystyczny}}
+{{col|pl|title=adverb|absurdalnie}}
+{{col|pl|title=nouns|absurdalista|absurdalizacja|absurdalność|absurdysta}}
+{{col|pl|title=verb
+|absurdalizować<g:impf>
+}}
+
+====Collocations====
+{{col-top|2|col}}
+* {{coi|pl|kompletny '''absurd'''|complete '''absurdity'''}}
+* {{coi|pl|totalny '''absurd'''|total '''absurdity'''}}
+* {{coi|pl|czysty '''absurd'''|pure '''absurdity'''}}
+* {{coi|pl|zupełny '''absurd'''|utter '''absurdity'''}}
+* {{coi|pl|biurokratyczny '''absurd'''|bureaucratic '''absurdity'''}}
+* {{coi|pl|piramidalny '''absurd'''|pyramidal '''absurdity'''}}
+* {{coi|pl|urzędniczy '''absurd'''|bureaucratic '''absurdity'''}}
+* {{coi|pl|oczywisty '''absurd'''|obvious '''absurdity'''}}
+* {{coi|pl|jawny '''absurd'''|sheer '''absurdity'''}}
+* {{coi|pl|całkowity '''absurd'''|utter '''absurdity'''}}
+* {{coi|pl|cenowy '''absurd'''|'''absurdity''' of prices}}
+* {{coi|pl|absolutny '''absurd'''|absolute '''absurdity'''}}
+* {{coi|pl|pełny '''absurd'''|full of '''absurdity'''}}
+* {{coi|pl|ekonomiczny '''absurd'''|economic '''absurdity'''}}
+* {{coi|pl|krwawy '''absurd'''|bloody '''absurdity'''}}
+* {{coi|pl|tragiczny '''absurd'''|tragic '''absurdity'''}}
+* {{coi|pl|logiczny '''absurd'''|logical '''absurdity'''}}
+* {{coi|pl|zwykły '''absurd'''|sheer '''absurdity'''}}
+* {{coi|pl|drogowy '''absurd'''|road '''absurdity'''}}
+* {{coi|pl|komunistyczny '''absurd'''|communist '''absurdity'''}}
+* {{coi|pl|śmieszny '''absurd'''|ridiculous '''absurdity'''}}
+* {{coi|pl|prawdziwy '''absurd'''|real '''absurdity'''}}
+* {{coi|pl|wielki '''absurd'''|great '''absurdity'''}}
+* {{coi|pl|chory '''absurd'''|sick '''absurdity'''}}
+* {{coi|pl|'''absurd''' prawny|legal '''absurdity'''}}
+* {{coi|pl|'''absurd''' gospodarczy|economic '''absurdity'''}}
+* {{coi|pl|granica '''absurdu'''|borderline '''absurdity'''}}
+* {{coi|pl|teatr '''absurdu'''|theater of '''absurdity'''}}
+* {{coi|pl|kraina '''absurdu'''|land of '''absurdity'''}}
+* {{coi|pl|spirala '''absurdu'''|spiral of '''absurdity'''}}
+* {{coi|pl|szczyt '''absurdu'''|peak of '''absurdity'''}}
+* {{coi|pl|poetyka '''absurdu'''|poetics of '''absurdity'''}}
+* {{coi|pl|nagromadzenie '''absurdu'''|accumulation of '''absurdity'''}}
+* {{coi|pl|poczucie '''absurdu'''|sense of '''absurdity'''}}
+* {{coi|pl|pogranicze '''absurdu'''|borderline '''absurdity'''}}
+* {{coi|pl|komedia '''absurdu'''|comedy of '''absurdity'''}}
+* {{coi|pl|wyczucie '''absurdu'''|sense of '''absurdity'''}}
+* {{coi|pl|poziom '''absurdu'''|level of '''absurdity'''}}
+* {{coi|pl|teatrzyk '''absurdu'''|theater of '''absurdity'''}}
+* {{coi|pl|skraj '''absurdu'''|edge of '''absurdity'''}}
+* {{coi|pl|dawka '''absurdu'''|dose of '''absurdity'''}}
+* {{coi|pl|wyżyny '''absurdu'''|thheights of '''absurdity'''}}
+* {{coi|pl|znamię '''absurdu'''|mark of '''absurdity'''}}
+* {{coi|pl|stek '''absurdów'''|bunch of '''absurdities'''}}
+* {{coi|pl|dramat '''absurdu'''|drama of '''absurdity'''}}
+* {{coi|pl|mnożenie '''absurdu'''|multiplication of '''absurdity'''}}
+* {{coi|pl|rekord '''absurdu'''|record of '''absurdity'''}}
+* {{coi|pl|piramida '''absurdu'''|pyramid of '''absurdity'''}}
+* {{coi|pl|sfera '''absurdu'''|realm of '''absurdity'''}}
+* {{coi|pl|natężenie '''absurdu'''|intensity of '''absurdity'''}}
+* {{coi|pl|świat '''absurdu'''|world of '''absurdity'''}}
+* {{coi|pl|dno '''absurdu'''|bottom of '''absurdity'''}}
+* {{coi|pl|humor '''absurdu'''|humor of '''absurdity'''}}
+* {{coi|pl|miłośnik '''absurdu'''|lover of '''absurdity'''}}
+* {{coi|pl|logika '''absurdu'''|logic of '''absurdity'''}}
+* {{coi|pl|literatura '''absurdu'''|literature of '''absurdity'''}}
+* {{coi|pl|atmosfera '''absurdu'''|atmosphere of '''absurdity'''}}
+* {{coi|pl|kraj '''absurdu'''|land of '''absurdity'''}}
+* {{coi|pl|przejaw '''absurdu'''|manifestation of '''absurdity'''}}
+* {{coi|pl|mistrz '''absurdu'''|master of '''absurdity'''}}
+* {{coi|pl|stopień '''absurdu'''|degree of '''absurdity'''}}
+* {{coi|pl|klimat '''absurdu'''|climate of '''absurdity'''}}
+* {{coi|pl|świątynia '''absurdu'''|temple of '''absurdity'''}}
+* {{coi|pl|kategoria '''absurdu'''|category of '''absurdity'''}}
+* {{coi|pl|konwencja '''absurdu'''|convention of '''absurdity'''}}
+* {{coi|pl|świadomość '''absurdu'''|awareness of '''absurdity'''}}
+* {{coi|pl|kino '''absurdu'''|cinema of '''absurdity'''}}
+* {{coi|pl|morze '''absurdu'''|sea of '''absurdity'''}}
+* {{coi|pl|koniec '''absurdu'''|end of '''absurdity'''}}
+* {{coi|pl|likwidacja '''absurdu'''|elimination of '''absurdity'''}}
+* {{coi|pl|księga '''absurdu'''|book of '''absurdity'''}}
+* {{coi|pl|obszar '''absurdu'''|area of '''absurdity'''}}
+* {{coi|pl|masa '''absurdu'''|mass of '''absurdity'''}}
+* {{coi|pl|źródło '''absurdu'''|source of '''absurdity'''}}
+* {{coi|pl|skala '''absurdu'''|scale of '''absurdity'''}}
+* {{coi|pl|duch '''absurdu'''|spirit of '''absurdity'''}}
+* {{coi|pl|państwo '''absurdu'''|state of '''absurdity'''}}
+* {{coi|pl|'''absurd''' codzienności|'''absurdity''' of everyday life}}
+* {{coi|pl|'''absurd''' egzystencji|'''absurdity''' of existence}}
+* {{coi|pl|'''absurd''' biurokracji|'''absurdity''' of bureaucracy}}
+* {{coi|pl|'''absurd''' komunizmu|'''absurdity''' of communism}}
+* {{coi|pl|'''absurd''' istnienia| '''absurdity''' of existence}}
+* {{coi|pl|'''absurd''' rzeczywistości|'''absurdity''' of reality}}
+* {{coi|pl|'''absurd''' życia|'''absurdity''' of life}}
+* {{coi|pl|'''absurd''' wojny|'''absurdity''' of war}}
+* {{coi|pl|'''absurd''' sytuacji|'''absurdity''' of the situation}}
+* {{coi|pl|'''absurd''' świata|'''absurdity''' of the world}}
+* {{coi|pl|'''absurd''' systemu|'''absurdity''' of the system}}
+* {{coi|pl|'''absurd''' historii|'''absurdity''' of history}}
+* {{coi|pl|'''absurd''' prawa|'''absurdity''' of the law}}
+* {{coi|pl|trącić '''absurdem'''|to smack of '''absurdity'''}}
+* {{coi|pl|obnażać '''absurd'''|to expose '''absurdity'''}}
+* {{coi|pl|tropić '''absurd'''|to track '''absurdity'''}}
+* {{coi|pl|sięgać/sięgnąć/osiągnąć '''absurdu'''|to reach '''absurdity'''}}
+* {{coi|pl|sprowadzać '''absurd'''|to bring '''absurdity'''}}
+* {{coi|pl|wyjaśniać '''absurd'''|to explain the '''absurdity'''}}
+* {{coi|pl|'''absurd''' goni|'''absurdity''' ensues}}
+* {{coi|pl|'''absurd''' denerwuje|'''absurdity''' annoys}}
+* {{coi|pl|'''absurd''' oburza|'''absurdity''' is outrageous}}
+* {{coi|pl|prowadzić/sprowadzać/sprowadzić do '''absurdu'''|to reach '''absurdity'''}}
+* {{coi|pl|graniczyć z '''absurdem'''|to be on the edge of '''absurdity'''}}
+{{col-bottom}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVII|ABSURD|1954|WM|02.09.2020}}
+* {{R:pl:SJP1861|absurdum}}
+* {{R:pl:SJP1900|absurd, absurdum|4|1}}
+
+==Romanian==
+
+===Etymology===
+{{bor+|ro|fr|absurde}}, {{bor|ro|la|absurdus}}.
+
+===Pronunciation===
+* {{IPA|ro|/abˈsurd/}}
+* {{audio|ro|LL-Q7913 (ron)-Andreea Teodoraa-absurd.wav}}
+
+===Adjective===
+{{ro-adj}}
+
+# {{l|en|absurd}}
+
+====Declension====
+{{ro-decl-adj}}
+
+====Related terms====
+* {{l|ro|absurditate}}
+
+==Swedish==
+
+===Etymology===
+Borrowed from {{bor|sv|la|absurdus}}.
+
+===Adjective===
+{{sv-adj}}
+
+# {{l|en|absurd}}
+
+====Declension====
+{{sv-adj-reg|2=absurt}}
+
+====Related terms====
+* {{l|sv|absurdism}}
+* {{l|sv|absurditet}}
+
+==Tatar==
+
+===Adjective===
+{{head|tt|adjective}}
+
+# {{spelling of|tt|Latin|абсурд}}

@@ -145,12 +145,65 @@
    ],
    "relations": [
     {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "bestek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "bez czarny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez koralowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bzówka",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "Bes",
      "type": "TYPE_HOMOPHONE"
     },
     {
      "term": "bez-",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Kuyavia",
+      "Southern Greater Poland",
+      "Miejska Górka",
+      "Far Masovian",
+      "Ciechanów",
+      "Łowicz",
+      "Western Kraków",
+      "Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Zagórze",
+      "Żywiec"
+     ],
+     "term": "bes",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Podlachia",
+      "Tykocin"
+     ],
+     "term": "best",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Suwałki",
+      "Augustów Governorate"
+     ],
+     "term": "beśt",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -242,12 +295,116 @@
    ],
    "relations": [
     {
+     "term": "bez głowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez łaski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez ogródek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez ogródki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez owijania w bawełnę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez pamięci",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez przerwy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez przestanku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez tchu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez ustanku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez wyjątku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez zarzutu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez dyskusji",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez gadania",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez jaj",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez kitu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łaski bez",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez liku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez cienia wątpliwości",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez dwóch zdań",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez mała",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez porównania",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez przesady",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez wątpienia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bez-",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "Bes",
      "type": "TYPE_HOMOPHONE"
     },
     {
      "term": "bez-",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "term": "beze",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

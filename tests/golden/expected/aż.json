@@ -154,6 +154,18 @@
    ],
    "relations": [
     {
+     "term": "aż nadto",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "aż do",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "aż po",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "-arz",
      "type": "TYPE_HOMOPHONE"
     },

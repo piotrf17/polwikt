@@ -4,3 +4,8 @@
 # under `regions` — counted as label.region_by_capital so the heuristic stays visible.
 # Lower-case ones ("of a sin") are free-text qualifiers and stay in `labels`.
 unrecognized_capitalized = "region"
+
+# Topical and set categories carry the language code as a prefix ("pl:Music",
+# "pl:Countries in Africa"); every one a sense's gloss emits while it is expanded
+# ({{place}}, a transcluded sense) is a topic of that sense (R6.10).
+topic_category_prefix = "pl:"

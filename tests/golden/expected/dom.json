@@ -143,6 +143,204 @@
      "ipa": "/ˈdɔm/"
     }
    ],
+   "relations": [
+    {
+     "term": "domek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "domorosły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezdomny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bogaty z domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z dobrego domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom akademicki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domator",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom bez klamek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domokrążca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domownik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezdomność",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezdomna",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Biały Dom",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Dom Boży",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom dziecka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom gry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom mediowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom modlitwy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom otwarty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom pasywny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom publiczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom wariatów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom zdrojowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pan domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pani domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom spokojnej starości",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom jest otwarty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gość w dom, Bóg w dom",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w domu powieszonego nie mówi się o sznurze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wszędzie dobrze, ale w domu najlepiej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "głodno, chłodno i do domu daleko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kto drogi skraca, ten do domu nie wraca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kto nie ma miedzi, ten w domu siedzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak kota nie ma w domu, to myszy harcują",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być gościem w domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być w domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nazywać się z domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mieć wszystkich w domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pełnić honory domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "poczuć się jak w dom",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czuć się jak w domu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "postawić cały dom na nogi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stawiać cały dom na nogi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezdomnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "genitive singular dómu",
+      "Zagórze"
+     ],
+     "term": "dóm",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "examples": [

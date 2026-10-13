@@ -1,0 +1,37 @@
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-piątkowy.wav}}
+
+===Etymology 1===
+{{ety|pl|:af|piątek|-owy|text=+|tree=1}}
+
+====Adjective====
+{{pl-adj|-|adv=-}}
+
+# {{lb|pl|relational}} [[Friday]] {{gl|occurring on or pertaining to Friday}}
+#: {{coi|pl|'''piątkowy''' wieczór|'''Friday''' night}}
+
+=====Declension=====
+{{pl-adecl}}
+
+=====Coordinate terms=====
+{{col|pl|poniedziałkowy|wtorkowy|środowy|czwartkowy|sobotni|niedzielny}}
+
+===Etymology 2===
+{{ety|pl|:af|piątka|-owy|text=+|tree=1}}
+
+====Adjective====
+{{pl-adj|-|adv=-}}
+
+# {{lb|pl|relational}} [[five]] {{gl|pertaining to the number five}}
+#: {{coi|pl|'''piątkowy''' system liczbowy|'''base-5''' numeral system}}
+# {{lb|pl|relational}} [[straight A]] {{gl|of or pertaining to the A-grade}}
+#: {{coi|pl|uczeń '''piątkowy'''|'''straight A''' student}}
+
+=====Declension=====
+{{pl-adecl}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}

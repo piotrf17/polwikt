@@ -1,0 +1,113 @@
+{{also|ему}}
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-jemu.ogg}}
+
+===Pronoun===
+{{head|cs|pronoun form}}
+
+# {{infl of|cs|on,ono||dat|s}}
+
+====Synonyms====
+* {{l|cs|mu}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|ジェム}}
+
+==Polish==
+
+===Alternative forms===
+* {{l|pl|mu}}, {{l|pl|niemu}}
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-jemu.wav}}
+
+===Pronoun===
+{{head|pl|pronoun form|g=m}}
+
+# {{inflection of|pl|on||dat|s}}
+
+===Pronoun===
+{{head|pl|pronoun form|g=n}}
+
+# {{inflection of|pl|ono||dat|s}}
+
+===See also===
+* [[Appendix:Polish pronouns]]
+
+==Sicilian==
+
+===Alternative forms===
+* {{alter|scn|jamu|jimu}} 
+
+===Etymology===
+From {{inh|scn|la|iāmus}}, from {{inh|scn|la|eāmus||[we] go}} Cognate with {{cog|it|gimo}}, {{cog|nap|jamme}}.
+
+===Pronunciation===
+* {{IPA|scn|/ˈjɛ.mu/|[ˈjɛ.mʊ]}} 
+* {{hyphenation|scn|jè|mu}}
+
+===Verb===
+{{head|scn|verb form}}
+
+# {{inflection of|scn|jiri||1|p|pres|ind|tense}}; (we) [[go]].
+
+====Derived terms====
+{{col2
+|scn
+|jemuninni|jamuninni|jimuninni|jemunì|jamunì|amunì|nni ni jemu
+}}
+
+====Related terms====
+{{col4
+|scn|
+|vaju|vai|va'|vâ|jiti|jutu
+}}
+
+====Descendants====
+* {{desc|it|amunì}}
+
+===See also===
+{{col4
+|scn
+|annari
+|vèniri
+|stari
+|agghicari
+|arrivari
+}}
+
+==Slovak==
+
+===Alternative forms===
+* {{alter|sk|mu|nemu||after prepositions}}
+
+===Pronunciation===
+* {{sk-IPA}}
+
+===Pronoun===
+{{head|sk|pronoun form}}
+
+# {{inflection of|sk|on,ono||dat}}
+
+==Swahili==
+
+===Etymology===
+{{ety|sw|:bor|en:jam<ref:{{R:sw:Batibo:1996|page=38}}>|text=+|tree=1}}
+
+===Pronunciation===
+* {{audio|sw|Sw-ke-jemu.flac|a=Kenya}}
+
+===Noun===
+{{sw-noun|n}}
+
+# [[jam]] {{gl|sweet mixture of fruit boiled with sugar}}
+
+===References===
+{{reflist}}

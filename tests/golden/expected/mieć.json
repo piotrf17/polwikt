@@ -929,6 +929,66 @@
      "type": "TYPE_FREQUENTATIVE"
     },
     {
+     "term": "a masz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mam",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "masz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mienie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "masz babo placek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie miała baba kłopotu, kupiła sobie prosię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie ma tego złego, co by na dobre nie wyszło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie ma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówisz i masz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć Boga w sercu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć coś z życia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć na imię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć nadzieję",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć się na baczności",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć zryty beret",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "miedź",
      "type": "TYPE_HOMOPHONE"
     }

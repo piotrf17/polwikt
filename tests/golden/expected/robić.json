@@ -2248,6 +2248,476 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "już się robi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robi się",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dorobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dorabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "narobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "narabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "porobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "porabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przerobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przerabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "urobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "urabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "współrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyrobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyrabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zarobić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zarabiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co robić najlepszego",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co zrobić najlepszego",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić chlew",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić chlew",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dobrze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dobrze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dzień",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dzień",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić furorę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić furorę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić idiotę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić idiotę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić kasę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić kasę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić kilometr",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić kilometr",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić koło pióra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić koło pióra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić kupę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić kupę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić loda",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić loda",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić łaskę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić łaskę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić marmoladę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić marmoladę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić miejsce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić miejsce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić na złość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić na złość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić nadzieję",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić nadzieję",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić pa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić pa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić piekło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić piekło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić pieniądze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić pieniądze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić pod siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić pod siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić porządek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić porządek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić reklamę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić reklamę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić różnicę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić różnicę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić się ciemno przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić się ciemno przed oczami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić się na bóstwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić się na bóstwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić się zimno",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić się zimno",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić siusiu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić siusiu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić sprawę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić sprawę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić swoje",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić swoje",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić w bambuko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić w bambuko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić w konia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić w konia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić w majtki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić w majtki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić wielkie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić wielkie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić wodę z mózgu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić wodę z mózgu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić z igły widły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić z igły widły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić z nocy dzień",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić z nocy dzień",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić źle",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić źle",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezrobotny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "roboczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robotny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bezrobocie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robigrosz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robocizna",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robota",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robotnica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "robotnik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "parób",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "examples": [

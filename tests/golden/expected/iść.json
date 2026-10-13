@@ -879,6 +879,13 @@
     {
      "term": "pójść",
      "type": "TYPE_PERFECTIVE_COUNTERPART"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "jiś",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -2095,6 +2102,607 @@
       "Podhale",
       "Northern Borderlands"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "idzie luty, podkuj buty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psy szczekają, karawana idzie dalej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na świętego Grzegorza idzie zima do morza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psie głosy nie idą w niebiosy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kto nie idzie do przodu, ten się cofa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeśli idzie o",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "a idź",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bomba idzie w górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bomba poszła w górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cała para idzie w gwizdek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cała para poszła w gwizdek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "idzie któryś rok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do Canossy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść do Canossy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do gazu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść do gazu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do głowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do lasu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do piachu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść do piachu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść jak burza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść jak burza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść jak krew z nosa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść jak po grudzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść jak z płatka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść jak z płatka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść między ludzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść między ludzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na całość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na całość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na dno",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na dno",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na konto",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na konto",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na lep",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na lep",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na łatwiznę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na łatwiznę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na marne",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na marne",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na noże",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na noże",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na pasku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na rękę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na szafot",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na szafot",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na sztych",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na śmierć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na udry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na udry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na żywioł",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść na żywioł",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść o zakład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść o zakład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść po linii najmniejszego oporu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść po linii najmniejszego oporu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść po rozum do głowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść po rozum do głowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść po trupach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod kilof",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod kilof",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod kościół",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod kościół",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod młotek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod młotek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod mur",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod mur",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod nóż",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod nóż",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść pod topór",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść pod topór",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść prostą drogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść prostą drogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść spać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść spać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść swoją drogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść swoją drogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w diabły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w diabły",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w dół",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w dół",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w dym",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w dym",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w górę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w kąt",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w kąt",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w kimono",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w kimono",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w nogę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w nogi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w nogi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w parze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w parze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w Polskę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w Polskę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w rozsypkę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w rozsypkę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w ruch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w ruch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w ślady",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w ślady",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w świat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w świat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w tango",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w tango",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w zaparte",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w zaparte",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w zapomnienie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w zapomnienie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść w zawody",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść w zawody",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść z duchem czasu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść z duchem czasu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść z dymem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść z dymem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść z prądem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść z prądem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść z torbami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść z torbami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść za ciosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść za ciosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść za głosem serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść za głosem serca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "karta idzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nauka nie idzie w las",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nauka nie poszła w las",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie idzie do głowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przykład idzie z góry",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dojść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "najść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyjść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ujść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyjść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wzejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zejść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść na bandos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść ręką",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "jiś",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

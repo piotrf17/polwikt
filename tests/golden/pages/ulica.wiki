@@ -1,0 +1,182 @@
+{{also|ulica|ulicą|ulicã|ûlica}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=street|:inh|sla-pro:*ùlica|tree=+|text=+}} {{etydate|1258}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Noun===
+{{zlw-opl-noun|f|adj=uliczny}}
+
+# {{lb|zlw-opl|attested in|Greater Poland|Lesser Poland}} [[street]] {{gl|road between houses in a village}}
+#* {{RQ:zlw-opl:KodWP|I|308||Adiungimus eciam sibi domum in civitate penes plateam, que vocatur Thkaczka '''ulicza'''|Adiungimus eciam sibi domum in civitate penes plateam, que vocatur Thkaczka '''ulica'''|-}}
+#* {{RQ:zlw-opl:Fl|17, 46|Iaco bloto '''vlicz''' (platearum) sgladzø ie|Jako błoto '''ulic''' (platearum) zgładzę je|-}}
+# {{ng|mistranslation of the ambiguous {{m+|la|vīcus}} as 'street' instead of 'village'}}
+#* {{RQ:zlw-opl:MamKal|267|1471|'''Vliczie''' vicos (dimitte illos, ut euntes in proximas villas et vicos emant sibi cibos Marc 6, 36)|'''Ulice''' vicos (dimitte illos, ut euntes in proximas villas et vicos emant sibi cibos Marc 6, 36)|-}}
+
+====Derived terms====
+{{col|zlw-opl|title=nouns|uliczka|ulicznik}}
+
+====Descendants====
+* {{desc|pl|ulica}}
+* {{desc|szl|ulica}}
+
+===References===
+* {{R:pl:Boryś}}
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Roads}}
+
+==Polish==
+{{wp|pl:}}
+
+===Etymology===
+{{etymon|pl|id=street|:inh|zlw-opl:ulica|tree=+|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=pl-ulica.ogg;LL-Q809 (pol)-Olaf-ulica.wav|mp=#}}
+
+===Noun===
+{{pl-noun|f|dim=uliczka|abbr=ul.}}
+
+# [[street]] {{gl|road between houses}}
+# {{lb|pl|metonymy}} [[street]] {{gl|people on a street}}
+# {{lb|pl|colloquial|sociology}} [[public opinion]] {{gl|society as an exponent of views and assessments of current political, social, and cultural life}}
+#: {{syn|pl|opinia publiczna|vox populi}}
+# {{lb|pl|obsolete}} [[crowd]]; [[urban]] [[proletariat]]
+# {{lb|pl|obsolete}} [[path]] in a [[park]] or [[garden]]
+#: {{syn|pl|ścieżka}}
+
+====Declension====
+{{pl-decl-noun-f}}
+
+====Derived terms====
+{{col|pl|title=adverb|na ulicę}}
+{{col|pl|title=nouns|dziecko ulicy|język ulicy|prawo ulicy|rządy ulicy}}
+{{pl-derived verbs|-/leżeć na ulicy|-/pracować na ulicy|wychować się na ulicy/wychowywać się na ulicy|trafić na ulicę/trafiać na ulicę}}
+
+===Trivia===
+{{pl-freq 1990|11|163|20|53|18|265|197|628|2}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|21307}}
+* {{R:pl:SXVII|ULICA|13606|SPas|31.10.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||279|7}}
+
+{{C|pl|Collectives|Roads}}
+
+==Serbo-Croatian==
+{{wp|sh:}}
+
+===Etymology===
+{{inh+|sh|sla-pro|*ulica}}.
+
+===Pronunciation===
+* {{sh-IPA|ȕlica}}
+* {{hyphenation|sh|u|li|ca}}
+* {{rhymes|sh|it͡sa|s=3}}
+
+===Noun===
+{{sh-noun|ȕlica|f}}
+
+# [[street]]
+
+====Declension====
+{{sh-decl-noun
+|ȕlica|ȕlice
+|ȕlicē|ȕlīcā
+|ȕlici|ȕlicama
+|ȕlicu|ȕlice
+|ȕlice|ȕlice
+|ȕlici|ȕlicama
+|ȕlicōm|ȕlicama
+}}
+
+====See also====
+* {{l|sh|cesta}}
+
+===Further reading===
+* {{R:sh:HJP|f19jWBN%2B}}
+
+{{C|sh|Roads}}
+
+==Silesian==
+
+===Etymology===
+{{etymon|szl|id=street|:inh|zlw-opl:ulica|tree=+|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|f|dim=uliczka|adj=uliczny}}
+
+# [[street]]
+
+====Declension====
+{{szl-decl-noun|ulica|ulice|ulicy|ulicã|ulicōm|ulicy|ulico|ulice|ulic|ulicōm|ulice|[[ulicami]]/[[ulicōma]]|ulicach|ulice}}
+
+====Related terms====
+{{col|szl|title=adverb|ulicznie}}
+
+===Further reading===
+* {{R:szl:silling}}
+
+{{C|szl|Roads}}
+
+==Slovak==
+{{wp|sk:}}
+
+===Etymology===
+{{ety|sk|:inh|sla-pro:*ulica|text=+|tree=1}}
+
+===Pronunciation===
+* {{sk-IPA}}
+* {{audio|sk|LL-Q9058 (slk)-TomášPolonec-ulica.wav|a=Bratislava}}
+
+===Noun===
+{{sk-noun|f|adj=uličný|dim=ulička,uličôčka}}
+
+# [[street]]
+
+====Declension====
+{{sk-ndecl|f}}
+
+====Derived terms====
+* {{l|sk|pouličný}}
+* {{l|sk|uličník}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+{{C|sk|Roads}}
+
+==Slovene==
+
+===Etymology===
+{{inh+|sl|sla-pro|*ulica}}. {{etydate|16th century}}.
+
+===Pronunciation===
+* {{sl-IPA|úlica}}
+
+===Noun===
+{{sl-noun|úlica|f}}
+
+# [[street]]
+
+====Declension====
+{{sl-decl-noun-f|úlic}}
+
+===Further reading===
+* {{R:Fran}}
+
+{{C|sl|Roads}}

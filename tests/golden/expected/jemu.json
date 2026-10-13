@@ -1,0 +1,86 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-jemu.wav"
+    }
+   ],
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈjɛ.mu/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "mu",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "term": "niemu",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "on",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_DATIVE",
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "dative singular of on"
+    }
+   ],
+   "syllabification": "je‧mu"
+  },
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-jemu.wav"
+    }
+   ],
+   "pos": "POS_PRONOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈjɛ.mu/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "mu",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "term": "niemu",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "ono",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_DATIVE",
+        "number": "NUMBER_SINGULAR"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "dative singular of ono"
+    }
+   ],
+   "syllabification": "je‧mu"
+  }
+ ],
+ "etymologies": [
+  {}
+ ],
+ "lemma": "jemu"
+}

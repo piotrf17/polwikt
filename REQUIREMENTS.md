@@ -294,6 +294,25 @@ the trigger is M2 measuring `pages.sqlite` too large to stay in page cache on th
   `freq=` (with `pf2=`, … and inline `<l:…>`/`<t:…>`) become entry Relations —
   perfective, imperfective, determinate, indeterminate counterparts and
   frequentatives — directed, as the article states them.
+  *Implemented at M10* for the rest of the headword line and the term-list sections.
+  The `{{pl-noun}}` / `{{pl-proper noun}}` / `{{pl-adj}}` / `{{pl-adv}}` parameters
+  Module:zlw-lch-headword lists (`f=`, `m=`, `n=`, `dim=`, `aug=`, `pej=`, `adj=`/
+  `rel=`, `poss=`, `dem=`, `fdem=`, `marr=`, `unmarr=`, `abbr=`, `adv=`) are typed
+  Relations, mapped in `data/relations.toml` (schema, additive: neuter equivalent,
+  pejorative, possessive adjective, demonym, female demonym, abbreviation, married and
+  unmarried surname forms). `adv=-` is "no adverb". Every term a `Synonyms`, `Derived
+  terms`, `Related terms`, `Coordinate terms`… section lists is a Relation of the
+  section's type: {{col}} items by argument (`a,b` and `a~b` are two terms, as
+  Module:columns splits them; raw `[[links]]` in an item are its terms), link templates
+  and raw links on list lines, and `{{pl-derived verbs}}` from its rendering, since the
+  module pastes prefixes onto suffixes. A line's `{{q}}` / `{{lb}}` labels and
+  written-out "(rare)" apply to every term on it, a `{{sense}}` is their gloss, and a
+  term's own `<q:…>`/`<l:…>`/`<t:…>` are its own. Lists computed from categories on the
+  live wiki (`{{prefixsee}}`, `{{suffixsee}}`) and navboxes of a whole set
+  (`{{pl-cardinals}}`, `{{pl-family}}`, `{{table:…}}`) are not the entry's terms and
+  are counted (`relation.not_terms.*`); `{{dialect synonyms}}` is counted too. Any
+  other template there is counted as `relation.template.unknown.*`. An entry holds a
+  (type, term, gloss) once.
 - **R3.15** Emit the canonical sharded corpus plus a `lemma → (shard, offset)` index.
 - **R3.16** Emit `stats.json`: counts by POS, senses, forms, pages with/without
   inflection, top unhandled templates by frequency. This is the primary quality signal.
@@ -421,7 +440,11 @@ English-Wiktionary Polish sections follow this nesting:
   child senses, not flattened.
 - **R5.5** Sections that belong to the language rather than a POS — `Alternative forms`
   and `Pronunciation` above the etymologies — are copied into every entry they apply
-  to, so each `Entry` (with its `Word`'s etymology) is enough for one flashcard. Of the sections after the etymologies only
+  to, so each `Entry` (with its `Word`'s etymology) is enough for one flashcard.
+  *Implemented at M10:* Alternative forms are `TYPE_ALTERNATIVE_FORM` Relations of
+  every entry in the section's scope: `{{alter|pl|a|b||label}}` (labels after the
+  empty argument), `{{l}}` lines with their `{{q}}`. A Middle Polish one is dropped and
+  counted as `dropped.alternative_form.Middle Polish` (R6.6a). Of the sections after the etymologies only
   `Trivia` is read, for word frequency (R6.13); `References`, `Further reading`,
   `See also` and `Anagrams` are Wiktionary bookkeeping and are not output.
 - **R5.6** *Withdrawn (decision 11).* `{{senseid}}` anchors are Wiktionary-internal and
@@ -598,6 +621,12 @@ English-Wiktionary Polish sections follow this nesting:
   sense's labels and categories) as well as per entry. A `{{C}}` at the foot of the
   page (usually under Further reading) is the page's and applies to every entry. All other categories are Wiktionary
   maintenance and are not output.
+  *Implemented at M10:* a topic is always a category name. A topical label files its
+  sense under the category Module:labels names (`{{lb|pl|music}}` → "Music";
+  `topical_categories` may name several), and every `pl:` category the gloss emits
+  while expanded is a topic of its sense (`{{place}}`: "National capitals",
+  "Cities in Poland"). On 400 sampled pages this took the `pl:` categories that reach
+  `topics` from 396 of 898 to 881.
 - **R6.11 — Government (valency).** `{{+obj|pl|…}}` on a sense states what case or
   preposition the word governs (`:za(acc)`, `acc<what>`, `:do(gen)<to what>`). It is
   structured data — case enum, optional preposition, gloss of the slot — and must be
@@ -608,6 +637,7 @@ English-Wiktionary Polish sections follow this nesting:
 - **R6.12 — Collocations.** `{{coi|pl|…}}` lines under a sense and the
   `====Collocations====` section carry a Polish phrase and its translation; they are kept
   as typed examples (collocation kind), sense-scoped where they appear under a sense.
+  The section's are the entry's `examples` (M10), `{{col-top}}` groups included.
 - **R6.13 — Frequency.** `{{pl-freq 1990}}` in `Trivia` cites *Słownik frekwencyjny
   polszczyzny współczesnej* (1990): the word's total count in a 500k-word corpus
   (parameter 6) and its rank (parameter 7). Output as `Word.frequency` — the natural

@@ -26,6 +26,16 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "antropozoonoza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zoonoza",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "gloss": "nature preserve, zoo, zoological garden, zoological park",
@@ -58,7 +68,7 @@
       }
      ],
      "topics": [
-      "zoology"
+      "Zoology"
      ]
     }
    ],

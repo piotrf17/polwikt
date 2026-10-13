@@ -122,6 +122,14 @@
    ],
    "relations": [
     {
+     "term": "nałogowiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nałogowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "labels": [
       "for some speakers"
      ],

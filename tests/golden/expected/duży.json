@@ -324,6 +324,71 @@
    ],
    "relations": [
     {
+     "term": "dużo",
+     "type": "TYPE_RELATED_ADVERB"
+    },
+    {
+     "term": "spod dużego palca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z dużej chmury mały deszcz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "koń ma duży łeb, niech się martwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małe dzieci - mały kłopot, duże dzieci - duży kłopot",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duża bańka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duża matura",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duże żniwa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duży ekran",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duży palec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dzięcioł duży",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "duże niebieskie oczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przez duże",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dążyć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Podlachia",
+      "Tykocin",
+      "Zagórze"
+     ],
+     "term": "duzy",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
      "term": "durzy",
      "type": "TYPE_HOMOPHONE"
     },
@@ -369,7 +434,7 @@
       }
      ],
      "topics": [
-      "typography"
+      "Typography"
      ]
     },
     {

@@ -9,6 +9,36 @@
     ]
    },
    "pos": "POS_NOUN",
+   "relations": [
+    {
+     "term": "absencyjny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absencyjność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absentacyja",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absenteista",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absenteizm",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absentyzm",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "absentować",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "examples": [

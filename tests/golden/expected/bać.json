@@ -901,6 +901,53 @@
      "type": "TYPE_FREQUENTATIVE"
     },
     {
+     "term": "strach się bać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bojaźliwy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bogobojny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bojaźliwie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bogobojnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bojaźń",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bogobojność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bojaźliwość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obawa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obawiać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "boć",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
      "term": "Bać",
      "type": "TYPE_HOMOPHONE"
     }

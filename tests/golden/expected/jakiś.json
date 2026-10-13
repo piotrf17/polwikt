@@ -12,6 +12,21 @@
      "ipa": "/ˈja.kiɕ/"
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "Przemyśl",
+      "Rzeszów",
+      "Iwonicz-Zdrój",
+      "Podhale",
+      "Zakopane",
+      "Skawa",
+      "Zagórze"
+     ],
+     "term": "jakisi",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -310,6 +325,35 @@
    "pronunciations": [
     {
      "ipa": "/ˈja.kiɕ/"
+    }
+   ],
+   "relations": [
+    {
+     "labels": [
+      "Przemyśl",
+      "Rzeszów",
+      "Iwonicz-Zdrój",
+      "Podhale",
+      "Zakopane",
+      "Skawa",
+      "Zagórze"
+     ],
+     "term": "jakisi",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "obsolete"
+     ],
+     "term": "jakiści",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "nonstandard"
+     ],
+     "term": "jakiściś",
+     "type": "TYPE_DERIVED"
     }
    ],
    "senses": [

@@ -1,0 +1,779 @@
+{{also|åkt|Akt|акт}}
+==Translingual==
+
+===Etymology===
+{{abbrev|mul|en:'''Ak'''ole'''t'''}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|3}}
+
+===See also===
+* {{langcat}}
+
+==Cornish==
+
+===Noun===
+{{kw-noun|m|ys}}
+
+# [[act]]
+
+===References===
+* {{R:CDGK}}
+
+==Czech==
+{{wp|cs:}}
+
+===Etymology===
+{{bor+|cs|la|āctus}}, perfect passive participle of {{m|la|agō||make, do}}. The nude sense is possibly from {{der|cs|de|Akt}}. {{etydate|19th century}}.<ref>{{R:cs:Rejzek:2015|page=51}}</ref>
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-akt.wav}}
+* {{rhymes|cs|akt|s=1}}
+
+===Noun===
+{{cs-noun|m-in}}
+
+# [[act]], [[deed]]
+#: {{syn|cs|čin}}
+# [[act]] {{gloss|division of a theatrical performance}}
+#: {{syn|cs|dějství}}
+# [[nude]] {{gloss|artwork showing a naked person}}
+
+====Declension====
+{{cs-ndecl|m}}
+
+====Related terms====
+{{col-top|2|rel}}
+<!-- from Latin [[ago]] -->
+* {{l|cs|abreakce}}
+* {{l|cs|agenda}}
+* {{l|cs|agent}}
+* {{l|cs|agentura}}
+* {{l|cs|agitace}}
+* {{l|cs|agitátor}}
+* {{l|cs|agitovat}}
+* {{l|cs|akce}}
+* {{l|cs|akční}}
+* {{l|cs|akta}}
+* {{l|cs|aktér}}
+* {{l|cs|aktivace}}
+* {{l|cs|aktivní}}
+* {{l|cs|aktivismus}}
+* {{l|cs|aktivista}}
+* {{l|cs|aktivistický}}
+* {{l|cs|aktivita}}
+* {{l|cs|aktivovat}}
+* {{l|cs|aktivum}}
+* {{l|cs|aktovka}}
+* {{l|cs|aktuální}}
+* {{l|cs|aktualita}}
+* {{l|cs|aktualizace}}
+* {{l|cs|aktualizovat}}
+* {{l|cs|deaktivovat}}
+* {{l|cs|deaktivace}}
+* {{l|cs|interakce}}
+* {{l|cs|interakční}}
+* {{l|cs|interaktivní}}
+* {{l|cs|interaktivita}}
+* {{l|cs|interagovat}}
+* {{l|cs|jednoaktovka}}
+* {{l|cs|navigace}}
+* {{l|cs|navigační}}
+* {{l|cs|navigátor}}
+* {{l|cs|navigovat}}
+* {{l|cs|reagovat}}
+* {{l|cs|reakce}}
+* {{l|cs|reakční}}
+* {{l|cs|reaktant}}
+* {{l|cs|reaktivace}}
+* {{l|cs|reaktivovat}}
+* {{l|cs|reaktor}}
+* {{l|cs|transakce}}
+* {{l|cs|transakční}}
+{{col-bottom}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+* {{R:cs:IJP}}
+
+{{C|cs|Art|Theater}}
+
+==Danish==
+{{wp|da:}}
+
+===Etymology===
+From two different, but related [[Latin]] words: 1. {{m|la|āctus||act, performance}}, a noun derived from the verb {{m|la|agō||make, do}}, and 2. {{m|la|ācta||documents}}, the neuter plural of the past participle of the same verb.
+
+===Pronunciation===
+* {{IPA|da|[ˈɑɡ̊d̥]}}
+* {{homophones|da|agt}}
+
+===Noun===
+{{da-noun|en|er}}
+
+# [[act]], [[file]] (formal or official record)
+# [[act]] (division of theatrical performance)
+# [[nude]], [[artwork]] of a [[naked]] person
+# {{lb|da|formal}} act
+
+====Declension====
+{{da-decl|en|er}}
+
+===Further reading===
+* {{R:DDO}}
+
+==Estonian==
+
+===Etymology===
+{{rfe|et}}
+
+===Pronunciation===
+* {{et-IPA}}
+* {{rhymes|et|ɑkt}}
+* {{hyph|et|akt}}
+
+===Noun===
+{{et-noun|akti|akti}}
+
+# [[act]], [[doing]]
+# [[act]] ''(an official document)''
+# {{lb|et|art}} a [[portrayal]] of the [[naked]] body; a [[nude]]
+
+====Declension====
+{{et-decl-riik|ak|t|t|i}}
+
+===Further reading===
+* {{R:Sõnaveeb}}
+* {{R:et:EKSS}}
+
+==Hungarian==
+
+===Etymology===
+From {{der|hu|de|Akt}}. {{etydate|1880}}.<ref>{{R:UESz}}</ref>
+
+===Pronunciation===
+* {{hu-IPA}}
+* {{rhymes|hu|ɒkt|s=1}}
+* {{hyphenation|hu|akt}}
+
+===Noun===
+{{hu-noun|ok}}
+
+# {{lb|hu|art}} [[nude]] {{gl|an artwork depicting one or more human figure(s) in a state of near or total undress}}
+
+====Declension====
+{{hu-infl-nom|akto|o}}{{hu-pos-otok|akt|j|jai}}
+
+====Derived terms====
+{{col|hu
+|aktos
+}}
+{{col|hu|title=Compound words
+|aktfestészet
+|aktfestő
+|aktfotó
+|aktkép
+|aktkiállítás
+|aktrajz
+|aktszobrászat
+|akttanulmány
+|férfiakt
+}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{R:ErtSz}}
+* {{R:Nagyszotar}}
+
+{{cln|hu|3-letter words}}
+
+==Norwegian Bokmål==
+{{wikipedia|no:Akt,no:Akt (drama),no:Akt (enhet),no:Akt (andre betydninger)}}
+
+===Pronunciation===
+* {{IPA|nb|/akt/|[akt]|q1=Etymologies 1–6}}
+* {{audio|nb|Nb-akt.ogg|Audio}}
+* {{rhymes|nb|akt|s=1|q1=Etymologies 1–6}}
+* {{hyphenation|nb|akt}}
+
+===Etymology 1===
+{{ety|nb|id=ceremony|:bor|la:āctus<id:action>|tree=1}}
+{{bor+|nb|la|āctus|id=action|t=act, action; performance}}, a substantivized perfect passive participle of {{m|la|agō|t=to drive; do, act}}, from {{der|nb|itc-pro|*agō|t=to drive; do, act}}, ultimately from {{m|ine-pro|*h₂eǵ-|id=drive|t=to drive}}.
+
+Compare the parallel borrowings {{cog|da|akt|t=act, ceremony; theatre act}}, {{cog|sv|akt|t=act, ceremony; theatre act}} and {{cog|de|Akt|id=act|t=act; theatre act}}.
+
+====Noun====
+{{nb-noun|f|akta|akter|aktene|g2=m|ds2=akten}}
+
+# a solemn or formal [[act]]; a [[ceremony]]
+#: {{syn|nb|seremoni}}
+#* {{quote-journal|nb|date=21 May 2001|journal=Aftenposten|page=22|passage=den høytidelige akten [på Akershus festning 1945] beseglet den ufravikelige seieren over naziveldet|translation=the solemn ceremony [at Akershus Fortress in 1945] sealed the definitive victory over Nazi rule}}
+# {{lb|nb|obsolete}} an [[action]], [[activity]] or [[task]]
+#* {{quote-book|nb|year=1858|author={{w|Nicolai Ramm Østgaard}}|title=Fra Skov og Fjeld|page=125|passage=budeien sad … ifærd med at melke. Jeg maatte … vente med at staa op, indtil den akt var forbi|translation=the dairymaid sat … milking. I had to … wait to get up until that task was over}}
+# an act of [[sexual intercourse]]; [[sex]]
+#: {{syn|nb|samleie}}
+#* {{quote-book|nb|year=2001|author={{w|Helene Uri}}|title=Dyp rød|page=315|passage=han hadde en lei tendens til å rope ut obskøne ord og vendinger under akten|translation=he had an unfortunate tendency to shout obscene words and phrases during intercourse}}
+#* {{quote-book|nb|year=2014|author=Lotta Elstad|title=Et eget rom|page=71|passage=hun hadde en elsker som alltid måtte ut av senga straks etter akten for å spille piano|translation=she had a lover who always had to get out of bed immediately after intercourse to play the piano}}
+# {{lb|nb|drama|theater}} an [[act]], one of the major divisions of a [[play]] or other dramatic work
+#* {{quote-book|nb|year=1896|author={{w|Henrik Ibsen}}|title=John Gabriel Borkman|page=93|passage=så tænkte jeg, det kanske kunde adsprede dig at høre en akt eller to|translation=then I thought it might distract you to hear an act or two}}
+#* {{quote-book|nb|year=1951|author={{w|Agnar Mykle}}|title=Morgen i appelsingult|page=5|passage=hvis dette stykke hadde vært skrevet for den profesjonelle scene, ville det kanskje ha fremstått som en enhet i tid og sted, uten oppdeling i akter|translation=if this play had been written for the professional stage, it might have formed a unity of time and place, without division into acts}}
+## {{lb|nb|figuratively}} a [[stage]], [[episode]] or instalment in a prolonged sequence of events
+##* {{quote-journal|nb|date=16 March 2010|journal=Sarpsborg Arbeiderblad|passage=veilys på riks- og fylkesveier i Sarpsborg har vært gjennom en særdeles omstendelig politisk behandling i mange akter|translation=road lighting on national and county roads in Sarpsborg has undergone an exceptionally protracted political process in many acts}}
+##* {{quote-book|nb|year=2021|author=Erlend O. Nødtvedt|title=Mordet på Henrik Ibsen|page=34|passage=stykket … utspilte seg akt for akt i Konstantinopel, Athen, Efesos, Lutetia og Vienna i Gallia|translation=the play … unfolded act by act in Constantinople, Athens, Ephesus, Lutetia and Vienna in Gaul}}
+
+=====Derived terms=====
+{{top2}}
+* {{l|nb|dåpsakt|t=baptismal ceremony}}
+* {{l|nb|kjønnsakt|t=sexual act}}
+* {{l|nb|mellomakt|t=interlude between acts}}
+* {{l|nb|nådesakt|t=act of clemency}}
+* {{l|nb|paringsakt|t=mating act}}
+* {{l|nb|sanseakt|t=act of perception}}
+* {{l|nb|seksualakt|t=sexual act}}
+* {{l|nb|statsakt|t=state ceremony}}
+* {{l|nb|viljesakt|t=act of will}}
+{{bottom}}
+
+===Etymology 2===
+[[Image:Corinth weibl Halbakt.jpg|upright=1.13|thumb|Pencil drawing of woman, posing as a nude model.]]
+{{ety|nb|id=nude|:bor|de:Akt<id:act>|tree=1}}
+{{bor+|nb|de|Akt|id=act|t=nude model; artistic representation of a nude person}}. The German word is ultimately from {{m|la|āctus|id=action|t=act, action; performance}}, from the same Latin verb as in Etymology 1.
+
+====Noun====
+{{nb-noun|f|akta|akter|aktene|g2=m|ds2=akten}}
+
+# {{lb|nb|art}} a [[nude]] [[model]]; an artist's model posing nude
+#: '''stå akt''', '''sitte akt''' — to pose nude as an artist's model
+#: '''tegne akt''' — to draw a nude model
+#: '''male akt''' — to paint a nude model
+#* {{quote-journal|nb|date=24 November 2004|journal=Ranablad|passage=Rana kunstforening har ingen lokale modeller som vil sitte akt for dem|translation=Rana Art Association has no local models willing to pose nude for them}}
+#* {{quote-journal|nb|date=18 January 2014|journal=Trønder-Avisa|page=21|passage=å tegne og male akt er noe av det viktigste i kunstundervisningen|translation=drawing and painting nude models is one of the most important elements of art education}}
+# {{lb|nb|art}} a [[nude]], an artwork depicting a naked person
+#* {{quote-journal|nb|date=27 June 1942|journal=Sandefjords Blad|page=4|passage=en større akt av Munch gikk for 6200 kr.|translation=a larger nude by Munch sold for 6,200 kroner}}
+
+=====Derived terms=====
+{{top2}}
+* {{l|nb|aktfotografi|t=nude photography}}
+* {{l|nb|aktmaleri|t=nude painting}}
+* {{l|nb|aktmaling|t=nude painting}}
+* {{l|nb|aktmodell|t=nude model}}
+* {{l|nb|aktstudie|t=nude study}}
+* {{l|nb|aktstudium|t=nude study}}
+* {{l|nb|akttegning|t=nude drawing}}
+{{bottom}}
+
+===Etymology 3===
+{{ety|nb|:bor|la:ācta<id:acts>|tree=1}}
+{{bor+|nb|la|ācta|id=acts|t=things done; official records}}, the substantivized neuter plural of the perfect passive participle of {{m|la|agō|t=to drive; do, act}}.
+
+Compare the parallel borrowings {{cog|da|akt|t=official document, case file}} and {{cog|de|Akte|t=file, dossier}}.
+
+====Noun====
+{{nb-noun-m1}}
+
+# {{lb|nb|law|especially in the plural}} a [[record]], [[document]], [[case file]] or formal [[act]]; especially a written record of legal proceedings or an official case document
+#* {{quote-web|nb|date=18 April 2011|work=Dagbladet|passage=via hjelpere i politiet … begynner han å undersøke alle sakens akter om igjen og finner spor ingen har tenkt på før|translation=through helpers in the police … he begins examining all the case records again and finds clues no one has previously considered}}
+
+=====Derived terms=====
+* {{l|nb|aktstykke|t=official document}}
+* {{l|nb|parlamentsakt|t=act of parliament}}
+
+===Etymology 4===
+{{bor+|nb|gml|ācht|t=outlawry, proscription}}; compare the Middle Low German variant {{m|gml|āchte|t=outlawry, proscription}}. The legal sense developed from an older Germanic meaning “hostile pursuit, persecution”.
+
+Compare {{cog|gmh|āhte|t=pursuit, proscription, outlawry}}, {{cog|goh|āhta|t=hostile pursuit}}, {{cog|ang|ōht|t=persecution, hostility}} and {{cog|de|Acht|t=outlawry, ban}}. The further origin is uncertain.
+
+====Noun====
+{{head|nb|noun|g=m|definite singular|akten}}
+
+# {{lb|nb|historical|chiefly of older German conditions}} [[outlawry]], [[proscription]]; the condition of having been deprived of legal protection
+#: {{syn|nb|fredløshet}}
+#: '''erklære i rikets akt''' — to place someone under the [[imperial]] [[ban]]; to declare someone an [[outlaw]]
+
+===Etymology 5===
+{{bor+|nb|gml|acht|t=attention, consideration; opinion, esteem; intention}}, related to {{m|gml|achten|t=to consider, heed, esteem}}. The Norwegian senses reflect the older semantic range “thought or consideration; opinion or esteem; intention”.
+
+Compare {{cog|gmh|ahte|t=consideration, opinion, esteem}}, {{cog|goh|ahta|t=consideration, opinion, esteem}}, {{cog|ang|eahtian|t=to deliberate, evaluate}}, {{cog|nl|achten|t=to regard, esteem}} and {{cog|de|achten|t=to heed, esteem}}. Old Norse {{m|non|ætla|t=to intend, suppose}} has traditionally been connected with the same Germanic family.
+
+====Noun====
+{{nb-noun-m1}}
+
+# {{lb|nb|obsolete}} [[attention]], [[heed]] or [[notice]], now chiefly surviving in fixed expressions
+#: {{syn|nb|oppmerksomhet}}
+#: '''gi akt (på)''' — to [[heed]], pay attention (to) or take account (of)
+#* {{quote-book|nb|year=1873|author={{w|Henrik Ibsen}}|title=Kejser og Galilæer|page=453|passage=giv nøje agt på denne fremmede|translation=pay close attention to this stranger}}
+#* {{quote-book|nb|year=1920|author={{w|Sigrid Undset}}|title=Kransen|page=49|passage=ingen gav akt paa Kristin|translation=no one paid attention to Kristin}}
+#* {{quote-book|nb|year=2000|author=Kari Bøge|title=For alt jeg vet|passage=jeg må behandle alt som blir sagt varsomt, jeg må gi akt på hvert ord som faller|translation=I must treat everything that is said carefully; I must pay attention to every word spoken}}
+#: {{lb|nb|military}} '''giv akt!''' — [[attention]]!; a command to come to attention
+#: '''ta i akt''' — to take into account, consider or allow for
+#* {{quote-book|nb|year=1873|author={{w|Henrik Ibsen}}|title=Kejser og Galilæer|page=416|passage=det er dette, som du ikke har taget i act|translation=this is what you have failed to take into account}}
+#* {{quote-journal|nb|date=15 December 2005|journal=Tidsskrift for Den norske lægeforening|page=125|passage=[i] beskrivelsen av Becks kognitive terapi [har ikke] forfatteren … tatt i akt Wittgensteins poeng om at ords mening er deres bruk i språket|translation=in the description of Beck's cognitive therapy, the author has not … taken account of Wittgenstein's point that the meaning of words is their use in language}}
+#: {{lb|nb|archaic}} '''ta tiden i akt''' — to make good use of one's time
+#* {{quote-book|nb|year=1920|author={{w|Sigrid Undset}}|title=Kransen|page=125|passage=en skal ta tiden vel iagt, for her har hver time sit bruk og sin sysselsættelse|translation=one must make good use of time, for here every hour has its use and its task}}
+#: '''ta seg i akt''' — to take care, be cautious or [[beware]]
+#* {{quote-book|nb|year=2010|author={{w|Lars Saabye Christensen}}|title=Bernhard Hvals forsnakkelser|passage=hvis de ikke tok seg i akt ville Franck i Bogstadveien miste en villig kunde og arbeidsplasser|translation=unless they took care, Franck in Bogstadveien would lose a willing customer and jobs}}
+# {{lb|nb|obsolete}} [[opinion]], [[reputation]], [[esteem]], [[reverence]] or [[respect]], now chiefly surviving in fixed expressions
+#: {{syn|nb|anseelse|aktelse|respekt}}
+#: '''være i akt og ære''' — to be highly esteemed or regarded
+#* {{quote-book|nb|year=1870|author={{w|Peter Christen Asbjørnsen}}|title=Norske Huldre-Eventyr og Folkesagn|page=113|passage=det var en gaardmandskone [som hodeskallen hadde sittet på], og hun bar baade i agt og ære|translation=it was a farmer's wife [on whom the skull had sat], and she was held in both esteem and honour}}
+#: '''stå (høyt) i akt''' — to be held in high esteem
+#: '''holde i akt (og ære)''' — to esteem, value or hold in high regard
+#* {{quote-book|nb|year=1992|author=Odd Selmer|title=Og verden var som ny|passage=fordi han kjente bordets historie, men også fordi han hadde sans for godt håndverk, holdt August Arntzen bordet høyt i akt og ære|translation=because he knew the table's history and appreciated good craftsmanship, August Arntzen held the table in high esteem}}
+#* {{quote-book|nb|year=1917|author={{w|Knut Hamsun}}|title=Markens Grøde|volume=II|page=9|passage=du vil vise mig den agt og ære at du vil møte paa auktionen min?|translation=will you show me the respect and honour of attending my auction?}}
+# {{lb|nb|obsolete|archaic}} [[intention]], [[purpose]] or [[design]]
+#: {{syn|nb|hensikt}}
+#* {{quote-book|nb|year=1884|author={{w|Alexander Kielland}}|title=Fortuna|page=50|passage=det var hans agt at gifte sig strax|translation=it was his intention to marry immediately}}
+#* {{quote-book|nb|year=1903|author={{w|Otto Sverdrup}}|title=Nyt Land|volume=II|page=427|passage=det var vor agt at nedlægge et lidet depot|translation=it was our intention to establish a small depot}}
+#* {{quote-book|nb|year=1909|author={{w|Sigrid Undset}}|title=Fortællingen om Viga-Ljot og Vigdis|page=14|passage=far til dine frænder … som din agt var|translation=go to your kinsmen … as you intended}}
+#* {{quote-book|nb|year=1920|author={{w|Sigrid Undset}}|title=Kransen|page=115|passage=det er nu ikke min agt at vi skal sætte os ned på Formo straks|translation=it is not my intention that we should settle at Formo immediately}}
+
+=====Derived terms=====
+* {{l|nb|aktpågivende|t=attentive, heedful}}
+* {{l|nb|aktverdig|t=respectable, estimable}}
+* {{l|nb|givakt|t=attention; standing at attention}}
+
+=====Related terms=====
+{{top2}}
+* {{l|nb|akte|t=to heed, guard, esteem or intend}}
+* {{l|nb|aktelse|t=esteem, respect}}
+* {{l|nb|akting|t=the act of heeding, regarding or intending}}
+* {{l|nb|forakte|t=to despise}}
+* {{l|nb|høyakte|t=to esteem highly}}
+* {{l|nb|påakte|t=to notice, pay attention to}}
+* {{l|nb|ringeakte|t=to disdain, despise}}
+* {{l|nb|vanakte|t=to dishonour, despise}}
+{{bottom}}
+
+===Etymology 6===
+{{nonlemma}}
+
+====Verb====
+{{head|nb|verb form}}
+
+# {{infl of|nb|akte||imp|t=to heed, guard, regard, esteem or intend}}
+
+===Etymology 7===
+{{nonlemma}}
+
+====Pronunciation====
+* {{IPA|nb|/ɑːkt/|[ɑːkt]}}
+* {{rhymes|nb|ɑːkt|s=1}}
+* {{hyphenation|nb|akt}}
+
+====Verb====
+{{head|nb|verb form}}
+
+# {{infl of|nb|ake||sup|t=to sled, slide; move slowly or carefully}}
+
+====Participle====
+{{head|nb|past participle|definite singular and plural|akte}}
+
+# {{infl of|nb|ake||past|part|t=to sled, slide; move slowly or carefully}}
+
+===Anagrams===
+* {{anagrams|nb|a=akt|kat|tak}}
+
+===References===
+* {{R:nb:OB|akt}}
+* {{R:nb:NAOB|akt_1}}
+* {{R:nb:NAOB|akt_2}}
+* {{R:nb:NAOB|akt_3}}
+* {{R:nb:NAOB|akt_4}}
+* {{cite-web|date=26 November 2024|title=akt – handling|site=Store norske leksikon|url=https://snl.no/akt_-_handling}}
+* {{cite-web|date=27 November 2024|author=Ellen Karoline Gjervan|title=akt – drama|site=Store norske leksikon|url=https://snl.no/akt_-_drama}}
+* {{cite-web|date=25 November 2024|title=akt – billedkunst|site=Store norske leksikon|url=https://snl.no/akt_-_billedkunst}}
+* {{cite-web|date=25 November 2024|title=akt – fredløshet|site=Store norske leksikon|url=https://snl.no/akt_-_fredløshet}}
+
+==Norwegian Nynorsk==
+
+===Etymology 1===
+From {{der|nn|la|actus}}, {{m|la|acta}}.
+
+====Noun====
+{{nn-noun-f1}}
+
+# an [[act]], [[ceremony]]
+# an [[act]] {{q|in a play}} {{C|nn|Theater}}
+# {{lb|nn|art|drawing or painting of}} a [[nude]] [[model]]
+# a [[document]] {{q|e.g. in a legal case}}
+
+===Etymology 2===
+From {{der|nn|gml|acht}}.
+
+====Noun====
+{{nn-noun-f1}}
+
+# [[attention]]
+# [[respect]]
+
+=====Derived terms=====
+* {{l|nn|aktverdig}}
+
+===References===
+* {{R:nn:OB}}
+
+==Polish==
+{{wp|pl:}}
+[[Image:Pandora Lefebvre.jpg|thumb|akt ({{senseno|pl|art}})]]
+
+===Pronunciation===
+{{pl-pr|a=pl-#.ogg|mp=#}}
+
+===Etymology 1===
+{{etymon|pl|id=act|:lbor|la:āctus<id:made><ref:{{R:pl:WSWO}} !!! {{R:pl:SJPD}}>|:sl<senseid:art>|de:Akt<id:act><ref:{{R:pl:Mańczak}} !!! {{R:pl:Bańkowski}}>|etydate=1529<ref:{{R:pl:SXVI|akt|5301}}<<name:R:pl:SXVI>>>|tree=+|text=+}}
+
+====Noun====
+{{pl-noun|m-in|dim=akcik}}
+
+# {{senseid|pl|action}} {{lb|pl|literary}} [[act]] {{gl|action}} {{defdate|from 16th c.|refn=R:pl:SXVI}}
+# {{senseid|pl|celebration}} {{lb|pl|literary}} [[act]] {{gl|official celebration emphasizing the significance of something}} {{defdate|from 16th c.|refn=R:pl:SXVI}}
+# {{senseid|pl|law}} {{lb|pl|law}} [[act]], [[bill]], [[decree]] {{gl|legislative document}} {{defdate|from 16th c.|refn=R:pl:SXVI}}
+# {{senseid|pl|theater}} {{lb|pl|theatre}} [[act]] {{gl|part of a play}} {{defdate|from 16th c.|refn=R:pl:SXVI}}
+# {{senseid|pl|art}} {{lb|pl|art}} [[nude]] {{gl|painting or other artwork of an unclothed person}} {{defdate|from 20th c.|ref={{R:pl:SJP1900|akt|19|1}}}}
+# {{senseid|pl|religion}} {{lb|pl|religion}} [[prayer]] {{defdate|from 17th c.|ref={{R:pl:SXVII|AKT|342|TS|30.08.2016}}}}
+
+=====Declension=====
+{{pl-decl-noun-m-in}}
+
+=====Derived terms=====
+{{col|pl|title=adjective|aktowy}}
+{{col|pl|title=nouns|akt mowy|akta|aktówka|jednoaktówka}}
+
+=====Related terms=====
+{{col|pl|title=verb
+|aktykować<g:impf>
+}}
+
+=====Collocations=====
+{{col-top|2|{{senseno|pl|action}}, action}}
+* {{coi|pl|w trakcie '''aktu'''|during the '''act''' (sex)}}
+* {{coi|pl|uroczysty '''akt'''|a solemn '''act'''}}
+* {{coi|pl|symboliczny '''akt'''|a symbolic '''act'''}}
+* {{coi|pl|formalny '''akt'''|a formal '''act'''}}
+* {{coi|pl|swoisty '''akt'''|a peculiar '''act'''}}
+* {{coi|pl|wielki '''akt'''|a great '''act'''}}
+* {{coi|pl|spektakularny '''akt'''|a spectacular '''act'''}}
+* {{coi|pl|pojedynczy '''akt'''|an individual '''act'''}}
+* {{coi|pl|brutalny '''akt'''|a brutal '''act'''}}
+* {{coi|pl|wrogi '''akt'''|a hostile '''act'''}}
+* {{coi|pl|autentyczny '''akt'''|an authentic '''act'''}}
+* {{coi|pl|jedyny '''akt'''|a singular '''act'''}}
+* {{coi|pl|specjalny '''akt'''|a special '''act'''}}
+* {{coi|pl|'''akt''' erekcyjny|a foundation/erection '''act'''}}
+* {{coi|pl|'''akt''' intencjonalny|a deliberate '''act'''}}
+* {{coi|pl|'''akt''' kreacyjny|a creative '''act'''}}
+* {{coi|pl|'''akt''' poznawczy|a cognitive '''act'''}}
+* {{coi|pl|'''akt''' twórczy|a creative '''act'''}}
+* {{coi|pl|'''akt''' płciowy|a sexual '''act'''}}
+* {{coi|pl|'''akt''' terrorystyczny|a terrorist '''act'''}}
+* {{coi|pl|'''akt''' percepcyjny|a perceptual '''act'''}}
+* {{coi|pl|'''akt''' seksualny|an '''act'''}}
+* {{coi|pl|'''akt''' sądowy|an '''act'''}}
+* {{coi|pl|'''akt''' osobowy|a personal '''act'''}}
+* {{coi|pl|'''akt''' małżeński|a marital/marriage/conjugal '''act'''}}
+* {{coi|pl|'''akt''' komunikacyjny|a communication '''act'''}}
+* {{coi|pl|'''akt''' samobójczy|a suicidal '''act'''}}
+* {{coi|pl|'''akt''' myślowy|a thought '''act'''}}
+* {{coi|pl|'''akt''' rytualny|a ritual '''act'''}}
+* {{coi|pl|'''akt''' moralny|a moral '''act'''}}
+* {{coi|pl|'''akt''' zbiorowy|a collective '''act'''}}
+* {{coi|pl|popełnianie '''aktów'''|comming the '''act'''}}
+* {{coi|pl|wykonanie '''aktu'''|executing/performing an '''act'''}}
+* {{coi|pl|sprawca '''aktu'''|the perpatrator/doer of an '''act'''}}
+* {{coi|pl|świadek '''aktu'''|the witness of an '''act'''}}
+* {{coi|pl|uczestnik '''aktu'''|a participant of an '''act'''}}
+* {{coi|pl|'''akt''' terroru|an '''act''' of terror}}
+* {{coi|pl|'''akt''' wandalizmu|an '''act''' of vandalism}}
+* {{coi|pl|'''akt''' przemocy|an '''act''' of violence}}
+* {{coi|pl|'''akt''' kapitulacji|a capitulation '''act'''}}
+* {{coi|pl|'''akt''' sabotażu|an '''act''' of sabotage}}
+* {{coi|pl|'''akt''' sprawy|a case '''file'''}}
+* {{coi|pl|'''akt''' agresji|an '''act''' of aggression}}
+* {{coi|pl|'''akt''' odwagi|an '''act''' of bravery}}
+* {{coi|pl|'''akt''' terroryzmu|an '''act''' of terrorism}}
+* {{coi|pl|'''akt''' zemsty|an '''act''' of vengence}}
+* {{coi|pl|'''akt''' bohaterstwa|an '''act''' of heroism}}
+* {{coi|pl|'''akt''' łaski|an '''act''' of mercy}}
+* {{coi|pl|'''akt''' dywersji|an '''act''' of diversion}}
+* {{coi|pl|'''akt''' zawierzenia|an '''act''' of trust}}
+* {{coi|pl|'''akt''' kreacji/stworzenia/tworzenia|'''act''' of creation}}
+* {{coi|pl|'''akt''' bezprawia/samowoli|an '''act''' of lawlessness}}
+* {{coi|pl|'''akt''' afirmacji|an '''act''' of affirmation}}
+* {{coi|pl|'''akt''' gwałtu|an '''act''' of violence}}
+* {{coi|pl|'''akt''' desperacji/rozpaczy|an '''act''' of desperation}}
+* {{coi|pl|'''akt''' percepcji|an '''act''' of perception}}
+* {{coi|pl|'''akt''' poddania się|an '''act''' of giving up/surrender}}
+* {{coi|pl|'''akt''' lokacji|an '''act''' of location}}
+* {{coi|pl|'''akt''' barbarzyństwa|an '''act''' of barbarism}}
+* {{coi|pl|'''akt''' komunikowania|an '''act''' of communicating}}
+* {{coi|pl|'''akt''' komunikacji|an '''act''' of communication}}
+* {{coi|pl|'''akt''' woli|an '''act''' of will}}
+* {{coi|pl|'''akt''' poświęcenia|an '''act''' of dedication}}
+* {{coi|pl|'''akt''' wiary|an '''act''' of faith}}
+* {{coi|pl|'''akt''' świadomości|an '''act''' of awareness}}
+* {{coi|pl|'''akt''' mówienia|the '''act''' of talking}}
+* {{coi|pl|'''akt''' zdrady|an '''act''' of betrayal/cheating (on someone)}}
+* {{coi|pl|'''akt''' lojalności|an '''act''' of loyalty}}
+* {{coi|pl|'''akt''' odwetu|an '''act''' of revenge}}
+* {{coi|pl|'''akt''' wyzwolenia|an '''act''' of liberation}}
+* {{coi|pl|'''akt''' pojednania|an '''act''' of reconciliation}}
+* {{coi|pl|'''akt''' rezygnacji|an '''act''' of resignation}}
+* {{coi|pl|'''akt''' protestu|an '''act''' of protest}}
+* {{coi|pl|'''akt''' komisji|a commission's '''file'''}}
+* {{coi|pl|'''akt''' adopcji|an '''act''' of adoption}}
+* {{coi|pl|'''akt''' nominacji|an '''act''' of nomination}}
+* {{coi|pl|'''akt''' przekazania|an '''act''' of transfer/transmission}}
+* {{coi|pl|'''akt''' represji|an '''act''' of repression}}
+* {{coi|pl|'''akt''' odbioru|an '''act''' of collection}}
+* {{coi|pl|'''akt''' oddania|an '''act''' of giving away/back}}
+* {{coi|pl|'''akt''' miłosierdzia|an '''act''' of charity/compassion}}
+* {{coi|pl|'''akt''' wyobraźni|an '''act''' of imagination}}
+* {{coi|pl|'''akt''' spostrzeżenia|the '''act''' of observation}}
+* {{coi|pl|'''akt''' wdzięczności|an '''act''' of gratitude}}
+* {{coi|pl|'''akt''' poznania|the '''act''' of recognizing'}}
+* {{coi|pl|'''akt''' buntu|an '''act''' of rebellion/defiance}}
+* {{coi|pl|'''akt''' sprawiedliwości|an '''act''' of justice}}
+* {{coi|pl|'''akt''' wyboru|an '''act''' of election}}
+* {{coi|pl|'''akt''' refleksji|a reflex '''act'''}}
+* {{coi|pl|'''akt''' zakupu|an '''act''' of purchase}}
+* {{coi|pl|'''akt''' odwołania|the '''act''' of cancelling}}
+* {{coi|pl|'''akt''' władzy|an '''act''' of power/authority}}
+* {{coi|pl|'''akt''' procesu|an '''act''' of process}}
+* {{coi|pl|'''akt''' decyzji|an '''act''' of a decision}}
+* {{coi|pl|'''akt''' przedstawienia|the '''act''' of presenting}}
+* {{coi|pl|'''akt''' dyskryminacji|an '''act''' of discrimination}}
+* {{coi|pl|dokonywać/dokonać '''aktu'''|to carry out an '''act'''}}
+* {{coi|pl|'''akty''' miłości|an '''act''' of love}}
+* {{coi|pl|pod '''aktem''' (czyimś)|under someone's '''control'''|q=Middle Polish}}
+* {{coi|pl|ostatni '''akt''' (życia)|death|q=Middle Polish}}
+* {{coi|pl|smutny '''akt'''|a sad '''act'''|q=Middle Polish}}
+* {{coi|pl|straszny '''akt'''|an awful '''act'''|q=Middle Polish}}
+* {{coi|pl|'''akt''' uczynić z kim|to '''crack down''' on someone|q=Middle Polish}}
+* {{coi|pl|'''akt''' rozumu|an '''act''' of reason|q=Middle Polish}}
+{{col-bottom}}
+{{col-top|2|{{senseno|pl|celebration}}, celebration}}
+* {{coi|pl|'''akt''' pogrzebowy/pogrzebny/funeralny|a funeral '''ceremony'''|q=Middle Polish}}
+* {{coi|pl|'''akt''' żałobny/żałosny|a mourning '''ceremony'''|q=Middle Polish}}
+* {{coi|pl|'''akt''' koronacji|a corronation '''ceremony'''}}
+* {{coi|pl|'''akt''' mianowania|an appointing '''ceremony'''}}
+{{col-bottom}}
+{{col-top|2|{{senseno|pl|law}}, in law}}
+* {{coi|pl|na podstawie '''aktu'''|on the basis of an '''act'''}}
+* {{coi|pl|na mocy '''aktu'''|under/in accordance with an '''act'''}}
+* {{coi|pl|w postaci '''aktu'''|in the form of an '''act'''}}
+* {{coi|pl|w wyniku '''aktu'''|as a result of an '''act'''}}
+* {{coi|pl|w drodze '''aktu'''|by means of an '''act'''}}
+* {{coi|pl|w światle '''aktu'''|in light of an '''act'''}}
+* {{coi|pl|w sprawie '''aktu'''|regarding an '''act'''}}
+* {{coi|pl|objęty '''aktem'''|covered by an '''act'''}}
+* {{coi|pl|'''akt''' sądowny|a legal '''act'''}}
+* {{coi|pl|omawiany '''akt'''|the '''act''' in question}}
+* {{coi|pl|jednorazowy '''akt'''|a one-time '''act'''}}
+* {{coi|pl|polski '''akt'''|a Polish '''act'''}}
+* {{coi|pl|jednostronny '''akt'''|a unilateral '''act'''}}
+* {{coi|pl|nowy '''akt'''|a new '''act'''}}
+* {{coi|pl|doniosły '''akt'''|a momentous '''act'''}}
+* {{coi|pl|jednostkowy '''akt'''|a unitary '''act'''}}
+* {{coi|pl|odrębny/osobny '''akt'''|a separate '''act'''}}
+* {{coi|pl|słynny '''akt'''|a famous '''act'''}}
+* {{coi|pl|ważny '''akt'''|an important '''act'''}}
+* {{coi|pl|następujące '''akty'''|the following '''acts'''}}
+* {{coi|pl|'''akt''' notarialny|a notarial '''act/deed'''}}
+* {{coi|pl|'''akt''' prawny|a legal '''act'''}}
+* {{coi|pl|'''akt''' normatywny|a normative '''act'''}}
+* {{coi|pl|'''akt''' ratyfikacyjny|a ratification '''act'''}}
+* {{coi|pl|'''akt''' nominacyjny|an appointment '''act'''}}
+* {{coi|pl|'''akt''' wykonawczy|an executive '''act'''}}
+* {{coi|pl|'''akt''' prawotwórczy|a law-making '''act'''}}
+* {{coi|pl|'''akt''' prawodawczy/ustawodawczy|a legislative '''act'''}}
+* {{coi|pl|'''akt''' lokacyjny|a location '''act'''}}
+* {{coi|pl|'''akt''' założycielski|a founding '''charter'''/'''deed''' of foundation/'''charter/act''' of incorporation}}
+* {{coi|pl|'''akt''' bezwarunkowy|an unconditional '''act'''}}
+* {{coi|pl|'''akt'''|a legislative '''act'''}}
+* {{coi|pl|'''akt''' urzędowy|an official '''act'''}}
+* {{coi|pl|'''akt''' administracyjny|an administrative '''act'''}}
+* {{coi|pl|'''akt''' wyborczy|an electoral '''act'''}}
+* {{coi|pl|'''akt''' dyplomatyczny|a diplomatic '''act'''}}
+* {{coi|pl|'''akt''' krytyczny|a critical '''act'''}}
+* {{coi|pl|'''akt''' królewski|a royal '''act'''}}
+* {{coi|pl|'''akt''' publiczny|a public '''act'''}}
+* {{coi|pl|'''akt''' generalny|a general '''act'''}}
+* {{coi|pl|'''akt''' państwowy|a state '''act'''}}
+* {{coi|pl|odpis '''aktu'''|a duplicate of an '''act'''}}
+* {{coi|pl|opiniowanie '''aktów'''|reviewing '''acts'''}}
+* {{coi|pl|unieważnienie '''aktu'''|making an '''act''' null}}
+* {{coi|pl|kserokopia '''aktu'''|a xerox of an '''act'''}}
+* {{coi|pl|wypis '''aktu'''|an excerpt of '''act'''}}
+* {{coi|pl|kontrasygnata '''aktów'''|a counter signature of an '''act'''}}
+* {{coi|pl|projekt '''aktów'''|a draft '''act'''}}
+* {{coi|pl|zgodność '''aktów'''|congruence in an '''act'''}}
+* {{coi|pl|niezgodność '''aktu'''|incongruence in an '''act'''}}
+* {{coi|pl|konstytucyjność '''aktu'''|the constitutionality an '''act'''}}
+* {{coi|pl|sygnatariusz '''aktu'''|an '''act''' petitioner}}
+* {{coi|pl|anulowanie '''aktu'''|annulling an '''act'''}}
+* {{coi|pl|treść '''aktu'''|the content of an '''act'''}}
+* {{coi|pl|kopia '''aktu'''|a copy of an '''act'''}}
+* {{coi|pl|legalność '''aktu'''|the legality of an '''act'''}}
+* {{coi|pl|sformułowanie '''aktu'''|the wording of an '''act'''}}
+* {{coi|pl|postanowienie '''aktu'''|the provision/resolution of an '''act'''}}
+* {{coi|pl|konstytucja '''aktów'''|constitution of '''acts'''}}
+* {{coi|pl|tytuł '''aktu'''|the title of an '''act'''}}
+* {{coi|pl|ratyfikacja '''aktu'''|ratification of an '''act'''}}
+* {{coi|pl|wystawienie '''aktu'''|issuing an '''act'''}}
+* {{coi|pl|oryginał '''aktu'''|the original of an '''act'''}}
+* {{coi|pl|wysłuchanie '''aktu'''|haering of an '''act'''}}
+* {{coi|pl|uzasadnienie '''aktu'''|justification of an '''act'''}}
+* {{coi|pl|zbiór '''aktów'''|a collection of '''acts'''}}
+* {{coi|pl|tłumaczenie '''aktów'''|translation of an '''act'''}}
+* {{coi|pl|tworzenie '''aktów'''|creation of an '''act'''}}
+* {{coi|pl|przegląd '''aktów'''|review of an '''act'''}}
+* {{coi|pl|opracowanie '''aktów'''|developing an '''act'''}}
+* {{coi|pl|publikacja '''aktów'''|publication of an '''act'''}}
+* {{coi|pl|ważność '''aktu'''|the validity of an '''act'''}}
+* {{coi|pl|nieważność '''aktu'''|the invalidity of an '''act'''}}
+* {{coi|pl|istota '''aktu'''|the core/essence of an '''act'''}}
+* {{coi|pl|opis '''aktu'''|the description of an '''act'''}}
+* {{coi|pl|znaczenie '''aktu'''|the meaning of an '''act'''}}
+* {{coi|pl|przedmiot '''aktu'''|the subject matter of an '''act'''}}
+* {{coi|pl|etap '''aktu'''|a stage of an '''act'''}}
+* {{coi|pl|fragment '''aktu'''|a fragment '''act'''}}
+* {{coi|pl|tekst '''aktu'''|the text of an '''act'''}}
+* {{coi|pl|interpretacja '''aktu'''|an interpretation of an '''act'''}}
+* {{coi|pl|uznanie '''aktu'''|legitimization of an '''act'''}}
+* {{coi|pl|nowelizacja '''aktów'''|novelization of an '''act'''}}
+* {{coi|pl|'''akt''' oskarżenia|an '''indictment'''}}
+* {{coi|pl|'''akt''' nadania|an '''deed'''  of endowment}}
+* {{coi|pl|'''akt''' synodu|an '''act''' of the synode}}
+* {{coi|pl|'''akt''' urodzenia|a birth '''certificate'''}}
+* {{coi|pl|'''akt''' zaślubin/ślubu/małżeństwa|a marriage '''certificate'''}}
+* {{coi|pl|'''akt''' kupna|an '''act/deed''' of purchase/buy}}
+* {{coi|pl|'''akt''' powołania|an appointment '''letter'''}}
+* {{coi|pl|'''akt''' własności|a property '''deed'''/'''title'''}}
+* {{coi|pl|'''akt''' chrztu|a baptismal '''certificate'''}}
+* {{coi|pl|'''akt''' konfederacji|a confederation's '''act'''}}
+* {{coi|pl|'''akt''' rządu|a govenment '''act'''}}
+* {{coi|pl|'''akt''' wydziału|a faculty's/department's '''act'''}}
+* {{coi|pl|'''akt''' śledztwa|an investigation '''file'''}}
+* {{coi|pl|wydawać/wydać '''akt'''|to issue an '''act'''}}
+* {{coi|pl|sporządzać/sporządzić '''akt'''|to draw up an '''act'''}}
+* {{coi|pl|wmurować '''akt'''|to lay (out) an '''act'''}}
+* {{coi|pl|'''akt''' wpłynął na coś|an '''act''' affected something}}
+* {{coi|pl|podpisywać/podpisać '''akt'''|to sign an '''act'''}}
+* {{coi|pl|ogłaszać/ogłosić '''akt'''|to announce an '''act'''}}
+* {{coi|pl|wypisywać/wypisać '''akt'''|to write out an '''act'''}}
+* {{coi|pl|odczytać '''akt'''|to read out an '''act'''}}
+* {{coi|pl|spisać '''akt'''|to prepare an '''act''' in writing}}
+* {{coi|pl|zatwierdzać/zatwierdzić '''akt'''|to approve/sanction an '''act'''}}
+* {{coi|pl|uchwalać/uchwalić '''akt'''|to enact/pass an '''act'''}}
+* {{coi|pl|przygotowywać/przygotować '''akt'''|to prepare an '''act'''}}
+* {{coi|pl|wręczać/wręczyć '''akt'''|to hand in an '''act'''}}
+* {{coi|pl|wnosić/wnieść '''akt'''|to file an '''act'''}}
+* {{coi|pl|'''akta''' miesckie|urban '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akta''' trybunalskie|tribunal '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akt''' darowizny|an '''act''' of donation|q=Middle Polish}}
+* {{coi|pl|'''akt''' prawa|an '''act''' of law|q=Middle Polish}}
+* {{coi|pl|'''akta''' radzieckie|consultation '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akta''' synodowe|synod '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akta''' kapturowe|''{{l|pl|sąd kapturowy}}'' '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akta''' komisarskie|commissioner's '''acts'''|q=Middle Polish}}
+* {{coi|pl|'''akta''' zapisowe|record '''acts'''|q=Middle Polish}}
+{{col-bottom}}
+{{col-top|2|{{senseno|pl|theater}}, in theater}}
+* {{coi|pl|'''akt''' końcowy/ostatni|the final '''act'''}}
+* {{coi|pl|'''akt''' poetycki|a poetic '''act'''}}
+* {{coi|pl|zakończenie '''aktu'''|the ending of an '''act'''}}
+* {{coi|pl|'''akt''' dramatu|an '''act''' of a drama}}
+{{col-bottom}}
+{{col-top|2|{{senseno|pl|art}}, in art}}
+* {{coi|pl|'''akt''' kobiecy|a female '''nude'''}}
+* {{coi|pl|fotograf '''aktów'''|a photogorapher of '''nudes'''}}
+{{col-bottom}}
+{{col-top|2|{{senseno|pl|religion}}, prayer}}
+* {{coi|pl|'''akt''' skruchy|a '''prayer''' of repentance}}
+* {{coi|pl|'''akty''' miłości|a '''prayer''' of love}}
+* {{coi|pl|'''akt''' pokory|a '''prayer''' of humility}}
+* {{coi|pl|'''akty''' pokuty|'''prayers''' of|q=Middle Polish}}
+* {{coi|pl|'''akt''' strzelisty|ejaculatory '''prayer'''}}
+* {{coi|pl|'''akt''' modlitwy|an '''act''' of prayer}}
+* {{coi|pl|'''akty''' zbawienne|'''prayers''' of salvation|q=Middle Polish}}
+* {{coi|pl|'''akty''' nabożne|devotional '''prayers'''|q=Middle Polish}}
+{{col-bottom}}
+
+===Etymology 2===
+{{ety|pl|id=nonlemma}}
+{{ety|pl|nl=1}}
+
+====Noun====
+{{head|pl|noun form}}
+
+# {{inflection of|pl|akta||gen|p}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+
+==Serbo-Croatian==
+
+===Pronunciation===
+* {{IPA|sh|/âkt/}}
+
+===Noun===
+{{sh-noun|ȁkt|m-in}}
+
+# [[act]]
+# [[painting]] of a [[naked]] person
+
+====Declension====
+{{sh-decl-noun
+|akt|aktovi
+|akta|aktova
+|aktu|aktovima
+|akt|aktove
+|akte|aktovi
+|aktu|aktovima
+|aktom|aktovima
+}}
+
+===References===
+* {{R:sh:HJP|f1llXw%3D%3D}}
+
+==Swedish==
+
+===Pronunciation===
+* {{audio|sv|Sv-akt.ogg}}
+
+===Noun===
+{{sv-noun|c}}
+
+# [[act]]; a division of a theatrical performance
+# [[act]], [[ceremony]]
+# [[document]]
+# {{lb|sv|in some expressions}} [[attention]], [[intent]]
+
+====Declension====
+{{sv-infl-noun-c-er}}
+
+====Derived terms====
+* {{l|sv|givakt}}
+
+===References===
+* {{R:svenska.se|so}}
+* {{R:svenska.se|saol}}
+* {{R:svenska.se|saob}}
+
+===Anagrams===
+* {{anagrams|sv|a=akt|tak}}

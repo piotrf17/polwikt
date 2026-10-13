@@ -28,13 +28,15 @@ from wikitextprocessor import WikiNode
 
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.parse import rendered
 from polwikt.parse.text import drop_boxes, plain_text
 from polwikt.proto import polwikt_pb2 as pb
 
 log = logging.getLogger(__name__)
 
+LANG = "pl"  # the lang= of Polish term spans
+
 _IPA = re.compile(r'<span class="IPA[^"]*">([/\[][^<]*[/\]])</span>')
-_LABEL = re.compile(r'<span class="ib-content[^"]*">(.*?)</span>')
 # A label with its bracket spans: "(colloquial)" after an audio caption.
 _BRACKETED = re.compile(
     r'<span class="ib-brac[^"]*">\(</span>.*?<span class="ib-brac[^"]*">\)</span>'
@@ -45,8 +47,6 @@ _GROUP_HEADER = re.compile(
 _AUDIO_FILE = re.compile(r'class="audiofile">\[\[\s*File:([^|\]]+)')
 _CAPTION = re.compile(r"<td>(.*?)</td>")
 _MENTION = re.compile(r'<i class="[^"]*\bmention\b[^"]*"[^>]*>(.*?)</i>')
-_TERM = re.compile(r'<span class="Latn[^"]*"[^>]*>(.*?)</span>')
-_NEXT_TERM = re.compile(r',\s*(?=<span class="Latn)')
 _QUOTES = "“”"  # “robić”
 
 
@@ -109,7 +109,7 @@ def sounds(
         elif cfg.audio in line:
             reader.audio(line)
         elif cfg.syllabification in line:
-            _extend_unique(out.syllabification, _terms(line))
+            _extend_unique(out.syllabification, rendered.terms(line, LANG))
         elif cfg.homophones in line:
             reader.homophones(line)
         elif not any(m in line for m in cfg.ignored):
@@ -135,15 +135,15 @@ class _Reader:
 
     def ipa(self, line: str, marker: str) -> None:
         head, rest = line.split(marker, 1)
-        dialects = _labels(head)
+        dialects = rendered.labels(head)
         start = 0
         for m in _IPA.finditer(rest):
-            labels = _unique(dialects + _labels(rest[start : m.start()]))
+            labels = _unique(dialects + rendered.labels(rest[start : m.start()]))
             start = m.end()
             if self._dropped("pronunciation", labels):
                 continue
             self._add(pb.Pronunciation(ipa=m.group(1), labels=labels))
-        if _labels(rest[start:]):
+        if rendered.labels(rest[start:]):
             self.stats["pronunciation.qualifier.unattached"] += 1
 
     def _add(self, new: pb.Pronunciation) -> None:
@@ -162,7 +162,7 @@ class _Reader:
             return
         name = file.group(1).strip()
         caption = m.group(1) if (m := _CAPTION.search(line)) else ""
-        labels = _labels(caption)
+        labels = rendered.labels(caption)
         if self._dropped("audio", labels):
             return
         if mention := _MENTION.search(caption):
@@ -178,11 +178,13 @@ class _Reader:
         self.out.audio.append(pb.Audio(file=name, label=label, labels=labels))
 
     def homophones(self, line: str) -> None:
-        for item in _NEXT_TERM.split(line):
-            term = _TERM.search(item)
+        for item in rendered.term_separator(LANG).split(line):
+            term = rendered.term_pattern(LANG).search(item)
             if term is None:
                 continue
-            labels = _labels(item[: term.start()]) + _labels(item[term.end() :])
+            labels = rendered.labels(item[: term.start()]) + rendered.labels(
+                item[term.end() :]
+            )
             if self._dropped("relation", labels):
                 continue
             self.out.homophones.append(
@@ -192,14 +194,6 @@ class _Reader:
                     labels=_unique(labels),
                 )
             )
-
-
-def _labels(html: str) -> list[str]:
-    return [t for m in _LABEL.findall(html) if (t := plain_text(m))]
-
-
-def _terms(line: str) -> list[str]:
-    return [t for m in _TERM.findall(line) if (t := plain_text(m))]
 
 
 def _unique(values: list[str]) -> list[str]:

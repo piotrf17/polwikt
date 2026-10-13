@@ -138,6 +138,213 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "braciszek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "bratul",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "brateńko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "br.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "b.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "bracki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "braterski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobratymczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratersko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "po bratersku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "brat brata",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brachol",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bractwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brat łata",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratanek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratanica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratanka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratczyk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brateńko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratul",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratunio",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozbrat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobratymstwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobratymiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobratymca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "półbrat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ni brat ni swat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bracia czescy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bracia mniejsi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bracia morawscy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bracia polscy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bracia syjamscy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brat ksero",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brat mleczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "brat polski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ciepły brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cioteczny brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przyrodni brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rodzony brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "starsi bracia w wierze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "stryjeczny brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wujeczny brat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kochajmy się jak bracia, liczmy się jak Żydzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bratać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być za pan brat",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "gloss": "brother (son of the same parents as another person)",
@@ -194,7 +401,7 @@
       }
      ],
      "topics": [
-      "religion"
+      "Religion"
      ]
     },
     {

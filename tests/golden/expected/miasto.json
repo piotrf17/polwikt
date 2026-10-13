@@ -126,6 +126,194 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "rare",
+      "dialectal"
+     ],
+     "term": "miastko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "miasteńko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "mieścisko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "miejski",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "miasteczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małomiejski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małomieszczański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miasteczkowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastotwórczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "międzymiastowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastowo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miejsko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "natychmiast",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "człowiek z miasta",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małomieszczanin",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małomieszczańskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małomieszczaństwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miasteczko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastowiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miejskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczan",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczaneczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczanek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczaneria",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczanin",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczanka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczańskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczaństwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczuch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczuk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieszczuszek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miasteczkowość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miastowość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamieśnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miast",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamiast",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieścić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "miejsce",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Far Masovian",
+      "Przasnysz"
+     ],
+     "term": "mniasto",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -175,6 +363,12 @@
       "Far Masovian",
       "Suwałki"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "term": "miast",
+     "type": "TYPE_DERIVED"
     }
    ],
    "senses": [

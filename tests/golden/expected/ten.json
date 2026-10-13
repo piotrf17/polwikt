@@ -282,6 +282,48 @@
      "ipa": "/ˈtɛn/"
     }
    ],
+   "relations": [
+    {
+     "term": "cały ten",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ten cały",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tamten",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "potem",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "tydzień",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przytomny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wtedy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "tędy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "taki",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "tutaj",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "this (nearby)",

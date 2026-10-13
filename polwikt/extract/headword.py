@@ -14,9 +14,9 @@ from dataclasses import dataclass, field
 
 from polwikt.extract.inflection import config
 from polwikt.extract.labels import LabelIndex, split_on_comma
+from polwikt.extract.relations import numbered, terms
 from polwikt.extract.sense import positional, split_modifiers
 from polwikt.extract.tags import to_grammatical
-from polwikt.parse.text import plain_text
 from polwikt.proto import polwikt_pb2 as pb
 
 NOUN_TEMPLATES = frozenset({"pl-noun", "pl-proper noun"})
@@ -95,8 +95,9 @@ def verb(
         info.aspect = to_grammatical(list(distinct))[0].aspect
     relations: list[pb.Relation] = []
     for param, type_name in cfg["relations"].items():
-        for key in _numbered(args, param):
-            for term, term_labels, gloss in _terms_with_gloss(args[key], labels, stats):
+        for key in numbered(args, param):
+            for t in terms(args[key], labels, stats):
+                term, term_labels, gloss = t.term, t.labels, t.gloss
                 if hit := sorted(drop.intersection(term_labels)):
                     for label in hit:
                         stats[f"dropped.relation.{label}"] += 1
@@ -110,16 +111,6 @@ def verb(
                     )
                 )
     return info, relations
-
-
-def _numbered(args: dict[str, str], param: str) -> list[str]:
-    """`pf`, `pf2`, `pf3`, … in order: a list parameter's keys present in `args`."""
-    keys = [param] if param in args else []
-    n = 2
-    while f"{param}{n}" in args:
-        keys.append(f"{param}{n}")
-        n += 1
-    return keys
 
 
 @dataclass
@@ -166,9 +157,9 @@ def comparison(
             combined += [(d, [*dl, *term_labels]) for d, dl in defaults]
         else:
             combined.append((term, term_labels))
-    for degree, terms in (("comparative", comps), ("superlative", combined)):
+    for degree, listed in (("comparative", comps), ("superlative", combined)):
         grammatical, _ = to_grammatical([degree])
-        for term, term_labels in terms:
+        for term, term_labels in listed:
             if hit := sorted(drop.intersection(term_labels)):
                 for label in hit:
                     stats[f"dropped.form.{label}"] += 1
@@ -184,26 +175,4 @@ def comparison(
 def _terms(
     value: str, labels: LabelIndex, stats: Counter[str]
 ) -> list[tuple[str, list[str]]]:
-    """A list parameter: comma-separated terms with inline <q:…>/<l:…> modifiers."""
-    return [(t, ls) for t, ls, _ in _terms_with_gloss(value, labels, stats)]
-
-
-def _terms_with_gloss(
-    value: str, labels: LabelIndex, stats: Counter[str]
-) -> list[tuple[str, list[str], str]]:
-    """Terms with their labels and their <t:…>/<gloss:…> gloss."""
-    out: list[tuple[str, list[str], str]] = []
-    for raw in split_on_comma(value):
-        if not raw.strip():
-            continue
-        term, modifiers = split_modifiers(raw)
-        found: list[str] = []
-        for key in ("q", "qq"):
-            if modifiers.get(key):
-                found.append(plain_text(modifiers[key]))
-        for key in ("l", "ll"):
-            if given := modifiers.get(key):
-                found += [lab.name for lab in labels.parse_args([given], stats)]
-        gloss = modifiers.get("t") or modifiers.get("gloss") or ""
-        out.append((plain_text(term), found, plain_text(gloss)))
-    return out
+    return [(t.term, t.labels) for t in terms(value, labels, stats)]

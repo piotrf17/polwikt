@@ -653,6 +653,150 @@
     {
      "term": "bywać",
      "type": "TYPE_INDETERMINATE_COUNTERPART"
+    },
+    {
+     "term": "zbyteczny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nabytek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobyt",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przybytek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ubytek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zbytek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "to jest",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "być w błędzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nabyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nabywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odbyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odbywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pobyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pozbyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pozbywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przebyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przebywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przybyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przybywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ubyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ubywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wydobyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wydobywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyzbyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyzbywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zbyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zbywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zdobyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zdobywać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bydło",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "byt",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bawić",
+     "type": "TYPE_RELATED"
     }
    ],
    "senses": [

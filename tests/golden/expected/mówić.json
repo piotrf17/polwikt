@@ -1188,6 +1188,877 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "mówcowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówieniowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówniczy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mowny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówiony",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mownie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tam, gdzie diabeł mówi dobranoc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co ja mówię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lepiej nie mówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówisz i masz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówczyni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "móweczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mowina",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mowisko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mównica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mównictwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mównik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mowność",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówiący",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówiąca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "a nie mówiłem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co tu dużo mówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "inaczej mówiąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "krótko mówiąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówiąc między nami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nawiasem mówiąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prawdę mówiąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szczerze mówiąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mówiąc o",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czy ja coś mówię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak to mówią",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mów, co chcesz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nawet mi nie mów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie ma o czym mówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tak się tylko mówi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówiły jaskółki, że niedobre są spółki",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mów hop, póki nie przeskoczysz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w domu powieszonego nie mówi się o sznurze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "domawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "namówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "namawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "omówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "omawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pomówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pomawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przeciwmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przemówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przemawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przymówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przymawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "porozmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "umówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "umawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "współmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wymówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wymawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wzmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wzmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zmówić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zmawiać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "mówić bez zęby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić jak do ściany",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić jednym głosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przemówić jednym głosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "mówić na książce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzieć pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić przez łzy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić różnymi językami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić sam za siebie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić tym samym językiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "mówić w świat",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić zagadkami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mówić jeszcze ostatniego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiedzieć jeszcze ostatniego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mówić złego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiedzieć złego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "namowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmowliwy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przedmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przeciwmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemówieniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówkowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówniczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmowowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umowowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymawialny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymawianiowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamówieniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmowny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odmownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmownie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "mowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namówiny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "namównik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmowisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmównica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obmównik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odmówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odmowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omawianie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omowisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omownik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "omówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomowacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomówisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pomówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podmawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przeciwmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przedmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przedmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przedmówczyni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przedmówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przeciwmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przeciwmowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemówczyni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przemówionko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymówisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przymówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówczyni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmóweczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówiny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmowisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmówki",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmównica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmównik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "rozmowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umówiny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "umowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wmawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymawialność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymóweczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymówisko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wymowność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamawiacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamawiaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamówienie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamówiny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zamówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmówca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmówiny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zmowność",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "to talk, to converse (to speak with one or more people in a conversation)",

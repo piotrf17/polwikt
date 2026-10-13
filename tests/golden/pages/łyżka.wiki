@@ -1,0 +1,87 @@
+{{also|łyżką}}
+==Old Polish==
+
+===Etymology===
+{{etymon|zlw-opl|id=spoon|:inh|sla-pro:*lyžьka|tree=1|text=+}} {{etydate|1432}}.
+
+===Pronunciation===
+* {{zlw-opl-IPA|ły?żka}}
+
+===Noun===
+{{zlw-opl-noun|f}}
+
+# [[spoon]]
+#* {{RQ:zlw-opl:MPKJ|II|309|1432|Hanna wzala cztirzy kubky srzebrzne y dwanaczcze '''lischek'''|Hanna wzięła cztyrzy kubki śrzebrzne y dwanaćcie '''łyżek'''|-}}
+
+====Descendants====
+* {{desc|pl|łyżka}}
+* {{desc|szl|łyżka|alts=1}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+{{C|zlw-opl|Cutlery}}
+
+==Polish==
+{{wp|pl:}}
+[[File:Brijlepel, BK-1983-3.jpg|thumb|łyżka]]
+
+===Alternative forms===
+* {{alt|pl|łożka|łeżka|łyzka||Middle Polish}}
+
+===Etymology===
+{{etymon|pl|id=spoon|:inh|zlw-opl:łyżka|tree=1|text=+}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-łyżka.ogg;LL-Q809 (pol)-Olaf-łyżka.wav;LL-Q809 (pol)-Gower-łyżka.wav|mp=#}}
+
+===Noun===
+{{pl-noun|f|dim=łyżeczka|aug=łycha}}
+
+# [[spoon]]
+# [[spoonful]]
+# [[shoehorn]]
+# [[bucket]], [[scoop]] {{gl|part of a piece of machinery that resembles a bucket}}
+#: {{syn|pl|czerpak}}
+# {{lb|pl|Middle Polish}} [[device]] for [[clean]]ing one's [[ear]]
+
+====Declension====
+{{pl-decl-noun-f}}
+
+====Derived terms====
+{{col|pl|title=nouns|łyżka cedzakowa|łyżka do butów|łyżka dziegciu|łyżka stołowa|łyżka wazowa}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|+|63325}}
+* {{R:pl:SXVII|ŁYŻKA|9236|SPas|16.10.2018}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||833|2}}
+* {{R:pl:NFJP}}
+
+{{C|pl|Cutlery}}
+
+==Silesian==
+
+===Alternative forms===
+* {{alt|szl|łeżka||Western Silesian}}
+
+===Etymology===
+{{etymon|szl|id=spoon|:inh|zlw-opl:łyżka|tree=1|text=+}}
+
+===Pronunciation===
+{{szl-pr|a=LL-Q30319 (szl)-Vxern-#.wav}}
+
+===Noun===
+{{szl-noun|f}}
+
+# {{lb|szl|Eastern}} [[spoon]]
+# {{lb|szl|Eastern}} [[spoonful]]
+
+===Further reading===
+* {{R:szl:dykcjonorz|lyzka}}
+* {{R:szl:silling}}
+
+{{C|szl|Cutlery}}

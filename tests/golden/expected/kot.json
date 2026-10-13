@@ -134,6 +134,102 @@
    ],
    "relations": [
     {
+     "term": "kocica",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
+     "term": "kotka",
+     "type": "TYPE_FEMININE_EQUIVALENT"
+    },
+    {
+     "term": "kotek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "kocur",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "kocisko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "koci",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "kociak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kocię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kocimiętka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kot abisyński",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kot domowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kot norweski leśny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kot perski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kot syjamski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "koteczek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tłusty kot",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pierwsze koty za płoty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dostać kota",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dostawać kota",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "drzeć koty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kocić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odwracać kota ogonem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odwrócić kota ogonem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "okocić",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "kod",
      "type": "TYPE_HOMOPHONE"
     },
@@ -212,7 +308,7 @@
       "slang"
      ],
      "topics": [
-      "hunting"
+      "Hunting"
      ]
     },
     {

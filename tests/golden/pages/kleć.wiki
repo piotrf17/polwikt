@@ -1,0 +1,39 @@
+{{also|klec|kleč|Kleč}}
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Olaf-kleć.wav}}
+
+===Etymology 1===
+{{ety|pl|:inh|sla-pro:*klětь|text=+|tree=1}}
+
+====Noun====
+{{pl-noun|f}}
+
+# [[hutch]]
+# {{label|pl|obsolete}} [[granary]], [[outhouse]], [[outbuilding]], [[annex]], [[lean-to]]
+
+=====Declension=====
+{{pl-decl-noun-f|nomp=klecie}}
+
+=====Synonyms=====
+* {{sense|granary}} {{l|pl|spichlerz}}
+* {{sense|outhouse, outbuilding}} {{l|pl|dobudówka}}, {{l|pl|przybudówka}}
+* {{sense|lean-to}} {{l|pl|przyścianek}}
+
+=====Related terms=====
+{{col|pl|title=nouns|klatka|klitka}}
+{{col|pl|title=verb|klecić}}
+
+===Etymology 2===
+{{ety|pl|nl=1}}
+
+====Verb====
+{{head|pl|verb form}}
+
+# {{inflection of|pl|klecić||2|s|impr}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+{{C|pl|Buildings}}

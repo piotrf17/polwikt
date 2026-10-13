@@ -52,6 +52,44 @@
      "ipa": "/ˈtʂɘ/"
     }
    ],
+   "relations": [
+    {
+     "term": "do trzech razy sztuka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "troisty",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "trojaki",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "trojak",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "trojaczek",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "trójca",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "trójka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "troić",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "potrajać",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "three, C (passing grade in school)",
@@ -67,7 +105,7 @@
       "colloquial"
      ],
      "topics": [
-      "education"
+      "Education"
      ]
     }
    ],

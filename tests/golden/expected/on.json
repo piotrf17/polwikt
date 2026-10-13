@@ -106,6 +106,14 @@
    ],
    "relations": [
     {
+     "labels": [
+      "Eastern Lublin",
+      "Krynice and Kryniczki"
+     ],
+     "term": "won",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
      "term": "-on",
      "type": "TYPE_HOMOPHONE"
     }
@@ -410,6 +418,14 @@
     }
    ],
    "relations": [
+    {
+     "labels": [
+      "Eastern Lublin",
+      "Krynice and Kryniczki"
+     ],
+     "term": "won",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
     {
      "term": "-on",
      "type": "TYPE_HOMOPHONE"

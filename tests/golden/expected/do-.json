@@ -1,0 +1,45 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "LL-Q809 (pol)-Olaf-do-.wav"
+    }
+   ],
+   "pos": "POS_PREFIX",
+   "pronunciations": [
+    {
+     "ipa": "/dɔ/"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "appended to verbs to indicate completion"
+    },
+    {
+     "gloss": "appended to verbs to indicate addition or furthering a previous process"
+    },
+    {
+     "gloss": "appended to verbs to indicate addition or approaching a goal",
+     "relations": [
+      {
+       "term": "od-",
+       "type": "TYPE_ANTONYM"
+      },
+      {
+       "term": "ode-",
+       "type": "TYPE_ANTONYM"
+      }
+     ]
+    }
+   ],
+   "syllabification": "do-"
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish do-."
+  }
+ ],
+ "lemma": "do-"
+}

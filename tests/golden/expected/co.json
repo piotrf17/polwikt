@@ -77,6 +77,54 @@
    ],
    "relations": [
     {
+     "term": "dopiero co",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "o mało co",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "póki co",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co niemiara",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bądź co bądź",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co dopiero",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co gorsza",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co więcej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie ma co",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co za",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "coś",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "cóż",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "co-",
      "type": "TYPE_HOMOPHONE"
     }
@@ -210,6 +258,14 @@
     }
    ],
    "relations": [
+    {
+     "term": "co drugi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co-",
+     "type": "TYPE_RELATED"
+    },
     {
      "term": "co-",
      "type": "TYPE_HOMOPHONE"

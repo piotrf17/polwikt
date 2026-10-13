@@ -145,6 +145,27 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "piesek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "piesuś",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "psisko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "psi",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    }
+   ],
    "senses": [
     {
      "gloss": "dog (Canis lupus familiaris)",
@@ -181,7 +202,7 @@
       }
      ],
      "topics": [
-      "hunting"
+      "Hunting"
      ]
     },
     {
@@ -194,7 +215,7 @@
       "Bochnia"
      ],
      "topics": [
-      "children's games"
+      "Children's games"
      ]
     }
    ],
@@ -396,7 +417,7 @@
       }
      ],
      "topics": [
-      "law enforcement"
+      "Law enforcement"
      ]
     },
     {
@@ -581,6 +602,268 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "pieski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psowaty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak psu z gardła wyjęty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pod psem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psu na budę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak psa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak zbity pies",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psio",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "na psie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "całuj psa w nos",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies trącał",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "na psa urok",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "borowy pies",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "pies ziemny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiara",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiarnia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psię",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psina",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psota",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psowate",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ni pies, ni wydra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies łańcuchowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies na baby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies ogrodnika",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies policyjny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies przewodnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies służbowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pies z kulawą nogą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "piesio",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiur",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiarek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiarczyk",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak psów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ostatnich gryzą psy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psa by nie wygonił",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psy dupami szczekają",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "srał to pies",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "to pies?",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tu jest pies pogrzebany",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak się chce psa uderzyć, to kij się znajdzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dobra psu i mucha",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie dla psa kiełbasa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psy szczekają, karawana idzie dalej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tanie mięso psy jedzą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psioczyć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psuć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "goić się jak na psie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łgać jak pies",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podchodzić jak pies do jeża",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "psy paść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "użyć jak pies w studni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wieszać psy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zdać się psu na budę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zejść na psy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "schodzić na psy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żyć jak pies z kotem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psio",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "piesko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pieseczek",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "chaff stick (narrower stick in the chaff counter)",
@@ -646,7 +929,7 @@
       "Głodno"
      ],
      "topics": [
-      "music"
+      "Music"
      ]
     },
     {
@@ -715,7 +998,7 @@
       "Duplice Duże"
      ],
      "topics": [
-      "weaving"
+      "Weaving"
      ]
     }
    ],

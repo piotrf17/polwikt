@@ -41,7 +41,7 @@ def test_labels_are_split_by_kind(wtp: PolwiktWtp) -> None:  # R6.7
     )
     assert list(sense.labels) == ["colloquial"]
     assert list(sense.regions) == ["Far Masovian", "Krotoszyn"]  # town: by capital
-    assert list(sense.topics) == ["hunting"]
+    assert list(sense.topics) == ["Hunting"]  # its category (R6.10)
     assert sense.gloss == "fox"  # labels never reach the gloss text
 
 

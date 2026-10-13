@@ -129,6 +129,31 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "angrystek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "agrestowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "agrestnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "agreściak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "agreśniak",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "examples": [

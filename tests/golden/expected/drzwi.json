@@ -92,6 +92,103 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "drzwiczki",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "dźwierki",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "drzwiowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "tylnymi drzwiami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przy drzwiach otwartych",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przy drzwiach zamkniętych",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "za zamkniętymi drzwiami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niech drzwi ścisną",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "otwarte drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "drzwi się nie zamykają",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić od drzwi do drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie kłaść palca między drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokazać drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokazywać drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "walić drzwiami i oknami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyważyć otwarte drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyważać otwarte drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamknąć drzwi przed nosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zamykać drzwi przed nosem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapukać do drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pukać do drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zostawić za drzwiami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zostawiać za drzwiami",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "gloss": "door (portal)",

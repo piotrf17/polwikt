@@ -26,6 +26,22 @@
    ],
    "relations": [
     {
+     "term": "od cholery",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "od groma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "od metra",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ode",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
      "term": "od-",
      "type": "TYPE_HOMOPHONE"
     },

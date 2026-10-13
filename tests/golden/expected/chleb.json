@@ -129,6 +129,140 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "chlebek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "chlebuś",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "chlebowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "chlebny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "o chlebie i wodzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebodawca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebodawczyni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebuś",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łaskawy chleb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "lekki kawałek chleba",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "czarny chleb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ciężki kawałek chleba",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ciemny chleb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chleb świętojański",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chleb powszedni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biały chleb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z tej mąki chleba nie będzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "głodnemu chleb na myśli",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeść chleb",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podzielić się ostatnim kawałkiem chleba",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dzielić się ostatnim kawałkiem chleba",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wiedzieć, z której strony chleb jest posmarowany",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z niejednego pieca chleb jeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chlebno",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chlebaczek",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pochlebić",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pochlebiać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "schlebić",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "schlebiać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "gloss": "store-bought bread",
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "chlyb",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -169,7 +303,7 @@
       "Strugienice"
      ],
      "topics": [
-      "card games"
+      "Card games"
      ]
     },
     {

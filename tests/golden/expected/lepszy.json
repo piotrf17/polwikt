@@ -271,6 +271,79 @@
      "ipa": "/ˈlɛp.ʂɘ/"
     }
    ],
+   "relations": [
+    {
+     "term": "najlepszy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pierwszy lepszy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "godny lepszej sprawy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "ulepiony z lepszej gliny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "z uporem godnym lepszej sprawy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepsza",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepsze",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepszość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepsza połowa",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "kto pierwszy, ten lepszy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepszy rydz niż nic",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepszy wróbel w garści niż gołąb na dachu",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "lepszyć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obrać lepszą cząstkę",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obierać lepszą cząstkę",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "walczyć o lepsze",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "lepsy",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "form_of": {

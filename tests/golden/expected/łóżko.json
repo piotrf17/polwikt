@@ -125,6 +125,60 @@
      "ipa": "/ˈwuʂ.kɔ/"
     }
    ],
+   "relations": [
+    {
+     "term": "łóżeczko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "łóżkowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "ostre łóżko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szczyt łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie wychodzic z łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pchać się do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podnieść się z łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pójść do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "iść do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wylądować w łóżku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zaciągnąć do łóżka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łóżeczkowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "łóżeczko gipsowe",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "examples": [

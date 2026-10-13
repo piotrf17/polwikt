@@ -1,0 +1,288 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "pl-ulica.ogg"
+    },
+    {
+     "file": "LL-Q809 (pol)-Olaf-ulica.wav"
+    }
+   ],
+   "forms": [
+    {
+     "form": "ulica",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulice",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulicy",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulic",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulicy",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulicom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulicę",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulice",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulicą",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulicami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulicy",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulicach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "ulico",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "ulice",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "gender": "GENDER_FEMININE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/uˈli.t͡sa/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "uliczka",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "ul.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "na ulicę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dziecko ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "język ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "prawo ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rządy ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "leżeć na ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pracować na ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "trafić na ulicę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "trafiać na ulicę",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wychować się na ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wychowywać się na ulicy",
+     "type": "TYPE_DERIVED"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "street (road between houses)",
+     "keywords": [
+      {
+       "text": "street"
+      }
+     ]
+    },
+    {
+     "gloss": "street (people on a street)",
+     "keywords": [
+      {
+       "text": "street"
+      }
+     ],
+     "labels": [
+      "metonymic"
+     ]
+    },
+    {
+     "gloss": "public opinion (society as an exponent of views and assessments of current political, social, and cultural life)",
+     "keywords": [
+      {
+       "text": "public opinion"
+      }
+     ],
+     "labels": [
+      "colloquial"
+     ],
+     "relations": [
+      {
+       "term": "opinia publiczna",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "vox populi",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "Sociology"
+     ]
+    },
+    {
+     "gloss": "crowd; urban proletariat",
+     "keywords": [
+      {
+       "text": "crowd"
+      },
+      {
+       "text": "urban"
+      },
+      {
+       "text": "proletariat"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ]
+    },
+    {
+     "gloss": "path in a park or garden",
+     "keywords": [
+      {
+       "text": "path"
+      },
+      {
+       "text": "park"
+      },
+      {
+       "text": "garden"
+      }
+     ],
+     "labels": [
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "ścieżka",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ],
+   "syllabification": "u‧li‧ca",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of ulica"
+    }
+   ],
+   "topics": [
+    "Collectives",
+    "Roads"
+   ]
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish ulica."
+  }
+ ],
+ "frequency": {
+  "count": 265,
+  "rank": 197,
+  "source": "Słownik frekwencyjny polszczyzny współczesnej (1990)"
+ },
+ "lemma": "ulica"
+}

@@ -1,0 +1,29 @@
+==Polish==
+
+===Alternative forms===
+* {{alt|pl|Starenga}} (rare)
+
+===Etymology===
+From Polish {{m|pl|stary||old}}.
+
+===Pronunciation===
+{{pl-pr|hh=Starenga}}
+
+===Proper noun===
+{{pl-proper noun|m-pr}}
+
+# {{surname|pl|g=m}}
+
+====Declension====
+{{pl-decl-noun-m-pr|nomp=Staręgowie|genp=Staręgów}}
+
+===Proper noun===
+{{pl-proper noun|f|marr=Starężyna|unmarr=Starężanka}}
+
+# {{surname|pl|g=f}}
+
+====Declension====
+{{pl-decl-noun-f}}
+
+===Further reading===
+* {{R:pl:ISNP}}

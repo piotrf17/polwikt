@@ -73,6 +73,70 @@
    ],
    "relations": [
     {
+     "term": "antypolski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spolszczony",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polskawy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Polak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Polka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Polaczek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polaczek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polskość",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "polszczyzna",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spolszczanie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spolszczenie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypolszczanie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "musi to na Rusi, a w Polsce jak kto chce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pole",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "polska",
      "type": "TYPE_HOMOPHONE"
     }
@@ -84,6 +148,10 @@
       {
        "text": "Poland"
       }
+     ],
+     "topics": [
+      "Poland",
+      "Countries in Europe"
      ]
     }
    ],

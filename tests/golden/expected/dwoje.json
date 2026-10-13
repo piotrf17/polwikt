@@ -65,6 +65,10 @@
    ],
    "relations": [
     {
+     "term": "na dwoje babka wróżyła",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "dwoję",
      "type": "TYPE_HOMOPHONE"
     }

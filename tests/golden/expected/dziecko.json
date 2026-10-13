@@ -125,6 +125,134 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "dziateńko",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "dziecko",
+     "type": "TYPE_AUGMENTATIVE"
+    },
+    {
+     "term": "dla grzecznych dzieci",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "od dziecka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak dziecko we mgle",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "psiecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cudowne dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dom dziecka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dziecko szczęścia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dziecko ulicy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tęczowe dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dziecko specjalnej troski",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dziecko w drodze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bogatemu diabeł dziecko kołysze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obyś cudze dzieci uczył",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dał Bóg dziecko, da i na dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dzieci i ryby głosu nie mają",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "małe dzieci - mały kłopot, duże dzieci - duży kłopot",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kto ma pszczoły, ten ma miód, kto ma dzieci, ten ma smród",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spodziewa się dziecka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wmówić dziecko w brzuch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wmawiać dziecko w brzuch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wylać dziecko z kąpielą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wylewać dziecko z kąpielą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dziecko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bezdzietnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bezdzietność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Northern Borderlands",
+      "Lithuania"
+     ],
+     "term": "dzicko",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "child (non-adult person)",

@@ -909,6 +909,296 @@
     {
      "term": "chadzać",
      "type": "TYPE_FREQUENTATIVE"
+    },
+    {
+     "term": "chodliwy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodziwy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzący",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tam, gdzie król piechotą chodzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak nie wiadomo, o co chodzi, to chodzi o pieniądze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodź",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodźcie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodacz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodnica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzenie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodziarz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzidło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzień",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzony",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeśli chodzi o",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nieszczęścia chodzą parami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nieszczęścia chodzą po ludziach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "szewc bez butów chodzi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dochodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nachodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "obchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przechodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przedchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przychodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "schodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "uchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wchodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wschodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wychodzić",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić jak błędna owca",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić jak na sznurku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić jak paw",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić jak struty",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić kanałami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić na fraj",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić na palcach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić na rzęsach",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić od drzwi do drzwi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić po dengusie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić po gaiku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić po głowie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić po pytaniu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić po wilku",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "chodzić po wsi",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić spać z kurami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić własnymi drogami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodzić z kapeluszem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie chodzić piechotą",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chodaczkowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodnikowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodzeniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodziarski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodaczek",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodacznik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodliwość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodniczek",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodnikowiec",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chodziarstwo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chód",
+     "type": "TYPE_RELATED"
     }
    ],
    "senses": [

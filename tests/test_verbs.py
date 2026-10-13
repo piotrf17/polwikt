@@ -142,7 +142,8 @@ def test_aspect_and_counterparts(wtp: PolwiktWtp) -> None:  # R3.14
     assert robić.verb.aspect == pb.Aspect.ASPECT_IMPERFECTIVE
     assert (R.TYPE_PERFECTIVE_COUNTERPART, "zrobić") in relations(robić)
     assert zrobić.verb.aspect == pb.Aspect.ASPECT_PERFECTIVE
-    assert relations(zrobić) == [(R.TYPE_IMPERFECTIVE_COUNTERPART, "robić")]
+    aspect = [r for r in relations(zrobić) if r[0] != R.TYPE_DERIVED]  # M10: + derived
+    assert aspect == [(R.TYPE_IMPERFECTIVE_COUNTERPART, "robić")]
     labelled = [(r.term, list(r.labels)) for r in robić.relations]
     assert ("robiwać", ["dialectal"]) in labelled  # freq=robiwać<l:dialectal>
 

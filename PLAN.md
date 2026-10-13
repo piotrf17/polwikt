@@ -3,8 +3,9 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0–M9 ✅ (M0/M1 restarted from scratch 2026-10-11; M9 done 2026-10-13)
-— next is M10. No full run since M6: M7–M9 are measured on samples only.
+**Progress:** M0–M10 ✅ (M0/M1 restarted from scratch 2026-10-11; M10 done 2026-10-13)
+— next is M11. No full run since M6: M7–M10 are measured on samples only; the next
+full run is M12's.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
 pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
 history (`6fced42`); its lessons are folded into the M1 notes below, not its code.
@@ -337,8 +338,25 @@ a frequency; 1 unknown line kind (an `{{rfap}}` box, now skipped).
 
 ---
 
-## M10 — Relations and the remaining sections
-*Needs M5. ~3–4 days.*
+## M10 — Relations and the remaining sections ✅
+*Needs M5. ~3–4 days.* *Done 2026-10-13.* Until now the term-list sections were
+recognised but read into nothing. `extract/relations.py` (config
+`data/relations.toml`) reads every term-list section into typed entry Relations
+({{col}} by argument, `{{pl-derived verbs}}` from its rendering, link lines with their
+qualifiers and {{sense}} glosses), Alternative forms into every entry of their scope
+(Middle Polish ones dropped and counted), the Collocations section into entry
+examples, and the headword line's `dim=`/`adj=`/`f=`/`dem=`/`abbr=`/`marr=`… into
+Relations (schema, additive: eight types, R3.14). Category-built lists and navboxes
+are counted, not output. Topics (R6.10) are now always category names: a topical
+label gives its Module:labels category ("Music", not "music"), and the `pl:`
+categories a gloss emits ({{place}}) become sense topics — 881 of 898 emitted
+categories reach `topics` on 400 sampled pages, from 396. The "skip ignored sections
+by name" item was already done at M5. Fifteen fixtures added (115 pages);
+`tests/test_relations.py`. Measured on the first 3,000 pages: 0 errors, 15.0
+pages/s, 2,059 of 3,810 entries with relations (4,303 derived, 2,151 related, 490
+alternative forms, 493 related adjectives, 342 diminutives…), 1,765 collocation
+examples, 62 Middle Polish alternative forms dropped, no unknown template or
+untemplated line in a relation section.
 
 - Synonyms/antonyms/hypernyms/hyponyms/meronyms/holonyms, coordinate terms, derived and
   related terms (`{{col}}`, `{{pl-derived verbs}}`), alternative forms (Middle Polish

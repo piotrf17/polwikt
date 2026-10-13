@@ -131,6 +131,24 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "jaźń",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bo ja wiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal",
+      "Zagórze"
+     ],
+     "term": "jo",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "examples": [

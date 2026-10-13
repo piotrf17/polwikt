@@ -1,0 +1,3021 @@
+{{also|Appendix:Variations of "mi"}}
+{{minitoc}}
+==Translingual==
+
+===Etymology===
+{{abbrev|mul|en:'''M'''aor'''i''',mi:'''M'''āor'''i'''}}.
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+===See also===
+* {{langcat}}
+
+==English==
+{{rfquote|en}}
+
+===Pronunciation===
+* {{IPA|en|/miː/}}
+* {{audio|en|en-us-mi.ogg|a=GA}}
+* {{rhymes|en|iː|s=1}}
+* {{homophones|en|me}}
+
+===Etymology 1===
+From Glover's [[solmization]], from {{inh|en|enm|mi||third degree or note of Guido of Arezzo's hexachordal scales}}, {{der|en|it|mi}} in the solmization of Guido of Arezzo, from the first syllable of {{der|en|la|mīra|t=miracles; the miraculous}} in the lyrics of the scale-ascending hymn ''{{w|Ut queant laxis}}'' by Paulus Deacon.
+
+====Noun====
+{{en-noun|-}}
+
+# {{lb|en|music}} A syllable used in [[sol-fa]] ([[solfège]]) to represent the third note of a [[major scale]].
+## {{lb|en|shapenote}} Sometimes syllable for the seventh.
+
+=====Derived terms=====
+* {{l|en|do-re-mi}}
+
+=====Translations=====
+{{trans-top|third note of a major scale}}
+* Arabic: {{t+|ar|مِي}}
+* Basque: {{t+|eu|mi}}
+* Catalan: {{t+|ca|mi|m}}
+* Czech: {{t+|cs|mi}}
+* Finnish: {{t+|fi|mi}}
+* French: {{t+|fr|mi|m}}
+* Greek: {{t+|el|μι|n}}
+* Hungarian: {{t+|hu|mi|id=solfege-3}}
+* Indonesian: {{t+|id|mi}}
+* Irish: {{t+|ga|mí|m}}
+* Japanese: {{t+|ja|ミ|tr=mi}}, {{t+|ja|ホ|tr=ho}}
+* Korean: {{t+|ko|미}}
+* Macedonian: {{t+|mk|ми}}
+* Portuguese: {{t+|pt|mi|m}}
+* Russian: {{t+|ru|ми|n}}
+* Spanish: {{t+|es|mi|m}}
+* Swedish: {{t+|sv|mi}}
+* Thai: {{t+|th|มี}}
+* Turkish: {{t+|tr|mi}}
+* Vietnamese: {{t+|vi|mi}}
+{{trans-bottom}}
+
+=====See also=====
+* ''see list of other syllables at'' [[solfège]], [[sol-fa]]
+
+===Etymology 2===
+
+====Symbol====
+{{head|en|symbol}}
+
+# {{senseid|en|mile}} {{alternative form of|en|mi.<id:mile>|gloss=mile}}.
+#: {{cot|en|mul:nmi<id:Q93318><gloss:nautical mile>}}
+
+===Anagrams===
+* {{anagrams|en|a=im|'im|I'm|I. M.|I.M.|IM|Im|im-}}
+
+{{cln|en|2-letter words}}
+
+==Achang==
+
+===Pronunciation===
+* {{acn-IPA|lh=|lc=|lx=|xd=}}
+
+===Noun===
+{{head|acn|noun}}
+
+# [[yam]]
+
+===Further reading===
+* {{R:acn:Lexicon|82}}
+
+==Afra==
+
+===Noun===
+{{head|ulf|noun}}
+
+# [[breast]]
+
+===References===
+* Bill Palmer, ''The Languages and Linguistics of the New Guinea Area'' (2017), page 461
+
+==Ajië==
+
+===Pronunciation===
+* {{IPA|aji|[mi]}}
+
+===Verb===
+{{head|aji|verbs}}
+
+# to [[come]]
+
+===References===
+* {{R:map:ABVD|lang=Houaïlou|id=1188|cite={{cite-book|author=Leenhardt, M.|year=1935|title=Vocabulaire et grammaire de la langue Houaïlou|publisher=Institut d'ethnologie|location=Paris}}.}}
+* {{R:map:ABVD|lang=Ajiø|id=1482|cite={{cite-book|author=Leenhardt, M.|year=1946|title=Langues et dialectes de l'Austro-Mèlanèsie}}.}}
+
+==Albanian==
+
+===Etymology 1===
+From  {{inh|sq|ine-pro|*éǵh₂|*me-}}.
+
+====Pronunciation====
+* {{IPA|sq|[mi]}}
+
+====Pronoun====
+{{sq-pronoun}}
+
+# [[my]]
+
+====See also====
+* {{alter|sq|im}}
+{{sq-possessives}}
+
+===Etymology 2===
+From {{inh|sq|sqj-pro|*mūh-}}, from {{inh|sq|ine-pro|*múHs||mouse}}.
+
+====Noun====
+{{sq-noun|m|minj|miu|minjtë}}
+
+# [[mouse]]
+
+=====Declension=====
+{{sq-noun-m|nj|u|ë}}
+
+====See also====
+* {{l|sq|miu i gjirizeve}}
+* {{l|sq|micë}}
+<!--
+
+===References===
+* {{R:sq:Schumacher-Matzinger|page=226}}-->
+
+==Ama==
+
+===Pronunciation===
+* {{IPA|amm|/mĩː/}}
+
+===Noun===
+{{head|amm|nouns}}
+
+# [[bone]]
+
+==Amele==
+
+===Noun===
+{{head|aey|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+* John R. Roberts, ''[http://www.sil.org/pacific/png/pubs/928474542321/amele_opd.pdf Amele Organised Phonology Data]'' (1998)
+
+==Ampari Dogon==
+
+===Noun===
+{{head|aqd|nouns}}
+
+# [[water]]
+
+===Further reading===
+* Roger Blench, ''[//www.rogerblench.info/Language/Niger-Congo/Dogon/Ampari%20Pa%20wordlist%20paper.pdf Ampari Pa, a Dogon language in Northern Mali and its affinities]'' (2005)
+
+==Arikapú==
+
+===Noun===
+{{head|ark|noun}}
+
+# [[water]]
+
+===Further reading===
+* E R Ribeiro, ''[http://etnolinguistica.wdfiles.com/local--files/artigo%3Aribeiro-voort-2010/ribeiro_voort_2010.pdf Nimuendajú Was Right: The Inclusion of the Jabutí Language Family]'' (IJAL)
+
+==Aromanian==
+
+===Etymology===
+From {{inh|rup|la|me}}.
+
+===Pronoun===
+{{head|rup|pronouns}} (''unstressed [[accusative]] and [[reflexive]] form of '''{{l|rup|io}}''''')
+
+# [[me]] (accusative)
+# {{lb|rup|reflexive pronoun}} [[myself]]
+#: {{ux|rup|Mi-ashedz.|I sit (seat myself).}}
+
+====See also====
+{{rup-personal pronouns}}
+
+==Bagupi==
+
+===Noun===
+{{head|bpi|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Baimak==
+
+===Noun===
+{{head|bmx|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Bau==
+
+===Noun===
+{{head|bbd|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Bavarian==
+
+===Etymology===
+Cognate with {{cog|de|mich}}.
+
+===Pronunciation===
+* {{IPA|bar|/mi(ː)/|q2=stressed|[miː]|q3=unstressed|[mɪ]|[me]}}
+* {{rhymes|bar|iː}}
+
+===Pronoun===
+{{head|bar|pronouns|cat2=personal pronouns}}
+
+# [[me]] {{q|accusative}}
+
+===See also===
+{{bar-personal pronouns}}
+
+==Beami==
+
+===Noun===
+{{head|beo|noun}}
+
+# [[nose]]
+
+===References===
+* Daniel Shaw, ''[http://sealang.net/archives/pl/pdf/PL-A70.45.pdf The Bosavi language family]'' (1986), in ''Papers in New Guinea Linguistics'' 24
+
+==Berti==
+
+===Noun===
+{{head|byt|nouns}}
+
+# [[water]]
+
+===References===
+* {{R:AHCRNS}}
+
+==Bislama==
+
+===Etymology===
+From {{inh|bi|en|me}}. Cognate with {{cog|tpi|mi}} and {{cog|pis|mi}}.
+
+===Pronunciation===
+* {{IPA|bi|/ˈmi/}}
+* {{hyph|bi|mi}}
+
+===Pronoun===
+{{head|bi|pronouns|cat2=personal pronouns}}
+
+# [[I]], [[me]], [[my]]
+#* {{quote-book|bi|worklang=en
+|year=2008
+|author=Miriam Meyerhoff
+|title=Social lives in language--sociolinguistics and multilingual speech
+|chapter=
+|url=http://books.google.com/books?id=pXkqNVW_eC4C&pg=PT344
+|isbn=978-90-272-1863-6
+|page=344
+|passage=Bang i wantem '''mi''' faen from '''mi''' ovaspen.
+|t=The bank wants '''me''' to pay a fine because '''I''' am in overdraft.}}
+
+====Usage notes====
+* In formal speech, ''mi'' is placed before a noun to denote a first-person possessor. In informal speech, the construction ''{{m|bi|blong|blong mi}}'' is used instead.
+
+====See also====
+{{bi-personal pronouns}}
+
+===References===
+* {{R:bi:Crowley:2004|page=46}}
+
+==Bourguignon==
+
+===Etymology===
+From {{inh|roa-brg|la|medius}}.
+
+===Noun===
+{{head|roa-brg|nouns|g=m|mis}}
+
+# [[noon]], [[midday]]
+#: {{ux|roa-brg|El ât '''mi''', noutre ovreire é dressai lai sope.|It's '''noon''', our worker has prepared the soup.}}
+
+====Synonyms====
+* {{l|roa-brg|mairande}}
+* {{l|roa-brg|meidi}}
+* {{l|roa-brg|mijor}}
+* {{l|roa-brg|pregneire}}
+
+===References===
+* Thomas Mignard (1870). ''Vocabulaire raisonné et comparé du dialecte et du patois de la province de Bourgogne''.
+
+{{C|roa-brg|Times of day}}
+
+==Buginese==
+
+===Particle===
+{{head|bug|particles}}
+
+# [[ᨆᨗ]]: which means ''only'', e.g. ᨉᨘᨕ'''ᨆᨗ''' /duaːmi/ means only two.
+
+==Catalan==
+
+===Pronunciation===
+* {{ca-IPA}}
+* {{rhymes|ca|i|s=1}}
+
+===Etymology 1===
+From {{inh|ca|la|mihi|mī}}.
+
+====Pronoun====
+{{ca-ppron}}
+
+# [[me]]; {{form of|ca|post preposition form|jo}}
+
+=====Declension=====
+{{see-temp|ca-decl-ppron|for more pronouns}}
+
+===Etymology 2===
+
+====Noun====
+{{ca-noun|m}}
+
+# {{lb|ca|music}} {{l|en|mi}} (third note of diatonic scale)
+
+===Etymology 3===
+
+====Noun====
+{{ca-noun|f}}
+
+# [[mu]]; the [[Appendix:Greek script|Greek alphabet]] letter [[Μ]] (lowercase [[μ]])
+
+===Etymology 4===
+
+====Verb====
+{{head|ca|verb forms}}
+
+# {{lb|ca|colloquial}} {{ca-verb form of|mirar<imp_2s:mi>}}
+
+=====Usage notes=====
+* This form is an optional reduced form of the imperative {{m|ca|mira}} that can see use when combined with one or more clitic pronouns attached to the end of the verb - for example:
+* {{m|ca||mi-}}{{m|ca|te}}{{m|ca|'l||look at it, look at him}} for {{m|ca||mira-}}{{m|ca|te}}{{m|ca|'l}}
+
+=====Derived terms=====
+* {{qualifier|Algherese}} {{l|ca|mi-lo}}, {{l|ca|mi-la}}, {{l|ca|mi-los}}, {{l|ca|mi-les}} {{gloss|behold!, here it is!, here they are!}}
+
+====References====
+* {{cite-web|title=Imperatius amb forma molt reduïda: mi-te'l, mi-te-la, mi-te'ls, mi-te-les|url=https://aplicacions.llengua.gencat.cat/llc/AppJava/index.html?action=Principal&method=detall&input_cercar=%22d%F3%22&numPagina=1&database=FITXES_PUB&idFont=13603&tipusFont=Fitxes+de+l%27Optimot&idHit=13604&titol=Imperatius%20amb%20forma%20molt%20redu%EFda:%20%3Cem%3Edo%27m%3C/em%3E,%20%3Cem%3Ede%27m%3C/em%3E&numeroResultat=3&tipusCerca=cerca.queSignifica&clickLink=detall|work=Optimot|date=28 August 2020|accessdate=4 July, 2022}}
+
+* {{cite-book
+|title=El Català de l'Alguer : un model d'àmbit restringit
+|location=Barcelona
+|year=2003
+|page=57
+|isbn=84-7283-716-5
+}}
+
+* {{cite-web|title=mi-lo, mi-la|titleurl=http://www.algueres.net/vocabols/41846/milo_mila.aspx|work=Diccionari d'Alguerés|accessdate=4 July 2022}}
+
+{{C|ca|Greek letter names}}
+
+==Central Bikol==
+
+===Pronunciation===
+* {{bcl-IPA}}
+
+===Pronoun===
+{{bcl-head|pronoun|b=+}}
+
+# by [[us]], of [[us]]
+#: {{syn|bcl|niyato}}
+# [[our|Our]]—exclusive of person spoken to.
+#: {{syn|bcl|niyamo}}
+#: {{ux|bcl|Yaon an harong '''mi''' sana sa may kanto.|'''''Our''' house'' is just around the corner.}}
+
+==Central Franconian==
+
+===Alternative forms===
+* {{alt|gmw-cfr|mei|mein||Moselle Franconian}}
+
+===Etymology===
+From {{inh|gmw-cfr|gmh|mīn}}.
+
+===Pronunciation===
+* {{IPA|gmw-cfr|/miː/|/mi/}}
+
+===Determiner===
+{{head|gmw-cfr|determiners|masculine|menge|or|minge|feminine and plural|meng|or|ming}}
+
+# {{lb|gmw-cfr|Ripuarian}} [[my]] {{gloss|first-person singular possessive}}
+#: {{ux|gmw-cfr|Wo hann ich dann '''mi''' Jlas henjestallt?|Where did I put '''my''' glass?}}
+
+====Usage notes====
+* The form {{m|gmw-cfr||meng/ming}} is used for the neuter when strongly stressed: {{m|gmw-cfr||Dat es ''ming'' Jlas!|That's ''my'' glass!}} Contrariwise, the form {{m|gmw-cfr||mi}} may be used for the masculine and feminine when unstressed, chiefly with words for relatives: {{m|gmw-cfr||mi Papp}} (“my father”, but less common than {{m|gmw-cfr||menge Papp}}).
+
+==Chavacano==
+
+===Etymology===
+{{inh+|cbk|es|mi||my}}.
+
+===Pronunciation===
+* {{cbk-IPA}}
+
+===Adjective===
+{{cbk-adj}}
+
+# {{lb|cbk|formal|before a noun}} [[my]]
+#: {{syn|cbk|de mio}}
+
+==Chungli Ao==
+
+===Etymology===
+From {{inh|njo-jgl|sit-aao-pro|*mej(ʔ)}}, from {{inh|njo-jgl|sit-pro|*məj|t=fire}}.
+
+===Pronunciation===
+* {{njo-IPA-c|L}}
+
+===Noun===
+{{head|njo-jgl|noun}}
+
+# [[fire]]
+
+====Derived terms====
+{{col|njo-jgl
+|milen
+}}
+
+===Further reading===
+* {{R:sit:PCN|78, 192}}
+
+==Chuukese==
+
+===Verb===
+{{head|chk|verbs}}
+
+# {{lb|chk|transitive|copulative}} to [[be]] (precedes the adjective or adverb)
+
+==Corsican==
+
+===Etymology===
+From {{inh|co|la|me}}.
+
+===Pronoun===
+{{head|co|pronouns|cat2=personal pronouns}}
+
+# [[me]] {{q|both direct and indirect subject}}
+
+====See also====
+{{co-personal pronouns}}
+
+====References====
+* https://infcor.adecec.net/
+
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{audio|cs|Cs-mi.ogg}}
+* {{audio|cs|LL-Q9056 (ces)-Ghost4Man-mi.wav}}
+
+===Pronoun===
+{{head|cs|pronoun form}}
+
+# {{infl of|cs|já||clitic|dat}}
+
+==Dalmatian==
+
+===Etymology===
+From {{inh|dlm|la|meus}}.
+
+===Pronoun===
+{{head|dlm|pronouns|g=m|feminine|maja}}
+
+# [[mine]]; {{n-g|first-person masculine singular possessive pronoun}}
+# [[my]]
+
+===See also===
+* {{l|dlm|to}}
+* {{l|dlm|nuester}}
+* {{l|dlm|vestro}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|nl|/mi/}}
+* {{audio|nl|Nl-mi.ogg}}
+* {{hyphenation|nl|mi}}
+* {{rhymes|nl|i}}
+
+===Noun===
+{{nl-noun|f|-'s|-}}
+
+# {{lb|nl|music}} {{l|en|mi}}
+
+==Edera Awyu==
+
+===Noun===
+{{head|awy|noun}}
+
+# [[star]]
+
+===References===
+* Randy Lebold, Ronald Kriens and Yunita Susanto, ''A report on the Bamgi, Kia, and Lower Digul River language survey in Papua, Indonesia'' (2013), SIL ''Journal of Language Survey Reports''
+
+==Egyptian==
+
+===Romanization===
+{{head|egy|romanizations}}
+
+# {{egy-alt tr|mj|type=Manuel de Codage}}
+
+==Emilian==
+
+===Alternative forms===
+* [[mé#Emilian|mé]] ''(Bologna, Piacenza, Reggio Emilia)''
+* [[méi#Emilian|méi]] ''(Comacchio)''
+* [[mè#Emilian|mè]] ''(Modena)''
+
+===Etymology===
+{{inh+|egl|la|mihi}}, {{inh|egl|la|me}}.
+
+===Pronunciation===
+* {{IPA|egl|/ˈmi/|[ˈmi]|a=Ferrara}}
+* {{IPA|egl|[ˈmi]|a=Mirandola}}
+* {{IPA|egl|[ˈmi˧]|a=Parma}}
+
+===Pronoun===
+{{head|egl|pronoun}} {{tlb|egl|Ferrara|Mirandola|Parma}}
+
+# ''disjunctive form of'' [[a/languages_A_to_L#Emilian|'''a''']], ''first person singular pronoun''
+
+{{Template:egl-personal_pronouns}}
+
+==Esperanto==
+{{wikidata lexeme|L305159}}
+
+===Etymology===
+From {{der|eo|it|mi}}, {{der|eo|fr|moi}}, {{der|eo|en|me}}, etc., plus the ''i'' of personal pronouns.
+
+===Pronunciation===
+{{eo-pr|a=Eo-mi.ogg;LL-Q143 (epo)-Lepticed7-mi.wav;LL-Q143 (epo)-Robin van der Vliet-mi.wav}}
+
+===Pronoun===
+{{head|eo|pronouns|first-person singular nominative||accusative|min|possessive|mia}}
+
+# [[I]], the one who is speaking, [[me]], [[myself]]
+#: {{ux|inline=1|eo|'''Mi''' vidas lin.|'''I''' see him.}}
+#: {{ux|inline=1|eo|Li donis la hundon al '''mi'''.|He gave the dog to '''me'''.}}
+#: {{ux|inline=1|eo|Mi diris al '''mi'''.|I said to '''myself'''.}}
+
+===See also===
+{{eo-personal pronouns}}
+
+===Further reading===
+* {{R:eo:PIV 2020}}
+* {{R:eo:ReVo}}
+
+{{eo BRO|1}}
+
+==Ewe==
+
+===Pronunciation===
+* {{ee-IPA|mì}}
+
+===Pronoun===
+{{head|ee|pronoun|head=mì}}
+
+# [[you]] {{q|plural}}
+
+==Fala==
+
+===Etymology===
+{{ety|fax|:inh|roa-opt:mi<ety:inh<la:mihi>>|text=2|tree=1}}
+
+===Pronoun===
+{{head|fax|pronouns}}
+
+# {{ng|First person singular prepositional pronoun}}; [[me]]
+
+====See also====
+{{fax-personal pronouns}}
+
+===References===
+* {{R:fax:Diccionariu|200}}
+
+==Finnish==
+
+===Pronunciation===
+{{fi-pronunciation}}
+
+===Pronoun===
+{{head|fi|pronouns}} {{tlb|fi|poetic}}
+
+# {{alt form|fi|mikä||what}} {{gloss|especially as a relative pronoun}}
+
+====Declension====
+{{fi-decl-pron|1s=[[mi]]|2s=[[min]]|3s=[[mitä]]|4s=mi, min|5s=[[missä]]|6s=[[mistä]]|7s=[[mihin]]|8s=[[millä]]|9s=[[miltä]]|10s=[[mille]]|11s=[[minä]]|12s=[[miksi]]|1p=[[mit]]|2p=min|3p=mitä|4p=mitkä|5p=missä|6p=mistä|7p=mihin|8p=millä|9p=miltä|10p=mille|11p=minä|12p=miksi|a3s=[[minne]]|a5s=[[milloin]]|a6s=[[miten]]}}
+
+===Further reading===
+* {{R:fi:KTSK|accessdate=2023-07-03}}
+
+==French==
+
+===Pronunciation===
+* {{IPA|fr|/mi/}} <!--{{fr-IPA}}-->
+* {{audio|fr|Fr-Paris--mi.ogg|a=Paris}}
+* {{audio|fr|LL-Q150 (fra)-Poslovitch-mi.wav|a=<<France>> (<<Vosges>>)}}
+
+===Noun===
+{{fr-noun|m|#}}
+
+# {{lb|fr|music}} [[mi#English|mi]], the note 'E'
+
+====Descendants====
+* {{desc|fa|می|tr=mi|bor=1}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+==Friulian==
+
+===Etymology===
+From {{inh|fur|la|me|mē}}, and possibly, as an indirect object, in part from {{inh|fur|la|mihi}}.
+
+===Pronoun===
+{{head|fur|pronouns|first person direct object, indirect object}}
+
+# {{lb|fur|direct object}} [[me]]
+# {{lb|fur|indirect object}} to [[me]]
+# {{lb|fur|reflexive pronoun}} [[myself]]
+
+====Related terms====
+* {{l|fur|jo}}
+
+==Fula==
+
+===Pronoun===
+{{head|ff|pronouns}}
+
+# [[I]] {{q|first person singular subject pronoun; short form}}
+
+====Usage notes====
+* {{U:ff:common}}
+* Used in all conjugations except the affirmative non-accomplished, where the long form is used instead.
+
+===See also===
+* {{l|ff|miɗo}} {{q|first person singular subject pronoun; long form}}, {{l|ff|hilan}} {{q|variant used in the Pular dialect of Futa Jalon}}
+* {{l|ff|min}} {{q|emphatic form}}
+* {{l|ff|mín}} {{q|emphatic form (Adamawa)}}
+* {{l|ff|mi-}} {{q|first person singular subject dependant pronoun (Adamawa)}}
+* {{l|ff|-yam}} {{q|first person singular object dependant pronoun (Adamawa)}}
+* {{l|ff|-am}} {{q|first person singular possessive pronoun}}
+
+{{cln|ff|personal pronouns}}
+
+==Ga==
+
+===Pronunciation===
+* {{IPA|gaa|/mi/}}
+
+===Pronoun===
+{{head|gaa|pronouns}}
+
+# [[I]], [[me]] (first-person pronoun; refers to the person speaking)
+
+==Gal==
+
+===Noun===
+{{head|gap|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Galician==
+
+===Etymology 1===
+{{ety|gl|:inh|la:meus|text=+|tree=1}}
+
+====Pronunciation====
+* {{IPA|gl|[mi]}}
+
+====Determiner====
+{{head|gl|determiners|first-person singular possessive singular}}
+
+# {{lb|gl|before the noun}} unstressed form of {{l|gl|meu}} and {{l|gl|miña}}: {{m|en|my}}
+#* {{quote-text|gl|year=1880|author=Rosalía de Castro|title=Follas novas|page=83
+|passage=''—Non mo preguntés, '''mi madre''',''<br>''Vale mais que nunca o sepás.''<br>''Secretos d'esta feitura''<br>''Deben dormir antr'as pedras.''
+|translation=Don't ask me, '''my mother''',<br>better if thou never know.<br>Secrets of this making<br>should sleep among the stones.}}
+
+=====Usage notes=====
+The form {{m|gl|mi}} is only used before {{m|gl|padre||father}}, {{m|gl|madre||mother}}, {{m|gl|tío||uncle}}, {{m|gl|señor||lord, sir}}, {{m|gl|amo||master}}, as a form of respect.
+
+=====Derived terms=====
+* {{l|gl|mi madriña}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA|gl|[ˈmi]}}
+
+====Noun====
+{{gl-noun|m}}
+
+# {{lb|gl|music}} {{l|en|mi}} {{q|musical note}}
+# {{lb|gl|music}} [[E]] (the musical note or key)
+
+====See also====
+{{list:musical solfège notes/gl}}
+
+===References===
+* {{R:roa-opt:DDGM}}
+* {{R:gl:TILG}}
+
+==Garo==
+
+===Etymology===
+From {{inh|grt|sit-pro|*mej||rice; paddy}}.
+
+===Noun===
+{{head|grt|nouns}}
+
+# {{lb|grt|botany}} [[rice]] [[plant]]
+# [[rice]]
+
+==Garus==
+
+===Noun===
+{{head|gyb|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Gaulish==
+
+===Etymology===
+From {{inh|cel-gau|cel-pro|*mī}}.
+
+===Pronoun===
+{{head|cel-gau|pronouns|head=mī}}
+
+# [[I]]; first-person singular personal pronoun, nominative case
+
+====Inflection====
+{|class="wikitable"
+|-
+! Number !! Singular !! Plural
+|-
+|''Nominative''||mī||snīs
+|-
+|''Accusative''||me||snīs
+|-
+|''Genitive''||mon||ansron
+|-
+|''Dative''||moi||amē
+|-
+|''Ablative''||me||ame
+|-
+|''Instrumental''||moi||?
+|-
+|''Locative''||moi||amē
+|}
+
+==Gerka==
+
+===Numeral===
+{{head|gek|numeral|head=mí}}
+
+# [[one]]
+
+==Girawa==
+
+===Noun===
+{{head|bbr|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+* Patricia Lillie, ''Girawa Dictionary''
+
+==Gogodala==
+
+===Noun===
+{{head|ggw|noun}}
+
+# [[louse]]
+
+===References===
+* Andrew Pawley et al., "The Trans New Guinea family", in ''The Languages and Linguistics of the New Guinea Area: A Comprehensive Guide'' (2018, {{ISBN|978-3-11-028642-7}})
+
+==Guerrero Amuzgo==
+
+===Verb===
+{{head|amu|verbs}}
+
+# [[have]]
+
+===Noun===
+{{head|amu|nouns}}
+
+# [[cat]]
+
+{{C|amu|Mammals}}
+
+==Guinea-Bissau Creole==
+
+===Etymology===
+{{ety|pov|:der|pt:mim|text=+|tree=1}}
+
+===Pronoun===
+{{head|pov|pronouns}}
+
+# [[I]] (first person singular)
+# [[me]]
+# [[my]]
+
+==Gumalu==
+
+===Noun===
+{{head|gmu|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Gun==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{IPA|guw|/mĩ́/}}
+
+====Pronoun====
+{{head|guw|pronouns|head=mí}}
+
+# [[we]] (first-person plural personal pronoun)
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA|guw|/mĩ̀/}}
+
+====Pronoun====
+{{head|guw|pronouns|head=mì}}
+
+# [[you]] (second-person plural personal pronoun)
+
+===Etymology 3===
+
+====Pronunciation====
+* {{IPA|guw|/mĩ/}}
+
+====Pronoun====
+{{head|guw|pronouns|head=mi}}
+
+# [[me]] (first-person singular personal object pronoun)
+
+===Etymology 4===
+
+====Pronunciation====
+* {{IPA|guw|/mĩ́/}}
+
+====Pronoun====
+{{head|guw|pronouns|head=mí}}
+
+# [[us]] (first-person plural personal object pronoun)
+
+===Etymology 5===
+
+====Pronunciation====
+* {{IPA|guw|/mĩ̀/}}
+
+====Pronoun====
+{{head|guw|pronouns|head=mì}}
+
+# [[you]] (second-person plural personal object pronoun)
+
+==Haitian Creole==
+
+===Pronunciation===
+* {{IPA|ht|/mi/}}
+
+===Etymology 1===
+From {{inh|ht|fr|mûr}}.
+
+====Adjective====
+{{head|ht|adjectives}}
+
+# [[ripe]], [[mature]]
+
+===Etymology 2===
+From {{inh|ht|fr|mur}}.
+
+====Noun====
+{{head|ht|nouns}}
+
+# [[wall]]
+#: {{syn|ht|miray}}
+
+===References===
+* {{R:ht:Targète|page=129}}
+
+==Hungarian==
+
+===Pronunciation===
+* {{IPA|hu|[ˈmi]}} <!-- {{hu-IPA}} -->
+* {{audio|hu|Hu-mi.ogg}}
+* {{rhymes|hu|mi|s=1}}
+
+===Etymology 1===
+{{etymid|hu|we}}
+From {{inh|hu|urj-pro|*me}}.
+
+====Pronoun====
+{{head|hu|pronouns|cat2=personal pronouns}} <!-- {{hu-pron|personal}} -->
+
+# {{senseid|hu|personal}} {{lb|hu|personal}} [[we]]
+
+=====Declension=====
+{{hu-decl-perspron|unk|ünk|nk|acc=minket}}
+
+=====Alternative forms=====
+* {{l|hu|mink}} {{q|dialectal}}
+
+=====Coordinate terms=====
+{{hu-personal pronouns}}
+
+=====Derived terms=====
+Note: In all these forms, ''mi'' is optional and only serves for emphasis.
+* {{l|hu|mialattunk}}, {{l|hu|mielőttünk}} etc.  (''mi'' + a postposition with the first-person plural personal suffix; see [[Appendix:Hungarian postpositions]])
+* {{l|hu|minekünk}}, {{l|hu|mihozzánk}} etc. (''mi'' + one of the declined forms listed in the table above; see [[Appendix:Hungarian pronouns]])
+
+===Etymology 2===
+{{etymid|hu|what}}
+From {{inh|hu|urj-pro|*mi}}.
+
+====Pronoun====
+{{head|hu|pronouns|cat2=interrogative pronouns}} <!-- {{hu-pron|interrogative}} -->
+
+# {{senseid|hu|what-pronoun}} {{lb|hu|interrogative}} [[what]]?
+#: {{ux|hu|'''Mi''' van a kezedben?|'''What''' is in your hand?|inline=y}}
+# {{lb|hu|after {{m|hu|van}} or {{m|hu|nincs}} in any tense and mood, followed by an infinitive}} [[something]], [[anything]], [[nothing]]
+#: {{ux|hu|Nincs '''mit''' hozzátennem.|I have '''nothing''' to add.|inline=y}}
+#: {{ux|hu|Még szerencse, hogy volt '''mit''' enni!|It's lucky there was '''something''' to eat!|inline=y}}
+#: {{ux|hu|Örülnék, ha lenne '''mit''' nézni a tévében.|I would be glad if there were '''something''' to watch on TV.|inline=y}}
+#: {{ux|hu|Van '''mire''' tenni a vázát?|Is there '''anything''' to put the vase '''on'''?|inline=y}}
+
+=====Declension=====
+<!-- {{hu-infl-nom|mi|e}}{{hu-pos-tek|mi|je}} -->
+{{hu-infl-nom/mi (interrogative)}}{{hu-pos-tek/mi (interrogative)}}
+
+=====Derived terms=====
+{{col|hu|title=Compound words with this term at the beginning
+|mialatt
+|miáltal
+|micsoda
+|midőn
+|mielőtt
+|miféle
+|mihaszna
+|miképpen
+|miközben
+|mióta
+|miszerint
+}}
+{{col|hu|title=Compound words with this term at the end
+|ami
+|akármi
+|bármi
+|némi
+|semmi
+|valami
+}}
+{{col|hu|title=Expressions
+|mi újság?<qq:pronoun/determiner><!-- if it's parsed as "mi az újság", "mi" is a pronoun (cf. past tense: "mi volt az újság?"); if it's parsed as "mi újság van?", "mi" is a determiner (cf. past tense: "mi újság volt?") -->
+}}
+
+=====See also=====
+{{see-temp|hu-suff-pron-table|linktext=the table of pronominal adverbs from case suffixes|for more terms}}
+
+====Determiner====
+{{head|hu|determiners|interrogative}}
+
+# {{lb|hu|now only in certain set phrases}} [[what]]?
+#: {{syn|hu|milyen|miféle}}
+#: {{ux|hu|'''mi''' okból?|for '''what''' reason?|inline=y}}
+#: {{ux|hu|'''mi''' célból?|for '''what''' purpose/goal?|inline=y}}
+#: {{ux|hu|'''mi''' végből/végre?|to '''what''' end?|inline=y}}
+#: {{ux|hu|'''mi''' módon?|in '''what''' manner?|inline=y}}
+#: {{ux|hu|'''mi''' fán terem?|what kind of thing is it?|lit=on '''what''' tree is it produced?|inline=y}}
+
+=====Derived terms=====
+{{col|hu|title=Expressions
+|mi járatban vagy?
+|mi újság?<qq:pronoun/determiner><!-- if it's parsed as "mi az újság", "mi" is a pronoun (cf. past tense: "mi volt az újság?"); if it's parsed as "mi újság van?", "mi" is a determiner (cf. past tense: "mi újság volt?") -->
+}}
+
+====Interjection====
+{{head|hu|interjections}}
+
+# {{lb|hu|poetic}} [[how]] …!, [[what]] (a) …!
+#: {{syn|hu|mily|q1=poetic|milyen|q2=normal|micsoda|q3=normal, slightly colloquial|minő|q4=poetic and archaic}}
+#: {{ux|hu|'''Mi''' gyönyörűség!|'''What''' beauty!|inline=y}}
+
+====See also====
+{{see-temp|hu-correlatives|linktext=the table of Hungarian correlatives|for more terms}}
+
+===Etymology 3===
+{{etymid|hu|music}}
+{{rfe|hu}}
+
+====Noun====
+[[Image:Szolmizáció.JPG|thumb|solmisation]]
+{{head|hu|nouns|plural|mik}} <!-- {{hu-noun|k}} -->
+
+# {{senseid|hu|solfege-3}} [[mi#English|mi]] (a syllable used in [[solfège]] to represent the third note of a major scale)
+#: {{coord|hu|dó|ré|fá|szó|id4=solfege-5|lá|ti|id6=solfege-7}}
+
+=====Declension=====
+Its inflected forms are uncommon.
+{{hu-infl-nom|mi|e|esm_sg=y}}{{hu-pos-tek/mi (interrogative)}}<!-- {{hu-pos-tek|mi|je}} --> or (as a means of distinction from the inflection of the interrogative pronoun) {{hu-infl-nom|mi-|e|esm_sg=y}}{{hu-pos-tek|mi-|je}} <!-- esm_sg: "ezt a hangot nem fogadom el mi(-)ül"-->
+
+===Further reading===
+<!--
+* {{R:ErtSz|1|we}}
+* {{R:ErtSz|2|what}}
+* {{R:ErtSz|3|mi [in music]}}
+-->
+* {{sense|we}} [https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/mi-1-3F964 mi] in {{w|Géza Bárczi|Bárczi, Géza}} and {{w|László Országh}}. ''A magyar nyelv értelmező szótára'' (‘The Explanatory Dictionary of the Hungarian Language’). Budapest: Akadémiai Kiadó, 1959–1962. Fifth&nbsp;ed., 1992: [[Special:BookSources/9630535793|→ISBN]]
+* {{sense|what}} [https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/mi-2-3F973 mi] in {{w|Géza Bárczi|Bárczi, Géza}} and {{w|László Országh}}. ''A magyar nyelv értelmező szótára'' (‘The Explanatory Dictionary of the Hungarian Language’). Budapest: Akadémiai Kiadó, 1959–1962. Fifth&nbsp;ed., 1992: [[Special:BookSources/9630535793|→ISBN]]
+* {{sense|mi [in music]}} [https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/mi-3-3F999 mi] in {{w|Géza Bárczi|Bárczi, Géza}} and {{w|László Országh}}. ''A magyar nyelv értelmező szótára'' (‘The Explanatory Dictionary of the Hungarian Language’). Budapest: Akadémiai Kiadó, 1959–1962. Fifth&nbsp;ed., 1992: [[Special:BookSources/9630535793|→ISBN]]
+* {{q|Hungarian}} [https://web.archive.org/web/20160324012424/http://cotcot.hu/cikk/2008/07/01/mi-ez-szolmizacio An article on solfège with hand signs]
+<!--hard-coded to save memory-->
+
+{{cln|hu|terms with interjection and noun etymologies|terms with interjection and pronoun etymologies|terms with multiple lemma etymologies|terms with multiple pronoun etymologies|terms with noun and pronoun etymologies|2-letter words}}
+{{C|hu|Music}}
+
+==Indonesian==
+
+===Pronunciation===
+{{id-pr}}
+
+===Etymology 1===
+{{inh+|id|ms|mi||noodle}}, from {{der|id|nan-hbl|麵|tr=mī||noodle, flour}}.
+
+====Noun====
+{{id-noun}}
+
+# {{lb|id|cuisine}} [[noodle]]
+
+=====Alternative forms=====
+* {{alt|ms|mee||Malaysian old spelling}}
+* {{alt|id|mie||Indonesian old spelling}}
+
+=====Hyponyms=====
+{{col|id|
+| mi Aceh| mi ayam| mi ayam bangka| mi banglades| mi Bangladesh| mi bakso| mi balap| mi bancir| mi biangbiang| mi caluk| mi celor| mi cepat saji| mi combor| mi dadak| mi des| mi dingin| mi gelosor| mi gomak| mi goreng| mi goreng hitam| mi instan| mi jrembak| mi juhi| mi kenyol| mi kocok| mi kopyok| mi lendir| mi letek| mi lidi| mi nyemek| mi ongklok| mi organik| mi pangsit| mi panjang umur| mi pentil| mi tarempa| mi tek-tek| mi telur| mi titi| mi yamin
+|}}
+
+===Etymology 2===
+From {{der|id|la|mi|mīra}}, from the first word of the third line of ''{{w|Ut queant laxis}}'', the medieval hymn which [[solfège]] was based on because its lines started on each note of the scale successively.
+
+====Noun====
+{{id-noun}}
+
+# {{lb|id|music}} {{l|en|mi}}, a syllable used in [[sol-fa]] ([[solfège]]) to represent the third note of a [[major scale]]
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Ingrian==
+
+===Etymology===
+From {{inh|izh|urj-fin-pro|*mi}}.
+
+===Pronunciation===
+* {{izh-p}}
+
+===Pronoun===
+{{head|izh|pronoun}}
+
+# {{lb|izh|rare}} {{alternative form of|izh|mikä}}
+#* {{RQ:izh:Lukukirja-3:1937|„Katso, '''mi''' kumma seel ono?“<br />Hää hiljaa karhulle saoi.|„Look, '''what kind of''' wonder is there?“<br />It quietly asked the bear.|page=25}}
+
+====Declension====
+{{izh-decl-see|mikä}}
+
+===References===
+* {{R:izh:Nirvi:1971|page=309}}
+
+==Interlingua==
+
+===Determiner===
+{{head|ia|determiners}}
+
+# {{lb|ia|possessive}} [[my]]
+
+==Isebe==
+
+===Noun===
+{{head|igo|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Isoko==
+
+===Verb===
+{{head|iso|verb}}
+
+# to [[take]]
+
+==Italian==
+
+===Etymology 1===
+{{inh+|it|la|me|mē}} and, as an indirect object pronoun, possibly in part from {{inh|it|la|mihi}}.
+
+====Alternative forms====
+* {{alt|it|-mi||enclitic}}
+
+====Pronunciation====
+{{it-pr|mi°<r:DiPI<<name:dipi>>>}}
+
+====Pronoun====
+{{head|it|pronouns|first person, objective case}}
+
+# {{infl of|it|io||clitic|acc}}. [[me]]
+#: {{syn|it|me|qq=non-clitic}}
+#: {{ux|inline=1|it|'''m'''<nowiki/>'ha colpito|he hit '''me'''}}
+# {{infl of|it|io||clitic|dat}}. (to) [[me]]
+#: {{syn|it|[[a]] [[me]]|qq=non-clitic}}
+#: {{ux|inline=1|it|dam'''me'''lo|give it '''to me'''}}
+#: {{ux|inline=1|it|dim'''mi''' tutto|tell '''me''' anything}}
+#: {{ux|inline=1|it|'''mi''' piace|I like it|lit=it's pleasing '''to me'''}}
+#: {{ux|inline=1|it|non '''mi''' fai paura|you don't scare me|lit=you don't give fear '''to me'''}}
+# {{lb|it|colloquial}} {{ng|Used as [[ethical dative]].}}
+#: {{ux|inline=1|it|stam'''mi''' bene!|keep well!}}
+#: {{ux|inline=1|it|che '''mi''' combini?|what are you doing?}}
+
+=====Usage notes=====
+* Becomes {{m|it|me}} when followed by a third person direct object clitic ({{m|it|lo}}, {{m|it|la}}, {{m|it|li}}, {{m|it|le}}, or {{m|it|ne}}).
+
+=====See also=====
+{{it-personal pronouns}}
+
+===Etymology 2===
+{{wp|it:mi (nota)}}
+{{ety|it|id=note|:der|la:mīra}}
+
+====Pronunciation====
+{{it-pr|mì°<r:<<name:dipi>>>,#mì*<r:<<name:dipi>>>}}
+
+====Noun====
+{{head|it|nouns}}
+
+# {{lb|it|music}} the third note, {{l|en|mi}}
+# [[E]] {{gloss|musical note or key}}
+
+===Etymology 3===
+{{wp|it:mi (lettera)}}
+
+====Pronunciation====
+{{it-pr|mì*<r:<<name:dipi>>>,*mì*<r:<<name:dipi>>>}}
+
+====Noun====
+{{it-noun|mf|#}}
+
+# [[mu]] {{gloss|Greek letter}}
+
+===References===
+{{reflist}}
+
+===Anagrams===
+* {{anagrams|it|a=im|im-}}
+
+{{C|it|Greek letter names}}
+
+==Jamaican Creole==
+
+===Alternative forms===
+* {{alter|jam|me}}
+
+===Etymology===
+From {{der|jam|en|me}}.
+
+===Pronunciation===
+* {{IPA|jam|/ˈmɪ/}}
+* {{hyph|jam|mi}}
+
+===Pronoun===
+{{head|jam|pronoun}}
+
+# [[I]]
+#: {{ux|jam|'''Mi''' born a Westmoreland.|'''I''' was born in Westmoreland.}}
+#* {{quote-journal|jam
+|author=Carolyn Cooper
+|journal=The Jamaica Gleaner
+|termlang=jam
+|text=“'''Mi''' nearly dead wid laugh wen mi read wa Fieldgar post pon Gleaner website bout mi column, "Hair Policy Infested With Racism". {{...}}”
+|title=Junjo inna di judge wig
+|translation='''I''' nearly died of laughter when I read what Fieldgar posted about my column on Gleaner's website, "Hair Policy Infested with Racism" {{...}}
+|url=http://jamaica-gleaner.com/article/commentary/20200823/carolyn-cooper-junjo-inna-di-judge-dem-wig
+|year=2020
+}}
+# [[me]]
+#: {{ux|jam|Yuh can see '''mi'''?|Can you see '''me'''?}}
+#* {{quote-journal|en
+|journal=The Jamaica Gleaner
+|termlang=jam
+|text=“Si dat now! If yuh did only listen to '''mi'''!” {{...}}”
+|title=Hello Mi Neighbour - Reduce your speed on the roads
+|translation=Shucks! If only you had listened to '''me''' {{...}}
+|url=http://jamaica-gleaner.com/article/news/20190904/hello-mi-neighbour-reduce-your-speed-roads
+|year=2019
+}}
+# [[my]]
+#: {{ux|jam|A '''mi''' suitcase dat.|That's '''my''' suitcase.}}
+#* {{quote-journal|en
+|author=Andre Williams
+|journal=The Jamaica Gleaner
+|termlang=jam
+|text=“Mi just done cook '''mi''' pork and '''mi''' rice and peas 'cause I didn't get to cook yesterday {{...}}”
+|title=PORK POT SAFE - Senior glad after receiving COVID compassionate grant
+|translation=I've just finished cooking '''my''' pork and '''my''' Jamaican rice and peas because  {{...}}
+|url=http://jamaica-gleaner.com/article/lead-stories/20200512/pork-pot-safe-senior-glad-after-receiving-covid-compassionate-grant
+|year=2020
+}}
+
+====Related terms====
+{{col|jam|sort=0
+|yuh
+|im
+|har
+|shi
+|wi
+|unnu
+|dem
+}}
+
+===Further reading===
+* {{R:jam:Allsopp|377}}
+* {{R:jam:Jamaicans}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{Latn-def|ja|syllable|み|ミ|mi}}
+
+==Jarawa==
+
+===Etymology===
+Cognate to {{cog|oon|mi||I; me}}. Not related to English.
+
+===Pronunciation===
+* {{IPA|anq|/mi/}}
+
+===Pronoun===
+{{head|anq|pronouns}}
+
+# [[I]]; [[we]] (both singular and plural first-person pronoun, usually not as the object of the verb)
+
+====Usage notes====
+The pronoun {{m|anq|mi}} can be used in both the nominative and accusative case, but it is less common than {{m|anq|ma}} for the latter. When used in possessive constructions, the choice of pronoun is largely determined by vowel harmony.
+
+====See also====
+{| class="wikitable"
+|+ Jarawa pronouns
+|-
+! Person !! Default form !! Accusative form !! Prefixed form
+|-
+| 1st || {{l|anq|mi}} || {{l|anq|ma}} || {{l|anq|m-}}
+|-
+| rowspan="3" | 2nd || {{l|anq|ŋi}} || {{l|anq|ŋa}} || {{l|anq|ŋ-}}
+|-
+| {{l|anq|ni}} || {{l|anq|na}} || {{l|anq|n-}}
+|-
+| {{l|anq|ən}} || || {{l|anq|ən-}}
+|-
+| rowspan="2" | 3rd || {{l|anq|hi}}, {{l|anq|əhi}} || {{l|anq|hiwa}} || {{l|anq|h-}}, {{l|anq|hi-}}, {{l|anq|ih-}}, {{l|anq|he-}}, {{l|anq|əh-}}
+|-
+| {{l|anq|ən}} {{q|for generic third-person}} || colspan="2" |
+|}
+
+===References===
+{{R:anq:Kumar 2012|76—85}}
+
+==Kabuverdianu==
+
+===Etymology===
+{{ety|kea|:der|pt:mim|text=+|tree=1}}
+
+===Pronoun===
+{{head|kea|pronouns}}
+
+# [[I]], [[me]], [[my]]
+
+==Kapampangan==
+
+===Pronunciation===
+* {{pam-IPA}}
+
+===Pronoun===
+{{pam-head|pronoun}}
+
+# by [[us]], of [[us]]
+#: {{syn|pam|ikami|kami|kekami|ke}}
+# [[our|Our]]—exclusive of person spoken to.
+#: {{syn|pam|kekami|keke}}
+
+{{pam-personal pronouns}}
+
+==Kare (New Guinea)==
+
+===Noun===
+{{head|kmf|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Karelian==
+{{krl-regional|mi|mi}}
+
+===Etymology===
+From {{inh|krl|urj-fin-pro|*mi}}. Cognates include {{cog|vep|mi}} and {{cog|fi|mikä|mi-}}.
+
+===Pronunciation===
+* {{IPA|krl|/ˈmi/}}
+* {{hyph|krl|mi}}
+
+===Pronoun===
+{{head|krl|pronoun|cat2=interrogative pronouns|cat3=relative pronouns|cat4=indefinite pronouns}}
+
+# {{lb|krl|interrogative}} [[what]]?
+# {{lb|krl|relative}} [[whatever]]
+# {{lb|krl|indefinitve}} [[whatever]]
+
+====Declension====
+{{krl-decl-table|d=V|mi|min|mitä|mih|missä|mistä|millä|miltä|miksi|minä|-|mittä|-|mit|min|mitä|mih|missä|mistä|millä|miltä|miksi|minä|mineh|mittä|-|-}}
+{{krl-decl-table|d=T|mi|min|midä|mih|missä|mistä|millä|mildä|miksi|minä|minke|mittä|mičči|mit|min|midä|mih|missä|mistä|millä|mildä|miksi|minä|minke|mittä|mičči|-}}
+
+====Derived terms====
+{{col4|krl
+|nimi|minih}}
+
+===References===
+* {{R:krl:Punzhina:1994|+}}
+* {{R:krl:Rugoyeva:1999|+}}
+
+==Kari'na==
+
+===Etymology===
+From {{inh|car|sai-car-pro|*mitɨ||root}}; compare {{cog|apy|mity}}, {{cog|tri|mitï}}, {{cog|tri|mi}}, {{cog|way|mit}}, {{cog|ake|mi'}}, {{cog|aoc|mük}}, {{cog|mch|michü}}.
+
+===Pronunciation===
+{{car-IPA}}
+
+===Noun===
+{{head|car|noun|possessed|mity}}
+
+# [[root]]
+# [[offshoot]]
+# [[vein]]
+# [[nerve]] [[bundle]]
+# [[tendon]], [[sinew]]
+
+===References===
+* {{R:car:Courtz|317}}
+* {{R:car:Ahlbrinck|head=mi|292|286}}
+
+==Laboya==
+
+===Pronoun===
+{{head|lmy|pronouns}}
+
+# {{n-g|second person plural independent [[pronoun]]}}
+
+====See also====
+{{lmy-personal pronouns/independent}}
+
+==Ladino==
+
+===Etymology 1===
+{{inh+|lad|osp|mi||my}}, from {{inh|lad|la|meus}}, when it was eliding before a vowel-initial word in speech.
+
+====Determiner====
+{{head|lad|determiners|first-person singular possessive singular||plural|mis|g=s|Hebrew spelling|מי}}<ref name="Folkmasa">{{R:lad:Folkmasa}}</ref>
+
+# {{lb|lad|before the noun}} {{apocopic form of|lad|mío}}, [[my]]
+#* {{quote-web|1=lad|author=Alicia Sisso Raz|title=Unas membranzas de momentos pascuales|url=http://www.vocesdehaketia.com/novedades/Pesah.pdf|text=En '''mi''' corassón están grabadas con muncho cariño unos recuerdos endiamantados de la pascua enca de mis padres, ya ḥasrá.|t=Advantageous memories of '''my''' parents’ home Seder are kept so dearly in my heart; those were the days.|accessdate=16 December 2024|archiveurl=https://web.archive.org/web/20241219103928/http://www.vocesdehaketia.com/novedades/Pesah.pdf|archivedate=19 December 2024}}
+
+=====Usage notes=====
+* The forms {{m|lad|mi}} and {{m|lad|mis}} are only used before and within the [[noun phrase]] of the modified noun. In other positions, a form of {{m|lad|mío}} is used instead.
+: {{ux|lad|Son '''mis''' livros.|inline=1|They are my books.}}
+: {{ux|lad|Los livros son '''míos'''.|inline=1|The books are mine.}}
+
+Besides being a pronoun, because '''''mi''''' occurs in a noun phrase and expresses reference, it also grammatically classifies as a {{glossary|determiner}} (specifically a possessive/genitive determiner).
+
+===Etymology 2===
+{{inh+|lad|osp|mi||me}}, from {{inh|lad|la|mihi}}, dative of {{m|la|egō̆}}.
+
+====Pronoun====
+{{head|lad|pronoun|Hebrew spelling|מי}}<ref name="Folkmasa"/>
+
+# {{l|en|me}} {{gloss|declined form of {{m|lad|yo}} used as the object of a preposition}}
+#: {{ux|lad|Hanuka linda sta aki; ocho kandelas para '''mi'''.|Beautiful Hanukkah is here, so eight candles for '''me'''.}}
+
+=====Alternative forms=====
+* {{alt|lad|mí}}
+
+====References====
+<references/>
+
+==Latin==
+
+===Pronunciation===
+* {{la-IPA|mī}}
+
+===Determiner===
+{{head|la|determiner form|head=mī}}
+
+# {{infl of|la|meus||voc|m|s}}
+
+===Pronoun===
+{{head|la|pronoun form|head=mī}}
+
+# {{syncopic form of|la|mihī̆<pos:{{inflection of|la|egō̆||dat|s}}>}}
+#* {{Q|la|Catullus|Carmina|5|7|quote=Da '''mi''' basia mille, deinde centum.|trans=Give '''me''' a thousand kisses, then a hundred.}}
+
+===References===
+* [http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=mi mi] in {{cite-book|author=Charlton T. Lewis and Charles Short|title=[[w:A Latin Dictionary|A Latin Dictionary]]|publisher=Clarendon Press|location=Oxford|year=1879}}
+* [http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0060:entry=mi mi] in {{cite-book|author=Charlton T. Lewis|title=An Elementary Latin Dictionary|publisher=Harper & Brothers|location=New York|year=1891}}
+* [https://web.archive.org/web/20230405223936/http://ducange.enc.sorbonne.fr/MI mi] in Charles du Fresne du Cange’s [[wikipedia:Charles du Fresne, sieur du Cange#Works|''Glossarium Mediæ et Infimæ Latinitatis'']] (augmented edition, 1883–1887)
+* [http://www.neulatein.de/words/start2.htm?../words/2/002650.htm mi] in {{cite-web|url=http://www.neulatein.de/|work=Neulateinische Wortliste: Ein Wörterbuch des Lateinischen von Petrarca bis 1700|first=Johann|last=Ramminger|publisher=pre-publication website, 2005-2016|accessdate=July 16, 2016}}
+
+==Ligurian==
+
+===Etymology===
+From {{der|lij|la|me|mē}}.
+
+===Pronunciation===
+* {{IPA|lij|/mi/}}
+
+===Pronoun===
+{{head|lij|pronouns}}
+
+# [[I]], [[me]]
+
+===See also===
+* {{l|lij|ti}}
+* {{l|lij|lê}}
+* {{l|lij|noî}}, {{l|lij|niâtri}}
+* {{l|lij|voî}}, {{l|lij|viâtri}}
+* {{l|lij|lô}}, {{l|lij|liâtri}}
+
+==Livvi==
+
+===Etymology===
+From {{inh|olo|urj-fin-pro|*mi}}.
+
+===Pronunciation===
+* {{IPA|olo|/ˈmi/}}
+* {{hyph|olo|mi}}
+
+===Pronoun===
+{{head|olo|pronouns|cat2=interrogative pronouns}}
+
+# [[what]]?
+# [[which]]?
+
+===References===
+* {{R:olo:Boiko:2019|+}}
+
+==Lolopo==
+
+===Etymology===
+From {{inh|ycl|tbq-lol-pro|*ʔ-mre¹}} (Bradley). Cognate with {{cog|my|မြေ}}.
+
+===Pronunciation===
+* {{IPA|ycl|[mi³³]}}
+
+===Noun===
+{{head|ycl|noun}}
+
+# {{lb|ycl|Yao'an}} [[ground]], [[land]], [[dirt]]
+
+==Low German==
+
+===Alternative forms===
+* {{l|nds|my}} {{q|older orthography}}
+* {{l|nds|mie}}
+* {{l|nds|mek}}, {{l|nds|meck}}, {{l|nds|mik}}, {{l|nds|mick}} {{q|Eastphalian}}
+* {{l|nds|mui}} {{q|Eastwestphalian}}
+
+===Etymology===
+From {{inh|nds|gml|mi|mî}} from {{inh|nds|osx|mi|mī}}, from {{inh|nds|gem-pro|*miz}}.
+
+===Pronunciation===
+* {{IPA|nds|/mi/}}
+
+===Pronoun===
+{{head|nds|pronouns}}
+
+# [[me]] ({{inflection of|nds|ik||dat}})
+# [[me]] ({{inflection of|nds|ik||acc}})
+
+====Usage notes====
+* Some Low German dialects in southern Westphalia differentiate between dative ''mi'' and accusative ''mik''.<ref>Charles V. J. Russ (editor): ''The Dialects of Modern German: A Linguistic survey''. First published in 1990, reprinted 2000, page 61, note ''(e)'': „[...] southern Westphalian dialects, alone of the Low German dialects, do distinguish acc. ''mik'' and ''dik'' from dat. ''mi'' and ''di''.“</ref><ref>Ein Sohn der rothen Erde (a son of the red earth): ''Niu lustert mol! Plattdeutsche Erzählungen und Anekdoten im Paderborner Dialekt.'' Celle, 1870, page 7: „Fürwörter. Die persönlichen lauten: '''ik''', meyner, mey, mik; '''diu''' oder '''du''', deyner, dey, dik [...]“. Translation: „Pronouns. The personal pronouns are: '''ik''', (genitive) ''meyner'', (dative) ''mey'', (accusative) ''mik''; '''diu''' or '''du''', deyner, dey, dik [...])“</ref>
+
+====References====
+<references />
+
+==Ludian==
+
+===Etymology===
+From {{inh|lud|urj-fin-pro|*mi}}.
+
+===Pronoun===
+{{head|lud|pronouns}}
+
+# [[what]]
+
+====Declension====
+{{lud-decl-pron}}
+
+===References===
+* {{R:lud:Pahomov:2022}}
+
+==Macanese==
+
+===Etymology===
+From {{der|mzs|pt|mim}} with denasalization.
+
+===Pronoun===
+{{head|mzs|pronoun}}
+
+# {{lb|mzs|archaic}} {{n-g|[[prepositional]] form of {{m|mzs|iou}}}}: [[me]]
+#: {{ux|mzs|Desde idade de doze ano <br> ganhá pà unsong vesti;<br> lavá ropa de sua pai,<br> judá cô ancusa pà '''mi'''.|t= From the age of twelve <br> earned money to dress herself; <br> washed her father's clothes <br> helped with something for '''me'''.}}
+
+====Usage notes====
+* For the most part, Macanese does not have pronoun inflections (accusative, dative, etc.). The exception is {{m|mzs|mi}}, the prepositional form of {{m|mzs|iou}}, but even this is extremely rare in modern Macanese. ''pà mi'' in the above poem would be ''pa iou'' in modern Macanese.
+
+===See also===
+{{mzs-personal pronouns}}
+
+===References===
+* https://www.macaneselibrary.org/pub/english/uipatua.htm#f_ancusa
+* https://comotavai.com/2012/02/02/pronomes-pessoais/
+
+==Malay==
+
+===Etymology===
+From {{der|ms|nan-hbl|麵|tr=mī||noodle, flour}}.
+
+===Pronunciation===
+* {{ms-IPA}}
+* {{rhymes|ms|i|s=1}}
+
+===Noun===
+{{ms-noun|j=مي|pl=-}}
+
+# [[noodle]]
+
+===References===
+* {{cite-book|entryurl=https://nla.gov.au/nla.obj-60272783/view?partId=nla.obj-436229198#page/n148/mode/1up/search/mi|entry=mi|title=A Malay-English dictionary (romanised)|last=Wilkinson|first=Richard James|publisher=Salavopoulos & Kinderlis|location=Mytilene, Greece|year=1932|volume=II|page=139}}
+
+===Further reading===
+* {{R:PRPM}}
+
+{{C|ms|Food and drink}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|mī}}
+# {{nonstandard spelling of|cmn|mí}}
+# {{nonstandard spelling of|cmn|mǐ}}
+# {{nonstandard spelling of|cmn|mì}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Matepi==
+
+===Noun===
+{{head|mqe|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Mawan==
+
+===Noun===
+{{head|mcz|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Middle Dutch==
+
+===Pronunciation===
+* {{IPA|dum|/miː/|/mi/}}
+
+===Pronoun===
+{{head|dum|pronoun forms}}
+
+# {{inflection of|dum|ic||acc//dat}}
+
+====Descendants====
+* {{desctree|nl|mij}}
+* {{desc|li|mir}}
+
+==Middle English==
+
+===Alternative forms===
+* {{alter|enm|me|mie|my}}
+
+===Etymology===
+An {{apocopic form|enm|min|nocap=1}}, {{m|enm|myn}}, from {{inh|enm|ang|min|mīn|my, mine}}, from {{inh|enm|gem-pro|*mīnaz||pos=pron.|my, mine}}.
+
+===Pronunciation===
+* {{IPA|enm|/miː/}}
+* {{IPA|enm|/mi/|a=unstressed}}
+
+===Determiner===
+{{head|enm|determiners|nominative|I}}
+
+# {{n-g|First-person singular genitive determiner:}} [[my]].
+#* {{RQ:Wycliffe NT Lichfield|John|2|16|45|r|column=2|And he ſeide to hem þat ſelden culueris / take ȝe awei from hennes þeſe þingis .· ⁊ nyle ȝe make þe hous of '''my''' fadir an hows of marchaundiſe|And he said to those who sold doves: "Take those things out of here; you won't make '''my''' father's house a place of business!"}}
+
+====Usage notes====
+''mi'' is usually used before a consonant (other than ''h-''), while ''{{l|enm|min}}'' is usually used before a vowel or ''h-'', much as with Modern English {{m|en|an}} vs {{m|en|a}}.
+
+====Related terms====
+* {{l|enm|min}}
+
+====Descendants====
+* {{desc|en|my}}
+* {{desc|en-geo|my|maw}}
+* {{desc|sco|my|alts=1}}
+* {{desc|yol|mee}}
+
+====See also====
+{{enm-personal pronouns}}
+
+====References====
+* {{R:MED Online|entry= min|pos=pron |id=MED27802 |accessdate=6 May 2018}}
+
+==Middle French==
+
+===Etymology===
+{{inh+|frm|la|medius}}.
+
+===Noun===
+{{frm-adj}}
+
+# [[middle]]
+
+===Further reading===
+* {{R:DMF}}
+
+==Middle Low German==
+
+===Etymology===
+From {{inh|gml|osx|mi|mī}}, from {{inh|gml|gem-pro|*miz}}.
+
+===Pronunciation===
+* {{IPA|gml|/miː/}}
+
+===Pronoun===
+{{head|gml|pronouns|head=mî}}
+
+# {{lb|gml|first person singular dative}} [[me]]
+# {{lb|gml|first person singular accusative}} [[me]]
+
+====Declension====
+{{see-temp|gml-perpron|for declension}}
+
+====Descendants====
+* {{desc|nds|mir}}
+** {{desc|nds-de|mi}}
+**: {{desc|pdt|mie}}
+
+==Mizo==
+
+===Etymology===
+{{etymid|lus|person}}
+From {{inh|lus|tbq-kuk-pro|*mii}}. DeLancey (2023) derives the pronominal use meaning "me" from an impersonal construction involving the word for "person".<ref>{{R:tbq-kuk:Args SCKC}}</ref>
+
+===Noun===
+{{head|lus|noun}}
+
+# [[person]]
+
+===Pronoun===
+{{head|lus|pronoun}}
+
+# [[me]] (object clitic on verbs)
+
+====Derived terms====
+{{col|lus
+|Mizo
+|mipui
+|mipa
+}}
+
+===References===
+<references/>
+
+==Mosimo==
+
+===Noun===
+{{head|mqv|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Munit==
+
+===Noun===
+{{head|mtc|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Murupi==
+
+===Noun===
+{{head|mqw|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Nadëb==
+
+===Etymology===
+Related to {{cog|kwa|miʔ||in (liquid)}}.
+
+===Noun===
+{{head|mbj|nouns}}
+
+# [[water]]
+
+====Synonyms====
+* naʔɤy<!--
+per Jesús Mario Girón, ''Una gramática del wãńsöjöt (puinave)'' (2008): 'agua' (en hup y yuhup: deh, en nadëb: naʔɤy, en daw: nɤx, o en níkak cande)
+but the orthography is uncertain; possibly ~naʔâây given [[nââx]]? -->
+
+===References===
+* ''Language at Large: Essays on Syntax and Semantics'' (Aikhenvald, Dixon), citing Martins (1994)
+
+==Nake==
+
+===Noun===
+{{head|nbk|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Naxi==
+
+===Etymology===
+From {{inh|nxq|sit-nas-pro|*me|id=fire}}, from {{inh|nxq|sit-pro|*məj}}.
+
+===Noun===
+{{head|nxq|nouns}}
+
+# [[fire]]
+
+===References===
+* ''Naxi Dictionary'' by T.M. Pinson, Lijiang 2012
+
+==Nengone==
+
+===Noun===
+{{head|nen|noun}}
+
+# [[maternal]] [[uncle]]
+
+===References===
+* {{R:nen:Tryon:Dubois:1969|page=274}}
+
+==Nigerian Pidgin==
+
+===Etymology===
+From {{der|pcm|en|me}}.
+
+===Pronoun===
+{{head|pcm|pronouns}}
+
+# [[I]], [[me]] (first-person singular pronoun)
+
+==North Frisian==
+
+===Pronoun===
+{{head|frr|pronouns}} {{lb|frr|Föhr-Amrum|Sylt}}
+
+# {{form of|frr|Object case|ik}}: [[me]], [[myself]]
+
+====Alternative forms====
+* {{alt|frr|me||Mooring}}
+
+===See also===
+{{frr-personal pronouns/Foehr}}
+{{frr-personal pronouns/Sylt}}
+
+==Norwegian Bokmål==
+
+===Etymology===
+From {{inh|nb|non|mín}}.
+
+===Pronunciation===
+{{rfp|nb}}
+
+/mi:/
+
+===Determiner===
+{{head|nb|determiner forms}}
+
+# {{inflection of|nb|min||f|s}}
+
+===References===
+* {{R:nb:OB}}
+
+==Norwegian Nynorsk==
+
+===Pronunciation===
+* {{IPA|nn|/miː/}} {{nn-pronu-note}}
+
+===Etymology 1===
+From {{inh|nn|non|mín|g=f}}.
+
+====Determiner====
+{{head|nn|determiner forms|g=f}}
+
+# {{inflection of|nn|min||f|s}}
+
+===Etymology 2===
+From {{der|nn|la|mira|mīra}}, from the first word of the fourth line of ''[[w:Ut queant laxis|Ut queant laxis]]'', the medieval hymn on which [[solfège]] was based because its lines started on each note of the scale successively. Through {{bor|nn|it|-}}.
+
+====Noun====
+{{nn-noun-m1|mi-}}
+
+# {{senseid|nn|solfège}} {{lb|nn|music}} {{l|en|mi|id=solfège}}, a syllable used in [[solfège]] to represent the seventh note of a [[major scale]].
+
+=====Coordinate terms=====
+* {{sense|scale of solfège}} ''{{l|nn|do|id=solfège}}, {{l|nn|re|id=solfège}}, mi, {{l|nn|fa|id=solfège}}, {{l|nn|so|id=solfège}} ''(or ''{{l|nn|sol|id=solfège}}'')'', {{l|nn|la|id=solfège}}, {{l|nn|ti|id=solfège}} ''(or ''{{l|nn|si|id=solfège}}'')'', {{l|nn|do|id=solfège}}''
+
+===References===
+* {{R:nn:OB}}
+
+===Anagrams===
+* {{anagrams|nn|im}}
+
+==Nzadi==
+
+===Pronoun===
+{{head|nzd|pronouns|head=mǐ`}}
+
+# [[I]] (first-person singular pronoun)
+
+====See also====
+{{nzd-personal pronouns}}
+
+==Old Frisian==
+
+===Alternative forms===
+* {{alter|ofs|mē}}
+
+===Etymology===
+From {{inh|ofs|gem-pro|*miz}}.
+
+===Pronoun===
+{{head|ofs|pronouns|head=mī}}
+
+# {{noun form of|ofs|ik||acc//dat}}
+
+====Declension====
+{{ofs-personal pronouns}}
+
+====Descendants====
+* {{desc|frr|me}}
+* {{desc|stq|mie}}
+* {{desc|fy|my}}
+
+==Old High German==
+
+===Pronoun===
+{{head|goh|pronoun forms}}
+
+# {{lb|goh|northern}} {{alt form|goh|mir}}, {{inflection of|goh|ih||dat|sg}}
+
+==Old Saxon==
+
+===Alternative forms===
+* {{l|osx|mik}} {{q|for the accusative}}
+
+===Etymology===
+From {{inh|osx|gem-pro|*miz}}.
+
+===Pronoun===
+{{head|osx|pronoun forms|head=mī}}
+
+# {{inflection of|osx|ik||dat//acc}}
+
+====Declension====
+{{see-temp|osx-decl-ppron|for more pronouns}}
+
+====Descendants====
+* {{desctree|gml|mi}}
+
+==Old Spanish==
+
+===Determiner===
+{{head|osp|determiners}}
+
+# [[my]]
+
+====Alternative forms====
+* [[mio]]
+
+==Önge==
+
+===Etymology===
+From {{inh|oon|qfa-ong-pro|*mi}}. Cognate with {{cog|anq|mi||I; we}}. Not related to English.
+
+===Pronunciation===
+* {{IPA|oon|/mi/}}
+
+===Pronoun===
+{{head|oon|pronouns}}
+
+# [[I]]; [[me]] (singular first-person pronoun)
+# [[we]] (plural first-person pronoun)
+
+====See also====
+{| class="wikitable"
+|+ Önge pronouns
+|-
+! Person !! Independent singular !! Independent plural !! Prefixed singular || Prefixed plural
+|-
+| 1st || {{l|oon|mi}} || {{l|oon|eti}} || {{l|oon|m-}} || {{l|oon|et-}}, {{l|oon|ot-}}
+|-
+| 2nd || {{l|oon|ṅi}} || {{l|oon|ni}} || {{l|oon|ṅ-}} || {{l|oon|n-}}
+|-
+| rowspan="2" | 3rd || {{l|oon|gi}} || {{l|oon|ekwi}} || {{l|oon|g-}} || {{l|oon|ek-}}, {{l|oon|ok-}}, {{l|oon|ekw-}}
+|-
+| colspan="2" | {{l|oon|ëni}} {{q|for generic third-person}} || colspan="2" | {{l|oon|on-}}, {{l|oon|ën-}}
+|}
+
+===References===
+* {{cite-book|author=D. Dasgupta, S. R. Sharma|title=A Handbook of Onge Language|year=1982|publisher=Anthropological Survey of India}}
+* Blevins, Juliette. "A Long Lost Sister of Proto-Austronesian?: Proto-Ongan, Mother of Jarawa and Onge of the Andaman Islands." Oceanic Linguistics 46, no. 1 (2007): 154-198. https://dx.doi.org/10.1353/ol.2007.0015.
+
+==Palenquero==
+
+===Etymology===
+From {{inh|pln|es|mi}}.
+
+===Adjective===
+{{head|pln|adjectives}}
+
+# [[my]]
+
+====Usage notes====
+Placed after the noun.
+
+==Panim==
+
+===Pronunciation===
+* {{IPA|pnr|/mi/}}
+
+===Noun===
+{{head|pnr|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+* ''[http://talkingdictionary.swarthmore.edu/panim/about/ Panim Talking Dictionary]''
+
+==Papiamentu==
+
+===Alternative forms===
+* {{alter|pap|ami}} {{q|synonym}}
+
+===Etymology===
+{{ety|pap|:der<conj:and>|pt:mim|es:mi|kea:mi|text=+|tree=1}}
+
+===Pronoun===
+{{head|pap|pronouns}}
+
+# [[I]], [[me]], [[my]].
+
+==Piedmontese==
+
+===Pronunciation===
+* {{IPA|pms|/mi/}}
+
+===Pronoun===
+{{head|pms|pronouns}}
+
+# [[I]]
+
+==Pijin==
+
+===Etymology===
+From {{inh|pis|en|me}}.
+
+===Pronoun===
+{{head|pis|pronouns}}
+
+# [[I]]/[[me]] (first-person singular pronoun)
+#* {{quote-book
+|pis
+|year=1988
+|author=Geoffrey Miles White
+|title=Bikfala faet: olketa Solomon Aelanda rimembarem Wol Wo Tu
+|chapter=
+|url=http://books.google.com/books?id=acIEAQAAIAAJ
+|isbn=
+|page=41
+|passage='''Mi''' wande stori lebebet abaot tupela man blong America hemi foldaon long Baolo.}}
+
+===See also===
+{{pis-personal pronouns}}
+
+===References===
+* {{R:pis:Jourdan:2002|+|page=137}}
+
+==Polish==
+{{wp|pl:}}
+
+===Pronunciation===
+{{pl-pr|a=Pl-mi.ogg;LL-Q809 (pol)-Olaf-mi.wav}}
+
+===Etymology 1===
+{{ety|pl|nl=1}}
+
+====Alternative forms====
+* {{q|stressed}} {{l|pl|mnie}}
+
+====Pronoun====
+{{head|pl|pronoun forms}}
+
+# {{inflection of|pl|ja||dat|s|mute}}
+#: {{ux|inline=1|pl|Daj '''mi''' rękę.|Give me your hand.}}
+
+===Etymology 2===
+
+====Noun====
+{{pl-noun|n|indecl=yes}}
+
+# {{alt form|pl|my}}
+
+===Further reading===
+* {{R:pl:PWN}}
+
+{{C|pl|Greek letter names}}
+
+==Portuguese==
+
+===Pronunciation===
+{{pt-IPA}}
+* {{audio|pt|LL-Q5146 (por)-Santamarcanda-mi.wav|a=<<Portugal>> (<<Porto>>)}}
+* {{rhymes|pt|i|s=1}}
+* {{hyph|pt|mi}}
+
+===Etymology 1===
+From {{der|pt|la|mira|'''mi'''(ra)}} in the [[w:Ut queant laxis|hymn for St. John the Baptist]].
+
+====Noun====
+{{pt-noun|m}}
+
+# {{l|en|mi}} (musical note)
+
+=====Coordinate terms=====
+{{list:C major scale/pt}}
+
+===Etymology 2===
+
+====Pronoun====
+{{head|pt|pronouns}}
+
+# {{obsolete form of|pt|mim}}
+
+===Etymology 3===
+
+====Symbol====
+{{head|pt|symbol}}
+
+# {{abbr of|pt|milhão}}
+
+===Etymology 4===
+
+====Noun====
+{{pt-noun|m}}
+
+# [[mu]]; the Greek letter [[Μ]], [[μ]]
+#: {{syn|pt|mu}}
+
+===Further reading===
+* {{R:pt:Aulete}}
+* {{R:pt:Priberam}}
+
+==Quapaw==
+
+===Alternative forms===
+* {{alt|qua|mį}}
+
+===Etymology===
+Cognate with {{cog|asb|wí}}, {{cog|oma|miⁿ}}, {{cog|dak|wí}}, {{cog|lkt|wí}}.
+
+===Noun===
+{{head|qua|noun}}
+
+# [[sun]]
+
+===References===
+* {{R:qua:QTA|s|14}}
+
+===Further reading===
+* {{R:qua:Rankin:1982|page=133}}
+
+==Rapting==
+
+===Noun===
+{{head|rpt|noun}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Rempi==
+
+===Noun===
+{{head|rmp|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Réunion Creole French==
+
+===Pronoun===
+{{head|rcf|pronoun}}
+
+# [[I]] {{q|first-person singular subject pronoun}}
+#: {{syn|rcf|moin|ma}}
+
+====Usage notes====
+* Used before a verb (except the copula) in the present tense.
+
+===References===
+* {{R:rcf:Armand|page=235, IX}}
+
+==Romanian==
+
+===Etymology===
+{{ety|ro|:bor|it:mi|fr:mi|text=+|tree=1}}
+
+===Pronunciation===
+* {{IPA|ro|/mi/}}
+
+===Noun===
+{{ro-noun|m|mi}}
+
+# {{lb|ro|music}} {{l|en|mi}}, the note 'E'.
+
+====Declension====
+{{ro-noun-m|pl=mi}}
+
+==Samosa==
+
+===Noun===
+{{head|swm|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Saruga==
+
+===Noun===
+{{head|sra|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Sassarese==
+
+===Alternative forms===
+* {{alter|sdc|m'||apocopic}}
+* {{alter|sdc|-mi|-mmi||enclitic}}
+
+===Etymology===
+From {{inh|sdc|la|me|mē}} and, as an indirect object pronoun, possibly in part from {{m|la|mihi}}.
+
+===Pronunciation===
+* {{IPA|sdc|/mi/}}
+
+===Pronoun===
+{{head|sdc|pronouns|cat2=personal pronouns}}
+
+# {{lb|sdc|accusative}} [[me]]
+#* {{quote-book
+|sdc
+|year=1866
+|title=L'ebagneliu sigundu S. Matteju
+|trans-title=The Gospel according to St. Matthew
+|url=https://books.google.it/books?id=gN1UAAAAcAAJ&printsec=frontcover&hl=it#v=onepage&q&f=false
+|location=London
+|worklang=it,sdc
+|deriv=translation
+|translator=w:Giovanni Spano
+|original={{w|Gospel of Matthew|Evangelium secundum Matthaeum}}
+|page=37
+|chapter=X
+|chapterurl=https://books.google.it/books?id=gN1UAAAAcAAJ&hl=it&pg=PA33#v=onepage&q&f=false
+|section=verse 38
+|pageurl=https://books.google.it/books?id=gN1UAAAAcAAJ&hl=it&pg=PA37#v=onepage&q&f=false
+|text=E ca no piglia la so’ crozi, e '''mi''' sighi, no è dignu di me.
+|t=And whoever doesn't take his own cross, and follow '''me''', is not worthy of me.
+}}
+#* {{quote-book
+|sdc
+|year=c. 19<sup>th</sup> century
+|title=Canti popolari in dialetto sassarese
+|url=https://books.google.it/books?id=YWlcAAAAcAAJ&printsec=frontcover&hl=it&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+|volume=1
+|editor=w:Giovanni Spano
+|location=Cagliari
+|worklang=it,sdc
+|year_published=1873
+|page=69
+|pageurl=https://books.google.it/books?id=YWlcAAAAcAAJ&hl=it&pg=PA69#v=onepage&q&f=false
+|author=anonymous
+|chapter=[untitled song]
+|section=song 4
+|sectionurl=https://books.google.it/books?id=YWlcAAAAcAAJ&hl=it&pg=PA64#v=onepage&q&f=false
+|text=Nisciunu '''mi''' cunsola</br>Nisciunu vibendi n’ha di me firizza
+|t=No one consoles '''me'''. No one alive is proud of me.
+}}
+#* {{quote-book
+|sdc
+|year=1989
+|author=Giovanni Maria Cherchi
+|title=La poesia di l'althri
+|trans-title=The poetry of others
+|location=Sassari
+|publisher=Arnoldo Mondadori Editore
+|page=21
+|chapter=Femmina
+|trans-chapter=Woman
+|text=Cand’eri</br>giobanedda '''mi''' pugnì</br>cument’e mura mura.
+|t=When you were young, you used to '''prickle''' me like a blackberry}}
+# {{lb|sdc|dative}} to [[me]], [[me]]
+#* {{quote-book
+|sdc
+|year=1866
+|title=L'ebagneliu sigundu S. Matteju
+|trans-title=The Gospel according to St. Matthew
+|url=https://books.google.it/books?id=gN1UAAAAcAAJ&printsec=frontcover&hl=it#v=onepage&q&f=false
+|location=London
+|worklang=it,sdc
+|deriv=translation
+|translator=w:Giovanni Spano
+|original={{w|Gospel of Matthew|Evangelium secundum Matthaeum}}
+|page=72
+|pageurl=https://books.google.it/books?id=gN1UAAAAcAAJ&hl=it&pg=PA72#v=onepage&q&f=false
+|chapter=XVIII
+|chapterurl=https://books.google.it/books?id=gN1UAAAAcAAJ&hl=it&pg=PA68#v=onepage&q&f=false
+|section=verse 28
+|text=Isciddu però lu silvidori incuntresi un altru silvidori cumpagnu soju, chi li dibia zentu dinà: e affarrenddilu l’affogaba, dizendi: Pagami lu chi '''mi''' debi.
+|t=Having gone out, however, the servant met another fellow servant, who owed him a hundred [[denarius|denarii]]; and, grabbing him, he choked him, saying: "Pay what you owe '''me'''".
+|lit=Gone out however the servant met another servant fellow of his, who to him owed a hundred denarii: and grabbing him he choked him, saying: Pay me that which '''to me''' you owe. 
+}}
+#* {{quote-book
+|sdc
+|year=c. 19<sup>th</sup> century
+|title=Canti popolari in dialetto sassarese
+|url=https://books.google.it/books?id=YWlcAAAAcAAJ&printsec=frontcover&hl=it&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+|volume=1
+|editor=w:Giovanni Spano
+|location=Cagliari
+|worklang=it,sdc
+|year_published=1873
+|page=89
+|pageurl=https://books.google.it/books?id=YWlcAAAAcAAJ&hl=it&pg=PA89#v=onepage&q&f=false
+|author=anonymous
+|chapter=[untitled song]
+|section=song 15
+|sectionurl=https://books.google.it/books?id=YWlcAAAAcAAJ&hl=it&pg=PA81#v=onepage&q&f=false
+|text=Forsi '''mi''' dizarè</br>Chi chiddu in lu so fà no ha uguali</br>Nè forsi timarè</br>Ch’ un altru possia fatti tantu mali</br>Ma eju diggu cun dolu</br>Chi tal’ omu in lu mondu no è solu.
+|t=Maybe you'll tell '''me''' that he, in his actions, has no peers. And maybe you won't fear that someone else might hurt you so much. But I say, pained, that that man is not alone in the world.
+}}
+#* {{quote-book
+|sdc
+|year=1989
+|author=Giovanni Maria Cherchi
+|title=La poesia di l'althri
+|trans-title=The poetry of others
+|location=Sassari
+|publisher=Arnoldo Mondadori Editore
+|page=25
+|worklang=it,sdc
+|chapter=Bocca
+|trans-chapter=Mouth
+|text=O bocca di pizzinna, bocca bedda,</br>chi '''mi''' dizì paràuri pruibiddi</br>e chi basgèndimi eri cussì dozzi!
+|t=Oh, young woman's lips, beautiful lips, that spoke forbidden words '''to me''', and was so sweet in kissing me!
+|lit=Oh, mouth of girl, beautiful mouth, who '''to me''' spoke forbidden words, and that kissing me was so sweet!
+}}
+# {{alt form|sdc|me}}
+
+====Related terms====
+{{col|sdc
+|me
+|meggu
+|méiu
+}}
+
+===See also===
+* {{l|sdc|eu}}
+
+===References===
+* {{R:sc:Rubattu2006}}
+
+==Scottish Gaelic==
+
+===Etymology===
+{{dercat|gd|cel-pro|ine-pro|inh=2}}
+From {{inh|gd|sga|mé}}.
+
+===Pronunciation===
+* {{IPA|gd|/mi/|q2=accented|/mĩː/|ref={{R:gd:Wentworth:2003}}|ref2={{R:gd:Oftedal}} !!! {{R:gd:MacPherson:1945}} !!! {{R:Mac Gill-Fhinnein:1966}} !!! {{R:gd:Borgstrom1937}}}}
+
+===Pronoun===
+{{head|gd|pronouns|cat2=personal pronouns|emphatic|mise}}
+
+# {{n-g|first-person singular pronoun}}; [[I]], [[me]]
+
+====See also====
+{{gd-personal pronouns}}
+
+===References===
+{{reflist|size=smaller}}
+
+==Serbo-Croatian==
+
+===Etymology===
+From {{inh|sh|sla-pro|*my}}.
+
+===Pronunciation===
+* {{IPA|sh|/mîː/}}
+
+===Pronoun===
+{{sh-pron|mȋ}}
+
+# [[we]] ({{inflection of|sh|jȃ||nom|p|t=I}})
+# [[we]] ({{inflection of|sh|jȃ||voc|p|t=I}})
+
+====Declension====
+See {{m|sh|ja|jȃ}}.<!--sh-decl-noun removed to save Lua memory-->
+
+===Pronoun===
+{{sh-pron}}
+
+# to [[me]] ({{inflection of|sh|jȃ||clitic|dat|s|t=I}})
+# {{lb|sh|emphatic|possessive|dative}} [[my]], of [[mine]] ({{inflection of|sh|jȃ||clitic|dat|s|t=I}})
+#: {{ux|sh|Gdje '''mi''' je auto?|Where is my car?}}
+
+====Usage notes====
+The clitic dative forms in the plural correspond to the {{cog|cu|вꙑ}} and {{cog|cu|нꙑ}}. However, it has primarily been attested in rural areas, most notably across Montenegro, where it has been preserved and is still in use. Cognates include {{cog|bg|ви}} and {{cog|bg|ни}}, where it has been preserved even in the accusative case.
+
+===See also===
+{{sh-personal pronouns|Latn}}
+
+{{cln|sh|personal pronouns}}
+
+==Seta==
+
+===Noun===
+{{head|stf|nouns}}
+
+# [[water]]
+
+===References===
+* [http://transnewguinea.org/source/laycock1968 transnewguinea.org], citing D. C. Laycock, ''Languages of the Lumi Subdistrict (West Sepik District), New Guinea'' (1968), Oceanic Linguistics, 7 (1): 36-66
+
+==Sihan==
+
+===Noun===
+{{head|snr|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Silopi==
+
+===Noun===
+{{head|xsp|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Slovak==
+
+===Alternative forms===
+* {{alter|sk|mne}}
+
+===Pronunciation===
+* {{sk-IPA}}
+
+===Pronoun===
+{{head|sk|pronoun forms}}
+
+# {{inflection of|sk|ja||dat}}
+
+==Slovene==
+
+===Etymology===
+From {{inh|sl|sla-pro|*my}}.
+
+===Pronunciation===
+* {{sl-IPA|mȋ}}
+
+===Pronoun===
+{{sl-head|pron|mȋ}}
+
+# [[we]] (masculine plural, more than two)
+
+====Declension====
+{{sl-personal pronouns/full}}
+
+===See also===
+{{sl-personal pronouns}}
+
+{{cln|sl|personal pronouns}}
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr}}
+
+===Etymology 1===
+From {{der|es|la|meus}}, when it was eliding before a vowel-initial word in speech.
+
+====Determiner====
+{{head|es|determiners|first-person singular possessive singular||plural|mis|g=s}}
+
+# {{lb|es|before the noun}} {{apocopic form of|es|mío}}, [[my]]
+
+=====Usage notes=====
+* The forms {{m|es|mi}} and {{m|es|mis}} are only used before and within the [[noun phrase]] of the modified noun. In other positions, a form of {{m|es|mío}} is used instead.
+: {{ux|es|Son '''mis''' libros.|inline=1|They are my books.}}
+: {{ux|es|Los libros son '''míos'''.|inline=1|The books are mine.}}
+
+Besides being a pronoun, because '''''mi''''' occurs in a noun phrase and expresses reference, it also grammatically classifies as a {{glossary|determiner}} (specifically a possessive/genitive determiner).
+
+=====Related terms=====
+{{es-possessive determiners}}
+
+===Etymology 2===
+
+====Noun====
+{{es-noun|f|míes}}
+
+# [[mu]]; the Greek letter [[Μ]], [[μ]]
+#: {{syn|es|mu}}
+
+===Etymology 3===
+
+====Noun====
+{{es-noun|m}}
+
+# {{lb|es|music}} {{l|en|mi}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{C|es|Greek letter names}}
+
+==Sranan Tongo==
+
+===Etymology===
+From {{der|srn|en|me}}.
+
+===Pronunciation===
+* {{srn-IPA}}
+
+===Pronoun===
+{{head|srn|pronouns}}
+
+# [[I]]
+# [[me]]
+# [[my]]
+
+==Sumerian==
+
+===Romanization===
+{{sux-rom}}
+
+# {{romanization of|sux|𒈪}}
+
+==Tày==
+
+===Etymology===
+From {{inh|tyz|tai-pro|*ʰmwɯjᴬ||[[bear]]}}. Cognate with {{cog|th|หมี}}, {{cog|nod|ᩉ᩠ᨾᩦ}}, {{cog|lo|ໝີ}}, {{cog|khb|ᦖᦲ}}, {{cog|blt|ꪢꪲ}}, {{cog|shn|မီ}}, {{cog|aho|𑜉𑜣}}, {{cog|za|mui}}, {{cog|zhn|mue}}, {{cog|pcc|moil}}. Compare {{cog|och|羋}}.
+
+===Pronunciation===
+{{tyz-IPA}}
+
+===Noun===
+{{tyz-noun|猸}}
+
+# [[bear]]
+
+====References====
+* {{R:tyz:Hoàng Văn Ma, Lục Văn Pảo, Hoàng Chí}}
+
+==Ter Sami==
+
+===Etymology===
+From {{inh|sjt|urj-pro|*mi}}.
+
+===Pronoun===
+{{head|sjt|pronouns}}
+
+# [[what]]
+
+====Further reading====
+* {{R:Álgu|72079}}
+
+==Tok Pisin==
+
+===Etymology===
+From {{der|tpi|en|me}}.
+
+===Pronunciation===
+* {{IPA|tpi|/mi/}}
+
+===Pronoun===
+{{head|tpi|pronouns}}
+
+# [[I]], [[me]]. First person pronoun; refers to the person speaking.
+
+===See also===
+{{see-temp|tpi-personal pronouns|for more pronouns}}
+
+==Torres Strait Creole==
+
+===Etymology===
+From {{der|tcs|en|me}}.
+
+===Pronoun===
+{{head|tcs|pronouns}}
+
+# [[me]]
+
+===See also===
+* {{l|tcs|ai}}
+
+==Turkish==
+
+===Alternative forms===
+* {{alt|tr|mı|mü|mu}}
+
+===Etymology===
+{{ety|tr|:inh|ota:مى<tr:mi>|text=+|tree=1}}
+
+===Pronunciation===
+* {{audio|tr|LL-Q256 (tur)-ToprakM-mi.wav}}
+
+===Particle===
+{{head|tr|particles}}
+
+# {{n-g|Used to form [[interrogative]]s.}}
+#: {{ux|tr|Bugün okula gittin mi?|Did you go to school today?}}
+#: {{ux|tr|Evli misin?|Are you married?}}
+
+====Usage notes====
+* Personal suffixes are added to the interrogative particles, as well as the past tense suffixes.
+* This form is used when the last vowel of the previous word is "i" or "e". Other forms used with different vowels are: [[mu#Turkish|mu]]?, [[mü#Turkish|mü]]? and [[mı#Turkish|mı]]?
+
+====Inflection====
+{{tr-conj}}
+
+==Utu==
+
+===Noun===
+{{head|utu|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Veps==
+
+===Etymology 1===
+From {{inh|vep|urj-fin-pro|*mi}}.
+
+====Pronoun====
+{{vep-pron|min|midä}}
+
+# [[what]] (interrogative)
+
+=====Inflection=====
+{{vep-decl-mi}}
+
+=====Derived terms=====
+* {{l|vep|mi-se}}
+* {{l|vep|koje-mi}}
+* {{l|vep|nimi}}
+
+===Etymology 2===
+{{rfe|vep}}
+
+====Conjunction====
+{{head|vep|conjunctions}}
+
+# [[than]] (in comparisons)
+
+=====Synonyms=====
+* {{l|vep|ku}}
+
+===References===
+* {{R:vep:UVVV|чем|что}}
+
+==Vietnamese==
+
+===Pronunciation===
+{{vi-IPA}}
+* {{IPA|vi|[mi˧˥]|a=[[w:Vinh|Vinh]]}}
+
+===Etymology 1===
+{{vi-etym-sino|眉|[[eyebrow]]s}}. {{doublet|vi|mày}}. Probably unrelated to {{m|vi|mí||eyelid}}.
+
+====Noun====
+{{vi-noun|眉}}
+
+# [[eyelash]]es
+#: {{syn|vi|lông mi}}
+
+=====Related terms=====
+* {{l|vi|mày}}
+
+===Etymology 2===
+From {{inh|vi|mkh-vie-pro|*miː}}, from {{inh|vi|mkh-pro|*miiʔ}}. This is the native form in the Central dialects, Northern and Southern dialects borrowed this neutral pronoun with added hostile connotation, probably due to their native {{m|vi|[[mày]]/[[mầy]]}}.
+
+====Alternative forms====
+* {{alt|vi|mày|q1=Northern Vietnam, Southern Vietnam}}
+* {{alt|vi|mầy|q1=originally Northern Vietnam, Southern Vietnam, now chiefly Nẫu}}
+
+====Pronoun====
+{{vi-pronoun|眉}}
+
+# {{lb|vi|chiefly|Central Vietnam|derogatory|_|in other dialects}} [[you]] {{q|second person singular pronoun, referring to a peer or person held in low esteem}}
+# {{lb|vi|literary}} [[thou]]/[[thee]] {{q|used against an adversary}}
+
+=====Related terms=====
+* {{l|vi|ta}}
+* {{l|vi|tau}}; {{l|vi|tao}}
+
+===Etymology 3===
+Borrowed from {{bor|vi|fr|mi}} or {{bor|vi|it|mi}}.
+
+====Noun====
+{{vi-noun}}
+
+# {{lb|vi|music}} [[#English|mi]] (third note of diatonic scale)
+#: {{ux|inline=1|vi|đô, rê, '''mi'''|do, re, mi}}
+
+===Etymology 4===
+
+====Verb====
+{{vi-verb}}
+
+# {{lb|vi|slang}} to [[kiss]]
+
+=====Synonyms=====
+* {{l|vi|hôn}}; {{l|vi|hun}}; {{l|vi|thơm}}
+
+===Anagrams===
+* {{anagrams|vi|im}}
+
+{{cln|vi|personal pronouns}}
+{{C|vi|Anatomy|Eye|Face|Hair}}
+
+==Waigeo==
+
+===Verb===
+{{head|wgo|verb|head=-mi}}
+
+# {{lb|wgo|intransitive}} to be the [[same]]
+
+====Conjugation====
+{{wgo-conj|4}}
+
+====References====
+* {{R:wgo:Arnold:2018}}
+
+==Walloon==
+
+===Pronunciation===
+* {{IPA|wa|/mi/}}
+
+===Pronoun===
+{{head|wa|pronouns}}
+
+# [[me]]
+# [[my]]
+
+==Wamas==
+
+===Noun===
+{{head|wmc|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Welsh==
+
+===Etymology===
+From {{inh|cy|cel-bry-pro|*mi}}, from {{inh|cy|cel-pro|*mī}}.
+
+===Pronunciation===
+* {{IPA|cy|/miː/}}
+* {{rhymes|cy|iː|s=1}}
+
+===Pronoun===
+{{head|cy|pronouns|cat2=personal pronouns}}
+
+# [[I]], [[me]]
+#: {{ux|cy|Mae hen wlad fy nhadau yn annwyl i '''mi'''.|The old land of my fathers is dear to '''me'''.}}
+#: {{ux|cy|Rhaid i '''mi''' fynd i weld Taid.|'''I''' have to go and see Granddad.}}
+
+====Usage notes====
+''Mi'' is typically heard only after the preposition {{m|cy|i||to, for}} in formal language and in northern colloquial language. In southern colloquial language the form {{m|cy|fi}} is used after the preposition {{m|cy|i}}.
+
+====See also====
+* {{l|cy|fi||I, me}}
+* {{l|cy|i||I, me}}
+
+===Particle===
+{{head|cy|particles|triggers [[soft mutation]] on the following verb}}
+
+# {{lb|cy|North Wales}} {{n-g|used with inflected verbs to mark affirmative statements.}}
+#: {{ux|cy|'''Mi''' werthes i hanner dwsin.|I sold half a dozen.}}
+
+====Usage notes====
+* This particle is optional and may only be used before inflected verbs in the preterite, future or conditional in affirmative statements, e.g. {{m|cy||mi}} {{m|cy|fydda}} {{m|cy|i}}{{m|cy|'n}} {{m|cy|mynd||I will go}}.
+* Some speakers may drop the particle but keep the resulting soft mutation, e.g. {{m|cy|fydda}} {{m|cy|i}}{{m|cy|'n}} {{m|cy|mynd||I will go}} instead of {{m|cy|bydda}} {{m|cy|i}}{{m|cy|'n}} {{m|cy|mynd}}.
+
+====Synonyms====
+* {{l|cy|fe}} {{q|South Wales}}
+* {{l|cy|y}} {{qualifier|literary}}
+
+===Mutation===
+{{cy-mut}}
+
+==Yimchungru Naga==
+
+===Etymology===
+From {{inh|yim|sit-aao-pro|*hmaj}}. Cognate to {{cog|njh|omha}} and {{cog|njo-jgl|tema}}.
+
+===Noun===
+{{head|yim|noun}}
+
+# [[face]]
+
+====Derived terms====
+{{col|yim
+|alomi
+}}
+
+===Further reading===
+* {{R:sit:PCN|189}}
+
+==Yoidik==
+
+===Noun===
+{{head|ydk|nouns}}
+
+# [[louse]]
+
+===Further reading===
+* Johannes A. Z'Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'' (1975)
+
+==Yoruba==
+
+===Pronunciation===
+* {{sense|high-tone}} {{IPA|yo|/mĩ́/}}
+* {{sense|mid-tone}} {{IPA|yo|/mĩ̄/}}
+* {{sense|low-tone}} {{IPA|yo|/mĩ̀/}}
+
+===Etymology 1===
+
+====Noun====
+{{yo-pos|noun|mí}}
+
+# {{Latn-def|yo|name|M|m}}
+
+====See also====
+{{list:Latin script letter names/yo}}
+
+===Etymology 2===
+
+====Pronoun====
+{{yo-pos|pronoun|mi}}
+
+# [[me]] {{gloss|first-person singular non-honorific object pronoun following a high-tone [[monosyllabic]] verb}}
+
+====Pronoun====
+{{yo-pos|pronoun|mí}}
+
+# [[me]] {{gloss|first-person singular non-honorific object pronoun following a low- or mid-tone [[monosyllabic]] verb}}
+
+====Determiner====
+{{yo-pos|determiner|mi}}
+
+# [[my]] {{gloss|first-person singular possessive pronoun}}
+
+====See also====
+{{yo-personal pronouns}}
+
+===Etymology 3===
+
+====Verb====
+{{yo-pos|verb|mí}}
+
+# {{lb|yo|intransitive}} to [[breathe]]
+
+=====Derived terms=====
+* {{l|yo|imi|ìmí}}, {{l|yo|mimi|mímí}}
+
+===Etymology 4===
+
+====Verb====
+{{yo-pos|verb|mi}}
+
+# {{lb|yo|transitive}} to [[shake]]
+
+===Etymology 5===
+From an old Niger-Congo root, see {{inh|yo|nic-pro|*-mi}}
+
+====Verb====
+{{yo-pos|verb|mi}}
+
+# {{lb|yo|transitive}} to [[swallow]]
+
+=====Derived terms=====
+* {{l|yo|mimi|mímì}}
+
+===Etymology 6===
+
+====Verb====
+{{yo-pos|verb|mì}}
+
+# {{lb|yo|intransitive}} to [[move]]
+# {{lb|yo|intransitive}} to [[oscillate]]
+
+=====Derived terms=====
+* {{l|yo|imi|ìmì}}, {{l|yo|imilẹgbẹ|ìmìlẹ́gbẹ́}}
+
+===Etymology 7===
+
+====Pronoun====
+{{yo-pos|pronoun|mi}}
+
+# {{lb|yo|Lagos}} {{alt form|yo|mo|t=I}}
+
+===Etymology 8===
+From [[mi]] used in [[solfège]] to represent the third [[note]] of a [[major scale]].
+
+====Alternative forms====
+* {{sense|abbreviated}} {{alt|yo|M|m}}
+
+====Noun====
+{{yo-noun|mí}}
+
+# The [[syllable]] used to represent the high-[[tone]] and its diacritic (´)
+
+====See also====
+{{col|yo|title=names for tones
+|re
+|dò
+}}
+
+==Zhuang==
+
+===Etymology===
+From {{inh|za|tai-pro|*ʰmwuːjᴬ||pubic hair}}. Cognate with {{cog|th|หมอย}}, {{cog|lo|ໝອຍ}}, {{cog|shn|မွႆ}}, {{cog|aho|𑜉𑜨𑜩}}.
+
+===Pronunciation===
+* {{za-pron}}
+
+===Noun===
+{{head|za|nouns|1957–1982 spelling|mi}}
+
+# [[pubic hair]]
+#: {{syn|za|moi|q=dialectal}}
+
+<!--hard-coded to save memory-->
+
+{{C|za|Hair}}
+
+==Zou==
+
+===Etymology===
+From {{inh|zom|tbq-kuk-pro|*mii}}, from {{inh|zom|sit-pro|*r-mi(j)-n|*r-miy}}.
+
+===Pronunciation===
+* {{zom-IPA|mí}}
+* {{hyph|zom|mi}}
+
+===Noun===
+{{zom-noun|mí}}
+
+# [[man]]
+# [[person]], [[human being]]
+
+====Derived terms====
+{{col4|zom
+|mithàt}}
+
+===References===
+* {{R:zom:Thanglienmang:2010|page=21}}
+* {{R:zom:Singh:2013|page=42}}
+
+==Zulu==
+
+===Etymology 1===
+{{rfe|zu}}
+
+====Pronoun====
+{{zu-pron|stem=1}}
+
+# {{zu-combining stem of|mina}}
+
+===Etymology 2===
+{{rfe|zu}}
+
+====Verb====
+{{zu-verb}}
+
+# to be [[stand]]ing
+
+=====Inflection=====
+{{rfinfl|zu|verb}}
+
+===References===
+* {{R:zu:ZED|-mi}}

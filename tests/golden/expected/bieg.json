@@ -1,0 +1,742 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "pl-bieg.ogg"
+    }
+   ],
+   "examples": [
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg po zdrowie",
+     "translation": "a run for health"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "długi bieg",
+     "translation": "a long run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "forsownybieg",
+     "translation": "a strenuous run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "krótki bieg",
+     "translation": "a short run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "męczący bieg",
+     "translation": "a tiring run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "szaleńczy bieg",
+     "translation": "a crazy/mad run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "szybki bieg",
+     "translation": "a fast run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zmęczony biegiem",
+     "translation": "tired after a run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "spocony od biegu",
+     "translation": "sweaty after a run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zdyszany od biegu",
+     "translation": "out of breath after a run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zmęczyć się biegiem",
+     "translation": "to tire oneself running"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg długodystansowy",
+     "translation": "a long-distance run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg krótki",
+     "translation": "a short sprint"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg eliminacyjny",
+     "translation": "preliminary run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg maratoński",
+     "translation": "a marathon run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg sprinterski",
+     "translation": "a sprint"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg narciarski",
+     "translation": "a ski run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg przełajowy",
+     "translation": "a cross-country run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg zjazdowy",
+     "translation": "a downhill run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg uliczny",
+     "translation": "a downhill run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg na sto metrów",
+     "translation": "a hundred-meter run"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg na orientację",
+     "translation": "orienteering"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg przez płotki",
+     "translation": "a hurdle race"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg z przeszkodami",
+     "translation": "obstacle race"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wygrać bieg",
+     "translation": "to win a race"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "z biegiem czasu",
+     "translation": "over time/over the course of time"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg planet",
+     "translation": "the trajectory of planets"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg pociągu",
+     "translation": "a train’s course"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "przyspieszyć bieg",
+     "translation": "to expedite"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zwolnić bieg",
+     "translation": "to slow things down"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dalszy bieg czegoś",
+     "translation": "a further course"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dotychczasowy bieg czegoś",
+     "translation": "the hitherto course of something/the course thus far"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "normalny bieg czegoś",
+     "translation": "the normal flow of something"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg dziejów/historii",
+     "translation": "the course of history"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg spraw",
+     "translation": "the order of things"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg wydarzeń/wypadków/zdarzeń",
+     "translation": "the course of events"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg życia",
+     "translation": "the course of life"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg myśli",
+     "translation": "a train of thought"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg czasu",
+     "translation": "the course of time"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "odwrócić bieg czegoś",
+     "translation": "to turn the tide of something"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zmienić bieg czegoś",
+     "translation": "to change the course of something"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wpłynąć na bieg czegoś",
+     "translation": "to affect the course of something"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg rzeki",
+     "translation": "a river’s watercourse"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bieg strumienia",
+     "translation": "a stream’s watercourse"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "iść/płynąć z biegiem czegoś",
+     "translation": "to go with the (physical) flow of something/to go downstream"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "pierwszy bieg",
+     "translation": "first gear"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wsteczny bieg",
+     "translation": "reverse gear"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "bezpośredni bieg",
+     "translation": "fast gear"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jałowy bieg",
+     "translation": "idle"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zredukować bieg",
+     "translation": "to shift down a gear/to downshift"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "włączyć bieg",
+     "translation": "to shift into a gear"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wrzucić bieg",
+     "translation": "to put into drive"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zmienić bieg",
+     "translation": "to shift gears"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ruszyć/ruszać na (pierwszym/wstecznym) bieg",
+     "translation": "to put into (first/reverse) gear"
+    }
+   ],
+   "forms": [
+    {
+     "form": "bieg",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegi",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "biegu",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biega",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "biegowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "bieg",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegi",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "biegiem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "biegu",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "biegu",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "biegi",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈbjɛk/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "biegowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "na jałowym biegu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biegiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "w biegu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "z biegiem czasu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biega",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bieg patrolowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bieg rozstawny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "skrzynia biegów",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "bieg po zdrowie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadać bieg",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadawać bieg",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zwolnić biegu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zwalniać biegu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "biegnikowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegły",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegunowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegle",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegowo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegunowo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "bieganina",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegnik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegłość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegun",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegunka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegunowość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegus",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegła",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biec",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pobiec",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "biegać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "Bieg",
+     "type": "TYPE_HOMOPHONE"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "run, jog (fast movement propelled by one's legs)",
+     "keywords": [
+      {
+       "text": "run"
+      },
+      {
+       "text": "jog"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ]
+    },
+    {
+     "gloss": "race, run, sprint (competition in which the competitors run)",
+     "keywords": [
+      {
+       "text": "race"
+      },
+      {
+       "text": "run"
+      },
+      {
+       "text": "sprint"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "topics": [
+      "Athletics",
+      "Sports"
+     ]
+    },
+    {
+     "gloss": "course, trajectory, sequence (movement of some objects)",
+     "keywords": [
+      {
+       "text": "course"
+      },
+      {
+       "text": "trajectory"
+      },
+      {
+       "text": "sequence"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ]
+    },
+    {
+     "gloss": "course, watercourse (direction of a body of flowing water, e.g. a river, stream, etc.)",
+     "keywords": [
+      {
+       "text": "course"
+      },
+      {
+       "text": "watercourse"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ]
+    },
+    {
+     "gloss": "stretch (particular segment of a body of flowing water, e.g. a river, stream, etc.)",
+     "keywords": [
+      {
+       "text": "stretch"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ]
+    },
+    {
+     "gloss": "course (succession of something developing over time)",
+     "keywords": [
+      {
+       "text": "course"
+      }
+     ],
+     "labels": [
+      "uncountable"
+     ],
+     "relations": [
+      {
+       "term": "przebieg",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "gear (configuration of the transmission of a machine)",
+     "keywords": [
+      {
+       "text": "gear"
+      }
+     ],
+     "labels": [
+      "countable"
+     ],
+     "relations": [
+      {
+       "term": "przekładnia",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "leg (lower limb of a game animal)",
+     "keywords": [
+      {
+       "text": "leg"
+      }
+     ],
+     "labels": [
+      "countable",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "noga",
+       "type": "TYPE_SYNONYM"
+      }
+     ],
+     "topics": [
+      "Hunting"
+     ]
+    },
+    {
+     "gloss": "circulation (of currency, circulating coins; notes, bills, etc., current for coin)",
+     "keywords": [
+      {
+       "text": "circulation"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "kurs",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "obieg",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    },
+    {
+     "gloss": "mode (rules of operation)",
+     "keywords": [
+      {
+       "text": "mode"
+      }
+     ],
+     "labels": [
+      "uncountable",
+      "obsolete"
+     ],
+     "relations": [
+      {
+       "term": "porządek",
+       "type": "TYPE_SYNONYM"
+      },
+      {
+       "term": "tryb",
+       "type": "TYPE_SYNONYM"
+      }
+     ]
+    }
+   ],
+   "syllabification": "bieg",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of bieg"
+    }
+   ],
+   "topics": [
+    "Automotive",
+    "Exercise"
+   ],
+   "usage_notes": "The genitive singular form biega is dialectal."
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Inherited from Old Polish bieg."
+  }
+ ],
+ "lemma": "bieg"
+}

@@ -301,6 +301,10 @@
    ],
    "relations": [
     {
+     "term": "polsko",
+     "type": "TYPE_RELATED_ADVERB"
+    },
+    {
      "term": "Polski",
      "type": "TYPE_HOMOPHONE"
     }
@@ -464,6 +468,70 @@
     }
    ],
    "relations": [
+    {
+     "term": "pol.",
+     "type": "TYPE_ABBREVIATION"
+    },
+    {
+     "term": "angielsko-polski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "antypolski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "polskojęzyczny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "staropolski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "po polsku",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "polsko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "z polskiego na nasze",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "Polak",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "Polka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "Polska",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "polskość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "polszczyzna",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "staropolszczyzna",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "polszczyć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spolszczyć",
+     "type": "TYPE_RELATED"
+    },
     {
      "term": "Polski",
      "type": "TYPE_HOMOPHONE"

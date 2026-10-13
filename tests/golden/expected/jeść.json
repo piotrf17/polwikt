@@ -935,6 +935,13 @@
      "type": "TYPE_FREQUENTATIVE"
     },
     {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "jeś",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
      "term": "jeźdź",
      "type": "TYPE_HOMOPHONE"
     }
@@ -1140,6 +1147,213 @@
     }
    ],
    "relations": [
+    {
+     "term": "jadło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jedzenie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "gdzie kucharek sześć, tam nie ma co jeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "głodny woli jeść, niż muzyki słuchać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "kto się do pracy leni, nie wart jeść pieczeni",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dojeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dojadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadjeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nadjadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "najeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "najadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "objeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "objadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odjeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odjadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podjeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podjadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pojeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pojadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przejadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ujeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "ujadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyjeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyjadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zajeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zajadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zjeść",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zjadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeść jak świnia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeść jak wróbelek",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jeść za dwóch",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "móc jeść łyżkami",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jadalniany",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jadalniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jadalny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedzeniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zajadły",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zjadliwy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jadaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jadalnia",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedza",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedzenioholik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedzenioholizm",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedzeniomat",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "jedzonko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "obiad",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "śniadanie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "śniadać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "labels": [
+      "Zagórze"
+     ],
+     "term": "jeś",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
     {
      "term": "jeźdź",
      "type": "TYPE_HOMOPHONE"

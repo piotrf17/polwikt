@@ -42,6 +42,30 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "colloquial"
+     ],
+     "term": "dobrz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "humorous"
+     ],
+     "term": "dopsz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Biecz",
+      "Ropczyce"
+     ],
+     "term": "debrze",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "well (in a correct or proper manner)",
@@ -191,6 +215,30 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "colloquial"
+     ],
+     "term": "dobrz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "humorous"
+     ],
+     "term": "dopsz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Biecz",
+      "Ropczyce"
+     ],
+     "term": "debrze",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    }
+   ],
    "senses": [
     {
      "gloss": "expresses agreement; alright",
@@ -306,6 +354,77 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "labels": [
+      "colloquial"
+     ],
+     "term": "dobrz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "humorous"
+     ],
+     "term": "dopsz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Biecz",
+      "Ropczyce"
+     ],
+     "term": "debrze",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "term": "dobrze odżywiony",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "równie dobrze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "siedź, jak ci dobrze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "tak dobrze żarło i zdechło",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "labels": [
+      "dialectal"
+     ],
+     "term": "dobrze nie bardzo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wszędzie dobrze, ale w domu najlepiej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wszędzie dobrze, gdzie nas nie ma",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak się zwał, tak się zwał, byleby się dobrze miał",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć dobrze poukładane w głowie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zrobić dobrze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "robić dobrze",
+     "type": "TYPE_DERIVED"
+    }
+   ],
    "senses": [
     {
      "form_of": {
@@ -346,6 +465,30 @@
       "Podhale",
       "Zagórze"
      ]
+    }
+   ],
+   "relations": [
+    {
+     "labels": [
+      "colloquial"
+     ],
+     "term": "dobrz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "humorous"
+     ],
+     "term": "dopsz",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Biecz",
+      "Ropczyce"
+     ],
+     "term": "debrze",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

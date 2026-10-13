@@ -120,6 +120,60 @@
      "ipa": "/kɔmˈpu.tɛr/"
     }
    ],
+   "relations": [
+    {
+     "term": "komputerek",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "komputerowy",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "komp",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputerofobia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeroholizm",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeromania",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeropis",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputerowiec",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeryzacja",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeryzować",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "skomputeryzować",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "komputeryzacyjny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "komputerowo",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "examples": [
@@ -165,7 +219,7 @@
       }
      ],
      "topics": [
-      "computing"
+      "Computing"
      ]
     }
    ],

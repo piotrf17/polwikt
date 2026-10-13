@@ -1,0 +1,1482 @@
+{
+ "entries": [
+  {
+   "audio": [
+    {
+     "file": "pl-akt.ogg"
+    }
+   ],
+   "examples": [
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w trakcie aktu",
+     "translation": "during the act (sex)"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "uroczysty akt",
+     "translation": "a solemn act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "symboliczny akt",
+     "translation": "a symbolic act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "formalny akt",
+     "translation": "a formal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "swoisty akt",
+     "translation": "a peculiar act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wielki akt",
+     "translation": "a great act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "spektakularny akt",
+     "translation": "a spectacular act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "pojedynczy akt",
+     "translation": "an individual act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "brutalny akt",
+     "translation": "a brutal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wrogi akt",
+     "translation": "a hostile act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "autentyczny akt",
+     "translation": "an authentic act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jedyny akt",
+     "translation": "a singular act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "specjalny akt",
+     "translation": "a special act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt erekcyjny",
+     "translation": "a foundation/erection act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt intencjonalny",
+     "translation": "a deliberate act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt kreacyjny",
+     "translation": "a creative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt poznawczy",
+     "translation": "a cognitive act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt twórczy",
+     "translation": "a creative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt płciowy",
+     "translation": "a sexual act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt terrorystyczny",
+     "translation": "a terrorist act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt percepcyjny",
+     "translation": "a perceptual act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt seksualny",
+     "translation": "an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt sądowy",
+     "translation": "an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt osobowy",
+     "translation": "a personal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt małżeński",
+     "translation": "a marital/marriage/conjugal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt komunikacyjny",
+     "translation": "a communication act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt samobójczy",
+     "translation": "a suicidal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt myślowy",
+     "translation": "a thought act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt rytualny",
+     "translation": "a ritual act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt moralny",
+     "translation": "a moral act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zbiorowy",
+     "translation": "a collective act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "popełnianie aktów",
+     "translation": "comming the act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wykonanie aktu",
+     "translation": "executing/performing an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sprawca aktu",
+     "translation": "the perpatrator/doer of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "świadek aktu",
+     "translation": "the witness of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "uczestnik aktu",
+     "translation": "a participant of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt terroru",
+     "translation": "an act of terror"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wandalizmu",
+     "translation": "an act of vandalism"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt przemocy",
+     "translation": "an act of violence"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt kapitulacji",
+     "translation": "a capitulation act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt sabotażu",
+     "translation": "an act of sabotage"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt sprawy",
+     "translation": "a case file"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt agresji",
+     "translation": "an act of aggression"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt odwagi",
+     "translation": "an act of bravery"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt terroryzmu",
+     "translation": "an act of terrorism"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zemsty",
+     "translation": "an act of vengence"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt bohaterstwa",
+     "translation": "an act of heroism"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt łaski",
+     "translation": "an act of mercy"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt dywersji",
+     "translation": "an act of diversion"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zawierzenia",
+     "translation": "an act of trust"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt kreacji/stworzenia/tworzenia",
+     "translation": "act of creation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt bezprawia/samowoli",
+     "translation": "an act of lawlessness"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt afirmacji",
+     "translation": "an act of affirmation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt gwałtu",
+     "translation": "an act of violence"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt desperacji/rozpaczy",
+     "translation": "an act of desperation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt percepcji",
+     "translation": "an act of perception"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt poddania się",
+     "translation": "an act of giving up/surrender"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt lokacji",
+     "translation": "an act of location"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt barbarzyństwa",
+     "translation": "an act of barbarism"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt komunikowania",
+     "translation": "an act of communicating"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt komunikacji",
+     "translation": "an act of communication"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt woli",
+     "translation": "an act of will"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt poświęcenia",
+     "translation": "an act of dedication"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wiary",
+     "translation": "an act of faith"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt świadomości",
+     "translation": "an act of awareness"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt mówienia",
+     "translation": "the act of talking"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zdrady",
+     "translation": "an act of betrayal/cheating (on someone)"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt lojalności",
+     "translation": "an act of loyalty"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt odwetu",
+     "translation": "an act of revenge"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wyzwolenia",
+     "translation": "an act of liberation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt pojednania",
+     "translation": "an act of reconciliation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt rezygnacji",
+     "translation": "an act of resignation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt protestu",
+     "translation": "an act of protest"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt komisji",
+     "translation": "a commission's file"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt adopcji",
+     "translation": "an act of adoption"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt nominacji",
+     "translation": "an act of nomination"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt przekazania",
+     "translation": "an act of transfer/transmission"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt represji",
+     "translation": "an act of repression"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt odbioru",
+     "translation": "an act of collection"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt oddania",
+     "translation": "an act of giving away/back"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt miłosierdzia",
+     "translation": "an act of charity/compassion"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wyobraźni",
+     "translation": "an act of imagination"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt spostrzeżenia",
+     "translation": "the act of observation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wdzięczności",
+     "translation": "an act of gratitude"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt poznania",
+     "translation": "the act of recognizing'"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt buntu",
+     "translation": "an act of rebellion/defiance"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt sprawiedliwości",
+     "translation": "an act of justice"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wyboru",
+     "translation": "an act of election"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt refleksji",
+     "translation": "a reflex act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zakupu",
+     "translation": "an act of purchase"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt odwołania",
+     "translation": "the act of cancelling"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt władzy",
+     "translation": "an act of power/authority"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt procesu",
+     "translation": "an act of process"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt decyzji",
+     "translation": "an act of a decision"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt przedstawienia",
+     "translation": "the act of presenting"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt dyskryminacji",
+     "translation": "an act of discrimination"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "dokonywać/dokonać aktu",
+     "translation": "to carry out an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akty miłości",
+     "translation": "an act of love"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "pod aktem (czyimś)",
+     "translation": "under someone's control"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ostatni akt (życia)",
+     "translation": "death"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "smutny akt",
+     "translation": "a sad act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "straszny akt",
+     "translation": "an awful act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt uczynić z kim",
+     "translation": "to crack down on someone"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt rozumu",
+     "translation": "an act of reason"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt pogrzebowy/pogrzebny/funeralny",
+     "translation": "a funeral ceremony"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt żałobny/żałosny",
+     "translation": "a mourning ceremony"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt koronacji",
+     "translation": "a corronation ceremony"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt mianowania",
+     "translation": "an appointing ceremony"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "na podstawie aktu",
+     "translation": "on the basis of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "na mocy aktu",
+     "translation": "under/in accordance with an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w postaci aktu",
+     "translation": "in the form of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w wyniku aktu",
+     "translation": "as a result of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w drodze aktu",
+     "translation": "by means of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w światle aktu",
+     "translation": "in light of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "w sprawie aktu",
+     "translation": "regarding an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "objęty aktem",
+     "translation": "covered by an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt sądowny",
+     "translation": "a legal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "omawiany akt",
+     "translation": "the act in question"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jednorazowy akt",
+     "translation": "a one-time act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "polski akt",
+     "translation": "a Polish act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jednostronny akt",
+     "translation": "a unilateral act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "nowy akt",
+     "translation": "a new act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "doniosły akt",
+     "translation": "a momentous act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "jednostkowy akt",
+     "translation": "a unitary act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "odrębny/osobny akt",
+     "translation": "a separate act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "słynny akt",
+     "translation": "a famous act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ważny akt",
+     "translation": "an important act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "następujące akty",
+     "translation": "the following acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt notarialny",
+     "translation": "a notarial act/deed"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt prawny",
+     "translation": "a legal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt normatywny",
+     "translation": "a normative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt ratyfikacyjny",
+     "translation": "a ratification act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt nominacyjny",
+     "translation": "an appointment act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wykonawczy",
+     "translation": "an executive act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt prawotwórczy",
+     "translation": "a law-making act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt prawodawczy/ustawodawczy",
+     "translation": "a legislative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt lokacyjny",
+     "translation": "a location act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt założycielski",
+     "translation": "a founding charter/deed of foundation/charter/act of incorporation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt bezwarunkowy",
+     "translation": "an unconditional act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt",
+     "translation": "a legislative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt urzędowy",
+     "translation": "an official act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt administracyjny",
+     "translation": "an administrative act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wyborczy",
+     "translation": "an electoral act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt dyplomatyczny",
+     "translation": "a diplomatic act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt krytyczny",
+     "translation": "a critical act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt królewski",
+     "translation": "a royal act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt publiczny",
+     "translation": "a public act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt generalny",
+     "translation": "a general act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt państwowy",
+     "translation": "a state act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "odpis aktu",
+     "translation": "a duplicate of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "opiniowanie aktów",
+     "translation": "reviewing acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "unieważnienie aktu",
+     "translation": "making an act null"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kserokopia aktu",
+     "translation": "a xerox of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wypis aktu",
+     "translation": "an excerpt of act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kontrasygnata aktów",
+     "translation": "a counter signature of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "projekt aktów",
+     "translation": "a draft act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zgodność aktów",
+     "translation": "congruence in an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "niezgodność aktu",
+     "translation": "incongruence in an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "konstytucyjność aktu",
+     "translation": "the constitutionality an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sygnatariusz aktu",
+     "translation": "an act petitioner"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "anulowanie aktu",
+     "translation": "annulling an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "treść aktu",
+     "translation": "the content of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "kopia aktu",
+     "translation": "a copy of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "legalność aktu",
+     "translation": "the legality of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sformułowanie aktu",
+     "translation": "the wording of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "postanowienie aktu",
+     "translation": "the provision/resolution of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "konstytucja aktów",
+     "translation": "constitution of acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tytuł aktu",
+     "translation": "the title of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ratyfikacja aktu",
+     "translation": "ratification of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wystawienie aktu",
+     "translation": "issuing an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "oryginał aktu",
+     "translation": "the original of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wysłuchanie aktu",
+     "translation": "haering of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "uzasadnienie aktu",
+     "translation": "justification of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zbiór aktów",
+     "translation": "a collection of acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tłumaczenie aktów",
+     "translation": "translation of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tworzenie aktów",
+     "translation": "creation of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "przegląd aktów",
+     "translation": "review of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "opracowanie aktów",
+     "translation": "developing an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "publikacja aktów",
+     "translation": "publication of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ważność aktu",
+     "translation": "the validity of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "nieważność aktu",
+     "translation": "the invalidity of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "istota aktu",
+     "translation": "the core/essence of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "opis aktu",
+     "translation": "the description of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "znaczenie aktu",
+     "translation": "the meaning of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "przedmiot aktu",
+     "translation": "the subject matter of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "etap aktu",
+     "translation": "a stage of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "fragment aktu",
+     "translation": "a fragment act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "tekst aktu",
+     "translation": "the text of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "interpretacja aktu",
+     "translation": "an interpretation of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "uznanie aktu",
+     "translation": "legitimization of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "nowelizacja aktów",
+     "translation": "novelization of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt oskarżenia",
+     "translation": "an indictment"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt nadania",
+     "translation": "an deed of endowment"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt synodu",
+     "translation": "an act of the synode"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt urodzenia",
+     "translation": "a birth certificate"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt zaślubin/ślubu/małżeństwa",
+     "translation": "a marriage certificate"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt kupna",
+     "translation": "an act/deed of purchase/buy"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt powołania",
+     "translation": "an appointment letter"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt własności",
+     "translation": "a property deed/title"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt chrztu",
+     "translation": "a baptismal certificate"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt konfederacji",
+     "translation": "a confederation's act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt rządu",
+     "translation": "a govenment act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wydziału",
+     "translation": "a faculty's/department's act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt śledztwa",
+     "translation": "an investigation file"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wydawać/wydać akt",
+     "translation": "to issue an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "sporządzać/sporządzić akt",
+     "translation": "to draw up an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wmurować akt",
+     "translation": "to lay (out) an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt wpłynął na coś",
+     "translation": "an act affected something"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "podpisywać/podpisać akt",
+     "translation": "to sign an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "ogłaszać/ogłosić akt",
+     "translation": "to announce an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wypisywać/wypisać akt",
+     "translation": "to write out an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "odczytać akt",
+     "translation": "to read out an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "spisać akt",
+     "translation": "to prepare an act in writing"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zatwierdzać/zatwierdzić akt",
+     "translation": "to approve/sanction an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "uchwalać/uchwalić akt",
+     "translation": "to enact/pass an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "przygotowywać/przygotować akt",
+     "translation": "to prepare an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wręczać/wręczyć akt",
+     "translation": "to hand in an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "wnosić/wnieść akt",
+     "translation": "to file an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta miesckie",
+     "translation": "urban acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta trybunalskie",
+     "translation": "tribunal acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt darowizny",
+     "translation": "an act of donation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt prawa",
+     "translation": "an act of law"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta radzieckie",
+     "translation": "consultation acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta synodowe",
+     "translation": "synod acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta kapturowe",
+     "translation": "sąd kapturowy acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta komisarskie",
+     "translation": "commissioner's acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akta zapisowe",
+     "translation": "record acts"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt końcowy/ostatni",
+     "translation": "the final act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt poetycki",
+     "translation": "a poetic act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "zakończenie aktu",
+     "translation": "the ending of an act"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt dramatu",
+     "translation": "an act of a drama"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt kobiecy",
+     "translation": "a female nude"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "fotograf aktów",
+     "translation": "a photogorapher of nudes"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt skruchy",
+     "translation": "a prayer of repentance"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akty miłości",
+     "translation": "a prayer of love"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt pokory",
+     "translation": "a prayer of humility"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akty pokuty",
+     "translation": "prayers of"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt strzelisty",
+     "translation": "ejaculatory prayer"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akt modlitwy",
+     "translation": "an act of prayer"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akty zbawienne",
+     "translation": "prayers of salvation"
+    },
+    {
+     "kind": "KIND_COLLOCATION",
+     "text": "akty nabożne",
+     "translation": "devotional prayers"
+    }
+   ],
+   "forms": [
+    {
+     "form": "akt",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "akty",
+     "tags": {
+      "grammatical_case": "CASE_NOMINATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "aktu",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "aktów",
+     "tags": {
+      "grammatical_case": "CASE_GENITIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "aktowi",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "aktom",
+     "tags": {
+      "grammatical_case": "CASE_DATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "akt",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "akty",
+     "tags": {
+      "grammatical_case": "CASE_ACCUSATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "aktem",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "aktami",
+     "tags": {
+      "grammatical_case": "CASE_INSTRUMENTAL",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "akcie",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "aktach",
+     "tags": {
+      "grammatical_case": "CASE_LOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    },
+    {
+     "form": "akcie",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_SINGULAR"
+     }
+    },
+    {
+     "form": "akty",
+     "tags": {
+      "grammatical_case": "CASE_VOCATIVE",
+      "number": "NUMBER_PLURAL"
+     }
+    }
+   ],
+   "noun": {
+    "genders": [
+     {
+      "animacy": "ANIMACY_INANIMATE",
+      "gender": "GENDER_MASCULINE"
+     }
+    ]
+   },
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈakt/"
+    }
+   ],
+   "relations": [
+    {
+     "term": "akcik",
+     "type": "TYPE_DIMINUTIVE"
+    },
+    {
+     "term": "aktowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "akt mowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "akta",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "aktówka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jednoaktówka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "aktykować",
+     "type": "TYPE_RELATED"
+    }
+   ],
+   "senses": [
+    {
+     "gloss": "act (action) [from 16th c.]",
+     "keywords": [
+      {
+       "text": "act"
+      }
+     ],
+     "labels": [
+      "literary"
+     ]
+    },
+    {
+     "gloss": "act (official celebration emphasizing the significance of something) [from 16th c.]",
+     "keywords": [
+      {
+       "text": "act"
+      }
+     ],
+     "labels": [
+      "literary"
+     ]
+    },
+    {
+     "gloss": "act, bill, decree (legislative document) [from 16th c.]",
+     "keywords": [
+      {
+       "text": "act"
+      },
+      {
+       "text": "bill"
+      },
+      {
+       "text": "decree"
+      }
+     ],
+     "topics": [
+      "Law"
+     ]
+    },
+    {
+     "gloss": "act (part of a play) [from 16th c.]",
+     "keywords": [
+      {
+       "text": "act"
+      }
+     ],
+     "topics": [
+      "Theater"
+     ]
+    },
+    {
+     "gloss": "nude (painting or other artwork of an unclothed person) [from 20th c.]",
+     "keywords": [
+      {
+       "text": "nude"
+      }
+     ],
+     "topics": [
+      "Art"
+     ]
+    },
+    {
+     "gloss": "prayer [from 17th c.]",
+     "keywords": [
+      {
+       "text": "prayer"
+      }
+     ],
+     "topics": [
+      "Religion"
+     ]
+    }
+   ],
+   "syllabification": "akt",
+   "tables": [
+    {
+     "kind": "KIND_DECLENSION",
+     "title": "Declension of akt"
+    }
+   ]
+  },
+  {
+   "audio": [
+    {
+     "file": "pl-akt.ogg"
+    }
+   ],
+   "etymology": 1,
+   "pos": "POS_NOUN",
+   "pronunciations": [
+    {
+     "ipa": "/ˈakt/"
+    }
+   ],
+   "senses": [
+    {
+     "form_of": {
+      "lemma": "akta",
+      "tag_sets": [
+       {
+        "grammatical_case": "CASE_GENITIVE",
+        "number": "NUMBER_PLURAL"
+       }
+      ],
+      "type": "TYPE_INFLECTION"
+     },
+     "gloss": "genitive plural of akta"
+    }
+   ],
+   "syllabification": "akt"
+  }
+ ],
+ "etymologies": [
+  {
+   "text": "Learned borrowing from Latin āctus. Etymology 1 sense 5 is a semantic loan from German Akt. First attested in 1529."
+  },
+  {
+   "text": "See the etymology of the corresponding lemma form."
+  }
+ ],
+ "lemma": "akt"
+}

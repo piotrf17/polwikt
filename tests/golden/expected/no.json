@@ -29,6 +29,28 @@
     {
      "term": "-no",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Western Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Biecz",
+      "Ropczyce",
+      "Żywiec",
+      "Podhale",
+      "Zakopane",
+      "Skawa"
+     ],
+     "term": "ną",
+     "type": "TYPE_ALTERNATIVE_FORM"
+    },
+    {
+     "labels": [
+      "Far Masovian"
+     ],
+     "term": "nu",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -103,6 +125,21 @@
     {
      "term": "-no",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Western Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Biecz",
+      "Ropczyce",
+      "Żywiec",
+      "Podhale",
+      "Zakopane",
+      "Skawa"
+     ],
+     "term": "ną",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [
@@ -201,8 +238,27 @@
    ],
    "relations": [
     {
+     "term": "no ba",
+     "type": "TYPE_DERIVED"
+    },
+    {
      "term": "-no",
      "type": "TYPE_HOMOPHONE"
+    },
+    {
+     "labels": [
+      "Western Kraków",
+      "Bochnia",
+      "Wadowice",
+      "Biecz",
+      "Ropczyce",
+      "Żywiec",
+      "Podhale",
+      "Zakopane",
+      "Skawa"
+     ],
+     "term": "ną",
+     "type": "TYPE_ALTERNATIVE_FORM"
     }
    ],
    "senses": [

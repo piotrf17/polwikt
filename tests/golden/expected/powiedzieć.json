@@ -601,6 +601,562 @@
     {
      "term": "mówić",
      "type": "TYPE_IMPERFECTIVE_COUNTERPART"
+    },
+    {
+     "term": "powiedzeniowy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie można powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiadacz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiadaczka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzenie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzisko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzonko",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chciałoby się powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dość powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzmy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "łatwo powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mało powiedziane",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mało powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "można powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzmy sobie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiem tak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiem więcej",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "żeby nie powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "by tak powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiem, żeby",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "że tak powiem",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nikt mi nie powie, że",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedział, co wiedział",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "co ty nie powiesz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcieć przez to powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mieć coś do powiedzenia",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiedzieć jeszcze ostatniego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mówić jeszcze ostatniego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie powiedzieć złego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie mówić złego słowa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzieć do słuchu",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiedzieć pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mówić pas",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dopowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dopowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odpowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odpowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "opowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "podpowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "powiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przepowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przepowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przypowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "przypowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozpowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rozpowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wyspowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "spowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wypowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapowiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zapowiadać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dopowiedzeniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiadalny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiednikowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedniościowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedzialny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedziowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadaniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadawczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowieściowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "powieściowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiadalny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiedczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiedni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiedni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiedny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedniczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedziowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiadalny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiadawczy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiedni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiedzeniowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiedziowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiedni",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiednio",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedzialnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiednie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "powiastka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "powieścidło",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "powieść",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dopowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dopowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "dopowiedzenie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "niedopowiedzenie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiadaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiadalność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedniczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiednik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedniość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedzialna",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "odpowiedzialność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadanie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadanko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiadawczość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiastka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiedacielka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "opowieść",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podpowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "podpowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiadaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiadalność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiadka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiastka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiednia",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiednik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przepowieść",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiadka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiastka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowiednia",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "przypowieść",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiadalnica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiednia",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiednica",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedniczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiednik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "spowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiedź",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "wypowiedzenie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiadacz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiadaczka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiednia",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiednik",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "zapowiedź",
+     "type": "TYPE_RELATED"
     }
    ],
    "senses": [

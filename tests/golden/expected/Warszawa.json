@@ -79,6 +79,66 @@
    ],
    "relations": [
     {
+     "term": "warszawski",
+     "type": "TYPE_RELATED_ADJECTIVE"
+    },
+    {
+     "term": "Warszawiak",
+     "type": "TYPE_DEMONYM"
+    },
+    {
+     "term": "Warszawianka",
+     "type": "TYPE_FEMALE_DEMONYM"
+    },
+    {
+     "term": "warszawa",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawiak",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawianin",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawianka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Warszawianka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawista",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawistka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawizm",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "Warszawka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "warszawowski",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "warszawowskość",
+     "type": "TYPE_RELATED"
+    },
+    {
      "term": "warszawa",
      "type": "TYPE_HOMOPHONE"
     }
@@ -110,10 +170,24 @@
        "translation": "In this revolutionist atmosphere of September, Frederyk Chopin left Warsaw and his fatherland forever."
       }
      ],
-     "gloss": "Warsaw (the capital and largest city of Poland)"
+     "gloss": "Warsaw (the capital and largest city of Poland)",
+     "topics": [
+      "Warsaw",
+      "Cities in Poland",
+      "National capitals",
+      "Places in Poland"
+     ]
     },
     {
-     "gloss": "Warsaw (the capital and largest city of Masovian Voivodeship, Poland)"
+     "gloss": "Warsaw (the capital and largest city of Masovian Voivodeship, Poland)",
+     "topics": [
+      "Warsaw",
+      "Cities in Masovian Voivodeship, Poland",
+      "Cities in Poland",
+      "Voivodeship capitals of Poland",
+      "Places in Masovian Voivodeship, Poland",
+      "Places in Poland"
+     ]
     },
     {
      "examples": [
@@ -133,7 +207,7 @@
       "metonymic"
      ],
      "topics": [
-      "government"
+      "Government"
      ]
     },
     {
@@ -157,7 +231,7 @@
       "metonymic"
      ],
      "topics": [
-      "government"
+      "Government"
      ]
     },
     {
@@ -204,7 +278,7 @@
       "metonymic"
      ],
      "topics": [
-      "sports"
+      "Sports"
      ]
     },
     {

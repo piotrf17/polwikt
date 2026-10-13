@@ -927,6 +927,92 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "pokład",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładacz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładacka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładanka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładka",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładnica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładnik",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładziny",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "pokładny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładzinny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładzinowy",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładełko",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładne",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładność",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładowiec",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładówka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "kładać",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "kłaść",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokładować",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "pokłaść",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "gloss": "to bend, to slope",
@@ -1012,12 +1098,12 @@
         "Eastern Kraków"
        ],
        "topics": [
-        "agriculture"
+        "Agriculture"
        ]
       }
      ],
      "topics": [
-      "agriculture"
+      "Agriculture"
      ]
     },
     {

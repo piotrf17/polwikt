@@ -1,0 +1,86 @@
+# Entry relations from term-list sections, Alternative forms and the headword line
+# (R3.14, R5.5, R6.4). Relation types are polwikt.Relation.Type names.
+
+# Section heading -> the type of every term listed in it.
+[sections]
+"Synonyms" = "TYPE_SYNONYM"
+"Antonyms" = "TYPE_ANTONYM"
+"Hypernyms" = "TYPE_HYPERNYM"
+"Hyponyms" = "TYPE_HYPONYM"
+"Meronyms" = "TYPE_MERONYM"
+"Holonyms" = "TYPE_HOLONYM"
+"Coordinate terms" = "TYPE_COORDINATE"
+"Derived terms" = "TYPE_DERIVED"
+"Derived verbs" = "TYPE_DERIVED"
+"Compounds" = "TYPE_DERIVED"
+"Related terms" = "TYPE_RELATED"
+"Related words" = "TYPE_RELATED"
+"Alternative forms" = "TYPE_ALTERNATIVE_FORM"
+# Sections whose lines are collocations, kept as entry examples (R6.12).
+collocations = ["Collocations"]
+
+# How the templates in those sections are read (canonical names, after redirects).
+[templates]
+# Term lists by argument: {{col|pl|title=verbs|a|b<q:rare>}}; items may be raw links.
+columns = ["col", "col2", "col3", "col4", "col5", "col-u", "der2", "der3", "der4", "rel2", "rel3", "rel4"]
+# One or more terms after the language: {{l|pl|kot}}, {{synonyms|pl|a|b}}.
+links = ["link", "mention", "synonyms", "antonyms", "hypernyms", "hyponyms", "coordinate terms", "meronyms", "holonyms"]
+# {{alter|pl|a|b||label, label}}: terms, then labels after the empty argument.
+alternatives = ["alter"]
+# Lists the module builds (prefix x suffix pairs), read from their rendering.
+rendered = ["pl-derived verbs"]
+# Labels for every term on the line: {{q|stressed}}; a gloss: {{sense|granary}}.
+qualifiers = ["qualifier", "label"]
+senses = ["sense"]
+# Collocations: {{coi|pl|text|translation}} (as in senses, R6.12).
+collocations = ["coi", "coa", "collocation"]
+# Not terms of the entry, counted under relation.not_terms.<name>: lists drawn from
+# Wiktionary categories (computed on the live wiki, empty in the dump), navigation
+# boxes of a whole set (numbers, family members), and layout.
+not_terms = [
+  "prefixsee", "suffixsee", "derivsee", "interfixsee", "catlangname", "topics",
+  "pl-cardinals", "pl-family", "number table", "dialect synonyms", "descendant",
+  "affix", "see citations", "col-top", "col-bottom", "der-top", "der-bottom",
+  "rel-top", "rel-bottom", "top2", "bottom", "g", "senseno", "defdate",
+]
+not_term_prefixes = ["table:", "list:"]
+
+# Headword-line parameters (Module:zlw-lch-headword), per template; `pf=` and the
+# other aspect counterparts are pl-verb's (data/inflection.toml).
+[headword."pl-noun"]
+f = "TYPE_FEMININE_EQUIVALENT"
+m = "TYPE_MASCULINE_EQUIVALENT"
+n = "TYPE_NEUTER_EQUIVALENT"
+dim = "TYPE_DIMINUTIVE"
+aug = "TYPE_AUGMENTATIVE"
+pej = "TYPE_PEJORATIVE"
+adj = "TYPE_RELATED_ADJECTIVE"
+rel = "TYPE_RELATED_ADJECTIVE"
+poss = "TYPE_POSSESSIVE_ADJECTIVE"
+dem = "TYPE_DEMONYM"
+fdem = "TYPE_FEMALE_DEMONYM"
+marr = "TYPE_MARRIED_FORM"
+unmarr = "TYPE_UNMARRIED_FORM"
+abbr = "TYPE_ABBREVIATION"
+[headword."pl-proper noun"]
+f = "TYPE_FEMININE_EQUIVALENT"
+m = "TYPE_MASCULINE_EQUIVALENT"
+n = "TYPE_NEUTER_EQUIVALENT"
+dim = "TYPE_DIMINUTIVE"
+aug = "TYPE_AUGMENTATIVE"
+pej = "TYPE_PEJORATIVE"
+adj = "TYPE_RELATED_ADJECTIVE"
+rel = "TYPE_RELATED_ADJECTIVE"
+poss = "TYPE_POSSESSIVE_ADJECTIVE"
+dem = "TYPE_DEMONYM"
+fdem = "TYPE_FEMALE_DEMONYM"
+marr = "TYPE_MARRIED_FORM"
+unmarr = "TYPE_UNMARRIED_FORM"
+abbr = "TYPE_ABBREVIATION"
+[headword."pl-adj"]
+adv = "TYPE_RELATED_ADVERB"
+dim = "TYPE_DIMINUTIVE"
+abbr = "TYPE_ABBREVIATION"
+[headword."pl-adv"]
+dim = "TYPE_DIMINUTIVE"
+abbr = "TYPE_ABBREVIATION"

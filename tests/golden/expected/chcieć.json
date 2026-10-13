@@ -931,6 +931,172 @@
      ]
     }
    ],
+   "relations": [
+    {
+     "term": "chciwy",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "niech się dzieje, co chce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "wierzyć się nie chce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcąc nie chcąc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chciałoby się powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcenie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcica",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chciejlista",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chciejstwo",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "mów, co chcesz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak sobie chcesz",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "rzygać się chce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "cierp ciało, skoroś chciało",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "dla chcącego nic trudnego",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak się chce psa uderzyć, to kij się znajdzie",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "jak Pan Bóg chce ukarać, to rozum odbiera",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "musi to na Rusi, a w Polsce jak kto chce",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chciałaby dusza do raju",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcesz stracić przyjaciela, pożycz mu pieniądze",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcieć to móc",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odechcieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "odechciewać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zachcieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zachciewać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "zechcieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chcieć przez to powiedzieć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie chcieć słyszeć",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "nie chcieć znać",
+     "type": "TYPE_DERIVED"
+    },
+    {
+     "term": "chętny",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chętnie",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chociaż",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwiec",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwość",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwostka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwosz",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwstwo",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chciwus",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chęć",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chętka",
+     "type": "TYPE_RELATED"
+    },
+    {
+     "term": "chętność",
+     "type": "TYPE_RELATED"
+    }
+   ],
    "senses": [
     {
      "examples": [
