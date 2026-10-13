@@ -3,7 +3,8 @@
 Spec: `REQUIREMENTS.md`. Working rules: `CLAUDE.md`. Requirement IDs (`R3.2`, `R6.6a`)
 are cited per milestone so exit criteria trace back to the spec.
 
-**Progress:** M0 ✅ M1 ✅ (both restarted from scratch 2026-10-11) — next is M2.
+**Progress:** M0–M8 ✅ (M0/M1 restarted from scratch 2026-10-11; M8 done 2026-10-12)
+— next is M9. No full run since M6: M7/M8 are measured on samples only.
 Plan revised 2026-10-11 after a review against the live wiki, the dump index and the
 pinned upstream code (REQUIREMENTS §12, decisions 6–10). The first M0/M1 attempt is in git
 history (`6fced42`); its lessons are folded into the M1 notes below, not its code.
