@@ -435,8 +435,19 @@ resumes correctly; disk total within R9.5.
 
 ---
 
-## M13 — Quality pass
-*Needs M12. Ongoing, ~2 weeks of focused work.*
+## M13 — Quality pass ✅
+*Needs M12. Ongoing, ~2 weeks of focused work.* *Done 2026-10-13.* Full run from
+9baed18 at `--jobs 2`: 176,750 pages in 2.9 h (16.8 pages/s), 0 page errors, peak
+662 MB per worker; P4 71 s. Measured R8.4 coverage (`stats.json`): senses **99.98%**;
+verbs with a table **94.10%** of tableable entries (85.03% of all; 1,372 point to
+another verb's table, R5.2b); nouns **93.11%** of tableable entries (91.72% of all) —
+below 95%, but at the source's ceiling: ~2,400 nouns have no table on their page and
+paradigms are not synthesized (R8.4); adjectives 95.08%; pronunciation 99.5%; form
+entries folded 96.91%. Unhandled templates 81 → **0**. `stats-diff` against M12: 0
+regressions. Oracle diff over 120 golden pages: **0 unexplained**, no open our-bug rules.
+Not examined: `finalize.relation.target_missing` (66,313: relations to titles with no
+Polish entry) and `label.unrecognized` (19,812, mostly locality names and free-text
+qualifiers, by design).
 
 - `wiktextract` oracle: generate its JSON for the golden set (from the same committed
   store), diff field by field, and triage each divergence into *our bug* / *their
