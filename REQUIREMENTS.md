@@ -711,8 +711,9 @@ English-Wiktionary Polish sections follow this nesting:
   The dump is the one the page store was scanned from, which P3 records in its output
   (`source.json`), never the one `polwikt.toml` names: a `--no-verify` scan of another
   dump yields a corpus marked unpinned.
-- **R7.5** A **JSON dump** (`--format=jsonl`) of the same messages via `MessageToJson`,
-  for eyeballing and diffing. Protobuf is the contract; JSON is a view.
+- **R7.5** A **JSON dump** (`polwikt jsonl [corpus] [--lemma …]`, one `Word` per line)
+  of the same messages via `MessageToJson`, for eyeballing and diffing. Protobuf is the
+  contract; JSON is a view.
 - **R7.6** Field numbering discipline: never reuse or renumber fields; `reserved` on
   removal — once a corpus has been released; until then the schema may be compacted.
   Grammatical features that don't map to an enum go to `repeated string raw_tags`
@@ -931,6 +932,7 @@ operational consequences that are *not* optional:
   polwikt inspect  <title>            # human-readable dump of one entry
   polwikt stats-diff old.json new.json   # R8.3 regression check
   polwikt package  --corpus corpus/ --out release/   # R7.9
+  polwikt jsonl    [corpus/] [--lemma kot]          # R7.5 JSON view
   ```
   plus `polwikt run` to chain all passes. `polwikt subset` stays as a stub while P2 is
   deferred (§3).

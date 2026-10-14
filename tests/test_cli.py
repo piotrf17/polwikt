@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import importlib
+import json
 from pathlib import Path
 
 import pytest
@@ -33,6 +34,7 @@ COMMANDS = {
     "stats-diff",
     "run",
     "package",
+    "jsonl",
 }
 IMPLEMENTED = {
     "config",
@@ -44,6 +46,7 @@ IMPLEMENTED = {
     "stats-diff",
     "run",
     "package",
+    "jsonl",
 }
 STUB_INVOCATIONS = [
     ["subset"],
@@ -141,3 +144,6 @@ def test_extract_writes_shards_and_reports(
     )
     assert packed.exit_code == 0, packed.output
     assert (release / "polwikt-20261001-schema1.tar").exists()  # R7.9
+    shown = CliRunner().invoke(cli, ["jsonl", str(corpus), "--lemma", "kot"])
+    assert shown.exit_code == 0, shown.output
+    assert [json.loads(line)["lemma"] for line in shown.output.splitlines()] == ["kot"]

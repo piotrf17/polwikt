@@ -29,7 +29,7 @@ from polwikt.finalize.run import P4Error, run_p4
 from polwikt.finalize.stats_diff import diff_files, report
 from polwikt.parse.sections import language_section
 from polwikt.parse.tree import format_tree
-from polwikt.proto.io import CorpusError, to_json
+from polwikt.proto.io import CorpusError, read_corpus, to_json
 
 log = logging.getLogger("polwikt")
 
@@ -323,6 +323,23 @@ def inspect(title: str, db: Path | None, golden: bool, full: bool) -> None:
             click.echo(f"({e})")
         else:
             click.echo(to_json(word, indent=1) if word is not None else "(no record)")
+
+
+@cli.command()
+@click.argument(
+    "corpus", required=False, type=click.Path(file_okay=False, path_type=Path)
+)
+@click.option("--lemma", "lemmas", multiple=True, help="Only these words (repeatable).")
+def jsonl(corpus: Path | None, lemmas: tuple[str, ...]) -> None:
+    """Print a corpus as JSON Lines, one Word per line [default: <root>/data/corpus]
+    (R7.5)."""
+    corpus = corpus or _config().root / "data" / "corpus"
+    try:
+        for word in read_corpus(corpus):
+            if not lemmas or word.lemma in lemmas:
+                click.echo(to_json(word))
+    except CorpusError as e:
+        raise click.ClickException(str(e)) from e
 
 
 @cli.command(name="stats-diff")

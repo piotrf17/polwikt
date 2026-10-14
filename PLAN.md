@@ -462,8 +462,15 @@ oracle diff has no unexplained entries.
 
 ---
 
-## M14 — Release
-*Needs M13. ~3 days.*
+## M14 — Release ✅
+*Needs M13. ~3 days.* *Done 2026-10-14.* A fresh clone of 74c4036 ran the README's
+commands (`make sync`, `polwikt run --jobs 2`; the dump linked in, so `fetch` only
+verified it): scan 22 min, P3 3.4 h (14.3 pages/s, 0 errors, 672 MB per worker), P4
+63 s, then `polwikt-20261001-schema1.tar` (25 MB, 31 members, sha256 verified). Its 27
+shards are byte-identical to the M13 run's from the main checkout, and `stats-diff`
+moves no counter. `examples/lookup.py` reads the unpacked release. Also delivered:
+`Corpus.dump_sha1`/`pinned` from the store P3 read (R7.4), `polwikt jsonl` (R7.5),
+version 1.0.0.
 
 - README with the pipeline model and a consumer example (read shards, build a
   surface-form lookup from the Forms).

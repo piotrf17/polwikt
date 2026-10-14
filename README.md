@@ -38,7 +38,7 @@ full run takes about 3 hours on 2 cores and 5 GB of RAM.
 ```bash
 git clone <this repo> polwikt && cd polwikt
 make sync                       # .venv from uv.lock
-export TMPDIR=$PWD/data/tmp SQLITE_TMPDIR=$PWD/data/tmp   # keep temp files off a small /
+mkdir -p data/tmp && export TMPDIR=$PWD/data/tmp SQLITE_TMPDIR=$PWD/data/tmp  # off a small /
 uv run polwikt run --jobs 2     # all passes, below, in order
 ```
 
@@ -47,7 +47,7 @@ uv run polwikt run --jobs 2     # all passes, below, in order
 
 ```bash
 uv run polwikt fetch      # the pinned dump -> data/, sha1-verified (R2.1)
-uv run polwikt scan       # P1: Polish pages + templates/modules -> data/pages.sqlite (~17 min)
+uv run polwikt scan       # P1: Polish pages + templates/modules -> data/pages.sqlite (~20 min)
 uv run polwikt extract    # P3: every Polish page -> data/out/ (~3 h at --jobs 2)
 uv run polwikt finalize   # P4: fold, link -> data/corpus/ (~1 min)
 uv run polwikt package    # data/corpus -> data/release/polwikt-20261001-schema1.tar
@@ -59,6 +59,7 @@ builds the same corpus, byte for byte. Other useful commands:
 ```bash
 uv run polwikt extract --pages kot,mamy --out data/try   # a few pages, in seconds
 uv run polwikt inspect kot             # one page: wikitext, node tree, extracted proto
+uv run polwikt jsonl --lemma kot       # a finished corpus's Words as JSON Lines
 uv run polwikt stats-diff old/stats.json new/stats.json   # exit 1 on a regression
 ```
 
