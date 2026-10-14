@@ -31,6 +31,7 @@ from typing import Any
 
 from polwikt import checkpoint
 from polwikt.extract.p3 import CHECKPOINT as P3_CHECKPOINT
+from polwikt.extract.p3 import DumpSource
 from polwikt.finalize.fold import (
     Fold,
     LemmaEntry,
@@ -91,12 +92,12 @@ class Plan:
 
 
 def run_p4(
-    in_dir: Path, out_dir: Path, *, dump_date: str, drop_labels: list[str]
+    in_dir: Path, out_dir: Path, *, source: DumpSource, drop_labels: list[str]
 ) -> P4Summary:
     """Finalizes `in_dir`; skipped when `out_dir` already holds this run (R9.4)."""
     started = time.monotonic()
     paths = shard_paths(in_dir, P3_PREFIX)
-    run_id = _fingerprint(in_dir, paths, dump_date, drop_labels)
+    run_id = _fingerprint(in_dir, paths, source, drop_labels)
     if _prepare(in_dir, out_dir, run_id):
         log.info("P4: %s is already complete for this run; nothing to do", out_dir)
         return P4Summary(0, 0, 0, Counter(), 0.0, skipped=True)
@@ -117,7 +118,9 @@ def run_p4(
         out_dir,
         pb.Corpus(
             schema_version=SCHEMA_VERSION,
-            dump_date=dump_date,
+            dump_date=source.date,
+            dump_sha1=source.sha1,
+            pinned=source.pinned,
             pipeline_version=metadata.version("polwikt"),
             word_count=words,
             drop_labels=sorted(drop_labels),
@@ -162,15 +165,17 @@ _OWNED = (
 
 
 def _fingerprint(
-    in_dir: Path, paths: list[Path], dump_date: str, drop_labels: list[str]
+    in_dir: Path, paths: list[Path], source: DumpSource, drop_labels: list[str]
 ) -> str:
     """The run: P3's own run id when it checkpointed, else its files; the settings."""
     saved = checkpoint.read(in_dir / P3_CHECKPOINT)
     if saved is not None and saved.get("complete"):
-        source = [saved["run"]]
+        inputs = [saved["run"]]
     else:
-        source = [f"{p.name}:{p.stat().st_size}" for p in paths]
-    return checkpoint.fingerprint([*source, dump_date, ",".join(sorted(drop_labels))])
+        inputs = [f"{p.name}:{p.stat().st_size}" for p in paths]
+    return checkpoint.fingerprint(
+        [*inputs, repr(source), ",".join(sorted(drop_labels))]
+    )
 
 
 def _prepare(in_dir: Path, out_dir: Path, run_id: str) -> bool:

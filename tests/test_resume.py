@@ -8,7 +8,7 @@ import pytest
 
 from polwikt.config import load_config
 from polwikt.extract import p3
-from polwikt.extract.p3 import CHECKPOINT, P3Error, run_p3
+from polwikt.extract.p3 import CHECKPOINT, DumpSource, P3Error, read_source, run_p3
 from polwikt.extract.page import Settings
 from polwikt.proto.io import shard_paths
 
@@ -78,3 +78,12 @@ def test_output_does_not_depend_on_jobs(golden_store: Path, tmp_path: Path) -> N
     run_p3(SETTINGS, golden_store, one, jobs=1, titles=PAGES)
     run_p3(SETTINGS, golden_store, two, jobs=2, titles=PAGES)
     assert _files(one) == _files(two)
+
+
+def test_p3_records_the_dump_its_store_came_from(
+    golden_store: Path, tmp_path: Path
+) -> None:
+    """R2.1a, R7.4: P4 labels the corpus from it, not from polwikt.toml."""
+    cfg = load_config(REPO)
+    run_p3(SETTINGS, golden_store, tmp_path, jobs=1, titles=PAGES[:1])
+    assert read_source(tmp_path) == DumpSource(cfg.dump.date, cfg.dump.sha1, True)

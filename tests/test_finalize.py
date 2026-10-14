@@ -2,17 +2,22 @@
 
 from __future__ import annotations
 
+import importlib.util
+import tarfile
 from pathlib import Path
 
 import pytest
 
 from polwikt.config import load_config
 from polwikt.expand.wtp import PolwiktWtp
+from polwikt.extract.p3 import DumpSource
 from polwikt.extract.page import Settings, extract_record
 from polwikt.finalize.fold import renumber_etymologies, tags_match
+from polwikt.finalize.release import ReleaseError, package, release_name
 from polwikt.finalize.run import P4Error, P4Summary, run_p4
 from polwikt.proto import polwikt_pb2 as pb
 from polwikt.proto.io import (
+    SCHEMA_VERSION,
     ShardWriter,
     read_corpus,
     read_corpus_meta,
@@ -22,6 +27,8 @@ from tests.golden_harness import fixtures
 REPO = Path(__file__).resolve().parent.parent
 CFG = load_config(REPO)
 SETTINGS = Settings.from_config(CFG)
+SCHEMA = REPO / "proto" / "polwikt.proto"
+SOURCE = DumpSource(CFG.dump.date, CFG.dump.sha1, pinned=True)
 C, N = pb.Case, pb.Number
 R = pb.Relation.Type
 
@@ -40,9 +47,7 @@ def _p3(golden_store: Path, out: Path) -> None:
 
 
 def _p4(p3_dir: Path, out: Path) -> P4Summary:
-    return run_p4(
-        p3_dir, out, dump_date=CFG.dump.date, drop_labels=list(CFG.drop_labels)
-    )
+    return run_p4(p3_dir, out, source=SOURCE, drop_labels=list(CFG.drop_labels))
 
 
 @pytest.fixture(scope="module")
@@ -139,7 +144,11 @@ def test_inverse_relations(words: dict[str, pb.Word]) -> None:  # R3.14
 
 def test_corpus_metadata_and_license(corpus: Path, words: dict[str, pb.Word]) -> None:
     meta = read_corpus_meta(corpus)  # R7.4
-    assert meta.dump_date == CFG.dump.date
+    assert (meta.dump_date, meta.dump_sha1, meta.pinned) == (
+        CFG.dump.date,
+        CFG.dump.sha1,
+        True,
+    )
     assert list(meta.drop_labels) == ["Middle Polish"]
     assert meta.word_count == len(words)
     assert meta.license == "CC BY-SA 4.0"
@@ -209,3 +218,42 @@ def test_finalize_skips_a_complete_run_and_redoes_an_interrupted_one(
     (stray / "stats.json").write_text("{}")
     with pytest.raises(P4Error, match="did not write"):
         _p4(p3_dir, stray)
+
+
+def test_release_is_versioned_and_deterministic(corpus: Path, tmp_path: Path) -> None:
+    """R7.9: one corpus packs to the same bytes, named by dump date and schema."""
+    first = package(corpus, SCHEMA, tmp_path / "a")
+    second = package(corpus, SCHEMA, tmp_path / "b")
+    assert first.path.name == f"polwikt-{CFG.dump.date}-schema{SCHEMA_VERSION}.tar"
+    assert first.path.read_bytes() == second.path.read_bytes()
+    with tarfile.open(first.path) as tar:
+        names = [m.name.split("/", 1)[1] for m in tar.getmembers()]
+        assert all(m.mtime == 0 and m.uname == "" for m in tar.getmembers())
+    assert {"corpus.meta.pb", "LICENSE-DATA", "stats.json", "polwikt.proto"} <= set(
+        names
+    )
+    assert any(n.startswith("words-") for n in names)
+    sha = first.path.with_name(first.path.name + ".sha256").read_text()
+    assert sha == f"{first.sha256}  {first.path.name}\n"
+
+
+def test_an_unpinned_or_unfinished_corpus_says_so(p3_dir: Path, tmp_path: Path) -> None:
+    out = tmp_path / "corpus"
+    other = DumpSource("20261101", "0" * 40, pinned=False)
+    run_p4(p3_dir, out, source=other, drop_labels=list(CFG.drop_labels))
+    assert release_name(out) == f"polwikt-20261101-schema{SCHEMA_VERSION}-unpinned"
+    (out / "finalize.json").unlink()
+    with pytest.raises(ReleaseError, match="no complete"):
+        package(out, SCHEMA, tmp_path / "release")
+
+
+def test_the_readme_consumer_example(corpus: Path) -> None:
+    spec = importlib.util.spec_from_file_location("lookup", REPO / "examples/lookup.py")
+    assert spec is not None and spec.loader is not None
+    lookup = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(lookup)
+    index = lookup.build_index(lookup.read_words(corpus))
+    assert ("kot", "noun", "genitive plural") in index["kotów"]
+    assert {("mama", "noun"), ("mieć", "verb")} <= {h[:2] for h in index["mamy"]}
+    for word in lookup.read_words(corpus):
+        assert any(what == "lemma" for _, _, what in index[word.lemma])

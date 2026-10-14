@@ -549,7 +549,7 @@ class Word(_message.Message):
     def __init__(self, lemma: _Optional[str] = ..., etymologies: _Optional[_Iterable[_Union[Etymology, _Mapping]]] = ..., entries: _Optional[_Iterable[_Union[Entry, _Mapping]]] = ..., frequency: _Optional[_Union[Frequency, _Mapping]] = ...) -> None: ...
 
 class Corpus(_message.Message):
-    __slots__ = ("schema_version", "dump_date", "pipeline_version", "word_count", "drop_labels", "license", "attribution")
+    __slots__ = ("schema_version", "dump_date", "pipeline_version", "word_count", "drop_labels", "license", "attribution", "dump_sha1", "pinned")
     SCHEMA_VERSION_FIELD_NUMBER: _ClassVar[int]
     DUMP_DATE_FIELD_NUMBER: _ClassVar[int]
     PIPELINE_VERSION_FIELD_NUMBER: _ClassVar[int]
@@ -557,6 +557,8 @@ class Corpus(_message.Message):
     DROP_LABELS_FIELD_NUMBER: _ClassVar[int]
     LICENSE_FIELD_NUMBER: _ClassVar[int]
     ATTRIBUTION_FIELD_NUMBER: _ClassVar[int]
+    DUMP_SHA1_FIELD_NUMBER: _ClassVar[int]
+    PINNED_FIELD_NUMBER: _ClassVar[int]
     schema_version: str
     dump_date: str
     pipeline_version: str
@@ -564,4 +566,6 @@ class Corpus(_message.Message):
     drop_labels: _containers.RepeatedScalarFieldContainer[str]
     license: str
     attribution: str
-    def __init__(self, schema_version: _Optional[str] = ..., dump_date: _Optional[str] = ..., pipeline_version: _Optional[str] = ..., word_count: _Optional[int] = ..., drop_labels: _Optional[_Iterable[str]] = ..., license: _Optional[str] = ..., attribution: _Optional[str] = ...) -> None: ...
+    dump_sha1: str
+    pinned: bool
+    def __init__(self, schema_version: _Optional[str] = ..., dump_date: _Optional[str] = ..., pipeline_version: _Optional[str] = ..., word_count: _Optional[int] = ..., drop_labels: _Optional[_Iterable[str]] = ..., license: _Optional[str] = ..., attribution: _Optional[str] = ..., dump_sha1: _Optional[str] = ..., pinned: _Optional[bool] = ...) -> None: ...

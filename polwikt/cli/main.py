@@ -21,8 +21,10 @@ from polwikt.dump.scan import scan as scan_dump
 from polwikt.dump.store import read_page, unpack_store
 from polwikt.expand.run import expand_text
 from polwikt.expand.wtp import PolwiktWtp
-from polwikt.extract.p3 import P3Error, run_p3
+from polwikt.extract.p3 import P3Error, read_source, run_p3
 from polwikt.extract.page import Settings, extract_page
+from polwikt.finalize.release import ReleaseError
+from polwikt.finalize.release import package as release_package
 from polwikt.finalize.run import P4Error, run_p4
 from polwikt.finalize.stats_diff import diff_files, report
 from polwikt.parse.sections import language_section
@@ -205,14 +207,15 @@ def finalize(in_dir: Path | None, out: Path | None) -> None:
     cfg = _config()
     data = cfg.root / "data"
     _keep_temp_files_in(data / "tmp")
+    in_dir = in_dir or data / "out"
     try:
         summary = run_p4(
-            in_dir or data / "out",
+            in_dir,
             out or data / "corpus",
-            dump_date=cfg.dump.date,
+            source=read_source(in_dir),
             drop_labels=list(cfg.drop_labels),
         )
-    except (P4Error, CorpusError) as e:
+    except (P3Error, P4Error, CorpusError) as e:
         raise click.ClickException(str(e)) from e
     if summary.skipped:
         click.echo("already complete")
@@ -221,6 +224,32 @@ def finalize(in_dir: Path | None, out: Path | None) -> None:
         f"{summary.words} words, {summary.folded} entries folded, "
         f"{summary.unresolved} unresolved, in {summary.seconds:.0f} s"
     )
+
+
+@cli.command()
+@click.option(
+    "--corpus",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="Finished corpus [default: <root>/data/corpus].",
+)
+@click.option(
+    "--out",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="Where the tar goes [default: <root>/data/release].",
+)
+def package(corpus: Path | None, out: Path | None) -> None:
+    """Pack a finished corpus into polwikt-<dump>-schema<N>.tar (R7.9)."""
+    cfg = _config()
+    data = cfg.root / "data"
+    try:
+        release = release_package(
+            corpus or data / "corpus",
+            cfg.root / "proto" / "polwikt.proto",
+            out or data / "release",
+        )
+    except (ReleaseError, CorpusError) as e:
+        raise click.ClickException(str(e)) from e
+    click.echo(f"{release.path}\nsha256 {release.sha256}")
 
 
 @cli.command()
@@ -321,3 +350,4 @@ def run(ctx: click.Context, jobs: int) -> None:
     ctx.invoke(scan)
     ctx.invoke(extract, jobs=jobs)
     ctx.invoke(finalize)
+    ctx.invoke(package)

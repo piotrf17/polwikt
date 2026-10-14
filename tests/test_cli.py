@@ -32,6 +32,7 @@ COMMANDS = {
     "inspect",
     "stats-diff",
     "run",
+    "package",
 }
 IMPLEMENTED = {
     "config",
@@ -42,6 +43,7 @@ IMPLEMENTED = {
     "finalize",
     "stats-diff",
     "run",
+    "package",
 }
 STUB_INVOCATIONS = [
     ["subset"],
@@ -118,6 +120,7 @@ def test_extract_writes_shards_and_reports(
         "errors.jsonl",
         "p3-00000-of-00001.pb.zst",
         "p3.checkpoint.json",
+        "source.json",
         "stats.json",
         "title_only.jsonl",
         "unhandled.jsonl",
@@ -130,3 +133,11 @@ def test_extract_writes_shards_and_reports(
     other = CliRunner().invoke(cli, [*argv[:-1], "kot"])  # another run: refused
     assert other.exit_code != 0
     assert "holds another P3 run" in other.output
+    corpus, release = tmp_path / "corpus", tmp_path / "release"
+    done = CliRunner().invoke(cli, ["finalize", "--in", str(out), "--out", str(corpus)])
+    assert done.exit_code == 0, done.output
+    packed = CliRunner().invoke(
+        cli, ["package", "--corpus", str(corpus), "--out", str(release)]
+    )
+    assert packed.exit_code == 0, packed.output
+    assert (release / "polwikt-20261001-schema1.tar").exists()  # R7.9

@@ -415,4 +415,7 @@ message Corpus {
   repeated string drop_labels = 5;  // what was excluded, e.g. "Middle Polish" (R6.6b)
   string license = 6;               // "CC BY-SA 4.0" (R11.1)
   string attribution = 7;
+  string dump_sha1 = 8;
+  // false: built from a dump other than the project's pin, a one-off run (R2.1a)
+  bool pinned = 9;
 }

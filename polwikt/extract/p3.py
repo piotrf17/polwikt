@@ -12,6 +12,8 @@ Outputs in `out_dir`:
 - `errors.jsonl`: pages that raised, with the traceback (R3.12)
 - `title_only.jsonl`: pages whose expansion read a title-only page (R3.2a)
 - `dropped_colabelled.jsonl`: pages that lost a co-labelled Middle Polish sense (R6.6c)
+- `source.json`: the dump the store was scanned from, and whether it is the pin; P4
+  labels the corpus with it (R2.1a, R7.4)
 """
 
 from __future__ import annotations
@@ -19,6 +21,7 @@ from __future__ import annotations
 import json
 import logging
 import multiprocessing
+import re
 import resource
 import sqlite3
 import time
@@ -64,6 +67,36 @@ class PageOutcome:
     colabelled: int = 0
     error: str = ""
     rss_kb: int = 0  # the worker's peak RSS so far (R9.3)
+
+
+@dataclass(frozen=True)
+class DumpSource:
+    """The dump a P3 run's store was scanned from (R2.1a, R7.4)."""
+
+    date: str  # YYYYMMDD, from the dump's file name; "" when it has none
+    sha1: str
+    pinned: bool
+
+    @classmethod
+    def of_store(cls, db: Path) -> DumpSource:
+        meta = _scan_meta(db)
+        match = re.search(r"-(\d{8})-", meta.get("dump_file", ""))
+        return cls(
+            match.group(1) if match else "",
+            meta.get("dump_sha1", ""),
+            json.loads(meta.get("pinned", "false")) is True,
+        )
+
+
+SOURCE = "source.json"
+
+
+def read_source(out_dir: Path) -> DumpSource:
+    """The `source.json` of a P3 run."""
+    saved = checkpoint.read(out_dir / SOURCE)
+    if saved is None:
+        raise P3Error(f"{out_dir} has no {SOURCE}; rerun `polwikt extract`")
+    return DumpSource(saved["date"], saved["sha1"], saved["pinned"])
 
 
 @dataclass
@@ -176,6 +209,12 @@ def run_p3(
     refs = polish_pages(db, titles, limit)
     run_id = _fingerprint(db, settings, refs)
     state = _Progress.start(out_dir, run_id)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    source = DumpSource.of_store(db)
+    checkpoint.write(
+        out_dir / SOURCE,
+        {"date": source.date, "sha1": source.sha1, "pinned": source.pinned},
+    )
     if state.complete:
         log.info("P3: %s is already complete for this run; nothing to do", out_dir)
         return P3Summary(len(refs), len(state.errors), state.stats, 0.0, skipped=True)
@@ -230,18 +269,17 @@ def run_p3(
 CHECKPOINT = "p3.checkpoint.json"
 
 
-def _fingerprint(db: Path, settings: Settings, refs: list[PageRef]) -> str:
-    """The run: the store's dump and filter, the extraction settings, the pages."""
+def _scan_meta(db: Path) -> dict[str, str]:
     conn = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
     try:
-        meta = dict(
-            conn.execute(
-                "SELECT key, value FROM scan_meta"
-                " WHERE key IN ('dump_sha1', 'predicate_fp')"
-            ).fetchall()
-        )
+        return dict(conn.execute("SELECT key, value FROM scan_meta").fetchall())
     finally:
         conn.close()
+
+
+def _fingerprint(db: Path, settings: Settings, refs: list[PageRef]) -> str:
+    """The run: the store's dump and filter, the extraction settings, the pages."""
+    meta = _scan_meta(db)
     head = [
         meta.get("dump_sha1", ""),
         meta.get("predicate_fp", ""),

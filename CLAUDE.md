@@ -47,6 +47,7 @@ polwikt fetch                      # the pinned dump -> data/, sha1-verified
 polwikt scan                       # -> data/pages.sqlite (~12 min; skipped when current)
 polwikt extract  --db data/pages.sqlite --out data/out/ --jobs 2
 polwikt finalize --in data/out/ --out data/corpus/   # shards + meta + stats
+polwikt package                    # data/corpus -> data/release/polwikt-<dump>-schema<N>.tar
 polwikt stats-diff old/stats.json new/stats.json   # R8.3; exit 1 on a regression
 polwikt inspect <title>            # one entry, expanded wikitext + node tree + proto
 polwikt extract --pages kot,mamy,zamek   # the fast debug loop; seconds, not minutes

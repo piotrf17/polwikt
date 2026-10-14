@@ -703,11 +703,14 @@ English-Wiktionary Polish sections follow this nesting:
   the surface — and held nothing the Words don't: every folded spelling is a Form of
   its lemma (R3.13b). Apps build the lookup structure they need (poldict builds its
   own); shard frames stay seekable through `Location` and `read_at`.
-- **R7.4** A `Corpus` metadata message recording the schema version, dump date, pipeline
-  version, word count, the active `drop_labels` set (R6.6b), and the license and
+- **R7.4** A `Corpus` metadata message recording the schema version, dump date and sha1,
+  whether that dump is the project's pin (R2.1a), pipeline version, word count, the active `drop_labels` set (R6.6b), and the license and
   attribution (R11). A consumer must be able to tell from the corpus alone what was
   excluded from it. It is written to `corpus.meta.pb` beside the shards, so the shards
   hold nothing but `Word` records. No timestamp: the metadata is deterministic too.
+  The dump is the one the page store was scanned from, which P3 records in its output
+  (`source.json`), never the one `polwikt.toml` names: a `--no-verify` scan of another
+  dump yields a corpus marked unpinned.
 - **R7.5** A **JSON dump** (`--format=jsonl`) of the same messages via `MessageToJson`,
   for eyeballing and diffing. Protobuf is the contract; JSON is a view.
 - **R7.6** Field numbering discipline: never reuse or renumber fields; `reserved` on
@@ -778,6 +781,15 @@ to keep in sync:
   counted (`table.header.unknown.<text>`) — the golden set has none. Each table's
   `title` is its caption ("Declension of dobry (hard)"); `irregular` comes from the
   template or the expansion's "Polish irregular …" category.
+- **R7.9 — Release artifact.** `polwikt package` packs a finished corpus into one file,
+  `polwikt-<dump date>-schema<N>.tar` (`…-unpinned` for a corpus from another dump),
+  with a `.sha256` beside it: the Word shards, `corpus.meta.pb`, `LICENSE-DATA` (R11.1),
+  `stats.json` and the `polwikt.proto` that reads them, under a directory of the same
+  name. Not compressed again (the shards are zstd); members sorted, with no owner or
+  timestamp, so one corpus always packs to the same bytes (G5). `polwikt run` ends with
+  it. `SCHEMA_VERSION` (`proto/io.py`) names the schema: bump it on any change a reader
+  of the previous release would misread, and from the first release on, R7.6's
+  numbering discipline holds.
 
 ---
 
@@ -918,6 +930,7 @@ operational consequences that are *not* optional:
   polwikt finalize --in out/ --out corpus/
   polwikt inspect  <title>            # human-readable dump of one entry
   polwikt stats-diff old.json new.json   # R8.3 regression check
+  polwikt package  --corpus corpus/ --out release/   # R7.9
   ```
   plus `polwikt run` to chain all passes. `polwikt subset` stays as a stub while P2 is
   deferred (§3).
